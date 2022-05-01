@@ -1,6 +1,8 @@
 # Grasscutter Tools
 ## Commands Generator
 
+请从 [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) 中获取最新版本
+
 ## Screenshots
 ![Logo](Doc/Screenshots/GrasscutterLogo.png)
 
