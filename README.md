@@ -3,6 +3,9 @@
 
 请从 [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) 中获取最新版本
 
+## v0.6.0 新增
+![GachaBannerEditor](Doc/Screenshots/10-GachaBannerEditor)
+
 ## Screenshots
 ![Logo](Doc/Screenshots/GrasscutterLogo.png)
 
