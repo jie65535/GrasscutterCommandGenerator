@@ -3,6 +3,12 @@
 
 请从 [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) 中获取最新版本
 
+## v0.7.1 更新
+
+优化圣遗物选择方式，使用 套装+部位 方式选择 #6
+
+![Custom Artifact Screenshot](Doc/Screenshots/2-CustomArtifact.png)
+
 ## v0.7.0 更新
 
 物品生成记录本
@@ -16,8 +22,6 @@
 ## v0.6.1 更新
 
 优化圣遗物副词条编辑器
-
-![Custom Artifact Screenshot](Doc/Screenshots/2-CustomArtifact.png)
 
 ## v0.6.0 更新
 
