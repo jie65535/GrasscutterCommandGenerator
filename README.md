@@ -3,11 +3,17 @@
 
 请从 [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) 中获取最新版本
 
-## v0.7.1 更新
+## v0.8.0 更新
 
-优化圣遗物选择方式，使用 套装+部位 方式选择 #6
+圣遗物套装下拉框可键入提示
 
-![Custom Artifact Screenshot](Doc/Screenshots/2-CustomArtifact.png)
+`状态` 标签改为 `数据`，设置角色数据模块重构，支持最新版指令。_（部分属性旧版本可能不支持）_
+
+![Custom Stats Screenshort](Doc/Screenshots/8-CustomStats.png)
+
+`其它` 页面改为 `管理` ，新增帐号创建和删除。
+
+![Management](Doc/Screenshots/9-Manage.png)
 
 ## v0.7.0 更新
 
@@ -18,10 +24,6 @@
 实体生成记录本
 
 ![Spawn Entity Screenshort](Doc/Screenshots/6-SpawnEntity.png)
-
-## v0.6.1 更新
-
-优化圣遗物副词条编辑器
 
 ## v0.6.0 更新
 
@@ -48,4 +50,4 @@
 
 ![Custom Stats Screenshort](Doc/Screenshots/8-CustomStats.png)
 
-![etc..](Doc/Screenshots/9-Etc.png)
+![Management](Doc/Screenshots/9-Manage.png)
