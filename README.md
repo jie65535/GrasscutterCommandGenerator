@@ -3,6 +3,17 @@
 
 请从 [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) 中获取最新版本
 
+## v0.9.0 更新
+命令@UID随版本重构（指令中指定ID改为`@ uid`，因此与旧版本服务端不兼容，不使用`指令含UID`则不影响）
+
+权限管理新增下拉框选择权限（方便选择）
+
+![PermComboBox](Doc/Screenshots/PermComboBox.png)
+
+场景页面新增天气设置（呼风唤雨~）
+
+![SetClimate](Doc/Screenshots/SetClimate.png)
+
 ## v0.8.0 更新
 
 圣遗物套装下拉框可键入提示
