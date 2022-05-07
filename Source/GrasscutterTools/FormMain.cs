@@ -18,10 +18,6 @@ namespace GrasscutterTools
         public FormMain()
         {
             InitializeComponent();
-
-            Version version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
-            Text += "  - by jie65535  - v" + version.ToString(3);
-
             Icon = Resources.IconGrasscutter;
             LoadSettings();
         }
@@ -29,7 +25,9 @@ namespace GrasscutterTools
         private void FormMain_Load(object sender, EventArgs e)
         {
             MultiLanguage.LoadLanguage(this, typeof(FormMain));
-            
+            Version version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+            Text += "  - by jie65535  - v" + version.ToString(3);
+
             GameData.LoadResources();
 
             InitArtifactList();
