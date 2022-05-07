@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrasscutterTools", "GrasscutterTools\GrasscutterTools.csproj", "{B26333FF-5560-4CBA-AF3C-4B80DB6F8025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B26333FF-5560-4CBA-AF3C-4B80DB6F8025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26333FF-5560-4CBA-AF3C-4B80DB6F8025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26333FF-5560-4CBA-AF3C-4B80DB6F8025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26333FF-5560-4CBA-AF3C-4B80DB6F8025}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3598765A-1F30-4326-91C4-846D87572162}
+	EndGlobalSection
+EndGlobal

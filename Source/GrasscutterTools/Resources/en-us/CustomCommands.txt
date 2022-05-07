@@ -1,0 +1,52 @@
+﻿无敌
+/godmode
+升到60级
+/give 102 1880200
+奶
+/heal
+我全都要！
+/giveall
+我在哪？
+/position
+设置世界等级
+/setworldlevel 8
+设置羁绊等级
+/setfetterlevel 1
+清空背包
+/clear all
+清空武器
+/clear wp
+清空圣物
+/clear art
+清空材料
+/clear mat
+发送广播
+/broadcast 大家好啊~
+清空当前角色命之座(需重登)
+/resetconst
+清空全部角色命之座(需重登)
+/resetconst all
+一万纠缠
+/give 223 10000
+一万相遇
+/give 224 10000
+十万原石
+/give 201 100000
+十万摩拉
+/give 202 100000
+速速集合！
+/tpall
+拔线
+/restart
+私信
+/say <player> <message>
+进来吧你
+/coop <playerId> <target playerId>
+自杀
+/killcharacter
+暗杀
+/killcharacter <playerId>
+都有谁在？
+/list uid
+重载服务配置
+/reload
