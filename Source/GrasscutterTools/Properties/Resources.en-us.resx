@@ -139,6 +139,12 @@
   <data name="AvatarColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AvatarColor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="AvatarStats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\en-us\AvatarStats.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ClimateType" xml:space="preserve">
+    <value>None,Sunny,Partly cloudy,Rain,Thunderstorm,Snow,Fog</value>
+  </data>
   <data name="CustomCommands" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\CustomCommands.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>

@@ -229,6 +229,15 @@
   <data name="LblBasePurpleWeight.Text" xml:space="preserve">
     <value>4 star weight</value>
   </data>
+  <data name="CmbBannerType.Items" xml:space="preserve">
+    <value>Standard Wish</value>
+  </data>
+  <data name="CmbBannerType.Items1" xml:space="preserve">
+    <value>Character Event Wish</value>
+  </data>
+  <data name="CmbBannerType.Items2" xml:space="preserve">
+    <value>Weapon Event Wish</value>
+  </data>
   <data name="LblSortIdTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 17</value>
   </data>

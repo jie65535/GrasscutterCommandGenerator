@@ -702,6 +702,9 @@ namespace GrasscutterTools
         {
             ListScenes.Items.Clear();
             ListScenes.Items.AddRange(GameData.Scenes.Lines);
+
+            CmbClimateType.Items.Clear();
+            CmbClimateType.Items.AddRange(Resources.ClimateType.Split(','));
         }
 
         private void ListScenes_SelectedIndexChanged(object sender, EventArgs e)
@@ -727,6 +730,7 @@ namespace GrasscutterTools
         private void InitStatList()
         {
             LblStatTip.Text = "";
+            SetStatsCommand.InitStats();
             CmbStat.Items.Clear();
             CmbStat.Items.AddRange(SetStatsCommand.Stats.Select(s => s.Name).ToArray());
         }

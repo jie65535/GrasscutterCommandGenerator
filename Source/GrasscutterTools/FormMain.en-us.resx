@@ -130,20 +130,17 @@
   <data name="GrpCommand.Text" xml:space="preserve">
     <value>Command</value>
   </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>Home</value>
-  </data>
   <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
     <value>Banner editor</value>
-  </data>
-  <data name="GrpSettings.Text" xml:space="preserve">
-    <value>Settings</value>
   </data>
   <data name="ChkIncludeUID.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 21</value>
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Include UID</value>
+  </data>
+  <data name="GrpSettings.Text" xml:space="preserve">
+    <value>Settings</value>
   </data>
   <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
     <value>74, 38</value>
@@ -154,8 +151,8 @@
   <data name="LblAbout.Text" xml:space="preserve">
     <value>Have a nice time!</value>
   </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>Custom</value>
+  <data name="TPHome.Text" xml:space="preserve">
+    <value>Home</value>
   </data>
   <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
     <value>533, 216</value>
@@ -205,8 +202,8 @@
   <data name="TxtCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>267, 23</value>
   </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>Artifact</value>
+  <data name="TPCustom.Text" xml:space="preserve">
+    <value>Custom</value>
   </data>
   <data name="LblArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
     <value>298, 41</value>
@@ -271,8 +268,8 @@
   <data name="LblMainAttribution.Text" xml:space="preserve">
     <value>Main Stat</value>
   </data>
-  <data name="TPWeapon.Text" xml:space="preserve">
-    <value>Weapon</value>
+  <data name="TPArtifact.Text" xml:space="preserve">
+    <value>Artifact</value>
   </data>
   <data name="LblWeaponDescription.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 6</value>
@@ -316,8 +313,8 @@
   <data name="NUDWeaponLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>147, 216</value>
   </data>
-  <data name="TPItem.Text" xml:space="preserve">
-    <value>Items</value>
+  <data name="TPWeapon.Text" xml:space="preserve">
+    <value>Weapon</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="BtnSaveGiveItemLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -341,14 +338,14 @@
   <data name="GrpGiveItemRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
   </data>
+  <data name="ListGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 140</value>
+  </data>
   <data name="GrpGiveItemRecord.Size" type="System.Drawing.Size, System.Drawing">
     <value>249, 162</value>
   </data>
   <data name="GrpGiveItemRecord.Text" xml:space="preserve">
     <value>Records</value>
-  </data>
-  <data name="ListGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>243, 140</value>
   </data>
   <data name="ChkDrop.Location" type="System.Drawing.Point, System.Drawing">
     <value>278, 217</value>
@@ -410,8 +407,8 @@
   <data name="LblGiveCommandDescription.Text" xml:space="preserve">
     <value>Give item to player</value>
   </data>
-  <data name="TPAvatar.Text" xml:space="preserve">
-    <value>Avatar</value>
+  <data name="TPItem.Text" xml:space="preserve">
+    <value>Items</value>
   </data>
   <data name="LblAvatarGenWarning.Location" type="System.Drawing.Point, System.Drawing">
     <value>88, 161</value>
@@ -451,8 +448,8 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="CmbAvatar.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 25</value>
   </data>
-  <data name="TPSpawn.Text" xml:space="preserve">
-    <value>Spawn</value>
+  <data name="TPAvatar.Text" xml:space="preserve">
+    <value>Avatar</value>
   </data>
   <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
     <value>√ Record</value>
@@ -462,9 +459,6 @@ The data may not be cleared even if the account is recreated.</value>
   </data>
   <data name="GrpSpawnRecord.Text" xml:space="preserve">
     <value>Records</value>
-  </data>
-  <data name="GrpEntityType.Text" xml:space="preserve">
-    <value>Class</value>
   </data>
   <data name="RbEntityOrnament.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 21</value>
@@ -483,6 +477,9 @@ The data may not be cleared even if the account is recreated.</value>
   </data>
   <data name="RbEntityMonster.Text" xml:space="preserve">
     <value>Monster</value>
+  </data>
+  <data name="GrpEntityType.Text" xml:space="preserve">
+    <value>Class</value>
   </data>
   <data name="LblSpawnDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 17</value>
@@ -514,29 +511,11 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="NUDEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>146, 216</value>
   </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>Scene</value>
+  <data name="TPSpawn.Text" xml:space="preserve">
+    <value>Spawn</value>
   </data>
-  <data name="CmbClimateType.Items" xml:space="preserve">
-    <value>None</value>
-  </data>
-  <data name="CmbClimateType.Items1" xml:space="preserve">
-    <value>Sunny</value>
-  </data>
-  <data name="CmbClimateType.Items2" xml:space="preserve">
-    <value>Partly cloudy</value>
-  </data>
-  <data name="CmbClimateType.Items3" xml:space="preserve">
-    <value>Rain</value>
-  </data>
-  <data name="CmbClimateType.Items4" xml:space="preserve">
-    <value>Thunderstorm</value>
-  </data>
-  <data name="CmbClimateType.Items5" xml:space="preserve">
-    <value>Snow</value>
-  </data>
-  <data name="CmbClimateType.Items6" xml:space="preserve">
-    <value>Fog</value>
+  <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 94</value>
   </data>
   <data name="LblClimateType.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 17</value>
@@ -562,11 +541,8 @@ The data may not be cleared even if the account is recreated.</value>
 
 Tip: Most of the scenes have no effect and cannot be entered.</value>
   </data>
-  <data name="TPStats.Text" xml:space="preserve">
-    <value>Stats</value>
-  </data>
-  <data name="GrpSetStats.Text" xml:space="preserve">
-    <value>Stats</value>
+  <data name="TPScene.Text" xml:space="preserve">
+    <value>Scene</value>
   </data>
   <data name="LblStatTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>26, 17</value>
@@ -574,8 +550,8 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>Tip</value>
   </data>
-  <data name="GrpTalentLevel.Text" xml:space="preserve">
-    <value>Talent Level</value>
+  <data name="GrpSetStats.Text" xml:space="preserve">
+    <value>Stats</value>
   </data>
   <data name="LnkTalentE.Location" type="System.Drawing.Point, System.Drawing">
     <value>283, 24</value>
@@ -607,6 +583,9 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="NUDTalentLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 23</value>
   </data>
+  <data name="GrpTalentLevel.Text" xml:space="preserve">
+    <value>Talent Level</value>
+  </data>
   <data name="LblStatsDescription.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 6</value>
   </data>
@@ -616,11 +595,8 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblStatsDescription.Text" xml:space="preserve">
     <value>Set current active Avatar data</value>
   </data>
-  <data name="TPManage.Text" xml:space="preserve">
-    <value>Manage</value>
-  </data>
-  <data name="GrpAccount.Text" xml:space="preserve">
-    <value>Account Management</value>
+  <data name="TPStats.Text" xml:space="preserve">
+    <value>Stats</value>
   </data>
   <data name="ChkAccountSetUid.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 21</value>
@@ -655,8 +631,8 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="TxtAccountUserName.Size" type="System.Drawing.Size, System.Drawing">
     <value>127, 23</value>
   </data>
-  <data name="GrpPermission.Text" xml:space="preserve">
-    <value>Permission Management</value>
+  <data name="GrpAccount.Text" xml:space="preserve">
+    <value>Account Management</value>
   </data>
   <data name="BtmPermRemove.Text" xml:space="preserve">
     <value>Delete</value>
@@ -679,8 +655,11 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblPermUID.Text" xml:space="preserve">
     <value>UID</value>
   </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>About</value>
+  <data name="GrpPermission.Text" xml:space="preserve">
+    <value>Permission Management</value>
+  </data>
+  <data name="TPManage.Text" xml:space="preserve">
+    <value>Manage</value>
   </data>
   <data name="LnkGithub.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -691,17 +670,14 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblSupportDescription.Text" xml:space="preserve">
     <value>Grasscutter Tools</value>
   </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>Remote</value>
+  <data name="TPAbout.Text" xml:space="preserve">
+    <value>About</value>
   </data>
   <data name="LblRemoteTODO.Location" type="System.Drawing.Point, System.Drawing">
     <value>464, 3</value>
   </data>
   <data name="LblRemoteTODO.Text" xml:space="preserve">
     <value>TODO...</value>
-  </data>
-  <data name="GrpRemoteCommand.Text" xml:space="preserve">
-    <value>Remote Cell</value>
   </data>
   <data name="LnkRCHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 17</value>
@@ -723,6 +699,12 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   </data>
   <data name="BtnPingHost.Text" xml:space="preserve">
     <value>Test</value>
+  </data>
+  <data name="GrpRemoteCommand.Text" xml:space="preserve">
+    <value>Remote Cell</value>
+  </data>
+  <data name="TPRemoteCall.Text" xml:space="preserve">
+    <value>Remote</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>GrasscutterTools</value>

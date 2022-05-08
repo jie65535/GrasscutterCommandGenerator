@@ -376,6 +376,25 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] AvatarStats {
+            get {
+                object obj = ResourceManager.GetObject("AvatarStats", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 无,晴天,多云,雨天,雷暴,雪天,雾天 的本地化字符串。
+        /// </summary>
+        internal static string ClimateType {
+            get {
+                return ResourceManager.GetString("ClimateType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 无敌
         ////godmode
         ///升到60级
@@ -673,7 +692,14 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 20008: 深入狼之殿
+        ///   查找类似 1 : BigWorld_LevelStreaming
+        ///2 : BigWorld_LevelStreaming
+        ///3 : BigWorld_LevelStreaming
+        ///4 : LostParadise_LevelStreaming
+        ///5 : AbyssalPalace_LevelStreaming
+        ///6 : TheChasm_LevelStreaming
+        ///7 : MichiaeMatsuri_LevelStreaming
+        ///20008: 深入狼之殿
         ///20008: 丘丘人大本营(test)
         ///20008: 丘丘人巢穴(test)
         ///20007: 小岩洞据点(test)
@@ -688,16 +714,7 @@ namespace GrasscutterTools.Properties {
         ///1011: 角色战斗测试(test)
         ///50002: 低温关卡白盒(test)
         ///1001: 移动平台性能测试(test)
-        ///50003: 战斗性能测试(test)
-        ///50004: 电桩电源白盒(test)
-        ///50027: 圣遗物新因子测试关卡3(test)
-        ///50025: 圣遗物新因子测试关卡1(test)
-        ///50026: 圣遗物新因子测试关卡2(test)
-        ///1024: 黑夜循环地城(test)
-        ///50009: 关卡玩法白盒CX(test)
-        ///50010: 机关玩法白盒(test)
-        ///50014: 怪物元素对抗地城(test)
-        ///50017: 地城功能白盒 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///50 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Scene {
             get {

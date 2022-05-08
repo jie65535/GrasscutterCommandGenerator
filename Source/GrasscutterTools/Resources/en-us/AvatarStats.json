@@ -1,0 +1,194 @@
+[
+  {
+    "Name": "MAX HP",
+    "ArgName": "maxhp",
+    "Percent": false,
+    "Tip": ""
+  },
+  {
+    "Name": "CUR HP",
+    "ArgName": "hp",
+    "Percent": false,
+    "Tip": ""
+  },
+  {
+    "Name": "CUR Attack",
+    "ArgName": "atk",
+    "Percent": false,
+    "Tip": ""
+  },
+  {
+    "Name": "Base Attack",
+    "ArgName": "atkb",
+    "Percent": false,
+    "Tip": "This doesn't seem to get used to recalculate ATK, so it's only useful for stuff like Bennett's buff."
+  },
+  {
+    "Name": "DEFENSE",
+    "ArgName": "def",
+    "Percent": false,
+    "Tip": ""
+  },
+  {
+    "Name": "ELEMENT MASTERY",
+    "ArgName": "em",
+    "Percent": false,
+    "Tip": ""
+  },
+  {
+    "Name": "CHARGE EFFICIENCY",
+    "ArgName": "er",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "CRITICAL",
+    "ArgName": "crate",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "CRITICAL HURT",
+    "ArgName": "cdmg",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "ADD HURT",
+    "ArgName": "dmg",
+    "Percent": true,
+    "Tip": "This seems to get reset after attacks"
+  },
+  {
+    "Name": "WIND ADD HURT",
+    "ArgName": "eanemo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "ICE ADD HURT",
+    "ArgName": "ecryo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "GRASS ADD HURT",
+    "ArgName": "edendro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "ELEC ADD HURT",
+    "ArgName": "eelectro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "ROCK ADD HURT",
+    "ArgName": "egeo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "WATER ADD HURT",
+    "ArgName": "ehydro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "FIRE ADD HURT",
+    "ArgName": "epyro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "PHYSICAL ADD HURT",
+    "ArgName": "ephys",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "SUB HURT",
+    "ArgName": "resall",
+    "Percent": true,
+    "Tip": "This seems to get reset after attacks"
+  },
+  {
+    "Name": "WIND SUB HURT",
+    "ArgName": "resanemo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "ICE SUB HURT",
+    "ArgName": "rescryo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "GRASS SUB HURT",
+    "ArgName": "resdendro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "ELEC SUB HURT",
+    "ArgName": "reselectro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "ROCK SUB HURT",
+    "ArgName": "resgeo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "WATER SUB HURT",
+    "ArgName": "reshydro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "FIRE SUB HURT",
+    "ArgName": "respyro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "PHYSICAL SUB HURT",
+    "ArgName": "resphys",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "SKILL CD MINUS RATIO",
+    "ArgName": "cdr",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "HEAL ADD",
+    "ArgName": "heal",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "HEALED ADD",
+    "ArgName": "heali",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "SHIELD COST MINUS RATIO",
+    "ArgName": "shield",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "DEFENCE IGNORE RATIO",
+    "ArgName": "defi",
+    "Percent": true,
+    "Tip": ""
+  }
+]

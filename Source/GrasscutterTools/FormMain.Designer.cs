@@ -258,11 +258,11 @@ namespace GrasscutterTools
             // 
             // TPHome
             // 
+            resources.ApplyResources(this.TPHome, "TPHome");
             this.TPHome.Controls.Add(this.BtnOpenGachaBannerEditor);
             this.TPHome.Controls.Add(this.pictureBox1);
             this.TPHome.Controls.Add(this.GrpSettings);
             this.TPHome.Controls.Add(this.LblAbout);
-            resources.ApplyResources(this.TPHome, "TPHome");
             this.TPHome.Name = "TPHome";
             this.TPHome.UseVisualStyleBackColor = true;
             // 
@@ -293,9 +293,9 @@ namespace GrasscutterTools
             // 
             // CmbLanguage
             // 
+            resources.ApplyResources(this.CmbLanguage, "CmbLanguage");
             this.CmbLanguage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbLanguage.FormattingEnabled = true;
-            resources.ApplyResources(this.CmbLanguage, "CmbLanguage");
             this.CmbLanguage.Name = "CmbLanguage";
             this.CmbLanguage.SelectedIndexChanged += new System.EventHandler(this.CmbLanguage_SelectedIndexChanged);
             // 
@@ -337,6 +337,7 @@ namespace GrasscutterTools
             // 
             // TPCustom
             // 
+            resources.ApplyResources(this.TPCustom, "TPCustom");
             this.TPCustom.Controls.Add(this.BtnExportCustomCommands);
             this.TPCustom.Controls.Add(this.BtnLoadCustomCommands);
             this.TPCustom.Controls.Add(this.LblCustomName);
@@ -344,7 +345,6 @@ namespace GrasscutterTools
             this.TPCustom.Controls.Add(this.BtnRemoveCustomCommand);
             this.TPCustom.Controls.Add(this.BtnSaveCustomCommand);
             this.TPCustom.Controls.Add(this.TxtCustomName);
-            resources.ApplyResources(this.TPCustom, "TPCustom");
             this.TPCustom.Name = "TPCustom";
             this.TPCustom.UseVisualStyleBackColor = true;
             // 
@@ -400,6 +400,7 @@ namespace GrasscutterTools
             // 
             // TPArtifact
             // 
+            resources.ApplyResources(this.TPArtifact, "TPArtifact");
             this.TPArtifact.Controls.Add(this.LblArtifactName);
             this.TPArtifact.Controls.Add(this.NUDArtifactStars);
             this.TPArtifact.Controls.Add(this.LblArtifactStars);
@@ -419,7 +420,6 @@ namespace GrasscutterTools
             this.TPArtifact.Controls.Add(this.LblSubAttribution);
             this.TPArtifact.Controls.Add(this.CmbMainAttribution);
             this.TPArtifact.Controls.Add(this.LblMainAttribution);
-            resources.ApplyResources(this.TPArtifact, "TPArtifact");
             this.TPArtifact.Name = "TPArtifact";
             this.TPArtifact.UseVisualStyleBackColor = true;
             // 
@@ -591,6 +591,7 @@ namespace GrasscutterTools
             // 
             // TPWeapon
             // 
+            resources.ApplyResources(this.TPWeapon, "TPWeapon");
             this.TPWeapon.Controls.Add(this.TxtWeaponFilter);
             this.TPWeapon.Controls.Add(this.LblWeaponDescription);
             this.TPWeapon.Controls.Add(this.LblWeaponRefinement);
@@ -600,7 +601,6 @@ namespace GrasscutterTools
             this.TPWeapon.Controls.Add(this.NUDWeaponAmout);
             this.TPWeapon.Controls.Add(this.NUDWeaponLevel);
             this.TPWeapon.Controls.Add(this.ListWeapons);
-            resources.ApplyResources(this.TPWeapon, "TPWeapon");
             this.TPWeapon.Name = "TPWeapon";
             this.TPWeapon.UseVisualStyleBackColor = true;
             // 
@@ -697,6 +697,7 @@ namespace GrasscutterTools
             // 
             // TPItem
             // 
+            resources.ApplyResources(this.TPItem, "TPItem");
             this.TPItem.Controls.Add(this.BtnSaveGiveItemLog);
             this.TPItem.Controls.Add(this.BtnRemoveGiveItemLog);
             this.TPItem.Controls.Add(this.GrpGiveItemRecord);
@@ -708,7 +709,6 @@ namespace GrasscutterTools
             this.TPItem.Controls.Add(this.NUDGameItemAmout);
             this.TPItem.Controls.Add(this.NUDGameItemLevel);
             this.TPItem.Controls.Add(this.LblGiveCommandDescription);
-            resources.ApplyResources(this.TPItem, "TPItem");
             this.TPItem.Name = "TPItem";
             this.TPItem.UseVisualStyleBackColor = true;
             // 
@@ -819,13 +819,13 @@ namespace GrasscutterTools
             // 
             // TPAvatar
             // 
+            resources.ApplyResources(this.TPAvatar, "TPAvatar");
             this.TPAvatar.Controls.Add(this.LblAvatarGenWarning);
             this.TPAvatar.Controls.Add(this.ImgAvatar);
             this.TPAvatar.Controls.Add(this.LblAvatar);
             this.TPAvatar.Controls.Add(this.LblLevel);
             this.TPAvatar.Controls.Add(this.NUDAvatarLevel);
             this.TPAvatar.Controls.Add(this.CmbAvatar);
-            resources.ApplyResources(this.TPAvatar, "TPAvatar");
             this.TPAvatar.Name = "TPAvatar";
             this.TPAvatar.UseVisualStyleBackColor = true;
             // 
@@ -883,6 +883,7 @@ namespace GrasscutterTools
             // 
             // TPSpawn
             // 
+            resources.ApplyResources(this.TPSpawn, "TPSpawn");
             this.TPSpawn.Controls.Add(this.BtnSaveSpawnLog);
             this.TPSpawn.Controls.Add(this.BtnRemoveSpawnLog);
             this.TPSpawn.Controls.Add(this.GrpSpawnRecord);
@@ -894,7 +895,6 @@ namespace GrasscutterTools
             this.TPSpawn.Controls.Add(this.NUDEntityLevel);
             this.TPSpawn.Controls.Add(this.TxtEntityFilter);
             this.TPSpawn.Controls.Add(this.ListEntity);
-            resources.ApplyResources(this.TPSpawn, "TPSpawn");
             this.TPSpawn.Name = "TPSpawn";
             this.TPSpawn.UseVisualStyleBackColor = true;
             // 
@@ -1037,27 +1037,19 @@ namespace GrasscutterTools
             // 
             // TPScene
             // 
+            resources.ApplyResources(this.TPScene, "TPScene");
             this.TPScene.Controls.Add(this.CmbClimateType);
             this.TPScene.Controls.Add(this.LblClimateType);
             this.TPScene.Controls.Add(this.LblSceneDescription);
             this.TPScene.Controls.Add(this.ListScenes);
-            resources.ApplyResources(this.TPScene, "TPScene");
             this.TPScene.Name = "TPScene";
             this.TPScene.UseVisualStyleBackColor = true;
             // 
             // CmbClimateType
             // 
+            resources.ApplyResources(this.CmbClimateType, "CmbClimateType");
             this.CmbClimateType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbClimateType.FormattingEnabled = true;
-            this.CmbClimateType.Items.AddRange(new object[] {
-            resources.GetString("CmbClimateType.Items"),
-            resources.GetString("CmbClimateType.Items1"),
-            resources.GetString("CmbClimateType.Items2"),
-            resources.GetString("CmbClimateType.Items3"),
-            resources.GetString("CmbClimateType.Items4"),
-            resources.GetString("CmbClimateType.Items5"),
-            resources.GetString("CmbClimateType.Items6")});
-            resources.ApplyResources(this.CmbClimateType, "CmbClimateType");
             this.CmbClimateType.Name = "CmbClimateType";
             this.CmbClimateType.SelectedIndexChanged += new System.EventHandler(this.CmbClimateType_SelectedIndexChanged);
             // 
@@ -1080,10 +1072,10 @@ namespace GrasscutterTools
             // 
             // TPStats
             // 
+            resources.ApplyResources(this.TPStats, "TPStats");
             this.TPStats.Controls.Add(this.GrpSetStats);
             this.TPStats.Controls.Add(this.GrpTalentLevel);
             this.TPStats.Controls.Add(this.LblStatsDescription);
-            resources.ApplyResources(this.TPStats, "TPStats");
             this.TPStats.Name = "TPStats";
             this.TPStats.UseVisualStyleBackColor = true;
             // 
@@ -1126,9 +1118,9 @@ namespace GrasscutterTools
             // 
             // CmbStat
             // 
+            resources.ApplyResources(this.CmbStat, "CmbStat");
             this.CmbStat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbStat.FormattingEnabled = true;
-            resources.ApplyResources(this.CmbStat, "CmbStat");
             this.CmbStat.Name = "CmbStat";
             this.CmbStat.SelectedIndexChanged += new System.EventHandler(this.SetStatsInputChanged);
             // 
@@ -1188,9 +1180,9 @@ namespace GrasscutterTools
             // 
             // TPManage
             // 
+            resources.ApplyResources(this.TPManage, "TPManage");
             this.TPManage.Controls.Add(this.GrpAccount);
             this.TPManage.Controls.Add(this.GrpPermission);
-            resources.ApplyResources(this.TPManage, "TPManage");
             this.TPManage.Name = "TPManage";
             this.TPManage.UseVisualStyleBackColor = true;
             // 
@@ -1267,10 +1259,10 @@ namespace GrasscutterTools
             // 
             // CmbPerm
             // 
+            resources.ApplyResources(this.CmbPerm, "CmbPerm");
             this.CmbPerm.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.CmbPerm.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.CmbPerm.FormattingEnabled = true;
-            resources.ApplyResources(this.CmbPerm, "CmbPerm");
             this.CmbPerm.Name = "CmbPerm";
             // 
             // NUDPermUID
@@ -1316,10 +1308,10 @@ namespace GrasscutterTools
             // 
             // TPAbout
             // 
+            resources.ApplyResources(this.TPAbout, "TPAbout");
             this.TPAbout.Controls.Add(this.pictureBox2);
             this.TPAbout.Controls.Add(this.LnkGithub);
             this.TPAbout.Controls.Add(this.LblSupportDescription);
-            resources.ApplyResources(this.TPAbout, "TPAbout");
             this.TPAbout.Name = "TPAbout";
             this.TPAbout.UseVisualStyleBackColor = true;
             // 
@@ -1344,9 +1336,9 @@ namespace GrasscutterTools
             // 
             // TPRemoteCall
             // 
+            resources.ApplyResources(this.TPRemoteCall, "TPRemoteCall");
             this.TPRemoteCall.Controls.Add(this.LblRemoteTODO);
             this.TPRemoteCall.Controls.Add(this.GrpRemoteCommand);
-            resources.ApplyResources(this.TPRemoteCall, "TPRemoteCall");
             this.TPRemoteCall.Name = "TPRemoteCall";
             this.TPRemoteCall.UseVisualStyleBackColor = true;
             // 

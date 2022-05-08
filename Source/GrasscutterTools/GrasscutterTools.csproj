@@ -257,6 +257,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\en-us\AvatarStats.json" />
+    <None Include="Resources\zh-cn\AvatarStats.json" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
