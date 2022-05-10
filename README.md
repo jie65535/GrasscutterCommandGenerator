@@ -28,7 +28,9 @@
   - [ ] 邮件编辑器（无进度）
   - [ ] 商店编辑器（无进度）
 
-## v0.10.0-M1
+## v0.10.0 未发布
+- 新增`文本资源浏览器`，可使用**正则**搜索文本映射文件
+![Text Map Browser](Doc/Screenshots/11-TextMapBrowser.png)
 - `主页` 页面新增 `语言` 下拉框，可选择简体中文和英语。
 - `生成` 页面新增 `摆件` ID分类。
 
@@ -58,3 +60,5 @@
 ![Management](Doc/Screenshots/9-Manage.png)
 
 ![GachaBannerEditor](Doc/Screenshots/10-GachaBannerEditor.png)
+
+![Text Map Browser](Doc/Screenshots/11-TextMapBrowser.png)

@@ -28,6 +28,9 @@ Please download the latest version from [Releases](https://github.com/jie65535/G
   - [ ] Mail Editor (no progress)
   - [ ] Shop Editor (no progress)
 
+## v0.10.0 Unpublished
+Added `Text Map Browser`, you can use **regular** search text mapping files
+![Text Map Browser](Doc/Screenshots-en/11-TextMapBrowser.png)
 
 ## Screenshots
 
@@ -54,3 +57,5 @@ Please download the latest version from [Releases](https://github.com/jie65535/G
 ![Management](Doc/Screenshots-en/9-Manage.png)
 
 ![GachaBannerEditor](Doc/Screenshots-en/10-GachaBannerEditor.png)
+
+![Text Map Browser](Doc/Screenshots-en/11-TextMapBrowser.png)
