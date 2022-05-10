@@ -204,13 +204,19 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="Game\ClimateType.cs" />
+    <Compile Include="FormTextMapBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTextMapBrowser.Designer.cs">
+      <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Game\GameCommand.cs" />
     <Compile Include="Game\Gacha\BannerType.cs" />
     <Compile Include="Game\Gacha\GachaBanner.cs" />
     <Compile Include="Game\GameData.cs" />
     <Compile Include="Game\ItemMap.cs" />
     <Compile Include="Game\SetStatsCommand.cs" />
+    <Compile Include="Game\TextMapData.cs" />
     <Compile Include="MojoConsole\MojoConsole.cs" />
     <Compile Include="MultiLanguage.cs" />
     <Compile Include="Program.cs" />
@@ -226,6 +232,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTextMapBrowser.en-US.resx">
+      <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTextMapBrowser.resx">
+      <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.en-us.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -281,6 +293,7 @@
     <Content Include="Resources\IconGrasscutter.ico" />
     <Content Include="Resources\IconGrasscutter.png" />
     <None Include="Resources\ImgSupport.png" />
+    <Content Include="Resources\ImgHome.jpg" />
     <Content Include="Resources\Permissions.txt" />
     <Content Include="Resources\WeaponColor.txt" />
     <Content Include="Resources\zh-cn\Animal.txt" />

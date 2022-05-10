@@ -58,5 +58,29 @@ namespace GrasscutterTools.Properties {
                 this["DefaultLanguage"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ResourcesDirPath {
+            get {
+                return ((string)(this["ResourcesDirPath"]));
+            }
+            set {
+                this["ResourcesDirPath"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("TextMapCHS")]
+        public string TextMapFileName {
+            get {
+                return ((string)(this["TextMapFileName"]));
+            }
+            set {
+                this["TextMapFileName"] = value;
+            }
+        }
     }
 }

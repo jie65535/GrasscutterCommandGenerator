@@ -36,6 +36,7 @@ namespace GrasscutterTools
             this.GrpCommand = new System.Windows.Forms.GroupBox();
             this.TCMain = new System.Windows.Forms.TabControl();
             this.TPHome = new System.Windows.Forms.TabPage();
+            this.BtnOpenTextMap = new System.Windows.Forms.Button();
             this.BtnOpenGachaBannerEditor = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.GrpSettings = new System.Windows.Forms.GroupBox();
@@ -259,12 +260,20 @@ namespace GrasscutterTools
             // TPHome
             // 
             resources.ApplyResources(this.TPHome, "TPHome");
+            this.TPHome.Controls.Add(this.BtnOpenTextMap);
             this.TPHome.Controls.Add(this.BtnOpenGachaBannerEditor);
             this.TPHome.Controls.Add(this.pictureBox1);
             this.TPHome.Controls.Add(this.GrpSettings);
             this.TPHome.Controls.Add(this.LblAbout);
             this.TPHome.Name = "TPHome";
             this.TPHome.UseVisualStyleBackColor = true;
+            // 
+            // BtnOpenTextMap
+            // 
+            resources.ApplyResources(this.BtnOpenTextMap, "BtnOpenTextMap");
+            this.BtnOpenTextMap.Name = "BtnOpenTextMap";
+            this.BtnOpenTextMap.UseVisualStyleBackColor = true;
+            this.BtnOpenTextMap.Click += new System.EventHandler(this.BtnOpenTextMap_Click);
             // 
             // BtnOpenGachaBannerEditor
             // 
@@ -838,7 +847,7 @@ namespace GrasscutterTools
             // ImgAvatar
             // 
             resources.ApplyResources(this.ImgAvatar, "ImgAvatar");
-            this.ImgAvatar.Image = global::GrasscutterTools.Properties.Resources.ImgIconGrasscutter;
+            this.ImgAvatar.Image = global::GrasscutterTools.Properties.Resources.ImgHome;
             this.ImgAvatar.Name = "ImgAvatar";
             this.ImgAvatar.TabStop = false;
             // 
@@ -1364,6 +1373,7 @@ namespace GrasscutterTools
             resources.ApplyResources(this.LnkRCHelp, "LnkRCHelp");
             this.LnkRCHelp.Name = "LnkRCHelp";
             this.LnkRCHelp.TabStop = true;
+            this.LnkRCHelp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkRCHelp_LinkClicked);
             // 
             // LblSessionKey
             // 
@@ -1390,6 +1400,7 @@ namespace GrasscutterTools
             resources.ApplyResources(this.BtnPingHost, "BtnPingHost");
             this.BtnPingHost.Name = "BtnPingHost";
             this.BtnPingHost.UseVisualStyleBackColor = true;
+            this.BtnPingHost.Click += new System.EventHandler(this.BtnPingHost_Click);
             // 
             // FormMain
             // 
@@ -1604,6 +1615,7 @@ namespace GrasscutterTools
         private System.Windows.Forms.TextBox TxtHost;
         private System.Windows.Forms.Label LblHost;
         private System.Windows.Forms.Button BtnPingHost;
+        private System.Windows.Forms.Button BtnOpenTextMap;
     }
 }
 

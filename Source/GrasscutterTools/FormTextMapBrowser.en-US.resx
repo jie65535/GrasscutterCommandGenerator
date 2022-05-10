@@ -117,71 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Animal.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="BtnSelectRecoursePath.Text" xml:space="preserve">
+    <value>Select</value>
   </data>
-  <data name="Artifact" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Artifact.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>477, 15</value>
   </data>
-  <data name="ArtifactCat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\ArtifactCat.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="LblLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
   </data>
-  <data name="ArtifactMainAttribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\ArtifactMainAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="LblLanguage.Text" xml:space="preserve">
+    <value>Language</value>
   </data>
-  <data name="ArtifactSubAttribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\ArtifactSubAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 21</value>
   </data>
-  <data name="Avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Avatar.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="ChkTopMost.Text" xml:space="preserve">
+    <value>TopMost</value>
   </data>
-  <data name="AvatarColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AvatarColor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="LblResourcesPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 17</value>
   </data>
-  <data name="AvatarStats" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\AvatarStats.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LblResourcesPath.Text" xml:space="preserve">
+    <value>Please select a resource directory</value>
   </data>
-  <data name="ClimateType" xml:space="preserve">
-    <value>无,晴天,多云,雨天,雷暴,雪天,雾天</value>
+  <data name="BtnSearch.Text" xml:space="preserve">
+    <value>Search</value>
   </data>
-  <data name="CustomCommands" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\CustomCommands.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="IconGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconGrasscutter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImgHome" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ImgHome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImgIconGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconGrasscutter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImgSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ImgSupport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Item" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Item.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="Monster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Monster.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="NPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\NPC.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="Ornament" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Ornament.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="Permissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Permissions.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="Weapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Weapon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="WeaponColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WeaponColor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Text Map Browser</value>
   </data>
 </root>

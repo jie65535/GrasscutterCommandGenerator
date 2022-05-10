@@ -11,5 +11,11 @@
     <Setting Name="DefaultLanguage" Type="System.String" Scope="User">
       <Value Profile="(Default)">zh-CN</Value>
     </Setting>
+    <Setting Name="ResourcesDirPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TextMapFileName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">TextMapCHS</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

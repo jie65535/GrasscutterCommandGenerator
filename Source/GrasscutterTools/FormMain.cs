@@ -110,20 +110,25 @@ namespace GrasscutterTools
             }
         }
 
+        FormTextMapBrowser FormTextMapBrowser;
+        private void BtnOpenTextMap_Click(object sender, EventArgs e)
+        {
+            if (FormTextMapBrowser == null || FormTextMapBrowser.IsDisposed)
+            {
+                FormTextMapBrowser = new FormTextMapBrowser();
+                FormTextMapBrowser.Show();
+            }
+            else
+            {
+                FormTextMapBrowser.TopMost = true;
+                FormTextMapBrowser.TopMost = false;
+            }
+        }
+
         private void CmbLanguage_SelectedIndexChanged(object sender, EventArgs e)
         {
             MultiLanguage.SetDefaultLanguage(Languages[CmbLanguage.SelectedIndex]);
             FormMain_Load(this, EventArgs.Empty);
-        }
-
-        private void LnkRCHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            MessageBox.Show("TODO：正在开发中", "TODO");
-        }
-
-        private void BtnPingHost_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("TODO：正在开发中", "TODO");
         }
 
         #endregion - 主页 -
@@ -869,6 +874,20 @@ namespace GrasscutterTools
                 builder.AppendLine(cmd.Command);
             }
             return builder.ToString();
+        }
+
+        #endregion
+
+        #region - 远程 -
+
+        private void LnkRCHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MessageBox.Show("TODO：正在开发中", "TODO");
+        }
+
+        private void BtnPingHost_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("TODO：正在开发中", "TODO");
         }
 
         #endregion
