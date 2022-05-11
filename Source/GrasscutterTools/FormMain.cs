@@ -30,6 +30,7 @@ namespace GrasscutterTools
 
             GameData.LoadResources();
 
+            LoadCustomCommands();
             InitArtifactList();
             InitGameItemList();
             InitWeapons();
@@ -45,7 +46,6 @@ namespace GrasscutterTools
             SaveSettings();
         }
 
-        private readonly string CustomCommandsFilePath = Path.Combine(Application.LocalUserAppDataPath, "CustomCommands.txt");
 
         private readonly string[] LanguageNames = new string[] { "简体中文", "English" };
         private readonly string[] Languages = new string[] { "zh-CN", "en-US" };
@@ -60,10 +60,6 @@ namespace GrasscutterTools
                 CmbLanguage.Items.AddRange(LanguageNames);
                 CmbLanguage.SelectedIndex = Array.IndexOf(Languages, Settings.Default.DefaultLanguage);
 
-                if (File.Exists(CustomCommandsFilePath))
-                    LoadCustomCommands(File.ReadAllText(CustomCommandsFilePath));
-                else
-                    LoadCustomCommands(Resources.CustomCommands);
                 InitGiveItemRecord();
                 InitSpawnRecord();
             }
@@ -80,7 +76,7 @@ namespace GrasscutterTools
                 Settings.Default.AutoCopy = ChkAutoCopy.Checked;
                 Settings.Default.Uid = NUDUid.Value;
                 Settings.Default.Save();
-                File.WriteAllText(CustomCommandsFilePath, SaveCustomCommands());
+                SaveCustomCommands();
                 SaveGiveItemRecord();
                 SaveSpawnRecord();
             }
@@ -134,8 +130,19 @@ namespace GrasscutterTools
         #endregion - 主页 -
 
         #region - 自定义 -
+        private readonly string CustomCommandsFilePath = Path.Combine(Application.LocalUserAppDataPath, "CustomCommands.txt");
 
-        private void LoadCustomCommands(string commands)
+        private bool CustomCommandsChanged;
+
+        private void LoadCustomCommands()
+        {
+            if (File.Exists(CustomCommandsFilePath))
+                LoadCustomCommandControls(File.ReadAllText(CustomCommandsFilePath));
+            else
+                LoadCustomCommandControls(Resources.CustomCommands);
+        }
+
+        private void LoadCustomCommandControls(string commands)
         {
             FLPCustomCommands.Controls.Clear();
             var lines = commands.Split('\n');
@@ -143,7 +150,13 @@ namespace GrasscutterTools
                 AddCustomCommand(lines[i].Trim(), lines[i+1].Trim());
         }
 
-        private string SaveCustomCommands()
+        private void SaveCustomCommands()
+        {
+            if (CustomCommandsChanged)
+                File.WriteAllText(CustomCommandsFilePath, SaveCustomCommandControls());
+        }
+
+        private string SaveCustomCommandControls()
         {
             StringBuilder builder = new StringBuilder();
             foreach (LinkLabel lnk in FLPCustomCommands.Controls)
@@ -183,11 +196,13 @@ namespace GrasscutterTools
                 if (lnk.Text == name)
                 {
                     lnk.Tag = command;
+                    CustomCommandsChanged = true;
                     await ButtonComplete(BtnSaveCustomCommand);
                     return;
                 }
             }
 
+            CustomCommandsChanged = true;
             AddCustomCommand(name, command);
             await ButtonComplete(BtnSaveCustomCommand);
         }
@@ -218,6 +233,7 @@ namespace GrasscutterTools
                 if (lnk.Text == name && MessageBox.Show("确认删除？", "提示", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     FLPCustomCommands.Controls.Remove(lnk);
+                    CustomCommandsChanged = true;
                     //TxtCustomName.Text = "";
                     //TxtCommand.Text = "";
                     await ButtonComplete(BtnRemoveCustomCommand);
@@ -239,7 +255,8 @@ namespace GrasscutterTools
                 using (var stream = dialog.OpenFile())
                 using (var reader = new StreamReader(stream))
                 {
-                    LoadCustomCommands(reader.ReadToEnd());
+                    LoadCustomCommandControls(reader.ReadToEnd());
+                    CustomCommandsChanged = true;
                 }
             }
         }
@@ -256,7 +273,7 @@ namespace GrasscutterTools
                 using (var stream = dialog.OpenFile())
                 using (var writer = new StreamWriter(stream))
                 {
-                    writer.Write(SaveCustomCommands());
+                    writer.Write(SaveCustomCommandControls());
                 }
             }
         }
