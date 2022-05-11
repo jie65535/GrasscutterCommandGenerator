@@ -60,19 +60,14 @@ namespace GrasscutterTools
             this.LblSoftPityTip = new System.Windows.Forms.Label();
             this.LblBasePurpleWeight = new System.Windows.Forms.Label();
             this.CmbBannerType = new System.Windows.Forms.ComboBox();
-            this.TxtTitlePath = new System.Windows.Forms.TextBox();
             this.LblSortIdTip = new System.Windows.Forms.Label();
             this.NUDBasePurpleWeight = new System.Windows.Forms.NumericUpDown();
             this.LblBannerType = new System.Windows.Forms.Label();
-            this.LblTitlePath = new System.Windows.Forms.Label();
             this.LblBasePurpleWeightTip = new System.Windows.Forms.Label();
             this.RbCostItem224 = new System.Windows.Forms.RadioButton();
-            this.TxtPrefabPath = new System.Windows.Forms.TextBox();
-            this.TxtPreviewPrefabPath = new System.Windows.Forms.TextBox();
             this.LblBaseYellowWeightTip = new System.Windows.Forms.Label();
             this.LblCostItem = new System.Windows.Forms.Label();
             this.LblPrefabPath = new System.Windows.Forms.Label();
-            this.LblPreviewPrefabPath = new System.Windows.Forms.Label();
             this.RbCostItem223 = new System.Windows.Forms.RadioButton();
             this.GrpPurplePool = new System.Windows.Forms.GroupBox();
             this.ListPurplePool = new System.Windows.Forms.CheckedListBox();
@@ -82,6 +77,7 @@ namespace GrasscutterTools
             this.BtnGen = new System.Windows.Forms.Button();
             this.TxtJson = new System.Windows.Forms.TextBox();
             this.BtnParse = new System.Windows.Forms.Button();
+            this.CmbPrefab = new System.Windows.Forms.ComboBox();
             this.GrpBannerValues.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDBaseYellowWeight)).BeginInit();
@@ -101,6 +97,7 @@ namespace GrasscutterTools
             // GrpBannerValues
             // 
             resources.ApplyResources(this.GrpBannerValues, "GrpBannerValues");
+            this.GrpBannerValues.Controls.Add(this.CmbPrefab);
             this.GrpBannerValues.Controls.Add(this.LblEventChanceTip);
             this.GrpBannerValues.Controls.Add(this.NUDEventChance);
             this.GrpBannerValues.Controls.Add(this.LblGachaType);
@@ -130,19 +127,14 @@ namespace GrasscutterTools
             this.GrpBannerValues.Controls.Add(this.LblSoftPityTip);
             this.GrpBannerValues.Controls.Add(this.LblBasePurpleWeight);
             this.GrpBannerValues.Controls.Add(this.CmbBannerType);
-            this.GrpBannerValues.Controls.Add(this.TxtTitlePath);
             this.GrpBannerValues.Controls.Add(this.LblSortIdTip);
             this.GrpBannerValues.Controls.Add(this.NUDBasePurpleWeight);
             this.GrpBannerValues.Controls.Add(this.LblBannerType);
-            this.GrpBannerValues.Controls.Add(this.LblTitlePath);
             this.GrpBannerValues.Controls.Add(this.LblBasePurpleWeightTip);
             this.GrpBannerValues.Controls.Add(this.RbCostItem224);
-            this.GrpBannerValues.Controls.Add(this.TxtPrefabPath);
-            this.GrpBannerValues.Controls.Add(this.TxtPreviewPrefabPath);
             this.GrpBannerValues.Controls.Add(this.LblBaseYellowWeightTip);
             this.GrpBannerValues.Controls.Add(this.LblCostItem);
             this.GrpBannerValues.Controls.Add(this.LblPrefabPath);
-            this.GrpBannerValues.Controls.Add(this.LblPreviewPrefabPath);
             this.GrpBannerValues.Controls.Add(this.RbCostItem223);
             this.GrpBannerValues.Name = "GrpBannerValues";
             this.GrpBannerValues.TabStop = false;
@@ -174,8 +166,8 @@ namespace GrasscutterTools
             // 
             // NUDBaseYellowWeight
             // 
-            resources.ApplyResources(this.NUDBaseYellowWeight, "NUDBaseYellowWeight");
             this.NUDBaseYellowWeight.DecimalPlaces = 2;
+            resources.ApplyResources(this.NUDBaseYellowWeight, "NUDBaseYellowWeight");
             this.NUDBaseYellowWeight.Name = "NUDBaseYellowWeight";
             this.NUDBaseYellowWeight.Value = new decimal(new int[] {
             6,
@@ -190,8 +182,8 @@ namespace GrasscutterTools
             // 
             // TxtRateUpItems2
             // 
-            resources.ApplyResources(this.TxtRateUpItems2, "TxtRateUpItems2");
             this.TxtRateUpItems2.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.TxtRateUpItems2, "TxtRateUpItems2");
             this.TxtRateUpItems2.Name = "TxtRateUpItems2";
             this.TxtRateUpItems2.ReadOnly = true;
             // 
@@ -287,8 +279,8 @@ namespace GrasscutterTools
             // 
             // TxtRateUpItems1
             // 
-            resources.ApplyResources(this.TxtRateUpItems1, "TxtRateUpItems1");
             this.TxtRateUpItems1.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.TxtRateUpItems1, "TxtRateUpItems1");
             this.TxtRateUpItems1.Name = "TxtRateUpItems1";
             this.TxtRateUpItems1.ReadOnly = true;
             // 
@@ -374,19 +366,14 @@ namespace GrasscutterTools
             // 
             // CmbBannerType
             // 
-            resources.ApplyResources(this.CmbBannerType, "CmbBannerType");
             this.CmbBannerType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbBannerType.FormattingEnabled = true;
             this.CmbBannerType.Items.AddRange(new object[] {
             resources.GetString("CmbBannerType.Items"),
             resources.GetString("CmbBannerType.Items1"),
             resources.GetString("CmbBannerType.Items2")});
+            resources.ApplyResources(this.CmbBannerType, "CmbBannerType");
             this.CmbBannerType.Name = "CmbBannerType";
-            // 
-            // TxtTitlePath
-            // 
-            resources.ApplyResources(this.TxtTitlePath, "TxtTitlePath");
-            this.TxtTitlePath.Name = "TxtTitlePath";
             // 
             // LblSortIdTip
             // 
@@ -395,8 +382,8 @@ namespace GrasscutterTools
             // 
             // NUDBasePurpleWeight
             // 
-            resources.ApplyResources(this.NUDBasePurpleWeight, "NUDBasePurpleWeight");
             this.NUDBasePurpleWeight.DecimalPlaces = 2;
+            resources.ApplyResources(this.NUDBasePurpleWeight, "NUDBasePurpleWeight");
             this.NUDBasePurpleWeight.Name = "NUDBasePurpleWeight";
             this.NUDBasePurpleWeight.Value = new decimal(new int[] {
             51,
@@ -408,11 +395,6 @@ namespace GrasscutterTools
             // 
             resources.ApplyResources(this.LblBannerType, "LblBannerType");
             this.LblBannerType.Name = "LblBannerType";
-            // 
-            // LblTitlePath
-            // 
-            resources.ApplyResources(this.LblTitlePath, "LblTitlePath");
-            this.LblTitlePath.Name = "LblTitlePath";
             // 
             // LblBasePurpleWeightTip
             // 
@@ -426,16 +408,6 @@ namespace GrasscutterTools
             this.RbCostItem224.Name = "RbCostItem224";
             this.RbCostItem224.TabStop = true;
             this.RbCostItem224.UseVisualStyleBackColor = true;
-            // 
-            // TxtPrefabPath
-            // 
-            resources.ApplyResources(this.TxtPrefabPath, "TxtPrefabPath");
-            this.TxtPrefabPath.Name = "TxtPrefabPath";
-            // 
-            // TxtPreviewPrefabPath
-            // 
-            resources.ApplyResources(this.TxtPreviewPrefabPath, "TxtPreviewPrefabPath");
-            this.TxtPreviewPrefabPath.Name = "TxtPreviewPrefabPath";
             // 
             // LblBaseYellowWeightTip
             // 
@@ -451,11 +423,6 @@ namespace GrasscutterTools
             // 
             resources.ApplyResources(this.LblPrefabPath, "LblPrefabPath");
             this.LblPrefabPath.Name = "LblPrefabPath";
-            // 
-            // LblPreviewPrefabPath
-            // 
-            resources.ApplyResources(this.LblPreviewPrefabPath, "LblPreviewPrefabPath");
-            this.LblPreviewPrefabPath.Name = "LblPreviewPrefabPath";
             // 
             // RbCostItem223
             // 
@@ -473,8 +440,8 @@ namespace GrasscutterTools
             // 
             // ListPurplePool
             // 
-            resources.ApplyResources(this.ListPurplePool, "ListPurplePool");
             this.ListPurplePool.CheckOnClick = true;
+            resources.ApplyResources(this.ListPurplePool, "ListPurplePool");
             this.ListPurplePool.FormattingEnabled = true;
             this.ListPurplePool.Name = "ListPurplePool";
             this.ListPurplePool.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.ListPurplePool_ItemCheck);
@@ -488,8 +455,8 @@ namespace GrasscutterTools
             // 
             // ListYellowPool
             // 
-            resources.ApplyResources(this.ListYellowPool, "ListYellowPool");
             this.ListYellowPool.CheckOnClick = true;
+            resources.ApplyResources(this.ListYellowPool, "ListYellowPool");
             this.ListYellowPool.FormattingEnabled = true;
             this.ListYellowPool.Name = "ListYellowPool";
             this.ListYellowPool.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.ListYellowPool_ItemCheck);
@@ -521,6 +488,13 @@ namespace GrasscutterTools
             this.BtnParse.Name = "BtnParse";
             this.BtnParse.UseVisualStyleBackColor = true;
             this.BtnParse.Click += new System.EventHandler(this.BtnParse_Click);
+            // 
+            // CmbPrefab
+            // 
+            this.CmbPrefab.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbPrefab.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbPrefab, "CmbPrefab");
+            this.CmbPrefab.Name = "CmbPrefab";
             // 
             // FormGachaBannerEditor
             // 
@@ -583,19 +557,14 @@ namespace GrasscutterTools
         private System.Windows.Forms.Label LblSoftPityTip;
         private System.Windows.Forms.Label LblBasePurpleWeight;
         private System.Windows.Forms.ComboBox CmbBannerType;
-        private System.Windows.Forms.TextBox TxtTitlePath;
         private System.Windows.Forms.Label LblSortIdTip;
         private System.Windows.Forms.NumericUpDown NUDBasePurpleWeight;
         private System.Windows.Forms.Label LblBannerType;
-        private System.Windows.Forms.Label LblTitlePath;
         private System.Windows.Forms.Label LblBasePurpleWeightTip;
         private System.Windows.Forms.RadioButton RbCostItem224;
-        private System.Windows.Forms.TextBox TxtPrefabPath;
-        private System.Windows.Forms.TextBox TxtPreviewPrefabPath;
         private System.Windows.Forms.Label LblBaseYellowWeightTip;
         private System.Windows.Forms.Label LblCostItem;
         private System.Windows.Forms.Label LblPrefabPath;
-        private System.Windows.Forms.Label LblPreviewPrefabPath;
         private System.Windows.Forms.RadioButton RbCostItem223;
         private System.Windows.Forms.GroupBox GrpPurplePool;
         private System.Windows.Forms.CheckedListBox ListPurplePool;
@@ -605,5 +574,6 @@ namespace GrasscutterTools
         private System.Windows.Forms.TextBox TxtJson;
         private System.Windows.Forms.Button BtnGen;
         private System.Windows.Forms.Button BtnParse;
+        private System.Windows.Forms.ComboBox CmbPrefab;
     }
 }
