@@ -119,10 +119,10 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LblEventChanceTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>401, 318</value>
+    <value>401, 262</value>
   </data>
   <data name="NUDEventChance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>332, 316</value>
+    <value>332, 260</value>
   </data>
   <data name="LblEventChance.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 17</value>
@@ -130,11 +130,14 @@
   <data name="LblEventChance.Text" xml:space="preserve">
     <value>Event chance</value>
   </data>
+  <data name="LblSortId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 204</value>
+  </data>
   <data name="LblSortId.Text" xml:space="preserve">
     <value>Sort</value>
   </data>
   <data name="LblBaseYellowWeight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 318</value>
+    <value>22, 262</value>
   </data>
   <data name="LblBaseYellowWeight.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 17</value>
@@ -143,7 +146,7 @@
     <value>5 star weight</value>
   </data>
   <data name="LblRateUpItems2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 406</value>
+    <value>44, 350</value>
   </data>
   <data name="LblRateUpItems2.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 17</value>
@@ -152,7 +155,7 @@
     <value>4 star UP</value>
   </data>
   <data name="LblSoftPity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 347</value>
+    <value>49, 291</value>
   </data>
   <data name="LblSoftPity.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
@@ -173,7 +176,7 @@
     <value>End Time</value>
   </data>
   <data name="LblRateUpItems1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 290</value>
+    <value>44, 234</value>
   </data>
   <data name="LblRateUpItems1.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 17</value>
@@ -182,7 +185,7 @@
     <value>5 star UP</value>
   </data>
   <data name="LblBeginTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>33, 231</value>
+    <value>32, 175</value>
   </data>
   <data name="LblBeginTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 17</value>
@@ -191,7 +194,7 @@
     <value>Begin Time</value>
   </data>
   <data name="LblHardPity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 376</value>
+    <value>42, 320</value>
   </data>
   <data name="LblHardPity.Size" type="System.Drawing.Size, System.Drawing">
     <value>62, 17</value>
@@ -200,7 +203,7 @@
     <value>Hard pity</value>
   </data>
   <data name="NUDEndTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 230</value>
+    <value>287, 174</value>
   </data>
   <data name="LblHardPityTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>17, 17</value>
@@ -221,7 +224,7 @@
     <value>...</value>
   </data>
   <data name="LblBasePurpleWeight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 434</value>
+    <value>22, 378</value>
   </data>
   <data name="LblBasePurpleWeight.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 17</value>
@@ -253,15 +256,6 @@
   <data name="LblBannerType.Text" xml:space="preserve">
     <value>Banner Type</value>
   </data>
-  <data name="LblTitlePath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 176</value>
-  </data>
-  <data name="LblTitlePath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 17</value>
-  </data>
-  <data name="LblTitlePath.Text" xml:space="preserve">
-    <value>Title Path</value>
-  </data>
   <data name="RbCostItem224.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 21</value>
   </data>
@@ -269,7 +263,7 @@
     <value>Acquaint Fate</value>
   </data>
   <data name="LblCostItem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 204</value>
+    <value>41, 148</value>
   </data>
   <data name="LblCostItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 17</value>
@@ -278,25 +272,16 @@
     <value>Cost Item</value>
   </data>
   <data name="LblPrefabPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 118</value>
+    <value>59, 118</value>
   </data>
   <data name="LblPrefabPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 17</value>
+    <value>46, 17</value>
   </data>
   <data name="LblPrefabPath.Text" xml:space="preserve">
-    <value>Prefab Path</value>
-  </data>
-  <data name="LblPreviewPrefabPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 147</value>
-  </data>
-  <data name="LblPreviewPrefabPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 17</value>
-  </data>
-  <data name="LblPreviewPrefabPath.Text" xml:space="preserve">
-    <value>Pre Prefab Path</value>
+    <value>Prefab</value>
   </data>
   <data name="RbCostItem223.Location" type="System.Drawing.Point, System.Drawing">
-    <value>222, 202</value>
+    <value>222, 146</value>
   </data>
   <data name="RbCostItem223.Size" type="System.Drawing.Size, System.Drawing">
     <value>119, 21</value>
