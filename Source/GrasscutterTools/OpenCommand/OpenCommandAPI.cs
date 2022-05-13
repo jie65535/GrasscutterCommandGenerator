@@ -12,11 +12,12 @@ namespace GrasscutterTools.OpenCommand
         public OpenCommandAPI(string host)
         {
             Host = host;
+            API = host + "/opencommand/api";
         }
 
         public string Host { get; }
 
-        private string API => Host + "/opencommand/api";
+        private readonly string API;
 
         public string Token { get; set; }
 
