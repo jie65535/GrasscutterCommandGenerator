@@ -60,15 +60,17 @@ namespace GrasscutterTools
         {
             try
             {
-                ChkAutoCopy.Checked = Settings.Default.AutoCopy;
-                NUDUid.Value = Settings.Default.Uid;
+                ChkAutoCopy.Checked       = Settings.Default.AutoCopy;
+                NUDUid.Value              = Settings.Default.Uid;
 
                 CmbLanguage.Items.AddRange(LanguageNames);
                 CmbLanguage.SelectedIndex = Array.IndexOf(Languages, Settings.Default.DefaultLanguage);
 
+                NUDRemotePlayerId.Value   = Settings.Default.RemoteUid;
+                TxtHost.Text              = Settings.Default.Host;
+
                 InitGiveItemRecord();
                 InitSpawnRecord();
-                InitOpenCommand();
             }
             catch (Exception ex)
             {
@@ -80,13 +82,14 @@ namespace GrasscutterTools
         {
             try
             {
-                Settings.Default.AutoCopy = ChkAutoCopy.Checked;
-                Settings.Default.Uid = NUDUid.Value;
-                Settings.Default.Save();
+                Settings.Default.AutoCopy  = ChkAutoCopy.Checked;
+                Settings.Default.Uid       = NUDUid.Value;
+                Settings.Default.RemoteUid = NUDRemotePlayerId.Value;
+                Settings.Default.Host      = TxtHost.Text;
                 SaveCustomCommands();
                 SaveGiveItemRecord();
                 SaveSpawnRecord();
-                SaveOpenCommand();
+                Settings.Default.Save();
             }
             catch (Exception ex)
             {
@@ -925,18 +928,6 @@ namespace GrasscutterTools
         #endregion - 命令记录 -
 
         #region - 远程 -
-
-        private void InitOpenCommand()
-        {
-            NUDRemotePlayerId.Value = Settings.Default.RemoteUid;
-            TxtHost.Text = Settings.Default.Host;
-        }
-
-        private void SaveOpenCommand()
-        {
-            Settings.Default.RemoteUid = NUDRemotePlayerId.Value;
-            Settings.Default.Host = TxtHost.Text;
-        }
 
         private OpenCommandAPI OC;
 
