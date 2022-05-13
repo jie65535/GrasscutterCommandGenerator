@@ -22,8 +22,15 @@ namespace GrasscutterTools.Utils
             try
             {
                 var responseMessage = await httpClient.GetAsync(url);
-                var responseString = await responseMessage.Content.ReadAsStringAsync();
-                return JsonConvert.DeserializeObject<T>(responseString);
+                if (responseMessage.IsSuccessStatusCode)
+                {
+                    var responseString = await responseMessage.Content.ReadAsStringAsync();
+                    return JsonConvert.DeserializeObject<T>(responseString);
+                }
+                else
+                {
+                    throw new HttpRequestException(responseMessage.ReasonPhrase);
+                }
             }
             catch (Exception ex)
             {
@@ -39,8 +46,15 @@ namespace GrasscutterTools.Utils
             {
                 var content = new StringContent(JsonConvert.SerializeObject(obj), Encoding.UTF8, "application/json");
                 var responseMessage = await httpClient.PostAsync(url, content);
-                var responseString = await responseMessage.Content.ReadAsStringAsync();
-                return JsonConvert.DeserializeObject<T>(responseString);
+                if (responseMessage.IsSuccessStatusCode)
+                {
+                    var responseString = await responseMessage.Content.ReadAsStringAsync();
+                    return JsonConvert.DeserializeObject<T>(responseString);
+                }
+                else
+                {
+                    throw new HttpRequestException(responseMessage.ReasonPhrase);
+                }
             }
             catch (Exception ex)
             {

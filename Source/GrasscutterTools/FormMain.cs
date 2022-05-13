@@ -29,7 +29,11 @@ namespace GrasscutterTools
         {
             MultiLanguage.LoadLanguage(this, typeof(FormMain));
             Version version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+#if DEBUG
+            Text += "  - by jie65535  - v" + version.ToString(3) + "-debug";
+#else
             Text += "  - by jie65535  - v" + version.ToString(3);
+#endif
 
             GameData.LoadResources();
 
