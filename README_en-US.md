@@ -6,6 +6,10 @@
 
 Please download the latest version from [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
 
+## Remote command
+
+The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) support
+
 ---
 
 ## TODO List
