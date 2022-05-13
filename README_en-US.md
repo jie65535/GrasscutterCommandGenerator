@@ -16,7 +16,7 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
 
 ## TODO List
   - [ ] Multi-language support (progress: UI already supports English, but there are still many ID mapping files missing, welcome to add)
-    - [ ] Animal.txt
+    - [x] Animal.txt
     - [ ] Artifact.txt
     - [ ] ArtifactCat.txt
     - [ ] ArtifactMainAttribution.txt

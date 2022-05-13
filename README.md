@@ -16,7 +16,7 @@
 
 ## TODO List
   - [ ] 多语言支持（进度：UI已经支持英语，但还有许多ID映射文件缺失，欢迎补充）
-    - [ ] Animal.txt
+    - [x] Animal.txt
     - [ ] Artifact.txt
     - [ ] ArtifactCat.txt
     - [ ] ArtifactMainAttribution.txt
