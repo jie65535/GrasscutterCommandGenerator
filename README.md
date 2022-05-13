@@ -10,6 +10,8 @@
 
 服务端需要 [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) 插件支持
 
+![OpenCommand](Doc/Screenshots/OpenCommand.gif)
+
 ---
 
 ## TODO List
