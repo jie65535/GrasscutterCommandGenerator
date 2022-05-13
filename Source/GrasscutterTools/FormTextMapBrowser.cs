@@ -55,7 +55,7 @@ namespace GrasscutterTools
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -92,7 +92,7 @@ namespace GrasscutterTools
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -137,7 +137,7 @@ namespace GrasscutterTools
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 

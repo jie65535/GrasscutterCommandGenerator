@@ -105,7 +105,7 @@ namespace GrasscutterTools
             }
             catch (Exception ex)
             {
-                MessageBox.Show("UI更新失败：" + ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("UI更新失败：" + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -113,13 +113,13 @@ namespace GrasscutterTools
         {
             if (CmbBannerType.SelectedIndex < 0)
             {
-                MessageBox.Show("请选择奖池类型", "输入错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("请选择奖池类型", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
 
             if (CmbPrefab.SelectedIndex < 0)
             {
-                MessageBox.Show("请选择奖池预制", "输入错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("请选择奖池预制", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return null;
             }
 
@@ -223,7 +223,7 @@ namespace GrasscutterTools
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Json解析失败，错误消息：" + ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Json解析失败，错误消息：" + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

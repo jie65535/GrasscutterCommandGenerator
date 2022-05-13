@@ -133,6 +133,9 @@
   <data name="ArtifactSubAttribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-cn\ArtifactSubAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="AskConfirmDeletion" xml:space="preserve">
+    <value>确认删除？</value>
+  </data>
   <data name="Avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-cn\Avatar.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
@@ -142,14 +145,41 @@
   <data name="AvatarStats" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-cn\AvatarStats.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="BrowserOpenFailedTip" xml:space="preserve">
+    <value>浏览器打开失败，你可以通过以下链接手动访问：</value>
+  </data>
   <data name="ClimateType" xml:space="preserve">
     <value>无,晴天,多云,雨天,雷暴,雪天,雾天</value>
+  </data>
+  <data name="CodeResendTip" xml:space="preserve">
+    <value>{0} 秒后可重发</value>
+  </data>
+  <data name="CodeSending" xml:space="preserve">
+    <value>发送中...</value>
+  </data>
+  <data name="CommandContentCannotBeEmpty" xml:space="preserve">
+    <value>命令内容不能为空</value>
+  </data>
+  <data name="CommandNotFound" xml:space="preserve">
+    <value>未找到该命令</value>
+  </data>
+  <data name="CommandTagCannotBeEmpty" xml:space="preserve">
+    <value>命令标签不能为空</value>
+  </data>
+  <data name="ConnectedTip" xml:space="preserve">
+    <value>现在你可以远程执行命令了哦！</value>
   </data>
   <data name="CustomCommands" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-cn\CustomCommands.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
   <data name="GachaBennerPrefab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-cn\GachaBennerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>帮助</value>
   </data>
   <data name="IconGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconGrasscutter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,14 +202,35 @@
   <data name="NPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-cn\NPC.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="OpenCommandHelp" xml:space="preserve">
+    <value>1. 填写正确的UID\n2. 向玩家发送验证码\n3. 输入正确的验证码\n4. 连接\n5. 享受</value>
+  </data>
   <data name="Ornament" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-cn\Ornament.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PermissionCannotBeEmpty" xml:space="preserve">
+    <value>要设置的权限不能为空！</value>
   </data>
   <data name="Permissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Permissions.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="RequireOpenCommandTip" xml:space="preserve">
+    <value>请先连接到支持[OpenCommand]的服务器</value>
+  </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-cn\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="SettingLoadError" xml:space="preserve">
+    <value>加载设置时异常：</value>
+  </data>
+  <data name="SettingSaveError" xml:space="preserve">
+    <value>保存设置时异常：</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="UsernameCannotBeEmpty" xml:space="preserve">
+    <value>用户名不能为空！</value>
   </data>
   <data name="Weapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-cn\Weapon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>

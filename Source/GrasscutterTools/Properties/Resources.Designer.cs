@@ -284,6 +284,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 确认删除？ 的本地化字符串。
+        /// </summary>
+        internal static string AskConfirmDeletion {
+            get {
+                return ResourceManager.GetString("AskConfirmDeletion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 10000001: 凯特
         ///10000002: 神里绫华
         ///10000003: 琴
@@ -386,11 +395,74 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 浏览器打开失败，你可以通过以下链接手动访问： 的本地化字符串。
+        /// </summary>
+        internal static string BrowserOpenFailedTip {
+            get {
+                return ResourceManager.GetString("BrowserOpenFailedTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 无,晴天,多云,雨天,雷暴,雪天,雾天 的本地化字符串。
         /// </summary>
         internal static string ClimateType {
             get {
                 return ResourceManager.GetString("ClimateType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 {0} 秒后可重发 的本地化字符串。
+        /// </summary>
+        internal static string CodeResendTip {
+            get {
+                return ResourceManager.GetString("CodeResendTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 发送中... 的本地化字符串。
+        /// </summary>
+        internal static string CodeSending {
+            get {
+                return ResourceManager.GetString("CodeSending", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 命令内容不能为空 的本地化字符串。
+        /// </summary>
+        internal static string CommandContentCannotBeEmpty {
+            get {
+                return ResourceManager.GetString("CommandContentCannotBeEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 未找到该命令 的本地化字符串。
+        /// </summary>
+        internal static string CommandNotFound {
+            get {
+                return ResourceManager.GetString("CommandNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 命令标签不能为空 的本地化字符串。
+        /// </summary>
+        internal static string CommandTagCannotBeEmpty {
+            get {
+                return ResourceManager.GetString("CommandTagCannotBeEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 现在你可以远程执行命令了哦！ 的本地化字符串。
+        /// </summary>
+        internal static string ConnectedTip {
+            get {
+                return ResourceManager.GetString("ConnectedTip", resourceCulture);
             }
         }
         
@@ -451,6 +523,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 错误 的本地化字符串。
+        /// </summary>
+        internal static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 007: 初行者推荐祈愿
         ///008: 奔行世间
         ///009: 杯装之诗
@@ -490,6 +571,15 @@ namespace GrasscutterTools.Properties {
         internal static string GachaBennerPrefab {
             get {
                 return ResourceManager.GetString("GachaBennerPrefab", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 帮助 的本地化字符串。
+        /// </summary>
+        internal static string Help {
+            get {
+                return ResourceManager.GetString("Help", resourceCulture);
             }
         }
         
@@ -655,6 +745,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 1. 填写正确的UID\n2. 向玩家发送验证码\n3. 输入正确的验证码\n4. 连接\n5. 享受 的本地化字符串。
+        /// </summary>
+        internal static string OpenCommandHelp {
+            get {
+                return ResourceManager.GetString("OpenCommandHelp", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 369101: 翠目猫
         ///369102: 北地犬
         ///369103: 野林猪
@@ -705,6 +804,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 要设置的权限不能为空！ 的本地化字符串。
+        /// </summary>
+        internal static string PermissionCannotBeEmpty {
+            get {
+                return ResourceManager.GetString("PermissionCannotBeEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 *
         ///player.*
         ///player.**
@@ -745,6 +853,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 请先连接到支持[OpenCommand]的服务器 的本地化字符串。
+        /// </summary>
+        internal static string RequireOpenCommandTip {
+            get {
+                return ResourceManager.GetString("RequireOpenCommandTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 1 : BigWorld_LevelStreaming
         ///2 : BigWorld_LevelStreaming
         ///3 : BigWorld_LevelStreaming
@@ -772,6 +889,42 @@ namespace GrasscutterTools.Properties {
         internal static string Scene {
             get {
                 return ResourceManager.GetString("Scene", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 加载设置时异常： 的本地化字符串。
+        /// </summary>
+        internal static string SettingLoadError {
+            get {
+                return ResourceManager.GetString("SettingLoadError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 保存设置时异常： 的本地化字符串。
+        /// </summary>
+        internal static string SettingSaveError {
+            get {
+                return ResourceManager.GetString("SettingSaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 提示 的本地化字符串。
+        /// </summary>
+        internal static string Tips {
+            get {
+                return ResourceManager.GetString("Tips", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 用户名不能为空！ 的本地化字符串。
+        /// </summary>
+        internal static string UsernameCannotBeEmpty {
+            get {
+                return ResourceManager.GetString("UsernameCannotBeEmpty", resourceCulture);
             }
         }
         

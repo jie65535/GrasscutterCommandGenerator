@@ -73,7 +73,7 @@ namespace GrasscutterTools
             }
             catch (Exception ex)
             {
-                MessageBox.Show("加载设置时异常：" + ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.SettingLoadError + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -91,7 +91,7 @@ namespace GrasscutterTools
             }
             catch (Exception ex)
             {
-                MessageBox.Show("保存设置时异常：" + ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.SettingSaveError + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -189,12 +189,12 @@ namespace GrasscutterTools
         {
             if (string.IsNullOrWhiteSpace(TxtCustomName.Text))
             {
-                MessageBox.Show("命令标签不能为空", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.CommandTagCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             if (string.IsNullOrWhiteSpace(TxtCommand.Text))
             {
-                MessageBox.Show("命令内容不能为空", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.CommandContentCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             var name = TxtCustomName.Text.Trim();
@@ -232,14 +232,14 @@ namespace GrasscutterTools
         {
             if (string.IsNullOrWhiteSpace(TxtCustomName.Text))
             {
-                MessageBox.Show("命令标签不能为空", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.CommandTagCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             var name = TxtCustomName.Text.Trim();
 
             foreach (LinkLabel lnk in FLPCustomCommands.Controls)
             {
-                if (lnk.Text == name && MessageBox.Show("确认删除？", "提示", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                if (lnk.Text == name && MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     FLPCustomCommands.Controls.Remove(lnk);
                     CustomCommandsChanged = true;
@@ -250,7 +250,7 @@ namespace GrasscutterTools
                 }
             }
 
-            MessageBox.Show("未找到该命令", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            MessageBox.Show(Resources.CommandNotFound, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private void BtnImport_Click(object sender, EventArgs e)
@@ -799,7 +799,7 @@ namespace GrasscutterTools
             var perm = CmbPerm.Text.Trim();
             if (string.IsNullOrEmpty(perm))
             {
-                MessageBox.Show("权限不能为空！", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.PermissionCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             SetCommand($"/permission {(sender as Button).Tag} @{uid} {perm}");
@@ -810,7 +810,7 @@ namespace GrasscutterTools
             var username = TxtAccountUserName.Text.Trim();
             if (string.IsNullOrEmpty(username))
             {
-                MessageBox.Show("用户名不能为空！", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.UsernameCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             SetCommand($"/account {(sender as Button).Tag} {username} {(ChkAccountSetUid.Checked ? NUDAccountUid.Value.ToString() : "")}");
@@ -828,9 +828,9 @@ namespace GrasscutterTools
             }
             catch (Exception)
             {
-                MessageBox.Show("浏览器打开失败，你可以通过以下链接手动访问：\n"
-                    + "https://github.com/jie65535/GrasscutterCommandGenerator",
-                    "错误", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(Resources.BrowserOpenFailedTip
+                    + "\n https://github.com/jie65535/GrasscutterCommandGenerator",
+                    Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -962,7 +962,7 @@ namespace GrasscutterTools
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -979,20 +979,20 @@ namespace GrasscutterTools
             NUDRemotePlayerId.Enabled = false;
             try
             {
-                btn.Text = "发送中...";
+                btn.Text = Resources.CodeSending;
                 await OC.SendCode((int)NUDRemotePlayerId.Value);
                 BtnConnectOpenCommand.Enabled = true;
                 NUDVerificationCode.Enabled = true;
                 NUDVerificationCode.Focus();
                 for (int i = 60; i > 0 && !OC.CanInvoke; i--)
                 {
-                    btn.Text = $"{i} 秒后可重发";
+                    btn.Text = string.Format(Resources.CodeResendTip, i);
                     await Task.Delay(1000);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -1011,11 +1011,11 @@ namespace GrasscutterTools
                 await OC.Verify((int)NUDVerificationCode.Value);
                 GrpRemoteCommand.Enabled = false;
                 BtnInvokeOpenCommand.Focus();
-                ShowTip("现在你可以远程执行命令了哦！", BtnInvokeOpenCommand);
+                ShowTip(Resources.ConnectedTip, BtnInvokeOpenCommand);
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -1033,13 +1033,13 @@ namespace GrasscutterTools
         {
             if (OC == null || !OC.CanInvoke)
             {
-                ShowTip("请先连接到支持[OpenCommand]的服务器", BtnInvokeOpenCommand);
+                ShowTip(Resources.RequireOpenCommandTip, BtnInvokeOpenCommand);
                 TCMain.SelectedTab = TPRemoteCall;
                 return;
             }
             if (TxtCommand.Text.Length < 2)
             {
-                ShowTip("命令不能为空", TxtCommand);
+                ShowTip(Resources.CommandContentCannotBeEmpty, TxtCommand);
                 return;
             }
             var cmd = TxtCommand.Text.Substring(1);
@@ -1052,7 +1052,7 @@ namespace GrasscutterTools
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -1069,15 +1069,15 @@ namespace GrasscutterTools
             }
             catch (Exception)
             {
-                MessageBox.Show("浏览器打开失败，你可以通过以下链接手动访问：\n"
-                    + "https://github.com/jie65535/gc-opencommand-plugin",
-                    "错误", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(Resources.BrowserOpenFailedTip
+                    + "\n https://github.com/jie65535/gc-opencommand-plugin",
+                    Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
         private void LnkRCHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            MessageBox.Show("1. 填写正确的UID\n2. 向玩家发送验证码\n3. 输入正确的验证码\n4. 连接\n5. 享受", "帮助", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show(Resources.OpenCommandHelp, Resources.Help, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         #endregion

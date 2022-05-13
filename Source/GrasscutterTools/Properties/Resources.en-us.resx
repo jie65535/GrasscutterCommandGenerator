@@ -133,6 +133,9 @@
   <data name="ArtifactSubAttribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\ArtifactSubAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="AskConfirmDeletion" xml:space="preserve">
+    <value>Are you sure you want to delete this command?</value>
+  </data>
   <data name="Avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Avatar.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
@@ -142,14 +145,41 @@
   <data name="AvatarStats" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\AvatarStats.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="BrowserOpenFailedTip" xml:space="preserve">
+    <value>The browser failed to open. You can manually access the following address:</value>
+  </data>
   <data name="ClimateType" xml:space="preserve">
     <value>None,Sunny,Partly cloudy,Rain,Thunderstorm,Snow,Fog</value>
+  </data>
+  <data name="CodeResendTip" xml:space="preserve">
+    <value>Resend in {0} seconds</value>
+  </data>
+  <data name="CodeSending" xml:space="preserve">
+    <value>sending...</value>
+  </data>
+  <data name="CommandContentCannotBeEmpty" xml:space="preserve">
+    <value>Command cannot be empty</value>
+  </data>
+  <data name="CommandNotFound" xml:space="preserve">
+    <value>Command not found</value>
+  </data>
+  <data name="CommandTagCannotBeEmpty" xml:space="preserve">
+    <value>Command tag cannot be empty</value>
+  </data>
+  <data name="ConnectedTip" xml:space="preserve">
+    <value>Now you can execute commands remotely!</value>
   </data>
   <data name="CustomCommands" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\CustomCommands.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
   <data name="GachaBennerPrefab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\GachaBennerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
   </data>
   <data name="IconGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconGrasscutter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,14 +199,35 @@
   <data name="NPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\NPC.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="OpenCommandHelp" xml:space="preserve">
+    <value>1. Fill in the correct uid\n2. Send verification code to player\n3. Enter the correct verification code\n4. Connection\n5. Enjoy</value>
+  </data>
   <data name="Ornament" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Ornament.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PermissionCannotBeEmpty" xml:space="preserve">
+    <value>Permission cannot be empty!</value>
   </data>
   <data name="Permissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Permissions.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="RequireOpenCommandTip" xml:space="preserve">
+    <value>Please connect to a server that supports [opencommand] first</value>
+  </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="SettingLoadError" xml:space="preserve">
+    <value>Settings load failed:</value>
+  </data>
+  <data name="SettingSaveError" xml:space="preserve">
+    <value>Settings save failed:</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>Tips</value>
+  </data>
+  <data name="UsernameCannotBeEmpty" xml:space="preserve">
+    <value>Username cannot be empty!</value>
   </data>
   <data name="Weapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Weapon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
