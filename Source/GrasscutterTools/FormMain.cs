@@ -947,9 +947,16 @@ namespace GrasscutterTools
             btn.Cursor = Cursors.WaitCursor;
             try
             {
-                var status = await DispatchServerAPI.QueryServerStatus(TxtHost.Text);
-                LblServerVersion.Text = status.Version;
-                LblPlayerCount.Text = status.PlayerCount.ToString();
+                try
+                {
+                    var status = await DispatchServerAPI.QueryServerStatus(TxtHost.Text);
+                    LblServerVersion.Text = status.Version;
+                    LblPlayerCount.Text = status.PlayerCount.ToString();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("查询服务端状态失败：" + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
 
                 OC = new OpenCommandAPI(TxtHost.Text);
                 if (await OC.Ping())
