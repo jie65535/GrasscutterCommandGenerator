@@ -17,5 +17,11 @@
     <Setting Name="TextMapFileName" Type="System.String" Scope="User">
       <Value Profile="(Default)">TextMapCHS</Value>
     </Setting>
+    <Setting Name="RemoteUid" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">10001</Value>
+    </Setting>
+    <Setting Name="Host" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://127.0.0.1</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

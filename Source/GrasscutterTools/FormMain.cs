@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using GrasscutterTools.DispatchServer;
 using GrasscutterTools.Game;
+using GrasscutterTools.OpenCommand;
 using GrasscutterTools.Properties;
 
 namespace GrasscutterTools
@@ -62,6 +65,7 @@ namespace GrasscutterTools
 
                 InitGiveItemRecord();
                 InitSpawnRecord();
+                InitOpenCommand();
             }
             catch (Exception ex)
             {
@@ -79,6 +83,7 @@ namespace GrasscutterTools
                 SaveCustomCommands();
                 SaveGiveItemRecord();
                 SaveSpawnRecord();
+                SaveOpenCommand();
             }
             catch (Exception ex)
             {
@@ -834,6 +839,8 @@ namespace GrasscutterTools
             TxtCommand.Text = command;
             if (ChkAutoCopy.Checked)
                 CopyCommand();
+            if (ModifierKeys == Keys.Control)
+                OnOpenCommandInvoke();
         }
 
         private void SetCommand(string command, string args)
@@ -869,6 +876,19 @@ namespace GrasscutterTools
             btn.Enabled = true;
         }
 
+        private void FormMain_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.F5)
+            {
+                OnOpenCommandInvoke();
+            }
+        }
+
+        private void ShowTip(string message, Control control)
+        {
+            TTip.Show(message, control, 0, control.Size.Height, 3000);
+        }
+
         #endregion - 通用 -
 
         #region - 命令记录 -
@@ -897,16 +917,166 @@ namespace GrasscutterTools
 
         #region - 远程 -
 
-        private void LnkRCHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void InitOpenCommand()
         {
-            MessageBox.Show("TODO：正在开发中", "TODO");
+            NUDRemotePlayerId.Value = Settings.Default.RemoteUid;
+            TxtHost.Text = Settings.Default.Host;
         }
 
-        private void BtnPingHost_Click(object sender, EventArgs e)
+        private void SaveOpenCommand()
         {
-            MessageBox.Show("TODO：正在开发中", "TODO");
+            Settings.Default.RemoteUid = NUDRemotePlayerId.Value;
+            Settings.Default.Host = TxtHost.Text;
+        }
+
+        private OpenCommandAPI OC;
+
+        private async void BtnQueryServerStatus_Click(object sender, EventArgs e)
+        {
+            var btn = sender as Button;
+            btn.Enabled = false;
+            btn.Cursor = Cursors.WaitCursor;
+            try
+            {
+                var status = await DispatchServerAPI.QueryServerStatus(TxtHost.Text);
+                LblServerVersion.Text = status.Version;
+                LblPlayerCount.Text = status.PlayerCount.ToString();
+
+                OC = new OpenCommandAPI(TxtHost.Text);
+                if (await OC.Ping())
+                {
+                    LblOpenCommandSupport.Text = "√";
+                    LblOpenCommandSupport.ForeColor = Color.Green;
+                    GrpRemoteCommand.Enabled = true;
+                }
+                else
+                {
+                    LblOpenCommandSupport.Text = "×";
+                    LblOpenCommandSupport.ForeColor = Color.Red;
+                    GrpRemoteCommand.Enabled = false;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                btn.Cursor = Cursors.Default;
+                btn.Enabled = true;
+            }
+        }
+
+        private async void BtnSendVerificationCode_Click(object sender, EventArgs e)
+        {
+            var btn = sender as Button;
+            var t = btn.Text;
+            btn.Enabled = false;
+            NUDRemotePlayerId.Enabled = false;
+            try
+            {
+                btn.Text = "发送中...";
+                await OC.SendCode((int)NUDRemotePlayerId.Value);
+                BtnConnectOpenCommand.Enabled = true;
+                NUDVerificationCode.Enabled = true;
+                NUDVerificationCode.Focus();
+                for (int i = 60; i > 0 && !OC.CanInvoke; i--)
+                {
+                    btn.Text = $"{i} 秒后可重发";
+                    await Task.Delay(1000);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                btn.Text = t;
+                btn.Enabled = true;
+                NUDRemotePlayerId.Enabled = true;
+            }
+        }
+
+        private async void BtnConnectOpenCommand_Click(object sender, EventArgs e)
+        {
+            var btn = sender as Button;
+            btn.Enabled = false;
+            try
+            {
+                await OC.Verify((int)NUDVerificationCode.Value);
+                GrpRemoteCommand.Enabled = false;
+                BtnInvokeOpenCommand.Focus();
+                ShowTip("现在你可以远程执行命令了哦！", BtnInvokeOpenCommand);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                btn.Cursor = Cursors.Default;
+                btn.Enabled = true;
+            }
+        }
+
+        private void OnOpenCommandInvoke()
+        {
+            BtnInvokeOpenCommand_Click(BtnInvokeOpenCommand, EventArgs.Empty);
+        }
+
+        private async void BtnInvokeOpenCommand_Click(object sender, EventArgs e)
+        {
+            if (TxtCommand.Text.Length < 2)
+            {
+                ShowTip("命令不能为空", TxtCommand);
+                return;
+            }
+            if (OC == null || !OC.CanInvoke)
+            {
+                ShowTip("请先连接到支持[OpenCommand]的服务器", BtnInvokeOpenCommand);
+                TCMain.SelectedTab = TPRemoteCall;
+                return;
+            }
+            var cmd = TxtCommand.Text.Substring(1);
+            var btn = sender as Button;
+            btn.Enabled = false;
+            try
+            {
+                var msg = await OC.Invoke(cmd);
+                ShowTip(msg, btn);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                btn.Cursor = Cursors.Default;
+                btn.Enabled = true;
+            }
+        }
+
+        private void LnkOpenCommandLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start("https://github.com/jie65535/gc-opencommand-plugin");
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("浏览器打开失败，你可以通过以下链接手动访问：\n"
+                    + "https://github.com/jie65535/gc-opencommand-plugin",
+                    "错误", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void LnkRCHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MessageBox.Show("1. 填写正确的UID\n2. 向玩家发送验证码\n3. 输入正确的验证码\n4. 连接\n5. 享受", "帮助", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         #endregion
+
     }
 }
