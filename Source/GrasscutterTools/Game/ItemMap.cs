@@ -19,7 +19,7 @@ namespace GrasscutterTools.Game
                 var si = line.IndexOf(':');
                 if (si > 0 && int.TryParse(line.Substring(0, si).Trim(), out int id))
                 {
-                    var name = line.Substring(si+1).Trim();
+                    var name = line.Substring(si + 1).Trim();
                     if (!string.IsNullOrEmpty(name))
                     {
                         //IdMap[id] = name;
@@ -41,13 +41,12 @@ namespace GrasscutterTools.Game
         //List<int> IdList;
         //List<string> NameList;
 
-
         public int Count => Ids.Length;
 
         //public string this[int id] => IdMap[id];
-        
+
         //public int this[string name] => NameMap[name];
-        
+
         public int[] Ids { get; }
 
         public string[] Names { get; }

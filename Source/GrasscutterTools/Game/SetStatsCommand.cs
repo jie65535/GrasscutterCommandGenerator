@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Text;
+﻿using System.Text;
 
 using GrasscutterTools.Properties;
 
@@ -13,9 +12,9 @@ namespace GrasscutterTools.Game
         {
             public Stat(string name, string argName, bool percent, string tip = "")
             {
-                Name=name;
-                ArgName=argName;
-                Percent=percent;
+                Name = name;
+                ArgName = argName;
+                Percent = percent;
                 Tip = tip;
             }
 

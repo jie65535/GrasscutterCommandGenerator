@@ -10,7 +10,7 @@ namespace GrasscutterTools.Utils
 {
     public static class HttpHelper
     {
-        static readonly HttpClient httpClient = new HttpClient();
+        private static readonly HttpClient httpClient = new HttpClient();
 
         static HttpHelper()
         {

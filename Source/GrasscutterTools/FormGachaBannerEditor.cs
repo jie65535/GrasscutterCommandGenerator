@@ -202,7 +202,7 @@ namespace GrasscutterTools
                 foreach (string item in list.CheckedItems)
                     builder.Append(item.Substring(0, item.IndexOf(':')))
                         .Append(", ");
-                txt.Text = builder.ToString(0, builder.Length-2);
+                txt.Text = builder.ToString(0, builder.Length - 2);
             }
         }
 

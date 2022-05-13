@@ -3,9 +3,8 @@ using System.Windows.Forms;
 
 namespace GrasscutterTools
 {
-    static class MultiLanguage
+    internal static class MultiLanguage
     {
-
         public static string DefaultLanguage = "zh-CN";
 
         public static void SetDefaultLanguage(string lang)
@@ -15,7 +14,6 @@ namespace GrasscutterTools
             Properties.Settings.Default.DefaultLanguage = lang;
             Properties.Settings.Default.Save();
         }
-
 
         /// <summary>
         /// 加载语言

@@ -52,6 +52,5 @@ namespace GrasscutterTools.Game
         public static ItemMap Ornaments { get; private set; }
 
         public static ItemMap GachaBannerPrefabs { get; private set; }
-
     }
 }

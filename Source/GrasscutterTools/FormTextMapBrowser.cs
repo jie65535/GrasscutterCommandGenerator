@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
-using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
@@ -150,7 +149,8 @@ namespace GrasscutterTools
                     .Select(kv => new { Hash = kv.Key, Id = kv.Value, Text = data.TextMap[kv.Key] })
                     .Concat(
                         data.TextMap.Where(kv => r.Match(kv.Key).Success || r.Match(kv.Value).Success)
-                            .Select(kv => new {
+                            .Select(kv => new
+                            {
                                 Hash = kv.Key,
                                 Id = data.ManualTextMap.TryGetValue(kv.Key, out string id) ? id : "",
                                 Text = kv.Value
@@ -179,6 +179,5 @@ namespace GrasscutterTools
             if (e.KeyCode == Keys.Enter)
                 BtnSearch_Click(sender, e);
         }
-
     }
 }

@@ -95,7 +95,6 @@ namespace GrasscutterTools.OpenCommand
             public object Data { get; set; }
         }
 
-
         internal class InvokeException : Exception
         {
             public InvokeException(string message) : base(message)

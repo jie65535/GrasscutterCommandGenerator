@@ -53,7 +53,6 @@ namespace GrasscutterTools
             SaveSettings();
         }
 
-
         private readonly string[] LanguageNames = new string[] { "简体中文", "English" };
         private readonly string[] Languages = new string[] { "zh-CN", "en-US" };
 
@@ -99,8 +98,8 @@ namespace GrasscutterTools
 
         #region - 主页 -
 
+        private FormGachaBannerEditor FormGachaBannerEditor;
 
-        FormGachaBannerEditor FormGachaBannerEditor;
         private void BtnOpenGachaBannerEditor_Click(object sender, EventArgs e)
         {
             if (FormGachaBannerEditor == null || FormGachaBannerEditor.IsDisposed)
@@ -115,7 +114,8 @@ namespace GrasscutterTools
             }
         }
 
-        FormTextMapBrowser FormTextMapBrowser;
+        private FormTextMapBrowser FormTextMapBrowser;
+
         private void BtnOpenTextMap_Click(object sender, EventArgs e)
         {
             if (FormTextMapBrowser == null || FormTextMapBrowser.IsDisposed)
@@ -139,6 +139,7 @@ namespace GrasscutterTools
         #endregion - 主页 -
 
         #region - 自定义 -
+
         private readonly string CustomCommandsFilePath = Path.Combine(Application.LocalUserAppDataPath, "CustomCommands.txt");
 
         private bool CustomCommandsChanged;
@@ -155,8 +156,8 @@ namespace GrasscutterTools
         {
             FLPCustomCommands.Controls.Clear();
             var lines = commands.Split('\n');
-            for (int i = 0; i < lines.Length-1; i += 2)
-                AddCustomCommand(lines[i].Trim(), lines[i+1].Trim());
+            for (int i = 0; i < lines.Length - 1; i += 2)
+                AddCustomCommand(lines[i].Trim(), lines[i + 1].Trim());
         }
 
         private void SaveCustomCommands()
@@ -349,10 +350,9 @@ namespace GrasscutterTools
 
             // 限制星级输入范围
             NUDArtifactStars.Minimum = GameData.Artifacts.Ids[beginIndex] / 100 % 10;
-            NUDArtifactStars.Maximum = GameData.Artifacts.Ids[endIndex]   / 100 % 10;
+            NUDArtifactStars.Maximum = GameData.Artifacts.Ids[endIndex] / 100 % 10;
 
-
-            var parts = GameData.Artifacts.Names.Skip(beginIndex).Take(endIndex-beginIndex+1).Distinct().ToArray();
+            var parts = GameData.Artifacts.Names.Skip(beginIndex).Take(endIndex - beginIndex + 1).Distinct().ToArray();
             var i = CmbArtifactPart.SelectedIndex;
             CmbArtifactPart.Items.Clear();
             CmbArtifactPart.Items.AddRange(parts);
@@ -362,7 +362,8 @@ namespace GrasscutterTools
             ArtifactInputChanged(sender, e);
         }
 
-        readonly string[] ArtifactPartLabels = new string[] { "空之杯", "死之羽", "理之冠", "生之花", "时之沙"};
+        private readonly string[] ArtifactPartLabels = new string[] { "空之杯", "死之羽", "理之冠", "生之花", "时之沙" };
+
         private void CmbArtifactPart_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (CmbArtifactPart.SelectedIndex < 0)
@@ -386,7 +387,7 @@ namespace GrasscutterTools
             //var setId = GameData.ArtifactCats.Ids[CmbArtifactSet.SelectedIndex];
             //var part = CmbArtifactPart.SelectedIndex+1;
             //var index = Array.FindLastIndex(
-            //    GameData.Artifacts.Ids, 
+            //    GameData.Artifacts.Ids,
             //    it =>  it / 1000     == setId // 套装ID
             //        //&& it / 100 % 10 == NUDArtifactStars.Value // 星级
             //        && it / 10 % 10  == part // 部位
@@ -407,7 +408,7 @@ namespace GrasscutterTools
                 foreach (string item in ListSubAttributionChecked.Items)
                 {
                     var subId = item.Substring(0, item.IndexOf(':')).Trim();
-                    var times = int.Parse(item.Substring(item.LastIndexOf('x')+1));
+                    var times = int.Parse(item.Substring(item.LastIndexOf('x') + 1));
                     if (subAttrDir.ContainsKey(subId))
                         subAttrDir[subId] += times;
                     else
@@ -523,8 +524,9 @@ namespace GrasscutterTools
 
         #region -- 物品记录 --
 
-        readonly string GiveItemCommandsRecordPath = Path.Combine(Application.LocalUserAppDataPath, "GiveItemCommands.txt");
-        List<GameCommand> GiveItemCommands;
+        private readonly string GiveItemCommandsRecordPath = Path.Combine(Application.LocalUserAppDataPath, "GiveItemCommands.txt");
+        private List<GameCommand> GiveItemCommands;
+
         private void InitGiveItemRecord()
         {
             if (File.Exists(GiveItemCommandsRecordPath))
@@ -574,7 +576,8 @@ namespace GrasscutterTools
                 ListGiveItemLogs.Items.RemoveAt(ListGiveItemLogs.SelectedIndex);
             }
         }
-        #endregion
+
+        #endregion -- 物品记录 --
 
         #endregion - 物品 -
 
@@ -672,8 +675,9 @@ namespace GrasscutterTools
 
         #region -- 生成记录 --
 
-        readonly string SpawnCommandsRecordPath = Path.Combine(Application.LocalUserAppDataPath, "SpawnCommands.txt");
-        List<GameCommand> SpawnCommands;
+        private readonly string SpawnCommandsRecordPath = Path.Combine(Application.LocalUserAppDataPath, "SpawnCommands.txt");
+        private List<GameCommand> SpawnCommands;
+
         private void InitSpawnRecord()
         {
             if (File.Exists(SpawnCommandsRecordPath))
@@ -686,6 +690,7 @@ namespace GrasscutterTools
                 SpawnCommands = new List<GameCommand>();
             }
         }
+
         private void SaveSpawnRecord()
         {
             File.WriteAllText(SpawnCommandsRecordPath, GetCommandsText(SpawnCommands));
@@ -723,7 +728,7 @@ namespace GrasscutterTools
             }
         }
 
-        #endregion
+        #endregion -- 生成记录 --
 
         #endregion - 生成 -
 
@@ -775,7 +780,7 @@ namespace GrasscutterTools
             LblStatPercent.Visible = stat.Percent;
             LblStatTip.Text = stat.Tip;
 
-            SetCommand("/setstats", $"{stat.ArgName} {NUDStat.Value}{(stat.Percent?"%":"")}");
+            SetCommand("/setstats", $"{stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
         }
 
         private void LnkSetTalentClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -834,7 +839,7 @@ namespace GrasscutterTools
             }
         }
 
-        #endregion
+        #endregion - 关于 -
 
         #region - 命令 -
 
@@ -897,16 +902,16 @@ namespace GrasscutterTools
 
         #region - 命令记录 -
 
-        List<GameCommand> GetCommands(string commandsText)
+        private List<GameCommand> GetCommands(string commandsText)
         {
             var lines = commandsText.Split('\n');
-            List<GameCommand> commands = new List<GameCommand>(lines.Length/2);
-            for (int i = 0; i < lines.Length-1; i += 2)
-                commands.Add(new GameCommand(lines[i].Trim(), lines[i+1].Trim()));
+            List<GameCommand> commands = new List<GameCommand>(lines.Length / 2);
+            for (int i = 0; i < lines.Length - 1; i += 2)
+                commands.Add(new GameCommand(lines[i].Trim(), lines[i + 1].Trim()));
             return commands;
         }
 
-        string GetCommandsText(List<GameCommand> commands)
+        private string GetCommandsText(List<GameCommand> commands)
         {
             StringBuilder builder = new StringBuilder();
             foreach (var cmd in commands)
@@ -917,7 +922,7 @@ namespace GrasscutterTools
             return builder.ToString();
         }
 
-        #endregion
+        #endregion - 命令记录 -
 
         #region - 远程 -
 
@@ -1080,7 +1085,6 @@ namespace GrasscutterTools
             MessageBox.Show(Resources.OpenCommandHelp, Resources.Help, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-        #endregion
-
+        #endregion - 远程 -
     }
 }

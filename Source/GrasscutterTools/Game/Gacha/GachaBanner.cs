@@ -117,6 +117,5 @@ namespace GrasscutterTools.Game.Gacha
         /// </summary>
         [JsonProperty("hardPity", DefaultValueHandling = DefaultValueHandling.Ignore), DefaultValue(90)]
         public int HardPity { get; set; } = 90;
-
     }
 }

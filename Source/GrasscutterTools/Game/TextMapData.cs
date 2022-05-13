@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Newtonsoft.Json;
 
@@ -22,7 +19,7 @@ namespace GrasscutterTools.Game
         public string[] TextMapFilePaths;
         public string[] TextMapFiles;
 
-        void LoadManualTextMap(string manualTextMapPath)
+        private void LoadManualTextMap(string manualTextMapPath)
         {
             using (var fs = File.OpenRead(manualTextMapPath))
             using (var sr = new StreamReader(fs))
@@ -41,7 +38,7 @@ namespace GrasscutterTools.Game
             }
         }
 
-        void LoadTextMaps(string textMapDirPath)
+        private void LoadTextMaps(string textMapDirPath)
         {
             TextMapFilePaths = Directory.GetFiles(textMapDirPath, "TextMap*.json");
             if (TextMapFilePaths.Length == 0)
@@ -65,6 +62,5 @@ namespace GrasscutterTools.Game
                 }
             }
         }
-
     }
 }

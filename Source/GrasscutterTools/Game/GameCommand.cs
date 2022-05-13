@@ -4,8 +4,8 @@
     {
         public GameCommand(string name, string command)
         {
-            Name=name;
-            Command=command;
+            Name = name;
+            Command = command;
         }
 
         public string Name { get; set; }
