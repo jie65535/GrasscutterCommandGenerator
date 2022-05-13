@@ -16,21 +16,17 @@ Please download the latest version from [Releases](https://github.com/jie65535/G
     - [ ] ArtifactMainAttribution.txt
     - [ ] ArtifactSubAttribution.txt
     - [x] Avatar.txt
-    - [ ] CustomCommands.txt
+    - [x] CustomCommands.txt
     - [x] Item.txt
     - [x] Monster.txt
     - [ ] NPC.txt
     - [ ] Ornament.txt
     - [x] Scene.txt
     - [ ] Weapon.txt
-  - [ ] Execute command remotely (progress: new folder)
+  - [x] Execute command remotely
   - [ ] Grasscutter Launcher (no progress)
   - [ ] Mail Editor (no progress)
   - [ ] Shop Editor (no progress)
-
-## v0.10.0 Unpublished
-Added `Text Map Browser`, you can use **regular** search text mapping files
-![Text Map Browser](Doc/Screenshots-en/11-TextMapBrowser.png)
 
 ## Screenshots
 
