@@ -513,8 +513,16 @@ namespace GrasscutterTools
             {
                 var id = name.Substring(0, name.IndexOf(':')).Trim();
 
-                SetCommand(ChkDrop.Checked ? "/drop" : "/give",
-                    $"{id} {NUDGameItemAmout.Value} {NUDGameItemLevel.Value}");
+                if (ChkDrop.Checked)
+                {
+                    NUDGameItemLevel.Enabled = false;
+                    SetCommand("/drop", $"{id} {NUDGameItemAmout.Value}");
+                }
+                else
+                {
+                    NUDGameItemLevel.Enabled = true;
+                    SetCommand("/give", $"{id} {NUDGameItemAmout.Value} {NUDGameItemLevel.Value}");
+                }
                 return true;
             }
             return false;

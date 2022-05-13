@@ -41,7 +41,7 @@ Restart Server
 Send PM
 /say <player> <message>
 Pull in team
-/coop <playerId> <target playerId>
+/coop @targetId
 Suicide
 /killcharacter
 Kill Somebody
@@ -50,3 +50,5 @@ List ALL users
 /list uid
 Reload service config
 /reload
+KillAll
+/killall

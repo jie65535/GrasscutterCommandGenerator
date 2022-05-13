@@ -41,7 +41,7 @@
 私信
 /say <player> <message>
 进来吧你
-/coop <playerId> <target playerId>
+/coop @targetId
 自杀
 /killcharacter
 暗杀
@@ -50,3 +50,5 @@
 /list uid
 重载服务配置
 /reload
+清场
+/killall
