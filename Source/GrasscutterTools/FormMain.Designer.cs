@@ -35,6 +35,7 @@ namespace GrasscutterTools
             this.BtnCopy = new System.Windows.Forms.Button();
             this.ChkAutoCopy = new System.Windows.Forms.CheckBox();
             this.GrpCommand = new System.Windows.Forms.GroupBox();
+            this.BtnInvokeOpenCommand = new System.Windows.Forms.Button();
             this.TCMain = new System.Windows.Forms.TabControl();
             this.TPHome = new System.Windows.Forms.TabPage();
             this.BtnOpenTextMap = new System.Windows.Forms.Button();
@@ -160,25 +161,24 @@ namespace GrasscutterTools
             this.LnkGithub = new System.Windows.Forms.LinkLabel();
             this.LblSupportDescription = new System.Windows.Forms.Label();
             this.TPRemoteCall = new System.Windows.Forms.TabPage();
-            this.GrpRemoteCommand = new System.Windows.Forms.GroupBox();
-            this.TxtHost = new System.Windows.Forms.TextBox();
-            this.LblHost = new System.Windows.Forms.Label();
-            this.BtnQueryServerStatus = new System.Windows.Forms.Button();
-            this.NUDRemotePlayerId = new System.Windows.Forms.NumericUpDown();
-            this.LblRemotePlayerId = new System.Windows.Forms.Label();
-            this.LblServerVersionLabel = new System.Windows.Forms.Label();
-            this.LblServerVersion = new System.Windows.Forms.Label();
-            this.LblPlayerCountLabel = new System.Windows.Forms.Label();
-            this.LblPlayerCount = new System.Windows.Forms.Label();
             this.GrpServerStatus = new System.Windows.Forms.GroupBox();
-            this.LblOpenCommandSupport = new System.Windows.Forms.Label();
             this.LnkOpenCommandLabel = new System.Windows.Forms.LinkLabel();
-            this.LblVerificationCode = new System.Windows.Forms.Label();
-            this.NUDVerificationCode = new System.Windows.Forms.NumericUpDown();
-            this.BtnSendVerificationCode = new System.Windows.Forms.Button();
-            this.BtnConnectOpenCommand = new System.Windows.Forms.Button();
-            this.BtnInvokeOpenCommand = new System.Windows.Forms.Button();
+            this.LblOpenCommandSupport = new System.Windows.Forms.Label();
+            this.LblServerVersion = new System.Windows.Forms.Label();
+            this.LblPlayerCount = new System.Windows.Forms.Label();
+            this.LblServerVersionLabel = new System.Windows.Forms.Label();
+            this.LblPlayerCountLabel = new System.Windows.Forms.Label();
+            this.GrpRemoteCommand = new System.Windows.Forms.GroupBox();
             this.LnkRCHelp = new System.Windows.Forms.LinkLabel();
+            this.BtnConnectOpenCommand = new System.Windows.Forms.Button();
+            this.BtnSendVerificationCode = new System.Windows.Forms.Button();
+            this.LblRemotePlayerId = new System.Windows.Forms.Label();
+            this.NUDVerificationCode = new System.Windows.Forms.NumericUpDown();
+            this.LblVerificationCode = new System.Windows.Forms.Label();
+            this.NUDRemotePlayerId = new System.Windows.Forms.NumericUpDown();
+            this.TxtHost = new System.Windows.Forms.TextBox();
+            this.BtnQueryServerStatus = new System.Windows.Forms.Button();
+            this.LblHost = new System.Windows.Forms.Label();
             this.TTip = new System.Windows.Forms.ToolTip(this.components);
             this.GrpCommand.SuspendLayout();
             this.TCMain.SuspendLayout();
@@ -222,10 +222,10 @@ namespace GrasscutterTools
             this.TPAbout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.TPRemoteCall.SuspendLayout();
-            this.GrpRemoteCommand.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDRemotePlayerId)).BeginInit();
             this.GrpServerStatus.SuspendLayout();
+            this.GrpRemoteCommand.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDVerificationCode)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDRemotePlayerId)).BeginInit();
             this.SuspendLayout();
             // 
             // TxtCommand
@@ -255,6 +255,13 @@ namespace GrasscutterTools
             this.GrpCommand.Controls.Add(this.TxtCommand);
             this.GrpCommand.Name = "GrpCommand";
             this.GrpCommand.TabStop = false;
+            // 
+            // BtnInvokeOpenCommand
+            // 
+            resources.ApplyResources(this.BtnInvokeOpenCommand, "BtnInvokeOpenCommand");
+            this.BtnInvokeOpenCommand.Name = "BtnInvokeOpenCommand";
+            this.BtnInvokeOpenCommand.UseVisualStyleBackColor = true;
+            this.BtnInvokeOpenCommand.Click += new System.EventHandler(this.BtnInvokeOpenCommand_Click);
             // 
             // TCMain
             // 
@@ -1371,6 +1378,50 @@ namespace GrasscutterTools
             this.TPRemoteCall.Name = "TPRemoteCall";
             this.TPRemoteCall.UseVisualStyleBackColor = true;
             // 
+            // GrpServerStatus
+            // 
+            this.GrpServerStatus.Controls.Add(this.LnkOpenCommandLabel);
+            this.GrpServerStatus.Controls.Add(this.LblOpenCommandSupport);
+            this.GrpServerStatus.Controls.Add(this.LblServerVersion);
+            this.GrpServerStatus.Controls.Add(this.LblPlayerCount);
+            this.GrpServerStatus.Controls.Add(this.LblServerVersionLabel);
+            this.GrpServerStatus.Controls.Add(this.LblPlayerCountLabel);
+            resources.ApplyResources(this.GrpServerStatus, "GrpServerStatus");
+            this.GrpServerStatus.Name = "GrpServerStatus";
+            this.GrpServerStatus.TabStop = false;
+            // 
+            // LnkOpenCommandLabel
+            // 
+            resources.ApplyResources(this.LnkOpenCommandLabel, "LnkOpenCommandLabel");
+            this.LnkOpenCommandLabel.Name = "LnkOpenCommandLabel";
+            this.LnkOpenCommandLabel.TabStop = true;
+            this.LnkOpenCommandLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkOpenCommandLabel_LinkClicked);
+            // 
+            // LblOpenCommandSupport
+            // 
+            resources.ApplyResources(this.LblOpenCommandSupport, "LblOpenCommandSupport");
+            this.LblOpenCommandSupport.Name = "LblOpenCommandSupport";
+            // 
+            // LblServerVersion
+            // 
+            resources.ApplyResources(this.LblServerVersion, "LblServerVersion");
+            this.LblServerVersion.Name = "LblServerVersion";
+            // 
+            // LblPlayerCount
+            // 
+            resources.ApplyResources(this.LblPlayerCount, "LblPlayerCount");
+            this.LblPlayerCount.Name = "LblPlayerCount";
+            // 
+            // LblServerVersionLabel
+            // 
+            resources.ApplyResources(this.LblServerVersionLabel, "LblServerVersionLabel");
+            this.LblServerVersionLabel.Name = "LblServerVersionLabel";
+            // 
+            // LblPlayerCountLabel
+            // 
+            resources.ApplyResources(this.LblPlayerCountLabel, "LblPlayerCountLabel");
+            this.LblPlayerCountLabel.Name = "LblPlayerCountLabel";
+            // 
             // GrpRemoteCommand
             // 
             resources.ApplyResources(this.GrpRemoteCommand, "GrpRemoteCommand");
@@ -1384,91 +1435,31 @@ namespace GrasscutterTools
             this.GrpRemoteCommand.Name = "GrpRemoteCommand";
             this.GrpRemoteCommand.TabStop = false;
             // 
-            // TxtHost
+            // LnkRCHelp
             // 
-            resources.ApplyResources(this.TxtHost, "TxtHost");
-            this.TxtHost.Name = "TxtHost";
+            resources.ApplyResources(this.LnkRCHelp, "LnkRCHelp");
+            this.LnkRCHelp.Name = "LnkRCHelp";
+            this.LnkRCHelp.TabStop = true;
+            this.LnkRCHelp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkRCHelp_LinkClicked);
             // 
-            // LblHost
+            // BtnConnectOpenCommand
             // 
-            resources.ApplyResources(this.LblHost, "LblHost");
-            this.LblHost.Name = "LblHost";
+            resources.ApplyResources(this.BtnConnectOpenCommand, "BtnConnectOpenCommand");
+            this.BtnConnectOpenCommand.Name = "BtnConnectOpenCommand";
+            this.BtnConnectOpenCommand.UseVisualStyleBackColor = true;
+            this.BtnConnectOpenCommand.Click += new System.EventHandler(this.BtnConnectOpenCommand_Click);
             // 
-            // BtnQueryServerStatus
+            // BtnSendVerificationCode
             // 
-            resources.ApplyResources(this.BtnQueryServerStatus, "BtnQueryServerStatus");
-            this.BtnQueryServerStatus.Name = "BtnQueryServerStatus";
-            this.BtnQueryServerStatus.UseVisualStyleBackColor = true;
-            this.BtnQueryServerStatus.Click += new System.EventHandler(this.BtnQueryServerStatus_Click);
-            // 
-            // NUDRemotePlayerId
-            // 
-            resources.ApplyResources(this.NUDRemotePlayerId, "NUDRemotePlayerId");
-            this.NUDRemotePlayerId.Maximum = new decimal(new int[] {
-            2147483647,
-            0,
-            0,
-            0});
-            this.NUDRemotePlayerId.Name = "NUDRemotePlayerId";
-            this.NUDRemotePlayerId.Value = new decimal(new int[] {
-            10001,
-            0,
-            0,
-            0});
+            resources.ApplyResources(this.BtnSendVerificationCode, "BtnSendVerificationCode");
+            this.BtnSendVerificationCode.Name = "BtnSendVerificationCode";
+            this.BtnSendVerificationCode.UseVisualStyleBackColor = true;
+            this.BtnSendVerificationCode.Click += new System.EventHandler(this.BtnSendVerificationCode_Click);
             // 
             // LblRemotePlayerId
             // 
             resources.ApplyResources(this.LblRemotePlayerId, "LblRemotePlayerId");
             this.LblRemotePlayerId.Name = "LblRemotePlayerId";
-            // 
-            // LblServerVersionLabel
-            // 
-            resources.ApplyResources(this.LblServerVersionLabel, "LblServerVersionLabel");
-            this.LblServerVersionLabel.Name = "LblServerVersionLabel";
-            // 
-            // LblServerVersion
-            // 
-            resources.ApplyResources(this.LblServerVersion, "LblServerVersion");
-            this.LblServerVersion.Name = "LblServerVersion";
-            // 
-            // LblPlayerCountLabel
-            // 
-            resources.ApplyResources(this.LblPlayerCountLabel, "LblPlayerCountLabel");
-            this.LblPlayerCountLabel.Name = "LblPlayerCountLabel";
-            // 
-            // LblPlayerCount
-            // 
-            resources.ApplyResources(this.LblPlayerCount, "LblPlayerCount");
-            this.LblPlayerCount.Name = "LblPlayerCount";
-            // 
-            // GrpServerStatus
-            // 
-            this.GrpServerStatus.Controls.Add(this.LnkOpenCommandLabel);
-            this.GrpServerStatus.Controls.Add(this.LblOpenCommandSupport);
-            this.GrpServerStatus.Controls.Add(this.LblServerVersion);
-            this.GrpServerStatus.Controls.Add(this.LblPlayerCount);
-            this.GrpServerStatus.Controls.Add(this.LblServerVersionLabel);
-            this.GrpServerStatus.Controls.Add(this.LblPlayerCountLabel);
-            resources.ApplyResources(this.GrpServerStatus, "GrpServerStatus");
-            this.GrpServerStatus.Name = "GrpServerStatus";
-            this.GrpServerStatus.TabStop = false;
-            // 
-            // LblOpenCommandSupport
-            // 
-            resources.ApplyResources(this.LblOpenCommandSupport, "LblOpenCommandSupport");
-            this.LblOpenCommandSupport.Name = "LblOpenCommandSupport";
-            // 
-            // LnkOpenCommandLabel
-            // 
-            resources.ApplyResources(this.LnkOpenCommandLabel, "LnkOpenCommandLabel");
-            this.LnkOpenCommandLabel.Name = "LnkOpenCommandLabel";
-            this.LnkOpenCommandLabel.TabStop = true;
-            this.LnkOpenCommandLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkOpenCommandLabel_LinkClicked);
-            // 
-            // LblVerificationCode
-            // 
-            resources.ApplyResources(this.LblVerificationCode, "LblVerificationCode");
-            this.LblVerificationCode.Name = "LblVerificationCode";
             // 
             // NUDVerificationCode
             // 
@@ -1490,33 +1481,42 @@ namespace GrasscutterTools
             0,
             0});
             // 
-            // BtnSendVerificationCode
+            // LblVerificationCode
             // 
-            resources.ApplyResources(this.BtnSendVerificationCode, "BtnSendVerificationCode");
-            this.BtnSendVerificationCode.Name = "BtnSendVerificationCode";
-            this.BtnSendVerificationCode.UseVisualStyleBackColor = true;
-            this.BtnSendVerificationCode.Click += new System.EventHandler(this.BtnSendVerificationCode_Click);
+            resources.ApplyResources(this.LblVerificationCode, "LblVerificationCode");
+            this.LblVerificationCode.Name = "LblVerificationCode";
             // 
-            // BtnConnectOpenCommand
+            // NUDRemotePlayerId
             // 
-            resources.ApplyResources(this.BtnConnectOpenCommand, "BtnConnectOpenCommand");
-            this.BtnConnectOpenCommand.Name = "BtnConnectOpenCommand";
-            this.BtnConnectOpenCommand.UseVisualStyleBackColor = true;
-            this.BtnConnectOpenCommand.Click += new System.EventHandler(this.BtnConnectOpenCommand_Click);
+            resources.ApplyResources(this.NUDRemotePlayerId, "NUDRemotePlayerId");
+            this.NUDRemotePlayerId.Maximum = new decimal(new int[] {
+            2147483647,
+            0,
+            0,
+            0});
+            this.NUDRemotePlayerId.Name = "NUDRemotePlayerId";
+            this.NUDRemotePlayerId.Value = new decimal(new int[] {
+            10001,
+            0,
+            0,
+            0});
             // 
-            // BtnInvokeOpenCommand
+            // TxtHost
             // 
-            resources.ApplyResources(this.BtnInvokeOpenCommand, "BtnInvokeOpenCommand");
-            this.BtnInvokeOpenCommand.Name = "BtnInvokeOpenCommand";
-            this.BtnInvokeOpenCommand.UseVisualStyleBackColor = true;
-            this.BtnInvokeOpenCommand.Click += new System.EventHandler(this.BtnInvokeOpenCommand_Click);
+            resources.ApplyResources(this.TxtHost, "TxtHost");
+            this.TxtHost.Name = "TxtHost";
             // 
-            // LnkRCHelp
+            // BtnQueryServerStatus
             // 
-            resources.ApplyResources(this.LnkRCHelp, "LnkRCHelp");
-            this.LnkRCHelp.Name = "LnkRCHelp";
-            this.LnkRCHelp.TabStop = true;
-            this.LnkRCHelp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkRCHelp_LinkClicked);
+            resources.ApplyResources(this.BtnQueryServerStatus, "BtnQueryServerStatus");
+            this.BtnQueryServerStatus.Name = "BtnQueryServerStatus";
+            this.BtnQueryServerStatus.UseVisualStyleBackColor = true;
+            this.BtnQueryServerStatus.Click += new System.EventHandler(this.BtnQueryServerStatus_Click);
+            // 
+            // LblHost
+            // 
+            resources.ApplyResources(this.LblHost, "LblHost");
+            this.LblHost.Name = "LblHost";
             // 
             // FormMain
             // 
@@ -1524,6 +1524,7 @@ namespace GrasscutterTools
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.TCMain);
             this.Controls.Add(this.GrpCommand);
+            this.KeyPreview = true;
             this.Name = "FormMain";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormMain_FormClosed);
             this.Load += new System.EventHandler(this.FormMain_Load);
@@ -1588,12 +1589,12 @@ namespace GrasscutterTools
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.TPRemoteCall.ResumeLayout(false);
             this.TPRemoteCall.PerformLayout();
-            this.GrpRemoteCommand.ResumeLayout(false);
-            this.GrpRemoteCommand.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDRemotePlayerId)).EndInit();
             this.GrpServerStatus.ResumeLayout(false);
             this.GrpServerStatus.PerformLayout();
+            this.GrpRemoteCommand.ResumeLayout(false);
+            this.GrpRemoteCommand.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDVerificationCode)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDRemotePlayerId)).EndInit();
             this.ResumeLayout(false);
 
         }

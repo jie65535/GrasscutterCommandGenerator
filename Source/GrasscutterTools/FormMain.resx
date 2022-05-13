@@ -255,258 +255,6 @@
   <data name="TCMain.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;TPHome.Name" xml:space="preserve">
-    <value>TPHome</value>
-  </data>
-  <data name="&gt;&gt;TPHome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPHome.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPHome.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;TPCustom.Name" xml:space="preserve">
-    <value>TPCustom</value>
-  </data>
-  <data name="&gt;&gt;TPCustom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPCustom.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPCustom.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;TPArtifact.Name" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;TPArtifact.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPArtifact.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPArtifact.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;TPWeapon.Name" xml:space="preserve">
-    <value>TPWeapon</value>
-  </data>
-  <data name="&gt;&gt;TPWeapon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPWeapon.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPWeapon.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;TPItem.Name" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;TPItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPItem.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPItem.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;TPAvatar.Name" xml:space="preserve">
-    <value>TPAvatar</value>
-  </data>
-  <data name="&gt;&gt;TPAvatar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPAvatar.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPAvatar.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;TPSpawn.Name" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;TPSpawn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPSpawn.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPSpawn.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;TPScene.Name" xml:space="preserve">
-    <value>TPScene</value>
-  </data>
-  <data name="&gt;&gt;TPScene.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPScene.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPScene.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;TPStats.Name" xml:space="preserve">
-    <value>TPStats</value>
-  </data>
-  <data name="&gt;&gt;TPStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPStats.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPStats.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;TPManage.Name" xml:space="preserve">
-    <value>TPManage</value>
-  </data>
-  <data name="&gt;&gt;TPManage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPManage.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPManage.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;TPAbout.Name" xml:space="preserve">
-    <value>TPAbout</value>
-  </data>
-  <data name="&gt;&gt;TPAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPAbout.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPAbout.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;TPRemoteCall.Name" xml:space="preserve">
-    <value>TPRemoteCall</value>
-  </data>
-  <data name="&gt;&gt;TPRemoteCall.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPRemoteCall.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPRemoteCall.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="TCMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="TCMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>610, 275</value>
-  </data>
-  <data name="TCMain.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;TCMain.Name" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TCMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TCMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TCMain.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenTextMap.Name" xml:space="preserve">
-    <value>BtnOpenTextMap</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenTextMap.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenTextMap.Parent" xml:space="preserve">
-    <value>TPHome</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenTextMap.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenGachaBannerEditor.Name" xml:space="preserve">
-    <value>BtnOpenGachaBannerEditor</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenGachaBannerEditor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenGachaBannerEditor.Parent" xml:space="preserve">
-    <value>TPHome</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenGachaBannerEditor.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
-    <value>pictureBox1</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>TPHome</value>
-  </data>
-  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;GrpSettings.Name" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="&gt;&gt;GrpSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpSettings.Parent" xml:space="preserve">
-    <value>TPHome</value>
-  </data>
-  <data name="&gt;&gt;GrpSettings.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblAbout.Name" xml:space="preserve">
-    <value>LblAbout</value>
-  </data>
-  <data name="&gt;&gt;LblAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblAbout.Parent" xml:space="preserve">
-    <value>TPHome</value>
-  </data>
-  <data name="&gt;&gt;LblAbout.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="TPHome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPHome.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPHome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>602, 245</value>
-  </data>
-  <data name="TPHome.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>主页</value>
-  </data>
-  <data name="&gt;&gt;TPHome.Name" xml:space="preserve">
-    <value>TPHome</value>
-  </data>
-  <data name="&gt;&gt;TPHome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPHome.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPHome.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="BtnOpenTextMap.Location" type="System.Drawing.Point, System.Drawing">
     <value>112, 122</value>
   </data>
@@ -590,90 +338,6 @@
   </data>
   <data name="GrpSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;CmbLanguage.Name" xml:space="preserve">
-    <value>CmbLanguage</value>
-  </data>
-  <data name="&gt;&gt;CmbLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbLanguage.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="&gt;&gt;CmbLanguage.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LblLanguage.Name" xml:space="preserve">
-    <value>LblLanguage</value>
-  </data>
-  <data name="&gt;&gt;LblLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblLanguage.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="&gt;&gt;LblLanguage.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;NUDUid.Name" xml:space="preserve">
-    <value>NUDUid</value>
-  </data>
-  <data name="&gt;&gt;NUDUid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDUid.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="&gt;&gt;NUDUid.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;ChkIncludeUID.Name" xml:space="preserve">
-    <value>ChkIncludeUID</value>
-  </data>
-  <data name="&gt;&gt;ChkIncludeUID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ChkIncludeUID.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="&gt;&gt;ChkIncludeUID.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblDefaultUid.Name" xml:space="preserve">
-    <value>LblDefaultUid</value>
-  </data>
-  <data name="&gt;&gt;LblDefaultUid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblDefaultUid.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="&gt;&gt;LblDefaultUid.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="GrpSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 151</value>
-  </data>
-  <data name="GrpSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 88</value>
-  </data>
-  <data name="GrpSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="GrpSettings.Text" xml:space="preserve">
-    <value>设置</value>
-  </data>
-  <data name="&gt;&gt;GrpSettings.Name" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="&gt;&gt;GrpSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpSettings.Parent" xml:space="preserve">
-    <value>TPHome</value>
-  </data>
-  <data name="&gt;&gt;GrpSettings.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="CmbLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>41, 51</value>
@@ -798,6 +462,30 @@
   <data name="&gt;&gt;LblDefaultUid.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="GrpSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 151</value>
+  </data>
+  <data name="GrpSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 88</value>
+  </data>
+  <data name="GrpSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="GrpSettings.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="&gt;&gt;GrpSettings.Name" xml:space="preserve">
+    <value>GrpSettings</value>
+  </data>
+  <data name="&gt;&gt;GrpSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpSettings.Parent" xml:space="preserve">
+    <value>TPHome</value>
+  </data>
+  <data name="&gt;&gt;GrpSettings.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="LblAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
   </data>
@@ -831,116 +519,32 @@
   <data name="&gt;&gt;LblAbout.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;BtnExportCustomCommands.Name" xml:space="preserve">
-    <value>BtnExportCustomCommands</value>
-  </data>
-  <data name="&gt;&gt;BtnExportCustomCommands.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnExportCustomCommands.Parent" xml:space="preserve">
-    <value>TPCustom</value>
-  </data>
-  <data name="&gt;&gt;BtnExportCustomCommands.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BtnLoadCustomCommands.Name" xml:space="preserve">
-    <value>BtnLoadCustomCommands</value>
-  </data>
-  <data name="&gt;&gt;BtnLoadCustomCommands.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnLoadCustomCommands.Parent" xml:space="preserve">
-    <value>TPCustom</value>
-  </data>
-  <data name="&gt;&gt;BtnLoadCustomCommands.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LblCustomName.Name" xml:space="preserve">
-    <value>LblCustomName</value>
-  </data>
-  <data name="&gt;&gt;LblCustomName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblCustomName.Parent" xml:space="preserve">
-    <value>TPCustom</value>
-  </data>
-  <data name="&gt;&gt;LblCustomName.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>TPCustom</value>
-  </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveCustomCommand.Name" xml:space="preserve">
-    <value>BtnRemoveCustomCommand</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveCustomCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveCustomCommand.Parent" xml:space="preserve">
-    <value>TPCustom</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveCustomCommand.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveCustomCommand.Name" xml:space="preserve">
-    <value>BtnSaveCustomCommand</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveCustomCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveCustomCommand.Parent" xml:space="preserve">
-    <value>TPCustom</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveCustomCommand.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;TxtCustomName.Name" xml:space="preserve">
-    <value>TxtCustomName</value>
-  </data>
-  <data name="&gt;&gt;TxtCustomName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtCustomName.Parent" xml:space="preserve">
-    <value>TPCustom</value>
-  </data>
-  <data name="&gt;&gt;TxtCustomName.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="TPCustom.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="TPHome.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="TPCustom.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="TPHome.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="TPCustom.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPHome.Size" type="System.Drawing.Size, System.Drawing">
     <value>602, 245</value>
   </data>
-  <data name="TPCustom.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="TPHome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>自定义</value>
+  <data name="TPHome.Text" xml:space="preserve">
+    <value>主页</value>
   </data>
-  <data name="&gt;&gt;TPCustom.Name" xml:space="preserve">
-    <value>TPCustom</value>
+  <data name="&gt;&gt;TPHome.Name" xml:space="preserve">
+    <value>TPHome</value>
   </data>
-  <data name="&gt;&gt;TPCustom.Type" xml:space="preserve">
+  <data name="&gt;&gt;TPHome.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPCustom.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPHome.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;TPCustom.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;TPHome.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="BtnExportCustomCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -1029,6 +633,21 @@
   <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="FLPCustomCommands.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FLPCustomCommands.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="FLPCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="FLPCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>584, 182</value>
+  </data>
+  <data name="FLPCustomCommands.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;FLPCustomCommands.Name" xml:space="preserve">
     <value>FLPCustomCommands</value>
   </data>
@@ -1064,33 +683,6 @@
   </data>
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="FLPCustomCommands.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="FLPCustomCommands.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="FLPCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
-  </data>
-  <data name="FLPCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>584, 182</value>
-  </data>
-  <data name="FLPCustomCommands.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;FLPCustomCommands.Name" xml:space="preserve">
-    <value>FLPCustomCommands</value>
-  </data>
-  <data name="&gt;&gt;FLPCustomCommands.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;FLPCustomCommands.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;FLPCustomCommands.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="BtnRemoveCustomCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -1170,260 +762,32 @@
   <data name="&gt;&gt;TxtCustomName.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;LblArtifactName.Name" xml:space="preserve">
-    <value>LblArtifactName</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactName.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactName.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;NUDArtifactStars.Name" xml:space="preserve">
-    <value>NUDArtifactStars</value>
-  </data>
-  <data name="&gt;&gt;NUDArtifactStars.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDArtifactStars.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;NUDArtifactStars.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactStars.Name" xml:space="preserve">
-    <value>LblArtifactStars</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactStars.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactStars.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactStars.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactPart.Name" xml:space="preserve">
-    <value>LblArtifactPart</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactPart.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactPart.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactPart.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;CmbArtifactPart.Name" xml:space="preserve">
-    <value>CmbArtifactPart</value>
-  </data>
-  <data name="&gt;&gt;CmbArtifactPart.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbArtifactPart.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;CmbArtifactPart.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;CmbArtifactSet.Name" xml:space="preserve">
-    <value>CmbArtifactSet</value>
-  </data>
-  <data name="&gt;&gt;CmbArtifactSet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbArtifactSet.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;CmbArtifactSet.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactSet.Name" xml:space="preserve">
-    <value>LblArtifactSet</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactSet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactSet.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactSet.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactLevelTip.Name" xml:space="preserve">
-    <value>LblArtifactLevelTip</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactLevelTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactLevelTip.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactLevelTip.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;LblAddSubAttr.Name" xml:space="preserve">
-    <value>LblAddSubAttr</value>
-  </data>
-  <data name="&gt;&gt;LblAddSubAttr.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblAddSubAttr.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;LblAddSubAttr.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;NUDSubAttributionTimes.Name" xml:space="preserve">
-    <value>NUDSubAttributionTimes</value>
-  </data>
-  <data name="&gt;&gt;NUDSubAttributionTimes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDSubAttributionTimes.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;NUDSubAttributionTimes.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;CmbSubAttributionValue.Name" xml:space="preserve">
-    <value>CmbSubAttributionValue</value>
-  </data>
-  <data name="&gt;&gt;CmbSubAttributionValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbSubAttributionValue.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;CmbSubAttributionValue.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;CmbSubAttribution.Name" xml:space="preserve">
-    <value>CmbSubAttribution</value>
-  </data>
-  <data name="&gt;&gt;CmbSubAttribution.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbSubAttribution.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;CmbSubAttribution.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;LblClearSubAttrCheckedList.Name" xml:space="preserve">
-    <value>LblClearSubAttrCheckedList</value>
-  </data>
-  <data name="&gt;&gt;LblClearSubAttrCheckedList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblClearSubAttrCheckedList.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;LblClearSubAttrCheckedList.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;ListSubAttributionChecked.Name" xml:space="preserve">
-    <value>ListSubAttributionChecked</value>
-  </data>
-  <data name="&gt;&gt;ListSubAttributionChecked.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListSubAttributionChecked.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;ListSubAttributionChecked.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;NUDArtifactLevel.Name" xml:space="preserve">
-    <value>NUDArtifactLevel</value>
-  </data>
-  <data name="&gt;&gt;NUDArtifactLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDArtifactLevel.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;NUDArtifactLevel.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactLevel.Name" xml:space="preserve">
-    <value>LblArtifactLevel</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactLevel.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactLevel.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;LblSubAttribution.Name" xml:space="preserve">
-    <value>LblSubAttribution</value>
-  </data>
-  <data name="&gt;&gt;LblSubAttribution.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblSubAttribution.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;LblSubAttribution.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;CmbMainAttribution.Name" xml:space="preserve">
-    <value>CmbMainAttribution</value>
-  </data>
-  <data name="&gt;&gt;CmbMainAttribution.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbMainAttribution.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;CmbMainAttribution.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;LblMainAttribution.Name" xml:space="preserve">
-    <value>LblMainAttribution</value>
-  </data>
-  <data name="&gt;&gt;LblMainAttribution.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblMainAttribution.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;LblMainAttribution.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="TPArtifact.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="TPCustom.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="TPArtifact.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="TPCustom.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="TPArtifact.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPCustom.Size" type="System.Drawing.Size, System.Drawing">
     <value>602, 245</value>
   </data>
-  <data name="TPArtifact.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="TPCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>圣遗物</value>
+  <data name="TPCustom.Text" xml:space="preserve">
+    <value>自定义</value>
   </data>
-  <data name="&gt;&gt;TPArtifact.Name" xml:space="preserve">
-    <value>TPArtifact</value>
+  <data name="&gt;&gt;TPCustom.Name" xml:space="preserve">
+    <value>TPCustom</value>
   </data>
-  <data name="&gt;&gt;TPArtifact.Type" xml:space="preserve">
+  <data name="&gt;&gt;TPCustom.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPArtifact.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPCustom.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;TPArtifact.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;TPCustom.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="LblArtifactName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -1944,140 +1308,32 @@
   <data name="&gt;&gt;LblMainAttribution.ZOrder" xml:space="preserve">
     <value>18</value>
   </data>
-  <data name="&gt;&gt;TxtWeaponFilter.Name" xml:space="preserve">
-    <value>TxtWeaponFilter</value>
-  </data>
-  <data name="&gt;&gt;TxtWeaponFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtWeaponFilter.Parent" xml:space="preserve">
-    <value>TPWeapon</value>
-  </data>
-  <data name="&gt;&gt;TxtWeaponFilter.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponDescription.Name" xml:space="preserve">
-    <value>LblWeaponDescription</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponDescription.Parent" xml:space="preserve">
-    <value>TPWeapon</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponDescription.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponRefinement.Name" xml:space="preserve">
-    <value>LblWeaponRefinement</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponRefinement.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponRefinement.Parent" xml:space="preserve">
-    <value>TPWeapon</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponRefinement.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponAmount.Name" xml:space="preserve">
-    <value>LblWeaponAmount</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponAmount.Parent" xml:space="preserve">
-    <value>TPWeapon</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponAmount.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponLevel.Name" xml:space="preserve">
-    <value>LblWeaponLevel</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponLevel.Parent" xml:space="preserve">
-    <value>TPWeapon</value>
-  </data>
-  <data name="&gt;&gt;LblWeaponLevel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;NUDWeaponRefinement.Name" xml:space="preserve">
-    <value>NUDWeaponRefinement</value>
-  </data>
-  <data name="&gt;&gt;NUDWeaponRefinement.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDWeaponRefinement.Parent" xml:space="preserve">
-    <value>TPWeapon</value>
-  </data>
-  <data name="&gt;&gt;NUDWeaponRefinement.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;NUDWeaponAmout.Name" xml:space="preserve">
-    <value>NUDWeaponAmout</value>
-  </data>
-  <data name="&gt;&gt;NUDWeaponAmout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDWeaponAmout.Parent" xml:space="preserve">
-    <value>TPWeapon</value>
-  </data>
-  <data name="&gt;&gt;NUDWeaponAmout.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;NUDWeaponLevel.Name" xml:space="preserve">
-    <value>NUDWeaponLevel</value>
-  </data>
-  <data name="&gt;&gt;NUDWeaponLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDWeaponLevel.Parent" xml:space="preserve">
-    <value>TPWeapon</value>
-  </data>
-  <data name="&gt;&gt;NUDWeaponLevel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;ListWeapons.Name" xml:space="preserve">
-    <value>ListWeapons</value>
-  </data>
-  <data name="&gt;&gt;ListWeapons.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListWeapons.Parent" xml:space="preserve">
-    <value>TPWeapon</value>
-  </data>
-  <data name="&gt;&gt;ListWeapons.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="TPWeapon.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="TPArtifact.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="TPWeapon.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="TPArtifact.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="TPWeapon.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPArtifact.Size" type="System.Drawing.Size, System.Drawing">
     <value>602, 245</value>
   </data>
-  <data name="TPWeapon.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="TPArtifact.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="TPWeapon.Text" xml:space="preserve">
-    <value>武器</value>
+  <data name="TPArtifact.Text" xml:space="preserve">
+    <value>圣遗物</value>
   </data>
-  <data name="&gt;&gt;TPWeapon.Name" xml:space="preserve">
-    <value>TPWeapon</value>
+  <data name="&gt;&gt;TPArtifact.Name" xml:space="preserve">
+    <value>TPArtifact</value>
   </data>
-  <data name="&gt;&gt;TPWeapon.Type" xml:space="preserve">
+  <data name="&gt;&gt;TPArtifact.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPWeapon.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPArtifact.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;TPWeapon.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;TPArtifact.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="TxtWeaponFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -2330,164 +1586,32 @@
   <data name="&gt;&gt;ListWeapons.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="&gt;&gt;BtnSaveGiveItemLog.Name" xml:space="preserve">
-    <value>BtnSaveGiveItemLog</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveGiveItemLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveGiveItemLog.Parent" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveGiveItemLog.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveGiveItemLog.Name" xml:space="preserve">
-    <value>BtnRemoveGiveItemLog</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveGiveItemLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveGiveItemLog.Parent" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveGiveItemLog.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;GrpGiveItemRecord.Name" xml:space="preserve">
-    <value>GrpGiveItemRecord</value>
-  </data>
-  <data name="&gt;&gt;GrpGiveItemRecord.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpGiveItemRecord.Parent" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;GrpGiveItemRecord.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;ChkDrop.Name" xml:space="preserve">
-    <value>ChkDrop</value>
-  </data>
-  <data name="&gt;&gt;ChkDrop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ChkDrop.Parent" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;ChkDrop.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;TxtGameItemFilter.Name" xml:space="preserve">
-    <value>TxtGameItemFilter</value>
-  </data>
-  <data name="&gt;&gt;TxtGameItemFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtGameItemFilter.Parent" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;TxtGameItemFilter.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;ListGameItems.Name" xml:space="preserve">
-    <value>ListGameItems</value>
-  </data>
-  <data name="&gt;&gt;ListGameItems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListGameItems.Parent" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;ListGameItems.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;LblGameItemAmount.Name" xml:space="preserve">
-    <value>LblGameItemAmount</value>
-  </data>
-  <data name="&gt;&gt;LblGameItemAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblGameItemAmount.Parent" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;LblGameItemAmount.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;LblGameItemLevel.Name" xml:space="preserve">
-    <value>LblGameItemLevel</value>
-  </data>
-  <data name="&gt;&gt;LblGameItemLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblGameItemLevel.Parent" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;LblGameItemLevel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;NUDGameItemAmout.Name" xml:space="preserve">
-    <value>NUDGameItemAmout</value>
-  </data>
-  <data name="&gt;&gt;NUDGameItemAmout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDGameItemAmout.Parent" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;NUDGameItemAmout.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;NUDGameItemLevel.Name" xml:space="preserve">
-    <value>NUDGameItemLevel</value>
-  </data>
-  <data name="&gt;&gt;NUDGameItemLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDGameItemLevel.Parent" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;NUDGameItemLevel.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;LblGiveCommandDescription.Name" xml:space="preserve">
-    <value>LblGiveCommandDescription</value>
-  </data>
-  <data name="&gt;&gt;LblGiveCommandDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblGiveCommandDescription.Parent" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;LblGiveCommandDescription.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="TPItem.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="TPWeapon.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="TPItem.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="TPWeapon.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="TPItem.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPWeapon.Size" type="System.Drawing.Size, System.Drawing">
     <value>602, 245</value>
   </data>
-  <data name="TPItem.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="TPWeapon.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="TPItem.Text" xml:space="preserve">
-    <value>物品</value>
+  <data name="TPWeapon.Text" xml:space="preserve">
+    <value>武器</value>
   </data>
-  <data name="&gt;&gt;TPItem.Name" xml:space="preserve">
-    <value>TPItem</value>
+  <data name="&gt;&gt;TPWeapon.Name" xml:space="preserve">
+    <value>TPWeapon</value>
   </data>
-  <data name="&gt;&gt;TPItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;TPWeapon.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPItem.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPWeapon.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;TPItem.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;TPWeapon.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="BtnSaveGiveItemLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -2549,6 +1673,21 @@
   <data name="GrpGiveItemRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="ListGiveItemLogs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ListGiveItemLogs.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ListGiveItemLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="ListGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>293, 140</value>
+  </data>
+  <data name="ListGiveItemLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="&gt;&gt;ListGiveItemLogs.Name" xml:space="preserve">
     <value>ListGiveItemLogs</value>
   </data>
@@ -2584,33 +1723,6 @@
   </data>
   <data name="&gt;&gt;GrpGiveItemRecord.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="ListGiveItemLogs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ListGiveItemLogs.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="ListGiveItemLogs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
-  </data>
-  <data name="ListGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>293, 140</value>
-  </data>
-  <data name="ListGiveItemLogs.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;ListGiveItemLogs.Name" xml:space="preserve">
-    <value>ListGiveItemLogs</value>
-  </data>
-  <data name="&gt;&gt;ListGiveItemLogs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListGiveItemLogs.Parent" xml:space="preserve">
-    <value>GrpGiveItemRecord</value>
-  </data>
-  <data name="&gt;&gt;ListGiveItemLogs.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="ChkDrop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2826,104 +1938,32 @@
   <data name="&gt;&gt;LblGiveCommandDescription.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;LblAvatarGenWarning.Name" xml:space="preserve">
-    <value>LblAvatarGenWarning</value>
-  </data>
-  <data name="&gt;&gt;LblAvatarGenWarning.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblAvatarGenWarning.Parent" xml:space="preserve">
-    <value>TPAvatar</value>
-  </data>
-  <data name="&gt;&gt;LblAvatarGenWarning.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ImgAvatar.Name" xml:space="preserve">
-    <value>ImgAvatar</value>
-  </data>
-  <data name="&gt;&gt;ImgAvatar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ImgAvatar.Parent" xml:space="preserve">
-    <value>TPAvatar</value>
-  </data>
-  <data name="&gt;&gt;ImgAvatar.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LblAvatar.Name" xml:space="preserve">
-    <value>LblAvatar</value>
-  </data>
-  <data name="&gt;&gt;LblAvatar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblAvatar.Parent" xml:space="preserve">
-    <value>TPAvatar</value>
-  </data>
-  <data name="&gt;&gt;LblAvatar.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;LblLevel.Name" xml:space="preserve">
-    <value>LblLevel</value>
-  </data>
-  <data name="&gt;&gt;LblLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblLevel.Parent" xml:space="preserve">
-    <value>TPAvatar</value>
-  </data>
-  <data name="&gt;&gt;LblLevel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;NUDAvatarLevel.Name" xml:space="preserve">
-    <value>NUDAvatarLevel</value>
-  </data>
-  <data name="&gt;&gt;NUDAvatarLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDAvatarLevel.Parent" xml:space="preserve">
-    <value>TPAvatar</value>
-  </data>
-  <data name="&gt;&gt;NUDAvatarLevel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;CmbAvatar.Name" xml:space="preserve">
-    <value>CmbAvatar</value>
-  </data>
-  <data name="&gt;&gt;CmbAvatar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbAvatar.Parent" xml:space="preserve">
-    <value>TPAvatar</value>
-  </data>
-  <data name="&gt;&gt;CmbAvatar.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="TPAvatar.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="TPItem.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="TPAvatar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="TPItem.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="TPAvatar.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>602, 245</value>
   </data>
-  <data name="TPAvatar.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="TPItem.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="TPAvatar.Text" xml:space="preserve">
-    <value>角色</value>
+  <data name="TPItem.Text" xml:space="preserve">
+    <value>物品</value>
   </data>
-  <data name="&gt;&gt;TPAvatar.Name" xml:space="preserve">
-    <value>TPAvatar</value>
+  <data name="&gt;&gt;TPItem.Name" xml:space="preserve">
+    <value>TPItem</value>
   </data>
-  <data name="&gt;&gt;TPAvatar.Type" xml:space="preserve">
+  <data name="&gt;&gt;TPItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPAvatar.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPItem.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;TPAvatar.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;TPItem.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="LblAvatarGenWarning.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>
@@ -3104,164 +2144,32 @@
   <data name="&gt;&gt;CmbAvatar.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;BtnSaveSpawnLog.Name" xml:space="preserve">
-    <value>BtnSaveSpawnLog</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveSpawnLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveSpawnLog.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveSpawnLog.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveSpawnLog.Name" xml:space="preserve">
-    <value>BtnRemoveSpawnLog</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveSpawnLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveSpawnLog.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveSpawnLog.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;GrpSpawnRecord.Name" xml:space="preserve">
-    <value>GrpSpawnRecord</value>
-  </data>
-  <data name="&gt;&gt;GrpSpawnRecord.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpSpawnRecord.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;GrpSpawnRecord.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;GrpEntityType.Name" xml:space="preserve">
-    <value>GrpEntityType</value>
-  </data>
-  <data name="&gt;&gt;GrpEntityType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpEntityType.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;GrpEntityType.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblSpawnDescription.Name" xml:space="preserve">
-    <value>LblSpawnDescription</value>
-  </data>
-  <data name="&gt;&gt;LblSpawnDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblSpawnDescription.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;LblSpawnDescription.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;LblEntityAmount.Name" xml:space="preserve">
-    <value>LblEntityAmount</value>
-  </data>
-  <data name="&gt;&gt;LblEntityAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblEntityAmount.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;LblEntityAmount.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;LblEntityLevel.Name" xml:space="preserve">
-    <value>LblEntityLevel</value>
-  </data>
-  <data name="&gt;&gt;LblEntityLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblEntityLevel.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;LblEntityLevel.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;NUDEntityAmout.Name" xml:space="preserve">
-    <value>NUDEntityAmout</value>
-  </data>
-  <data name="&gt;&gt;NUDEntityAmout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDEntityAmout.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;NUDEntityAmout.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;NUDEntityLevel.Name" xml:space="preserve">
-    <value>NUDEntityLevel</value>
-  </data>
-  <data name="&gt;&gt;NUDEntityLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDEntityLevel.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;NUDEntityLevel.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;TxtEntityFilter.Name" xml:space="preserve">
-    <value>TxtEntityFilter</value>
-  </data>
-  <data name="&gt;&gt;TxtEntityFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtEntityFilter.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;TxtEntityFilter.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;ListEntity.Name" xml:space="preserve">
-    <value>ListEntity</value>
-  </data>
-  <data name="&gt;&gt;ListEntity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListEntity.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;ListEntity.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="TPSpawn.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="TPAvatar.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="TPSpawn.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="TPAvatar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="TPSpawn.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPAvatar.Size" type="System.Drawing.Size, System.Drawing">
     <value>602, 245</value>
   </data>
-  <data name="TPSpawn.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="TPAvatar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="TPSpawn.Text" xml:space="preserve">
-    <value>生成</value>
+  <data name="TPAvatar.Text" xml:space="preserve">
+    <value>角色</value>
   </data>
-  <data name="&gt;&gt;TPSpawn.Name" xml:space="preserve">
-    <value>TPSpawn</value>
+  <data name="&gt;&gt;TPAvatar.Name" xml:space="preserve">
+    <value>TPAvatar</value>
   </data>
-  <data name="&gt;&gt;TPSpawn.Type" xml:space="preserve">
+  <data name="&gt;&gt;TPAvatar.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPSpawn.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPAvatar.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;TPSpawn.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;TPAvatar.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="BtnSaveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 31</value>
@@ -3317,6 +2225,21 @@
   <data name="GrpSpawnRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
   </data>
+  <data name="ListSpawnLogs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ListSpawnLogs.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ListSpawnLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="ListSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 162</value>
+  </data>
+  <data name="ListSpawnLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
   <data name="&gt;&gt;ListSpawnLogs.Name" xml:space="preserve">
     <value>ListSpawnLogs</value>
   </data>
@@ -3353,107 +2276,8 @@
   <data name="&gt;&gt;GrpSpawnRecord.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="ListSpawnLogs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ListSpawnLogs.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="ListSpawnLogs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
-  </data>
-  <data name="ListSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 162</value>
-  </data>
-  <data name="ListSpawnLogs.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;ListSpawnLogs.Name" xml:space="preserve">
-    <value>ListSpawnLogs</value>
-  </data>
-  <data name="&gt;&gt;ListSpawnLogs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListSpawnLogs.Parent" xml:space="preserve">
-    <value>GrpSpawnRecord</value>
-  </data>
-  <data name="&gt;&gt;ListSpawnLogs.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="GrpEntityType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;RbEntityOrnament.Name" xml:space="preserve">
-    <value>RbEntityOrnament</value>
-  </data>
-  <data name="&gt;&gt;RbEntityOrnament.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RbEntityOrnament.Parent" xml:space="preserve">
-    <value>GrpEntityType</value>
-  </data>
-  <data name="&gt;&gt;RbEntityOrnament.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;RbEntityAnimal.Name" xml:space="preserve">
-    <value>RbEntityAnimal</value>
-  </data>
-  <data name="&gt;&gt;RbEntityAnimal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RbEntityAnimal.Parent" xml:space="preserve">
-    <value>GrpEntityType</value>
-  </data>
-  <data name="&gt;&gt;RbEntityAnimal.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;RbEntityNPC.Name" xml:space="preserve">
-    <value>RbEntityNPC</value>
-  </data>
-  <data name="&gt;&gt;RbEntityNPC.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RbEntityNPC.Parent" xml:space="preserve">
-    <value>GrpEntityType</value>
-  </data>
-  <data name="&gt;&gt;RbEntityNPC.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;RbEntityMonster.Name" xml:space="preserve">
-    <value>RbEntityMonster</value>
-  </data>
-  <data name="&gt;&gt;RbEntityMonster.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RbEntityMonster.Parent" xml:space="preserve">
-    <value>GrpEntityType</value>
-  </data>
-  <data name="&gt;&gt;RbEntityMonster.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="GrpEntityType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>265, 101</value>
-  </data>
-  <data name="GrpEntityType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 134</value>
-  </data>
-  <data name="GrpEntityType.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="GrpEntityType.Text" xml:space="preserve">
-    <value>列表分类</value>
-  </data>
-  <data name="&gt;&gt;GrpEntityType.Name" xml:space="preserve">
-    <value>GrpEntityType</value>
-  </data>
-  <data name="&gt;&gt;GrpEntityType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpEntityType.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
-  </data>
-  <data name="&gt;&gt;GrpEntityType.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="RbEntityOrnament.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3561,6 +2385,30 @@
     <value>GrpEntityType</value>
   </data>
   <data name="&gt;&gt;RbEntityMonster.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GrpEntityType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 101</value>
+  </data>
+  <data name="GrpEntityType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 134</value>
+  </data>
+  <data name="GrpEntityType.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GrpEntityType.Text" xml:space="preserve">
+    <value>列表分类</value>
+  </data>
+  <data name="&gt;&gt;GrpEntityType.Name" xml:space="preserve">
+    <value>GrpEntityType</value>
+  </data>
+  <data name="&gt;&gt;GrpEntityType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpEntityType.Parent" xml:space="preserve">
+    <value>TPSpawn</value>
+  </data>
+  <data name="&gt;&gt;GrpEntityType.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="LblSpawnDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -3749,80 +2597,32 @@
   <data name="&gt;&gt;ListEntity.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;CmbClimateType.Name" xml:space="preserve">
-    <value>CmbClimateType</value>
-  </data>
-  <data name="&gt;&gt;CmbClimateType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbClimateType.Parent" xml:space="preserve">
-    <value>TPScene</value>
-  </data>
-  <data name="&gt;&gt;CmbClimateType.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LblClimateType.Name" xml:space="preserve">
-    <value>LblClimateType</value>
-  </data>
-  <data name="&gt;&gt;LblClimateType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblClimateType.Parent" xml:space="preserve">
-    <value>TPScene</value>
-  </data>
-  <data name="&gt;&gt;LblClimateType.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LblSceneDescription.Name" xml:space="preserve">
-    <value>LblSceneDescription</value>
-  </data>
-  <data name="&gt;&gt;LblSceneDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblSceneDescription.Parent" xml:space="preserve">
-    <value>TPScene</value>
-  </data>
-  <data name="&gt;&gt;LblSceneDescription.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;ListScenes.Name" xml:space="preserve">
-    <value>ListScenes</value>
-  </data>
-  <data name="&gt;&gt;ListScenes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListScenes.Parent" xml:space="preserve">
-    <value>TPScene</value>
-  </data>
-  <data name="&gt;&gt;ListScenes.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="TPScene.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="TPSpawn.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="TPScene.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="TPSpawn.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="TPScene.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPSpawn.Size" type="System.Drawing.Size, System.Drawing">
     <value>602, 245</value>
   </data>
-  <data name="TPScene.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="TPSpawn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>场景</value>
+  <data name="TPSpawn.Text" xml:space="preserve">
+    <value>生成</value>
   </data>
-  <data name="&gt;&gt;TPScene.Name" xml:space="preserve">
-    <value>TPScene</value>
+  <data name="&gt;&gt;TPSpawn.Name" xml:space="preserve">
+    <value>TPSpawn</value>
   </data>
-  <data name="&gt;&gt;TPScene.Type" xml:space="preserve">
+  <data name="&gt;&gt;TPSpawn.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPScene.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPSpawn.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;TPScene.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;TPSpawn.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
     <value>68, 94</value>
@@ -3928,143 +2728,35 @@
   <data name="&gt;&gt;ListScenes.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;GrpSetStats.Name" xml:space="preserve">
-    <value>GrpSetStats</value>
-  </data>
-  <data name="&gt;&gt;GrpSetStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpSetStats.Parent" xml:space="preserve">
-    <value>TPStats</value>
-  </data>
-  <data name="&gt;&gt;GrpSetStats.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;GrpTalentLevel.Name" xml:space="preserve">
-    <value>GrpTalentLevel</value>
-  </data>
-  <data name="&gt;&gt;GrpTalentLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpTalentLevel.Parent" xml:space="preserve">
-    <value>TPStats</value>
-  </data>
-  <data name="&gt;&gt;GrpTalentLevel.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LblStatsDescription.Name" xml:space="preserve">
-    <value>LblStatsDescription</value>
-  </data>
-  <data name="&gt;&gt;LblStatsDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblStatsDescription.Parent" xml:space="preserve">
-    <value>TPStats</value>
-  </data>
-  <data name="&gt;&gt;LblStatsDescription.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="TPStats.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="TPScene.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="TPStats.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="TPScene.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="TPStats.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPScene.Size" type="System.Drawing.Size, System.Drawing">
     <value>602, 245</value>
   </data>
-  <data name="TPStats.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="TPScene.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
-  <data name="TPStats.Text" xml:space="preserve">
-    <value>数据</value>
+  <data name="TPScene.Text" xml:space="preserve">
+    <value>场景</value>
   </data>
-  <data name="&gt;&gt;TPStats.Name" xml:space="preserve">
-    <value>TPStats</value>
+  <data name="&gt;&gt;TPScene.Name" xml:space="preserve">
+    <value>TPScene</value>
   </data>
-  <data name="&gt;&gt;TPStats.Type" xml:space="preserve">
+  <data name="&gt;&gt;TPScene.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPStats.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPScene.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;TPStats.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;TPScene.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="GrpSetStats.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
-  </data>
-  <data name="&gt;&gt;LblStatTip.Name" xml:space="preserve">
-    <value>LblStatTip</value>
-  </data>
-  <data name="&gt;&gt;LblStatTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblStatTip.Parent" xml:space="preserve">
-    <value>GrpSetStats</value>
-  </data>
-  <data name="&gt;&gt;LblStatTip.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LblStatPercent.Name" xml:space="preserve">
-    <value>LblStatPercent</value>
-  </data>
-  <data name="&gt;&gt;LblStatPercent.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblStatPercent.Parent" xml:space="preserve">
-    <value>GrpSetStats</value>
-  </data>
-  <data name="&gt;&gt;LblStatPercent.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;NUDStat.Name" xml:space="preserve">
-    <value>NUDStat</value>
-  </data>
-  <data name="&gt;&gt;NUDStat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDStat.Parent" xml:space="preserve">
-    <value>GrpSetStats</value>
-  </data>
-  <data name="&gt;&gt;NUDStat.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;CmbStat.Name" xml:space="preserve">
-    <value>CmbStat</value>
-  </data>
-  <data name="&gt;&gt;CmbStat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbStat.Parent" xml:space="preserve">
-    <value>GrpSetStats</value>
-  </data>
-  <data name="&gt;&gt;CmbStat.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="GrpSetStats.Location" type="System.Drawing.Point, System.Drawing">
-    <value>135, 62</value>
-  </data>
-  <data name="GrpSetStats.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 70</value>
-  </data>
-  <data name="GrpSetStats.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="GrpSetStats.Text" xml:space="preserve">
-    <value>角色属性</value>
-  </data>
-  <data name="&gt;&gt;GrpSetStats.Name" xml:space="preserve">
-    <value>GrpSetStats</value>
-  </data>
-  <data name="&gt;&gt;GrpSetStats.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpSetStats.Parent" xml:space="preserve">
-    <value>TPStats</value>
-  </data>
-  <data name="&gt;&gt;GrpSetStats.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="LblStatTip.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4165,80 +2857,32 @@
   <data name="&gt;&gt;CmbStat.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="GrpTalentLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="GrpSetStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 62</value>
   </data>
-  <data name="&gt;&gt;LnkTalentE.Name" xml:space="preserve">
-    <value>LnkTalentE</value>
+  <data name="GrpSetStats.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 70</value>
   </data>
-  <data name="&gt;&gt;LnkTalentE.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="GrpSetStats.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="&gt;&gt;LnkTalentE.Parent" xml:space="preserve">
-    <value>GrpTalentLevel</value>
+  <data name="GrpSetStats.Text" xml:space="preserve">
+    <value>角色属性</value>
   </data>
-  <data name="&gt;&gt;LnkTalentE.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;GrpSetStats.Name" xml:space="preserve">
+    <value>GrpSetStats</value>
   </data>
-  <data name="&gt;&gt;LnkTalentQ.Name" xml:space="preserve">
-    <value>LnkTalentQ</value>
-  </data>
-  <data name="&gt;&gt;LnkTalentQ.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LnkTalentQ.Parent" xml:space="preserve">
-    <value>GrpTalentLevel</value>
-  </data>
-  <data name="&gt;&gt;LnkTalentQ.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LnkTalentNormalATK.Name" xml:space="preserve">
-    <value>LnkTalentNormalATK</value>
-  </data>
-  <data name="&gt;&gt;LnkTalentNormalATK.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LnkTalentNormalATK.Parent" xml:space="preserve">
-    <value>GrpTalentLevel</value>
-  </data>
-  <data name="&gt;&gt;LnkTalentNormalATK.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;NUDTalentLevel.Name" xml:space="preserve">
-    <value>NUDTalentLevel</value>
-  </data>
-  <data name="&gt;&gt;NUDTalentLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDTalentLevel.Parent" xml:space="preserve">
-    <value>GrpTalentLevel</value>
-  </data>
-  <data name="&gt;&gt;NUDTalentLevel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="GrpTalentLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>135, 138</value>
-  </data>
-  <data name="GrpTalentLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 57</value>
-  </data>
-  <data name="GrpTalentLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="GrpTalentLevel.Text" xml:space="preserve">
-    <value>技能等级</value>
-  </data>
-  <data name="&gt;&gt;GrpTalentLevel.Name" xml:space="preserve">
-    <value>GrpTalentLevel</value>
-  </data>
-  <data name="&gt;&gt;GrpTalentLevel.Type" xml:space="preserve">
+  <data name="&gt;&gt;GrpSetStats.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;GrpTalentLevel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;GrpSetStats.Parent" xml:space="preserve">
     <value>TPStats</value>
   </data>
-  <data name="&gt;&gt;GrpTalentLevel.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;GrpSetStats.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpTalentLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="LnkTalentE.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4342,6 +2986,30 @@
   <data name="&gt;&gt;NUDTalentLevel.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="GrpTalentLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 138</value>
+  </data>
+  <data name="GrpTalentLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 57</value>
+  </data>
+  <data name="GrpTalentLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GrpTalentLevel.Text" xml:space="preserve">
+    <value>技能等级</value>
+  </data>
+  <data name="&gt;&gt;GrpTalentLevel.Name" xml:space="preserve">
+    <value>GrpTalentLevel</value>
+  </data>
+  <data name="&gt;&gt;GrpTalentLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpTalentLevel.Parent" xml:space="preserve">
+    <value>TPStats</value>
+  </data>
+  <data name="&gt;&gt;GrpTalentLevel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="LblStatsDescription.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -4369,155 +3037,35 @@
   <data name="&gt;&gt;LblStatsDescription.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;GrpAccount.Name" xml:space="preserve">
-    <value>GrpAccount</value>
-  </data>
-  <data name="&gt;&gt;GrpAccount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpAccount.Parent" xml:space="preserve">
-    <value>TPManage</value>
-  </data>
-  <data name="&gt;&gt;GrpAccount.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;GrpPermission.Name" xml:space="preserve">
-    <value>GrpPermission</value>
-  </data>
-  <data name="&gt;&gt;GrpPermission.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpPermission.Parent" xml:space="preserve">
-    <value>TPManage</value>
-  </data>
-  <data name="&gt;&gt;GrpPermission.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="TPManage.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="TPStats.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="TPManage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="TPStats.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="TPManage.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPStats.Size" type="System.Drawing.Size, System.Drawing">
     <value>602, 245</value>
   </data>
-  <data name="TPManage.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="TPStats.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
-  <data name="TPManage.Text" xml:space="preserve">
-    <value>管理</value>
+  <data name="TPStats.Text" xml:space="preserve">
+    <value>数据</value>
   </data>
-  <data name="&gt;&gt;TPManage.Name" xml:space="preserve">
-    <value>TPManage</value>
+  <data name="&gt;&gt;TPStats.Name" xml:space="preserve">
+    <value>TPStats</value>
   </data>
-  <data name="&gt;&gt;TPManage.Type" xml:space="preserve">
+  <data name="&gt;&gt;TPStats.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPManage.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPStats.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;TPManage.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;TPStats.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="GrpAccount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
-  </data>
-  <data name="&gt;&gt;ChkAccountSetUid.Name" xml:space="preserve">
-    <value>ChkAccountSetUid</value>
-  </data>
-  <data name="&gt;&gt;ChkAccountSetUid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ChkAccountSetUid.Parent" xml:space="preserve">
-    <value>GrpAccount</value>
-  </data>
-  <data name="&gt;&gt;ChkAccountSetUid.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;NUDAccountUid.Name" xml:space="preserve">
-    <value>NUDAccountUid</value>
-  </data>
-  <data name="&gt;&gt;NUDAccountUid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDAccountUid.Parent" xml:space="preserve">
-    <value>GrpAccount</value>
-  </data>
-  <data name="&gt;&gt;NUDAccountUid.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteAccount.Name" xml:space="preserve">
-    <value>BtnDeleteAccount</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteAccount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteAccount.Parent" xml:space="preserve">
-    <value>GrpAccount</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteAccount.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;BtnCreateAccount.Name" xml:space="preserve">
-    <value>BtnCreateAccount</value>
-  </data>
-  <data name="&gt;&gt;BtnCreateAccount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnCreateAccount.Parent" xml:space="preserve">
-    <value>GrpAccount</value>
-  </data>
-  <data name="&gt;&gt;BtnCreateAccount.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblAccountUserName.Name" xml:space="preserve">
-    <value>LblAccountUserName</value>
-  </data>
-  <data name="&gt;&gt;LblAccountUserName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblAccountUserName.Parent" xml:space="preserve">
-    <value>GrpAccount</value>
-  </data>
-  <data name="&gt;&gt;LblAccountUserName.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;TxtAccountUserName.Name" xml:space="preserve">
-    <value>TxtAccountUserName</value>
-  </data>
-  <data name="&gt;&gt;TxtAccountUserName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtAccountUserName.Parent" xml:space="preserve">
-    <value>GrpAccount</value>
-  </data>
-  <data name="&gt;&gt;TxtAccountUserName.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="GrpAccount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 6</value>
-  </data>
-  <data name="GrpAccount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>540, 60</value>
-  </data>
-  <data name="GrpAccount.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="GrpAccount.Text" xml:space="preserve">
-    <value>账号管理</value>
-  </data>
-  <data name="&gt;&gt;GrpAccount.Name" xml:space="preserve">
-    <value>GrpAccount</value>
-  </data>
-  <data name="&gt;&gt;GrpAccount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpAccount.Parent" xml:space="preserve">
-    <value>TPManage</value>
-  </data>
-  <data name="&gt;&gt;GrpAccount.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="ChkAccountSetUid.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4666,104 +3214,32 @@
   <data name="&gt;&gt;TxtAccountUserName.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="GrpPermission.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="GrpAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 6</value>
   </data>
-  <data name="&gt;&gt;CmbPerm.Name" xml:space="preserve">
-    <value>CmbPerm</value>
-  </data>
-  <data name="&gt;&gt;CmbPerm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbPerm.Parent" xml:space="preserve">
-    <value>GrpPermission</value>
-  </data>
-  <data name="&gt;&gt;CmbPerm.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;NUDPermUID.Name" xml:space="preserve">
-    <value>NUDPermUID</value>
-  </data>
-  <data name="&gt;&gt;NUDPermUID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDPermUID.Parent" xml:space="preserve">
-    <value>GrpPermission</value>
-  </data>
-  <data name="&gt;&gt;NUDPermUID.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BtmPermRemove.Name" xml:space="preserve">
-    <value>BtmPermRemove</value>
-  </data>
-  <data name="&gt;&gt;BtmPermRemove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtmPermRemove.Parent" xml:space="preserve">
-    <value>GrpPermission</value>
-  </data>
-  <data name="&gt;&gt;BtmPermRemove.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;BtnPermAdd.Name" xml:space="preserve">
-    <value>BtnPermAdd</value>
-  </data>
-  <data name="&gt;&gt;BtnPermAdd.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnPermAdd.Parent" xml:space="preserve">
-    <value>GrpPermission</value>
-  </data>
-  <data name="&gt;&gt;BtnPermAdd.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblPerm.Name" xml:space="preserve">
-    <value>LblPerm</value>
-  </data>
-  <data name="&gt;&gt;LblPerm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblPerm.Parent" xml:space="preserve">
-    <value>GrpPermission</value>
-  </data>
-  <data name="&gt;&gt;LblPerm.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;LblPermUID.Name" xml:space="preserve">
-    <value>LblPermUID</value>
-  </data>
-  <data name="&gt;&gt;LblPermUID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblPermUID.Parent" xml:space="preserve">
-    <value>GrpPermission</value>
-  </data>
-  <data name="&gt;&gt;LblPermUID.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="GrpPermission.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 72</value>
-  </data>
-  <data name="GrpPermission.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="GrpAccount.Size" type="System.Drawing.Size, System.Drawing">
     <value>540, 60</value>
   </data>
-  <data name="GrpPermission.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="GrpAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="GrpPermission.Text" xml:space="preserve">
-    <value>权限管理</value>
+  <data name="GrpAccount.Text" xml:space="preserve">
+    <value>账号管理</value>
   </data>
-  <data name="&gt;&gt;GrpPermission.Name" xml:space="preserve">
-    <value>GrpPermission</value>
+  <data name="&gt;&gt;GrpAccount.Name" xml:space="preserve">
+    <value>GrpAccount</value>
   </data>
-  <data name="&gt;&gt;GrpPermission.Type" xml:space="preserve">
+  <data name="&gt;&gt;GrpAccount.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;GrpPermission.Parent" xml:space="preserve">
+  <data name="&gt;&gt;GrpAccount.Parent" xml:space="preserve">
     <value>TPManage</value>
   </data>
-  <data name="&gt;&gt;GrpPermission.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;GrpAccount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpPermission.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="CmbPerm.Location" type="System.Drawing.Point, System.Drawing">
     <value>250, 21</value>
@@ -4909,68 +3385,56 @@
   <data name="&gt;&gt;LblPermUID.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
-    <value>pictureBox2</value>
+  <data name="GrpPermission.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 72</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="GrpPermission.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 60</value>
   </data>
-  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
-    <value>TPAbout</value>
-  </data>
-  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LnkGithub.Name" xml:space="preserve">
-    <value>LnkGithub</value>
-  </data>
-  <data name="&gt;&gt;LnkGithub.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LnkGithub.Parent" xml:space="preserve">
-    <value>TPAbout</value>
-  </data>
-  <data name="&gt;&gt;LnkGithub.ZOrder" xml:space="preserve">
+  <data name="GrpPermission.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;LblSupportDescription.Name" xml:space="preserve">
-    <value>LblSupportDescription</value>
+  <data name="GrpPermission.Text" xml:space="preserve">
+    <value>权限管理</value>
   </data>
-  <data name="&gt;&gt;LblSupportDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;GrpPermission.Name" xml:space="preserve">
+    <value>GrpPermission</value>
   </data>
-  <data name="&gt;&gt;LblSupportDescription.Parent" xml:space="preserve">
-    <value>TPAbout</value>
+  <data name="&gt;&gt;GrpPermission.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LblSupportDescription.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;GrpPermission.Parent" xml:space="preserve">
+    <value>TPManage</value>
   </data>
-  <data name="TPAbout.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="&gt;&gt;GrpPermission.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TPManage.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="TPAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="TPManage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="TPAbout.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPManage.Size" type="System.Drawing.Size, System.Drawing">
     <value>602, 245</value>
   </data>
-  <data name="TPAbout.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="TPManage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>关于</value>
+  <data name="TPManage.Text" xml:space="preserve">
+    <value>管理</value>
   </data>
-  <data name="&gt;&gt;TPAbout.Name" xml:space="preserve">
-    <value>TPAbout</value>
+  <data name="&gt;&gt;TPManage.Name" xml:space="preserve">
+    <value>TPManage</value>
   </data>
-  <data name="&gt;&gt;TPAbout.Type" xml:space="preserve">
+  <data name="&gt;&gt;TPManage.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPAbout.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPManage.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;TPAbout.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;TPManage.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="pictureBox2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -5061,6 +3525,207 @@
   <data name="&gt;&gt;LblSupportDescription.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="TPAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TPAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TPAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 245</value>
+  </data>
+  <data name="TPAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="TPAbout.Text" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="&gt;&gt;TPAbout.Name" xml:space="preserve">
+    <value>TPAbout</value>
+  </data>
+  <data name="&gt;&gt;TPAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPAbout.Parent" xml:space="preserve">
+    <value>TCMain</value>
+  </data>
+  <data name="&gt;&gt;TPAbout.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="LnkOpenCommandLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkOpenCommandLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 62</value>
+  </data>
+  <data name="LnkOpenCommandLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="LnkOpenCommandLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LnkOpenCommandLabel.Text" xml:space="preserve">
+    <value>远程执行插件</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenCommandLabel.Name" xml:space="preserve">
+    <value>LnkOpenCommandLabel</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenCommandLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenCommandLabel.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenCommandLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblOpenCommandSupport.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblOpenCommandSupport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 62</value>
+  </data>
+  <data name="LblOpenCommandSupport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="LblOpenCommandSupport.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="LblOpenCommandSupport.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;LblOpenCommandSupport.Name" xml:space="preserve">
+    <value>LblOpenCommandSupport</value>
+  </data>
+  <data name="&gt;&gt;LblOpenCommandSupport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblOpenCommandSupport.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;LblOpenCommandSupport.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblServerVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblServerVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 28</value>
+  </data>
+  <data name="LblServerVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="LblServerVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="LblServerVersion.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersion.Name" xml:space="preserve">
+    <value>LblServerVersion</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersion.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblPlayerCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPlayerCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 45</value>
+  </data>
+  <data name="LblPlayerCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="LblPlayerCount.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="LblPlayerCount.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCount.Name" xml:space="preserve">
+    <value>LblPlayerCount</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCount.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblServerVersionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblServerVersionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 28</value>
+  </data>
+  <data name="LblServerVersionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LblServerVersionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="LblServerVersionLabel.Text" xml:space="preserve">
+    <value>游戏版本</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersionLabel.Name" xml:space="preserve">
+    <value>LblServerVersionLabel</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersionLabel.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersionLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LblPlayerCountLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPlayerCountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 45</value>
+  </data>
+  <data name="LblPlayerCountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="LblPlayerCountLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="LblPlayerCountLabel.Text" xml:space="preserve">
+    <value>当前玩家数</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCountLabel.Name" xml:space="preserve">
+    <value>LblPlayerCountLabel</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCountLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCountLabel.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCountLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GrpServerStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 36</value>
+  </data>
+  <data name="GrpServerStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="GrpServerStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GrpServerStatus.Text" xml:space="preserve">
+    <value>服务器状态</value>
+  </data>
   <data name="&gt;&gt;GrpServerStatus.Name" xml:space="preserve">
     <value>GrpServerStatus</value>
   </data>
@@ -5073,83 +3738,26 @@
   <data name="&gt;&gt;GrpServerStatus.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;GrpRemoteCommand.Name" xml:space="preserve">
-    <value>GrpRemoteCommand</value>
-  </data>
-  <data name="&gt;&gt;GrpRemoteCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpRemoteCommand.Parent" xml:space="preserve">
-    <value>TPRemoteCall</value>
-  </data>
-  <data name="&gt;&gt;GrpRemoteCommand.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;TxtHost.Name" xml:space="preserve">
-    <value>TxtHost</value>
-  </data>
-  <data name="&gt;&gt;TxtHost.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtHost.Parent" xml:space="preserve">
-    <value>TPRemoteCall</value>
-  </data>
-  <data name="&gt;&gt;TxtHost.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;BtnQueryServerStatus.Name" xml:space="preserve">
-    <value>BtnQueryServerStatus</value>
-  </data>
-  <data name="&gt;&gt;BtnQueryServerStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnQueryServerStatus.Parent" xml:space="preserve">
-    <value>TPRemoteCall</value>
-  </data>
-  <data name="&gt;&gt;BtnQueryServerStatus.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblHost.Name" xml:space="preserve">
-    <value>LblHost</value>
-  </data>
-  <data name="&gt;&gt;LblHost.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblHost.Parent" xml:space="preserve">
-    <value>TPRemoteCall</value>
-  </data>
-  <data name="&gt;&gt;LblHost.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="TPRemoteCall.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPRemoteCall.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPRemoteCall.Size" type="System.Drawing.Size, System.Drawing">
-    <value>602, 245</value>
-  </data>
-  <data name="TPRemoteCall.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>远程</value>
-  </data>
-  <data name="&gt;&gt;TPRemoteCall.Name" xml:space="preserve">
-    <value>TPRemoteCall</value>
-  </data>
-  <data name="&gt;&gt;TPRemoteCall.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPRemoteCall.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPRemoteCall.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
   <data name="GrpRemoteCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
+  </data>
+  <data name="LnkRCHelp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkRCHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkRCHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 24</value>
+  </data>
+  <data name="LnkRCHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LnkRCHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="LnkRCHelp.Text" xml:space="preserve">
+    <value>帮助</value>
   </data>
   <data name="&gt;&gt;LnkRCHelp.Name" xml:space="preserve">
     <value>LnkRCHelp</value>
@@ -5163,6 +3771,21 @@
   <data name="&gt;&gt;LnkRCHelp.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="BtnConnectOpenCommand.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BtnConnectOpenCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 91</value>
+  </data>
+  <data name="BtnConnectOpenCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnConnectOpenCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="BtnConnectOpenCommand.Text" xml:space="preserve">
+    <value>连接</value>
+  </data>
   <data name="&gt;&gt;BtnConnectOpenCommand.Name" xml:space="preserve">
     <value>BtnConnectOpenCommand</value>
   </data>
@@ -5174,6 +3797,18 @@
   </data>
   <data name="&gt;&gt;BtnConnectOpenCommand.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="BtnSendVerificationCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 51</value>
+  </data>
+  <data name="BtnSendVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnSendVerificationCode.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="BtnSendVerificationCode.Text" xml:space="preserve">
+    <value>发送验证码</value>
   </data>
   <data name="&gt;&gt;BtnSendVerificationCode.Name" xml:space="preserve">
     <value>BtnSendVerificationCode</value>
@@ -5187,6 +3822,21 @@
   <data name="&gt;&gt;BtnSendVerificationCode.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="LblRemotePlayerId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblRemotePlayerId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>35, 24</value>
+  </data>
+  <data name="LblRemotePlayerId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 17</value>
+  </data>
+  <data name="LblRemotePlayerId.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblRemotePlayerId.Text" xml:space="preserve">
+    <value>UID</value>
+  </data>
   <data name="&gt;&gt;LblRemotePlayerId.Name" xml:space="preserve">
     <value>LblRemotePlayerId</value>
   </data>
@@ -5198,6 +3848,18 @@
   </data>
   <data name="&gt;&gt;LblRemotePlayerId.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="NUDVerificationCode.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="NUDVerificationCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 51</value>
+  </data>
+  <data name="NUDVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 23</value>
+  </data>
+  <data name="NUDVerificationCode.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="&gt;&gt;NUDVerificationCode.Name" xml:space="preserve">
     <value>NUDVerificationCode</value>
@@ -5211,6 +3873,24 @@
   <data name="&gt;&gt;NUDVerificationCode.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
+  <data name="LblVerificationCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblVerificationCode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblVerificationCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 53</value>
+  </data>
+  <data name="LblVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblVerificationCode.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="LblVerificationCode.Text" xml:space="preserve">
+    <value>验证码</value>
+  </data>
   <data name="&gt;&gt;LblVerificationCode.Name" xml:space="preserve">
     <value>LblVerificationCode</value>
   </data>
@@ -5222,6 +3902,15 @@
   </data>
   <data name="&gt;&gt;LblVerificationCode.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="NUDRemotePlayerId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>71, 22</value>
+  </data>
+  <data name="NUDRemotePlayerId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 23</value>
+  </data>
+  <data name="NUDRemotePlayerId.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;NUDRemotePlayerId.Name" xml:space="preserve">
     <value>NUDRemotePlayerId</value>
@@ -5286,6 +3975,33 @@
   <data name="&gt;&gt;TxtHost.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="BtnQueryServerStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnQueryServerStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 36</value>
+  </data>
+  <data name="BtnQueryServerStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="BtnQueryServerStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BtnQueryServerStatus.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="&gt;&gt;BtnQueryServerStatus.Name" xml:space="preserve">
+    <value>BtnQueryServerStatus</value>
+  </data>
+  <data name="&gt;&gt;BtnQueryServerStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnQueryServerStatus.Parent" xml:space="preserve">
+    <value>TPRemoteCall</value>
+  </data>
+  <data name="&gt;&gt;BtnQueryServerStatus.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="LblHost.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -5316,472 +4032,52 @@
   <data name="&gt;&gt;LblHost.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="BtnQueryServerStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="TPRemoteCall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
   </data>
-  <data name="BtnQueryServerStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>307, 36</value>
+  <data name="TPRemoteCall.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
   </data>
-  <data name="BtnQueryServerStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
+  <data name="TPRemoteCall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 245</value>
   </data>
-  <data name="BtnQueryServerStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="BtnQueryServerStatus.Text" xml:space="preserve">
-    <value>查询</value>
-  </data>
-  <data name="&gt;&gt;BtnQueryServerStatus.Name" xml:space="preserve">
-    <value>BtnQueryServerStatus</value>
-  </data>
-  <data name="&gt;&gt;BtnQueryServerStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnQueryServerStatus.Parent" xml:space="preserve">
-    <value>TPRemoteCall</value>
-  </data>
-  <data name="&gt;&gt;BtnQueryServerStatus.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="NUDRemotePlayerId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 22</value>
-  </data>
-  <data name="NUDRemotePlayerId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 23</value>
-  </data>
-  <data name="NUDRemotePlayerId.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;NUDRemotePlayerId.Name" xml:space="preserve">
-    <value>NUDRemotePlayerId</value>
-  </data>
-  <data name="&gt;&gt;NUDRemotePlayerId.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDRemotePlayerId.Parent" xml:space="preserve">
-    <value>GrpRemoteCommand</value>
-  </data>
-  <data name="&gt;&gt;NUDRemotePlayerId.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="LblRemotePlayerId.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblRemotePlayerId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 24</value>
-  </data>
-  <data name="LblRemotePlayerId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 17</value>
-  </data>
-  <data name="LblRemotePlayerId.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="LblRemotePlayerId.Text" xml:space="preserve">
-    <value>UID</value>
-  </data>
-  <data name="&gt;&gt;LblRemotePlayerId.Name" xml:space="preserve">
-    <value>LblRemotePlayerId</value>
-  </data>
-  <data name="&gt;&gt;LblRemotePlayerId.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblRemotePlayerId.Parent" xml:space="preserve">
-    <value>GrpRemoteCommand</value>
-  </data>
-  <data name="&gt;&gt;LblRemotePlayerId.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="LblServerVersionLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblServerVersionLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>37, 28</value>
-  </data>
-  <data name="LblServerVersionLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
-  </data>
-  <data name="LblServerVersionLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="LblServerVersionLabel.Text" xml:space="preserve">
-    <value>游戏版本</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersionLabel.Name" xml:space="preserve">
-    <value>LblServerVersionLabel</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersionLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersionLabel.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersionLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="LblServerVersion.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblServerVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 28</value>
-  </data>
-  <data name="LblServerVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 17</value>
-  </data>
-  <data name="LblServerVersion.TabIndex" type="System.Int32, mscorlib">
+  <data name="TPRemoteCall.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="LblServerVersion.Text" xml:space="preserve">
-    <value>---</value>
+  <data name="TPRemoteCall.Text" xml:space="preserve">
+    <value>远程</value>
   </data>
-  <data name="&gt;&gt;LblServerVersion.Name" xml:space="preserve">
-    <value>LblServerVersion</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersion.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersion.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="LblPlayerCountLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblPlayerCountLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 45</value>
-  </data>
-  <data name="LblPlayerCountLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
-  </data>
-  <data name="LblPlayerCountLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="LblPlayerCountLabel.Text" xml:space="preserve">
-    <value>当前玩家数</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCountLabel.Name" xml:space="preserve">
-    <value>LblPlayerCountLabel</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCountLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCountLabel.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCountLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="LblPlayerCount.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblPlayerCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 45</value>
-  </data>
-  <data name="LblPlayerCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 17</value>
-  </data>
-  <data name="LblPlayerCount.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="LblPlayerCount.Text" xml:space="preserve">
-    <value>---</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCount.Name" xml:space="preserve">
-    <value>LblPlayerCount</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCount.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCount.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LnkOpenCommandLabel.Name" xml:space="preserve">
-    <value>LnkOpenCommandLabel</value>
-  </data>
-  <data name="&gt;&gt;LnkOpenCommandLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LnkOpenCommandLabel.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;LnkOpenCommandLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LblOpenCommandSupport.Name" xml:space="preserve">
-    <value>LblOpenCommandSupport</value>
-  </data>
-  <data name="&gt;&gt;LblOpenCommandSupport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblOpenCommandSupport.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;LblOpenCommandSupport.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersion.Name" xml:space="preserve">
-    <value>LblServerVersion</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersion.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersion.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCount.Name" xml:space="preserve">
-    <value>LblPlayerCount</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCount.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCount.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersionLabel.Name" xml:space="preserve">
-    <value>LblServerVersionLabel</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersionLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersionLabel.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersionLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCountLabel.Name" xml:space="preserve">
-    <value>LblPlayerCountLabel</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCountLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCountLabel.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;LblPlayerCountLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="GrpServerStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>363, 36</value>
-  </data>
-  <data name="GrpServerStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 100</value>
-  </data>
-  <data name="GrpServerStatus.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="GrpServerStatus.Text" xml:space="preserve">
-    <value>服务器状态</value>
-  </data>
-  <data name="&gt;&gt;GrpServerStatus.Name" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;GrpServerStatus.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpServerStatus.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPRemoteCall.Name" xml:space="preserve">
     <value>TPRemoteCall</value>
   </data>
-  <data name="&gt;&gt;GrpServerStatus.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;TPRemoteCall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LblOpenCommandSupport.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;TPRemoteCall.Parent" xml:space="preserve">
+    <value>TCMain</value>
   </data>
-  <data name="LblOpenCommandSupport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 62</value>
-  </data>
-  <data name="LblOpenCommandSupport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 17</value>
-  </data>
-  <data name="LblOpenCommandSupport.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="LblOpenCommandSupport.Text" xml:space="preserve">
-    <value>---</value>
-  </data>
-  <data name="&gt;&gt;LblOpenCommandSupport.Name" xml:space="preserve">
-    <value>LblOpenCommandSupport</value>
-  </data>
-  <data name="&gt;&gt;LblOpenCommandSupport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblOpenCommandSupport.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;LblOpenCommandSupport.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LnkOpenCommandLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LnkOpenCommandLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 62</value>
-  </data>
-  <data name="LnkOpenCommandLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 17</value>
-  </data>
-  <data name="LnkOpenCommandLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="LnkOpenCommandLabel.Text" xml:space="preserve">
-    <value>远程执行插件</value>
-  </data>
-  <data name="&gt;&gt;LnkOpenCommandLabel.Name" xml:space="preserve">
-    <value>LnkOpenCommandLabel</value>
-  </data>
-  <data name="&gt;&gt;LnkOpenCommandLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LnkOpenCommandLabel.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
-  </data>
-  <data name="&gt;&gt;LnkOpenCommandLabel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="LblVerificationCode.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblVerificationCode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblVerificationCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 53</value>
-  </data>
-  <data name="LblVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="LblVerificationCode.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="LblVerificationCode.Text" xml:space="preserve">
-    <value>验证码</value>
-  </data>
-  <data name="&gt;&gt;LblVerificationCode.Name" xml:space="preserve">
-    <value>LblVerificationCode</value>
-  </data>
-  <data name="&gt;&gt;LblVerificationCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblVerificationCode.Parent" xml:space="preserve">
-    <value>GrpRemoteCommand</value>
-  </data>
-  <data name="&gt;&gt;LblVerificationCode.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="NUDVerificationCode.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="NUDVerificationCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>71, 51</value>
-  </data>
-  <data name="NUDVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 23</value>
-  </data>
-  <data name="NUDVerificationCode.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;TPRemoteCall.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="&gt;&gt;NUDVerificationCode.Name" xml:space="preserve">
-    <value>NUDVerificationCode</value>
+  <data name="TCMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
   </data>
-  <data name="&gt;&gt;NUDVerificationCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TCMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>610, 275</value>
   </data>
-  <data name="&gt;&gt;NUDVerificationCode.Parent" xml:space="preserve">
-    <value>GrpRemoteCommand</value>
-  </data>
-  <data name="&gt;&gt;NUDVerificationCode.ZOrder" xml:space="preserve">
+  <data name="TCMain.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="BtnSendVerificationCode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 51</value>
+  <data name="&gt;&gt;TCMain.Name" xml:space="preserve">
+    <value>TCMain</value>
   </data>
-  <data name="BtnSendVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+  <data name="&gt;&gt;TCMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="BtnSendVerificationCode.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="&gt;&gt;TCMain.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="BtnSendVerificationCode.Text" xml:space="preserve">
-    <value>发送验证码</value>
-  </data>
-  <data name="&gt;&gt;BtnSendVerificationCode.Name" xml:space="preserve">
-    <value>BtnSendVerificationCode</value>
-  </data>
-  <data name="&gt;&gt;BtnSendVerificationCode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnSendVerificationCode.Parent" xml:space="preserve">
-    <value>GrpRemoteCommand</value>
-  </data>
-  <data name="&gt;&gt;BtnSendVerificationCode.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="BtnConnectOpenCommand.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="BtnConnectOpenCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>106, 91</value>
-  </data>
-  <data name="BtnConnectOpenCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="BtnConnectOpenCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="BtnConnectOpenCommand.Text" xml:space="preserve">
-    <value>连接</value>
-  </data>
-  <data name="&gt;&gt;BtnConnectOpenCommand.Name" xml:space="preserve">
-    <value>BtnConnectOpenCommand</value>
-  </data>
-  <data name="&gt;&gt;BtnConnectOpenCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnConnectOpenCommand.Parent" xml:space="preserve">
-    <value>GrpRemoteCommand</value>
-  </data>
-  <data name="&gt;&gt;BtnConnectOpenCommand.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LnkRCHelp.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LnkRCHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LnkRCHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 24</value>
-  </data>
-  <data name="LnkRCHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
-  <data name="LnkRCHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="LnkRCHelp.Text" xml:space="preserve">
-    <value>帮助</value>
-  </data>
-  <data name="&gt;&gt;LnkRCHelp.Name" xml:space="preserve">
-    <value>LnkRCHelp</value>
-  </data>
-  <data name="&gt;&gt;LnkRCHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LnkRCHelp.Parent" xml:space="preserve">
-    <value>GrpRemoteCommand</value>
-  </data>
-  <data name="&gt;&gt;LnkRCHelp.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;TCMain.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="TTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
