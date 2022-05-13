@@ -6,6 +6,10 @@
 
 请从 [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) 中获取最新版本
 
+## 远程执行
+
+服务端需要 [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) 插件支持
+
 ---
 
 ## TODO List
