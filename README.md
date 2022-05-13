@@ -16,24 +16,17 @@
     - [ ] ArtifactMainAttribution.txt
     - [ ] ArtifactSubAttribution.txt
     - [x] Avatar.txt
-    - [ ] CustomCommands.txt
+    - [x] CustomCommands.txt
     - [x] Item.txt
     - [x] Monster.txt
     - [ ] NPC.txt
     - [ ] Ornament.txt
     - [x] Scene.txt
     - [ ] Weapon.txt
-  - [ ] 远程执行命令（进度：新建文件夹）
+  - [x] 远程执行命令
   - [ ] 割草机启动器（无进度）
   - [ ] 邮件编辑器（无进度）
   - [ ] 商店编辑器（无进度）
-
-## v0.10.0 未发布
-- 新增`文本资源浏览器`，可使用**正则**搜索文本映射文件
-![Text Map Browser](Doc/Screenshots/11-TextMapBrowser.png)
-- `主页` 页面新增 `语言` 下拉框，可选择简体中文和英语。
-- `生成` 页面新增 `摆件` ID分类。
-
 
 ## 软件截图
 
