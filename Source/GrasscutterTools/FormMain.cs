@@ -1031,15 +1031,15 @@ namespace GrasscutterTools
 
         private async void BtnInvokeOpenCommand_Click(object sender, EventArgs e)
         {
-            if (TxtCommand.Text.Length < 2)
-            {
-                ShowTip("命令不能为空", TxtCommand);
-                return;
-            }
             if (OC == null || !OC.CanInvoke)
             {
                 ShowTip("请先连接到支持[OpenCommand]的服务器", BtnInvokeOpenCommand);
                 TCMain.SelectedTab = TPRemoteCall;
+                return;
+            }
+            if (TxtCommand.Text.Length < 2)
+            {
+                ShowTip("命令不能为空", TxtCommand);
                 return;
             }
             var cmd = TxtCommand.Text.Substring(1);
