@@ -298,6 +298,7 @@
     <Content Include="Resources\en-us\Monster.txt" />
     <Content Include="Resources\en-us\NPC.txt" />
     <Content Include="Resources\en-us\Ornament.txt" />
+    <Content Include="Resources\en-us\Quest.txt" />
     <Content Include="Resources\en-us\Scene.txt" />
     <Content Include="Resources\en-us\Weapon.txt" />
     <Content Include="Resources\IconGrasscutter.ico" />
@@ -319,6 +320,7 @@
     <Content Include="Resources\zh-cn\Monster.txt" />
     <Content Include="Resources\zh-cn\NPC.txt" />
     <Content Include="Resources\zh-cn\Ornament.txt" />
+    <Content Include="Resources\zh-cn\Quest.txt" />
     <Content Include="Resources\zh-cn\Scene.txt" />
     <Content Include="Resources\zh-cn\Weapon.txt" />
   </ItemGroup>

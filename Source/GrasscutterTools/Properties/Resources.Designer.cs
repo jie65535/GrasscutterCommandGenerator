@@ -510,11 +510,11 @@ namespace GrasscutterTools.Properties {
         ///私信
         ////say &lt;player&gt; &lt;message&gt;
         ///进来吧你
-        ////coop &lt;playerId&gt; &lt;target playerId&gt;
+        ////coop @targetId
         ///自杀
         ////killcharacter
         ///暗杀
-        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ////killcharacter &lt;pla [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string CustomCommands {
             get {
@@ -849,6 +849,47 @@ namespace GrasscutterTools.Properties {
         internal static string Permissions {
             get {
                 return ResourceManager.GetString("Permissions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 347: 阅读占坑$HIDDEN
+        ///348: 猫尾酒馆留言板$HIDDEN
+        ///349: 蒙德百货订货版$HIDDEN
+        ///350: 捕风的异乡人$HIDDEN
+        ///351: 流浪者的足迹
+        ///362: 苹果教学$HIDDEN
+        ///352: 鸟瞰风物
+        ///353: 异常的权柄
+        ///361: 风魔龙飞过$HIDDEN
+        ///355: 林间相会
+        ///354: 随风而来的骑士
+        ///360: 与轻风同行
+        ///356: 自由之都
+        ///357: 龙灾
+        ///358: 西风骑士团
+        ///359: (test)蒙德与三地城$HIDDEN
+        ///306: 昔日的风
+        ///307: 骑士的现场教习
+        ///308: 书页里的电火花
+        ///309: (test)蒙德之围$HIDDEN
+        ///310: 招募新伙伴
+        ///311: (test)一阶段结束$HIDDEN
+        ///312: (test)丽莎地城，丽莎书本奖励$HIDDEN
+        ///363: (test)控制第一幕开始的隐藏任务$HIDDEN
+        ///370: 阴影下的蒙德
+        ///371: 不期而遇
+        ///372: 那个绿色的家伙
+        ///373: 听凭风引
+        ///374: 温迪的计划
+        ///375: 温迪的新计划
+        ///376: 逃亡
+        ///377: 幕后谈话
+        ///20101:  [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string Quest {
+            get {
+                return ResourceManager.GetString("Quest", resourceCulture);
             }
         }
         

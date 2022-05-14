@@ -29,8 +29,8 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
     - [ ] Ornament.txt
     - [x] Scene.txt
     - [x] Weapon.txt
+    - [ ] Quest.txt
   - [x] Execute command remotely
-  - [ ] Grasscutter Launcher (no progress)
   - [ ] Mail Editor (no progress)
   - [ ] Shop Editor (no progress)
 

@@ -77,6 +77,52 @@ namespace GrasscutterTools
             this.LblSubAttribution = new System.Windows.Forms.Label();
             this.CmbMainAttribution = new System.Windows.Forms.ComboBox();
             this.LblMainAttribution = new System.Windows.Forms.Label();
+            this.TPQuest = new System.Windows.Forms.TabPage();
+            this.GrpQuestFilters = new System.Windows.Forms.GroupBox();
+            this.ChkQuestFilterTEST = new System.Windows.Forms.CheckBox();
+            this.ChkQuestFilterUNRELEASED = new System.Windows.Forms.CheckBox();
+            this.ChkQuestFilterHIDDEN = new System.Windows.Forms.CheckBox();
+            this.BtnFinishQuest = new System.Windows.Forms.Button();
+            this.BtnAddQuest = new System.Windows.Forms.Button();
+            this.LblQuestDescription = new System.Windows.Forms.Label();
+            this.TxtQuestFilter = new System.Windows.Forms.TextBox();
+            this.ListQuest = new System.Windows.Forms.ListBox();
+            this.TPSpawn = new System.Windows.Forms.TabPage();
+            this.BtnSaveSpawnLog = new System.Windows.Forms.Button();
+            this.BtnRemoveSpawnLog = new System.Windows.Forms.Button();
+            this.GrpSpawnRecord = new System.Windows.Forms.GroupBox();
+            this.ListSpawnLogs = new System.Windows.Forms.ListBox();
+            this.GrpEntityType = new System.Windows.Forms.GroupBox();
+            this.RbEntityOrnament = new System.Windows.Forms.RadioButton();
+            this.RbEntityAnimal = new System.Windows.Forms.RadioButton();
+            this.RbEntityNPC = new System.Windows.Forms.RadioButton();
+            this.RbEntityMonster = new System.Windows.Forms.RadioButton();
+            this.LblSpawnDescription = new System.Windows.Forms.Label();
+            this.LblEntityAmount = new System.Windows.Forms.Label();
+            this.LblEntityLevel = new System.Windows.Forms.Label();
+            this.NUDEntityAmout = new System.Windows.Forms.NumericUpDown();
+            this.NUDEntityLevel = new System.Windows.Forms.NumericUpDown();
+            this.TxtEntityFilter = new System.Windows.Forms.TextBox();
+            this.ListEntity = new System.Windows.Forms.ListBox();
+            this.TPAvatar = new System.Windows.Forms.TabPage();
+            this.LblAvatarGenWarning = new System.Windows.Forms.Label();
+            this.ImgAvatar = new System.Windows.Forms.PictureBox();
+            this.LblAvatar = new System.Windows.Forms.Label();
+            this.LblLevel = new System.Windows.Forms.Label();
+            this.NUDAvatarLevel = new System.Windows.Forms.NumericUpDown();
+            this.CmbAvatar = new System.Windows.Forms.ComboBox();
+            this.TPStats = new System.Windows.Forms.TabPage();
+            this.GrpSetStats = new System.Windows.Forms.GroupBox();
+            this.LblStatTip = new System.Windows.Forms.Label();
+            this.LblStatPercent = new System.Windows.Forms.Label();
+            this.NUDStat = new System.Windows.Forms.NumericUpDown();
+            this.CmbStat = new System.Windows.Forms.ComboBox();
+            this.GrpTalentLevel = new System.Windows.Forms.GroupBox();
+            this.LnkTalentE = new System.Windows.Forms.LinkLabel();
+            this.LnkTalentQ = new System.Windows.Forms.LinkLabel();
+            this.LnkTalentNormalATK = new System.Windows.Forms.LinkLabel();
+            this.NUDTalentLevel = new System.Windows.Forms.NumericUpDown();
+            this.LblStatsDescription = new System.Windows.Forms.Label();
             this.TPWeapon = new System.Windows.Forms.TabPage();
             this.TxtWeaponFilter = new System.Windows.Forms.TextBox();
             this.LblWeaponDescription = new System.Windows.Forms.Label();
@@ -100,30 +146,6 @@ namespace GrasscutterTools
             this.NUDGameItemAmout = new System.Windows.Forms.NumericUpDown();
             this.NUDGameItemLevel = new System.Windows.Forms.NumericUpDown();
             this.LblGiveCommandDescription = new System.Windows.Forms.Label();
-            this.TPAvatar = new System.Windows.Forms.TabPage();
-            this.LblAvatarGenWarning = new System.Windows.Forms.Label();
-            this.ImgAvatar = new System.Windows.Forms.PictureBox();
-            this.LblAvatar = new System.Windows.Forms.Label();
-            this.LblLevel = new System.Windows.Forms.Label();
-            this.NUDAvatarLevel = new System.Windows.Forms.NumericUpDown();
-            this.CmbAvatar = new System.Windows.Forms.ComboBox();
-            this.TPSpawn = new System.Windows.Forms.TabPage();
-            this.BtnSaveSpawnLog = new System.Windows.Forms.Button();
-            this.BtnRemoveSpawnLog = new System.Windows.Forms.Button();
-            this.GrpSpawnRecord = new System.Windows.Forms.GroupBox();
-            this.ListSpawnLogs = new System.Windows.Forms.ListBox();
-            this.GrpEntityType = new System.Windows.Forms.GroupBox();
-            this.RbEntityOrnament = new System.Windows.Forms.RadioButton();
-            this.RbEntityAnimal = new System.Windows.Forms.RadioButton();
-            this.RbEntityNPC = new System.Windows.Forms.RadioButton();
-            this.RbEntityMonster = new System.Windows.Forms.RadioButton();
-            this.LblSpawnDescription = new System.Windows.Forms.Label();
-            this.LblEntityAmount = new System.Windows.Forms.Label();
-            this.LblEntityLevel = new System.Windows.Forms.Label();
-            this.NUDEntityAmout = new System.Windows.Forms.NumericUpDown();
-            this.NUDEntityLevel = new System.Windows.Forms.NumericUpDown();
-            this.TxtEntityFilter = new System.Windows.Forms.TextBox();
-            this.ListEntity = new System.Windows.Forms.ListBox();
             this.TPScene = new System.Windows.Forms.TabPage();
             this.ChkIncludeSceneId = new System.Windows.Forms.CheckBox();
             this.LblTp = new System.Windows.Forms.Label();
@@ -138,18 +160,6 @@ namespace GrasscutterTools
             this.LblClimateType = new System.Windows.Forms.Label();
             this.LblSceneDescription = new System.Windows.Forms.Label();
             this.ListScenes = new System.Windows.Forms.ListBox();
-            this.TPStats = new System.Windows.Forms.TabPage();
-            this.GrpSetStats = new System.Windows.Forms.GroupBox();
-            this.LblStatTip = new System.Windows.Forms.Label();
-            this.LblStatPercent = new System.Windows.Forms.Label();
-            this.NUDStat = new System.Windows.Forms.NumericUpDown();
-            this.CmbStat = new System.Windows.Forms.ComboBox();
-            this.GrpTalentLevel = new System.Windows.Forms.GroupBox();
-            this.LnkTalentE = new System.Windows.Forms.LinkLabel();
-            this.LnkTalentQ = new System.Windows.Forms.LinkLabel();
-            this.LnkTalentNormalATK = new System.Windows.Forms.LinkLabel();
-            this.NUDTalentLevel = new System.Windows.Forms.NumericUpDown();
-            this.LblStatsDescription = new System.Windows.Forms.Label();
             this.TPManage = new System.Windows.Forms.TabPage();
             this.GrpAccount = new System.Windows.Forms.GroupBox();
             this.ChkAccountSetUid = new System.Windows.Forms.CheckBox();
@@ -201,6 +211,21 @@ namespace GrasscutterTools
             ((System.ComponentModel.ISupportInitialize)(this.NUDArtifactStars)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDSubAttributionTimes)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDArtifactLevel)).BeginInit();
+            this.TPQuest.SuspendLayout();
+            this.GrpQuestFilters.SuspendLayout();
+            this.TPSpawn.SuspendLayout();
+            this.GrpSpawnRecord.SuspendLayout();
+            this.GrpEntityType.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDEntityAmout)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDEntityLevel)).BeginInit();
+            this.TPAvatar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgAvatar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDAvatarLevel)).BeginInit();
+            this.TPStats.SuspendLayout();
+            this.GrpSetStats.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDStat)).BeginInit();
+            this.GrpTalentLevel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDTalentLevel)).BeginInit();
             this.TPWeapon.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDWeaponRefinement)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDWeaponAmout)).BeginInit();
@@ -209,23 +234,10 @@ namespace GrasscutterTools
             this.GrpGiveItemRecord.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDGameItemAmout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDGameItemLevel)).BeginInit();
-            this.TPAvatar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgAvatar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDAvatarLevel)).BeginInit();
-            this.TPSpawn.SuspendLayout();
-            this.GrpSpawnRecord.SuspendLayout();
-            this.GrpEntityType.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDEntityAmout)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDEntityLevel)).BeginInit();
             this.TPScene.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpZ)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpX)).BeginInit();
-            this.TPStats.SuspendLayout();
-            this.GrpSetStats.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDStat)).BeginInit();
-            this.GrpTalentLevel.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDTalentLevel)).BeginInit();
             this.TPManage.SuspendLayout();
             this.GrpAccount.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDAccountUid)).BeginInit();
@@ -286,12 +298,13 @@ namespace GrasscutterTools
             this.TCMain.Controls.Add(this.TPHome);
             this.TCMain.Controls.Add(this.TPCustom);
             this.TCMain.Controls.Add(this.TPArtifact);
+            this.TCMain.Controls.Add(this.TPQuest);
+            this.TCMain.Controls.Add(this.TPSpawn);
+            this.TCMain.Controls.Add(this.TPAvatar);
+            this.TCMain.Controls.Add(this.TPStats);
             this.TCMain.Controls.Add(this.TPWeapon);
             this.TCMain.Controls.Add(this.TPItem);
-            this.TCMain.Controls.Add(this.TPAvatar);
-            this.TCMain.Controls.Add(this.TPSpawn);
             this.TCMain.Controls.Add(this.TPScene);
-            this.TCMain.Controls.Add(this.TPStats);
             this.TCMain.Controls.Add(this.TPManage);
             this.TCMain.Controls.Add(this.TPAbout);
             this.TCMain.Controls.Add(this.TPRemoteCall);
@@ -680,6 +693,456 @@ namespace GrasscutterTools
             this.LblMainAttribution.Name = "LblMainAttribution";
             this.TTip.SetToolTip(this.LblMainAttribution, resources.GetString("LblMainAttribution.ToolTip"));
             // 
+            // TPQuest
+            // 
+            resources.ApplyResources(this.TPQuest, "TPQuest");
+            this.TPQuest.Controls.Add(this.GrpQuestFilters);
+            this.TPQuest.Controls.Add(this.BtnFinishQuest);
+            this.TPQuest.Controls.Add(this.BtnAddQuest);
+            this.TPQuest.Controls.Add(this.LblQuestDescription);
+            this.TPQuest.Controls.Add(this.TxtQuestFilter);
+            this.TPQuest.Controls.Add(this.ListQuest);
+            this.TPQuest.Name = "TPQuest";
+            this.TTip.SetToolTip(this.TPQuest, resources.GetString("TPQuest.ToolTip"));
+            this.TPQuest.UseVisualStyleBackColor = true;
+            // 
+            // GrpQuestFilters
+            // 
+            resources.ApplyResources(this.GrpQuestFilters, "GrpQuestFilters");
+            this.GrpQuestFilters.Controls.Add(this.ChkQuestFilterTEST);
+            this.GrpQuestFilters.Controls.Add(this.ChkQuestFilterUNRELEASED);
+            this.GrpQuestFilters.Controls.Add(this.ChkQuestFilterHIDDEN);
+            this.GrpQuestFilters.Name = "GrpQuestFilters";
+            this.GrpQuestFilters.TabStop = false;
+            this.TTip.SetToolTip(this.GrpQuestFilters, resources.GetString("GrpQuestFilters.ToolTip"));
+            // 
+            // ChkQuestFilterTEST
+            // 
+            resources.ApplyResources(this.ChkQuestFilterTEST, "ChkQuestFilterTEST");
+            this.ChkQuestFilterTEST.Name = "ChkQuestFilterTEST";
+            this.ChkQuestFilterTEST.Tag = "(test)";
+            this.TTip.SetToolTip(this.ChkQuestFilterTEST, resources.GetString("ChkQuestFilterTEST.ToolTip"));
+            this.ChkQuestFilterTEST.UseVisualStyleBackColor = true;
+            this.ChkQuestFilterTEST.CheckedChanged += new System.EventHandler(this.QuestFilterChanged);
+            // 
+            // ChkQuestFilterUNRELEASED
+            // 
+            resources.ApplyResources(this.ChkQuestFilterUNRELEASED, "ChkQuestFilterUNRELEASED");
+            this.ChkQuestFilterUNRELEASED.Name = "ChkQuestFilterUNRELEASED";
+            this.ChkQuestFilterUNRELEASED.Tag = "$UNRELEASED";
+            this.TTip.SetToolTip(this.ChkQuestFilterUNRELEASED, resources.GetString("ChkQuestFilterUNRELEASED.ToolTip"));
+            this.ChkQuestFilterUNRELEASED.UseVisualStyleBackColor = true;
+            this.ChkQuestFilterUNRELEASED.CheckedChanged += new System.EventHandler(this.QuestFilterChanged);
+            // 
+            // ChkQuestFilterHIDDEN
+            // 
+            resources.ApplyResources(this.ChkQuestFilterHIDDEN, "ChkQuestFilterHIDDEN");
+            this.ChkQuestFilterHIDDEN.Name = "ChkQuestFilterHIDDEN";
+            this.ChkQuestFilterHIDDEN.Tag = "$HIDDEN";
+            this.TTip.SetToolTip(this.ChkQuestFilterHIDDEN, resources.GetString("ChkQuestFilterHIDDEN.ToolTip"));
+            this.ChkQuestFilterHIDDEN.UseVisualStyleBackColor = true;
+            this.ChkQuestFilterHIDDEN.CheckedChanged += new System.EventHandler(this.QuestFilterChanged);
+            // 
+            // BtnFinishQuest
+            // 
+            resources.ApplyResources(this.BtnFinishQuest, "BtnFinishQuest");
+            this.BtnFinishQuest.Name = "BtnFinishQuest";
+            this.BtnFinishQuest.Tag = "finish";
+            this.TTip.SetToolTip(this.BtnFinishQuest, resources.GetString("BtnFinishQuest.ToolTip"));
+            this.BtnFinishQuest.UseVisualStyleBackColor = true;
+            this.BtnFinishQuest.Click += new System.EventHandler(this.QuestButsClicked);
+            // 
+            // BtnAddQuest
+            // 
+            resources.ApplyResources(this.BtnAddQuest, "BtnAddQuest");
+            this.BtnAddQuest.Name = "BtnAddQuest";
+            this.BtnAddQuest.Tag = "add";
+            this.TTip.SetToolTip(this.BtnAddQuest, resources.GetString("BtnAddQuest.ToolTip"));
+            this.BtnAddQuest.UseVisualStyleBackColor = true;
+            this.BtnAddQuest.Click += new System.EventHandler(this.QuestButsClicked);
+            // 
+            // LblQuestDescription
+            // 
+            resources.ApplyResources(this.LblQuestDescription, "LblQuestDescription");
+            this.LblQuestDescription.Name = "LblQuestDescription";
+            this.TTip.SetToolTip(this.LblQuestDescription, resources.GetString("LblQuestDescription.ToolTip"));
+            // 
+            // TxtQuestFilter
+            // 
+            resources.ApplyResources(this.TxtQuestFilter, "TxtQuestFilter");
+            this.TxtQuestFilter.Name = "TxtQuestFilter";
+            this.TTip.SetToolTip(this.TxtQuestFilter, resources.GetString("TxtQuestFilter.ToolTip"));
+            this.TxtQuestFilter.TextChanged += new System.EventHandler(this.QuestFilterChanged);
+            // 
+            // ListQuest
+            // 
+            resources.ApplyResources(this.ListQuest, "ListQuest");
+            this.ListQuest.FormattingEnabled = true;
+            this.ListQuest.Name = "ListQuest";
+            this.TTip.SetToolTip(this.ListQuest, resources.GetString("ListQuest.ToolTip"));
+            // 
+            // TPSpawn
+            // 
+            resources.ApplyResources(this.TPSpawn, "TPSpawn");
+            this.TPSpawn.Controls.Add(this.BtnSaveSpawnLog);
+            this.TPSpawn.Controls.Add(this.BtnRemoveSpawnLog);
+            this.TPSpawn.Controls.Add(this.GrpSpawnRecord);
+            this.TPSpawn.Controls.Add(this.GrpEntityType);
+            this.TPSpawn.Controls.Add(this.LblSpawnDescription);
+            this.TPSpawn.Controls.Add(this.LblEntityAmount);
+            this.TPSpawn.Controls.Add(this.LblEntityLevel);
+            this.TPSpawn.Controls.Add(this.NUDEntityAmout);
+            this.TPSpawn.Controls.Add(this.NUDEntityLevel);
+            this.TPSpawn.Controls.Add(this.TxtEntityFilter);
+            this.TPSpawn.Controls.Add(this.ListEntity);
+            this.TPSpawn.Name = "TPSpawn";
+            this.TTip.SetToolTip(this.TPSpawn, resources.GetString("TPSpawn.ToolTip"));
+            this.TPSpawn.UseVisualStyleBackColor = true;
+            // 
+            // BtnSaveSpawnLog
+            // 
+            resources.ApplyResources(this.BtnSaveSpawnLog, "BtnSaveSpawnLog");
+            this.BtnSaveSpawnLog.Name = "BtnSaveSpawnLog";
+            this.TTip.SetToolTip(this.BtnSaveSpawnLog, resources.GetString("BtnSaveSpawnLog.ToolTip"));
+            this.BtnSaveSpawnLog.UseVisualStyleBackColor = true;
+            this.BtnSaveSpawnLog.Click += new System.EventHandler(this.BtnSaveSpawnLog_Click);
+            // 
+            // BtnRemoveSpawnLog
+            // 
+            resources.ApplyResources(this.BtnRemoveSpawnLog, "BtnRemoveSpawnLog");
+            this.BtnRemoveSpawnLog.Name = "BtnRemoveSpawnLog";
+            this.TTip.SetToolTip(this.BtnRemoveSpawnLog, resources.GetString("BtnRemoveSpawnLog.ToolTip"));
+            this.BtnRemoveSpawnLog.UseVisualStyleBackColor = true;
+            this.BtnRemoveSpawnLog.Click += new System.EventHandler(this.BtnRemoveSpawnLog_Click);
+            // 
+            // GrpSpawnRecord
+            // 
+            resources.ApplyResources(this.GrpSpawnRecord, "GrpSpawnRecord");
+            this.GrpSpawnRecord.Controls.Add(this.ListSpawnLogs);
+            this.GrpSpawnRecord.Name = "GrpSpawnRecord";
+            this.GrpSpawnRecord.TabStop = false;
+            this.TTip.SetToolTip(this.GrpSpawnRecord, resources.GetString("GrpSpawnRecord.ToolTip"));
+            // 
+            // ListSpawnLogs
+            // 
+            resources.ApplyResources(this.ListSpawnLogs, "ListSpawnLogs");
+            this.ListSpawnLogs.FormattingEnabled = true;
+            this.ListSpawnLogs.Name = "ListSpawnLogs";
+            this.TTip.SetToolTip(this.ListSpawnLogs, resources.GetString("ListSpawnLogs.ToolTip"));
+            this.ListSpawnLogs.SelectedIndexChanged += new System.EventHandler(this.ListSpawnLogs_SelectedIndexChanged);
+            // 
+            // GrpEntityType
+            // 
+            resources.ApplyResources(this.GrpEntityType, "GrpEntityType");
+            this.GrpEntityType.Controls.Add(this.RbEntityOrnament);
+            this.GrpEntityType.Controls.Add(this.RbEntityAnimal);
+            this.GrpEntityType.Controls.Add(this.RbEntityNPC);
+            this.GrpEntityType.Controls.Add(this.RbEntityMonster);
+            this.GrpEntityType.Name = "GrpEntityType";
+            this.GrpEntityType.TabStop = false;
+            this.TTip.SetToolTip(this.GrpEntityType, resources.GetString("GrpEntityType.ToolTip"));
+            // 
+            // RbEntityOrnament
+            // 
+            resources.ApplyResources(this.RbEntityOrnament, "RbEntityOrnament");
+            this.RbEntityOrnament.Name = "RbEntityOrnament";
+            this.RbEntityOrnament.TabStop = true;
+            this.TTip.SetToolTip(this.RbEntityOrnament, resources.GetString("RbEntityOrnament.ToolTip"));
+            this.RbEntityOrnament.UseVisualStyleBackColor = true;
+            this.RbEntityOrnament.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
+            // 
+            // RbEntityAnimal
+            // 
+            resources.ApplyResources(this.RbEntityAnimal, "RbEntityAnimal");
+            this.RbEntityAnimal.Name = "RbEntityAnimal";
+            this.TTip.SetToolTip(this.RbEntityAnimal, resources.GetString("RbEntityAnimal.ToolTip"));
+            this.RbEntityAnimal.UseVisualStyleBackColor = true;
+            this.RbEntityAnimal.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
+            // 
+            // RbEntityNPC
+            // 
+            resources.ApplyResources(this.RbEntityNPC, "RbEntityNPC");
+            this.RbEntityNPC.Name = "RbEntityNPC";
+            this.TTip.SetToolTip(this.RbEntityNPC, resources.GetString("RbEntityNPC.ToolTip"));
+            this.RbEntityNPC.UseVisualStyleBackColor = true;
+            this.RbEntityNPC.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
+            // 
+            // RbEntityMonster
+            // 
+            resources.ApplyResources(this.RbEntityMonster, "RbEntityMonster");
+            this.RbEntityMonster.Name = "RbEntityMonster";
+            this.TTip.SetToolTip(this.RbEntityMonster, resources.GetString("RbEntityMonster.ToolTip"));
+            this.RbEntityMonster.UseVisualStyleBackColor = true;
+            this.RbEntityMonster.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
+            // 
+            // LblSpawnDescription
+            // 
+            resources.ApplyResources(this.LblSpawnDescription, "LblSpawnDescription");
+            this.LblSpawnDescription.Name = "LblSpawnDescription";
+            this.TTip.SetToolTip(this.LblSpawnDescription, resources.GetString("LblSpawnDescription.ToolTip"));
+            // 
+            // LblEntityAmount
+            // 
+            resources.ApplyResources(this.LblEntityAmount, "LblEntityAmount");
+            this.LblEntityAmount.Name = "LblEntityAmount";
+            this.TTip.SetToolTip(this.LblEntityAmount, resources.GetString("LblEntityAmount.ToolTip"));
+            // 
+            // LblEntityLevel
+            // 
+            resources.ApplyResources(this.LblEntityLevel, "LblEntityLevel");
+            this.LblEntityLevel.Name = "LblEntityLevel";
+            this.TTip.SetToolTip(this.LblEntityLevel, resources.GetString("LblEntityLevel.ToolTip"));
+            // 
+            // NUDEntityAmout
+            // 
+            resources.ApplyResources(this.NUDEntityAmout, "NUDEntityAmout");
+            this.NUDEntityAmout.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.NUDEntityAmout.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NUDEntityAmout.Name = "NUDEntityAmout";
+            this.TTip.SetToolTip(this.NUDEntityAmout, resources.GetString("NUDEntityAmout.ToolTip"));
+            this.NUDEntityAmout.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NUDEntityAmout.ValueChanged += new System.EventHandler(this.SpawnEntityInputChanged);
+            // 
+            // NUDEntityLevel
+            // 
+            resources.ApplyResources(this.NUDEntityLevel, "NUDEntityLevel");
+            this.NUDEntityLevel.Maximum = new decimal(new int[] {
+            100000,
+            0,
+            0,
+            0});
+            this.NUDEntityLevel.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NUDEntityLevel.Name = "NUDEntityLevel";
+            this.TTip.SetToolTip(this.NUDEntityLevel, resources.GetString("NUDEntityLevel.ToolTip"));
+            this.NUDEntityLevel.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NUDEntityLevel.ValueChanged += new System.EventHandler(this.SpawnEntityInputChanged);
+            // 
+            // TxtEntityFilter
+            // 
+            resources.ApplyResources(this.TxtEntityFilter, "TxtEntityFilter");
+            this.TxtEntityFilter.Name = "TxtEntityFilter";
+            this.TTip.SetToolTip(this.TxtEntityFilter, resources.GetString("TxtEntityFilter.ToolTip"));
+            this.TxtEntityFilter.TextChanged += new System.EventHandler(this.TxtEntityFilter_TextChanged);
+            // 
+            // ListEntity
+            // 
+            resources.ApplyResources(this.ListEntity, "ListEntity");
+            this.ListEntity.FormattingEnabled = true;
+            this.ListEntity.Name = "ListEntity";
+            this.TTip.SetToolTip(this.ListEntity, resources.GetString("ListEntity.ToolTip"));
+            this.ListEntity.SelectedIndexChanged += new System.EventHandler(this.SpawnEntityInputChanged);
+            // 
+            // TPAvatar
+            // 
+            resources.ApplyResources(this.TPAvatar, "TPAvatar");
+            this.TPAvatar.Controls.Add(this.LblAvatarGenWarning);
+            this.TPAvatar.Controls.Add(this.ImgAvatar);
+            this.TPAvatar.Controls.Add(this.LblAvatar);
+            this.TPAvatar.Controls.Add(this.LblLevel);
+            this.TPAvatar.Controls.Add(this.NUDAvatarLevel);
+            this.TPAvatar.Controls.Add(this.CmbAvatar);
+            this.TPAvatar.Name = "TPAvatar";
+            this.TTip.SetToolTip(this.TPAvatar, resources.GetString("TPAvatar.ToolTip"));
+            this.TPAvatar.UseVisualStyleBackColor = true;
+            // 
+            // LblAvatarGenWarning
+            // 
+            resources.ApplyResources(this.LblAvatarGenWarning, "LblAvatarGenWarning");
+            this.LblAvatarGenWarning.ForeColor = System.Drawing.Color.Red;
+            this.LblAvatarGenWarning.Name = "LblAvatarGenWarning";
+            this.TTip.SetToolTip(this.LblAvatarGenWarning, resources.GetString("LblAvatarGenWarning.ToolTip"));
+            // 
+            // ImgAvatar
+            // 
+            resources.ApplyResources(this.ImgAvatar, "ImgAvatar");
+            this.ImgAvatar.Image = global::GrasscutterTools.Properties.Resources.ImgHome;
+            this.ImgAvatar.Name = "ImgAvatar";
+            this.ImgAvatar.TabStop = false;
+            this.TTip.SetToolTip(this.ImgAvatar, resources.GetString("ImgAvatar.ToolTip"));
+            // 
+            // LblAvatar
+            // 
+            resources.ApplyResources(this.LblAvatar, "LblAvatar");
+            this.LblAvatar.Name = "LblAvatar";
+            this.TTip.SetToolTip(this.LblAvatar, resources.GetString("LblAvatar.ToolTip"));
+            // 
+            // LblLevel
+            // 
+            resources.ApplyResources(this.LblLevel, "LblLevel");
+            this.LblLevel.Name = "LblLevel";
+            this.TTip.SetToolTip(this.LblLevel, resources.GetString("LblLevel.ToolTip"));
+            // 
+            // NUDAvatarLevel
+            // 
+            resources.ApplyResources(this.NUDAvatarLevel, "NUDAvatarLevel");
+            this.NUDAvatarLevel.Maximum = new decimal(new int[] {
+            90,
+            0,
+            0,
+            0});
+            this.NUDAvatarLevel.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NUDAvatarLevel.Name = "NUDAvatarLevel";
+            this.TTip.SetToolTip(this.NUDAvatarLevel, resources.GetString("NUDAvatarLevel.ToolTip"));
+            this.NUDAvatarLevel.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NUDAvatarLevel.ValueChanged += new System.EventHandler(this.NUDAvatarLevel_ValueChanged);
+            // 
+            // CmbAvatar
+            // 
+            resources.ApplyResources(this.CmbAvatar, "CmbAvatar");
+            this.CmbAvatar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbAvatar.FormattingEnabled = true;
+            this.CmbAvatar.Name = "CmbAvatar";
+            this.TTip.SetToolTip(this.CmbAvatar, resources.GetString("CmbAvatar.ToolTip"));
+            this.CmbAvatar.SelectedIndexChanged += new System.EventHandler(this.CmbAvatar_SelectedIndexChanged);
+            // 
+            // TPStats
+            // 
+            resources.ApplyResources(this.TPStats, "TPStats");
+            this.TPStats.Controls.Add(this.GrpSetStats);
+            this.TPStats.Controls.Add(this.GrpTalentLevel);
+            this.TPStats.Controls.Add(this.LblStatsDescription);
+            this.TPStats.Name = "TPStats";
+            this.TTip.SetToolTip(this.TPStats, resources.GetString("TPStats.ToolTip"));
+            this.TPStats.UseVisualStyleBackColor = true;
+            // 
+            // GrpSetStats
+            // 
+            resources.ApplyResources(this.GrpSetStats, "GrpSetStats");
+            this.GrpSetStats.Controls.Add(this.LblStatTip);
+            this.GrpSetStats.Controls.Add(this.LblStatPercent);
+            this.GrpSetStats.Controls.Add(this.NUDStat);
+            this.GrpSetStats.Controls.Add(this.CmbStat);
+            this.GrpSetStats.Name = "GrpSetStats";
+            this.GrpSetStats.TabStop = false;
+            this.TTip.SetToolTip(this.GrpSetStats, resources.GetString("GrpSetStats.ToolTip"));
+            // 
+            // LblStatTip
+            // 
+            resources.ApplyResources(this.LblStatTip, "LblStatTip");
+            this.LblStatTip.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.LblStatTip.Name = "LblStatTip";
+            this.TTip.SetToolTip(this.LblStatTip, resources.GetString("LblStatTip.ToolTip"));
+            // 
+            // LblStatPercent
+            // 
+            resources.ApplyResources(this.LblStatPercent, "LblStatPercent");
+            this.LblStatPercent.Name = "LblStatPercent";
+            this.TTip.SetToolTip(this.LblStatPercent, resources.GetString("LblStatPercent.ToolTip"));
+            // 
+            // NUDStat
+            // 
+            resources.ApplyResources(this.NUDStat, "NUDStat");
+            this.NUDStat.Maximum = new decimal(new int[] {
+            100000000,
+            0,
+            0,
+            0});
+            this.NUDStat.Name = "NUDStat";
+            this.TTip.SetToolTip(this.NUDStat, resources.GetString("NUDStat.ToolTip"));
+            this.NUDStat.Value = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.NUDStat.ValueChanged += new System.EventHandler(this.SetStatsInputChanged);
+            // 
+            // CmbStat
+            // 
+            resources.ApplyResources(this.CmbStat, "CmbStat");
+            this.CmbStat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbStat.FormattingEnabled = true;
+            this.CmbStat.Name = "CmbStat";
+            this.TTip.SetToolTip(this.CmbStat, resources.GetString("CmbStat.ToolTip"));
+            this.CmbStat.SelectedIndexChanged += new System.EventHandler(this.SetStatsInputChanged);
+            // 
+            // GrpTalentLevel
+            // 
+            resources.ApplyResources(this.GrpTalentLevel, "GrpTalentLevel");
+            this.GrpTalentLevel.Controls.Add(this.LnkTalentE);
+            this.GrpTalentLevel.Controls.Add(this.LnkTalentQ);
+            this.GrpTalentLevel.Controls.Add(this.LnkTalentNormalATK);
+            this.GrpTalentLevel.Controls.Add(this.NUDTalentLevel);
+            this.GrpTalentLevel.Name = "GrpTalentLevel";
+            this.GrpTalentLevel.TabStop = false;
+            this.TTip.SetToolTip(this.GrpTalentLevel, resources.GetString("GrpTalentLevel.ToolTip"));
+            // 
+            // LnkTalentE
+            // 
+            resources.ApplyResources(this.LnkTalentE, "LnkTalentE");
+            this.LnkTalentE.Name = "LnkTalentE";
+            this.LnkTalentE.TabStop = true;
+            this.LnkTalentE.Tag = "e";
+            this.TTip.SetToolTip(this.LnkTalentE, resources.GetString("LnkTalentE.ToolTip"));
+            this.LnkTalentE.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkSetTalentClicked);
+            // 
+            // LnkTalentQ
+            // 
+            resources.ApplyResources(this.LnkTalentQ, "LnkTalentQ");
+            this.LnkTalentQ.Name = "LnkTalentQ";
+            this.LnkTalentQ.TabStop = true;
+            this.LnkTalentQ.Tag = "q";
+            this.TTip.SetToolTip(this.LnkTalentQ, resources.GetString("LnkTalentQ.ToolTip"));
+            this.LnkTalentQ.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkSetTalentClicked);
+            // 
+            // LnkTalentNormalATK
+            // 
+            resources.ApplyResources(this.LnkTalentNormalATK, "LnkTalentNormalATK");
+            this.LnkTalentNormalATK.Name = "LnkTalentNormalATK";
+            this.LnkTalentNormalATK.TabStop = true;
+            this.LnkTalentNormalATK.Tag = "n";
+            this.TTip.SetToolTip(this.LnkTalentNormalATK, resources.GetString("LnkTalentNormalATK.ToolTip"));
+            this.LnkTalentNormalATK.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkSetTalentClicked);
+            // 
+            // NUDTalentLevel
+            // 
+            resources.ApplyResources(this.NUDTalentLevel, "NUDTalentLevel");
+            this.NUDTalentLevel.Maximum = new decimal(new int[] {
+            16,
+            0,
+            0,
+            0});
+            this.NUDTalentLevel.Name = "NUDTalentLevel";
+            this.TTip.SetToolTip(this.NUDTalentLevel, resources.GetString("NUDTalentLevel.ToolTip"));
+            this.NUDTalentLevel.Value = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            // 
+            // LblStatsDescription
+            // 
+            resources.ApplyResources(this.LblStatsDescription, "LblStatsDescription");
+            this.LblStatsDescription.Name = "LblStatsDescription";
+            this.TTip.SetToolTip(this.LblStatsDescription, resources.GetString("LblStatsDescription.ToolTip"));
+            // 
             // TPWeapon
             // 
             resources.ApplyResources(this.TPWeapon, "TPWeapon");
@@ -931,248 +1394,6 @@ namespace GrasscutterTools
             this.LblGiveCommandDescription.Name = "LblGiveCommandDescription";
             this.TTip.SetToolTip(this.LblGiveCommandDescription, resources.GetString("LblGiveCommandDescription.ToolTip"));
             // 
-            // TPAvatar
-            // 
-            resources.ApplyResources(this.TPAvatar, "TPAvatar");
-            this.TPAvatar.Controls.Add(this.LblAvatarGenWarning);
-            this.TPAvatar.Controls.Add(this.ImgAvatar);
-            this.TPAvatar.Controls.Add(this.LblAvatar);
-            this.TPAvatar.Controls.Add(this.LblLevel);
-            this.TPAvatar.Controls.Add(this.NUDAvatarLevel);
-            this.TPAvatar.Controls.Add(this.CmbAvatar);
-            this.TPAvatar.Name = "TPAvatar";
-            this.TTip.SetToolTip(this.TPAvatar, resources.GetString("TPAvatar.ToolTip"));
-            this.TPAvatar.UseVisualStyleBackColor = true;
-            // 
-            // LblAvatarGenWarning
-            // 
-            resources.ApplyResources(this.LblAvatarGenWarning, "LblAvatarGenWarning");
-            this.LblAvatarGenWarning.ForeColor = System.Drawing.Color.Red;
-            this.LblAvatarGenWarning.Name = "LblAvatarGenWarning";
-            this.TTip.SetToolTip(this.LblAvatarGenWarning, resources.GetString("LblAvatarGenWarning.ToolTip"));
-            // 
-            // ImgAvatar
-            // 
-            resources.ApplyResources(this.ImgAvatar, "ImgAvatar");
-            this.ImgAvatar.Image = global::GrasscutterTools.Properties.Resources.ImgHome;
-            this.ImgAvatar.Name = "ImgAvatar";
-            this.ImgAvatar.TabStop = false;
-            this.TTip.SetToolTip(this.ImgAvatar, resources.GetString("ImgAvatar.ToolTip"));
-            // 
-            // LblAvatar
-            // 
-            resources.ApplyResources(this.LblAvatar, "LblAvatar");
-            this.LblAvatar.Name = "LblAvatar";
-            this.TTip.SetToolTip(this.LblAvatar, resources.GetString("LblAvatar.ToolTip"));
-            // 
-            // LblLevel
-            // 
-            resources.ApplyResources(this.LblLevel, "LblLevel");
-            this.LblLevel.Name = "LblLevel";
-            this.TTip.SetToolTip(this.LblLevel, resources.GetString("LblLevel.ToolTip"));
-            // 
-            // NUDAvatarLevel
-            // 
-            resources.ApplyResources(this.NUDAvatarLevel, "NUDAvatarLevel");
-            this.NUDAvatarLevel.Maximum = new decimal(new int[] {
-            90,
-            0,
-            0,
-            0});
-            this.NUDAvatarLevel.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NUDAvatarLevel.Name = "NUDAvatarLevel";
-            this.TTip.SetToolTip(this.NUDAvatarLevel, resources.GetString("NUDAvatarLevel.ToolTip"));
-            this.NUDAvatarLevel.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NUDAvatarLevel.ValueChanged += new System.EventHandler(this.NUDAvatarLevel_ValueChanged);
-            // 
-            // CmbAvatar
-            // 
-            resources.ApplyResources(this.CmbAvatar, "CmbAvatar");
-            this.CmbAvatar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CmbAvatar.FormattingEnabled = true;
-            this.CmbAvatar.Name = "CmbAvatar";
-            this.TTip.SetToolTip(this.CmbAvatar, resources.GetString("CmbAvatar.ToolTip"));
-            this.CmbAvatar.SelectedIndexChanged += new System.EventHandler(this.CmbAvatar_SelectedIndexChanged);
-            // 
-            // TPSpawn
-            // 
-            resources.ApplyResources(this.TPSpawn, "TPSpawn");
-            this.TPSpawn.Controls.Add(this.BtnSaveSpawnLog);
-            this.TPSpawn.Controls.Add(this.BtnRemoveSpawnLog);
-            this.TPSpawn.Controls.Add(this.GrpSpawnRecord);
-            this.TPSpawn.Controls.Add(this.GrpEntityType);
-            this.TPSpawn.Controls.Add(this.LblSpawnDescription);
-            this.TPSpawn.Controls.Add(this.LblEntityAmount);
-            this.TPSpawn.Controls.Add(this.LblEntityLevel);
-            this.TPSpawn.Controls.Add(this.NUDEntityAmout);
-            this.TPSpawn.Controls.Add(this.NUDEntityLevel);
-            this.TPSpawn.Controls.Add(this.TxtEntityFilter);
-            this.TPSpawn.Controls.Add(this.ListEntity);
-            this.TPSpawn.Name = "TPSpawn";
-            this.TTip.SetToolTip(this.TPSpawn, resources.GetString("TPSpawn.ToolTip"));
-            this.TPSpawn.UseVisualStyleBackColor = true;
-            // 
-            // BtnSaveSpawnLog
-            // 
-            resources.ApplyResources(this.BtnSaveSpawnLog, "BtnSaveSpawnLog");
-            this.BtnSaveSpawnLog.Name = "BtnSaveSpawnLog";
-            this.TTip.SetToolTip(this.BtnSaveSpawnLog, resources.GetString("BtnSaveSpawnLog.ToolTip"));
-            this.BtnSaveSpawnLog.UseVisualStyleBackColor = true;
-            this.BtnSaveSpawnLog.Click += new System.EventHandler(this.BtnSaveSpawnLog_Click);
-            // 
-            // BtnRemoveSpawnLog
-            // 
-            resources.ApplyResources(this.BtnRemoveSpawnLog, "BtnRemoveSpawnLog");
-            this.BtnRemoveSpawnLog.Name = "BtnRemoveSpawnLog";
-            this.TTip.SetToolTip(this.BtnRemoveSpawnLog, resources.GetString("BtnRemoveSpawnLog.ToolTip"));
-            this.BtnRemoveSpawnLog.UseVisualStyleBackColor = true;
-            this.BtnRemoveSpawnLog.Click += new System.EventHandler(this.BtnRemoveSpawnLog_Click);
-            // 
-            // GrpSpawnRecord
-            // 
-            resources.ApplyResources(this.GrpSpawnRecord, "GrpSpawnRecord");
-            this.GrpSpawnRecord.Controls.Add(this.ListSpawnLogs);
-            this.GrpSpawnRecord.Name = "GrpSpawnRecord";
-            this.GrpSpawnRecord.TabStop = false;
-            this.TTip.SetToolTip(this.GrpSpawnRecord, resources.GetString("GrpSpawnRecord.ToolTip"));
-            // 
-            // ListSpawnLogs
-            // 
-            resources.ApplyResources(this.ListSpawnLogs, "ListSpawnLogs");
-            this.ListSpawnLogs.FormattingEnabled = true;
-            this.ListSpawnLogs.Name = "ListSpawnLogs";
-            this.TTip.SetToolTip(this.ListSpawnLogs, resources.GetString("ListSpawnLogs.ToolTip"));
-            this.ListSpawnLogs.SelectedIndexChanged += new System.EventHandler(this.ListSpawnLogs_SelectedIndexChanged);
-            // 
-            // GrpEntityType
-            // 
-            resources.ApplyResources(this.GrpEntityType, "GrpEntityType");
-            this.GrpEntityType.Controls.Add(this.RbEntityOrnament);
-            this.GrpEntityType.Controls.Add(this.RbEntityAnimal);
-            this.GrpEntityType.Controls.Add(this.RbEntityNPC);
-            this.GrpEntityType.Controls.Add(this.RbEntityMonster);
-            this.GrpEntityType.Name = "GrpEntityType";
-            this.GrpEntityType.TabStop = false;
-            this.TTip.SetToolTip(this.GrpEntityType, resources.GetString("GrpEntityType.ToolTip"));
-            // 
-            // RbEntityOrnament
-            // 
-            resources.ApplyResources(this.RbEntityOrnament, "RbEntityOrnament");
-            this.RbEntityOrnament.Name = "RbEntityOrnament";
-            this.RbEntityOrnament.TabStop = true;
-            this.TTip.SetToolTip(this.RbEntityOrnament, resources.GetString("RbEntityOrnament.ToolTip"));
-            this.RbEntityOrnament.UseVisualStyleBackColor = true;
-            this.RbEntityOrnament.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
-            // 
-            // RbEntityAnimal
-            // 
-            resources.ApplyResources(this.RbEntityAnimal, "RbEntityAnimal");
-            this.RbEntityAnimal.Name = "RbEntityAnimal";
-            this.TTip.SetToolTip(this.RbEntityAnimal, resources.GetString("RbEntityAnimal.ToolTip"));
-            this.RbEntityAnimal.UseVisualStyleBackColor = true;
-            this.RbEntityAnimal.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
-            // 
-            // RbEntityNPC
-            // 
-            resources.ApplyResources(this.RbEntityNPC, "RbEntityNPC");
-            this.RbEntityNPC.Name = "RbEntityNPC";
-            this.TTip.SetToolTip(this.RbEntityNPC, resources.GetString("RbEntityNPC.ToolTip"));
-            this.RbEntityNPC.UseVisualStyleBackColor = true;
-            this.RbEntityNPC.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
-            // 
-            // RbEntityMonster
-            // 
-            resources.ApplyResources(this.RbEntityMonster, "RbEntityMonster");
-            this.RbEntityMonster.Name = "RbEntityMonster";
-            this.TTip.SetToolTip(this.RbEntityMonster, resources.GetString("RbEntityMonster.ToolTip"));
-            this.RbEntityMonster.UseVisualStyleBackColor = true;
-            this.RbEntityMonster.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
-            // 
-            // LblSpawnDescription
-            // 
-            resources.ApplyResources(this.LblSpawnDescription, "LblSpawnDescription");
-            this.LblSpawnDescription.Name = "LblSpawnDescription";
-            this.TTip.SetToolTip(this.LblSpawnDescription, resources.GetString("LblSpawnDescription.ToolTip"));
-            // 
-            // LblEntityAmount
-            // 
-            resources.ApplyResources(this.LblEntityAmount, "LblEntityAmount");
-            this.LblEntityAmount.Name = "LblEntityAmount";
-            this.TTip.SetToolTip(this.LblEntityAmount, resources.GetString("LblEntityAmount.ToolTip"));
-            // 
-            // LblEntityLevel
-            // 
-            resources.ApplyResources(this.LblEntityLevel, "LblEntityLevel");
-            this.LblEntityLevel.Name = "LblEntityLevel";
-            this.TTip.SetToolTip(this.LblEntityLevel, resources.GetString("LblEntityLevel.ToolTip"));
-            // 
-            // NUDEntityAmout
-            // 
-            resources.ApplyResources(this.NUDEntityAmout, "NUDEntityAmout");
-            this.NUDEntityAmout.Maximum = new decimal(new int[] {
-            1000,
-            0,
-            0,
-            0});
-            this.NUDEntityAmout.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NUDEntityAmout.Name = "NUDEntityAmout";
-            this.TTip.SetToolTip(this.NUDEntityAmout, resources.GetString("NUDEntityAmout.ToolTip"));
-            this.NUDEntityAmout.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NUDEntityAmout.ValueChanged += new System.EventHandler(this.SpawnEntityInputChanged);
-            // 
-            // NUDEntityLevel
-            // 
-            resources.ApplyResources(this.NUDEntityLevel, "NUDEntityLevel");
-            this.NUDEntityLevel.Maximum = new decimal(new int[] {
-            100000,
-            0,
-            0,
-            0});
-            this.NUDEntityLevel.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NUDEntityLevel.Name = "NUDEntityLevel";
-            this.TTip.SetToolTip(this.NUDEntityLevel, resources.GetString("NUDEntityLevel.ToolTip"));
-            this.NUDEntityLevel.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.NUDEntityLevel.ValueChanged += new System.EventHandler(this.SpawnEntityInputChanged);
-            // 
-            // TxtEntityFilter
-            // 
-            resources.ApplyResources(this.TxtEntityFilter, "TxtEntityFilter");
-            this.TxtEntityFilter.Name = "TxtEntityFilter";
-            this.TTip.SetToolTip(this.TxtEntityFilter, resources.GetString("TxtEntityFilter.ToolTip"));
-            this.TxtEntityFilter.TextChanged += new System.EventHandler(this.TxtEntityFilter_TextChanged);
-            // 
-            // ListEntity
-            // 
-            resources.ApplyResources(this.ListEntity, "ListEntity");
-            this.ListEntity.FormattingEnabled = true;
-            this.ListEntity.Name = "ListEntity";
-            this.TTip.SetToolTip(this.ListEntity, resources.GetString("ListEntity.ToolTip"));
-            this.ListEntity.SelectedIndexChanged += new System.EventHandler(this.SpawnEntityInputChanged);
-            // 
             // TPScene
             // 
             resources.ApplyResources(this.TPScene, "TPScene");
@@ -1328,126 +1549,6 @@ namespace GrasscutterTools
             this.ListScenes.Name = "ListScenes";
             this.TTip.SetToolTip(this.ListScenes, resources.GetString("ListScenes.ToolTip"));
             this.ListScenes.SelectedIndexChanged += new System.EventHandler(this.ListScenes_SelectedIndexChanged);
-            // 
-            // TPStats
-            // 
-            resources.ApplyResources(this.TPStats, "TPStats");
-            this.TPStats.Controls.Add(this.GrpSetStats);
-            this.TPStats.Controls.Add(this.GrpTalentLevel);
-            this.TPStats.Controls.Add(this.LblStatsDescription);
-            this.TPStats.Name = "TPStats";
-            this.TTip.SetToolTip(this.TPStats, resources.GetString("TPStats.ToolTip"));
-            this.TPStats.UseVisualStyleBackColor = true;
-            // 
-            // GrpSetStats
-            // 
-            resources.ApplyResources(this.GrpSetStats, "GrpSetStats");
-            this.GrpSetStats.Controls.Add(this.LblStatTip);
-            this.GrpSetStats.Controls.Add(this.LblStatPercent);
-            this.GrpSetStats.Controls.Add(this.NUDStat);
-            this.GrpSetStats.Controls.Add(this.CmbStat);
-            this.GrpSetStats.Name = "GrpSetStats";
-            this.GrpSetStats.TabStop = false;
-            this.TTip.SetToolTip(this.GrpSetStats, resources.GetString("GrpSetStats.ToolTip"));
-            // 
-            // LblStatTip
-            // 
-            resources.ApplyResources(this.LblStatTip, "LblStatTip");
-            this.LblStatTip.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.LblStatTip.Name = "LblStatTip";
-            this.TTip.SetToolTip(this.LblStatTip, resources.GetString("LblStatTip.ToolTip"));
-            // 
-            // LblStatPercent
-            // 
-            resources.ApplyResources(this.LblStatPercent, "LblStatPercent");
-            this.LblStatPercent.Name = "LblStatPercent";
-            this.TTip.SetToolTip(this.LblStatPercent, resources.GetString("LblStatPercent.ToolTip"));
-            // 
-            // NUDStat
-            // 
-            resources.ApplyResources(this.NUDStat, "NUDStat");
-            this.NUDStat.Maximum = new decimal(new int[] {
-            100000000,
-            0,
-            0,
-            0});
-            this.NUDStat.Name = "NUDStat";
-            this.TTip.SetToolTip(this.NUDStat, resources.GetString("NUDStat.ToolTip"));
-            this.NUDStat.Value = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.NUDStat.ValueChanged += new System.EventHandler(this.SetStatsInputChanged);
-            // 
-            // CmbStat
-            // 
-            resources.ApplyResources(this.CmbStat, "CmbStat");
-            this.CmbStat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CmbStat.FormattingEnabled = true;
-            this.CmbStat.Name = "CmbStat";
-            this.TTip.SetToolTip(this.CmbStat, resources.GetString("CmbStat.ToolTip"));
-            this.CmbStat.SelectedIndexChanged += new System.EventHandler(this.SetStatsInputChanged);
-            // 
-            // GrpTalentLevel
-            // 
-            resources.ApplyResources(this.GrpTalentLevel, "GrpTalentLevel");
-            this.GrpTalentLevel.Controls.Add(this.LnkTalentE);
-            this.GrpTalentLevel.Controls.Add(this.LnkTalentQ);
-            this.GrpTalentLevel.Controls.Add(this.LnkTalentNormalATK);
-            this.GrpTalentLevel.Controls.Add(this.NUDTalentLevel);
-            this.GrpTalentLevel.Name = "GrpTalentLevel";
-            this.GrpTalentLevel.TabStop = false;
-            this.TTip.SetToolTip(this.GrpTalentLevel, resources.GetString("GrpTalentLevel.ToolTip"));
-            // 
-            // LnkTalentE
-            // 
-            resources.ApplyResources(this.LnkTalentE, "LnkTalentE");
-            this.LnkTalentE.Name = "LnkTalentE";
-            this.LnkTalentE.TabStop = true;
-            this.LnkTalentE.Tag = "e";
-            this.TTip.SetToolTip(this.LnkTalentE, resources.GetString("LnkTalentE.ToolTip"));
-            this.LnkTalentE.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkSetTalentClicked);
-            // 
-            // LnkTalentQ
-            // 
-            resources.ApplyResources(this.LnkTalentQ, "LnkTalentQ");
-            this.LnkTalentQ.Name = "LnkTalentQ";
-            this.LnkTalentQ.TabStop = true;
-            this.LnkTalentQ.Tag = "q";
-            this.TTip.SetToolTip(this.LnkTalentQ, resources.GetString("LnkTalentQ.ToolTip"));
-            this.LnkTalentQ.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkSetTalentClicked);
-            // 
-            // LnkTalentNormalATK
-            // 
-            resources.ApplyResources(this.LnkTalentNormalATK, "LnkTalentNormalATK");
-            this.LnkTalentNormalATK.Name = "LnkTalentNormalATK";
-            this.LnkTalentNormalATK.TabStop = true;
-            this.LnkTalentNormalATK.Tag = "n";
-            this.TTip.SetToolTip(this.LnkTalentNormalATK, resources.GetString("LnkTalentNormalATK.ToolTip"));
-            this.LnkTalentNormalATK.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkSetTalentClicked);
-            // 
-            // NUDTalentLevel
-            // 
-            resources.ApplyResources(this.NUDTalentLevel, "NUDTalentLevel");
-            this.NUDTalentLevel.Maximum = new decimal(new int[] {
-            16,
-            0,
-            0,
-            0});
-            this.NUDTalentLevel.Name = "NUDTalentLevel";
-            this.TTip.SetToolTip(this.NUDTalentLevel, resources.GetString("NUDTalentLevel.ToolTip"));
-            this.NUDTalentLevel.Value = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
-            // 
-            // LblStatsDescription
-            // 
-            resources.ApplyResources(this.LblStatsDescription, "LblStatsDescription");
-            this.LblStatsDescription.Name = "LblStatsDescription";
-            this.TTip.SetToolTip(this.LblStatsDescription, resources.GetString("LblStatsDescription.ToolTip"));
             // 
             // TPManage
             // 
@@ -1823,6 +1924,29 @@ namespace GrasscutterTools
             ((System.ComponentModel.ISupportInitialize)(this.NUDArtifactStars)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDSubAttributionTimes)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDArtifactLevel)).EndInit();
+            this.TPQuest.ResumeLayout(false);
+            this.TPQuest.PerformLayout();
+            this.GrpQuestFilters.ResumeLayout(false);
+            this.GrpQuestFilters.PerformLayout();
+            this.TPSpawn.ResumeLayout(false);
+            this.TPSpawn.PerformLayout();
+            this.GrpSpawnRecord.ResumeLayout(false);
+            this.GrpEntityType.ResumeLayout(false);
+            this.GrpEntityType.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDEntityAmout)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDEntityLevel)).EndInit();
+            this.TPAvatar.ResumeLayout(false);
+            this.TPAvatar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ImgAvatar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDAvatarLevel)).EndInit();
+            this.TPStats.ResumeLayout(false);
+            this.TPStats.PerformLayout();
+            this.GrpSetStats.ResumeLayout(false);
+            this.GrpSetStats.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDStat)).EndInit();
+            this.GrpTalentLevel.ResumeLayout(false);
+            this.GrpTalentLevel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDTalentLevel)).EndInit();
             this.TPWeapon.ResumeLayout(false);
             this.TPWeapon.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDWeaponRefinement)).EndInit();
@@ -1833,30 +1957,11 @@ namespace GrasscutterTools
             this.GrpGiveItemRecord.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.NUDGameItemAmout)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDGameItemLevel)).EndInit();
-            this.TPAvatar.ResumeLayout(false);
-            this.TPAvatar.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ImgAvatar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDAvatarLevel)).EndInit();
-            this.TPSpawn.ResumeLayout(false);
-            this.TPSpawn.PerformLayout();
-            this.GrpSpawnRecord.ResumeLayout(false);
-            this.GrpEntityType.ResumeLayout(false);
-            this.GrpEntityType.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDEntityAmout)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDEntityLevel)).EndInit();
             this.TPScene.ResumeLayout(false);
             this.TPScene.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpZ)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpX)).EndInit();
-            this.TPStats.ResumeLayout(false);
-            this.TPStats.PerformLayout();
-            this.GrpSetStats.ResumeLayout(false);
-            this.GrpSetStats.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDStat)).EndInit();
-            this.GrpTalentLevel.ResumeLayout(false);
-            this.GrpTalentLevel.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDTalentLevel)).EndInit();
             this.TPManage.ResumeLayout(false);
             this.GrpAccount.ResumeLayout(false);
             this.GrpAccount.PerformLayout();
@@ -2039,6 +2144,16 @@ namespace GrasscutterTools
         private System.Windows.Forms.NumericUpDown NUDTpX;
         private System.Windows.Forms.CheckBox ChkIncludeSceneId;
         private System.Windows.Forms.Label LblTp;
+        private System.Windows.Forms.TabPage TPQuest;
+        private System.Windows.Forms.TextBox TxtQuestFilter;
+        private System.Windows.Forms.ListBox ListQuest;
+        private System.Windows.Forms.Button BtnFinishQuest;
+        private System.Windows.Forms.Button BtnAddQuest;
+        private System.Windows.Forms.Label LblQuestDescription;
+        private System.Windows.Forms.GroupBox GrpQuestFilters;
+        private System.Windows.Forms.CheckBox ChkQuestFilterTEST;
+        private System.Windows.Forms.CheckBox ChkQuestFilterUNRELEASED;
+        private System.Windows.Forms.CheckBox ChkQuestFilterHIDDEN;
     }
 }
 

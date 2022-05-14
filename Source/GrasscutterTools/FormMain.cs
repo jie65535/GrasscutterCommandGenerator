@@ -64,6 +64,7 @@ namespace GrasscutterTools
             InitScenes();
             InitStatList();
             InitPermList();
+            InitQuestList();
         }
 
         private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
@@ -1122,5 +1123,41 @@ namespace GrasscutterTools
 
         #endregion - 远程 -
 
+        #region - 任务 -
+
+        private void InitQuestList()
+        {
+            QuestFilterChanged(null, EventArgs.Empty);
+        }
+
+        private void QuestFilterChanged(object sender, EventArgs e)
+        {
+            ListQuest.BeginUpdate();
+            ListQuest.Items.Clear();
+            ListQuest.Items.AddRange(GameData.Quests.Lines.Where(l =>
+            {
+                if (!ChkQuestFilterHIDDEN.Checked && l.Contains((string)ChkQuestFilterHIDDEN.Tag))
+                    return false;
+                if (!ChkQuestFilterUNRELEASED.Checked && l.Contains((string)ChkQuestFilterUNRELEASED.Tag))
+                    return false;
+                if (!ChkQuestFilterTEST.Checked && l.Contains((string)ChkQuestFilterTEST.Tag))
+                    return false;
+                if (!string.IsNullOrEmpty(TxtQuestFilter.Text))
+                    return l.Contains(TxtQuestFilter.Text);
+                return true;
+            }).ToArray());
+            ListQuest.EndUpdate();
+        }
+
+        private void QuestButsClicked(object sender, EventArgs e)
+        {
+            if (ListQuest.SelectedIndex == -1)
+                return;
+            var item = ListQuest.SelectedItem as string;
+            var id = item.Substring(0, item.IndexOf(':')).Trim();
+            SetCommand("/quest", $"{(sender as Button).Tag} {id}");
+        }
+
+        #endregion - 任务 -
     }
 }

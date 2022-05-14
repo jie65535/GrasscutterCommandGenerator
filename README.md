@@ -29,8 +29,8 @@
     - [ ] Ornament.txt
     - [x] Scene.txt
     - [x] Weapon.txt
+    - [ ] Quest.txt
   - [x] 远程执行命令
-  - [ ] 割草机启动器（无进度）
   - [ ] 邮件编辑器（无进度）
   - [ ] 商店编辑器（无进度）
 
