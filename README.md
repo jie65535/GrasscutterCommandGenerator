@@ -61,3 +61,7 @@
 ![GachaBannerEditor](Doc/Screenshots/10-GachaBannerEditor.png)
 
 ![Text Map Browser](Doc/Screenshots/11-TextMapBrowser.png)
+
+![Remote Screenshort](Doc/Screenshots/12-Remote.png)
+
+![Quest Screenshort](Doc/Screenshots/13-Quest.png)

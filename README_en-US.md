@@ -61,3 +61,7 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
 ![GachaBannerEditor](Doc/Screenshots-en/10-GachaBannerEditor.png)
 
 ![Text Map Browser](Doc/Screenshots-en/11-TextMapBrowser.png)
+
+![Remote Screenshort](Doc/Screenshots/12-Remote.png)
+
+![Quest Screenshort](Doc/Screenshots/13-Quest.png)
