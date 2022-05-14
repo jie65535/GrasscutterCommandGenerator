@@ -17,7 +17,7 @@
 ## TODO List
   - [ ] 多语言支持（进度：UI已经支持英语，但还有许多ID映射文件缺失，欢迎补充）
     - [x] Animal.txt
-    - [ ] Artifact.txt
+    - [x] Artifact.txt
     - [ ] ArtifactCat.txt
     - [ ] ArtifactMainAttribution.txt
     - [ ] ArtifactSubAttribution.txt
@@ -25,10 +25,10 @@
     - [x] CustomCommands.txt
     - [x] Item.txt
     - [x] Monster.txt
-    - [ ] NPC.txt
+    - [x] NPC.txt
     - [ ] Ornament.txt
     - [x] Scene.txt
-    - [ ] Weapon.txt
+    - [x] Weapon.txt
   - [x] 远程执行命令
   - [ ] 割草机启动器（无进度）
   - [ ] 邮件编辑器（无进度）

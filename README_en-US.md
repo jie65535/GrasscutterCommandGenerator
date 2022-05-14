@@ -17,7 +17,7 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
 ## TODO List
   - [ ] Multi-language support (progress: UI already supports English, but there are still many ID mapping files missing, welcome to add)
     - [x] Animal.txt
-    - [ ] Artifact.txt
+    - [x] Artifact.txt
     - [ ] ArtifactCat.txt
     - [ ] ArtifactMainAttribution.txt
     - [ ] ArtifactSubAttribution.txt
@@ -25,10 +25,10 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
     - [x] CustomCommands.txt
     - [x] Item.txt
     - [x] Monster.txt
-    - [ ] NPC.txt
+    - [x] NPC.txt
     - [ ] Ornament.txt
     - [x] Scene.txt
-    - [ ] Weapon.txt
+    - [x] Weapon.txt
   - [x] Execute command remotely
   - [ ] Grasscutter Launcher (no progress)
   - [ ] Mail Editor (no progress)
