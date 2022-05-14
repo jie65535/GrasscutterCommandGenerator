@@ -774,11 +774,14 @@ namespace GrasscutterTools
 
         private void ListScenes_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (ListScenes.SelectedIndex >= 0)
+            if (ListScenes.SelectedIndex < 0)
             {
-                var id = GameData.Scenes.Ids[ListScenes.SelectedIndex];
-                SetCommand("/changescene", id.ToString());
+                ChkIncludeSceneId.Enabled = false;
+                return;
             }
+            ChkIncludeSceneId.Enabled = true;
+            var id = GameData.Scenes.Ids[ListScenes.SelectedIndex];
+            SetCommand("/changescene", id.ToString());
         }
 
         private void CmbClimateType_SelectedIndexChanged(object sender, EventArgs e)
@@ -786,6 +789,14 @@ namespace GrasscutterTools
             if (CmbClimateType.SelectedIndex < 0)
                 return;
             SetCommand("/weather", $"0 {CmbClimateType.SelectedIndex}");
+        }
+
+        private void BtnTeleport_Click(object sender, EventArgs e)
+        {
+            string args = $"{NUDTpX.Value} {NUDTpY.Value} {NUDTpZ.Value}";
+            if (ChkIncludeSceneId.Checked && ListScenes.SelectedIndex != -1)
+                args += $" {GameData.Scenes.Ids[ListScenes.SelectedIndex]}";
+            SetCommand("/tp", args);
         }
 
         #endregion - 场景 -
@@ -1110,5 +1121,6 @@ namespace GrasscutterTools
         }
 
         #endregion - 远程 -
+
     }
 }
