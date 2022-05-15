@@ -148,6 +148,9 @@
   <data name="BrowserOpenFailedTip" xml:space="preserve">
     <value>The browser failed to open. You can manually access the following address:</value>
   </data>
+  <data name="CheckToNewVersion" xml:space="preserve">
+    <value>Check to new version</value>
+  </data>
   <data name="ClimateType" xml:space="preserve">
     <value>None,Sunny,Partly cloudy,Rain,Thunderstorm,Snow,Fog</value>
   </data>
@@ -195,6 +198,9 @@
   </data>
   <data name="Monster" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Monster.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="NewVersionInfo" xml:space="preserve">
+    <value>Name : {0}\nUpdate time : {1}\nUpdate info : \n{2}\n\nDo you want to check for updates? Selecting No will no longer remind you of this version.</value>
   </data>
   <data name="NPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\NPC.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>

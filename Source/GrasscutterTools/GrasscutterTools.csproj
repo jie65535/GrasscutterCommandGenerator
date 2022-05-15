@@ -222,6 +222,7 @@
     <Compile Include="Game\ItemMap.cs" />
     <Compile Include="Game\SetStatsCommand.cs" />
     <Compile Include="Game\TextMapData.cs" />
+    <Compile Include="Github\ReleaseAPI.cs" />
     <Compile Include="OpenCommand\OpenCommandAPI.cs" />
     <Compile Include="MultiLanguage.cs" />
     <Compile Include="Program.cs" />

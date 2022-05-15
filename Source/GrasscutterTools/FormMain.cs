@@ -40,17 +40,18 @@ namespace GrasscutterTools
         {
             InitializeComponent();
             Icon = Resources.IconGrasscutter;
+            LoadVersion();
             LoadSettings();
+            LoadUpdate();
         }
 
         private void FormMain_Load(object sender, EventArgs e)
         {
             MultiLanguage.LoadLanguage(this, typeof(FormMain));
-            Version version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
 #if DEBUG
-            Text += "  - by jie65535  - v" + version.ToString(3) + "-debug";
+            Text += "  - by jie65535  - v" + AppVersion.ToString(3) + "-debug";
 #else
-            Text += "  - by jie65535  - v" + version.ToString(3);
+            Text += "  - by jie65535  - v" + AppVersion.ToString(3);
 #endif
 
             GameData.LoadResources();
@@ -74,6 +75,13 @@ namespace GrasscutterTools
 
         private readonly string[] LanguageNames = new string[] { "简体中文", "English" };
         private readonly string[] Languages = new string[] { "zh-CN", "en-US" };
+
+
+        private Version AppVersion;
+        private void LoadVersion()
+        {
+            AppVersion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+        }
 
         private void LoadSettings()
         {
@@ -114,6 +122,42 @@ namespace GrasscutterTools
             {
                 MessageBox.Show(Resources.SettingSaveError + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void LoadUpdate()
+        {
+            Task.Run(() =>
+            {
+                try
+                {
+                    var info = Github.ReleaseAPI.GetReleasesLastest("jie65535", "GrasscutterCommandGenerator").Result;
+                    if (Version.TryParse(info.TagName.Substring(1), out Version lastestVersion) && AppVersion < lastestVersion)
+                    {
+                        if (!string.IsNullOrEmpty(Settings.Default.CheckedLastVersion)
+                            && Version.TryParse(Settings.Default.CheckedLastVersion, out Version checkedVersion)
+                            && checkedVersion >= lastestVersion)
+                            return;
+                        BeginInvoke(new Action(() =>
+                        {
+                            var r = MessageBox.Show(
+                                string.Format(Resources.NewVersionInfo, info.Name, info.CraeteTime, info.Body),
+                                Resources.CheckToNewVersion,
+                                MessageBoxButtons.YesNo,
+                                MessageBoxIcon.Information);
+                            if (r == DialogResult.Yes)
+                                System.Diagnostics.Process.Start(info.Url);
+                            else if (r == DialogResult.No)
+                                Settings.Default.CheckedLastVersion = lastestVersion.ToString();
+                        }));
+                    }
+                }
+                catch (Exception)
+                {
+#if DEBUG
+                    throw;
+#endif
+                }
+            });
         }
 
         #endregion - 初始化 -

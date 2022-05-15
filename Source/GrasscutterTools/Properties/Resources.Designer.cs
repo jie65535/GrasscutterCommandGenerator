@@ -404,6 +404,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 检查到新版本 的本地化字符串。
+        /// </summary>
+        internal static string CheckToNewVersion {
+            get {
+                return ResourceManager.GetString("CheckToNewVersion", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 无,晴天,多云,雨天,雷暴,雪天,雾天 的本地化字符串。
         /// </summary>
         internal static string ClimateType {
@@ -712,6 +721,15 @@ namespace GrasscutterTools.Properties {
         internal static string Monster {
             get {
                 return ResourceManager.GetString("Monster", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 版本名：{0}\n更新时间：{1}\n更新内容：\n{2}\n\n是否查看更新？选择否将不再提醒该版本。 的本地化字符串。
+        /// </summary>
+        internal static string NewVersionInfo {
+            get {
+                return ResourceManager.GetString("NewVersionInfo", resourceCulture);
             }
         }
         

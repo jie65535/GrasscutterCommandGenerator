@@ -28,7 +28,10 @@ namespace GrasscutterTools.Utils
 {
     public static class HttpHelper
     {
-        private static readonly HttpClient httpClient = new HttpClient();
+        public static readonly HttpClient HttpClient = new HttpClient
+        {
+            Timeout = TimeSpan.FromSeconds(30),
+        };
 
         static HttpHelper()
         {
@@ -39,7 +42,7 @@ namespace GrasscutterTools.Utils
         {
             try
             {
-                var responseMessage = await httpClient.GetAsync(url);
+                var responseMessage = await HttpClient.GetAsync(url);
                 if (responseMessage.IsSuccessStatusCode)
                 {
                     var responseString = await responseMessage.Content.ReadAsStringAsync();
@@ -63,7 +66,7 @@ namespace GrasscutterTools.Utils
             try
             {
                 var content = new StringContent(JsonConvert.SerializeObject(obj), Encoding.UTF8, "application/json");
-                var responseMessage = await httpClient.PostAsync(url, content);
+                var responseMessage = await HttpClient.PostAsync(url, content);
                 if (responseMessage.IsSuccessStatusCode)
                 {
                     var responseString = await responseMessage.Content.ReadAsStringAsync();

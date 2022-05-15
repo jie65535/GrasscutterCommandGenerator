@@ -23,5 +23,8 @@
     <Setting Name="Host" Type="System.String" Scope="User">
       <Value Profile="(Default)">https://127.0.0.1</Value>
     </Setting>
+    <Setting Name="CheckedLastVersion" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>
