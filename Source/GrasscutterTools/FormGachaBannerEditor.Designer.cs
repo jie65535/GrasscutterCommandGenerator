@@ -31,6 +31,7 @@ namespace GrasscutterTools
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGachaBannerEditor));
             this.GrpBannerValues = new System.Windows.Forms.GroupBox();
+            this.LblBannerEditorOldTip = new System.Windows.Forms.Label();
             this.CmbPrefab = new System.Windows.Forms.ComboBox();
             this.LblEventChanceTip = new System.Windows.Forms.Label();
             this.NUDEventChance = new System.Windows.Forms.NumericUpDown();
@@ -97,6 +98,7 @@ namespace GrasscutterTools
             // GrpBannerValues
             // 
             resources.ApplyResources(this.GrpBannerValues, "GrpBannerValues");
+            this.GrpBannerValues.Controls.Add(this.LblBannerEditorOldTip);
             this.GrpBannerValues.Controls.Add(this.CmbPrefab);
             this.GrpBannerValues.Controls.Add(this.LblEventChanceTip);
             this.GrpBannerValues.Controls.Add(this.NUDEventChance);
@@ -138,6 +140,12 @@ namespace GrasscutterTools
             this.GrpBannerValues.Controls.Add(this.RbCostItem223);
             this.GrpBannerValues.Name = "GrpBannerValues";
             this.GrpBannerValues.TabStop = false;
+            // 
+            // LblBannerEditorOldTip
+            // 
+            resources.ApplyResources(this.LblBannerEditorOldTip, "LblBannerEditorOldTip");
+            this.LblBannerEditorOldTip.ForeColor = System.Drawing.Color.Red;
+            this.LblBannerEditorOldTip.Name = "LblBannerEditorOldTip";
             // 
             // CmbPrefab
             // 
@@ -575,5 +583,6 @@ namespace GrasscutterTools
         private System.Windows.Forms.Button BtnGen;
         private System.Windows.Forms.Button BtnParse;
         private System.Windows.Forms.ComboBox CmbPrefab;
+        private System.Windows.Forms.Label LblBannerEditorOldTip;
     }
 }

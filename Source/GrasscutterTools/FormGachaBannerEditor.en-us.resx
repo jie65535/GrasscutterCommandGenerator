@@ -117,7 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblBannerEditorOldTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblBannerEditorOldTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 415</value>
+  </data>
+  <data name="LblBannerEditorOldTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 35</value>
+  </data>
+  <data name="LblBannerEditorOldTip.Text" xml:space="preserve">
+    <value>Tip: The latest version of the dev Banner is currently not supported, waiting for PR : )</value>
+  </data>
   <data name="LblEventChanceTip.Location" type="System.Drawing.Point, System.Drawing">
     <value>401, 262</value>
   </data>
