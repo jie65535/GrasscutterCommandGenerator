@@ -478,6 +478,8 @@ namespace GrasscutterTools.Properties {
         /// <summary>
         ///   查找类似 无敌
         ////godmode
+        ///无限耐力
+        ////nostamina
         ///升到60级
         ////give 102 1880200
         ///奶
@@ -523,7 +525,7 @@ namespace GrasscutterTools.Properties {
         ///自杀
         ////killcharacter
         ///暗杀
-        ////killcharacter &lt;pla [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        //// [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string CustomCommands {
             get {
@@ -725,7 +727,12 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 版本名：{0}\n更新时间：{1}\n更新内容：\n{2}\n\n是否查看更新？选择否将不再提醒该版本。 的本地化字符串。
+        ///   查找类似 版本名：{0}
+        ///更新时间：{1}
+        ///更新内容：
+        ///{2}
+        ///--------------------------------------------
+        ///是否查看更新？选择否将不再提醒该版本。 的本地化字符串。
         /// </summary>
         internal static string NewVersionInfo {
             get {

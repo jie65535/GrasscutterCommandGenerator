@@ -140,7 +140,7 @@ namespace GrasscutterTools
                         BeginInvoke(new Action(() =>
                         {
                             var r = MessageBox.Show(
-                                string.Format(Resources.NewVersionInfo, info.Name, info.CraeteTime, info.Body),
+                                string.Format(Resources.NewVersionInfo, info.Name, info.CraeteTime.ToLocalTime(), info.Body),
                                 Resources.CheckToNewVersion,
                                 MessageBoxButtons.YesNo,
                                 MessageBoxIcon.Information);

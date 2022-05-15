@@ -36,7 +36,7 @@ namespace GrasscutterTools.Github
 
             public string Url { get; set; }
 
-            public DateTime CraeteTime { get; set; }
+            public DateTimeOffset CraeteTime { get; set; }
 
             public string Name { get; set; }
 
