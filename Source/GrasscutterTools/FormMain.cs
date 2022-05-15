@@ -351,7 +351,7 @@ namespace GrasscutterTools
             }
         }
 
-        private void LblAddSubAttr_Click(object sender, EventArgs e)
+        private void BtnAddSubAttr_Click(object sender, EventArgs e)
         {
             if (CmbSubAttribution.SelectedIndex >= 0 && CmbSubAttributionValue.SelectedIndex >= 0)
             {
@@ -1159,5 +1159,6 @@ namespace GrasscutterTools
         }
 
         #endregion - 任务 -
+
     }
 }
