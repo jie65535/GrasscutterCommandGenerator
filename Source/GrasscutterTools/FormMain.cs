@@ -360,6 +360,8 @@ namespace GrasscutterTools
 
         private Dictionary<string, List<KeyValuePair<int, string>>> subAttrs;
 
+        private string[] ArtifactPartLabels;
+
         private void InitArtifactList()
         {
             CmbArtifactSet.Items.Clear();
@@ -383,6 +385,8 @@ namespace GrasscutterTools
             }
             CmbSubAttribution.Items.Clear();
             CmbSubAttribution.Items.AddRange(subAttrs.Keys.ToArray());
+
+            ArtifactPartLabels = Resources.ArtifactPartLabels.Split(',');
         }
 
         private void CmbSubAttribution_SelectedIndexChanged(object sender, EventArgs e)
@@ -428,8 +432,6 @@ namespace GrasscutterTools
             ArtifactInputChanged(sender, e);
         }
 
-        private readonly string[] ArtifactPartLabels = new string[] { "空之杯", "死之羽", "理之冠", "生之花", "时之沙" };
-
         private void CmbArtifactPart_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (CmbArtifactPart.SelectedIndex < 0)
@@ -439,8 +441,11 @@ namespace GrasscutterTools
             }
             var name = CmbArtifactPart.SelectedItem as string;
             var id = GameData.Artifacts.Ids[Array.IndexOf(GameData.Artifacts.Names, name)];
-            LblArtifactName.Text = ArtifactPartLabels[id / 10 % 10 - 1];
-
+            var pardIndex = id / 10 % 10 - 1;
+            if (pardIndex < ArtifactPartLabels?.Length)
+                LblArtifactName.Text = ArtifactPartLabels[pardIndex];
+            else
+                LblArtifactName.Text = "";
             ArtifactInputChanged(sender, e);
         }
 

@@ -248,6 +248,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 空之杯,死之羽,理之冠,生之花,时之沙 的本地化字符串。
+        /// </summary>
+        internal static string ArtifactPartLabels {
+            get {
+                return ResourceManager.GetString("ArtifactPartLabels", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 101021: 生命值+24
         ///101022: 生命值+30
         ///201021: 生命值+50
