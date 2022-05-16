@@ -93,11 +93,10 @@ namespace GrasscutterTools
                 CmbLanguage.Items.AddRange(LanguageNames);
                 CmbLanguage.SelectedIndex = Array.IndexOf(Languages, Settings.Default.DefaultLanguage);
 
-                NUDRemotePlayerId.Value   = Settings.Default.RemoteUid;
-                TxtHost.Text              = Settings.Default.Host;
 
                 InitGiveItemRecord();
                 InitSpawnRecord();
+                InitOpenCommand();
             }
             catch (Exception ex)
             {
@@ -111,11 +110,10 @@ namespace GrasscutterTools
             {
                 Settings.Default.AutoCopy  = ChkAutoCopy.Checked;
                 Settings.Default.Uid       = NUDUid.Value;
-                Settings.Default.RemoteUid = NUDRemotePlayerId.Value;
-                Settings.Default.Host      = TxtHost.Text;
                 SaveCustomCommands();
                 SaveGiveItemRecord();
                 SaveSpawnRecord();
+                SaveOpenCommand();
                 Settings.Default.Save();
             }
             catch (Exception ex)
@@ -1018,6 +1016,29 @@ namespace GrasscutterTools
 
         private OpenCommandAPI OC;
 
+        private void InitOpenCommand()
+        {
+            NUDRemotePlayerId.Value = Settings.Default.RemoteUid;
+            TxtHost.Text = Settings.Default.Host;
+            if (!string.IsNullOrEmpty(Settings.Default.Host) && !string.IsNullOrEmpty(Settings.Default.TokenCache))
+            {
+                OC = new OpenCommandAPI(Settings.Default.Host, Settings.Default.TokenCache);
+                TxtToken.Text = Settings.Default.TokenCache;
+                Task.Run(async () =>
+                {
+                    await Task.Delay(1000);
+                    BeginInvoke(new Action(() => ShowTip("已从缓存中恢复Token", BtnInvokeOpenCommand)));
+                });
+            }
+        }
+
+        private void SaveOpenCommand()
+        {
+            Settings.Default.RemoteUid = NUDRemotePlayerId.Value;
+            Settings.Default.Host = TxtHost.Text;
+            Settings.Default.TokenCache = OC?.Token;
+        }
+
         private async void BtnQueryServerStatus_Click(object sender, EventArgs e)
         {
             var btn = sender as Button;
@@ -1114,6 +1135,17 @@ namespace GrasscutterTools
             }
         }
 
+        private void BtnConsoleConnect_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(TxtToken.Text))
+            {
+                MessageBox.Show("Token不能为空！", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            OC.Token = TxtToken.Text;
+            BtnConnectOpenCommand_Click(sender, e);
+        }
+
         private void OnOpenCommandInvoke()
         {
             BtnInvokeOpenCommand_Click(BtnInvokeOpenCommand, EventArgs.Empty);
@@ -1138,7 +1170,7 @@ namespace GrasscutterTools
             try
             {
                 var msg = await OC.Invoke(cmd);
-                ShowTip(msg, btn);
+                ShowTip(string.IsNullOrEmpty(msg) ? "OK" : msg, btn);
             }
             catch (Exception ex)
             {

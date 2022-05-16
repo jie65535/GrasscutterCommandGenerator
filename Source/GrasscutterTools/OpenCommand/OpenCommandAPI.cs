@@ -27,10 +27,12 @@ namespace GrasscutterTools.OpenCommand
 {
     public class OpenCommandAPI
     {
-        public OpenCommandAPI(string host)
+        public OpenCommandAPI(string host, string token = "")
         {
             Host = host;
             API = host + "/opencommand/api";
+            Token = token;
+            CanInvoke = !string.IsNullOrEmpty(token);
         }
 
         public string Host { get; }

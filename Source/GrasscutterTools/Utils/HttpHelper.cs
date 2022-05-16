@@ -30,7 +30,7 @@ namespace GrasscutterTools.Utils
     {
         public static readonly HttpClient HttpClient = new HttpClient
         {
-            Timeout = TimeSpan.FromSeconds(30),
+            Timeout = TimeSpan.FromSeconds(10),
         };
 
         static HttpHelper()

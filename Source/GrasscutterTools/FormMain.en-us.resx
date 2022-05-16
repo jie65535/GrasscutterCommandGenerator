@@ -117,14 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="TxtCommand.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BtnCopy.Text" xml:space="preserve">
     <value>Copy</value>
-  </data>
-  <data name="BtnCopy.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ChkAutoCopy.Size" type="System.Drawing.Size, System.Drawing">
@@ -133,20 +127,14 @@
   <data name="ChkAutoCopy.Text" xml:space="preserve">
     <value>Auto</value>
   </data>
-  <data name="ChkAutoCopy.ToolTip" xml:space="preserve">
-    <value />
+  <data name="GrpCommand.Text" xml:space="preserve">
+    <value>Command (Press and hold Ctrl to run automatically)</value>
   </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>Run(F5)</value>
   </data>
-  <data name="BtnInvokeOpenCommand.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>Command (Press and hold Ctrl to run automatically)</value>
-  </data>
-  <data name="GrpCommand.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPHome.Text" xml:space="preserve">
+    <value>Home</value>
   </data>
   <data name="BtnOpenTextMap.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 23</value>
@@ -154,44 +142,17 @@
   <data name="BtnOpenTextMap.Text" xml:space="preserve">
     <value>TextMapBrowser</value>
   </data>
-  <data name="BtnOpenTextMap.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
     <value>Banner editor</value>
   </data>
-  <data name="BtnOpenGachaBannerEditor.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pictureBox1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CmbLanguage.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LblLanguage.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="NUDUid.ToolTip" xml:space="preserve">
-    <value />
+  <data name="GrpSettings.Text" xml:space="preserve">
+    <value>Settings</value>
   </data>
   <data name="ChkIncludeUID.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 21</value>
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Include UID</value>
-  </data>
-  <data name="ChkIncludeUID.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LblDefaultUid.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GrpSettings.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="GrpSettings.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
     <value>74, 38</value>
@@ -202,14 +163,8 @@
   <data name="LblAbout.Text" xml:space="preserve">
     <value>Have a nice time!</value>
   </data>
-  <data name="LblAbout.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>Home</value>
-  </data>
-  <data name="TPHome.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPCustom.Text" xml:space="preserve">
+    <value>Custom</value>
   </data>
   <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
     <value>533, 216</value>
@@ -220,9 +175,6 @@
   <data name="BtnExportCustomCommands.Text" xml:space="preserve">
     <value>Export</value>
   </data>
-  <data name="BtnExportCustomCommands.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BtnLoadCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
     <value>467, 216</value>
   </data>
@@ -232,26 +184,14 @@
   <data name="BtnLoadCustomCommands.Text" xml:space="preserve">
     <value>Load</value>
   </data>
-  <data name="BtnLoadCustomCommands.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>30, 17</value>
   </data>
   <data name="LblCustomName.Text" xml:space="preserve">
     <value>Tag</value>
   </data>
-  <data name="LblCustomName.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="FLPCustomCommands.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>List</value>
-  </data>
-  <data name="groupBox1.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>393, 216</value>
@@ -262,9 +202,6 @@
   <data name="BtnRemoveCustomCommand.Text" xml:space="preserve">
     <value>x Delete</value>
   </data>
-  <data name="BtnRemoveCustomCommand.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BtnSaveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>317, 216</value>
   </data>
@@ -274,32 +211,14 @@
   <data name="BtnSaveCustomCommand.Text" xml:space="preserve">
     <value>√ Save</value>
   </data>
-  <data name="BtnSaveCustomCommand.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="TxtCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>267, 23</value>
   </data>
-  <data name="TxtCustomName.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>Custom</value>
-  </data>
-  <data name="TPCustom.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPArtifact.Text" xml:space="preserve">
+    <value>Artifact</value>
   </data>
   <data name="BtnAddSubAttr.Text" xml:space="preserve">
     <value>+ Add</value>
-  </data>
-  <data name="BtnAddSubAttr.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LblArtifactName.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="NUDArtifactStars.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
     <value>298, 41</value>
@@ -310,23 +229,11 @@
   <data name="LblArtifactStars.Text" xml:space="preserve">
     <value>Stars</value>
   </data>
-  <data name="LblArtifactStars.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
   </data>
   <data name="LblArtifactPart.Text" xml:space="preserve">
     <value>Part</value>
-  </data>
-  <data name="LblArtifactPart.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CmbArtifactPart.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CmbArtifactSet.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
     <value>87, 11</value>
@@ -337,41 +244,17 @@
   <data name="LblArtifactSet.Text" xml:space="preserve">
     <value>Artifact</value>
   </data>
-  <data name="LblArtifactSet.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblArtifactLevelTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>62, 17</value>
   </data>
   <data name="LblArtifactLevelTip.Text" xml:space="preserve">
     <value>21 is +20</value>
   </data>
-  <data name="LblArtifactLevelTip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="NUDSubAttributionTimes.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CmbSubAttributionValue.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CmbSubAttribution.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblClearSubAttrCheckedList.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 17</value>
   </data>
   <data name="LblClearSubAttrCheckedList.Text" xml:space="preserve">
     <value>X Clear</value>
-  </data>
-  <data name="LblClearSubAttrCheckedList.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ListSubAttributionChecked.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="NUDArtifactLevel.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>99, 41</value>
@@ -382,9 +265,6 @@
   <data name="LblArtifactLevel.Text" xml:space="preserve">
     <value>Level</value>
   </data>
-  <data name="LblArtifactLevel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
     <value>80, 102</value>
   </data>
@@ -393,12 +273,6 @@
   </data>
   <data name="LblSubAttribution.Text" xml:space="preserve">
     <value>Sub Stat</value>
-  </data>
-  <data name="LblSubAttribution.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CmbMainAttribution.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblMainAttribution.Location" type="System.Drawing.Point, System.Drawing">
     <value>73, 71</value>
@@ -409,14 +283,11 @@
   <data name="LblMainAttribution.Text" xml:space="preserve">
     <value>Main Stat</value>
   </data>
-  <data name="LblMainAttribution.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPQuest.Text" xml:space="preserve">
+    <value>Quest</value>
   </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>Artifact</value>
-  </data>
-  <data name="TPArtifact.ToolTip" xml:space="preserve">
-    <value />
+  <data name="GrpQuestFilters.Text" xml:space="preserve">
+    <value>List Filter</value>
   </data>
   <data name="ChkQuestFilterTEST.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 21</value>
@@ -424,17 +295,11 @@
   <data name="ChkQuestFilterTEST.Text" xml:space="preserve">
     <value>Test</value>
   </data>
-  <data name="ChkQuestFilterTEST.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="ChkQuestFilterUNRELEASED.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 21</value>
   </data>
   <data name="ChkQuestFilterUNRELEASED.Text" xml:space="preserve">
     <value>Unreleased</value>
-  </data>
-  <data name="ChkQuestFilterUNRELEASED.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="ChkQuestFilterHIDDEN.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 21</value>
@@ -442,67 +307,31 @@
   <data name="ChkQuestFilterHIDDEN.Text" xml:space="preserve">
     <value>Hidden</value>
   </data>
-  <data name="ChkQuestFilterHIDDEN.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GrpQuestFilters.Text" xml:space="preserve">
-    <value>List Filter</value>
-  </data>
-  <data name="GrpQuestFilters.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BtnFinishQuest.Text" xml:space="preserve">
     <value>Finish</value>
   </data>
-  <data name="BtnFinishQuest.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BtnAddQuest.Text" xml:space="preserve">
     <value>Add</value>
-  </data>
-  <data name="BtnAddQuest.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblQuestDescription.Text" xml:space="preserve">
     <value>Add or Finish Quest
 Tip: Many quest require server-side scripting support
 Therefore, the quest can be add and finish, but not necessarily can be work</value>
   </data>
-  <data name="LblQuestDescription.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TxtQuestFilter.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ListQuest.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>Quest</value>
-  </data>
-  <data name="TPQuest.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPSpawn.Text" xml:space="preserve">
+    <value>Spawn</value>
   </data>
   <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
     <value>√ Record</value>
   </data>
-  <data name="BtnSaveSpawnLog.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
     <value>× Delete</value>
-  </data>
-  <data name="BtnRemoveSpawnLog.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ListSpawnLogs.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="GrpSpawnRecord.Text" xml:space="preserve">
     <value>Records</value>
   </data>
-  <data name="GrpSpawnRecord.ToolTip" xml:space="preserve">
-    <value />
+  <data name="GrpEntityType.Text" xml:space="preserve">
+    <value>Class</value>
   </data>
   <data name="RbEntityOrnament.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 21</value>
@@ -510,20 +339,11 @@ Therefore, the quest can be add and finish, but not necessarily can be work</val
   <data name="RbEntityOrnament.Text" xml:space="preserve">
     <value>Ornament</value>
   </data>
-  <data name="RbEntityOrnament.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="RbEntityAnimal.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 21</value>
   </data>
   <data name="RbEntityAnimal.Text" xml:space="preserve">
     <value>Animal</value>
-  </data>
-  <data name="RbEntityAnimal.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="RbEntityNPC.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="RbEntityMonster.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 21</value>
@@ -531,23 +351,11 @@ Therefore, the quest can be add and finish, but not necessarily can be work</val
   <data name="RbEntityMonster.Text" xml:space="preserve">
     <value>Monster</value>
   </data>
-  <data name="RbEntityMonster.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GrpEntityType.Text" xml:space="preserve">
-    <value>Class</value>
-  </data>
-  <data name="GrpEntityType.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblSpawnDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 17</value>
   </data>
   <data name="LblSpawnDescription.Text" xml:space="preserve">
     <value>Spawn entity</value>
-  </data>
-  <data name="LblSpawnDescription.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LblEntityAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -559,9 +367,6 @@ Therefore, the quest can be add and finish, but not necessarily can be work</val
   <data name="LblEntityAmount.Text" xml:space="preserve">
     <value>Amount</value>
   </data>
-  <data name="LblEntityAmount.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>120, 218</value>
   </data>
@@ -571,32 +376,14 @@ Therefore, the quest can be add and finish, but not necessarily can be work</val
   <data name="LblEntityLevel.Text" xml:space="preserve">
     <value>Lv</value>
   </data>
-  <data name="LblEntityLevel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="NUDEntityAmout.Location" type="System.Drawing.Point, System.Drawing">
     <value>64, 216</value>
-  </data>
-  <data name="NUDEntityAmout.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="NUDEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>146, 216</value>
   </data>
-  <data name="NUDEntityLevel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TxtEntityFilter.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ListEntity.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TPSpawn.Text" xml:space="preserve">
-    <value>Spawn</value>
-  </data>
-  <data name="TPSpawn.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPAvatar.Text" xml:space="preserve">
+    <value>Avatar</value>
   </data>
   <data name="LblAvatarGenWarning.Location" type="System.Drawing.Point, System.Drawing">
     <value>88, 161</value>
@@ -609,12 +396,6 @@ Therefore, the quest can be add and finish, but not necessarily can be work</val
 in a corrupted account save, making it impossible to play the game.
 The data may not be cleared even if the account is recreated.</value>
   </data>
-  <data name="LblAvatarGenWarning.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ImgAvatar.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblAvatar.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 217</value>
   </data>
@@ -623,9 +404,6 @@ The data may not be cleared even if the account is recreated.</value>
   </data>
   <data name="LblAvatar.Text" xml:space="preserve">
     <value>Avatar</value>
-  </data>
-  <data name="LblAvatar.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>392, 216</value>
@@ -636,14 +414,8 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="LblLevel.Text" xml:space="preserve">
     <value>Lv</value>
   </data>
-  <data name="LblLevel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="NUDAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>418, 214</value>
-  </data>
-  <data name="NUDAvatarLevel.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="CmbAvatar.Location" type="System.Drawing.Point, System.Drawing">
     <value>186, 214</value>
@@ -651,14 +423,11 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="CmbAvatar.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 25</value>
   </data>
-  <data name="CmbAvatar.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPStats.Text" xml:space="preserve">
+    <value>Stats</value>
   </data>
-  <data name="TPAvatar.Text" xml:space="preserve">
-    <value>Avatar</value>
-  </data>
-  <data name="TPAvatar.ToolTip" xml:space="preserve">
-    <value />
+  <data name="GrpSetStats.Text" xml:space="preserve">
+    <value>Stats</value>
   </data>
   <data name="LblStatTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>26, 17</value>
@@ -666,23 +435,8 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>Tip</value>
   </data>
-  <data name="LblStatTip.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LblStatPercent.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="NUDStat.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CmbStat.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GrpSetStats.Text" xml:space="preserve">
-    <value>Stats</value>
-  </data>
-  <data name="GrpSetStats.ToolTip" xml:space="preserve">
-    <value />
+  <data name="GrpTalentLevel.Text" xml:space="preserve">
+    <value>Talent Level</value>
   </data>
   <data name="LnkTalentE.Location" type="System.Drawing.Point, System.Drawing">
     <value>283, 24</value>
@@ -693,9 +447,6 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="LnkTalentE.Text" xml:space="preserve">
     <value>E</value>
   </data>
-  <data name="LnkTalentE.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LnkTalentQ.Location" type="System.Drawing.Point, System.Drawing">
     <value>259, 24</value>
   </data>
@@ -704,9 +455,6 @@ The data may not be cleared even if the account is recreated.</value>
   </data>
   <data name="LnkTalentQ.Text" xml:space="preserve">
     <value>Q</value>
-  </data>
-  <data name="LnkTalentQ.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LnkTalentNormalATK.Location" type="System.Drawing.Point, System.Drawing">
     <value>178, 24</value>
@@ -717,20 +465,8 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="LnkTalentNormalATK.Text" xml:space="preserve">
     <value>NormalATK</value>
   </data>
-  <data name="LnkTalentNormalATK.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="NUDTalentLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 23</value>
-  </data>
-  <data name="NUDTalentLevel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GrpTalentLevel.Text" xml:space="preserve">
-    <value>Talent Level</value>
-  </data>
-  <data name="GrpTalentLevel.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblStatsDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 17</value>
@@ -738,26 +474,14 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="LblStatsDescription.Text" xml:space="preserve">
     <value>Set current active Avatar data</value>
   </data>
-  <data name="LblStatsDescription.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TPStats.Text" xml:space="preserve">
-    <value>Stats</value>
-  </data>
-  <data name="TPStats.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TxtWeaponFilter.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPWeapon.Text" xml:space="preserve">
+    <value>Weapon</value>
   </data>
   <data name="LblWeaponDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 17</value>
   </data>
   <data name="LblWeaponDescription.Text" xml:space="preserve">
     <value>Geive Weapon</value>
-  </data>
-  <data name="LblWeaponDescription.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblWeaponRefinement.Location" type="System.Drawing.Point, System.Drawing">
     <value>203, 218</value>
@@ -768,17 +492,11 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="LblWeaponRefinement.Text" xml:space="preserve">
     <value>Refinement</value>
   </data>
-  <data name="LblWeaponRefinement.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblWeaponAmount.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 17</value>
   </data>
   <data name="LblWeaponAmount.Text" xml:space="preserve">
     <value>Amount</value>
-  </data>
-  <data name="LblWeaponAmount.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblWeaponLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>121, 218</value>
@@ -789,35 +507,17 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="LblWeaponLevel.Text" xml:space="preserve">
     <value>Lv</value>
   </data>
-  <data name="LblWeaponLevel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="NUDWeaponRefinement.Location" type="System.Drawing.Point, System.Drawing">
     <value>282, 216</value>
-  </data>
-  <data name="NUDWeaponRefinement.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="NUDWeaponAmout.Location" type="System.Drawing.Point, System.Drawing">
     <value>65, 216</value>
   </data>
-  <data name="NUDWeaponAmout.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="NUDWeaponLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>147, 216</value>
   </data>
-  <data name="NUDWeaponLevel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="ListWeapons.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TPWeapon.Text" xml:space="preserve">
-    <value>Weapon</value>
-  </data>
-  <data name="TPWeapon.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPItem.Text" xml:space="preserve">
+    <value>Items</value>
   </data>
   <data name="BtnSaveGiveItemLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
@@ -828,9 +528,6 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="BtnSaveGiveItemLog.Text" xml:space="preserve">
     <value>√ Record</value>
   </data>
-  <data name="BtnSaveGiveItemLog.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BtnRemoveGiveItemLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
@@ -840,17 +537,8 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="BtnRemoveGiveItemLog.Text" xml:space="preserve">
     <value>× Delete</value>
   </data>
-  <data name="BtnRemoveGiveItemLog.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="GrpGiveItemRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
-  </data>
-  <data name="ListGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>243, 140</value>
-  </data>
-  <data name="ListGiveItemLogs.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="GrpGiveItemRecord.Size" type="System.Drawing.Size, System.Drawing">
     <value>249, 162</value>
@@ -858,8 +546,8 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="GrpGiveItemRecord.Text" xml:space="preserve">
     <value>Records</value>
   </data>
-  <data name="GrpGiveItemRecord.ToolTip" xml:space="preserve">
-    <value />
+  <data name="ListGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 140</value>
   </data>
   <data name="ChkDrop.Location" type="System.Drawing.Point, System.Drawing">
     <value>278, 217</value>
@@ -870,9 +558,6 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="ChkDrop.Text" xml:space="preserve">
     <value>Drop</value>
   </data>
-  <data name="ChkDrop.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="TxtGameItemFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -881,9 +566,6 @@ The data may not be cleared even if the account is recreated.</value>
   </data>
   <data name="TxtGameItemFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 23</value>
-  </data>
-  <data name="TxtGameItemFilter.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="ListGameItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -894,9 +576,6 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="ListGameItems.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 208</value>
   </data>
-  <data name="ListGameItems.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblGameItemAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -905,9 +584,6 @@ The data may not be cleared even if the account is recreated.</value>
   </data>
   <data name="LblGameItemAmount.Text" xml:space="preserve">
     <value>Amount</value>
-  </data>
-  <data name="LblGameItemAmount.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblGameItemLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>171, 218</value>
@@ -918,20 +594,11 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="LblGameItemLevel.Text" xml:space="preserve">
     <value>Level</value>
   </data>
-  <data name="LblGameItemLevel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="NUDGameItemAmout.Location" type="System.Drawing.Point, System.Drawing">
     <value>65, 216</value>
   </data>
-  <data name="NUDGameItemAmout.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="NUDGameItemLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>209, 216</value>
-  </data>
-  <data name="NUDGameItemLevel.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblGiveCommandDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 17</value>
@@ -939,14 +606,8 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="LblGiveCommandDescription.Text" xml:space="preserve">
     <value>Give item to player</value>
   </data>
-  <data name="LblGiveCommandDescription.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TPItem.Text" xml:space="preserve">
-    <value>Items</value>
-  </data>
-  <data name="TPItem.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPScene.Text" xml:space="preserve">
+    <value>Scene</value>
   </data>
   <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
     <value>91, 213</value>
@@ -956,9 +617,6 @@ The data may not be cleared even if the account is recreated.</value>
   </data>
   <data name="ChkIncludeSceneId.Text" xml:space="preserve">
     <value>Include scene Id</value>
-  </data>
-  <data name="ChkIncludeSceneId.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblTp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -978,20 +636,11 @@ The data may not be cleared even if the account is recreated.</value>
 Tip: You can quickly teleport through the 'fishing hook' mark on the minimap in the game
 In the command, you can use ~ to indicate the current position, and ~100 to indicate the relative current 100</value>
   </data>
-  <data name="LblTp.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblTpZ.Location" type="System.Drawing.Point, System.Drawing">
     <value>219, 184</value>
   </data>
-  <data name="LblTpZ.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblTpY.Location" type="System.Drawing.Point, System.Drawing">
     <value>113, 184</value>
-  </data>
-  <data name="LblTpY.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="BtnTeleport.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 211</value>
@@ -999,38 +648,20 @@ In the command, you can use ~ to indicate the current position, and ~100 to indi
   <data name="BtnTeleport.Text" xml:space="preserve">
     <value>Teleport</value>
   </data>
-  <data name="BtnTeleport.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblTpX.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 184</value>
-  </data>
-  <data name="LblTpX.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="NUDTpZ.Location" type="System.Drawing.Point, System.Drawing">
     <value>239, 182</value>
   </data>
-  <data name="NUDTpZ.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="NUDTpY.Location" type="System.Drawing.Point, System.Drawing">
     <value>133, 182</value>
-  </data>
-  <data name="NUDTpY.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="NUDTpX.Location" type="System.Drawing.Point, System.Drawing">
     <value>27, 182</value>
   </data>
-  <data name="NUDTpX.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 61</value>
-  </data>
-  <data name="CmbClimateType.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblClimateType.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 64</value>
@@ -1040,9 +671,6 @@ In the command, you can use ~ to indicate the current position, and ~100 to indi
   </data>
   <data name="LblClimateType.Text" xml:space="preserve">
     <value>weather</value>
-  </data>
-  <data name="LblClimateType.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblSceneDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -1057,17 +685,11 @@ In the command, you can use ~ to indicate the current position, and ~100 to indi
     <value>Scene control
 Tip: Most of the scenes have no effect and cannot be entered.</value>
   </data>
-  <data name="LblSceneDescription.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPManage.Text" xml:space="preserve">
+    <value>Manage</value>
   </data>
-  <data name="ListScenes.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>Scene</value>
-  </data>
-  <data name="TPScene.ToolTip" xml:space="preserve">
-    <value />
+  <data name="GrpAccount.Text" xml:space="preserve">
+    <value>Account Management</value>
   </data>
   <data name="ChkAccountSetUid.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 21</value>
@@ -1075,29 +697,17 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="ChkAccountSetUid.Text" xml:space="preserve">
     <value>UID</value>
   </data>
-  <data name="ChkAccountSetUid.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="NUDAccountUid.Location" type="System.Drawing.Point, System.Drawing">
     <value>270, 23</value>
   </data>
   <data name="NUDAccountUid.Size" type="System.Drawing.Size, System.Drawing">
     <value>130, 23</value>
   </data>
-  <data name="NUDAccountUid.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BtnDeleteAccount.Text" xml:space="preserve">
     <value>Delete</value>
   </data>
-  <data name="BtnDeleteAccount.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BtnCreateAccount.Text" xml:space="preserve">
     <value>Create</value>
-  </data>
-  <data name="BtnCreateAccount.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblAccountUserName.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 25</value>
@@ -1108,50 +718,26 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblAccountUserName.Text" xml:space="preserve">
     <value>Username</value>
   </data>
-  <data name="LblAccountUserName.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="TxtAccountUserName.Location" type="System.Drawing.Point, System.Drawing">
     <value>79, 22</value>
   </data>
   <data name="TxtAccountUserName.Size" type="System.Drawing.Size, System.Drawing">
     <value>127, 23</value>
   </data>
-  <data name="TxtAccountUserName.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GrpAccount.Text" xml:space="preserve">
-    <value>Account Management</value>
-  </data>
-  <data name="GrpAccount.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="CmbPerm.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="NUDPermUID.ToolTip" xml:space="preserve">
-    <value />
+  <data name="GrpPermission.Text" xml:space="preserve">
+    <value>Permission Management</value>
   </data>
   <data name="BtmPermRemove.Text" xml:space="preserve">
     <value>Delete</value>
   </data>
-  <data name="BtmPermRemove.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BtnPermAdd.Text" xml:space="preserve">
     <value>Add</value>
-  </data>
-  <data name="BtnPermAdd.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblPerm.Size" type="System.Drawing.Size, System.Drawing">
     <value>38, 17</value>
   </data>
   <data name="LblPerm.Text" xml:space="preserve">
     <value>Perm</value>
-  </data>
-  <data name="LblPerm.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblPermUID.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 25</value>
@@ -1162,29 +748,11 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblPermUID.Text" xml:space="preserve">
     <value>UID</value>
   </data>
-  <data name="LblPermUID.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="GrpPermission.Text" xml:space="preserve">
-    <value>Permission Management</value>
-  </data>
-  <data name="GrpPermission.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TPManage.Text" xml:space="preserve">
-    <value>Manage</value>
-  </data>
-  <data name="TPManage.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pictureBox2.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPAbout.Text" xml:space="preserve">
+    <value>About</value>
   </data>
   <data name="LnkGithub.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
-  </data>
-  <data name="LnkGithub.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 17</value>
@@ -1192,14 +760,11 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblSupportDescription.Text" xml:space="preserve">
     <value>Grasscutter Tools</value>
   </data>
-  <data name="LblSupportDescription.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPRemoteCall.Text" xml:space="preserve">
+    <value>Remote</value>
   </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="TPAbout.ToolTip" xml:space="preserve">
-    <value />
+  <data name="GrpServerStatus.Text" xml:space="preserve">
+    <value>Server status</value>
   </data>
   <data name="LnkOpenCommandLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 63</value>
@@ -1210,26 +775,14 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LnkOpenCommandLabel.Text" xml:space="preserve">
     <value>OpenCommand</value>
   </data>
-  <data name="LnkOpenCommandLabel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblOpenCommandSupport.Location" type="System.Drawing.Point, System.Drawing">
     <value>119, 63</value>
-  </data>
-  <data name="LblOpenCommandSupport.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblServerVersion.Location" type="System.Drawing.Point, System.Drawing">
     <value>119, 29</value>
   </data>
-  <data name="LblServerVersion.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblPlayerCount.Location" type="System.Drawing.Point, System.Drawing">
     <value>119, 46</value>
-  </data>
-  <data name="LblPlayerCount.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblServerVersionLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 29</value>
@@ -1240,9 +793,6 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblServerVersionLabel.Text" xml:space="preserve">
     <value>Game version</value>
   </data>
-  <data name="LblServerVersionLabel.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblPlayerCountLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>34, 46</value>
   </data>
@@ -1252,14 +802,11 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblPlayerCountLabel.Text" xml:space="preserve">
     <value>Player count</value>
   </data>
-  <data name="LblPlayerCountLabel.ToolTip" xml:space="preserve">
-    <value />
+  <data name="GrpRemoteCommand.Text" xml:space="preserve">
+    <value>Remote Cell</value>
   </data>
-  <data name="GrpServerStatus.Text" xml:space="preserve">
-    <value>Server status</value>
-  </data>
-  <data name="GrpServerStatus.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPPlayerCheck.Text" xml:space="preserve">
+    <value>Player</value>
   </data>
   <data name="LnkRCHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 17</value>
@@ -1267,26 +814,8 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LnkRCHelp.Text" xml:space="preserve">
     <value>Help</value>
   </data>
-  <data name="LnkRCHelp.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="BtnConnectOpenCommand.Text" xml:space="preserve">
     <value>Connect</value>
-  </data>
-  <data name="BtnConnectOpenCommand.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="BtnSendVerificationCode.Text" xml:space="preserve">
-    <value>Send Code</value>
-  </data>
-  <data name="BtnSendVerificationCode.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="LblRemotePlayerId.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="NUDVerificationCode.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="LblVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
@@ -1294,23 +823,23 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblVerificationCode.Text" xml:space="preserve">
     <value>Code</value>
   </data>
-  <data name="LblVerificationCode.ToolTip" xml:space="preserve">
-    <value />
+  <data name="BtnSendVerificationCode.Text" xml:space="preserve">
+    <value>Send Code</value>
   </data>
-  <data name="NUDRemotePlayerId.ToolTip" xml:space="preserve">
-    <value />
+  <data name="TPConsoleCheck.Text" xml:space="preserve">
+    <value>Console</value>
   </data>
-  <data name="GrpRemoteCommand.Text" xml:space="preserve">
-    <value>Remote Cell</value>
+  <data name="LblConsoleTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="GrpRemoteCommand.ToolTip" xml:space="preserve">
-    <value />
+  <data name="LblConsoleTip.Text" xml:space="preserve">
+    <value>Note that normal commands in the console state must specify the target (set include UID)</value>
+  </data>
+  <data name="BtnConsoleConnect.Text" xml:space="preserve">
+    <value>Connect</value>
   </data>
   <data name="TxtHost.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 23</value>
-  </data>
-  <data name="TxtHost.ToolTip" xml:space="preserve">
-    <value />
   </data>
   <data name="BtnQueryServerStatus.Location" type="System.Drawing.Point, System.Drawing">
     <value>292, 36</value>
@@ -1321,31 +850,10 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="BtnQueryServerStatus.Text" xml:space="preserve">
     <value>Query</value>
   </data>
-  <data name="BtnQueryServerStatus.ToolTip" xml:space="preserve">
-    <value />
-  </data>
   <data name="LblHost.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 17</value>
   </data>
   <data name="LblHost.Text" xml:space="preserve">
     <value>Host</value>
-  </data>
-  <data name="LblHost.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>Remote</value>
-  </data>
-  <data name="TPRemoteCall.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="TCMain.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>GrasscutterTools</value>
-  </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
   </data>
 </root>

@@ -118,5 +118,17 @@ namespace GrasscutterTools.Properties {
                 this["CheckedLastVersion"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string TokenCache {
+            get {
+                return ((string)(this["TokenCache"]));
+            }
+            set {
+                this["TokenCache"] = value;
+            }
+        }
     }
 }
