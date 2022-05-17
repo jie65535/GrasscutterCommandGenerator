@@ -22,9 +22,9 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
   - [ ] Multi-language support (progress: UI already supports English, but there are still many ID mapping files missing, welcome to add)
     - [x] Animal.txt
     - [x] Artifact.txt
-    - [ ] ArtifactCat.txt
-    - [ ] ArtifactMainAttribution.txt
-    - [ ] ArtifactSubAttribution.txt
+    - [x] ArtifactCat.txt
+    - [x] ArtifactMainAttribution.txt
+    - [x] ArtifactSubAttribution.txt
     - [x] Avatar.txt
     - [x] CustomCommands.txt
     - [x] Item.txt
@@ -33,7 +33,7 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
     - [ ] Ornament.txt
     - [x] Scene.txt
     - [x] Weapon.txt
-    - [ ] Quest.txt
+    - [x] Quest.txt
   - [x] Execute command remotely
   - [ ] Mail Editor (no progress)
   - [ ] Shop Editor (no progress)
