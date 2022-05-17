@@ -1,0 +1,335 @@
+101021: HP+24
+101022: HP+30
+201021: HP+50
+201022: HP+61
+201023: HP+72
+301021: HP+100
+301022: HP+115
+301023: HP+129
+301024: HP+143
+401021: HP+167
+401022: HP+191
+401023: HP+215
+401024: HP+239
+501021: HP+209
+501022: HP+239
+501023: HP+269
+501024: HP+299
+101031: HP Percentage+1.2%
+101032: HP Percentage+1.5%
+201031: HP Percentage+1.6%
+201032: HP Percentage+2.0%
+201033: HP Percentage+2.3%
+301031: HP Percentage+2.4%
+301032: HP Percentage+2.8%
+301033: HP Percentage+3.2%
+301034: HP Percentage+3.5%
+401031: HP Percentage+3.3%
+401032: HP Percentage+3.7%
+401033: HP Percentage+4.2%
+401034: HP Percentage+4.7%
+501031: HP Percentage+4.1%
+501032: HP Percentage+4.7%
+501033: HP Percentage+5.2%
+501034: HP Percentage+5.8%
+101051: ATK+2
+101052: ATK+2
+201051: ATK+3
+201052: ATK+4
+201053: ATK+5
+301051: ATK+7
+301052: ATK+7
+301053: ATK+8
+301054: ATK+9
+401051: ATK+11
+401052: ATK+12
+401053: ATK+14
+401054: ATK+16
+501051: ATK+14
+501052: ATK+16
+501053: ATK+18
+501054: ATK+19
+101061: ATK Percentage+1.2%
+101062: ATK Percentage+1.5%
+201061: ATK Percentage+1.6%
+201062: ATK Percentage+2.0%
+201063: ATK Percentage+2.3%
+301061: ATK Percentage+2.4%
+301062: ATK Percentage+2.8%
+301063: ATK Percentage+3.2%
+301064: ATK Percentage+3.5%
+401061: ATK Percentage+3.3%
+401062: ATK Percentage+3.7%
+401063: ATK Percentage+4.2%
+401064: ATK Percentage+4.7%
+501061: ATK Percentage+4.1%
+501062: ATK Percentage+4.7%
+501063: ATK Percentage+5.2%
+501064: ATK Percentage+5.8%
+101081: DEF+2
+101082: DEF+2
+201081: DEF+4
+201082: DEF+5
+201083: DEF+6
+301081: DEF+8
+301082: DEF+9
+301083: DEF+10
+301084: DEF+11
+401081: DEF+13
+401082: DEF+15
+401083: DEF+17
+401084: DEF+19
+501081: DEF+16
+501082: DEF+19
+501083: DEF+21
+501084: DEF+23
+101091: DEF Percentage+1.5%
+101092: DEF Percentage+1.8%
+201091: DEF Percentage+2.0%
+201092: DEF Percentage+2.5%
+201093: DEF Percentage+2.9%
+301091: DEF Percentage+3.1%
+301092: DEF Percentage+3.5%
+301093: DEF Percentage+3.9%
+301094: DEF Percentage+4.4%
+401091: DEF Percentage+4.1%
+401092: DEF Percentage+4.7%
+401093: DEF Percentage+5.2%
+401094: DEF Percentage+5.8%
+501091: DEF Percentage+5.1%
+501092: DEF Percentage+5.8%
+501093: DEF Percentage+6.6%
+501094: DEF Percentage+7.3%
+101231: Energy Recharge+1.3%
+101232: Energy Recharge+1.6%
+201231: Energy Recharge+1.8%
+201232: Energy Recharge+2.2%
+201233: Energy Recharge+2.6%
+301231: Energy Recharge+2.7%
+301232: Energy Recharge+3.1%
+301233: Energy Recharge+3.5%
+301234: Energy Recharge+3.9%
+401231: Energy Recharge+3.6%
+401232: Energy Recharge+4.1%
+401233: Energy Recharge+4.7%
+401234: Energy Recharge+5.2%
+501231: Energy Recharge+4.5%
+501232: Energy Recharge+5.2%
+501233: Energy Recharge+5.8%
+501234: Energy Recharge+6.5%
+101241: Elemental Mastery+5
+101242: Elemental Mastery+6
+201241: Elemental Mastery+7
+201242: Elemental Mastery+8
+201243: Elemental Mastery+9
+301241: Elemental Mastery+10
+301242: Elemental Mastery+11
+301243: Elemental Mastery+13
+301244: Elemental Mastery+14
+401241: Elemental Mastery+13
+401242: Elemental Mastery+15
+401243: Elemental Mastery+17
+401244: Elemental Mastery+19
+501241: Elemental Mastery+16
+501242: Elemental Mastery+19
+501243: Elemental Mastery+21
+501244: Elemental Mastery+23
+101201: CRIT Rate+0.8%
+101202: CRIT Rate+1.0%
+201201: CRIT Rate+1.1%
+201202: CRIT Rate+1.3%
+201203: CRIT Rate+1.5%
+301201: CRIT Rate+1.6%
+301202: CRIT Rate+1.9%
+301203: CRIT Rate+2.1%
+301204: CRIT Rate+2.3%
+401201: CRIT Rate+2.2%
+401202: CRIT Rate+2.5%
+401203: CRIT Rate+2.8%
+401204: CRIT Rate+3.1%
+501201: CRIT Rate+2.7%
+501202: CRIT Rate+3.1%
+501203: CRIT Rate+3.5%
+501204: CRIT Rate+3.9%
+101221: CRIT DMG+1.5%
+101222: CRIT DMG+1.9%
+201221: CRIT DMG+2.2%
+201222: CRIT DMG+2.6%
+201223: CRIT DMG+3.1%
+301221: CRIT DMG+3.3%
+301222: CRIT DMG+3.7%
+301223: CRIT DMG+4.2%
+301224: CRIT DMG+4.7%
+401221: CRIT DMG+4.3%
+401222: CRIT DMG+5.0%
+401223: CRIT DMG+5.6%
+401224: CRIT DMG+6.2%
+501221: CRIT DMG+5.4%
+501222: CRIT DMG+6.2%
+501223: CRIT DMG+7.0%
+501224: CRIT DMG+7.8%
+999001: CRIT DMG+350.0%
+999002: CRIT Rate+100.0%
+999003: ATK+233333
+999004: DEF+233333
+998001: HP Percentage+14.6%
+998002: ATK Percentage+14.6%
+998003: DEF Percentage+18.2%
+998004: CRIT Rate+9.7%
+998005: Energy Recharge+16.2%
+998006: Elemental Mastery+58
+998007: CRIT DMG+19.4%
+995001: HP Percentage+14.6%
+995002: ATK Percentage+14.6%
+995003: DEF Percentage+18.2%
+995004: CRIT Rate+9.7%
+995005: Energy Recharge+16.2%
+995006: Elemental Mastery+58
+995007: CRIT DMG+19.4%
+997001: HP Percentage+9.3%
+997002: ATK Percentage+9.3%
+997003: DEF Percentage+11.7%
+997004: CRIT Rate+6.2%
+997005: Energy Recharge+10.4%
+997006: Elemental Mastery+37
+997007: CRIT DMG+12.4%
+996001: HP Percentage+9.3%
+996002: ATK Percentage+9.3%
+996003: DEF Percentage+11.7%
+996004: CRIT Rate+6.2%
+996005: Energy Recharge+10.4%
+996006: Elemental Mastery+37
+996007: CRIT DMG+12.4%
+994001: CRIT Rate+80.0%
+993001: CRIT DMG+80.0%
+992001: Shield Strength+80.0%
+991001: Healing Bonus+80.0%
+990001: Incoming Healing Bonus+80.0%
+989001: CD Reduction+50.0%
+988001: Movement SPD+30.0%
+987001: Pyro DMG Bonus+80.0%
+986001: Electro DMG Bonus+80.0%
+985001: Hydro DMG Bonus+80.0%
+984001: Dendro DMG Bonus+80.0%
+983001: Anemo DMG Bonus+80.0%
+982001: Geo DMG Bonus+80.0%
+981001: Cryo DMG Bonus+80.0%
+980001: Physical DMG Bonus+80.0%
+979001: Pyro RES+80.0%
+978001: Electro RES+80.0%
+977001: Hydro RES+80.0%
+976001: Dendro RES+80.0%
+975001: Anemo RES+80.0%
+974001: Geo RES+80.0%
+973001: Cryo RES+80.0%
+972001: Physical RES+80.0%
+971001: DMG Bonus+80.0%
+970001: DMG Reduction+80.0%
+969001: DEF+-500
+968001: Elemental Mastery+-300
+951001: HP Percentage+14.6%
+951002: ATK Percentage+14.6%
+951003: DEF Percentage+18.2%
+951004: CRIT Rate+9.7%
+951005: Energy Recharge+16.2%
+951006: Elemental Mastery+58
+951007: CRIT DMG+19.4%
+952001: HP Percentage+14.6%
+952002: ATK Percentage+14.6%
+952003: DEF Percentage+18.2%
+952004: CRIT Rate+9.7%
+952005: Energy Recharge+16.2%
+952006: Elemental Mastery+58
+952007: CRIT DMG+19.4%
+953001: HP Percentage+14.6%
+953002: ATK Percentage+14.6%
+953003: DEF Percentage+18.2%
+953004: CRIT Rate+9.7%
+953005: Energy Recharge+16.2%
+953006: Elemental Mastery+58
+953007: CRIT DMG+19.4%
+956001: HP Percentage+14.6%
+956002: ATK Percentage+14.6%
+956003: DEF Percentage+18.2%
+956004: CRIT Rate+9.7%
+956005: Energy Recharge+16.2%
+956006: Elemental Mastery+58
+956007: CRIT DMG+19.4%
+941001: HP Percentage+9.3%
+941002: ATK Percentage+9.3%
+941003: DEF Percentage+11.7%
+941004: CRIT Rate+6.2%
+941005: Energy Recharge+10.4%
+941006: Elemental Mastery+37
+941007: CRIT DMG+12.4%
+942001: HP Percentage+9.3%
+942002: ATK Percentage+9.3%
+942003: DEF Percentage+11.7%
+942004: CRIT Rate+6.2%
+942005: Energy Recharge+10.4%
+942006: Elemental Mastery+37
+942007: CRIT DMG+12.4%
+943001: HP Percentage+9.3%
+943002: ATK Percentage+9.3%
+943003: DEF Percentage+11.7%
+943004: CRIT Rate+6.2%
+943005: Energy Recharge+10.4%
+943006: Elemental Mastery+37
+943007: CRIT DMG+12.4%
+946001: HP Percentage+9.3%
+946002: ATK Percentage+9.3%
+946003: DEF Percentage+11.7%
+946004: CRIT Rate+6.2%
+946005: Energy Recharge+10.4%
+946006: Elemental Mastery+37
+946007: CRIT DMG+12.4%
+961001: HP Percentage+14.6%
+961002: ATK Percentage+14.6%
+961003: DEF Percentage+18.2%
+961004: CRIT Rate+9.7%
+961005: Energy Recharge+16.2%
+961006: Elemental Mastery+58
+961007: CRIT DMG+19.4%
+961008: HP+747
+961009: ATK+49
+961010: DEF+5787.0%
+962001: HP Percentage+14.6%
+962002: ATK Percentage+14.6%
+962003: DEF Percentage+18.2%
+962004: CRIT Rate+9.7%
+962005: Energy Recharge+16.2%
+962006: Elemental Mastery+58
+962007: CRIT DMG+19.4%
+962008: HP+747
+962009: ATK+49
+962010: DEF+58
+963001: HP Percentage+14.6%
+963002: ATK Percentage+14.6%
+963003: DEF Percentage+18.2%
+963004: CRIT Rate+9.7%
+963005: Energy Recharge+16.2%
+963006: Elemental Mastery+58
+963007: CRIT DMG+19.4%
+963008: HP+747
+963009: ATK+49
+963010: DEF+58
+964001: HP Percentage+14.6%
+964002: ATK Percentage+14.6%
+964003: DEF Percentage+18.2%
+964004: CRIT Rate+9.7%
+964005: Energy Recharge+16.2%
+964006: Elemental Mastery+58
+964007: CRIT DMG+19.4%
+964008: HP+747
+964009: ATK+49
+964010: DEF+58
+965001: HP Percentage+14.6%
+965002: ATK Percentage+14.6%
+965003: DEF Percentage+18.2%
+965004: CRIT Rate+9.7%
+965005: Energy Recharge+16.2%
+965006: Elemental Mastery+58
+965007: CRIT DMG+19.4%
+965008: HP+747
+965009: ATK+49
+965010: DEF+58

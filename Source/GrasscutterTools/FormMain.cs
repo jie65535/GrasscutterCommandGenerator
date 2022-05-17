@@ -73,8 +73,8 @@ namespace GrasscutterTools
             SaveSettings();
         }
 
-        private readonly string[] LanguageNames = new string[] { "简体中文", "English" };
-        private readonly string[] Languages = new string[] { "zh-CN", "en-US" };
+        private readonly string[] LanguageNames = new string[] { "简体中文", "English", "Русский" };
+        private readonly string[] Languages = new string[] { "zh-CN", "en-US", "ru-RU" };
 
 
         private Version AppVersion;

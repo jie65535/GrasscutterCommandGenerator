@@ -231,10 +231,17 @@
     <EmbeddedResource Include="FormGachaBannerEditor.en-us.resx">
       <DependentUpon>FormGachaBannerEditor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormGachaBannerEditor.ru-ru.resx">
+      <DependentUpon>FormGachaBannerEditor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormGachaBannerEditor.resx">
       <DependentUpon>FormGachaBannerEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMain.en-us.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.ru-ru.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
@@ -245,12 +252,20 @@
     <EmbeddedResource Include="FormTextMapBrowser.en-US.resx">
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormTextMapBrowser.ru-ru.resx">
+      <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormTextMapBrowser.resx">
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.en-us.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.en-us.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.ru-ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.ru-ru.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -260,6 +275,11 @@
     </EmbeddedResource>
     <Compile Include="Properties\Resources.en-us.Designer.cs">
       <DependentUpon>Resources.en-us.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Properties\Resources.ru-ru.Designer.cs">
+      <DependentUpon>Resources.ru-ru.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
@@ -280,6 +300,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <None Include="Resources\en-us\AvatarStats.json" />
+    <None Include="Resources\ru-ru\AvatarStats.json" />
     <None Include="Resources\zh-cn\AvatarStats.json" />
   </ItemGroup>
   <ItemGroup>
@@ -302,6 +323,21 @@
     <Content Include="Resources\en-us\Quest.txt" />
     <Content Include="Resources\en-us\Scene.txt" />
     <Content Include="Resources\en-us\Weapon.txt" />
+    <Content Include="Resources\ru-ru\Animal.txt" />
+    <Content Include="Resources\ru-ru\Artifact.txt" />
+    <Content Include="Resources\ru-ru\ArtifactCat.txt" />
+    <Content Include="Resources\ru-ru\ArtifactMainAttribution.txt" />
+    <Content Include="Resources\ru-ru\ArtifactSubAttribution.txt" />
+    <Content Include="Resources\ru-ru\Avatar.txt" />
+    <Content Include="Resources\ru-ru\CustomCommands.txt" />
+    <Content Include="Resources\ru-ru\GachaBennerPrefab.txt" />
+    <Content Include="Resources\ru-ru\Item.txt" />
+    <Content Include="Resources\ru-ru\Monster.txt" />
+    <Content Include="Resources\ru-ru\NPC.txt" />
+    <Content Include="Resources\ru-ru\Ornament.txt" />
+    <Content Include="Resources\ru-ru\Quest.txt" />
+    <Content Include="Resources\ru-ru\Scene.txt" />
+    <Content Include="Resources\ru-ru\Weapon.txt" />
     <Content Include="Resources\IconGrasscutter.ico" />
     <Content Include="Resources\IconGrasscutter.png" />
     <None Include="Resources\ImgSupport.png" />

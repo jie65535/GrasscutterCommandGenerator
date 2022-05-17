@@ -4,7 +4,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/stargazers)
 [![Github All Releases](https://img.shields.io/github/downloads/jie65535/GrasscutterCommandGenerator/total.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
 
-[中文](README.md) | English | [Русский](README_ru-RU.md)
+[中文](README.md) | [English](README_en-US.md) | Русский
 
 ## Commands Generator
 
@@ -31,30 +31,30 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
 
 ![Logo](Doc/Screenshots/GrasscutterLogo.png)
 
-![Home](Doc/Screenshots-en/0-Home.png)
+![Home](Doc/Screenshots-ru/0-Home.png)
 
-![Custom Commands Screenshot](Doc/Screenshots-en/1-CustomCommands.png)
+![Custom Commands Screenshot](Doc/Screenshots-ru/1-CustomCommands.png)
 
-![Custom Artifact Screenshot](Doc/Screenshots-en/2-CustomArtifact.png)
+![Custom Artifact Screenshot](Doc/Screenshots-ru/2-CustomArtifact.png)
 
-![Custom Weapon Screenshort](Doc/Screenshots-en/3-CustomWeapon.png)
+![Custom Weapon Screenshort](Doc/Screenshots-ru/3-CustomWeapon.png)
 
-![Give Item Screenshort](Doc/Screenshots-en/4-GiveItem.png)
+![Give Item Screenshort](Doc/Screenshots-ru/4-GiveItem.png)
 
-![Give Avatar Screenshort](Doc/Screenshots-en/5-GiveAvatar.png)
+![Give Avatar Screenshort](Doc/Screenshots-ru/5-GiveAvatar.png)
 
-![Spawn Entity Screenshort](Doc/Screenshots-en/6-SpawnEntity.png)
+![Spawn Entity Screenshort](Doc/Screenshots-ru/6-SpawnEntity.png)
 
-![Change Scene Screenshort](Doc/Screenshots-en/7-ChangeScene.png)
+![Change Scene Screenshort](Doc/Screenshots-ru/7-ChangeScene.png)
 
-![Custom Stats Screenshort](Doc/Screenshots-en/8-CustomStats.png)
+![Custom Stats Screenshort](Doc/Screenshots-ru/8-CustomStats.png)
 
-![Management](Doc/Screenshots-en/9-Manage.png)
+![Management](Doc/Screenshots-ru/9-Manage.png)
 
 ![GachaBannerEditor](Doc/Screenshots-en/10-GachaBannerEditor.png)
 
 ![Text Map Browser](Doc/Screenshots-en/11-TextMapBrowser.png)
 
-![Remote Screenshort](Doc/Screenshots/12-Remote.png)
+![Remote Screenshort](Doc/Screenshots-ru/12-Remote.png)
 
-![Quest Screenshort](Doc/Screenshots/13-Quest.png)
+![Quest Screenshort](Doc/Screenshots-ru/13-Quest.png)

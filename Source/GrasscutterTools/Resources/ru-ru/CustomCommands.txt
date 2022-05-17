@@ -1,0 +1,56 @@
+﻿непобедимый
+/godmode
+Неограниченная выносливость
+/nostamina
+60 ранг приключений
+/give 102 1880200
+Лечение
+/heal
+Выдать всё
+/giveall
+Текущая позиция
+/position
+уровень мира
+/setworldlevel 8
+Уровень дружбы
+/setfetterlevel 1
+Clear Backpack(ALL)
+/clear all
+Clear Weapons
+/clear wp
+Clear Artifacts
+/clear art
+Clear Materials
+/clear mat
+Broadcast
+/broadcast Hello everyone~
+Reset Current Constellation(Need Re-login)
+/resetconst
+Reset ALL Constellation(Need Re-login)
+/resetconst all
+100k Intertwined Fates 
+/give 223 10000
+100k Acquaint Fate
+/give 224 10000
+100k Primogem
+/give 201 100000
+100k Mora
+/give 202 100000
+TP Everyone
+/tpall
+Restart Server
+/restart
+Send PM
+/say <player> <message>
+Pull in team
+/coop @targetId
+Suicide
+/killcharacter
+Kill Somebody
+/killcharacter <playerId>
+List ALL users
+/list uid
+Reload service config
+/reload
+KillAll
+/killall
