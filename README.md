@@ -22,9 +22,9 @@
   - [ ] 多语言支持（进度：UI已经支持英语，但还有许多ID映射文件缺失，欢迎补充）
     - [x] Animal.txt
     - [x] Artifact.txt
-    - [ ] ArtifactCat.txt
-    - [ ] ArtifactMainAttribution.txt
-    - [ ] ArtifactSubAttribution.txt
+    - [x] ArtifactCat.txt
+    - [x] ArtifactMainAttribution.txt
+    - [x] ArtifactSubAttribution.txt
     - [x] Avatar.txt
     - [x] CustomCommands.txt
     - [x] Item.txt
@@ -33,7 +33,7 @@
     - [ ] Ornament.txt
     - [x] Scene.txt
     - [x] Weapon.txt
-    - [ ] Quest.txt
+    - [x] Quest.txt
   - [x] 远程执行命令
   - [ ] 邮件编辑器（无进度）
   - [ ] 商店编辑器（无进度）
