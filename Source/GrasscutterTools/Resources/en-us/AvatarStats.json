@@ -36,73 +36,73 @@
     "Tip": ""
   },
   {
-    "Name": "CHARGE EFFICIENCY",
+    "Name": "Energy Recharge",
     "ArgName": "er",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "CRITICAL",
+    "Name": "Crit Rate",
     "ArgName": "crate",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "CRITICAL HURT",
+    "Name": "Crit Dmg",
     "ArgName": "cdmg",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "ADD HURT",
+    "Name": "Add Dmg",
     "ArgName": "dmg",
     "Percent": true,
     "Tip": "This seems to get reset after attacks"
   },
   {
-    "Name": "WIND ADD HURT",
+    "Name": "Anemo Dmg Bonus",
     "ArgName": "eanemo",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "ICE ADD HURT",
+    "Name": "Cyro Dmg Bonus",
     "ArgName": "ecryo",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "GRASS ADD HURT",
+    "Name": "Dendro Dmg Bonus",
     "ArgName": "edendro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "ELEC ADD HURT",
+    "Name": "Electro Dmg Bons",
     "ArgName": "eelectro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "ROCK ADD HURT",
+    "Name": "Geo Dmg Bonus",
     "ArgName": "egeo",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "WATER ADD HURT",
+    "Name": "Hydro Dmg Bonus",
     "ArgName": "ehydro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "FIRE ADD HURT",
+    "Name": "Pyro Dmg Bonus",
     "ArgName": "epyro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "PHYSICAL ADD HURT",
+    "Name": "Physical Dmg Bonus",
     "ArgName": "ephys",
     "Percent": true,
     "Tip": ""
@@ -114,73 +114,73 @@
     "Tip": "This seems to get reset after attacks"
   },
   {
-    "Name": "WIND SUB HURT",
+    "Name": "Anemo RES",
     "ArgName": "resanemo",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "ICE SUB HURT",
+    "Name": "Cryo RES",
     "ArgName": "rescryo",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "GRASS SUB HURT",
+    "Name": "Dendro RES",
     "ArgName": "resdendro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "ELEC SUB HURT",
+    "Name": "Electro RES",
     "ArgName": "reselectro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "ROCK SUB HURT",
+    "Name": "Geo RES",
     "ArgName": "resgeo",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "WATER SUB HURT",
+    "Name": "Hydro RES",
     "ArgName": "reshydro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "FIRE SUB HURT",
+    "Name": "Pyro RES",
     "ArgName": "respyro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "PHYSICAL SUB HURT",
+    "Name": "Physical RES",
     "ArgName": "resphys",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "SKILL CD MINUS RATIO",
+    "Name": "CD Reduction",
     "ArgName": "cdr",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "HEAL ADD",
+    "Name": "Healing Bonus",
     "ArgName": "heal",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "HEALED ADD",
+    "Name": "Incoming Healing Bonus",
     "ArgName": "heali",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "SHIELD COST MINUS RATIO",
+    "Name": "Shield Strength",
     "ArgName": "shield",
     "Percent": true,
     "Tip": ""
