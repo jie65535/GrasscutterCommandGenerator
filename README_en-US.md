@@ -55,6 +55,6 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
 
 ![Text Map Browser](Doc/Screenshots-en/11-TextMapBrowser.png)
 
-![Remote Screenshort](Doc/Screenshots/12-Remote.png)
+![Remote Screenshort](Doc/Screenshots-en/12-Remote.png)
 
-![Quest Screenshort](Doc/Screenshots/13-Quest.png)
+![Quest Screenshort](Doc/Screenshots-en/13-Quest.png)

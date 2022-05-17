@@ -12,7 +12,7 @@ Where am I?
 /position
 Set World Level
 /setworldlevel 8
-Set Fetter Level
+Set Friendship Level
 /setfetterlevel 1
 Clear Backpack(ALL)
 /clear all
@@ -42,7 +42,7 @@ Restart Server
 /restart
 Send PM
 /say <player> <message>
-Pull in team
+Force coop with player
 /coop @targetId
 Suicide
 /killcharacter

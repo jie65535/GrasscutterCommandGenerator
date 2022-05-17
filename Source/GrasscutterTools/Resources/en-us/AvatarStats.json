@@ -1,24 +1,24 @@
 [
   {
-    "Name": "MAX HP",
+    "Name": "Max HP",
     "ArgName": "maxhp",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "CUR HP",
+    "Name": "Current HP",
     "ArgName": "hp",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "CUR Attack",
+    "Name": "Current Atk",
     "ArgName": "atk",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "Base Attack",
+    "Name": "Base Atk",
     "ArgName": "atkb",
     "Percent": false,
     "Tip": "This doesn't seem to get used to recalculate ATK, so it's only useful for stuff like Bennett's buff."
@@ -30,7 +30,7 @@
     "Tip": ""
   },
   {
-    "Name": "Element mastery",
+    "Name": "Element Mastery",
     "ArgName": "em",
     "Percent": false,
     "Tip": ""
@@ -108,7 +108,7 @@
     "Tip": ""
   },
   {
-    "Name": "SUB HURT",
+    "Name": "Universal RES",
     "ArgName": "resall",
     "Percent": true,
     "Tip": "This seems to get reset after attacks"
