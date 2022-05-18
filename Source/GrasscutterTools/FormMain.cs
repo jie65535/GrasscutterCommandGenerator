@@ -1225,43 +1225,6 @@ namespace GrasscutterTools
             BtnConnectOpenCommand_Click(sender, e);
         }
 
-        private void OnOpenCommandInvoke()
-        {
-            BtnInvokeOpenCommand_Click(BtnInvokeOpenCommand, EventArgs.Empty);
-        }
-
-        private async void BtnInvokeOpenCommand_Click(object sender, EventArgs e)
-        {
-            if (OC == null || !OC.CanInvoke)
-            {
-                ShowTip(Resources.RequireOpenCommandTip, BtnInvokeOpenCommand);
-                TCMain.SelectedTab = TPRemoteCall;
-                return;
-            }
-            if (TxtCommand.Text.Length < 2)
-            {
-                ShowTip(Resources.CommandContentCannotBeEmpty, TxtCommand);
-                return;
-            }
-            var cmd = TxtCommand.Text.Substring(1);
-            var btn = sender as Button;
-            btn.Enabled = false;
-            try
-            {
-                var msg = await OC.Invoke(cmd);
-                ShowTip(string.IsNullOrEmpty(msg) ? "OK" : msg, btn);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                btn.Cursor = Cursors.Default;
-                btn.Enabled = true;
-            }
-        }
-
         private void LnkOpenCommandLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             try
