@@ -51,9 +51,9 @@
 
 ![Управление](Doc/Screenshots-ru/9-Manage.png)
 
-![Редактор баннеров Gacha](Doc/Screenshots-en/10-GachaBannerEditor.png)
+![Редактор баннеров Gacha](Doc/Screenshots-ru/10-GachaBannerEditor.png)
 
-![Текстоый Браузер карт](Doc/Screenshots-en/11-TextMapBrowser.png)
+![Текстоый Браузер карт](Doc/Screenshots-ru/11-TextMapBrowser.png)
 
 ![Скриншот Удаленного доступа](Doc/Screenshots-ru/12-Remote.png)
 
