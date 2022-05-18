@@ -959,6 +959,79 @@ namespace GrasscutterTools
             Clipboard.SetText(TxtCommand.Text);
         }
 
+        private void OnOpenCommandInvoke()
+        {
+            BtnInvokeOpenCommand_Click(BtnInvokeOpenCommand, EventArgs.Empty);
+        }
+
+        private async void BtnInvokeOpenCommand_Click(object sender, EventArgs e)
+        {
+            if (OC == null || !OC.CanInvoke)
+            {
+                ShowTip(Resources.RequireOpenCommandTip, BtnInvokeOpenCommand);
+                TCMain.SelectedTab = TPRemoteCall;
+                return;
+            }
+            if (TxtCommand.Text.Length < 2)
+            {
+                ShowTip(Resources.CommandContentCannotBeEmpty, TxtCommand);
+                return;
+            }
+
+            ExpandCommandRunLog();
+            TxtCommandRunLog.AppendText(">");
+            TxtCommandRunLog.AppendText(TxtCommand.Text);
+            TxtCommandRunLog.AppendText(Environment.NewLine);
+            var cmd = TxtCommand.Text.Substring(1);
+            var btn = sender as Button;
+            btn.Enabled = false;
+            try
+            {
+                var msg = await OC.Invoke(cmd);
+                TxtCommandRunLog.AppendText(string.IsNullOrEmpty(msg) ? "OK" : msg);
+                TxtCommandRunLog.AppendText(Environment.NewLine);
+                //ShowTip(string.IsNullOrEmpty(msg) ? "OK" : msg, btn);
+            }
+            catch (Exception ex)
+            {
+                TxtCommandRunLog.AppendText("Error: ");
+                TxtCommandRunLog.AppendText(ex.Message);
+                TxtCommandRunLog.AppendText(Environment.NewLine);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            TxtCommandRunLog.ScrollToCaret();
+            btn.Cursor = Cursors.Default;
+            btn.Enabled = true;
+        }
+
+        private const int TxtCommandRunLogMinHeight = 100;
+        private TextBox TxtCommandRunLog;
+        private void ExpandCommandRunLog()
+        {
+            if (TxtCommandRunLog != null)
+                return;
+            if (WindowState == FormWindowState.Maximized)
+                WindowState = FormWindowState.Normal;
+            TxtCommandRunLog = new TextBox
+            {
+                Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Bottom,
+                Multiline = true,
+                Font = new Font("Consolas", 10F),
+                Location = new Point(BtnInvokeOpenCommand.Left, BtnInvokeOpenCommand.Bottom + 6),
+                Size = new Size(GrpCommand.Width - BtnInvokeOpenCommand.Left * 2, TxtCommandRunLogMinHeight),
+                ReadOnly = true,
+                BackColor = Color.White,
+                ScrollBars = ScrollBars.Vertical,
+            };
+            SCBase.FixedPanel = FixedPanel.Panel1;
+            Size = new Size(Width, Height + TxtCommandRunLogMinHeight);
+            MinimumSize = new Size(MinimumSize.Width, MinimumSize.Height + TxtCommandRunLogMinHeight);
+            SCBase.Panel2MinSize += TxtCommandRunLogMinHeight;
+            SCBase.FixedPanel = FixedPanel.None;
+            SCBase.IsSplitterFixed = false;
+            GrpCommand.Controls.Add(TxtCommandRunLog);
+        }
+
         #endregion - 命令 -
 
         #region - 通用 -
@@ -1144,43 +1217,6 @@ namespace GrasscutterTools
             }
             OC.Token = TxtToken.Text;
             BtnConnectOpenCommand_Click(sender, e);
-        }
-
-        private void OnOpenCommandInvoke()
-        {
-            BtnInvokeOpenCommand_Click(BtnInvokeOpenCommand, EventArgs.Empty);
-        }
-
-        private async void BtnInvokeOpenCommand_Click(object sender, EventArgs e)
-        {
-            if (OC == null || !OC.CanInvoke)
-            {
-                ShowTip(Resources.RequireOpenCommandTip, BtnInvokeOpenCommand);
-                TCMain.SelectedTab = TPRemoteCall;
-                return;
-            }
-            if (TxtCommand.Text.Length < 2)
-            {
-                ShowTip(Resources.CommandContentCannotBeEmpty, TxtCommand);
-                return;
-            }
-            var cmd = TxtCommand.Text.Substring(1);
-            var btn = sender as Button;
-            btn.Enabled = false;
-            try
-            {
-                var msg = await OC.Invoke(cmd);
-                ShowTip(string.IsNullOrEmpty(msg) ? "OK" : msg, btn);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            finally
-            {
-                btn.Cursor = Cursors.Default;
-                btn.Enabled = true;
-            }
         }
 
         private void LnkOpenCommandLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
