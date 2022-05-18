@@ -117,8 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="TxtCommand.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="BtnCopy.Text" xml:space="preserve">
     <value>Копировать</value>
+  </data>
+  <data name="BtnCopy.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ChkAutoCopy.Location" type="System.Drawing.Point, System.Drawing">
@@ -130,38 +136,20 @@
   <data name="ChkAutoCopy.Text" xml:space="preserve">
     <value>Авто</value>
   </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>Команда (нажмите и удерживайте Ctrl для автоматического запуска)</value>
+  <data name="ChkAutoCopy.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>Выполнить(F5)</value>
   </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>Главная</value>
+  <data name="BtnInvokeOpenCommand.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="BtnOpenTextMap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 122</value>
+  <data name="GrpCommand.Text" xml:space="preserve">
+    <value>Команда (нажмите и удерживайте Ctrl для автоматического запуска)</value>
   </data>
-  <data name="BtnOpenTextMap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 23</value>
-  </data>
-  <data name="BtnOpenTextMap.Text" xml:space="preserve">
-    <value>Браузер карт</value>
-  </data>
-  <data name="BtnOpenGachaBannerEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 23</value>
-  </data>
-  <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
-    <value>Редактор баннеров</value>
-  </data>
-  <data name="GrpSettings.Text" xml:space="preserve">
-    <value>Настройки</value>
-  </data>
-  <data name="ChkIncludeUID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 21</value>
-  </data>
-  <data name="ChkIncludeUID.Text" xml:space="preserve">
-    <value>Включить UID</value>
+  <data name="GrpCommand.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 41</value>
@@ -172,8 +160,65 @@
   <data name="LblAbout.Text" xml:space="preserve">
     <value>Желаем приятно провести время!</value>
   </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>Кастомное</value>
+  <data name="LblAbout.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnOpenTextMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>152, 122</value>
+  </data>
+  <data name="BtnOpenTextMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="BtnOpenTextMap.Text" xml:space="preserve">
+    <value>Браузер карт</value>
+  </data>
+  <data name="BtnOpenTextMap.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnOpenGachaBannerEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
+    <value>Редактор баннеров</value>
+  </data>
+  <data name="BtnOpenGachaBannerEditor.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBox1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CmbLanguage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblLanguage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NUDUid.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ChkIncludeUID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 21</value>
+  </data>
+  <data name="ChkIncludeUID.Text" xml:space="preserve">
+    <value>Включить UID</value>
+  </data>
+  <data name="ChkIncludeUID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblDefaultUid.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GrpSettings.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="GrpSettings.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPHome.Text" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="TPHome.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
     <value>526, 216</value>
@@ -184,6 +229,9 @@
   <data name="BtnExportCustomCommands.Text" xml:space="preserve">
     <value>Экспорт</value>
   </data>
+  <data name="BtnExportCustomCommands.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="BtnLoadCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
     <value>450, 216</value>
   </data>
@@ -193,14 +241,26 @@
   <data name="BtnLoadCustomCommands.Text" xml:space="preserve">
     <value>Загрузить</value>
   </data>
+  <data name="BtnLoadCustomCommands.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 17</value>
   </data>
   <data name="LblCustomName.Text" xml:space="preserve">
     <value>Метка</value>
   </data>
+  <data name="LblCustomName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="FLPCustomCommands.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Список</value>
+  </data>
+  <data name="groupBox1.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="BtnRemoveCustomCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -215,6 +275,9 @@
   <data name="BtnRemoveCustomCommand.Text" xml:space="preserve">
     <value>x Удалить</value>
   </data>
+  <data name="BtnRemoveCustomCommand.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="BtnSaveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>268, 216</value>
   </data>
@@ -224,20 +287,38 @@
   <data name="BtnSaveCustomCommand.Text" xml:space="preserve">
     <value>√ Сохранить</value>
   </data>
+  <data name="BtnSaveCustomCommand.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="TxtCustomName.Location" type="System.Drawing.Point, System.Drawing">
     <value>58, 216</value>
   </data>
   <data name="TxtCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 23</value>
   </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>Артефакт</value>
+  <data name="TxtCustomName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPCustom.Text" xml:space="preserve">
+    <value>Кастомное</value>
+  </data>
+  <data name="TPCustom.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="BtnAddSubAttr.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
   <data name="BtnAddSubAttr.Text" xml:space="preserve">
     <value>+ Добавить</value>
+  </data>
+  <data name="BtnAddSubAttr.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblArtifactName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NUDArtifactStars.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
     <value>298, 41</value>
@@ -248,17 +329,29 @@
   <data name="LblArtifactStars.Text" xml:space="preserve">
     <value>Звезды</value>
   </data>
+  <data name="LblArtifactStars.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 17</value>
   </data>
   <data name="LblArtifactPart.Text" xml:space="preserve">
     <value>Часть</value>
   </data>
+  <data name="LblArtifactPart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="CmbArtifactPart.Location" type="System.Drawing.Point, System.Drawing">
     <value>321, 8</value>
   </data>
   <data name="CmbArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 25</value>
+  </data>
+  <data name="CmbArtifactPart.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CmbArtifactSet.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
     <value>72, 11</value>
@@ -269,17 +362,41 @@
   <data name="LblArtifactSet.Text" xml:space="preserve">
     <value>Артефакт</value>
   </data>
+  <data name="LblArtifactSet.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblArtifactLevelTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 17</value>
   </data>
   <data name="LblArtifactLevelTip.Text" xml:space="preserve">
     <value>21 это +20</value>
   </data>
+  <data name="LblArtifactLevelTip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NUDSubAttributionTimes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CmbSubAttributionValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CmbSubAttribution.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblClearSubAttrCheckedList.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 17</value>
   </data>
   <data name="LblClearSubAttrCheckedList.Text" xml:space="preserve">
     <value>X Очистить</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListSubAttributionChecked.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NUDArtifactLevel.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 41</value>
@@ -290,6 +407,9 @@
   <data name="LblArtifactLevel.Text" xml:space="preserve">
     <value>Уровень</value>
   </data>
+  <data name="LblArtifactLevel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
     <value>71, 101</value>
   </data>
@@ -298,6 +418,12 @@
   </data>
   <data name="LblSubAttribution.Text" xml:space="preserve">
     <value>Всп. Стат.</value>
+  </data>
+  <data name="LblSubAttribution.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CmbMainAttribution.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblMainAttribution.Location" type="System.Drawing.Point, System.Drawing">
     <value>54, 71</value>
@@ -308,11 +434,14 @@
   <data name="LblMainAttribution.Text" xml:space="preserve">
     <value>Основ. Стат.</value>
   </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>Квест</value>
+  <data name="LblMainAttribution.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="GrpQuestFilters.Text" xml:space="preserve">
-    <value>Фильтр списка</value>
+  <data name="TPArtifact.Text" xml:space="preserve">
+    <value>Артефакт</value>
+  </data>
+  <data name="TPArtifact.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="ChkQuestFilterTEST.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 21</value>
@@ -320,11 +449,17 @@
   <data name="ChkQuestFilterTEST.Text" xml:space="preserve">
     <value>Тест</value>
   </data>
+  <data name="ChkQuestFilterTEST.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="ChkQuestFilterUNRELEASED.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 21</value>
   </data>
   <data name="ChkQuestFilterUNRELEASED.Text" xml:space="preserve">
     <value>Неизданное</value>
+  </data>
+  <data name="ChkQuestFilterUNRELEASED.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="ChkQuestFilterHIDDEN.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 21</value>
@@ -332,19 +467,46 @@
   <data name="ChkQuestFilterHIDDEN.Text" xml:space="preserve">
     <value>Скрытый</value>
   </data>
+  <data name="ChkQuestFilterHIDDEN.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GrpQuestFilters.Text" xml:space="preserve">
+    <value>Фильтр списка</value>
+  </data>
+  <data name="GrpQuestFilters.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="BtnFinishQuest.Text" xml:space="preserve">
     <value>Финиш</value>
   </data>
+  <data name="BtnFinishQuest.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="BtnAddQuest.Text" xml:space="preserve">
     <value>Добавить</value>
+  </data>
+  <data name="BtnAddQuest.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblQuestDescription.Text" xml:space="preserve">
     <value>Добавить или завершить задание
 Совет: Для многих квестов требуется поддержка сценариев на стороне сервера
 Поэтому квест можно добавлять и заканчивать, но не обязательно можно работать</value>
   </data>
-  <data name="TPSpawn.Text" xml:space="preserve">
-    <value>Спавн</value>
+  <data name="LblQuestDescription.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtQuestFilter.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListQuest.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPQuest.Text" xml:space="preserve">
+    <value>Квест</value>
+  </data>
+  <data name="TPQuest.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="BtnSaveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
     <value>255, 31</value>
@@ -352,11 +514,23 @@
   <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
     <value>√ Запись</value>
   </data>
+  <data name="BtnSaveSpawnLog.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="BtnRemoveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
     <value>255, 60</value>
   </data>
   <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
     <value>× Удалить</value>
+  </data>
+  <data name="BtnRemoveSpawnLog.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 162</value>
+  </data>
+  <data name="ListSpawnLogs.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="GrpSpawnRecord.Size" type="System.Drawing.Size, System.Drawing">
     <value>240, 184</value>
@@ -364,8 +538,38 @@
   <data name="GrpSpawnRecord.Text" xml:space="preserve">
     <value>Запись</value>
   </data>
-  <data name="ListSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>234, 162</value>
+  <data name="GrpSpawnRecord.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RbEntityOrnament.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 21</value>
+  </data>
+  <data name="RbEntityOrnament.Text" xml:space="preserve">
+    <value>Орнамент</value>
+  </data>
+  <data name="RbEntityOrnament.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RbEntityAnimal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 21</value>
+  </data>
+  <data name="RbEntityAnimal.Text" xml:space="preserve">
+    <value>Животные</value>
+  </data>
+  <data name="RbEntityAnimal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RbEntityNPC.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RbEntityMonster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="RbEntityMonster.Text" xml:space="preserve">
+    <value>Монстры</value>
+  </data>
+  <data name="RbEntityMonster.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="GrpEntityType.Location" type="System.Drawing.Point, System.Drawing">
     <value>255, 101</value>
@@ -376,29 +580,17 @@
   <data name="GrpEntityType.Text" xml:space="preserve">
     <value>Класс</value>
   </data>
-  <data name="RbEntityOrnament.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 21</value>
-  </data>
-  <data name="RbEntityOrnament.Text" xml:space="preserve">
-    <value>Орнамент</value>
-  </data>
-  <data name="RbEntityAnimal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 21</value>
-  </data>
-  <data name="RbEntityAnimal.Text" xml:space="preserve">
-    <value>Животные</value>
-  </data>
-  <data name="RbEntityMonster.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 21</value>
-  </data>
-  <data name="RbEntityMonster.Text" xml:space="preserve">
-    <value>Монстры</value>
+  <data name="GrpEntityType.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblSpawnDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>105, 17</value>
   </data>
   <data name="LblSpawnDescription.Text" xml:space="preserve">
     <value>Спавн существа</value>
+  </data>
+  <data name="LblSpawnDescription.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblEntityAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -409,6 +601,9 @@
   <data name="LblEntityAmount.Text" xml:space="preserve">
     <value>Кол.</value>
   </data>
+  <data name="LblEntityAmount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>120, 218</value>
   </data>
@@ -418,14 +613,32 @@
   <data name="LblEntityLevel.Text" xml:space="preserve">
     <value>Ур.</value>
   </data>
+  <data name="LblEntityLevel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="NUDEntityAmout.Location" type="System.Drawing.Point, System.Drawing">
     <value>64, 216</value>
+  </data>
+  <data name="NUDEntityAmout.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="NUDEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>146, 216</value>
   </data>
-  <data name="TPAvatar.Text" xml:space="preserve">
-    <value>Персонаж</value>
+  <data name="NUDEntityLevel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtEntityFilter.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListEntity.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPSpawn.Text" xml:space="preserve">
+    <value>Спавн</value>
+  </data>
+  <data name="TPSpawn.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblAvatarGenWarning.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 8pt, style=Bold</value>
@@ -441,6 +654,12 @@
 к повреждению сохранения учетной записи, что сделает невозможным игру.
 Данные могут не быть удалены, даже если учетная запись будет создана заново.</value>
   </data>
+  <data name="LblAvatarGenWarning.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ImgAvatar.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblAvatar.Location" type="System.Drawing.Point, System.Drawing">
     <value>109, 216</value>
   </data>
@@ -449,6 +668,9 @@
   </data>
   <data name="LblAvatar.Text" xml:space="preserve">
     <value>Персонаж</value>
+  </data>
+  <data name="LblAvatar.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>392, 216</value>
@@ -459,8 +681,14 @@
   <data name="LblLevel.Text" xml:space="preserve">
     <value>Ур.</value>
   </data>
+  <data name="LblLevel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="NUDAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>418, 214</value>
+  </data>
+  <data name="NUDAvatarLevel.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="CmbAvatar.Location" type="System.Drawing.Point, System.Drawing">
     <value>186, 214</value>
@@ -468,11 +696,14 @@
   <data name="CmbAvatar.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 25</value>
   </data>
-  <data name="TPStats.Text" xml:space="preserve">
-    <value>Stats</value>
+  <data name="CmbAvatar.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="GrpSetStats.Text" xml:space="preserve">
-    <value>Статистика</value>
+  <data name="TPAvatar.Text" xml:space="preserve">
+    <value>Персонаж</value>
+  </data>
+  <data name="TPAvatar.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblStatTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 17</value>
@@ -480,8 +711,23 @@
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>Совет</value>
   </data>
-  <data name="GrpTalentLevel.Text" xml:space="preserve">
-    <value>Уровень таланта</value>
+  <data name="LblStatTip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblStatPercent.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NUDStat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CmbStat.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GrpSetStats.Text" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="GrpSetStats.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LnkTalentE.Location" type="System.Drawing.Point, System.Drawing">
     <value>299, 24</value>
@@ -492,6 +738,9 @@
   <data name="LnkTalentE.Text" xml:space="preserve">
     <value>E</value>
   </data>
+  <data name="LnkTalentE.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LnkTalentQ.Location" type="System.Drawing.Point, System.Drawing">
     <value>275, 24</value>
   </data>
@@ -500,6 +749,9 @@
   </data>
   <data name="LnkTalentQ.Text" xml:space="preserve">
     <value>Q</value>
+  </data>
+  <data name="LnkTalentQ.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LnkTalentNormalATK.Location" type="System.Drawing.Point, System.Drawing">
     <value>178, 24</value>
@@ -510,8 +762,20 @@
   <data name="LnkTalentNormalATK.Text" xml:space="preserve">
     <value>Обычная ATK</value>
   </data>
+  <data name="LnkTalentNormalATK.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="NUDTalentLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 23</value>
+  </data>
+  <data name="NUDTalentLevel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GrpTalentLevel.Text" xml:space="preserve">
+    <value>Уровень таланта</value>
+  </data>
+  <data name="GrpTalentLevel.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblStatsDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>316, 17</value>
@@ -519,14 +783,26 @@
   <data name="LblStatsDescription.Text" xml:space="preserve">
     <value>Установите текущие активные данные персонажа</value>
   </data>
-  <data name="TPWeapon.Text" xml:space="preserve">
-    <value>Оружие</value>
+  <data name="LblStatsDescription.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPStats.Text" xml:space="preserve">
+    <value>Stats</value>
+  </data>
+  <data name="TPStats.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtWeaponFilter.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblWeaponDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 17</value>
   </data>
   <data name="LblWeaponDescription.Text" xml:space="preserve">
     <value>Дайть Оружие</value>
+  </data>
+  <data name="LblWeaponDescription.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblWeaponRefinement.Location" type="System.Drawing.Point, System.Drawing">
     <value>190, 218</value>
@@ -537,11 +813,17 @@
   <data name="LblWeaponRefinement.Text" xml:space="preserve">
     <value>Улучшение</value>
   </data>
+  <data name="LblWeaponRefinement.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblWeaponAmount.Size" type="System.Drawing.Size, System.Drawing">
     <value>34, 17</value>
   </data>
   <data name="LblWeaponAmount.Text" xml:space="preserve">
     <value>Кол.</value>
+  </data>
+  <data name="LblWeaponAmount.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblWeaponLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>102, 218</value>
@@ -552,17 +834,35 @@
   <data name="LblWeaponLevel.Text" xml:space="preserve">
     <value>Ур.</value>
   </data>
+  <data name="LblWeaponLevel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="NUDWeaponRefinement.Location" type="System.Drawing.Point, System.Drawing">
     <value>271, 216</value>
+  </data>
+  <data name="NUDWeaponRefinement.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="NUDWeaponAmout.Location" type="System.Drawing.Point, System.Drawing">
     <value>46, 216</value>
   </data>
+  <data name="NUDWeaponAmout.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="NUDWeaponLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>134, 216</value>
   </data>
-  <data name="TPItem.Text" xml:space="preserve">
-    <value>Предметы</value>
+  <data name="NUDWeaponLevel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListWeapons.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPWeapon.Text" xml:space="preserve">
+    <value>Оружие</value>
+  </data>
+  <data name="TPWeapon.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="BtnSaveGiveItemLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
@@ -573,6 +873,9 @@
   <data name="BtnSaveGiveItemLog.Text" xml:space="preserve">
     <value>√ Запись</value>
   </data>
+  <data name="BtnSaveGiveItemLog.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="BtnRemoveGiveItemLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
@@ -582,8 +885,17 @@
   <data name="BtnRemoveGiveItemLog.Text" xml:space="preserve">
     <value>× Удалить</value>
   </data>
+  <data name="BtnRemoveGiveItemLog.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="GrpGiveItemRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
+  </data>
+  <data name="ListGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 140</value>
+  </data>
+  <data name="ListGiveItemLogs.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="GrpGiveItemRecord.Size" type="System.Drawing.Size, System.Drawing">
     <value>249, 162</value>
@@ -591,8 +903,8 @@
   <data name="GrpGiveItemRecord.Text" xml:space="preserve">
     <value>Запись</value>
   </data>
-  <data name="ListGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>243, 140</value>
+  <data name="GrpGiveItemRecord.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="ChkDrop.Location" type="System.Drawing.Point, System.Drawing">
     <value>278, 217</value>
@@ -603,6 +915,9 @@
   <data name="ChkDrop.Text" xml:space="preserve">
     <value>Дроп</value>
   </data>
+  <data name="ChkDrop.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="TxtGameItemFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -611,6 +926,9 @@
   </data>
   <data name="TxtGameItemFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 23</value>
+  </data>
+  <data name="TxtGameItemFilter.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="ListGameItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -621,6 +939,9 @@
   <data name="ListGameItems.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 208</value>
   </data>
+  <data name="ListGameItems.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblGameItemAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -629,6 +950,9 @@
   </data>
   <data name="LblGameItemAmount.Text" xml:space="preserve">
     <value>Кол.</value>
+  </data>
+  <data name="LblGameItemAmount.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblGameItemLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>143, 218</value>
@@ -639,14 +963,23 @@
   <data name="LblGameItemLevel.Text" xml:space="preserve">
     <value>Уровень</value>
   </data>
+  <data name="LblGameItemLevel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="NUDGameItemAmout.Location" type="System.Drawing.Point, System.Drawing">
     <value>46, 216</value>
   </data>
   <data name="NUDGameItemAmout.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 23</value>
   </data>
+  <data name="NUDGameItemAmout.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="NUDGameItemLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>209, 215</value>
+  </data>
+  <data name="NUDGameItemLevel.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblGiveCommandDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>137, 17</value>
@@ -654,8 +987,14 @@
   <data name="LblGiveCommandDescription.Text" xml:space="preserve">
     <value>Дать предмет игроку</value>
   </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>Сцена</value>
+  <data name="LblGiveCommandDescription.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPItem.Text" xml:space="preserve">
+    <value>Предметы</value>
+  </data>
+  <data name="TPItem.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
     <value>91, 213</value>
@@ -665,6 +1004,9 @@
   </data>
   <data name="ChkIncludeSceneId.Text" xml:space="preserve">
     <value>Включить идентификатор сцены</value>
+  </data>
+  <data name="ChkIncludeSceneId.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblTp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -687,11 +1029,20 @@
 Совет: Вы можете быстро телепортироваться через отметку «рыболовный крючок» на миникарте в игре.
 В команде вы можете использовать ~, чтобы указать текущую позицию, и ~100, чтобы указать относительную текущую 100</value>
   </data>
+  <data name="LblTp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblTpZ.Location" type="System.Drawing.Point, System.Drawing">
     <value>219, 184</value>
   </data>
+  <data name="LblTpZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblTpY.Location" type="System.Drawing.Point, System.Drawing">
     <value>113, 184</value>
+  </data>
+  <data name="LblTpY.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="BtnTeleport.Location" type="System.Drawing.Point, System.Drawing">
     <value>10, 211</value>
@@ -699,20 +1050,38 @@
   <data name="BtnTeleport.Text" xml:space="preserve">
     <value>Телепорт</value>
   </data>
+  <data name="BtnTeleport.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblTpX.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 184</value>
+  </data>
+  <data name="LblTpX.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="NUDTpZ.Location" type="System.Drawing.Point, System.Drawing">
     <value>239, 182</value>
   </data>
+  <data name="NUDTpZ.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="NUDTpY.Location" type="System.Drawing.Point, System.Drawing">
     <value>133, 182</value>
+  </data>
+  <data name="NUDTpY.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="NUDTpX.Location" type="System.Drawing.Point, System.Drawing">
     <value>27, 182</value>
   </data>
+  <data name="NUDTpX.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 61</value>
+  </data>
+  <data name="CmbClimateType.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblClimateType.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 64</value>
@@ -722,6 +1091,9 @@
   </data>
   <data name="LblClimateType.Text" xml:space="preserve">
     <value>Погода</value>
+  </data>
+  <data name="LblClimateType.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblSceneDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -736,11 +1108,17 @@
     <value>Управление сценой
 Совет: Большинство сцен не имеют эффекта и не могут быть введены.</value>
   </data>
-  <data name="TPManage.Text" xml:space="preserve">
-    <value>Управлять</value>
+  <data name="LblSceneDescription.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="GrpAccount.Text" xml:space="preserve">
-    <value>Управление аккаунтом</value>
+  <data name="ListScenes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPScene.Text" xml:space="preserve">
+    <value>Сцена</value>
+  </data>
+  <data name="TPScene.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="ChkAccountSetUid.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 21</value>
@@ -748,8 +1126,14 @@
   <data name="ChkAccountSetUid.Text" xml:space="preserve">
     <value>UID</value>
   </data>
+  <data name="ChkAccountSetUid.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="NUDAccountUid.Location" type="System.Drawing.Point, System.Drawing">
     <value>270, 23</value>
+  </data>
+  <data name="NUDAccountUid.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="BtnDeleteAccount.Location" type="System.Drawing.Point, System.Drawing">
     <value>463, 21</value>
@@ -760,6 +1144,9 @@
   <data name="BtnDeleteAccount.Text" xml:space="preserve">
     <value>Удалить</value>
   </data>
+  <data name="BtnDeleteAccount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="BtnCreateAccount.Location" type="System.Drawing.Point, System.Drawing">
     <value>387, 21</value>
   </data>
@@ -768,6 +1155,9 @@
   </data>
   <data name="BtnCreateAccount.Text" xml:space="preserve">
     <value>Создать</value>
+  </data>
+  <data name="BtnCreateAccount.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblAccountUserName.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 25</value>
@@ -778,14 +1168,23 @@
   <data name="LblAccountUserName.Text" xml:space="preserve">
     <value>Имя игрока</value>
   </data>
+  <data name="LblAccountUserName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="TxtAccountUserName.Location" type="System.Drawing.Point, System.Drawing">
     <value>93, 22</value>
   </data>
   <data name="TxtAccountUserName.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 23</value>
   </data>
-  <data name="GrpPermission.Text" xml:space="preserve">
-    <value>Управление правами</value>
+  <data name="TxtAccountUserName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GrpAccount.Text" xml:space="preserve">
+    <value>Управление аккаунтом</value>
+  </data>
+  <data name="GrpAccount.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="CmbPerm.Location" type="System.Drawing.Point, System.Drawing">
     <value>240, 21</value>
@@ -793,8 +1192,14 @@
   <data name="CmbPerm.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 25</value>
   </data>
+  <data name="CmbPerm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="NUDPermUID.Location" type="System.Drawing.Point, System.Drawing">
     <value>42, 23</value>
+  </data>
+  <data name="NUDPermUID.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="BtmPermRemove.Location" type="System.Drawing.Point, System.Drawing">
     <value>463, 22</value>
@@ -805,6 +1210,9 @@
   <data name="BtmPermRemove.Text" xml:space="preserve">
     <value>Удалить</value>
   </data>
+  <data name="BtmPermRemove.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="BtnPermAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>387, 22</value>
   </data>
@@ -813,6 +1221,9 @@
   </data>
   <data name="BtnPermAdd.Text" xml:space="preserve">
     <value>Добавить</value>
+  </data>
+  <data name="BtnPermAdd.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblPerm.Location" type="System.Drawing.Point, System.Drawing">
     <value>188, 25</value>
@@ -823,14 +1234,32 @@
   <data name="LblPerm.Text" xml:space="preserve">
     <value>Права</value>
   </data>
+  <data name="LblPerm.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblPermUID.Size" type="System.Drawing.Size, System.Drawing">
     <value>30, 17</value>
   </data>
   <data name="LblPermUID.Text" xml:space="preserve">
     <value>UID</value>
   </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>Справка</value>
+  <data name="LblPermUID.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GrpPermission.Text" xml:space="preserve">
+    <value>Управление правами</value>
+  </data>
+  <data name="GrpPermission.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPManage.Text" xml:space="preserve">
+    <value>Управлять</value>
+  </data>
+  <data name="TPManage.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pictureBox2.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LnkGithub.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -840,6 +1269,9 @@
   </data>
   <data name="LnkGithub.Text" xml:space="preserve">
     <value>Github - Автора программы</value>
+  </data>
+  <data name="LnkGithub.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>361, 102</value>
@@ -852,11 +1284,14 @@
 	Спасибо:Dhar_Jinxed
 	</value>
   </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>Подключение к БД</value>
+  <data name="LblSupportDescription.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="GrpServerStatus.Text" xml:space="preserve">
-    <value>Состояние сервера</value>
+  <data name="TPAbout.Text" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="TPAbout.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LnkOpenCommandLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 63</value>
@@ -867,14 +1302,26 @@
   <data name="LnkOpenCommandLabel.Text" xml:space="preserve">
     <value>Открытая команда</value>
   </data>
+  <data name="LnkOpenCommandLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblOpenCommandSupport.Location" type="System.Drawing.Point, System.Drawing">
     <value>142, 63</value>
+  </data>
+  <data name="LblOpenCommandSupport.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblServerVersion.Location" type="System.Drawing.Point, System.Drawing">
     <value>119, 29</value>
   </data>
+  <data name="LblServerVersion.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblPlayerCount.Location" type="System.Drawing.Point, System.Drawing">
     <value>119, 46</value>
+  </data>
+  <data name="LblPlayerCount.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblServerVersionLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>27, 29</value>
@@ -885,6 +1332,9 @@
   <data name="LblServerVersionLabel.Text" xml:space="preserve">
     <value>Версия игры</value>
   </data>
+  <data name="LblServerVersionLabel.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblPlayerCountLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>24, 46</value>
   </data>
@@ -894,11 +1344,14 @@
   <data name="LblPlayerCountLabel.Text" xml:space="preserve">
     <value>Кол. игроков</value>
   </data>
-  <data name="GrpRemoteCommand.Text" xml:space="preserve">
-    <value>Удалить ячейку</value>
+  <data name="LblPlayerCountLabel.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="TPPlayerCheck.Text" xml:space="preserve">
-    <value>игрок</value>
+  <data name="GrpServerStatus.Text" xml:space="preserve">
+    <value>Состояние сервера</value>
+  </data>
+  <data name="GrpServerStatus.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LnkRCHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 17</value>
@@ -906,8 +1359,17 @@
   <data name="LnkRCHelp.Text" xml:space="preserve">
     <value>Помощь</value>
   </data>
+  <data name="LnkRCHelp.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NUDRemotePlayerId.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="BtnConnectOpenCommand.Text" xml:space="preserve">
     <value>Подключить</value>
+  </data>
+  <data name="BtnConnectOpenCommand.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -915,14 +1377,38 @@
   <data name="LblVerificationCode.Text" xml:space="preserve">
     <value>Код</value>
   </data>
+  <data name="LblVerificationCode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="BtnSendVerificationCode.Text" xml:space="preserve">
     <value>Отправить код</value>
   </data>
-  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 109</value>
+  <data name="BtnSendVerificationCode.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="TPConsoleCheck.Text" xml:space="preserve">
-    <value>консоль</value>
+  <data name="NUDVerificationCode.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblRemotePlayerId.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPPlayerCheck.Text" xml:space="preserve">
+    <value>игрок</value>
+  </data>
+  <data name="TPPlayerCheck.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BtnConsoleConnect.Text" xml:space="preserve">
+    <value>Подключить</value>
+  </data>
+  <data name="BtnConsoleConnect.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TxtToken.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LblToken.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="LblConsoleTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 8pt, style=Italic</value>
@@ -937,14 +1423,32 @@
     <value>Обратите внимание, что обычные команды в состоянии консоли должны указывать цель
 (набор содержит UID)</value>
   </data>
-  <data name="BtnConsoleConnect.Text" xml:space="preserve">
-    <value>Подключить</value>
+  <data name="LblConsoleTip.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPConsoleCheck.Text" xml:space="preserve">
+    <value>консоль</value>
+  </data>
+  <data name="TPConsoleCheck.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPOpenCommandCheck.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GrpRemoteCommand.Text" xml:space="preserve">
+    <value>Удалить ячейку</value>
+  </data>
+  <data name="GrpRemoteCommand.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="TxtHost.Location" type="System.Drawing.Point, System.Drawing">
     <value>86, 36</value>
   </data>
   <data name="TxtHost.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 23</value>
+  </data>
+  <data name="TxtHost.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="BtnQueryServerStatus.Location" type="System.Drawing.Point, System.Drawing">
     <value>292, 36</value>
@@ -955,13 +1459,31 @@
   <data name="BtnQueryServerStatus.Text" xml:space="preserve">
     <value>Запрос</value>
   </data>
+  <data name="BtnQueryServerStatus.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="LblHost.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 17</value>
   </data>
   <data name="LblHost.Text" xml:space="preserve">
     <value>Хост</value>
   </data>
+  <data name="LblHost.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TPRemoteCall.Text" xml:space="preserve">
+    <value>Подключение к БД</value>
+  </data>
+  <data name="TPRemoteCall.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TCMain.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>GrasscutterTools - перевод Юрий Дворецкий</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
 </root>

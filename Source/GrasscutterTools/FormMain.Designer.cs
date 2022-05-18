@@ -206,6 +206,7 @@ namespace GrasscutterTools
             this.BtnQueryServerStatus = new System.Windows.Forms.Button();
             this.LblHost = new System.Windows.Forms.Label();
             this.TTip = new System.Windows.Forms.ToolTip(this.components);
+            this.SCBase = new System.Windows.Forms.SplitContainer();
             this.GrpCommand.SuspendLayout();
             this.TCMain.SuspendLayout();
             this.TPHome.SuspendLayout();
@@ -260,6 +261,10 @@ namespace GrasscutterTools
             ((System.ComponentModel.ISupportInitialize)(this.NUDRemotePlayerId)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDVerificationCode)).BeginInit();
             this.TPConsoleCheck.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.SCBase)).BeginInit();
+            this.SCBase.Panel1.SuspendLayout();
+            this.SCBase.Panel2.SuspendLayout();
+            this.SCBase.SuspendLayout();
             this.SuspendLayout();
             // 
             // TxtCommand
@@ -1599,13 +1604,13 @@ namespace GrasscutterTools
             // 
             // GrpServerStatus
             // 
+            resources.ApplyResources(this.GrpServerStatus, "GrpServerStatus");
             this.GrpServerStatus.Controls.Add(this.LnkOpenCommandLabel);
             this.GrpServerStatus.Controls.Add(this.LblOpenCommandSupport);
             this.GrpServerStatus.Controls.Add(this.LblServerVersion);
             this.GrpServerStatus.Controls.Add(this.LblPlayerCount);
             this.GrpServerStatus.Controls.Add(this.LblServerVersionLabel);
             this.GrpServerStatus.Controls.Add(this.LblPlayerCountLabel);
-            resources.ApplyResources(this.GrpServerStatus, "GrpServerStatus");
             this.GrpServerStatus.Name = "GrpServerStatus";
             this.GrpServerStatus.TabStop = false;
             // 
@@ -1784,12 +1789,25 @@ namespace GrasscutterTools
             resources.ApplyResources(this.LblHost, "LblHost");
             this.LblHost.Name = "LblHost";
             // 
+            // SCBase
+            // 
+            resources.ApplyResources(this.SCBase, "SCBase");
+            this.SCBase.FixedPanel = System.Windows.Forms.FixedPanel.Panel2;
+            this.SCBase.Name = "SCBase";
+            // 
+            // SCBase.Panel1
+            // 
+            this.SCBase.Panel1.Controls.Add(this.TCMain);
+            // 
+            // SCBase.Panel2
+            // 
+            this.SCBase.Panel2.Controls.Add(this.GrpCommand);
+            // 
             // FormMain
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.TCMain);
-            this.Controls.Add(this.GrpCommand);
+            this.Controls.Add(this.SCBase);
             this.KeyPreview = true;
             this.Name = "FormMain";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FormMain_FormClosed);
@@ -1872,6 +1890,10 @@ namespace GrasscutterTools
             ((System.ComponentModel.ISupportInitialize)(this.NUDVerificationCode)).EndInit();
             this.TPConsoleCheck.ResumeLayout(false);
             this.TPConsoleCheck.PerformLayout();
+            this.SCBase.Panel1.ResumeLayout(false);
+            this.SCBase.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.SCBase)).EndInit();
+            this.SCBase.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2053,6 +2075,7 @@ namespace GrasscutterTools
         private System.Windows.Forms.TextBox TxtToken;
         private System.Windows.Forms.Label LblToken;
         private System.Windows.Forms.Label LblConsoleTip;
+        private System.Windows.Forms.SplitContainer SCBase;
     }
 }
 
