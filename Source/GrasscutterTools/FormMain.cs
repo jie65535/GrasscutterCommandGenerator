@@ -1008,28 +1008,33 @@ namespace GrasscutterTools
         private TextBox TxtCommandRunLog;
         private void ExpandCommandRunLog()
         {
-            if (TxtCommandRunLog != null)
-                return;
-            if (WindowState == FormWindowState.Maximized)
-                WindowState = FormWindowState.Normal;
-            TxtCommandRunLog = new TextBox
+            if (SCBase.IsSplitterFixed)
             {
-                Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Bottom,
-                Multiline = true,
-                Font = new Font("Consolas", 10F),
-                Location = new Point(BtnInvokeOpenCommand.Left, BtnInvokeOpenCommand.Bottom + 6),
-                Size = new Size(GrpCommand.Width - BtnInvokeOpenCommand.Left * 2, TxtCommandRunLogMinHeight),
-                ReadOnly = true,
-                BackColor = Color.White,
-                ScrollBars = ScrollBars.Vertical,
-            };
-            SCBase.FixedPanel = FixedPanel.Panel1;
-            Size = new Size(Width, Height + TxtCommandRunLogMinHeight);
-            MinimumSize = new Size(MinimumSize.Width, MinimumSize.Height + TxtCommandRunLogMinHeight);
-            SCBase.Panel2MinSize += TxtCommandRunLogMinHeight;
-            SCBase.FixedPanel = FixedPanel.None;
-            SCBase.IsSplitterFixed = false;
-            GrpCommand.Controls.Add(TxtCommandRunLog);
+                if (WindowState == FormWindowState.Maximized)
+                    WindowState = FormWindowState.Normal;
+                SCBase.FixedPanel = FixedPanel.Panel1;
+                Size = new Size(Width, Height + TxtCommandRunLogMinHeight);
+                MinimumSize = new Size(MinimumSize.Width, MinimumSize.Height + TxtCommandRunLogMinHeight);
+                SCBase.Panel2MinSize += TxtCommandRunLogMinHeight;
+                SCBase.FixedPanel = FixedPanel.None;
+                SCBase.IsSplitterFixed = false;
+            }
+
+            if (TxtCommandRunLog == null)
+            {
+                TxtCommandRunLog = new TextBox
+                {
+                    Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Bottom,
+                    Multiline = true,
+                    Font = new Font("Consolas", 10F),
+                    Location = new Point(BtnInvokeOpenCommand.Left, BtnInvokeOpenCommand.Bottom + 6),
+                    Size = new Size(GrpCommand.Width - BtnInvokeOpenCommand.Left * 2, TxtCommandRunLogMinHeight),
+                    ReadOnly = true,
+                    BackColor = Color.White,
+                    ScrollBars = ScrollBars.Vertical,
+                };
+                GrpCommand.Controls.Add(TxtCommandRunLog);
+            }
         }
 
         #endregion - 命令 -
