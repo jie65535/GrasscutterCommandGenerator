@@ -215,6 +215,7 @@
     <Compile Include="FormTextMapBrowser.Designer.cs">
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Game\Gacha\GachaBanner2.cs" />
     <Compile Include="Game\GameCommand.cs" />
     <Compile Include="Game\Gacha\BannerType.cs" />
     <Compile Include="Game\Gacha\GachaBanner.cs" />
