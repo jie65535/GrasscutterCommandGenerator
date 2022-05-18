@@ -1026,7 +1026,7 @@ namespace GrasscutterTools
                 {
                     Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Bottom,
                     Multiline = true,
-                    Font = new Font("Consolas", 10F),
+                    Font = new Font("Consolas", 9F),
                     Location = new Point(BtnInvokeOpenCommand.Left, BtnInvokeOpenCommand.Bottom + 6),
                     Size = new Size(GrpCommand.Width - BtnInvokeOpenCommand.Left * 2, TxtCommandRunLogMinHeight),
                     ReadOnly = true,
