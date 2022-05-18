@@ -1004,20 +1004,20 @@ namespace GrasscutterTools
             btn.Enabled = true;
         }
 
-        private const int TxtCommandRunLogMinHeight = 100;
+        private const int TxtCommandRunLogMinHeight = 150;
         private TextBox TxtCommandRunLog;
         private void ExpandCommandRunLog()
         {
-            if (SCBase.IsSplitterFixed)
+            if (GrpCommand.Height < TxtCommandRunLogMinHeight)
             {
                 if (WindowState == FormWindowState.Maximized)
                     WindowState = FormWindowState.Normal;
-                SCBase.FixedPanel = FixedPanel.Panel1;
+                TCMain.Anchor &= ~AnchorStyles.Bottom;
+                GrpCommand.Anchor |= AnchorStyles.Top;
                 Size = new Size(Width, Height + TxtCommandRunLogMinHeight);
                 MinimumSize = new Size(MinimumSize.Width, MinimumSize.Height + TxtCommandRunLogMinHeight);
-                SCBase.Panel2MinSize += TxtCommandRunLogMinHeight;
-                SCBase.FixedPanel = FixedPanel.None;
-                SCBase.IsSplitterFixed = false;
+                TCMain.Anchor |= AnchorStyles.Bottom;
+                GrpCommand.Anchor &= ~AnchorStyles.Top;
             }
 
             if (TxtCommandRunLog == null)
