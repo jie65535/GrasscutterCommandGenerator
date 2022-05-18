@@ -139,6 +139,15 @@
   <data name="TPHome.Text" xml:space="preserve">
     <value>Главная</value>
   </data>
+  <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 41</value>
+  </data>
+  <data name="LblAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 24</value>
+  </data>
+  <data name="LblAbout.Text" xml:space="preserve">
+    <value>Желаем приятно провести время!</value>
+  </data>
   <data name="BtnOpenTextMap.Location" type="System.Drawing.Point, System.Drawing">
     <value>152, 122</value>
   </data>
@@ -162,15 +171,6 @@
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Включить UID</value>
-  </data>
-  <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 41</value>
-  </data>
-  <data name="LblAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>314, 24</value>
-  </data>
-  <data name="LblAbout.Text" xml:space="preserve">
-    <value>Желаем приятно провести время!</value>
   </data>
   <data name="TPCustom.Text" xml:space="preserve">
     <value>Кастомное</value>
@@ -400,9 +400,6 @@
   <data name="LblSpawnDescription.Text" xml:space="preserve">
     <value>Спавн существа</value>
   </data>
-  <data name="LblEntityAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
   <data name="LblEntityAmount.Size" type="System.Drawing.Size, System.Drawing">
     <value>34, 17</value>
   </data>
@@ -620,9 +617,6 @@
   </data>
   <data name="ListGameItems.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 208</value>
-  </data>
-  <data name="LblGameItemAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
   </data>
   <data name="LblGameItemAmount.Size" type="System.Drawing.Size, System.Drawing">
     <value>34, 17</value>
@@ -918,11 +912,11 @@
   <data name="BtnSendVerificationCode.Text" xml:space="preserve">
     <value>Отправить код</value>
   </data>
-  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 109</value>
-  </data>
   <data name="TPConsoleCheck.Text" xml:space="preserve">
     <value>консоль</value>
+  </data>
+  <data name="BtnConsoleConnect.Text" xml:space="preserve">
+    <value>Подключить</value>
   </data>
   <data name="LblConsoleTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 8pt, style=Italic</value>
@@ -936,9 +930,6 @@
   <data name="LblConsoleTip.Text" xml:space="preserve">
     <value>Обратите внимание, что обычные команды в состоянии консоли должны указывать цель
 (набор содержит UID)</value>
-  </data>
-  <data name="BtnConsoleConnect.Text" xml:space="preserve">
-    <value>Подключить</value>
   </data>
   <data name="TxtHost.Location" type="System.Drawing.Point, System.Drawing">
     <value>86, 36</value>
@@ -960,6 +951,9 @@
   </data>
   <data name="LblHost.Text" xml:space="preserve">
     <value>Хост</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>GrasscutterTools - перевод Юрий Дворецкий</value>

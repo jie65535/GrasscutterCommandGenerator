@@ -981,6 +981,7 @@ namespace GrasscutterTools
             }
         }
 
+        private readonly ToolTip TTip = new ToolTip();
         private void ShowTip(string message, Control control)
         {
             TTip.Show(message, control, 0, control.Size.Height, 3000);
