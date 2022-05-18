@@ -959,6 +959,84 @@ namespace GrasscutterTools
             Clipboard.SetText(TxtCommand.Text);
         }
 
+        private void OnOpenCommandInvoke()
+        {
+            BtnInvokeOpenCommand_Click(BtnInvokeOpenCommand, EventArgs.Empty);
+        }
+
+        private async void BtnInvokeOpenCommand_Click(object sender, EventArgs e)
+        {
+            if (OC == null || !OC.CanInvoke)
+            {
+                ShowTip(Resources.RequireOpenCommandTip, BtnInvokeOpenCommand);
+                TCMain.SelectedTab = TPRemoteCall;
+                return;
+            }
+            if (TxtCommand.Text.Length < 2)
+            {
+                ShowTip(Resources.CommandContentCannotBeEmpty, TxtCommand);
+                return;
+            }
+
+            ExpandCommandRunLog();
+            TxtCommandRunLog.AppendText(">");
+            TxtCommandRunLog.AppendText(TxtCommand.Text);
+            TxtCommandRunLog.AppendText(Environment.NewLine);
+            var cmd = TxtCommand.Text.Substring(1);
+            var btn = sender as Button;
+            btn.Enabled = false;
+            try
+            {
+                var msg = await OC.Invoke(cmd);
+                TxtCommandRunLog.AppendText(string.IsNullOrEmpty(msg) ? "OK" : msg);
+                TxtCommandRunLog.AppendText(Environment.NewLine);
+                //ShowTip(string.IsNullOrEmpty(msg) ? "OK" : msg, btn);
+            }
+            catch (Exception ex)
+            {
+                TxtCommandRunLog.AppendText("Error: ");
+                TxtCommandRunLog.AppendText(ex.Message);
+                TxtCommandRunLog.AppendText(Environment.NewLine);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            TxtCommandRunLog.ScrollToCaret();
+            btn.Cursor = Cursors.Default;
+            btn.Enabled = true;
+        }
+
+        private const int TxtCommandRunLogMinHeight = 100;
+        private TextBox TxtCommandRunLog;
+        private void ExpandCommandRunLog()
+        {
+            if (SCBase.IsSplitterFixed)
+            {
+                if (WindowState == FormWindowState.Maximized)
+                    WindowState = FormWindowState.Normal;
+                SCBase.FixedPanel = FixedPanel.Panel1;
+                Size = new Size(Width, Height + TxtCommandRunLogMinHeight);
+                MinimumSize = new Size(MinimumSize.Width, MinimumSize.Height + TxtCommandRunLogMinHeight);
+                SCBase.Panel2MinSize += TxtCommandRunLogMinHeight;
+                SCBase.FixedPanel = FixedPanel.None;
+                SCBase.IsSplitterFixed = false;
+            }
+
+            if (TxtCommandRunLog == null)
+            {
+                TxtCommandRunLog = new TextBox
+                {
+                    Anchor = AnchorStyles.Left | AnchorStyles.Top | AnchorStyles.Right | AnchorStyles.Bottom,
+                    Multiline = true,
+                    Font = new Font("Consolas", 10F),
+                    Location = new Point(BtnInvokeOpenCommand.Left, BtnInvokeOpenCommand.Bottom + 6),
+                    Size = new Size(GrpCommand.Width - BtnInvokeOpenCommand.Left * 2, TxtCommandRunLogMinHeight),
+                    ReadOnly = true,
+                    BackColor = Color.White,
+                    ScrollBars = ScrollBars.Vertical,
+                };
+                GrpCommand.Controls.Add(TxtCommandRunLog);
+            }
+        }
+
         #endregion - 命令 -
 
         #region - 通用 -
