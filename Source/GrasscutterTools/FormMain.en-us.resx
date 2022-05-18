@@ -136,6 +136,15 @@
   <data name="TPHome.Text" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 38</value>
+  </data>
+  <data name="LblAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 24</value>
+  </data>
+  <data name="LblAbout.Text" xml:space="preserve">
+    <value>Have a nice time!</value>
+  </data>
   <data name="BtnOpenTextMap.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 23</value>
   </data>
@@ -153,15 +162,6 @@
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Include UID</value>
-  </data>
-  <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 38</value>
-  </data>
-  <data name="LblAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 24</value>
-  </data>
-  <data name="LblAbout.Text" xml:space="preserve">
-    <value>Have a nice time!</value>
   </data>
   <data name="TPCustom.Text" xml:space="preserve">
     <value>Custom</value>
@@ -357,10 +357,6 @@ Therefore, the quest can be add and finish, but not necessarily can be work</val
   <data name="LblSpawnDescription.Text" xml:space="preserve">
     <value>Spawn entity</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LblEntityAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
   <data name="LblEntityAmount.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 17</value>
   </data>
@@ -519,6 +515,7 @@ The data may not be cleared even if the account is recreated.</value>
   <data name="TPItem.Text" xml:space="preserve">
     <value>Items</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="BtnSaveGiveItemLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left</value>
   </data>
@@ -575,9 +572,6 @@ The data may not be cleared even if the account is recreated.</value>
   </data>
   <data name="ListGameItems.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 208</value>
-  </data>
-  <data name="LblGameItemAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
   </data>
   <data name="LblGameItemAmount.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 17</value>
@@ -829,17 +823,20 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="TPConsoleCheck.Text" xml:space="preserve">
     <value>Console</value>
   </data>
+  <data name="BtnConsoleConnect.Text" xml:space="preserve">
+    <value>Connect</value>
+  </data>
   <data name="LblConsoleTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="LblConsoleTip.Text" xml:space="preserve">
     <value>Note that normal commands in the console state must specify the target (set include UID)</value>
   </data>
-  <data name="BtnConsoleConnect.Text" xml:space="preserve">
-    <value>Connect</value>
+  <data name="TxtHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 36</value>
   </data>
   <data name="TxtHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 23</value>
+    <value>200, 23</value>
   </data>
   <data name="BtnQueryServerStatus.Location" type="System.Drawing.Point, System.Drawing">
     <value>292, 36</value>
@@ -855,5 +852,8 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   </data>
   <data name="LblHost.Text" xml:space="preserve">
     <value>Host</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
 </root>
