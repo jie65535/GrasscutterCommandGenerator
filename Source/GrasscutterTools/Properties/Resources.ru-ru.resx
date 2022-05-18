@@ -149,37 +149,37 @@
     <value>..\Resources\ru-ru\AvatarStats.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BrowserOpenFailedTip" xml:space="preserve">
-    <value>The browser failed to open. You can manually access the following address:</value>
+    <value>Браузерe не удалось открыть. Вы можете вручную получить доступ к следующему адресу:</value>
   </data>
   <data name="CheckToNewVersion" xml:space="preserve">
-    <value>Check to new version</value>
+    <value>Переход на новую версию</value>
   </data>
   <data name="ClimateType" xml:space="preserve">
-    <value>None,Sunny,Partly cloudy,Rain,Thunderstorm,Snow,Fog</value>
+    <value>Нет,Солнечно,Переменная облачность,Дождь,Гроза,Снег,Туман</value>
   </data>
   <data name="CodeResendTip" xml:space="preserve">
-    <value>Resend in {0} seconds</value>
+    <value>Повторная отправка через {0} секунд</value>
   </data>
   <data name="CodeSending" xml:space="preserve">
-    <value>sending...</value>
+    <value>отправка...</value>
   </data>
   <data name="CommandContentCannotBeEmpty" xml:space="preserve">
-    <value>Command cannot be empty</value>
+    <value>Команда не может быть пустой</value>
   </data>
   <data name="CommandNotFound" xml:space="preserve">
-    <value>Command not found</value>
+    <value>Команда не найдена</value>
   </data>
   <data name="CommandTagCannotBeEmpty" xml:space="preserve">
-    <value>Command tag cannot be empty</value>
+    <value>Командный тег не может быть пустым</value>
   </data>
   <data name="ConnectedTip" xml:space="preserve">
-    <value>Now you can execute commands remotely!</value>
+    <value>Теперь вы можете выполнять команды удаленно!</value>
   </data>
   <data name="CustomCommands" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\CustomCommands.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="Error" xml:space="preserve">
-    <value>Error</value>
+    <value>Ошибка</value>
   </data>
   <data name="GachaBennerPrefab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\GachaBennerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
@@ -203,24 +203,24 @@
     <value>..\Resources\ru-ru\Monster.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="NewVersionInfo" xml:space="preserve">
-    <value>Name : {0}
-Update time : {1}
-Update info : 
+    <value>Название : {0}
+Время обновления : {1}
+Информация об обновлении : 
 {2}
 -------------------------------------------
-Do you want to check for updates? Selecting No will no longer remind you of this version.</value>
+Вы хотите проверить наличие обновлений? Выбор Нет больше не будет напоминать вам об этой версии.</value>
   </data>
   <data name="NPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\NPC.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="OpenCommandHelp" xml:space="preserve">
-    <value>1. Fill in the correct uid\n2. Send verification code to player\n3. Enter the correct verification code\n4. Connection\n5. Enjoy</value>
+    <value>1. Заполните правильный uid\n2. Отправьте проверочный код игроку\n3. Введите правильный проверочный код\n4. Соединение\n5. Наслаждаться</value>
   </data>
   <data name="Ornament" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\Ornament.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="PermissionCannotBeEmpty" xml:space="preserve">
-    <value>Permission cannot be empty!</value>
+    <value>Разрешение не может быть пустым!</value>
   </data>
   <data name="Permissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Permissions.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
@@ -229,22 +229,22 @@ Do you want to check for updates? Selecting No will no longer remind you of this
     <value>..\Resources\ru-ru\Quest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="RequireOpenCommandTip" xml:space="preserve">
-    <value>Please connect to a server that supports [opencommand] first</value>
+    <value>Пожалуйста, сначала подключитесь к серверу, который поддерживает [команду открытия]</value>
   </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="SettingLoadError" xml:space="preserve">
-    <value>Settings load failed:</value>
+    <value>Не удалось загрузить настройки:</value>
   </data>
   <data name="SettingSaveError" xml:space="preserve">
-    <value>Settings save failed:</value>
+    <value>Не удалось сохранить настройки:</value>
   </data>
   <data name="Tips" xml:space="preserve">
-    <value>Tips</value>
+    <value>Совет</value>
   </data>
   <data name="UsernameCannotBeEmpty" xml:space="preserve">
-    <value>Username cannot be empty!</value>
+    <value>Имя пользователя не может быть пустым!</value>
   </data>
   <data name="Weapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\Weapon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
