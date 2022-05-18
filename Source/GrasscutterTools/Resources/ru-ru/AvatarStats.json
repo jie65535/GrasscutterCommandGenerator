@@ -1,192 +1,192 @@
 [
   {
-    "Name": "MAX HP",
+    "Name": "§Þ§Ñ§Ü§ã§Ú§Þ§Ñ§Ý§î§ß§à§Ö §Ù§Õ§à§â§à§Ó§î§Ö",
     "ArgName": "maxhp",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "CUR HP",
+    "Name": "§ä§Ö§Ü§å§ë§Ö§Ö §Ù§Õ§à§â§à§Ó§î§Ö",
     "ArgName": "hp",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "CUR Attack",
+    "Name": "§ä§Ö§Ü§å§ë§Ñ§ñ §ã§Ú§Ý§Ñ §Ñ§ä§Ñ§Ü§Ú",
     "ArgName": "atk",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "Base Attack",
+    "Name": "§Ò§Ñ§Ù§à§Ó§Ñ§ñ §Ñ§ä§Ñ§Ü§Ñ",
     "ArgName": "atkb",
     "Percent": false,
-    "Tip": "This doesn't seem to get used to recalculate ATK, so it's only useful for stuff like Bennett's buff."
+    "Tip": "§±§à§ç§à§Ø§Ö, §ï§ä§à §ß§Ö §á§Ö§â§Ö§ã§é§Ú§ä§í§Ó§Ñ§Ö§ä §ã§Ú§Ý§å §Ñ§ä§Ñ§Ü§Ú §Ú §Þ§à§Ø§Ö§ä §â§Ñ§Ò§à§ä§Ñ§ä§î §ä§à§Ý§î§Ü§à §ã §Ü§Ý§Ñ§ã§ã§Ñ§Þ§Ú §Ò§Ñ§æ§æ§à§Ó."
   },
   {
-    "Name": "Defense",
+    "Name": "§Ù§Ñ§ë§Ú§ä§Ñ",
     "ArgName": "def",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "Element mastery",
+    "Name": "§ï§Ý§Ö§Þ§Ö§ß§ä§Ñ§Ý§î§ß§à§Ö §Þ§Ñ§ã§ä§Ö§â§ã§ä§Ó§à",
     "ArgName": "em",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "Energy Recharge",
+    "Name": "§ï§æ§æ§Ö§Ü§ä§Ú§Ó§ß§à§ã§ä§î §ã§ä§Ú§ç§Ú§Û§ß§à§Ô§à §Ù§Ñ§â§ñ§Õ§Ñ",
     "ArgName": "er",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Crit Rate",
+    "Name": "§ê§Ñ§ß§ã §Ü§â§Ú§ä§Ñ",
     "ArgName": "crate",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Crit Dmg",
+    "Name": "§Ü§â§Ú§ä§Ú§é§Ö§ã§Ü§Ú§Û §å§â§à§ß",
     "ArgName": "cdmg",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Add Dmg",
+    "Name": "§Ò§à§ß§å§ã §Ü §å§â§à§ß§å",
     "ArgName": "dmg",
     "Percent": true,
-    "Tip": "This seems to get reset after attacks"
+    "Tip": "§¬§Ñ§Ø§Ö§ä§ã§ñ, §ï§ä§à §ã§Ò§â§Ñ§ã§í§Ó§Ñ§Ö§ä§ã§ñ §á§à§ã§Ý§Ö §Ñ§ä§Ñ§Ü§Ú"
   },
   {
-    "Name": "Anemo Dmg Bonus",
+    "Name": "§Ò§à§ß§å§ã §Ü §å§â§à§ß§å §à§ä §ã§ä§Ú§ç§Ú§Ú §Ñ§ß§Ö§Þ§à",
     "ArgName": "eanemo",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Cyro Dmg Bonus",
+    "Name": "§Ò§à§ß§å§ã §Ü §å§â§à§ß§å §à§ä §Ü§â§Ú§à §ã§ä§Ú§ç§Ú§Û",
     "ArgName": "ecryo",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Dendro Dmg Bonus",
+    "Name": "§Ò§à§ß§å§ã §Ü §å§â§à§ß§å §à§ä §ï§Ý§Ö§Þ§Ö§ß§ä§Ñ§Ý§ñ §Õ§Ö§ß§Õ§â§à",
     "ArgName": "edendro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Electro Dmg Bons",
+    "Name": "§Ò§à§ß§å§ã §Ü §å§â§à§ß§å §à§ä §ã§ä§Ú§ç§Ú§Ú §ï§Ý§Ö§Ü§ä§â§à",
     "ArgName": "eelectro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Geo Dmg Bonus",
+    "Name": "§Ò§à§ß§å§ã §Ü §å§â§à§ß§å §à§ä §ã§ä§Ú§ç§Ú§Ú §Ô§Ö§à",
     "ArgName": "egeo",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Hydro Dmg Bonus",
+    "Name": "§Ò§à§ß§å§ã §Ü §å§â§à§ß§å §à§ä §ï§Ý§Ö§Þ§Ö§ß§ä§Ñ§Ý§ñ §Ó§à§Õ§í",
     "ArgName": "ehydro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Pyro Dmg Bonus",
+    "Name": "§Ò§à§ß§å§ã §Ü §å§â§à§ß§å §à§ä §ã§ä§Ú§ç§Ú§Ú §á§Ú§â§à",
     "ArgName": "epyro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Physical Dmg Bonus",
+    "Name": "§Ò§à§ß§å§ã §Ü §æ§Ú§Ù§Ú§é§Ö§ã§Ü§à§Þ§å §å§â§à§ß§å",
     "ArgName": "ephys",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "SUB HURT",
+    "Name": "§ã§ß§Ú§Ø§Ö§ß§Ú§Ö §å§â§à§ß§Ñ",
     "ArgName": "resall",
     "Percent": true,
-    "Tip": "This seems to get reset after attacks"
+    "Tip": "§Ü§Ñ§Ø§Ö§ä§ã§ñ, §ï§ä§à §ã§Ò§â§Ñ§ã§í§Ó§Ñ§Ö§ä§ã§ñ §á§à§ã§Ý§Ö §Ñ§ä§Ñ§Ü§Ú"
   },
   {
-    "Name": "Anemo RES",
+    "Name": "§å§Þ§Ö§ß§î§ê§Ö§ß§Ú§Ö §å§â§à§ß§Ñ §à§ä §ã§ä§Ú§ç§Ú§Ú §Ñ§ß§Ö§Þ§à",
     "ArgName": "resanemo",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Cryo RES",
+    "Name": "§å§Þ§Ö§ß§î§ê§Ö§ß§Ú§Ö §å§â§à§ß§Ñ §à§ä §Ü§â§Ú§à §ã§ä§Ú§ç§Ú§Û",
     "ArgName": "rescryo",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Dendro RES",
+    "Name": "§å§Þ§Ö§ß§î§ê§Ö§ß§Ú§Ö §å§â§à§ß§Ñ §à§ä §ã§ä§Ú§ç§Ú§Ú §Õ§Ö§ß§Õ§â§à",
     "ArgName": "resdendro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Electro RES",
+    "Name": "§å§Þ§Ö§ß§î§ê§Ö§ß§Ú§Ö §å§â§à§ß§Ñ §à§ä §ã§ä§Ú§ç§Ú§Ú §ï§Ý§Ö§Ü§ä§â§à",
     "ArgName": "reselectro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Geo RES",
+    "Name": "§å§Þ§Ö§ß§î§ê§Ö§ß§Ú§Ö §å§â§à§ß§Ñ §à§ä §ã§ä§Ú§ç§Ú§Ú §Ô§Ö§à",
     "ArgName": "resgeo",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Hydro RES",
+    "Name": "§å§Þ§Ö§ß§î§ê§Ö§ß§Ú§Ö §å§â§à§ß§Ñ §à§ä §ã§ä§Ú§ç§Ú§Ú §Ô§Ú§Õ§â§à",
     "ArgName": "reshydro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Pyro RES",
+    "Name": "§å§Þ§Ö§ß§î§ê§Ö§ß§Ú§Ö §å§â§à§ß§Ñ §à§ä §ã§ä§Ú§ç§Ú§Ú §á§Ú§â§à",
     "ArgName": "respyro",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Physical RES",
+    "Name": "§å§Þ§Ö§ß§î§ê§Ö§ß§Ú§Ö §æ§Ú§Ù§Ú§é§Ö§ã§Ü§à§Ô§à §å§â§à§ß§Ñ",
     "ArgName": "resphys",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "CD Reduction",
+    "Name": "§ã§à§Ü§â§Ñ§ë§Ö§ß§Ú§Ö §á§Ö§â§Ö§Ù§Ñ§â§ñ§Õ§Ü§Ú",
     "ArgName": "cdr",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Healing Bonus",
+    "Name": "§Ò§à§ß§å§ã §Ü §Ý§Ö§é§Ö§ß§Ú§ð",
     "ArgName": "heal",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Incoming Healing Bonus",
+    "Name": "§Ò§à§ß§å§ã §Ü §Ý§Ö§é§Ö§ß§Ú§ð",
     "ArgName": "heali",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Shield Strength",
+    "Name": "§ã§Ú§Ý§î§ß§í§Û §ë§Ú§ä",
     "ArgName": "shield",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "DEFENCE IGNORE RATIO",
+    "Name": "§Ú§Ô§ß§à§â§Ú§â§à§Ó§Ñ§ä§î §Ù§Ñ§ë§Ú§ä§å",
     "ArgName": "defi",
     "Percent": true,
     "Tip": ""

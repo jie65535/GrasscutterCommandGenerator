@@ -1,3098 +1,2888 @@
-﻿Опыт персонажа
-102: Опыт приключений
-103: Звёздная пыль
-104: Звёздный блеск
-105: Опыт дружбы
-106: Первородная смола
-107: Ключ легенд
-108: 
-109: Энергия потухшей звезды
-110: Сущность потухшей звезды
-111: Мерцающая сущность
-112: Тёплая сущность
-113: Чудесная сущность
-114: Железная монета
-115: Талисман мира
-116: Праздничная жара
-117: Печать Венефикус
-118: Праздничный купон
-119: Купон дружбы
-120: Сердце родника
-121: Доверие
-122: Данные раздробленного плода
-123: Скрытые монеты
-124: Блестящая ракушка
-125: Мини-гарпастум
-126: Загадочный механизм
-127: Грозовой осколок
-128: Грозовой кристалл
-129: Опыт Мастерства механикуса
-130: Чудесный талисман
-131: Праздничная жара Лунной охоты
-132: Опустошённый сикифуда
-133: Пустая копия
-134: Истёртая скрижаль
-135: Печать снегоходца
-136: Печать победителя
-137: Талисман удачи
-138: Талисман безупречности
-139: Талисман поверженного зла
-201: Камень Истока
-202: Мора
-203: Кристалл Сотворения
-204: Сокровища обители
-210: Очищенный янтарь (выброшено)
-211: Очищенная смола (выброшено)
-221: Блуждающий звёздный блеск
-222: Блуждающая звёздная пыль
-223: Переплетающиеся судьбы
-224: Судьбоносные встречи
-301: Символ Пиро
-302: Символ Гидро
-303: Символ Дендро
-304: Печать Электро
-305: Печать Анемо
-306: Символ Крио
-307: Печать Гео
-314: Опыт репутации (Инадзума)
-315: Опыт репутации (Мондштадт)
-317: Опыт репутации (Ли Юэ)
-911: Память о вечном огне
-912: Память о бегущем ручье
-913: Память о пышной флоре
-914: Память о пурпурной молнии
-915: Память о ветрах свободы
-916: Память о пронзающем холоде
-917: Память о неподвижных скалах
-1002: Камисато Аяка
-1003: Джинн
-1005: Мужской персонаж
-1006: Лиза
-1007: Женский персонаж
-1014: Барбара
-1015: Кэйа
-1016: Дилюк
-1020: Рэйзор
-1021: Венти
-1022: Венти
-1023: Сян Лин
-1024: Бэй Доу
-1025: Син Цю
-1026: Сяо
-1027: Нин Гуан
-1029: Кли
-1030: Чжун Ли
-1031: Фишль
-1032: Беннет
-1033: Тарталья
-1034: Ноэлль
-1035: Ци Ци
-1036: Чун Юнь
-1037: Гань Юй
-1038: Альбедо
-1039: Диона
-1041: Мона
-1042: Кэ Цин
-1043: Сахароза
-1044: Синь Янь
-1045: Розария
-1046: Ху Тао
-1047: Каэдэхара Кадзуха
-1048: Янь Фэй
-1049: Ёимия
-1050: Тома
-1051: Эола
-1052: Райдэн
-1053: Саю
-1054: Кокоми
-1055: Горо
-1056: Кудзё Сара
-1057: Аратаки Итто
-1058: Яэ Мико
-1062: Элой, level: 105 },
-1063: Шэнь Хэ
-1064: Юнь Цзинь
-1066: Камисато Аято
-1102: Удача Камисато Аяки
-1103: Удача Джинн
-1105: Удача Путешественника
-1106: Удача Лизы
-1107: Удача Путешественницы
-1114: Удача Барбары
-1115: Удача Кэйи
-1116: Удача Дилюка
-1120: Удача Рэйзора
-1121: Удача Эмбер
-1122: Удача Венти
-1123: Удача Сян Лин
-1124: Удача Бэй Доу
-1125: Удача Син Цю
-1126: Xiao's Stella Fortuna
-1127: Ningguang's Stella Fortuna
-1129: Klee's Stella Fortuna
-1130: Zhongli's Stella Fortuna
-1131: Fischl's Stella Fortuna
-1132: Bennett's Stella Fortuna
-1133: Tartaglia's Stella Fortuna
-1134: Noelle's Stella Fortuna
-1135: Qiqi's Stella Fortuna
-1136: Chongyun's Stella Fortuna
-1137: Ganyu's Stella Fortuna
-1138: Albedo's Stella Fortuna
-1139: Diona's Stella Fortuna
-1141: Mona's Stella Fortuna
-1142: Keqing's Stella Fortuna
-1143: Sucrose's Stella Fortuna
-1144: Xinyan's Stella Fortuna
-1145: Rosaria's Stella Fortuna
-1146: Hu Tao's Stella Fortuna
-1147: Kaedehara Kazuha's Stella Fortuna
-1148: Yanfei's Stella Fortuna
-1149: Yoimiya's Stella Fortuna
-1150: Thoma's Stella Fortuna
-1151: Eula's Stella Fortuna
-1152: Raiden Shogun's Stella Fortuna
-1153: Sayu's Stella Fortuna
-1154: Sangonomiya Kokomi's Stella Fortuna
-1155: Gorou's Stella Fortuna
-1156: Kujou Sara's Stella Fortuna
-1157: Arataki Itto's Stella Fortuna
-1158: Yae Miko's Stella Fortuna
-1162: Aloy's Stella Fortuna
-1163: Shenhe's Stella Fortuna
-1164: Yun Jin's Stella Fortuna
-1166: Kamisato Ayato's Stella Fortuna
-1201: Gnostic Hymn - Old Notes
-1202: Blessing of the Welkin Moon - New Moon
-2001: Energy Orb (Pyro)
-2002: Energy Orb (Hydro)
-2003: Energy Orb (Dendro)
-2004: Energy Orb (Electro)
-2005: Energy Orb (Anemo)
-2006: Energy Orb (Cryo)
-2007: Energy Orb (Geo)
-2008: Energy Orb (Any)
-2017: Atomic Energy Orb (Pyro)
-2018: Atomic Energy Orb (Hydro)
-2019: Atomic Energy Orb (Dendro)
-2020: Atomic Energy Orb (Electro)
-2021: Atomic Energy Orb (Anemo)
-2022: Atomic Energy Orb (Cryo)
-2023: Atomic Energy Orb (Geo)
-2024: Atomic Energy Orb (All)
-2025: Quest Use - Overpowered Atomic Energy Orb (All)
-2026: Time Shard (Minigame item)
-2027: Time Shard (Minigame item)
-2028: Quest Use - Atomic Energy Orb Pouch
-2029: Quest Use - Atomic Energy Orb Pouch
-2800: 
-3001: Test Random Treasure Chest
-3002: Test Set Treasure Chest
-3003: Character Card Draw
-3004: Kamisato Ayaka - for CB1
-3005: Xiangling - for CB1
-3006: Jean - for CB1
-3007: Diluc - for CB1
-3008: Venti - for CB1
-3009: Kamisato Ayaka Test Package
-3010: Xiangling Test Package
-3011: Jean Test Package
-3012: Diluc Test Package
-3013: Venti Test Package
-3014: Amber Test Package
-3015: Kaeya Test Package
-3016: Lisa Test Package
-3017: Barbara Test Package
-3018: Barbara - for CB1
-3019: Razor - for CB1
-3020: Razor Test Package
-3021: Kaeya
-3022: Lisa
-100001: Apple
-100002: Sunsettia
-100003: A Piece of Paper
-100004: Stolen Items
-100006: Hilichurl Antidote
-100007: Climbing Finish Line Garland
-100008: Gliding Finish Line Garland
-100009: Gliding Finish Line Garland
-100010: Gliding Champion Cup
-100011: Mushroom
-100012: Sweet Flower
-100013: Carrot
-100014: Radish
-100015: Snapdragon
-100016: Mint
-100017: Wheat
-100018: Cabbage
-100019: Silver Lotus
-100020: Pinecone
-100021: Wolfhook
-100022: Valberry
-100023: Cecilia
-100024: Windwheel Aster
-100025: Philanemo Mushroom
-100026: Lotus Head
-100027: Jueyun Chili
-100028: Noctilucous Jade
-100029: Silk Flower
-100030: Glaze Lily
-100031: Qingxin
-100032: Horsetail
-100033: Starconch
-100034: Violetgrass
-100051: Berry
-100052: Mist Flower Corolla
-100053: Flaming Flower Stamen
-100054: Electro Crystal
-100055: Small Lamp Grass
-100056: Calla Lily
-100057: Dandelion Seed
-100058: Cor Lapis
-100061: Raw Meat
-100062: Bird Egg
-100063: Matsutake
-100064: Fowl
-100072: Butterfly Wings
-100073: Crab
-100074: Crab Roe
-100075: Salt
-100076: Onion
-100077: Pepper
-100078: Milk
-100079: Tomato
-100080: Potato
-100081: Frog
-100082: Luminescent Spine
-100083: Lizard Tail
-100084: Fish
-100085: Crystal Core
-100086: Raw Meat (S)
-100087: Fowl (S)
-100088: Tofu
-100089: Almond
-100090: Loach Pearl
-100091: Bamboo Shoot
-100092: Rice
-100093: Shrimp Meat
-100094: Chilled Meat
-100095: Unagi Meat
-100101: Jean's Document Package
-100102: Extreme Escape
-100103: Incomplete Score (Part 1)
-100104: Incomplete Score (Part 2)
-100105: Private Letter from Lisa to Jean
-100106: Autumn Night
-100107: Tasty-Looking Potion
-100108: Potion
-100109: Barbara's Treatment
-100110: Incomplete Poem (Part 1)
-100111: Incomplete Poem (Part 2)
-100112: Incomplete Poem (Part 3)
-100113: Inscription Rubbing
-100114: Form Restoration Potion
-100115: Holy Lyre der Himmel
-100120: Cricket Hair
-100121: Cricket (White)
-100122: Cricket (Blue)
-100123: Cricket (Purple)
-100124: Cricket (Gold)
-100125: Hydro Amber
-100126: Anemo Amber
-100131: Random Loot (A)
-100132: Random Loot (B)
-100133: Random Loot (A)
-100134: Random Loot (B)
-100135: Crimson Crystal
-100136: Seal Clue 101
-100137: Seal Clue 102
-100138: Seal Clue 103
-100139: Seal Clue 201
-100140: Seal Clue 202
-100141: Seal Clue 203
-100142: Seal Clue 301
-100143: Seal Clue 302
-100144: Seal Clue 303
-100145: Break Seal 1
-100146: Break Seal 2
-100147: Break Seal 3
-100148: Investigate the Seal of Stormterror's Lair
-100149: Break the seal of Stormterror's Lair
-100151: Fragmented Memory (Wind)
-100152: Sword Cemetery Seal 1
-100153: Sword Cemetery Seal 2
-100154: Sword Cemetery Seal 3
-100158: Teardrop Crystal
-100159: Teardrop Crystal
-100160: Teardrop Crystal
-100161: Holy Lyre der Himmel
-100162: Partially Repaired Holy Lyre der Himmel
-100163: Completely Repaired Holy Lyre der Himmel
-100164: Clear Dvalin Tear
-100165: Damaged Holy Lyre der Himmel
-100171: Treasure Clue (I)
-100172: Treasure Clue (II)
-100173: Treasure Map
-100174: Universal Temporary Interaction
-100175: Hidden Key
-100176: Black Key
-100177: Scene Interaction
-100178: Vera's Melancholy (I)
-100179: Vera's Melancholy (II)
-100180: Vera's Melancholy (III)
-100181: Along with Divinity: Prologue
-100182: The Legend of Vennessa (I), level: 24 },
-100183: The Legend of Vennessa (II), level: 24 },
-100184: Poster
-100185: Poster
-100186: Mondstadt General Goods Order Board
-100187: Cat's Tail Tavern Message Board
-100188: The Fox in the Dandelion Sea (I)
-100189: The Fox in the Dandelion Sea (II)
-100190: The Fox in the Dandelion Sea (III)
-100191: The Fox in the Dandelion Sea (V)
-100192: The Fox in the Dandelion Sea (VI)
-100193: The Fox in the Dandelion Sea (VII)
-100194: The Fox in the Dandelion Sea (X)
-100195: The Fox in the Dandelion Sea (XI)
-100196: Hilichurl Ballad Selection (I)
-100197: Hilichurl Ballad Selection (II)
-100198: Vera's Melancholy (V)
-100199: Vera's Melancholy (IX)
-100200: Vera's Melancholy (X)
-100201: Breeze Amidst the Forest - Ballad Selection Excerpt, level: 1027 },
-100202: The Boar Princess (I)
-100203: The Boar Princess (II)
-100204: The Boar Princess (III)
-100205: The Boar Princess (IV)
-100206: The Boar Princess (V)
-100207: The Boar Princess (VII)
-100208: The Mondstadt Tower (I)
-100210: Elemental Mark
-100211: Broken-off Branch
-100212: Fabric Piece
-100213: Breeze Amidst the Forest Supplement: The Dragon Tome, level: 1027 },
-100214: Letter from the Abyss Order
-100215: The Pale Princess and the Six Pygmies (I), level: 21 },
-100216: The Pale Princess and the Six Pygmies (II), level: 21 },
-100217: The Pale Princess and the Six Pygmies (III), level: 21 },
-100218: The Pale Princess and the Six Pygmies (IV), level: 21 },
-100219: The Pale Princess and the Six Pygmies (V), level: 21 },
-100220: The Pale Princess and the Six Pygmies (VI), level: 21 },
-100221: The Pale Princess and the Six Pygmies (VII), level: 21 },
-100222: 1000 Years of Loneliness
-100223: Teyvat Travel Guide - Mondstadt, level: 1028 },
-100224: Wind, Courage, and Wings
-100225: Hunting Trap
-100226: Diary of Roald the Adventurer: Qingce Village, level: 1006 },
-100227: Diary of Roald the Adventurer: Luhua Pool, level: 1006 },
-100228: Diary of Roald the Adventurer: Yaoguang Shoal, level: 1006 },
-100229: Letter for Dongdong, level: 1007 },
-100230: Someone's Diary I: Yaoguang Shoal, level: 1007 },
-100231: Scattered Page
-100232: Intact Tome
-100233: Hearty Mushrooms
-100234: Crunchy Carrots
-100235: A Plump Cabbage
-100236: Gliding Instruction Manual
-100237: Azurite
-100238: Vermillionite
-100239: Someone's Diary II: Guili Plains, level: 1007 },
-100240: Someone's Diary III: Jueyun Karst, level: 1007 },
-100241: Someone's Diary IV: Liyue Harbor, level: 1007 },
-100242: Letter to the Treasure Hoarders
-100243: Nephrite Ring
-100244: Delicious Golden Crab
-100245: \Of Mountains and Seas\
-100246: Draft Manuscript of \Hyakunin Ikki: The Greatest Battle\
-100301: Wyatt's Red Key
-100302: Wyatt's Black Key
-100303: Coin Pouch
-100304: Meal Fee Pouch
-100305: Delicious Sticky Honey Roast
-100306: Sturdy Plank
-100307: Fragile Wooden Plank
-100308: A Bundle of Ropes
-100309: Meal Fee Pouch
-100310: Lost Coin Pouch
-100311: Meal Fee Pouch
-100312: Delicious Fried Radish Balls
-100313: Delicious Calla Lily Seafood Soup
-100314: Bag of Goods
-100315: Processed Noctilucous Jade
-100316: \Mondstadt Sunset\
-100317: \Margaret\
-100318: \Charged Attack\
-100319: \Pearl\
-100320: Messy \Mondstadt Sunset\
-100321: Unusual \Margaret\
-100322: Bizarre \Charged Attack\
-100323: Unusual \Pearl\
-100324: Odd Cocktail
-100325: Messy Cocktail
-100326: Bizarre Cocktail
-100327: Unusual Beer
-100328: Barely Drinkable Cocktail
-100329: Unknown Cocktail
-100330: Plain Liquor
-100331: (TEST) Cocktail 16
-100332: (TEST) Cocktail 17
-100333: (TEST) Cocktail 18
-100334: (TEST) Cocktail 19
-100335: (TEST) Cocktail 20
-100336: (TEST) Cocktail 21
-100337: (TEST) Cocktail 22
-100338: (TEST) Cocktail 23
-100339: (TEST) Cocktail 24
-100340: (TEST) Cocktail 25
-100341: (TEST) Cocktail 26
-100342: (TEST) Cocktail 27
-100343: (TEST) Cocktail 28
-100344: (TEST) Cocktail 29
-100345: (TEST) Cocktail 30
-100346: (TEST) Cocktail 31
-100347: (TEST) Cocktail 32
-100348: Godwin's Letter
-100349: Someone's Drifting Bottle
-100350: (TEST) Klee's Notebook
-100351: Tunner's Cough Syrup
-100352: Draff's Letter
-100353: Materials for Training Dummy
-100354: Sara's Letter
-100355: Clean Radish
-100356: Guy's Letter
-100357: Quinn's Special
-100358: Margaret's Special
-100359: Jack's Special
-100360: Draff's Special
-100361: Teyvat Travel Guide - Liyue, level: 1028 },
-100362: Letter
-100363: A Huge Bag of Mora
-100364: Legend of the Shattered Halberd (VI), level: 1011 },
-100365: Intact Training Dummy
-100366: Legend of the Geo Archon: God of the Stove, level: 1020 },
-100367: Legend of the Geo Archon: The Groundbreaker, level: 1020 },
-100368: Legend of the Geo Archon: God of Wealth, level: 1020 },
-100369: Legend of the Geo Archon: God of History, level: 1020 },
-100370: The Wrath of Haishan
-100371: 
-100372: 
-100373: Ring of Raining Blades (I)
-100374: Ring of Raining Blades (II)
-100375: 
-100376: Meal Box by Smiley Yanxiao for Jiangxue
-100377: A log of ships coming in and out by Little Lulu
-100378: A log of ships coming in and out by Little Lulu
-100379: A log of ships coming in and out by Little Lulu
-100380: A log of ships coming in and out by Little Fei
-100381: A log of ships coming in and out by Little Fei
-100382: A log of ships coming in and out by Little Fei
-100383: A log of ships coming in and out by Little Meng
-100384: A log of ships coming in and out by Little Meng
-100385: A log of ships coming in and out by Little Meng
-100386: Sealed Package
-100387: First Apprentice of Guhua
-100388: Diary of Roald the Adventurer: Guyun Stone Forest, level: 1006 },
-100389: Diary of Roald the Adventurer: Sal Terrae, level: 1006 },
-100390: Diary of Roald the Adventurer: Qingyun Peak, Jueyun Karst, level: 1006 },
-100391: Diary of Roald the Adventurer: Aocang Lake, Jueyun Karst, level: 1006 },
-100392: Treasure Map of Lone Gorge
-100393: Treasure Map of Lone Gorge
-100394: Treasure Map of Lone Gorge
-100395: Poorly-Sealed Box
-100396: Tightly-Sealed Box
-100397: 
-100398: Katheryne's Letter
-100399: Records of Jueyun: Stone Beasts, level: 1008 },
-100400: Records of Jueyun: Palace Beneath the Sea, level: 1008 },
-100401: Verses of Equilibrium
-100402: Records of the Gallant: The Hermit, level: 1026 },
-100403: Customs of Liyue: Flower Ball, level: 1024 },
-100404: Stone Tablet Compilations: Vol. I
-100405: Humor From Tianheng
-100406: Hilichurl Cultural Customs (I), level: 1009 },
-100407: Hilichurl Cultural Customs (II), level: 1009 },
-100408: Hilichurl Cultural Customs (IV), level: 1009 },
-100409: History of Kings and Clans: Prologue
-100410: Biography of Gunnhildr
-100411: Ballads of the Squire (I), level: 1010 },
-100412: Ballads of the Squire (II), level: 1010 },
-100413: Teyvat Wilderness Survivalist's Recipes
-100414: Treasure Map of Giant's Steps
-100415: Treasure Map of Giant's Steps
-100416: Treasure Map of Giant's Steps
-100417: Treasure Map of The Vast Blue
-100418: Treasure Map of The Vast Blue
-100419: Treasure Map of The Vast Blue
-100420: 
-100421: 
-100422: 
-100423: 
-100424: 
-100425: 
-100426: Yakshas: The Guardian Adepti
-100427: Witness Sigil
-100428: Special Almond Tofu
-100429: Dropped Package
-100430: Sigil of Permission
-100431: Klee's Wooden Sign
-100432: Legend of the Shattered Halberd (I), level: 1011 },
-100433: Legend of the Shattered Halberd (II), level: 1011 },
-100434: Legend of the Shattered Halberd (III), level: 1011 },
-100435: Legend of the Shattered Halberd (IV), level: 1011 },
-100436: Legend of the Shattered Halberd (V), level: 1011 },
-100437: Heart's Desire: Moonlight, level: 1012 },
-100438: Heart's Desire: Crystal Glaze, level: 1012 },
-100439: Heart's Desire: Sapphire, level: 1012 },
-100440: Heart's Desire: Stone Heart, level: 1012 },
-100441: Diary of Roald the Adventurer: Qingxu Pool, level: 1006 },
-100442: Traveler's Notes, level: 1013 },
-100443: Traveler's Notes, level: 1013 },
-100444: Traveler's Notes, level: 1013 },
-100445: Traveler's Notes, level: 1013 },
-100450: Censer
-100451: Seven-Star Lamp
-100452: Letter from Starsnatcher
-100453: Special Mondstadt Hash Brown
-100454: Dendro-Processed Berry
-100455: Thick Hydro Slime Condensate
-100456: Wind-Caressed Aster
-100457: Collected Fragment
-100458: Collected Fragment
-100459: Collected Fragment
-100460: Transcription from a stone tablet
-100461: Transcription from a stone tablet
-100462: Transcription from a stone tablet
-100463: Transcription from a stone tablet
-100464: Transcription from a stone tablet
-100465: Transcription from a ruin
-100466: Transcription from a ruin
-100467: Hidden Treasure of Qingce
-100468: 
-100469: Draft Lines of Hilichurlian Poetry
-100470: 
-100471: 
-100472: A Letter by Timmie
-100473: Marjorie's Recommended Gift
-100474: A Gift from Quinn
-100475: Sara's Special Dish
-100476: Traveling Merchant's Package
-100477: Box of Goods Invoices
-100478: Box of Goods Invoices
-100479: Box of Goods Invoices
-100480: Heart of Clear Springs (I), level: 1014 },
-100481: Heart of Clear Springs (II), level: 1014 },
-100482: Heart of Clear Springs (III), level: 1014 },
-100483: Heart of Clear Springs (IV), level: 1014 },
-100484: Linling's Anthology of Selected Poetry
-100485: Goods Invoice
-100486: Invoice of Goods Quantities
-100487: Golden House Maiden
-100488: Valley Weaver
-100489: Fate's Yearning
-100490: Golden House Maiden Essential Oil
-100491: Valley Weaver Essential Oil
-100492: Fate's Yearning Essential Oil
-100493: Bao'er's Empty Box
-100494: Heavy Box
-100495: Sopping Wet Page
-100496: A Huge Bag of Mora
-100497: Golden House Maiden Perfume
-100498: Valley Weaver Perfume
-100499: Fate's Yearning Perfume
-100500: A Box of Gadgets
-100501: Cleansing Bell
-100502: Guizhong Ballista Maintenance Material
-100503: A Record of Qiming and Zhihua's Conversation
-100504: A Record of Sisi and Chaoxi's Conversation
-100505: A Record of Little Meng, Little Fei, and Little Lulu's Conversation
-100506: Norma's Order
-100507: Hilichurl Ballad: Recital Draft, level: 1015 },
-100508: Hilichurl Ballad: Narrative Draft, level: 1015 },
-100509: Hilichurl Ballad: Lyrical Draft, level: 1015 },
-100510: Vile's Gift
-100511: Stolen Relic
-100512: Madame Ping's Box
-100513: A Torn Out Page
-100514: Page of Scribbled Writing
-100515: Noctilucous Jade Sample
-100516: A Bag of Mora
-100517: Mitachurl Loot
-100518: Treasure Hoarder Loot
-100519: Ruin Guard Loot
-100520: Noctilucous Jade Sample
-100521: Noctilucous Jade Sample
-100522: Everlasting Incense
-100523: Guizhong Ballista Maintenance Material
-100524: Sturdy Wooden Plank
-100525: Box of Leaves
-100526: 
-100527: 
-100528: Treasure Hoarder's Key
-100529: Alrani's Note
-100530: Nameless Treasure
-100531: Nameless Treasure
-100532: Nameless Treasure
-100533: Stone of Remembrance
-100534: Dull Ring
-100535: Vermeer's Paintbrushes
-100536: Vermeer's Paints
-100537: Black and White Sketch
-100538: Color Sketch
-100539: Nameless Sketch
-100540: Strange Stone
-100541: Fresh Qingxin
-100542: Good Hunter's Specialty Dish
-100543: Flora's Bookmark
-100544: Special Beverage from Angel's Share
-100545: Special Perfume
-100546: Mint Essential Oil
-100547: Tasty Slime Condensate
-100548: Extra-Sweet Sweet Flower
-100549: Fresh Sweet Flower
-100550: Fresh Cecilia
-100551: Fresh Windwheel Aster
-100552: Fresh Small Lamp Grass
-100553: Strange Cocktail Ingredient
-100554: Teucer's Mora Pouch
-100555: Childe and Teucer's Mora Pouch
-100556: Plump Sunsettia
-100557: Merchant Poster
-100558: Merchant Poster
-100559: Merchant Poster
-100560: Jiayi's Gifts
-100561: Treasure Hoarder's Map
-100562: Ragged Notebook
-100563: Strange Stone
-100564: Knights of Favonius Handbook - 5th Edition
-100565: Tales From the Waves: Rising Tide, level: 1016 },
-100566: Tales From the Waves: Wild Storm, level: 1016 },
-100567: Tales From the Waves: Receding Torrent, level: 1016 },
-100568: Hex & Hound (I), level: 1017 },
-100569: Hex & Hound (II), level: 1017 },
-100570: Hex & Hound (III), level: 1017 },
-100571: Hex & Hound (IV), level: 1017 },
-100572: Hex & Hound (V), level: 1017 },
-100573: Moonlit Bamboo Forest (I), level: 1018 },
-100574: Moonlit Bamboo Forest (II), level: 1018 },
-100575: Moonlit Bamboo Forest (III), level: 1018 },
-100576: Moonlit Bamboo Forest (IV), level: 1018 },
-100577: A Drunkard's Tale (I), level: 1019 },
-100578: A Drunkard's Tale (II), level: 1019 },
-100579: A Drunkard's Tale (III), level: 1019 },
-100580: A Drunkard's Tale (IV), level: 1019 },
-100581: 
-100582: 
-100583: \Dwelling in the Clouds\ Blueprints
-100584: Tainted Blood
-100585: Monolith Fragment
-100586: Rex Incognito (I), level: 1022 },
-100587: Rex Incognito (II), level: 1022 },
-100588: Rex Incognito (III), level: 1022 },
-100589: Rex Incognito (IV), level: 1022 },
-100590: Legend of the Lone Sword (I), level: 1023 },
-100591: Legend of the Lone Sword (II), level: 1023 },
-100592: Legend of the Lone Sword (III), level: 1023 },
-100593: Legend of the Lone Sword (IV), level: 1023 },
-100594: Little Liu's Gifts
-100595: Chaoxi's Reply to Cui'er
-100596: Little Yue's Gift
-100597: Yinxing's Letter to Bolai
-100598: Clerk Zhao's Invoice for Jiangzhou
-100599: Clerk Zhao's Invoice for Nervous An
-100600: Cui'er's Letter to Chaoxi
-100601: Thick Notebook
-100602: Jack's Map
-100603: Jack's Adventurer Handbook
-100604: Cage Key
-100605: Sugar-Frosted Slime
-100606: Wild Glaze Lily
-100607: The Fox in the Dandelion Sea (IV)
-100608: The Fox in the Dandelion Sea (VIII)
-100609: The Fox in the Dandelion Sea (IX)
-100610: The Boar Princess (VI)
-100611: Vera's Melancholy (IV)
-100612: Vera's Melancholy (VI)
-100613: Vera's Melancholy (VII)
-100614: Vera's Melancholy (VIII)
-100615: Hilichurl Cultural Customs (III), level: 1009 },
-100616: 
-100617: \Of Mountains and Seas\
-100618: Strange Tooth
-100619: Vitalized Dragontooth
-100620: Princess's Box
-100621: Priest's Box
-100622: Scribe's Box
-100623: Very Ordinary-Looking Sweet Flower
-100624: Customs of Liyue: Receiving God, level: 1024 },
-100625: Mr. Cyclops Action Figure
-100626: Little Liu's Letter
-100627: Used Training Dummy
-100628: Crude Sack
-100629: Mysterious Stone Tablet
-100630: Treasure Hoarder Scouting Report
-100631: Viktor's Lost Box
-100632: Notice Paper
-100633: Old Business Permit
-100634: Business Premises and Safety Certificates
-100635: Approved Exit Permit
-100636: Great Snowboar King Meat
-100637: Records of Jueyun: Wuwang, level: 1008 },
-100638: Records of Jueyun: Mountain Spirits, level: 1008 },
-100639: Meadow of Gems
-100640: Customs of Liyue: Silk Flowers, level: 1024 },
-100641: Customs of Liyue: Glaze Lilies, level: 1024 },
-100642: String of Pearls (I), level: 1025 },
-100643: String of Pearls (II), level: 1025 },
-100644: String of Pearls (III), level: 1025 },
-100645: Ancient Investigation Journal: Part I
-100646: Special Mondstadt Hash Brown
-100647: Special Almond Tofu
-100648: Special Jewelry Soup
-100649: Special Sweet Madame
-100650: Special Matsutake Meat Rolls
-100651: Special Jade Parcels
-100652: Special Flaming Red Bolognese
-100653: Special Black-Back Perch Stew
-100654: Special Mora Meat
-100655: Special Tea Break Pancake
-100656: Special Come and Get It
-100657: Special Jueyun Chili Chicken
-100658: Special Mondstadt Hash Brown
-100659: Special Black-Back Perch Stew
-100660: Special Come and Get It
-100661: Special Mondstadt Grilled Fish
-100662: Special Stir-Fried Filet
-100663: Special Lotus Seed and Bird Egg Soup
-100664: Special Fisherman's Toast
-100665: Special Almond Tofu
-100666: Special Jewelry Soup
-100667: Orders
-100668: 
-100669: 
-100670: 
-100671: 
-100672: 
-100673: 
-100674: 
-100675: 
-100676: 
-100677: 
-100678: 
-100679: 
-100680: 
-100681: Jiayi's Letter
-100682: Nostalgic Jueyun Chili Chicken
-100683: Luxurious Toybox
-100684: Congzi's Plaustrite Shards
-100685: Custom-Made Xiao Lantern
-100686: Glory's Dandelion Seeds
-100687: Letter to Cyrus
-100688: Qingzhou's Signature
-100689: Package of Fresh Flowers
-100690: Package of Fresh Flowers
-100691: Rex Incognito (IV), level: 1022 },
-100692: Ancient Investigation Journal: Part II
-100693: Ancient Investigation Journal: Part III
-100694: 
-100695: 
-100696: 
-100697: 
-100698: 
-100699: Invoice From Second Life
-100700: Package of Fresh Flowers
-100701: Package of Fresh Flowers
-100702: Package of Fresh Flowers
-100703: Thank-You Letter
-100704: Experimental Potion
-100705: Chilled Meat
-100706: Diary of Roald the Adventurer: Dragonspine, level: 1006 },
-100707: Kamera Picture
-100708: Kamera Picture
-100709: Sigil of Permission
-100710: Harris' Special Cream Stew
-100711: Treasure Map
-100712: Strange Note
-100713: A Bag of Mora
-100714: Water-Logged Box
-100715: Meadow of Gems
-100716: Starsilver Catalyst
-100717: Starsilver Catalyst
-100718: Starsilver Catalyst
-100719: Starsilver Catalyst
-100720: Starsilver Catalyst
-100721: 
-100722: 
-100723: Dummy's Xiao Lantern
-100724: Unnamed Mingxiao Lantern
-100725: 
-100726: Herbalist Gui's Medicine
-100727: Starsilver Catalyst
-100728: Dandelion Seed
-100729: Siyu's Xiao Lantern
-100730: Records of Jueyun: Qilin, level: 1008 },
-100731: Records of Jueyun: Hidden Jade, level: 1008 },
-100732: Records of the Gallant: Black Raccoons, level: 1026 },
-100733: Records of the Gallant: Dust, level: 1026 },
-100734: Hex & Hound (VI), level: 1017 },
-100735: Hex & Hound (VII), level: 1017 },
-100736: Hex & Hound (VIII), level: 1017 },
-100737: Aunt Qiao's Almond Tofu
-100738: Zhuyu's Golden Shrimp Balls
-100739: Ominous Dish
-100740: Lost Adventure Notebook
-100741: Broken Xiao Lantern Lampshade
-100742: Hard Iron Chunk
-100743: Hard Crystal Chunk
-100744: Red Wolfhook
-100745: Fresh Jueyun Chili
-100746: Handpicked Gift
-100747: Lantern Rite Gift
-100748: Pyro Whopperflower Nectar
-100749: Wanmin Restaurant Take-Away
-100750: Strange Box
-100751: Inscribed Xiao Lantern
-100752: Soil Sample
-100753: Fresh Qingxin
-100754: Slime-Swallowed Calla Lily
-100755: Fresh Lotus Head
-100756: Plank
-100757: Fresh Raw Meat
-100758: High-Quality Chilled Meat
-100759: Picture of Windblume Festival
-100760: Picture of Windblume Festival
-100761: Picture of Windblume Festival
-100762: Wondrous Lovely Flower
-100763: Watch Out!
-100764: Fresh Valberry
-100765: Pyro Slime Condensate
-100766: Special Bottle
-100767: Notes of Some Kind
-100768: Ward
-100769: Ward
-100770: Ioroi's Ward
-100771: Scroll-Shaped Ward
-100772: Key-Shaped Ward
-100773: 
-100774: Old Key
-100775: Old Stone Slate
-100776: Old Stone Slate
-100777: Old Stone Slate
-100778: Old Stone Slate
-100779: Rather Fine Dandelion Seeds
-100780: Rather Fine Windwheel Aster
-100781: Special Beverage
-100782: Special Beverage
-100783: Hex & Hound (IX), level: 1017 },
-100784: Hex & Hound (X), level: 1017 },
-100785: Hex & Hound (XI), level: 1017 },
-100786: String of Pearls (IV), level: 1025 },
-100787: String of Pearls (V), level: 1025 },
-100788: Handy Handbook of Hilichurlian
-100789: Bamboo Slip
-100790: Bamboo Slip
-100791: Bamboo Slip
-100792: Bamboo Slip
-100793: Bamboo Slip
-100794: Bamboo Slip
-100795: Bamboo Slip
-100796: Bamboo Slip
-100797: Bamboo Slip
-100798: Fortune Slip
-100799: Fortune Slip
-100800: Fortune Slip
-100801: Fortune Slip
-100802: Fortune Slip
-100803: Fortune Slip
-100804: Fortune Slip
-100805: Fortune Slip
-100806: Fortune Slip
-100807: Strange Fortune Slip
-100808: Strange Fortune Slip
-100809: Strange Fortune Slip
-100810: Strange Fortune Slip
-100811: Picture of Cape Oath
-100812: Picture of Starsnatch Cliff
-100813: Picture of Windrise
-100814: Cyrus' Letter to Iris
-100815: Picture of Dragonspine
-100816: The Crux Clash Champion Medal
-100817: Well-Packaged Gebratenes Fleisch mit Sauerkraut
-100818: Tea Break Pancake Cooked by Lily
-100819: Mysterious Mechanical Part
-100820: Pale Yellow Crystal
-100821: Pale Red Crystal
-100822: Pale Blue Crystal
-100823: Pale Yellow Scale
-100824: Pale Blue Scale
-100825: Pale Red Scale
-100826: Cat Food
-100827: Cat Toy
-100828: Fresh Fish Scales
-100829: Some Strange... Drink?
-100830: Purse by the Dried-Up Well
-100831: Archaic Stone
-100832: Slightly Damaged Wooden Plank
-100833: Somewhat Rotten Wooden Plank
-100834: 
-100835: Smaragdus Jadeite
-100836: Smaragdus Nephrite Fragment
-100837: The Jade Mystery's Affidavit
-100838: Ministry of Civil Affairs' Affidavit
-100839: Bubu Pharmacy's Affidavit
-100840: Fresh Slime Condensate
-100841: Minacious Isle Mural
-100842: Broken Isle Mural
-100843: Nameless Island Mural
-100844: Twinning Isle Mural
-100845: Illegible Notes
-100846: Fresh Fish
-100847: 
-100848: 
-100849: Ragged List of Goods
-100850: Cargo Bag Fished Out From Water
-100851: Nameless Islet Mural
-100852: Clear Image
-100853: Somewhat Clear Image
-100854: Rather Foggy Image
-100855: A Discarded Blade
-100856: A Jug of Wine
-100857: A Masterless Blade
-100858: Bag of Flower Seeds
-100859: Mysterious Conch
-100860: 
-100861: The Sage Aetolia Will Die Tomorrow
-100862: The Honest Cat's Little Lie
-100863: Literature Club
-100864: Rust-Worn Key
-100865: Mask of Memories
-100866: The Violet Oni's Blade
-100867: The Crimson Oni's Blade
-100868: Fortune Slip
-100869: Fortune Slip
-100870: Fortune Slip
-100871: Fortune Slip
-100872: Fortune Slip
-100873: Fortune Slip
-100874: Fortune Slip
-100875: Chang the Ninth's Gift
-100876: Zhenyu's Gift
-100880: Cage Key
-100881: Metal Key
-100882: Atsuko's Letter
-100883: Illegible Fortune Slip
-100884: Damaged Note
-100885: Luxurious Silk Cloth
-100886: Special Recipe: Mushroom Pizza
-100887: 
-100888: 
-100889: Chef Mao's Special Jueyun Chili Chicken
-100890: Xiangling's Handwritten Notes
-100891: Yellowed Letter
-100892: Vahid's Kneaded Onigiri
-100893: Naganohara Fireworks Note
-100894: Spirit Pearl
-100895: Key of the Moon-bathed Deep
-100896: Strange Bottle
-100897: Water Welling With \Wishes\
-100898: Spiritherb Water
-100899: Rinzou's Letter
-100900: Rinzou's Signet
-100901: Hidden Ledger
-100902: Komore Teahouse Invitation Letter
-100903: A Love Letter(?)
-100904: Cooked Meat
-100905: \The Seventh Samurai\ Script
-100906: 
-100907: A Note Left by Someone
-100908: Bamboo Slip
-100909: Bamboo Slip
-100910: Bamboo Slip
-100911: Bamboo Slip
-100912: Bamboo Slip
-100913: Bamboo Slip
-100914: Bamboo Slip
-100915: 
-100916: Lightly-Perfumed Letter
-100917: Travel Permit
-100918: Kujou Kamaji's Letter
-100919: Snack Box
-100920: Dull Golden Bridle
-100921: Golden Bridle
-100922: Reins of Revival Fragment (The Narrows)
-100923: Reins of Revival Fragment (Temple)
-100924: Reins of Revival Fragment (Serpent's Heart)
-100925: Reins of Revival
-100926: Offerings of The Narrows
-100927: Offerings of the Temple
-100928: Offerings of the Serpent's Heart
-100929: The Serpent and Drakes of Tokoyokoku
-100930: Bathysmal Vishap Experimental Records
-100931: Before Sun and Moon
-100932: Hydrological Studies in Byakuyakoku
-100933: In the Light, Beneath the Shadow
-100934: Key Sigil
-100935: Key Sigil
-100936: Key Sigil
-100937: Key Sigil
-100938: Key Sigil
-100939: Bloodbranch Coral
-100940: Divine Bridle
-100941: Date's Medal of Recognition
-100942: Date's Medal of Recognition
-100943: Secret Room Key
-100944: Waters of Lethe
-100945: Dragonbone Orb
-100946: Key to Some Place
-100947: Key to Some Place
-100948: Key to Some Place
-100949: Sun-Dried Sweet Flower
-100950: Peculiar Pinion
-100951: Maushiro
-100952: Maushiro
-100953: 
-100954: 
-100955: An Onikabuto Affected by Tatarigami
-100956: Missing Component(s)
-100957: Funerary Mask
-100958: Musoujin Gorge: Rock Pillar Pearl
-100959: Musoujin Gorge: Rock Pillar Warding Stone
-100960: Serpent's Head: Rock Pillar Pearl
-100961: Serpent's Head: Rock Pillar Warding Stone
-100962: Jakotsu Mine: Rock Pillar Pearl
-100963: Jakotsu Mine: Rock Pillar Warding Stone
-100964: Fort Mumei: Rock Pillar Pearl
-100965: Fort Mumei: Rock Pillar Warding Stone
-100966: Naku Weed Seed
-100967: High-Quality Chilled Meat
-100968: Piping-Hot Braised Meat
-100969: Family Letter
-100970: Tattered Letter
-100971: Pharmacist's Notebook (I)
-100972: Pharmacist's Notebook (II)
-100973: Pharmacist's Notebook (III)
-100974: Unsealed Letter
-100975: Inaba Tousaburou Kyuuzou's Final Words
-100976: Star-Shaped Gem
-100977: Stone Slate
-100978: Kamuijima Cannon Map
-100979: Secret Notes
-100980: High-Quality Rice
-100981: Fragrant Rice Pudding
-100982: Anemo Slime-Swallowed Bamboo Shoots
-100983: Piping-Hot Oncidium Tofu
-100984: Fossil Bag
-100985: \Treasury\ Key
-100986: Incomplete Notes
-100987: Tattered Paper
-100988: Picture Commemorating Seirai Island
-100989: Picture Commemorating Seirai Island (II)
-100990: Picture Commemorating Seirai Island (III)
-100991: Picture Commemorating Seirai Island (IV)
-100992: Fujiwara Toshiko's Treasure Map
-100993: A Bag of Beans
-100994: 
-100995: Right-Side Photo
-100996: Left-Side Photo
-100997: Inferior Starsilver
-100998: Quality Starsilver
-100999: Key
-101000: Box of Clothes
-101001: Iron Chunk
-101002: White Iron Chunk
-101003: Crystal Chunk
-101004: Magical Crystal Chunk
-101005: Scarlet Quartz
-101006: Starsilver
-101007: Scarlet Quartz
-101008: Amethyst Lump
-101101: Northlander Sword Billet
-101102: Northlander Bow Billet
-101103: Northlander Claymore Billet
-101104: Northlander Catalyst Billet
-101105: Northlander Polearm Billet
-101106: Northlander Sword
-101107: Northlander Bow
-101108: Northlander Claymore
-101109: Northlander Catalyst
-101110: Northlander Polearm
-101201: Onikabuto
-101202: Sakura Bloom
-101203: Crystal Marrow
-101204: Dendrobium
-101205: Naku Weed
-101206: Sea Ganoderma
-101207: Sango Pearl
-101208: Amakumo Fruit
-101209: Fluorescent Fungus
-101210: Seagrass
-101211: Lavender Melon
-101212: Starshroom
-101301: Birch Wood
-101302: Cuihua Wood
-101303: Pine Wood
-101304: Sandbearer Wood
-101305: Bamboo Segment
-101306: 
-101307: Fragrant Cedar Wood
-101308: Fir Wood
-101309: Yumemiru Wood
-101310: Maple Wood
-101311: Aralia Wood
-101312: Otogi Wood
-101401: Fabric
-101402: Red Dye
-101403: Yellow Dye
-101404: Blue Dye
-101501: Torn Page: Toki Alley Tales (Prologue)
-101502: Torn Page: Toki Alley Tales (I)
-101503: Torn Page: Toki Alley Tales (II)
-101504: Torn Page: Toki Alley Tales (III)
-101505: Torn Page: Toki Alley Tales (IV)
-101506: Torn Page: Toki Alley Tales (V)
-101507: Toki Alley Tales (Prologue), level: 1029 },
-101508: Toki Alley Tales (I), level: 1029 },
-101509: Toki Alley Tales (II), level: 1029 },
-101510: Toki Alley Tales (III), level: 1029 },
-101511: Toki Alley Tales (IV), level: 1029 },
-101512: Toki Alley Tales (V), level: 1029 },
-101513: Pass Permit
-101514: Dango Milk
-101515: Realm Dispatch
-101516: 
-101517: Special Sakura Bloom
-101518: Thunder Sakura Crab
-101519: Fresh Seagrass
-101520: Fresh Sakura Bloom
-101521: Fresh Snapdragon
-101522: Fresh Bird Egg
-101523: New Chronicles of the Six Kitsune: Prologue, level: 1030 },
-101524: New Chronicles of the Six Kitsune (I), level: 1030 },
-101525: New Chronicles of the Six Kitsune (II), level: 1030 },
-101526: New Chronicles of the Six Kitsune (III), level: 1030 },
-101527: New Chronicles of the Six Kitsune (IV), level: 1030 },
-101528: Sangonomiya Chronicles
-101529: The Saga of Hamavaran (Preface), level: 1031 },
-101530: The Saga of Hamavaran (I), level: 1031 },
-101531: The Saga of Hamavaran (II), level: 1031 },
-101532: A Legend of Sword (I), level: 1032 },
-101533: A Legend of Sword (II), level: 1032 },
-101534: A Legend of Sword (III), level: 1032 },
-101535: A Legend of Sword (IV), level: 1032 },
-101536: A Legend of Sword (V), level: 1032 },
-101537: Sacred Sakura Cleansing Summary
-101538: Fresh Mushroom
-101539: Crab Bait
-101540: Someone's Diary V: Jinren Island, level: 1007 },
-101541: Diary of Roald the Adventurer: Ritou, level: 1006 },
-101542: Grand Narukami Shrine Omamori
-101543: Official Tenryou Commission Document
-101544: Tenryou Commission Secret Letter
-101545: Supersized Firework
-101546: Special Magical Crystal Ore
-101547: Ore Slag
-101548: Princess Mina of the Fallen Nation (I), level: 1033 },
-101549: Princess Mina of the Fallen Nation (II), level: 1033 },
-101550: Princess Mina of the Fallen Nation (III), level: 1033 },
-101551: Princess Mina of the Fallen Nation (IV), level: 1033 },
-101552: Princess Mina of the Fallen Nation (V), level: 1033 },
-101553: Princess Mina of the Fallen Nation (VI), level: 1033 },
-101554: Flowers for Princess Fischl (0), level: 1034 },
-101555: 
-101556: 
-101557: 
-101558: Teyvat Travel Guide - Inazuma, level: 1028 },
-101559: Drifting Bottle With Letter
-101560: Onibudou
-101561: Grand Narukami Shrine Omamori
-101570: Lucky Omamori
-101571: Box of Nails
-101572: Planks
-101573: Rope
-101574: 
-101575: Kito's Sachet
-101576: Treasure Map Fragment
-101577: Treasure Map Fragment
-101578: Treasure Map Fragment
-101579: Treasure Map Fragment
-101580: A Treasure Map Left for Shitoki
-101581: Makiri's Charm
-101582: General Purpose Directional Conduction Component
-101583: Rust-Worn Key
-101584: Heavy Key
-101585: Intact Key
-101586: Sumida's Letter
-101587: New Firework Model
-101588: New Chronicles of the Six Kitsune (V), level: 1030 },
-101589: Northland Bank Check
-101590: Scrawled Treasure Map
-101591: Kiminami Anna's Invigorating Kitty Meal
-101592: Autake Slate
-101593: General Purpose Directional Conduction Component
-101594: General Purpose Directional Conduction Component
-101595: General Purpose Directional Conduction Component
-101596: A Preliminary Study of Sangonomiya Folk Belief
-101597: The Life of Mouun the Shrine Maiden
-101598: Debates on the \Viceroy of the East\
-101599: Treasured Tales of the Chouken Shinkageuchi (I), level: 1035 },
-101600: Mysterious Stone
-101601: Diary of Roald the Adventurer: Tsurumi Island, level: 1006 },
-101602: Fresh Meat
-101603: Fresh Fish
-101604: Bag of Retrieved Items
-101605: Repaired Comb
-101606: Mysterious Flyer
-101607: Rigorous Schedule
-101608: Simple Schedule
-101609: Starsplinter Iron
-101610: Subrosium
-101611: Wonder Core
-101612: Adepti Sigil
-101613: Records of a Changing Village
-101614: Ragged Notebook
-101615: Mountainous Miscellany
-101616: Neatly-Written Note
-101617: Little Meng's Drifting Bottle
-101618: Lumenstone
-101619: Muning's Note
-101620: Treasure Map Fragment
-101621: Treasure Hoarders' Treasure Map
-101622: Storehouse Security Key No. 1
-101623: Storehouse Security Key No. 2
-101624: A Set of Cannonballs
-101625: Special Unmoving Essential Oil
-101626: Key to a Stony Hall
-101627: Photo of a Strange Rock
-101628: Academia Recommendation Letter
-101629: Orb of the Blue Depths
-101630: Metal Key
-101631: Miner's Key
-101632: Blessings of Wisdom
-101633: Mountainator Cannonball (Fuse Attached)
-101634: Toy Doll
-101635: Flower of Farsight
-101636: Skyfeather
-101637: Sundial of Ages
-101638: Cup of Commons
-101639: Helm of Warding
-101640: Warrior's Spear
-101641: Brass Ring
-101642: Archaic Stone
-101643: Shriveled Seed
-101644: Lumenstone Ore
-101645: Yue Chuan's Drifting Bottle
-101648: Hiraizumi's Goods
-101649: Cell Key
-101650: Freshly-Picked Calla Lily
-101651: Freshly-Picked Small Lamp Grass
-101652: Freshly-Picked Cecilia
-101654: Ruin Machine Core
-101655: Date's Key
-101656: Pile of Lavender Melons
-101657: Fine Incense
-101658: 
-101659: Curious Cube
-101660: A Note Someone Stuffed You
-101661: Special Bamboo Slip
-101662: \Final Instructions\
-101663: Bag of Clothes
-101664: Special Fortune Slip
-101665: Strange Object
-101666: Bedrock Key Location Diagram
-101667: Light Mora Purse
-101668: Full Mora Purse
-101669: Plump Fish
-101670: Beautifully-Written Note
-101671: Yun Jin's Personal Letter
-101672: Lyudochka's Letter
-101673: Lyudochka's Mora Purse
-101674: Fatui Code Sheet
-101675: Light Purse
-101676: Marjorie's Gift
-101677: Viktor's Gift
-101678: Fresh Wolfhooks
-101679: Lyudochka's Fortune Slip
-101680: The Serpent and Drakes of Tokoyokoku, level: 1036 },
-101681: Before Sun and Moon, level: 1036 },
-101682: Hydrological Studies in Byakuyakoku, level: 1036 },
-101683: Bathysmal Vishap Experimental Records, level: 1036 },
-101684: In the Light, Beneath the Shadow, level: 1036 },
-101685: The Miraculous Adventures of the Traveler
-101686: The Miraculous Adventures of the Traveler
-101687: The Miraculous Adventures of the Traveler
-101688: The Miraculous Adventures of the Traveler
-101689: 
-101690: Muning's Note
-101691: Frostglaze Crystal
-101692: Light Realm Sigil
-101693: Light Realm Core
-101694: Bloodied Sergeant's Insignia
-101695: Corporal Nikolay's Diary
-101696: Corporal Nikolay's Diary
-101697: Mora Purse
-101698: A Firsthand Guide to Summoning Spirits
-101699: Dream Sakura
-101700: Aphotium Ore
-101701: Tokoyo Legume
-101702: Husk Gem
-101703: Fragmented Accessory
-101704: Fragmented Accessory
-101706: Tsumi's Map
-101707: Hakuen Michimitsu Amenoma
-101708: Wooden Cage Key
-101709: Damaged Stone Slate
-101710: Mysterious Stone Slate
-101711: Yanbo's Note
-101712: Nikolay's Letter
-101713: 
-101714: Fragrant Seasoning
-101715: Fragrant Vegetarian Abalone
-101719: Fragrant Mint Salad
-101720: Fragrant Triple-Layered Consomm\u00e9
-101724: Zhiqiong's Letter
-101725: Arrival Schedule
-101726: Five Kasen Summary
-101727: The Five Kasen's Splendor: Suikou
-101728: The Five Kasen's Splendor: Aoi no Okina
-101729: The Five Kasen's Splendor: Akahito
-101730: The Five Kasen's Splendor: Sumizome
-101731: The Five Kasen's Splendor: Sumizome
-101732: Ancient Forging Blueprint
-101733: Kaedehara Yoshinori's Letter
-101734: Taliesin's Manuscript
-101737: Fragrant Stir-Fried Shrimp
-101738: Fragrant Golden Shrimp Balls
-101739: Fragrant Qingce Stir Fry
-101740: Fragrant Black-Back Perch Stew
-101741: Fragrant Stir-Fried Filet
-101742: Fragrant Grilled Tiger Fish
-101743: Fragrant Crab Roe Tofu
-101744: Fragrant Golden Crab
-101745: Fragrant Jewelry Soup
-101746: Fragrant Bamboo Shoot Soup
-101747: Fragrant Noodles with Mountain Delicacies
-101748: Fragrant Mora Meat
-101749: Fragrant Stir-Fried Fish Noodles
-101750: Fragrant Universal Peace
-101751: Fragrant Rice Buns
-101752: Fragrant Almond Tofu
-101753: Fragrant Lotus Flower Crisp
-101754: Sayu's Salary
-101755: Statue of Her Excellency, the Almighty Narukami Ogosho, God of Thunder
-101756: Kokomi's Shopping List
-101757: Toy Fox
-101766: A Legend of Sword (VI), level: 1032 },
-101767: Shogun Almighty: Reborn as Raiden With Unlimited Power
-101768: Pretty Please, Kitsune Guuji?
-101769: Let's Go, Dodoco!
-101782: Jinwu's Soup
-101783: 
-101784: 
-101785: 
-101786: 
-101787: 
-101788: 
-101789: 
-101790: 
-101791: 
-101792: 
-101793: 
-101794: 
-101795: Bag of Ornaments
-101797: Let's Go, Dodoco!
-102001: Pyro Shard
-102002: Hydro Shard
-102003: Dendro Shard
-102004: Electro Shard
-102005: Anemo Shard
-102006: Cryo Shard
-102007: Geo Shard
-102008: Primordial Elemental Shard
-103001: Pyro Jikaka
-103002: Hydro Jikaka
-103003: Dendro Jikaka
-103004: Electro Jikaka
-103005: Anemo Jikaka
-103006: Cryo Jikaka
-103007: Geo Jikaka
-103008: Standard Jikaka
-104001: Wanderer's Advice
-104002: Adventurer's Experience
-104003: Hero's Wit
-104011: Enhancement Ore
-104012: Fine Enhancement Ore
-104013: Mystic Enhancement Ore
-104101: Brilliant Diamond Sliver
-104102: Brilliant Diamond Fragment
-104103: Brilliant Diamond Chunk
-104104: Brilliant Diamond Gemstone
-104111: Agnidus Agate Sliver
-104112: Agnidus Agate Fragment
-104113: Agnidus Agate Chunk
-104114: Agnidus Agate Gemstone
-104121: Varunada Lazurite Sliver
-104122: Varunada Lazurite Fragment
-104123: Varunada Lazurite Chunk
-104124: Varunada Lazurite Gemstone
-104131: Nagadus Emerald Sliver
-104132: Nagadus Emerald Fragment
-104133: Nagadus Emerald Chunk
-104134: Nagadus Emerald Gemstone
-104141: Vajrada Amethyst Sliver
-104142: Vajrada Amethyst Fragment
-104143: Vajrada Amethyst Chunk
-104144: Vajrada Amethyst Gemstone
-104151: Vayuda Turquoise Sliver
-104152: Vayuda Turquoise Fragment
-104153: Vayuda Turquoise Chunk
-104154: Vayuda Turquoise Gemstone
-104161: Shivada Jade Sliver
-104162: Shivada Jade Fragment
-104163: Shivada Jade Chunk
-104164: Shivada Jade Gemstone
-104171: Prithiva Topaz Sliver
-104172: Prithiva Topaz Fragment
-104173: Prithiva Topaz Chunk
-104174: Prithiva Topaz Gemstone
-104201: Dust of Azoth
-104301: Teachings of Freedom
-104302: Guide to Freedom
-104303: Philosophies of Freedom
-104304: Teachings of Resistance
-104305: Guide to Resistance
-104306: Philosophies of Resistance
-104307: Teachings of Ballad
-104308: Guide to Ballad
-104309: Philosophies of Ballad
-104310: Teachings of Prosperity
-104311: Guide to Prosperity
-104312: Philosophies of Prosperity
-104313: Teachings of Diligence
-104314: Guide to Diligence
-104315: Philosophies of Diligence
-104316: Teachings of Gold
-104317: Guide to Gold
-104318: Philosophies of Gold
-104319: Crown of Insight
-104320: Teachings of Transience
-104321: Guide to Transience
-104322: Philosophies of Transience
-104323: Teachings of Elegance
-104324: Guide to Elegance
-104325: Philosophies of Elegance
-104326: Teachings of Light
-104327: Guide to Light
-104328: Philosophies of Light
-105001: Sanctifying Droplet
-105002: Sanctifying Unction
-105003: Sanctifying Essence
-105004: Sanctifying Essence
-106000: Test Stamina Growth Item
-106001: Test Temporary stamina Growth Item
-107001: Anemoculus
-107002: Elemental Dust
-107003: Geoculus
-107004: Adventure Treasure Pack
-107005: Skyrider Greatsword Chest
-107006: Mondstadt Shrine of Depths Key
-107007: Liyue Shrine of Depths Key
-107008: Inazuma Shrine of Depths Key
-107009: Fragile Resin
-107010: Crimson Agate
-107011: Crimson Agate (Display)
-107012: Transient Resin
-107013: Vial of Adeptal Speed
-107014: Electroculus
-107015: Moonchase Charm
-107016: Lumenspar
-108000: Dish
-108001: Suspicious Fisherman's Toast
-108002: Fisherman's Toast
-108003: Delicious Fisherman's Toast
-108004: Suspicious Teyvat Fried Egg
-108005: Teyvat Fried Egg
-108006: Delicious Teyvat Fried Egg
-108007: Suspicious Steak
-108008: Steak
-108009: Delicious Steak
-108010: Outrider's Champion Steak!
-108011: Suspicious Chicken-Mushroom Skewer
-108012: Chicken-Mushroom Skewer
-108013: Delicious Chicken-Mushroom Skewer
-108014: Fruity Skewers
-108015: Suspicious Flaming Red Bolognese
-108016: Flaming Red Bolognese
-108017: Delicious Flaming Red Bolognese
-108018: Mysterious Bolognese
-108019: Suspicious Radish Veggie Soup
-108020: Radish Veggie Soup
-108021: Delicious Radish Veggie Soup
-108022: Suspicious Tea Break Pancake
-108023: Tea Break Pancake
-108024: Delicious Tea Break Pancake
-108025: Suspicious Fried Radish Balls
-108026: Fried Radish Balls
-108027: Delicious Fried Radish Balls
-108028: Suspicious Satisfying Salad
-108029: Satisfying Salad
-108030: Delicious Satisfying Salad
-108031: Suspicious Sweet Madame
-108032: Sweet Madame
-108033: Delicious Sweet Madame
-108034: Suspicious Northern Smoked Chicken
-108035: Northern Smoked Chicken
-108036: Delicious Northern Smoked Chicken
-108037: Suspicious Cream Stew
-108038: Cream Stew
-108039: Delicious Cream Stew
-108040: Spicy Stew
-108041: Suspicious Mushroom Pizza
-108042: Mushroom Pizza
-108043: Delicious Mushroom Pizza
-108044: Invigorating Pizza
-108045: Suspicious Mondstadt Hash Brown
-108046: Mondstadt Hash Brown
-108047: Delicious Mondstadt Hash Brown
-108048: Puppy-Paw Hash Brown
-108049: Suspicious Calla Lily Seafood Soup
-108050: Calla Lily Seafood Soup
-108051: Delicious Calla Lily Seafood Soup
-108052: Suspicious Saut\u00e9ed Matsutake
-108053: Saut\u00e9ed Matsutake
-108054: Delicious Saut\u00e9ed Matsutake
-108055: Suspicious \Pile 'Em Up\
-108056: \Pile 'Em Up\
-108057: Delicious \Pile 'Em Up\
-108058: \Once Upon a Time in Mondstadt\
-108059: Suspicious Cold Cut Platter
-108060: Cold Cut Platter
-108061: Delicious Cold Cut Platter
-108062: Suspicious Sticky Honey Roast
-108063: Sticky Honey Roast
-108064: Delicious Sticky Honey Roast
-108065: Suspicious Crab, Ham & Veggie Bake
-108066: Crab, Ham & Veggie Bake
-108067: Delicious Crab, Ham & Veggie Bake
-108068: Suspicious Jade Parcels
-108069: Jade Parcels
-108070: Delicious Jade Parcels
-108071: Suspicious Zhongyuan Chop Suey
-108072: Zhongyuan Chop Suey
-108073: Delicious Zhongyuan Chop Suey
-108074: Suspicious Black-Back Perch Stew
-108075: Black-Back Perch Stew
-108076: Delicious Black-Back Perch Stew
-108077: Suspicious Squirrel Fish
-108078: Squirrel Fish
-108079: Delicious Squirrel Fish
-108080: Suspicious Almond Tofu
-108081: Almond Tofu
-108082: Delicious Almond Tofu
-108083: Suspicious Jueyun Chili Chicken
-108084: Jueyun Chili Chicken
-108085: Delicious Jueyun Chili Chicken
-108086: Suspicious Jewelry Soup
-108087: Jewelry Soup
-108088: Delicious Jewelry Soup
-108089: Suspicious Matsutake Meat Rolls
-108090: Matsutake Meat Rolls
-108091: Delicious Matsutake Meat Rolls
-108092: Suspicious Mora Meat
-108093: Mora Meat
-108094: Delicious Mora Meat
-108095: Suspicious Mondstadt Grilled Fish
-108096: Mondstadt Grilled Fish
-108097: Delicious Mondstadt Grilled Fish
-108098: Suspicious Stir-Fried Filet
-108099: Stir-Fried Filet
-108100: Delicious Stir-Fried Filet
-108101: Suspicious Golden Crab
-108102: Golden Crab
-108103: Delicious Golden Crab
-108104: Suspicious Crystal Shrimp
-108105: Crystal Shrimp
-108106: Delicious Crystal Shrimp
-108107: Suspicious Grilled Tiger Fish
-108108: Grilled Tiger Fish
-108109: Delicious Grilled Tiger Fish
-108110: Suspicious Barbatos Ratatouille
-108111: Barbatos Ratatouille
-108112: Delicious Barbatos Ratatouille
-108113: A Buoyant Breeze
-108114: Der Weisheit Letzter Schluss (Life)
-108115: Fish-Flavored Toast
-108116: Teyvat Charred Egg
-108117: Die Heilige Sinfonie
-108118: Lighter-Than-Air Pancake
-108119: Suspicious Lotus Seed and Bird Egg Soup
-108120: Lotus Seed and Bird Egg Soup
-108121: Delicious Lotus Seed and Bird Egg Soup
-108122: Suspicious Adeptus' Temptation
-108123: Adeptus' Temptation
-108124: Delicious Adeptus' Temptation
-108125: Suspicious Golden Shrimp Balls
-108126: Golden Shrimp Balls
-108127: Delicious Golden Shrimp Balls
-108128: Suspicious Qingce Stir Fry
-108129: Qingce Stir Fry
-108130: Delicious Qingce Stir Fry
-108131: Suspicious Come and Get It
-108132: Come and Get It
-108133: Delicious Come and Get It
-108134: Definitely Not Bar Food!
-108135: Wanmin Restaurant's Boiled Fish
-108136: All-Delicacy Parcels
-108137: \Sweet Dream\
-108138: Flash-Fried Filet
-108139: Qiankun Mora Meat
-108140: No Tomorrow
-108141: Suspicious Noodles with Mountain Delicacies
-108142: Noodles with Mountain Delicacies
-108143: Delicious Noodles with Mountain Delicacies
-108144: Cold Noodles with Mountain Delicacies
-108145: Survival Grilled Fish
-108146: Nutritious Meal (V.593)
-108147: Holy Water
-108148: Pop's Teas
-108149: Wolfhook Juice
-108150: Berry & Mint Burst
-108151: Apple Cider
-108152: Suspicious Bamboo Shoot Soup
-108153: Bamboo Shoot Soup
-108154: Delicious Bamboo Shoot Soup
-108155: Suspicious Triple-Layered Consomm\u00e9
-108156: Triple-Layered Consomm\u00e9
-108157: Delicious Triple-Layered Consomm\u00e9
-108158: Suspicious Tianshu Meat
-108159: Tianshu Meat
-108160: Delicious Tianshu Meat
-108161: Suspicious Lotus Flower Crisp
-108162: Lotus Flower Crisp
-108163: Delicious Lotus Flower Crisp
-108164: Suspicious Moon Pie
-108165: Moon Pie
-108166: Delicious Moon Pie
-108167: Suspicious Adventurer's Breakfast Sandwich
-108168: Adventurer's Breakfast Sandwich
-108169: Delicious Adventurer's Breakfast Sandwich
-108170: Suspicious Northern Apple Stew
-108171: Northern Apple Stew
-108172: Delicious Northern Apple Stew
-108173: Slow-Cooked Bamboo Shoot Soup
-108174: Rockin' Riffin' Chicken!
-108175: A Prize Catch
-108176: Suspicious Crab Roe Tofu
-108177: Crab Roe Tofu
-108178: Delicious Crab Roe Tofu
-108179: Suspicious Fullmoon Egg
-108180: Fullmoon Egg
-108181: Delicious Fullmoon Egg
-108182: Suspicious Cured Pork Dry Hotpot
-108183: Cured Pork Dry Hotpot
-108184: Delicious Cured Pork Dry Hotpot
-108185: Suspicious Stir-Fried Fish Noodles
-108186: Stir-Fried Fish Noodles
-108187: Delicious Stir-Fried Fish Noodles
-108188: Suspicious Vegetarian Abalone
-108189: Vegetarian Abalone
-108190: Delicious Vegetarian Abalone
-108191: Suspicious Stone Harbor Delicacies
-108192: Stone Harbor Delicacies
-108193: Delicious Stone Harbor Delicacies
-108194: Suspicious Stir-Fried Shrimp
-108195: Stir-Fried Shrimp
-108196: Delicious Stir-Fried Shrimp
-108197: Suspicious Rice Buns
-108198: Rice Buns
-108199: Delicious Rice Buns
-108200: Ghostly March
-108201: Suspicious Universal Peace
-108202: Universal Peace
-108203: Delicious Universal Peace
-108204: Suspicious Goulash
-108205: Goulash
-108206: Delicious Goulash
-108207: Suspicious Sunshine Sprat
-108208: Sunshine Sprat
-108209: Delicious Sunshine Sprat
-108210: Suspicious Jueyun Guoba
-108211: Jueyun Guoba
-108212: Delicious Jueyun Guoba
-108213: Prosperous Peace
-108214: Woodland Dream
-108215: Lantern Rite Special Grilled Tiger Fish
-108216: Lantern Rite Special Fried Radish Balls
-108217: Lantern Rite Special Lotus Seed and Bird Egg Soup
-108218: Lantern Rite Special Jewelry Soup
-108219: Lantern Rite Special Noodles with Mountain Delicacies
-108220: Lantern Rite Special Come and Get It
-108221: Lantern Rite Special Triple-Layered Consomm\u00e9
-108222: Suspicious Crispy Potato Shrimp Platter
-108223: Crispy Potato Shrimp Platter
-108224: Delicious Crispy Potato Shrimp Platter
-108225: Suspicious Mint Jelly
-108226: Mint Jelly
-108227: Delicious Mint Jelly
-108228: Suspicious Mint Salad
-108229: Mint Salad
-108230: Delicious Mint Salad
-108231: Suspicious Minty Meat Rolls
-108232: Minty Meat Rolls
-108233: Delicious Minty Meat Rolls
-108234: Dinner of Judgment
-108235: Suspicious Golden Fried Chicken
-108236: Golden Fried Chicken
-108237: Delicious Golden Fried Chicken
-108238: Suspicious Golden Chicken Burger
-108239: Golden Chicken Burger
-108240: Delicious Golden Chicken Burger
-108241: Suspicious Fragrant Mashed Potatoes
-108242: Fragrant Mashed Potatoes
-108243: Delicious Fragrant Mashed Potatoes
-108244: \My Way\
-108245: Stormcrest Pie
-108246: Suspicious Chicken Tofu Pudding
-108247: Chicken Tofu Pudding
-108248: Delicious Chicken Tofu Pudding
-108249: Suspicious Tuna Sushi
-108250: Tuna Sushi
-108251: Delicious Tuna Sushi
-108252: Suspicious Tricolor Dango
-108253: Tricolor Dango
-108254: Delicious Tricolor Dango
-108255: Suspicious Onigiri
-108256: Onigiri
-108257: Delicious Onigiri
-108258: Suspicious Sashimi Platter
-108259: Sashimi Platter
-108260: Delicious Sashimi Platter
-108261: Suspicious Tonkotsu Ramen
-108262: Tonkotsu Ramen
-108263: Delicious Tonkotsu Ramen
-108264: Suspicious Egg Roll
-108265: Egg Roll
-108266: Delicious Egg Roll
-108267: Suspicious Dry-Braised Salted Fish
-108268: Dry-Braised Salted Fish
-108269: Delicious Dry-Braised Salted Fish
-108270: Suspicious Butter Crab
-108271: Butter Crab
-108272: Delicious Butter Crab
-108273: Suspicious Tri-Flavored Skewer
-108274: Tri-Flavored Skewer
-108275: Delicious Tri-Flavored Skewer
-108276: Suspicious Miso Soup
-108277: Miso Soup
-108278: Delicious Miso Soup
-108279: Suspicious Imported Poultry
-108280: Imported Poultry
-108281: Delicious Imported Poultry
-108282: Suspicious Sakura Mochi
-108283: Sakura Mochi
-108284: Delicious Sakura Mochi
-108285: Suspicious Konda Cuisine
-108286: Konda Cuisine
-108287: Delicious Konda Cuisine
-108288: Suspicious Rice Cake Soup
-108289: Rice Cake Soup
-108290: Delicious Rice Cake Soup
-108291: Suspicious Mixed Yakisoba
-108292: Mixed Yakisoba
-108293: Delicious Mixed Yakisoba
-108294: Suspicious Crab Roe Kourayaki
-108295: Crab Roe Kourayaki
-108296: Delicious Crab Roe Kourayaki
-108297: Suspicious Sakura Tempura
-108298: Sakura Tempura
-108299: Delicious Sakura Tempura
-108300: \Snow on the Hearth\
-108301: All-Weather Beauty
-108302: Summer Festival Fish
-108303: Dizziness-Be-Gone no Jutsu Version 2.0
-108304: Special Mushroom Pizza
-108305: Dango Milk
-108306: Suspicious Rice Pudding
-108307: Rice Pudding
-108308: Delicious Rice Pudding
-108309: Suspicious Braised Meat
-108310: Braised Meat
-108311: Delicious Braised Meat
-108312: Suspicious Oncidium Tofu
-108313: Oncidium Tofu
-108314: Delicious Oncidium Tofu
-108315: Suspicious Chili-Mince Cornbread Buns
-108316: Chili-Mince Cornbread Buns
-108317: Delicious Chili-Mince Cornbread Buns
-108318: Suspicious Invigorating Kitty Meal
-108319: Invigorating Kitty Meal
-108320: Delicious Invigorating Kitty Meal
-108321: Suspicious Sweet Shrimp Sushi
-108322: Sweet Shrimp Sushi
-108323: Delicious Sweet Shrimp Sushi
-108324: Suspicious Bird Egg Sushi
-108325: Bird Egg Sushi
-108326: Delicious Bird Egg Sushi
-108327: Suspicious Omelette Rice
-108328: Omelette Rice
-108329: Delicious Omelette Rice
-108330: Suspicious Taiyaki
-108331: Taiyaki
-108332: Delicious Taiyaki
-108333: Suspicious More-and-More
-108334: More-and-More
-108335: Delicious More-and-More
-108336: Suspicious Grilled Unagi Fillet
-108337: Grilled Unagi Fillet
-108338: Delicious Grilled Unagi Fillet
-108339: Satiety Gel
-108340: A Stunning Stratagem
-108341: Faith Eternal
-108342: Suspicious Radish and Fish Stew
-108343: Radish and Fish Stew
-108344: Delicious Radish and Fish Stew
-108345: Suspicious Wakatakeni
-108346: Wakatakeni
-108347: Delicious Wakatakeni
-108348: Suspicious Berry Mizu Manjuu
-108349: Berry Mizu Manjuu
-108350: Delicious Berry Mizu Manjuu
-108351: Suspicious Soba Noodles
-108352: Soba Noodles
-108353: Delicious Soba Noodles
-108354: \Warmth\
-108355: Suspicious Unagi Chazuke
-108356: Unagi Chazuke
-108357: Delicious Unagi Chazuke
-108358: Suspicious Five Pickled Treasures
-108359: Five Pickled Treasures
-108360: Delicious Five Pickled Treasures
-108361: Suspicious Sakura Shrimp Crackers
-108362: Sakura Shrimp Crackers
-108363: Delicious Sakura Shrimp Crackers
-108364: Way of the Strong
-108365: Victorious Legend
-108366: Suspicious Bountiful Year
-108367: Bountiful Year
-108368: Delicious Bountiful Year
-108369: Suspicious Dragon Beard Noodles
-108370: Dragon Beard Noodles
-108371: Delicious Dragon Beard Noodles
-108372: Heartstring Noodles
-108373: Cloud-Shrouded Jade
-108374: Suspicious Sangayaki
-108375: Sangayaki
-108376: Delicious Sangayaki
-108377: Suspicious Udon Noodles
-108378: Udon Noodles
-108379: Delicious Udon Noodles
-108380: Fukuuchi Udon
-108381: Suspicious Katsu Sandwich
-108382: Katsu Sandwich
-108383: Delicious Katsu Sandwich
-108384: Suspicious Rainbow Aster
-108385: Rainbow Aster
-108386: Delicious Rainbow Aster
-108387: Quiet Elegance
-109000: Recipe Item
-109101: Recipe: Chicken-Mushroom Skewer
-109102: Recipe: Fisherman's Toast
-109103: Recipe: Flaming Red Bolognese
-109104: Recipe: Sweet Madame
-109106: Recipe: Calla Lily Seafood Soup
-109107: Recipe: Saut\u00e9ed Matsutake
-109201: Recipe: Teyvat Fried Egg
-109202: Recipe: Northern Smoked Chicken
-109203: Recipe: Cream Stew
-109204: Recipe: Cold Cut Platter
-109205: Recipe: Sticky Honey Roast
-109206: Recipe: Crab, Ham & Veggie Bake
-109207: Recipe: Mushroom Pizza
-109301: Recipe: Steak
-109302: Recipe: Radish Veggie Soup
-109303: Recipe: Mondstadt Hash Brown
-109304: Recipe: \Pile 'Em Up\
-109401: Recipe: Tea Break Pancake
-109402: Recipe: Fried Radish Balls
-109403: Recipe: Satisfying Salad
-109404: Recipe: Jade Parcels
-109405: Recipe: Mondstadt Grilled Fish
-109406: Recipe: Mora Meat
-109407: Recipe: Stir-Fried Filet
-109408: Recipe: Almond Tofu
-109409: Recipe: Jueyun Chili Chicken
-109410: Recipe: Jewelry Soup
-109411: Recipe: Matsutake Meat Rolls
-109412: Recipe: Zhongyuan Chop Suey
-109413: Recipe: Black-Back Perch Stew
-109414: Recipe: Squirrel Fish
-109415: Recipe: Golden Crab
-109416: Recipe: Crystal Shrimp
-109417: Recipe: Grilled Tiger Fish
-109418: Recipe: Barbatos Ratatouille
-109419: Recipe: Lotus Seed and Bird Egg Soup
-109420: Recipe: Adeptus' Temptation
-109421: Recipe: Golden Shrimp Balls
-109422: Recipe: Qingce Stir Fry
-109423: Recipe: Come and Get It
-109424: Recipe: Noodles with Mountain Delicacies
-109425: Recipe: Bamboo Shoot Soup
-109426: Recipe: Triple-Layered Consomm\u00e9
-109427: Recipe: Tianshu Meat
-109428: Recipe: Lotus Flower Crisp
-109429: Recipe: Moon Pie
-109430: Recipe: Adventurer's Breakfast Sandwich
-109431: Recipe: Northern Apple Stew
-109432: Recipe: Crab Roe Tofu
-109433: Recipe: Fullmoon Egg
-109434: Recipe: Cured Pork Dry Hotpot
-109435: Recipe: Stir-Fried Fish Noodles
-109436: Recipe:Vegetarian Abalone
-109437: Recipe: Stone Harbor Delicacies
-109438: Recipe: Stir-Fried Shrimp
-109439: Recipe: Rice Buns
-109440: Recipe: Goulash
-109441: Recipe: Sunshine Sprat
-109442: Recipe: Universal Peace
-109443: Recipe: Jueyun Guoba
-109444: Recipe: Crispy Potato Shrimp Platter
-109445: Recipe: Mint Jelly
-109446: Recipe: Mint Salad
-109447: Recipe: Minty Meat Rolls
-109448: Recipe: Golden Fried Chicken
-109449: Recipe: Golden Chicken Burger
-109450: Recipe: Fragrant Mashed Potatoes
-109451: Recipe: Chicken Tofu Pudding
-109452: Recipe: Tuna Sushi
-109453: Recipe: Tricolor Dango
-109454: Recipe: Onigiri
-109455: Recipe: Sashimi Platter
-109456: Recipe: Tonkotsu Ramen
-109457: Recipe: Egg Roll
-109458: Recipe: Dry-Braised Salted Fish
-109459: Recipe: Butter Crab
-109460: Recipe: Tri-Flavored Skewer
-109461: Recipe: Miso Soup
-109462: Recipe: Imported Poultry
-109463: Recipe: Sakura Mochi
-109464: Recipe: Konda Cuisine
-109465: Recipe: Rice Cake Soup
-109466: Recipe: Mixed Yakisoba
-109467: Recipe: Crab Roe Kourayaki
-109468: Recipe: Sakura Tempura
-109469: Recipe: Rice Pudding
-109470: Recipe: Braised Meat
-109471: Recipe: Oncidium Tofu
-109472: Recipe: Chili-Mince Cornbread Buns
-109473: Recipe: Invigorating Kitty Meal
-109474: Recipe: Sweet Shrimp Sushi
-109475: Recipe: Bird Egg Sushi
-109476: Recipe: Omelette Rice
-109477: Recipe: Taiyaki
-109478: Recipe: More-and-More
-109479: Recipe: Grilled Unagi Fillet
-109480: Recipe: Radish and Fish Stew
-109481: Recipe: Wakatakeni
-109482: Recipe: Berry Mizu Manjuu
-109483: Recipe: Soba Noodles
-109484: Recipe: Unagi Chazuke
-109485: Recipe: Five Pickled Treasures
-109486: Recipe: Sakura Shrimp Crackers
-109487: Recipe: Bountiful Year
-109488: Recipe: Dragon Beard Noodles
-109489: Recipe: Sangayaki
-109490: Recipe: Udon Noodles
-109491: Recipe: Katsu Sandwich
-109492: Recipe: Rainbow Aster
-110000: Crafted Items
-110001: Flour
-110002: Cream
-110003: Smoked Fowl
-110004: Butter
-110005: Ham
-110006: Sugar
-110008: Jam
-110009: Cheese
-110010: Bacon
-110011: Sausage
-110012: Smoked Fish
-110013: Dried Fish
-111006: Heatshield Potion
-111007: Desiccant Potion
-111008: Frostshield Potion
-111009: Windbarrier Potion
-111010: Insulation Potion
-111011: Dustproof Potion
-111012: Dendrocide Potion
-111013: Flaming Essential Oil
-111014: Streaming Essential Oil
-111015: Frosting Essential Oil
-111016: Gushing Essential Oil
-111017: Shocking Essential Oil
-111018: Unmoving Essential Oil
-111019: Forest Essential Oil
-111020: Small Pretty Crystal
-111021: Medium Pretty Crystal
-111022: Big Pretty Crystal
-111023: Fruit Paste Bait
-111024: Redrot Bait
-111025: False Worm Bait
-111026: Fake Fly Bait
-111027: Glowgrass Bait
-112001: Primordial Essence
-112002: Slime Condensate
-112003: Slime Secretions
-112004: Slime Concentrate
-112005: Damaged Mask
-112006: Stained Mask
-112007: Ominous Mask
-112008: Divining Scroll
-112009: Sealed Scroll
-112010: Forbidden Curse Scroll
-112011: Firm Arrowhead
-112012: Sharp Arrowhead
-112013: Weathered Arrowhead
-112014: Heavy Horn
-112015: Black Bronze Horn
-112016: Black Crystal Horn
-112017: Gloomy Statuette
-112018: Dark Statuette
-112019: Deathly Statuette
-112020: Dead Ley Line Branch
-112021: Dead Ley Line Leaves
-112022: Ley Line Sprout
-112023: Chaos Device
-112024: Chaos Circuit
-112025: Chaos Core
-112026: Mist Grass Pollen
-112027: Mist Grass
-112028: Mist Grass Wick
-112029: Hunter's Sacrificial Knife
-112030: Agent's Sacrificial Knife
-112031: Inspector's Sacrificial Knife
-112032: Recruit's Insignia
-112033: Sergeant's Insignia
-112034: Lieutenant's Insignia
-112035: Treasure Hoarder Insignia
-112036: Silver Raven Insignia
-112037: Golden Raven Insignia
-112038: Whopperflower Nectar
-112039: Shimmering Nectar
-112040: Energy Nectar
-112041: Fragile Bone Shard
-112042: Sturdy Bone Shard
-112043: Fossilized Bone Shard
-112044: Old Handguard
-112045: Kageuchi Handguard
-112046: Famed Handguard
-112047: Chaos Gear
-112048: Chaos Axis
-112049: Chaos Oculus
-112050: Dismal Prism
-112051: Crystal Prism
-112052: Polarizing Prism
-112053: Spectral Husk
-112054: Spectral Heart
-112055: Spectral Nucleus
-112056: Concealed Claw
-112057: Concealed Unguis
-112058: Concealed Talon
-112059: Fungal Spores
-112060: Luminescent Pollen
-112061: Crystalline Cyst Dust
-113001: Hurricane Seed
-113002: Lightning Prism
-113003: Dvalin's Plume
-113004: Dvalin's Claw
-113005: Dvalin's Sigh
-113006: Tail of Boreas
-113007: Ring of Boreas
-113008: Spirit Locket of Boreas
-113009: Basalt Pillar
-113010: Hoarfrost Core
-113011: Everflame Seed
-113012: Cleansing Heart
-113013: Tusk of Monoceros Caeli
-113014: Shard of a Foul Legacy
-113015: Shadow of the Warrior
-113016: Juvenile Jade
-113017: Dragon Lord's Crown
-113018: Bloodjade Branch
-113019: Gilded Scale
-113020: Crystalline Bloom
-113021: Dream Solvent
-113022: Marionette Core
-113023: Perpetual Heart
-113024: Smoldering Pearl
-113025: Molten Moment
-113026: Hellfire Butterfly
-113027: Ashen Heart
-113028: Dew of Repudiation
-113029: Storm Beads
-113030: Riftborn Regalia
-113031: Dragonheir's False Fin
-113032: Mudra of the Malefic General
-113033: Tears of the Calamitous God
-113034: The Meaning of Aeons
-113035: Runic Fang
-114001: Tile of Decarabian's Tower
-114002: Debris of Decarabian's City
-114003: Fragment of Decarabian's Epic
-114004: Scattered Piece of Decarabian's Dream
-114005: Boreal Wolf's Milk Tooth
-114006: Boreal Wolf's Cracked Tooth
-114007: Boreal Wolf's Broken Fang
-114008: Boreal Wolf's Nostalgia
-114009: Fetters of the Dandelion Gladiator
-114010: Chains of the Dandelion Gladiator
-114011: Shackles of the Dandelion Gladiator
-114012: Dream of the Dandelion Gladiator
-114013: Luminous Sands from Guyun
-114014: Lustrous Stone from Guyun
-114015: Relic from Guyun
-114016: Divine Body from Guyun
-114017: Mist Veiled Lead Elixir
-114018: Mist Veiled Mercury Elixir
-114019: Mist Veiled Gold Elixir
-114020: Mist Veiled Primo Elixir
-114021: Grain of Aerosiderite
-114022: Piece of Aerosiderite
-114023: Bit of Aerosiderite
-114024: Chunk of Aerosiderite
-114025: Coral Branch of a Distant Sea
-114026: Jeweled Branch of a Distant Sea
-114027: Jade Branch of a Distant Sea
-114028: Golden Branch of a Distant Sea
-114029: Narukami's Wisdom
-114030: Narukami's Joy
-114031: Narukami's Affection
-114032: Narukami's Valor
-114033: Mask of the Wicked Lieutenant
-114034: Mask of the Tiger's Bite
-114035: Mask of the One-Horned
-114036: Mask of the Kijin
-115001: 
-115002: 
-115003: 
-115004: 
-115005: 
-115006: 
-115007: 
-115008: 
-115009: 
-115010: Starter Supply Bundle
-115011: Wayfarer's Supply Bundle
-115012: Traveler's Supply Bundle
-115013: Exotic Share Bundle
-115014: Character Ascension Bundle (High)
-115015: Character Ascension Bundle (Very High)
-115016: Talent Materials Bundle (Low)
-115017: Virtuous Share Bundle
-115018: Talent Materials Bundle (High)
-115019: Adventurer's Supply Bundle
-115020: Adventurer's Ore Bundle
-115021: Adventurer's Special Bundle
-115022: Adventurer's Instructional Bundle
-115023: Adventurer's Tempering Bundle
-115024: Material Share Bundle
-115025: Eminent Share Bundle
-115026: Weapon Ascension Bundle (High)
-115027: Weapon Ascension Bundle (Very High)
-115028: Recipe Collection: Exotic Gourmet
-115029: Adventurer's Jumbo Ore Bundle
-115030: Adventurer's Special Supply Bundle
-115031: Northlander Billet Trove
-115032: Adventurer's Share Bundle
-115034: Adventurer's Seasonal Special Bundle
-115035: Sakuya's Special Gardening Package
-115037: Yashiro Commission Gift
-115038: Exquisite Gift (Furnishing)
-115039: Amazing Gift (Furnishing)
-116001: BEP
-116002: BP Bounty
-116003: BP Pick 1 of 3 Test Bundle
-116004: Guidance of the Land of Wind
-116005: Philosophies of the Land of Wind
-116006: Guidance of the Land of Geo
-116007: Philosophies of the Land of Geo
-116008: 
-116009: 
-116010: Guidance of the Land of Thunder
-116011: Philosophies of the Land of Thunder
-117001: Domain Reliquary: Tier III
-117002: Domain Reliquary: Tier II
-117003: Domain Reliquary: Tier I
-117004: Reliquary: Wanderer's Troupe and Gladiator
-117005: Grand Reliquary: Wanderer's Troupe and Gladiator
-117006: Domain Reliquary: Tier II
-117007: Domain Reliquary: Tier I
-118001: Cake for Traveler
-118002: Cake for Traveler
-118003: Cake for Traveler
-118004: Cake for Traveler
-130001: Silk Flower Seed
-130002: Sweet Flower Seed
-130003: Cecilia Seed
-130004: Glaze Lily Seed
-130005: Windwheel Aster Seed
-130006: Qingxin Seed
-130007: Violetgrass Seed
-130008: Valberry Seed
-130009: Small Lamp Grass Seed
-130010: Jueyun Chili Seed
-130011: Carrot Seed
-130012: Radish Seed
-130013: Mint Seed
-130014: Mushroom Spore
-130015: Naku Weed Seed
-130016: Horsetail Seed
-130017: Snapdragon Seed
-130018: Lotus Seed
-130019: Calla Lily Seed
-130020: Seagrass Seed
-130021: Sea Ganoderma Cutting
-130022: Dreambloom: Star Hibiscus Seed
-130023: Dreambloom: Pearbell Seed
-130024: Dreambloom: Silkpod Seed
-131000: Medaka
-131001: Glaze Medaka
-131002: Sweet-Flower Medaka
-131003: Aizen Medaka
-131004: Dawncatcher
-131005: Crystalfish
-131006: Lunged Stickleback
-131007: Betta
-131008: Venomspine Fish
-131009: Akai Maou
-131010: Snowstrider
-131011: Golden Koi
-131012: Rusty Koi
-131013: Brown Shirakodai
-131014: Purple Shirakodai
-131015: Tea-Colored Shirakodai
-131016: Abiding Angelfish
-131017: Raimei Angelfish
-131019: Pufferfish
-131020: Bitter Pufferfish
-131021: Divda Ray
-131022: Formalo Ray
-140001: Wings of First Flight
-140002: Wings of Companionship
-140003: Wings of Descension
-140004: Wings of Azure Wind
-140005: Wings of Golden Flight
-140006: Wings of Concealing Snow
-140007: Wings of Feasting
-140008: Wings of the Stormstrider
-140009: Wings of Shimmering Galaxy
-141001: Radiant Spincrystal 1
-141002: Radiant Spincrystal 2
-141003: Radiant Spincrystal 3
-141004: Radiant Spincrystal 4
-141005: Radiant Spincrystal 5
-141006: Radiant Spincrystal 6
-141007: Radiant Spincrystal 7
-141008: Radiant Spincrystal 8
-141009: Radiant Spincrystal 9
-141010: Radiant Spincrystal 10
-141011: Radiant Spincrystal 11
-141012: Radiant Spincrystal 12
-141013: Radiant Spincrystal 13
-141014: Radiant Spincrystal 14
-141015: Radiant Spincrystal 15
-141016: Radiant Spincrystal 16
-141017: Radiant Spincrystal 17
-141018: Radiant Spincrystal 18
-141019: Radiant Spincrystal 19
-141020: Radiant Spincrystal 20
-141021: Radiant Spincrystal 21
-141022: Radiant Spincrystal 22
-141023: Radiant Spincrystal 23
-141024: Radiant Spincrystal 24
-141025: Radiant Spincrystal 25
-141026: Radiant Spincrystal 26
-141027: Radiant Spincrystal 27
-141028: Radiant Spincrystal 28
-141029: Radiant Spincrystal 29
-141030: Radiant Spincrystal 30
-141031: Radiant Spincrystal 31
-141032: Radiant Spincrystal 32
-141033: Radiant Spincrystal 33
-141034: Radiant Spincrystal 34
-141035: Radiant Spincrystal 35
-141036: Radiant Spincrystal 36
-141037: Radiant Spincrystal 37
-141038: Radiant Spincrystal 38
-141039: Radiant Spincrystal 39
-141040: Radiant Spincrystal 40
-141041: Radiant Spincrystal 41
-141042: Radiant Spincrystal 42
-141043: Radiant Spincrystal 43
-141044: Radiant Spincrystal 44
-141045: Radiant Spincrystal 45
-141046: Radiant Spincrystal 46
-141047: Radiant Spincrystal 47
-141048: Radiant Spincrystal 48
-141049: Radiant Spincrystal 49
-141050: Radiant Spincrystal 50
-141051: Radiant Spincrystal 51
-141052: Radiant Spincrystal 52
-141053: Radiant Spincrystal 53
-141054: Radiant Spincrystal 54
-141055: Radiant Spincrystal 55
-141056: Radiant Spincrystal 56
-141057: Radiant Spincrystal 57
-141058: Radiant Spincrystal 58
-141059: Radiant Spincrystal 59
-141060: Radiant Spincrystal 60
-141061: Radiant Spincrystal 61
-141062: Radiant Spincrystal 62
-141063: Radiant Spincrystal 63
-141064: Radiant Spincrystal 64
-141065: Radiant Spincrystal 65
-141066: Radiant Spincrystal 66
-141067: Radiant Spincrystal 67
-141068: Radiant Spincrystal 68
-141069: Radiant Spincrystal 69
-141070: Radiant Spincrystal 70
-141071: Radiant Spincrystal 71
-141072: Radiant Spincrystal 72
-200001: Lantern Fiber
-200002: Wick Material
-200003: Plaustrite Shard
-200004: Xiao Lantern
-200101: Rime-Worn Fragment
-200102: Rime-Worn Crystal
-200103: Festering Dragon Marrow
-200104: \The Visible Winds\
-200105: \Fragments of Innocence\
-200106: Emperor's Balsam
-200107: Ako's Sake Vessel
-200108: Alkahest
-200109: Ointment of Sight
-200201: Falcon's Dance
-200202: Steelwing
-200203: Galespring
-200204: Crushing Blow
-200205: Hunter's Romp
-200206: Ironbow
-200207: Whirlpool
-200208: Fierce Strike
-200209: Featherweight
-200210: Blade Dance
-200211: Courageous
-200212: Emboldened
-200213: Song of Steel
-200214: Intertwined Steps
-200215: Ritual
-200216: War Breeds War
-200217: Burst Damage
-200218: Endless Waltz
-200219: Refined Burst
-200220: Charge Up
-200221: Overcharge
-200222: Thundering Dance
-200223: Timely Rain
-200224: Overmastered
-200225: Scattersleet Dance
-200226: Frostbite
-200227: Keen Edge
-200228: Starcrystal Dance
-200229: Refraction Crystals
-200230: Focusing Crystals
-200231: Iron Wall
-200232: Duelist's Dance
-200233: Coalesced Defenses
-200234: Enhanced Healing
-200235: Execution
-200236: Judgment
-200237: Challenger
-200238: Fractured Fruit Bit
-200239: Fractured Fruit Fragment
-200240: Fractured Fruit Shard
-200241: Duelist's Dance
-200242: Blade Dance
-200243: Starcrystal Dance
-200244: Intertwined Steps
-200245: Endless Waltz
-200246: Refraction Crystals
-200247: Emboldened
-200248: Courageous
-200249: Whirlpool
-200250: Challenger
-200251: Execution
-200252: Focusing Crystals
-200253: Refined Burst
-200254: Judgment
-200255: Keen Edge
-200256: Burst Damage
-200257: Overmastered
-200258: Iron Wall
-200259: Song of Steel
-200260: Fierce Strike
-200261: Dance of Abundance
-200262: Conductivity
-200900: Wilderness Rod
-200901: Windtangler
-200902: Wishmaker
-200903: Narukawa Ukai
-200904: Moonstringer
-210001: Genshin Impact: A New World
-210002: Travel Notes: Catch the Wind
-210003: Amber: Bunny
-210004: Klee: Explosive
-210005: Diluc: Flames
-210006: Razor: Wolvensprint
-210007: Venti: Azure Sky
-210008: Jean: The Winds' Course
-210009: Barbara: Flow
-210010: Kaeya: Pavo Ocellus
-210011: Lisa: Tempus Fugit
-210012: Sucrose: Bio-Alchemy
-210013: Fischl: Night Raven
-210014: Noelle: Protector
-210015: Mona: Starry Sky
-210016: Bennett: Recognition
-210017: Xiangling: Fresh from the Pan
-210018: Xingqiu: Rainbow
-210019: Qiqi: Cold Storage
-210020: Keqing: Lightning Stiletto
-210021: Achievement: Explorer
-210022: Achievement: Virtuoso
-210023: Achievement: Hero
-210024: Mondstadt: Whistling Wind
-210025: Liyue: Stillness of Stone
-210026: Achievement: Colors of the Rainbow
-210027: Achievement: Bowmaster
-210028: Achievement: Challenger
-210029: Achievement: Deep & Dark
-210030: Achievement: Hill Dwellers
-210031: Achievement: Snowy Land
-210032: Achievement: Cliffhanger
-210033: Achievement: Reunion
-210038: Ningguang: Phoenix
-210039: Beidou: Weighing Anchor
-210040: Chongyun: Spirit Blade
-210041: Achievement: Challenger II
-210042: Travel Notes: Fading Star
-210043: Diona: Meow!
-210044: Zhongli: Planet Befall
-210045: Xinyan: Song's End
-210046: Childe: Foul Legacy
-210047: Mondstadt: Hero's Fame
-210048: Mondstadt: Blessing
-210049: Liyue: A Thousand Ships
-210050: Liyue: In the Clouds
-210051: Achievement: Challenger III
-210052: Achievement: Snowy Summit
-210053: Ganyu: Qilin
-210054: Albedo: Sun Blossom
-210055: Travel Notes: Chalk
-210056: Frostbearing: Ancient Tree
-210057: Celebration: Hypostasis
-210058: Xiao: Mask
-210059: Hu Tao: Spirit Soother
-210060: Travel Notes: Mingxiao
-210061: Celebration: Lantern-Light
-210062: Celebration: Mechanicus
-210063: Rosaria: Indenture
-210064: Travel Notes: Windblume
-210065: Celebration: Feast
-210066: Celebration: Shining Scale
-210067: Celebration: Fruit of Wisdom
-210068: Celebration: Peekaboo!
-210069: Yanfei: Impartial
-210070: Eula: Ice-Sealed
-210071: Travel Notes: Sub-Space Recreation
-210072: Achievement: Tea Time
-210073: Kaedehara Kazuha: Autumn Maple-Viewing
-210074: Travel Notes: Midsummer
-210075: Achievement: Vacation Home
-210076: Celebration: Vastness
-210077: Celebration: Kaboomball
-210078: Celebration: Battlesong
-210079: Inazuma: Sacred Sakura
-210080: Travel Notes: Grand Narukami Shrine
-210081: Kamisato Ayaka: Folding Fan
-210082: Yoimiya: Auratus Spark
-210083: Sayu: Muji-Muji Daruma
-210084: Inazuma: Raiden Emblem
-210085: Inazuma: Kamisato Crest
-210086: Achievement: Gate
-210087: Achievement: Traversal
-210088: Achievement: Stone Dragon
-210089: Achievement: Full Bloom
-210090: Inazuma: Kujou Insignia
-210091: Celebration: Wondrous Calculation
-210092: Raiden Shogun: Enlightenment
-210093: Sangonomiya Kokomi: The Deep
-210094: Kujou Sara: Tengu
-210095: Aloy: Dawn
-210096: Travel Notes: Moonchaser
-210097: Inazuma: Sangonomiya Crest
-210098: Achievement: Nails
-210099: Celebration: Tuneful Delight
-210100: Celebration: Ikki
-210101: Thoma: Blazing Guard
-210102: Travel Notes: Heavenly General
-210103: Inazuma: Eagleplume
-210104: Gorou: Leisurely Hound
-210105: Itto: Oni Face
-210106: Travel Notes: Lyratum
-210107: Shenhe: Comb
-210108: Yun Jin: Rhyme
-210109: Inazuma: Tokoyo
-210110: Travel Notes: Flowing Hues
-210111: Celebration: Binge Vessel
-210112: Yae Miko: Kitsune Dreaming
-210113: Travel Notes: Awakening
-210114: Kamisato Ayato: Ripple
-210115: Lumens: Stone of Light
-210116: Achievement: Thunderclap
-210117: Achievement: Chasm
-210118: Travel Notes: Irodori
-220001: Anemoculus Resonance Stone
-220002: Geoculus Resonance Stone
-220003: Geo Treasure Compass
-220004: Wind Catcher
-220005: Portable Waypoint
-220006: Adepti Seeker's Stove
-220007: Condensed Resin
-220008: NRE (Menu 30)
-220009: Anemo Treasure Compass
-220013: Treasure-Seeking Seelie
-220014: Mini Seelie: Dayflower
-220015: Mini Seelie: Ros\u00e9
-220016: Mini Seelie: Curcuma
-220017: Warming Bottle
-220018: Kamera
-220019: Kurious Kamera
-220020: Special Kamera
-220021: Parametric Transformer
-220022: Inquisitive Endora
-220023: Endora
-220024: Windblume Festival Commemorative Balloon
-220025: Windsong Lyre
-220026: Serenitea Pot
-220027: Wind-Blessed Harpastum
-220028: Waverider Repair Toolbox
-220029: Straight Shooter
-220030: Floaty Splody
-220031: Hot Pod
-220032: Electroculus Resonance Stone
-220033: Seed Dispensary
-220034: Electro Treasure Compass
-220035: Red Feather Fan
-220036: Memento Lens
-220037: Treasure-Seeking Seelie
-220038: Mini Seelie: Viola
-220039: Peculiar Pinion
-220040: Peculiar Pinion
-220041: ???
-220042: Ayesha's Chaos Prospector
-220043: Omni-Ubiquity Net
-220044: Floral Zither
-220045: Shiki Koshou
-220046: Ubiquity Net
-220047: Launch Tube
-220048: Lumenstone Adjuvant
-220049: Bokuso Box
-220050: 
-221001: Instructions: Anemoculus Resonance Stone
-221002: Instructions: Geoculus Resonance Stone
-221003: Diagram: Geo Treasure Compass
-221004: Diagram: Wind Catcher
-221005: Instructions: Portable Waypoint
-221006: Diagram: Adepti Seeker's Stove
-221007: Instructions: Condensed Resin
-221008: Diagram: NRE (Menu 30)
-221009: Diagram: Anemo Treasure Compass
-221010: Memory of the Entombed City
-221011: Memory of the Frostbearing Tree
-221012: Diagram: Dragonspine Spear
-221013: Saimon Heirloom Blade Diagram
-221014: Diagram: Katsuragikiri Nagamasa
-221015: Diagram: Kitain Cross Spear
-221016: Diagram: Hamayumi
-221017: Diagram: Warming Bottle
-221018: Mask of Memories
-221032: Instructions: Electroculus Resonance Stone
-221034: Diagram: Electro Treasure Compass
-221035: Formula: Fruit Paste Bait
-221036: Formula: Redrot Bait
-221037: Formula: False Worm Bait
-221038: Formula: Fake Fly Bait
-222001: Silken Print
-223001: The Mountain Clouds Let Down Golden Rain
-223002: The Silver Night is Full of Stars
-223003: The Gloom Paints the Cold Blooms
-223004: Fireworks Dance Amidst a Snowy Sky
-223005: Golden Calendula Swirl
-223006: Kindled Trees by the Moonlit Window
-223007: Mischievous Villosas
-223008: Sparkly Shiny Dodoco!
-223009: Fame and Fortune For a Season
-223010: Unyielding Spirit
-223011: Festival Spotlight
-223012: Wanmin Feast
-340000: Summertime Sparkle
-340001: Sea Breeze Dandelion
-340002: Orchid's Evening Gown
-340003: Opulent Splendor
-340006: Gunnhildr's Legacy
-340007: 100% Outrider
-340008: Pact of Stars and Moon
-340009: To the Church's Free Spirit
-350001: Adventurer Camp
-350002: Frontier Life
-350003: Rocks & Plants
-350004: Plain Liyue Bedroom
-350005: Corner of the Teahouse
-350006: Suburbia Lighting
-350007: Table & Chairs
-350008: Busy Kitchen
-350009: Tea Talk
-350010: Book Lover's Study
-350011: Fully Furnished Mondstadt Bedroom
-350012: Meeting Room of the \Strategic Six\
-350013: Wine o' Clock
-350014: Merchant's Working Lunch
-350015: Parlor Cordiality
-350016: Well-Equipped Study
-350017: Hermit's Hut
-350018: Hamlet House
-350019: Harvest Season Stall
-350020: Fruit & Veg Market
-350021: Training Ground
-350022: Arms Factory
-350023: Cargo Transfer Station
-350024: Festival Market
-350025: Thoroughfare Entrance: Evil Banisher
-350026: Ever-Popular Eatery
-350027: Rural Water Source
-350028: Lone and Cautious Adventurer
-350029: Climate Crossover
-350030: Dialogue Twixt Ancient Tree and Rock
-350033: Amidst Poetic Pondering
-350034: Amidst Whispering Winds
-350035: Feiyun Study Room
-350036: Cloudy Haze Dream-Court
-350037: Secret Research Lab
-350038: Cottage Kitchen
-350039: Weapon Forging Station
-350040: Idyllic Town
-350041: Bird and Blossom Park
-350042: Gathering of Gourmets
-350043: Glittering Street
-350044: Qingce Cloud Residence
-350045: Of Hunting and Dancing
-350046: Iter Ad Astra Abyssosque
-350047: Dawn Orchard
-350048: Court of the Upright
-350049: Wakeful Spring
-350050: Rural Concealment
-350051: Ancient Branch Shrine
-350052: Military Exercise Grounds
-350053: Jade Wilds
-350054: Summer Night's Recollection
-350055: Sakura-Hued Street
-350056: Eternal Domain of Fleeting Dreams
-350057: A Thousand Swings
-350058: Scholarly Trove
-350059: Of Maple and Tea Scents Entwined
-380101: Timber Wall With Jade Eaves
-380102: Dark Wood Arch Wall
-380103: Maple Wood Vaulted Wall
-380201: Traditional Cedar Flooring
-380202: Colorful Checkered Tile
-380203: Brown Maple Flooring
-380301: Checkered Cedar Ceiling
-380302: Dark Checkered Ceiling
-380303: Maple Wood Square Ceiling
-380401: Two-Tier Candle Chandelier
-380402: Eight-Sided Lantern: Lucky Day
-380403: Six-Sided Lantern: Harmony in Friendship
-380404: \Night of the Party Pumpkins\
-380405: Embroidered Lantern: Lofty Grandeur
-380406: Tasseled Lantern: Deck the Streets
-380407: Teahouse Candlestand: Scentless Flame
-380408: Teahouse Lamp: Light Concealed
-380409: Maple Wood Lamp: Light Fragrance
-380410: Maple Wood Floor Lamp: Clarity
-380411: Court Lantern: Lingering Majesty
-380412: Court Lantern: Red Moon of Yore
-380413: Court Lantern: Thundering Heart
-380414: Maple Wood Chandelier: Illume
-380415: Blooming Candle: Pure as a Lotus
-380416: Rainbow Lights: At Dawn We Celebrate
-381101: Northern Birch Folding Counter
-381102: Open-Top Fir Shelf
-381103: Fir Case Shelf Combination
-381104: Classic Fir Cabinet
-381105: Large Birch Wardrobe
-381106: Gold-Lined Sandbearer Wardrobe
-381201: Two-Tier Library Bookshelf
-381202: Exquisite Cuihua Bookshelf
-381203: Economy Cuihua Bookshelf
-381204: \Lost Between the Pages of a Book\
-381205: \Archivist's Treasure Trove\
-381206: Red Cedar Scroll Shelf
-381207: Red Cedar Curio Stand
-381208: Shopkeeper's Cedar Shelf
-381209: Maple Wood Bookcase: Inkheart
-381210: Maple Wood Bookcase: Trove of a Thousand Tomes
-381301: Sturdy Library Table
-381302: Favonius Office Table
-381303: Favonius Conference Table
-381304: Wide Stone Stove
-381305: Portable Stove
-381306: Long Table With Tablecloth
-381307: Multi-Seat Round Pine Table
-381308: Intricately Carved Calligraphy Table
-381309: Square Pine Tea Table
-381310: Red Cedar Round Table
-381311: Sturdy Birch Vanity
-381313: Common Cast Iron Stove
-381314: Yumemiru \Cold and Warmth\ Kotatsu
-381315: \Sekijou\ Aralia Tea Table
-381316: Teahouse Long Table: Seamless Seating
-381401: Breeze-Blessed Bed
-381402: Cloudy Haze Bed
-381403: Yumemiru \Sakura's Rest\ Bed
-381501: Pine Reception Counter
-381502: Teahouse Counter: \Toshimaru\
-382101: Soft Lounge Sofa
-382102: \Clear Blue Afternoon\
-382103: \Unwavering Determination\
-382104: Pine Dining Chair
-382105: Pine-Backed Tea Chair
-382106: Red Pine Wood Round Stool
-382108: Teahouse Round Stool: Pain Point Reduction
-382201: Northern Stone Hearth
-382202: Pine Folding Screen: Billowing Sails
-382203: Hardwood Screen: Morning Mist in Jueyun
-382204: Birch Double Drawer Nightstand
-382205: Gold-Lined Sandbearer Nightstand
-382206: Silk Curtains: Fetching the Sanguine Sky
-382207: Floral Screen: Jade and Gold
-382208: Thundering Heavens Drum
-382209: Lantern-Lit Stage: Crescendo
-382210: Teahouse Cushion: Night-Woven
-382211: Maple Wood Ritual Drum: Festive Music
-382212: Maple Wood Ritual Drum: A Great Din
-382213: Teahouse Folding Screen: Hidden Heart of Gold
-382214: Ancestral Sword Rack: Four Core Principles
-382215: Hatamoto Armor: Eijin Genkou
-382216: Yumemiru \Jukaku\ Folding Screen
-382218: Festive Fragrance: Goods Piled High
-382219: Festive Fragrance: Of Gold and Jade
-382301: Mondstadt Rug: Crimson Ardor
-382302: Mondstadt Rug: Tireless Search
-382303: Tavern Rug: Home Away From Home
-382304: Entrance Rug: A Warm Welcome
-383101: Trusty Portable Lamp
-383102: Liuli Pavilion Sandbearer Floor Lamp
-383103: Tianyuan Lantern: Fragrant Brilliance
-383104: Seashell Table Lamp
-383201: Flower Arrangement: Baby Blue Tranquility
-383202: Potted Plant: Crystalline Breeze
-383203: Flower Arrangement: Sprawling Daybreak
-383204: Potted Flower: Fragrant Facade
-383205: Potted Plant: Petite Perrenial
-383206: Cast in Clay
-383207: The Essential Vase
-383208: A Favor Returned
-383301: Classical Lyre: Tenor of the Wind
-383302: Neat Stack of Books
-383303: \Scholar's Weariness\
-383304: \Etiquette of Correspondence\
-383305: Exquisite Hourglass Ornament
-383306: Alchemic Device: Between Fire and Water
-383307: Alchemic Component: Burden of Dust
-383308: Calligraphy Set: Assiduous Calligraphy
-383309: Golden Triple-Arm Candelabrum
-383310: Glazed Porcelain Tea Set: \Embracing Truth\
-383312: \Tea Wisp-Clouded White Couch\
-383313: Teahouse Vessel: Scent-Sealer
-383314: Calligraphy Set: Proper Penmanship
-383315: Evil-Slaying Bows
-383316: Spiritchaser Screen
-383317: \Divine Nose:\ Kitsu-Kitsu Daruma
-383318: \True Cookery\: Nuki-Nuki Daruma
-384101: Landscape Painting: Country Home
-384102: Landscape Painting: Distant Clouds
-384103: Landscape Painting: Nameless Precipice
-384104: Fine Brushwork: Peaks of Minlin
-384105: Fine Brushwork: Bowl of Blossoms
-384106: Fine Brushwork: Mountains Rising From the Mist
-384107: Painted Vision: Of Mountains and Skies Distant
-384108: Painted Vision: Stunning Waters
-384109: Replica Mural: Lone Peak in a Sea of Fog
-384110: Replica Mural: Ancient Ritual in a Sea of Fog
-384201: Wooden Restaurant Signboard
-384202: Bright Vase-Shaped Sconce
-384203: Well-Worn Buckler
-384204: Well-Worn Shield
-384205: Well-Worn Sword
-384206: Rally Banner
-384207: Pure Spirit Banner
-384208: Favonius Coat of Arms
-384209: Mounted Record Board
-384210: Mounted Noticeboard
-384211: Embroidered Curtains
-384501: Lingering Moment
-390101: Straw Hut
-390102: Straw Depot
-390103: Liyue House: Solitary Retreat
-390104: Liyue House: Of Timber and Stone
-390105: Liyue Pitstop: Tea Fragrance on the Old Road
-390106: Liyue House: Moon-Crested Eaves
-390107: Liyue House: Amity Abounds
-390108: Liyue Shop: Citywide Favorite
-390109: Wing House: Dawn & Dusk
-390110: Pavilion: Stargazer's Shelter
-390111: \Hyoutei\ Stacked Aralia Wood Boxes
-390112: Aralia \Bangaku\ Shelf
-390113: Aralia \Fusen\ Cupboard
-390114: Yumemiru \Dewcover\ Wardrobe
-390115: Yumemiru \Decorum\ Kimono Rack
-390201: Multi-Arched Mondstadt Building
-390202: Mondstadt House With Overhanging Attic
-390203: Warm and Dry Mondstadt Apartment
-390204: Old Wind-Resistant Mondstadt House
-390205: Country Home With Tall Attic
-390206: Classic Country Home
-390207: Pocket-Sized Pine Cabin
-390208: Liyue House: Time Waits for No One
-390301: Bustling Sundry Stand
-390302: Profitable Fruit Stand
-390303: Real Deal Fruit Stand
-390304: Open-Air Workshop
-390305: Bountiful Harvest Fruit Cart
-390306: \Traveling Merchant North of the Stone Gate\
-390307: Roll-Roofed Fruit and Vegetable Cart
-390308: \Four-Quadrant Cooking Cauldron\
-390309: Fruit and Veggie Stall: Harvest Bounties
-390310: Otogi Wood Ramen Stand
-390401: Hilichurl Outpost Hut
-390402: Hilichurl Chieftain Hall
-390501: \Clouds East of Bishui\
-390502: Straw Shed
-390503: Lightning Protective Tent
-390504: Simple Single-Person Tent
-390505: Otogi Wood Rice Cake Soup Stand
-390507: Otogi Wood Granary Cart
-390508: Umbrella Shop: Drapes of Differing Dreams
-390509: Fruit and Veggie Stall: Good Honest Flavor
-390510: Festival \Teiban\ Store
-390511: Festival \Kiban\ Store
-390512: \Kouki\ Aralia Mask Rack
-390513: Fine Stall: Splash of Color
-390514: Rainbow Stall: Ultramarine
-390515: Rainbow Stall: Ruby Red
-390516: Festival Booth - \Strange Wonders\
-390517: Festival Booth - \Literary Talent\
-390601: Ritual Shrine
-390602: Cleansing Shrine
-390603: Inazuman Mansion: As One
-390604: Inazuman Store: Numberless Gems
-390605: Inazuman Home: The Work of Generations
-390606: Inazuman Home: Easy Adaptation
-390607: Inazuman Workshop: Exhaustive Regularity
-390608: Inazuman Home: Routine Dimensions
-390609: Inazuman Bamboo-Roofed Home: The Long Peace
-390610: Inazuman Bamboo-Roofed Home: Wild Heart
-390611: Inazuman Workshop: Multipurpose
-390612: Inazuman Home: Clanking Metal
-390613: Inazuman Workshop: Sweetness Sought
-390614: Inazuman Home: Irreplaceable Foresight
-390615: Inazuman Official Residence: Forcefulness
-390616: Inazuman Official Residence: Strict Adherence
-390617: Official Residence Corridor: Power's Reach
-390618: Camp Watchtower: Viewport
-390619: Camp Tent: Timely Tactics
-390620: Camp Dwelling: Shoring Up
-390621: Camp Gate: Fealty
-390623: Fortune Slip Stand: Omen-Reader
-390624: Shrine Hall: Gentle Wishes
-390625: Shrine Annex: Pleased to Serve
-390626: Estate Reception: Prim and Proper
-390627: Estate Storehouse: We Have Reserves
-390628: Inazuman Home: Watatsumi Reminiscence
-390629: Inazuman Home: House of Coral
-390630: Inazuman Home: Stormhouse
-391101: Bird and Blossom Design Fountain
-391102: Hilichurl Spiral Watchtower
-391103: Hilichurl Straw Hut
-391104: \Ballad-Spinning Windwheel\
-391107: Temporary Work Quarters
-391109: \Pure Gorgeous Summer\
-391110: Scarlet Torii Gate: Door of Silence
-391112: Scarlet Torii Gate: Way of Restoration
-391113: Estate Gate: Windy Doors
-391114: Estate Corridor: Onward With Ease
-391115: Estate Courtyard Corner: Measured Harmony
-391116: Whitestone Hot Spring: Diffusing Warmth
-391117: Of Fields Green: Clear Spring Fountain
-391118: Sub-Space Cabochon: In Soaring Flight
-391201: Adeptus Gate
-391202: Birch Main Courtyard Gate
-391203: Carved Courtyard Fence Ending
-391204: Carved Courtyard Fence
-391205: Scenic Corridor: Sylvan Stroll
-391206: Courtyard Wall: Spring and Autumn Splendor
-391207: Wall Corner: Fragrant Nook
-391208: Courtyard Wall: All in a Row
-391209: Courtyard Wall: Peace Across
-391210: Main Entrance: Gateway to the Clouds
-391211: Perimeter Wall: Scenic Archway
-391212: Veranda Corner: Pavilion's Watch
-391213: Key Gateway: Beneath the Clouds
-391214: Key Fence: Self-Restraint
-391215: Fence Corner: Long Watch
-391216: Otogi \Kintake\ Courtyard Gate
-391217: Otogi \Kintake\ Fence
-391218: Encampment Fence: Jagged Teeth
-391219: Encampment Fence: Decisive Judgment
-391220: Encampment Fence: Honing Goad
-391221: Shrine Corridor: Sakura-Dusted Path
-391222: Shrine Corridor: Vermilion Gaze
-391223: Estate Courtyard Wall: Stoneguard
-391224: Estate Courtyard Wall: Harmonious Corner
-391225: Estate Courtyard Wall: Hidden Boundary
-391226: Estate Wall Corner: Old City Palisade
-391227: Hot Spring Folding Screen: Moderation
-391228: Hot Spring Outer Wall: No Vaulting
-391229: Hot Spring Wall: Well-Grounded
-391230: Hot Spring Foyer: Shelter from the Cold
-392107: Foundations of Stone: Fortunate Times
-393101: Messy Pile of Fir Crates
-393102: Neat Stack of Fir Kegs
-393103: Heavy Hay Bale
-393104: Wine Jar With Bamboo Casing: Spirits Awaiting Moonrise
-393105: Toy Stand: Dazzling Delights
-393106: Umbrella Shop: Kaleidoscope of Parasol Colors
-393107: Storage Sack: Buzz-Off Bag
-393108: Fruit Seller's Caution
-393109: Fruit Seller's Toil
-393110: Hardened Glazed Vase
-393111: Hilichurl Archery Target
-393112: Hilichurl Horned Pot
-393113: Deadwood Road Sign
-393114: \The Adventurer's Burdens\
-393115: Sturdy Wooden Barrel
-393116: Tall Wooden Pole
-393117: Wood Bundle
-393118: Rainproof Fir Cargo Container
-393119: Stone Cup-Shaped Pool
-393120: \Feather-Light Praise\
-393121: \A Bloatty Floatty's Dream of the Sky\
-393122: \A Guide in the Summer Woods\
-393123: Training Ground Support Stakes
-393124: \A Messenger in the Summer Woods\
-393125: \Courtyard Cleansing Pool\
-393126: Headquarters Alarm: Sound of Thunder
-393127: War Drum: Line-Breaking Reverb
-393128: Simple Otogi Workshop
-393129: Otogi \Rikuyou\ Wooden Barrel
-393130: Otogi \Tanin\ Wood Barrel
-393131: \Kokutan\ Thick-Walled Clay Water Tank
-393132: Replica Ancient Otogi Keg
-393133: Replica Ancient Otogi Crate
-393134: Mountain of Festive Gifts
-393137: Heavy-Duty Restaurant Stove
-393138: Serene Flames
-393201: Potted Plant: Verdant Vastness
-393202: Water-Retaining Flower Beds
-393203: Soil-Carrying Wooden Barrel
-393204: \Pines Awaiting the Twilight\
-393301: Fir Shelves
-393302: Fir Weapon Rack
-393303: Hardwood Weapon Rack
-393304: Simple Cargo Cart
-393305: Sturdy Stone Well
-393306: Farmer's Scarecrow
-393307: Old Well
-393308: Roofed Well: For Purity
-393309: Stone Lion Statue: The Warding
-393310: Stone Lion Statue: The Knowing
-393311: Countryside Tea Stand
-393312: \The Adventurer's Treasures\
-393313: \Witch's Chorus\
-393315: Yumemiru \Saikyo\ Fortune Slip Hanger
-393316: Narukami's Banner
-393317: Camp Bow-Rack: Fletching
-393318: Camp Spear-Rack: Point Break
-393319: Camp Bonfire: Glorious Clarity
-393320: Camp Barricade: Taking Sides
-393321: Sky Kitsune Statue: Hakushin's Legacy
-393322: High-Flying Fish Flag
-393323: Maple Wood Tanuki
-393324: Maple Wood White Kitsune
-393325: Red-Iron Coral
-393326: Glowstone Parasol
-393327: Shrine Statue: \Seirai Ward\
-393328: Village Well: Underground Spring
-393329: Yumemiru \Seiken\ Offering Box
-393330: Ancestral Sword Rack: Iron Sharpens Iron
-393331: The Bamboo's Call
-393332: \Henji\ Aralia Noticeboard
-393333: Village Well: Subterranean Secrets
-393337: Rainbow Lights: Lovely Night View
-393338: Rainbow Cloud Flying Satin Pole
-393339: Gold-Inscribed Evil-Cleansing Banner
-393343: Tanuki Hugs Photo Board
-393344: \Kitsune Guuji\ Exclusive Painted Flag Banner
-393401: Wrought Iron Carved Street Light
-393402: Pine Street Light
-393403: Evil-Repelling Lantern: All-Around Lighting
-393404: Four Corners Lantern: Amity From Afar
-393405: Shadow Lamp: Painted Shadow
-393406: Stone Lantern: Fudoumyou's Light
-393407: \Three Reaches Bright\
-393408: Whitestone \Meichuu\ Standing Lamp
-393409: Otogi \Meichuu\ Standing Lamp
-393410: Five-Lantern Festival Gate
-393411: Yumemiru \Kuukai\ Street Lamp
-393412: Yumemiru \Juunen\ Street Lamp
-393413: White Fish Tallow Candle: Evenlight
-393414: Otogi Countryside Street Lamp
-393415: Simple Otogi Street Lamp
-393416: Aralia \Renzou\ Street Lamp
-393601: Pool of Sapphire Grace
-394101: Weathered Bamboo Fence
-394102: Sturdy Pine Fence
-394103: Wooden Hilichurl Fence
-394104: Hilichurl Totem Fence
-394105: Lush Grapevine
-394106: Newly Grown Grapevines
-394107: Simple Wooden Fence
-394108: Half-Constructed Fence
-394109: The Fruit Farmer's Thrift
-394110: \Kyuukou\ Otogi Flower Terrace
-394111: \Sanzai\ Otogi Flower Terrace
-394201: Smooth Wooden Bench
-394202: Smooth Stone Bench
-394203: Googol Chair
-394204: Square Yumemiru Stool
-394205: Otogi \Rakushi\ Square Stool
-394301: Two-Story Hilichurl Sentry Tower
-394302: Doorless Pine Cupboard
-394303: Heavy Fir Forging Table
-394304: Long Pine Table
-394305: Large Stone Mill
-394306: Alchemist's Crafting Bench
-394307: Two-Tier Vendor's Booth: Rising Fortunes
-394308: Bamboo Outdoor Tea Table
-394309: Wooden Outdoor Tea Table
-394310: \Summer Forest Banquet\
-394311: Googol Table
-394312: Long Yumemiru Table
-394313: Otogi \Rakushi\ Square Table
-394401: Wine Shop Display Counter: To Your Heart's Content
-394402: Crude Double-Decker Pallet
-394403: \Cradle of Flowers\
-394404: \The Blue Ocean's Treasure\
-394501: Foundations of Stone: Path of Cultivation
-394502: Foundations of Stone: Timely Arrival
-394503: Foundations of Stone: Double-Time
-394504: Of Fields Green: Cookie Road
+﻿100001 : Яблоко
+100002 : Закатник
+100003 : Кусок бумаги
+100004 : Украденные предметы
+100006 : Противоядие хиличурлов
+100007 : Финишный венок карабканья
+100008 : Финишный венок полёта
+100009 : Финишный венок полёта
+100010 : Кубок Чемпиона Полётов
+100011 : Гриб
+100012 : Цветок-сахарок
+100013 : Морковь
+100014 : Редис
+100015 : Львиный зев
+100016 : Мята
+100017 : Пшеница
+100018 : Капуста
+100019 : Серебряный лотос
+100020 : Сосновая шишка
+100021 : Волчий крюк
+100022 : Валяшка
+100023 : Сесилия
+100024 : Ветряная астра
+100025 : Гриб филанемо
+100026 : Чашечка лотоса
+100027 : Заоблачный перчик
+100028 : Полуночный нефрит
+100029 : Шелковица
+100030 : Глазурная лилия
+100031 : Цветок цинсинь
+100032 : Конский хвост
+100033 : Звёздная ракушка
+100034 : Стеклянные колокольчики
+100051 : Ягода
+100052 : Туманный цветок (венчик)
+100053 : Пылающий цветок (тычинка)
+100054 : Электро кристалл
+100055 : Трава-светяшка
+100056 : Лилия калла
+100057 : Семена одуванчика
+100058 : Кор ляпис
+100061 : Сырое мясо
+100062 : Яйцо
+100063 : Мацутакэ
+100064 : Мясо птицы
+100072 : Крылья бабочки
+100073 : Краб
+100074 : Крабовая икра
+100075 : Соль
+100076 : Лук
+100077 : Перец
+100078 : Молоко
+100079 : Помидор
+100080 : Картофель
+100081 : Лягушка
+100082 : Светящееся брюшко
+100083 : Хвост ящерицы
+100084 : Рыба
+100085 : Кристальное ядро
+100086 : Сырое мясо (мал.)
+100087 : Птица (мал.)
+100088 : Тофу
+100089 : Миндаль
+100090 : Жемчужина аксолотля
+100091 : Побеги бамбука
+100092 : Рис
+100093 : Мясо креветки
+100094 : Цельномороженое мясо
+100095 : Угорь
+100101 : Посылка с документами Джинн
+100102 : «Побег от суеты»
+100103 : Незаконченные ноты (Часть 1)
+100104 : Незаконченные ноты (Часть 2)
+100105 : Личное письмо Джинн от Лизы
+100106 : «Осенняя ночь»
+100107 : Вкусное на вид зелье
+100108 : Зелье
+100109 : Лечение Барбары
+100110 : Незаконченная поэма (Часть 1)
+100111 : Незаконченная поэма (Часть 2)
+100112 : Незаконченная поэма (Часть 3)
+100113 : Скопировать надпись
+100114 : Зелье восстановления формы
+100115 : Небесная лира
+100120 : Волосок сверчка
+100121 : Сверчок (Белый)
+100122 : Сверчок (Синий)
+100123 : Сверчок (Фиолетовый)
+100124 : Сверчок (Золотой)
+100125 : Гидро янтарь
+100126 : Анемо янтарь
+100131 : Случайные вещи (А)
+100132 : Случайные вещи (Б)
+100133 : Случайные вещи (А)
+100134 : Случайные вещи (Б)
+100135 : Алый кристалл
+100136 : Улика печати 101
+100137 : Улика печати 102
+100138 : Улика печати 103
+100139 : Улика печати 201
+100140 : Улика печати 202
+100141 : Улика печати 203
+100142 : Улика печати 301
+100143 : Улика печати 302
+100144 : Улика печати 303
+100145 : Сломать печать 1
+100146 : Сломать печать 2
+100147 : Сломать печать 3
+100148 : Исследуйте печать Логова Ужаса Бури
+100149 : Сломайте печать в Логове Ужаса Бури
+100151 : Фрагменты памяти (Анемо)
+100152 : Печать Кладбища мечей 1
+100153 : Печать Кладбища мечей 2
+100154 : Печать Кладбища мечей 3
+100158 : Кристалл в форме слезы
+100159 : Кристалл в форме слезы
+100160 : Кристалл в форме слезы
+100161 : Небесная лира
+100162 : Небесная лира
+100163 : Небесная лира
+100164 : Очищенная слеза Двалина
+100165 : Небесная лира
+100171 : Подсказка сокровища I
+100172 : Подсказка сокровища II
+100173 : Карта сокровищ
+100174 : Универсальное временное взаимодействие
+100175 : Спрятанный ключ
+100176 : Чёрный ключ
+100177 : Взаимодействие со сценой
+100178 : Меланхолия Веры. Том I
+100179 : Меланхолия Веры. Том II
+100180 : Меланхолия Веры. Том III
+100181 : Вместе с божествами. Пролог
+100182 : Легенда о Веннессе. Том I
+100183 : Легенда о Веннессе. Том II
+100184 : Афиша
+100185 : Афиша
+100186 : Доска заказов «Мондштадтского Купца»
+100187 : Доска объявлений
+100188 : Лиса в море одуванчиков. Том I
+100189 : Лиса в море одуванчиков. Том II
+100190 : Лиса в море одуванчиков. Том III
+100191 : Лиса в море одуванчиков. Том V
+100192 : Лиса в море одуванчиков. Том VI
+100193 : Лиса в море одуванчиков. Том VII
+100194 : Лиса в море одуванчиков. Том X
+100195 : Лиса в море одуванчиков. Том XI
+100196 : Сборник хиличурлской поэзии. Том I
+100197 : Сборник хиличурлской поэзии. Том II
+100198 : Меланхолия Веры. Том V
+100199 : Меланхолия Веры. Том IX
+100200 : Меланхолия Веры. Том X
+100201 : Сборник стихов «Лесной бриз»
+100202 : Принцесса-кабан. Том I
+100203 : Принцесса-кабан. Том II
+100204 : Принцесса-кабан. Том III
+100205 : Принцесса-кабан. Том IV
+100206 : Принцесса-кабан. Том V
+100207 : Принцесса-кабан. Том VII
+100208 : Башня Мондштадта. Том I
+100210 : Элементальный отпечаток
+100211 : Отломанная ветка
+100212 : Кусок ткани
+100213 : Лесной бриз: Дополнение - Том о драконах
+100214 : Письмо ордена Бездны
+100215 : Снежная принцесса и шесть карликов. Том I
+100216 : Снежная принцесса и шесть карликов. Том II
+100217 : Снежная принцесса и шесть карликов. Том III
+100218 : Снежная принцесса и шесть карликов. Том IV
+100219 : Снежная принцесса и шесть карликов. Том V
+100220 : Снежная принцесса и шесть карликов. Том VI
+100221 : Снежная принцесса и шесть карликов. Том VII
+100222 : Тысяча лет одиночества
+100223 : Путеводитель по Тейвату. Мондштадт
+100224 : Ветер, храбрость и крылья
+100225 : Охотничий капкан
+100226 : Дневники Роальда, искателя приключений: Деревня Цинцэ
+100227 : Дневники Роальда, искателя приключений: Озеро Лухуа
+100228 : Дневники Роальда, искателя приключений: Отмель Яогуан
+100229 : Письмо для Дундуна
+100230 : Чей-то дневник. Часть I. Отмель Яогуан
+100231 : Разбросанные страницы
+100232 : Целая книга
+100233 : Упитанный гриб
+100234 : Свежая морковь
+100235 : Сытная капуста
+100236 : Руководство по управлению планером
+100237 : Азурит
+100238 : Вермилионит
+100239 : Чей-то дневник. Часть II. Долина Гуйли
+100240 : Чей-то дневник. Часть III. Заоблачный предел
+100241 : Чей-то дневник. Часть IV. Гавань Ли Юэ
+100242 : Письмо для Похитителей сокровищ
+100243 : Нефритовое кольцо
+100244 : Вкусный золотистый краб
+100245 : Книга гор и морей
+100246 : Черновая рукопись «Хякунин икки. История величайшего бойцовского соревнования»
+100301 : Красный ключ
+100302 : Чёрный ключ
+100303 : Кошелёк
+100304 : Кошелёк, содержащий плату за обед
+100305 : Вкусное медовое мясо с морковкой
+100306 : Крепкая доска
+100307 : Слабая доска
+100308 : Верёвка
+100309 : Кошелёк, содержащий плату за обед
+100310 : Потерянный кошелёк
+100311 : Кошелёк, содержащий плату за обед
+100312 : Вкусные редисовые шарики
+100313 : Вкусный суп с морепродуктами
+100314 : Товар
+100315 : Обработанный полуночный нефрит
+100316 : «Мондштадтский закат»
+100317 : «Маргарита»
+100318 : «Заряженная атака»
+100319 : «Жемчужный эль»
+100320 : Такой себе «Мондштадтский закат»
+100321 : Необычная «Маргарита»
+100322 : Странная «Заряженная атака»
+100323 : Необычный «Жемчужный эль»
+100324 : Какой-то не такой коктейль
+100325 : Такой себе коктейль
+100326 : Странный коктейль
+100327 : Необычное пиво
+100328 : Крайне сомнительный коктейль
+100329 : Неизвестный коктейль
+100330 : На вид очень обычное вино
+100331 : (тест) Вино 16
+100332 : (тест) Вино 17
+100333 : (тест) Вино 18
+100334 : (тест) Вино 19
+100335 : (тест) Вино 20
+100336 : (тест) Вино 21
+100337 : (тест) Вино 22
+100338 : (тест) Вино 23
+100339 : (тест) Вино 24
+100340 : (тест) Вино 25
+100341 : (тест) Вино 26
+100342 : (тест) Вино 27
+100343 : (тест) Вино 28
+100344 : (тест) Вино 29
+100345 : (тест) Вино 30
+100346 : (тест) Вино 31
+100347 : (тест) Вино 32
+100348 : Письмо Годвина
+100349 : Чья-то дрейфующая бутылка
+100350 : （test)可莉的本子
+100351 : Сироп от кашля Таннера
+100352 : Письмо Драффа
+100353 : Материал манекена
+100354 : Письмо Сары
+100355 : Вымытый редис
+100356 : Письмо Гая
+100357 : Фирменный коктейль Куинна
+100358 : Фирменный коктейль Маргариты
+100359 : Фирменный коктейль Джека
+100360 : Фирменный коктейль Драффа
+100361 : Путеводитель по Тейвату. Ли Юэ
+100362 : Письмо
+100363 : Большой кошелёк
+100364 : Легенда о разбитой алебарде. Том VI
+100365 : Целый тренировочный манекен
+100366 : Легенда о Гео Архонте: Бог очага
+100367 : Легенда о Гео Архонте: Первопроходец
+100368 : Легенда о Гео Архонте: Бог богатства
+100369 : Легенда о Гео Архонте: Бог истории
+100370 : «Гнев Хай Шань»
+100371 : （test）神州折戟录的回忆二
+100372 : （test）神州折戟录的回忆三
+100373 : «Дождь клинков. Часть первая»
+100374 : «Дождь клинков. Часть вторая»
+100375 : （test）千里寻父录的回忆三
+100376 : Еда, которую Улыбчивый Янь Сяо приготовил для Цзян Сюэ
+100377 : Записи о проходящих кораблях малышки Лулу
+100378 : Записи о проходящих кораблях малышки Лулу
+100379 : Записи о проходящих кораблях малышки Лулу
+100380 : Записи о проходящих кораблях малыша Фэя
+100381 : Записи о проходящих кораблях малыша Фэя
+100382 : Записи о проходящих кораблях малыша Фэя
+100383 : Записи о проходящих кораблях малыша Мэна
+100384 : Записи о проходящих кораблях малыша Мэна
+100385 : Записи о проходящих кораблях малыша Мэна
+100386 : Запечатанная посылка
+100387 : Первый ученик школы Гухуа
+100388 : Дневники Роальда, искателя приключений: Каменный лес Гуюнь
+100389 : Дневники Роальда, искателя приключений: Солёные земли
+100390 : Дневники Роальда, искателя приключений: Заоблачный предел, пик Цинъюнь
+100391 : Дневники Роальда, искателя приключений: Заоблачный предел, озеро Аоцан
+100392 : Карта сокровищ Одинокого ущелья
+100393 : Карта сокровищ Одинокого ущелья
+100394 : Карта сокровищ Одинокого ущелья
+100395 : Плохо запечатанная коробка
+100396 : Плотно запечатанная коробка
+100397 : （test）海盗的传说
+100398 : Письмо Катерины
+100399 : Хроника Заоблачного предела: Каменные звери
+100400 : Хроника Заоблачного предела: Дворец морского божества
+100401 : Песни равновесия
+100402 : Записки благородного рыцаря: Отшельник
+100403 : Традиции Ли Юэ: Цветочный шар
+100404 : Сборник каменных табличек: Часть 1
+100405 : Юмор Тяньхэн
+100406 : Культурные традиции хиличурлов. Том I
+100407 : Культурные традиции хиличурлов. Том II
+100408 : Культурные традиции хиличурлов. Том IV
+100409 : История королей и кланов. Пролог
+100410 : Биография семьи Гуннхильдр
+100411 : Баллады оруженосца. Часть I
+100412 : Баллады оруженосца. Часть II
+100413 : Рецепты эксперта по выживанию
+100414 : Карта сокровищ гигантской лестницы
+100415 : Карта сокровищ гигантской лестницы
+100416 : Карта сокровищ гигантской лестницы
+100417 : Карта сокровищ бескрайнего моря
+100418 : Карта сокровищ бескрайнего моря
+100419 : Карта сокровищ бескрайнего моря
+100420 : （test）畅畅的日记2
+100421 : （test）旅行家的日记2
+100422 : （test）海盗的传说2
+100423 : （test）畅畅的日记3
+100424 : （test）旅行家的日记3
+100425 : （test）海盗的传说3
+100426 : Якса: Защитники Адептов
+100427 : Печать завоевателя зла
+100428 : Особый миндальный тофу
+100429 : Утерянная посылка
+100430 : Печать согласия
+100431 : Деревянный знак Кли
+100432 : Легенда о разбитой алебарде. Том I
+100433 : Легенда о разбитой алебарде. Том II
+100434 : Легенда о разбитой алебарде. Том III
+100435 : Легенда о разбитой алебарде. Том IV
+100436 : Легенда о разбитой алебарде. Том V
+100437 : Разбитые мечты: Лунный свет
+100438 : Разбитые мечты: Глазурь
+100439 : Разбитые мечты: Сапфир
+100440 : Разбитые мечты: Каменное сердце
+100441 : Дневники Роальда, искателя приключений: Озеро Цинсю
+100442 : Записки путешественника
+100443 : Записки путешественника
+100444 : Записки путешественника
+100445 : Записки путешественника
+100450 : Курильница
+100451 : Лампа семизвездия
+100452 : Письмо Небесного Императора Звездолова
+100453 : Особые мондштадтские картофельные оладьи
+100454 : Недопереваренные ягоды
+100455 : Концентрированная слизь Гидро слайма
+100456 : Ветряная астра, овеянная Анемо слаймом
+100457 : Собранные фрагменты
+100458 : Собранные фрагменты
+100459 : Собранные фрагменты
+100460 : Текст с каменной таблички
+100461 : Текст с каменной таблички
+100462 : Текст с каменной таблички
+100463 : Текст с каменной таблички
+100464 : Текст с каменной таблички
+100465 : Надпись из руин
+100466 : Надпись из руин
+100467 : Тайные сокровища Цинцэ
+100468 : 
+100469 : Странные строки на хиличурлском
+100470 : 
+100471 : 
+100472 : Письмо Тимми
+100473 : Подарок, который посоветовала Марджори
+100474 : Подарок от Куинна
+100475 : Особое блюдо Сары
+100476 : Посылка от постояльца
+100477 : Коробка с накладными
+100478 : Коробка с накладными
+100479 : Коробка с накладными
+100480 : Сердце родника. Том I
+100481 : Сердце родника. Том II
+100482 : Сердце родника. Том III
+100483 : Сердце родника. Том IV
+100484 : Сборник избранных стихов Линь Лин
+100485 : Товарная накладная
+100486 : Накладная количества товаров
+100487 : «Золотая мадам»
+100488 : «Горная ткачиха»
+100489 : «Тоскующая фортуна»
+100490 : Эссенция «Золотой мадам»
+100491 : Эссенция «Горной ткачихи»
+100492 : Эссенция «Тоскующей фортуны»
+100493 : Пустая шкатулка Бао Эр
+100494 : Тяжёлая коробка
+100495 : Промокшая страница
+100496 : Большой кошелёк
+100497 : Масло «Золотой мадам»
+100498 : Масло «Горной ткачихи»
+100499 : Масло «Тоскующей фортуны»
+100500 : Шкатулка с побрякушками
+100501 : Колокольчик очищения
+100502 : Материалы для баллисты
+100503 : Разговор Ци Мин и Чжи Хуа
+100504 : Разговор Сы Сы и Чао Си
+100505 : Разговор малышей Мэна, Фэя и Лулу
+100506 : Заказ Нормы
+100507 : Проба пера в хиличурлской поэзии. Стихи для декламации
+100508 : Проба пера в хиличурлской поэзии. Эпические поэмы
+100509 : Проба пера в хиличурлской поэзии. Лирика
+100510 : Подарок Вэл
+100511 : Украденная реликвия
+100512 : Коробочка мадам Пин
+100513 : Вырванная страница
+100514 : Страница с каракулями
+100515 : Образец полуночного нефрита
+100516 : Кошелёк с деньгами
+100517 : Добыча с митачурла
+100518 : Добыча с Похитителей сокровищ
+100519 : Добыча со стража руин
+100520 : Образец полуночного нефрита
+100521 : Образец полуночного нефрита
+100522 : Вечный ладан
+100523 : Материалы для баллисты
+100524 : Крепкая деревянная доска
+100525 : Коробка с листьями
+100526 : 
+100527 : 
+100528 : Ключ Похитителей сокровищ
+100529 : Записка Алрани
+100530 : Безымянное сокровище
+100531 : Безымянное сокровище
+100532 : Безымянное сокровище
+100533 : Камень прошлого
+100534 : Тёмное кольцо
+100535 : Кисть Вермеера
+100536 : Краски Вермеера
+100537 : Чёрно-белый набросок
+100538 : Цветной набросок
+100539 : Безымянный набросок
+100540 : Странный камень
+100541 : Свежий цветок цинсинь
+100542 : Особое блюдо «Хорошего охотника»
+100543 : Закладка Флоры
+100544 : Особый напиток «Доли ангелов»
+100545 : Особый парфюм
+100546 : Мятное эфирное масло
+100547 : Превосходная слизь слайма
+100548 : Приторный цветок-сахарок
+100549 : Свежий цветок-сахарок
+100550 : Свежая сесилия
+100551 : Свежая ветряная астра
+100552 : Свежая трава-светяшка
+100553 : Странный ингредиент для коктейля
+100554 : Мешочек с морой Тевкра
+100555 : Мешочек с морой Тевкра и Чайльда
+100556 : Сытный закатник
+100557 : Объявления торговца
+100558 : Объявления торговца
+100559 : Объявления торговца
+100560 : Подарки Цзя И
+100561 : Карта Похитителей сокровищ
+100562 : Потрёпанный дневник
+100563 : Странный камень
+100564 : Руководство для рыцарей Ордо Фавониус. Пятое издание
+100565 : Записи бродяги. Прилив
+100566 : Записи бродяги. Волны
+100567 : Записи бродяги. Отлив
+100568 : Ведьма и гончая. Том I
+100569 : Ведьма и гончая. Том II
+100570 : Ведьма и гончая. Том III
+100571 : Ведьма и гончая. Том IV
+100572 : Ведьма и гончая. Том V
+100573 : Ночь в бамбуковом лесу I
+100574 : Ночь в бамбуковом лесу II
+100575 : Ночь в бамбуковом лесу III
+100576 : Ночь в бамбуковом лесу IV
+100577 : История пьяницы I
+100578 : История пьяницы II
+100579 : История пьяницы III
+100580 : История пьяницы IV
+100581 : 
+100582 : 
+100583 : Чертежи Облачной обители
+100584 : Кровь глубин
+100585 : Осколок монолита
+100586 : Властелин Инкогнито. Том I
+100587 : Властелин Инкогнито. Том II
+100588 : Властелин Инкогнито. Том III
+100589 : Властелин Инкогнито. Том IV
+100590 : Одинокий клинок в пустошах I
+100591 : Одинокий клинок в пустошах II
+100592 : Одинокий клинок в пустошах III
+100593 : Одинокий клинок в пустошах IV
+100594 : Подарок малышки Лю
+100595 : Ответ Чао Си для Цуй Эр
+100596 : Подарок малыша Юэ
+100597 : Письмо Инь Син к Бо Лай
+100598 : Квитанция клерка Чжао для Цзян Чжоу
+100599 : Квитанция клерка Чжао для Нервного Аня
+100600 : Письмо Цуй Эр для Чао Си
+100601 : Толстый дневник
+100602 : Карта Джека
+100603 : Лицензия Джека
+100604 : Ключ от клетки
+100605 : Глазированный слайм
+100606 : Дикая глазурная лилия
+100607 : Лиса в море одуванчиков. Том IV
+100608 : Лиса в море одуванчиков. Том VIII
+100609 : Лиса в море одуванчиков. Том IX
+100610 : Принцесса-кабан. Том VI
+100611 : Меланхолия Веры. Том IV
+100612 : Меланхолия Веры. Том VI
+100613 : Меланхолия Веры. Том VII
+100614 : Меланхолия Веры. Том VIII
+100615 : Культурные традиции хиличурлов. Том III
+100616 : 
+100617 : Книга гор и морей
+100618 : Необычный клык
+100619 : Напитанный клык дракона
+100620 : Шкатулка принцессы
+100621 : Шкатулка священника
+100622 : Шкатулка писаря
+100623 : Выглядит как обычный цветок-сахарок
+100624 : Традиции Ли Юэ: Встречая бога
+100625 : Фигурка Одноглазика
+100626 : Письмо малышки Лю
+100627 : Потрёпанное чучело
+100628 : Отсыревший мешок
+100629 : Таинственная каменная табличка
+100630 : Разведывательные данные Похитителей сокровищ
+100631 : Потерянная Виктором коробка
+100632 : Информационная записка
+100633 : Старая лицензия на ведение коммерческой деятельности
+100634 : Учредительные документы коммерческой организации и обязательство по безопасности ведения бизнеса
+100635 : Официальное разрешение на выход в море
+100636 : Мясо Короля снежных кабанов
+100637 : Хроника Заоблачного предела: Уван
+100638 : Хроника Заоблачного предела: Горные духи
+100639 : Россыпь жемчуга
+100640 : Традиции Ли Юэ: Шелковица
+100641 : Традиции Ли Юэ: Глазурные лилии
+100642 : Жемчужная нить. Том I
+100643 : Жемчужная нить. Том II
+100644 : Жемчужная нить. Том III
+100645 : Древний дневник исследователя. Часть I
+100646 : Особые мондштадтские картофельные оладьи
+100647 : Особый миндальный тофу
+100648 : Особый суп из украшений
+100649 : Особый цыплёнок в медовом соусе
+100650 : Особые голубцы с грибами
+100651 : Особые «Нефритовые мешочки»
+100652 : Особая паста с томатным соусом
+100653 : Особый варёный чёрный окунь
+100654 : Особая лепёшка «Мора»
+100655 : Особые блинчики к чаю
+100656 : Особая налетайка
+100657 : Особая острая курица на пару
+100658 : Особые мондштадтские картофельные оладьи
+100659 : Особый варёный чёрный окунь
+100660 : Особая налетайка
+100661 : Особый рыбный шашлычок
+100662 : Особое жаренное в воке мясо
+100663 : Особый яичный суп из лотоса
+100664 : Особый рыбацкий бутерброд
+100665 : Особый миндальный тофу
+100666 : Особый суп из украшений
+100667 : Письменный приказ
+100668 : 
+100669 : 
+100670 : 
+100671 : 
+100672 : 
+100673 : 
+100674 : 
+100675 : 
+100676 : 
+100677 : 
+100678 : 
+100679 : 
+100680 : 
+100681 : Письмо Цзя И
+100682 : Острая курица из детских воспоминаний
+100683 : Роскошный ящик для игрушек
+100684 : Осколки плаустрита Цун Цзы
+100685 : Заказной небесный фонарь
+100686 : Семена одуванчика Глории
+100687 : Письмо для Сайруса
+100688 : Подпись Цин Чжоу
+100689 : Упаковка свежих цветов
+100690 : Упаковка свежих цветов
+100691 : Властелин Инкогнито. Том IV
+100692 : Древний дневник исследователя. Часть II
+100693 : Древний дневник исследователя. Часть III
+100694 : 
+100695 : 
+100696 : 
+100697 : 
+100698 : 
+100699 : Заказ магазина «Вторая жизнь»
+100700 : Упаковка свежих цветов
+100701 : Упаковка свежих цветов
+100702 : Упаковка свежих цветов
+100703 : Письмо благодарности
+100704 : Экспериментальное зелье
+100705 : Цельномороженое мясо
+100706 : Дневники Роальда, искателя приключений: Драконий хребет
+100707 : Изображение фотокамеры
+100708 : Изображение фотокамеры
+100709 : Печать согласия
+100710 : Особое сливочное рагу Харриса
+100711 : Карта сокровищ
+100712 : Странная записка
+100713 : Кошелёк с деньгами
+100714 : Промокшая коробка
+100715 : Россыпь жемчуга
+100716 : Катализное звёздное серебро
+100717 : Катализное звёздное серебро
+100718 : Катализное звёздное серебро
+100719 : Катализное звёздное серебро
+100720 : Катализное звёздное серебро
+100721 : 
+100722 : 
+100723 : Небесный фонарь болвана Бэня
+100724 : Неподписанный лунный фонарь
+100725 : 
+100726 : Лекарства травника Гуя
+100727 : Катализное звёздное серебро
+100728 : Семена одуванчика
+100729 : Небесный фонарь Сы Юй
+100730 : Хроника Заоблачного предела: Цилинь
+100731 : Хроника Заоблачного предела: Укрытый нефрит
+100732 : Записки благородного рыцаря: Чёрные еноты
+100733 : Записки благородного рыцаря: Пыль
+100734 : Ведьма и гончая. Том VI
+100735 : Ведьма и гончая. Том VII
+100736 : Ведьма и гончая. Том VIII
+100737 : Миндальный тофу бабули Цяо
+100738 : Шарики с креветкой Чжу Юй
+100739 : Несчастное блюдо
+100740 : Потерянный дневник искателя приключений
+100741 : Сломанный колпак небесного фонаря
+100742 : Крепкий обломок железа
+100743 : Крепкий обломок кристалла
+100744 : Красный волчий крюк
+100745 : Свежий заоблачный перчик
+100746 : Тщательно подобранный подарок
+100747 : Подарок на Праздник морских фонарей
+100748 : Нектар Пиро попрыгуньи
+100749 : Еда навынос ресторана «Народный выбор»
+100750 : Странная коробка
+100751 : Подписанный небесный фонарь
+100752 : Образец почвы
+100753 : Свежий цветок цинсинь
+100754 : Проглоченная слаймом лилия калла
+100755 : Свежая чашечка лотоса
+100756 : Деревянная доска
+100757 : Свежее сырое мясо
+100758 : Отменное цельномороженое мясо
+100759 : Пейзаж Праздника ветряных цветов
+100760 : Пейзаж Праздника ветряных цветов
+100761 : Пейзаж праздника ветряных цветов
+100762 : Удивительно красивый цветок
+100763 : «Осторожно!»
+100764 : Свежая валяшка
+100765 : Слизь Пиро слайма
+100766 : Особая бутылка воды
+100767 : Какие-то записки
+100768 : Оберег
+100769 : Оберег
+100770 : Оберег Иороя
+100771 : Оберег в форме свитка
+100772 : Оберег в форме ключа
+100773 : 
+100774 : Старый ключ
+100775 : Древняя каменная плита
+100776 : Древняя каменная плита
+100777 : Древняя каменная плита
+100778 : Древняя каменная плита
+100779 : Неплохие семена одуванчика
+100780 : Неплохая ветряная астра
+100781 : Особый напиток
+100782 : Особый напиток
+100783 : Ведьма и гончая. Том IX
+100784 : Ведьма и гончая. Том X
+100785 : Ведьма и гончая. Том XI
+100786 : Жемчужная нить. Том IV
+100787 : Жемчужная нить. Том V
+100788 : Хиличурлский разговорник для чайников
+100789 : Гадальная палочка
+100790 : Гадальная палочка
+100791 : Гадальная палочка
+100792 : Гадальная палочка
+100793 : Гадальная палочка
+100794 : Гадальная палочка
+100795 : Гадальная палочка
+100796 : Гадальная палочка
+100797 : Гадальная палочка
+100798 : Гадальный листок
+100799 : Гадальный листок
+100800 : Гадальный листок
+100801 : Гадальный листок
+100802 : Гадальный листок
+100803 : Гадальный листок
+100804 : Гадальный листок
+100805 : Гадальный листок
+100806 : Гадальный листок
+100807 : Странный гадальный листок
+100808 : Странный гадальный листок
+100809 : Странный гадальный листок
+100810 : Странный гадальный листок
+100811 : Пейзаж мыса Веры
+100812 : Пейзаж утёса Звездолова
+100813 : Пейзаж долины Ветров
+100814 : Письмо Сайруса для Юй Ся
+100815 : Пейзаж Драконьего хребта
+100816 : Медаль чемпиона «Бойцовского турнира Южного Креста»
+100817 : Упакованное мясо с маринованными овощами
+100818 : Блинчики к чаю от Лили
+100819 : Таинственная деталь механизма
+100820 : Светло-жёлтый кристалл
+100821 : Светло-красный кристалл
+100822 : Светло-синий кристалл
+100823 : Светло-жёлтая чешуя
+100824 : Светло-синяя чешуя
+100825 : Светло-красная чешуя
+100826 : Кошачий корм
+100827 : Игрушка для кошки
+100828 : Свежая чешуя
+100829 : Странный... напиток?
+100830 : Кошелёк у высохшего колодца
+100831 : Античный камень
+100832 : Повреждённая деревянная доска
+100833 : Гнилая деревянная доска
+100834 : 
+100835 : Изумрудный нефрит
+100836 : Осколок зелёного нефрита
+100837 : Сертификат из «Загадки нефрита»
+100838 : Документ из департамента
+100839 : Заключение из хижины «Бубу»
+100840 : Свежая слизь слайма
+100841 : Рисунок с Опасного острова
+100842 : Рисунок с Изломанного острова
+100843 : Рисунок с Безымянного острова
+100844 : Рисунок с Парного острова
+100845 : Нечитаемые записки
+100846 : Свежая рыба
+100847 : 
+100848 : 
+100849 : Потрёпанный список товаров
+100850 : Мешок с товарами, найденный в воде
+100851 : Рисунок с Безымянного островка
+100852 : Отчётливое изображение
+100853 : Вполне отчётливое изображение
+100854 : Размытое изображение
+100855 : Выброшенный меч
+100856 : Кувшин вина
+100857 : Ничейный клинок
+100858 : Мешочек с цветочными семенами
+100859 : Загадочная раковина
+100860 : 
+100861 : Мудрец Аэтолия погибнет завтра
+100862 : Маленькая ложь честного кота
+100863 : Литературный клуб
+100864 : Ржавый ключ
+100865 : Маска воспоминаний
+100866 : Клинок Пурпурного Они
+100867 : Клинок Багрового Они
+100868 : Гадальный листок
+100869 : Гадальный листок
+100870 : Гадальный листок
+100871 : Гадальный листок
+100872 : Гадальный листок
+100873 : Гадальный листок
+100874 : Гадальный листок
+100875 : Подарок Чану Девятому
+100876 : Подарок Чжэнь Юю
+100880 : Ключ от клетки
+100881 : Металлический ключ
+100882 : Письмо Ацуко
+100883 : Нечитаемая гадальная палочка
+100884 : Помятая записка
+100885 : Изысканный шёлк
+100886 : Особый рецепт: Грибная пицца
+100887 : 
+100888 : 
+100889 : Особая острая курица на пару шеф-повара Мао
+100890 : Заметки
+100891 : Пожелтевшее письмо
+100892 : Онигири Вахида
+100893 : Записка из «Фейерверков Наганохары»
+100894 : Жемчужина духа
+100895 : Ключ бездны, омытой луной
+100896 : Странная бутылка воды
+100897 : Вода, наполненная желаниями
+100898 : Вода для волшебной травы
+100899 : Письмо Риндзо
+100900 : Знак Риндзо
+100901 : Спрятанная книга учёта
+100902 : Приглашение в чайный дом «Коморэ»
+100903 : Любовное письмо?
+100904 : Приготовленное мясо
+100905 : Сценарий «Седьмого самурая»
+100906 : 
+100907 : Чей-то листок
+100908 : Гадальная палочка
+100909 : Гадальная палочка
+100910 : Гадальная палочка
+100911 : Гадальная палочка
+100912 : Гадальная палочка
+100913 : Гадальная палочка
+100914 : Гадальная палочка
+100915 : 
+100916 : Письмо с лёгким ароматом духов
+100917 : Подорожная грамота
+100918 : Письмо Кудзё Камадзи
+100919 : Коробочка с лакомствами
+100920 : Тусклая золотая уздечка
+100921 : Золотая уздечка
+100922 : Фрагмент Поводьев воскрешения (Теснина)
+100923 : Фрагмент Поводьев воскрешения (Храм)
+100924 : Фрагмент Поводьев воскрешения (Сердце змея)
+100925 : Поводья воскрешения
+100926 : Подношение Теснины
+100927 : Подношение Храма
+100928 : Подношение Сердца змея
+100929 : Змей и драконы из Токоёкоку
+100930 : Протокол испытаний вишапов глубин
+100931 : До солнца и луны
+100932 : Гидрологические исследования в Бякуякоку
+100933 : На свету, под тенями
+100934 : Знак-ключ
+100935 : Знак-ключ
+100936 : Знак-ключ
+100937 : Знак-ключ
+100938 : Знак-ключ
+100939 : Кровавый коралл
+100940 : Божественная уздечка
+100941 : Свидетельство одобрения Датэ
+100942 : Свидетельство одобрения Датэ
+100943 : Ключ от тайной комнаты
+100944 : Воды Реки забвения
+100945 : Жемчужина Драконьего цветка
+100946 : Ключ от чего-то
+100947 : Ключ от чего-то
+100948 : Ключ от чего-то
+100949 : Высушенный на солнце цветок-сахарок
+100950 : Странное перо
+100951 : Маусиро
+100952 : Маусиро
+100953 : 
+100954 : 
+100955 : Порабощённый Татаригами оникабуто
+100956 : Недостающая деталь
+100957 : Погребальная маска
+100958 : Ущелье Мусодзин - Жемчужина каменного столпа
+100959 : Ущелье Мусодзин - Самоцвет-оберег каменного столпа
+100960 : Голова змея - Жемчужина каменного столпа
+100961 : Голова змея - Самоцвет-оберег каменного столпа
+100962 : Шахта Дзякоцу - Жемчужина каменного столпа
+100963 : Шахта Дзякоцу - Самоцвет-оберег каменного столпа
+100964 : Форт Мумэи - Жемчужина каменного столпа
+100965 : Форт Мумэи - Самоцвет-оберег каменного столпа
+100966 : Семена наку
+100967 : Отменное цельномороженое мясо
+100968 : Мясной гуляш с пылу с жару
+100969 : Письмо из дома
+100970 : Потрёпанное письмо
+100971 : Дневник травника (I)
+100972 : Дневник травника (II)
+100973 : Дневник травника (III)
+100974 : Вскрытое письмо
+100975 : Предсмертная записка Инабы Тосабуро Кюдзо
+100976 : Звёздная жемчужина
+100977 : Каменная плита
+100978 : Карта пушки Камуйдзима
+100979 : Секретные записки
+100980 : Высококачественный рис
+100981 : Ароматный рисовый пудинг
+100982 : Проглоченные Анемо слаймом побеги бамбука
+100983 : Тофу «Вэньсинь» с пылу с жару
+100984 : Сумка с окаменелостями
+100985 : Ключ от сокровищницы
+100986 : Потрёпанный дневник
+100987 : Помятая записка
+100988 : Изображение острова Сэйрай
+100989 : Изображение острова Сэйрай (II)
+100990 : Изображение острова Сэйрай (III)
+100991 : Изображение острова Сэйрай (IV)
+100992 : Карта сокровищ Фудзивара Тосико
+100993 : Пачка бобов
+100994 : 
+100995 : Фото с правой стороны
+100996 : Фото с левой стороны
+100997 : Низкопробное звёздное серебро
+100998 : Качественное звёздное серебро
+100999 : Ключ
+101000 : Коробка с одеждой
+101001 : Обломок железа
+101002 : Обломок белого железа
+101003 : Обломок кристалла
+101004 : Магический кристальный обломок
+101005 : Алый кварц
+101006 : Руда звёздного серебра
+101007 : Алый кварц
+101008 : Кусок аметиста
+101101 : Заготовка одноручного меча северянина
+101102 : Заготовка лука северянина
+101103 : Заготовка двуручного меча северянина
+101104 : Заготовка катализатора северянина
+101105 : Заготовка копья северянина
+101106 : Меч Северянина
+101107 : Лук Северянина
+101108 : Двуручный меч Северянина
+101109 : Катализатор Северянина
+101110 : Копьё Северянина
+101201 : Оникабуто
+101202 : Цвет сакуры
+101203 : Кристальный костный мозг
+101204 : Кровоцвет
+101205 : Трава наку
+101206 : Морской гриб
+101207 : Жемчужина Санго
+101208 : Плод облачной травы
+101209 : Светящийся гриб
+101210 : Морская водоросль
+101211 : Фиалковая дыня
+101212 : Гриб-звезда
+101301 : Берёза
+101302 : Цуйхуа
+101303 : Сосна
+101304 : Песчаное дерево
+101305 : Бамбук
+101306 : 
+101307 : Ароматный кедр
+101308 : Пихта
+101309 : Юмэмиру
+101310 : Клён
+101311 : Аралия
+101312 : Отоги
+101401 : Ткань
+101402 : Красная краска
+101403 : Жёлтая краска
+101404 : Синяя краска
+101501 : Вырванная страница - «Рассказы улицы Токи» (Пролог)
+101502 : Вырванная страница - «Рассказы улицы Токи» (I)
+101503 : Вырванная страница - «Рассказы улицы Токи» (II)
+101504 : Вырванная страница - «Рассказы улицы Токи» (III)
+101505 : Вырванная страница - «Рассказы улицы Токи» (IV)
+101506 : Вырванная страница - «Рассказы улицы Токи» (V)
+101507 : Рассказы улицы Токи (Пролог)
+101508 : Рассказы улицы Токи (I)
+101509 : Рассказы улицы Токи (II)
+101510 : Рассказы улицы Токи (III)
+101511 : Рассказы улицы Токи (IV)
+101512 : Рассказы улицы Токи (V)
+101513 : Пропуск
+101514 : Молоко с данго
+101515 : Допуск обители
+101516 : （test）暂借的留影机
+101517 : Особый цвет сакуры
+101518 : Краб Громовой сакуры
+101519 : Свежие водоросли
+101520 : Свежий цвет сакуры
+101521 : Свежий львиный зев
+101522 : Свежее яйцо
+101523 : Новые хроники шести кицунэ: Предисловие
+101524 : Новые хроники шести кицунэ (I)
+101525 : Новые хроники шести кицунэ (II)
+101526 : Новые хроники шести кицунэ (III)
+101527 : Новые хроники шести кицунэ (IV)
+101528 : Хроники Сангономии
+101529 : Войны Хамаварана (Предисловие)
+101530 : Войны Хамаварана (I)
+101531 : Войны Хамаварана (II)
+101532 : Легенда о клинке (I)
+101533 : Легенда о клинке (II)
+101534 : Легенда о клинке (III)
+101535 : Легенда о клинке (IV)
+101536 : Легенда о клинке (V)
+101537 : Указания по очищению Священной сакуры
+101538 : Свежий гриб
+101539 : Приманка для крабов
+101540 : Чей-то дневник. Часть V. Остров Дзинрэн
+101541 : Дневники Роальда, искателя приключений: Остров Рито
+101542 : Омамори Великого храма Наруками
+101543 : Официальный документ комиссии Тэнрё
+101544 : Секретное письмо комиссии Тэнрё
+101545 : Большой фейерверк
+101546 : Особая магическая кристальная руда
+101547 : Рудный шлак
+101548 : Мина, принцесса павшего народа. Том I
+101549 : Мина, принцесса павшего народа. Том II
+101550 : Мина, принцесса павшего народа. Том III
+101551 : Мина, принцесса павшего народа. Том IV
+101552 : Мина, принцесса павшего народа. Том V
+101553 : Мина, принцесса павшего народа. Том VI
+101554 : Цветы для принцессы Фишль. Том 0
+101555 : 
+101556 : 
+101557 : 
+101558 : Путеводитель по Тейвату. Инадзума
+101559 : Дрейфующая бутылка с письмом
+101560 : Онибудо
+101561 : Омамори Великого храма Наруками
+101570 : Счастливый омамори
+101571 : Коробка гвоздей
+101572 : Деревянная доска
+101573 : Верёвка
+101574 : 
+101575 : Ароматическое саше Кито
+101576 : Фрагмент карты сокровищ
+101577 : Фрагмент карты сокровищ
+101578 : Фрагмент карты сокровищ
+101579 : Фрагмент карты сокровищ
+101580 : Оставленная для Ситоки карта сокровищ
+101581 : Амулет Макири
+101582 : Компонент направленной проводимости общего назначения
+101583 : Ржавый ключ
+101584 : Тяжёлый ключ
+101585 : Неповреждённый ключ
+101586 : Письмо Сумиды
+101587 : Новая модель фейерверка
+101588 : Новые хроники шести кицунэ (V)
+101589 : Чек Банка северного королевства
+101590 : Карта сокровищ с каракулями
+101591 : «Бодрящее кошачье лакомство» Анны Киминами
+101592 : Камень с Аутакэ
+101593 : Компонент направленной проводимости общего назначения
+101594 : Компонент направленной проводимости общего назначения
+101595 : Компонент направленной проводимости общего назначения
+101596 : Предварительное исследование народных верований Сангономии
+101597 : Краткая биография жрицы Моун
+101598 : Дебаты по теме «Наместник Востока»
+101599 : Странные теории Киёсикэн Синкагэути. Том I
+101600 : Таинственная каменная табличка
+101601 : Дневники Роальда, искателя приключений: Остров Цуруми
+101602 : Свежая птица
+101603 : Свежая рыба
+101604 : Мешок с ненужными вещами
+101605 : Отремонтированный гребень
+101606 : Загадочная брошюра
+101607 : Строгий распорядок дня
+101608 : Простой распорядок дня
+101609 : Руда осколков звёзд
+101610 : Суброзий
+101611 : Ядро чудес
+101612 : Талисман Адептов
+101613 : Летопись перемен деревни
+101614 : Потрёпанный дневник
+101615 : Горные беседы
+101616 : Аккуратное письмо
+101617 : Бутылка малыша Мэна
+101618 : Светоносный камень
+101619 : Записка Му Нина
+101620 : Фрагмент карты сокровищ
+101621 : Карта сокровищ Похитителей сокровищ
+101622 : Ключ безопасности склада А
+101623 : Ключ безопасности склада Б
+101624 : Ядра горовзрывателя
+101625 : Особая эссенция неподвижности
+101626 : Ключ от Каменного зала
+101627 : Фотография странного камня
+101628 : Рекомендательное письмо академии Сумеру
+101629 : Жемчужина Бездны
+101630 : Железный ключ
+101631 : Ключ шахтёра
+101632 : Благословения мудрости
+101633 : Снаряды горовзрывателя с детонатором
+101634 : Кукла
+101635 : Цветок созерцания
+101636 : Парящее перо
+101637 : Солнечные часы эпох
+101638 : Общий кубок
+101639 : Шлем защиты
+101640 : Копьё соратника
+101641 : Латунное кольцо
+101642 : Староцвет
+101643 : Сухое семя
+101644 : Светоносная руда
+101645 : Бутылка Юэ Чуаня
+101648 : Товары Хирайдзуми
+101649 : Ключ от камеры
+101650 : Свежесорванная лилия калла
+101651 : Свежесорванная трава-светяшка
+101652 : Свежесорванная сесилия
+101654 : Ядро руинного механизма
+101655 : Ключ Датэ
+101656 : Груда фиалковых дынь
+101657 : Воскуренные благовония
+101658 : 
+101659 : Особый магический куб
+101660 : Подсунутая записка
+101661 : Особая гадальная палочка
+101662 : Последний приказ
+101663 : Бумажный пакет для одежды
+101664 : Особый гадальный листок
+101665 : Странный предмет
+101666 : Карта расположения скалистых затворов
+101667 : Лёгкий кошелёк с морой
+101668 : Увесистый кошелёк с морой
+101669 : Превосходная рыба
+101670 : Письмо, написанное аккуратным почерком
+101671 : Письмо Юнь Цзинь
+101672 : Письмо Людочки
+101673 : Людочкин кошелёк с морой
+101674 : Список кодовых фраз Фатуи
+101675 : Невесомый кошелёк
+101676 : Подарок Марджори
+101677 : Подарок Виктора
+101678 : Свежие волчьи крюки
+101679 : Подпись Людочки
+101680 : Змей и драконы из Токоёкоку
+101681 : До солнца и луны
+101682 : Гидрологические исследования в Бякуякоку
+101683 : Протокол испытаний вишапов глубин
+101684 : На свету, под тенями
+101685 : «Удивительные приключения путешественника»
+101686 : «Удивительные приключения путешественника»
+101687 : «Удивительные приключения путешественника»
+101688 : «Удивительные приключения путешественника»
+101689 : 
+101690 : Записка Му Нина
+101691 : Кристалл глазурного льда
+101692 : Печать Мира света
+101693 : Ядро Мира света
+101694 : Окровавленный шеврон сержанта
+101695 : Записка младшего сержанта Николая
+101696 : Дневник младшего сержанта Николая
+101697 : Кошелёк с морой
+101698 : «Правдивое руководство по вызову духов»
+101699 : Сакура грёз
+101700 : Глубинная костная руда
+101701 : Бобы Токоё
+101702 : Самоцвет доспеха
+101703 : Сломанное украшение
+101704 : Сломанное украшение
+101706 : Карта Цуми
+101707 : Хакуэн Митимицу Амэнома
+101708 : Ключ от деревянной клетки
+101709 : Повреждённая каменная плита
+101710 : Таинственная каменная плита
+101711 : Записка Янь Бо
+101712 : Письмо Николая
+101713 : 
+101714 : Ароматные приправы
+101715 : Ароматные вегетарианские мидии
+101719 : Ароматный мятный салат
+101720 : Ароматный суп «Три вкуса»
+101724 : Письмо Чжи Цюн
+101725 : Расписание прибытия
+101726 : Отчёт о Пяти Касэн
+101727 : Великолепие Пяти Касэн: Суико
+101728 : Великолепие Пяти Касэн: Аои но Окина
+101729 : Великолепие Пяти Касэн: Акахито
+101730 : Великолепие Пяти Касэн: Сумидзомэ
+101731 : Великолепие Пяти Касэн: Сумидзомэ
+101732 : Древний кузнечный чертёж
+101733 : Письмо Каэдэхара Ёсинори
+101734 : Рукопись Талиесина
+101737 : Ароматные обжаренные креветки
+101738 : Ароматные шарики с креветкой
+101739 : Ароматная «Сельская услада»
+101740 : Ароматный чёрный окунь
+101741 : Ароматное жаренное в воке мясо
+101742 : Ароматная жареная рыба-тигр
+101743 : Ароматный крабовый тофу
+101744 : Ароматный золотистый краб
+101745 : Ароматный суп из украшений
+101746 : Ароматный свиной суп с бамбуком
+101747 : Ароматная лапша «Дары гор»
+101748 : Ароматная лепёшка «Мора»
+101749 : Ароматная жареная рыба с лапшой
+101750 : Ароматное «Благоденствие»
+101751 : Ароматные рисовые пампушки
+101752 : Ароматный миндальный тофу
+101753 : Ароматное печенье лотоса
+101754 : Зарплата Саю
+101755 : Статуэтка её превосходительства Наруками Огосё, Электро Архонта
+101756 : Список покупок Кокоми
+101757 : Игрушечная лиса
+101766 : Легенда о клинке (IV)
+101767 : Реинкарнация в непобедимого сёгуна Райдэн
+101768 : Пожалуйста, Кицунэ Гудзи
+101769 : Вперёд, Додоко!
+101782 : Суп Цзинь У
+101783 : 
+101784 : 
+101785 : 
+101786 : 
+101787 : 
+101788 : 
+101789 : 
+101790 : 
+101791 : 
+101792 : 
+101793 : 
+101794 : 
+101795 : Сумка с украшениями
+101797 : Вперёд, Додоко!
+102001 : Осколок Пиро
+102002 : Осколок Гидро
+102003 : Осколок Дендро
+102004 : Осколок Электро
+102005 : Осколок Анемо
+102006 : Осколок Крио
+102007 : Осколок Гео
+102008 : Первобытный элементальный осколок
+103001 : Пиро Дзикака
+103002 : Гидро Дзикака
+103003 : Дендро Дзикака
+103004 : Электро Дзикака
+103005 : Анемо Дзикака
+103006 : Крио Дзикака
+103007 : Гео Дзикака
+103008 : Обычная Дзикака
+104001 : Опыт странника
+104002 : Опыт искателя приключений
+104003 : Опыт героя
+104011 : Обычная руда усиления
+104012 : Превосходная руда усиления
+104013 : Волшебная руда усиления
+104101 : Осколок бриллианта
+104102 : Фрагмент бриллианта
+104103 : Кусок бриллианта
+104104 : Драгоценный бриллиант
+104111 : Осколок агата Агнидус
+104112 : Фрагмент агата Агнидус
+104113 : Кусок агата Агнидус
+104114 : Драгоценный агат Агнидус
+104121 : Осколок лазурита Варунада
+104122 : Фрагмент лазурита Варунада
+104123 : Кусок лазурита Варунада
+104124 : Драгоценный лазурит Варунада
+104131 : Осколок изумруда Нагадус
+104132 : Фрагмент изумруда Нагадус
+104133 : Кусок изумруда Нагадус
+104134 : Драгоценный изумруд Нагадус
+104141 : Осколок аметиста Ваджрада
+104142 : Фрагмент аметиста Ваджрада
+104143 : Кусок аметиста Ваджрада
+104144 : Драгоценный аметист Ваджрада
+104151 : Осколок бирюзы Вайюда
+104152 : Фрагмент бирюзы Вайюда
+104153 : Кусок бирюзы Вайюда
+104154 : Драгоценная бирюза Вайюда
+104161 : Осколок нефрита Шивада
+104162 : Фрагмент нефрита Шивада
+104163 : Кусок нефрита Шивада
+104164 : Драгоценный нефрит Шивада
+104171 : Осколок топаза Притхива
+104172 : Фрагмент топаза Притхива
+104173 : Кусок топаза Притхива
+104174 : Драгоценный топаз Притхива
+104201 : Пыль Азота
+104301 : Учения о «Свободе»
+104302 : Указания о «Свободе»
+104303 : Философия о «Свободе»
+104304 : Учения о «Борьбе»
+104305 : Указания о «Борьбе»
+104306 : Философия о «Борьбе»
+104307 : Учения о «Поэзии»
+104308 : Указания о «Поэзии»
+104309 : Философия о «Поэзии»
+104310 : Учения о «Процветании»
+104311 : Указания о «Процветании»
+104312 : Философия о «Процветании»
+104313 : Учения об «Усердии»
+104314 : Указания об «Усердии»
+104315 : Философия об «Усердии»
+104316 : Учения о «Золоте»
+104317 : Указания о «Золоте»
+104318 : Философия о «Золоте»
+104319 : Корона прозрения
+104320 : Учения о «Бренности»
+104321 : Указания о «Бренности»
+104322 : Философия о «Бренности»
+104323 : Учения об «Изяществе»
+104324 : Указания об «Изяществе»
+104325 : Философия об «Изяществе»
+104326 : Учения о «Свете»
+104327 : Указания о «Свете»
+104328 : Философия о «Свете»
+105001 : Священная Капля
+105002 : Священное масло
+105003 : Священная эссенция
+105004 : Священная Эссенция
+106000 : 测试用体力成长道具
+106001 : 测试用体力临时增长道具
+107001 : Анемокул
+107002 : Элементальная пыль
+107003 : Геокул
+107004 : Набор сокровищ
+107005 : Сундук с Большим мечом небесного всадника
+107006 : Ключ от Усыпальницы глубин Мондштадта
+107007 : Ключ от Усыпальницы глубин Ли Юэ
+107008 : Ключ от Усыпальницы глубин Инадзумы
+107009 : Слабая смола
+107010 : Багровый агат
+107011 : Багровый агат (Демонстрация)
+107012 : Переходная смола
+107013 : Флакон скорости Адепта
+107014 : Электрокул
+107015 : Амулет Лунной охоты
+107016 : Светоносный кристалл
+108000 : Еда
+108001 : Странный рыбацкий бутерброд
+108002 : Рыбацкий бутерброд
+108003 : Вкусный рыбацкий бутерброд
+108004 : Странная яичница по-тейватски
+108005 : Яичница по-тейватски
+108006 : Вкусная яичница по-тейватски
+108007 : Странный мясной стейк
+108008 : Мясной стейк
+108009 : Вкусный мясной стейк
+108010 : Стейк скаута-чемпиона!
+108011 : Странный куриный шашлычок с грибами
+108012 : Куриный шашлычок с грибами
+108013 : Вкусный куриный шашлычок с грибами
+108014 : Фруктовые шашлыки
+108015 : Странная паста с томатным соусом
+108016 : Паста с томатным соусом
+108017 : Вкусная паста с томатным соусом
+108018 : Волшебная паста в томатном соусе
+108019 : Странный овощной суп
+108020 : Овощной суп
+108021 : Вкусный овощной суп
+108022 : Странные блинчики к чаю
+108023 : Блинчики к чаю
+108024 : Вкусные блинчики к чаю
+108025 : Странные редисовые шарики
+108026 : Редисовые шарики
+108027 : Вкусные редисовые шарики
+108028 : Странный питательный салат
+108029 : Питательный салат
+108030 : Вкусный питательный салат
+108031 : Странный цыплёнок в медовом соусе
+108032 : Цыплёнок в медовом соусе
+108033 : Вкусный цыплёнок в медовом соусе
+108034 : Странный копчёный цыплёночек
+108035 : Копчёный цыплёночек
+108036 : Вкусный копчёный цыплёночек
+108037 : Странное сливочное рагу
+108038 : Сливочное рагу
+108039 : Вкусное сливочное рагу
+108040 : Острое рагу
+108041 : Странная грибная пицца
+108042 : Грибная пицца
+108043 : Вкусная грибная пицца
+108044 : Бодрящая пицца
+108045 : Странные мондштадтские оладушки
+108046 : Мондштадтские оладушки
+108047 : Вкусные мондштадтские оладушки
+108048 : Картофельные оладьи «Волчьи лапки»
+108049 : Странный суп с морепродуктами
+108050 : Суп с морепродуктами
+108051 : Вкусный суп с морепродуктами
+108052 : Странные обжаренные мацутакэ
+108053 : Обжаренные мацутакэ
+108054 : Вкусные обжаренные мацутакэ
+108055 : Странная «Расти гора»
+108056 : «Расти гора»
+108057 : Вкусная «Расти гора»
+108058 : «Однажды в Мондштадте»
+108059 : Странное мясное ассорти
+108060 : Мясное ассорти
+108061 : Вкусное мясное ассорти
+108062 : Странное медовое мясо с морковкой
+108063 : Медовое мясо с морковкой
+108064 : Вкусное медовое мясо с морковкой
+108065 : Странная сборная запеканка
+108066 : Сборная запеканка
+108067 : Вкусная сборная запеканка
+108068 : Странные «Нефритовые мешочки»
+108069 : «Нефритовые мешочки»
+108070 : Вкусные «Нефритовые мешочки»
+108071 : Странная требуха «Чжун Юань»
+108072 : Требуха «Чжун Юань»
+108073 : Вкусная требуха «Чжун Юань»
+108074 : Странный чёрный окунь
+108075 : Чёрный окунь
+108076 : Вкусный чёрный окунь
+108077 : Странная рыба-белка
+108078 : Рыба-белка
+108079 : Вкусная рыба-белка
+108080 : Странный миндальный тофу
+108081 : Миндальный тофу
+108082 : Вкусный миндальный тофу
+108083 : Странная острая курица на пару
+108084 : Острая курица на пару
+108085 : Вкусная острая курица на пару
+108086 : Странный суп из украшений
+108087 : Суп из украшений
+108088 : Вкусный суп из украшений
+108089 : Странные голубцы с грибами
+108090 : Голубцы с грибами
+108091 : Вкусные голубцы с грибами
+108092 : Странная лепёшка «Мора»
+108093 : Лепёшка «Мора»
+108094 : Вкусная лепёшка «Мора»
+108095 : Странный рыбный шашлычок
+108096 : Рыбный шашлычок
+108097 : Вкусный рыбный шашлычок
+108098 : Странное жаренное в воке мясо
+108099 : Жаренное в воке мясо
+108100 : Вкусное жаренное в воке мясо
+108101 : Странный золотистый краб
+108102 : Золотистый краб
+108103 : Вкусный золотистый краб
+108104 : Странные кристальные баоцзы
+108105 : Кристальные баоцзы
+108106 : Вкусные кристальные баоцзы
+108107 : Странная жареная рыба-тигр
+108108 : Жареная рыба-тигр
+108109 : Вкусная жареная рыба-тигр
+108110 : Странная солянка Архонта
+108111 : Солянка Архонта
+108112 : Вкусная солянка Архонта
+108113 : Анемо солянка
+108114 : Высшая мудрость (Жизнь)
+108115 : Рыбный бутерброд
+108116 : Тейватская хрустящая яичница
+108117 : Благословенная симфония
+108118 : Невесомые блинчики
+108119 : Странный яичный суп из лотоса
+108120 : Яичный суп из лотоса
+108121 : Вкусный яичный суп из лотоса
+108122 : Странное «Искушение Адепта»
+108123 : «Искушение Адепта»
+108124 : Вкусное «Искушение Адепта»
+108125 : Странные шарики с креветкой
+108126 : Шарики с креветкой
+108127 : Вкусные шарики с креветкой
+108128 : Странная «Сельская услада»
+108129 : «Сельская услада»
+108130 : Вкусная «Сельская услада»
+108131 : Странная налетайка
+108132 : Налетайка
+108133 : Вкусная налетайка
+108134 : Точно не закуска!
+108135 : Фирменная отварная рыба
+108136 : Деликатесные мешочки
+108137 : «Сладкий сон»
+108138 : Обжаренные ломтики мяса
+108139 : Лепёшка «Инь Ян»
+108140 : Блюдо без будущего
+108141 : Странная лапша «Дары гор»
+108142 : Лапша «Дары гор»
+108143 : Вкусная лапша «Дары гор»
+108144 : Холодная лапша «Дары гор»
+108145 : Спасительная рыбка
+108146 : Питательное разнообразие
+108147 : Святая вода
+108148 : Пиала чая
+108149 : Сок из волчьих крюков
+108150 : Ягодный напиток с мятой
+108151 : Яблочный напиток
+108152 : Странный свиной суп с бамбуком
+108153 : Свиной суп с бамбуком
+108154 : Вкусный свиной суп с бамбуком
+108155 : Странный суп «Три вкуса»
+108156 : Суп «Три вкуса»
+108157 : Вкусный суп «Три вкуса»
+108158 : Странное мясо «Тяньшу»
+108159 : Мясо «Тяньшу»
+108160 : Вкусное мясо «Тяньшу»
+108161 : Странное печенье лотоса
+108162 : Печенье лотоса
+108163 : Вкусное печенье лотоса
+108164 : Странный лунный пирог
+108165 : Лунный пирог
+108166 : Вкусный лунный пирог
+108167 : Странная яичная крепость
+108168 : Яичная крепость
+108169 : Вкусная яичная крепость
+108170 : Странное тушёное мясо с яблоками
+108171 : Тушёное мясо с яблоками
+108172 : Вкусное тушёное мясо с яблоками
+108173 : Томлёный свиной суп с бамбуком
+108174 : Рокерская курятина!
+108175 : Экстремальная рыбалка
+108176 : Странный крабовый тофу
+108177 : Крабовый тофу
+108178 : Вкусный крабовый тофу
+108179 : Странная полнолунная яичница
+108180 : Полнолунная яичница
+108181 : Вкусная полнолунная яичница
+108182 : Странная ветчина на сковороде
+108183 : Ветчина на сковороде
+108184 : Вкусная ветчина на сковороде
+108185 : Странная жареная лапша с рыбой
+108186 : Жареная лапша с рыбой
+108187 : Вкусная жареная рыба с лапшой
+108188 : Странные вегетарианские мидии
+108189 : Вегетарианские мидии
+108190 : Вкусные вегетарианские мидии
+108191 : Странные деликатесы скалистой гавани
+108192 : Деликатесы скалистой гавани
+108193 : Вкусные деликатесы скалистой гавани
+108194 : Странные обжаренные креветки
+108195 : Обжаренные креветки
+108196 : Вкусные обжаренные креветки
+108197 : Странные рисовые пампушки
+108198 : Рисовые пампушки
+108199 : Вкусные рисовые пампушки
+108200 : «Призрачный марш»
+108201 : Странное «Благоденствие»
+108202 : «Благоденствие»
+108203 : Вкусное «Благоденствие»
+108204 : Странное томатное рагу
+108205 : Томатное рагу
+108206 : Вкусное томатное рагу
+108207 : Странная солнечная рыба
+108208 : Солнечная рыба
+108209 : Вкусная солнечная рыба
+108210 : Странный заоблачный гоба
+108211 : Заоблачный гоба
+108212 : Вкусный заоблачный гоба
+108213 : «Мир и процветание»
+108214 : «Лесной сон»
+108215 : Особая жареная рыба-тигр Праздника морских фонарей
+108216 : Особые редисовые шарики Праздника морских фонарей
+108217 : Особый яичный суп из лотоса Праздника морских фонарей
+108218 : Особый суп из украшений Праздника морских фонарей
+108219 : Особая лапша «Дары гор» Праздника морских фонарей
+108220 : Особая налетайка Праздника морских фонарей
+108221 : Особый суп «Три вкуса» Праздника морских фонарей
+108222 : Странные хрустящие креветки с картофелем
+108223 : Хрустящие креветки с картофелем
+108224 : Вкусные хрустящие креветки с картофелем
+108225 : Странное мятное желе
+108226 : Мятное желе
+108227 : Вкусное мятное желе
+108228 : Странный мятный салат
+108229 : Мятный салат
+108230 : Вкусный мятный салат
+108231 : Странные мясные рулетики с мятой
+108232 : Мясные рулетики с мятой
+108233 : Вкусные мясные рулетики с мятой
+108234 : Судный ужин
+108235 : Странная курочка «Пальчики оближешь!»
+108236 : Курочка «Пальчики оближешь!»
+108237 : Вкусная курочка «Пальчики оближешь!»
+108238 : Странный гамбургер с хрустящей курицей
+108239 : Гамбургер с хрустящей курицей
+108240 : Вкусный гамбургер с хрустящей курицей
+108241 : Странное ароматное пюре
+108242 : Ароматное пюре
+108243 : Вкуснейшее ароматное пюре
+108244 : «Особое мнение»
+108245 : Пирог прибоя
+108246 : Странный куриный тофу
+108247 : Куриный тофу
+108248 : Вкусный куриный тофу
+108249 : Странные суши с тунцом
+108250 : Суши с тунцом
+108251 : Вкусные суши с тунцом
+108252 : Странное трёхцветное данго
+108253 : Трёхцветное данго
+108254 : Вкусное трёхцветное данго
+108255 : Странные онигири
+108256 : Онигири
+108257 : Вкусные онигири
+108258 : Странное ассорти из сашими
+108259 : Ассорти из сашими
+108260 : Вкусное ассорти из сашими
+108261 : Странный тонкоцу рамэн
+108262 : Тонкоцу рамэн
+108263 : Вкусный тонкоцу рамэн
+108264 : Странный яичный рулет
+108265 : Яичный рулет
+108266 : Вкусный яичный рулет
+108267 : Странная вяленая рыба на углях
+108268 : Вяленая рыба на углях
+108269 : Вкусная вяленая рыба на углях
+108270 : Странный краб в масле
+108271 : Краб в масле
+108272 : Вкусный краб в масле
+108273 : Странные тройные шашлычки
+108274 : Тройные шашлычки
+108275 : Вкусные тройные шашлычки
+108276 : Странный мисо-суп
+108277 : Мисо-суп
+108278 : Вкусный мисо-суп
+108279 : Странная птица по-заморски
+108280 : Птица по-заморски
+108281 : Вкусная птица по-заморски
+108282 : Странные моти с сакурой
+108283 : Моти с сакурой
+108284 : Вкусные моти с сакурой
+108285 : Странное рагу Конды
+108286 : Рагу Конды
+108287 : Вкусное рагу Конды
+108288 : Странный суп одзони
+108289 : Суп одзони
+108290 : Вкусный суп одзони
+108291 : Странная якисоба
+108292 : Якисоба
+108293 : Вкусная якисоба
+108294 : Странный крабовый кораяки
+108295 : Крабовый кораяки
+108296 : Вкусный крабовый кораяки
+108297 : Странная тэмпура с сакурой
+108298 : Тэмпура с сакурой
+108299 : Вкусная тэмпура с сакурой
+108300 : «Снег на горне»
+108301 : Всепогодная красота
+108302 : Рыба праздника лета
+108303 : Техника избавления от дурноты
+108304 : Особая грибная пицца
+108305 : Молоко с данго
+108306 : Странный рисовый пудинг
+108307 : Рисовый пудинг
+108308 : Вкусный рисовый пудинг
+108309 : Странный мясной гуляш
+108310 : Мясной гуляш
+108311 : Вкусный мясной гуляш
+108312 : Странный тофу «Вэньсинь»
+108313 : Тофу «Вэньсинь»
+108314 : Вкусный тофу «Вэньсинь»
+108315 : Странные острые хлебцы
+108316 : Острые хлебцы
+108317 : Вкусные острые хлебцы
+108318 : Странное бодрящее кошачье лакомство
+108319 : Бодрящее кошачье лакомство
+108320 : Вкусное бодрящее кошачье лакомство
+108321 : Странные суши с креветками
+108322 : Суши с креветками
+108323 : Вкусные суши с креветками
+108324 : Странные яичные суши
+108325 : Яичные суши
+108326 : Вкусные яичные суши
+108327 : Странный рисовый омлет
+108328 : Рисовый омлет
+108329 : Вкусный рисовый омлет
+108330 : Странный тайяки
+108331 : Тайяки
+108332 : Вкусный тайяки
+108333 : Странный жареный тото
+108334 : Жареный тото
+108335 : Вкусный жареный тото
+108336 : Странный угорь-кабаяки
+108337 : Угорь-кабаяки
+108338 : Вкусный угорь-кабаяки
+108339 : Сытный студень
+108340 : Стратегия неожиданности
+108341 : Вечная вера
+108342 : Странное рагу из редиса и рыбы
+108343 : Рагу из редиса и рыбы
+108344 : Вкусное рагу из редиса и рыбы
+108345 : Странный вакатакэни
+108346 : Вакатакэни
+108347 : Вкусный вакатакэни
+108348 : Странный ягодный мидзу мандзю
+108349 : Ягодный мидзу мандзю
+108350 : Вкусный ягодный мидзу мандзю
+108351 : Странная соба
+108352 : Соба
+108353 : Вкусная соба
+108354 : «Теплота»
+108355 : Странный унаги тядзукэ
+108356 : Унаги тядзукэ
+108357 : Вкусный унаги тядзукэ
+108358 : Странные пять драгоценных солений
+108359 : Пять драгоценных солений
+108360 : Вкусные пять драгоценных солений
+108361 : Странные креветочные печенья сакуры
+108362 : Креветочные печенья сакуры
+108363 : Вкусные креветочные печенья сакуры
+108364 : Путь силача
+108365 : Победоносная легенда
+108366 : Странное благополучие и процветание
+108367 : Благополучие и процветание
+108368 : Вкусное благополучие и процветание
+108369 : Странная лапша «Борода дракона»
+108370 : Лапша «Борода дракона»
+108371 : Вкусная лапша «Борода дракона»
+108372 : Сердечная лапша
+108373 : Окутанный облаками нефрит
+108374 : Странное рагу отшельника
+108375 : Рагу отшельника
+108376 : Вкусное рагу отшельника
+108377 : Странная лапша удон
+108378 : Лапша удон
+108379 : Вкусная лапша удон
+108380 : Лапша удон на удачу
+108381 : Странный кацу-сандо
+108382 : Кацу-сандо
+108383 : Вкусный кацу-сандо
+108384 : Странная радужная астра
+108385 : Радужная астра
+108386 : Вкусная радужная астра
+108387 : Изящная безмятежность
+109000 : Ингредиенты
+109101 : Рецепт: Куриный шашлычок с грибами
+109102 : Рецепт: Рыбацкий бутерброд
+109103 : Рецепт: Паста с томатным соусом
+109104 : Рецепт: Цыплёнок в медовом соусе
+109106 : Рецепт: Суп с морепродуктами
+109107 : Рецепт: Обжаренные мацутакэ
+109201 : Рецепт: Яичница по-тейватски
+109202 : Рецепт: Копчёный цыплёночек
+109203 : Рецепт: Сливочное рагу
+109204 : Рецепт: Мясное ассорти
+109205 : Рецепт: Медовое мясо с морковкой
+109206 : Рецепт: Сборная запеканка
+109207 : Рецепт: Грибная пицца
+109301 : Рецепт: Мясной стейк
+109302 : Рецепт: Овощной суп
+109303 : Рецепт: Мондштадтские оладушки
+109304 : Рецепт: «Расти гора»
+109401 : Рецепт: Блинчики к чаю
+109402 : Рецепт: Редисовые шарики
+109403 : Рецепт: Питательный салат
+109404 : Рецепт: Нефритовые мешочки
+109405 : Рецепт: Рыбный шашлычок
+109406 : Рецепт: Лепёшка «Мора»
+109407 : Рецепт: Жаренное в воке мясо
+109408 : Рецепт: Миндальный тофу
+109409 : Рецепт: Острая курица на пару
+109410 : Рецепт: Суп из украшений
+109411 : Рецепт: Голубцы с грибами
+109412 : Рецепт: Требуха «Чжун Юань»
+109413 : Рецепт: Чёрный окунь
+109414 : Рецепт: Рыба-белка
+109415 : Рецепт: Золотистый краб
+109416 : Рецепт: Кристальные баоцзы
+109417 : Рецепт: Жареная рыба-тигр
+109418 : Рецепт: Солянка Архонта
+109419 : Рецепт: Яичный суп из лотоса
+109420 : Рецепт: «Искушение Адепта»
+109421 : Рецепт: Шарики с креветкой
+109422 : Рецепт: «Сельская услада»
+109423 : Рецепт: «Налетайка»
+109424 : Рецепт: Лапша «Дары гор»
+109425 : Рецепт: Свиной суп с бамбуком
+109426 : Рецепт: Суп «Три вкуса»
+109427 : Рецепт: Мясо «Тяньшу»
+109428 : Рецепт: Печенье лотоса
+109429 : Рецепт: Лунный пирог
+109430 : Рецепт: Яичная крепость
+109431 : Рецепт: Тушёное мясо с яблоками
+109432 : Рецепт: Крабовый тофу
+109433 : Рецепт: Полнолунная яичница
+109434 : Рецепт: Ветчина на сковороде
+109435 : Рецепт: Жареная лапша с рыбой
+109436 : Рецепт: Вегетарианские мидии
+109437 : Рецепт: Деликатесы скалистой гавани
+109438 : Рецепт: Обжаренные креветки
+109439 : Рецепт: Рисовые пампушки
+109440 : Рецепт: Томатное рагу
+109441 : Рецепт: Солнечная рыба
+109442 : Рецепт: «Благоденствие»
+109443 : Рецепт: Заоблачный гоба
+109444 : Рецепт: Хрустящие креветки с картофелем
+109445 : Рецепт: Мятное желе
+109446 : Рецепт: Мятный салат
+109447 : Рецепт: Мясные рулетики с мятой
+109448 : Рецепт: Курочка «Пальчики оближешь!»
+109449 : Рецепт: Гамбургер с хрустящей курицей
+109450 : Рецепт: Ароматное пюре
+109451 : Рецепт: Куриный тофу
+109452 : Рецепт: Суши с тунцом
+109453 : Рецепт: Трёхцветное данго
+109454 : Рецепт: Онигири
+109455 : Рецепт: Ассорти из сашими
+109456 : Рецепт: Тонкоцу рамэн
+109457 : Рецепт: Яичный рулет
+109458 : Рецепт: Вяленая рыба на углях
+109459 : Рецепт: Краб в масле
+109460 : Рецепт: Тройные шашлычки
+109461 : Рецепт: Мисо-суп
+109462 : Рецепт: Птица по-заморски
+109463 : Рецепт: Моти с сакурой
+109464 : Рецепт: Рагу Конды
+109465 : Рецепт: Суп одзони
+109466 : Рецепт: Якисоба
+109467 : Рецепт: Крабовый кораяки
+109468 : Рецепт: Тэмпура с сакурой
+109469 : Рецепт: Рисовый пудинг
+109470 : Рецепт: Мясной гуляш
+109471 : Рецепт: Тофу «Вэньсинь»
+109472 : Рецепт: Острые хлебцы
+109473 : Рецепт: Бодрящее кошачье лакомство
+109474 : Рецепт: Суши с креветками
+109475 : Рецепт: Яичные суши
+109476 : Рецепт: Рисовый омлет
+109477 : Рецепт: Тайяки
+109478 : Рецепт: Жареный тото
+109479 : Рецепт: Угорь-кабаяки
+109480 : Рецепт: Рагу из редиса и рыбы
+109481 : Рецепт: Вакатакэни
+109482 : Рецепт: Ягодный мидзу мандзю
+109483 : Рецепт: Соба
+109484 : Рецепт: Унаги тядзукэ
+109485 : Рецепт: Пять драгоценных солений
+109486 : Рецепт: Креветочные печенья сакуры
+109487 : Рецепт: Благополучие и процветание
+109488 : Рецепт: Лапша «Борода дракона»
+109489 : Рецепт: Рагу отшельника
+109490 : Рецепт: Лапша удон
+109491 : Рецепт: Кацу-сандо
+109492 : Рецепт: Радужная астра
+110000 : Созданные Предметы
+110001 : Мука
+110002 : Сметана
+110003 : Копчёная птица
+110004 : Сливочное масло
+110005 : Ветчина
+110006 : Сахар
+110008 : Варенье
+110009 : Сыр
+110010 : Бекон
+110011 : Сосиска
+110012 : Копчёная рыба
+110013 : Сушёная рыба
+111006 : Зелье теплового щита
+111007 : Зелье осушения
+111008 : Зелье морозного щита
+111009 : Зелье ветряного барьера
+111010 : Зелье изоляции
+111011 : Зелье пыленепроницаемости
+111012 : Зелье антидендро
+111013 : Пламенное масло
+111014 : Водоворотное масло
+111015 : Морозное масло
+111016 : Штормовое масло
+111017 : Громовое масло
+111018 : Монолитное масло
+111019 : Лесное масло
+111020 : Маленький красивый кристалл
+111021 : Средний красивый кристалл
+111022 : Большой красивый кристалл
+111023 : Фруктовая бражка
+111024 : Красная болтушка
+111025 : Фальшивый червь
+111026 : Фальшивая муха
+111027 : Наживка блескушка
+112001 : Первобытная эссенция
+112002 : Слизь слайма
+112003 : Выделения слайма
+112004 : Концентрат слайма
+112005 : Разбитая маска
+112006 : Грязная маска
+112007 : Зловещая маска
+112008 : Свиток божественной магии
+112009 : Свиток печати
+112010 : Свиток запретного проклятья
+112011 : Прочный наконечник стрелы
+112012 : Острый наконечник стрелы
+112013 : Старый наконечник стрелы
+112014 : Тяжёлый рог
+112015 : Чёрный бронзовый рог
+112016 : Чёрный кристаллический рог
+112017 : Мрачная статуэтка
+112018 : Тёмная статуэтка
+112019 : Смертельная статуэтка
+112020 : Ветви артерий земли
+112021 : Листья артерий земли
+112022 : Ростки артерий земли
+112023 : Устройство хаоса
+112024 : Цепь хаоса
+112025 : Ядро хаоса
+112026 : Пыльца туманной травы
+112027 : Мешочек с туманной травой
+112028 : Пучок туманной травы
+112029 : Церемониальный нож охотника
+112030 : Церемониальный нож агента
+112031 : Церемониальный нож инспектора
+112032 : Шеврон рядового
+112033 : Шеврон сержанта
+112034 : Шеврон офицера
+112035 : Печать Похитителей сокровищ
+112036 : Печать серебряного ворона
+112037 : Печать золотого ворона
+112038 : Нектар попрыгуньи
+112039 : Мерцающий нектар
+112040 : Элементальный нектар
+112041 : Хрупкие останки
+112042 : Крепкие останки
+112043 : Окаменевшие останки
+112044 : Старая гарда
+112045 : Гарда кагэути
+112046 : Прославленная гарда
+112047 : Механизм хаоса
+112048 : Ось хаоса
+112049 : Око хаоса
+112050 : Тёмная призма
+112051 : Кристальная призма
+112052 : Поляризационная призма
+112053 : Призрачная оболочка
+112054 : Призрачное сердце
+112055 : Призрачное ядро
+112056 : Скрытый коготь
+112057 : Скрытый заточенный коготь
+112058 : Скрытый дьявольский коготь
+112059 : Споры плесенника
+112060 : Светящаяся пыльца
+112061 : Пыль кристаллоцистов
+113001 : Семя урагана
+113002 : Призма молнии
+113003 : Перо из хвоста Двалина
+113004 : Коготь Двалина
+113005 : Вздох Двалина
+113006 : Хвост Борея
+113007 : Кольцо Борея
+113008 : Шкатулка с духом Борея
+113009 : Базальтовая колонна
+113010 : Инеевое ядро
+113011 : Пылающее семя
+113012 : Очищающее сердце
+113013 : Рог небесного кита
+113014 : Осколок дьявольского меча
+113015 : Тень воина
+113016 : Незрелый нефрит
+113017 : Корона лорда драконов
+113018 : Ветвь кровавой яшмы
+113019 : Позолоченная чешуя
+113020 : Цветение кристалла
+113021 : Растворитель снов
+113022 : Ядро марионетки
+113023 : Сердце бесконечного механизма
+113024 : Тлеющая жемчужина
+113025 : Расплавленный миг
+113026 : Бабочка адского пламени
+113027 : Пепельное сердце
+113028 : Роса отречения
+113029 : Штормовой жемчуг
+113030 : Эмблема Разрыва
+113031 : Ложный плавник Дракона глубин
+113032 : Мудра зловещего генерала
+113033 : Слезы очищения божества бедствий
+113034 : Смысл эонов
+113035 : Рунический клык
+114001 : Плитка башни Декарабиана
+114002 : Обломок стены Декарабиана
+114003 : Фрагмент эпоса Декарабиана
+114004 : Осколок мечты Декарабиана
+114005 : Молочный зуб арктического волка
+114006 : Треснувший зуб арктического волка
+114007 : Сломанный клык арктического волка
+114008 : Ностальгия арктического волка
+114009 : Кандалы львиного клыка
+114010 : Цепи львиного клыка
+114011 : Оковы львиного клыка
+114012 : Мечты львиного клыка
+114013 : Светящийся песок Гуюнь
+114014 : Блестящий камень Гуюнь
+114015 : Реликвия Гуюнь
+114016 : Останки богов Гуюнь
+114017 : Свинцовая пилюля Заоблачного моря
+114018 : Ртутная пилюля Заоблачного моря
+114019 : Золотая пилюля Заоблачного моря
+114020 : Примо эликсир Заоблачного моря
+114021 : Зерно чёрного сидерита
+114022 : Кусочек чёрного сидерита
+114023 : Осколок чёрного сидерита
+114024 : Обломок чёрного сидерита
+114025 : Коралловая ветвь внешних морей
+114026 : Драгоценная ветвь внешних морей
+114027 : Нефритовая ветвь внешних морей
+114028 : Золотая ветвь внешних морей
+114029 : Мудрость Наруками
+114030 : Радость Наруками
+114031 : Милость Наруками
+114032 : Доблесть Наруками
+114033 : Маска злого военачальника
+114034 : Маска тигриной пасти
+114035 : Маска однорогого
+114036 : Маска кидзин
+115001 : 
+115002 : 
+115003 : 
+115004 : 
+115005 : 
+115006 : 
+115007 : 
+115008 : 
+115009 : 
+115010 : Набор начала путешествия
+115011 : Набор дальнего путешествия
+115012 : Набор странника
+115013 : Экзотический набор
+115014 : Набор для возвышения персонажа (высший)
+115015 : Набор для возвышения персонажа (превосходный)
+115016 : Набор материалов талантов (Низ.)
+115017 : Набор добродетели
+115018 : Набор материалов талантов (Выс.)
+115019 : Набор припасов приключенца
+115020 : Набор руды приключенца
+115021 : Особый набор приключенца
+115022 : Набор обучений приключенца
+115023 : Набор закалки приключенца
+115024 : Набор материалов
+115025 : Набор полезных материалов
+115026 : Набор для возвышения оружия (Выс.)
+115027 : Набор для возвышения оружия (Превос.)
+115028 : Сборник рецептов: Экзотичные угощения
+115029 : Большой набор руды приключенца
+115030 : Специальный набор приключенца
+115031 : Шкатулка с заготовкой северянина
+115032 : Набор поддержки
+115034 : Особый сезонный набор приключений
+115035 : Специальный садовый набор Сакуи
+115037 : Подарок комиссии Ясиро
+115038 : Изысканный подарок (декор)
+115039 : Невероятный подарок (декор)
+116001 : Опыт Боевого пропуска
+116002 : Сундук Боевого пропуска
+116003 : test
+116004 : Указания царства ветров
+116005 : Философия царства ветров
+116006 : Указания каменных земель
+116007 : Философия каменных земель
+116008 : 
+116009 : 
+116010 : Указания земли грома
+116011 : Философия земли грома
+117001 : Реликварий подземелья: Ранг III
+117002 : Реликварий подземелья: Ранг II
+117003 : Реликварий подземелья: Ранг I
+117004 : Реликварий: Ансамбль и Гладиатор
+117005 : Большой реликварий: Ансамбль и Гладиатор
+117006 : Реликварий подземелья: Ранг II
+117007 : Реликварий подземелья: Ранг I
+118001 : Тортик для тебя
+118002 : Тортик для тебя
+118003 : Тортик для тебя
+118004 : Тортик для тебя
+130001 : Семена шелковицы
+130002 : Семена цветка-сахарка
+130003 : Семена сесилии
+130004 : Семена глазурной лилии
+130005 : Семена ветряной астры
+130006 : Семена цинсинь
+130007 : Семена стеклянных колокольчиков
+130008 : Семена валяшки
+130009 : Семена травы-светяшки
+130010 : Семена заоблачного перчика
+130011 : Семена моркови
+130012 : Семена редиса
+130013 : Семена мяты
+130014 : Споры гриба
+130015 : Семена наку
+130016 : Семена конского хвоста
+130017 : Семена львиного зева
+130018 : Семена лотоса
+130019 : Семена лилии калла
+130020 : Семена морской водоросли
+130021 : Образец морского гриба
+130022 : Семена «Цветы мечты: Звёздчатый гибискус»
+130023 : Семена «Цветы мечты: Грушанка»
+130024 : Семена «Цветы мечты: Шёлковый стручок»
+131000 : Оризия
+131001 : Глазурная оризия
+131002 : Сахарная оризия
+131003 : Голубая оризия
+131004 : Ловец зари
+131005 : Кристальная рыба
+131006 : Двоякодышащая колюшка
+131007 : Боевая колюшка
+131008 : Ядовитая колюшка
+131009 : Алый дьявол
+131010 : Снежный странник
+131011 : Золотой лжедракон
+131012 : Стальной лжедракон
+131013 : Бурая рыба-бабочка
+131014 : Пурпурная рыба-бабочка
+131015 : Чайная рыба-бабочка
+131016 : Вечная рыба-ангел
+131017 : Рыба-ангел раймэй
+131019 : Иглобрюх
+131020 : Горький иглобрюх
+131021 : Дивдинский скат
+131022 : Фумарольный скат
+140001 : Крылья новичка
+140002 : Крылья дружбы
+140003 : Крылья нисхождения
+140004 : Крылья лазурного неба
+140005 : Крылья золотого полёта
+140006 : Крылья укрытых снегов
+140007 : Планер великого пиршества
+140008 : Крылья наездника молний
+140009 : Сверкающие звёздные крылья
+141001 : Лучистый кристалл 1
+141002 : Лучистый кристалл 2
+141003 : Лучистый кристалл 3
+141004 : Лучистый кристалл 4
+141005 : Лучистый кристалл 5
+141006 : Лучистый кристалл 6
+141007 : Лучистый кристалл 7
+141008 : Лучистый кристалл 8
+141009 : Лучистый кристалл 9
+141010 : Лучистый кристалл 10
+141011 : Лучистый кристалл 11
+141012 : Лучистый кристалл 12
+141013 : Лучистый кристалл 13
+141014 : Лучистый кристалл 14
+141015 : Лучистый кристалл 15
+141016 : Лучистый кристалл 16
+141017 : Лучистый кристалл 17
+141018 : Лучистый кристалл 18
+141019 : Лучистый кристалл 19
+141020 : Лучистый кристалл 20
+141021 : Лучистый кристалл 21
+141022 : Лучистый кристалл 22
+141023 : Лучистый кристалл 23
+141024 : Лучистый кристалл 24
+141025 : Лучистый кристалл 25
+141026 : Лучистый кристалл 26
+141027 : Лучистый кристалл 27
+141028 : Лучистый кристалл 28
+141029 : Лучистый кристалл 29
+141030 : Лучистый кристалл 30
+141031 : Лучистый кристалл 31
+141032 : Лучистый кристалл 32
+141033 : Лучистый кристалл 33
+141034 : Лучистый кристалл 34
+141035 : Лучистый кристалл 35
+141036 : Лучистый кристалл 36
+141037 : Лучистый кристалл 37
+141038 : Лучистый кристалл 38
+141039 : Лучистый кристалл 39
+141040 : Лучистый кристалл 40
+141041 : Лучистый кристалл 41
+141042 : Лучистый кристалл 42
+141043 : Лучистый кристалл 43
+141044 : Лучистый кристалл 44
+141045 : Лучистый кристалл 45
+141046 : Лучистый кристалл 46
+141047 : Лучистый кристалл 47
+141048 : Лучистый кристалл 48
+141049 : Лучистый кристалл 49
+141050 : Лучистый кристалл 50
+141051 : Лучистый кристалл 51
+141052 : Лучистый кристалл 52
+141053 : Лучистый кристалл 53
+141054 : Лучистый кристалл 54
+141055 : Лучистый кристалл 55
+141056 : Лучистый кристалл 56
+141057 : Лучистый кристалл 57
+141058 : Лучистый кристалл 58
+141059 : Лучистый кристалл 59
+141060 : Лучистый кристалл 60
+141061 : Лучистый кристалл 61
+141062 : Лучистый кристалл 62
+141063 : Лучистый кристалл 63
+141064 : Лучистый кристалл 64
+141065 : Лучистый кристалл 65
+141066 : Лучистый кристалл 66
+141067 : Лучистый кристалл 67
+141068 : Лучистый кристалл 68
+141069 : Лучистый кристалл 69
+141070 : Лучистый кристалл 70
+141071 : Лучистый кристалл 71
+141072 : Лучистый кристалл 72
+200001 : Волокно для фонарей
+200002 : Пух для фитиля
+200003 : Осколок плаустрита
+200004 : Небесный фонарь
+200101 : Инеевый осколок
+200102 : Инеевый кристалл
+200103 : Костный мозг дракона
+200104 : Видимый ветер
+200105 : «Фрагменты невинности»
+200106 : Императорский бальзам
+200107 : Мера вина Ако
+200108 : Алкагест
+200109 : Масло для Ока
+200201 : Танец сокола
+200202 : Стальное крыло
+200203 : Родник ветра
+200204 : Сокрушающий удар
+200205 : Пляска охотника
+200206 : Лук силы
+200207 : Вихрь
+200208 : Ярость
+200209 : Лёгкость
+200210 : Танец мечей
+200211 : Отвага
+200212 : Воодушевление
+200213 : Стальная песнь
+200214 : Сплетённые ступени
+200215 : Ритуал
+200216 : Война есть война
+200217 : Сила взрыва
+200218 : Вечный вальс
+200219 : Эссенция взрыва
+200220 : Заряд энергии
+200221 : Сила заряда
+200222 : Танец грома
+200223 : Благой дождь
+200224 : Сила мастерства
+200225 : Танец пурги
+200226 : Обморожение
+200227 : Острота
+200228 : Танец звёзд
+200229 : Кристаллы преломления
+200230 : Кристаллы фокусировки
+200231 : Железная стена
+200232 : Танец поединка
+200233 : Щит крови
+200234 : Сила лечения
+200235 : Казнь
+200236 : Вердикт
+200237 : Претендент
+200238 : Крошка раздробленного плода
+200239 : Фрагмент раздробленного плода
+200240 : Осколок раздробленного плода
+200241 : Танец поединка
+200242 : Танец мечей
+200243 : Танец звёзд
+200244 : Сплетённый танец
+200245 : Вечный вальс
+200246 : Кристаллы преломления
+200247 : Воодушевление
+200248 : Отвага
+200249 : Вихрь
+200250 : Претендент
+200251 : Казнь
+200252 : Кристаллы фокусировки
+200253 : Эссенция взрыва
+200254 : Вердикт
+200255 : Острота
+200256 : Сила взрыва
+200257 : Сила мастерства
+200258 : Железная стена
+200259 : Стальная песнь
+200260 : Ярость
+200261 : Танец изобилия
+200262 : Проводимость
+200900 : Лесная удочка
+200901 : Переплетение ветров
+200902 : Доброволец
+200903 : Нарукава Угай
+200904 : Лунная нить
+210001 : Новый мир
+210002 : Ловец ветра
+210003 : Барон Зайчик
+210004 : Бомбочка
+210005 : Огненная птица
+210006 : Дух волка
+210007 : Небесная лира
+210008 : Одуванчики
+210009 : Мелодия
+210010 : Павлин
+210011 : Пески времени
+210012 : Воздушный дух
+210013 : Вестник ночи
+210014 : Щит
+210015 : Звёздная гладь
+210016 : Одобрение
+210017 : Горячий Гоба
+210018 : Мечи дождя
+210019 : Вестник стужи
+210020 : Громовой стилет
+210021 : Исследователь
+210022 : Профессионал
+210023 : Герой
+210024 : Песнь ветра
+210025 : Каменный покой
+210026 : Цвета радуги
+210027 : Мастер лучник
+210028 : Испытания
+210029 : Глубины бездны
+210030 : Горный житель
+210031 : Вечный холод
+210032 : Неожиданный поворот
+210033 : Долгожданная встреча
+210038 : Величие феникса
+210039 : Якорь
+210040 : Духовные лезвия
+210041 : Испытания II
+210042 : Погасшая звезда
+210043 : Мяу-мяу!
+210044 : Падение кометы
+210045 : Музыка свободы
+210046 : Маска
+210047 : Почётный рыцарь
+210048 : Молитва
+210049 : Паруса
+210050 : Среди облаков
+210051 : Испытания III
+210052 : Снежный пик
+210053 : Цилинь
+210054 : Цветок солнца
+210055 : Мел
+210056 : Древнее дерево
+210057 : Гипостазис
+210058 : Маска Якса
+210059 : Упокоение духов
+210060 : Лунный фонарь
+210061 : Свет фонаря
+210062 : Механикус
+210063 : Каторга
+210064 : Анемония
+210065 : Великое пиршество
+210066 : Сияющая чешуя
+210067 : Плод мудрости
+210068 : Ку-ку!
+210069 : Справедливость
+210070 : Морозная печать
+210071 : Другая реальность
+210072 : Чайная песня
+210073 : Любование клёном
+210074 : Летний зной
+210075 : Дом отдыха
+210076 : Необъятность
+210077 : Бабах-мяч
+210078 : Песнь битвы
+210079 : Священная сакура
+210080 : Великий храм Наруками
+210081 : Веер
+210082 : Искры золотой рыбки
+210083 : Мудзи-Мудзи Дарума
+210084 : Эмблема Райдэн
+210085 : Герб Камисато
+210086 : Врата
+210087 : Преодоление
+210088 : Каменный дракон
+210089 : Пышное цветение
+210090 : Герб Кудзё
+210091 : Великолепный расчёт
+210092 : Просветление
+210093 : Морская бездна
+210094 : Тэнгу
+210095 : Рассвет
+210096 : Лунная охота
+210097 : Герб Сангономии
+210098 : Гвозди
+210099 : Внимательное ухо
+210100 : Икки
+210101 : Пламенный рукав
+210102 : Божественный генерал
+210103 : Перо орла
+210104 : Безмятежный пёс
+210105 : Лицо óни
+210106 : Паслён
+210107 : Гребень
+210108 : Рифма
+210109 : Токоё
+210110 : Струящиеся оттенки
+210111 : Кубки и развлечения
+210112 : Мечтательная кицунэ
+210113 : Пробуждение
+210114 : Лёгкая зыбь
+210115 : Камень света
+210116 : Раскат грома
+210117 : Разлом
+210118 : БП Иродори
+220001 : Камень эха анемокула
+220002 : Камень эха геокула
+220003 : Гео компас сокровищ
+220004 : Бутыль ловца ветра
+220005 : Карманный телепорт
+220006 : Печь искателя Адептов
+220007 : Густая смола
+220008 : Сухпаёк (Меню № 30)
+220009 : Анемо компас сокровищ
+220013 : Поисковая фея
+220014 : Малая фея - Синеглазка
+220015 : Малая фея - Роза
+220016 : Малая фея - Куркума
+220017 : Тепловая бутыль
+220018 : Фотокамера
+220019 : Особенная «фотокамера»
+220020 : Специальная «фотокамера»
+220021 : Параметрический преобразователь
+220022 : Любопытная Эндора
+220023 : Эндора
+220024 : Праздничный воздушный шар
+220025 : Лира ветров
+220026 : Чайник безмятежности
+220027 : Гарпастум ветра
+220028 : Ремнабор волнохода
+220029 : Высокоточная бомба
+220030 : Плавающая бомба
+220031 : Горячая бомба
+220032 : Камень эха электрокула
+220033 : Сундук семян
+220034 : Электро компас сокровищ
+220035 : Веер из красных перьев
+220036 : Линза воспоминаний
+220037 : Поисковая фея
+220038 : Малая фея - Виола
+220039 : Странное перо
+220040 : Странное перо
+220041 : ???
+220042 : Старатель хаоса Айеши
+220043 : Сеть всевездесущности
+220044 : Цветочная цитра
+220045 : Сики Косё
+220046 : Сеть вездесущности
+220047 : Пусковая труба
+220048 : Адъювант светоносного камня
+220049 : Шкатулка Бокусо
+220050 : 
+221001 : Инструкции: Камень эха анемокула
+221002 : Инструкции: Камень эха геокула
+221003 : Диаграмма: Гео компас сокровищ
+221004 : Диаграмма: Бутыль ловца ветра
+221005 : Инструкции: Карманный телепорт
+221006 : Диаграмма: Печь искателя Адептов
+221007 : Инструкции: Густая смола
+221008 : Диаграмма: Сухпаёк (Меню № 30)
+221009 : Диаграмма: Анемо компас сокровищ
+221010 : Воспоминания о погребённой столице
+221011 : Воспоминания Дерева вечной мерзлоты
+221012 : Диаграмма: Копьё Драконьего хребта
+221013 : Диаграмма фамильного клинка клана Саимон
+221014 : Диаграмма: Кацурагикири Нагамаса
+221015 : Диаграмма: Крест-копьё Китаин
+221016 : Диаграмма: Хамаюми
+221017 : Диаграмма: Тепловая бутыль
+221018 : Маска воспоминаний
+221032 : Инструкции: Камень эха электрокула
+221034 : Диаграмма: Электро компас сокровищ
+221035 : Рецепт: Фруктовая бражка
+221036 : Рецепт: Красная болтушка
+221037 : Рецепт: Фальшивый червь
+221038 : Рецепт: Фальшивая муха
+222001 : Шёлковый принт
+223001 : Горные облака роняют чудесный дождь
+223002 : Серебряная ночь полна звёзд
+223003 : Холодные цветы цвета лазури
+223004 : Танец фейерверков на фоне заснеженного неба
+223005 : Вихрь золотой календулы
+223006 : Опадающие листья у лунного окна
+223007 : Озорные бирюзовые шарики
+223008 : Яркий искрящийся Додоко
+223009 : Слава и богатство на год
+223010 : Непоколебимый дух
+223011 : Красочные фонари освещают душу
+223012 : Пир на весь мир
+340000 : Летний блеск
+340001 : Сон морского бриза
+340002 : Флёр орхидеи
+340003 : Яркая лёгкость
+340006 : Наследие Гуннхильдр
+340007 : Скаут на все сто
+340008 : Встреча звёзд и луны
+340009 : За вольный дух церкви
+350001 : Лагерь искателей приключений
+350002 : Жизнь на границе
+350003 : Камни и трава
+350004 : Простая спальня Ли Юэ
+350005 : Уголок чайной
+350006 : Пригородное освещение
+350007 : Стол и стулья
+350008 : Загруженная кухня
+350009 : Чайная беседа
+350010 : Кабинет книголюба
+350011 : Меблированная спальня Мондштадта
+350012 : Зал заседаний Стратегической шестёрки
+350013 : Час вина
+350014 : Обед торговца
+350015 : Тёплая гостиная
+350016 : Хорошо оснащённый кабинет
+350017 : Домик отшельника
+350018 : Деревенский дом
+350019 : Ларёк урожайного сезона
+350020 : Фруктово-овощной рынок
+350021 : Тренировочная площадка
+350022 : Оружейная мастерская
+350023 : Перевалочный пункт
+350024 : Праздничная ярмарка
+350025 : Парадные врата: Изгнание зла
+350026 : Популярная закусочная
+350027 : Сельский источник
+350028 : Одинокий искатель приключений
+350029 : Климатический перекрёсток
+350030 : Беседа древнего дерева с камнем
+350033 : В поэтических раздумьях
+350034 : Среди шёпота ветров
+350035 : Кабинет Фэйюнь
+350036 : Павильон сновидений
+350037 : Секретная лаборатория
+350038 : Дом древесного дыма
+350039 : Станция ковки оружия
+350040 : Идиллический городок
+350041 : Парк с птицами и цветами
+350042 : Сборище гурманов
+350043 : Сверкающая улица
+350044 : Облачная резиденция Цинцэ
+350045 : Охотничий и песенный поход
+350046 : Путешествие к звёздам и к безднам
+350047 : Предрассветный сад
+350048 : Сад справедливости
+350049 : Бодрящий горячий источник
+350050 : Сельская тень
+350051 : Святилище древней ветви
+350052 : Тренировочный лагерь
+350053 : Нефритовая пустошь
+350054 : Воспоминание о летней ночи
+350055 : Улица цвета сакуры
+350056 : Вечный зал мимолётных грёз
+350057 : Тысяча взмахов
+350058 : Научная тропа
+350059 : Ароматы клёна и чая сплелись воедино
+380101 : Деревянная стена с нефритовым карнизом
+380102 : Арочная стена из тёмного дерева
+380103 : Арочная стена из клёна
+380201 : Кедровый традиционный пол
+380202 : Красочная клетчатая плитка
+380203 : Коричневый пол из клёна
+380301 : Кедровый клетчатый потолок
+380302 : Тёмный клетчатый потолок
+380303 : Кленовый клетчатый потолок
+380401 : Двухъярусная люстра со свечами
+380402 : Восьмисторонний фонарь: Счастливый день
+380403 : Шестисторонний фонарь: Гармония в дружбе
+380404 : Тыквенная вечеринка
+380405 : Парчовый фонарь: Изысканный павильон
+380406 : Фонарь с кисточкой: Блеск пути
+380407 : Подсвечник для чайного дома: Бесстрастное пламя
+380408 : Подсвечник для чайного дома: Скрытый свет
+380409 : Лампа из клёна: Легкий аромат
+380410 : Торшер из клёна: Очищающее сияние
+380411 : Дворовый фонарь: Непреходящее величие
+380412 : Дворовый фонарь: Красная луна прошлого
+380413 : Дворовый фонарь: Громовое сердце
+380414 : Люстра из клёна: Яркое сияние
+380415 : Подсвечник: Чистота лотоса
+380416 : Дерево фонарей: Утреннее торжество
+381101 : Угловая стойка из северной берёзы
+381102 : Открытая полка из пихты
+381103 : Набор полок из пихты
+381104 : Классический шкаф из пихты
+381105 : Большой гардероб из берёзы
+381106 : Шкаф из песчаного дерева с золотым узором
+381201 : Двухуровневая книжная полка для библиотеки
+381202 : Изысканная книжная полка из дерева цуйхуа
+381203 : Экономичная книжная полка из дерева цуйхуа
+381204 : Вечность среди книжных страниц
+381205 : Сокровищница архивариуса
+381206 : Полка для свитков из красного кедра
+381207 : Стенд для сувениров из красного кедра
+381208 : Кедровая полка торговца
+381209 : Книжный шкаф из клёна: Чернильное сердце
+381210 : Книжный шкаф из клёна: Сокровищница тысячи томов
+381301 : Крепкий библиотечный стол
+381302 : Канцелярский стол Фавония
+381303 : Стол совещаний Фавония
+381304 : Широкая каменная печь
+381305 : Переносная печь
+381306 : Длинный стол со скатертью
+381307 : Круглый стол из сосны на несколько мест
+381308 : Резной стол для каллиграфии
+381309 : Квадратный чайный стол из сосны
+381310 : Круглый стол из красного кедра
+381311 : Крепкий туалетный столик из берёзы
+381313 : Обычная чугунная печь
+381314 : Котацу из юмэмиру «Тепло и холод»
+381315 : Чайный столик из аралии «Секидзё»
+381316 : Длинный стол для чайного дома: Гладкая посадка
+381401 : Кровать благословения ветра
+381402 : Кровать пасмурной дымки
+381403 : Кровать из юмэмиру «Отдых сакуры»
+381501 : Приёмная стойка из сосны
+381502 : Стойка чайного дома: Тосимару
+382101 : Мягкий диван для гостиной
+382102 : Чистое полуденное небо
+382103 : Непоколебимая решимость
+382104 : Обеденный стул из сосны
+382105 : Чайный стул со спинкой из сосны
+382106 : Круглый табурет из красной сосны
+382108 : Круглый табурет для чайного дома: Прощание с болью
+382201 : Северный каменный очаг
+382202 : Складная ширма из сосны: Развевающиеся паруса
+382203 : Грубая ширма: Утренняя мгла Заоблачного предела
+382204 : Тумбочка с двумя ящиками из берёзы
+382205 : Тумбочка из песчаного дерева с золотым узором
+382206 : Шёлковые занавески: В поисках алого заката
+382207 : Цветочная ширма: Нефрит и золото
+382208 : Громоподобный небесный барабан
+382209 : Освещённая сцена: Крещендо
+382210 : Подушка для чайного дома: Ночное плетение
+382211 : Ритуальный барабан из клёна: Праздничная музыка
+382212 : Ритуальный барабан из клёна: Великий грохот
+382213 : Ширма для чайного дома: Скрытое золотое сердце
+382214 : Стойка для меча предков: Четыре основных принципа
+382215 : Доспехи Хатамото: Эйдзин Гэнку
+382216 : Складная ширма из юмэмиру «Дзюкаку»
+382218 : Праздничная ширма: Долгое путешествие
+382219 : Праздничная ширма: Золото и нефрит
+382301 : Мондштадтский коврик: Пылающий энтузиазм
+382302 : Мондштадтский коврик: Неустанные поиски
+382303 : Коврик для таверны: Вдали от дома
+382304 : Входной коврик: Тёплый приём
+383101 : Надёжная переносная лампа
+383102 : Напольная лампа из «Глазурного павильона»
+383103 : Фонарь Тяньюань: Ароматное великолепие
+383104 : Настольная лампа в форме ракушки
+383201 : Цветочная композиция: Бледно-голубое спокойствие
+383202 : Горшочное растение: Хрустальный бриз
+383203 : Цветочная композиция: Просторный рассвет
+383204 : Горшочный цветок: Ароматный фасад
+383205 : Горшочное растение: Хрупкое долголетие
+383206 : Расплавленный фарфор
+383207 : Незаменимая ваза
+383208 : Встречная услуга
+383301 : Классическая лира: Тенор ветра
+383302 : Аккуратная стопка книг
+383303 : Усталость учёного
+383304 : «Этикет переписки»
+383305 : Декоративные песочные часы
+383306 : Алхимическое устройство: Между огнём и водой
+383307 : Алхимический компонент: Бремя пыли
+383308 : Набор для каллиграфии: Прилежный каллиграф
+383309 : Золотой тройной канделябр
+383310 : Чайный сервиз из белого фарфора: Воплощение истины
+383312 : Чайный сервиз «Белая дымка»
+383313 : Утварь для чайного дома: Курительница
+383314 : Набор для каллиграфии: Чистописание
+383315 : Зловещий лук
+383316 : Ширма охотника на духов
+383317 : Кицунэ дарума «Божественный нос»
+383318 : Тануки дарума «Подлинная кулинария»
+384101 : Пейзажная живопись: Деревенский дом
+384102 : Пейзажная живопись: Далёкие облака
+384103 : Пейзажная живопись: Безымянный обрыв
+384104 : Утончённая живопись: Пики Яшмового леса
+384105 : Утончённая живопись: Чаша цветов
+384106 : Утончённая живопись: Горы, восстающие из тумана
+384107 : Нарисованное видение: О горах и далеких небесах
+384108 : Нарисованное видение: Потрясающие воды
+384109 : Рисунок с рельефом: Одиночество в тумане
+384110 : Рисунок с рельефом: Ритуал в тумане
+384201 : Деревянная вывеска ресторана
+384202 : Настенная лампа в форме вазы
+384203 : Изношенный круглый щит
+384204 : Изношенный щит
+384205 : Изношенный меч
+384206 : Знамя боевой воли
+384207 : Знамя чистого духа
+384208 : Герб Фавония
+384209 : Настенная доска для записей
+384210 : Настенная доска для объявлений
+384211 : Парчовые занавески
+384501 : Затянувшееся мгновение
+390101 : Соломенная хижина
+390102 : Соломенный склад
+390103 : Дом Ли Юэ: Одинокое убежище
+390104 : Дом Ли Юэ: Из дерева и камня
+390105 : Дом Ли Юэ: Аромат чая на старой дороге
+390106 : Дом Ли Юэ: Карнизы лунного гребня
+390107 : Дом Ли Юэ: Изобилие дружбы
+390108 : Магазин Ли Юэ: Любимец города
+390109 : Флигель: Восход и закат
+390110 : Павильон: Приют звездочёта
+390111 : Шкатулка из аралии «Хёутэй»
+390112 : Витрина из аралии: Множество уголков
+390113 : Шкаф из аралии: Неокрашенный
+390114 : Гардероб из юмэмиру «Росинка»
+390115 : Стойка для кимоно из юмэмиру «Вежливое обхождение»
+390201 : Арочный дом Мондштадта
+390202 : Дом Мондштадта с мансардой
+390203 : Тёплое и сухое мондштадтское жилище
+390204 : Старый ветроустойчивый дом Мондштадта
+390205 : Сельский дом с высоким чердаком
+390206 : Классический сельский дом
+390207 : Маленькая сосновая хижина
+390208 : Дом Ли Юэ: Время никого не ждёт
+390301 : Шумный прилавок со всякой всячиной
+390302 : Прибыльный прилавок с фруктами
+390303 : Прилавок с фруктами по хорошей цене
+390304 : Мастерская под открытым небом
+390305 : Фруктовая тележка
+390306 : Странствующий торговец к северу от Каменных врат
+390307 : Крытая телега с фруктами и овощами
+390308 : Котелок с четырьмя отсеками
+390309 : Фруктово-овощная лавка: Награда за урожай
+390310 : Павильончик с рамэном из древесины отоги
+390401 : Сторожевая хижина хиличурлов
+390402 : Зал вождя хиличурлов
+390501 : Облака к востоку от Бишуй
+390502 : Соломенный сарай
+390503 : Палатка с громоотводом
+390504 : Простая одноместная палатка
+390505 : Павильончик с супом одзони из древесины отоги
+390507 : Зерновоз из древесины отоги
+390508 : Магазин зонтов: Занавес сновидений
+390509 : Фруктово-овощная лавка: Честный вкус
+390510 : Фестивальный магазин «Тэйбан»
+390511 : Фестивальный магазин «Кибан»
+390512 : Стойка для масок из аралии «Коуки»
+390513 : Лавка с сокровищами: Всплеск цвета
+390514 : Лавка с фонарями: Ультрамарин
+390515 : Лавка с фонарями: Рубин
+390516 : Праздничная палатка «Необычные чудеса»
+390517 : Праздничная палатка «Литературное дарование»
+390601 : Церемониальный алтарь
+390602 : Алтарь очищения
+390603 : Инадзумский особняк: Общность
+390604 : Магазин Инадзумы: Блеск драгоценных камней
+390605 : Инадзумский дом: Работа поколений
+390606 : Инадзумский дом: Лёгкая адаптация
+390607 : Инадзумская мастерская: Обстоятельная регулярность
+390608 : Инадзумский дом: Обычные измерения
+390609 : Инадзумский дом с бамбуковой крышей: Долгий мир
+390610 : Инадзумский дом с бамбуковой крышей: Дикое сердце
+390611 : Инадзумская мастерская: Функциональность
+390612 : Инадзумский дом: Клацающий металл
+390613 : Инадзумская мастерская: В поисках сладости
+390614 : Инадзумский дом: Незаменимая прозорливость
+390615 : Официальная резиденция Инадзумы: Достоинство
+390616 : Официальная резиденция Инадзумы: Строгая приверженность
+390617 : Галерея официальной резиденции: Сфера применения власти
+390618 : Лагерная сторожевая башня: Наблюдение
+390619 : Лагерная ставка: Своевременная тактика
+390620 : Лагерная казарма: Надёжность
+390621 : Лагерные ворота: Преданность
+390623 : Гадальный павильон: Читатель знамений
+390624 : Зал святилища: Нежные пожелания
+390625 : Зал святилища: Радость служения
+390626 : Флигель усадьбы: Дань вежливости
+390627 : Склад поместья: Полные закрома
+390628 : Инадзумский дом: Воспоминания о Ватацуми
+390629 : Инадзумский дом: Коралловый дом
+390630 : Инадзумский дом: Дом бури
+391101 : Фонтан с птицами и цветами
+391102 : Витая сторожевая башня хиличурлов
+391103 : Соломенная хижина хиличурлов
+391104 : Пасторальная песня и ветряная мельница
+391107 : Временное жильё рабочих
+391109 : Прекрасное яркое лето
+391110 : Алые ворота тории: Дверь молчания
+391112 : Алые ворота тории: Путь восстановления
+391113 : Ворота поместья: Врата ветра
+391114 : Коридор поместья: Без промедления
+391115 : Уголок внутреннего двора поместья: Измеренная гармония
+391116 : Горячий источник из белого камня: Разлив тепла
+391117 : Изумрудные поля: Фонтан с родниковой водой
+391118 : Камень подпространства: Парящий полёт
+391201 : Врата Адепта
+391202 : Главные ворота из берёзы
+391203 : Резная садовая ограда (Край)
+391204 : Резная садовая ограда
+391205 : Галерея: Лесная прогулка
+391206 : Стена двора: Великолепие весны и осени
+391207 : Угол стены: Душистый уголок
+391208 : Стена двора: Все в ряд
+391209 : Стена двора: Безмятежность во всём
+391210 : Главный вход: Врата в облака
+391211 : Окружная стена: Живописная арка
+391212 : Угловая веранда: Уголок наблюдателя
+391213 : Сторожевые ворота: Под облаками
+391214 : Основное ограждение: Заветная стена
+391215 : Угловое ограждение: Беспрепятственный обзор
+391216 : Дворовые ворота из отоги «Кинтакэ»
+391217 : Изгородь из отоги «Кинтакэ»
+391218 : Лагерная изгородь: Зубной скрежет
+391219 : Лагерная изгородь: Усечение
+391220 : Лагерный кол: Болезненная заноза
+391221 : Галерея святилища: Усыпанный сакурой путь
+391222 : Галерея святилища: Алый взгляд
+391223 : Ограда поместья: Каменная защита
+391224 : Ограда поместья: Уголок гармонии
+391225 : Ограда поместья: Скрытый рубеж
+391226 : Угол стены поместья: Палисад старого города
+391227 : Ширма для горячего источника: Умеренность
+391228 : Внешняя стена горячего источника: Непреодолимость
+391229 : Стена горячего источника: Высокая прочность
+391230 : Фойе горячего источника: Тёплое укрытие
+392107 : Основание из камня: Счастливые времена
+393101 : Груда ящиков из пихты
+393102 : Аккуратно сложенные бочки из пихты
+393103 : Тяжёлый тюк сена
+393104 : Кувшин для вина в бамбуке: Духи в ожидании луны
+393105 : Стеллаж для игрушек: Ослепительный восторг
+393106 : Магазин зонтов: Калейдоскоп цвета
+393107 : Мешок для хранения: Жужжи отсюда
+393108 : Осторожность продавца фруктов
+393109 : Усталость продавца фруктов
+393110 : Закалённая глиняная ваза
+393111 : Мишень для стрельбы хиличурлов
+393112 : Рогатый горшок хиличурлов
+393113 : Указатель из сухого дерева
+393114 : Бремя искателя приключений
+393115 : Крепкая деревянная бочка
+393116 : Высокий деревянный шест
+393117 : Вязанка пиломатериалов
+393118 : Дождестойкий грузовой контейнер из пихты
+393119 : Каменный пруд в форме чаши
+393120 : Лёгкая похвала
+393121 : Фруктовые сны
+393122 : Проводник в летнем лесу
+393123 : Стойка для тренировочных манекенов
+393124 : Посыльный в летнем лесу
+393125 : «Источник чистоты»
+393126 : Штабные часы: Звук грома
+393127 : Военный барабан: Звук победы
+393128 : Простой навес из отоги
+393129 : Бочка из отоги: Шесть применений
+393130 : Бочка из отоги: Утоление жажды
+393131 : Толстостенный горшок «Кокутан»
+393132 : Реплика древних бочек из отоги
+393133 : Реплика древнего ящика из отоги
+393134 : Гора праздничных подарков
+393137 : Большая ресторанная печь
+393138 : Безмятежное пламя
+393201 : Горшочное растение: Зелёные просторы
+393202 : Водоудерживающие клумбы
+393203 : Деревянная бочка для перевозки грунта
+393204 : «Сумерки в сосновом лесу»
+393301 : Полки из пихты
+393302 : Оружейная стойка из пихты
+393303 : Оружейная стойка из твёрдого дерева
+393304 : Простая грузовая повозка
+393305 : Прочный каменный колодец
+393306 : Фермерское пугало
+393307 : Старый колодец
+393308 : Крытый колодец: Ради чистоты
+393309 : Каменная статуя льва: Оберегающий
+393310 : Каменная статуя льва: Знающий
+393311 : Сельский чайный киоск
+393312 : «Тайное сокровище искателя приключений»
+393313 : Ведьмин хор
+393315 : Стойка гадальных листков из юмэмиру «Сайко»
+393316 : Знамя Наруками Огосё
+393317 : Лагерная стойка для луков: Резонансные перья
+393318 : Лагерная стойка для копий: Сломанные наконечники
+393319 : Лагерный факел: Яростная слава
+393320 : Лагерная баррикада: Предупреждение
+393321 : Статуя Небесной кицунэ: Наследие Белого дракона
+393322 : Флажки-рыбки
+393323 : Тануки из клёна
+393324 : Кицунэ из клёна
+393325 : Коралл из красного металла
+393326 : Зонтик из сияющего камня
+393327 : Статуя святилища: Оберег Сэйрая
+393328 : Деревенский колодец: Подземный родник
+393329 : Ящик для подношений из юмэмиру «Сэйкэн»
+393330 : Стойка для меча предков: Железо точит железо
+393331 : Зов бамбука
+393332 : Доска объявлений из аралии «Анжи»
+393333 : Деревенский колодец: Подземный тайник
+393337 : Дерево фонарей: Пейзаж в сумерках
+393338 : Радужное облако на атласном столбе
+393339 : Знамя очищения от зла с золотой надписью
+393343 : Стенд для фото «Обнимашки тануки»
+393344 : Эксклюзивный украшенный флаг «Кицунэ Гудзи»
+393401 : Кованый уличный фонарь
+393402 : Уличный фонарь из сосны
+393403 : Фонарь от злых духов: Всестороннее освещение
+393404 : Четырёхсторонний фонарь: Дружба издалека
+393405 : Лампа теней: Раскрашенная тень
+393406 : Каменный фонарный столб «Неподвижный светильник»
+393407 : Путь к озарению
+393408 : Фонарь из белого камня «Мэйчу»
+393409 : Фонарь из отоги «Мэйчу»
+393410 : Фестивальные ворота с пятью фонариками
+393411 : Уличный фонарь из юмэмиру «Кукай»
+393412 : Уличный фонарь из юмэмиру «Дзюнэн»
+393413 : Свеча из рыбьего жира: Предрассветный час
+393414 : Деревенский уличный фонарь из отоги
+393415 : Простой деревенский уличный фонарь
+393416 : Уличный фонарь из аралии «Рэндзо»
+393601 : Озеро сапфирной милости
+394101 : Ветхая бамбуковая ограда
+394102 : Прочный сосновый забор
+394103 : Деревянный забор хиличурлов
+394104 : Тотемный забор хиличурлов
+394105 : Пышная виноградная лоза
+394106 : Молодая виноградная лоза
+394107 : Простой деревянный забор
+394108 : Недостроенный забор
+394109 : Трудолюбивый садовод
+394110 : Цветочная терраса из отоги «Кюуко»
+394111 : Цветочная терраса из отоги «Сандзай»
+394201 : Гладкая деревянная скамейка
+394202 : Гладкая каменная скамейка
+394203 : Стул «Гугол»
+394204 : Скамейка из юмэмиру
+394205 : Квадратный табурет из отоги «Ракуси»
+394301 : Двухъярусная караульная башня хиличурлов
+394302 : Открытый сосновый шкаф
+394303 : Тяжёлый ковочный стол из пихты
+394304 : Длинный сосновый стол
+394305 : Большая каменная мельница
+394306 : Алхимический верстак
+394307 : Двухуровневый прилавок: Восходящая удача
+394308 : Уличный чайный стол из бамбука
+394309 : Уличный чайный стол из дерева
+394310 : Банкет в летнем лесу
+394311 : Стол «Гугол»
+394312 : Длинный стол из юмэмиру
+394313 : Квадратный стол из отоги «Ракуси»
+394401 : Витрина для вина: Сколько душе угодно
+394402 : Двухъярусная водонепроницаемая палета
+394403 : Цветочная колыбель
+394404 : Сокровище синего моря
+394501 : Основание из камня: Путь возделывания
+394502 : Основание из камня: Своевременное прибытие
+394503 : Основание из камня: Двойной переход
+394504 : Изумрудные поля: Дорожка из печенья

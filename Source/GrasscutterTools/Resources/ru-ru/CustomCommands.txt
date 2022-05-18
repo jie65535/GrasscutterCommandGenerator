@@ -14,43 +14,43 @@
 /setworldlevel 8
 Уровень дружбы
 /setfetterlevel 1
-Clear Backpack(ALL)
+Очистить рюкзак(ВСЁ)
 /clear all
-Clear Weapons
+Очистить Оружия
 /clear wp
-Clear Artifacts
+Очистить Артефакты
 /clear art
-Clear Materials
+Очистить Материалы
 /clear mat
-Broadcast
+Транслировать
 /broadcast Hello everyone~
-Reset Current Constellation(Need Re-login)
+Сброс текущего Созвездия (Требуется повторный вход в систему)
 /resetconst
-Reset ALL Constellation(Need Re-login)
+Сбросить ВСЕ настройки (Требуется повторный вход в систему)
 /resetconst all
-100k Intertwined Fates 
+100 тыс. Переплетенных Судеб
 /give 223 10000
-100k Acquaint Fate
+100 тыс. Судьбоносныз встреч
 /give 224 10000
-100k Primogem
+100 тыс. Примогем
 /give 201 100000
 100k Mora
 /give 202 100000
-TP Everyone
+Телепортировать всех
 /tpall
-Restart Server
+Перезапустить сервер
 /restart
-Send PM
+Отправить в личку
 /say <player> <message>
-Pull in team
+Кооператив
 /coop @targetId
-Suicide
+Самоубийство
 /killcharacter
-Kill Somebody
+Убить Кого-Нибудь
 /killcharacter <playerId>
-List ALL users
+Список ВСЕХ пользователей
 /list uid
-Reload service config
+Перезагрузить конфигурацию службы
 /reload
-KillAll
+Убить всех
 /killall

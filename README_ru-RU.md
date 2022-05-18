@@ -1,60 +1,60 @@
 # Grasscutter Tools
-
-[![GitHub license](https://img.shields.io/github/license/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/stargazers)
-[![Github All Releases](https://img.shields.io/github/downloads/jie65535/GrasscutterCommandGenerator/total.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
+ - Перевод Юрий Дворецкий
+[![GitHub лицензия](https://img.shields.io/github/license/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/blob/main/LICENSE)
+[![GitHub звёзды](https://img.shields.io/github/stars/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/stargazers)
+[![Github ВСЕ выпуски](https://img.shields.io/github/downloads/jie65535/GrasscutterCommandGenerator/total.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
 
 [中文](README.md) | [English](README_en-US.md) | Русский
 
-## Commands Generator
+## Генератор команд
 
-Please download the latest version from [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
+Пожалуйса загрузите последнюю версию с [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
 
-## Remote command
+## Удаленная команда
 
-The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) support
+Сервер требует [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) помощь
 
-![OpenCommand](Doc/Screenshots/OpenCommand.gif)
+![Open Command](Doc/Screenshots/OpenCommand.gif)
 
 ---
 
-## TODO List
-  - [ ] Multi-language support
-    - [x] Simplified Chinese
-    - [x] English
-    - [x] Russian
-  - [x] Execute command remotely
-  - [ ] Mail Editor (no progress)
-  - [ ] Shop Editor (no progress)
+## Список задач
+  - [ ] Многоязычная поддержка
+     - [x] Упрощенный китайский
+     - [х] английский
+     - [х]Русский
+   - [x] Выполнить команду удаленно
+   - [ ] Редактор почты (нет прогресса)
+   - [ ] Редактор магазина (нет прогресса)
 
-## Screenshots
+## Скриншоты
 
-![Logo](Doc/Screenshots/GrasscutterLogo.png)
+![Логитип](Doc/Screenshots/GrasscutterLogo.png)
 
-![Home](Doc/Screenshots-ru/0-Home.png)
+![Главная](Doc/Screenshots-ru/0-Home.png)
 
-![Custom Commands Screenshot](Doc/Screenshots-ru/1-CustomCommands.png)
+![Скриншот пользовательских команд](Doc/Screenshots-ru/1-CustomCommands.png)
 
-![Custom Artifact Screenshot](Doc/Screenshots-ru/2-CustomArtifact.png)
+![Скриншот Пользовательского артефакта](Doc/Screenshots-ru/2-CustomArtifact.png)
 
-![Custom Weapon Screenshort](Doc/Screenshots-ru/3-CustomWeapon.png)
+![Скриншот Пользовательского оружия](Doc/Screenshots-ru/3-CustomWeapon.png)
 
-![Give Item Screenshort](Doc/Screenshots-ru/4-GiveItem.png)
+![Скриншот Дать предмет](Doc/Screenshots-ru/4-GiveItem.png)
 
-![Give Avatar Screenshort](Doc/Screenshots-ru/5-GiveAvatar.png)
+![Скриншот Дать Персонажа Screenshort](Doc/Screenshots-ru/5-GiveAvatar.png)
 
-![Spawn Entity Screenshort](Doc/Screenshots-ru/6-SpawnEntity.png)
+![Скриншот Спавн Сущности](Doc/Screenshots-ru/6-SpawnEntity.png)
 
-![Change Scene Screenshort](Doc/Screenshots-ru/7-ChangeScene.png)
+![Скриншот Изменить сцену](Doc/Screenshots-ru/7-ChangeScene.png)
 
-![Custom Stats Screenshort](Doc/Screenshots-ru/8-CustomStats.png)
+![Скриншот Пользовательская статистика](Doc/Screenshots-ru/8-CustomStats.png)
 
-![Management](Doc/Screenshots-ru/9-Manage.png)
+![Управление](Doc/Screenshots-ru/9-Manage.png)
 
-![GachaBannerEditor](Doc/Screenshots-en/10-GachaBannerEditor.png)
+![Редактор баннеров Gacha](Doc/Screenshots-en/10-GachaBannerEditor.png)
 
-![Text Map Browser](Doc/Screenshots-en/11-TextMapBrowser.png)
+![Текстоый Браузер карт](Doc/Screenshots-en/11-TextMapBrowser.png)
 
-![Remote Screenshort](Doc/Screenshots-ru/12-Remote.png)
+![Скриншот Удаленного доступа](Doc/Screenshots-ru/12-Remote.png)
 
-![Quest Screenshort](Doc/Screenshots-ru/13-Quest.png)
+![Скриншот Квесты](Doc/Screenshots-ru/13-Quest.png)
