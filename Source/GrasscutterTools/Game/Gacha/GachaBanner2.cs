@@ -90,13 +90,13 @@ namespace GrasscutterTools.Game.Gacha
         /// 4星的up角色或物品
         /// </summary>
         [JsonProperty("rateUpItems4")]
-        public int[] RateUpItems4 { get; set; }
+        public int[] RateUpItems4 { get; set; } = { };
 
         /// <summary>
         /// 5星的up物品或者角色
         /// </summary>
         [JsonProperty("rateUpItems5")]
-        public int[] RateUpItems5 { get; set; }
+        public int[] RateUpItems5 { get; set; } = { };
 
         /// <summary>
         /// 3星普通池

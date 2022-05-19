@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblBannerEditorOldTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblBannerEditorOldTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 415</value>
+  </data>
+  <data name="LblBannerEditorOldTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>390, 35</value>
+  </data>
+  <data name="LblBannerEditorOldTip.Text" xml:space="preserve">
+    <value>Совет: Последняя версия баннера разрабатывается в настоящее время не поддерживается, ждем PR : )</value>
+  </data>
+  <data name="LblEventChanceTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>401, 262</value>
+  </data>
+  <data name="NUDEventChance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 260</value>
+  </data>
+  <data name="LblGachaType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 28</value>
+  </data>
+  <data name="LblGachaType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="LblGachaType.Text" xml:space="preserve">
+    <value>Тип Гачи</value>
+  </data>
+  <data name="LblEventChance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 262</value>
+  </data>
+  <data name="LblEventChance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="LblEventChance.Text" xml:space="preserve">
+    <value>Шанс события</value>
+  </data>
+  <data name="LblSortId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 204</value>
+  </data>
+  <data name="LblSortId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
+  </data>
+  <data name="LblSortId.Text" xml:space="preserve">
+    <value>Сорт.</value>
+  </data>
+  <data name="LblBaseYellowWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 262</value>
+  </data>
+  <data name="LblBaseYellowWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 17</value>
+  </data>
+  <data name="LblBaseYellowWeight.Text" xml:space="preserve">
+    <value>5-звездочный</value>
+  </data>
+  <data name="LblRateUpItems2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 350</value>
+  </data>
+  <data name="LblRateUpItems2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="LblRateUpItems2.Text" xml:space="preserve">
+    <value>4 звезды UP</value>
+  </data>
+  <data name="LblSoftPity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 291</value>
+  </data>
+  <data name="LblSoftPity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
+  </data>
+  <data name="LblSoftPity.Text" xml:space="preserve">
+    <value>Мяг. гарант</value>
+  </data>
+  <data name="LblGachaTypeTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="LblGachaTypeTip.Text" xml:space="preserve">
+    <value>Увеличение с 400</value>
+  </data>
+  <data name="LblEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 176</value>
+  </data>
+  <data name="LblEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="LblEndTime.Text" xml:space="preserve">
+    <value>Конец</value>
+  </data>
+  <data name="LblRateUpItems1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 234</value>
+  </data>
+  <data name="LblRateUpItems1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
+  </data>
+  <data name="LblRateUpItems1.Text" xml:space="preserve">
+    <value>5 зв. UP</value>
+  </data>
+  <data name="LblScheduleId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 57</value>
+  </data>
+  <data name="LblScheduleId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="LblScheduleId.Text" xml:space="preserve">
+    <value>ID расписания</value>
+  </data>
+  <data name="LblBeginTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 176</value>
+  </data>
+  <data name="LblBeginTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="LblBeginTime.Text" xml:space="preserve">
+    <value>Начало</value>
+  </data>
+  <data name="LblHardPity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 320</value>
+  </data>
+  <data name="LblHardPity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 17</value>
+  </data>
+  <data name="LblHardPity.Text" xml:space="preserve">
+    <value>Жест. Гарант</value>
+  </data>
+  <data name="NUDEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 174</value>
+  </data>
+  <data name="LblHardPityTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="LblHardPityTip.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="LblScheduleIdTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="LblScheduleIdTip.Text" xml:space="preserve">
+    <value>Уникальный</value>
+  </data>
+  <data name="LblSoftPityTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="LblSoftPityTip.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="LblBasePurpleWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 378</value>
+  </data>
+  <data name="LblBasePurpleWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <data name="LblBasePurpleWeight.Text" xml:space="preserve">
+    <value>4 звездный</value>
+  </data>
+  <data name="CmbBannerType.Items" xml:space="preserve">
+    <value>Стандартная Молитва</value>
+  </data>
+  <data name="CmbBannerType.Items1" xml:space="preserve">
+    <value>Молитва события персонажа</value>
+  </data>
+  <data name="CmbBannerType.Items2" xml:space="preserve">
+    <value>Молитва события с оружием</value>
+  </data>
+  <data name="LblSortIdTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="LblSortIdTip.Text" xml:space="preserve">
+    <value>Показать заказ</value>
+  </data>
+  <data name="LblBannerType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 87</value>
+  </data>
+  <data name="LblBannerType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 17</value>
+  </data>
+  <data name="LblBannerType.Text" xml:space="preserve">
+    <value>Тип баннера</value>
+  </data>
+  <data name="RbCostItem224.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 21</value>
+  </data>
+  <data name="RbCostItem224.Text" xml:space="preserve">
+    <value>Судьбоносные</value>
+  </data>
+  <data name="LblCostItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 148</value>
+  </data>
+  <data name="LblCostItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="LblCostItem.Text" xml:space="preserve">
+    <value>Стоимость</value>
+  </data>
+  <data name="LblPrefabPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 118</value>
+  </data>
+  <data name="LblPrefabPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="LblPrefabPath.Text" xml:space="preserve">
+    <value>Готовый</value>
+  </data>
+  <data name="RbCostItem223.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 146</value>
+  </data>
+  <data name="RbCostItem223.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 21</value>
+  </data>
+  <data name="RbCostItem223.Text" xml:space="preserve">
+    <value>Переплетающиеся</value>
+  </data>
+  <data name="GrpBannerValues.Text" xml:space="preserve">
+    <value>Баннеп</value>
+  </data>
+  <data name="GrpPurplePool.Text" xml:space="preserve">
+    <value>4 звёздочный пул</value>
+  </data>
+  <data name="GrpYellowPool.Text" xml:space="preserve">
+    <value>5 звёздочный пул</value>
+  </data>
+  <data name="BtnGen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="BtnGen.Text" xml:space="preserve">
+    <value>Сген. Json</value>
+  </data>
+  <data name="BtnParse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>209, 437</value>
+  </data>
+  <data name="BtnParse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
+  </data>
+  <data name="BtnParse.Text" xml:space="preserve">
+    <value>Загр.Json</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Редактор баннеров Gacha</value>
+  </data>
+</root>

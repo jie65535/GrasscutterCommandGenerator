@@ -1,7 +1,7 @@
 ﻿
 namespace GrasscutterTools.Forms
 {
-    partial class FormGachaBannerEditor
+    partial class FormGachaBannerEditor2
     {
         /// <summary>
         /// Required designer variable.
@@ -29,113 +29,95 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGachaBannerEditor));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGachaBannerEditor2));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.GrpBannerValues = new System.Windows.Forms.GroupBox();
             this.CmbPrefab = new System.Windows.Forms.ComboBox();
-            this.LblEventChanceTip = new System.Windows.Forms.Label();
-            this.NUDEventChance = new System.Windows.Forms.NumericUpDown();
+            this.LblEventChance5Tip = new System.Windows.Forms.Label();
+            this.NUDEventChance5 = new System.Windows.Forms.NumericUpDown();
             this.LblGachaType = new System.Windows.Forms.Label();
-            this.LblEventChance = new System.Windows.Forms.Label();
-            this.NUDBaseYellowWeight = new System.Windows.Forms.NumericUpDown();
+            this.LblEventChance5 = new System.Windows.Forms.Label();
             this.LblSortId = new System.Windows.Forms.Label();
-            this.TxtRateUpItems2 = new System.Windows.Forms.TextBox();
-            this.LblBaseYellowWeight = new System.Windows.Forms.Label();
             this.NUDGachaType = new System.Windows.Forms.NumericUpDown();
             this.NUDSortId = new System.Windows.Forms.NumericUpDown();
-            this.LblRateUpItems2 = new System.Windows.Forms.Label();
-            this.LblSoftPity = new System.Windows.Forms.Label();
             this.LblGachaTypeTip = new System.Windows.Forms.Label();
             this.LblEndTime = new System.Windows.Forms.Label();
-            this.LblRateUpItems1 = new System.Windows.Forms.Label();
-            this.NUDSoftPity = new System.Windows.Forms.NumericUpDown();
             this.LblScheduleId = new System.Windows.Forms.Label();
             this.LblBeginTime = new System.Windows.Forms.Label();
-            this.TxtRateUpItems1 = new System.Windows.Forms.TextBox();
-            this.LblHardPity = new System.Windows.Forms.Label();
             this.NUDScheduleId = new System.Windows.Forms.NumericUpDown();
             this.NUDEndTime = new System.Windows.Forms.NumericUpDown();
-            this.LblHardPityTip = new System.Windows.Forms.Label();
-            this.NUDHardPity = new System.Windows.Forms.NumericUpDown();
             this.LblScheduleIdTip = new System.Windows.Forms.Label();
             this.NUDBeginTime = new System.Windows.Forms.NumericUpDown();
-            this.LblSoftPityTip = new System.Windows.Forms.Label();
-            this.LblBasePurpleWeight = new System.Windows.Forms.Label();
             this.CmbBannerType = new System.Windows.Forms.ComboBox();
             this.LblSortIdTip = new System.Windows.Forms.Label();
-            this.NUDBasePurpleWeight = new System.Windows.Forms.NumericUpDown();
             this.LblBannerType = new System.Windows.Forms.Label();
-            this.LblBasePurpleWeightTip = new System.Windows.Forms.Label();
             this.RbCostItem224 = new System.Windows.Forms.RadioButton();
-            this.LblBaseYellowWeightTip = new System.Windows.Forms.Label();
             this.LblCostItem = new System.Windows.Forms.Label();
             this.LblPrefabPath = new System.Windows.Forms.Label();
             this.RbCostItem223 = new System.Windows.Forms.RadioButton();
             this.GrpPurplePool = new System.Windows.Forms.GroupBox();
-            this.ListPurplePool = new System.Windows.Forms.CheckedListBox();
             this.GrpYellowPool = new System.Windows.Forms.GroupBox();
-            this.ListYellowPool = new System.Windows.Forms.CheckedListBox();
             this.GrpJson = new System.Windows.Forms.GroupBox();
             this.BtnGen = new System.Windows.Forms.Button();
             this.TxtJson = new System.Windows.Forms.TextBox();
             this.BtnParse = new System.Windows.Forms.Button();
+            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.treeView2 = new System.Windows.Forms.TreeView();
+            this.LblEventChance4 = new System.Windows.Forms.Label();
+            this.NUDEventChance4 = new System.Windows.Forms.NumericUpDown();
+            this.LblEventChance4Tip = new System.Windows.Forms.Label();
+            this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.GrpWeights = new System.Windows.Forms.GroupBox();
             this.GrpBannerValues.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDBaseYellowWeight)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDGachaType)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDSortId)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDSoftPity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDScheduleId)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEndTime)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDHardPity)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDBeginTime)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDBasePurpleWeight)).BeginInit();
             this.GrpPurplePool.SuspendLayout();
             this.GrpYellowPool.SuspendLayout();
             this.GrpJson.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.GrpWeights.SuspendLayout();
             this.SuspendLayout();
             // 
             // GrpBannerValues
             // 
-            resources.ApplyResources(this.GrpBannerValues, "GrpBannerValues");
             this.GrpBannerValues.Controls.Add(this.CmbPrefab);
-            this.GrpBannerValues.Controls.Add(this.LblEventChanceTip);
-            this.GrpBannerValues.Controls.Add(this.NUDEventChance);
+            this.GrpBannerValues.Controls.Add(this.LblEventChance4Tip);
+            this.GrpBannerValues.Controls.Add(this.LblEventChance5Tip);
+            this.GrpBannerValues.Controls.Add(this.NUDEventChance4);
+            this.GrpBannerValues.Controls.Add(this.NUDEventChance5);
             this.GrpBannerValues.Controls.Add(this.LblGachaType);
-            this.GrpBannerValues.Controls.Add(this.LblEventChance);
-            this.GrpBannerValues.Controls.Add(this.NUDBaseYellowWeight);
+            this.GrpBannerValues.Controls.Add(this.LblEventChance4);
+            this.GrpBannerValues.Controls.Add(this.LblEventChance5);
             this.GrpBannerValues.Controls.Add(this.LblSortId);
-            this.GrpBannerValues.Controls.Add(this.TxtRateUpItems2);
-            this.GrpBannerValues.Controls.Add(this.LblBaseYellowWeight);
             this.GrpBannerValues.Controls.Add(this.NUDGachaType);
             this.GrpBannerValues.Controls.Add(this.NUDSortId);
-            this.GrpBannerValues.Controls.Add(this.LblRateUpItems2);
-            this.GrpBannerValues.Controls.Add(this.LblSoftPity);
             this.GrpBannerValues.Controls.Add(this.LblGachaTypeTip);
             this.GrpBannerValues.Controls.Add(this.LblEndTime);
-            this.GrpBannerValues.Controls.Add(this.LblRateUpItems1);
-            this.GrpBannerValues.Controls.Add(this.NUDSoftPity);
             this.GrpBannerValues.Controls.Add(this.LblScheduleId);
             this.GrpBannerValues.Controls.Add(this.LblBeginTime);
-            this.GrpBannerValues.Controls.Add(this.TxtRateUpItems1);
-            this.GrpBannerValues.Controls.Add(this.LblHardPity);
             this.GrpBannerValues.Controls.Add(this.NUDScheduleId);
             this.GrpBannerValues.Controls.Add(this.NUDEndTime);
-            this.GrpBannerValues.Controls.Add(this.LblHardPityTip);
-            this.GrpBannerValues.Controls.Add(this.NUDHardPity);
             this.GrpBannerValues.Controls.Add(this.LblScheduleIdTip);
             this.GrpBannerValues.Controls.Add(this.NUDBeginTime);
-            this.GrpBannerValues.Controls.Add(this.LblSoftPityTip);
-            this.GrpBannerValues.Controls.Add(this.LblBasePurpleWeight);
             this.GrpBannerValues.Controls.Add(this.CmbBannerType);
             this.GrpBannerValues.Controls.Add(this.LblSortIdTip);
-            this.GrpBannerValues.Controls.Add(this.NUDBasePurpleWeight);
             this.GrpBannerValues.Controls.Add(this.LblBannerType);
-            this.GrpBannerValues.Controls.Add(this.LblBasePurpleWeightTip);
             this.GrpBannerValues.Controls.Add(this.RbCostItem224);
-            this.GrpBannerValues.Controls.Add(this.LblBaseYellowWeightTip);
             this.GrpBannerValues.Controls.Add(this.LblCostItem);
             this.GrpBannerValues.Controls.Add(this.LblPrefabPath);
             this.GrpBannerValues.Controls.Add(this.RbCostItem223);
+            resources.ApplyResources(this.GrpBannerValues, "GrpBannerValues");
             this.GrpBannerValues.Name = "GrpBannerValues";
             this.GrpBannerValues.TabStop = false;
             // 
@@ -146,16 +128,16 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.CmbPrefab, "CmbPrefab");
             this.CmbPrefab.Name = "CmbPrefab";
             // 
-            // LblEventChanceTip
+            // LblEventChance5Tip
             // 
-            resources.ApplyResources(this.LblEventChanceTip, "LblEventChanceTip");
-            this.LblEventChanceTip.Name = "LblEventChanceTip";
+            resources.ApplyResources(this.LblEventChance5Tip, "LblEventChance5Tip");
+            this.LblEventChance5Tip.Name = "LblEventChance5Tip";
             // 
-            // NUDEventChance
+            // NUDEventChance5
             // 
-            resources.ApplyResources(this.NUDEventChance, "NUDEventChance");
-            this.NUDEventChance.Name = "NUDEventChance";
-            this.NUDEventChance.Value = new decimal(new int[] {
+            resources.ApplyResources(this.NUDEventChance5, "NUDEventChance5");
+            this.NUDEventChance5.Name = "NUDEventChance5";
+            this.NUDEventChance5.Value = new decimal(new int[] {
             50,
             0,
             0,
@@ -166,38 +148,15 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.LblGachaType, "LblGachaType");
             this.LblGachaType.Name = "LblGachaType";
             // 
-            // LblEventChance
+            // LblEventChance5
             // 
-            resources.ApplyResources(this.LblEventChance, "LblEventChance");
-            this.LblEventChance.Name = "LblEventChance";
-            // 
-            // NUDBaseYellowWeight
-            // 
-            this.NUDBaseYellowWeight.DecimalPlaces = 2;
-            resources.ApplyResources(this.NUDBaseYellowWeight, "NUDBaseYellowWeight");
-            this.NUDBaseYellowWeight.Name = "NUDBaseYellowWeight";
-            this.NUDBaseYellowWeight.Value = new decimal(new int[] {
-            6,
-            0,
-            0,
-            65536});
+            resources.ApplyResources(this.LblEventChance5, "LblEventChance5");
+            this.LblEventChance5.Name = "LblEventChance5";
             // 
             // LblSortId
             // 
             resources.ApplyResources(this.LblSortId, "LblSortId");
             this.LblSortId.Name = "LblSortId";
-            // 
-            // TxtRateUpItems2
-            // 
-            this.TxtRateUpItems2.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.TxtRateUpItems2, "TxtRateUpItems2");
-            this.TxtRateUpItems2.Name = "TxtRateUpItems2";
-            this.TxtRateUpItems2.ReadOnly = true;
-            // 
-            // LblBaseYellowWeight
-            // 
-            resources.ApplyResources(this.LblBaseYellowWeight, "LblBaseYellowWeight");
-            this.LblBaseYellowWeight.Name = "LblBaseYellowWeight";
             // 
             // NUDGachaType
             // 
@@ -234,16 +193,6 @@ namespace GrasscutterTools.Forms
             0,
             0});
             // 
-            // LblRateUpItems2
-            // 
-            resources.ApplyResources(this.LblRateUpItems2, "LblRateUpItems2");
-            this.LblRateUpItems2.Name = "LblRateUpItems2";
-            // 
-            // LblSoftPity
-            // 
-            resources.ApplyResources(this.LblSoftPity, "LblSoftPity");
-            this.LblSoftPity.Name = "LblSoftPity";
-            // 
             // LblGachaTypeTip
             // 
             resources.ApplyResources(this.LblGachaTypeTip, "LblGachaTypeTip");
@@ -254,26 +203,6 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.LblEndTime, "LblEndTime");
             this.LblEndTime.Name = "LblEndTime";
             // 
-            // LblRateUpItems1
-            // 
-            resources.ApplyResources(this.LblRateUpItems1, "LblRateUpItems1");
-            this.LblRateUpItems1.Name = "LblRateUpItems1";
-            // 
-            // NUDSoftPity
-            // 
-            resources.ApplyResources(this.NUDSoftPity, "NUDSoftPity");
-            this.NUDSoftPity.Maximum = new decimal(new int[] {
-            100000,
-            0,
-            0,
-            0});
-            this.NUDSoftPity.Name = "NUDSoftPity";
-            this.NUDSoftPity.Value = new decimal(new int[] {
-            75,
-            0,
-            0,
-            0});
-            // 
             // LblScheduleId
             // 
             resources.ApplyResources(this.LblScheduleId, "LblScheduleId");
@@ -283,18 +212,6 @@ namespace GrasscutterTools.Forms
             // 
             resources.ApplyResources(this.LblBeginTime, "LblBeginTime");
             this.LblBeginTime.Name = "LblBeginTime";
-            // 
-            // TxtRateUpItems1
-            // 
-            this.TxtRateUpItems1.BackColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.TxtRateUpItems1, "TxtRateUpItems1");
-            this.TxtRateUpItems1.Name = "TxtRateUpItems1";
-            this.TxtRateUpItems1.ReadOnly = true;
-            // 
-            // LblHardPity
-            // 
-            resources.ApplyResources(this.LblHardPity, "LblHardPity");
-            this.LblHardPity.Name = "LblHardPity";
             // 
             // NUDScheduleId
             // 
@@ -326,26 +243,6 @@ namespace GrasscutterTools.Forms
             0,
             0});
             // 
-            // LblHardPityTip
-            // 
-            resources.ApplyResources(this.LblHardPityTip, "LblHardPityTip");
-            this.LblHardPityTip.Name = "LblHardPityTip";
-            // 
-            // NUDHardPity
-            // 
-            resources.ApplyResources(this.NUDHardPity, "NUDHardPity");
-            this.NUDHardPity.Maximum = new decimal(new int[] {
-            100000,
-            0,
-            0,
-            0});
-            this.NUDHardPity.Name = "NUDHardPity";
-            this.NUDHardPity.Value = new decimal(new int[] {
-            90,
-            0,
-            0,
-            0});
-            // 
             // LblScheduleIdTip
             // 
             resources.ApplyResources(this.LblScheduleIdTip, "LblScheduleIdTip");
@@ -360,16 +257,6 @@ namespace GrasscutterTools.Forms
             0,
             0});
             this.NUDBeginTime.Name = "NUDBeginTime";
-            // 
-            // LblSoftPityTip
-            // 
-            resources.ApplyResources(this.LblSoftPityTip, "LblSoftPityTip");
-            this.LblSoftPityTip.Name = "LblSoftPityTip";
-            // 
-            // LblBasePurpleWeight
-            // 
-            resources.ApplyResources(this.LblBasePurpleWeight, "LblBasePurpleWeight");
-            this.LblBasePurpleWeight.Name = "LblBasePurpleWeight";
             // 
             // CmbBannerType
             // 
@@ -387,26 +274,10 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.LblSortIdTip, "LblSortIdTip");
             this.LblSortIdTip.Name = "LblSortIdTip";
             // 
-            // NUDBasePurpleWeight
-            // 
-            this.NUDBasePurpleWeight.DecimalPlaces = 2;
-            resources.ApplyResources(this.NUDBasePurpleWeight, "NUDBasePurpleWeight");
-            this.NUDBasePurpleWeight.Name = "NUDBasePurpleWeight";
-            this.NUDBasePurpleWeight.Value = new decimal(new int[] {
-            51,
-            0,
-            0,
-            65536});
-            // 
             // LblBannerType
             // 
             resources.ApplyResources(this.LblBannerType, "LblBannerType");
             this.LblBannerType.Name = "LblBannerType";
-            // 
-            // LblBasePurpleWeightTip
-            // 
-            resources.ApplyResources(this.LblBasePurpleWeightTip, "LblBasePurpleWeightTip");
-            this.LblBasePurpleWeightTip.Name = "LblBasePurpleWeightTip";
             // 
             // RbCostItem224
             // 
@@ -415,11 +286,6 @@ namespace GrasscutterTools.Forms
             this.RbCostItem224.Name = "RbCostItem224";
             this.RbCostItem224.TabStop = true;
             this.RbCostItem224.UseVisualStyleBackColor = true;
-            // 
-            // LblBaseYellowWeightTip
-            // 
-            resources.ApplyResources(this.LblBaseYellowWeightTip, "LblBaseYellowWeightTip");
-            this.LblBaseYellowWeightTip.Name = "LblBaseYellowWeightTip";
             // 
             // LblCostItem
             // 
@@ -441,32 +307,16 @@ namespace GrasscutterTools.Forms
             // GrpPurplePool
             // 
             resources.ApplyResources(this.GrpPurplePool, "GrpPurplePool");
-            this.GrpPurplePool.Controls.Add(this.ListPurplePool);
+            this.GrpPurplePool.Controls.Add(this.treeView1);
             this.GrpPurplePool.Name = "GrpPurplePool";
             this.GrpPurplePool.TabStop = false;
-            // 
-            // ListPurplePool
-            // 
-            this.ListPurplePool.CheckOnClick = true;
-            resources.ApplyResources(this.ListPurplePool, "ListPurplePool");
-            this.ListPurplePool.FormattingEnabled = true;
-            this.ListPurplePool.Name = "ListPurplePool";
-            this.ListPurplePool.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.ListPurplePool_ItemCheck);
             // 
             // GrpYellowPool
             // 
             resources.ApplyResources(this.GrpYellowPool, "GrpYellowPool");
-            this.GrpYellowPool.Controls.Add(this.ListYellowPool);
+            this.GrpYellowPool.Controls.Add(this.treeView2);
             this.GrpYellowPool.Name = "GrpYellowPool";
             this.GrpYellowPool.TabStop = false;
-            // 
-            // ListYellowPool
-            // 
-            this.ListYellowPool.CheckOnClick = true;
-            resources.ApplyResources(this.ListYellowPool, "ListYellowPool");
-            this.ListYellowPool.FormattingEnabled = true;
-            this.ListYellowPool.Name = "ListYellowPool";
-            this.ListYellowPool.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.ListYellowPool_ItemCheck);
             // 
             // GrpJson
             // 
@@ -496,84 +346,148 @@ namespace GrasscutterTools.Forms
             this.BtnParse.UseVisualStyleBackColor = true;
             this.BtnParse.Click += new System.EventHandler(this.BtnParse_Click);
             // 
-            // FormGachaBannerEditor
+            // treeView1
+            // 
+            resources.ApplyResources(this.treeView1, "treeView1");
+            this.treeView1.Name = "treeView1";
+            // 
+            // treeView2
+            // 
+            resources.ApplyResources(this.treeView2, "treeView2");
+            this.treeView2.Name = "treeView2";
+            // 
+            // LblEventChance4
+            // 
+            resources.ApplyResources(this.LblEventChance4, "LblEventChance4");
+            this.LblEventChance4.Name = "LblEventChance4";
+            // 
+            // NUDEventChance4
+            // 
+            resources.ApplyResources(this.NUDEventChance4, "NUDEventChance4");
+            this.NUDEventChance4.Name = "NUDEventChance4";
+            this.NUDEventChance4.Value = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
+            // 
+            // LblEventChance4Tip
+            // 
+            resources.ApplyResources(this.LblEventChance4Tip, "LblEventChance4Tip");
+            this.LblEventChance4Tip.Name = "LblEventChance4Tip";
+            // 
+            // chart1
+            // 
+            chartArea3.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea3);
+            legend3.Name = "Legend1";
+            this.chart1.Legends.Add(legend3);
+            resources.ApplyResources(this.chart1, "chart1");
+            this.chart1.Name = "chart1";
+            series3.ChartArea = "ChartArea1";
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chart1.Series.Add(series3);
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            resources.ApplyResources(this.tabControl1, "tabControl1");
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            // 
+            // tabPage1
+            // 
+            resources.ApplyResources(this.tabPage1, "tabPage1");
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            resources.ApplyResources(this.tabPage2, "tabPage2");
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // GrpWeights
+            // 
+            resources.ApplyResources(this.GrpWeights, "GrpWeights");
+            this.GrpWeights.Controls.Add(this.tabControl1);
+            this.GrpWeights.Controls.Add(this.chart1);
+            this.GrpWeights.Name = "GrpWeights";
+            this.GrpWeights.TabStop = false;
+            // 
+            // FormGachaBannerEditor2
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.GrpWeights);
             this.Controls.Add(this.GrpJson);
             this.Controls.Add(this.GrpPurplePool);
             this.Controls.Add(this.GrpYellowPool);
             this.Controls.Add(this.GrpBannerValues);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Name = "FormGachaBannerEditor";
+            this.Name = "FormGachaBannerEditor2";
             this.GrpBannerValues.ResumeLayout(false);
             this.GrpBannerValues.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDBaseYellowWeight)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDGachaType)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDSortId)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDSoftPity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDScheduleId)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEndTime)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDHardPity)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDBeginTime)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDBasePurpleWeight)).EndInit();
             this.GrpPurplePool.ResumeLayout(false);
             this.GrpYellowPool.ResumeLayout(false);
             this.GrpJson.ResumeLayout(false);
             this.GrpJson.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.GrpWeights.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.GroupBox GrpBannerValues;
-        private System.Windows.Forms.Label LblEventChanceTip;
-        private System.Windows.Forms.NumericUpDown NUDEventChance;
+        private System.Windows.Forms.Label LblEventChance5Tip;
+        private System.Windows.Forms.NumericUpDown NUDEventChance5;
         private System.Windows.Forms.Label LblGachaType;
-        private System.Windows.Forms.Label LblEventChance;
-        private System.Windows.Forms.NumericUpDown NUDBaseYellowWeight;
+        private System.Windows.Forms.Label LblEventChance5;
         private System.Windows.Forms.Label LblSortId;
-        private System.Windows.Forms.TextBox TxtRateUpItems2;
-        private System.Windows.Forms.Label LblBaseYellowWeight;
         private System.Windows.Forms.NumericUpDown NUDGachaType;
         private System.Windows.Forms.NumericUpDown NUDSortId;
-        private System.Windows.Forms.Label LblRateUpItems2;
-        private System.Windows.Forms.Label LblSoftPity;
         private System.Windows.Forms.Label LblGachaTypeTip;
         private System.Windows.Forms.Label LblEndTime;
-        private System.Windows.Forms.Label LblRateUpItems1;
-        private System.Windows.Forms.NumericUpDown NUDSoftPity;
         private System.Windows.Forms.Label LblScheduleId;
         private System.Windows.Forms.Label LblBeginTime;
-        private System.Windows.Forms.TextBox TxtRateUpItems1;
-        private System.Windows.Forms.Label LblHardPity;
         private System.Windows.Forms.NumericUpDown NUDScheduleId;
         private System.Windows.Forms.NumericUpDown NUDEndTime;
-        private System.Windows.Forms.Label LblHardPityTip;
-        private System.Windows.Forms.NumericUpDown NUDHardPity;
         private System.Windows.Forms.Label LblScheduleIdTip;
         private System.Windows.Forms.NumericUpDown NUDBeginTime;
-        private System.Windows.Forms.Label LblSoftPityTip;
-        private System.Windows.Forms.Label LblBasePurpleWeight;
         private System.Windows.Forms.ComboBox CmbBannerType;
         private System.Windows.Forms.Label LblSortIdTip;
-        private System.Windows.Forms.NumericUpDown NUDBasePurpleWeight;
         private System.Windows.Forms.Label LblBannerType;
-        private System.Windows.Forms.Label LblBasePurpleWeightTip;
         private System.Windows.Forms.RadioButton RbCostItem224;
-        private System.Windows.Forms.Label LblBaseYellowWeightTip;
         private System.Windows.Forms.Label LblCostItem;
         private System.Windows.Forms.Label LblPrefabPath;
         private System.Windows.Forms.RadioButton RbCostItem223;
         private System.Windows.Forms.GroupBox GrpPurplePool;
-        private System.Windows.Forms.CheckedListBox ListPurplePool;
         private System.Windows.Forms.GroupBox GrpYellowPool;
-        private System.Windows.Forms.CheckedListBox ListYellowPool;
         private System.Windows.Forms.GroupBox GrpJson;
         private System.Windows.Forms.TextBox TxtJson;
         private System.Windows.Forms.Button BtnGen;
         private System.Windows.Forms.Button BtnParse;
         private System.Windows.Forms.ComboBox CmbPrefab;
+        private System.Windows.Forms.Label LblEventChance4;
+        private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.TreeView treeView2;
+        private System.Windows.Forms.Label LblEventChance4Tip;
+        private System.Windows.Forms.NumericUpDown NUDEventChance4;
+        private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.GroupBox GrpWeights;
     }
 }
