@@ -26,7 +26,7 @@ using System.Windows.Forms;
 using GrasscutterTools.Game;
 using GrasscutterTools.Properties;
 
-namespace GrasscutterTools
+namespace GrasscutterTools.Forms
 {
     public partial class FormTextMapBrowser : Form
     {

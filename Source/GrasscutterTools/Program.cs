@@ -43,7 +43,7 @@ namespace GrasscutterTools
             //处理非UI线程异常
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
 
-            Application.Run(new FormMain());
+            Application.Run(new Forms.FormMain());
         }
 
         #region - 全局异常处理 -

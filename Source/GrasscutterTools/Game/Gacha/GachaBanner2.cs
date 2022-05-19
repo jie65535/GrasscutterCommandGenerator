@@ -24,8 +24,7 @@ using Newtonsoft.Json.Converters;
 namespace GrasscutterTools.Game.Gacha
 {
     /// <summary>
-    /// 使用这个只需替换掉你原来的的data/banner.json文件，
-    /// 然后重启服务器和客户端，即可享受全卡池抽卡，卡池的选择方式是点击左右箭头进行切换
+    /// https://github.com/Grasscutters/Grasscutter/pull/639
     /// </summary>
     public class GachaBanner2
     {

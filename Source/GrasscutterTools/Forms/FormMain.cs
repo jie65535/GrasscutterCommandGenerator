@@ -30,7 +30,7 @@ using GrasscutterTools.Game;
 using GrasscutterTools.OpenCommand;
 using GrasscutterTools.Properties;
 
-namespace GrasscutterTools
+namespace GrasscutterTools.Forms
 {
     public partial class FormMain : Form
     {

@@ -1,5 +1,5 @@
 ﻿
-namespace GrasscutterTools
+namespace GrasscutterTools.Forms
 {
     partial class FormGachaBannerEditor
     {

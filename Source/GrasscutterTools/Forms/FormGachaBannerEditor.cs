@@ -29,7 +29,7 @@ using GrasscutterTools.Properties;
 
 using Newtonsoft.Json;
 
-namespace GrasscutterTools
+namespace GrasscutterTools.Forms
 {
     /// <summary>
     /// 卡池编辑器

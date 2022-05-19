@@ -197,22 +197,22 @@
   <ItemGroup>
     <Compile Include="DispatchServer\DispatchServerAPI.cs" />
     <Compile Include="DispatchServer\Model\ServerStatus.cs" />
-    <Compile Include="FormGachaBannerEditor.cs">
+    <Compile Include="Forms\FormGachaBannerEditor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormGachaBannerEditor.Designer.cs">
+    <Compile Include="Forms\FormGachaBannerEditor.Designer.cs">
       <DependentUpon>FormGachaBannerEditor.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormMain.cs">
+    <Compile Include="Forms\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormMain.Designer.cs">
+    <Compile Include="Forms\FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormTextMapBrowser.cs">
+    <Compile Include="Forms\FormTextMapBrowser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormTextMapBrowser.Designer.cs">
+    <Compile Include="Forms\FormTextMapBrowser.Designer.cs">
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </Compile>
     <Compile Include="Game\Gacha\GachaBanner2.cs" />
@@ -229,34 +229,34 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\HttpHelper.cs" />
-    <EmbeddedResource Include="FormGachaBannerEditor.en-us.resx">
+    <EmbeddedResource Include="Forms\FormGachaBannerEditor.en-us.resx">
       <DependentUpon>FormGachaBannerEditor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormGachaBannerEditor.ru-ru.resx">
+    <EmbeddedResource Include="Forms\FormGachaBannerEditor.ru-ru.resx">
       <DependentUpon>FormGachaBannerEditor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormGachaBannerEditor.resx">
+    <EmbeddedResource Include="Forms\FormGachaBannerEditor.resx">
       <DependentUpon>FormGachaBannerEditor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMain.en-us.resx">
+    <EmbeddedResource Include="Forms\FormMain.en-us.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMain.ru-ru.resx">
+    <EmbeddedResource Include="Forms\FormMain.ru-ru.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormMain.resx">
+    <EmbeddedResource Include="Forms\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTextMapBrowser.en-US.resx">
+    <EmbeddedResource Include="Forms\FormTextMapBrowser.en-US.resx">
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTextMapBrowser.ru-ru.resx">
+    <EmbeddedResource Include="Forms\FormTextMapBrowser.ru-ru.resx">
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormTextMapBrowser.resx">
+    <EmbeddedResource Include="Forms\FormTextMapBrowser.resx">
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.en-us.resx">
