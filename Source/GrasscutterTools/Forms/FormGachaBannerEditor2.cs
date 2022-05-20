@@ -23,6 +23,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 using GrasscutterTools.Game;
 using GrasscutterTools.Game.Gacha;
@@ -158,20 +159,43 @@ namespace GrasscutterTools.Forms
 
         #region - 权重 -
 
+        Series SeriesW5;
+        Series SeriesW4;
+        Series SeriesPW5;
+        Series SeriesPW4;
+
         private void InitWeights(GachaBanner2 banner)
         {
             var w5  = ListBannerWeights.Groups["GroupWeight5"];
             var w4  = ListBannerWeights.Groups["GroupWeight4"];
             var pw5 = ListBannerWeights.Groups["GroupPoolWeight5"];
             var pw4 = ListBannerWeights.Groups["GroupPoolWeight4"];
-            var t = SelectWeights(banner.Weights5).Select(it => new ListViewItem(it, w5))
-                .Concat(SelectWeights(banner.Weights4).Select(it => new ListViewItem(it, w4)))
-                .Concat(SelectWeights(banner.PoolBalanceWeights5).Select(it => new ListViewItem(it, pw5)))
-                .Concat(SelectWeights(banner.PoolBalanceWeights4).Select(it => new ListViewItem(it, pw4)));
+            SeriesW5 = ChartWeights.Series["SeriesWeight5"];
+            SeriesW5.Color = Color.OrangeRed;
+            SeriesW5.Points.Clear();
+            SeriesW4 = ChartWeights.Series["SeriesWeight4"];
+            SeriesW4.Color = Color.Purple;
+            SeriesW4.Points.Clear();
+            SeriesPW5 = ChartWeights.Series["SeriesPoolWeight5"];
+            SeriesPW5.Color = Color.Orange;
+            SeriesPW5.Points.Clear();
+            SeriesPW4 = ChartWeights.Series["SeriesPoolWeight4"];
+            SeriesPW4.Color = Color.MediumPurple;
+            SeriesPW4.Points.Clear();
+            var t = SelectWeights(banner.Weights5).Select(it => new ListViewItem(it, w5) { ForeColor = SeriesW5.Color })
+                .Concat(SelectWeights(banner.Weights4).Select(it => new ListViewItem(it, w4) { ForeColor = SeriesW4.Color }))
+                .Concat(SelectWeights(banner.PoolBalanceWeights5).Select(it => new ListViewItem(it, pw5) { ForeColor = SeriesPW5.Color }))
+                .Concat(SelectWeights(banner.PoolBalanceWeights4).Select(it => new ListViewItem(it, pw4) { ForeColor = SeriesPW4.Color }));
             ListBannerWeights.BeginUpdate();
             ListBannerWeights.Items.Clear();
             ListBannerWeights.Items.AddRange(t.ToArray());
             ListBannerWeights.EndUpdate();
+            UpdateChart();
+        }
+
+        private void UpdateChart()
+        {
+            // TODO
         }
 
         private IEnumerable<string[]> SelectWeights(int[,] weights)

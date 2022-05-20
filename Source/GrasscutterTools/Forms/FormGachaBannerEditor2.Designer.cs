@@ -31,11 +31,11 @@ namespace GrasscutterTools.Forms
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGachaBannerEditor2));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series19 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series20 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.GrpBannerValues = new System.Windows.Forms.GroupBox();
             this.DTPEndTime = new System.Windows.Forms.DateTimePicker();
             this.DTPBeginTime = new System.Windows.Forms.DateTimePicker();
@@ -420,28 +420,28 @@ namespace GrasscutterTools.Forms
             // 
             // ChartWeights
             // 
-            chartArea5.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gainsboro;
-            chartArea5.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gainsboro;
-            chartArea5.Name = "ChartArea1";
-            this.ChartWeights.ChartAreas.Add(chartArea5);
+            chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gainsboro;
+            chartArea1.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gainsboro;
+            chartArea1.Name = "ChartArea1";
+            this.ChartWeights.ChartAreas.Add(chartArea1);
             resources.ApplyResources(this.ChartWeights, "ChartWeights");
             this.ChartWeights.Name = "ChartWeights";
-            series17.ChartArea = "ChartArea1";
-            series17.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series17.Name = "SeriesWeight5";
-            series18.ChartArea = "ChartArea1";
-            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series18.Name = "SeriesWeight4";
-            series19.ChartArea = "ChartArea1";
-            series19.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series19.Name = "SeriesPoolBalanceWeight5";
-            series20.ChartArea = "ChartArea1";
-            series20.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series20.Name = "SeriesPoolBalanceWeight4";
-            this.ChartWeights.Series.Add(series17);
-            this.ChartWeights.Series.Add(series18);
-            this.ChartWeights.Series.Add(series19);
-            this.ChartWeights.Series.Add(series20);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Name = "SeriesWeight5";
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.Name = "SeriesWeight4";
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Name = "SeriesPoolWeight5";
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series4.Name = "SeriesPoolWeight4";
+            this.ChartWeights.Series.Add(series1);
+            this.ChartWeights.Series.Add(series2);
+            this.ChartWeights.Series.Add(series3);
+            this.ChartWeights.Series.Add(series4);
             // 
             // GrpWeights
             // 
