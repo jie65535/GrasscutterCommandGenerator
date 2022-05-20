@@ -37,8 +37,6 @@ namespace GrasscutterTools.Forms
     /// </summary>
     public partial class FormGachaBannerEditor2 : Form
     {
-        #region - 初始化 -
-
         public FormGachaBannerEditor2()
         {
             InitializeComponent();
@@ -58,17 +56,17 @@ namespace GrasscutterTools.Forms
             CmbPrefab.Items.AddRange(GameData.GachaBannerPrefabs.Names);
         }
 
+        #region - 卡池 -
 
         private void InitCheckedListBoxs()
         {
-            var c = new Dictionary<string, string>();
             ListFallbackItems.BeginUpdate();
-            var a5 = ListFallbackItems.Groups.Add("a5", "5星角色");
-            var a4 = ListFallbackItems.Groups.Add("a4", "4星角色");
-            var a3 = ListFallbackItems.Groups.Add("a3", "3星角色");
-            var w5 = ListFallbackItems.Groups.Add("w5", "5星武器");
-            var w4 = ListFallbackItems.Groups.Add("w4", "4星武器");
-            var w3 = ListFallbackItems.Groups.Add("w3", "3星武器");
+            var a5 = ListFallbackItems.Groups["GroupA5"];
+            var a4 = ListFallbackItems.Groups["GroupA4"];
+            var a3 = ListFallbackItems.Groups["GroupA3"];
+            var w5 = ListFallbackItems.Groups["GroupW5"];
+            var w4 = ListFallbackItems.Groups["GroupW4"];
+            var w3 = ListFallbackItems.Groups["GroupW3"];
             var avatars = GetAvatarsByColor("yellow")
                 .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, a5) { ForeColor = Color.OrangeRed })
                 .Concat(GetAvatarsByColor("purple")
@@ -81,14 +79,15 @@ namespace GrasscutterTools.Forms
                 .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, w4) { ForeColor = Color.Purple }))
                 .Concat(GetWeaponsByColor("blue")
                 .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, w3) { ForeColor = Color.Blue }));
+            ListFallbackItems.Items.Clear();
             ListFallbackItems.Items.AddRange(avatars.Concat(weapons).ToArray());
 
 
             ListUpItems.BeginUpdate();
-            var ua5 = ListUpItems.Groups.Add("ua5", "5星角色");
-            var ua4 = ListUpItems.Groups.Add("ua4", "4星角色");
-            var uw5 = ListUpItems.Groups.Add("uw5", "5星武器");
-            var uw4 = ListUpItems.Groups.Add("uw4", "4星武器");
+            var ua5 = ListUpItems.Groups["GroupUpA5"];
+            var ua4 = ListUpItems.Groups["GroupUpA4"];
+            var uw5 = ListUpItems.Groups["GroupUpW5"];
+            var uw4 = ListUpItems.Groups["GroupUpW4"];
             var upAvatars = GetAvatarsByColor("yellow")
                 .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, ua5) { ForeColor = Color.OrangeRed })
                 .Concat(GetAvatarsByColor("purple")
@@ -97,6 +96,7 @@ namespace GrasscutterTools.Forms
                 .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, uw5) { ForeColor = Color.OrangeRed })
                 .Concat(GetWeaponsByColor("purple")
                 .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, uw4) { ForeColor = Color.Purple }));
+            ListUpItems.Items.Clear();
             ListUpItems.Items.AddRange(upAvatars.Concat(upWeapons).ToArray());
 
             ListFallbackItems.EndUpdate();
@@ -147,9 +147,92 @@ namespace GrasscutterTools.Forms
                 item.Checked = Array.IndexOf(u, int.Parse(item.Text)) >= 0;
         }
 
-        #endregion - 初始化 -
+        private IEnumerable<int> GetCheckedItems(ListView list, ListViewGroup group)
+        {
+            foreach (ListViewItem item in list.CheckedItems)
+                if (item.Group == group)
+                    yield return int.Parse(item.Text);
+        }
 
-        #region - UI -
+        #endregion
+
+        #region - 权重 -
+
+        private void InitWeights(GachaBanner2 banner)
+        {
+            var w5  = ListBannerWeights.Groups["GroupWeight5"];
+            var w4  = ListBannerWeights.Groups["GroupWeight4"];
+            var pw5 = ListBannerWeights.Groups["GroupPoolWeight5"];
+            var pw4 = ListBannerWeights.Groups["GroupPoolWeight4"];
+            var t = SelectWeights(banner.Weights5).Select(it => new ListViewItem(it, w5))
+                .Concat(SelectWeights(banner.Weights4).Select(it => new ListViewItem(it, w4)))
+                .Concat(SelectWeights(banner.PoolBalanceWeights5).Select(it => new ListViewItem(it, pw5)))
+                .Concat(SelectWeights(banner.PoolBalanceWeights4).Select(it => new ListViewItem(it, pw4)));
+            ListBannerWeights.BeginUpdate();
+            ListBannerWeights.Items.Clear();
+            ListBannerWeights.Items.AddRange(t.ToArray());
+            ListBannerWeights.EndUpdate();
+        }
+
+        private IEnumerable<string[]> SelectWeights(int[,] weights)
+        {
+            for (int i = 0; i < weights.GetLength(0); i++)
+                yield return new string[] { weights[i, 0].ToString(), weights[i, 1].ToString() };
+        }
+
+        private int[,] GetWeights(ListViewGroup group)
+        {
+            var weights = new int[group.Items.Count, 2];
+            int i = 0;
+            foreach (ListViewItem item in group.Items)
+            {
+                weights[i, 0] = int.Parse(item.SubItems[0].Text);
+                weights[i, 1] = int.Parse(item.SubItems[1].Text);
+                i++;
+            }
+            return weights;
+        }
+
+        private void ListBannerWeights_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            if (ListBannerWeights.SelectedItems.Count != 1)
+                return;
+            MessageBox.Show("TODO");
+        }
+
+        private void MenuItemEdit_Click(object sender, EventArgs e)
+        {
+            if (ListBannerWeights.SelectedItems.Count != 1)
+            {
+                MessageBox.Show("请先选择目标", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            MessageBox.Show("TODO");
+        }
+
+        private void MenuItemAdd_Click(object sender, EventArgs e)
+        {
+            if (ListBannerWeights.SelectedItems.Count != 1)
+            {
+                MessageBox.Show("请先选择目标", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            MessageBox.Show("TODO");
+        }
+
+        private void MenuItemRemove_Click(object sender, EventArgs e)
+        {
+            if (ListBannerWeights.SelectedItems.Count != 1)
+            {
+                MessageBox.Show("请先选择目标", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            MessageBox.Show("TODO");
+        }
+
+        #endregion
+
+        #region - 序列化 -
 
         private void ShowBanner(GachaBanner2 banner)
         {
@@ -170,6 +253,7 @@ namespace GrasscutterTools.Forms
                 NUDEventChance5.Value       = banner.EventChance5;
                 NUDEventChance4.Value       = banner.EventChance4;
                 InitItems(banner);
+                InitWeights(banner);
             }
             catch (Exception ex)
             {
@@ -195,25 +279,33 @@ namespace GrasscutterTools.Forms
             var prefabId = GameData.GachaBannerPrefabs.Ids[CmbPrefab.SelectedIndex];
             var banner = new GachaBanner2
             {
-                GachaType         = (int)NUDGachaType.Value,
-                ScheduleId        = (int)NUDScheduleId.Value,
-                BannerType        = (BannerType)CmbBannerType.SelectedIndex,
-                PrefabPath        = $"GachaShowPanel_A{prefabId:000}",
-                PreviewPrefabPath = $"UI_Tab_GachaShowPanel_A{prefabId:000}",
-                TitlePath         = $"UI_GACHA_SHOW_PANEL_A{prefabId:000}_TITLE",
-                CostItem          = RbCostItem224.Checked ? 224 : 223,
-                BeginTime         = (int)new DateTimeOffset(DTPBeginTime.Value).ToUnixTimeSeconds(),
-                EndTime           = (int)new DateTimeOffset(DTPEndTime.Value).ToUnixTimeSeconds(),
-                SortId            = (int)NUDSortId.Value,
-                EventChance5      = (int)NUDEventChance5.Value,
-                EventChance4      = (int)NUDEventChance4.Value,
-            };
+                GachaType           = (int)NUDGachaType.Value,
+                ScheduleId          = (int)NUDScheduleId.Value,
+                BannerType          = (BannerType)CmbBannerType.SelectedIndex,
+                PrefabPath          = $"GachaShowPanel_A{prefabId:000}",
+                PreviewPrefabPath   = $"UI_Tab_GachaShowPanel_A{prefabId:000}",
+                TitlePath           = $"UI_GACHA_SHOW_PANEL_A{prefabId:000}_TITLE",
+                CostItem            = RbCostItem224.Checked ? 224 : 223,
+                BeginTime           = (int)new DateTimeOffset(DTPBeginTime.Value).ToUnixTimeSeconds(),
+                EndTime             = (int)new DateTimeOffset(DTPEndTime.Value).ToUnixTimeSeconds(),
+                SortId              = (int)NUDSortId.Value,
+                EventChance5        = (int)NUDEventChance5.Value,
+                EventChance4        = (int)NUDEventChance4.Value,
+                FallbackItems3      = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupA3"])
+                                         .Concat(GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupW3"]))
+                                         .ToArray(),
+                FallbackItems4Pool1 = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupA4"]).ToArray(),
+                FallbackItems4Pool2 = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupW4"]).ToArray(),
+                FallbackItems5Pool1 = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupA5"]).ToArray(),
+                FallbackItems5Pool2 = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupW5"]).ToArray(),
+
+                Weights4            = GetWeights(ListBannerWeights.Groups["GroupWeight4"]),
+                Weights5            = GetWeights(ListBannerWeights.Groups["GroupWeight5"]),
+                PoolBalanceWeights4 = GetWeights(ListBannerWeights.Groups["GroupPoolWeight4"]),
+                PoolBalanceWeights5 = GetWeights(ListBannerWeights.Groups["GroupPoolWeight5"]),
+        };
             return banner;
         }
-
-        #endregion - UI -
-
-        #region - 事件 -
 
         private void BtnGen_Click(object sender, EventArgs e)
         {
@@ -236,6 +328,7 @@ namespace GrasscutterTools.Forms
             }
         }
 
-        #endregion - 事件 -
+        #endregion
+        
     }
 }

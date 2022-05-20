@@ -66,7 +66,7 @@ namespace GrasscutterTools.Game.Gacha
         /// (提示：请不要随便修改祈愿道具除了蓝球和粉球，有可能会引发bug，比如修改成摩拉抽卡可能导致卡住)
         /// </summary>
         [JsonProperty("costItem")]
-        public int CostItem { get; set; } = 223;
+        public int CostItem { get; set; } = 224;
 
         /// <summary>
         /// 开始时间（Unix时间戳）
