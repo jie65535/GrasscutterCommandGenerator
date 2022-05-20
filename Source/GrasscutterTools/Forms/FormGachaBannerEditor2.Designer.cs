@@ -29,15 +29,18 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGachaBannerEditor2));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.GrpBannerValues = new System.Windows.Forms.GroupBox();
             this.CmbPrefab = new System.Windows.Forms.ComboBox();
+            this.LblEventChance4Tip = new System.Windows.Forms.Label();
             this.LblEventChance5Tip = new System.Windows.Forms.Label();
+            this.NUDEventChance4 = new System.Windows.Forms.NumericUpDown();
             this.NUDEventChance5 = new System.Windows.Forms.NumericUpDown();
             this.LblGachaType = new System.Windows.Forms.Label();
+            this.LblEventChance4 = new System.Windows.Forms.Label();
             this.LblEventChance5 = new System.Windows.Forms.Label();
             this.LblSortId = new System.Windows.Forms.Label();
             this.NUDGachaType = new System.Windows.Forms.NumericUpDown();
@@ -47,9 +50,7 @@ namespace GrasscutterTools.Forms
             this.LblScheduleId = new System.Windows.Forms.Label();
             this.LblBeginTime = new System.Windows.Forms.Label();
             this.NUDScheduleId = new System.Windows.Forms.NumericUpDown();
-            this.NUDEndTime = new System.Windows.Forms.NumericUpDown();
             this.LblScheduleIdTip = new System.Windows.Forms.Label();
-            this.NUDBeginTime = new System.Windows.Forms.NumericUpDown();
             this.CmbBannerType = new System.Windows.Forms.ComboBox();
             this.LblSortIdTip = new System.Windows.Forms.Label();
             this.LblBannerType = new System.Windows.Forms.Label();
@@ -63,34 +64,34 @@ namespace GrasscutterTools.Forms
             this.BtnGen = new System.Windows.Forms.Button();
             this.TxtJson = new System.Windows.Forms.TextBox();
             this.BtnParse = new System.Windows.Forms.Button();
-            this.treeView1 = new System.Windows.Forms.TreeView();
-            this.treeView2 = new System.Windows.Forms.TreeView();
-            this.LblEventChance4 = new System.Windows.Forms.Label();
-            this.NUDEventChance4 = new System.Windows.Forms.NumericUpDown();
-            this.LblEventChance4Tip = new System.Windows.Forms.Label();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.GrpWeights = new System.Windows.Forms.GroupBox();
+            this.DTPBeginTime = new System.Windows.Forms.DateTimePicker();
+            this.DTPEndTime = new System.Windows.Forms.DateTimePicker();
+            this.ListBannerWeights = new System.Windows.Forms.ListView();
+            this.ListUpItems = new System.Windows.Forms.ListView();
+            this.ListFallbackItems = new System.Windows.Forms.ListView();
+            this.ColUpId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColUpName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColFallbackId = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColFallbackName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.GrpBannerValues.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDGachaType)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDSortId)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDScheduleId)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDEndTime)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDBeginTime)).BeginInit();
             this.GrpPurplePool.SuspendLayout();
             this.GrpYellowPool.SuspendLayout();
             this.GrpJson.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
-            this.tabControl1.SuspendLayout();
             this.GrpWeights.SuspendLayout();
             this.SuspendLayout();
             // 
             // GrpBannerValues
             // 
+            this.GrpBannerValues.Controls.Add(this.DTPEndTime);
+            this.GrpBannerValues.Controls.Add(this.DTPBeginTime);
             this.GrpBannerValues.Controls.Add(this.CmbPrefab);
             this.GrpBannerValues.Controls.Add(this.LblEventChance4Tip);
             this.GrpBannerValues.Controls.Add(this.LblEventChance5Tip);
@@ -107,9 +108,7 @@ namespace GrasscutterTools.Forms
             this.GrpBannerValues.Controls.Add(this.LblScheduleId);
             this.GrpBannerValues.Controls.Add(this.LblBeginTime);
             this.GrpBannerValues.Controls.Add(this.NUDScheduleId);
-            this.GrpBannerValues.Controls.Add(this.NUDEndTime);
             this.GrpBannerValues.Controls.Add(this.LblScheduleIdTip);
-            this.GrpBannerValues.Controls.Add(this.NUDBeginTime);
             this.GrpBannerValues.Controls.Add(this.CmbBannerType);
             this.GrpBannerValues.Controls.Add(this.LblSortIdTip);
             this.GrpBannerValues.Controls.Add(this.LblBannerType);
@@ -128,10 +127,25 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.CmbPrefab, "CmbPrefab");
             this.CmbPrefab.Name = "CmbPrefab";
             // 
+            // LblEventChance4Tip
+            // 
+            resources.ApplyResources(this.LblEventChance4Tip, "LblEventChance4Tip");
+            this.LblEventChance4Tip.Name = "LblEventChance4Tip";
+            // 
             // LblEventChance5Tip
             // 
             resources.ApplyResources(this.LblEventChance5Tip, "LblEventChance5Tip");
             this.LblEventChance5Tip.Name = "LblEventChance5Tip";
+            // 
+            // NUDEventChance4
+            // 
+            resources.ApplyResources(this.NUDEventChance4, "NUDEventChance4");
+            this.NUDEventChance4.Name = "NUDEventChance4";
+            this.NUDEventChance4.Value = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
             // 
             // NUDEventChance5
             // 
@@ -147,6 +161,11 @@ namespace GrasscutterTools.Forms
             // 
             resources.ApplyResources(this.LblGachaType, "LblGachaType");
             this.LblGachaType.Name = "LblGachaType";
+            // 
+            // LblEventChance4
+            // 
+            resources.ApplyResources(this.LblEventChance4, "LblEventChance4");
+            this.LblEventChance4.Name = "LblEventChance4";
             // 
             // LblEventChance5
             // 
@@ -228,35 +247,10 @@ namespace GrasscutterTools.Forms
             0,
             0});
             // 
-            // NUDEndTime
-            // 
-            resources.ApplyResources(this.NUDEndTime, "NUDEndTime");
-            this.NUDEndTime.Maximum = new decimal(new int[] {
-            1924992000,
-            0,
-            0,
-            0});
-            this.NUDEndTime.Name = "NUDEndTime";
-            this.NUDEndTime.Value = new decimal(new int[] {
-            1924992000,
-            0,
-            0,
-            0});
-            // 
             // LblScheduleIdTip
             // 
             resources.ApplyResources(this.LblScheduleIdTip, "LblScheduleIdTip");
             this.LblScheduleIdTip.Name = "LblScheduleIdTip";
-            // 
-            // NUDBeginTime
-            // 
-            resources.ApplyResources(this.NUDBeginTime, "NUDBeginTime");
-            this.NUDBeginTime.Maximum = new decimal(new int[] {
-            1924992000,
-            0,
-            0,
-            0});
-            this.NUDBeginTime.Name = "NUDBeginTime";
             // 
             // CmbBannerType
             // 
@@ -307,14 +301,14 @@ namespace GrasscutterTools.Forms
             // GrpPurplePool
             // 
             resources.ApplyResources(this.GrpPurplePool, "GrpPurplePool");
-            this.GrpPurplePool.Controls.Add(this.treeView1);
+            this.GrpPurplePool.Controls.Add(this.ListFallbackItems);
             this.GrpPurplePool.Name = "GrpPurplePool";
             this.GrpPurplePool.TabStop = false;
             // 
             // GrpYellowPool
             // 
             resources.ApplyResources(this.GrpYellowPool, "GrpYellowPool");
-            this.GrpYellowPool.Controls.Add(this.treeView2);
+            this.GrpYellowPool.Controls.Add(this.ListUpItems);
             this.GrpYellowPool.Name = "GrpYellowPool";
             this.GrpYellowPool.TabStop = false;
             // 
@@ -346,76 +340,90 @@ namespace GrasscutterTools.Forms
             this.BtnParse.UseVisualStyleBackColor = true;
             this.BtnParse.Click += new System.EventHandler(this.BtnParse_Click);
             // 
-            // treeView1
-            // 
-            resources.ApplyResources(this.treeView1, "treeView1");
-            this.treeView1.Name = "treeView1";
-            // 
-            // treeView2
-            // 
-            resources.ApplyResources(this.treeView2, "treeView2");
-            this.treeView2.Name = "treeView2";
-            // 
-            // LblEventChance4
-            // 
-            resources.ApplyResources(this.LblEventChance4, "LblEventChance4");
-            this.LblEventChance4.Name = "LblEventChance4";
-            // 
-            // NUDEventChance4
-            // 
-            resources.ApplyResources(this.NUDEventChance4, "NUDEventChance4");
-            this.NUDEventChance4.Name = "NUDEventChance4";
-            this.NUDEventChance4.Value = new decimal(new int[] {
-            50,
-            0,
-            0,
-            0});
-            // 
-            // LblEventChance4Tip
-            // 
-            resources.ApplyResources(this.LblEventChance4Tip, "LblEventChance4Tip");
-            this.LblEventChance4Tip.Name = "LblEventChance4Tip";
-            // 
             // chart1
             // 
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
+            chartArea1.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea1);
+            legend1.Name = "Legend1";
+            this.chart1.Legends.Add(legend1);
             resources.ApplyResources(this.chart1, "chart1");
             this.chart1.Name = "chart1";
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
-            // 
-            // tabControl1
-            // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            resources.ApplyResources(this.tabControl1, "tabControl1");
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            // 
-            // tabPage1
-            // 
-            resources.ApplyResources(this.tabPage1, "tabPage1");
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage2
-            // 
-            resources.ApplyResources(this.tabPage2, "tabPage2");
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            series1.ChartArea = "ChartArea1";
+            series1.Legend = "Legend1";
+            series1.Name = "Series1";
+            this.chart1.Series.Add(series1);
             // 
             // GrpWeights
             // 
             resources.ApplyResources(this.GrpWeights, "GrpWeights");
-            this.GrpWeights.Controls.Add(this.tabControl1);
+            this.GrpWeights.Controls.Add(this.ListBannerWeights);
             this.GrpWeights.Controls.Add(this.chart1);
             this.GrpWeights.Name = "GrpWeights";
             this.GrpWeights.TabStop = false;
+            // 
+            // DTPBeginTime
+            // 
+            resources.ApplyResources(this.DTPBeginTime, "DTPBeginTime");
+            this.DTPBeginTime.MaxDate = new System.DateTime(2038, 1, 19, 0, 0, 0, 0);
+            this.DTPBeginTime.MinDate = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
+            this.DTPBeginTime.Name = "DTPBeginTime";
+            // 
+            // DTPEndTime
+            // 
+            resources.ApplyResources(this.DTPEndTime, "DTPEndTime");
+            this.DTPEndTime.MaxDate = new System.DateTime(2038, 1, 19, 0, 0, 0, 0);
+            this.DTPEndTime.MinDate = new System.DateTime(1970, 1, 1, 0, 0, 0, 0);
+            this.DTPEndTime.Name = "DTPEndTime";
+            // 
+            // ListBannerWeights
+            // 
+            this.ListBannerWeights.HideSelection = false;
+            resources.ApplyResources(this.ListBannerWeights, "ListBannerWeights");
+            this.ListBannerWeights.Name = "ListBannerWeights";
+            this.ListBannerWeights.UseCompatibleStateImageBehavior = false;
+            this.ListBannerWeights.View = System.Windows.Forms.View.Details;
+            // 
+            // ListUpItems
+            // 
+            this.ListUpItems.CheckBoxes = true;
+            this.ListUpItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.ColUpId,
+            this.ColUpName});
+            resources.ApplyResources(this.ListUpItems, "ListUpItems");
+            this.ListUpItems.FullRowSelect = true;
+            this.ListUpItems.HideSelection = false;
+            this.ListUpItems.Name = "ListUpItems";
+            this.ListUpItems.UseCompatibleStateImageBehavior = false;
+            this.ListUpItems.View = System.Windows.Forms.View.Details;
+            // 
+            // ListFallbackItems
+            // 
+            this.ListFallbackItems.CheckBoxes = true;
+            this.ListFallbackItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.ColFallbackId,
+            this.ColFallbackName});
+            resources.ApplyResources(this.ListFallbackItems, "ListFallbackItems");
+            this.ListFallbackItems.FullRowSelect = true;
+            this.ListFallbackItems.HideSelection = false;
+            this.ListFallbackItems.Name = "ListFallbackItems";
+            this.ListFallbackItems.UseCompatibleStateImageBehavior = false;
+            this.ListFallbackItems.View = System.Windows.Forms.View.Details;
+            // 
+            // ColUpId
+            // 
+            resources.ApplyResources(this.ColUpId, "ColUpId");
+            // 
+            // ColUpName
+            // 
+            resources.ApplyResources(this.ColUpName, "ColUpName");
+            // 
+            // ColFallbackId
+            // 
+            resources.ApplyResources(this.ColFallbackId, "ColFallbackId");
+            // 
+            // ColFallbackName
+            // 
+            resources.ApplyResources(this.ColFallbackName, "ColFallbackName");
             // 
             // FormGachaBannerEditor2
             // 
@@ -430,19 +438,16 @@ namespace GrasscutterTools.Forms
             this.Name = "FormGachaBannerEditor2";
             this.GrpBannerValues.ResumeLayout(false);
             this.GrpBannerValues.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDGachaType)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDSortId)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDScheduleId)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDEndTime)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDBeginTime)).EndInit();
             this.GrpPurplePool.ResumeLayout(false);
             this.GrpYellowPool.ResumeLayout(false);
             this.GrpJson.ResumeLayout(false);
             this.GrpJson.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
-            this.tabControl1.ResumeLayout(false);
             this.GrpWeights.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -462,9 +467,7 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Label LblScheduleId;
         private System.Windows.Forms.Label LblBeginTime;
         private System.Windows.Forms.NumericUpDown NUDScheduleId;
-        private System.Windows.Forms.NumericUpDown NUDEndTime;
         private System.Windows.Forms.Label LblScheduleIdTip;
-        private System.Windows.Forms.NumericUpDown NUDBeginTime;
         private System.Windows.Forms.ComboBox CmbBannerType;
         private System.Windows.Forms.Label LblSortIdTip;
         private System.Windows.Forms.Label LblBannerType;
@@ -480,14 +483,18 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Button BtnParse;
         private System.Windows.Forms.ComboBox CmbPrefab;
         private System.Windows.Forms.Label LblEventChance4;
-        private System.Windows.Forms.TreeView treeView1;
-        private System.Windows.Forms.TreeView treeView2;
         private System.Windows.Forms.Label LblEventChance4Tip;
         private System.Windows.Forms.NumericUpDown NUDEventChance4;
         private System.Windows.Forms.DataVisualization.Charting.Chart chart1;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.GroupBox GrpWeights;
+        private System.Windows.Forms.DateTimePicker DTPEndTime;
+        private System.Windows.Forms.DateTimePicker DTPBeginTime;
+        private System.Windows.Forms.ListView ListBannerWeights;
+        private System.Windows.Forms.ListView ListFallbackItems;
+        private System.Windows.Forms.ListView ListUpItems;
+        private System.Windows.Forms.ColumnHeader ColFallbackId;
+        private System.Windows.Forms.ColumnHeader ColFallbackName;
+        private System.Windows.Forms.ColumnHeader ColUpId;
+        private System.Windows.Forms.ColumnHeader ColUpName;
     }
 }
