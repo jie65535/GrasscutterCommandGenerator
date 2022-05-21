@@ -117,848 +117,161 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="GrpBannerValues.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ChkAutoStripRateUpFromFallback.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ChkAutoStripRateUpFromFallback.Location" type="System.Drawing.Point, System.Drawing">
-    <value>217, 260</value>
-  </data>
-  <data name="ChkAutoStripRateUpFromFallback.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 21</value>
-  </data>
-  <data name="ChkAutoStripRateUpFromFallback.TabIndex" type="System.Int32, mscorlib">
-    <value>92</value>
-  </data>
-  <data name="ChkAutoStripRateUpFromFallback.Text" xml:space="preserve">
-    <value>自动避免UP被基础抽中</value>
-  </data>
-  <data name="&gt;&gt;ChkAutoStripRateUpFromFallback.Name" xml:space="preserve">
-    <value>ChkAutoStripRateUpFromFallback</value>
-  </data>
-  <data name="&gt;&gt;ChkAutoStripRateUpFromFallback.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ChkAutoStripRateUpFromFallback.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;ChkAutoStripRateUpFromFallback.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="LblOptions.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 261</value>
-  </data>
-  <data name="LblOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
-  <data name="LblOptions.TabIndex" type="System.Int32, mscorlib">
-    <value>91</value>
-  </data>
-  <data name="LblOptions.Text" xml:space="preserve">
-    <value>选项</value>
-  </data>
-  <data name="&gt;&gt;LblOptions.Name" xml:space="preserve">
-    <value>LblOptions</value>
-  </data>
-  <data name="&gt;&gt;LblOptions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblOptions.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblOptions.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ChkRemoveC6FormPool.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ChkRemoveC6FormPool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 260</value>
-  </data>
-  <data name="ChkRemoveC6FormPool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 21</value>
-  </data>
-  <data name="ChkRemoveC6FormPool.TabIndex" type="System.Int32, mscorlib">
-    <value>90</value>
-  </data>
-  <data name="ChkRemoveC6FormPool.Text" xml:space="preserve">
-    <value>避免命座溢出</value>
-  </data>
-  <data name="&gt;&gt;ChkRemoveC6FormPool.Name" xml:space="preserve">
-    <value>ChkRemoveC6FormPool</value>
-  </data>
-  <data name="&gt;&gt;ChkRemoveC6FormPool.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ChkRemoveC6FormPool.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;ChkRemoveC6FormPool.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="LnkOpenOldEditor.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LnkOpenOldEditor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 309</value>
-  </data>
-  <data name="LnkOpenOldEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 17</value>
-  </data>
-  <data name="LnkOpenOldEditor.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="LnkOpenOldEditor.Text" xml:space="preserve">
-    <value>打开旧版本编辑器</value>
-  </data>
-  <data name="&gt;&gt;LnkOpenOldEditor.Name" xml:space="preserve">
-    <value>LnkOpenOldEditor</value>
-  </data>
-  <data name="&gt;&gt;LnkOpenOldEditor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LnkOpenOldEditor.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LnkOpenOldEditor.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="DTPEndTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>302, 173</value>
-  </data>
-  <data name="DTPEndTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 23</value>
-  </data>
-  <data name="DTPEndTime.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;DTPEndTime.Name" xml:space="preserve">
-    <value>DTPEndTime</value>
-  </data>
-  <data name="&gt;&gt;DTPEndTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DTPEndTime.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;DTPEndTime.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="DTPBeginTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 173</value>
-  </data>
-  <data name="DTPBeginTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 23</value>
-  </data>
-  <data name="DTPBeginTime.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;DTPBeginTime.Name" xml:space="preserve">
-    <value>DTPBeginTime</value>
-  </data>
-  <data name="&gt;&gt;DTPBeginTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DTPBeginTime.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;DTPBeginTime.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="CmbPrefab.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 115</value>
-  </data>
-  <data name="CmbPrefab.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 25</value>
-  </data>
-  <data name="CmbPrefab.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;CmbPrefab.Name" xml:space="preserve">
-    <value>CmbPrefab</value>
-  </data>
-  <data name="&gt;&gt;CmbPrefab.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbPrefab.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;CmbPrefab.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="LblEventChance4Tip.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblEventChance4Tip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblEventChance4Tip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>371, 233</value>
-  </data>
-  <data name="LblEventChance4Tip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>19, 17</value>
-  </data>
-  <data name="LblEventChance4Tip.TabIndex" type="System.Int32, mscorlib">
-    <value>89</value>
-  </data>
-  <data name="LblEventChance4Tip.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance4Tip.Name" xml:space="preserve">
-    <value>LblEventChance4Tip</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance4Tip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance4Tip.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance4Tip.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <data name="LblEventChance5Tip.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="LblEventChance5Tip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 233</value>
-  </data>
-  <data name="LblEventChance5Tip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>19, 17</value>
-  </data>
-  <data name="LblEventChance5Tip.TabIndex" type="System.Int32, mscorlib">
-    <value>89</value>
-  </data>
-  <data name="LblEventChance5Tip.Text" xml:space="preserve">
-    <value>%</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance5Tip.Name" xml:space="preserve">
-    <value>LblEventChance5Tip</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance5Tip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance5Tip.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance5Tip.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="NUDEventChance4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>302, 231</value>
-  </data>
-  <data name="NUDEventChance4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 23</value>
-  </data>
-  <data name="NUDEventChance4.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;NUDEventChance4.Name" xml:space="preserve">
-    <value>NUDEventChance4</value>
-  </data>
-  <data name="&gt;&gt;NUDEventChance4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDEventChance4.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;NUDEventChance4.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="NUDEventChance5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 231</value>
-  </data>
-  <data name="NUDEventChance5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 23</value>
-  </data>
-  <data name="NUDEventChance5.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;NUDEventChance5.Name" xml:space="preserve">
-    <value>NUDEventChance5</value>
-  </data>
-  <data name="&gt;&gt;NUDEventChance5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDEventChance5.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;NUDEventChance5.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="LblGachaType.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblGachaType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 28</value>
-  </data>
-  <data name="LblGachaType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 17</value>
-  </data>
-  <data name="LblGachaType.TabIndex" type="System.Int32, mscorlib">
-    <value>48</value>
-  </data>
-  <data name="LblGachaType.Text" xml:space="preserve">
-    <value>GachaType</value>
-  </data>
-  <data name="&gt;&gt;LblGachaType.Name" xml:space="preserve">
-    <value>LblGachaType</value>
-  </data>
-  <data name="&gt;&gt;LblGachaType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblGachaType.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblGachaType.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="LblEventChance4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblEventChance4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblEventChance4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>221, 233</value>
-  </data>
-  <data name="LblEventChance4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 17</value>
-  </data>
-  <data name="LblEventChance4.TabIndex" type="System.Int32, mscorlib">
-    <value>88</value>
-  </data>
-  <data name="LblEventChance4.Text" xml:space="preserve">
-    <value>4星活动爆率</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance4.Name" xml:space="preserve">
-    <value>LblEventChance4</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance4.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance4.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="LblEventChance5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblEventChance5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 233</value>
-  </data>
-  <data name="LblEventChance5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 17</value>
-  </data>
-  <data name="LblEventChance5.TabIndex" type="System.Int32, mscorlib">
-    <value>88</value>
-  </data>
-  <data name="LblEventChance5.Text" xml:space="preserve">
-    <value>5星活动爆率</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance5.Name" xml:space="preserve">
-    <value>LblEventChance5</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance5.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblEventChance5.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="LblSortId.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblSortId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 204</value>
-  </data>
-  <data name="LblSortId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
-  <data name="LblSortId.TabIndex" type="System.Int32, mscorlib">
-    <value>75</value>
-  </data>
-  <data name="LblSortId.Text" xml:space="preserve">
-    <value>顺序</value>
-  </data>
-  <data name="&gt;&gt;LblSortId.Name" xml:space="preserve">
-    <value>LblSortId</value>
-  </data>
-  <data name="&gt;&gt;LblSortId.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblSortId.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblSortId.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="NUDGachaType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 26</value>
-  </data>
-  <data name="NUDGachaType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="NUDGachaType.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;NUDGachaType.Name" xml:space="preserve">
-    <value>NUDGachaType</value>
-  </data>
-  <data name="&gt;&gt;NUDGachaType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDGachaType.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;NUDGachaType.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="NUDSortId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 202</value>
-  </data>
-  <data name="NUDSortId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="NUDSortId.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;NUDSortId.Name" xml:space="preserve">
-    <value>NUDSortId</value>
-  </data>
-  <data name="&gt;&gt;NUDSortId.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NUDSortId.Parent" xml:space="preserve">
     <value>GrpBannerValues</value>
   </data>
-  <data name="&gt;&gt;NUDSortId.ZOrder" xml:space="preserve">
-    <value>16</value>
+  <data name="&gt;&gt;CmbPrefab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LblGachaTypeTip.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnGen.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="LblGachaTypeTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 28</value>
-  </data>
-  <data name="LblGachaTypeTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 17</value>
-  </data>
-  <data name="LblGachaTypeTip.TabIndex" type="System.Int32, mscorlib">
-    <value>51</value>
-  </data>
-  <data name="LblGachaTypeTip.Text" xml:space="preserve">
-    <value>从400开始，顺序递增</value>
-  </data>
-  <data name="&gt;&gt;LblGachaTypeTip.Name" xml:space="preserve">
-    <value>LblGachaTypeTip</value>
-  </data>
-  <data name="&gt;&gt;LblGachaTypeTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblGachaTypeTip.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblGachaTypeTip.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="LblEndTime.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblEndTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>240, 176</value>
-  </data>
-  <data name="LblEndTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
-  </data>
-  <data name="LblEndTime.TabIndex" type="System.Int32, mscorlib">
-    <value>74</value>
-  </data>
-  <data name="LblEndTime.Text" xml:space="preserve">
-    <value>结束时间</value>
-  </data>
-  <data name="&gt;&gt;LblEndTime.Name" xml:space="preserve">
-    <value>LblEndTime</value>
-  </data>
-  <data name="&gt;&gt;LblEndTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblEndTime.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblEndTime.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="LblScheduleId.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblScheduleId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 57</value>
-  </data>
-  <data name="LblScheduleId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 17</value>
-  </data>
-  <data name="LblScheduleId.TabIndex" type="System.Int32, mscorlib">
-    <value>53</value>
-  </data>
-  <data name="LblScheduleId.Text" xml:space="preserve">
-    <value>ScheduleId</value>
-  </data>
-  <data name="&gt;&gt;LblScheduleId.Name" xml:space="preserve">
-    <value>LblScheduleId</value>
-  </data>
-  <data name="&gt;&gt;LblScheduleId.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblScheduleId.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblScheduleId.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="LblBeginTime.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblBeginTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 176</value>
-  </data>
-  <data name="LblBeginTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
-  </data>
-  <data name="LblBeginTime.TabIndex" type="System.Int32, mscorlib">
-    <value>72</value>
-  </data>
-  <data name="LblBeginTime.Text" xml:space="preserve">
-    <value>开始时间</value>
-  </data>
-  <data name="&gt;&gt;LblBeginTime.Name" xml:space="preserve">
-    <value>LblBeginTime</value>
-  </data>
-  <data name="&gt;&gt;LblBeginTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblBeginTime.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblBeginTime.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="NUDScheduleId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 55</value>
-  </data>
-  <data name="NUDScheduleId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="NUDScheduleId.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;NUDScheduleId.Name" xml:space="preserve">
-    <value>NUDScheduleId</value>
-  </data>
-  <data name="&gt;&gt;NUDScheduleId.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDScheduleId.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;NUDScheduleId.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="LblScheduleIdTip.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblScheduleIdTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 57</value>
-  </data>
-  <data name="LblScheduleIdTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 17</value>
-  </data>
-  <data name="LblScheduleIdTip.TabIndex" type="System.Int32, mscorlib">
-    <value>56</value>
-  </data>
-  <data name="LblScheduleIdTip.Text" xml:space="preserve">
-    <value>ID要求唯一</value>
-  </data>
-  <data name="&gt;&gt;LblScheduleIdTip.Name" xml:space="preserve">
-    <value>LblScheduleIdTip</value>
-  </data>
-  <data name="&gt;&gt;LblScheduleIdTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblScheduleIdTip.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblScheduleIdTip.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="CmbBannerType.Items" xml:space="preserve">
-    <value>常驻池</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="CmbBannerType.Items1" xml:space="preserve">
     <value>限时角色祈愿池</value>
   </data>
-  <data name="CmbBannerType.Items2" xml:space="preserve">
-    <value>限时武器祈愿池</value>
-  </data>
-  <data name="CmbBannerType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 84</value>
-  </data>
-  <data name="CmbBannerType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 25</value>
-  </data>
-  <data name="CmbBannerType.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;CmbBannerType.Name" xml:space="preserve">
-    <value>CmbBannerType</value>
-  </data>
-  <data name="&gt;&gt;CmbBannerType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbBannerType.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;CmbBannerType.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="LblSortIdTip.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblSortIdTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 204</value>
-  </data>
-  <data name="LblSortIdTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 17</value>
-  </data>
-  <data name="LblSortIdTip.TabIndex" type="System.Int32, mscorlib">
-    <value>83</value>
-  </data>
-  <data name="LblSortIdTip.Text" xml:space="preserve">
-    <value>客户端中显示的顺序</value>
-  </data>
-  <data name="&gt;&gt;LblSortIdTip.Name" xml:space="preserve">
-    <value>LblSortIdTip</value>
-  </data>
-  <data name="&gt;&gt;LblSortIdTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblSortIdTip.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblSortIdTip.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
   <data name="LblBannerType.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="LblBannerType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 87</value>
-  </data>
-  <data name="LblBannerType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
-  </data>
-  <data name="LblBannerType.TabIndex" type="System.Int32, mscorlib">
-    <value>59</value>
-  </data>
-  <data name="LblBannerType.Text" xml:space="preserve">
-    <value>奖池类型</value>
-  </data>
-  <data name="&gt;&gt;LblBannerType.Name" xml:space="preserve">
-    <value>LblBannerType</value>
-  </data>
-  <data name="&gt;&gt;LblBannerType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblBannerType.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblBannerType.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="RbCostItem224.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="RbCostItem224.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 146</value>
-  </data>
-  <data name="RbCostItem224.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 21</value>
-  </data>
-  <data name="RbCostItem224.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="RbCostItem224.Text" xml:space="preserve">
-    <value>相遇之缘</value>
-  </data>
-  <data name="&gt;&gt;RbCostItem224.Name" xml:space="preserve">
-    <value>RbCostItem224</value>
-  </data>
-  <data name="&gt;&gt;RbCostItem224.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;RbCostItem224.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;RbCostItem224.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="LblCostItem.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblCostItem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 148</value>
-  </data>
-  <data name="LblCostItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
-  </data>
-  <data name="LblCostItem.TabIndex" type="System.Int32, mscorlib">
-    <value>80</value>
-  </data>
-  <data name="LblCostItem.Text" xml:space="preserve">
-    <value>祈愿道具</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem.Name" xml:space="preserve">
-    <value>LblCostItem</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="LblPrefabPath.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblPrefabPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>74, 118</value>
-  </data>
-  <data name="LblPrefabPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
-  <data name="LblPrefabPath.TabIndex" type="System.Int32, mscorlib">
-    <value>61</value>
-  </data>
-  <data name="LblPrefabPath.Text" xml:space="preserve">
-    <value>预制</value>
-  </data>
-  <data name="&gt;&gt;LblPrefabPath.Name" xml:space="preserve">
-    <value>LblPrefabPath</value>
-  </data>
-  <data name="&gt;&gt;LblPrefabPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblPrefabPath.Parent" xml:space="preserve">
-    <value>GrpBannerValues</value>
-  </data>
-  <data name="&gt;&gt;LblPrefabPath.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="RbCostItem223.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="RbCostItem223.Location" type="System.Drawing.Point, System.Drawing">
-    <value>192, 146</value>
-  </data>
-  <data name="RbCostItem223.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 21</value>
-  </data>
-  <data name="RbCostItem223.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="RbCostItem223.Text" xml:space="preserve">
-    <value>纠缠之缘</value>
-  </data>
-  <data name="&gt;&gt;RbCostItem223.Name" xml:space="preserve">
-    <value>RbCostItem223</value>
   </data>
   <data name="&gt;&gt;RbCostItem223.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;RbCostItem223.Parent" xml:space="preserve">
+  <data name="GrpJson.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;ChkRemoveC6FormPool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnGen.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.Parent" xml:space="preserve">
     <value>GrpBannerValues</value>
   </data>
-  <data name="&gt;&gt;RbCostItem223.ZOrder" xml:space="preserve">
-    <value>29</value>
+  <data name="&gt;&gt;TxtWeight5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="GrpBannerValues.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TxtWeight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 58</value>
   </data>
-  <data name="GrpBannerValues.Size" type="System.Drawing.Size, System.Drawing">
-    <value>440, 329</value>
+  <data name="&gt;&gt;ChkRemoveC6FormPool.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="GrpBannerValues.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="LblSortId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance5.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="NUDGachaType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="LblGachaType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 28</value>
+  </data>
+  <data name="&gt;&gt;LblSortIdTip.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="ColUpId.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="&gt;&gt;LblGachaTypeTip.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTime.Name" xml:space="preserve">
+    <value>LblBeginTime</value>
+  </data>
+  <data name="&gt;&gt;LblSortIdTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RbCostItem224.Text" xml:space="preserve">
+    <value>相遇之缘</value>
   </data>
   <data name="GrpBannerValues.Text" xml:space="preserve">
     <value>卡池参数</value>
   </data>
-  <data name="&gt;&gt;GrpBannerValues.Name" xml:space="preserve">
+  <data name="&gt;&gt;NUDGachaType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtPoolWeight4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblEventChance4Tip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 233</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance4Tip.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;GrpBalance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance5Tip.Name" xml:space="preserve">
+    <value>LblEventChance5Tip</value>
+  </data>
+  <data name="ListUpItems.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;LblOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDScheduleId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColUpName.Name" xml:space="preserve">
+    <value>ColUpName</value>
+  </data>
+  <data name="DTPEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 173</value>
+  </data>
+  <data name="&gt;&gt;ChkAutoStripRateUpFromFallback.Parent" xml:space="preserve">
     <value>GrpBannerValues</value>
   </data>
-  <data name="&gt;&gt;GrpBannerValues.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;BtnParse.Name" xml:space="preserve">
+    <value>BtnParse</value>
   </data>
-  <data name="&gt;&gt;GrpBannerValues.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="RbCostItem224.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GrpBannerValues.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
   </data>
   <data name="&gt;&gt;GrpBannerValues.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="GrpFallbackPool.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="TxtPoolWeight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 23</value>
   </data>
-  <data name="&gt;&gt;ListFallbackItems.Name" xml:space="preserve">
-    <value>ListFallbackItems</value>
+  <data name="LblCostItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;ListFallbackItems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;GrpJson.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;ListFallbackItems.Parent" xml:space="preserve">
-    <value>GrpFallbackPool</value>
-  </data>
-  <data name="&gt;&gt;ListFallbackItems.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="GrpFallbackPool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>458, 248</value>
-  </data>
-  <data name="GrpFallbackPool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 305</value>
-  </data>
-  <data name="GrpFallbackPool.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="GrpFallbackPool.Text" xml:space="preserve">
-    <value>基础池</value>
-  </data>
-  <data name="&gt;&gt;GrpFallbackPool.Name" xml:space="preserve">
-    <value>GrpFallbackPool</value>
-  </data>
-  <data name="&gt;&gt;GrpFallbackPool.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpFallbackPool.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GrpFallbackPool.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="LblPoolWeight5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="ListFallbackItems.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;GrpBannerValues.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpWeights.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 347</value>
+  </data>
+  <data name="&gt;&gt;ChkRemoveC6FormPool.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="&gt;&gt;LblBannerType.Name" xml:space="preserve">
+    <value>LblBannerType</value>
   </data>
   <data name="ListFallbackItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -970,6 +283,12 @@
         dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBNQs=
 </value>
   </data>
+  <data name="LnkWeightHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="&gt;&gt;LblGachaType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="ListFallbackItems.Groups1" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
@@ -978,6 +297,19 @@
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
         AwAAAAo15pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
         dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXNQs=
+</value>
+  </data>
+  <data name="LblEventChance5Tip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 17</value>
+  </data>
+  <data name="ListFallbackItems.Groups3" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo05pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXNAs=
 </value>
   </data>
   <data name="ListFallbackItems.Groups2" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -990,15 +322,8 @@
         dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBNAs=
 </value>
   </data>
-  <data name="ListFallbackItems.Groups3" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
-        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAo05pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXNAs=
-</value>
+  <data name="&gt;&gt;LblScheduleIdTip.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
   </data>
   <data name="ListFallbackItems.Groups4" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -1010,6 +335,57 @@
         dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBMws=
 </value>
   </data>
+  <data name="DTPEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance5.Name" xml:space="preserve">
+    <value>LblEventChance5</value>
+  </data>
+  <data name="LblGachaType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="GrpBalance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 453</value>
+  </data>
+  <data name="&gt;&gt;GrpWeights.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RbCostItem223.Text" xml:space="preserve">
+    <value>纠缠之缘</value>
+  </data>
+  <data name="&gt;&gt;RbCostItem224.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="&gt;&gt;GrpWeights.Name" xml:space="preserve">
+    <value>GrpWeights</value>
+  </data>
+  <data name="&gt;&gt;CmbBannerType.Name" xml:space="preserve">
+    <value>CmbBannerType</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance4Tip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblPoolWeight5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColFallbackName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="LblCostItem.Text" xml:space="preserve">
+    <value>祈愿道具</value>
+  </data>
+  <data name="LblPrefabPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 118</value>
+  </data>
+  <data name="NUDEventChance5.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;NUDEventChance4.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="LnkWeightHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 0</value>
+  </data>
   <data name="ListFallbackItems.Groups5" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
@@ -1020,99 +396,167 @@
         dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXMws=
 </value>
   </data>
-  <data name="ListFallbackItems.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
+  <data name="GrpBalance.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="ListFallbackItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 283</value>
+  <data name="LblEventChance4Tip.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
   </data>
-  <data name="ListFallbackItems.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="LblWeight5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 32</value>
   </data>
-  <data name="&gt;&gt;ListFallbackItems.Name" xml:space="preserve">
-    <value>ListFallbackItems</value>
+  <data name="&gt;&gt;LblScheduleIdTip.ZOrder" xml:space="preserve">
+    <value>22</value>
   </data>
-  <data name="&gt;&gt;ListFallbackItems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ChkRemoveC6FormPool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 21</value>
   </data>
-  <data name="&gt;&gt;ListFallbackItems.Parent" xml:space="preserve">
-    <value>GrpFallbackPool</value>
+  <data name="TxtPoolWeight5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;ListFallbackItems.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;DTPBeginTime.Name" xml:space="preserve">
+    <value>DTPBeginTime</value>
   </data>
-  <data name="ColFallbackId.Text" xml:space="preserve">
-    <value>ID</value>
+  <data name="LblEventChance5.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
   </data>
-  <data name="ColFallbackId.Width" type="System.Int32, mscorlib">
-    <value>65</value>
+  <data name="&gt;&gt;LblPoolWeight5.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="ColFallbackName.Text" xml:space="preserve">
-    <value>Name</value>
-  </data>
-  <data name="ColFallbackName.Width" type="System.Int32, mscorlib">
-    <value>110</value>
-  </data>
-  <data name="GrpUpPool.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;ListUpItems.Name" xml:space="preserve">
-    <value>ListUpItems</value>
-  </data>
-  <data name="&gt;&gt;ListUpItems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListUpItems.Parent" xml:space="preserve">
-    <value>GrpUpPool</value>
-  </data>
-  <data name="&gt;&gt;ListUpItems.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="GrpUpPool.Location" type="System.Drawing.Point, System.Drawing">
-    <value>458, 12</value>
-  </data>
-  <data name="GrpUpPool.Size" type="System.Drawing.Size, System.Drawing">
-    <value>210, 230</value>
-  </data>
-  <data name="GrpUpPool.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;LblCostItem.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
   </data>
   <data name="GrpUpPool.Text" xml:space="preserve">
     <value>UP池</value>
   </data>
-  <data name="&gt;&gt;GrpUpPool.Name" xml:space="preserve">
-    <value>GrpUpPool</value>
+  <data name="TxtWeight5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 23</value>
   </data>
-  <data name="&gt;&gt;GrpUpPool.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="BtnParse.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;GrpUpPool.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="DTPBeginTime.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
-  <data name="&gt;&gt;GrpUpPool.ZOrder" xml:space="preserve">
+  <data name="RbCostItem224.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 21</value>
+  </data>
+  <data name="TxtWeight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 23</value>
+  </data>
+  <data name="&gt;&gt;NUDGachaType.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;LblPoolWeight5.Name" xml:space="preserve">
+    <value>LblPoolWeight5</value>
+  </data>
+  <data name="BtnParse.Text" xml:space="preserve">
+    <value>解析Json</value>
+  </data>
+  <data name="&gt;&gt;LblPoolWeight4.Parent" xml:space="preserve">
+    <value>GrpBalance</value>
+  </data>
+  <data name="&gt;&gt;LblWeight4.Parent" xml:space="preserve">
+    <value>GrpWeights</value>
+  </data>
+  <data name="&gt;&gt;NUDEventChance5.Name" xml:space="preserve">
+    <value>NUDEventChance5</value>
+  </data>
+  <data name="&gt;&gt;LblSortId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDSortId.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;ChkAutoStripRateUpFromFallback.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>984, 561</value>
+  </data>
+  <data name="&gt;&gt;BtnParse.Parent" xml:space="preserve">
+    <value>GrpJson</value>
+  </data>
+  <data name="&gt;&gt;GrpBalance.Name" xml:space="preserve">
+    <value>GrpBalance</value>
+  </data>
+  <data name="&gt;&gt;TxtWeight4.Parent" xml:space="preserve">
+    <value>GrpWeights</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance5Tip.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="&gt;&gt;ListFallbackItems.Parent" xml:space="preserve">
+    <value>GrpFallbackPool</value>
+  </data>
+  <data name="TxtJson.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="CmbPrefab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 115</value>
+  </data>
+  <data name="LblWeight4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblEventChance4Tip.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="LblEventChance4Tip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblWeight4.Text" xml:space="preserve">
+    <value>4星权重</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="ListUpItems.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;ListUpItems.Name" xml:space="preserve">
+    <value>ListUpItems</value>
   </data>
-  <data name="ListUpItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="LblEndTime.Text" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="&gt;&gt;LblWeight5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDEventChance5.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="GrpUpPool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 12</value>
+  </data>
+  <data name="LblSortId.Text" xml:space="preserve">
+    <value>顺序</value>
+  </data>
+  <data name="GrpBannerValues.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 329</value>
+  </data>
+  <data name="NUDEventChance5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 23</value>
+  </data>
+  <data name="CmbBannerType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 25</value>
+  </data>
+  <data name="GrpBalance.Text" xml:space="preserve">
+    <value>角色和武器平衡机制（仅混合池有效）</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTime.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;NUDSortId.Name" xml:space="preserve">
+    <value>NUDSortId</value>
+  </data>
+  <data name="LblBeginTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ListUpItems.Groups3" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAo15pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcEE1Cw==
-</value>
-  </data>
-  <data name="ListUpItems.Groups1" mimetype="application/x-microsoft.net.object.binary.base64">
-    <value>
-        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
-        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
-        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
-        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAo15pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc1Cw==
+        AwAAAAo05pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc0Cw==
 </value>
   </data>
   <data name="ListUpItems.Groups2" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -1125,602 +569,1029 @@
         dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcEE0Cw==
 </value>
   </data>
-  <data name="ListUpItems.Groups3" mimetype="application/x-microsoft.net.object.binary.base64">
+  <data name="ListUpItems.Groups1" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAo05pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc0Cw==
+        AwAAAAo15pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc1Cw==
 </value>
   </data>
-  <data name="ListUpItems.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
-  </data>
-  <data name="ListUpItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 208</value>
-  </data>
-  <data name="ListUpItems.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ListUpItems.Name" xml:space="preserve">
-    <value>ListUpItems</value>
-  </data>
-  <data name="&gt;&gt;ListUpItems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListUpItems.Parent" xml:space="preserve">
-    <value>GrpUpPool</value>
-  </data>
-  <data name="&gt;&gt;ListUpItems.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ColUpId.Text" xml:space="preserve">
-    <value>ID</value>
-  </data>
-  <data name="ColUpId.Width" type="System.Int32, mscorlib">
-    <value>65</value>
-  </data>
-  <data name="ColUpName.Text" xml:space="preserve">
-    <value>Name</value>
-  </data>
-  <data name="ColUpName.Width" type="System.Int32, mscorlib">
-    <value>110</value>
-  </data>
-  <data name="GrpJson.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Right</value>
-  </data>
-  <data name="BtnGen.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="BtnGen.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 512</value>
-  </data>
-  <data name="BtnGen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnGen.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="BtnGen.Text" xml:space="preserve">
-    <value>生成Json</value>
-  </data>
-  <data name="&gt;&gt;BtnGen.Name" xml:space="preserve">
-    <value>BtnGen</value>
-  </data>
-  <data name="&gt;&gt;BtnGen.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnGen.Parent" xml:space="preserve">
-    <value>GrpJson</value>
-  </data>
-  <data name="&gt;&gt;BtnGen.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="TxtJson.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="TxtJson.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 19</value>
-  </data>
-  <data name="TxtJson.Multiline" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="TxtJson.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
-    <value>Both</value>
-  </data>
-  <data name="TxtJson.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 487</value>
-  </data>
-  <data name="TxtJson.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="TxtJson.WordWrap" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;TxtJson.Name" xml:space="preserve">
-    <value>TxtJson</value>
-  </data>
-  <data name="&gt;&gt;TxtJson.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtJson.Parent" xml:space="preserve">
-    <value>GrpJson</value>
-  </data>
-  <data name="&gt;&gt;TxtJson.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="BtnParse.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="BtnParse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 512</value>
-  </data>
-  <data name="BtnParse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnParse.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="BtnParse.Text" xml:space="preserve">
-    <value>解析Json</value>
-  </data>
-  <data name="&gt;&gt;BtnParse.Name" xml:space="preserve">
-    <value>BtnParse</value>
-  </data>
-  <data name="&gt;&gt;BtnParse.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnParse.Parent" xml:space="preserve">
-    <value>GrpJson</value>
-  </data>
-  <data name="&gt;&gt;BtnParse.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="GrpJson.Location" type="System.Drawing.Point, System.Drawing">
-    <value>674, 12</value>
-  </data>
-  <data name="GrpJson.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 541</value>
-  </data>
-  <data name="GrpJson.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="GrpJson.Text" xml:space="preserve">
-    <value>Json</value>
-  </data>
-  <data name="&gt;&gt;GrpJson.Name" xml:space="preserve">
-    <value>GrpJson</value>
-  </data>
-  <data name="&gt;&gt;GrpJson.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpJson.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GrpJson.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="GrpWeights.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;LnkWeightHelp.Name" xml:space="preserve">
-    <value>LnkWeightHelp</value>
-  </data>
-  <data name="&gt;&gt;LnkWeightHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LnkWeightHelp.Parent" xml:space="preserve">
-    <value>GrpWeights</value>
-  </data>
-  <data name="&gt;&gt;LnkWeightHelp.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight4.Name" xml:space="preserve">
-    <value>TxtWeight4</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight4.Parent" xml:space="preserve">
-    <value>GrpWeights</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight5.Name" xml:space="preserve">
-    <value>TxtWeight5</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight5.Parent" xml:space="preserve">
-    <value>GrpWeights</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight5.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;LblWeight4.Name" xml:space="preserve">
-    <value>LblWeight4</value>
-  </data>
-  <data name="&gt;&gt;LblWeight4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblWeight4.Parent" xml:space="preserve">
-    <value>GrpWeights</value>
-  </data>
-  <data name="&gt;&gt;LblWeight4.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblWeight5.Name" xml:space="preserve">
-    <value>LblWeight5</value>
-  </data>
-  <data name="&gt;&gt;LblWeight5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblWeight5.Parent" xml:space="preserve">
-    <value>GrpWeights</value>
-  </data>
-  <data name="&gt;&gt;LblWeight5.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="GrpWeights.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 347</value>
-  </data>
-  <data name="GrpWeights.Size" type="System.Drawing.Size, System.Drawing">
-    <value>440, 100</value>
-  </data>
-  <data name="GrpWeights.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="GrpWeights.Text" xml:space="preserve">
-    <value>卡池权重与保底机制</value>
-  </data>
-  <data name="&gt;&gt;GrpWeights.Name" xml:space="preserve">
-    <value>GrpWeights</value>
-  </data>
-  <data name="&gt;&gt;GrpWeights.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpWeights.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GrpWeights.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LnkWeightHelp.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LnkWeightHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>402, 0</value>
-  </data>
-  <data name="LnkWeightHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
-  <data name="LnkWeightHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;LblScheduleId.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
   </data>
   <data name="LnkWeightHelp.Text" xml:space="preserve">
     <value>帮助</value>
   </data>
-  <data name="&gt;&gt;LnkWeightHelp.Name" xml:space="preserve">
-    <value>LnkWeightHelp</value>
-  </data>
-  <data name="&gt;&gt;LnkWeightHelp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LnkWeightHelp.Parent" xml:space="preserve">
-    <value>GrpWeights</value>
-  </data>
-  <data name="&gt;&gt;LnkWeightHelp.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="TxtWeight4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 58</value>
-  </data>
-  <data name="TxtWeight4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 23</value>
-  </data>
-  <data name="TxtWeight4.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight4.Name" xml:space="preserve">
-    <value>TxtWeight4</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight4.Parent" xml:space="preserve">
-    <value>GrpWeights</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight4.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="TxtWeight5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 29</value>
-  </data>
-  <data name="TxtWeight5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 23</value>
-  </data>
-  <data name="TxtWeight5.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight5.Name" xml:space="preserve">
-    <value>TxtWeight5</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight5.Parent" xml:space="preserve">
-    <value>GrpWeights</value>
-  </data>
-  <data name="&gt;&gt;TxtWeight5.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="LblWeight4.AutoSize" type="System.Boolean, mscorlib">
+  <data name="ChkRemoveC6FormPool.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="LblWeight4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 61</value>
-  </data>
-  <data name="LblWeight4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 17</value>
-  </data>
-  <data name="LblWeight4.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="LblWeight4.Text" xml:space="preserve">
-    <value>4星权重</value>
-  </data>
-  <data name="&gt;&gt;LblWeight4.Name" xml:space="preserve">
-    <value>LblWeight4</value>
-  </data>
-  <data name="&gt;&gt;LblWeight4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblWeight4.Parent" xml:space="preserve">
-    <value>GrpWeights</value>
-  </data>
-  <data name="&gt;&gt;LblWeight4.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="LblWeight5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblWeight5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>55, 32</value>
-  </data>
-  <data name="LblWeight5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 17</value>
-  </data>
-  <data name="LblWeight5.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LblWeight5.Text" xml:space="preserve">
-    <value>5星权重</value>
-  </data>
-  <data name="&gt;&gt;LblWeight5.Name" xml:space="preserve">
-    <value>LblWeight5</value>
-  </data>
-  <data name="&gt;&gt;LblWeight5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblWeight5.Parent" xml:space="preserve">
-    <value>GrpWeights</value>
-  </data>
-  <data name="&gt;&gt;LblWeight5.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="GrpBalance.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight4.Name" xml:space="preserve">
-    <value>TxtPoolWeight4</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight4.Parent" xml:space="preserve">
-    <value>GrpBalance</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight5.Name" xml:space="preserve">
-    <value>TxtPoolWeight5</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight5.Parent" xml:space="preserve">
-    <value>GrpBalance</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight4.Name" xml:space="preserve">
-    <value>LblPoolWeight4</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight4.Parent" xml:space="preserve">
-    <value>GrpBalance</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight4.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight5.Name" xml:space="preserve">
-    <value>LblPoolWeight5</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight5.Parent" xml:space="preserve">
-    <value>GrpBalance</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight5.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="GrpBalance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 453</value>
-  </data>
-  <data name="GrpBalance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>440, 100</value>
-  </data>
-  <data name="GrpBalance.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="GrpBalance.Text" xml:space="preserve">
-    <value>角色和武器平衡机制（仅混合池有效）</value>
-  </data>
-  <data name="&gt;&gt;GrpBalance.Name" xml:space="preserve">
-    <value>GrpBalance</value>
-  </data>
-  <data name="&gt;&gt;GrpBalance.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpBalance.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GrpBalance.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="TxtPoolWeight4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 58</value>
-  </data>
-  <data name="TxtPoolWeight4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 23</value>
-  </data>
-  <data name="TxtPoolWeight4.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight4.Name" xml:space="preserve">
-    <value>TxtPoolWeight4</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight4.Parent" xml:space="preserve">
-    <value>GrpBalance</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight4.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="TxtPoolWeight5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 29</value>
-  </data>
-  <data name="TxtPoolWeight5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 23</value>
-  </data>
-  <data name="TxtPoolWeight5.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight5.Name" xml:space="preserve">
-    <value>TxtPoolWeight5</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight5.Parent" xml:space="preserve">
-    <value>GrpBalance</value>
-  </data>
-  <data name="&gt;&gt;TxtPoolWeight5.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LblPoolWeight4.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblPoolWeight4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblPoolWeight4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 61</value>
-  </data>
-  <data name="LblPoolWeight4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 17</value>
-  </data>
-  <data name="LblPoolWeight4.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="LblPoolWeight4.Text" xml:space="preserve">
-    <value>4星池权重</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight4.Name" xml:space="preserve">
-    <value>LblPoolWeight4</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight4.Parent" xml:space="preserve">
-    <value>GrpBalance</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight4.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="LblPoolWeight5.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblPoolWeight5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblPoolWeight5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>43, 32</value>
-  </data>
-  <data name="LblPoolWeight5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>63, 17</value>
-  </data>
-  <data name="LblPoolWeight5.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="LblPoolWeight5.Text" xml:space="preserve">
-    <value>5星池权重</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight5.Name" xml:space="preserve">
-    <value>LblPoolWeight5</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight5.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight5.Parent" xml:space="preserve">
-    <value>GrpBalance</value>
-  </data>
-  <data name="&gt;&gt;LblPoolWeight5.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>984, 561</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 9pt</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1000, 600</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>卡池编辑器</value>
-  </data>
-  <data name="&gt;&gt;ColFallbackId.Name" xml:space="preserve">
-    <value>ColFallbackId</value>
   </data>
   <data name="&gt;&gt;ColFallbackId.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ColFallbackName.Name" xml:space="preserve">
-    <value>ColFallbackName</value>
+  <data name="LblScheduleIdTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;RbCostItem224.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="GrpUpPool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 230</value>
+  </data>
+  <data name="&gt;&gt;LblGachaType.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="LblOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>91</value>
+  </data>
+  <data name="LnkOpenOldEditor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnGen.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblPoolWeight5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbPrefab.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TxtPoolWeight4.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblOptions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="RbCostItem224.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 146</value>
+  </data>
+  <data name="RbCostItem223.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LblScheduleId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GrpFallbackPool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>458, 248</value>
+  </data>
+  <data name="LblWeight5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TxtPoolWeight5.Parent" xml:space="preserve">
+    <value>GrpBalance</value>
+  </data>
+  <data name="&gt;&gt;LblPrefabPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblSortIdTip.Text" xml:space="preserve">
+    <value>客户端中显示的顺序</value>
+  </data>
+  <data name="TxtWeight5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 29</value>
+  </data>
+  <data name="LblOptions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblGachaTypeTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 17</value>
+  </data>
+  <data name="CmbPrefab.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DTPBeginTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 173</value>
+  </data>
+  <data name="&gt;&gt;ListFallbackItems.Name" xml:space="preserve">
+    <value>ListFallbackItems</value>
+  </data>
+  <data name="GrpJson.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 541</value>
+  </data>
+  <data name="LnkOpenOldEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 309</value>
+  </data>
+  <data name="&gt;&gt;TxtJson.Name" xml:space="preserve">
+    <value>TxtJson</value>
+  </data>
+  <data name="LblBannerType.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="&gt;&gt;BtnGen.Name" xml:space="preserve">
+    <value>BtnGen</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;NUDEventChance5.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="LblGachaType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblSortId.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="ListUpItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 208</value>
+  </data>
+  <data name="&gt;&gt;LblPrefabPath.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;LblSortIdTip.Name" xml:space="preserve">
+    <value>LblSortIdTip</value>
+  </data>
+  <data name="&gt;&gt;TxtJson.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDEventChance4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblWeight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>55, 61</value>
+  </data>
+  <data name="LnkOpenOldEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
+  </data>
+  <data name="LblEventChance4.TabIndex" type="System.Int32, mscorlib">
+    <value>88</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance4Tip.Name" xml:space="preserve">
+    <value>LblEventChance4Tip</value>
+  </data>
+  <data name="LblCostItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="ListFallbackItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 283</value>
+  </data>
+  <data name="&gt;&gt;LblSortId.Name" xml:space="preserve">
+    <value>LblSortId</value>
+  </data>
+  <data name="LblGachaTypeTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColFallbackId.Width" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="ChkRemoveC6FormPool.Text" xml:space="preserve">
+    <value>避免命座溢出</value>
+  </data>
+  <data name="LblPoolWeight4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ColUpName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NUDSortId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtPoolWeight5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpBalance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblBannerType.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;TxtPoolWeight4.Parent" xml:space="preserve">
+    <value>GrpBalance</value>
+  </data>
+  <data name="LblEventChance5.Text" xml:space="preserve">
+    <value>5星活动爆率</value>
+  </data>
+  <data name="GrpFallbackPool.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;GrpBannerValues.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RbCostItem223.Name" xml:space="preserve">
+    <value>RbCostItem223</value>
+  </data>
+  <data name="&gt;&gt;LblEndTime.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="TxtJson.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblEventChance4Tip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 17</value>
+  </data>
+  <data name="LblEventChance5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TxtPoolWeight5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 29</value>
+  </data>
+  <data name="GrpFallbackPool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 305</value>
+  </data>
+  <data name="ListUpItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo15pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcEE1Cw==
+</value>
+  </data>
+  <data name="NUDEventChance4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>302, 231</value>
+  </data>
+  <data name="LblOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 261</value>
+  </data>
+  <data name="LblSortIdTip.TabIndex" type="System.Int32, mscorlib">
+    <value>83</value>
+  </data>
+  <data name="LblScheduleIdTip.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem.Name" xml:space="preserve">
+    <value>LblCostItem</value>
+  </data>
+  <data name="&gt;&gt;NUDEventChance4.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="&gt;&gt;RbCostItem223.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="TxtJson.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="GrpJson.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="GrpWeights.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 100</value>
+  </data>
+  <data name="LblEventChance4.Text" xml:space="preserve">
+    <value>4星活动爆率</value>
+  </data>
+  <data name="ChkAutoStripRateUpFromFallback.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NUDEventChance5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 231</value>
+  </data>
+  <data name="TxtJson.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="LnkWeightHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="NUDSortId.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LblEventChance4Tip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GrpBannerValues.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblPoolWeight5.Text" xml:space="preserve">
+    <value>5星池权重</value>
+  </data>
+  <data name="&gt;&gt;NUDGachaType.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="&gt;&gt;TxtWeight5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenOldEditor.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;ColFallbackName.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ColUpId.Name" xml:space="preserve">
-    <value>ColUpId</value>
+  <data name="LblSortIdTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;ColUpId.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;NUDEventChance4.Name" xml:space="preserve">
+    <value>NUDEventChance4</value>
   </data>
-  <data name="&gt;&gt;ColUpName.Name" xml:space="preserve">
-    <value>ColUpName</value>
+  <data name="&gt;&gt;GrpUpPool.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnParse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 512</value>
+  </data>
+  <data name="LblWeight5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblScheduleId.Name" xml:space="preserve">
+    <value>LblScheduleId</value>
+  </data>
+  <data name="LblBeginTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="ChkRemoveC6FormPool.TabIndex" type="System.Int32, mscorlib">
+    <value>90</value>
+  </data>
+  <data name="&gt;&gt;LblScheduleId.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;LblScheduleId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblGachaType.Text" xml:space="preserve">
+    <value>GachaType</value>
+  </data>
+  <data name="&gt;&gt;LnkWeightHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpFallbackPool.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="DTPBeginTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 23</value>
+  </data>
+  <data name="&gt;&gt;NUDSortId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpWeights.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GrpFallbackPool.Name" xml:space="preserve">
+    <value>GrpFallbackPool</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenOldEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblPoolWeight4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="NUDSortId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 202</value>
+  </data>
+  <data name="LblScheduleId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 57</value>
+  </data>
+  <data name="TxtPoolWeight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 58</value>
+  </data>
+  <data name="ListFallbackItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtJson.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 487</value>
+  </data>
+  <data name="ColUpId.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="GrpJson.Text" xml:space="preserve">
+    <value>Json</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenOldEditor.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="&gt;&gt;BtnParse.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TxtJson.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnGen.Text" xml:space="preserve">
+    <value>生成Json</value>
+  </data>
+  <data name="&gt;&gt;TxtPoolWeight5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GrpUpPool.Name" xml:space="preserve">
+    <value>GrpUpPool</value>
+  </data>
+  <data name="LblEndTime.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance5Tip.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;LblPrefabPath.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="ChkAutoStripRateUpFromFallback.Text" xml:space="preserve">
+    <value>自动避免UP被基础抽中</value>
+  </data>
+  <data name="LblPoolWeight5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;NUDScheduleId.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="NUDGachaType.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnGen.Parent" xml:space="preserve">
+    <value>GrpJson</value>
+  </data>
+  <data name="NUDScheduleId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 55</value>
+  </data>
+  <data name="LblOptions.Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="&gt;&gt;LblScheduleIdTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtWeight4.Name" xml:space="preserve">
+    <value>TxtWeight4</value>
+  </data>
+  <data name="&gt;&gt;LblWeight5.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPoolWeight5.Parent" xml:space="preserve">
+    <value>GrpBalance</value>
+  </data>
+  <data name="NUDEventChance4.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="LblEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 176</value>
+  </data>
+  <data name="&gt;&gt;GrpFallbackPool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ColUpName.Type" xml:space="preserve">
     <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;LblEventChance4.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="LblEventChance5Tip.TabIndex" type="System.Int32, mscorlib">
+    <value>89</value>
+  </data>
+  <data name="&gt;&gt;LnkWeightHelp.Name" xml:space="preserve">
+    <value>LnkWeightHelp</value>
+  </data>
+  <data name="LblScheduleIdTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 57</value>
+  </data>
+  <data name="&gt;&gt;RbCostItem224.Name" xml:space="preserve">
+    <value>RbCostItem224</value>
+  </data>
+  <data name="&gt;&gt;TxtJson.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ChkRemoveC6FormPool.Name" xml:space="preserve">
+    <value>ChkRemoveC6FormPool</value>
+  </data>
+  <data name="&gt;&gt;LblSortId.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="LblBeginTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 176</value>
+  </data>
+  <data name="GrpJson.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 12</value>
+  </data>
+  <data name="&gt;&gt;CmbPrefab.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="GrpUpPool.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GrpWeights.Text" xml:space="preserve">
+    <value>卡池权重与保底机制</value>
+  </data>
+  <data name="&gt;&gt;LblWeight4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPrefabPath.Name" xml:space="preserve">
+    <value>LblPrefabPath</value>
+  </data>
+  <data name="&gt;&gt;LblSortIdTip.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="&gt;&gt;NUDEventChance5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpJson.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="GrpFallbackPool.Text" xml:space="preserve">
+    <value>基础池</value>
+  </data>
+  <data name="&gt;&gt;GrpFallbackPool.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblScheduleIdTip.Text" xml:space="preserve">
+    <value>ID要求唯一</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.Name" xml:space="preserve">
+    <value>DTPEndTime</value>
+  </data>
+  <data name="&gt;&gt;LblGachaType.Name" xml:space="preserve">
+    <value>LblGachaType</value>
+  </data>
+  <data name="&gt;&gt;BtnGen.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblSortIdTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 204</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTime.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="CmbPrefab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 25</value>
+  </data>
+  <data name="LblPrefabPath.Text" xml:space="preserve">
+    <value>预制</value>
+  </data>
+  <data name="ChkAutoStripRateUpFromFallback.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 260</value>
+  </data>
+  <data name="&gt;&gt;LblScheduleIdTip.Name" xml:space="preserve">
+    <value>LblScheduleIdTip</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpWeights.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="LblEndTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkWeightHelp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TxtWeight5.Name" xml:space="preserve">
+    <value>TxtWeight5</value>
+  </data>
+  <data name="&gt;&gt;LblWeight4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TxtWeight5.Parent" xml:space="preserve">
+    <value>GrpWeights</value>
+  </data>
+  <data name="LblOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblWeight5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 17</value>
+  </data>
+  <data name="LblSortId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblEventChance5Tip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 233</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance4.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="ColFallbackId.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;ListUpItems.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TxtPoolWeight4.Name" xml:space="preserve">
+    <value>TxtPoolWeight4</value>
+  </data>
+  <data name="&gt;&gt;ColUpId.Name" xml:space="preserve">
+    <value>ColUpId</value>
+  </data>
+  <data name="LblEventChance4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;NUDGachaType.Name" xml:space="preserve">
+    <value>NUDGachaType</value>
+  </data>
+  <data name="&gt;&gt;LblEndTime.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="&gt;&gt;GrpBalance.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TxtJson.Parent" xml:space="preserve">
+    <value>GrpJson</value>
+  </data>
+  <data name="&gt;&gt;LblEndTime.Name" xml:space="preserve">
+    <value>LblEndTime</value>
+  </data>
+  <data name="LblPoolWeight4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GrpUpPool.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;TxtWeight4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListUpItems.Parent" xml:space="preserve">
+    <value>GrpUpPool</value>
+  </data>
+  <data name="&gt;&gt;ListUpItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CmbBannerType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 84</value>
+  </data>
+  <data name="LblBannerType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 87</value>
+  </data>
+  <data name="&gt;&gt;GrpUpPool.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkWeightHelp.Parent" xml:space="preserve">
+    <value>GrpWeights</value>
+  </data>
+  <data name="LblEventChance4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ColFallbackName.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="ChkAutoStripRateUpFromFallback.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 21</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenOldEditor.Name" xml:space="preserve">
+    <value>LnkOpenOldEditor</value>
+  </data>
+  <data name="BtnParse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="LblBeginTime.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="NUDGachaType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 26</value>
+  </data>
+  <data name="&gt;&gt;RbCostItem224.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtPoolWeight5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 23</value>
+  </data>
+  <data name="ColUpName.Width" type="System.Int32, mscorlib">
+    <value>110</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="&gt;&gt;GrpBannerValues.Name" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="LblScheduleId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormGachaBannerEditor2</value>
+  </data>
+  <data name="LblEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="&gt;&gt;TxtPoolWeight4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpBalance.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ColFallbackName.Name" xml:space="preserve">
+    <value>ColFallbackName</value>
+  </data>
+  <data name="RbCostItem224.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LnkWeightHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="&gt;&gt;BtnParse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpJson.Name" xml:space="preserve">
+    <value>GrpJson</value>
+  </data>
+  <data name="&gt;&gt;GrpWeights.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblGachaTypeTip.Name" xml:space="preserve">
+    <value>LblGachaTypeTip</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 600</value>
+  </data>
+  <data name="LblGachaTypeTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 28</value>
+  </data>
+  <data name="TxtWeight4.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblPoolWeight4.Text" xml:space="preserve">
+    <value>4星池权重</value>
+  </data>
+  <data name="BtnGen.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 512</value>
+  </data>
+  <data name="&gt;&gt;TxtPoolWeight5.Name" xml:space="preserve">
+    <value>TxtPoolWeight5</value>
+  </data>
+  <data name="LblScheduleIdTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="DTPEndTime.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblSortIdTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="RbCostItem223.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 21</value>
+  </data>
+  <data name="TxtWeight5.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ListUpItems.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblGachaType.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance5Tip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListFallbackItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtJson.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="LblPoolWeight5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 32</value>
+  </data>
+  <data name="LblGachaTypeTip.Text" xml:space="preserve">
+    <value>从400开始，顺序递增</value>
+  </data>
+  <data name="LnkOpenOldEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;TxtWeight4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LnkOpenOldEditor.Text" xml:space="preserve">
+    <value>打开旧版本编辑器</value>
+  </data>
+  <data name="&gt;&gt;LblPoolWeight4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblPrefabPath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="LblEventChance5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="LblPoolWeight5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="BtnParse.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;LblWeight5.Name" xml:space="preserve">
+    <value>LblWeight5</value>
+  </data>
+  <data name="BtnGen.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="CmbBannerType.Items2" xml:space="preserve">
+    <value>限时武器祈愿池</value>
+  </data>
+  <data name="CmbBannerType.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblBannerType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LblGachaTypeTip.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance5.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;LblOptions.Name" xml:space="preserve">
+    <value>LblOptions</value>
+  </data>
+  <data name="&gt;&gt;CmbBannerType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblBannerType.Text" xml:space="preserve">
+    <value>奖池类型</value>
+  </data>
+  <data name="LblSortId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 204</value>
+  </data>
+  <data name="&gt;&gt;GrpUpPool.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;CmbBannerType.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="&gt;&gt;LblBannerType.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="LblEventChance4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>221, 233</value>
+  </data>
+  <data name="&gt;&gt;GrpWeights.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ListFallbackItems.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblPoolWeight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 61</value>
+  </data>
+  <data name="&gt;&gt;LblPoolWeight4.Name" xml:space="preserve">
+    <value>LblPoolWeight4</value>
+  </data>
+  <data name="LblPoolWeight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="LblPrefabPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="CmbBannerType.Items" xml:space="preserve">
+    <value>常驻池</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="LblWeight5.Text" xml:space="preserve">
+    <value>5星权重</value>
+  </data>
+  <data name="LblPrefabPath.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="ChkAutoStripRateUpFromFallback.TabIndex" type="System.Int32, mscorlib">
+    <value>92</value>
+  </data>
+  <data name="&gt;&gt;LblGachaTypeTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblEventChance5Tip.Text" xml:space="preserve">
+    <value>%</value>
+  </data>
+  <data name="LblEventChance5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 233</value>
+  </data>
+  <data name="&gt;&gt;ColFallbackId.Name" xml:space="preserve">
+    <value>ColFallbackId</value>
+  </data>
+  <data name="LblSortId.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="&gt;&gt;ChkAutoStripRateUpFromFallback.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="GrpBalance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 100</value>
+  </data>
+  <data name="LblGachaType.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="LblCostItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 148</value>
+  </data>
+  <data name="&gt;&gt;RbCostItem223.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;LblWeight5.Parent" xml:space="preserve">
+    <value>GrpWeights</value>
+  </data>
+  <data name="&gt;&gt;GrpFallbackPool.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ColUpId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDScheduleId.Name" xml:space="preserve">
+    <value>NUDScheduleId</value>
+  </data>
+  <data name="NUDScheduleId.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LblBannerType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkAutoStripRateUpFromFallback.Name" xml:space="preserve">
+    <value>ChkAutoStripRateUpFromFallback</value>
+  </data>
+  <data name="&gt;&gt;ListFallbackItems.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RbCostItem223.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 146</value>
+  </data>
+  <data name="RbCostItem223.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblEventChance4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="&gt;&gt;LblGachaTypeTip.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="NUDScheduleId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="LblBeginTime.Text" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="&gt;&gt;GrpJson.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChkRemoveC6FormPool.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 260</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>卡池编辑器</value>
+  </data>
+  <data name="NUDEventChance4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 23</value>
+  </data>
+  <data name="&gt;&gt;CmbPrefab.Name" xml:space="preserve">
+    <value>CmbPrefab</value>
+  </data>
+  <data name="&gt;&gt;LblOptions.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="GrpBannerValues.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="&gt;&gt;NUDScheduleId.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="LblScheduleId.Text" xml:space="preserve">
+    <value>ScheduleId</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance4.Name" xml:space="preserve">
+    <value>LblEventChance4</value>
+  </data>
+  <data name="LblScheduleId.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="LblCostItem.TabIndex" type="System.Int32, mscorlib">
+    <value>80</value>
+  </data>
+  <data name="LblWeight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 17</value>
+  </data>
+  <data name="&gt;&gt;LblWeight4.Name" xml:space="preserve">
+    <value>LblWeight4</value>
+  </data>
+  <data name="&gt;&gt;LblEventChance4Tip.Parent" xml:space="preserve">
+    <value>GrpBannerValues</value>
+  </data>
+  <data name="&gt;&gt;LblPoolWeight4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbBannerType.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="ListUpItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="LblWeight4.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru-RU</value>
+  </metadata>
 </root>
