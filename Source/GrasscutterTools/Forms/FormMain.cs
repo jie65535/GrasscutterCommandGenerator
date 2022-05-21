@@ -966,7 +966,8 @@ namespace GrasscutterTools.Forms
 
         private void CopyCommand()
         {
-            Clipboard.SetText(TxtCommand.Text);
+            if (!string.IsNullOrEmpty(TxtCommand.Text))
+                Clipboard.SetText(TxtCommand.Text);
         }
 
         private void OnOpenCommandInvoke()
