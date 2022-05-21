@@ -162,35 +162,35 @@ namespace GrasscutterTools.Forms
 
         #region - 主页 -
 
-        private FormGachaBannerEditor FormGachaBannerEditor;
+        private Form GachaBannerEditor;
 
         private void BtnOpenGachaBannerEditor_Click(object sender, EventArgs e)
         {
-            if (FormGachaBannerEditor == null || FormGachaBannerEditor.IsDisposed)
+            if (GachaBannerEditor == null || GachaBannerEditor.IsDisposed)
             {
-                FormGachaBannerEditor = new FormGachaBannerEditor();
-                FormGachaBannerEditor.Show();
+                GachaBannerEditor = new FormGachaBannerEditor2();
+                GachaBannerEditor.Show();
             }
             else
             {
-                FormGachaBannerEditor.TopMost = true;
-                FormGachaBannerEditor.TopMost = false;
+                GachaBannerEditor.TopMost = true;
+                GachaBannerEditor.TopMost = false;
             }
         }
 
-        private FormTextMapBrowser FormTextMapBrowser;
+        private FormTextMapBrowser TextMapBrowser;
 
         private void BtnOpenTextMap_Click(object sender, EventArgs e)
         {
-            if (FormTextMapBrowser == null || FormTextMapBrowser.IsDisposed)
+            if (TextMapBrowser == null || TextMapBrowser.IsDisposed)
             {
-                FormTextMapBrowser = new FormTextMapBrowser();
-                FormTextMapBrowser.Show();
+                TextMapBrowser = new FormTextMapBrowser();
+                TextMapBrowser.Show();
             }
             else
             {
-                FormTextMapBrowser.TopMost = true;
-                FormTextMapBrowser.TopMost = false;
+                TextMapBrowser.TopMost = true;
+                TextMapBrowser.TopMost = false;
             }
         }
 

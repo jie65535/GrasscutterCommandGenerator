@@ -180,6 +180,7 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -197,6 +198,12 @@
   <ItemGroup>
     <Compile Include="DispatchServer\DispatchServerAPI.cs" />
     <Compile Include="DispatchServer\Model\ServerStatus.cs" />
+    <Compile Include="Forms\FormGachaBannerEditor2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormGachaBannerEditor2.Designer.cs">
+      <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormGachaBannerEditor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -229,6 +236,16 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\HttpHelper.cs" />
+    <EmbeddedResource Include="Forms\FormGachaBannerEditor2.en-us.resx">
+      <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGachaBannerEditor2.resx">
+      <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGachaBannerEditor2.ru-ru.resx">
+      <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormGachaBannerEditor.en-us.resx">
       <DependentUpon>FormGachaBannerEditor.cs</DependentUpon>
     </EmbeddedResource>
