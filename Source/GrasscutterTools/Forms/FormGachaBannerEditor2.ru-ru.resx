@@ -117,26 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LblBannerEditorOldTip.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LblBannerEditorOldTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 415</value>
-  </data>
-  <data name="LblBannerEditorOldTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>390, 35</value>
-  </data>
-  <data name="LblBannerEditorOldTip.Text" xml:space="preserve">
-    <value>Совет: Последняя версия баннера разрабатывается в настоящее время не поддерживается, ждем PR : )</value>
-  </data>
-  <data name="LblEventChanceTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>401, 262</value>
-  </data>
-  <data name="NUDEventChance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 260</value>
-  </data>
   <data name="LblGachaType.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 28</value>
   </data>
@@ -146,15 +127,6 @@
   <data name="LblGachaType.Text" xml:space="preserve">
     <value>Тип Гачи</value>
   </data>
-  <data name="LblEventChance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 262</value>
-  </data>
-  <data name="LblEventChance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 17</value>
-  </data>
-  <data name="LblEventChance.Text" xml:space="preserve">
-    <value>Шанс события</value>
-  </data>
   <data name="LblSortId.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 204</value>
   </data>
@@ -163,33 +135,6 @@
   </data>
   <data name="LblSortId.Text" xml:space="preserve">
     <value>Сорт.</value>
-  </data>
-  <data name="LblBaseYellowWeight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 262</value>
-  </data>
-  <data name="LblBaseYellowWeight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 17</value>
-  </data>
-  <data name="LblBaseYellowWeight.Text" xml:space="preserve">
-    <value>5-звездочный</value>
-  </data>
-  <data name="LblRateUpItems2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 350</value>
-  </data>
-  <data name="LblRateUpItems2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 17</value>
-  </data>
-  <data name="LblRateUpItems2.Text" xml:space="preserve">
-    <value>4 звезды UP</value>
-  </data>
-  <data name="LblSoftPity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 291</value>
-  </data>
-  <data name="LblSoftPity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 17</value>
-  </data>
-  <data name="LblSoftPity.Text" xml:space="preserve">
-    <value>Мяг. гарант</value>
   </data>
   <data name="LblGachaTypeTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>116, 17</value>
@@ -205,15 +150,6 @@
   </data>
   <data name="LblEndTime.Text" xml:space="preserve">
     <value>Конец</value>
-  </data>
-  <data name="LblRateUpItems1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 234</value>
-  </data>
-  <data name="LblRateUpItems1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 17</value>
-  </data>
-  <data name="LblRateUpItems1.Text" xml:space="preserve">
-    <value>5 зв. UP</value>
   </data>
   <data name="LblScheduleId.Location" type="System.Drawing.Point, System.Drawing">
     <value>8, 57</value>
@@ -233,44 +169,11 @@
   <data name="LblBeginTime.Text" xml:space="preserve">
     <value>Начало</value>
   </data>
-  <data name="LblHardPity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 320</value>
-  </data>
-  <data name="LblHardPity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 17</value>
-  </data>
-  <data name="LblHardPity.Text" xml:space="preserve">
-    <value>Жест. Гарант</value>
-  </data>
-  <data name="NUDEndTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 174</value>
-  </data>
-  <data name="LblHardPityTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 17</value>
-  </data>
-  <data name="LblHardPityTip.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="LblScheduleIdTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>84, 17</value>
   </data>
   <data name="LblScheduleIdTip.Text" xml:space="preserve">
     <value>Уникальный</value>
-  </data>
-  <data name="LblSoftPityTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 17</value>
-  </data>
-  <data name="LblSoftPityTip.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="LblBasePurpleWeight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>29, 378</value>
-  </data>
-  <data name="LblBasePurpleWeight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 17</value>
-  </data>
-  <data name="LblBasePurpleWeight.Text" xml:space="preserve">
-    <value>4 звездный</value>
   </data>
   <data name="CmbBannerType.Items" xml:space="preserve">
     <value>Стандартная Молитва</value>
@@ -332,8 +235,108 @@
   <data name="GrpBannerValues.Text" xml:space="preserve">
     <value>Баннеп</value>
   </data>
+  <data name="ListFallbackItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo15pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBNQs=
+</value>
+  </data>
+  <data name="ListFallbackItems.Groups1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo15pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXNQs=
+</value>
+  </data>
+  <data name="ListFallbackItems.Groups2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo05pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBNAs=
+</value>
+  </data>
+  <data name="ListFallbackItems.Groups3" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo05pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXNAs=
+</value>
+  </data>
+  <data name="ListFallbackItems.Groups4" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAoz5pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBMws=
+</value>
+  </data>
+  <data name="ListFallbackItems.Groups5" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAoz5pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXMws=
+</value>
+  </data>
   <data name="GrpPurplePool.Text" xml:space="preserve">
     <value>4 звёздочный пул</value>
+  </data>
+  <data name="ListUpItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo15pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcEE1Cw==
+</value>
+  </data>
+  <data name="ListUpItems.Groups1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo15pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc1Cw==
+</value>
+  </data>
+  <data name="ListUpItems.Groups2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo05pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcEE0Cw==
+</value>
+  </data>
+  <data name="ListUpItems.Groups3" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo05pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc0Cw==
+</value>
   </data>
   <data name="GrpYellowPool.Text" xml:space="preserve">
     <value>5 звёздочный пул</value>

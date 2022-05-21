@@ -241,6 +241,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormGachaBannerEditor2.resx">
       <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormGachaBannerEditor2.ru-ru.resx">
       <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>

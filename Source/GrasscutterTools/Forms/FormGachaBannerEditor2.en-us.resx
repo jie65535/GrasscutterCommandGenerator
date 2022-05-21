@@ -117,64 +117,60 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LblBannerEditorOldTip.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LblBannerEditorOldTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 415</value>
+  <data name="ChkAutoStripRateUpFromFallback.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 287</value>
   </data>
-  <data name="LblBannerEditorOldTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>390, 35</value>
+  <data name="ChkAutoStripRateUpFromFallback.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 21</value>
   </data>
-  <data name="LblBannerEditorOldTip.Text" xml:space="preserve">
-    <value>Tip: The latest version of the dev Banner is currently not supported, waiting for PR : )</value>
+  <data name="ChkAutoStripRateUpFromFallback.Text" xml:space="preserve">
+    <value>Auto Strip Rate Up From Fall back</value>
   </data>
-  <data name="LblEventChanceTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>401, 262</value>
+  <data name="LblOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>60, 260</value>
   </data>
-  <data name="NUDEventChance.Location" type="System.Drawing.Point, System.Drawing">
-    <value>332, 260</value>
+  <data name="LblOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
   </data>
-  <data name="LblEventChance.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 17</value>
+  <data name="LblOptions.Text" xml:space="preserve">
+    <value>Optins</value>
   </data>
-  <data name="LblEventChance.Text" xml:space="preserve">
-    <value>Event chance</value>
+  <data name="ChkRemoveC6FormPool.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 21</value>
+  </data>
+  <data name="ChkRemoveC6FormPool.Text" xml:space="preserve">
+    <value>Remove C6 Form Pool</value>
+  </data>
+  <data name="LnkOpenOldEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 17</value>
+  </data>
+  <data name="LnkOpenOldEditor.Text" xml:space="preserve">
+    <value>Open old editor</value>
+  </data>
+  <data name="LblEventChance4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>200, 233</value>
+  </data>
+  <data name="LblEventChance4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="LblEventChance4.Text" xml:space="preserve">
+    <value>Event Chance 4</value>
+  </data>
+  <data name="LblEventChance5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 233</value>
+  </data>
+  <data name="LblEventChance5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="LblEventChance5.Text" xml:space="preserve">
+    <value>Event Chance 5</value>
   </data>
   <data name="LblSortId.Location" type="System.Drawing.Point, System.Drawing">
     <value>72, 204</value>
   </data>
   <data name="LblSortId.Text" xml:space="preserve">
     <value>Sort</value>
-  </data>
-  <data name="LblBaseYellowWeight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 262</value>
-  </data>
-  <data name="LblBaseYellowWeight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 17</value>
-  </data>
-  <data name="LblBaseYellowWeight.Text" xml:space="preserve">
-    <value>5 star weight</value>
-  </data>
-  <data name="LblRateUpItems2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 350</value>
-  </data>
-  <data name="LblRateUpItems2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 17</value>
-  </data>
-  <data name="LblRateUpItems2.Text" xml:space="preserve">
-    <value>4 star UP</value>
-  </data>
-  <data name="LblSoftPity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 291</value>
-  </data>
-  <data name="LblSoftPity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
-  </data>
-  <data name="LblSoftPity.Text" xml:space="preserve">
-    <value>Soft pity</value>
   </data>
   <data name="LblGachaTypeTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 17</value>
@@ -188,15 +184,6 @@
   <data name="LblEndTime.Text" xml:space="preserve">
     <value>End Time</value>
   </data>
-  <data name="LblRateUpItems1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 234</value>
-  </data>
-  <data name="LblRateUpItems1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 17</value>
-  </data>
-  <data name="LblRateUpItems1.Text" xml:space="preserve">
-    <value>5 star UP</value>
-  </data>
   <data name="LblBeginTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 175</value>
   </data>
@@ -206,44 +193,11 @@
   <data name="LblBeginTime.Text" xml:space="preserve">
     <value>Begin Time</value>
   </data>
-  <data name="LblHardPity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 320</value>
-  </data>
-  <data name="LblHardPity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 17</value>
-  </data>
-  <data name="LblHardPity.Text" xml:space="preserve">
-    <value>Hard pity</value>
-  </data>
-  <data name="NUDEndTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 174</value>
-  </data>
-  <data name="LblHardPityTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 17</value>
-  </data>
-  <data name="LblHardPityTip.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
   <data name="LblScheduleIdTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 17</value>
   </data>
   <data name="LblScheduleIdTip.Text" xml:space="preserve">
     <value>Unique</value>
-  </data>
-  <data name="LblSoftPityTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 17</value>
-  </data>
-  <data name="LblSoftPityTip.Text" xml:space="preserve">
-    <value>...</value>
-  </data>
-  <data name="LblBasePurpleWeight.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 378</value>
-  </data>
-  <data name="LblBasePurpleWeight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 17</value>
-  </data>
-  <data name="LblBasePurpleWeight.Text" xml:space="preserve">
-    <value>4 star weight</value>
   </data>
   <data name="CmbBannerType.Items" xml:space="preserve">
     <value>Standard Wish</value>
@@ -308,8 +262,108 @@
   <data name="GrpPurplePool.Text" xml:space="preserve">
     <value>4 star pool</value>
   </data>
+  <data name="ListFallbackItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo15pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBNQs=
+</value>
+  </data>
+  <data name="ListFallbackItems.Groups1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo15pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXNQs=
+</value>
+  </data>
+  <data name="ListFallbackItems.Groups2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo05pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBNAs=
+</value>
+  </data>
+  <data name="ListFallbackItems.Groups3" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo05pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXNAs=
+</value>
+  </data>
+  <data name="ListFallbackItems.Groups4" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAoz5pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBMws=
+</value>
+  </data>
+  <data name="ListFallbackItems.Groups5" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAoz5pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXMws=
+</value>
+  </data>
   <data name="GrpYellowPool.Text" xml:space="preserve">
     <value>5 star pool</value>
+  </data>
+  <data name="ListUpItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo15pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcEE1Cw==
+</value>
+  </data>
+  <data name="ListUpItems.Groups1" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo15pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc1Cw==
+</value>
+  </data>
+  <data name="ListUpItems.Groups2" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo05pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcEE0Cw==
+</value>
+  </data>
+  <data name="ListUpItems.Groups3" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
+        ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
+        AwAAAAo05pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
+        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc0Cw==
+</value>
   </data>
   <data name="BtnGen.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 23</value>
@@ -325,6 +379,51 @@
   </data>
   <data name="BtnParse.Text" xml:space="preserve">
     <value>Parse Json</value>
+  </data>
+  <data name="LnkWeightHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 0</value>
+  </data>
+  <data name="LnkWeightHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 17</value>
+  </data>
+  <data name="LnkWeightHelp.Text" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="LblWeight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 61</value>
+  </data>
+  <data name="LblWeight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="LblWeight4.Text" xml:space="preserve">
+    <value>Weights 4</value>
+  </data>
+  <data name="LblWeight5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 32</value>
+  </data>
+  <data name="LblWeight5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="LblWeight5.Text" xml:space="preserve">
+    <value>Weights 5</value>
+  </data>
+  <data name="LblPoolWeight4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 61</value>
+  </data>
+  <data name="LblPoolWeight4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="LblPoolWeight4.Text" xml:space="preserve">
+    <value>Pool Weight 4</value>
+  </data>
+  <data name="LblPoolWeight5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 32</value>
+  </data>
+  <data name="LblPoolWeight5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="LblPoolWeight5.Text" xml:space="preserve">
+    <value>Pool Weight 5</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Gacha Banner Editor</value>

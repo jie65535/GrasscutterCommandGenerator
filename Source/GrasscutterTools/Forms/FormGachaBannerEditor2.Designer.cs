@@ -31,6 +31,10 @@ namespace GrasscutterTools.Forms
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGachaBannerEditor2));
             this.GrpBannerValues = new System.Windows.Forms.GroupBox();
+            this.ChkAutoStripRateUpFromFallback = new System.Windows.Forms.CheckBox();
+            this.LblOptions = new System.Windows.Forms.Label();
+            this.ChkRemoveC6FormPool = new System.Windows.Forms.CheckBox();
+            this.LnkOpenOldEditor = new System.Windows.Forms.LinkLabel();
             this.DTPEndTime = new System.Windows.Forms.DateTimePicker();
             this.DTPBeginTime = new System.Windows.Forms.DateTimePicker();
             this.CmbPrefab = new System.Windows.Forms.ComboBox();
@@ -70,20 +74,16 @@ namespace GrasscutterTools.Forms
             this.TxtJson = new System.Windows.Forms.TextBox();
             this.BtnParse = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.LblWeight5 = new System.Windows.Forms.Label();
-            this.LblWeight4 = new System.Windows.Forms.Label();
-            this.TxtWeight5 = new System.Windows.Forms.TextBox();
-            this.TxtWeight4 = new System.Windows.Forms.TextBox();
             this.LnkWeightHelp = new System.Windows.Forms.LinkLabel();
-            this.LnkOpenOldEditor = new System.Windows.Forms.LinkLabel();
+            this.TxtWeight4 = new System.Windows.Forms.TextBox();
+            this.TxtWeight5 = new System.Windows.Forms.TextBox();
+            this.LblWeight4 = new System.Windows.Forms.Label();
+            this.LblWeight5 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.TxtPoolWeight4 = new System.Windows.Forms.TextBox();
             this.TxtPoolWeight5 = new System.Windows.Forms.TextBox();
             this.LblPoolWeight4 = new System.Windows.Forms.Label();
             this.LblPoolWeight5 = new System.Windows.Forms.Label();
-            this.ChkRemoveC6FormPool = new System.Windows.Forms.CheckBox();
-            this.LblOptions = new System.Windows.Forms.Label();
-            this.ChkAutoStripRateUpFromFallback = new System.Windows.Forms.CheckBox();
             this.GrpBannerValues.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance5)).BeginInit();
@@ -133,6 +133,30 @@ namespace GrasscutterTools.Forms
             this.GrpBannerValues.Name = "GrpBannerValues";
             this.GrpBannerValues.TabStop = false;
             // 
+            // ChkAutoStripRateUpFromFallback
+            // 
+            resources.ApplyResources(this.ChkAutoStripRateUpFromFallback, "ChkAutoStripRateUpFromFallback");
+            this.ChkAutoStripRateUpFromFallback.Name = "ChkAutoStripRateUpFromFallback";
+            this.ChkAutoStripRateUpFromFallback.UseVisualStyleBackColor = true;
+            // 
+            // LblOptions
+            // 
+            resources.ApplyResources(this.LblOptions, "LblOptions");
+            this.LblOptions.Name = "LblOptions";
+            // 
+            // ChkRemoveC6FormPool
+            // 
+            resources.ApplyResources(this.ChkRemoveC6FormPool, "ChkRemoveC6FormPool");
+            this.ChkRemoveC6FormPool.Name = "ChkRemoveC6FormPool";
+            this.ChkRemoveC6FormPool.UseVisualStyleBackColor = true;
+            // 
+            // LnkOpenOldEditor
+            // 
+            resources.ApplyResources(this.LnkOpenOldEditor, "LnkOpenOldEditor");
+            this.LnkOpenOldEditor.Name = "LnkOpenOldEditor";
+            this.LnkOpenOldEditor.TabStop = true;
+            this.LnkOpenOldEditor.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkOpenOldEditor_LinkClicked);
+            // 
             // DTPEndTime
             // 
             resources.ApplyResources(this.DTPEndTime, "DTPEndTime");
@@ -149,9 +173,9 @@ namespace GrasscutterTools.Forms
             // 
             // CmbPrefab
             // 
+            resources.ApplyResources(this.CmbPrefab, "CmbPrefab");
             this.CmbPrefab.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbPrefab.FormattingEnabled = true;
-            resources.ApplyResources(this.CmbPrefab, "CmbPrefab");
             this.CmbPrefab.Name = "CmbPrefab";
             // 
             // LblEventChance4Tip
@@ -281,13 +305,13 @@ namespace GrasscutterTools.Forms
             // 
             // CmbBannerType
             // 
+            resources.ApplyResources(this.CmbBannerType, "CmbBannerType");
             this.CmbBannerType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbBannerType.FormattingEnabled = true;
             this.CmbBannerType.Items.AddRange(new object[] {
             resources.GetString("CmbBannerType.Items"),
             resources.GetString("CmbBannerType.Items1"),
             resources.GetString("CmbBannerType.Items2")});
-            resources.ApplyResources(this.CmbBannerType, "CmbBannerType");
             this.CmbBannerType.Name = "CmbBannerType";
             // 
             // LblSortIdTip
@@ -334,11 +358,11 @@ namespace GrasscutterTools.Forms
             // 
             // ListFallbackItems
             // 
+            resources.ApplyResources(this.ListFallbackItems, "ListFallbackItems");
             this.ListFallbackItems.CheckBoxes = true;
             this.ListFallbackItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColFallbackId,
             this.ColFallbackName});
-            resources.ApplyResources(this.ListFallbackItems, "ListFallbackItems");
             this.ListFallbackItems.FullRowSelect = true;
             this.ListFallbackItems.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListFallbackItems.Groups"))),
@@ -369,11 +393,11 @@ namespace GrasscutterTools.Forms
             // 
             // ListUpItems
             // 
+            resources.ApplyResources(this.ListUpItems, "ListUpItems");
             this.ListUpItems.CheckBoxes = true;
             this.ListUpItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColUpId,
             this.ColUpName});
-            resources.ApplyResources(this.ListUpItems, "ListUpItems");
             this.ListUpItems.FullRowSelect = true;
             this.ListUpItems.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListUpItems.Groups"))),
@@ -432,6 +456,33 @@ namespace GrasscutterTools.Forms
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
+            // LnkWeightHelp
+            // 
+            resources.ApplyResources(this.LnkWeightHelp, "LnkWeightHelp");
+            this.LnkWeightHelp.Name = "LnkWeightHelp";
+            this.LnkWeightHelp.TabStop = true;
+            this.LnkWeightHelp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkWeightHelp_LinkClicked);
+            // 
+            // TxtWeight4
+            // 
+            resources.ApplyResources(this.TxtWeight4, "TxtWeight4");
+            this.TxtWeight4.Name = "TxtWeight4";
+            // 
+            // TxtWeight5
+            // 
+            resources.ApplyResources(this.TxtWeight5, "TxtWeight5");
+            this.TxtWeight5.Name = "TxtWeight5";
+            // 
+            // LblWeight4
+            // 
+            resources.ApplyResources(this.LblWeight4, "LblWeight4");
+            this.LblWeight4.Name = "LblWeight4";
+            // 
+            // LblWeight5
+            // 
+            resources.ApplyResources(this.LblWeight5, "LblWeight5");
+            this.LblWeight5.Name = "LblWeight5";
+            // 
             // groupBox2
             // 
             resources.ApplyResources(this.groupBox2, "groupBox2");
@@ -441,40 +492,6 @@ namespace GrasscutterTools.Forms
             this.groupBox2.Controls.Add(this.LblPoolWeight5);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
-            // 
-            // LblWeight5
-            // 
-            resources.ApplyResources(this.LblWeight5, "LblWeight5");
-            this.LblWeight5.Name = "LblWeight5";
-            // 
-            // LblWeight4
-            // 
-            resources.ApplyResources(this.LblWeight4, "LblWeight4");
-            this.LblWeight4.Name = "LblWeight4";
-            // 
-            // TxtWeight5
-            // 
-            resources.ApplyResources(this.TxtWeight5, "TxtWeight5");
-            this.TxtWeight5.Name = "TxtWeight5";
-            // 
-            // TxtWeight4
-            // 
-            resources.ApplyResources(this.TxtWeight4, "TxtWeight4");
-            this.TxtWeight4.Name = "TxtWeight4";
-            // 
-            // LnkWeightHelp
-            // 
-            resources.ApplyResources(this.LnkWeightHelp, "LnkWeightHelp");
-            this.LnkWeightHelp.Name = "LnkWeightHelp";
-            this.LnkWeightHelp.TabStop = true;
-            this.LnkWeightHelp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkWeightHelp_LinkClicked);
-            // 
-            // LnkOpenOldEditor
-            // 
-            resources.ApplyResources(this.LnkOpenOldEditor, "LnkOpenOldEditor");
-            this.LnkOpenOldEditor.Name = "LnkOpenOldEditor";
-            this.LnkOpenOldEditor.TabStop = true;
-            this.LnkOpenOldEditor.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkOpenOldEditor_LinkClicked);
             // 
             // TxtPoolWeight4
             // 
@@ -495,23 +512,6 @@ namespace GrasscutterTools.Forms
             // 
             resources.ApplyResources(this.LblPoolWeight5, "LblPoolWeight5");
             this.LblPoolWeight5.Name = "LblPoolWeight5";
-            // 
-            // ChkRemoveC6FormPool
-            // 
-            resources.ApplyResources(this.ChkRemoveC6FormPool, "ChkRemoveC6FormPool");
-            this.ChkRemoveC6FormPool.Name = "ChkRemoveC6FormPool";
-            this.ChkRemoveC6FormPool.UseVisualStyleBackColor = true;
-            // 
-            // LblOptions
-            // 
-            resources.ApplyResources(this.LblOptions, "LblOptions");
-            this.LblOptions.Name = "LblOptions";
-            // 
-            // ChkAutoStripRateUpFromFallback
-            // 
-            resources.ApplyResources(this.ChkAutoStripRateUpFromFallback, "ChkAutoStripRateUpFromFallback");
-            this.ChkAutoStripRateUpFromFallback.Name = "ChkAutoStripRateUpFromFallback";
-            this.ChkAutoStripRateUpFromFallback.UseVisualStyleBackColor = true;
             // 
             // FormGachaBannerEditor2
             // 
