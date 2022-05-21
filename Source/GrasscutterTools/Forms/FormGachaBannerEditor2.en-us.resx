@@ -259,9 +259,6 @@
   <data name="GrpBannerValues.Text" xml:space="preserve">
     <value>Banner</value>
   </data>
-  <data name="GrpPurplePool.Text" xml:space="preserve">
-    <value>4 star pool</value>
-  </data>
   <data name="ListFallbackItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
@@ -322,8 +319,8 @@
         dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXMws=
 </value>
   </data>
-  <data name="GrpYellowPool.Text" xml:space="preserve">
-    <value>5 star pool</value>
+  <data name="GrpFallbackPool.Text" xml:space="preserve">
+    <value>Fallback Pool</value>
   </data>
   <data name="ListUpItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -364,6 +361,9 @@
         AwAAAAo05pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
         dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc0Cw==
 </value>
+  </data>
+  <data name="GrpUpPool.Text" xml:space="preserve">
+    <value>Up Pool</value>
   </data>
   <data name="BtnGen.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 23</value>
@@ -407,6 +407,9 @@
   <data name="LblWeight5.Text" xml:space="preserve">
     <value>Weights 5</value>
   </data>
+  <data name="GrpWeights.Text" xml:space="preserve">
+    <value>Gacha weights</value>
+  </data>
   <data name="LblPoolWeight4.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 61</value>
   </data>
@@ -424,6 +427,9 @@
   </data>
   <data name="LblPoolWeight5.Text" xml:space="preserve">
     <value>Pool Weight 5</value>
+  </data>
+  <data name="GrpBalance.Text" xml:space="preserve">
+    <value>Character and weapon balance (only mixed pools work)</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Gacha Banner Editor</value>
