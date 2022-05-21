@@ -25,6 +25,9 @@ namespace GrasscutterTools.DispatchServer.Model
         [JsonProperty("playerCount")]
         public int PlayerCount { get; set; }
 
+        [JsonProperty("MaxPlayer")]
+        public int MaxPlayer { get; set; } = -1;
+
         [JsonProperty("version")]
         public string Version { get; set; }
     }

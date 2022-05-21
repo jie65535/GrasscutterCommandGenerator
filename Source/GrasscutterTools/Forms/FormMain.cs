@@ -1129,7 +1129,10 @@ namespace GrasscutterTools.Forms
                 {
                     var status = await DispatchServerAPI.QueryServerStatus(TxtHost.Text);
                     LblServerVersion.Text = status.Version;
-                    LblPlayerCount.Text = status.PlayerCount.ToString();
+                    if (status.MaxPlayer >= 0)
+                        LblPlayerCount.Text = $"{status.PlayerCount}/{status.MaxPlayer}";
+                    else
+                        LblPlayerCount.Text = status.PlayerCount.ToString();
                 }
                 catch (Exception ex)
                 {
