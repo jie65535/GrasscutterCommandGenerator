@@ -259,14 +259,17 @@
   <data name="GrpBannerValues.Text" xml:space="preserve">
     <value>Banner</value>
   </data>
+  <data name="GrpFallbackPool.Text" xml:space="preserve">
+    <value>Fallback Pool</value>
+  </data>
   <data name="ListFallbackItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAo15pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBNQs=
+        AwAAAA01LXN0YXIgYXZhdGFyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdu
+        bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBNQs=
 </value>
   </data>
   <data name="ListFallbackItems.Groups1" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -275,8 +278,8 @@
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAo15pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXNQs=
+        AwAAAA01LXN0YXIgd2VhcG9uBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdu
+        bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXNQs=
 </value>
   </data>
   <data name="ListFallbackItems.Groups2" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -285,8 +288,8 @@
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAo05pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBNAs=
+        AwAAAA00LXN0YXIgYXZhdGFyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdu
+        bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBNAs=
 </value>
   </data>
   <data name="ListFallbackItems.Groups3" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -295,8 +298,8 @@
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAo05pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXNAs=
+        AwAAAA00LXN0YXIgd2VhcG9uBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdu
+        bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXNAs=
 </value>
   </data>
   <data name="ListFallbackItems.Groups4" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -305,8 +308,8 @@
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAoz5pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBMws=
+        AwAAAA0zLXN0YXIgYXZhdGFyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdu
+        bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBBMws=
 </value>
   </data>
   <data name="ListFallbackItems.Groups5" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -315,12 +318,12 @@
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAoz5pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXMws=
+        AwAAAA0zLXN0YXIgd2VhcG9uBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdu
+        bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXMws=
 </value>
   </data>
-  <data name="GrpFallbackPool.Text" xml:space="preserve">
-    <value>Fallback Pool</value>
+  <data name="GrpUpPool.Text" xml:space="preserve">
+    <value>Up Pool</value>
   </data>
   <data name="ListUpItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -328,8 +331,8 @@
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAo15pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcEE1Cw==
+        AwAAAA01LXN0YXIgYXZhdGFyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdu
+        bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcEE1Cw==
 </value>
   </data>
   <data name="ListUpItems.Groups1" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -338,8 +341,8 @@
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAo15pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc1Cw==
+        AwAAAA01LXN0YXIgd2VhcG9uBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdu
+        bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc1Cw==
 </value>
   </data>
   <data name="ListUpItems.Groups2" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -348,8 +351,8 @@
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAo05pif6KeS6ImyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcEE0Cw==
+        AwAAAA00LXN0YXIgYXZhdGFyBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdu
+        bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcEE0Cw==
 </value>
   </data>
   <data name="ListUpItems.Groups3" mimetype="application/x-microsoft.net.object.binary.base64">
@@ -358,12 +361,9 @@
         LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACJTeXN0
         ZW0uV2luZG93cy5Gb3Jtcy5MaXN0Vmlld0dyb3VwBAAAAAZIZWFkZXIPSGVhZGVyQWxpZ25tZW50A1Rh
         ZwROYW1lAQQCAShTeXN0ZW0uV2luZG93cy5Gb3Jtcy5Ib3Jpem9udGFsQWxpZ25tZW50AgAAAAIAAAAG
-        AwAAAAo05pif5q2m5ZmoBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdubWVu
-        dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc0Cw==
+        AwAAAA00LXN0YXIgd2VhcG9uBfz///8oU3lzdGVtLldpbmRvd3MuRm9ybXMuSG9yaXpvbnRhbEFsaWdu
+        bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc0Cw==
 </value>
-  </data>
-  <data name="GrpUpPool.Text" xml:space="preserve">
-    <value>Up Pool</value>
   </data>
   <data name="BtnGen.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 23</value>
@@ -379,6 +379,9 @@
   </data>
   <data name="BtnParse.Text" xml:space="preserve">
     <value>Parse Json</value>
+  </data>
+  <data name="GrpWeights.Text" xml:space="preserve">
+    <value>Gacha weights</value>
   </data>
   <data name="LnkWeightHelp.Location" type="System.Drawing.Point, System.Drawing">
     <value>399, 0</value>
@@ -407,8 +410,8 @@
   <data name="LblWeight5.Text" xml:space="preserve">
     <value>Weights 5</value>
   </data>
-  <data name="GrpWeights.Text" xml:space="preserve">
-    <value>Gacha weights</value>
+  <data name="GrpBalance.Text" xml:space="preserve">
+    <value>Character and weapon balance (only mixed pools work)</value>
   </data>
   <data name="LblPoolWeight4.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 61</value>
@@ -427,9 +430,6 @@
   </data>
   <data name="LblPoolWeight5.Text" xml:space="preserve">
     <value>Pool Weight 5</value>
-  </data>
-  <data name="GrpBalance.Text" xml:space="preserve">
-    <value>Character and weapon balance (only mixed pools work)</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Gacha Banner Editor</value>
