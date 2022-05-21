@@ -173,9 +173,9 @@ namespace GrasscutterTools.Forms
             // 
             // CmbPrefab
             // 
-            resources.ApplyResources(this.CmbPrefab, "CmbPrefab");
             this.CmbPrefab.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbPrefab.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbPrefab, "CmbPrefab");
             this.CmbPrefab.Name = "CmbPrefab";
             // 
             // LblEventChance4Tip
@@ -305,13 +305,13 @@ namespace GrasscutterTools.Forms
             // 
             // CmbBannerType
             // 
-            resources.ApplyResources(this.CmbBannerType, "CmbBannerType");
             this.CmbBannerType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbBannerType.FormattingEnabled = true;
             this.CmbBannerType.Items.AddRange(new object[] {
             resources.GetString("CmbBannerType.Items"),
             resources.GetString("CmbBannerType.Items1"),
             resources.GetString("CmbBannerType.Items2")});
+            resources.ApplyResources(this.CmbBannerType, "CmbBannerType");
             this.CmbBannerType.Name = "CmbBannerType";
             // 
             // LblSortIdTip
@@ -358,11 +358,11 @@ namespace GrasscutterTools.Forms
             // 
             // ListFallbackItems
             // 
-            resources.ApplyResources(this.ListFallbackItems, "ListFallbackItems");
             this.ListFallbackItems.CheckBoxes = true;
             this.ListFallbackItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColFallbackId,
             this.ColFallbackName});
+            resources.ApplyResources(this.ListFallbackItems, "ListFallbackItems");
             this.ListFallbackItems.FullRowSelect = true;
             this.ListFallbackItems.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListFallbackItems.Groups"))),
@@ -393,11 +393,11 @@ namespace GrasscutterTools.Forms
             // 
             // ListUpItems
             // 
-            resources.ApplyResources(this.ListUpItems, "ListUpItems");
             this.ListUpItems.CheckBoxes = true;
             this.ListUpItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColUpId,
             this.ColUpName});
+            resources.ApplyResources(this.ListUpItems, "ListUpItems");
             this.ListUpItems.FullRowSelect = true;
             this.ListUpItems.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListUpItems.Groups"))),

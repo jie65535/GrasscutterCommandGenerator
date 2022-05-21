@@ -124,6 +124,7 @@ namespace GrasscutterTools.Forms
 
         private void LoadUpdate()
         {
+#if !DEBUG
             Task.Run(() =>
             {
                 try
@@ -151,11 +152,10 @@ namespace GrasscutterTools.Forms
                 }
                 catch (Exception)
                 {
-#if DEBUG
                     throw;
-#endif
                 }
             });
+#endif
         }
 
         #endregion - 初始化 -

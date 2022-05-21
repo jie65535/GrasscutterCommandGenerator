@@ -292,7 +292,11 @@ namespace GrasscutterTools.Forms
             {
                 var banner = ParseBanner();
                 if (banner != null)
-                    TxtJson.Text = JsonConvert.SerializeObject(banner, Formatting.Indented);
+                {
+                    var json = JsonConvert.SerializeObject(banner);
+                    json = json.Replace(",\"", ",\r\n  \"").Insert(1, "\r\n  ");
+                    TxtJson.Text = json.Insert(json.Length-1, "\r\n");
+                }
             }
             catch (Exception ex)
             {
