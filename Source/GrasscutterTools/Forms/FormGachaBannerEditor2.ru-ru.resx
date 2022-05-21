@@ -125,7 +125,7 @@
     <value>225, 21</value>
   </data>
   <data name="ChkAutoStripRateUpFromFallback.Text" xml:space="preserve">
-    <value>Auto Strip Rate Up From Fall back</value>
+    <value>Авто возврат шанса выпадения с баннера</value>
   </data>
   <data name="LblOptions.Location" type="System.Drawing.Point, System.Drawing">
     <value>52, 260</value>
@@ -134,19 +134,19 @@
     <value>54, 17</value>
   </data>
   <data name="LblOptions.Text" xml:space="preserve">
-    <value>Options</value>
+    <value>Опции</value>
   </data>
   <data name="ChkRemoveC6FormPool.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 21</value>
   </data>
   <data name="ChkRemoveC6FormPool.Text" xml:space="preserve">
-    <value>Remove C6 Form Pool</value>
+    <value>Удалить пул форм C6</value>
   </data>
   <data name="LnkOpenOldEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>102, 17</value>
   </data>
   <data name="LnkOpenOldEditor.Text" xml:space="preserve">
-    <value>Open old editor</value>
+    <value>Открыть старый редактор</value>
   </data>
   <data name="LblGachaType.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 28</value>
@@ -164,7 +164,7 @@
     <value>93, 17</value>
   </data>
   <data name="LblEventChance4.Text" xml:space="preserve">
-    <value>EventChance4*</value>
+    <value>Шанс соб. 4*</value>
   </data>
   <data name="LblEventChance5.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 233</value>
@@ -173,7 +173,7 @@
     <value>93, 17</value>
   </data>
   <data name="LblEventChance5.Text" xml:space="preserve">
-    <value>EventChance5*</value>
+    <value>Шанс соб. 5*</value>
   </data>
   <data name="LblSortId.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 204</value>
@@ -281,7 +281,7 @@
     <value>Переплетающиеся</value>
   </data>
   <data name="GrpBannerValues.Text" xml:space="preserve">
-    <value>Баннеп</value>
+    <value>Баннер</value>
   </data>
   <data name="ListFallbackItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -344,7 +344,7 @@
 </value>
   </data>
   <data name="GrpFallbackPool.Text" xml:space="preserve">
-    <value>Fallback Pool</value>
+    <value>Запасной Пул</value>
   </data>
   <data name="ListUpItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -387,7 +387,7 @@
 </value>
   </data>
   <data name="GrpUpPool.Text" xml:space="preserve">
-    <value>UP Pool</value>
+    <value>Верхний Пул</value>
   </data>
   <data name="BtnGen.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 23</value>
@@ -405,13 +405,13 @@
     <value>Загр.Json</value>
   </data>
   <data name="LnkWeightHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>399, 0</value>
+    <value>375, 0</value>
   </data>
   <data name="LnkWeightHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 17</value>
   </data>
   <data name="LnkWeightHelp.Text" xml:space="preserve">
-    <value>Help</value>
+    <value>Помощь</value>
   </data>
   <data name="LblWeight4.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 61</value>
@@ -420,7 +420,7 @@
     <value>71, 17</value>
   </data>
   <data name="LblWeight4.Text" xml:space="preserve">
-    <value>Weights 5*</value>
+    <value>Веса 5*</value>
   </data>
   <data name="LblWeight5.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 32</value>
@@ -429,10 +429,10 @@
     <value>71, 17</value>
   </data>
   <data name="LblWeight5.Text" xml:space="preserve">
-    <value>Weights 5*</value>
+    <value>Веса 5*</value>
   </data>
   <data name="GrpWeights.Text" xml:space="preserve">
-    <value>Gacha Weights</value>
+    <value>Gacha Веса</value>
   </data>
   <data name="LblPoolWeight4.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 61</value>
@@ -441,7 +441,7 @@
     <value>101, 17</value>
   </data>
   <data name="LblPoolWeight4.Text" xml:space="preserve">
-    <value>Pool Weights 4*</value>
+    <value>Пул Веса 4*</value>
   </data>
   <data name="LblPoolWeight5.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 32</value>
@@ -450,10 +450,10 @@
     <value>101, 17</value>
   </data>
   <data name="LblPoolWeight5.Text" xml:space="preserve">
-    <value>Pool Weights 5*</value>
+    <value>Пул Веса 5*</value>
   </data>
   <data name="GrpBalance.Text" xml:space="preserve">
-    <value>Character and weapon balance (only mixed pools work)</value>
+    <value>Баланс персонажа и оружия (работают только смешанные пулы)</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Редактор баннеров Gacha</value>
