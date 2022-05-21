@@ -225,11 +225,17 @@ Do you want to check for updates? Selecting No will no longer remind you of this
   <data name="Permissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Permissions.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="QueryServerStatusFailed" xml:space="preserve">
+    <value>Failed to query server status:</value>
+  </data>
   <data name="Quest" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Quest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="RequireOpenCommandTip" xml:space="preserve">
     <value>Please connect to a server that supports [opencommand] first</value>
+  </data>
+  <data name="RestoreCustomCommands" xml:space="preserve">
+    <value>Are you sure you want to restore custom commands to defaults?</value>
   </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
@@ -242,6 +248,12 @@ Do you want to check for updates? Selecting No will no longer remind you of this
   </data>
   <data name="Tips" xml:space="preserve">
     <value>Tips</value>
+  </data>
+  <data name="TokenCannotBeEmpty" xml:space="preserve">
+    <value>Token cannot be empty</value>
+  </data>
+  <data name="TokenRestoredFromCache" xml:space="preserve">
+    <value>Token restored from cache</value>
   </data>
   <data name="UsernameCannotBeEmpty" xml:space="preserve">
     <value>Username cannot be empty!</value>

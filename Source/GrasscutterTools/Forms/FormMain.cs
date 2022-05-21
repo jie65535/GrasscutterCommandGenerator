@@ -352,6 +352,16 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        private void LnkResetCustomCommands_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (MessageBox.Show(Resources.RestoreCustomCommands, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+            {
+                if (File.Exists(CustomCommandsFilePath))
+                    File.Delete(CustomCommandsFilePath);
+                LoadCustomCommandControls(Resources.CustomCommands);
+            }
+        }
+
         #endregion - 自定义 -
 
         #region - 圣遗物 -
@@ -1106,7 +1116,7 @@ namespace GrasscutterTools.Forms
                 Task.Run(async () =>
                 {
                     await Task.Delay(1000);
-                    BeginInvoke(new Action(() => ShowTip("已从缓存中恢复Token", BtnInvokeOpenCommand)));
+                    BeginInvoke(new Action(() => ShowTip(Resources.TokenRestoredFromCache, BtnInvokeOpenCommand)));
                 });
             }
         }
@@ -1136,7 +1146,7 @@ namespace GrasscutterTools.Forms
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("查询服务端状态失败：" + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(Resources.QueryServerStatusFailed + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
 
                 OC = new OpenCommandAPI(TxtHost.Text);
@@ -1221,7 +1231,7 @@ namespace GrasscutterTools.Forms
         {
             if (string.IsNullOrEmpty(TxtToken.Text))
             {
-                MessageBox.Show("Token不能为空！", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.TokenCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             OC.Token = TxtToken.Text;

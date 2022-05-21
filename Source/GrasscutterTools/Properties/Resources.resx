@@ -228,11 +228,17 @@
   <data name="Permissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Permissions.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="QueryServerStatusFailed" xml:space="preserve">
+    <value>查询服务端状态失败：</value>
+  </data>
   <data name="Quest" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-cn\Quest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="RequireOpenCommandTip" xml:space="preserve">
     <value>请先连接到支持[OpenCommand]的服务器</value>
+  </data>
+  <data name="RestoreCustomCommands" xml:space="preserve">
+    <value>确认将自定义命令恢复到默认值？</value>
   </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-cn\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
@@ -245,6 +251,12 @@
   </data>
   <data name="Tips" xml:space="preserve">
     <value>提示</value>
+  </data>
+  <data name="TokenCannotBeEmpty" xml:space="preserve">
+    <value>Token不能为空</value>
+  </data>
+  <data name="TokenRestoredFromCache" xml:space="preserve">
+    <value>已从缓存中恢复Token</value>
   </data>
   <data name="UsernameCannotBeEmpty" xml:space="preserve">
     <value>用户名不能为空！</value>

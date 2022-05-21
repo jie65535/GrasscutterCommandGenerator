@@ -193,6 +193,15 @@
   <data name="groupBox1.Text" xml:space="preserve">
     <value>List</value>
   </data>
+  <data name="LnkResetCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>531, -1</value>
+  </data>
+  <data name="LnkResetCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="LnkResetCustomCommands.Text" xml:space="preserve">
+    <value>Restore</value>
+  </data>
   <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>393, 216</value>
   </data>
@@ -854,6 +863,6 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
     <value>Host</value>
   </data>
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+    <value>NoControl</value>
   </data>
 </root>

@@ -196,6 +196,15 @@
   <data name="LblCustomName.Text" xml:space="preserve">
     <value>Метка</value>
   </data>
+  <data name="LnkResetCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>488, -1</value>
+  </data>
+  <data name="LnkResetCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="LnkResetCustomCommands.Text" xml:space="preserve">
+    <value>перезагрузить</value>
+  </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Список</value>
   </data>
@@ -826,14 +835,8 @@
   <data name="LnkGithub.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="LnkGithub.Size" type="System.Drawing.Size, System.Drawing">
-    <value>177, 17</value>
-  </data>
-  <data name="LnkGithub.Text" xml:space="preserve">
-    <value>Github</value>
-  </data>
   <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>361, 102</value>
+    <value>355, 68</value>
   </data>
   <data name="LblSupportDescription.Text" xml:space="preserve">
     <value>Grasscutter Tools - основной перевод Юрий Дворецкий

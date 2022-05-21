@@ -225,11 +225,17 @@
   <data name="Permissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Permissions.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="QueryServerStatusFailed" xml:space="preserve">
+    <value>Не удалось запросить состояние сервера:</value>
+  </data>
   <data name="Quest" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\Quest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="RequireOpenCommandTip" xml:space="preserve">
     <value>Пожалуйста, сначала подключитесь к серверу, который поддерживает [команду открытия]</value>
+  </data>
+  <data name="RestoreCustomCommands" xml:space="preserve">
+    <value>Вы уверены, что хотите восстановить пользовательские команды по умолчанию?</value>
   </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
@@ -242,6 +248,12 @@
   </data>
   <data name="Tips" xml:space="preserve">
     <value>Совет</value>
+  </data>
+  <data name="TokenCannotBeEmpty" xml:space="preserve">
+    <value>Токен не может быть пустым</value>
+  </data>
+  <data name="TokenRestoredFromCache" xml:space="preserve">
+    <value>Токен восстановлен из кеша</value>
   </data>
   <data name="UsernameCannotBeEmpty" xml:space="preserve">
     <value>Имя пользователя не может быть пустым!</value>

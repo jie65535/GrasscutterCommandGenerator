@@ -887,39 +887,43 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 347: 阅读占坑$HIDDEN
-        ///348: 猫尾酒馆留言板$HIDDEN
-        ///349: 蒙德百货订货版$HIDDEN
-        ///350: 捕风的异乡人$HIDDEN
-        ///351: 流浪者的足迹
-        ///362: 苹果教学$HIDDEN
-        ///352: 鸟瞰风物
-        ///353: 异常的权柄
-        ///361: 风魔龙飞过$HIDDEN
-        ///355: 林间相会
-        ///354: 随风而来的骑士
-        ///360: 与轻风同行
-        ///356: 自由之都
-        ///357: 龙灾
-        ///358: 西风骑士团
-        ///359: (test)蒙德与三地城$HIDDEN
-        ///306: 昔日的风
-        ///307: 骑士的现场教习
-        ///308: 书页里的电火花
-        ///309: (test)蒙德之围$HIDDEN
-        ///310: 招募新伙伴
-        ///311: (test)一阶段结束$HIDDEN
-        ///312: (test)丽莎地城，丽莎书本奖励$HIDDEN
-        ///363: (test)控制第一幕开始的隐藏任务$HIDDEN
-        ///370: 阴影下的蒙德
-        ///371: 不期而遇
-        ///372: 那个绿色的家伙
-        ///373: 听凭风引
-        ///374: 温迪的计划
-        ///375: 温迪的新计划
-        ///376: 逃亡
-        ///377: 幕后谈话
-        ///20101:  [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///   查找类似 查询服务端状态失败： 的本地化字符串。
+        /// </summary>
+        internal static string QueryServerStatusFailed {
+            get {
+                return ResourceManager.GetString("QueryServerStatusFailed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 30302 : 女神像解锁$HIDDEN
+        ///30303 : 女神像解锁$HIDDEN
+        ///30304 : 女神像解锁$HIDDEN
+        ///30305 : 女神像解锁$HIDDEN
+        ///30306 : 女神像解锁$HIDDEN
+        ///30307 : 女神像解锁$HIDDEN
+        ///30308 : 女神像解锁$HIDDEN
+        ///30309 : 女神像解锁$HIDDEN
+        ///30310 : 女神像解锁$HIDDEN
+        ///30311 : 女神像解锁$HIDDEN
+        ///30312 : 女神像解锁$HIDDEN
+        ///30313 : 女神像解锁$HIDDEN
+        ///30314 : 女神像解锁$HIDDEN
+        ///30315 : 女神像解锁$HIDDEN
+        ///30316 : 女神像解锁$HIDDEN
+        ///30317 : 女神像解锁$HIDDEN
+        ///30600 : 昔日的风
+        ///30601 : 昔日的风
+        ///30602 : 昔日的风
+        ///30603 : 昔日的风
+        ///30604 : 昔日的风
+        ///30607 : 昔日的风
+        ///30608 : 昔日的风
+        ///30609 : 昔日的风
+        ///30610 : 昔日的风
+        ///30611 : 昔日的风
+        ///30612 : 昔日的风
+        ///30700  [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Quest {
             get {
@@ -933,6 +937,15 @@ namespace GrasscutterTools.Properties {
         internal static string RequireOpenCommandTip {
             get {
                 return ResourceManager.GetString("RequireOpenCommandTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 确认将自定义命令恢复到默认值？ 的本地化字符串。
+        /// </summary>
+        internal static string RestoreCustomCommands {
+            get {
+                return ResourceManager.GetString("RestoreCustomCommands", resourceCulture);
             }
         }
         
@@ -991,6 +1004,24 @@ namespace GrasscutterTools.Properties {
         internal static string Tips {
             get {
                 return ResourceManager.GetString("Tips", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 Token不能为空 的本地化字符串。
+        /// </summary>
+        internal static string TokenCannotBeEmpty {
+            get {
+                return ResourceManager.GetString("TokenCannotBeEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 已从缓存中恢复Token 的本地化字符串。
+        /// </summary>
+        internal static string TokenRestoredFromCache {
+            get {
+                return ResourceManager.GetString("TokenRestoredFromCache", resourceCulture);
             }
         }
         
