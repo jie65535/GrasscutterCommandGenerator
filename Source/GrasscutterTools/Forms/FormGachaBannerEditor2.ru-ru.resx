@@ -122,16 +122,16 @@
     <value>112, 287</value>
   </data>
   <data name="ChkAutoStripRateUpFromFallback.Size" type="System.Drawing.Size, System.Drawing">
-    <value>225, 21</value>
+    <value>288, 21</value>
   </data>
   <data name="ChkAutoStripRateUpFromFallback.Text" xml:space="preserve">
     <value>Авто возврат шанса выпадения с баннера</value>
   </data>
   <data name="LblOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 260</value>
+    <value>56, 261</value>
   </data>
   <data name="LblOptions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 17</value>
+    <value>50, 17</value>
   </data>
   <data name="LblOptions.Text" xml:space="preserve">
     <value>Опции</value>
@@ -143,7 +143,7 @@
     <value>Удалить пул форм C6</value>
   </data>
   <data name="LnkOpenOldEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 17</value>
+    <value>167, 17</value>
   </data>
   <data name="LnkOpenOldEditor.Text" xml:space="preserve">
     <value>Открыть старый редактор</value>
@@ -158,19 +158,19 @@
     <value>Тип Гачи</value>
   </data>
   <data name="LblEventChance4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 233</value>
+    <value>210, 233</value>
   </data>
   <data name="LblEventChance4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 17</value>
+    <value>86, 17</value>
   </data>
   <data name="LblEventChance4.Text" xml:space="preserve">
     <value>Шанс соб. 4*</value>
   </data>
   <data name="LblEventChance5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 233</value>
+    <value>20, 233</value>
   </data>
   <data name="LblEventChance5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 17</value>
+    <value>86, 17</value>
   </data>
   <data name="LblEventChance5.Text" xml:space="preserve">
     <value>Шанс соб. 5*</value>
@@ -408,25 +408,25 @@
     <value>375, 0</value>
   </data>
   <data name="LnkWeightHelp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 17</value>
+    <value>60, 17</value>
   </data>
   <data name="LnkWeightHelp.Text" xml:space="preserve">
     <value>Помощь</value>
   </data>
   <data name="LblWeight4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 61</value>
+    <value>54, 61</value>
   </data>
   <data name="LblWeight4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 17</value>
+    <value>52, 17</value>
   </data>
   <data name="LblWeight4.Text" xml:space="preserve">
     <value>Веса 5*</value>
   </data>
   <data name="LblWeight5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 32</value>
+    <value>54, 32</value>
   </data>
   <data name="LblWeight5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 17</value>
+    <value>52, 17</value>
   </data>
   <data name="LblWeight5.Text" xml:space="preserve">
     <value>Веса 5*</value>
@@ -435,19 +435,19 @@
     <value>Gacha Веса</value>
   </data>
   <data name="LblPoolWeight4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 61</value>
+    <value>28, 61</value>
   </data>
   <data name="LblPoolWeight4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 17</value>
+    <value>78, 17</value>
   </data>
   <data name="LblPoolWeight4.Text" xml:space="preserve">
     <value>Пул Веса 4*</value>
   </data>
   <data name="LblPoolWeight5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 32</value>
+    <value>28, 29</value>
   </data>
   <data name="LblPoolWeight5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 17</value>
+    <value>78, 17</value>
   </data>
   <data name="LblPoolWeight5.Text" xml:space="preserve">
     <value>Пул Веса 5*</value>
