@@ -29,13 +29,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGachaBannerEditor2));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.GrpBannerValues = new System.Windows.Forms.GroupBox();
             this.DTPEndTime = new System.Windows.Forms.DateTimePicker();
             this.DTPBeginTime = new System.Windows.Forms.DateTimePicker();
@@ -75,15 +69,21 @@ namespace GrasscutterTools.Forms
             this.BtnGen = new System.Windows.Forms.Button();
             this.TxtJson = new System.Windows.Forms.TextBox();
             this.BtnParse = new System.Windows.Forms.Button();
-            this.ChartWeights = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.GrpWeights = new System.Windows.Forms.GroupBox();
-            this.ListBannerWeights = new System.Windows.Forms.ListView();
-            this.ColCount = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.ColWeight = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.MenuCUD = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.MenuItemAdd = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuItemRemove = new System.Windows.Forms.ToolStripMenuItem();
-            this.MenuItemEdit = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.LblWeight5 = new System.Windows.Forms.Label();
+            this.LblWeight4 = new System.Windows.Forms.Label();
+            this.TxtWeight5 = new System.Windows.Forms.TextBox();
+            this.TxtWeight4 = new System.Windows.Forms.TextBox();
+            this.LnkWeightHelp = new System.Windows.Forms.LinkLabel();
+            this.LnkOpenOldEditor = new System.Windows.Forms.LinkLabel();
+            this.TxtPoolWeight4 = new System.Windows.Forms.TextBox();
+            this.TxtPoolWeight5 = new System.Windows.Forms.TextBox();
+            this.LblPoolWeight4 = new System.Windows.Forms.Label();
+            this.LblPoolWeight5 = new System.Windows.Forms.Label();
+            this.ChkRemoveC6FormPool = new System.Windows.Forms.CheckBox();
+            this.LblOptions = new System.Windows.Forms.Label();
+            this.ChkAutoStripRateUpFromFallback = new System.Windows.Forms.CheckBox();
             this.GrpBannerValues.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance5)).BeginInit();
@@ -93,13 +93,17 @@ namespace GrasscutterTools.Forms
             this.GrpPurplePool.SuspendLayout();
             this.GrpYellowPool.SuspendLayout();
             this.GrpJson.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ChartWeights)).BeginInit();
-            this.GrpWeights.SuspendLayout();
-            this.MenuCUD.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // GrpBannerValues
             // 
+            resources.ApplyResources(this.GrpBannerValues, "GrpBannerValues");
+            this.GrpBannerValues.Controls.Add(this.ChkAutoStripRateUpFromFallback);
+            this.GrpBannerValues.Controls.Add(this.LblOptions);
+            this.GrpBannerValues.Controls.Add(this.ChkRemoveC6FormPool);
+            this.GrpBannerValues.Controls.Add(this.LnkOpenOldEditor);
             this.GrpBannerValues.Controls.Add(this.DTPEndTime);
             this.GrpBannerValues.Controls.Add(this.DTPBeginTime);
             this.GrpBannerValues.Controls.Add(this.CmbPrefab);
@@ -126,7 +130,6 @@ namespace GrasscutterTools.Forms
             this.GrpBannerValues.Controls.Add(this.LblCostItem);
             this.GrpBannerValues.Controls.Add(this.LblPrefabPath);
             this.GrpBannerValues.Controls.Add(this.RbCostItem223);
-            resources.ApplyResources(this.GrpBannerValues, "GrpBannerValues");
             this.GrpBannerValues.Name = "GrpBannerValues";
             this.GrpBannerValues.TabStop = false;
             // 
@@ -418,104 +421,109 @@ namespace GrasscutterTools.Forms
             this.BtnParse.UseVisualStyleBackColor = true;
             this.BtnParse.Click += new System.EventHandler(this.BtnParse_Click);
             // 
-            // ChartWeights
+            // groupBox1
             // 
-            chartArea1.AxisX.MajorGrid.LineColor = System.Drawing.Color.Gainsboro;
-            chartArea1.AxisY.MajorGrid.LineColor = System.Drawing.Color.Gainsboro;
-            chartArea1.Name = "ChartArea1";
-            this.ChartWeights.ChartAreas.Add(chartArea1);
-            resources.ApplyResources(this.ChartWeights, "ChartWeights");
-            this.ChartWeights.Name = "ChartWeights";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Name = "SeriesWeight5";
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Name = "SeriesWeight4";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series3.Name = "SeriesPoolWeight5";
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series4.Name = "SeriesPoolWeight4";
-            this.ChartWeights.Series.Add(series1);
-            this.ChartWeights.Series.Add(series2);
-            this.ChartWeights.Series.Add(series3);
-            this.ChartWeights.Series.Add(series4);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Controls.Add(this.LnkWeightHelp);
+            this.groupBox1.Controls.Add(this.TxtWeight4);
+            this.groupBox1.Controls.Add(this.TxtWeight5);
+            this.groupBox1.Controls.Add(this.LblWeight4);
+            this.groupBox1.Controls.Add(this.LblWeight5);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.TabStop = false;
             // 
-            // GrpWeights
+            // groupBox2
             // 
-            resources.ApplyResources(this.GrpWeights, "GrpWeights");
-            this.GrpWeights.Controls.Add(this.ListBannerWeights);
-            this.GrpWeights.Controls.Add(this.ChartWeights);
-            this.GrpWeights.Name = "GrpWeights";
-            this.GrpWeights.TabStop = false;
+            resources.ApplyResources(this.groupBox2, "groupBox2");
+            this.groupBox2.Controls.Add(this.TxtPoolWeight4);
+            this.groupBox2.Controls.Add(this.TxtPoolWeight5);
+            this.groupBox2.Controls.Add(this.LblPoolWeight4);
+            this.groupBox2.Controls.Add(this.LblPoolWeight5);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.TabStop = false;
             // 
-            // ListBannerWeights
+            // LblWeight5
             // 
-            this.ListBannerWeights.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.ColCount,
-            this.ColWeight});
-            this.ListBannerWeights.ContextMenuStrip = this.MenuCUD;
-            this.ListBannerWeights.FullRowSelect = true;
-            this.ListBannerWeights.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
-            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListBannerWeights.Groups"))),
-            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListBannerWeights.Groups1"))),
-            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListBannerWeights.Groups2"))),
-            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListBannerWeights.Groups3")))});
-            this.ListBannerWeights.HideSelection = false;
-            resources.ApplyResources(this.ListBannerWeights, "ListBannerWeights");
-            this.ListBannerWeights.MultiSelect = false;
-            this.ListBannerWeights.Name = "ListBannerWeights";
-            this.ListBannerWeights.UseCompatibleStateImageBehavior = false;
-            this.ListBannerWeights.View = System.Windows.Forms.View.Details;
-            this.ListBannerWeights.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.ListBannerWeights_MouseDoubleClick);
+            resources.ApplyResources(this.LblWeight5, "LblWeight5");
+            this.LblWeight5.Name = "LblWeight5";
             // 
-            // ColCount
+            // LblWeight4
             // 
-            resources.ApplyResources(this.ColCount, "ColCount");
+            resources.ApplyResources(this.LblWeight4, "LblWeight4");
+            this.LblWeight4.Name = "LblWeight4";
             // 
-            // ColWeight
+            // TxtWeight5
             // 
-            resources.ApplyResources(this.ColWeight, "ColWeight");
+            resources.ApplyResources(this.TxtWeight5, "TxtWeight5");
+            this.TxtWeight5.Name = "TxtWeight5";
             // 
-            // MenuCUD
+            // TxtWeight4
             // 
-            this.MenuCUD.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MenuItemEdit,
-            this.MenuItemAdd,
-            this.MenuItemRemove});
-            this.MenuCUD.Name = "MenuCUD";
-            resources.ApplyResources(this.MenuCUD, "MenuCUD");
+            resources.ApplyResources(this.TxtWeight4, "TxtWeight4");
+            this.TxtWeight4.Name = "TxtWeight4";
             // 
-            // MenuItemAdd
+            // LnkWeightHelp
             // 
-            this.MenuItemAdd.Name = "MenuItemAdd";
-            resources.ApplyResources(this.MenuItemAdd, "MenuItemAdd");
-            this.MenuItemAdd.Click += new System.EventHandler(this.MenuItemAdd_Click);
+            resources.ApplyResources(this.LnkWeightHelp, "LnkWeightHelp");
+            this.LnkWeightHelp.Name = "LnkWeightHelp";
+            this.LnkWeightHelp.TabStop = true;
+            this.LnkWeightHelp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkWeightHelp_LinkClicked);
             // 
-            // MenuItemRemove
+            // LnkOpenOldEditor
             // 
-            this.MenuItemRemove.Name = "MenuItemRemove";
-            resources.ApplyResources(this.MenuItemRemove, "MenuItemRemove");
-            this.MenuItemRemove.Click += new System.EventHandler(this.MenuItemRemove_Click);
+            resources.ApplyResources(this.LnkOpenOldEditor, "LnkOpenOldEditor");
+            this.LnkOpenOldEditor.Name = "LnkOpenOldEditor";
+            this.LnkOpenOldEditor.TabStop = true;
+            this.LnkOpenOldEditor.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkOpenOldEditor_LinkClicked);
             // 
-            // MenuItemEdit
+            // TxtPoolWeight4
             // 
-            this.MenuItemEdit.Name = "MenuItemEdit";
-            resources.ApplyResources(this.MenuItemEdit, "MenuItemEdit");
-            this.MenuItemEdit.Click += new System.EventHandler(this.MenuItemEdit_Click);
+            resources.ApplyResources(this.TxtPoolWeight4, "TxtPoolWeight4");
+            this.TxtPoolWeight4.Name = "TxtPoolWeight4";
+            // 
+            // TxtPoolWeight5
+            // 
+            resources.ApplyResources(this.TxtPoolWeight5, "TxtPoolWeight5");
+            this.TxtPoolWeight5.Name = "TxtPoolWeight5";
+            // 
+            // LblPoolWeight4
+            // 
+            resources.ApplyResources(this.LblPoolWeight4, "LblPoolWeight4");
+            this.LblPoolWeight4.Name = "LblPoolWeight4";
+            // 
+            // LblPoolWeight5
+            // 
+            resources.ApplyResources(this.LblPoolWeight5, "LblPoolWeight5");
+            this.LblPoolWeight5.Name = "LblPoolWeight5";
+            // 
+            // ChkRemoveC6FormPool
+            // 
+            resources.ApplyResources(this.ChkRemoveC6FormPool, "ChkRemoveC6FormPool");
+            this.ChkRemoveC6FormPool.Name = "ChkRemoveC6FormPool";
+            this.ChkRemoveC6FormPool.UseVisualStyleBackColor = true;
+            // 
+            // LblOptions
+            // 
+            resources.ApplyResources(this.LblOptions, "LblOptions");
+            this.LblOptions.Name = "LblOptions";
+            // 
+            // ChkAutoStripRateUpFromFallback
+            // 
+            resources.ApplyResources(this.ChkAutoStripRateUpFromFallback, "ChkAutoStripRateUpFromFallback");
+            this.ChkAutoStripRateUpFromFallback.Name = "ChkAutoStripRateUpFromFallback";
+            this.ChkAutoStripRateUpFromFallback.UseVisualStyleBackColor = true;
             // 
             // FormGachaBannerEditor2
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.GrpWeights);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.GrpJson);
             this.Controls.Add(this.GrpPurplePool);
             this.Controls.Add(this.GrpYellowPool);
             this.Controls.Add(this.GrpBannerValues);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "FormGachaBannerEditor2";
             this.GrpBannerValues.ResumeLayout(false);
             this.GrpBannerValues.PerformLayout();
@@ -528,9 +536,10 @@ namespace GrasscutterTools.Forms
             this.GrpYellowPool.ResumeLayout(false);
             this.GrpJson.ResumeLayout(false);
             this.GrpJson.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ChartWeights)).EndInit();
-            this.GrpWeights.ResumeLayout(false);
-            this.MenuCUD.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -567,22 +576,28 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Label LblEventChance4;
         private System.Windows.Forms.Label LblEventChance4Tip;
         private System.Windows.Forms.NumericUpDown NUDEventChance4;
-        private System.Windows.Forms.DataVisualization.Charting.Chart ChartWeights;
-        private System.Windows.Forms.GroupBox GrpWeights;
         private System.Windows.Forms.DateTimePicker DTPEndTime;
         private System.Windows.Forms.DateTimePicker DTPBeginTime;
-        private System.Windows.Forms.ListView ListBannerWeights;
         private System.Windows.Forms.ListView ListFallbackItems;
         private System.Windows.Forms.ListView ListUpItems;
         private System.Windows.Forms.ColumnHeader ColFallbackId;
         private System.Windows.Forms.ColumnHeader ColFallbackName;
         private System.Windows.Forms.ColumnHeader ColUpId;
         private System.Windows.Forms.ColumnHeader ColUpName;
-        private System.Windows.Forms.ColumnHeader ColCount;
-        private System.Windows.Forms.ColumnHeader ColWeight;
-        private System.Windows.Forms.ContextMenuStrip MenuCUD;
-        private System.Windows.Forms.ToolStripMenuItem MenuItemEdit;
-        private System.Windows.Forms.ToolStripMenuItem MenuItemAdd;
-        private System.Windows.Forms.ToolStripMenuItem MenuItemRemove;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox TxtWeight4;
+        private System.Windows.Forms.TextBox TxtWeight5;
+        private System.Windows.Forms.Label LblWeight4;
+        private System.Windows.Forms.Label LblWeight5;
+        private System.Windows.Forms.LinkLabel LnkWeightHelp;
+        private System.Windows.Forms.LinkLabel LnkOpenOldEditor;
+        private System.Windows.Forms.TextBox TxtPoolWeight4;
+        private System.Windows.Forms.TextBox TxtPoolWeight5;
+        private System.Windows.Forms.Label LblPoolWeight4;
+        private System.Windows.Forms.Label LblPoolWeight5;
+        private System.Windows.Forms.CheckBox ChkRemoveC6FormPool;
+        private System.Windows.Forms.CheckBox ChkAutoStripRateUpFromFallback;
+        private System.Windows.Forms.Label LblOptions;
     }
 }

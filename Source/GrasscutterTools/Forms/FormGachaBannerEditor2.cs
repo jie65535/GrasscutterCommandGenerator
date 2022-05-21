@@ -57,6 +57,17 @@ namespace GrasscutterTools.Forms
             CmbPrefab.Items.AddRange(GameData.GachaBannerPrefabs.Names);
         }
 
+
+        private void LnkWeightHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/Grasscutters/Grasscutter/pull/639");
+        }
+
+        private void LnkOpenOldEditor_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            new FormGachaBannerEditor().ShowDialog();
+        }
+
         #region - 卡池 -
 
         private void InitCheckedListBoxs()
@@ -159,99 +170,35 @@ namespace GrasscutterTools.Forms
 
         #region - 权重 -
 
-        Series SeriesW5;
-        Series SeriesW4;
-        Series SeriesPW5;
-        Series SeriesPW4;
+        struct GachaWeight
+        {
+            public int Count;
+            public int Weight;
+
+            public GachaWeight(int count, int weight)
+            {
+                Count = count;
+                Weight = weight;
+            }
+        }
 
         private void InitWeights(GachaBanner2 banner)
         {
-            var w5  = ListBannerWeights.Groups["GroupWeight5"];
-            var w4  = ListBannerWeights.Groups["GroupWeight4"];
-            var pw5 = ListBannerWeights.Groups["GroupPoolWeight5"];
-            var pw4 = ListBannerWeights.Groups["GroupPoolWeight4"];
-            SeriesW5 = ChartWeights.Series["SeriesWeight5"];
-            SeriesW5.Color = Color.OrangeRed;
-            SeriesW5.Points.Clear();
-            SeriesW4 = ChartWeights.Series["SeriesWeight4"];
-            SeriesW4.Color = Color.Purple;
-            SeriesW4.Points.Clear();
-            SeriesPW5 = ChartWeights.Series["SeriesPoolWeight5"];
-            SeriesPW5.Color = Color.Orange;
-            SeriesPW5.Points.Clear();
-            SeriesPW4 = ChartWeights.Series["SeriesPoolWeight4"];
-            SeriesPW4.Color = Color.MediumPurple;
-            SeriesPW4.Points.Clear();
-            var t = SelectWeights(banner.Weights5).Select(it => new ListViewItem(it, w5) { ForeColor = SeriesW5.Color })
-                .Concat(SelectWeights(banner.Weights4).Select(it => new ListViewItem(it, w4) { ForeColor = SeriesW4.Color }))
-                .Concat(SelectWeights(banner.PoolBalanceWeights5).Select(it => new ListViewItem(it, pw5) { ForeColor = SeriesPW5.Color }))
-                .Concat(SelectWeights(banner.PoolBalanceWeights4).Select(it => new ListViewItem(it, pw4) { ForeColor = SeriesPW4.Color }));
-            ListBannerWeights.BeginUpdate();
-            ListBannerWeights.Items.Clear();
-            ListBannerWeights.Items.AddRange(t.ToArray());
-            ListBannerWeights.EndUpdate();
-            UpdateChart();
+            TxtWeight5.Text = '[' + string.Join(", ", SelectWeights(banner.Weights5).Select(w => $"[{w.Count}, {w.Weight}]")) + ']';
+            TxtWeight4.Text = '[' + string.Join(", ", SelectWeights(banner.Weights4).Select(w => $"[{w.Count}, {w.Weight}]")) + ']';
+            TxtPoolWeight5.Text = '[' + string.Join(", ", SelectWeights(banner.PoolBalanceWeights5).Select(w => $"[{w.Count}, {w.Weight}]")) + ']';
+            TxtPoolWeight4.Text = '[' + string.Join(", ", SelectWeights(banner.PoolBalanceWeights4).Select(w => $"[{w.Count}, {w.Weight}]")) + ']';
         }
 
-        private void UpdateChart()
-        {
-            // TODO
-        }
-
-        private IEnumerable<string[]> SelectWeights(int[,] weights)
+        private IEnumerable<GachaWeight> SelectWeights(int[,] weights)
         {
             for (int i = 0; i < weights.GetLength(0); i++)
-                yield return new string[] { weights[i, 0].ToString(), weights[i, 1].ToString() };
+                yield return new GachaWeight(weights[i, 0], weights[i, 1]);
         }
 
-        private int[,] GetWeights(ListViewGroup group)
+        private int[,] GetWeights(string weights)
         {
-            var weights = new int[group.Items.Count, 2];
-            int i = 0;
-            foreach (ListViewItem item in group.Items)
-            {
-                weights[i, 0] = int.Parse(item.SubItems[0].Text);
-                weights[i, 1] = int.Parse(item.SubItems[1].Text);
-                i++;
-            }
-            return weights;
-        }
-
-        private void ListBannerWeights_MouseDoubleClick(object sender, MouseEventArgs e)
-        {
-            if (ListBannerWeights.SelectedItems.Count != 1)
-                return;
-            MessageBox.Show("TODO");
-        }
-
-        private void MenuItemEdit_Click(object sender, EventArgs e)
-        {
-            if (ListBannerWeights.SelectedItems.Count != 1)
-            {
-                MessageBox.Show("请先选择目标", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            MessageBox.Show("TODO");
-        }
-
-        private void MenuItemAdd_Click(object sender, EventArgs e)
-        {
-            if (ListBannerWeights.SelectedItems.Count != 1)
-            {
-                MessageBox.Show("请先选择目标", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            MessageBox.Show("TODO");
-        }
-
-        private void MenuItemRemove_Click(object sender, EventArgs e)
-        {
-            if (ListBannerWeights.SelectedItems.Count != 1)
-            {
-                MessageBox.Show("请先选择目标", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            MessageBox.Show("TODO");
+            return JsonConvert.DeserializeObject<int[,]>(weights);
         }
 
         #endregion
@@ -276,6 +223,8 @@ namespace GrasscutterTools.Forms
                 NUDSortId.Value             = banner.SortId;
                 NUDEventChance5.Value       = banner.EventChance5;
                 NUDEventChance4.Value       = banner.EventChance4;
+                ChkRemoveC6FormPool.Checked = banner.RemoveC6FromPool;
+                ChkAutoStripRateUpFromFallback.Checked = banner.AutoStripRateUpFromFallback;
                 InitItems(banner);
                 InitWeights(banner);
             }
@@ -310,11 +259,19 @@ namespace GrasscutterTools.Forms
                 PreviewPrefabPath   = $"UI_Tab_GachaShowPanel_A{prefabId:000}",
                 TitlePath           = $"UI_GACHA_SHOW_PANEL_A{prefabId:000}_TITLE",
                 CostItem            = RbCostItem224.Checked ? 224 : 223,
-                BeginTime           = (int)new DateTimeOffset(DTPBeginTime.Value).ToUnixTimeSeconds(),
-                EndTime             = (int)new DateTimeOffset(DTPEndTime.Value).ToUnixTimeSeconds(),
+                BeginTime           = (int)new DateTimeOffset(DTPBeginTime.Value, TimeSpan.Zero).ToUnixTimeSeconds(),
+                EndTime             = (int)new DateTimeOffset(DTPEndTime.Value, TimeSpan.Zero).ToUnixTimeSeconds(),
                 SortId              = (int)NUDSortId.Value,
                 EventChance5        = (int)NUDEventChance5.Value,
                 EventChance4        = (int)NUDEventChance4.Value,
+
+                RateUpItems4        = GetCheckedItems(ListUpItems, ListUpItems.Groups["GroupUpA4"])
+                                         .Concat(GetCheckedItems(ListUpItems, ListUpItems.Groups["GroupUpW4"]))
+                                         .ToArray(),
+                RateUpItems5        = GetCheckedItems(ListUpItems, ListUpItems.Groups["GroupUpA5"])
+                                         .Concat(GetCheckedItems(ListUpItems, ListUpItems.Groups["GroupUpW5"]))
+                                         .ToArray(),
+
                 FallbackItems3      = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupA3"])
                                          .Concat(GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupW3"]))
                                          .ToArray(),
@@ -323,20 +280,28 @@ namespace GrasscutterTools.Forms
                 FallbackItems5Pool1 = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupA5"]).ToArray(),
                 FallbackItems5Pool2 = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupW5"]).ToArray(),
 
-                Weights4            = GetWeights(ListBannerWeights.Groups["GroupWeight4"]),
-                Weights5            = GetWeights(ListBannerWeights.Groups["GroupWeight5"]),
-                PoolBalanceWeights4 = GetWeights(ListBannerWeights.Groups["GroupPoolWeight4"]),
-                PoolBalanceWeights5 = GetWeights(ListBannerWeights.Groups["GroupPoolWeight5"]),
-        };
+                RemoveC6FromPool    = ChkRemoveC6FormPool.Checked,
+                AutoStripRateUpFromFallback = ChkAutoStripRateUpFromFallback.Checked,
+
+                Weights4            = GetWeights(TxtWeight4.Text),
+                Weights5            = GetWeights(TxtWeight5.Text),
+                PoolBalanceWeights4 = GetWeights(TxtPoolWeight4.Text),
+                PoolBalanceWeights5 = GetWeights(TxtPoolWeight5.Text),
+            };
             return banner;
         }
 
         private void BtnGen_Click(object sender, EventArgs e)
         {
-            var banner = ParseBanner();
-            if (banner != null)
+            try
             {
-                TxtJson.Text = JsonConvert.SerializeObject(banner, Formatting.Indented);
+                var banner = ParseBanner();
+                if (banner != null)
+                    TxtJson.Text = JsonConvert.SerializeObject(banner, Formatting.Indented);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -348,11 +313,11 @@ namespace GrasscutterTools.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Json解析失败，错误消息：" + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         #endregion
-        
+
     }
 }
