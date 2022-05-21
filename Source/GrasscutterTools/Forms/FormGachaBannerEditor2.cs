@@ -14,16 +14,15 @@
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using System.Windows.Forms.DataVisualization.Charting;
 
 using GrasscutterTools.Game;
 using GrasscutterTools.Game.Gacha;
@@ -47,7 +46,6 @@ namespace GrasscutterTools.Forms
             InitBannerPrefab();
             InitCheckedListBoxs();
 
-
             ShowBanner(new GachaBanner2());
         }
 
@@ -56,7 +54,6 @@ namespace GrasscutterTools.Forms
             CmbPrefab.Items.Clear();
             CmbPrefab.Items.AddRange(GameData.GachaBannerPrefabs.Names);
         }
-
 
         private void LnkWeightHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
@@ -93,7 +90,6 @@ namespace GrasscutterTools.Forms
                 .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, w3) { ForeColor = Color.Blue }));
             ListFallbackItems.Items.Clear();
             ListFallbackItems.Items.AddRange(avatars.Concat(weapons).ToArray());
-
 
             ListUpItems.BeginUpdate();
             var ua5 = ListUpItems.Groups["GroupUpA5"];
@@ -166,11 +162,11 @@ namespace GrasscutterTools.Forms
                     yield return int.Parse(item.Text);
         }
 
-        #endregion
+        #endregion - 卡池 -
 
         #region - 权重 -
 
-        struct GachaWeight
+        private struct GachaWeight
         {
             public int Count;
             public int Weight;
@@ -201,7 +197,7 @@ namespace GrasscutterTools.Forms
             return JsonConvert.DeserializeObject<int[,]>(weights);
         }
 
-        #endregion
+        #endregion - 权重 -
 
         #region - 序列化 -
 
@@ -209,20 +205,20 @@ namespace GrasscutterTools.Forms
         {
             try
             {
-                NUDGachaType.Value          = banner.GachaType;
-                NUDScheduleId.Value         = banner.ScheduleId;
+                NUDGachaType.Value = banner.GachaType;
+                NUDScheduleId.Value = banner.ScheduleId;
                 CmbBannerType.SelectedIndex = (int)banner.BannerType;
                 if (string.IsNullOrEmpty(banner.TitlePath) || !int.TryParse(banner.TitlePath.Substring("UI_GACHA_SHOW_PANEL_A".Length, 3), out int prefabId))
                     CmbPrefab.SelectedIndex = -1;
                 else
                     CmbPrefab.SelectedIndex = Array.IndexOf(GameData.GachaBannerPrefabs.Ids, prefabId);
-                RbCostItem224.Checked       = banner.CostItem == 224;
-                RbCostItem223.Checked       = banner.CostItem == 223;
-                DTPBeginTime.Value          = DateTimeOffset.FromUnixTimeSeconds(banner.BeginTime).DateTime;
-                DTPEndTime.Value            = DateTimeOffset.FromUnixTimeSeconds(banner.EndTime).DateTime;
-                NUDSortId.Value             = banner.SortId;
-                NUDEventChance5.Value       = banner.EventChance5;
-                NUDEventChance4.Value       = banner.EventChance4;
+                RbCostItem224.Checked = banner.CostItem == 224;
+                RbCostItem223.Checked = banner.CostItem == 223;
+                DTPBeginTime.Value = DateTimeOffset.FromUnixTimeSeconds(banner.BeginTime).DateTime;
+                DTPEndTime.Value = DateTimeOffset.FromUnixTimeSeconds(banner.EndTime).DateTime;
+                NUDSortId.Value = banner.SortId;
+                NUDEventChance5.Value = banner.EventChance5;
+                NUDEventChance4.Value = banner.EventChance4;
                 ChkRemoveC6FormPool.Checked = banner.RemoveC6FromPool;
                 ChkAutoStripRateUpFromFallback.Checked = banner.AutoStripRateUpFromFallback;
                 InitItems(banner);
@@ -248,31 +244,30 @@ namespace GrasscutterTools.Forms
                 return null;
             }
 
-
             var prefabId = GameData.GachaBannerPrefabs.Ids[CmbPrefab.SelectedIndex];
             var banner = new GachaBanner2
             {
-                GachaType           = (int)NUDGachaType.Value,
-                ScheduleId          = (int)NUDScheduleId.Value,
-                BannerType          = (BannerType)CmbBannerType.SelectedIndex,
-                PrefabPath          = $"GachaShowPanel_A{prefabId:000}",
-                PreviewPrefabPath   = $"UI_Tab_GachaShowPanel_A{prefabId:000}",
-                TitlePath           = $"UI_GACHA_SHOW_PANEL_A{prefabId:000}_TITLE",
-                CostItem            = RbCostItem224.Checked ? 224 : 223,
-                BeginTime           = (int)new DateTimeOffset(DTPBeginTime.Value, TimeSpan.Zero).ToUnixTimeSeconds(),
-                EndTime             = (int)new DateTimeOffset(DTPEndTime.Value, TimeSpan.Zero).ToUnixTimeSeconds(),
-                SortId              = (int)NUDSortId.Value,
-                EventChance5        = (int)NUDEventChance5.Value,
-                EventChance4        = (int)NUDEventChance4.Value,
+                GachaType = (int)NUDGachaType.Value,
+                ScheduleId = (int)NUDScheduleId.Value,
+                BannerType = (BannerType)CmbBannerType.SelectedIndex,
+                PrefabPath = $"GachaShowPanel_A{prefabId:000}",
+                PreviewPrefabPath = $"UI_Tab_GachaShowPanel_A{prefabId:000}",
+                TitlePath = $"UI_GACHA_SHOW_PANEL_A{prefabId:000}_TITLE",
+                CostItem = RbCostItem224.Checked ? 224 : 223,
+                BeginTime = (int)new DateTimeOffset(DTPBeginTime.Value, TimeSpan.Zero).ToUnixTimeSeconds(),
+                EndTime = (int)new DateTimeOffset(DTPEndTime.Value, TimeSpan.Zero).ToUnixTimeSeconds(),
+                SortId = (int)NUDSortId.Value,
+                EventChance5 = (int)NUDEventChance5.Value,
+                EventChance4 = (int)NUDEventChance4.Value,
 
-                RateUpItems4        = GetCheckedItems(ListUpItems, ListUpItems.Groups["GroupUpA4"])
+                RateUpItems4 = GetCheckedItems(ListUpItems, ListUpItems.Groups["GroupUpA4"])
                                          .Concat(GetCheckedItems(ListUpItems, ListUpItems.Groups["GroupUpW4"]))
                                          .ToArray(),
-                RateUpItems5        = GetCheckedItems(ListUpItems, ListUpItems.Groups["GroupUpA5"])
+                RateUpItems5 = GetCheckedItems(ListUpItems, ListUpItems.Groups["GroupUpA5"])
                                          .Concat(GetCheckedItems(ListUpItems, ListUpItems.Groups["GroupUpW5"]))
                                          .ToArray(),
 
-                FallbackItems3      = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupA3"])
+                FallbackItems3 = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupA3"])
                                          .Concat(GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupW3"]))
                                          .ToArray(),
                 FallbackItems4Pool1 = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupA4"]).ToArray(),
@@ -280,11 +275,11 @@ namespace GrasscutterTools.Forms
                 FallbackItems5Pool1 = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupA5"]).ToArray(),
                 FallbackItems5Pool2 = GetCheckedItems(ListFallbackItems, ListFallbackItems.Groups["GroupW5"]).ToArray(),
 
-                RemoveC6FromPool    = ChkRemoveC6FormPool.Checked,
+                RemoveC6FromPool = ChkRemoveC6FormPool.Checked,
                 AutoStripRateUpFromFallback = ChkAutoStripRateUpFromFallback.Checked,
 
-                Weights4            = GetWeights(TxtWeight4.Text),
-                Weights5            = GetWeights(TxtWeight5.Text),
+                Weights4 = GetWeights(TxtWeight4.Text),
+                Weights5 = GetWeights(TxtWeight5.Text),
                 PoolBalanceWeights4 = GetWeights(TxtPoolWeight4.Text),
                 PoolBalanceWeights5 = GetWeights(TxtPoolWeight5.Text),
             };
@@ -317,7 +312,6 @@ namespace GrasscutterTools.Forms
             }
         }
 
-        #endregion
-
+        #endregion - 序列化 -
     }
 }
