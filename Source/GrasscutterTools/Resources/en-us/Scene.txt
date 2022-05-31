@@ -1,4 +1,4 @@
-﻿1 : BigWorld_LevelStreaming
+1 : BigWorld_LevelStreaming
 2 : BigWorld_LevelStreaming
 3 : BigWorld_LevelStreaming
 4 : LostParadise_LevelStreaming
@@ -46,6 +46,7 @@
 1065 : Level_TenryuBugyo01
 1066 : IndoorScene_Dq_Uyutei
 1068 : IndoorScene_Md_AngelShare_Bartender01
+1069 : IndoorScene_Ly_CyRoom
 1070 : Level_Tower_Moon_01
 2001 : Homeworld_Exterior_Above
 2002 : Homeworld_Exterior_Karst
@@ -110,6 +111,11 @@
 20124 : Level_Eldritch_Minor01
 20125 : Level_WeekDungeon_Baal
 20126 : Level_QuestRongcai_Dungeon01
+20127 : Level_CYDungeon_Activy01
+20128 : Level_CYDungeon_Activy02
+20129 : Level_CYDungeon_Activy03
+20130 : IndoorScene_Ly_CyRoom
+20131 : Level_FCdungeon_Yelan
 30001 : LevelTest_CurseMaze
 30100 : Level_Tower_Morning_01
 30101 : Level_Tower_Morning_01
@@ -262,6 +268,8 @@
 33730 : Level_Tower_Universe_01
 33731 : Level_Tower_Moon_01
 33732 : Level_Tower_Universe_01
+33733 : Level_Tower_Moon_01
+33734 : Level_Tower_Universe_01
 34100 : Level_Tower_Morning_01
 34101 : Level_Tower_01_Water
 34102 : Level_Tower_01_Open
@@ -303,6 +311,8 @@
 34730 : Level_Tower_Universe_01
 34731 : Level_Tower_Moon_01
 34732 : Level_Tower_Universe_01
+34733 : Level_Tower_Moon_01
+34734 : Level_Tower_Universe_01
 35100 : Level_Tower_Morning_01
 35101 : Level_Tower_Morning_01
 35102 : Level_Tower_Morning_01
@@ -344,6 +354,8 @@
 35730 : Level_Tower_Universe_01
 35731 : Level_Tower_Moon_01
 35732 : Level_Tower_Universe_01
+35733 : Level_Tower_Moon_01
+35734 : Level_Tower_Universe_01
 35800 : Level_CycleDungeon_WindFlower
 35801 : Level_ContestBattle01
 35802 : Level_ContestBattle01
@@ -558,6 +570,8 @@
 41045 : Level_Tower_01_Open
 41046 : Level_Tower_01_Open
 41047 : Level_Tower_01_Open
+41048 : Level_Tower_01_Open
+41049 : Level_Tower_01_Open
 42001 : Level_PFDungeon02_Active01
 42002 : Level_PFDungeon02_Active02
 42003 : Level_PFDungeon02_Active07
@@ -628,6 +642,9 @@
 45059 : Level_CustomLevel_A_05
 46001 : Level_Tower_Universe_01
 46101 : Level_HFDungeon_Prison01
+46201 : Level_CYDungeon_ActivityRouge01
+46202 : Level_CYDungeon_Activy02
+46203 : Level_CYDungeon_Activy03
 47001 : Level_OnmyoMaze_01
 47002 : Level_OnmyoMaze_05
 47003 : Level_OnmyoMaze_03
@@ -663,7 +680,7 @@
 50014 : Monster_StrategyTest_LTJ
 50015 : LevelTestRooms
 50016 : Level_CharactersPattern_Test
-50017 : Level_Tower_Night_01
+50017 : Level_Tower_Moon_01
 50018 : TestLevel_Protect_MC
 50019 : TestLevel_Protect_MC
 50020 : ClimbTest1
