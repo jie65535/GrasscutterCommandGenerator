@@ -1,21 +1,39 @@
-﻿God Mode
+God Mode
 /prop godmode on
 NoStamina
 /prop nostamina on
-unlimitenergy
-/prop unlimitenergy on
+Unlimited energy
+/prop unlimitedenergy on
 Level up to 60
-/give 102 1880200
-Heal
-/heal
-Give me ALL!
-/giveall
-Where am I?
-/position
+/give 102 x1880200
 Set World Level
 /prop worldlevel 8
+Unlock The Tower
+/prop abyss 12
 Set Friendship Level
-/setfetterlevel 1
+/setfetterlevel 10
+Heal
+/heal
+Suicide
+/kill 0
+Recharge
+/drop 2008 25
+Give me ALL!
+/give all x9999 lv90 r5
+Where am I?
+/pos
+10k Intertwined Fates
+/give 223 x10000
+10k Acquaint Fates
+/give 224 x10000
+100k Primogem
+/give 201 x100000
+100k Mora
+/give 202 x100000
+Reload config
+/reload
+Broadcast
+/broadcast Hello everyone~
 Clear Backpack(ALL)
 /clear all
 Clear Weapons
@@ -24,37 +42,17 @@ Clear Artifacts
 /clear art
 Clear Materials
 /clear mat
-Broadcast
-/broadcast Hello everyone~
 Reset Current Constellation(Need Re-login)
 /resetconst
 Reset ALL Constellation(Need Re-login)
 /resetconst all
-100k Intertwined Fates 
-/give 223 10000
-100k Acquaint Fate
-/give 224 10000
-100k Primogem
-/give 201 100000
-100k Mora
-/give 202 100000
-TP Everyone
-/tpall
-Restart Server
+Re-login
 /restart
-Send PM
-/say <player> <message>
-Force coop with player
-/coop @targetId
-Suicide
-/killcharacter
-Kill Somebody
-/killcharacter <playerId>
-List ALL users
-/list uid
-Reload service config
-/reload
 KillAll
 /killall
-Unlock The Tower
-/prop abyss 12
+Enter multiplayer
+/coop
+TP Everyone
+/tpall
+List ALL users
+/list uid
