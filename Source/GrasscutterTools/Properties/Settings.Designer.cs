@@ -133,7 +133,7 @@ namespace GrasscutterTools.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("1.2.2")]
         public string CommandVersion {
             get {
                 return ((string)(this["CommandVersion"]));

@@ -30,7 +30,7 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="CommandVersion" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">1.2.2</Value>
     </Setting>
     <Setting Name="IsTopMost" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
