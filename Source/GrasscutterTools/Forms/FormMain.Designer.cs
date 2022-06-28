@@ -42,6 +42,8 @@ namespace GrasscutterTools.Forms
             this.BtnOpenGachaBannerEditor = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.GrpSettings = new System.Windows.Forms.GroupBox();
+            this.ChkTopMost = new System.Windows.Forms.CheckBox();
+            this.ChkNewCommand = new System.Windows.Forms.CheckBox();
             this.CmbLanguage = new System.Windows.Forms.ComboBox();
             this.LblLanguage = new System.Windows.Forms.Label();
             this.NUDUid = new System.Windows.Forms.NumericUpDown();
@@ -161,6 +163,13 @@ namespace GrasscutterTools.Forms
             this.LblSceneDescription = new System.Windows.Forms.Label();
             this.ListScenes = new System.Windows.Forms.ListBox();
             this.TPManage = new System.Windows.Forms.TabPage();
+            this.GrpBanPlayer = new System.Windows.Forms.GroupBox();
+            this.DTPBanEndTime = new System.Windows.Forms.DateTimePicker();
+            this.BtnUnban = new System.Windows.Forms.Button();
+            this.BtnBan = new System.Windows.Forms.Button();
+            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
+            this.NUDBanUID = new System.Windows.Forms.NumericUpDown();
+            this.LblBanUID = new System.Windows.Forms.Label();
             this.GrpAccount = new System.Windows.Forms.GroupBox();
             this.ChkAccountSetUid = new System.Windows.Forms.CheckBox();
             this.NUDAccountUid = new System.Windows.Forms.NumericUpDown();
@@ -245,6 +254,8 @@ namespace GrasscutterTools.Forms
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpX)).BeginInit();
             this.TPManage.SuspendLayout();
+            this.GrpBanPlayer.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDBanUID)).BeginInit();
             this.GrpAccount.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDAccountUid)).BeginInit();
             this.GrpPermission.SuspendLayout();
@@ -355,6 +366,8 @@ namespace GrasscutterTools.Forms
             // GrpSettings
             // 
             resources.ApplyResources(this.GrpSettings, "GrpSettings");
+            this.GrpSettings.Controls.Add(this.ChkTopMost);
+            this.GrpSettings.Controls.Add(this.ChkNewCommand);
             this.GrpSettings.Controls.Add(this.CmbLanguage);
             this.GrpSettings.Controls.Add(this.LblLanguage);
             this.GrpSettings.Controls.Add(this.NUDUid);
@@ -362,6 +375,19 @@ namespace GrasscutterTools.Forms
             this.GrpSettings.Controls.Add(this.LblDefaultUid);
             this.GrpSettings.Name = "GrpSettings";
             this.GrpSettings.TabStop = false;
+            // 
+            // ChkTopMost
+            // 
+            resources.ApplyResources(this.ChkTopMost, "ChkTopMost");
+            this.ChkTopMost.Name = "ChkTopMost";
+            this.ChkTopMost.UseVisualStyleBackColor = true;
+            this.ChkTopMost.CheckedChanged += new System.EventHandler(this.ChkTopMost_CheckedChanged);
+            // 
+            // ChkNewCommand
+            // 
+            resources.ApplyResources(this.ChkNewCommand, "ChkNewCommand");
+            this.ChkNewCommand.Name = "ChkNewCommand";
+            this.ChkNewCommand.UseVisualStyleBackColor = true;
             // 
             // CmbLanguage
             // 
@@ -1440,10 +1466,74 @@ namespace GrasscutterTools.Forms
             // TPManage
             // 
             resources.ApplyResources(this.TPManage, "TPManage");
+            this.TPManage.Controls.Add(this.GrpBanPlayer);
             this.TPManage.Controls.Add(this.GrpAccount);
             this.TPManage.Controls.Add(this.GrpPermission);
             this.TPManage.Name = "TPManage";
             this.TPManage.UseVisualStyleBackColor = true;
+            // 
+            // GrpBanPlayer
+            // 
+            resources.ApplyResources(this.GrpBanPlayer, "GrpBanPlayer");
+            this.GrpBanPlayer.Controls.Add(this.DTPBanEndTime);
+            this.GrpBanPlayer.Controls.Add(this.BtnUnban);
+            this.GrpBanPlayer.Controls.Add(this.BtnBan);
+            this.GrpBanPlayer.Controls.Add(this.TxtBanReason);
+            this.GrpBanPlayer.Controls.Add(this.NUDBanUID);
+            this.GrpBanPlayer.Controls.Add(this.LblBanUID);
+            this.GrpBanPlayer.Name = "GrpBanPlayer";
+            this.GrpBanPlayer.TabStop = false;
+            // 
+            // DTPBanEndTime
+            // 
+            resources.ApplyResources(this.DTPBanEndTime, "DTPBanEndTime");
+            this.DTPBanEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DTPBanEndTime.MaxDate = new System.DateTime(2034, 12, 31, 0, 0, 0, 0);
+            this.DTPBanEndTime.MinDate = new System.DateTime(2022, 6, 28, 0, 0, 0, 0);
+            this.DTPBanEndTime.Name = "DTPBanEndTime";
+            this.DTPBanEndTime.Value = new System.DateTime(2025, 12, 31, 0, 0, 0, 0);
+            // 
+            // BtnUnban
+            // 
+            resources.ApplyResources(this.BtnUnban, "BtnUnban");
+            this.BtnUnban.Name = "BtnUnban";
+            this.BtnUnban.UseVisualStyleBackColor = true;
+            this.BtnUnban.Click += new System.EventHandler(this.BtnUnban_Click);
+            // 
+            // BtnBan
+            // 
+            resources.ApplyResources(this.BtnBan, "BtnBan");
+            this.BtnBan.Name = "BtnBan";
+            this.BtnBan.UseVisualStyleBackColor = true;
+            this.BtnBan.Click += new System.EventHandler(this.BtnBan_Click);
+            // 
+            // TxtBanReason
+            // 
+            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
+            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtBanReason.Maximum = 0F;
+            this.TxtBanReason.Minimum = 0F;
+            this.TxtBanReason.Name = "TxtBanReason";
+            // 
+            // NUDBanUID
+            // 
+            resources.ApplyResources(this.NUDBanUID, "NUDBanUID");
+            this.NUDBanUID.Maximum = new decimal(new int[] {
+            2147483647,
+            0,
+            0,
+            0});
+            this.NUDBanUID.Name = "NUDBanUID";
+            this.NUDBanUID.Value = new decimal(new int[] {
+            10001,
+            0,
+            0,
+            0});
+            // 
+            // LblBanUID
+            // 
+            resources.ApplyResources(this.LblBanUID, "LblBanUID");
+            this.LblBanUID.Name = "LblBanUID";
             // 
             // GrpAccount
             // 
@@ -1859,6 +1949,9 @@ namespace GrasscutterTools.Forms
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpY)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpX)).EndInit();
             this.TPManage.ResumeLayout(false);
+            this.GrpBanPlayer.ResumeLayout(false);
+            this.GrpBanPlayer.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDBanUID)).EndInit();
             this.GrpAccount.ResumeLayout(false);
             this.GrpAccount.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDAccountUid)).EndInit();
@@ -2061,6 +2154,15 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Label LblToken;
         private System.Windows.Forms.Label LblConsoleTip;
         private System.Windows.Forms.LinkLabel LnkResetCustomCommands;
+        private System.Windows.Forms.CheckBox ChkTopMost;
+        private System.Windows.Forms.CheckBox ChkNewCommand;
+        private System.Windows.Forms.GroupBox GrpBanPlayer;
+        private System.Windows.Forms.NumericUpDown NUDBanUID;
+        private System.Windows.Forms.Label LblBanUID;
+        private System.Windows.Forms.Button BtnUnban;
+        private System.Windows.Forms.Button BtnBan;
+        private Controls.TextBoxXP TxtBanReason;
+        private System.Windows.Forms.DateTimePicker DTPBanEndTime;
     }
 }
 

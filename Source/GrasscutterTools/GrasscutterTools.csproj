@@ -196,6 +196,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\TextBoxXP.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="DispatchServer\DispatchServerAPI.cs" />
     <Compile Include="DispatchServer\Model\ServerStatus.cs" />
     <Compile Include="Forms\FormGachaBannerEditor2.cs">

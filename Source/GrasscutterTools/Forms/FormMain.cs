@@ -22,6 +22,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -89,6 +90,8 @@ namespace GrasscutterTools.Forms
             {
                 ChkAutoCopy.Checked       = Settings.Default.AutoCopy;
                 NUDUid.Value              = Settings.Default.Uid;
+                ChkTopMost.Checked        = Settings.Default.IsTopMost;
+                ChkNewCommand.Checked     = Settings.Default.CommandVersion == "1.2.2";
 
                 CmbLanguage.Items.AddRange(LanguageNames);
                 CmbLanguage.SelectedIndex = Array.IndexOf(Languages, Settings.Default.DefaultLanguage);
@@ -110,6 +113,8 @@ namespace GrasscutterTools.Forms
             {
                 Settings.Default.AutoCopy  = ChkAutoCopy.Checked;
                 Settings.Default.Uid       = NUDUid.Value;
+                Settings.Default.IsTopMost = ChkTopMost.Checked;
+                Settings.Default.CommandVersion = ChkNewCommand.Checked ? "1.2.2" : string.Empty;
                 SaveCustomCommands();
                 SaveGiveItemRecord();
                 SaveSpawnRecord();
@@ -198,6 +203,11 @@ namespace GrasscutterTools.Forms
         {
             MultiLanguage.SetDefaultLanguage(Languages[CmbLanguage.SelectedIndex]);
             FormMain_Load(this, EventArgs.Empty);
+        }
+
+        private void ChkTopMost_CheckedChanged(object sender, EventArgs e)
+        {
+            TopMost = ChkTopMost.Checked;
         }
 
         #endregion - 主页 -
@@ -842,11 +852,15 @@ namespace GrasscutterTools.Forms
             SetCommand("/changescene", id.ToString());
         }
 
+        static readonly string[] climateTypes = { "none", "sunny", "cloudy", "rain", "thunderstorm", "snow", "mist" };
         private void CmbClimateType_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (CmbClimateType.SelectedIndex < 0)
                 return;
-            SetCommand("/weather", $"0 {CmbClimateType.SelectedIndex}");
+            if (ChkNewCommand.Checked)
+                SetCommand("/weather", CmbClimateType.SelectedIndex < climateTypes.Length ? climateTypes[CmbClimateType.SelectedIndex] : "none");
+            else
+                SetCommand("/weather", $"0 {CmbClimateType.SelectedIndex}");
         }
 
         private void BtnTeleport_Click(object sender, EventArgs e)
@@ -888,7 +902,7 @@ namespace GrasscutterTools.Forms
 
         #endregion - 状态 -
 
-        #region - 其它 -
+        #region - 管理 -
 
         private void InitPermList()
         {
@@ -919,7 +933,23 @@ namespace GrasscutterTools.Forms
             SetCommand($"/account {(sender as Button).Tag} {username} {(ChkAccountSetUid.Checked ? NUDAccountUid.Value.ToString() : "")}");
         }
 
-        #endregion - 其它 -
+        private void BtnBan_Click(object sender, EventArgs e)
+        {
+            var uid = NUDBanUID.Value;
+            var endTime = DTPBanEndTime.Value;
+            var command = $"/ban @{uid} {new DateTimeOffset(endTime).ToUnixTimeSeconds()}";
+            var reaseon = Regex.Replace(TxtBanReason.Text.Trim(), @"\s+", "-");
+            if (!string.IsNullOrEmpty(reaseon))
+                command += $" {reaseon}";
+            SetCommand(command);
+        }
+
+        private void BtnUnban_Click(object sender, EventArgs e)
+        {
+            SetCommand($"/unban @{NUDBanUID.Value}");
+        }
+
+        #endregion - 管理 -
 
         #region - 关于 -
 

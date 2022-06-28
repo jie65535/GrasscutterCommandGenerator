@@ -157,6 +157,12 @@
   <data name="GrpSettings.Text" xml:space="preserve">
     <value>Settings</value>
   </data>
+  <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 21</value>
+  </data>
+  <data name="ChkTopMost.Text" xml:space="preserve">
+    <value>Top most</value>
+  </data>
   <data name="ChkIncludeUID.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 21</value>
   </data>
@@ -691,6 +697,27 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="TPManage.Text" xml:space="preserve">
     <value>Manage</value>
   </data>
+  <data name="GrpBanPlayer.Text" xml:space="preserve">
+    <value>Ban Management</value>
+  </data>
+  <data name="BtnUnban.Text" xml:space="preserve">
+    <value>Unban</value>
+  </data>
+  <data name="BtnBan.Text" xml:space="preserve">
+    <value>Ban</value>
+  </data>
+  <data name="TxtBanReason.Watermark" xml:space="preserve">
+    <value>Reason</value>
+  </data>
+  <data name="LblBanUID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 25</value>
+  </data>
+  <data name="LblBanUID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 17</value>
+  </data>
+  <data name="LblBanUID.Text" xml:space="preserve">
+    <value>UID</value>
+  </data>
   <data name="GrpAccount.Text" xml:space="preserve">
     <value>Account Management</value>
   </data>
@@ -835,9 +862,6 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="BtnConsoleConnect.Text" xml:space="preserve">
     <value>Connect</value>
   </data>
-  <data name="LblConsoleTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="LblConsoleTip.Text" xml:space="preserve">
     <value>Note that normal commands in the console state must specify the target (set include UID)</value>
   </data>
@@ -861,8 +885,5 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   </data>
   <data name="LblHost.Text" xml:space="preserve">
     <value>Host</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
 </root>
