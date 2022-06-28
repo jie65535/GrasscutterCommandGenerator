@@ -512,7 +512,10 @@ namespace GrasscutterTools.Forms
                         subAttrs += $"{kv.Key} ";
                 }
             }
-            SetCommand("/giveart", $"{id} {mainAttr} {subAttrs}{NUDArtifactLevel.Value}");
+            if (ChkNewCommand.Checked)
+                SetCommand("/give", $"{id} lv{NUDArtifactLevel.Value} {mainAttr} {subAttrs}");
+            else
+                SetCommand("/giveart", $"{id} {mainAttr} {subAttrs}{NUDArtifactLevel.Value}");
         }
 
         private void ListSubAttributionChecked_SelectedIndexChanged(object sender, EventArgs e)
@@ -562,7 +565,10 @@ namespace GrasscutterTools.Forms
             if (ListWeapons.SelectedIndex >= 0)
             {
                 var id = GameData.Weapons.Ids[ListWeapons.SelectedIndex];
-                SetCommand("/give", $"{id} {NUDWeaponAmout.Value} {NUDWeaponLevel.Value} {NUDWeaponRefinement.Value}");
+                if (ChkNewCommand.Checked)
+                    SetCommand("/give", $"{id} x{NUDWeaponAmout.Value} lv{NUDWeaponLevel.Value} r{NUDWeaponRefinement.Value}");
+                else
+                    SetCommand("/give", $"{id} {NUDWeaponAmout.Value} {NUDWeaponLevel.Value} {NUDWeaponRefinement.Value}");
             }
         }
 
@@ -607,7 +613,10 @@ namespace GrasscutterTools.Forms
                 else
                 {
                     NUDGameItemLevel.Enabled = true;
-                    SetCommand("/give", $"{id} {NUDGameItemAmout.Value} {NUDGameItemLevel.Value}");
+                    if (ChkNewCommand.Checked)
+                        SetCommand("/give", $"{id} x{NUDGameItemAmout.Value} lv{NUDGameItemLevel.Value}");
+                    else
+                        SetCommand("/give", $"{id} {NUDGameItemAmout.Value} {NUDGameItemLevel.Value}");
                 }
                 return true;
             }
@@ -705,7 +714,10 @@ namespace GrasscutterTools.Forms
 
         private void GenAvatar(int avatarId, int level)
         {
-            SetCommand("/givechar", $"{avatarId} {level}");
+            if (ChkNewCommand.Checked)
+                SetCommand("/give", $"{avatarId} lv{level}");
+            else
+                SetCommand("/givechar", $"{avatarId} {level}");
         }
 
         #endregion - 角色 -
