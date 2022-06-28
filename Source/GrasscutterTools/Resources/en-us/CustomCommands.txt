@@ -13,7 +13,7 @@ Give me ALL!
 Where am I?
 /position
 Set World Level
-/setworldlevel 8
+/prop worldlevel 8
 Set Friendship Level
 /setfetterlevel 1
 Clear Backpack(ALL)
@@ -57,4 +57,4 @@ Reload service config
 KillAll
 /killall
 Unlock The Tower
-/unlocktower
+/prop abyss 12

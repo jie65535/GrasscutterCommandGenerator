@@ -13,7 +13,7 @@
 Текущая позиция
 /position
 уровень мира
-/setworldlevel 8
+/prop worldlevel 8
 Уровень дружбы
 /setfetterlevel 1
 Очистить рюкзак(ВСЁ)
@@ -57,4 +57,4 @@
 Убить всех
 /killall
 Разгадка бездны
-/unlocktower
+/prop abyss 12

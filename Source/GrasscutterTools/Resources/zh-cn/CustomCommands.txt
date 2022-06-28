@@ -13,7 +13,7 @@
 我在哪？
 /position
 设置世界等级
-/setworldlevel 8
+/prop worldlevel 8
 设置羁绊等级
 /setfetterlevel 1
 清空背包
@@ -57,4 +57,4 @@
 清场
 /killall
 一键解锁深渊
-/unlocktower
+/prop abyss 12
