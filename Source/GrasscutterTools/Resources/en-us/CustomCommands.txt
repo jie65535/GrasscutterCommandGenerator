@@ -1,9 +1,9 @@
 ﻿God Mode
-/godmode
+/prop godmode on
 NoStamina
-/nostamina
+/prop nostamina on
 unlimitenergy
-/unlimitenergy
+/prop unlimitenergy on
 Level up to 60
 /give 102 1880200
 Heal
