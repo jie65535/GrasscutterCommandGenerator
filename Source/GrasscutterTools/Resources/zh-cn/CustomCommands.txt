@@ -32,8 +32,12 @@
 /give 202 x100000
 重载配置
 /reload
-发送广播
-/broadcast 大家好啊~
+重登
+/restart
+清空当前角色命之座(需重登)
+/resetconst
+清空全部角色命之座(需重登)
+/resetconst all
 清空背包
 /clear all
 清空武器
@@ -42,12 +46,6 @@
 /clear art
 清空材料
 /clear mat
-清空当前角色命之座(需重登)
-/resetconst
-清空全部角色命之座(需重登)
-/resetconst all
-重登
-/restart
 清场
 /killall
 进入多人
@@ -56,3 +54,5 @@
 /tpall
 都有谁在？
 /list uid
+发送广播
+/broadcast 大家好啊~
