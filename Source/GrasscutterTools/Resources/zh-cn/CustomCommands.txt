@@ -1,60 +1,56 @@
-﻿无敌
+无敌
 /prop godmode on
-无限耐力
+无限体力
 /prop nostamina on
 无限能量
-/prop unlimitenergy on
+/prop unlimitedenergy on
 升到60级
-/give 102 1880200
-奶
-/heal
-我全都要！
-/giveall
-我在哪？
-/position
+/give 102 x1880200
 设置世界等级
 /prop worldlevel 8
-设置羁绊等级
-/setfetterlevel 1
+一键解锁深渊
+/prop abyss 12
+设置好感等级
+/setfetterlevel 10
+奶
+/heal
+自杀
+/kill 0
+我全都要！
+/give all x9999 lv90 r5
+我在哪？
+/pos
+一万纠缠
+/give 223 x10000
+一万相遇
+/give 224 x10000
+十万原石
+/give 201 x100000
+十万摩拉
+/give 202 x100000
+重载配置
+/reload
+发送广播
+/broadcast 大家好啊~
 清空背包
 /clear all
 清空武器
 /clear wp
-清空圣物
+清空圣遗物
 /clear art
 清空材料
 /clear mat
-发送广播
-/broadcast 大家好啊~
 清空当前角色命之座(需重登)
 /resetconst
 清空全部角色命之座(需重登)
 /resetconst all
-一万纠缠
-/give 223 10000
-一万相遇
-/give 224 10000
-十万原石
-/give 201 100000
-十万摩拉
-/give 202 100000
-速速集合！
-/tpall
-拔线
-/restart
-私信
-/say <player> <message>
-进来吧你
-/coop @targetId
-自杀
-/killcharacter
-暗杀
-/killcharacter <playerId>
-都有谁在？
-/list uid
-重载服务配置
-/reload
+重登
+/kick
 清场
 /killall
-一键解锁深渊
-/prop abyss 12
+进入多人
+/coop
+速速集合！
+/tpall
+都有谁在？
+/list uid
