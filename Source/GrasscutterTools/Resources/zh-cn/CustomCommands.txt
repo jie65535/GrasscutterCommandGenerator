@@ -17,7 +17,7 @@
 自杀
 /kill 0
 全队充能
-/spawn 2008 25
+/drop 2008 25
 我全都要！
 /give all x9999 lv90 r5
 我在哪？
@@ -47,7 +47,7 @@
 清空全部角色命之座(需重登)
 /resetconst all
 重登
-/kick
+/restart
 清场
 /killall
 进入多人
