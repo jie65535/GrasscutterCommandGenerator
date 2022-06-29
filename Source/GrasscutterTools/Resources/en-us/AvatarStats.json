@@ -1,13 +1,13 @@
 [
   {
-    "Name": "Max HP",
-    "ArgName": "maxhp",
+    "Name": "Current HP",
+    "ArgName": "hp",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "Current HP",
-    "ArgName": "hp",
+    "Name": "Max HP",
+    "ArgName": "maxhp",
     "Percent": false,
     "Tip": ""
   },
@@ -27,7 +27,7 @@
     "Name": "Defense",
     "ArgName": "def",
     "Percent": false,
-    "Tip": ""
+    "Tip": "This doesn't seem to work."
   },
   {
     "Name": "Element Mastery",
@@ -36,8 +36,14 @@
     "Tip": ""
   },
   {
-    "Name": "Energy Recharge",
-    "ArgName": "er",
+    "Name": "Healing Bonus",
+    "ArgName": "heal",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Incoming Healing Bonus",
+    "ArgName": "heali",
     "Percent": true,
     "Tip": ""
   },
@@ -54,110 +60,8 @@
     "Tip": ""
   },
   {
-    "Name": "Add Dmg",
-    "ArgName": "dmg",
-    "Percent": true,
-    "Tip": "This seems to get reset after attacks"
-  },
-  {
-    "Name": "Anemo Dmg Bonus",
-    "ArgName": "eanemo",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Cyro Dmg Bonus",
-    "ArgName": "ecryo",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Dendro Dmg Bonus",
-    "ArgName": "edendro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Electro Dmg Bons",
-    "ArgName": "eelectro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Geo Dmg Bonus",
-    "ArgName": "egeo",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Hydro Dmg Bonus",
-    "ArgName": "ehydro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Pyro Dmg Bonus",
-    "ArgName": "epyro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Physical Dmg Bonus",
-    "ArgName": "ephys",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Universal RES",
-    "ArgName": "resall",
-    "Percent": true,
-    "Tip": "This seems to get reset after attacks"
-  },
-  {
-    "Name": "Anemo RES",
-    "ArgName": "resanemo",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Cryo RES",
-    "ArgName": "rescryo",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Dendro RES",
-    "ArgName": "resdendro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Electro RES",
-    "ArgName": "reselectro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Geo RES",
-    "ArgName": "resgeo",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Hydro RES",
-    "ArgName": "reshydro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Pyro RES",
-    "ArgName": "respyro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Physical RES",
-    "ArgName": "resphys",
+    "Name": "Energy Recharge",
+    "ArgName": "er",
     "Percent": true,
     "Tip": ""
   },
@@ -168,20 +72,116 @@
     "Tip": ""
   },
   {
-    "Name": "Healing Bonus",
-    "ArgName": "heal",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Incoming Healing Bonus",
-    "ArgName": "heali",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
     "Name": "Shield Strength",
     "ArgName": "shield",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Add Dmg",
+    "ArgName": "dmg",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Universal RES",
+    "ArgName": "resall",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Pyro Dmg Bonus",
+    "ArgName": "epyro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Pyro RES",
+    "ArgName": "respyro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Hydro Dmg Bonus",
+    "ArgName": "ehydro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Hydro RES",
+    "ArgName": "reshydro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Dendro Dmg Bonus",
+    "ArgName": "edendro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Dendro RES",
+    "ArgName": "resdendro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Electro Dmg Bons",
+    "ArgName": "eelectro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Electro RES",
+    "ArgName": "reselectro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Anemo Dmg Bonus",
+    "ArgName": "eanemo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Anemo RES",
+    "ArgName": "resanemo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Cyro Dmg Bonus",
+    "ArgName": "ecryo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Cryo RES",
+    "ArgName": "rescryo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Geo Dmg Bonus",
+    "ArgName": "egeo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Geo RES",
+    "ArgName": "resgeo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Physical Dmg Bonus",
+    "ArgName": "ephys",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Physical RES",
+    "ArgName": "resphys",
     "Percent": true,
     "Tip": ""
   },
@@ -189,6 +189,6 @@
     "Name": "DEFENCE IGNORE RATIO",
     "ArgName": "defi",
     "Percent": true,
-    "Tip": ""
+    "Tip": "This doesn't seem to work."
   }
 ]

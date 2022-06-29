@@ -1,13 +1,13 @@
 [
   {
-    "Name": "максимальное здоровье",
-    "ArgName": "maxhp",
+    "Name": "текущее здоровье",
+    "ArgName": "hp",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "текущее здоровье",
-    "ArgName": "hp",
+    "Name": "максимальное здоровье",
+    "ArgName": "maxhp",
     "Percent": false,
     "Tip": ""
   },
@@ -27,7 +27,7 @@
     "Name": "защита",
     "ArgName": "def",
     "Percent": false,
-    "Tip": ""
+    "Tip": "Это, кажется, не работает."
   },
   {
     "Name": "элементальное мастерство",
@@ -36,8 +36,14 @@
     "Tip": ""
   },
   {
-    "Name": "эффективность стихийного заряда",
-    "ArgName": "er",
+    "Name": "бонус к лечению",
+    "ArgName": "heal",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "бонус к лечению",
+    "ArgName": "heali",
     "Percent": true,
     "Tip": ""
   },
@@ -54,110 +60,8 @@
     "Tip": ""
   },
   {
-    "Name": "бонус к урону",
-    "ArgName": "dmg",
-    "Percent": true,
-    "Tip": "Кажется, это сбрасывается после атаки"
-  },
-  {
-    "Name": "бонус к урону от стихии анемо",
-    "ArgName": "eanemo",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "бонус к урону от крио стихий",
-    "ArgName": "ecryo",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "бонус к урону от элементаля дендро",
-    "ArgName": "edendro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "бонус к урону от стихии электро",
-    "ArgName": "eelectro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "бонус к урону от стихии гео",
-    "ArgName": "egeo",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "бонус к урону от элементаля воды",
-    "ArgName": "ehydro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "бонус к урону от стихии пиро",
-    "ArgName": "epyro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "бонус к физическому урону",
-    "ArgName": "ephys",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "снижение урона",
-    "ArgName": "resall",
-    "Percent": true,
-    "Tip": "кажется, это сбрасывается после атаки"
-  },
-  {
-    "Name": "уменьшение урона от стихии анемо",
-    "ArgName": "resanemo",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "уменьшение урона от крио стихий",
-    "ArgName": "rescryo",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "уменьшение урона от стихии дендро",
-    "ArgName": "resdendro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "уменьшение урона от стихии электро",
-    "ArgName": "reselectro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "уменьшение урона от стихии гео",
-    "ArgName": "resgeo",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "уменьшение урона от стихии гидро",
-    "ArgName": "reshydro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "уменьшение урона от стихии пиро",
-    "ArgName": "respyro",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "уменьшение физического урона",
-    "ArgName": "resphys",
+    "Name": "эффективность стихийного заряда",
+    "ArgName": "er",
     "Percent": true,
     "Tip": ""
   },
@@ -168,20 +72,116 @@
     "Tip": ""
   },
   {
-    "Name": "бонус к лечению",
-    "ArgName": "heal",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "бонус к лечению",
-    "ArgName": "heali",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
     "Name": "сильный щит",
     "ArgName": "shield",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "бонус к урону",
+    "ArgName": "dmg",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "снижение урона",
+    "ArgName": "resall",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "бонус к урону от стихии пиро",
+    "ArgName": "epyro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "уменьшение урона от стихии пиро",
+    "ArgName": "respyro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "бонус к урону от элементаля воды",
+    "ArgName": "ehydro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "уменьшение урона от стихии гидро",
+    "ArgName": "reshydro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "бонус к урону от элементаля дендро",
+    "ArgName": "edendro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "уменьшение урона от стихии дендро",
+    "ArgName": "resdendro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "бонус к урону от стихии электро",
+    "ArgName": "eelectro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "уменьшение урона от стихии электро",
+    "ArgName": "reselectro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "бонус к урону от стихии анемо",
+    "ArgName": "eanemo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "уменьшение урона от стихии анемо",
+    "ArgName": "resanemo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "бонус к урону от крио стихий",
+    "ArgName": "ecryo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "уменьшение урона от крио стихий",
+    "ArgName": "rescryo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "бонус к урону от стихии гео",
+    "ArgName": "egeo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "уменьшение урона от стихии гео",
+    "ArgName": "resgeo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "бонус к физическому урону",
+    "ArgName": "ephys",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "уменьшение физического урона",
+    "ArgName": "resphys",
     "Percent": true,
     "Tip": ""
   },
@@ -189,6 +189,6 @@
     "Name": "игнорировать защиту",
     "ArgName": "defi",
     "Percent": true,
-    "Tip": ""
+    "Tip": "Это, кажется, не работает."
   }
 ]
