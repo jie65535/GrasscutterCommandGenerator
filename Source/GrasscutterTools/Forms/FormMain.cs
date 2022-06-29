@@ -860,8 +860,13 @@ namespace GrasscutterTools.Forms
                 return;
             }
             ChkIncludeSceneId.Enabled = true;
-            var id = GameData.Scenes.Ids[ListScenes.SelectedIndex];
-            SetCommand("/changescene", id.ToString());
+
+            // 新的命令不再支持changescene，已合并到tp中
+            if (!ChkNewCommand.Checked)
+            {
+                var id = GameData.Scenes.Ids[ListScenes.SelectedIndex];
+                SetCommand("/changescene", id.ToString());
+            }
         }
 
         static readonly string[] climateTypes = { "none", "sunny", "cloudy", "rain", "thunderstorm", "snow", "mist" };
