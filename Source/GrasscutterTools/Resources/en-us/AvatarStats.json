@@ -36,18 +36,6 @@
     "Tip": ""
   },
   {
-    "Name": "Healing Bonus",
-    "ArgName": "heal",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Incoming Healing Bonus",
-    "ArgName": "heali",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
     "Name": "Crit Rate",
     "ArgName": "crate",
     "Percent": true,
@@ -56,6 +44,18 @@
   {
     "Name": "Crit Dmg",
     "ArgName": "cdmg",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Healing Bonus",
+    "ArgName": "heal",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Incoming Healing Bonus",
+    "ArgName": "heali",
     "Percent": true,
     "Tip": ""
   },
@@ -74,18 +74,6 @@
   {
     "Name": "Shield Strength",
     "ArgName": "shield",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Add Dmg",
-    "ArgName": "dmg",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "Universal RES",
-    "ArgName": "resall",
     "Percent": true,
     "Tip": ""
   },
@@ -182,6 +170,18 @@
   {
     "Name": "Physical RES",
     "ArgName": "resphys",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Add Dmg",
+    "ArgName": "dmg",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "Universal RES",
+    "ArgName": "resall",
     "Percent": true,
     "Tip": ""
   },
