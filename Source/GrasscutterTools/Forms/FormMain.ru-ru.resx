@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -251,13 +251,13 @@
     <value>+ Добавить</value>
   </data>
   <data name="LblArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 41</value>
-  </data>
-  <data name="LblArtifactStars.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 17</value>
+    <value>313, 41</value>
   </data>
   <data name="LblArtifactStars.Text" xml:space="preserve">
     <value>Звезды</value>
+  </data>
+  <data name="LblArtifactPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 11</value>
   </data>
   <data name="LblArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
     <value>42, 17</value>
@@ -266,10 +266,10 @@
     <value>Часть</value>
   </data>
   <data name="CmbArtifactPart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>321, 8</value>
+    <value>324, 8</value>
   </data>
   <data name="CmbArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 25</value>
+    <value>107, 25</value>
   </data>
   <data name="LblArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
     <value>72, 11</value>
@@ -279,12 +279,6 @@
   </data>
   <data name="LblArtifactSet.Text" xml:space="preserve">
     <value>Артефакт</value>
-  </data>
-  <data name="LblArtifactLevelTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 17</value>
-  </data>
-  <data name="LblArtifactLevelTip.Text" xml:space="preserve">
-    <value>21 это +20</value>
   </data>
   <data name="LblClearSubAttrCheckedList.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 17</value>
@@ -321,6 +315,9 @@
   </data>
   <data name="TPQuest.Text" xml:space="preserve">
     <value>Квест</value>
+  </data>
+  <data name="LblArtifactLevelTip.Text" xml:space="preserve">
+    <value>ценность: 0-20</value>
   </data>
   <data name="GrpQuestFilters.Text" xml:space="preserve">
     <value>Фильтр списка</value>
