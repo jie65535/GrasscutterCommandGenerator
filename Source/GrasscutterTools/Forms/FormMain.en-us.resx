@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -235,9 +235,6 @@
   <data name="BtnAddSubAttr.Text" xml:space="preserve">
     <value>+ Add</value>
   </data>
-  <data name="LblArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 41</value>
-  </data>
   <data name="LblArtifactStars.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 17</value>
   </data>
@@ -258,12 +255,6 @@
   </data>
   <data name="LblArtifactSet.Text" xml:space="preserve">
     <value>Artifact</value>
-  </data>
-  <data name="LblArtifactLevelTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 17</value>
-  </data>
-  <data name="LblArtifactLevelTip.Text" xml:space="preserve">
-    <value>21 is +20</value>
   </data>
   <data name="LblClearSubAttrCheckedList.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 17</value>
@@ -300,6 +291,9 @@
   </data>
   <data name="TPQuest.Text" xml:space="preserve">
     <value>Quest</value>
+  </data>
+  <data name="LblArtifactLevelTip.Text" xml:space="preserve">
+    <value>value: 0-20</value>
   </data>
   <data name="GrpQuestFilters.Text" xml:space="preserve">
     <value>List Filter</value>
