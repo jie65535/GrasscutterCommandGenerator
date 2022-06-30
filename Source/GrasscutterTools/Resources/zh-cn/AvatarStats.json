@@ -36,18 +36,6 @@
     "Tip": ""
   },
   {
-    "Name": "治疗加成",
-    "ArgName": "heal",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
-    "Name": "受治疗加成",
-    "ArgName": "heali",
-    "Percent": true,
-    "Tip": ""
-  },
-  {
     "Name": "暴击率",
     "ArgName": "crate",
     "Percent": true,
@@ -56,6 +44,18 @@
   {
     "Name": "暴击伤害",
     "ArgName": "cdmg",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "治疗加成",
+    "ArgName": "heal",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "受治疗加成",
+    "ArgName": "heali",
     "Percent": true,
     "Tip": ""
   },
@@ -76,18 +76,6 @@
     "ArgName": "shield",
     "Percent": true,
     "Tip": ""
-  },
-  {
-    "Name": "伤害提高",
-    "ArgName": "dmg",
-    "Percent": true,
-    "Tip": "不同于伤害加成"
-  },
-  {
-    "Name": "受伤减免",
-    "ArgName": "resall",
-    "Percent": true,
-    "Tip": "不同于抗性"
   },
   {
     "Name": "火元素伤害加成",
@@ -184,6 +172,18 @@
     "ArgName": "resphys",
     "Percent": true,
     "Tip": ""
+  },
+  {
+    "Name": "伤害提高",
+    "ArgName": "dmg",
+    "Percent": true,
+    "Tip": "不同于伤害加成"
+  },
+  {
+    "Name": "受伤减免",
+    "ArgName": "resall",
+    "Percent": true,
+    "Tip": "不同于抗性"
   },
   {
     "Name": "忽略防御",
