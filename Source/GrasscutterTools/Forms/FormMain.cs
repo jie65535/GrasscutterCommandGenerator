@@ -1,4 +1,4 @@
-﻿/**
+/**
  *  Grasscutter Tools
  *  Copyright (C) 2022 jie65535
  *
@@ -163,6 +163,22 @@ namespace GrasscutterTools.Forms
 #endif
         }
 
+        // 合并后给予的圣遗物等级与游戏内对应
+        private void ChangeTPArtifact()
+        {
+            if (ChkNewCommand.Checked)
+            {
+                NUDArtifactLevel.Minimum = 0;
+                NUDArtifactLevel.Maximum = 20;
+            }
+            else
+            {
+                NUDArtifactLevel.Minimum = 1;
+                NUDArtifactLevel.Maximum = 21;
+            }
+            LblArtifactLevelTip.Text = $"[{NUDArtifactLevel.Minimum}-{NUDArtifactLevel.Maximum}]";
+        }
+
         #endregion - 初始化 -
 
         #region - 主页 -
@@ -208,6 +224,11 @@ namespace GrasscutterTools.Forms
         private void ChkTopMost_CheckedChanged(object sender, EventArgs e)
         {
             TopMost = ChkTopMost.Checked;
+        }
+
+        private void ChkNewCommand_CheckedChanged(object sender, EventArgs e)
+        {
+            ChangeTPArtifact();
         }
 
         #endregion - 主页 -
@@ -547,17 +568,10 @@ namespace GrasscutterTools.Forms
         private void TxtWeaponFilter_TextChanged(object sender, EventArgs e)
         {
             var filter = TxtWeaponFilter.Text.Trim();
-            if (!string.IsNullOrEmpty(filter))
-            {
-                foreach (var name in GameData.Weapons.Names)
-                {
-                    if (name.Contains(filter))
-                    {
-                        ListWeapons.SelectedItem = name;
-                        return;
-                    }
-                }
-            }
+            ListWeapons.BeginUpdate();
+            ListWeapons.Items.Clear();
+            ListWeapons.Items.AddRange(GameData.Weapons.Names.Where(n => n.Contains(filter)).ToArray());
+            ListWeapons.EndUpdate();
         }
 
         private void WeaponValueChanged(object sender, EventArgs e)
@@ -587,14 +601,7 @@ namespace GrasscutterTools.Forms
             var filter = TxtGameItemFilter.Text.Trim();
             ListGameItems.BeginUpdate();
             ListGameItems.Items.Clear();
-            if (string.IsNullOrEmpty(filter))
-            {
-                ListGameItems.Items.AddRange(GameData.Items.Lines);
-            }
-            else
-            {
-                ListGameItems.Items.AddRange(GameData.Items.Lines.Where(n => n.Contains(filter)).ToArray());
-            }
+            ListGameItems.Items.AddRange(GameData.Items.Lines.Where(n => n.Contains(filter)).ToArray());
             ListGameItems.EndUpdate();
         }
 
@@ -852,6 +859,15 @@ namespace GrasscutterTools.Forms
             CmbClimateType.Items.AddRange(Resources.ClimateType.Split(','));
         }
 
+        private void TxtSceneFilter_TextChanged(object sender, EventArgs e)
+        {
+            var filter = TxtSceneFilter.Text.Trim();
+            ListScenes.BeginUpdate();
+            ListScenes.Items.Clear();
+            ListScenes.Items.AddRange(GameData.Scenes.Lines.Where(n => n.Contains(filter)).ToArray());
+            ListScenes.EndUpdate();
+        }
+
         private void ListScenes_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (ListScenes.SelectedIndex < 0)
@@ -861,11 +877,15 @@ namespace GrasscutterTools.Forms
             }
             ChkIncludeSceneId.Enabled = true;
 
-            // 新的命令不再支持changescene，已合并到tp中
+            // 可以直接弃用 scene 命令
+            var id = GameData.Scenes.Ids[ListScenes.SelectedIndex];
             if (!ChkNewCommand.Checked)
             {
-                var id = GameData.Scenes.Ids[ListScenes.SelectedIndex];
-                SetCommand("/changescene", id.ToString());
+                SetCommand("/scene", id.ToString());
+            }
+            else
+            {
+                SetCommand("/tp ~ ~ ~", id.ToString());
             }
         }
 

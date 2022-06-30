@@ -2,7 +2,7 @@ God Mode
 /prop godmode on
 NoStamina
 /prop nostamina on
-Unlimited energy
+Unlimited Energy
 /prop unlimitedenergy on
 Level up to 60
 /give 102 x1880200
@@ -16,12 +16,12 @@ Heal
 /heal
 Suicide
 /kill 0
-Recharge
-/drop 2008 25
+Charge Energy
+/spawn 2008 25
 Where am I?
 /pos
 Give me ALL!
-/give all x9999 lv90 r5
+/give all x9999 lv90 c6 r5
 10k Intertwined Fates
 /give 223 x10000
 10k Acquaint Fates
@@ -32,8 +32,8 @@ Give me ALL!
 /give 202 x100000
 Reload config
 /reload
-Broadcast
-/broadcast Hello everyone~
+Re-login
+/kick
 Clear Backpack(ALL)
 /clear all
 Clear Weapons
@@ -46,13 +46,13 @@ Reset Current Constellation(Need Re-login)
 /resetconst
 Reset ALL Constellation(Need Re-login)
 /resetconst all
-Re-login
-/restart
-KillAll
+Kill All Monsters
 /killall
 Enter co-op mode
 /coop
 TP Everyone
 /tpall
-List ALL users
+List All Players
 /list uid
+Broadcast
+/say Hello everyone~
