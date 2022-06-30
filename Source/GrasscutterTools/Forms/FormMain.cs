@@ -44,7 +44,6 @@ namespace GrasscutterTools.Forms
             LoadVersion();
             LoadSettings();
             LoadUpdate();
-            ChangeTPArtifact();
         }
 
         private void FormMain_Load(object sender, EventArgs e)
@@ -171,36 +170,13 @@ namespace GrasscutterTools.Forms
             {
                 NUDArtifactLevel.Minimum = 0;
                 NUDArtifactLevel.Maximum = 20;
-                if (CmbLanguage.SelectedIndex == 0)
-                {
-                    LblArtifactLevelTip.Text = "可用等级: 0-20";
-                }
-                else if (CmbLanguage.SelectedIndex == 1) 
-                {
-                    LblArtifactLevelTip.Text = "value: 0-20";
-                }
-                else if (CmbLanguage.SelectedIndex == 2)
-                {
-                    LblArtifactLevelTip.Text = "ценность: 0-20";
-                }
             }
             else
             {
                 NUDArtifactLevel.Minimum = 1;
                 NUDArtifactLevel.Maximum = 21;
-                if (CmbLanguage.SelectedIndex == 0)
-                {
-                    LblArtifactLevelTip.Text = "可用等级: 1-21";
-                }
-                else if (CmbLanguage.SelectedIndex == 1)
-                {
-                    LblArtifactLevelTip.Text = "value: 1-21";
-                }
-                else if (CmbLanguage.SelectedIndex == 2)
-                {
-                    LblArtifactLevelTip.Text = "ценность: 1-21";
-                }
             }
+            LblArtifactLevelTip.Text = $"[{NUDArtifactLevel.Minimum}-{NUDArtifactLevel.Maximum}]";
         }
 
         #endregion - 初始化 -
@@ -243,7 +219,6 @@ namespace GrasscutterTools.Forms
         {
             MultiLanguage.SetDefaultLanguage(Languages[CmbLanguage.SelectedIndex]);
             FormMain_Load(this, EventArgs.Empty);
-            ChangeTPArtifact();
         }
 
         private void ChkTopMost_CheckedChanged(object sender, EventArgs e)
@@ -302,10 +277,7 @@ namespace GrasscutterTools.Forms
             if (sender is LinkLabel lnk && lnk.Tag is string command)
             {
                 TxtCustomName.Text = lnk.Text;
-                if (ChkIncludeUID.Checked)
-                    SetCommand($"{command} @{NUDUid.Value}");
-                else
-                    SetCommand(command);
+                SetCommand(command);
             }
         }
 
