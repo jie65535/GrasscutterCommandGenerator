@@ -578,7 +578,8 @@ namespace GrasscutterTools.Forms
         {
             if (ListWeapons.SelectedIndex >= 0)
             {
-                var id = GameData.Weapons.Ids[ListWeapons.SelectedIndex];
+                // 错误: 无法对应搜索的结果给予武器
+                var id = ListWeapons.SelectedIndex;
                 if (ChkNewCommand.Checked)
                     SetCommand("/give", $"{id} x{NUDWeaponAmout.Value} lv{NUDWeaponLevel.Value} r{NUDWeaponRefinement.Value}");
                 else
@@ -690,6 +691,11 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        private void LblClearGiveItemLogs_Click(object sender, EventArgs e)
+        {
+            ListGiveItemLogs.Items.Clear();
+        }
+
         #endregion -- 物品记录 --
 
         #endregion - 物品 -
@@ -736,7 +742,6 @@ namespace GrasscutterTools.Forms
             RbEntityAnimal.Tag = GameData.Animals.Lines;
             RbEntityMonster.Tag = GameData.Monsters.Lines;
             RbEntityNPC.Tag = GameData.NPCs.Lines;
-            RbEntityOrnament.Tag = GameData.Ornaments.Lines;
             RbEntityAnimal.Checked = true;
         }
 
@@ -844,6 +849,11 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        private void LblClearSpawnLogs_Click(object sender, EventArgs e)
+        {
+            ListSpawnLogs.Items.Clear();
+        }
+
         #endregion -- 生成记录 --
 
         #endregion - 生成 -
@@ -878,7 +888,8 @@ namespace GrasscutterTools.Forms
             ChkIncludeSceneId.Enabled = true;
 
             // 可以直接弃用 scene 命令
-            var id = GameData.Scenes.Ids[ListScenes.SelectedIndex];
+            var name = ListScenes.SelectedItem as string;
+            var id = name.Substring(0, name.IndexOf(':')).Trim();
             if (!ChkNewCommand.Checked)
             {
                 SetCommand("/scene", id.ToString());
