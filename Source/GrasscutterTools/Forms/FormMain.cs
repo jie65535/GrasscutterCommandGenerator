@@ -163,7 +163,7 @@ namespace GrasscutterTools.Forms
 #endif
         }
 
-        // 合并后给予的圣遗物等级与游戏内对应
+        // 新命令给予的圣遗物等级与游戏内对应
         private void ChangeTPArtifact()
         {
             if (ChkNewCommand.Checked)
@@ -578,7 +578,7 @@ namespace GrasscutterTools.Forms
         {
             if (ListWeapons.SelectedIndex >= 0)
             {
-                // 错误: 无法对应搜索的结果给予武器
+                // 错误未修复: 无法对应搜索的结果给予武器
                 var id = ListWeapons.SelectedIndex;
                 if (ChkNewCommand.Checked)
                     SetCommand("/give", $"{id} x{NUDWeaponAmout.Value} lv{NUDWeaponLevel.Value} r{NUDWeaponRefinement.Value}");
@@ -693,6 +693,7 @@ namespace GrasscutterTools.Forms
 
         private void LblClearGiveItemLogs_Click(object sender, EventArgs e)
         {
+            GiveItemCommands.Clear();
             ListGiveItemLogs.Items.Clear();
         }
 
@@ -851,6 +852,7 @@ namespace GrasscutterTools.Forms
 
         private void LblClearSpawnLogs_Click(object sender, EventArgs e)
         {
+            SpawnCommands.Clear();
             ListSpawnLogs.Items.Clear();
         }
 
@@ -921,7 +923,7 @@ namespace GrasscutterTools.Forms
 
         #endregion - 场景 -
 
-        #region - 状态 -
+        #region - 数据 -
 
         private void InitStatList()
         {
@@ -940,6 +942,24 @@ namespace GrasscutterTools.Forms
             LblStatPercent.Visible = stat.Percent;
             LblStatTip.Text = stat.Tip;
 
+            if (CmbStat.SelectedIndex == 3 && CmbLanguage.SelectedIndex != 0)
+            {
+                GrpSetStats.Left = 19;
+                GrpSetStats.Width = 560;
+                CmbStat.Left = 160;
+                NUDStat.Left = 324;
+                LblStatTip.Left = 0;
+
+            }
+            else
+            {
+                GrpSetStats.Left = 135;
+                GrpSetStats.Width = 332;
+                CmbStat.Left = 43;
+                NUDStat.Left = 207;
+                LblStatTip.Left = 40;
+            }
+
             SetCommand("/setstats", $"{stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
         }
 
@@ -948,7 +968,12 @@ namespace GrasscutterTools.Forms
             SetCommand("/talent", $"{(sender as LinkLabel).Tag} {NUDTalentLevel.Value}");
         }
 
-        #endregion - 状态 -
+        private void LblResetStatsCommand_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            SetCommand("/give 101");
+        }
+
+        #endregion - 数据 -
 
         #region - 管理 -
 
