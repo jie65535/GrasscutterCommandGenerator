@@ -579,7 +579,7 @@ namespace GrasscutterTools.Forms
             if (ListWeapons.SelectedIndex >= 0)
             {
                 // 错误未修复: 无法对应搜索的结果给予武器
-                var id = ListWeapons.SelectedIndex;
+                var id = GameData.Weapons.Ids[ListWeapons.SelectedIndex];
                 if (ChkNewCommand.Checked)
                     SetCommand("/give", $"{id} x{NUDWeaponAmout.Value} lv{NUDWeaponLevel.Value} r{NUDWeaponRefinement.Value}");
                 else
