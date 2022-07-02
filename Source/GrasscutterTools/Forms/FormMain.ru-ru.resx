@@ -556,6 +556,18 @@
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>Совет</value>
   </data>
+    <data name="LblResetStatsCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 135</value>
+  </data>
+  <data name="LblResetStatsCommand.Text" xml:space="preserve">
+    <value>При получении AEP</value>
+  </data>
+  <data name="LblResetStatsTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 135</value>
+  </data>
+  <data name="LblResetStatsTip.Text" xml:space="preserve">
+    <value>атрибуты текущего персонажа будут сброшены</value>
+  </data>
   <data name="GrpTalentLevel.Text" xml:space="preserve">
     <value>Уровень таланта</value>
   </data>
@@ -643,13 +655,13 @@
     <value>Спавн</value>
   </data>
   <data name="BtnSaveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 31</value>
+    <value>266, 31</value>
   </data>
   <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
     <value>√ Запись</value>
   </data>
   <data name="BtnRemoveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 60</value>
+    <value>266, 62</value>
   </data>
   <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
     <value>× Удалить</value>
@@ -664,10 +676,10 @@
     <value>234, 162</value>
   </data>
   <data name="GrpEntityType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 101</value>
+    <value>256, 94</value>
   </data>
   <data name="GrpEntityType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 134</value>
+    <value>97, 117</value>
   </data>
   <data name="GrpEntityType.Text" xml:space="preserve">
     <value>Класс</value>
@@ -702,20 +714,11 @@
   <data name="LblEntityAmount.Text" xml:space="preserve">
     <value>Кол.</value>
   </data>
-  <data name="LblEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 218</value>
-  </data>
   <data name="LblEntityLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>26, 17</value>
   </data>
   <data name="LblEntityLevel.Text" xml:space="preserve">
     <value>Ур.</value>
-  </data>
-  <data name="NUDEntityAmout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 216</value>
-  </data>
-  <data name="NUDEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 216</value>
   </data>
   <data name="TPQuest.Text" xml:space="preserve">
     <value>Квест</value>
@@ -790,6 +793,18 @@
   </data>
   <data name="LblClearSubAttrCheckedList.Text" xml:space="preserve">
     <value>X Очистить</value>
+  </data>
+  <data name="LblClearSpawnLogs.Text" xml:space="preserve">
+    <value>X Очистить</value>
+  </data>
+  <data name="LblClearSpawnLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 218</value>
+  </data>
+  <data name="LblClearGiveItemLogs.Text" xml:space="preserve">
+    <value>X Очистить</value>
+  </data>
+  <data name="NUDEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 216</value>
   </data>
   <data name="LblArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>76, 41</value>
