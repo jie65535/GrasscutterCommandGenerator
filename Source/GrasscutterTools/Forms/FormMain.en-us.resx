@@ -501,6 +501,18 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>Tip</value>
   </data>
+  <data name="LblResetStatsCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 135</value>
+  </data>
+  <data name="LblResetStatsCommand.Text" xml:space="preserve">
+    <value>When getting AEP</value>
+  </data>
+  <data name="LblResetStatsTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 135</value>
+  </data>
+  <data name="LblResetStatsTip.Text" xml:space="preserve">
+    <value>the current character's stats will be reset</value>
+  </data>
   <data name="GrpTalentLevel.Text" xml:space="preserve">
     <value>Talent Level</value>
   </data>
@@ -701,6 +713,12 @@ Therefore, the quest can be add and finish, but not necessarily can be work</val
     <value>50, 17</value>
   </data>
   <data name="LblClearSubAttrCheckedList.Text" xml:space="preserve">
+    <value>X Clear</value>
+  </data>
+  <data name="LblClearSpawnLogs.Text" xml:space="preserve">
+    <value>X Clear</value>
+  </data>
+  <data name="LblClearGiveItemLogs.Text" xml:space="preserve">
     <value>X Clear</value>
   </data>
   <data name="LblArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
