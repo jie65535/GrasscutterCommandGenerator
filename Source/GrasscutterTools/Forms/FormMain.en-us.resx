@@ -555,43 +555,43 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="TPAvatar.Text" xml:space="preserve">
     <value>Avatar</value>
   </data>
-  <data name="LblAvatarGenWarning.Location" type="System.Drawing.Point, System.Drawing">
-    <value>88, 161</value>
-  </data>
-  <data name="LblAvatarGenWarning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 51</value>
-  </data>
   <data name="LblAvatarGenWarning.Text" xml:space="preserve">
     <value>WARN! Adding a character that is not officially used may result 
 in a corrupted account save, making it impossible to play the game.
 The data may not be cleared even if the account is recreated.</value>
   </data>
-  <data name="LblAvatar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>135, 217</value>
-  </data>
-  <data name="LblAvatar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 17</value>
-  </data>
   <data name="LblAvatar.Text" xml:space="preserve">
     <value>Avatar</value>
   </data>
-  <data name="LblLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 216</value>
+  <data name="LblAvatarLevel.Text" xml:space="preserve">
+    <value>Level</value>
   </data>
-  <data name="LblLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 17</value>
+  <data name="LblAvatarConstellation.Text" xml:space="preserve">
+    <value>Constellation</value>
   </data>
-  <data name="LblLevel.Text" xml:space="preserve">
-    <value>Lv</value>
+  <data name="LblNewCommandTip.Text" xml:space="preserve">
+    <value>※Available in New Command</value>
   </data>
-  <data name="NUDAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>418, 214</value>
+  <data name="LblAvatar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 37</value>
+  </data>
+  <data name="LblAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 84</value>
+  </data>
+  <data name="LblAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 131</value>
   </data>
   <data name="CmbAvatar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>186, 214</value>
+    <value>444, 34</value>
   </data>
-  <data name="CmbAvatar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 25</value>
+  <data name="NUDAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 82</value>
+  </data>
+  <data name="NUDAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 129</value>
+  </data>
+  <data name="LblNewCommandTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 155</value>
   </data>
   <data name="TPSpawn.Text" xml:space="preserve">
     <value>Spawn</value>
