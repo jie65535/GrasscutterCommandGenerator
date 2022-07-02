@@ -69,7 +69,6 @@ namespace GrasscutterTools.Forms
             this.DTPBanEndTime = new System.Windows.Forms.DateTimePicker();
             this.BtnUnban = new System.Windows.Forms.Button();
             this.BtnBan = new System.Windows.Forms.Button();
-            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.NUDBanUID = new System.Windows.Forms.NumericUpDown();
             this.LblBanUID = new System.Windows.Forms.Label();
             this.GrpAccount = new System.Windows.Forms.GroupBox();
@@ -102,6 +101,7 @@ namespace GrasscutterTools.Forms
             this.LblSceneDescription = new System.Windows.Forms.Label();
             this.ListScenes = new System.Windows.Forms.ListBox();
             this.TPItem = new System.Windows.Forms.TabPage();
+            this.LblClearGiveItemLogs = new System.Windows.Forms.Label();
             this.BtnSaveGiveItemLog = new System.Windows.Forms.Button();
             this.BtnRemoveGiveItemLog = new System.Windows.Forms.Button();
             this.GrpGiveItemRecord = new System.Windows.Forms.GroupBox();
@@ -125,6 +125,8 @@ namespace GrasscutterTools.Forms
             this.NUDWeaponLevel = new System.Windows.Forms.NumericUpDown();
             this.ListWeapons = new System.Windows.Forms.ListBox();
             this.TPStats = new System.Windows.Forms.TabPage();
+            this.LblResetStatsCommand = new System.Windows.Forms.LinkLabel();
+            this.LblResetStatsTip = new System.Windows.Forms.Label();
             this.GrpSetStats = new System.Windows.Forms.GroupBox();
             this.LblStatTip = new System.Windows.Forms.Label();
             this.LblStatPercent = new System.Windows.Forms.Label();
@@ -144,12 +146,12 @@ namespace GrasscutterTools.Forms
             this.NUDAvatarLevel = new System.Windows.Forms.NumericUpDown();
             this.CmbAvatar = new System.Windows.Forms.ComboBox();
             this.TPSpawn = new System.Windows.Forms.TabPage();
+            this.LblClearSpawnLogs = new System.Windows.Forms.Label();
             this.BtnSaveSpawnLog = new System.Windows.Forms.Button();
             this.BtnRemoveSpawnLog = new System.Windows.Forms.Button();
             this.GrpSpawnRecord = new System.Windows.Forms.GroupBox();
             this.ListSpawnLogs = new System.Windows.Forms.ListBox();
             this.GrpEntityType = new System.Windows.Forms.GroupBox();
-            this.RbEntityOrnament = new System.Windows.Forms.RadioButton();
             this.RbEntityAnimal = new System.Windows.Forms.RadioButton();
             this.RbEntityNPC = new System.Windows.Forms.RadioButton();
             this.RbEntityMonster = new System.Windows.Forms.RadioButton();
@@ -214,6 +216,7 @@ namespace GrasscutterTools.Forms
             this.ChkIncludeUID = new System.Windows.Forms.CheckBox();
             this.LblDefaultUid = new System.Windows.Forms.Label();
             this.TCMain = new System.Windows.Forms.TabControl();
+            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -309,12 +312,12 @@ namespace GrasscutterTools.Forms
             // 
             // TPRemoteCall
             // 
-            resources.ApplyResources(this.TPRemoteCall, "TPRemoteCall");
             this.TPRemoteCall.Controls.Add(this.GrpServerStatus);
             this.TPRemoteCall.Controls.Add(this.GrpRemoteCommand);
             this.TPRemoteCall.Controls.Add(this.TxtHost);
             this.TPRemoteCall.Controls.Add(this.BtnQueryServerStatus);
             this.TPRemoteCall.Controls.Add(this.LblHost);
+            resources.ApplyResources(this.TPRemoteCall, "TPRemoteCall");
             this.TPRemoteCall.Name = "TPRemoteCall";
             this.TPRemoteCall.UseVisualStyleBackColor = true;
             // 
@@ -371,15 +374,14 @@ namespace GrasscutterTools.Forms
             // 
             // TPOpenCommandCheck
             // 
-            resources.ApplyResources(this.TPOpenCommandCheck, "TPOpenCommandCheck");
             this.TPOpenCommandCheck.Controls.Add(this.TPPlayerCheck);
             this.TPOpenCommandCheck.Controls.Add(this.TPConsoleCheck);
+            resources.ApplyResources(this.TPOpenCommandCheck, "TPOpenCommandCheck");
             this.TPOpenCommandCheck.Name = "TPOpenCommandCheck";
             this.TPOpenCommandCheck.SelectedIndex = 0;
             // 
             // TPPlayerCheck
             // 
-            resources.ApplyResources(this.TPPlayerCheck, "TPPlayerCheck");
             this.TPPlayerCheck.Controls.Add(this.LnkRCHelp);
             this.TPPlayerCheck.Controls.Add(this.NUDRemotePlayerId);
             this.TPPlayerCheck.Controls.Add(this.BtnConnectOpenCommand);
@@ -387,6 +389,7 @@ namespace GrasscutterTools.Forms
             this.TPPlayerCheck.Controls.Add(this.BtnSendVerificationCode);
             this.TPPlayerCheck.Controls.Add(this.NUDVerificationCode);
             this.TPPlayerCheck.Controls.Add(this.LblRemotePlayerId);
+            resources.ApplyResources(this.TPPlayerCheck, "TPPlayerCheck");
             this.TPPlayerCheck.Name = "TPPlayerCheck";
             this.TPPlayerCheck.UseVisualStyleBackColor = true;
             // 
@@ -458,11 +461,11 @@ namespace GrasscutterTools.Forms
             // 
             // TPConsoleCheck
             // 
-            resources.ApplyResources(this.TPConsoleCheck, "TPConsoleCheck");
             this.TPConsoleCheck.Controls.Add(this.BtnConsoleConnect);
             this.TPConsoleCheck.Controls.Add(this.TxtToken);
             this.TPConsoleCheck.Controls.Add(this.LblToken);
             this.TPConsoleCheck.Controls.Add(this.LblConsoleTip);
+            resources.ApplyResources(this.TPConsoleCheck, "TPConsoleCheck");
             this.TPConsoleCheck.Name = "TPConsoleCheck";
             this.TPConsoleCheck.UseVisualStyleBackColor = true;
             // 
@@ -507,10 +510,10 @@ namespace GrasscutterTools.Forms
             // 
             // TPAbout
             // 
-            resources.ApplyResources(this.TPAbout, "TPAbout");
             this.TPAbout.Controls.Add(this.pictureBox2);
             this.TPAbout.Controls.Add(this.LnkGithub);
             this.TPAbout.Controls.Add(this.LblSupportDescription);
+            resources.ApplyResources(this.TPAbout, "TPAbout");
             this.TPAbout.Name = "TPAbout";
             this.TPAbout.UseVisualStyleBackColor = true;
             // 
@@ -535,10 +538,10 @@ namespace GrasscutterTools.Forms
             // 
             // TPManage
             // 
-            resources.ApplyResources(this.TPManage, "TPManage");
             this.TPManage.Controls.Add(this.GrpBanPlayer);
             this.TPManage.Controls.Add(this.GrpAccount);
             this.TPManage.Controls.Add(this.GrpPermission);
+            resources.ApplyResources(this.TPManage, "TPManage");
             this.TPManage.Name = "TPManage";
             this.TPManage.UseVisualStyleBackColor = true;
             // 
@@ -556,8 +559,8 @@ namespace GrasscutterTools.Forms
             // 
             // DTPBanEndTime
             // 
-            resources.ApplyResources(this.DTPBanEndTime, "DTPBanEndTime");
             this.DTPBanEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            resources.ApplyResources(this.DTPBanEndTime, "DTPBanEndTime");
             this.DTPBanEndTime.MaxDate = new System.DateTime(2034, 12, 31, 0, 0, 0, 0);
             this.DTPBanEndTime.MinDate = new System.DateTime(2022, 6, 28, 0, 0, 0, 0);
             this.DTPBanEndTime.Name = "DTPBanEndTime";
@@ -576,14 +579,6 @@ namespace GrasscutterTools.Forms
             this.BtnBan.Name = "BtnBan";
             this.BtnBan.UseVisualStyleBackColor = true;
             this.BtnBan.Click += new System.EventHandler(this.BtnBan_Click);
-            // 
-            // TxtBanReason
-            // 
-            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
-            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtBanReason.Maximum = 0F;
-            this.TxtBanReason.Minimum = 0F;
-            this.TxtBanReason.Name = "TxtBanReason";
             // 
             // NUDBanUID
             // 
@@ -678,10 +673,10 @@ namespace GrasscutterTools.Forms
             // 
             // CmbPerm
             // 
-            resources.ApplyResources(this.CmbPerm, "CmbPerm");
             this.CmbPerm.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.CmbPerm.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.CmbPerm.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbPerm, "CmbPerm");
             this.CmbPerm.Name = "CmbPerm";
             // 
             // NUDPermUID
@@ -727,7 +722,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPScene
             // 
-            resources.ApplyResources(this.TPScene, "TPScene");
             this.TPScene.Controls.Add(this.TxtSceneFilter);
             this.TPScene.Controls.Add(this.ChkIncludeSceneId);
             this.TPScene.Controls.Add(this.LblTp);
@@ -742,6 +736,7 @@ namespace GrasscutterTools.Forms
             this.TPScene.Controls.Add(this.LblClimateType);
             this.TPScene.Controls.Add(this.LblSceneDescription);
             this.TPScene.Controls.Add(this.ListScenes);
+            resources.ApplyResources(this.TPScene, "TPScene");
             this.TPScene.Name = "TPScene";
             this.TPScene.UseVisualStyleBackColor = true;
             // 
@@ -786,12 +781,12 @@ namespace GrasscutterTools.Forms
             // 
             // NUDTpZ
             // 
-            resources.ApplyResources(this.NUDTpZ, "NUDTpZ");
             this.NUDTpZ.Increment = new decimal(new int[] {
             100,
             0,
             0,
             0});
+            resources.ApplyResources(this.NUDTpZ, "NUDTpZ");
             this.NUDTpZ.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -806,12 +801,12 @@ namespace GrasscutterTools.Forms
             // 
             // NUDTpY
             // 
-            resources.ApplyResources(this.NUDTpY, "NUDTpY");
             this.NUDTpY.Increment = new decimal(new int[] {
             100,
             0,
             0,
             0});
+            resources.ApplyResources(this.NUDTpY, "NUDTpY");
             this.NUDTpY.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -831,12 +826,12 @@ namespace GrasscutterTools.Forms
             // 
             // NUDTpX
             // 
-            resources.ApplyResources(this.NUDTpX, "NUDTpX");
             this.NUDTpX.Increment = new decimal(new int[] {
             100,
             0,
             0,
             0});
+            resources.ApplyResources(this.NUDTpX, "NUDTpX");
             this.NUDTpX.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -851,9 +846,9 @@ namespace GrasscutterTools.Forms
             // 
             // CmbClimateType
             // 
-            resources.ApplyResources(this.CmbClimateType, "CmbClimateType");
             this.CmbClimateType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbClimateType.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbClimateType, "CmbClimateType");
             this.CmbClimateType.Name = "CmbClimateType";
             this.CmbClimateType.SelectedIndexChanged += new System.EventHandler(this.CmbClimateType_SelectedIndexChanged);
             // 
@@ -876,7 +871,7 @@ namespace GrasscutterTools.Forms
             // 
             // TPItem
             // 
-            resources.ApplyResources(this.TPItem, "TPItem");
+            this.TPItem.Controls.Add(this.LblClearGiveItemLogs);
             this.TPItem.Controls.Add(this.BtnSaveGiveItemLog);
             this.TPItem.Controls.Add(this.BtnRemoveGiveItemLog);
             this.TPItem.Controls.Add(this.GrpGiveItemRecord);
@@ -888,8 +883,16 @@ namespace GrasscutterTools.Forms
             this.TPItem.Controls.Add(this.NUDGameItemAmout);
             this.TPItem.Controls.Add(this.NUDGameItemLevel);
             this.TPItem.Controls.Add(this.LblGiveCommandDescription);
+            resources.ApplyResources(this.TPItem, "TPItem");
             this.TPItem.Name = "TPItem";
             this.TPItem.UseVisualStyleBackColor = true;
+            // 
+            // LblClearGiveItemLogs
+            // 
+            resources.ApplyResources(this.LblClearGiveItemLogs, "LblClearGiveItemLogs");
+            this.LblClearGiveItemLogs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearGiveItemLogs.Name = "LblClearGiveItemLogs";
+            this.LblClearGiveItemLogs.Click += new System.EventHandler(this.LblClearGiveItemLogs_Click);
             // 
             // BtnSaveGiveItemLog
             // 
@@ -998,7 +1001,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPWeapon
             // 
-            resources.ApplyResources(this.TPWeapon, "TPWeapon");
             this.TPWeapon.Controls.Add(this.TxtWeaponFilter);
             this.TPWeapon.Controls.Add(this.LblWeaponDescription);
             this.TPWeapon.Controls.Add(this.LblWeaponRefinement);
@@ -1008,6 +1010,7 @@ namespace GrasscutterTools.Forms
             this.TPWeapon.Controls.Add(this.NUDWeaponAmout);
             this.TPWeapon.Controls.Add(this.NUDWeaponLevel);
             this.TPWeapon.Controls.Add(this.ListWeapons);
+            resources.ApplyResources(this.TPWeapon, "TPWeapon");
             this.TPWeapon.Name = "TPWeapon";
             this.TPWeapon.UseVisualStyleBackColor = true;
             // 
@@ -1104,12 +1107,27 @@ namespace GrasscutterTools.Forms
             // 
             // TPStats
             // 
-            resources.ApplyResources(this.TPStats, "TPStats");
+            this.TPStats.Controls.Add(this.LblResetStatsCommand);
+            this.TPStats.Controls.Add(this.LblResetStatsTip);
             this.TPStats.Controls.Add(this.GrpSetStats);
             this.TPStats.Controls.Add(this.GrpTalentLevel);
             this.TPStats.Controls.Add(this.LblStatsDescription);
+            resources.ApplyResources(this.TPStats, "TPStats");
             this.TPStats.Name = "TPStats";
             this.TPStats.UseVisualStyleBackColor = true;
+            // 
+            // LblResetStatsCommand
+            // 
+            resources.ApplyResources(this.LblResetStatsCommand, "LblResetStatsCommand");
+            this.LblResetStatsCommand.Name = "LblResetStatsCommand";
+            this.LblResetStatsCommand.TabStop = true;
+            this.LblResetStatsCommand.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LblResetStatsCommand_LinkClicked);
+            // 
+            // LblResetStatsTip
+            // 
+            resources.ApplyResources(this.LblResetStatsTip, "LblResetStatsTip");
+            this.LblResetStatsTip.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.LblResetStatsTip.Name = "LblResetStatsTip";
             // 
             // GrpSetStats
             // 
@@ -1150,9 +1168,9 @@ namespace GrasscutterTools.Forms
             // 
             // CmbStat
             // 
-            resources.ApplyResources(this.CmbStat, "CmbStat");
             this.CmbStat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbStat.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbStat, "CmbStat");
             this.CmbStat.Name = "CmbStat";
             this.CmbStat.SelectedIndexChanged += new System.EventHandler(this.SetStatsInputChanged);
             // 
@@ -1212,13 +1230,13 @@ namespace GrasscutterTools.Forms
             // 
             // TPAvatar
             // 
-            resources.ApplyResources(this.TPAvatar, "TPAvatar");
             this.TPAvatar.Controls.Add(this.LblAvatarGenWarning);
             this.TPAvatar.Controls.Add(this.ImgAvatar);
             this.TPAvatar.Controls.Add(this.LblAvatar);
             this.TPAvatar.Controls.Add(this.LblLevel);
             this.TPAvatar.Controls.Add(this.NUDAvatarLevel);
             this.TPAvatar.Controls.Add(this.CmbAvatar);
+            resources.ApplyResources(this.TPAvatar, "TPAvatar");
             this.TPAvatar.Name = "TPAvatar";
             this.TPAvatar.UseVisualStyleBackColor = true;
             // 
@@ -1276,7 +1294,7 @@ namespace GrasscutterTools.Forms
             // 
             // TPSpawn
             // 
-            resources.ApplyResources(this.TPSpawn, "TPSpawn");
+            this.TPSpawn.Controls.Add(this.LblClearSpawnLogs);
             this.TPSpawn.Controls.Add(this.BtnSaveSpawnLog);
             this.TPSpawn.Controls.Add(this.BtnRemoveSpawnLog);
             this.TPSpawn.Controls.Add(this.GrpSpawnRecord);
@@ -1288,8 +1306,16 @@ namespace GrasscutterTools.Forms
             this.TPSpawn.Controls.Add(this.NUDEntityLevel);
             this.TPSpawn.Controls.Add(this.TxtEntityFilter);
             this.TPSpawn.Controls.Add(this.ListEntity);
+            resources.ApplyResources(this.TPSpawn, "TPSpawn");
             this.TPSpawn.Name = "TPSpawn";
             this.TPSpawn.UseVisualStyleBackColor = true;
+            // 
+            // LblClearSpawnLogs
+            // 
+            resources.ApplyResources(this.LblClearSpawnLogs, "LblClearSpawnLogs");
+            this.LblClearSpawnLogs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearSpawnLogs.Name = "LblClearSpawnLogs";
+            this.LblClearSpawnLogs.Click += new System.EventHandler(this.LblClearSpawnLogs_Click);
             // 
             // BtnSaveSpawnLog
             // 
@@ -1322,20 +1348,11 @@ namespace GrasscutterTools.Forms
             // GrpEntityType
             // 
             resources.ApplyResources(this.GrpEntityType, "GrpEntityType");
-            this.GrpEntityType.Controls.Add(this.RbEntityOrnament);
             this.GrpEntityType.Controls.Add(this.RbEntityAnimal);
             this.GrpEntityType.Controls.Add(this.RbEntityNPC);
             this.GrpEntityType.Controls.Add(this.RbEntityMonster);
             this.GrpEntityType.Name = "GrpEntityType";
             this.GrpEntityType.TabStop = false;
-            // 
-            // RbEntityOrnament
-            // 
-            resources.ApplyResources(this.RbEntityOrnament, "RbEntityOrnament");
-            this.RbEntityOrnament.Name = "RbEntityOrnament";
-            this.RbEntityOrnament.TabStop = true;
-            this.RbEntityOrnament.UseVisualStyleBackColor = true;
-            this.RbEntityOrnament.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
             // 
             // RbEntityAnimal
             // 
@@ -1430,13 +1447,13 @@ namespace GrasscutterTools.Forms
             // 
             // TPQuest
             // 
-            resources.ApplyResources(this.TPQuest, "TPQuest");
             this.TPQuest.Controls.Add(this.GrpQuestFilters);
             this.TPQuest.Controls.Add(this.BtnFinishQuest);
             this.TPQuest.Controls.Add(this.BtnAddQuest);
             this.TPQuest.Controls.Add(this.LblQuestDescription);
             this.TPQuest.Controls.Add(this.TxtQuestFilter);
             this.TPQuest.Controls.Add(this.ListQuest);
+            resources.ApplyResources(this.TPQuest, "TPQuest");
             this.TPQuest.Name = "TPQuest";
             this.TPQuest.UseVisualStyleBackColor = true;
             // 
@@ -1508,7 +1525,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPArtifact
             // 
-            resources.ApplyResources(this.TPArtifact, "TPArtifact");
             this.TPArtifact.Controls.Add(this.LblArtifactLevelTip);
             this.TPArtifact.Controls.Add(this.BtnAddSubAttr);
             this.TPArtifact.Controls.Add(this.LblArtifactName);
@@ -1528,6 +1544,7 @@ namespace GrasscutterTools.Forms
             this.TPArtifact.Controls.Add(this.NUDArtifactLevel);
             this.TPArtifact.Controls.Add(this.LblArtifactStars);
             this.TPArtifact.Controls.Add(this.NUDArtifactStars);
+            resources.ApplyResources(this.TPArtifact, "TPArtifact");
             this.TPArtifact.Name = "TPArtifact";
             this.TPArtifact.UseVisualStyleBackColor = true;
             // 
@@ -1693,7 +1710,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPCustom
             // 
-            resources.ApplyResources(this.TPCustom, "TPCustom");
             this.TPCustom.Controls.Add(this.BtnExportCustomCommands);
             this.TPCustom.Controls.Add(this.BtnLoadCustomCommands);
             this.TPCustom.Controls.Add(this.LblCustomName);
@@ -1701,6 +1717,7 @@ namespace GrasscutterTools.Forms
             this.TPCustom.Controls.Add(this.BtnRemoveCustomCommand);
             this.TPCustom.Controls.Add(this.BtnSaveCustomCommand);
             this.TPCustom.Controls.Add(this.TxtCustomName);
+            resources.ApplyResources(this.TPCustom, "TPCustom");
             this.TPCustom.Name = "TPCustom";
             this.TPCustom.UseVisualStyleBackColor = true;
             // 
@@ -1764,12 +1781,12 @@ namespace GrasscutterTools.Forms
             // 
             // TPHome
             // 
-            resources.ApplyResources(this.TPHome, "TPHome");
             this.TPHome.Controls.Add(this.LblAbout);
             this.TPHome.Controls.Add(this.BtnOpenTextMap);
             this.TPHome.Controls.Add(this.BtnOpenGachaBannerEditor);
             this.TPHome.Controls.Add(this.pictureBox1);
             this.TPHome.Controls.Add(this.GrpSettings);
+            resources.ApplyResources(this.TPHome, "TPHome");
             this.TPHome.Name = "TPHome";
             this.TPHome.UseVisualStyleBackColor = true;
             // 
@@ -1828,9 +1845,9 @@ namespace GrasscutterTools.Forms
             // 
             // CmbLanguage
             // 
-            resources.ApplyResources(this.CmbLanguage, "CmbLanguage");
             this.CmbLanguage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbLanguage.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbLanguage, "CmbLanguage");
             this.CmbLanguage.Name = "CmbLanguage";
             this.CmbLanguage.SelectedIndexChanged += new System.EventHandler(this.CmbLanguage_SelectedIndexChanged);
             // 
@@ -1883,6 +1900,14 @@ namespace GrasscutterTools.Forms
             this.TCMain.Controls.Add(this.TPRemoteCall);
             this.TCMain.Name = "TCMain";
             this.TCMain.SelectedIndex = 0;
+            // 
+            // TxtBanReason
+            // 
+            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
+            this.TxtBanReason.Maximum = 0F;
+            this.TxtBanReason.Minimum = 0F;
+            this.TxtBanReason.Name = "TxtBanReason";
             // 
             // FormMain
             // 
@@ -2102,7 +2127,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.GroupBox GrpSpawnRecord;
         private System.Windows.Forms.ListBox ListSpawnLogs;
         private System.Windows.Forms.GroupBox GrpEntityType;
-        private System.Windows.Forms.RadioButton RbEntityOrnament;
         private System.Windows.Forms.RadioButton RbEntityAnimal;
         private System.Windows.Forms.RadioButton RbEntityNPC;
         private System.Windows.Forms.RadioButton RbEntityMonster;
@@ -2167,5 +2191,9 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Label LblDefaultUid;
         private System.Windows.Forms.TabControl TCMain;
         private System.Windows.Forms.Label LblArtifactLevelTip;
+        private System.Windows.Forms.Label LblClearSpawnLogs;
+        private System.Windows.Forms.Label LblClearGiveItemLogs;
+        private System.Windows.Forms.LinkLabel LblResetStatsCommand;
+        private System.Windows.Forms.Label LblResetStatsTip;
     }
 }
