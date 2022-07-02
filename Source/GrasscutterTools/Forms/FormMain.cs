@@ -720,16 +720,21 @@ namespace GrasscutterTools.Forms
             AvatarInputChanged();
         }
 
+        private void NUDAvatarConstellation_ValueChanged(object sender, EventArgs e)
+        {
+            AvatarInputChanged();
+        }
+
         private void AvatarInputChanged()
         {
             if (CmbAvatar.SelectedIndex >= 0)
-                GenAvatar(GameData.Avatars.Ids[CmbAvatar.SelectedIndex], (int)NUDAvatarLevel.Value);
+                GenAvatar(GameData.Avatars.Ids[CmbAvatar.SelectedIndex], (int)NUDAvatarLevel.Value, (int)NUDAvatarConstellation.Value);
         }
 
-        private void GenAvatar(int avatarId, int level)
+        private void GenAvatar(int avatarId, int level, int constellation)
         {
             if (ChkNewCommand.Checked)
-                SetCommand("/give", $"{avatarId} lv{level}");
+                SetCommand("/give", $"{avatarId} lv{level} c{constellation}");
             else
                 SetCommand("/givechar", $"{avatarId} {level}");
         }
@@ -941,24 +946,6 @@ namespace GrasscutterTools.Forms
             var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
             LblStatPercent.Visible = stat.Percent;
             LblStatTip.Text = stat.Tip;
-
-            if (CmbStat.SelectedIndex == 3 && CmbLanguage.SelectedIndex != 0)
-            {
-                GrpSetStats.Left = 19;
-                GrpSetStats.Width = 560;
-                CmbStat.Left = 160;
-                NUDStat.Left = 324;
-                LblStatTip.Left = 0;
-
-            }
-            else
-            {
-                GrpSetStats.Left = 135;
-                GrpSetStats.Width = 332;
-                CmbStat.Left = 43;
-                NUDStat.Left = 207;
-                LblStatTip.Left = 40;
-            }
 
             SetCommand("/setstats", $"{stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
         }
