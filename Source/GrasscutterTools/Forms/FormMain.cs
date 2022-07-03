@@ -562,7 +562,7 @@ namespace GrasscutterTools.Forms
         private void InitWeapons()
         {
             ListWeapons.Items.Clear();
-            ListWeapons.Items.AddRange(GameData.Weapons.Names);
+            ListWeapons.Items.AddRange(GameData.Weapons.Lines);
         }
 
         private void TxtWeaponFilter_TextChanged(object sender, EventArgs e)
@@ -570,16 +570,16 @@ namespace GrasscutterTools.Forms
             var filter = TxtWeaponFilter.Text.Trim();
             ListWeapons.BeginUpdate();
             ListWeapons.Items.Clear();
-            ListWeapons.Items.AddRange(GameData.Weapons.Names.Where(n => n.Contains(filter)).ToArray());
+            ListWeapons.Items.AddRange(GameData.Weapons.Lines.Where(n => n.Contains(filter)).ToArray());
             ListWeapons.EndUpdate();
         }
 
         private void WeaponValueChanged(object sender, EventArgs e)
         {
-            if (ListWeapons.SelectedIndex >= 0)
+            var name = ListWeapons.SelectedItem as string;
+            if (!string.IsNullOrEmpty(name))
             {
-                // 错误未修复: 无法对应搜索的结果给予武器
-                var id = GameData.Weapons.Ids[ListWeapons.SelectedIndex];
+                var id = name.Substring(0, name.IndexOf(':')).Trim();
                 if (ChkNewCommand.Checked)
                     SetCommand("/give", $"{id} x{NUDWeaponAmout.Value} lv{NUDWeaponLevel.Value} r{NUDWeaponRefinement.Value}");
                 else
@@ -693,8 +693,11 @@ namespace GrasscutterTools.Forms
 
         private void LblClearGiveItemLogs_Click(object sender, EventArgs e)
         {
-            GiveItemCommands.Clear();
-            ListGiveItemLogs.Items.Clear();
+            if (MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                GiveItemCommands.Clear();
+                ListGiveItemLogs.Items.Clear();
+            }
         }
 
         #endregion -- 物品记录 --
@@ -857,8 +860,11 @@ namespace GrasscutterTools.Forms
 
         private void LblClearSpawnLogs_Click(object sender, EventArgs e)
         {
-            SpawnCommands.Clear();
-            ListSpawnLogs.Items.Clear();
+            if (MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                SpawnCommands.Clear();
+                ListSpawnLogs.Items.Clear();
+            }
         }
 
         #endregion -- 生成记录 --

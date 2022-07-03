@@ -190,12 +190,6 @@
   <data name="IconGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconGrasscutter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ImgIconGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconGrasscutter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImgSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ImgSupport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Item" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Item.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
@@ -215,9 +209,6 @@ Do you want to check for updates? Selecting No will no longer remind you of this
   </data>
   <data name="OpenCommandHelp" xml:space="preserve">
     <value>1. Fill in the correct uid\n2. Send verification code to player\n3. Enter the correct verification code\n4. Connection\n5. Enjoy</value>
-  </data>
-  <data name="Ornament" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\en-us\Ornament.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="PermissionCannotBeEmpty" xml:space="preserve">
     <value>Permission cannot be empty!</value>
