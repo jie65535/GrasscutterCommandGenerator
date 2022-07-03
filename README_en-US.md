@@ -19,13 +19,14 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
 ---
 
 ## TODO List
-  - [ ] Multi-language support
+  - [x] Multi-language support
     - [x] Simplified Chinese
     - [x] English
     - [x] Russian
   - [x] Execute command remotely
-  - [ ] Mail Editor (no progress)
-  - [ ] Shop Editor (no progress)
+  - [ ] ~~Mail Editor (no progress)~~
+  - [ ] ~~Shop Editor (no progress)~~
+  - [ ] Announcement Editor (no progress)
 
 ## Screenshots
 
