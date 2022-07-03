@@ -190,12 +190,6 @@
   <data name="IconGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconGrasscutter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ImgIconGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconGrasscutter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImgSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ImgSupport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Item" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\Item.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
@@ -215,9 +209,6 @@
   </data>
   <data name="OpenCommandHelp" xml:space="preserve">
     <value>1. Заполните правильный uid\n2. Отправьте проверочный код игроку\n3. Введите правильный проверочный код\n4. Соединение\n5. Наслаждаться</value>
-  </data>
-  <data name="Ornament" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\Ornament.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="PermissionCannotBeEmpty" xml:space="preserve">
     <value>Разрешение не может быть пустым!</value>

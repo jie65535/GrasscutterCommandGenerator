@@ -1,4 +1,4 @@
-﻿/**
+/**
  *  Grasscutter Tools
  *  Copyright (C) 2022 jie65535
  *
@@ -37,7 +37,6 @@ namespace GrasscutterTools.Game
             Scenes = new ItemMap(Resources.Scene);
             Weapons = new ItemMap(Resources.Weapon);
             WeaponColors = new ItemMap(Resources.WeaponColor);
-            Ornaments = new ItemMap(Resources.Ornament);
             GachaBannerPrefabs = new ItemMap(Resources.GachaBennerPrefab);
             Quests = new ItemMap(Resources.Quest);
         }
@@ -67,8 +66,6 @@ namespace GrasscutterTools.Game
         public static ItemMap Weapons { get; private set; }
 
         public static ItemMap WeaponColors { get; private set; }
-
-        public static ItemMap Ornaments { get; private set; }
 
         public static ItemMap GachaBannerPrefabs { get; private set; }
 

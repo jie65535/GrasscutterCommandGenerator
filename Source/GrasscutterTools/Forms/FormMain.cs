@@ -163,7 +163,7 @@ namespace GrasscutterTools.Forms
 #endif
         }
 
-        // 合并后给予的圣遗物等级与游戏内对应
+        // 新命令给予的圣遗物等级与游戏内对应
         private void ChangeTPArtifact()
         {
             if (ChkNewCommand.Checked)
@@ -562,7 +562,7 @@ namespace GrasscutterTools.Forms
         private void InitWeapons()
         {
             ListWeapons.Items.Clear();
-            ListWeapons.Items.AddRange(GameData.Weapons.Names);
+            ListWeapons.Items.AddRange(GameData.Weapons.Lines);
         }
 
         private void TxtWeaponFilter_TextChanged(object sender, EventArgs e)
@@ -570,15 +570,16 @@ namespace GrasscutterTools.Forms
             var filter = TxtWeaponFilter.Text.Trim();
             ListWeapons.BeginUpdate();
             ListWeapons.Items.Clear();
-            ListWeapons.Items.AddRange(GameData.Weapons.Names.Where(n => n.Contains(filter)).ToArray());
+            ListWeapons.Items.AddRange(GameData.Weapons.Lines.Where(n => n.Contains(filter)).ToArray());
             ListWeapons.EndUpdate();
         }
 
         private void WeaponValueChanged(object sender, EventArgs e)
         {
-            if (ListWeapons.SelectedIndex >= 0)
+            var name = ListWeapons.SelectedItem as string;
+            if (!string.IsNullOrEmpty(name))
             {
-                var id = GameData.Weapons.Ids[ListWeapons.SelectedIndex];
+                var id = name.Substring(0, name.IndexOf(':')).Trim();
                 if (ChkNewCommand.Checked)
                     SetCommand("/give", $"{id} x{NUDWeaponAmout.Value} lv{NUDWeaponLevel.Value} r{NUDWeaponRefinement.Value}");
                 else
@@ -690,6 +691,15 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        private void LblClearGiveItemLogs_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                GiveItemCommands.Clear();
+                ListGiveItemLogs.Items.Clear();
+            }
+        }
+
         #endregion -- 物品记录 --
 
         #endregion - 物品 -
@@ -713,16 +723,21 @@ namespace GrasscutterTools.Forms
             AvatarInputChanged();
         }
 
+        private void NUDAvatarConstellation_ValueChanged(object sender, EventArgs e)
+        {
+            AvatarInputChanged();
+        }
+
         private void AvatarInputChanged()
         {
             if (CmbAvatar.SelectedIndex >= 0)
-                GenAvatar(GameData.Avatars.Ids[CmbAvatar.SelectedIndex], (int)NUDAvatarLevel.Value);
+                GenAvatar(GameData.Avatars.Ids[CmbAvatar.SelectedIndex], (int)NUDAvatarLevel.Value, (int)NUDAvatarConstellation.Value);
         }
 
-        private void GenAvatar(int avatarId, int level)
+        private void GenAvatar(int avatarId, int level, int constellation)
         {
             if (ChkNewCommand.Checked)
-                SetCommand("/give", $"{avatarId} lv{level}");
+                SetCommand("/give", $"{avatarId} lv{level} c{constellation}");
             else
                 SetCommand("/givechar", $"{avatarId} {level}");
         }
@@ -736,7 +751,6 @@ namespace GrasscutterTools.Forms
             RbEntityAnimal.Tag = GameData.Animals.Lines;
             RbEntityMonster.Tag = GameData.Monsters.Lines;
             RbEntityNPC.Tag = GameData.NPCs.Lines;
-            RbEntityOrnament.Tag = GameData.Ornaments.Lines;
             RbEntityAnimal.Checked = true;
         }
 
@@ -844,6 +858,15 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        private void LblClearSpawnLogs_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                SpawnCommands.Clear();
+                ListSpawnLogs.Items.Clear();
+            }
+        }
+
         #endregion -- 生成记录 --
 
         #endregion - 生成 -
@@ -878,7 +901,8 @@ namespace GrasscutterTools.Forms
             ChkIncludeSceneId.Enabled = true;
 
             // 可以直接弃用 scene 命令
-            var id = GameData.Scenes.Ids[ListScenes.SelectedIndex];
+            var name = ListScenes.SelectedItem as string;
+            var id = name.Substring(0, name.IndexOf(':')).Trim();
             if (!ChkNewCommand.Checked)
             {
                 SetCommand("/scene", id.ToString());
@@ -910,7 +934,7 @@ namespace GrasscutterTools.Forms
 
         #endregion - 场景 -
 
-        #region - 状态 -
+        #region - 数据 -
 
         private void InitStatList()
         {
@@ -937,7 +961,12 @@ namespace GrasscutterTools.Forms
             SetCommand("/talent", $"{(sender as LinkLabel).Tag} {NUDTalentLevel.Value}");
         }
 
-        #endregion - 状态 -
+        private void LblResetStatsCommand_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            SetCommand("/give 101");
+        }
+
+        #endregion - 数据 -
 
         #region - 管理 -
 

@@ -61,7 +61,7 @@ namespace GrasscutterTools.Forms
             this.BtnQueryServerStatus = new System.Windows.Forms.Button();
             this.LblHost = new System.Windows.Forms.Label();
             this.TPAbout = new System.Windows.Forms.TabPage();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.GrasscutterToolsSupport = new System.Windows.Forms.PictureBox();
             this.LnkGithub = new System.Windows.Forms.LinkLabel();
             this.LblSupportDescription = new System.Windows.Forms.Label();
             this.TPManage = new System.Windows.Forms.TabPage();
@@ -102,6 +102,7 @@ namespace GrasscutterTools.Forms
             this.LblSceneDescription = new System.Windows.Forms.Label();
             this.ListScenes = new System.Windows.Forms.ListBox();
             this.TPItem = new System.Windows.Forms.TabPage();
+            this.LblClearGiveItemLogs = new System.Windows.Forms.Label();
             this.BtnSaveGiveItemLog = new System.Windows.Forms.Button();
             this.BtnRemoveGiveItemLog = new System.Windows.Forms.Button();
             this.GrpGiveItemRecord = new System.Windows.Forms.GroupBox();
@@ -125,6 +126,8 @@ namespace GrasscutterTools.Forms
             this.NUDWeaponLevel = new System.Windows.Forms.NumericUpDown();
             this.ListWeapons = new System.Windows.Forms.ListBox();
             this.TPStats = new System.Windows.Forms.TabPage();
+            this.LblResetStatsCommand = new System.Windows.Forms.LinkLabel();
+            this.LblResetStatsTip = new System.Windows.Forms.Label();
             this.GrpSetStats = new System.Windows.Forms.GroupBox();
             this.LblStatTip = new System.Windows.Forms.Label();
             this.LblStatPercent = new System.Windows.Forms.Label();
@@ -137,19 +140,22 @@ namespace GrasscutterTools.Forms
             this.NUDTalentLevel = new System.Windows.Forms.NumericUpDown();
             this.LblStatsDescription = new System.Windows.Forms.Label();
             this.TPAvatar = new System.Windows.Forms.TabPage();
+            this.LblNewCommandTip = new System.Windows.Forms.Label();
+            this.LblAvatarConstellation = new System.Windows.Forms.Label();
+            this.NUDAvatarConstellation = new System.Windows.Forms.NumericUpDown();
             this.LblAvatarGenWarning = new System.Windows.Forms.Label();
             this.ImgAvatar = new System.Windows.Forms.PictureBox();
             this.LblAvatar = new System.Windows.Forms.Label();
-            this.LblLevel = new System.Windows.Forms.Label();
+            this.LblAvatarLevel = new System.Windows.Forms.Label();
             this.NUDAvatarLevel = new System.Windows.Forms.NumericUpDown();
             this.CmbAvatar = new System.Windows.Forms.ComboBox();
             this.TPSpawn = new System.Windows.Forms.TabPage();
+            this.LblClearSpawnLogs = new System.Windows.Forms.Label();
             this.BtnSaveSpawnLog = new System.Windows.Forms.Button();
             this.BtnRemoveSpawnLog = new System.Windows.Forms.Button();
             this.GrpSpawnRecord = new System.Windows.Forms.GroupBox();
             this.ListSpawnLogs = new System.Windows.Forms.ListBox();
             this.GrpEntityType = new System.Windows.Forms.GroupBox();
-            this.RbEntityOrnament = new System.Windows.Forms.RadioButton();
             this.RbEntityAnimal = new System.Windows.Forms.RadioButton();
             this.RbEntityNPC = new System.Windows.Forms.RadioButton();
             this.RbEntityMonster = new System.Windows.Forms.RadioButton();
@@ -204,7 +210,7 @@ namespace GrasscutterTools.Forms
             this.LblAbout = new System.Windows.Forms.Label();
             this.BtnOpenTextMap = new System.Windows.Forms.Button();
             this.BtnOpenGachaBannerEditor = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.GrasscutterToolsIcon = new System.Windows.Forms.PictureBox();
             this.GrpSettings = new System.Windows.Forms.GroupBox();
             this.ChkTopMost = new System.Windows.Forms.CheckBox();
             this.ChkNewCommand = new System.Windows.Forms.CheckBox();
@@ -224,7 +230,7 @@ namespace GrasscutterTools.Forms
             ((System.ComponentModel.ISupportInitialize)(this.NUDVerificationCode)).BeginInit();
             this.TPConsoleCheck.SuspendLayout();
             this.TPAbout.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GrasscutterToolsSupport)).BeginInit();
             this.TPManage.SuspendLayout();
             this.GrpBanPlayer.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDBanUID)).BeginInit();
@@ -250,6 +256,7 @@ namespace GrasscutterTools.Forms
             this.GrpTalentLevel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTalentLevel)).BeginInit();
             this.TPAvatar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDAvatarConstellation)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgAvatar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDAvatarLevel)).BeginInit();
             this.TPSpawn.SuspendLayout();
@@ -266,7 +273,7 @@ namespace GrasscutterTools.Forms
             this.TPCustom.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.TPHome.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GrasscutterToolsIcon)).BeginInit();
             this.GrpSettings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDUid)).BeginInit();
             this.TCMain.SuspendLayout();
@@ -508,18 +515,18 @@ namespace GrasscutterTools.Forms
             // TPAbout
             // 
             resources.ApplyResources(this.TPAbout, "TPAbout");
-            this.TPAbout.Controls.Add(this.pictureBox2);
+            this.TPAbout.Controls.Add(this.GrasscutterToolsSupport);
             this.TPAbout.Controls.Add(this.LnkGithub);
             this.TPAbout.Controls.Add(this.LblSupportDescription);
             this.TPAbout.Name = "TPAbout";
             this.TPAbout.UseVisualStyleBackColor = true;
             // 
-            // pictureBox2
+            // GrasscutterToolsSupport
             // 
-            resources.ApplyResources(this.pictureBox2, "pictureBox2");
-            this.pictureBox2.Image = global::GrasscutterTools.Properties.Resources.ImgSupport;
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.TabStop = false;
+            resources.ApplyResources(this.GrasscutterToolsSupport, "GrasscutterToolsSupport");
+            this.GrasscutterToolsSupport.Image = global::GrasscutterTools.Properties.Resources.ImgSupport;
+            this.GrasscutterToolsSupport.Name = "GrasscutterToolsSupport";
+            this.GrasscutterToolsSupport.TabStop = false;
             // 
             // LnkGithub
             // 
@@ -877,6 +884,7 @@ namespace GrasscutterTools.Forms
             // TPItem
             // 
             resources.ApplyResources(this.TPItem, "TPItem");
+            this.TPItem.Controls.Add(this.LblClearGiveItemLogs);
             this.TPItem.Controls.Add(this.BtnSaveGiveItemLog);
             this.TPItem.Controls.Add(this.BtnRemoveGiveItemLog);
             this.TPItem.Controls.Add(this.GrpGiveItemRecord);
@@ -890,6 +898,13 @@ namespace GrasscutterTools.Forms
             this.TPItem.Controls.Add(this.LblGiveCommandDescription);
             this.TPItem.Name = "TPItem";
             this.TPItem.UseVisualStyleBackColor = true;
+            // 
+            // LblClearGiveItemLogs
+            // 
+            resources.ApplyResources(this.LblClearGiveItemLogs, "LblClearGiveItemLogs");
+            this.LblClearGiveItemLogs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearGiveItemLogs.Name = "LblClearGiveItemLogs";
+            this.LblClearGiveItemLogs.Click += new System.EventHandler(this.LblClearGiveItemLogs_Click);
             // 
             // BtnSaveGiveItemLog
             // 
@@ -1105,11 +1120,26 @@ namespace GrasscutterTools.Forms
             // TPStats
             // 
             resources.ApplyResources(this.TPStats, "TPStats");
+            this.TPStats.Controls.Add(this.LblResetStatsCommand);
+            this.TPStats.Controls.Add(this.LblResetStatsTip);
             this.TPStats.Controls.Add(this.GrpSetStats);
             this.TPStats.Controls.Add(this.GrpTalentLevel);
             this.TPStats.Controls.Add(this.LblStatsDescription);
             this.TPStats.Name = "TPStats";
             this.TPStats.UseVisualStyleBackColor = true;
+            // 
+            // LblResetStatsCommand
+            // 
+            resources.ApplyResources(this.LblResetStatsCommand, "LblResetStatsCommand");
+            this.LblResetStatsCommand.Name = "LblResetStatsCommand";
+            this.LblResetStatsCommand.TabStop = true;
+            this.LblResetStatsCommand.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LblResetStatsCommand_LinkClicked);
+            // 
+            // LblResetStatsTip
+            // 
+            resources.ApplyResources(this.LblResetStatsTip, "LblResetStatsTip");
+            this.LblResetStatsTip.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.LblResetStatsTip.Name = "LblResetStatsTip";
             // 
             // GrpSetStats
             // 
@@ -1124,6 +1154,7 @@ namespace GrasscutterTools.Forms
             // LblStatTip
             // 
             resources.ApplyResources(this.LblStatTip, "LblStatTip");
+            this.LblStatTip.AutoEllipsis = true;
             this.LblStatTip.ForeColor = System.Drawing.SystemColors.GrayText;
             this.LblStatTip.Name = "LblStatTip";
             // 
@@ -1213,14 +1244,44 @@ namespace GrasscutterTools.Forms
             // TPAvatar
             // 
             resources.ApplyResources(this.TPAvatar, "TPAvatar");
+            this.TPAvatar.Controls.Add(this.LblNewCommandTip);
+            this.TPAvatar.Controls.Add(this.LblAvatarConstellation);
+            this.TPAvatar.Controls.Add(this.NUDAvatarConstellation);
             this.TPAvatar.Controls.Add(this.LblAvatarGenWarning);
             this.TPAvatar.Controls.Add(this.ImgAvatar);
             this.TPAvatar.Controls.Add(this.LblAvatar);
-            this.TPAvatar.Controls.Add(this.LblLevel);
+            this.TPAvatar.Controls.Add(this.LblAvatarLevel);
             this.TPAvatar.Controls.Add(this.NUDAvatarLevel);
             this.TPAvatar.Controls.Add(this.CmbAvatar);
             this.TPAvatar.Name = "TPAvatar";
             this.TPAvatar.UseVisualStyleBackColor = true;
+            // 
+            // LblNewCommandTip
+            // 
+            resources.ApplyResources(this.LblNewCommandTip, "LblNewCommandTip");
+            this.LblNewCommandTip.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.LblNewCommandTip.Name = "LblNewCommandTip";
+            // 
+            // LblAvatarConstellation
+            // 
+            resources.ApplyResources(this.LblAvatarConstellation, "LblAvatarConstellation");
+            this.LblAvatarConstellation.Name = "LblAvatarConstellation";
+            // 
+            // NUDAvatarConstellation
+            // 
+            resources.ApplyResources(this.NUDAvatarConstellation, "NUDAvatarConstellation");
+            this.NUDAvatarConstellation.Maximum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.NUDAvatarConstellation.Name = "NUDAvatarConstellation";
+            this.NUDAvatarConstellation.Value = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.NUDAvatarConstellation.ValueChanged += new System.EventHandler(this.NUDAvatarConstellation_ValueChanged);
             // 
             // LblAvatarGenWarning
             // 
@@ -1240,10 +1301,10 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.LblAvatar, "LblAvatar");
             this.LblAvatar.Name = "LblAvatar";
             // 
-            // LblLevel
+            // LblAvatarLevel
             // 
-            resources.ApplyResources(this.LblLevel, "LblLevel");
-            this.LblLevel.Name = "LblLevel";
+            resources.ApplyResources(this.LblAvatarLevel, "LblAvatarLevel");
+            this.LblAvatarLevel.Name = "LblAvatarLevel";
             // 
             // NUDAvatarLevel
             // 
@@ -1277,6 +1338,7 @@ namespace GrasscutterTools.Forms
             // TPSpawn
             // 
             resources.ApplyResources(this.TPSpawn, "TPSpawn");
+            this.TPSpawn.Controls.Add(this.LblClearSpawnLogs);
             this.TPSpawn.Controls.Add(this.BtnSaveSpawnLog);
             this.TPSpawn.Controls.Add(this.BtnRemoveSpawnLog);
             this.TPSpawn.Controls.Add(this.GrpSpawnRecord);
@@ -1290,6 +1352,13 @@ namespace GrasscutterTools.Forms
             this.TPSpawn.Controls.Add(this.ListEntity);
             this.TPSpawn.Name = "TPSpawn";
             this.TPSpawn.UseVisualStyleBackColor = true;
+            // 
+            // LblClearSpawnLogs
+            // 
+            resources.ApplyResources(this.LblClearSpawnLogs, "LblClearSpawnLogs");
+            this.LblClearSpawnLogs.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearSpawnLogs.Name = "LblClearSpawnLogs";
+            this.LblClearSpawnLogs.Click += new System.EventHandler(this.LblClearSpawnLogs_Click);
             // 
             // BtnSaveSpawnLog
             // 
@@ -1322,20 +1391,11 @@ namespace GrasscutterTools.Forms
             // GrpEntityType
             // 
             resources.ApplyResources(this.GrpEntityType, "GrpEntityType");
-            this.GrpEntityType.Controls.Add(this.RbEntityOrnament);
             this.GrpEntityType.Controls.Add(this.RbEntityAnimal);
             this.GrpEntityType.Controls.Add(this.RbEntityNPC);
             this.GrpEntityType.Controls.Add(this.RbEntityMonster);
             this.GrpEntityType.Name = "GrpEntityType";
             this.GrpEntityType.TabStop = false;
-            // 
-            // RbEntityOrnament
-            // 
-            resources.ApplyResources(this.RbEntityOrnament, "RbEntityOrnament");
-            this.RbEntityOrnament.Name = "RbEntityOrnament";
-            this.RbEntityOrnament.TabStop = true;
-            this.RbEntityOrnament.UseVisualStyleBackColor = true;
-            this.RbEntityOrnament.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
             // 
             // RbEntityAnimal
             // 
@@ -1768,7 +1828,7 @@ namespace GrasscutterTools.Forms
             this.TPHome.Controls.Add(this.LblAbout);
             this.TPHome.Controls.Add(this.BtnOpenTextMap);
             this.TPHome.Controls.Add(this.BtnOpenGachaBannerEditor);
-            this.TPHome.Controls.Add(this.pictureBox1);
+            this.TPHome.Controls.Add(this.GrasscutterToolsIcon);
             this.TPHome.Controls.Add(this.GrpSettings);
             this.TPHome.Name = "TPHome";
             this.TPHome.UseVisualStyleBackColor = true;
@@ -1792,12 +1852,12 @@ namespace GrasscutterTools.Forms
             this.BtnOpenGachaBannerEditor.UseVisualStyleBackColor = true;
             this.BtnOpenGachaBannerEditor.Click += new System.EventHandler(this.BtnOpenGachaBannerEditor_Click);
             // 
-            // pictureBox1
+            // GrasscutterToolsIcon
             // 
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Image = global::GrasscutterTools.Properties.Resources.ImgIconGrasscutter;
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
+            resources.ApplyResources(this.GrasscutterToolsIcon, "GrasscutterToolsIcon");
+            this.GrasscutterToolsIcon.Image = global::GrasscutterTools.Properties.Resources.ImgIconGrasscutter;
+            this.GrasscutterToolsIcon.Name = "GrasscutterToolsIcon";
+            this.GrasscutterToolsIcon.TabStop = false;
             // 
             // GrpSettings
             // 
@@ -1911,7 +1971,7 @@ namespace GrasscutterTools.Forms
             this.TPConsoleCheck.PerformLayout();
             this.TPAbout.ResumeLayout(false);
             this.TPAbout.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GrasscutterToolsSupport)).EndInit();
             this.TPManage.ResumeLayout(false);
             this.GrpBanPlayer.ResumeLayout(false);
             this.GrpBanPlayer.PerformLayout();
@@ -1947,6 +2007,7 @@ namespace GrasscutterTools.Forms
             ((System.ComponentModel.ISupportInitialize)(this.NUDTalentLevel)).EndInit();
             this.TPAvatar.ResumeLayout(false);
             this.TPAvatar.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDAvatarConstellation)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ImgAvatar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDAvatarLevel)).EndInit();
             this.TPSpawn.ResumeLayout(false);
@@ -1971,7 +2032,7 @@ namespace GrasscutterTools.Forms
             this.groupBox1.PerformLayout();
             this.TPHome.ResumeLayout(false);
             this.TPHome.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.GrasscutterToolsIcon)).EndInit();
             this.GrpSettings.ResumeLayout(false);
             this.GrpSettings.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDUid)).EndInit();
@@ -2014,7 +2075,7 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Button BtnQueryServerStatus;
         private System.Windows.Forms.Label LblHost;
         private System.Windows.Forms.TabPage TPAbout;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox GrasscutterToolsSupport;
         private System.Windows.Forms.LinkLabel LnkGithub;
         private System.Windows.Forms.Label LblSupportDescription;
         private System.Windows.Forms.TabPage TPManage;
@@ -2093,7 +2154,7 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Label LblAvatarGenWarning;
         private System.Windows.Forms.PictureBox ImgAvatar;
         private System.Windows.Forms.Label LblAvatar;
-        private System.Windows.Forms.Label LblLevel;
+        private System.Windows.Forms.Label LblAvatarLevel;
         private System.Windows.Forms.NumericUpDown NUDAvatarLevel;
         private System.Windows.Forms.ComboBox CmbAvatar;
         private System.Windows.Forms.TabPage TPSpawn;
@@ -2102,7 +2163,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.GroupBox GrpSpawnRecord;
         private System.Windows.Forms.ListBox ListSpawnLogs;
         private System.Windows.Forms.GroupBox GrpEntityType;
-        private System.Windows.Forms.RadioButton RbEntityOrnament;
         private System.Windows.Forms.RadioButton RbEntityAnimal;
         private System.Windows.Forms.RadioButton RbEntityNPC;
         private System.Windows.Forms.RadioButton RbEntityMonster;
@@ -2156,7 +2216,7 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Label LblAbout;
         private System.Windows.Forms.Button BtnOpenTextMap;
         private System.Windows.Forms.Button BtnOpenGachaBannerEditor;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox GrasscutterToolsIcon;
         private System.Windows.Forms.GroupBox GrpSettings;
         private System.Windows.Forms.CheckBox ChkTopMost;
         private System.Windows.Forms.CheckBox ChkNewCommand;
@@ -2167,5 +2227,12 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Label LblDefaultUid;
         private System.Windows.Forms.TabControl TCMain;
         private System.Windows.Forms.Label LblArtifactLevelTip;
+        private System.Windows.Forms.Label LblClearSpawnLogs;
+        private System.Windows.Forms.Label LblClearGiveItemLogs;
+        private System.Windows.Forms.LinkLabel LblResetStatsCommand;
+        private System.Windows.Forms.Label LblResetStatsTip;
+        private System.Windows.Forms.Label LblAvatarConstellation;
+        private System.Windows.Forms.NumericUpDown NUDAvatarConstellation;
+        private System.Windows.Forms.Label LblNewCommandTip;
     }
 }

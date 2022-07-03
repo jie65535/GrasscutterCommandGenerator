@@ -245,10 +245,6 @@
   <data name="TPAbout.Text" xml:space="preserve">
     <value>Справка</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LnkGithub.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
   <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>355, 68</value>
   </data>
@@ -454,6 +450,12 @@
   <data name="TPItem.Text" xml:space="preserve">
     <value>Предметы</value>
   </data>
+  <data name="LblClearGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="LblClearGiveItemLogs.Text" xml:space="preserve">
+    <value>X Очистить</value>
+  </data>
   <data name="BtnSaveGiveItemLog.Text" xml:space="preserve">
     <value>√ Запись</value>
   </data>
@@ -547,11 +549,26 @@
   <data name="TPStats.Text" xml:space="preserve">
     <value>Статы</value>
   </data>
+  <data name="LblResetStatsCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 135</value>
+  </data>
+  <data name="LblResetStatsCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
+  </data>
+  <data name="LblResetStatsCommand.Text" xml:space="preserve">
+    <value>При получении AEP</value>
+  </data>
+  <data name="LblResetStatsTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>214, 135</value>
+  </data>
+  <data name="LblResetStatsTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>301, 17</value>
+  </data>
+  <data name="LblResetStatsTip.Text" xml:space="preserve">
+    <value>атрибуты текущего персонажа будут сброшены</value>
+  </data>
   <data name="GrpSetStats.Text" xml:space="preserve">
     <value>Статистика</value>
-  </data>
-  <data name="LblStatTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 17</value>
   </data>
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>Совет</value>
@@ -598,11 +615,29 @@
   <data name="TPAvatar.Text" xml:space="preserve">
     <value>Персонаж</value>
   </data>
+  <data name="LblNewCommandTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 155</value>
+  </data>
+  <data name="LblNewCommandTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 17</value>
+  </data>
+  <data name="LblNewCommandTip.Text" xml:space="preserve">
+    <value>※доступно в новой команде</value>
+  </data>
+  <data name="LblAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 131</value>
+  </data>
+  <data name="LblAvatarConstellation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
+  </data>
+  <data name="LblAvatarConstellation.Text" xml:space="preserve">
+    <value>Созвездия</value>
+  </data>
+  <data name="NUDAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 129</value>
+  </data>
   <data name="LblAvatarGenWarning.Font" type="System.Drawing.Font, System.Drawing">
     <value>微软雅黑, 8pt, style=Bold</value>
-  </data>
-  <data name="LblAvatarGenWarning.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 160</value>
   </data>
   <data name="LblAvatarGenWarning.Size" type="System.Drawing.Size, System.Drawing">
     <value>575, 48</value>
@@ -613,7 +648,7 @@
 Данные могут не быть удалены, даже если учетная запись будет создана заново.</value>
   </data>
   <data name="LblAvatar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 216</value>
+    <value>360, 37</value>
   </data>
   <data name="LblAvatar.Size" type="System.Drawing.Size, System.Drawing">
     <value>71, 17</value>
@@ -621,35 +656,41 @@
   <data name="LblAvatar.Text" xml:space="preserve">
     <value>Персонаж</value>
   </data>
-  <data name="LblLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 216</value>
+  <data name="LblAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 84</value>
   </data>
-  <data name="LblLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 17</value>
+  <data name="LblAvatarLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
   </data>
-  <data name="LblLevel.Text" xml:space="preserve">
-    <value>Ур.</value>
+  <data name="LblAvatarLevel.Text" xml:space="preserve">
+    <value>Уровень</value>
   </data>
   <data name="NUDAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>418, 214</value>
+    <value>444, 82</value>
   </data>
   <data name="CmbAvatar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>186, 214</value>
-  </data>
-  <data name="CmbAvatar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 25</value>
+    <value>444, 34</value>
   </data>
   <data name="TPSpawn.Text" xml:space="preserve">
     <value>Спавн</value>
   </data>
+  <data name="LblClearSpawnLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 218</value>
+  </data>
+  <data name="LblClearSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
+  </data>
+  <data name="LblClearSpawnLogs.Text" xml:space="preserve">
+    <value>X Очистить</value>
+  </data>
   <data name="BtnSaveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 31</value>
+    <value>266, 31</value>
   </data>
   <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
     <value>√ Запись</value>
   </data>
   <data name="BtnRemoveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 60</value>
+    <value>266, 62</value>
   </data>
   <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
     <value>× Удалить</value>
@@ -664,19 +705,13 @@
     <value>234, 162</value>
   </data>
   <data name="GrpEntityType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 101</value>
+    <value>256, 94</value>
   </data>
   <data name="GrpEntityType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 134</value>
+    <value>97, 117</value>
   </data>
   <data name="GrpEntityType.Text" xml:space="preserve">
     <value>Класс</value>
-  </data>
-  <data name="RbEntityOrnament.Size" type="System.Drawing.Size, System.Drawing">
-    <value>88, 21</value>
-  </data>
-  <data name="RbEntityOrnament.Text" xml:space="preserve">
-    <value>Орнамент</value>
   </data>
   <data name="RbEntityAnimal.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 21</value>
@@ -702,20 +737,14 @@
   <data name="LblEntityAmount.Text" xml:space="preserve">
     <value>Кол.</value>
   </data>
-  <data name="LblEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 218</value>
-  </data>
   <data name="LblEntityLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>26, 17</value>
   </data>
   <data name="LblEntityLevel.Text" xml:space="preserve">
     <value>Ур.</value>
   </data>
-  <data name="NUDEntityAmout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 216</value>
-  </data>
   <data name="NUDEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 216</value>
+    <value>129, 216</value>
   </data>
   <data name="TPQuest.Text" xml:space="preserve">
     <value>Квест</value>
