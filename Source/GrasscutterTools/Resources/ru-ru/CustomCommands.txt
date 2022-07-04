@@ -1,19 +1,19 @@
 Непобедимый
-/prop godmode on
+/prop god on
 Неограниченная выносливость
-/prop nostamina on
+/prop ns on
 бесконечная энергия
-/prop unlimitedenergy on
+/prop ue on
 60 ранг приключений
 /give 102 x1880200
 Уровень мира
-/prop worldlevel 8
+/prop wl 8
 Разгадка бездны
-/prop abyss 12
+/prop ut 12
 Уровень дружбы
 /setfetterlevel 10
 Лечение
-/heal
+/h
 Самоубийство
 /kill 0
 Наполнить энергией
