@@ -12,19 +12,19 @@
     "Tip": ""
   },
   {
-    "Name": "Current Atk",
+    "Name": "Current ATK",
     "ArgName": "atk",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "Base Atk",
+    "Name": "Base ATK",
     "ArgName": "atkb",
     "Percent": false,
     "Tip": "This doesn't seem to get used to recalculate ATK, so it's only useful for stuff like Bennett's buff."
   },
   {
-    "Name": "Defense",
+    "Name": "DEF",
     "ArgName": "def",
     "Percent": false,
     "Tip": "This doesn't seem to work."
@@ -36,13 +36,13 @@
     "Tip": ""
   },
   {
-    "Name": "Crit Rate",
+    "Name": "CRIT Rate",
     "ArgName": "crate",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Crit Dmg",
+    "Name": "CRIT DMG",
     "ArgName": "cdmg",
     "Percent": true,
     "Tip": ""
@@ -78,7 +78,7 @@
     "Tip": ""
   },
   {
-    "Name": "Pyro Dmg Bonus",
+    "Name": "Pyro DMG Bonus",
     "ArgName": "epyro",
     "Percent": true,
     "Tip": ""
@@ -90,7 +90,7 @@
     "Tip": ""
   },
   {
-    "Name": "Hydro Dmg Bonus",
+    "Name": "Hydro DMG Bonus",
     "ArgName": "ehydro",
     "Percent": true,
     "Tip": ""
@@ -102,7 +102,7 @@
     "Tip": ""
   },
   {
-    "Name": "Dendro Dmg Bonus",
+    "Name": "Dendro DMG Bonus",
     "ArgName": "edendro",
     "Percent": true,
     "Tip": ""
@@ -114,7 +114,7 @@
     "Tip": ""
   },
   {
-    "Name": "Electro Dmg Bons",
+    "Name": "Electro DMG Bons",
     "ArgName": "eelectro",
     "Percent": true,
     "Tip": ""
@@ -126,7 +126,7 @@
     "Tip": ""
   },
   {
-    "Name": "Anemo Dmg Bonus",
+    "Name": "Anemo DMG Bonus",
     "ArgName": "eanemo",
     "Percent": true,
     "Tip": ""
@@ -138,7 +138,7 @@
     "Tip": ""
   },
   {
-    "Name": "Cyro Dmg Bonus",
+    "Name": "Cyro DMG Bonus",
     "ArgName": "ecryo",
     "Percent": true,
     "Tip": ""
@@ -150,7 +150,7 @@
     "Tip": ""
   },
   {
-    "Name": "Geo Dmg Bonus",
+    "Name": "Geo DMG Bonus",
     "ArgName": "egeo",
     "Percent": true,
     "Tip": ""
@@ -162,7 +162,7 @@
     "Tip": ""
   },
   {
-    "Name": "Physical Dmg Bonus",
+    "Name": "Physical DMG Bonus",
     "ArgName": "ephys",
     "Percent": true,
     "Tip": ""
@@ -174,19 +174,19 @@
     "Tip": ""
   },
   {
-    "Name": "Add Dmg",
+    "Name": "DMG Bonus",
     "ArgName": "dmg",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "Universal RES",
+    "Name": "DMG Reduction",
     "ArgName": "resall",
     "Percent": true,
     "Tip": ""
   },
   {
-    "Name": "DEFENCE IGNORE RATIO",
+    "Name": "Ignore DEF",
     "ArgName": "defi",
     "Percent": true,
     "Tip": "This doesn't seem to work."
