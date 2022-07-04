@@ -66,57 +66,6 @@
 915 : Memory of Roving Gales
 916 : Memory of Piercing Frost
 917 : Memory of Immovable Crystals
-1002 : Kamisato Ayaka
-1003 : Jean
-1005 : Male Character
-1006 : Lisa
-1007 : Female Lead
-1014 : Barbara
-1015 : Kaeya
-1016 : Diluc
-1020 : Razor
-1021 : Amber
-1022 : Venti
-1023 : Xiangling
-1024 : Beidou
-1025 : Xingqiu
-1026 : Xiao
-1027 : Ningguang
-1029 : Klee
-1030 : Zhongli
-1031 : Fischl
-1032 : Bennett
-1033 : Tartaglia
-1034 : Noelle
-1035 : Qiqi
-1036 : Chongyun
-1037 : Ganyu
-1038 : Albedo
-1039 : Diona
-1041 : Mona
-1042 : Keqing
-1043 : Sucrose
-1044 : Xinyan
-1045 : Rosaria
-1046 : Hu Tao
-1047 : Kaedehara Kazuha
-1048 : Yanfei
-1049 : Yoimiya
-1050 : Thoma
-1051 : Eula
-1052 : Raiden Shogun
-1053 : Sayu
-1054 : Sangonomiya Kokomi
-1055 : Gorou
-1056 : Kujou Sara
-1057 : Arataki Itto
-1058 : Yae Miko
-1060 : Yelan
-1062 : Aloy
-1063 : Shenhe
-1064 : Yun Jin
-1065 : Kuki Shinobu
-1066 : Kamisato Ayato
 1102 : Kamisato Ayaka's Stella Fortuna
 1103 : Jean's Stella Fortuna
 1105 : Traveler (Male)'s Stella Fortuna
@@ -214,6 +163,8 @@
 3020 : Razor Test Package
 3021 : Kaeya
 3022 : Lisa
+20002 : Initiate's Feather
+20004 : Initiate's Flower
 100001 : Apple
 100002 : Sunsettia
 100003 : A Piece of Paper
@@ -3603,22 +3554,22 @@
 380302 : Blueprint: Dark Checkered Ceiling
 380303 : Blueprint: Maple Wood Square Ceiling
 380401 : Blueprint: Two-Tier Candle Chandelier
-380402 : Blueprint: Eight-Sided Lantern: Blueprint: Lucky Day
-380403 : Blueprint: Six-Sided Lantern: Blueprint: Harmony in Friendship
+380402 : Blueprint: Eight-Sided Lantern: Lucky Day
+380403 : Blueprint: Six-Sided Lantern: Harmony in Friendship
 380404 : Blueprint: "Night of the Party Pumpkins"
-380405 : Blueprint: Embroidered Lantern: Blueprint: Lofty Grandeur
-380406 : Blueprint: Tasseled Lantern: Blueprint: Deck the Streets
-380407 : Blueprint: Teahouse Candlestand: Blueprint: Scentless Flame
-380408 : Blueprint: Teahouse Lamp: Blueprint: Light Concealed
-380409 : Blueprint: Maple Wood Lamp: Blueprint: Light Fragrance
-380410 : Blueprint: Maple Wood Floor Lamp: Blueprint: Clarity
-380411 : Blueprint: Court Lantern: Blueprint: Lingering Majesty
-380412 : Blueprint: Court Lantern: Blueprint: Red Moon of Yore
-380413 : Blueprint: Court Lantern: Blueprint: Thundering Heart
-380414 : Blueprint: Maple Wood Chandelier: Blueprint: Illume
-380415 : Blueprint: Blooming Candle: Blueprint: Pure as a Lotus
-380416 : Blueprint: Rainbow Lights: Blueprint: At Dawn We Celebrate
-380418 : Blueprint: Stoneworks Lamp: Blueprint: Deeping-Gloom Candle
+380405 : Blueprint: Embroidered Lantern: Lofty Grandeur
+380406 : Blueprint: Tasseled Lantern: Deck the Streets
+380407 : Blueprint: Teahouse Candlestand: Scentless Flame
+380408 : Blueprint: Teahouse Lamp: Light Concealed
+380409 : Blueprint: Maple Wood Lamp: Light Fragrance
+380410 : Blueprint: Maple Wood Floor Lamp: Clarity
+380411 : Blueprint: Court Lantern: Lingering Majesty
+380412 : Blueprint: Court Lantern: Red Moon of Yore
+380413 : Blueprint: Court Lantern: Thundering Heart
+380414 : Blueprint: Maple Wood Chandelier: Illume
+380415 : Blueprint: Blooming Candle: Pure as a Lotus
+380416 : Blueprint: Rainbow Lights: At Dawn We Celebrate
+380418 : Blueprint: Stoneworks Lamp: Deeping-Gloom Candle
 381101 : Blueprint: Northern Birch Folding Counter
 381102 : Blueprint: Open-Top Fir Shelf
 381103 : Blueprint: Fir Case Shelf Combination
@@ -3633,8 +3584,8 @@
 381206 : Blueprint: Red Cedar Scroll Shelf
 381207 : Blueprint: Red Cedar Curio Stand
 381208 : Blueprint: Shopkeeper's Cedar Shelf
-381209 : Blueprint: Maple Wood Bookcase: Blueprint: Inkheart
-381210 : Blueprint: Maple Wood Bookcase: Blueprint: Trove of a Thousand Tomes
+381209 : Blueprint: Maple Wood Bookcase: Inkheart
+381210 : Blueprint: Maple Wood Bookcase: Trove of a Thousand Tomes
 381301 : Blueprint: Sturdy Library Table
 381302 : Blueprint: Favonius Office Table
 381303 : Blueprint: Favonius Conference Table
@@ -3649,80 +3600,80 @@
 381313 : Blueprint: Common Cast Iron Stove
 381314 : Blueprint: Yumemiru "Cold and Warmth" Kotatsu
 381315 : Blueprint: "Sekijou" Aralia Tea Table
-381316 : Blueprint: Teahouse Long Table: Blueprint: Seamless Seating
+381316 : Blueprint: Teahouse Long Table: Seamless Seating
 381401 : Blueprint: Breeze-Blessed Bed
 381402 : Blueprint: Cloudy Haze Bed
 381403 : Blueprint: Yumemiru "Sakura's Rest" Bed
 381501 : Blueprint: Pine Reception Counter
-381502 : Blueprint: Teahouse Counter: Blueprint: "Toshimaru"
+381502 : Blueprint: Teahouse Counter: "Toshimaru"
 382101 : Blueprint: Soft Lounge Sofa
 382102 : Blueprint: "Clear Blue Afternoon"
 382103 : Blueprint: "Unwavering Determination"
 382104 : Blueprint: Pine Dining Chair
 382105 : Blueprint: Pine-Backed Tea Chair
 382106 : Blueprint: Red Pine Wood Round Stool
-382108 : Blueprint: Teahouse Round Stool: Blueprint: Pain Point Reduction
+382108 : Blueprint: Teahouse Round Stool: Pain Point Reduction
 382201 : Blueprint: Northern Stone Hearth
-382202 : Blueprint: Pine Folding Screen: Blueprint: Billowing Sails
-382203 : Blueprint: Hardwood Screen: Blueprint: Morning Mist in Jueyun
+382202 : Blueprint: Pine Folding Screen: Billowing Sails
+382203 : Blueprint: Hardwood Screen: Morning Mist in Jueyun
 382204 : Blueprint: Birch Double Drawer Nightstand
 382205 : Blueprint: Gold-Lined Sandbearer Nightstand
-382206 : Blueprint: Silk Curtains: Blueprint: Fetching the Sanguine Sky
-382207 : Blueprint: Floral Screen: Blueprint: Jade and Gold
+382206 : Blueprint: Silk Curtains: Fetching the Sanguine Sky
+382207 : Blueprint: Floral Screen: Jade and Gold
 382208 : Blueprint: Thundering Heavens Drum
-382209 : Blueprint: Lantern-Lit Stage: Blueprint: Crescendo
-382210 : Blueprint: Teahouse Cushion: Blueprint: Night-Woven
-382211 : Blueprint: Maple Wood Ritual Drum: Blueprint: Festive Music
-382212 : Blueprint: Maple Wood Ritual Drum: Blueprint: A Great Din
-382213 : Blueprint: Teahouse Folding Screen: Blueprint: Hidden Heart of Gold
-382214 : Blueprint: Ancestral Sword Rack: Blueprint: Four Core Principles
-382215 : Blueprint: Hatamoto Armor: Blueprint: Eijin Genkou
+382209 : Blueprint: Lantern-Lit Stage: Crescendo
+382210 : Blueprint: Teahouse Cushion: Night-Woven
+382211 : Blueprint: Maple Wood Ritual Drum: Festive Music
+382212 : Blueprint: Maple Wood Ritual Drum: A Great Din
+382213 : Blueprint: Teahouse Folding Screen: Hidden Heart of Gold
+382214 : Blueprint: Ancestral Sword Rack: Four Core Principles
+382215 : Blueprint: Hatamoto Armor: Eijin Genkou
 382216 : Blueprint: Yumemiru "Jukaku" Folding Screen
-382218 : Blueprint: Festive Fragrance: Blueprint: Goods Piled High
-382219 : Blueprint: Festive Fragrance: Blueprint: Of Gold and Jade
-382301 : Blueprint: Mondstadt Rug: Blueprint: Crimson Ardor
-382302 : Blueprint: Mondstadt Rug: Blueprint: Tireless Search
-382303 : Blueprint: Tavern Rug: Blueprint: Home Away From Home
-382304 : Blueprint: Entrance Rug: Blueprint: A Warm Welcome
+382218 : Blueprint: Festive Fragrance: Goods Piled High
+382219 : Blueprint: Festive Fragrance: Of Gold and Jade
+382301 : Blueprint: Mondstadt Rug: Crimson Ardor
+382302 : Blueprint: Mondstadt Rug: Tireless Search
+382303 : Blueprint: Tavern Rug: Home Away From Home
+382304 : Blueprint: Entrance Rug: A Warm Welcome
 383101 : Blueprint: Trusty Portable Lamp
 383102 : Blueprint: Liuli Pavilion Sandbearer Floor Lamp
-383103 : Blueprint: Tianyuan Lantern: Blueprint: Fragrant Brilliance
+383103 : Blueprint: Tianyuan Lantern: Fragrant Brilliance
 383104 : Blueprint: Seashell Table Lamp
-383201 : Blueprint: Flower Arrangement: Blueprint: Baby Blue Tranquility
-383202 : Blueprint: Potted Plant: Blueprint: Crystalline Breeze
-383203 : Blueprint: Flower Arrangement: Blueprint: Sprawling Daybreak
-383204 : Blueprint: Potted Flower: Blueprint: Fragrant Facade
-383205 : Blueprint: Potted Plant: Blueprint: Petite Perrenial
+383201 : Blueprint: Flower Arrangement: Baby Blue Tranquility
+383202 : Blueprint: Potted Plant: Crystalline Breeze
+383203 : Blueprint: Flower Arrangement: Sprawling Daybreak
+383204 : Blueprint: Potted Flower: Fragrant Facade
+383205 : Blueprint: Potted Plant: Petite Perrenial
 383206 : Blueprint: Cast in Clay
 383207 : Blueprint: The Essential Vase
 383208 : Blueprint: A Favor Returned
-383301 : Blueprint: Classical Lyre: Blueprint: Tenor of the Wind
+383301 : Blueprint: Classical Lyre: Tenor of the Wind
 383302 : Blueprint: Neat Stack of Books
 383303 : Blueprint: "Scholar's Weariness"
 383304 : Blueprint: "Etiquette of Correspondence"
 383305 : Blueprint: Exquisite Hourglass Ornament
-383306 : Blueprint: Alchemic Device: Blueprint: Between Fire and Water
-383307 : Blueprint: Alchemic Component: Blueprint: Burden of Dust
-383308 : Blueprint: Calligraphy Set: Blueprint: Assiduous Calligraphy
+383306 : Blueprint: Alchemic Device: Between Fire and Water
+383307 : Blueprint: Alchemic Component: Burden of Dust
+383308 : Blueprint: Calligraphy Set: Assiduous Calligraphy
 383309 : Blueprint: Golden Triple-Arm Candelabrum
-383310 : Blueprint: Glazed Porcelain Tea Set: Blueprint: "Embracing Truth"
+383310 : Blueprint: Glazed Porcelain Tea Set: "Embracing Truth"
 383312 : Blueprint: "Tea Wisp-Clouded White Couch"
-383313 : Blueprint: Teahouse Vessel: Blueprint: Scent-Sealer
-383314 : Blueprint: Calligraphy Set: Blueprint: Proper Penmanship
+383313 : Blueprint: Teahouse Vessel: Scent-Sealer
+383314 : Blueprint: Calligraphy Set: Proper Penmanship
 383315 : Blueprint: Evil-Slaying Bows
 383316 : Blueprint: Spiritchaser Screen
 383317 : Blueprint: "Divine Nose:" Kitsu-Kitsu Daruma
-383318 : Blueprint: "True Cookery": Blueprint: Nuki-Nuki Daruma
-384101 : Blueprint: Landscape Painting: Blueprint: Country Home
-384102 : Blueprint: Landscape Painting: Blueprint: Distant Clouds
-384103 : Blueprint: Landscape Painting: Blueprint: Nameless Precipice
-384104 : Blueprint: Fine Brushwork: Blueprint: Peaks of Minlin
-384105 : Blueprint: Fine Brushwork: Blueprint: Bowl of Blossoms
-384106 : Blueprint: Fine Brushwork: Blueprint: Mountains Rising From the Mist
-384107 : Blueprint: Painted Vision: Blueprint: Of Mountains and Skies Distant
-384108 : Blueprint: Painted Vision: Blueprint: Stunning Waters
-384109 : Blueprint: Replica Mural: Blueprint: Lone Peak in a Sea of Fog
-384110 : Blueprint: Replica Mural: Blueprint: Ancient Ritual in a Sea of Fog
+383318 : Blueprint: "True Cookery": Nuki-Nuki Daruma
+384101 : Blueprint: Landscape Painting: Country Home
+384102 : Blueprint: Landscape Painting: Distant Clouds
+384103 : Blueprint: Landscape Painting: Nameless Precipice
+384104 : Blueprint: Fine Brushwork: Peaks of Minlin
+384105 : Blueprint: Fine Brushwork: Bowl of Blossoms
+384106 : Blueprint: Fine Brushwork: Mountains Rising From the Mist
+384107 : Blueprint: Painted Vision: Of Mountains and Skies Distant
+384108 : Blueprint: Painted Vision: Stunning Waters
+384109 : Blueprint: Replica Mural: Lone Peak in a Sea of Fog
+384110 : Blueprint: Replica Mural: Ancient Ritual in a Sea of Fog
 384201 : Blueprint: Wooden Restaurant Signboard
 384202 : Blueprint: Bright Vase-Shaped Sconce
 384203 : Blueprint: Well-Worn Buckler
@@ -3737,20 +3688,20 @@
 384501 : Blueprint: Lingering Moment
 390101 : Blueprint: Straw Hut
 390102 : Blueprint: Straw Depot
-390103 : Blueprint: Liyue House: Blueprint: Solitary Retreat
-390104 : Blueprint: Liyue House: Blueprint: Of Timber and Stone
-390105 : Blueprint: Liyue Pitstop: Blueprint: Tea Fragrance on the Old Road
-390106 : Blueprint: Liyue House: Blueprint: Moon-Crested Eaves
-390107 : Blueprint: Liyue House: Blueprint: Amity Abounds
-390108 : Blueprint: Liyue Shop: Blueprint: Citywide Favorite
-390109 : Blueprint: Wing House: Blueprint: Dawn & Dusk
-390110 : Blueprint: Pavilion: Blueprint: Stargazer's Shelter
+390103 : Blueprint: Liyue House: Solitary Retreat
+390104 : Blueprint: Liyue House: Of Timber and Stone
+390105 : Blueprint: Liyue Pitstop: Tea Fragrance on the Old Road
+390106 : Blueprint: Liyue House: Moon-Crested Eaves
+390107 : Blueprint: Liyue House: Amity Abounds
+390108 : Blueprint: Liyue Shop: Citywide Favorite
+390109 : Blueprint: Wing House: Dawn & Dusk
+390110 : Blueprint: Pavilion: Stargazer's Shelter
 390111 : Blueprint: "Hyoutei" Stacked Aralia Wood Boxes
 390112 : Blueprint: Aralia "Bangaku" Shelf
 390113 : Blueprint: Aralia "Fusen" Cupboard
 390114 : Blueprint: Yumemiru "Dewcover" Wardrobe
 390115 : Blueprint: Yumemiru "Decorum" Kimono Rack
-390116 : Blueprint: Pear Orchard Stage: Blueprint: Yun-Han Style
+390116 : Blueprint: Pear Orchard Stage: Yun-Han Style
 390201 : Blueprint: Multi-Arched Mondstadt Building
 390202 : Blueprint: Mondstadt House With Overhanging Attic
 390203 : Blueprint: Warm and Dry Mondstadt Apartment
@@ -3758,7 +3709,7 @@
 390205 : Blueprint: Country Home With Tall Attic
 390206 : Blueprint: Classic Country Home
 390207 : Blueprint: Pocket-Sized Pine Cabin
-390208 : Blueprint: Liyue House: Blueprint: Time Waits for No One
+390208 : Blueprint: Liyue House: Time Waits for No One
 390301 : Blueprint: Bustling Sundry Stand
 390302 : Blueprint: Profitable Fruit Stand
 390303 : Blueprint: Real Deal Fruit Stand
@@ -3767,7 +3718,7 @@
 390306 : Blueprint: "Traveling Merchant North of the Stone Gate"
 390307 : Blueprint: Roll-Roofed Fruit and Vegetable Cart
 390308 : Blueprint: "Four-Quadrant Cooking Cauldron"
-390309 : Blueprint: Fruit and Veggie Stall: Blueprint: Harvest Bounties
+390309 : Blueprint: Fruit and Veggie Stall: Harvest Bounties
 390310 : Blueprint: Otogi Wood Ramen Stand
 390401 : Blueprint: Hilichurl Outpost Hut
 390402 : Blueprint: Hilichurl Chieftain Hall
@@ -3777,99 +3728,99 @@
 390504 : Blueprint: Simple Single-Person Tent
 390505 : Blueprint: Otogi Wood Rice Cake Soup Stand
 390507 : Blueprint: Otogi Wood Granary Cart
-390508 : Blueprint: Umbrella Shop: Blueprint: Drapes of Differing Dreams
-390509 : Blueprint: Fruit and Veggie Stall: Blueprint: Good Honest Flavor
+390508 : Blueprint: Umbrella Shop: Drapes of Differing Dreams
+390509 : Blueprint: Fruit and Veggie Stall: Good Honest Flavor
 390510 : Blueprint: Festival "Teiban" Store
 390511 : Blueprint: Festival "Kiban" Store
 390512 : Blueprint: "Kouki" Aralia Mask Rack
-390513 : Blueprint: Fine Stall: Blueprint: Splash of Color
-390514 : Blueprint: Rainbow Stall: Blueprint: Ultramarine
-390515 : Blueprint: Rainbow Stall: Blueprint: Ruby Red
+390513 : Blueprint: Fine Stall: Splash of Color
+390514 : Blueprint: Rainbow Stall: Ultramarine
+390515 : Blueprint: Rainbow Stall: Ruby Red
 390516 : Blueprint: Festival Booth - "Strange Wonders"
 390517 : Blueprint: Festival Booth - "Literary Talent"
 390601 : Blueprint: Ritual Shrine
 390602 : Blueprint: Cleansing Shrine
-390603 : Blueprint: Inazuman Mansion: Blueprint: As One
-390604 : Blueprint: Inazuman Store: Blueprint: Numberless Gems
-390605 : Blueprint: Inazuman Home: Blueprint: The Work of Generations
-390606 : Blueprint: Inazuman Home: Blueprint: Easy Adaptation
-390607 : Blueprint: Inazuman Workshop: Blueprint: Exhaustive Regularity
-390608 : Blueprint: Inazuman Home: Blueprint: Routine Dimensions
-390609 : Blueprint: Inazuman Bamboo-Roofed Home: Blueprint: The Long Peace
-390610 : Blueprint: Inazuman Bamboo-Roofed Home: Blueprint: Wild Heart
-390611 : Blueprint: Inazuman Workshop: Blueprint: Multipurpose
-390612 : Blueprint: Inazuman Home: Blueprint: Clanking Metal
-390613 : Blueprint: Inazuman Workshop: Blueprint: Sweetness Sought
-390614 : Blueprint: Inazuman Home: Blueprint: Irreplaceable Foresight
-390615 : Blueprint: Inazuman Official Residence: Blueprint: Forcefulness
-390616 : Blueprint: Inazuman Official Residence: Blueprint: Strict Adherence
-390617 : Blueprint: Official Residence Corridor: Blueprint: Power's Reach
-390618 : Blueprint: Camp Watchtower: Blueprint: Viewport
-390619 : Blueprint: Camp Tent: Blueprint: Timely Tactics
-390620 : Blueprint: Camp Dwelling: Blueprint: Shoring Up
-390621 : Blueprint: Camp Gate: Blueprint: Fealty
-390623 : Blueprint: Fortune Slip Stand: Blueprint: Omen-Reader
-390624 : Blueprint: Shrine Hall: Blueprint: Gentle Wishes
-390625 : Blueprint: Shrine Annex: Blueprint: Pleased to Serve
-390626 : Blueprint: Estate Reception: Blueprint: Prim and Proper
-390627 : Blueprint: Estate Storehouse: Blueprint: We Have Reserves
-390628 : Blueprint: Inazuman Home: Blueprint: Watatsumi Reminiscence
-390629 : Blueprint: Inazuman Home: Blueprint: House of Coral
-390630 : Blueprint: Inazuman Home: Blueprint: Stormhouse
+390603 : Blueprint: Inazuman Mansion: As One
+390604 : Blueprint: Inazuman Store: Numberless Gems
+390605 : Blueprint: Inazuman Home: The Work of Generations
+390606 : Blueprint: Inazuman Home: Easy Adaptation
+390607 : Blueprint: Inazuman Workshop: Exhaustive Regularity
+390608 : Blueprint: Inazuman Home: Routine Dimensions
+390609 : Blueprint: Inazuman Bamboo-Roofed Home: The Long Peace
+390610 : Blueprint: Inazuman Bamboo-Roofed Home: Wild Heart
+390611 : Blueprint: Inazuman Workshop: Multipurpose
+390612 : Blueprint: Inazuman Home: Clanking Metal
+390613 : Blueprint: Inazuman Workshop: Sweetness Sought
+390614 : Blueprint: Inazuman Home: Irreplaceable Foresight
+390615 : Blueprint: Inazuman Official Residence: Forcefulness
+390616 : Blueprint: Inazuman Official Residence: Strict Adherence
+390617 : Blueprint: Official Residence Corridor: Power's Reach
+390618 : Blueprint: Camp Watchtower: Viewport
+390619 : Blueprint: Camp Tent: Timely Tactics
+390620 : Blueprint: Camp Dwelling: Shoring Up
+390621 : Blueprint: Camp Gate: Fealty
+390623 : Blueprint: Fortune Slip Stand: Omen-Reader
+390624 : Blueprint: Shrine Hall: Gentle Wishes
+390625 : Blueprint: Shrine Annex: Pleased to Serve
+390626 : Blueprint: Estate Reception: Prim and Proper
+390627 : Blueprint: Estate Storehouse: We Have Reserves
+390628 : Blueprint: Inazuman Home: Watatsumi Reminiscence
+390629 : Blueprint: Inazuman Home: House of Coral
+390630 : Blueprint: Inazuman Home: Stormhouse
 391101 : Blueprint: Bird and Blossom Design Fountain
 391102 : Blueprint: Hilichurl Spiral Watchtower
 391103 : Blueprint: Hilichurl Straw Hut
 391104 : Blueprint: "Ballad-Spinning Windwheel"
 391107 : Blueprint: Temporary Work Quarters
 391109 : Blueprint: "Pure Gorgeous Summer"
-391110 : Blueprint: Scarlet Torii Gate: Blueprint: Door of Silence
-391112 : Blueprint: Scarlet Torii Gate: Blueprint: Way of Restoration
-391113 : Blueprint: Estate Gate: Blueprint: Windy Doors
-391114 : Blueprint: Estate Corridor: Blueprint: Onward With Ease
-391115 : Blueprint: Estate Courtyard Corner: Blueprint: Measured Harmony
-391116 : Blueprint: Whitestone Hot Spring: Blueprint: Diffusing Warmth
-391117 : Blueprint: Of Fields Green: Blueprint: Clear Spring Fountain
-391118 : Blueprint: Sub-Space Cabochon: Blueprint: In Soaring Flight
-391119 : Blueprint: Stoneworks Crane: Blueprint: Mountain Mover
-391120 : Blueprint: Stoneworks Crane: Blueprint: Hill Tamer
+391110 : Blueprint: Scarlet Torii Gate: Door of Silence
+391112 : Blueprint: Scarlet Torii Gate: Way of Restoration
+391113 : Blueprint: Estate Gate: Windy Doors
+391114 : Blueprint: Estate Corridor: Onward With Ease
+391115 : Blueprint: Estate Courtyard Corner: Measured Harmony
+391116 : Blueprint: Whitestone Hot Spring: Diffusing Warmth
+391117 : Blueprint: Of Fields Green: Clear Spring Fountain
+391118 : Blueprint: Sub-Space Cabochon: In Soaring Flight
+391119 : Blueprint: Stoneworks Crane: Mountain Mover
+391120 : Blueprint: Stoneworks Crane: Hill Tamer
 391201 : Blueprint: Adeptus Gate
 391202 : Blueprint: Birch Main Courtyard Gate
 391203 : Blueprint: Carved Courtyard Fence Ending
 391204 : Blueprint: Carved Courtyard Fence
-391205 : Blueprint: Scenic Corridor: Blueprint: Sylvan Stroll
-391206 : Blueprint: Courtyard Wall: Blueprint: Spring and Autumn Splendor
-391207 : Blueprint: Wall Corner: Blueprint: Fragrant Nook
-391208 : Blueprint: Courtyard Wall: Blueprint: All in a Row
-391209 : Blueprint: Courtyard Wall: Blueprint: Peace Across
-391210 : Blueprint: Main Entrance: Blueprint: Gateway to the Clouds
-391211 : Blueprint: Perimeter Wall: Blueprint: Scenic Archway
-391212 : Blueprint: Veranda Corner: Blueprint: Pavilion's Watch
-391213 : Blueprint: Key Gateway: Blueprint: Beneath the Clouds
-391214 : Blueprint: Key Fence: Blueprint: Self-Restraint
-391215 : Blueprint: Fence Corner: Blueprint: Long Watch
+391205 : Blueprint: Scenic Corridor: Sylvan Stroll
+391206 : Blueprint: Courtyard Wall: Spring and Autumn Splendor
+391207 : Blueprint: Wall Corner: Fragrant Nook
+391208 : Blueprint: Courtyard Wall: All in a Row
+391209 : Blueprint: Courtyard Wall: Peace Across
+391210 : Blueprint: Main Entrance: Gateway to the Clouds
+391211 : Blueprint: Perimeter Wall: Scenic Archway
+391212 : Blueprint: Veranda Corner: Pavilion's Watch
+391213 : Blueprint: Key Gateway: Beneath the Clouds
+391214 : Blueprint: Key Fence: Self-Restraint
+391215 : Blueprint: Fence Corner: Long Watch
 391216 : Blueprint: Otogi "Kintake" Courtyard Gate
 391217 : Blueprint: Otogi "Kintake" Fence
-391218 : Blueprint: Encampment Fence: Blueprint: Jagged Teeth
-391219 : Blueprint: Encampment Fence: Blueprint: Decisive Judgment
-391220 : Blueprint: Encampment Fence: Blueprint: Honing Goad
-391221 : Blueprint: Shrine Corridor: Blueprint: Sakura-Dusted Path
-391222 : Blueprint: Shrine Corridor: Blueprint: Vermilion Gaze
-391223 : Blueprint: Estate Courtyard Wall: Blueprint: Stoneguard
-391224 : Blueprint: Estate Courtyard Wall: Blueprint: Harmonious Corner
-391225 : Blueprint: Estate Courtyard Wall: Blueprint: Hidden Boundary
-391226 : Blueprint: Estate Wall Corner: Blueprint: Old City Palisade
-391227 : Blueprint: Hot Spring Folding Screen: Blueprint: Moderation
-391228 : Blueprint: Hot Spring Outer Wall: Blueprint: No Vaulting
-391229 : Blueprint: Hot Spring Wall: Blueprint: Well-Grounded
-391230 : Blueprint: Hot Spring Foyer: Blueprint: Shelter from the Cold
-392107 : Blueprint: Foundations of Stone: Blueprint: Fortunate Times
+391218 : Blueprint: Encampment Fence: Jagged Teeth
+391219 : Blueprint: Encampment Fence: Decisive Judgment
+391220 : Blueprint: Encampment Fence: Honing Goad
+391221 : Blueprint: Shrine Corridor: Sakura-Dusted Path
+391222 : Blueprint: Shrine Corridor: Vermilion Gaze
+391223 : Blueprint: Estate Courtyard Wall: Stoneguard
+391224 : Blueprint: Estate Courtyard Wall: Harmonious Corner
+391225 : Blueprint: Estate Courtyard Wall: Hidden Boundary
+391226 : Blueprint: Estate Wall Corner: Old City Palisade
+391227 : Blueprint: Hot Spring Folding Screen: Moderation
+391228 : Blueprint: Hot Spring Outer Wall: No Vaulting
+391229 : Blueprint: Hot Spring Wall: Well-Grounded
+391230 : Blueprint: Hot Spring Foyer: Shelter from the Cold
+392107 : Blueprint: Foundations of Stone: Fortunate Times
 393101 : Blueprint: Messy Pile of Fir Crates
 393102 : Blueprint: Neat Stack of Fir Kegs
 393103 : Blueprint: Heavy Hay Bale
-393104 : Blueprint: Wine Jar With Bamboo Casing: Blueprint: Spirits Awaiting Moonrise
-393105 : Blueprint: Toy Stand: Blueprint: Dazzling Delights
-393106 : Blueprint: Umbrella Shop: Blueprint: Kaleidoscope of Parasol Colors
-393107 : Blueprint: Storage Sack: Blueprint: Buzz-Off Bag
+393104 : Blueprint: Wine Jar With Bamboo Casing: Spirits Awaiting Moonrise
+393105 : Blueprint: Toy Stand: Dazzling Delights
+393106 : Blueprint: Umbrella Shop: Kaleidoscope of Parasol Colors
+393107 : Blueprint: Storage Sack: Buzz-Off Bag
 393108 : Blueprint: Fruit Seller's Caution
 393109 : Blueprint: Fruit Seller's Toil
 393110 : Blueprint: Hardened Glazed Vase
@@ -3888,8 +3839,8 @@
 393123 : Blueprint: Training Ground Support Stakes
 393124 : Blueprint: "A Messenger in the Summer Woods"
 393125 : Blueprint: "Courtyard Cleansing Pool"
-393126 : Blueprint: Headquarters Alarm: Blueprint: Sound of Thunder
-393127 : Blueprint: War Drum: Blueprint: Line-Breaking Reverb
+393126 : Blueprint: Headquarters Alarm: Sound of Thunder
+393127 : Blueprint: War Drum: Line-Breaking Reverb
 393128 : Blueprint: Simple Otogi Workshop
 393129 : Blueprint: Otogi "Rikuyou" Wooden Barrel
 393130 : Blueprint: Otogi "Tanin" Wood Barrel
@@ -3899,7 +3850,7 @@
 393134 : Blueprint: Mountain of Festive Gifts
 393137 : Blueprint: Heavy-Duty Restaurant Stove
 393138 : Blueprint: Serene Flames
-393201 : Blueprint: Potted Plant: Blueprint: Verdant Vastness
+393201 : Blueprint: Potted Plant: Verdant Vastness
 393202 : Blueprint: Water-Retaining Flower Beds
 393203 : Blueprint: Soil-Carrying Wooden Barrel
 393204 : Blueprint: "Pines Awaiting the Twilight"
@@ -3910,51 +3861,51 @@
 393305 : Blueprint: Sturdy Stone Well
 393306 : Blueprint: Farmer's Scarecrow
 393307 : Blueprint: Old Well
-393308 : Blueprint: Roofed Well: Blueprint: For Purity
-393309 : Blueprint: Stone Lion Statue: Blueprint: The Warding
-393310 : Blueprint: Stone Lion Statue: Blueprint: The Knowing
+393308 : Blueprint: Roofed Well: For Purity
+393309 : Blueprint: Stone Lion Statue: The Warding
+393310 : Blueprint: Stone Lion Statue: The Knowing
 393311 : Blueprint: Countryside Tea Stand
 393312 : Blueprint: "The Adventurer's Treasures"
 393313 : Blueprint: "Witch's Chorus"
 393315 : Blueprint: Yumemiru "Saikyo" Fortune Slip Hanger
 393316 : Blueprint: Narukami's Banner
-393317 : Blueprint: Camp Bow-Rack: Blueprint: Fletching
-393318 : Blueprint: Camp Spear-Rack: Blueprint: Point Break
-393319 : Blueprint: Camp Bonfire: Blueprint: Glorious Clarity
-393320 : Blueprint: Camp Barricade: Blueprint: Taking Sides
-393321 : Blueprint: Sky Kitsune Statue: Blueprint: Hakushin's Legacy
+393317 : Blueprint: Camp Bow-Rack: Fletching
+393318 : Blueprint: Camp Spear-Rack: Point Break
+393319 : Blueprint: Camp Bonfire: Glorious Clarity
+393320 : Blueprint: Camp Barricade: Taking Sides
+393321 : Blueprint: Sky Kitsune Statue: Hakushin's Legacy
 393322 : Blueprint: High-Flying Fish Flag
 393323 : Blueprint: Maple Wood Tanuki
 393324 : Blueprint: Maple Wood White Kitsune
 393325 : Blueprint: Red-Iron Coral
 393326 : Blueprint: Glowstone Parasol
-393327 : Blueprint: Shrine Statue: Blueprint: "Seirai Ward"
-393328 : Blueprint: Village Well: Blueprint: Underground Spring
+393327 : Blueprint: Shrine Statue: "Seirai Ward"
+393328 : Blueprint: Village Well: Underground Spring
 393329 : Blueprint: Yumemiru "Seiken" Offering Box
-393330 : Blueprint: Ancestral Sword Rack: Blueprint: Iron Sharpens Iron
+393330 : Blueprint: Ancestral Sword Rack: Iron Sharpens Iron
 393331 : Blueprint: The Bamboo's Call
 393332 : Blueprint: "Henji" Aralia Noticeboard
-393333 : Blueprint: Village Well: Blueprint: Subterranean Secrets
-393337 : Blueprint: Rainbow Lights: Blueprint: Lovely Night View
+393333 : Blueprint: Village Well: Subterranean Secrets
+393337 : Blueprint: Rainbow Lights: Lovely Night View
 393338 : Blueprint: Rainbow Cloud Flying Satin Pole
 393339 : Blueprint: Gold-Inscribed Evil-Cleansing Banner
 393343 : Blueprint: Tanuki Hugs Photo Board
 393344 : Blueprint: "Kitsune Guuji" Exclusive Painted Flag Banner
-393346 : Blueprint: Pear Orchard Screen: Blueprint: Dexterous
-393347 : Blueprint: Pear Orchard Screen: Blueprint: Deft
+393346 : Blueprint: Pear Orchard Screen: Dexterous
+393347 : Blueprint: Pear Orchard Screen: Deft
 393401 : Blueprint: Wrought Iron Carved Street Light
 393402 : Blueprint: Pine Street Light
-393403 : Blueprint: Evil-Repelling Lantern: Blueprint: All-Around Lighting
-393404 : Blueprint: Four Corners Lantern: Blueprint: Amity From Afar
-393405 : Blueprint: Shadow Lamp: Blueprint: Painted Shadow
-393406 : Blueprint: Stone Lantern: Blueprint: Fudoumyou's Light
+393403 : Blueprint: Evil-Repelling Lantern: All-Around Lighting
+393404 : Blueprint: Four Corners Lantern: Amity From Afar
+393405 : Blueprint: Shadow Lamp: Painted Shadow
+393406 : Blueprint: Stone Lantern: Fudoumyou's Light
 393407 : Blueprint: "Three Reaches Bright"
 393408 : Blueprint: Whitestone "Meichuu" Standing Lamp
 393409 : Blueprint: Otogi "Meichuu" Standing Lamp
 393410 : Blueprint: Five-Lantern Festival Gate
 393411 : Blueprint: Yumemiru "Kuukai" Street Lamp
 393412 : Blueprint: Yumemiru "Juunen" Street Lamp
-393413 : Blueprint: White Fish Tallow Candle: Blueprint: Evenlight
+393413 : Blueprint: White Fish Tallow Candle: Evenlight
 393414 : Blueprint: Otogi Countryside Street Lamp
 393415 : Blueprint: Simple Otogi Street Lamp
 393416 : Blueprint: Aralia "Renzou" Street Lamp
@@ -3975,28 +3926,28 @@
 394203 : Blueprint: Googol Chair
 394204 : Blueprint: Square Yumemiru Stool
 394205 : Blueprint: Otogi "Rakushi" Square Stool
-394207 : Blueprint: Pear Orchard Seat: Blueprint: Gathered in Joy
+394207 : Blueprint: Pear Orchard Seat: Gathered in Joy
 394301 : Blueprint: Two-Story Hilichurl Sentry Tower
 394302 : Blueprint: Doorless Pine Cupboard
 394303 : Blueprint: Heavy Fir Forging Table
 394304 : Blueprint: Long Pine Table
 394305 : Blueprint: Large Stone Mill
 394306 : Blueprint: Alchemist's Crafting Bench
-394307 : Blueprint: Two-Tier Vendor's Booth: Blueprint: Rising Fortunes
+394307 : Blueprint: Two-Tier Vendor's Booth: Rising Fortunes
 394308 : Blueprint: Bamboo Outdoor Tea Table
 394309 : Blueprint: Wooden Outdoor Tea Table
 394310 : Blueprint: "Summer Forest Banquet"
 394311 : Blueprint: Googol Table
 394312 : Blueprint: Long Yumemiru Table
 394313 : Blueprint: Otogi "Rakushi" Square Table
-394315 : Blueprint: Pear Orchard Seat: Blueprint: Of Tunes and Fragrant Tea
-394316 : Blueprint: Pear Orchard Accessory: Blueprint: Attend and Listen
-394401 : Blueprint: Wine Shop Display Counter: Blueprint: To Your Heart's Content
+394315 : Blueprint: Pear Orchard Seat: Of Tunes and Fragrant Tea
+394316 : Blueprint: Pear Orchard Accessory: Attend and Listen
+394401 : Blueprint: Wine Shop Display Counter: To Your Heart's Content
 394402 : Blueprint: Crude Double-Decker Pallet
 394403 : Blueprint: "Cradle of Flowers"
 394404 : Blueprint: "The Blue Ocean's Treasure"
-394501 : Blueprint: Foundations of Stone: Blueprint: Path of Cultivation
-394502 : Blueprint: Foundations of Stone: Blueprint: Timely Arrival
-394503 : Blueprint: Foundations of Stone: Blueprint: Double-Time
-394504 : Blueprint: Of Fields Green: Blueprint: Cookie Road
-394505 : Blueprint: Foundations of Stone: Blueprint: Grand Design
+394501 : Blueprint: Foundations of Stone: Path of Cultivation
+394502 : Blueprint: Foundations of Stone: Timely Arrival
+394503 : Blueprint: Foundations of Stone: Double-Time
+394504 : Blueprint: Of Fields Green: Cookie Road
+394505 : Blueprint: Foundations of Stone: Grand Design
