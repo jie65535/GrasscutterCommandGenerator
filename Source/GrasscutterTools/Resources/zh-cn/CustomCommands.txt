@@ -1,19 +1,19 @@
 无敌
-/prop godmode on
+/prop god on
 无限体力
-/prop nostamina on
+/prop ns on
 无限能量
-/prop unlimitedenergy on
+/prop ue on
 升到60级
 /give 102 x1880200
 设置世界等级
-/prop worldlevel 8
+/prop wl 8
 一键解锁深渊
-/prop abyss 12
+/prop ut 12
 设置好感等级
 /setfetterlevel 10
 奶
-/heal
+/h
 自杀
 /kill 0
 全队充能
