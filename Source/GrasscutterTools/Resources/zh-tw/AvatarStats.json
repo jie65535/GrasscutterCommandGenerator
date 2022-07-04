@@ -1,0 +1,194 @@
+[
+  {
+    "Name": "生命值",
+    "ArgName": "hp",
+    "Percent": false,
+    "Tip": ""
+  },
+  {
+    "Name": "生命值上限",
+    "ArgName": "maxhp",
+    "Percent": false,
+    "Tip": ""
+  },
+  {
+    "Name": "攻擊力",
+    "ArgName": "atk",
+    "Percent": false,
+    "Tip": ""
+  },
+  {
+    "Name": "基礎攻擊力",
+    "ArgName": "atkb",
+    "Percent": false,
+    "Tip": "不會重新計算攻擊力，僅對buff類有效"
+  },
+  {
+    "Name": "防禦力",
+    "ArgName": "def",
+    "Percent": false,
+    "Tip": "似乎不起作用"
+  },
+  {
+    "Name": "元素精通",
+    "ArgName": "em",
+    "Percent": false,
+    "Tip": ""
+  },
+  {
+    "Name": "暴擊率",
+    "ArgName": "crate",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "暴擊傷害",
+    "ArgName": "cdmg",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "治療加成",
+    "ArgName": "heal",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "受治療加成",
+    "ArgName": "heali",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "元素充能效率",
+    "ArgName": "er",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "冷卻縮減",
+    "ArgName": "cdr",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "護盾強效",
+    "ArgName": "shield",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "火元素傷害加成",
+    "ArgName": "epyro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "火元素抗性",
+    "ArgName": "respyro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "水元素傷害加成",
+    "ArgName": "ehydro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "水元素抗性",
+    "ArgName": "reshydro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "草元素傷害加成",
+    "ArgName": "edendro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "草元素抗性",
+    "ArgName": "resdendro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "雷元素傷害加成",
+    "ArgName": "eelectro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "雷元素抗性",
+    "ArgName": "reselectro",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "風元素傷害加成",
+    "ArgName": "eanemo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "風元素抗性",
+    "ArgName": "resanemo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "冰元素傷害加成",
+    "ArgName": "ecryo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "冰元素抗性",
+    "ArgName": "rescryo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "岩元素傷害加成",
+    "ArgName": "egeo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "岩元素抗性",
+    "ArgName": "resgeo",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "物理傷害加成",
+    "ArgName": "ephys",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "物理抗性",
+    "ArgName": "resphys",
+    "Percent": true,
+    "Tip": ""
+  },
+  {
+    "Name": "傷害加成",
+    "ArgName": "dmg",
+    "Percent": true,
+    "Tip": "與其他傷害加成加算"
+  },
+  {
+    "Name": "受傷減免",
+    "ArgName": "resall",
+    "Percent": true,
+    "Tip": "不等於抗性"
+  },
+  {
+    "Name": "無視防禦",
+    "ArgName": "defi",
+    "Percent": true,
+    "Tip": "似乎不起作用"
+  }
+]
