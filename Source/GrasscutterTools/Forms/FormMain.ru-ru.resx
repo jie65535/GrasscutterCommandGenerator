@@ -615,11 +615,20 @@
   <data name="TPAvatar.Text" xml:space="preserve">
     <value>Персонаж</value>
   </data>
+  <data name="BtnGiveAllChar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 163</value>
+  </data>
+  <data name="BtnGiveAllChar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 30</value>
+  </data>
+  <data name="BtnGiveAllChar.Text" xml:space="preserve">
+    <value>Дайте ВСЕХ персонажей</value>
+  </data>
   <data name="LblNewCommandTip.Location" type="System.Drawing.Point, System.Drawing">
     <value>360, 118</value>
   </data>
   <data name="LblNewCommandTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 17</value>
+    <value>200, 42</value>
   </data>
   <data name="LblNewCommandTip.Text" xml:space="preserve">
     <value>※Вступает в силу только при получении всех ролей.</value>
@@ -635,23 +644,6 @@
   </data>
   <data name="NUDAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
     <value>444, 93</value>
-  </data>
-  <data name="BtnGiveAllChar.Text" xml:space="preserve">
-    <value>Дайте ВСЕХ персонажей</value>
-  </data>
-  <data name="BtnGiveAllChar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>360, 144</value>
-  </data>
-  <data name="BtnGiveAllChar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>190, 30</value>
-  </data>
-  <data name="LblAvatarGenWarning.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt, style=Bold</value>
-  </data>
-  <data name="LblAvatarGenWarning.Text" xml:space="preserve">
-    <value>ПРЕДУПРЕЖДАЮ! Добавление персонажа, который официально не используется, может привести
-к повреждению сохранения учетной записи, что сделает невозможным игру.
-Данные могут не быть удалены, даже если учетная запись будет создана заново.</value>
   </data>
   <data name="LblAvatar.Location" type="System.Drawing.Point, System.Drawing">
     <value>360, 27</value>

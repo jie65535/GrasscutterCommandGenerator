@@ -557,6 +557,15 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="TPStats.Text" xml:space="preserve">
     <value>Stats</value>
   </data>
+  <data name="BtnGiveAllChar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>430, 185</value>
+  </data>
+  <data name="BtnGiveAllChar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 34</value>
+  </data>
+  <data name="BtnGiveAllChar.Text" xml:space="preserve">
+    <value>Give All Char</value>
+  </data>
   <data name="LblNewCommandTip.Location" type="System.Drawing.Point, System.Drawing">
     <value>360, 155</value>
   </data>
@@ -577,23 +586,6 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   </data>
   <data name="NUDAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
     <value>444, 129</value>
-  </data>
-  <data name="BtnGiveAllChar.Text" xml:space="preserve">
-    <value>Give All Char</value>
-  </data>
-  <data name="BtnGiveAllChar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>430, 185</value>
-  </data>
-  <data name="BtnGiveAllChar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>126, 34</value>
-  </data>
-  <data name="LblAvatarGenWarning.Size" type="System.Drawing.Size, System.Drawing">
-    <value>427, 51</value>
-  </data>
-  <data name="LblAvatarGenWarning.Text" xml:space="preserve">
-    <value>WARN! Adding a character that is not officially used may result 
-in a corrupted account save, making it impossible to play the game.
-The data may not be cleared even if the account is recreated.</value>
   </data>
   <data name="LblAvatar.Location" type="System.Drawing.Point, System.Drawing">
     <value>360, 37</value>
