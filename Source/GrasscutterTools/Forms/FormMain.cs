@@ -74,8 +74,8 @@ namespace GrasscutterTools.Forms
             SaveSettings();
         }
 
-        private readonly string[] LanguageNames = new string[] { "简体中文", "English", "Русский" };
-        private readonly string[] Languages = new string[] { "zh-CN", "en-US", "ru-RU" };
+        private readonly string[] LanguageNames = new string[] { "简体中文", "繁體中文", "English", "Русский" };
+        private readonly string[] Languages = new string[] { "zh-CN", "zh-TW", "en-US", "ru-RU" };
 
 
         private Version AppVersion;
