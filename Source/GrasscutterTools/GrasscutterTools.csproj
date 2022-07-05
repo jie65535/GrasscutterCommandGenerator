@@ -379,6 +379,20 @@
     <Content Include="Resources\zh-cn\Quest.txt" />
     <Content Include="Resources\zh-cn\Scene.txt" />
     <Content Include="Resources\zh-cn\Weapon.txt" />
+    <Content Include="Resources\zh-tw\Animal.txt" />
+    <Content Include="Resources\zh-tw\ArtifactCat.txt" />
+    <Content Include="Resources\zh-tw\ArtifactMainAttribution.txt" />
+    <Content Include="Resources\zh-tw\Artifact.txt" />
+    <Content Include="Resources\zh-tw\ArtifactSubAttribution.txt" />
+    <Content Include="Resources\zh-tw\Avatar.txt" />
+    <Content Include="Resources\zh-tw\CustomCommands.txt" />
+    <Content Include="Resources\zh-tw\GachaBennerPrefab.txt" />
+    <Content Include="Resources\zh-tw\Item.txt" />
+    <Content Include="Resources\zh-tw\Monster.txt" />
+    <Content Include="Resources\zh-tw\NPC.txt" />
+    <Content Include="Resources\zh-tw\Quest.txt" />
+    <Content Include="Resources\zh-tw\Scene.txt" />
+    <Content Include="Resources\zh-tw\Weapon.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
