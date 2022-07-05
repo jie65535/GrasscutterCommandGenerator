@@ -19,9 +19,9 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
 ---
 
 ## TODO List
-  - [ ] Multi-language support
+  - [x] Multi-language support
     - [x] Simplified Chinese
-    - [ ] Traditional Chinese
+    - [x] Traditional Chinese
     - [x] English
     - [x] Russian
   - [x] Execute command remotely
