@@ -264,6 +264,9 @@
     <EmbeddedResource Include="Forms\FormGachaBannerEditor.resx">
       <DependentUpon>FormGachaBannerEditor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGachaBannerEditor2.zh-TW.resx">
+      <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormMain.en-us.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -286,6 +289,9 @@
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormTextMapBrowser.resx">
+      <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTextMapBrowser.zh-TW.resx">
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.zh-TW.resx">

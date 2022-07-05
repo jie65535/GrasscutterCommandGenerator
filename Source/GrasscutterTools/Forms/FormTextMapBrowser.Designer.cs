@@ -90,10 +90,10 @@
             // 
             // DGVTextMap
             // 
+            resources.ApplyResources(this.DGVTextMap, "DGVTextMap");
             this.DGVTextMap.AllowUserToAddRows = false;
             this.DGVTextMap.AllowUserToDeleteRows = false;
             this.DGVTextMap.AllowUserToResizeRows = false;
-            resources.ApplyResources(this.DGVTextMap, "DGVTextMap");
             this.DGVTextMap.BackgroundColor = System.Drawing.Color.White;
             this.DGVTextMap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVTextMap.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {

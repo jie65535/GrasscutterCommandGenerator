@@ -118,34 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="BtnSelectRecoursePath.Text" xml:space="preserve">
-    <value>Обзор</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LblLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>477, 15</value>
-  </data>
-  <data name="LblLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 17</value>
+    <value>瀏覽</value>
   </data>
   <data name="LblLanguage.Text" xml:space="preserve">
-    <value>Язык</value>
-  </data>
-  <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 21</value>
+    <value>語言</value>
   </data>
   <data name="ChkTopMost.Text" xml:space="preserve">
-    <value>верхний</value>
-  </data>
-  <data name="LblResourcesPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>294, 17</value>
+    <value>置頂</value>
   </data>
   <data name="LblResourcesPath.Text" xml:space="preserve">
-    <value>Пожалуйста, выберите каталог ресурсов</value>
-  </data>
-  <data name="BtnSearch.Text" xml:space="preserve">
-    <value>Поиск</value>
+    <value>請選擇Resources路徑</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Браузер карт</value>
+    <value>文本映射表瀏覽器</value>
   </data>
 </root>
