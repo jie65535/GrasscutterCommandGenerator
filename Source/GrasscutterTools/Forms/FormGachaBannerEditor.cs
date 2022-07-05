@@ -68,7 +68,7 @@ namespace GrasscutterTools.Forms
                 if (GameData.AvatarColors.Names[i] == color)
                 {
                     var id = GameData.AvatarColors.Ids[i];
-                    var index = Array.IndexOf(GameData.Avatars.Ids, id % 1000 + 10000000);
+                    var index = Array.IndexOf(GameData.Avatars.Ids, id);
                     if (index >= 0)
                         kvs.Add($"{id}:{GameData.Avatars.Names[index]}");
                 }
