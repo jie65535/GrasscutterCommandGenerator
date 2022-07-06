@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BtnCopy.Text" xml:space="preserve">
+    <value>複製</value>
+  </data>
+  <data name="ChkAutoCopy.Text" xml:space="preserve">
+    <value>自動</value>
+  </data>
+  <data name="GrpCommand.Text" xml:space="preserve">
+    <value>命令（按住 Ctrl 自動執行）</value>
+  </data>
+  <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
+    <value>執行(F5)</value>
+  </data>
+  <data name="LnkOpenCommandLabel.Text" xml:space="preserve">
+    <value>遠程執行插件</value>
+  </data>
+  <data name="LblServerVersionLabel.Text" xml:space="preserve">
+    <value>遊戲版本</value>
+  </data>
+  <data name="LblPlayerCountLabel.Text" xml:space="preserve">
+    <value>當前玩家數</value>
+  </data>
+  <data name="GrpServerStatus.Text" xml:space="preserve">
+    <value>伺服器狀態</value>
+  </data>
+  <data name="LnkRCHelp.Text" xml:space="preserve">
+    <value>幫助</value>
+  </data>
+  <data name="BtnConnectOpenCommand.Text" xml:space="preserve">
+    <value>連接</value>
+  </data>
+  <data name="LblVerificationCode.Text" xml:space="preserve">
+    <value>驗證碼</value>
+  </data>
+  <data name="BtnSendVerificationCode.Text" xml:space="preserve">
+    <value>發送驗證碼</value>
+  </data>
+  <data name="TPPlayerCheck.Text" xml:space="preserve">
+    <value>玩家驗證</value>
+  </data>
+  <data name="BtnConsoleConnect.Text" xml:space="preserve">
+    <value>連接</value>
+  </data>
+  <data name="LblConsoleTip.Text" xml:space="preserve">
+    <value>請注意，控制台狀態下普通命令必須指定目標
+（即設置包含UID）</value>
+  </data>
+  <data name="GrpRemoteCommand.Text" xml:space="preserve">
+    <value>遠程執行</value>
+  </data>
+  <data name="BtnQueryServerStatus.Text" xml:space="preserve">
+    <value>查詢</value>
+  </data>
+  <data name="LblHost.Text" xml:space="preserve">
+    <value>伺服器地址</value>
+  </data>
+  <data name="TPRemoteCall.Text" xml:space="preserve">
+    <value>遠程</value>
+  </data>
+  <data name="LblSupportDescription.Text" xml:space="preserve">
+    <value>割草機工具箱
+
+這是一個免費且開源的項目
+如果覺得這對你很有幫助，可以為我點一個免費的Star
+如果願意請我喝一杯奶茶，那就更好了 : )
+指令生成有問題，或者有新的功能請求，都可以來Github提出</value>
+  </data>
+  <data name="TPAbout.Text" xml:space="preserve">
+    <value>關於</value>
+  </data>
+  <data name="BtnBan.Text" xml:space="preserve">
+    <value>封號</value>
+  </data>
+  <data name="LblBanUID.Text" xml:space="preserve">
+    <value>目標UID</value>
+  </data>
+  <data name="GrpAccount.Text" xml:space="preserve">
+    <value>賬號管理</value>
+  </data>
+  <data name="BtnDeleteAccount.Text" xml:space="preserve">
+    <value>- 刪除</value>
+  </data>
+  <data name="BtnCreateAccount.Text" xml:space="preserve">
+    <value>+ 創建</value>
+  </data>
+  <data name="LblAccountUserName.Text" xml:space="preserve">
+    <value>用戶名</value>
+  </data>
+  <data name="GrpPermission.Text" xml:space="preserve">
+    <value>權限管理</value>
+  </data>
+  <data name="LblPerm.Text" xml:space="preserve">
+    <value>權限</value>
+  </data>
+  <data name="LblPermUID.Text" xml:space="preserve">
+    <value>目標UID</value>
+  </data>
+  <data name="TPScene.Text" xml:space="preserve">
+    <value>場景</value>
+  </data>
+  <data name="ChkIncludeSceneId.Text" xml:space="preserve">
+    <value>含場景ID</value>
+  </data>
+  <data name="LblTp.Text" xml:space="preserve">
+    <value>座標傳送
+提示：遊戲內可以通過小地圖的'魚鉤'標記來快捷傳送
+命令中可以用~表示當前位置，~100表示相對當前100</value>
+  </data>
+  <data name="BtnTeleport.Text" xml:space="preserve">
+    <value>傳送</value>
+  </data>
+  <data name="LblClimateType.Text" xml:space="preserve">
+    <value>設置天氣</value>
+  </data>
+  <data name="LblSceneDescription.Text" xml:space="preserve">
+    <value>場景控制
+
+提示：大部分場景沒有作用，無法進入。</value>
+  </data>
+  <data name="BtnSaveGiveItemLog.Text" xml:space="preserve">
+    <value>√ 記錄</value>
+  </data>
+  <data name="BtnRemoveGiveItemLog.Text" xml:space="preserve">
+    <value>× 刪除</value>
+  </data>
+  <data name="GrpGiveItemRecord.Text" xml:space="preserve">
+    <value>物品記錄本</value>
+  </data>
+  <data name="LblGameItemAmount.Text" xml:space="preserve">
+    <value>數量</value>
+  </data>
+  <data name="LblGameItemLevel.Text" xml:space="preserve">
+    <value>等級</value>
+  </data>
+  <data name="LblGiveCommandDescription.Text" xml:space="preserve">
+    <value>給玩家指定物品
+說明：可選擇直接給到背包或者掉落到世界</value>
+  </data>
+  <data name="LblWeaponDescription.Text" xml:space="preserve">
+    <value>獲取武器
+
+說明：設定等級會自動設定突破等級
+&gt;20級突破1
+&gt;40級突破2
+&gt;50級突破3
+&gt;60級突破4
+&gt;70級突破5
+&gt;80級突破6</value>
+  </data>
+  <data name="LblWeaponRefinement.Text" xml:space="preserve">
+    <value>精煉等級</value>
+  </data>
+  <data name="LblWeaponAmount.Text" xml:space="preserve">
+    <value>數量</value>
+  </data>
+  <data name="LblWeaponLevel.Text" xml:space="preserve">
+    <value>等級</value>
+  </data>
+  <data name="TPStats.Text" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="LblResetStatsCommand.Text" xml:space="preserve">
+    <value>獲得角色經驗時</value>
+  </data>
+  <data name="LblResetStatsTip.Text" xml:space="preserve">
+    <value>當前角色屬性將會重置</value>
+  </data>
+  <data name="GrpSetStats.Text" xml:space="preserve">
+    <value>角色屬性</value>
+  </data>
+  <data name="GrpTalentLevel.Text" xml:space="preserve">
+    <value>技能等級</value>
+  </data>
+  <data name="LnkTalentNormalATK.Text" xml:space="preserve">
+    <value>普通攻擊</value>
+  </data>
+  <data name="LblStatsDescription.Text" xml:space="preserve">
+    <value>設置當前活躍角色數據</value>
+  </data>
+  <data name="BtnGiveAllChar.Text" xml:space="preserve">
+    <value>一鍵獲得所有角色</value>
+  </data>
+  <data name="LblNewCommandTip.Text" xml:space="preserve">
+    <value>※僅給予所有角色時生效</value>
+  </data>
+  <data name="LblAvatarLevel.Text" xml:space="preserve">
+    <value>等級</value>
+  </data>
+  <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
+    <value>√ 記錄</value>
+  </data>
+  <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
+    <value>× 刪除</value>
+  </data>
+  <data name="GrpSpawnRecord.Text" xml:space="preserve">
+    <value>生成記錄本</value>
+  </data>
+  <data name="GrpEntityType.Text" xml:space="preserve">
+    <value>列表分類</value>
+  </data>
+  <data name="RbEntityAnimal.Text" xml:space="preserve">
+    <value>生物誌</value>
+  </data>
+  <data name="RbEntityMonster.Text" xml:space="preserve">
+    <value>討伐對象</value>
+  </data>
+  <data name="LblSpawnDescription.Text" xml:space="preserve">
+    <value>在玩家附近召喚生物</value>
+  </data>
+  <data name="LblEntityAmount.Text" xml:space="preserve">
+    <value>數量</value>
+  </data>
+  <data name="LblEntityLevel.Text" xml:space="preserve">
+    <value>等級</value>
+  </data>
+  <data name="TPQuest.Text" xml:space="preserve">
+    <value>任務</value>
+  </data>
+  <data name="GrpQuestFilters.Text" xml:space="preserve">
+    <value>列表過濾</value>
+  </data>
+  <data name="ChkQuestFilterTEST.Text" xml:space="preserve">
+    <value>測試任務</value>
+  </data>
+  <data name="ChkQuestFilterUNRELEASED.Text" xml:space="preserve">
+    <value>未發佈的任務</value>
+  </data>
+  <data name="ChkQuestFilterHIDDEN.Text" xml:space="preserve">
+    <value>隱藏的任務</value>
+  </data>
+  <data name="BtnFinishQuest.Text" xml:space="preserve">
+    <value>完成任務</value>
+  </data>
+  <data name="BtnAddQuest.Text" xml:space="preserve">
+    <value>添加任務</value>
+  </data>
+  <data name="LblQuestDescription.Text" xml:space="preserve">
+    <value>添加或完成任務
+提示：許多任務需要服務端腳本支持
+囙此任務可以接，可以完成，但是不一定可以做</value>
+  </data>
+  <data name="TPArtifact.Text" xml:space="preserve">
+    <value>聖遺物</value>
+  </data>
+  <data name="LblArtifactSet.Text" xml:space="preserve">
+    <value>套裝</value>
+  </data>
+  <data name="LblArtifactLevel.Text" xml:space="preserve">
+    <value>等級</value>
+  </data>
+  <data name="LblSubAttribution.Text" xml:space="preserve">
+    <value>副詞條</value>
+  </data>
+  <data name="LblMainAttribution.Text" xml:space="preserve">
+    <value>主詞條</value>
+  </data>
+  <data name="LblArtifactStars.Text" xml:space="preserve">
+    <value>星級</value>
+  </data>
+  <data name="TPCustom.Text" xml:space="preserve">
+    <value>自定義</value>
+  </data>
+  <data name="BtnExportCustomCommands.Text" xml:space="preserve">
+    <value>導出</value>
+  </data>
+  <data name="BtnLoadCustomCommands.Text" xml:space="preserve">
+    <value>載入</value>
+  </data>
+  <data name="LblCustomName.Text" xml:space="preserve">
+    <value>標籤</value>
+  </data>
+  <data name="BtnRemoveCustomCommand.Text" xml:space="preserve">
+    <value>× 刪除</value>
+  </data>
+  <data name="TPHome.Text" xml:space="preserve">
+    <value>主頁</value>
+  </data>
+  <data name="BtnOpenTextMap.Text" xml:space="preserve">
+    <value>文本瀏覽器</value>
+  </data>
+  <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
+    <value>獎池編輯器</value>
+  </data>
+  <data name="ChkTopMost.Text" xml:space="preserve">
+    <value>置頂</value>
+  </data>
+</root>

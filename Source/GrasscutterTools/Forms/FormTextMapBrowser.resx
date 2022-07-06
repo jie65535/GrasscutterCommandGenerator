@@ -117,292 +117,289 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="TxtTextMapFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="TxtTextMapFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 41</value>
-  </data>
-  <data name="TxtTextMapFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>555, 23</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="TxtTextMapFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;TxtTextMapFilter.Name" xml:space="preserve">
-    <value>TxtTextMapFilter</value>
-  </data>
-  <data name="&gt;&gt;TxtTextMapFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtTextMapFilter.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TxtTextMapFilter.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="BtnSelectRecoursePath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>96, 12</value>
-  </data>
-  <data name="BtnSelectRecoursePath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnSelectRecoursePath.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="BtnSelectRecoursePath.Text" xml:space="preserve">
-    <value>浏览</value>
-  </data>
   <data name="&gt;&gt;BtnSelectRecoursePath.Name" xml:space="preserve">
     <value>BtnSelectRecoursePath</value>
   </data>
-  <data name="&gt;&gt;BtnSelectRecoursePath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnSelectRecoursePath.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BtnSelectRecoursePath.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="CmbLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="CmbLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>548, 12</value>
-  </data>
-  <data name="CmbLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
-  </data>
-  <data name="CmbLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;CmbLanguage.Name" xml:space="preserve">
-    <value>CmbLanguage</value>
-  </data>
-  <data name="&gt;&gt;CmbLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbLanguage.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;CmbLanguage.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LblLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="LblLanguage.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblResourcesPath.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="LblLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>510, 15</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblResourcesPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>177, 15</value>
   </data>
-  <data name="LblLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LblLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="LblLanguage.Text" xml:space="preserve">
-    <value>语言</value>
+  <data name="&gt;&gt;BtnSearch.Name" xml:space="preserve">
+    <value>BtnSearch</value>
   </data>
   <data name="&gt;&gt;LblLanguage.Name" xml:space="preserve">
     <value>LblLanguage</value>
   </data>
-  <data name="&gt;&gt;LblLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ColumnText.HeaderText" xml:space="preserve">
+    <value>Text</value>
   </data>
-  <data name="&gt;&gt;LblLanguage.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="BtnSearch.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LblLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TxtTextMapFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 41</value>
+  </data>
+  <data name="&gt;&gt;DGVTextMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LblLanguage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="ChkTopMost.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="BtnSelectRecoursePath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>96, 12</value>
   </data>
-  <data name="ChkTopMost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 14</value>
+  <data name="ColumnHash.Width" type="System.Int32, mscorlib">
+    <value>80</value>
   </data>
-  <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 21</value>
+  <data name="DGVTextMap.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="ChkTopMost.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
-  <data name="ChkTopMost.Text" xml:space="preserve">
-    <value>置顶</value>
-  </data>
-  <data name="&gt;&gt;ChkTopMost.Name" xml:space="preserve">
-    <value>ChkTopMost</value>
-  </data>
-  <data name="&gt;&gt;ChkTopMost.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ChkTopMost.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ChkTopMost.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="LblResourcesPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="LblResourcesPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>177, 15</value>
-  </data>
-  <data name="LblResourcesPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>327, 17</value>
-  </data>
-  <data name="LblResourcesPath.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="ColumnID.Width" type="System.Int32, mscorlib">
+    <value>240</value>
   </data>
   <data name="LblResourcesPath.Text" xml:space="preserve">
     <value>请选择Resources路径</value>
   </data>
-  <data name="&gt;&gt;LblResourcesPath.Name" xml:space="preserve">
-    <value>LblResourcesPath</value>
+  <data name="&gt;&gt;LblResourcesPath.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;LblResourcesPath.Type" xml:space="preserve">
+  <data name="LblLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="&gt;&gt;LblLanguage.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LblResourcesPath.Parent" xml:space="preserve">
+  <data name="LblResourcesPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>327, 17</value>
+  </data>
+  <data name="TxtTextMapFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>555, 23</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>文本映射表浏览器</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="DGVTextMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>636, 379</value>
+  </data>
+  <data name="&gt;&gt;BtnSearch.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblResourcesPath.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="BtnSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="CmbLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
-  <data name="BtnSearch.Location" type="System.Drawing.Point, System.Drawing">
-    <value>573, 41</value>
+  <data name="ChkTopMost.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="BtnSearch.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="&gt;&gt;LblResourcesPath.Name" xml:space="preserve">
+    <value>LblResourcesPath</value>
   </data>
-  <data name="BtnSearch.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="ChkTopMost.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="BtnSearch.Text" xml:space="preserve">
-    <value>搜索</value>
-  </data>
-  <data name="&gt;&gt;BtnSearch.Name" xml:space="preserve">
-    <value>BtnSearch</value>
-  </data>
-  <data name="&gt;&gt;BtnSearch.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnSearch.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BtnSearch.ZOrder" xml:space="preserve">
+  <data name="TxtTextMapFilter.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="DGVTextMap.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="&gt;&gt;ColumnText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="ColumnHash.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="&gt;&gt;TxtTextMapFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="ColumnHash.HeaderText" xml:space="preserve">
     <value>Hash</value>
-  </data>
-  <data name="ColumnHash.Width" type="System.Int32, mscorlib">
-    <value>80</value>
-  </data>
-  <metadata name="ColumnID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="ColumnID.HeaderText" xml:space="preserve">
-    <value>ID</value>
-  </data>
-  <data name="ColumnID.Width" type="System.Int32, mscorlib">
-    <value>240</value>
-  </data>
-  <metadata name="ColumnText.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="ColumnText.HeaderText" xml:space="preserve">
-    <value>Text</value>
   </data>
   <data name="ColumnText.Width" type="System.Int32, mscorlib">
     <value>250</value>
   </data>
-  <data name="DGVTextMap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 70</value>
+  <data name="CmbLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>548, 12</value>
   </data>
-  <data name="DGVTextMap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>636, 379</value>
-  </data>
-  <data name="DGVTextMap.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;DGVTextMap.Name" xml:space="preserve">
-    <value>DGVTextMap</value>
-  </data>
-  <data name="&gt;&gt;DGVTextMap.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DGVTextMap.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TxtTextMapFilter.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DGVTextMap.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ru-RU</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
+  <data name="&gt;&gt;BtnSelectRecoursePath.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>660, 461</value>
+  <data name="CmbLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 9pt</value>
+  <data name="BtnSearch.Text" xml:space="preserve">
+    <value>搜索</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="CmbLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>600, 400</value>
+  <data name="&gt;&gt;DGVTextMap.Name" xml:space="preserve">
+    <value>DGVTextMap</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>文本映射表浏览器</value>
+  <data name="LblResourcesPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="&gt;&gt;ColumnHash.Name" xml:space="preserve">
     <value>ColumnHash</value>
   </data>
-  <data name="&gt;&gt;ColumnHash.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;BtnSearch.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="DGVTextMap.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;BtnSelectRecoursePath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnSelectRecoursePath.Text" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="LblLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>510, 15</value>
+  </data>
+  <data name="&gt;&gt;LblResourcesPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbLanguage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;ChkTopMost.Name" xml:space="preserve">
+    <value>ChkTopMost</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>660, 461</value>
+  </data>
+  <data name="&gt;&gt;CmbLanguage.Name" xml:space="preserve">
+    <value>CmbLanguage</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="&gt;&gt;BtnSearch.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;ColumnID.Name" xml:space="preserve">
     <value>ColumnID</value>
   </data>
-  <data name="&gt;&gt;ColumnID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TxtTextMapFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;ChkTopMost.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ColumnID.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="BtnSearch.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;ChkTopMost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ColumnText.Name" xml:space="preserve">
     <value>ColumnText</value>
   </data>
-  <data name="&gt;&gt;ColumnText.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormTextMapBrowser</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;CmbLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;DGVTextMap.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnSearch.Location" type="System.Drawing.Point, System.Drawing">
+    <value>573, 41</value>
+  </data>
+  <data name="&gt;&gt;BtnSelectRecoursePath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ChkTopMost.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ColumnHash.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtTextMapFilter.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;TxtTextMapFilter.Name" xml:space="preserve">
+    <value>TxtTextMapFilter</value>
+  </data>
+  <data name="DGVTextMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 70</value>
+  </data>
+  <data name="&gt;&gt;LblLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblLanguage.Text" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="BtnSelectRecoursePath.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;CmbLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ChkTopMost.Text" xml:space="preserve">
+    <value>置顶</value>
+  </data>
+  <data name="BtnSearch.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;ColumnID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnSelectRecoursePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>600, 400</value>
+  </data>
+  <data name="ChkTopMost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 14</value>
+  </data>
+  <metadata name="ColumnText.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ColumnHash.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

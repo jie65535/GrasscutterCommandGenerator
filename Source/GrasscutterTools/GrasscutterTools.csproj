@@ -238,6 +238,11 @@
     <Compile Include="MultiLanguage.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.zh-TW.Designer.cs">
+      <DependentUpon>Resources.zh-TW.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="Utils\HttpHelper.cs" />
     <EmbeddedResource Include="Forms\FormGachaBannerEditor2.en-us.resx">
       <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>
@@ -259,6 +264,9 @@
     <EmbeddedResource Include="Forms\FormGachaBannerEditor.resx">
       <DependentUpon>FormGachaBannerEditor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGachaBannerEditor2.zh-TW.resx">
+      <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormMain.en-us.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -271,6 +279,9 @@
       <DependentUpon>FormMain.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormMain.zh-TW.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormTextMapBrowser.en-US.resx">
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </EmbeddedResource>
@@ -279,6 +290,14 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormTextMapBrowser.resx">
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormTextMapBrowser.zh-TW.resx">
+      <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.zh-TW.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.zh-TW.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.en-us.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -379,6 +398,20 @@
     <Content Include="Resources\zh-cn\Quest.txt" />
     <Content Include="Resources\zh-cn\Scene.txt" />
     <Content Include="Resources\zh-cn\Weapon.txt" />
+    <Content Include="Resources\zh-tw\Animal.txt" />
+    <Content Include="Resources\zh-tw\ArtifactCat.txt" />
+    <Content Include="Resources\zh-tw\ArtifactMainAttribution.txt" />
+    <Content Include="Resources\zh-tw\Artifact.txt" />
+    <Content Include="Resources\zh-tw\ArtifactSubAttribution.txt" />
+    <Content Include="Resources\zh-tw\Avatar.txt" />
+    <Content Include="Resources\zh-tw\CustomCommands.txt" />
+    <Content Include="Resources\zh-tw\GachaBennerPrefab.txt" />
+    <Content Include="Resources\zh-tw\Item.txt" />
+    <Content Include="Resources\zh-tw\Monster.txt" />
+    <Content Include="Resources\zh-tw\NPC.txt" />
+    <Content Include="Resources\zh-tw\Quest.txt" />
+    <Content Include="Resources\zh-tw\Scene.txt" />
+    <Content Include="Resources\zh-tw\Weapon.txt" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">

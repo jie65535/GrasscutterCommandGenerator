@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\Animal.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Artifact" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\Artifact.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ArtifactCat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\ArtifactCat.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ArtifactMainAttribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\ArtifactMainAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ArtifactPartLabels" xml:space="preserve">
+    <value>空之杯,死之羽,理之冠,生之花,時之沙</value>
+  </data>
+  <data name="ArtifactSubAttribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\ArtifactSubAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="AskConfirmDeletion" xml:space="preserve">
+    <value>確認刪除？</value>
+  </data>
+  <data name="Avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\Avatar.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="AvatarColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AvatarColor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="AvatarStats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\AvatarStats.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BrowserOpenFailedTip" xml:space="preserve">
+    <value>瀏覽器打開失敗，你可以通過以下鏈接手動訪問：</value>
+  </data>
+  <data name="CheckToNewVersion" xml:space="preserve">
+    <value>檢查到新版本</value>
+  </data>
+  <data name="ClimateType" xml:space="preserve">
+    <value>無,晴天,多雲,雨天,雷暴,雪天,霧天</value>
+  </data>
+  <data name="CodeResendTip" xml:space="preserve">
+    <value>{0} 秒後可重發</value>
+  </data>
+  <data name="CodeSending" xml:space="preserve">
+    <value>發送中...</value>
+  </data>
+  <data name="CommandContentCannotBeEmpty" xml:space="preserve">
+    <value>命令內容不能為空</value>
+  </data>
+  <data name="CommandNotFound" xml:space="preserve">
+    <value>未找到該命令</value>
+  </data>
+  <data name="CommandTagCannotBeEmpty" xml:space="preserve">
+    <value>命令標籤不能為空</value>
+  </data>
+  <data name="ConnectedTip" xml:space="preserve">
+    <value>現在你可以遠程執行命令了哦！</value>
+  </data>
+  <data name="CustomCommands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\CustomCommands.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>錯誤</value>
+  </data>
+  <data name="GachaBennerPrefab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\GachaBennerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>幫助</value>
+  </data>
+  <data name="Item" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\Item.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Monster" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\Monster.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="NewVersionInfo" xml:space="preserve">
+    <value>版本名：{0}
+更新時間：{1}
+更新內容：
+{2}
+--------------------------------------------
+是否查看更新？選擇否將不再提醒該版本。</value>
+  </data>
+  <data name="NPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\NPC.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="OpenCommandHelp" xml:space="preserve">
+    <value>1. 填寫正確的UID\n2. 向玩家發送驗證碼\n3. 輸入正確的驗證碼\n4. 連接\n5. 享受</value>
+  </data>
+  <data name="PermissionCannotBeEmpty" xml:space="preserve">
+    <value>要設置的權限不能為空！</value>
+  </data>
+  <data name="Permissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Permissions.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="QueryServerStatusFailed" xml:space="preserve">
+    <value>查詢伺服器狀態失敗：</value>
+  </data>
+  <data name="Quest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\Quest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="RequireOpenCommandTip" xml:space="preserve">
+    <value>請先連接到支持[OpenCommand]的伺服器</value>
+  </data>
+  <data name="RestoreCustomCommands" xml:space="preserve">
+    <value>確認將自定義命令恢復到默認值？</value>
+  </data>
+  <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="SettingLoadError" xml:space="preserve">
+    <value>加載設置時異常：</value>
+  </data>
+  <data name="SettingSaveError" xml:space="preserve">
+    <value>保存設置時異常：</value>
+  </data>
+  <data name="Tips" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="TokenCannotBeEmpty" xml:space="preserve">
+    <value>Token不能為空</value>
+  </data>
+  <data name="TokenRestoredFromCache" xml:space="preserve">
+    <value>已從緩存中恢復Token</value>
+  </data>
+  <data name="UsernameCannotBeEmpty" xml:space="preserve">
+    <value>用戶名不能為空！</value>
+  </data>
+  <data name="Weapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\Weapon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="WeaponColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WeaponColor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+</root>

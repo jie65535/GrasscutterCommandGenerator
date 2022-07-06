@@ -74,8 +74,8 @@ namespace GrasscutterTools.Forms
             SaveSettings();
         }
 
-        private readonly string[] LanguageNames = new string[] { "简体中文", "English", "Русский" };
-        private readonly string[] Languages = new string[] { "zh-CN", "en-US", "ru-RU" };
+        private readonly string[] LanguageNames = new string[] { "简体中文", "繁體中文", "English", "Русский" };
+        private readonly string[] Languages = new string[] { "zh-CN", "zh-TW", "en-US", "ru-RU" };
 
 
         private Version AppVersion;
@@ -723,23 +723,25 @@ namespace GrasscutterTools.Forms
             AvatarInputChanged();
         }
 
-        private void NUDAvatarConstellation_ValueChanged(object sender, EventArgs e)
-        {
-            AvatarInputChanged();
-        }
-
         private void AvatarInputChanged()
         {
             if (CmbAvatar.SelectedIndex >= 0)
-                GenAvatar(GameData.Avatars.Ids[CmbAvatar.SelectedIndex], (int)NUDAvatarLevel.Value, (int)NUDAvatarConstellation.Value);
+                GenAvatar(GameData.Avatars.Ids[CmbAvatar.SelectedIndex], (int)NUDAvatarLevel.Value);
         }
 
-        private void GenAvatar(int avatarId, int level, int constellation)
+        private void GenAvatar(int avatarId, int level)
         {
             if (ChkNewCommand.Checked)
-                SetCommand("/give", $"{avatarId} lv{level} c{constellation}");
+                SetCommand("/give", $"{avatarId} lv{level}");
             else
                 SetCommand("/givechar", $"{avatarId} {level}");
+        }
+
+        private void BtnGiveAllChar_Click(object sender, EventArgs e)
+        {
+            var level = NUDAvatarLevel.Value;
+            var constellation = NUDAvatarConstellation.Value;
+            SetCommand("/give avatars", $"lv{level} c{constellation}");
         }
 
         #endregion - 角色 -

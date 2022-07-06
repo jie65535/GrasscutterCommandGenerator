@@ -1,10 +1,10 @@
 # Grasscutter Tools
- - Перевод Юрий Дворецкий
+
 [![GitHub лицензия](https://img.shields.io/github/license/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/blob/main/LICENSE)
 [![GitHub звёзды](https://img.shields.io/github/stars/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/stargazers)
 [![Github ВСЕ выпуски](https://img.shields.io/github/downloads/jie65535/GrasscutterCommandGenerator/total.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
 
-[中文](README.md) | [English](README_en-US.md) | Русский
+[中文](README.md) | [English](README_en-US.md) | Русский - Перевод Юрий Дворецкий
 
 ## Генератор команд
 
@@ -19,9 +19,9 @@
 ---
 
 ## Список задач
-  - [ ] Многоязычная поддержка
+  - [x] Многоязычная поддержка
      - [x] Упрощенный китайский
-     - [ ] сложный китайский
+     - [x] сложный китайский
      - [х] английский
      - [х] Русский
    - [x] Выполнить команду удаленно

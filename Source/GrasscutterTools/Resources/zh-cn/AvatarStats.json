@@ -1,18 +1,18 @@
 [
   {
-    "Name": "当前生命值",
+    "Name": "生命值",
     "ArgName": "hp",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "最大生命值",
+    "Name": "生命值上限",
     "ArgName": "maxhp",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "当前攻击力",
+    "Name": "攻击力",
     "ArgName": "atk",
     "Percent": false,
     "Tip": ""
@@ -174,10 +174,10 @@
     "Tip": ""
   },
   {
-    "Name": "伤害提高",
+    "Name": "伤害加成",
     "ArgName": "dmg",
     "Percent": true,
-    "Tip": "不同于伤害加成"
+    "Tip": "与其他伤害加成加算"
   },
   {
     "Name": "受伤减免",
@@ -186,7 +186,7 @@
     "Tip": "不同于抗性"
   },
   {
-    "Name": "忽略防御",
+    "Name": "无视防御",
     "ArgName": "defi",
     "Percent": true,
     "Tip": "似乎不起作用"
