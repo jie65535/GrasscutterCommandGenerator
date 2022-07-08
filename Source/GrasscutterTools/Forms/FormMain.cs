@@ -781,10 +781,10 @@ namespace GrasscutterTools.Forms
                     RbEntityNPC;
             if (rb.Checked)
             {
-                ListGameItems.BeginUpdate();
+                ListEntity.BeginUpdate();
                 ListEntity.Items.Clear();
                 ListEntity.Items.AddRange(rb.Tag as string[]);
-                ListGameItems.EndUpdate();
+                ListEntity.EndUpdate();
             }
         }
 
@@ -795,10 +795,10 @@ namespace GrasscutterTools.Forms
                     RbEntityMonster.Checked ? RbEntityMonster :
                     RbEntityNPC;
             var data = rb.Tag as string[];
-            ListGameItems.BeginUpdate();
+            ListEntity.BeginUpdate();
             ListEntity.Items.Clear();
             ListEntity.Items.AddRange(data.Where(n => n.Contains(filter)).ToArray());
-            ListGameItems.EndUpdate();
+            ListEntity.EndUpdate();
         }
 
         private bool GenSpawnEntityCommand()
