@@ -67,6 +67,10 @@ namespace GrasscutterTools.Forms
             InitStatList();
             InitPermList();
             InitQuestList();
+
+            ChangeTPArtifact();
+            ChangeBtnGiveAllChar();
+
         }
 
         private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
@@ -163,22 +167,6 @@ namespace GrasscutterTools.Forms
 #endif
         }
 
-        // 新命令给予的圣遗物等级与游戏内对应
-        private void ChangeTPArtifact()
-        {
-            if (ChkNewCommand.Checked)
-            {
-                NUDArtifactLevel.Minimum = 0;
-                NUDArtifactLevel.Maximum = 20;
-            }
-            else
-            {
-                NUDArtifactLevel.Minimum = 1;
-                NUDArtifactLevel.Maximum = 21;
-            }
-            LblArtifactLevelTip.Text = $"[{NUDArtifactLevel.Minimum}-{NUDArtifactLevel.Maximum}]";
-        }
-
         #endregion - 初始化 -
 
         #region - 主页 -
@@ -229,6 +217,7 @@ namespace GrasscutterTools.Forms
         private void ChkNewCommand_CheckedChanged(object sender, EventArgs e)
         {
             ChangeTPArtifact();
+            ChangeBtnGiveAllChar();
         }
 
         #endregion - 主页 -
@@ -555,6 +544,21 @@ namespace GrasscutterTools.Forms
             ArtifactInputChanged(null, EventArgs.Empty);
         }
 
+        private void ChangeTPArtifact()
+        {
+            if (ChkNewCommand.Checked)
+            {
+                NUDArtifactLevel.Minimum = 0;
+                NUDArtifactLevel.Maximum = 20;
+            }
+            else
+            {
+                NUDArtifactLevel.Minimum = 1;
+                NUDArtifactLevel.Maximum = 21;
+            }
+            LblArtifactLevelTip.Text = $"[{NUDArtifactLevel.Minimum}-{NUDArtifactLevel.Maximum}]";
+        }
+
         #endregion - 圣遗物 -
 
         #region - 武器 -
@@ -726,15 +730,21 @@ namespace GrasscutterTools.Forms
         private void AvatarInputChanged()
         {
             if (CmbAvatar.SelectedIndex >= 0)
-                GenAvatar(GameData.Avatars.Ids[CmbAvatar.SelectedIndex], (int)NUDAvatarLevel.Value);
+                GenAvatar((int)NUDAvatarLevel.Value);
         }
 
-        private void GenAvatar(int avatarId, int level)
+        private void GenAvatar(int level)
         {
             if (ChkNewCommand.Checked)
+            {
+                int avatarId = GameData.Avatars.Ids[CmbAvatar.SelectedIndex];
                 SetCommand("/give", $"{avatarId} lv{level}");
+            }
             else
+            {
+                int avatarId = GameData.Avatars.Ids[CmbAvatar.SelectedIndex] - 1000 + 10000000;
                 SetCommand("/givechar", $"{avatarId} {level}");
+            }
         }
 
         private void BtnGiveAllChar_Click(object sender, EventArgs e)
@@ -742,6 +752,14 @@ namespace GrasscutterTools.Forms
             var level = NUDAvatarLevel.Value;
             var constellation = NUDAvatarConstellation.Value;
             SetCommand("/give avatars", $"lv{level} c{constellation}");
+        }
+
+        private void ChangeBtnGiveAllChar()
+        {
+            if (ChkNewCommand.Checked)
+                BtnGiveAllChar.Enabled = true;
+            else
+                BtnGiveAllChar.Enabled = false;
         }
 
         #endregion - 角色 -
@@ -754,6 +772,20 @@ namespace GrasscutterTools.Forms
             RbEntityMonster.Tag = GameData.Monsters.Lines;
             RbEntityNPC.Tag = GameData.NPCs.Lines;
             RbEntityAnimal.Checked = true;
+            LoadEntityList();
+        }
+        private void LoadEntityList()
+        {
+            var rb = RbEntityAnimal.Checked ? RbEntityAnimal :
+                    RbEntityMonster.Checked ? RbEntityMonster :
+                    RbEntityNPC;
+            if (rb.Checked)
+            {
+                ListEntity.BeginUpdate();
+                ListEntity.Items.Clear();
+                ListEntity.Items.AddRange(rb.Tag as string[]);
+                ListEntity.EndUpdate();
+            }
         }
 
         private void TxtEntityFilter_TextChanged(object sender, EventArgs e)
@@ -763,17 +795,10 @@ namespace GrasscutterTools.Forms
                     RbEntityMonster.Checked ? RbEntityMonster :
                     RbEntityNPC;
             var data = rb.Tag as string[];
-            ListGameItems.BeginUpdate();
+            ListEntity.BeginUpdate();
             ListEntity.Items.Clear();
-            if (string.IsNullOrEmpty(filter))
-            {
-                ListEntity.Items.AddRange(data);
-            }
-            else
-            {
-                ListEntity.Items.AddRange(data.Where(n => n.Contains(filter)).ToArray());
-            }
-            ListGameItems.EndUpdate();
+            ListEntity.Items.AddRange(data.Where(n => n.Contains(filter)).ToArray());
+            ListEntity.EndUpdate();
         }
 
         private bool GenSpawnEntityCommand()
@@ -795,14 +820,7 @@ namespace GrasscutterTools.Forms
 
         private void RbEntity_CheckedChanged(object sender, EventArgs e)
         {
-            var rb = sender as RadioButton;
-            if (rb.Checked)
-            {
-                ListGameItems.BeginUpdate();
-                ListEntity.Items.Clear();
-                ListEntity.Items.AddRange(rb.Tag as string[]);
-                ListGameItems.EndUpdate();
-            }
+            LoadEntityList();
         }
 
         #region -- 生成记录 --
