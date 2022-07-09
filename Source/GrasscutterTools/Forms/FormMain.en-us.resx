@@ -224,7 +224,7 @@
     <value>35, 17</value>
   </data>
   <data name="LblHost.Text" xml:space="preserve">
-    <value>Host</value>
+    <value>Server IP</value>
   </data>
   <data name="TPRemoteCall.Text" xml:space="preserve">
     <value>Remote</value>
@@ -257,7 +257,7 @@
     <value>UID</value>
   </data>
   <data name="GrpBanPlayer.Text" xml:space="preserve">
-    <value>Ban Management</value>
+    <value>Ban</value>
   </data>
   <data name="ChkAccountSetUid.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 21</value>
@@ -293,7 +293,7 @@
     <value>127, 23</value>
   </data>
   <data name="GrpAccount.Text" xml:space="preserve">
-    <value>Account Management</value>
+    <value>Account</value>
   </data>
   <data name="BtmPermRemove.Text" xml:space="preserve">
     <value>Delete</value>
@@ -305,7 +305,7 @@
     <value>38, 17</value>
   </data>
   <data name="LblPerm.Text" xml:space="preserve">
-    <value>Perm</value>
+    <value>Perms</value>
   </data>
   <data name="LblPermUID.Location" type="System.Drawing.Point, System.Drawing">
     <value>30, 25</value>
@@ -317,7 +317,7 @@
     <value>UID</value>
   </data>
   <data name="GrpPermission.Text" xml:space="preserve">
-    <value>Permission Management</value>
+    <value>Permissions</value>
   </data>
   <data name="TPManage.Text" xml:space="preserve">
     <value>Manage</value>
@@ -343,7 +343,7 @@
   </data>
   <data name="LblTp.Text" xml:space="preserve">
     <value>Teleporting
-Tip: You can quickly teleport through the 'fishing hook' mark on the minimap in the game
+Tip: You can quickly teleport through the 'fishing hook' pin on the map in-game.
 In the command, you can use ~ to indicate the current position, and ~100 to indicate the relative current 100</value>
   </data>
   <data name="LblTpZ.Location" type="System.Drawing.Point, System.Drawing">
@@ -453,7 +453,7 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
     <value>93, 17</value>
   </data>
   <data name="LblWeaponDescription.Text" xml:space="preserve">
-    <value>Geive Weapon</value>
+    <value>Give Weapon</value>
   </data>
   <data name="LblWeaponRefinement.Location" type="System.Drawing.Point, System.Drawing">
     <value>203, 218</value>
@@ -489,7 +489,7 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
     <value>147, 216</value>
   </data>
   <data name="TPWeapon.Text" xml:space="preserve">
-    <value>Weapon</value>
+    <value>Weapons</value>
   </data>
   <data name="LblResetStatsCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>126, 135</value>
@@ -671,7 +671,7 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblQuestDescription.Text" xml:space="preserve">
     <value>Add or Finish Quest
 Tip: Many quest require server-side scripting support
-Therefore, the quest can be add and finish, but not necessarily can be work</value>
+Therefore, the quest can be added and finished, but not necessarily work.</value>
   </data>
   <data name="TPQuest.Text" xml:space="preserve">
     <value>Quest</value>
@@ -734,7 +734,7 @@ Therefore, the quest can be add and finish, but not necessarily can be work</val
     <value>Stars</value>
   </data>
   <data name="TPArtifact.Text" xml:space="preserve">
-    <value>Artifact</value>
+    <value>Artifacts</value>
   </data>
   <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
     <value>533, 216</value>
@@ -812,13 +812,13 @@ Therefore, the quest can be add and finish, but not necessarily can be work</val
     <value>TextMapBrowser</value>
   </data>
   <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
-    <value>Banner editor</value>
+    <value>Banner Editor</value>
   </data>
   <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
     <value>83, 21</value>
   </data>
   <data name="ChkTopMost.Text" xml:space="preserve">
-    <value>Top most</value>
+    <value>Always on top</value>
   </data>
   <data name="ChkIncludeUID.Size" type="System.Drawing.Size, System.Drawing">
     <value>95, 21</value>
