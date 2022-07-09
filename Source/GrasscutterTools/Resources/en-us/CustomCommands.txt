@@ -28,8 +28,8 @@ Give me ALL!
 /give 224 x10000
 100k Primogem
 /give 201 x100000
-100k Mora
-/give 202 x100000
+100Mill Mora
+/give 202 x100000000
 Reload config
 /reload
 Re-login
@@ -58,5 +58,5 @@ Broadcast
 /say Hello everyone~
 Server Announcement
 /a Welcome to grasscutter PS!
-Battlepass lvl 50
-/prop bp 50
+Close Server
+/stop
