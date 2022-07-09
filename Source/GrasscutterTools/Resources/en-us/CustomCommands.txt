@@ -37,11 +37,11 @@ Reload config
 Re-login
 /kick
 Clear Backpack(ALL)
-/clear all
+/clear all lv90 r5 5*
 Clear Weapons
-/clear wp
+/clear wp lv90 r5 5*
 Clear Artifacts
-/clear art
+/clear art lv20 r5 5*
 Clear Materials
 /clear mat
 Reset Current Constellation(Need Re-login)
@@ -60,3 +60,5 @@ Broadcast
 /say Hello everyone~
 Server Announcement
 /a Welcome to grasscutter PS!
+Battlepass lvl 50
+/prop bp 50
