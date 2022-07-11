@@ -41,11 +41,11 @@
 清空全部角色命之座(需重登)
 /resetconst all
 清空背包
-/clear all
+/clear all lv90 r5 5*
 清空武器
-/clear wp
+/clear wp lv90 r5 5*
 清空聖遺物
-/clear art
+/clear art lv20 r5 5*
 清空材料
 /clear mat
 清場
