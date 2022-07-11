@@ -87,6 +87,12 @@ namespace GrasscutterTools.Game.Gacha
         public int SortId { get; set; } = 1000;
 
         /// <summary>
+        /// 抽卡次数限制
+        /// </summary>
+        [JsonProperty("gachaTimesLimit")]
+        public int GachaTimesLimit { get; set; } = int.MaxValue;
+
+        /// <summary>
         /// 4星的up角色或物品
         /// </summary>
         [JsonProperty("rateUpItems4")]
