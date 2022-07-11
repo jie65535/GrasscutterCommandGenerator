@@ -127,11 +127,26 @@
   <data name="ChkAutoCopy.Text" xml:space="preserve">
     <value>Auto</value>
   </data>
+  <data name="GrpCommand.Text" xml:space="preserve">
+    <value>Command (Press and hold Ctrl to run automatically)</value>
+  </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>Run(F5)</value>
   </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>Command (Press and hold Ctrl to run automatically)</value>
+  <data name="TPRemoteCall.Text" xml:space="preserve">
+    <value>Remote</value>
+  </data>
+  <data name="LblHostTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>108, 16</value>
+  </data>
+  <data name="LblHostTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>377, 17</value>
+  </data>
+  <data name="LblHostTip.Text" xml:space="preserve">
+    <value>Please be sure https:// or http:// is included with the IP address</value>
+  </data>
+  <data name="GrpServerStatus.Text" xml:space="preserve">
+    <value>Server status</value>
   </data>
   <data name="LnkOpenCommandLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 63</value>
@@ -169,8 +184,11 @@
   <data name="LblPlayerCountLabel.Text" xml:space="preserve">
     <value>Player count</value>
   </data>
-  <data name="GrpServerStatus.Text" xml:space="preserve">
-    <value>Server status</value>
+  <data name="GrpRemoteCommand.Text" xml:space="preserve">
+    <value>Remote Cell</value>
+  </data>
+  <data name="TPPlayerCheck.Text" xml:space="preserve">
+    <value>Player</value>
   </data>
   <data name="LnkRCHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 17</value>
@@ -190,8 +208,8 @@
   <data name="BtnSendVerificationCode.Text" xml:space="preserve">
     <value>Send Code</value>
   </data>
-  <data name="TPPlayerCheck.Text" xml:space="preserve">
-    <value>Player</value>
+  <data name="TPConsoleCheck.Text" xml:space="preserve">
+    <value>Console</value>
   </data>
   <data name="BtnConsoleConnect.Text" xml:space="preserve">
     <value>Connect</value>
@@ -199,17 +217,11 @@
   <data name="LblConsoleTip.Text" xml:space="preserve">
     <value>Note that normal commands in the console state must specify the target (set include UID)</value>
   </data>
-  <data name="TPConsoleCheck.Text" xml:space="preserve">
-    <value>Console</value>
-  </data>
-  <data name="GrpRemoteCommand.Text" xml:space="preserve">
-    <value>Remote Cell</value>
-  </data>
   <data name="TxtHost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 36</value>
+    <value>111, 36</value>
   </data>
   <data name="TxtHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 23</value>
+    <value>175, 23</value>
   </data>
   <data name="BtnQueryServerStatus.Location" type="System.Drawing.Point, System.Drawing">
     <value>292, 36</value>
@@ -221,13 +233,13 @@
     <value>Query</value>
   </data>
   <data name="LblHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 17</value>
+    <value>60, 17</value>
   </data>
   <data name="LblHost.Text" xml:space="preserve">
     <value>Server IP</value>
   </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>Remote</value>
+  <data name="TPAbout.Text" xml:space="preserve">
+    <value>About</value>
   </data>
   <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 17</value>
@@ -235,8 +247,11 @@
   <data name="LblSupportDescription.Text" xml:space="preserve">
     <value>Grasscutter Tools</value>
   </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>About</value>
+  <data name="TPManage.Text" xml:space="preserve">
+    <value>Manage</value>
+  </data>
+  <data name="GrpBanPlayer.Text" xml:space="preserve">
+    <value>Ban</value>
   </data>
   <data name="BtnUnban.Text" xml:space="preserve">
     <value>Unban</value>
@@ -256,8 +271,8 @@
   <data name="LblBanUID.Text" xml:space="preserve">
     <value>UID</value>
   </data>
-  <data name="GrpBanPlayer.Text" xml:space="preserve">
-    <value>Ban</value>
+  <data name="GrpAccount.Text" xml:space="preserve">
+    <value>Account</value>
   </data>
   <data name="ChkAccountSetUid.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 21</value>
@@ -292,8 +307,14 @@
   <data name="TxtAccountUserName.Size" type="System.Drawing.Size, System.Drawing">
     <value>127, 23</value>
   </data>
-  <data name="GrpAccount.Text" xml:space="preserve">
-    <value>Account</value>
+  <data name="GrpPermission.Text" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="CmbPerm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 21</value>
+  </data>
+  <data name="CmbPerm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 25</value>
   </data>
   <data name="BtmPermRemove.Text" xml:space="preserve">
     <value>Delete</value>
@@ -302,7 +323,7 @@
     <value>Add</value>
   </data>
   <data name="LblPerm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 17</value>
+    <value>44, 17</value>
   </data>
   <data name="LblPerm.Text" xml:space="preserve">
     <value>Perms</value>
@@ -316,11 +337,8 @@
   <data name="LblPermUID.Text" xml:space="preserve">
     <value>UID</value>
   </data>
-  <data name="GrpPermission.Text" xml:space="preserve">
-    <value>Permissions</value>
-  </data>
-  <data name="TPManage.Text" xml:space="preserve">
-    <value>Manage</value>
+  <data name="TPScene.Text" xml:space="preserve">
+    <value>Scene</value>
   </data>
   <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
     <value>91, 213</value>
@@ -392,8 +410,8 @@ In the command, you can use ~ to indicate the current position, and ~100 to indi
     <value>Scene control
 Tip: Most of the scenes have no effect and cannot be entered.</value>
   </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>Scene</value>
+  <data name="TPItem.Text" xml:space="preserve">
+    <value>Items</value>
   </data>
   <data name="LblClearGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 17</value>
@@ -446,11 +464,11 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblGiveCommandDescription.Text" xml:space="preserve">
     <value>Give item to player</value>
   </data>
-  <data name="TPItem.Text" xml:space="preserve">
-    <value>Items</value>
+  <data name="TPWeapon.Text" xml:space="preserve">
+    <value>Weapons</value>
   </data>
   <data name="LblWeaponDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 17</value>
+    <value>86, 17</value>
   </data>
   <data name="LblWeaponDescription.Text" xml:space="preserve">
     <value>Give Weapon</value>
@@ -488,8 +506,8 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="NUDWeaponLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>147, 216</value>
   </data>
-  <data name="TPWeapon.Text" xml:space="preserve">
-    <value>Weapons</value>
+  <data name="TPStats.Text" xml:space="preserve">
+    <value>Stats</value>
   </data>
   <data name="LblResetStatsCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>126, 135</value>
@@ -509,11 +527,14 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblResetStatsTip.Text" xml:space="preserve">
     <value>the current character's stats will be reset</value>
   </data>
+  <data name="GrpSetStats.Text" xml:space="preserve">
+    <value>Stats</value>
+  </data>
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>Tip</value>
   </data>
-  <data name="GrpSetStats.Text" xml:space="preserve">
-    <value>Stats</value>
+  <data name="GrpTalentLevel.Text" xml:space="preserve">
+    <value>Talent Level</value>
   </data>
   <data name="LnkTalentE.Location" type="System.Drawing.Point, System.Drawing">
     <value>283, 24</value>
@@ -545,17 +566,14 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="NUDTalentLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 23</value>
   </data>
-  <data name="GrpTalentLevel.Text" xml:space="preserve">
-    <value>Talent Level</value>
-  </data>
   <data name="LblStatsDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 17</value>
   </data>
   <data name="LblStatsDescription.Text" xml:space="preserve">
     <value>Set current active Avatar data</value>
   </data>
-  <data name="TPStats.Text" xml:space="preserve">
-    <value>Stats</value>
+  <data name="TPAvatar.Text" xml:space="preserve">
+    <value>Avatar</value>
   </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value>Give All Char</value>
@@ -569,17 +587,26 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblConstellationTip.Text" xml:space="preserve">
     <value>※Available in Give All Char only</value>
   </data>
+  <data name="LblAvatarConstellation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
   <data name="LblAvatarConstellation.Text" xml:space="preserve">
     <value>Const.</value>
+  </data>
+  <data name="LblAvatar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
   </data>
   <data name="LblAvatar.Text" xml:space="preserve">
     <value>Avatar</value>
   </data>
+  <data name="LblAvatarLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 17</value>
+  </data>
   <data name="LblAvatarLevel.Text" xml:space="preserve">
     <value>Level</value>
   </data>
-  <data name="TPAvatar.Text" xml:space="preserve">
-    <value>Avatar</value>
+  <data name="TPSpawn.Text" xml:space="preserve">
+    <value>Spawn</value>
   </data>
   <data name="LblClearSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 17</value>
@@ -596,6 +623,9 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="GrpSpawnRecord.Text" xml:space="preserve">
     <value>Records</value>
   </data>
+  <data name="GrpEntityType.Text" xml:space="preserve">
+    <value>Class</value>
+  </data>
   <data name="RbEntityAnimal.Size" type="System.Drawing.Size, System.Drawing">
     <value>65, 21</value>
   </data>
@@ -607,9 +637,6 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   </data>
   <data name="RbEntityMonster.Text" xml:space="preserve">
     <value>Monster</value>
-  </data>
-  <data name="GrpEntityType.Text" xml:space="preserve">
-    <value>Class</value>
   </data>
   <data name="LblSpawnDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>81, 17</value>
@@ -638,8 +665,11 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="NUDEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>146, 216</value>
   </data>
-  <data name="TPSpawn.Text" xml:space="preserve">
-    <value>Spawn</value>
+  <data name="TPQuest.Text" xml:space="preserve">
+    <value>Quest</value>
+  </data>
+  <data name="GrpQuestFilters.Text" xml:space="preserve">
+    <value>List Filter</value>
   </data>
   <data name="ChkQuestFilterTEST.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 21</value>
@@ -659,9 +689,6 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="ChkQuestFilterHIDDEN.Text" xml:space="preserve">
     <value>Hidden</value>
   </data>
-  <data name="GrpQuestFilters.Text" xml:space="preserve">
-    <value>List Filter</value>
-  </data>
   <data name="BtnFinishQuest.Text" xml:space="preserve">
     <value>Finish</value>
   </data>
@@ -673,8 +700,8 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
 Tip: Many quest require server-side scripting support
 Therefore, the quest can be added and finished, but not necessarily work.</value>
   </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>Quest</value>
+  <data name="TPArtifact.Text" xml:space="preserve">
+    <value>Artifacts</value>
   </data>
   <data name="BtnAddSubAttr.Text" xml:space="preserve">
     <value>+ Add</value>
@@ -733,8 +760,8 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="LblArtifactStars.Text" xml:space="preserve">
     <value>Stars</value>
   </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>Artifacts</value>
+  <data name="TPCustom.Text" xml:space="preserve">
+    <value>Custom</value>
   </data>
   <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
     <value>533, 216</value>
@@ -760,6 +787,9 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="LblCustomName.Text" xml:space="preserve">
     <value>Tag</value>
   </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>List</value>
+  </data>
   <data name="LnkResetCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
     <value>531, -1</value>
   </data>
@@ -768,9 +798,6 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   </data>
   <data name="LnkResetCustomCommands.Text" xml:space="preserve">
     <value>Restore</value>
-  </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>List</value>
   </data>
   <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>393, 216</value>
@@ -793,8 +820,8 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="TxtCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>267, 23</value>
   </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>Custom</value>
+  <data name="TPHome.Text" xml:space="preserve">
+    <value>Home</value>
   </data>
   <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
     <value>74, 38</value>
@@ -814,8 +841,11 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
     <value>Banner Editor</value>
   </data>
+  <data name="GrpSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
   <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 21</value>
+    <value>109, 21</value>
   </data>
   <data name="ChkTopMost.Text" xml:space="preserve">
     <value>Always on top</value>
@@ -825,11 +855,5 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Include UID</value>
-  </data>
-  <data name="GrpSettings.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>Home</value>
   </data>
 </root>
