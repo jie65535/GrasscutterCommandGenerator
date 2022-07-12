@@ -5,7 +5,7 @@
 105: Companionship EXP
 106: Original Resin
 107: Story Key
-108: 
+108: null
 109: Fading Star's Might
 110: Fading Star's Essence
 111: Glimmering Essence
@@ -38,6 +38,7 @@
 138: Immaculate Talisman
 139: Conquest Talisman
 140: Moonlit Cragstone
+141: Iridescent Flotsam
 142: Stratagem Shard
 201: Primogem
 202: Mora
@@ -111,6 +112,7 @@
 1156: Kujou Sara's Stella Fortuna
 1157: Arataki Itto's Stella Fortuna
 1158: Yae Miko's Stella Fortuna
+1159: Shikanoin Heizou's Stella Fortuna
 1160: Yelan's Stella Fortuna
 1162: Aloy's Stella Fortuna
 1163: Shenhe's Stella Fortuna
@@ -140,7 +142,7 @@
 2027: Time Shard (Minigame item)
 2028: Quest Use - Atomic Energy Orb Pouch
 2029: Quest Use - Atomic Energy Orb Pouch
-2800: 
+2800: null
 3001: Test Random Treasure Chest
 3002: Test Set Treasure Chest
 3003: Character Card Draw
@@ -163,13 +165,13 @@
 3020: Razor Test Package
 3021: Kaeya
 3022: Lisa
-10002: 
-10003: 
-10004: 
-10005: 
-10006: 
-10008: 
-20001: 
+10002: null
+10003: null
+10004: null
+10005: null
+10006: null
+10008: null
+20001: null
 20002: Initiate's Feather
 20004: Initiate's Flower
 100001: Apple
@@ -439,11 +441,11 @@
 100368: Legend of the Geo Archon: God of Wealth
 100369: Legend of the Geo Archon: God of History
 100370: The Wrath of Haishan
-100371: 
-100372: 
+100371: null
+100372: null
 100373: Ring of Raining Blades (I)
 100374: Ring of Raining Blades (II)
-100375: 
+100375: null
 100376: Meal Box by Smiley Yanxiao for Jiangxue
 100377: A log of ships coming in and out by Little Lulu
 100378: A log of ships coming in and out by Little Lulu
@@ -465,7 +467,7 @@
 100394: Treasure Map of Lone Gorge
 100395: Poorly-Sealed Box
 100396: Tightly-Sealed Box
-100397: 
+100397: null
 100398: Katheryne's Letter
 100399: Records of Jueyun: Stone Beasts
 100400: Records of Jueyun: Palace Beneath the Sea
@@ -488,12 +490,12 @@
 100417: Treasure Map of The Vast Blue
 100418: Treasure Map of The Vast Blue
 100419: Treasure Map of The Vast Blue
-100420: 
-100421: 
-100422: 
-100423: 
-100424: 
-100425: 
+100420: null
+100421: null
+100422: null
+100423: null
+100424: null
+100425: null
 100426: Yakshas: The Guardian Adepti
 100427: Witness Sigil
 100428: Special Almond Tofu
@@ -532,10 +534,10 @@
 100465: Transcription from a ruin
 100466: Transcription from a ruin
 100467: Hidden Treasure of Qingce
-100468: 
+100468: null
 100469: Draft Lines of Hilichurlian Poetry
-100470: 
-100471: 
+100470: null
+100471: null
 100472: A Letter by Timmie
 100473: Marjorie's Recommended Gift
 100474: A Gift from Quinn
@@ -590,8 +592,8 @@
 100523: Guizhong Ballista Maintenance Material
 100524: Sturdy Wooden Plank
 100525: Box of Leaves
-100526: 
-100527: 
+100526: null
+100527: null
 100528: Treasure Hoarder's Key
 100529: Alrani's Note
 100530: Nameless Treasure
@@ -645,8 +647,8 @@
 100578: A Drunkard's Tale (II)
 100579: A Drunkard's Tale (III)
 100580: A Drunkard's Tale (IV)
-100581: 
-100582: 
+100581: null
+100582: null
 100583: "Dwelling in the Clouds" Blueprints
 100584: Tainted Blood
 100585: Monolith Fragment
@@ -680,7 +682,7 @@
 100613: Vera's Melancholy (VII)
 100614: Vera's Melancholy (VIII)
 100615: Hilichurl Cultural Customs (III)
-100616: 
+100616: null
 100617: "Of Mountains and Seas"
 100618: Strange Tooth
 100619: Vitalized Dragontooth
@@ -732,19 +734,19 @@
 100665: Special Almond Tofu
 100666: Special Jewelry Soup
 100667: Orders
-100668: 
-100669: 
-100670: 
-100671: 
-100672: 
-100673: 
-100674: 
-100675: 
-100676: 
-100677: 
-100678: 
-100679: 
-100680: 
+100668: null
+100669: null
+100670: null
+100671: null
+100672: null
+100673: null
+100674: null
+100675: null
+100676: null
+100677: null
+100678: null
+100679: null
+100680: null
 100681: Jiayi's Letter
 100682: Nostalgic Jueyun Chili Chicken
 100683: Luxurious Toybox
@@ -758,11 +760,11 @@
 100691: Rex Incognito (IV)
 100692: Ancient Investigation Journal: Part II
 100693: Ancient Investigation Journal: Part III
-100694: 
-100695: 
-100696: 
-100697: 
-100698: 
+100694: null
+100695: null
+100696: null
+100697: null
+100698: null
 100699: Invoice From Second Life
 100700: Package of Fresh Flowers
 100701: Package of Fresh Flowers
@@ -785,11 +787,11 @@
 100718: Starsilver Catalyst
 100719: Starsilver Catalyst
 100720: Starsilver Catalyst
-100721: 
-100722: 
+100721: null
+100722: null
 100723: Dummy's Xiao Lantern
 100724: Unnamed Mingxiao Lantern
-100725: 
+100725: null
 100726: Herbalist Gui's Medicine
 100727: Starsilver Catalyst
 100728: Dandelion Seed
@@ -837,7 +839,7 @@
 100770: Ioroi's Ward
 100771: Scroll-Shaped Ward
 100772: Key-Shaped Ward
-100773: 
+100773: null
 100774: Old Key
 100775: Old Stone Slate
 100776: Old Stone Slate
@@ -898,7 +900,7 @@
 100831: Archaic Stone
 100832: Slightly Damaged Wooden Plank
 100833: Somewhat Rotten Wooden Plank
-100834: 
+100834: null
 100835: Smaragdus Jadeite
 100836: Smaragdus Nephrite Fragment
 100837: The Jade Mystery's Affidavit
@@ -911,8 +913,8 @@
 100844: Twinning Isle Mural
 100845: Illegible Notes
 100846: Fresh Fish
-100847: 
-100848: 
+100847: null
+100848: null
 100849: Ragged List of Goods
 100850: Cargo Bag Fished Out From Water
 100851: Nameless Islet Mural
@@ -924,7 +926,7 @@
 100857: A Masterless Blade
 100858: Bag of Flower Seeds
 100859: Mysterious Conch
-100860: 
+100860: null
 100861: The Sage Aetolia Will Die Tomorrow
 100862: The Honest Cat's Little Lie
 100863: Literature Club
@@ -948,8 +950,8 @@
 100884: Damaged Note
 100885: Luxurious Silk Cloth
 100886: Special Recipe: Mushroom Pizza
-100887: 
-100888: 
+100887: null
+100888: null
 100889: Chef Mao's Special Jueyun Chili Chicken
 100890: Xiangling's Handwritten Notes
 100891: Yellowed Letter
@@ -967,7 +969,7 @@
 100903: A Love Letter(?)
 100904: Cooked Meat
 100905: "The Seventh Samurai" Script
-100906: 
+100906: null
 100907: A Note Left by Someone
 100908: Bamboo Slip
 100909: Bamboo Slip
@@ -976,7 +978,7 @@
 100912: Bamboo Slip
 100913: Bamboo Slip
 100914: Bamboo Slip
-100915: 
+100915: null
 100916: Lightly-Perfumed Letter
 100917: Travel Permit
 100918: Kujou Kamaji's Letter
@@ -1014,8 +1016,8 @@
 100950: Peculiar Pinion
 100951: Maushiro
 100952: Maushiro
-100953: 
-100954: 
+100953: null
+100954: null
 100955: An Onikabuto Affected by Tatarigami
 100956: Missing Component(s)
 100957: Funerary Mask
@@ -1055,7 +1057,7 @@
 100991: Picture Commemorating Seirai Island (IV)
 100992: Fujiwara Toshiko's Treasure Map
 100993: A Bag of Beans
-100994: 
+100994: null
 100995: Right-Side Photo
 100996: Left-Side Photo
 100997: Inferior Starsilver
@@ -1097,7 +1099,7 @@
 101303: Pine Wood
 101304: Sandbearer Wood
 101305: Bamboo Segment
-101306: 
+101306: null
 101307: Fragrant Cedar Wood
 101308: Fir Wood
 101309: Yumemiru Wood
@@ -1123,7 +1125,7 @@
 101513: Pass Permit
 101514: Dango Milk
 101515: Realm Dispatch
-101516: 
+101516: null
 101517: Special Sakura Bloom
 101518: Thunder Sakura Crab
 101519: Fresh Seagrass
@@ -1162,9 +1164,9 @@
 101552: Princess Mina of the Fallen Nation (V)
 101553: Princess Mina of the Fallen Nation (VI)
 101554: Flowers for Princess Fischl (0)
-101555: 
-101556: 
-101557: 
+101555: null
+101556: null
+101557: null
 101558: Teyvat Travel Guide - Inazuma
 101559: Drifting Bottle With Letter
 101560: Onibudou
@@ -1173,7 +1175,7 @@
 101571: Box of Nails
 101572: Planks
 101573: Rope
-101574: 
+101574: null
 101575: Kito's Sachet
 101576: Treasure Map Fragment
 101577: Treasure Map Fragment
@@ -1227,7 +1229,7 @@
 101625: Special Unmoving Essential Oil
 101626: Key to a Stony Hall
 101627: Photo of a Strange Rock
-101628: Academia Recommendation Letter
+101628: Akademiya Recommendation Letter
 101629: Orb of the Blue Depths
 101630: Metal Key
 101631: Miner's Key
@@ -1254,7 +1256,7 @@
 101655: Date's Key
 101656: Pile of Lavender Melons
 101657: Fine Incense
-101658: 
+101658: null
 101659: Curious Cube
 101660: A Note Someone Stuffed You
 101661: Special Bamboo Slip
@@ -1285,7 +1287,7 @@
 101686: The Miraculous Adventures of the Traveler
 101687: The Miraculous Adventures of the Traveler
 101688: The Miraculous Adventures of the Traveler
-101689: 
+101689: null
 101690: Muning's Note
 101691: Frostglaze Crystal
 101692: Light Realm Sigil
@@ -1308,13 +1310,16 @@
 101710: Mysterious Stone Slate
 101711: Yanbo's Note
 101712: Nikolay's Letter
-101713: 
+101713: null
 101714: Fragrant Seasoning
 101715: Fragrant Vegetarian Abalone
 101716: The Almighty Arataki Great and Glorious Drumalong Festival!
 101717: Worksite Records
 101719: Fragrant Mint Salad
 101720: Fragrant Triple-Layered Consommé
+101721: Old Notes
+101722: Old Notes
+101723: Old Notes
 101724: Zhiqiong's Letter
 101725: Arrival Schedule
 101726: Five Kasen Summary
@@ -1326,6 +1331,8 @@
 101732: Ancient Forging Blueprint
 101733: Kaedehara Yoshinori's Letter
 101734: Taliesin's Manuscript
+101735: Old Notes
+101736: Old Notes
 101737: Fragrant Stir-Fried Shrimp
 101738: Fragrant Golden Shrimp Balls
 101739: Fragrant Qingce Stir Fry
@@ -1348,29 +1355,78 @@
 101756: Kokomi's Shopping List
 101757: Toy Fox
 101758: Salary Bag
+101759: Old Notes
+101760: A Complete Chart of Ako's Treasure
+101761: null
+101762: null
+101763: null
+101764: "Outlander Brigade: When the Wind of Death Blew Towards the Blond Samurai" Script
+101765: "Mushounin" Script
 101766: A Legend of Sword (VI)
 101767: Shogun Almighty: Reborn as Raiden With Unlimited Power
 101768: Pretty Please, Kitsune Guuji?
 101769: Let's Go, Dodoco!
+101770: Ako's Treasure: Location 1
+101771: Ako's Treasure: Location 2
+101772: Ako's Treasure: Location 3
+101773: Ako's Treasure: Location 4
+101780: "Mushounin" Script
+101781: "Mushounin" Script
 101782: Jinwu's Soup
-101783: 
-101784: 
-101785: 
-101786: 
-101787: 
-101788: 
-101789: 
-101790: 
-101791: 
-101792: 
-101793: 
-101794: 
+101783: null
+101784: null
+101785: null
+101786: null
+101787: null
+101788: null
+101789: null
+101790: null
+101791: null
+101792: null
+101793: null
+101794: null
 101795: Bag of Ornaments
 101797: Let's Go, Dodoco!
+101798: Sea Route Log
+101799: Route Log: I
+101800: Route Log: II
+101801: Asterism Shard
+101802: Asterism Shard
+101803: Asterism Shard
+101804: Asterism Shard
+101805: Asterism Shard
+101806: Asterism Shard
+101807: Asterism Shard
+101808: Asterism Shard
+101834: Asterism Shard
+101835: Key
+101836: Bottle of Spring Water
+101837: Frozen Soul's Petal
+101838: Elegantly-Written Note
+101839: A Letter
+101840: Rock Garden Rough Stone (Left)
+101841: Rock Garden Rough Stone (Right)
+101842: Rock Garden Carving Tools
+101843: Rock Garden Carving Tools
+101847: Small Gear
+101848: Medium Gear
+101849: Drive Gear
+101850: Large Gear
+101851: Duplex Gear
+101852: Large Duplex Gear
+101853: Driven Gear
+101854: Leisurely Rocks: Left
+101855: Leisurely Rocks: Right
+101856: Hoverlight Rocks: Left
+101857: Hoverlight Rocks: Right
+101858: Unyielding Rocks: Left
+101859: Unyielding Rocks: Right
+101861: A Box of Components
 101862: Note of Unknown Origin: I
 101863: Note of Unknown Origin: II
 101864: Note of Unknown Origin: III
 101865: Note of Unknown Origin: IV
+101866: A Note
 101867: Redemption Voucher 1
 101868: Redemption Voucher 2
 101869: Redemption Voucher 3
@@ -1391,8 +1447,38 @@
 101884: Redemption Voucher 18
 101885: Redemption Voucher 19
 101886: Redemption Voucher 20
+101887: Part: Breeze
+101888: Part: Sky
+101889: Part: Clouds
+101890: Part: Company
+101891: Part: Lonely
+101892: Part: Meadow
+101893: Forensic Office Research Log Excerpt
 101894: Note of Unknown Origin
+101895: null
+101896: Crystalline Core
+101897: Crystalline Core
+101898: Crystalline Core
+101899: Old Yellowed Notes
+101900: Mysterious Letter
+101901: A Seemingly Waterproof Note
+101902: Reverberating Key
+101903: A New Letter
+101904: Dawn Winery's Top-Quality Grape Juice
+101908: Starlight Coalescence
 101909: Dragonspine Supplies: Ham
+101910: Nightwatch Contract
+101916: Tenryou Commission's Missing Person Poster
+101917: Sea Salt-Crusted Key
+101918: null
+101935: Misplaced Conch 1
+101936: Misplaced Conch 2
+101937: Misplaced Conch 3
+101943: Red-Dyed Fabric
+101945: Silver Pocket Watch
+101946: Old Insignia
+101964: Persikov's Manuscript
+101993: Twilight Theater Head's Notes
 102001: Pyro Shard
 102002: Hydro Shard
 102003: Dendro Shard
@@ -1888,6 +1974,7 @@
 108387: Quiet Elegance
 108388: Omurice Waltz
 108389: Dew-Dipped Shrimp
+108390: The Only Truth
 109000: Recipe Item
 109101: Recipe: Chicken-Mushroom Skewer
 109102: Recipe: Fisherman's Toast
@@ -2165,15 +2252,15 @@
 114034: Mask of the Tiger's Bite
 114035: Mask of the One-Horned
 114036: Mask of the Kijin
-115001: 
-115002: 
-115003: 
-115004: 
-115005: 
-115006: 
-115007: 
-115008: 
-115009: 
+115001: null
+115002: null
+115003: null
+115004: null
+115005: null
+115006: null
+115007: null
+115008: null
+115009: null
 115010: Starter Supply Bundle
 115011: Wayfarer's Supply Bundle
 115012: Traveler's Supply Bundle
@@ -2209,8 +2296,8 @@
 116005: Philosophies of the Land of Wind
 116006: Guidance of the Land of Geo
 116007: Philosophies of the Land of Geo
-116008: 
-116009: 
+116008: null
+116009: null
 116010: Guidance of the Land of Thunder
 116011: Philosophies of the Land of Thunder
 117001: Domain Reliquary: Tier III
@@ -2549,6 +2636,8 @@
 210119: Yelan: Throw
 210120: Kuki Shinobu: Net
 210121: Travel Notes: Divine Will
+210122: Shikanoin Heizou: Temari
+210123: Travel Notes: Azure Main
 220001: Anemoculus Resonance Stone
 220002: Geoculus Resonance Stone
 220003: Geo Treasure Compass
@@ -2595,10 +2684,10 @@
 220047: Launch Tube
 220048: Lumenstone Adjuvant
 220049: Bokuso Box
-220050: 
+220050: null
 220051: Arataki's Great and Glorious Drum
 220052: Material Collector
-220054: 
+220054: null
 221001: Instructions: Anemoculus Resonance Stone
 221002: Instructions: Geoculus Resonance Stone
 221003: Diagram: Geo Treasure Compass
@@ -2640,6 +2729,8 @@
 340001: Sea Breeze Dandelion
 340002: Orchid's Evening Gown
 340003: Opulent Splendor
+340004: Red Dead of Night
+340005: Ein Immernachtstraum
 340006: Gunnhildr's Legacy
 340007: 100% Outrider
 340008: Pact of Stars and Moon
@@ -2807,6 +2898,7 @@
 363103: Tianyuan Lantern: Fragrant Brilliance
 363104: Seashell Table Lamp
 363105: Flash of Glory
+363106: Tranquil Starlight
 363201: Flower Arrangement: Baby Blue Tranquility
 363202: Potted Plant: Crystalline Breeze
 363203: Flower Arrangement: Sprawling Daybreak
@@ -2836,6 +2928,7 @@
 363319: A Guest of Noble Character
 363320: Tavern Shaker: Grumous Oscillation
 363321: A Mask
+363322: Cosmos Within
 364101: Landscape Painting: Country Home
 364102: Landscape Painting: Distant Clouds
 364103: Landscape Painting: Nameless Precipice
@@ -2865,6 +2958,9 @@
 364402: Fir Wood Cornering Stairs
 364403: Maple Wood Cornering Stairs
 364501: Lingering Moment
+364502: Keepsake Photo of Twilight Theater
+364503: Keepsake Photo of Twilight Theater
+364504: "Evermotion Mechanical Painting"
 364601: Mirrorpool Horned Owl: Turning
 364602: Mirrorpool Horned Owl: Dancing
 364603: Mirrorpool Horned Owl: Air Time
@@ -2935,6 +3031,7 @@
 368148: Kamisato Ayato
 368149: Yelan
 368150: Kuki Shinobu
+368151: Shikanoin Heizou
 369101: Jade-Eyed Cat
 369102: Northland Hound
 369103: Forest Boar
@@ -3044,6 +3141,7 @@
 370515: Rainbow Stall: Ruby Red
 370516: Festival Booth - "Strange Wonders"
 370517: Festival Booth - "Literary Talent"
+370518: Dodoco's Summertime
 370601: Ritual Shrine
 370602: Cleansing Shrine
 370603: Inazuman Mansion: As One
@@ -3286,6 +3384,7 @@
 373138: Serene Flames
 373139: Pear Orchard Snare Drum: A Quartet Chorus
 373140: Pear Orchard Percussion: Gong on the Dot
+373141: Allegro Bloom: Special Tuning
 373201: Potted Plant: Verdant Vastness
 373202: Water-Retaining Flower Beds
 373203: Soil-Carrying Wooden Barrel
@@ -3341,6 +3440,13 @@
 373345: "The Five Kasen" Nishiki-e
 373346: Pear Orchard Screen: Dexterous
 373347: Pear Orchard Screen: Deft
+373348: Storm Braver
+373349: Fabled Emperor Onikabuto
+373350: Dodoco's Travel Bag
+373351: Dodoco's Dodo Stove
+373352: Dodoco's Beach Nap
+373353: Dodoco's Collection Cupboard
+373354: Dodoco's Sunshade Umbrella
 373401: Wrought Iron Carved Street Light
 373402: Pine Street Light
 373403: Evil-Repelling Lantern: All-Around Lighting
@@ -3375,18 +3481,18 @@
 373807: Dawnrouge Silkpod
 373808: Twilight Silkpod
 373809: Noontide Silkpod
-373810: 
-373811: 
-373812: 
-373813: 
-373814: 
-373815: 
-373816: 
-373817: 
-373818: 
-373819: 
-373820: 
-373821: 
+373810: null
+373811: null
+373812: null
+373813: null
+373814: null
+373815: null
+373816: null
+373817: null
+373818: null
+373819: null
+373820: null
+373821: null
 373831: Moonlight on Sand
 373832: Crystal Ripples
 373833: Wild Laurel
@@ -3646,6 +3752,7 @@
 383102: Blueprint: Liuli Pavilion Sandbearer Floor Lamp
 383103: Blueprint: Tianyuan Lantern: Fragrant Brilliance
 383104: Blueprint: Seashell Table Lamp
+383106: Blueprint: Tranquil Starlight
 383201: Blueprint: Flower Arrangement: Baby Blue Tranquility
 383202: Blueprint: Potted Plant: Crystalline Breeze
 383203: Blueprint: Flower Arrangement: Sprawling Daybreak
@@ -3671,6 +3778,7 @@
 383316: Blueprint: Spiritchaser Screen
 383317: Blueprint: "Divine Nose:" Kitsu-Kitsu Daruma
 383318: Blueprint: "True Cookery": Nuki-Nuki Daruma
+383322: Blueprint: Cosmos Within
 384101: Blueprint: Landscape Painting: Country Home
 384102: Blueprint: Landscape Painting: Distant Clouds
 384103: Blueprint: Landscape Painting: Nameless Precipice
@@ -3745,6 +3853,7 @@
 390515: Blueprint: Rainbow Stall: Ruby Red
 390516: Blueprint: Festival Booth - "Strange Wonders"
 390517: Blueprint: Festival Booth - "Literary Talent"
+390518: Blueprint: Dodoco's Summertime
 390601: Blueprint: Ritual Shrine
 390602: Blueprint: Cleansing Shrine
 390603: Blueprint: Inazuman Mansion: As One
@@ -3857,6 +3966,7 @@
 393134: Blueprint: Mountain of Festive Gifts
 393137: Blueprint: Heavy-Duty Restaurant Stove
 393138: Blueprint: Serene Flames
+393141: Blueprint: Allegro Bloom: Special Tuning
 393201: Blueprint: Potted Plant: Verdant Vastness
 393202: Blueprint: Water-Retaining Flower Beds
 393203: Blueprint: Soil-Carrying Wooden Barrel
@@ -3900,6 +4010,11 @@
 393344: Blueprint: "Kitsune Guuji" Exclusive Painted Flag Banner
 393346: Blueprint: Pear Orchard Screen: Dexterous
 393347: Blueprint: Pear Orchard Screen: Deft
+393350: Blueprint: Dodoco's Travel Bag
+393351: Blueprint: Dodoco's Dodo Stove
+393352: Blueprint: Dodoco's Beach Nap
+393353: Blueprint: Dodoco's Collection Cupboard
+393354: Blueprint: Dodoco's Sunshade Umbrella
 393401: Blueprint: Wrought Iron Carved Street Light
 393402: Blueprint: Pine Street Light
 393403: Blueprint: Evil-Repelling Lantern: All-Around Lighting
