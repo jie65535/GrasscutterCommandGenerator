@@ -30,8 +30,8 @@
 /give 224 x10000
 十萬原石
 /give 201 x100000
-十萬摩拉
-/give 202 x100000
+一億摩拉
+/give 202 x100000000
 重載配置
 /reload
 重登
@@ -45,7 +45,7 @@
 清空武器
 /clear wp lv90 r5 5*
 清空聖遺物
-/clear art lv20 r5 5*
+/clear art lv20 5*
 清空材料
 /clear mat
 清場
@@ -58,5 +58,7 @@
 /list uid
 發送廣播
 /say 大家好啊~
-伺服器通告
+伺服器公告
 /a 歡迎來到Grasscutter PS!
+關閉伺服器
+/stop
