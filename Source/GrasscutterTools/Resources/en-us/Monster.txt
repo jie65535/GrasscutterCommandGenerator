@@ -1,37 +1,46 @@
-﻿21010101: Hilichurl
-21020101: Wooden Shieldwall Mitachurl
-21020201: Blazing Axe Mitachurl
-21020202: Blazing Axe Mitachurl
-21020301: Rock Shieldwall Mitachurl
-21020401: Frostarm Lawachurl
-21020501: Stonehide Lawachurl
-21020601: Ice Shieldwall Mitachurl
-21020701: Crackling Axe Mitachurl
-21020703: Crackling Axe Mitachurl
-21020801: Thunderhelm Lawachurl
-20010101: Dendro Slime
+﻿20010101: Dendro Slime
 20010201: Large Dendro Slime
 20010202: Large Dendro Slime
 20010301: Anemo Slime
+20010302: Anemo Slime
 20010401: Large Anemo Slime
+20010402: Large Anemo Slime
 20010403: Large Anemo Slime
-29010101: Stormterror
-29010102: Stormterror
-29010103: Stormterror
-29010104: Stormterror
-29020101: Lupus Boreas, Dominator of Wolves
-29020102: Lupus Boreas, Dominator of Wolves
-29030103: Childe
-29030106: Childe
-29040101: Azhdaha
-29040102: Azhdaha
-29040103: Azhdaha
-29040104: Azhdaha
-29040111: Azhdaha
-29050102: La Signora
-29050104: La Signora
-29060202: Magatsu Mitake Narukami no Mikoto
-29060203: Magatsu Mitake Narukami no Mikoto
+20010501: Electro Slime
+20010502: Electro Slime
+20010601: Large Electro Slime
+20010602: Large Electro Slime
+20010604: Large Electro Slime
+20010701: Mutant Electro Slime
+20010702: Mutant Electro Slime
+20010703: Mutant Electro Slime
+20010801: Cryo Slime
+20010802: Cryo Slime
+20010803: Cryo Slime
+20010901: Large Cryo Slime
+20010902: Large Cryo Slime
+20010903: Large Cryo Slime
+20010904: Large Cryo Slime
+20011001: Hydro Slime
+20011002: Hydro Slime
+20011101: Large Hydro Slime
+20011102: Large Hydro Slime
+20011103: Large Hydro Slime
+20011201: Pyro Slime
+20011202: Pyro Slime
+20011203: Pyro Slime
+20011301: Large Pyro Slime
+20011302: Large Pyro Slime
+20011304: Large Pyro Slime
+20011401: Geo Slime
+20011402: Geo Slime
+20011501: Large Geo Slime
+20011502: Large Geo Slime
+20011503: Large Geo Slime
+20011601: Hydro Hypostasis Summon: Split (L)
+20011701: Hydro Hypostasis Summon: Split (S)
+20011801: Hydro Hypostasis Summon: Self-Destruct
+20011901: Hydro Hypostasis Summon: Heal
 20020101: Eye of the Storm
 20040101: Electro Hypostasis
 20040102: Electro Hypostasis
@@ -42,47 +51,39 @@
 20040401: Hydro Hypostasis
 20040501: Cryo Hypostasis
 20040601: Pyro Hypostasis
-20010501: Electro Slime
-20010601: Large Electro Slime
-20010604: Large Electro Slime
-20010701: Mutant Electro Slime
-20010702: Mutant Electro Slime
-20010801: Cryo Slime
-20010802: Cryo Slime
-20010901: Large Cryo Slime
-20010902: Large Cryo Slime
-20010904: Large Cryo Slime
-20011001: Hydro Slime
-20011101: Large Hydro Slime
-20011103: Large Hydro Slime
-20011601: Hydro Hypostasis Summon
-20011701: Hydro Hypostasis Summon
-20011801: Hydro Hypostasis Summon
-20011901: Hydro Hypostasis Summon
 20050101: Oceanid
 20050102: Oceanid
-20050201: Hydro Mimic Boar
-20050202: Hydro Mimic Boar
-20050203: Hydro Mimic Boar
-20050301: Hydro Mimic Crane
-20050302: Hydro Mimic Crane
-20050401: Hydro Mimic Crab
-20050402: Hydro Mimic Crab
-20050403: Hydro Mimic Crab
-20050501: Hydro Mimic Finch
-20050502: Hydro Mimic Finch
-20050601: Hydro Mimic Mallard
-20050602: Hydro Mimic Mallard
-20050603: Hydro Mimic Mallard
-20050701: Hydro Mimic Ferret
-20050702: Hydro Mimic Ferret
-20050703: Hydro Mimic Ferret
-20050801: Hydro Mimic Frog
-20050802: Hydro Mimic Frog
-20050901: Hydro Mimic Raptor
+20050201: Oceanid Boar
+20050202: Oceanid Boar
+20050203: Oceanid Boar
+20050301: Oceanid Crane
+20050302: Oceanid Crane
+20050401: Oceanid Crab
+20050402: Oceanid Crab
+20050403: Oceanid Crab
+20050501: Oceanid Finch
+20050502: Oceanid Finch
+20050601: Oceanid Mallard
+20050602: Oceanid Mallard
+20050603: Oceanid Mallard
+20050701: Oceanid Ferret
+20050702: Oceanid Ferret
+20050703: Oceanid Ferret
+20050801: Oceanid Frog
+20050802: Oceanid Frog
+20050901: Oceanid Raptor
+20060101: Hydro Specter
+20060201: Geo Specter
+20060301: Anemo Specter
+20060401: Cryo Specter
+20060501: Electro Specter
+20060601: Pyro Specter
 20070101: Thunder Manifestation
+21010101: Hilichurl
+21010102: Hilichurl
 21010201: Hilichurl Fighter
 21010301: Wooden Shield Hilichurl Guard
+21010302: Wooden Shield Hilichurl Guard
 21010401: Hilichurl Shooter
 21010402: Hilichurl Shooter
 21010501: Pyro Hilichurl Shooter
@@ -90,38 +91,74 @@
 21010601: Hilichurl Grenadier
 21010603: Hilichurl Grenadier
 21010701: Hilichurl Berserker
+21010702: Hilichurl Berserker
 21010901: Cryo Hilichurl Shooter
 21010902: Cryo Hilichurl Shooter
 21011001: Electro Hilichurl Shooter
 21011002: Electro Hilichurl Shooter
 21011201: Rock Shield Hilichurl Guard
+21011202: Rock Shield Hilichurl Guard
 21011301: Cryo Hilichurl Grenadier
 21011302: Cryo Hilichurl Grenadier
 21011401: Ice Shield Hilichurl Guard
+21011402: Ice Shield Hilichurl Guard
 21011403: Ice Shield Hilichurl Guard
 21011501: Unusual Hilichurl
 21011601: Electro Hilichurl Grenadier
 21011602: Electro Hilichurl Grenadier
-20011201: Pyro Slime
-20011202: Pyro Slime
-20011301: Large Pyro Slime
-20011304: Large Pyro Slime
-20011401: Geo Slime
-20011501: Large Geo Slime
-20011502: Large Geo Slime
+21020101: Wooden Shieldwall Mitachurl
+21020102: Wooden Shieldwall Mitachurl
+21020201: Blazing Axe Mitachurl
+21020202: Blazing Axe Mitachurl
+21020203: Blazing Axe Mitachurl
+21020301: Rock Shieldwall Mitachurl
+21020302: Rock Shieldwall Mitachurl
+21020401: Frostarm Lawachurl
+21020402: Frostarm Lawachurl
+21020501: Stonehide Lawachurl
+21020502: Stonehide Lawachurl
+21020601: Ice Shieldwall Mitachurl
+21020602: Ice Shieldwall Mitachurl
+21020701: Crackling Axe Mitachurl
+21020702: Crackling Axe Mitachurl
+21020703: Crackling Axe Mitachurl
+21020801: Thunderhelm Lawachurl
+21020802: Thunderhelm Lawachurl
+21030101: Hydro Samachurl
+21030102: Hydro Samachurl
+21030103: Hydro Samachurl
+21030201: Dendro Samachurl
+21030202: Dendro Samachurl
+21030203: Dendro Samachurl
+21030301: Anemo Samachurl
+21030302: Anemo Samachurl
+21030303: Anemo Samachurl
+21030304: Anemo Samachurl
+21030401: Geo Samachurl
+21030402: Geo Samachurl
+21030403: Geo Samachurl
+21030501: Cryo Samachurl
+21030502: Cryo Samachurl
+21030601: Electro Samachurl
+21030602: Electro Samachurl
+21030603: Electro Samachurl
 22010101: Pyro Abyss Mage
 22010102: Pyro Abyss Mage
 22010103: Pyro Abyss Mage
 22010104: Pyro Abyss Mage
+22010105: Pyro Abyss Mage
 22010201: Cryo Abyss Mage
 22010202: Cryo Abyss Mage
 22010203: Cryo Abyss Mage
 22010204: Cryo Abyss Mage
+22010205: Cryo Abyss Mage
 22010301: Hydro Abyss Mage
 22010302: Hydro Abyss Mage
 22010303: Hydro Abyss Mage
 22010304: Hydro Abyss Mage
+22010305: Hydro Abyss Mage
 22010401: Electro Abyss Mage
+22010402: Electro Abyss Mage
 22010403: Electro Abyss Mage
 22010404: Electro Abyss Mage
 22020101: Abyss Herald: Wicked Torrents
@@ -142,23 +179,28 @@
 22070301: Shadowy Husk: Defender
 22070302: Shadowy Husk: Defender
 22080101: Black Serpent Knight: Windcutter
-21030101: Hydro Samachurl
-21030103: Hydro Samachurl
-21030201: Dendro Samachurl
-21030203: Dendro Samachurl
-21030301: Anemo Samachurl
-21030303: Anemo Samachurl
-21030304: Anemo Samachurl
-21030401: Geo Samachurl
-21030402: Geo Samachurl
-21030501: Cryo Samachurl
-21030601: Electro Samachurl
-21030603: Electro Samachurl
+22090101: Guess!
+23010101: Fatui Skirmisher - Cryogunner Legionnaire
+23010201: Fatui Skirmisher - Hydrogunner Legionnaire
+23010301: Fatui Skirmisher - Electrohammer Vanguard
+23010401: Fatui Skirmisher - Geochanter Bracer
+23010501: Fatui Skirmisher - Anemoboxer Vanguard
+23010601: Fatui Skirmisher - Pyroslinger Bracer
+23020101: Fatui Pyro Agent
+23020102: Fatui Pyro Agent
+23030101: Fatui Electro Cicin Mage
+23030102: Fatui Electro Cicin Mage
+23040101: Fatui Cryo Cicin Mage
+23040102: Fatui Cryo Cicin Mage
+23050101: Mirror Maiden
 24010101: Ruin Guard
+24010102: Ruin Guard
 24010108: Ruin Guard
 24010109: Ruin Guard
 24010201: Ruin Hunter
+24010202: Ruin Hunter
 24010301: Ruin Grader
+24010302: Ruin Grader
 24010303: Ruin Grader
 24010401: Ruin Serpent
 24020101: Ruin Cruiser
@@ -175,50 +217,37 @@
 24020403: Ruin Scout
 24021101: Perpetual Mechanical Array
 24021102: Perpetual Mechanical Array
-23010101: Fatui Skirmisher - Cryogunner Legionnaire
-23010201: Fatui Skirmisher - Hydrogunner Legionnaire
-23010301: Fatui Skirmisher - Electrohammer Vanguard
-23010401: Fatui Skirmisher - Geochanter Bracer
-23010501: Fatui Skirmisher - Anemoboxer Vanguard
-23010601: Fatui Skirmisher - Pyroslinger Bracer
-23020101: Fatui Pyro Agent
-23020102: Fatui Pyro Agent
-23030101: Fatui Electro Cicin Mage
-23030102: Fatui Electro Cicin Mage
-23040101: Fatui Cryo Cicin Mage
-23040102: Fatui Cryo Cicin Mage
-23050101: Mirror Maiden
-25010101: Treasure Hoarders - Liuliu
-25010102: Treasure Hoarders - Liuliu
-25010103: Treasure Hoarders - Liuliu
-25010104: Treasure Hoarders - Liuliu
-25010105: Treasure Hoarders - Liuliu
-25010106: Treasure Hoarders - Liuliu
-25010201: Treasure Hoarders - Scout
-25010203: Treasure Hoarders - Scout
-25010204: Treasure Hoarders - Scout
-25010205: Treasure Hoarders - Scout
-25010206: Treasure Hoarders - Scout
-25010207: Treasure Hoarders - Scout
-25010208: Treasure Hoarders - Scout
+25010101: Liuliu
+25010102: Mystery Man
+25010103: Treasure Hoarders: Liuliu
+25010104: Treasure Hoarders: Liuliu
+25010105: Treasure Hoarders: Liuliu
+25010106: Treasure Hoarders: Liuliu
+25010201: Treasure Hoarders: Scout
+25010203: Treasure Hoarders: Scout
+25010204: Treasure Hoarders: Scout
+25010205: Treasure Hoarders: Scout
+25010206: Treasure Hoarders: Scout
+25010207: Treasure Hoarders: Scout
+25010208: Treasure Hoarders: Scout
 25010301: Treasure Hoarders: Pyro Potioneer
 25010302: Treasure Hoarders: Pyro Potioneer
 25010401: Treasure Hoarders: Hydro Potioneer
 25010501: Treasure Hoarders: Electro Potioneer
 25010601: Treasure Hoarders: Cryo Potioneer
 25010701: Treasure Hoarders: Handyman
-25020101: Treasure Hoarders - Raptor
-25020102: Treasure Hoarders - Raptor
-25020201: Treasure Hoarders - Marksman
-25020204: Treasure Hoarders - Marksman
-25030101: Treasure Hoarders - Carmen
-25030102: Treasure Hoarders - Carmen
-25030103: Treasure Hoarders - Carmen
+25020101: Treasure Hoarders: Raptor
+25020102: Treasure Hoarders: Raptor
+25020201: Treasure Hoarders: Marksman
+25020204: Treasure Hoarders: Marksman
+25030101: Treasure Hoarders: Carmen
+25030102: Treasure Hoarders: Carmen
+25030103: Treasure Hoarders: Carmen
 25030201: Treasure Hoarders: Gravedigger
-25030301: Treasure Hoarders - Seaman
-25040101: Treasure Hoarders - Boss
-25040102: Treasure Hoarders - Boss
-25040103: Treasure Hoarders - Boss
+25030301: Treasure Hoarders: Oarsman
+25040101: Treasure Hoarders: Boss
+25040102: Treasure Hoarders: Boss
+25040103: Treasure Hoarders: Boss
 25050101: Millelith Soldier
 25050201: Millelith Sergeant
 25050301: Shogunate Infantry
@@ -226,11 +255,11 @@
 25050402: Shogunate Infantry Captain
 25050501: Sangonomiya Cohort
 25050502: Sangonomiya Cohort
-25060101: Treasure Hoarders - Pugilist
-25060102: Treasure Hoarders - Pugilist
-25070101: Treasure Hoarders - Crusher
-25070201: Treasure Hoarder: Wallenstein
-25070202: Treasure Hoarder: Wallenstein
+25060101: Treasure Hoarders: Pugilist
+25060102: Treasure Hoarders: Pugilist
+25070101: Treasure Hoarders: Crusher
+25070201: Treasure Hoarders: Wallenstein
+25070202: Treasure Hoarders: Wallenstein
 25080101: Nobushi: Jintouban
 25080201: Nobushi: Hitsukeban
 25080202: Nobushi: Hitsukeban
@@ -238,18 +267,18 @@
 25080401: Yoriki Samurai
 25080402: Yoriki Samurai
 25090101: Maguu Kenki
-25090102: Maguu Kenki
-25090103: Maguu Kenki
-25090104: Maguu Kenki
+25090102: Maguu Kenki: Wind Bunshin
+25090103: Maguu Kenki: Ice Bunshin
+25090104: Maguu Kenki: Masked Bunshin
 25090201: Maguu Kenki: Lone Gale
 25090301: Maguu Kenki: Galloping Frost
 25090401: Maguu Kenki: Mask of Terror
 25100101: Kairagi: Dancing Thunder
-25100301: Ochimusha: Ensorcelled Thunder
-25100201: Kairagi: Fiery Might
-25100401: Ochimusha: Cankered Flame
 25100102: Kairagi: Dancing Thunder
+25100201: Kairagi: Fiery Might
+25100301: Ochimusha: Ensorcelled Thunder
 25100302: Ochimusha: Ensorcelled Thunder
+25100401: Ochimusha: Cankered Flame
 26010101: Cryo Whopperflower
 26010102: Cryo Whopperflower
 26010103: Cryo Whopperflower
@@ -260,71 +289,52 @@
 26020102: Cryo Regisvine
 26020201: Pyro Regisvine
 26030101: Geovishap Hatchling
-26040101: Geovishap
-26040102: Geovishap
-26040103: Geovishap
-26040104: Geovishap
-26050101: Primo Geovishap
-26050201: Primo Geovishap
-26050301: Primo Geovishap
-26050401: Primo Geovishap
+26040101: Geovishap (Hydro)
+26040102: Geovishap (Pyro)
+26040103: Geovishap (Cryo)
+26040104: Geovishap (Electro)
+26040105: Geovishap
+26050101: Primo Geovishap (Hydro)
+26050201: Primo Geovishap (Pyro)
+26050301: Primo Geovishap (Cryo)
+26050401: Primo Geovishap (Electro)
 26050501: Primo Geovishap
 26050601: Primordial Bathysmal Vishap
-26050901: Primordial Bathysmal Vishap
 26050701: Rimebiter Bathysmal Vishap
-26051001: Rimebiter Bathysmal Vishap
 26050702: Rimebiter Bathysmal Vishap
 26050801: Bolteater Bathysmal Vishap
-26051101: Bolteater Bathysmal Vishap
 26050802: Bolteater Bathysmal Vishap
+26050901: Primordial Bathysmal Vishap
+26051001: Primordial Bathysmal Vishap Hatchling
+26051101: Bolteater Bathysmal Vishap Hatchling
 26060101: Electro Cicin
 26060201: Hydro Cicin
 26060301: Cryo Cicin
 26080101: Beisht
 26090101: Floating Hydro Fungus
-20060101: Hydro Specter
-20060201: Geo Specter
-20060301: Anemo Specter
-20060401: Cryo Specter
-20060501: Electro Specter
-20060601: Pyro Specter
-21010102: Hilichurl
-21020102: Wooden Shieldwall Mitachurl
-21020203: Blazing Axe Mitachurl
-21020702: Crackling Axe Mitachurl
-21020302: Rock Shieldwall Mitachurl
-21020402: Frostarm Lawachurl
-21020502: Stonehide Lawachurl
-21020802: Thunderhelm Lawachurl
-21020602: Ice Shieldwall Mitachurl
-20010302: Anemo Slime
-20010402: Large Anemo Slime
-20010502: Electro Slime
-20010602: Large Electro Slime
-20010703: Mutant Electro Slime
-20010803: Cryo Slime
-20010903: Large Cryo Slime
-20011002: Hydro Slime
-20011102: Large Hydro Slime
-21010302: Wooden Shield Hilichurl Guard
-21010702: Hilichurl Berserker
-21011202: Rock Shield Hilichurl Guard
-21011402: Ice Shield Hilichurl Guard
-20011203: Pyro Slime
-20011302: Large Pyro Slime
-20011402: Geo Slime
-20011503: Large Geo Slime
-22010105: Pyro Abyss Mage
-22010205: Cryo Abyss Mage
-22010305: Hydro Abyss Mage
-22010402: Electro Abyss Mage
-21030102: Hydro Samachurl
-21030202: Dendro Samachurl
-21030302: Anemo Samachurl
-21030403: Geo Samachurl
-21030502: Cryo Samachurl
-21030602: Electro Samachurl
-24010102: Ruin Guard
-24010202: Ruin Hunter
-24010302: Ruin Grader
-26040105: Geovishap
+29010101: Stormterror
+29010102: Stormterror
+29010103: Stormterror
+29010104: Stormterror
+29020101: Boreas, Great Wolf King of the North
+29020102: Lupus Boreas, Dominator of Wolves
+29030101: Childe - Eleventh of the Fatui Harbingers
+29030102: Childe - Delusion Unleashed
+29030103: Childe
+29030104: Childe - Eleventh of the Fatui Harbingers
+29030105: Childe - Delusion Unleashed
+29030106: Childe
+29040101: Azhdaha (Pyro, Electro)
+29040102: Azhdaha (Hydro, Electro)
+29040103: Azhdaha (Pyro, Cryo)
+29040104: Azhdaha (Hydro, Cryo)
+29040111: Azhdaha
+29050101: La Signora
+29050102: La Signora - Crimson Witch of Embers
+29050103: La Signora
+29050104: La Signora - Crimson Witch of Embers
+29060101: Raiden Shogun
+29060102: Raiden Ei
+29060201: Magatsu Mitake Narukami no Mikoto
+29060202: Magatsu Mitake Narukami no Mikoto
+29060203: Magatsu Mitake Narukami no Mikoto
