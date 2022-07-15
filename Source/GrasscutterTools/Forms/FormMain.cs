@@ -21,15 +21,18 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Text.Json;
 
 using GrasscutterTools.DispatchServer;
 using GrasscutterTools.Game;
 using GrasscutterTools.OpenCommand;
 using GrasscutterTools.Properties;
+using GrasscutterTools.Utils;
 
 namespace GrasscutterTools.Forms
 {
@@ -200,6 +203,127 @@ namespace GrasscutterTools.Forms
             {
                 TextMapBrowser.TopMost = true;
                 TextMapBrowser.TopMost = false;
+            }
+        }
+        async private void ButtonOpenGOODImport_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                try
+                {
+                    DialogResult dr = MessageBox.Show(Resources.GOODImportText + openFileDialog1.FileName + "?",
+                       Resources.GOODImportTitle, MessageBoxButtons.YesNo);
+                    switch (dr)
+                    {
+                        case DialogResult.Yes:
+                            break;
+                        case DialogResult.No:
+                            return;
+                    }
+                    var sr = new StreamReader(openFileDialog1.FileName);
+                    var commands_list = new List<String>();
+                    var doc = JsonDocument.Parse(sr.ReadToEnd());
+
+                    JsonElement characters = doc.RootElement.GetProperty("characters");
+                    foreach (JsonElement character in characters.EnumerateArray())
+                    {
+                        var character_name = character.GetProperty("key").GetString();
+                        var character_level = character.GetProperty("level").GetInt32().ToString();
+                        var character_constellation = character.GetProperty("constellation").GetInt32().ToString();
+                        if (character_name != "Traveler")
+                        {
+                            var character_id = GameData.GOODAvatars[character_name]; // TODO: build separate GOOD-compatible database
+                            commands_list.Add("/give " + character_id + " lv" + character_level + "c" + character_constellation);
+                            // TODO: Implement command to set talent level when giving character in Grasscutter
+                        }
+                    }
+
+                    JsonElement weapons = doc.RootElement.GetProperty("weapons");
+                    foreach (JsonElement weapon in weapons.EnumerateArray())
+                    {
+                        var weapon_name = weapon.GetProperty("key").GetString();
+                        var weapon_level = weapon.GetProperty("level").GetInt32().ToString();
+                        var weapon_refinement = weapon.GetProperty("refinement").GetInt32().ToString();
+
+                        var weapon_id = GameData.GOODWeapons[weapon_name];
+                        commands_list.Add("/give " + weapon_id + " lv" + weapon_level + "r" + weapon_refinement);
+                        // TODO: Implement command to give weapon directly to character in Grasscutter
+                    }
+
+                    JsonElement artifacts = doc.RootElement.GetProperty("artifacts");
+                    foreach (JsonElement artifact in artifacts.EnumerateArray())
+                    {
+                        var artifact_set = artifact.GetProperty("setKey").GetString();
+                        var artifact_slot = artifact.GetProperty("slotKey").GetString();
+                        var artifact_rarity = artifact.GetProperty("rarity").GetInt32();
+                        var artifact_level = artifact.GetProperty("level").GetInt32().ToString();
+                        var artifact_mainStat = artifact.GetProperty("mainStatKey").GetString();
+
+                        var artifact_slot_map = new Dictionary<string, string> {
+                           {"goblet", "1"}, {"plume", "2"}, {"circlet", "3"}, {"flower", "4"}, {"sands", "5"}
+                        };
+
+                        // Format: set rarity slot 
+                        var artifact_id = GameData.GOODArtifactCats[artifact_set].ToString() + artifact_rarity.ToString() + artifact_slot_map[artifact_slot] +  "4";
+                        var artifact_mainStat_id = GameData.GOODArtifactMainAttribution[artifact_mainStat];
+                        var artifact_substats = "";
+                        var artifact_substat_prefix = artifact_rarity + "0";
+                        int substat_count = 0;
+                        foreach (JsonElement substat in artifact.GetProperty("substats").EnumerateArray())
+                        {
+                            var substat_value = substat.GetProperty("value").GetDouble();
+                            if (substat_value == 0)
+                                continue;
+                            substat_count++;
+                            var substat_key = substat.GetProperty("key").GetString();
+                            var substat_key_id = GameData.GOODArtifactSubAttribution[substat_key];
+                            var substat_indices = ArtifactUtils.SplitSubstats(substat_key, artifact_rarity, substat_value);
+
+                            foreach(int index in substat_indices)
+                            {
+                                artifact_substats += artifact_substat_prefix + substat_key_id + index.ToString() + " ";
+                            }
+                        }
+
+                        // HACK: Add def+2 substat to counteract Grasscutter automatically adding another substat
+                        if (substat_count == 4)
+                        {
+                            artifact_substats += "101081 ";
+                        }
+                        commands_list.Add("/give " + artifact_id + " lv" + artifact_level + " " + artifact_mainStat_id + " " + artifact_substats);
+                        // TODO: Implement command to give artifact directly to character in Grasscutter
+                    }
+                    
+                    ExpandCommandRunLog();
+                    foreach (string command in commands_list)
+                    {
+                        TxtCommandRunLog.AppendText(">");
+                        TxtCommandRunLog.AppendText(command);
+                        TxtCommandRunLog.AppendText(Environment.NewLine);
+                        try
+                        {
+                            var msg = await OC.Invoke(command.Substring(1));
+                            TxtCommandRunLog.AppendText(string.IsNullOrEmpty(msg) ? "OK" : msg);
+                            TxtCommandRunLog.AppendText(Environment.NewLine);
+                        }
+                        catch (Exception ex)
+                        {
+                            TxtCommandRunLog.AppendText("Error: ");
+                            TxtCommandRunLog.AppendText(ex.Message);
+                            TxtCommandRunLog.AppendText(Environment.NewLine);
+                            MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            break;
+                        }
+                        TxtCommandRunLog.ScrollToCaret();
+                    }
+                    MessageBox.Show(Resources.GOODImportSuccess);
+                }
+                catch (SecurityException ex)
+                {
+                    MessageBox.Show($"Security error.\n\nError message: {ex.Message}\n\n" +
+                    $"Details:\n\n{ex.StackTrace}");
+                }
             }
         }
 
@@ -1332,6 +1456,7 @@ namespace GrasscutterTools.Forms
                 GrpRemoteCommand.Enabled = false;
                 BtnInvokeOpenCommand.Focus();
                 ShowTip(Resources.ConnectedTip, BtnInvokeOpenCommand);
+                ButtonOpenGOODImport.Enabled = true;
             }
             catch (Exception ex)
             {
@@ -1412,6 +1537,5 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 任务 -
-
     }
 }

@@ -856,4 +856,7 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Include UID</value>
   </data>
+  <data name="ButtonOpenGOODImport.Text" xml:space="preserve">
+    <value>Import GOOD</value>
+  </data>
 </root>

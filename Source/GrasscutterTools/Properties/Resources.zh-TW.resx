@@ -252,4 +252,13 @@
   <data name="WeaponColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WeaponColor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="GOODImportText" xml:space="preserve">
+ 	<value>是否導入 </value>
+  </data>
+  <data name="GOODImportTitle" xml:space="preserve">
+ 	<value>導入GOOD檔案</value>
+  </data>
+  <data name="GOODImportSuccess" xml:space="preserve">
+ 	<value>導入成功!</value>
+  </data>
 </root>
