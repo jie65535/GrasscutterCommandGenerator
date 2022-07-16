@@ -39,12 +39,6 @@ namespace GrasscutterTools.Game
             WeaponColors = new ItemMap(Resources.WeaponColor);
             GachaBannerPrefabs = new ItemMap(Resources.GachaBennerPrefab);
             Quests = new ItemMap(Resources.Quest);
-
-            GOODArtifactCats = new ItemMap(Resources.GOODArtifactCat);
-            GOODArtifactMainAttribution = new ItemMap(Resources.GOODArtifactMainAttribution);
-            GOODArtifactSubAttribution = new ItemMap(Resources.GOODArtifactSubAttribution);
-            GOODAvatars = new ItemMap(Resources.GOODAvatar);
-            GOODWeapons = new ItemMap(Resources.GOODWeapon);
         }
 
         public static ItemMap Animals { get; private set; }
@@ -76,10 +70,5 @@ namespace GrasscutterTools.Game
         public static ItemMap GachaBannerPrefabs { get; private set; }
 
         public static ItemMap Quests { get; private set; }
-        public static ItemMap GOODArtifactCats { get; private set; }
-        public static ItemMap GOODArtifactMainAttribution { get; private set; }
-        public static ItemMap GOODArtifactSubAttribution { get; private set; }
-        public static ItemMap GOODAvatars { get; private set; }
-        public static ItemMap GOODWeapons { get; private set; }
     }
 }

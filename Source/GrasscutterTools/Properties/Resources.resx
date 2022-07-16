@@ -246,9 +246,6 @@
   <data name="SettingLoadError" xml:space="preserve">
     <value>加载设置时异常：</value>
   </data>
-  <data name="SettingSaveError" xml:space="preserve">
-    <value>保存设置时异常：</value>
-  </data>
   <data name="Tips" xml:space="preserve">
     <value>提示</value>
   </data>
@@ -267,29 +264,13 @@
   <data name="WeaponColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WeaponColor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-
-  <data name="GOODArtifactCat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-	  <value>..\Resources\GOODArtifactCat.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="GOODArtifactMainAttribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
-	<value>..\Resources\GOODArtifactMainAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="GOODArtifactSubAttribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
-	<value>..\Resources\GOODArtifactSubAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="GOODAvatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-	<value>..\Resources\GOODAvatar.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="GOODWeapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
- 	<value>..\Resources\GOODWeapon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="GOODImportText" xml:space="preserve">
- 	<value>是否导入 </value>
+    <value>是否导入 </value>
   </data>
   <data name="GOODImportTitle" xml:space="preserve">
- 	<value>导入GOOD档案</value>
+    <value>导入GOOD档案</value>
   </data>
   <data name="GOODImportSuccess" xml:space="preserve">
- 	<value>导入成功!</value>
+    <value>导入成功!</value>
   </data>
 </root>

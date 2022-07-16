@@ -63,7 +63,6 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Console, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Console.4.3.0\lib\net46\System.Console.dll</HintPath>
@@ -120,7 +119,6 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
     <Reference Include="System.Net.Http, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Net.Http.4.3.0\lib\net46\System.Net.Http.dll</HintPath>
       <Private>True</Private>
@@ -177,7 +175,6 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Text.Json, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
     <Reference Include="System.Text.RegularExpressions, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Text.RegularExpressions.4.3.0\lib\net463\System.Text.RegularExpressions.dll</HintPath>
       <Private>True</Private>
@@ -237,6 +234,11 @@
     <Compile Include="Game\SetStatsCommand.cs" />
     <Compile Include="Game\TextMapData.cs" />
     <Compile Include="Github\ReleaseAPI.cs" />
+    <Compile Include="GOOD\GOOD.cs" />
+    <Compile Include="GOOD\Artifact.cs" />
+    <Compile Include="GOOD\Character.cs" />
+    <Compile Include="GOOD\GOODData.cs" />
+    <Compile Include="GOOD\Weapon.cs" />
     <Compile Include="OpenCommand\OpenCommandAPI.cs" />
     <Compile Include="MultiLanguage.cs" />
     <Compile Include="Program.cs" />
@@ -353,12 +355,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FodyWeavers.xml" />
-    <Content Include="Resources\GOODArtifactCat.txt" />
-    <Content Include="Resources\GOODArtifactMainAttribution.txt" />
-    <Content Include="Resources\GOODArtifactSubAttribution - Copy.txt" />
-    <Content Include="Resources\GOODArtifactSubAttribution.txt" />
-    <Content Include="Resources\GOODAvatar.txt" />
-    <Content Include="Resources\GOODWeapon.txt" />
     <Content Include="Resources\en-us\Animal.txt" />
     <Content Include="Resources\en-us\Artifact.txt" />
     <Content Include="Resources\en-us\ArtifactCat.txt" />
