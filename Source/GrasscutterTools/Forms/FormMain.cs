@@ -208,7 +208,10 @@ namespace GrasscutterTools.Forms
         }
         async private void ButtonOpenGOODImport_Click(object sender, EventArgs e)
         {
-            OpenFileDialog openFileDialog1 = new OpenFileDialog();
+            OpenFileDialog openFileDialog1 = new OpenFileDialog
+            {
+                Filter = "GOOD file (*.GOOD;*.json)|*.GOOD;*.json|All files (*.*)|*.*",
+            };
             if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 if (DialogResult.Yes != MessageBox.Show(Resources.GOODImportText + openFileDialog1.FileName + "?",
@@ -218,65 +221,107 @@ namespace GrasscutterTools.Forms
                 {
                     GOOD.GOOD good = JsonConvert.DeserializeObject<GOOD.GOOD>(File.ReadAllText(openFileDialog1.FileName));
                     var commands_list = new List<string>();
+                    var missingItems = new List<string>();
 
-                    foreach (var character in good.Characters)
+                    if (good.Characters != null)
                     {
-                        if (character.Name != "Traveler")
+                        foreach (var character in good.Characters)
                         {
-                            var character_id = GOODData.Avatars[character.Name];
-                            commands_list.Add("/give " + character_id + " lv" + character.Level + "c" + character.Constellation);
-                            // TODO: Implement command to set talent level when giving character in Grasscutter
-                        }
-                    }
-
-                    foreach (var weapon in good.Weapons)
-                    {
-                        var weapon_id = GOODData.Weapons[weapon.Name];
-                        commands_list.Add("/give " + weapon_id + " lv" + weapon.Level + "r" + weapon.RefinementLevel);
-                        // TODO: Implement command to give weapon directly to character in Grasscutter
-                    }
-
-                    foreach (var artifact in good.Artifacts)
-                    {
-                        var artifact_slot_map = new Dictionary<string, string> {
-                           {"goblet", "1"}, {"plume", "2"}, {"circlet", "3"}, {"flower", "4"}, {"sands", "5"}
-                        };
-
-                        // Format: set rarity slot 
-                        var artifact_id = GOODData.ArtifactCats[artifact.SetName].ToString() + artifact.Rarity.ToString() + artifact_slot_map[artifact.GearSlot] +  "4";
-                        var artifact_mainStat_id = GOODData.ArtifactMainAttribution[artifact.MainStat];
-                        var artifact_substats = "";
-                        var artifact_substat_prefix = artifact.Rarity + "0";
-                        int substat_count = 0;
-                        foreach (var substat in artifact.SubStats)
-                        {
-                            if (substat.Value <= 0)
-                                continue;
-                            substat_count++;
-                            var substat_key = substat.Stat;
-                            var substat_key_id = GOODData.ArtifactSubAttribution[substat_key];
-                            var substat_indices = ArtifactUtils.SplitSubstats(substat_key, artifact.Rarity, substat.Value);
-
-                            foreach(int index in substat_indices)
+                            if (character.Name != "Traveler")
                             {
-                                artifact_substats += artifact_substat_prefix + substat_key_id + index.ToString() + " ";
+                                if (GOODData.Avatars.TryGetValue(character.Name, out var character_id))
+                                    commands_list.Add("/give " + character_id + " lv" + character.Level + "c" + character.Constellation);
+                                else
+                                    missingItems.Add(character.Name);
+                                // TODO: Implement command to set talent level when giving character in Grasscutter
                             }
                         }
-
-                        // HACK: Add def+2 substat to counteract Grasscutter automatically adding another substat
-                        if (substat_count == 4)
-                            artifact_substats += "101081 ";
-                        commands_list.Add("/give " + artifact_id + " lv" + artifact.Level + " " + artifact_mainStat_id + " " + artifact_substats);
-                        // TODO: Implement command to give artifact directly to character in Grasscutter
                     }
 
-                    await RunCommands(commands_list.ToArray());
-                    MessageBox.Show(Resources.GOODImportSuccess);
+                    if (good.Weapons != null)
+                    {
+                        foreach (var weapon in good.Weapons)
+                        {
+                            if (GOODData.Weapons.TryGetValue(weapon.Name, out var weapon_id))
+                                commands_list.Add("/give " + weapon_id + " lv" + weapon.Level + "r" + weapon.RefinementLevel);
+                            else
+                                missingItems.Add(weapon.Name);
+                            // TODO: Implement command to give weapon directly to character in Grasscutter
+                        }
+                    }
+
+                    if (good.Artifacts != null)
+                    {
+                        foreach (var artifact in good.Artifacts)
+                        {
+                            // Format: set rarity slot 
+                            if (!GOODData.ArtifactCats.TryGetValue(artifact.SetName, out var artifact_set_id))
+                            {
+                                missingItems.Add(artifact.SetName);
+                                continue;
+                            }
+                            var artifact_id = artifact_set_id.ToString() + artifact.Rarity.ToString() + GOODData.ArtifactSlotMap[artifact.GearSlot] + "4";
+                            var artifact_mainStat_id = GOODData.ArtifactMainAttribution[artifact.MainStat];
+                            var artifact_substats = "";
+                            var artifact_substat_prefix = artifact.Rarity + "0";
+                            int substat_count = 0;
+                            foreach (var substat in artifact.SubStats)
+                            {
+                                if (substat.Value <= 0)
+                                    continue;
+                                substat_count++;
+                                var substat_key = substat.Stat;
+                                var substat_key_id = GOODData.ArtifactSubAttribution[substat_key];
+                                var substat_indices = ArtifactUtils.SplitSubstats(substat_key, artifact.Rarity, substat.Value);
+
+                                foreach (int index in substat_indices)
+                                {
+                                    artifact_substats += artifact_substat_prefix + substat_key_id + index.ToString() + " ";
+                                }
+                            }
+
+                            // HACK: Add def+2 substat to counteract Grasscutter automatically adding another substat
+                            if (substat_count == 4)
+                                artifact_substats += "101081 ";
+                            commands_list.Add("/give " + artifact_id + " lv" + artifact.Level + " " + artifact_mainStat_id + " " + artifact_substats);
+                            // TODO: Implement command to give artifact directly to character in Grasscutter
+                        }
+                    }
+
+                    // TODO: Materials
+                    //if (good.Materials != null)
+                    //{
+                    //    foreach (var material in good.Materials)
+                    //    {
+
+                    //    }
+                    //}
+
+                    var msg = string.Format("Loaded {0} Characters\nLoaded {1} Weapons\nLoaded {2} Artifacts\n",
+                        good.Characters?.Count ?? 0,
+                        good.Weapons?.Count ?? 0,
+                        good.Artifacts?.Count ?? 0
+                        );
+                    if (missingItems.Count > 0)
+                    {
+                        msg += string.Format("There are {0} pieces of data that cannot be parsed, including:\n{1}",
+                            missingItems.Count,
+                            string.Join("\n", missingItems.Take(10)));
+                        if (missingItems.Count > 10)
+                            msg += "......";
+                    }
+                    msg += "Do you want to start?";
+
+                    if (DialogResult.Yes != MessageBox.Show(msg, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Information))
+                        return;
+
+
+                    if (await RunCommands(commands_list.ToArray()))
+                        MessageBox.Show(Resources.GOODImportSuccess);
                 }
-                catch (SecurityException ex)
+                catch (Exception ex)
                 {
-                    MessageBox.Show($"Security error.\n\nError message: {ex.Message}\n\n" +
-                    $"Details:\n\n{ex.StackTrace}");
+                    MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
@@ -1171,6 +1216,7 @@ namespace GrasscutterTools.Forms
 
         private async void BtnInvokeOpenCommand_Click(object sender, EventArgs e)
         {
+            if (!BtnInvokeOpenCommand.Enabled) return;
             if (TxtCommand.Text.Length < 2)
             {
                 ShowTip(Resources.CommandContentCannotBeEmpty, TxtCommand);
@@ -1191,10 +1237,13 @@ namespace GrasscutterTools.Forms
             ExpandCommandRunLog();
             BtnInvokeOpenCommand.Enabled = false;
             BtnInvokeOpenCommand.Cursor = Cursors.WaitCursor;
+            int i = 0;
             foreach (var command in commands)
             {
                 TxtCommandRunLog.AppendText(">");
                 TxtCommandRunLog.AppendText(command);
+                if (commands.Length > 1)
+                    TxtCommandRunLog.AppendText($" ({++i}/{commands.Length})");
                 TxtCommandRunLog.AppendText(Environment.NewLine);
                 var cmd = command.Substring(1);
                 try
