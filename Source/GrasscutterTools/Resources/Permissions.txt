@@ -3,13 +3,13 @@ player.*
 player.**
 server.*
 server.**
-player.changescene
-player.clear
+permission
+player.clearinv
+player.clearinv.others
 player.enterdungeon
 player.enterdungeon.others
 player.give
 player.give.others
-player.godmode
 player.heal
 player.heal.others
 player.killcharacter
@@ -26,7 +26,6 @@ player.setstats
 player.setstats.others
 player.settalent
 player.settalent.others
-player.setworldlevel
 player.team
 player.team.others
 player.teleport
@@ -36,10 +35,10 @@ player.tpall.others
 player.weather
 player.weather.others
 server.announce
+server.ban
 server.broadcast
 server.coop
 server.coop.others
-server.drop
 server.kick
 server.killall
 server.killall.others
