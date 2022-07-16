@@ -26,6 +26,16 @@ namespace GrasscutterTools.GOOD
     /// Genshin Open Object Description (GOOD)
     /// Doc: https://frzyc.github.io/genshin-optimizer/#/doc
     /// Modified from https://github.com/Andrewthe13th/Inventory_Kamera/blob/master/InventoryKamera/data/GOOD.cs
+    /// 
+    /// Available for
+    /// https://frzyc.github.io/genshin-optimizer/
+    /// https://github.com/Andrewthe13th/Inventory_Kamera
+    /// https://genshin.aspirine.su/
+    /// https://seelie.me/
+    /// https://github.com/daydreaming666/Amenoma
+    /// https://www.mona-uranai.com/
+    /// https://genshin.mingyulab.com/
+    /// https://genshin-center.com/
     /// </summary>
     public class GOOD
     {
