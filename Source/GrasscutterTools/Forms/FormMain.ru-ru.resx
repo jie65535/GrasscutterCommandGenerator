@@ -218,7 +218,7 @@
     <value>Подключить</value>
   </data>
   <data name="LblConsoleTip.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt, style=Italic</value>
+    <value>Microsoft YaHei, 8pt, style=Italic</value>
   </data>
   <data name="LblConsoleTip.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 34</value>
@@ -397,7 +397,7 @@
     <value>False</value>
   </data>
   <data name="LblTp.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 8pt</value>
+    <value>Microsoft YaHei, 8pt</value>
   </data>
   <data name="LblTp.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 89</value>
@@ -979,5 +979,8 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>GrasscutterTools - перевод Юрий Дворецкий</value>
+  </data>
+  <data name="ButtonOpenGOODImport.Text" xml:space="preserve">
+    <value>импорт GOOD</value>
   </data>
 </root>

@@ -21,6 +21,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Security;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -28,8 +29,11 @@ using System.Windows.Forms;
 
 using GrasscutterTools.DispatchServer;
 using GrasscutterTools.Game;
+using GrasscutterTools.GOOD;
 using GrasscutterTools.OpenCommand;
 using GrasscutterTools.Properties;
+using GrasscutterTools.Utils;
+using Newtonsoft.Json;
 
 namespace GrasscutterTools.Forms
 {
@@ -200,6 +204,125 @@ namespace GrasscutterTools.Forms
             {
                 TextMapBrowser.TopMost = true;
                 TextMapBrowser.TopMost = false;
+            }
+        }
+        async private void ButtonOpenGOODImport_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog1 = new OpenFileDialog
+            {
+                Filter = "GOOD file (*.GOOD;*.json)|*.GOOD;*.json|All files (*.*)|*.*",
+            };
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                if (DialogResult.Yes != MessageBox.Show(Resources.GOODImportText + openFileDialog1.FileName + "?",
+                    Resources.GOODImportTitle, MessageBoxButtons.YesNo))
+                    return;
+                try
+                {
+                    GOOD.GOOD good = JsonConvert.DeserializeObject<GOOD.GOOD>(File.ReadAllText(openFileDialog1.FileName));
+                    var commands_list = new List<string>();
+                    var missingItems = new List<string>();
+
+                    if (good.Characters != null)
+                    {
+                        foreach (var character in good.Characters)
+                        {
+                            if (character.Name != "Traveler")
+                            {
+                                if (GOODData.Avatars.TryGetValue(character.Name, out var character_id))
+                                    commands_list.Add("/give " + character_id + " lv" + character.Level + "c" + character.Constellation);
+                                else
+                                    missingItems.Add(character.Name);
+                                // TODO: Implement command to set talent level when giving character in Grasscutter
+                            }
+                        }
+                    }
+
+                    if (good.Weapons != null)
+                    {
+                        foreach (var weapon in good.Weapons)
+                        {
+                            if (GOODData.Weapons.TryGetValue(weapon.Name, out var weapon_id))
+                                commands_list.Add("/give " + weapon_id + " lv" + weapon.Level + "r" + weapon.RefinementLevel);
+                            else
+                                missingItems.Add(weapon.Name);
+                            // TODO: Implement command to give weapon directly to character in Grasscutter
+                        }
+                    }
+
+                    if (good.Artifacts != null)
+                    {
+                        foreach (var artifact in good.Artifacts)
+                        {
+                            // Format: set rarity slot 
+                            if (!GOODData.ArtifactCats.TryGetValue(artifact.SetName, out var artifact_set_id))
+                            {
+                                missingItems.Add(artifact.SetName);
+                                continue;
+                            }
+                            var artifact_id = artifact_set_id.ToString() + artifact.Rarity.ToString() + GOODData.ArtifactSlotMap[artifact.GearSlot] + "4";
+                            var artifact_mainStat_id = GOODData.ArtifactMainAttribution[artifact.MainStat];
+                            var artifact_substats = "";
+                            var artifact_substat_prefix = artifact.Rarity + "0";
+                            int substat_count = 0;
+                            foreach (var substat in artifact.SubStats)
+                            {
+                                if (substat.Value <= 0)
+                                    continue;
+                                substat_count++;
+                                var substat_key = substat.Stat;
+                                var substat_key_id = GOODData.ArtifactSubAttribution[substat_key];
+                                var substat_indices = ArtifactUtils.SplitSubstats(substat_key, artifact.Rarity, substat.Value);
+
+                                foreach (int index in substat_indices)
+                                {
+                                    artifact_substats += artifact_substat_prefix + substat_key_id + index.ToString() + " ";
+                                }
+                            }
+
+                            // HACK: Add def+2 substat to counteract Grasscutter automatically adding another substat
+                            if (substat_count == 4)
+                                artifact_substats += "101081 ";
+                            commands_list.Add("/give " + artifact_id + " lv" + artifact.Level + " " + artifact_mainStat_id + " " + artifact_substats);
+                            // TODO: Implement command to give artifact directly to character in Grasscutter
+                        }
+                    }
+
+                    // TODO: Materials
+                    //if (good.Materials != null)
+                    //{
+                    //    foreach (var material in good.Materials)
+                    //    {
+
+                    //    }
+                    //}
+
+                    var msg = string.Format("Loaded {0} Characters\nLoaded {1} Weapons\nLoaded {2} Artifacts\n",
+                        good.Characters?.Count ?? 0,
+                        good.Weapons?.Count ?? 0,
+                        good.Artifacts?.Count ?? 0
+                        );
+                    if (missingItems.Count > 0)
+                    {
+                        msg += string.Format("There are {0} pieces of data that cannot be parsed, including:\n{1}",
+                            missingItems.Count,
+                            string.Join("\n", missingItems.Take(10)));
+                        if (missingItems.Count > 10)
+                            msg += "......";
+                    }
+                    msg += "Do you want to start?";
+
+                    if (DialogResult.Yes != MessageBox.Show(msg, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Information))
+                        return;
+
+
+                    if (await RunCommands(commands_list.ToArray()))
+                        MessageBox.Show(Resources.GOODImportSuccess);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
@@ -1093,42 +1216,55 @@ namespace GrasscutterTools.Forms
 
         private async void BtnInvokeOpenCommand_Click(object sender, EventArgs e)
         {
-            if (OC == null || !OC.CanInvoke)
-            {
-                ShowTip(Resources.RequireOpenCommandTip, BtnInvokeOpenCommand);
-                TCMain.SelectedTab = TPRemoteCall;
-                return;
-            }
+            if (!BtnInvokeOpenCommand.Enabled) return;
             if (TxtCommand.Text.Length < 2)
             {
                 ShowTip(Resources.CommandContentCannotBeEmpty, TxtCommand);
                 return;
             }
+            await RunCommands(TxtCommand.Text);
+        }
+
+        private async Task<bool> RunCommands(params string[] commands)
+        {
+            if (OC == null || !OC.CanInvoke)
+            {
+                ShowTip(Resources.RequireOpenCommandTip, BtnInvokeOpenCommand);
+                TCMain.SelectedTab = TPRemoteCall;
+                return false;
+            }
 
             ExpandCommandRunLog();
-            TxtCommandRunLog.AppendText(">");
-            TxtCommandRunLog.AppendText(TxtCommand.Text);
-            TxtCommandRunLog.AppendText(Environment.NewLine);
-            var cmd = TxtCommand.Text.Substring(1);
-            var btn = sender as Button;
-            btn.Enabled = false;
-            try
+            BtnInvokeOpenCommand.Enabled = false;
+            BtnInvokeOpenCommand.Cursor = Cursors.WaitCursor;
+            int i = 0;
+            foreach (var command in commands)
             {
-                var msg = await OC.Invoke(cmd);
-                TxtCommandRunLog.AppendText(string.IsNullOrEmpty(msg) ? "OK" : msg);
+                TxtCommandRunLog.AppendText(">");
+                TxtCommandRunLog.AppendText(command);
+                if (commands.Length > 1)
+                    TxtCommandRunLog.AppendText($" ({++i}/{commands.Length})");
                 TxtCommandRunLog.AppendText(Environment.NewLine);
-                //ShowTip(string.IsNullOrEmpty(msg) ? "OK" : msg, btn);
+                var cmd = command.Substring(1);
+                try
+                {
+                    var msg = await OC.Invoke(cmd);
+                    TxtCommandRunLog.AppendText(string.IsNullOrEmpty(msg) ? "OK" : msg);
+                    TxtCommandRunLog.AppendText(Environment.NewLine);
+                }
+                catch (Exception ex)
+                {
+                    TxtCommandRunLog.AppendText("Error: ");
+                    TxtCommandRunLog.AppendText(ex.Message);
+                    TxtCommandRunLog.AppendText(Environment.NewLine);
+                    MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return false;
+                }
+                TxtCommandRunLog.ScrollToCaret();
             }
-            catch (Exception ex)
-            {
-                TxtCommandRunLog.AppendText("Error: ");
-                TxtCommandRunLog.AppendText(ex.Message);
-                TxtCommandRunLog.AppendText(Environment.NewLine);
-                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            TxtCommandRunLog.ScrollToCaret();
-            btn.Cursor = Cursors.Default;
-            btn.Enabled = true;
+            BtnInvokeOpenCommand.Cursor = Cursors.Default;
+            BtnInvokeOpenCommand.Enabled = true;
+            return true;
         }
 
         private const int TxtCommandRunLogMinHeight = 150;
@@ -1332,6 +1468,7 @@ namespace GrasscutterTools.Forms
                 GrpRemoteCommand.Enabled = false;
                 BtnInvokeOpenCommand.Focus();
                 ShowTip(Resources.ConnectedTip, BtnInvokeOpenCommand);
+                ButtonOpenGOODImport.Enabled = true;
             }
             catch (Exception ex)
             {
@@ -1412,6 +1549,5 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 任务 -
-
     }
 }

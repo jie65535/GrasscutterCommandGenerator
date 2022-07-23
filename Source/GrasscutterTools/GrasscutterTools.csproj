@@ -234,6 +234,11 @@
     <Compile Include="Game\SetStatsCommand.cs" />
     <Compile Include="Game\TextMapData.cs" />
     <Compile Include="Github\ReleaseAPI.cs" />
+    <Compile Include="GOOD\GOOD.cs" />
+    <Compile Include="GOOD\Artifact.cs" />
+    <Compile Include="GOOD\Character.cs" />
+    <Compile Include="GOOD\GOODData.cs" />
+    <Compile Include="GOOD\Weapon.cs" />
     <Compile Include="OpenCommand\OpenCommandAPI.cs" />
     <Compile Include="MultiLanguage.cs" />
     <Compile Include="Program.cs" />
@@ -243,6 +248,7 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Utils\ArtifactUtils.cs" />
     <Compile Include="Utils\HttpHelper.cs" />
     <EmbeddedResource Include="Forms\FormGachaBannerEditor2.en-us.resx">
       <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>

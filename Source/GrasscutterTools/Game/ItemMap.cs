@@ -38,7 +38,7 @@ namespace GrasscutterTools.Game
                 if (si > 0 && int.TryParse(line.Substring(0, si).Trim(), out int id))
                 {
                     var name = line.Substring(si + 1).Trim();
-                    if (!string.IsNullOrEmpty(name))
+                    if (!string.IsNullOrEmpty(name) && name != "null")
                     {
                         //IdMap[id] = name;
                         //NameMap[name] = id;
