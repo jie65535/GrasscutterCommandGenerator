@@ -10,6 +10,8 @@
 
 请从 [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) 中获取最新版本
 
+本工具支持 简中, 繁中, English 与 Русский 等语言。
+
 ## 远程执行
 
 服务端需要 [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) 插件支持
@@ -18,25 +20,14 @@
 
 > 如果你无法连接到服务器，请确认填写的服务器地址是否正确。
 > 
-> 建议配置服务器为HTTP模式，如图所示：
+> 建议配置服务器为HTTP模式，如图所示(config.json)：
 > ![ConfigHttp](Doc/Screenshots/ConfigHttp.png)
 > 
 > 你可以用浏览器访问 http://127.0.0.1/status/server 来测试服务是否正常工作。
 > 
-> 如果使用的不是`80`端口，则要在url中指定访问的端口号：http://127.0.0.1:443/status/server
+> 如果使用的不是`80`端口，则要在url中指定访问的端口号：http://127.0.0.1:443
 
 ---
-
-## TODO List
-  - [x] 多语言支持
-    - [x] 简体中文
-    - [x] 繁体中文
-    - [x] 英语
-    - [x] 俄语
-  - [x] 远程执行命令
-  - [ ] ~~邮件编辑器（无进度）~~
-  - [ ] ~~商店编辑器（无进度）~~
-  - [ ] 服务器公告编辑器（无进度）
 
 ## 软件截图
 

@@ -10,6 +10,8 @@
 
 Please download the latest version from [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
 
+Support 简中, 繁中, English and Русский languages.
+
 ## Remote command
 
 The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) support
@@ -18,25 +20,14 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
 
 > If you cannot connect to the server, please make sure the server address is correct.
 >
-> It is recommended to configure the server to HTTP mode, as shown in the figure:
+> It is recommended to configure the server to HTTP mode, as shown in the figure(config.json):
 > ![ConfigHttp](Doc/Screenshots/ConfigHttp.png)
 > 
 > You can visit http://127.0.0.1/status/server with a browser to test whether the service is working properly.
 >
-> If you are not using port `80`, specify the port number to access in the url: http://127.0.0.1:443/status/server
+> If you are not using port `80`, specify the port number to access in the url: http://127.0.0.1:443
 
 ---
-
-## TODO List
-  - [x] Multi-language support
-    - [x] Simplified Chinese
-    - [x] Traditional Chinese
-    - [x] English
-    - [x] Russian
-  - [x] Execute command remotely
-  - [ ] ~~Mail Editor (no progress)~~
-  - [ ] ~~Shop Editor (no progress)~~
-  - [ ] Announcement Editor (no progress)
 
 ## Screenshots
 
