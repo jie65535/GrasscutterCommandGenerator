@@ -20,6 +20,7 @@
 > 
 > 建议配置服务器为HTTP模式，如图所示：
 > ![ConfigHttp](Doc/Screenshots/ConfigHttp.png)
+> 
 > 你可以用浏览器访问 http://127.0.0.1/status/server 来测试服务是否正常工作。
 > 
 > 如果使用的不是`80`端口，则要在url中指定访问的端口号：http://127.0.0.1:443/status/server

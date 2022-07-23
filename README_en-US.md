@@ -20,9 +20,11 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
 >
 > It is recommended to configure the server to HTTP mode, as shown in the figure:
 > ![ConfigHttp](Doc/Screenshots/ConfigHttp.png)
+> 
 > You can visit http://127.0.0.1/status/server with a browser to test whether the service is working properly.
 >
 > If you are not using port `80`, specify the port number to access in the url: http://127.0.0.1:443/status/server
+
 ---
 
 ## TODO List
