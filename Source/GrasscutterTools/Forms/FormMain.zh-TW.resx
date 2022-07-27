@@ -129,6 +129,15 @@
   <data name="GrpCommand.Text" xml:space="preserve">
     <value>命令（按住 Ctrl 自動執行）</value>
   </data>
+  <data name="LnkInventoryKamera.Text" xml:space="preserve">
+    <value>存檔掃描開源工具</value>
+  </data>
+  <data name="LblGOODHelp.Text" xml:space="preserve">
+    <value>快來把你的官服存檔導入GC吧！</value>
+  </data>
+  <data name="ButtonOpenGOODImport.Text" xml:space="preserve">
+    <value>導入GOOD檔案</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LblHostTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>206, 17</value>
@@ -405,8 +414,5 @@
   </data>
   <data name="TPHome.Text" xml:space="preserve">
     <value>主頁</value>
-  </data>
-  <data name="ButtonOpenGOODImport.Text" xml:space="preserve">
-    <value>導入GOOD檔案</value>
   </data>
 </root>

@@ -136,6 +136,15 @@
   <data name="TPRemoteCall.Text" xml:space="preserve">
     <value>Remote</value>
   </data>
+  <data name="LnkInventoryKamera.Text" xml:space="preserve">
+    <value>InventoryKamera</value>
+  </data>
+  <data name="LblGOODHelp.Text" xml:space="preserve">
+    <value>Come and import your official server archive into GC!</value>
+  </data>
+  <data name="ButtonOpenGOODImport.Text" xml:space="preserve">
+    <value>Import GOOD</value>
+  </data>
   <data name="LblHostTip.Location" type="System.Drawing.Point, System.Drawing">
     <value>108, 16</value>
   </data>
@@ -855,8 +864,5 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Include UID</value>
-  </data>
-  <data name="ButtonOpenGOODImport.Text" xml:space="preserve">
-    <value>Import GOOD</value>
   </data>
 </root>

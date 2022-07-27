@@ -264,6 +264,117 @@
   <data name="&gt;&gt;GrpCommand.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="LnkLinks.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkLinks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 206</value>
+  </data>
+  <data name="LnkLinks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 17</value>
+  </data>
+  <data name="LnkLinks.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="LnkLinks.Text" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="&gt;&gt;LnkLinks.Name" xml:space="preserve">
+    <value>LnkLinks</value>
+  </data>
+  <data name="&gt;&gt;LnkLinks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkLinks.Parent" xml:space="preserve">
+    <value>TPRemoteCall</value>
+  </data>
+  <data name="&gt;&gt;LnkLinks.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LnkGOODHelp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkGOODHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkGOODHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 206</value>
+  </data>
+  <data name="LnkGOODHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="LnkGOODHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="LnkGOODHelp.Text" xml:space="preserve">
+    <value>GOOD</value>
+  </data>
+  <data name="&gt;&gt;LnkGOODHelp.Name" xml:space="preserve">
+    <value>LnkGOODHelp</value>
+  </data>
+  <data name="&gt;&gt;LnkGOODHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkGOODHelp.Parent" xml:space="preserve">
+    <value>TPRemoteCall</value>
+  </data>
+  <data name="&gt;&gt;LnkGOODHelp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LnkInventoryKamera.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkInventoryKamera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 183</value>
+  </data>
+  <data name="LnkInventoryKamera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="LnkInventoryKamera.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="LnkInventoryKamera.Text" xml:space="preserve">
+    <value>存档扫描开源工具</value>
+  </data>
+  <data name="&gt;&gt;LnkInventoryKamera.Name" xml:space="preserve">
+    <value>LnkInventoryKamera</value>
+  </data>
+  <data name="&gt;&gt;LnkInventoryKamera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkInventoryKamera.Parent" xml:space="preserve">
+    <value>TPRemoteCall</value>
+  </data>
+  <data name="&gt;&gt;LnkInventoryKamera.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblGOODHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblGOODHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 139</value>
+  </data>
+  <data name="LblGOODHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 58</value>
+  </data>
+  <data name="LblGOODHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="LblGOODHelp.Text" xml:space="preserve">
+    <value>快来将你的官服存档导入GC吧！</value>
+  </data>
+  <data name="&gt;&gt;LblGOODHelp.Name" xml:space="preserve">
+    <value>LblGOODHelp</value>
+  </data>
+  <data name="&gt;&gt;LblGOODHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblGOODHelp.Parent" xml:space="preserve">
+    <value>TPRemoteCall</value>
+  </data>
+  <data name="&gt;&gt;LblGOODHelp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="ButtonOpenGOODImport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -274,7 +385,7 @@
     <value>NoControl</value>
   </data>
   <data name="ButtonOpenGOODImport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>459, 196</value>
+    <value>459, 203</value>
   </data>
   <data name="ButtonOpenGOODImport.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 23</value>
@@ -283,7 +394,7 @@
     <value>10</value>
   </data>
   <data name="ButtonOpenGOODImport.Text" xml:space="preserve">
-    <value>导入GOOD档案</value>
+    <value>导入GOOD存档</value>
   </data>
   <data name="&gt;&gt;ButtonOpenGOODImport.Name" xml:space="preserve">
     <value>ButtonOpenGOODImport</value>
@@ -295,7 +406,7 @@
     <value>TPRemoteCall</value>
   </data>
   <data name="&gt;&gt;ButtonOpenGOODImport.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
   </data>
   <data name="LblHostTip.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -325,7 +436,7 @@
     <value>TPRemoteCall</value>
   </data>
   <data name="&gt;&gt;LblHostTip.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="GrpServerStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -532,7 +643,7 @@
     <value>TPRemoteCall</value>
   </data>
   <data name="&gt;&gt;GrpServerStatus.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="GrpRemoteCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -835,7 +946,7 @@
     <value>2</value>
   </data>
   <data name="LblConsoleTip.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt, style=Italic</value>
+    <value>Microsoft YaHei UI, 9pt, style=Italic</value>
   </data>
   <data name="LblConsoleTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -941,7 +1052,7 @@
     <value>TPRemoteCall</value>
   </data>
   <data name="&gt;&gt;GrpRemoteCommand.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="TxtHost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -965,7 +1076,7 @@
     <value>TPRemoteCall</value>
   </data>
   <data name="&gt;&gt;TxtHost.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="BtnQueryServerStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -995,7 +1106,7 @@
     <value>TPRemoteCall</value>
   </data>
   <data name="&gt;&gt;BtnQueryServerStatus.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
   <data name="LblHost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1028,7 +1139,7 @@
     <value>TPRemoteCall</value>
   </data>
   <data name="&gt;&gt;LblHost.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>10</value>
   </data>
   <data name="TPRemoteCall.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -1279,7 +1390,7 @@
     <value>TxtBanReason</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Type" xml:space="preserve">
-    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.5.2.1, Culture=neutral, PublicKeyToken=null</value>
+    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
     <value>GrpBanPlayer</value>
@@ -3281,7 +3392,7 @@
     <value>Bottom, Right</value>
   </data>
   <data name="BtnGiveAllChar.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 10pt</value>
+    <value>Microsoft YaHei UI, 10pt</value>
   </data>
   <data name="BtnGiveAllChar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5209,7 +5320,7 @@
     <value>True</value>
   </data>
   <data name="LblAbout.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 13pt</value>
+    <value>Microsoft YaHei UI, 13pt</value>
   </data>
   <data name="LblAbout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5611,7 +5722,7 @@
     <value>634, 361</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 9pt</value>
+    <value>Microsoft YaHei UI, 9pt</value>
   </data>
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>

@@ -21,7 +21,6 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Security;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -157,7 +156,7 @@ namespace GrasscutterTools.Forms
                                 MessageBoxButtons.YesNo,
                                 MessageBoxIcon.Information);
                             if (r == DialogResult.Yes)
-                                System.Diagnostics.Process.Start(info.Url);
+                                OpenURL(info.Url);
                             else if (r == DialogResult.No)
                                 Settings.Default.CheckedLastVersion = lastestVersion.ToString();
                         }));
@@ -1164,16 +1163,7 @@ namespace GrasscutterTools.Forms
 
         private void LnkGithub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            try
-            {
-                System.Diagnostics.Process.Start("https://github.com/jie65535/GrasscutterCommandGenerator");
-            }
-            catch (Exception)
-            {
-                MessageBox.Show(Resources.BrowserOpenFailedTip
-                    + "\n https://github.com/jie65535/GrasscutterCommandGenerator",
-                    Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+            OpenURL("https://github.com/jie65535/GrasscutterCommandGenerator");
         }
 
         #endregion - 关于 -
@@ -1192,9 +1182,9 @@ namespace GrasscutterTools.Forms
         private void SetCommand(string command, string args)
         {
             if (ChkIncludeUID.Checked)
-                SetCommand($"{command} @{NUDUid.Value} {args}");
+                SetCommand($"{command} @{NUDUid.Value} {args.Trim()}");
             else
-                SetCommand($"{command} {args}");
+                SetCommand($"{command} {args.Trim()}");
         }
 
         private async void BtnCopy_Click(object sender, EventArgs e)
@@ -1494,21 +1484,51 @@ namespace GrasscutterTools.Forms
 
         private void LnkOpenCommandLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            try
-            {
-                System.Diagnostics.Process.Start("https://github.com/jie65535/gc-opencommand-plugin");
-            }
-            catch (Exception)
-            {
-                MessageBox.Show(Resources.BrowserOpenFailedTip
-                    + "\n https://github.com/jie65535/gc-opencommand-plugin",
-                    Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+            OpenURL("https://github.com/jie65535/gc-opencommand-plugin");
         }
 
         private void LnkRCHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             MessageBox.Show(Resources.OpenCommandHelp, Resources.Help, MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void LnkInventoryKamera_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenURL("https://github.com/Andrewthe13th/Inventory_Kamera");
+        }
+
+        private void LnkGOODHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenURL("https://frzyc.github.io/genshin-optimizer/#/doc");
+        }
+
+        private void LnkLinks_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var links = new List<string>
+            {
+                "https://frzyc.github.io/genshin-optimizer/",
+                "https://genshin.aspirine.su/",
+                "https://genshin.mingyulab.com/",
+                "https://genshin-center.com/",
+                "https://github.com/Andrewthe13th/Inventory_Kamera",
+                "https://github.com/daydreaming666/Amenoma",
+                "https://seelie.me/",
+                "https://www.mona-uranai.com/",
+            };
+            MessageBox.Show(string.Join("\n", links), "Links", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void OpenURL(string url)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start(url);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show(Resources.BrowserOpenFailedTip + "\n " + url,
+                    Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         #endregion - 远程 -
@@ -1549,5 +1569,6 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 任务 -
+
     }
 }

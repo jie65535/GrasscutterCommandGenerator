@@ -35,6 +35,9 @@ namespace GrasscutterTools.Forms
             this.GrpCommand = new System.Windows.Forms.GroupBox();
             this.BtnInvokeOpenCommand = new System.Windows.Forms.Button();
             this.TPRemoteCall = new System.Windows.Forms.TabPage();
+            this.LnkGOODHelp = new System.Windows.Forms.LinkLabel();
+            this.LnkInventoryKamera = new System.Windows.Forms.LinkLabel();
+            this.LblGOODHelp = new System.Windows.Forms.Label();
             this.ButtonOpenGOODImport = new System.Windows.Forms.Button();
             this.LblHostTip = new System.Windows.Forms.Label();
             this.GrpServerStatus = new System.Windows.Forms.GroupBox();
@@ -222,6 +225,7 @@ namespace GrasscutterTools.Forms
             this.LblDefaultUid = new System.Windows.Forms.Label();
             this.TCMain = new System.Windows.Forms.TabControl();
             this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
+            this.LnkLinks = new System.Windows.Forms.LinkLabel();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -318,6 +322,10 @@ namespace GrasscutterTools.Forms
             // 
             // TPRemoteCall
             // 
+            this.TPRemoteCall.Controls.Add(this.LnkLinks);
+            this.TPRemoteCall.Controls.Add(this.LnkGOODHelp);
+            this.TPRemoteCall.Controls.Add(this.LnkInventoryKamera);
+            this.TPRemoteCall.Controls.Add(this.LblGOODHelp);
             this.TPRemoteCall.Controls.Add(this.ButtonOpenGOODImport);
             this.TPRemoteCall.Controls.Add(this.LblHostTip);
             this.TPRemoteCall.Controls.Add(this.GrpServerStatus);
@@ -328,6 +336,26 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.TPRemoteCall, "TPRemoteCall");
             this.TPRemoteCall.Name = "TPRemoteCall";
             this.TPRemoteCall.UseVisualStyleBackColor = true;
+            // 
+            // LnkGOODHelp
+            // 
+            resources.ApplyResources(this.LnkGOODHelp, "LnkGOODHelp");
+            this.LnkGOODHelp.Cursor = System.Windows.Forms.Cursors.Help;
+            this.LnkGOODHelp.Name = "LnkGOODHelp";
+            this.LnkGOODHelp.TabStop = true;
+            this.LnkGOODHelp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkGOODHelp_LinkClicked);
+            // 
+            // LnkInventoryKamera
+            // 
+            resources.ApplyResources(this.LnkInventoryKamera, "LnkInventoryKamera");
+            this.LnkInventoryKamera.Name = "LnkInventoryKamera";
+            this.LnkInventoryKamera.TabStop = true;
+            this.LnkInventoryKamera.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkInventoryKamera_LinkClicked);
+            // 
+            // LblGOODHelp
+            // 
+            resources.ApplyResources(this.LblGOODHelp, "LblGOODHelp");
+            this.LblGOODHelp.Name = "LblGOODHelp";
             // 
             // ButtonOpenGOODImport
             // 
@@ -1962,6 +1990,13 @@ namespace GrasscutterTools.Forms
             this.TxtBanReason.Minimum = 0F;
             this.TxtBanReason.Name = "TxtBanReason";
             // 
+            // LnkLinks
+            // 
+            resources.ApplyResources(this.LnkLinks, "LnkLinks");
+            this.LnkLinks.Name = "LnkLinks";
+            this.LnkLinks.TabStop = true;
+            this.LnkLinks.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkLinks_LinkClicked);
+            // 
             // FormMain
             // 
             resources.ApplyResources(this, "$this");
@@ -2254,5 +2289,9 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Button BtnGiveAllChar;
         private System.Windows.Forms.Label LblHostTip;
         private System.Windows.Forms.Button ButtonOpenGOODImport;
+        private System.Windows.Forms.LinkLabel LnkInventoryKamera;
+        private System.Windows.Forms.Label LblGOODHelp;
+        private System.Windows.Forms.LinkLabel LnkGOODHelp;
+        private System.Windows.Forms.LinkLabel LnkLinks;
     }
 }

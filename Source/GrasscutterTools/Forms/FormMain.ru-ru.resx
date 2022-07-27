@@ -139,6 +139,15 @@
   <data name="TPRemoteCall.Text" xml:space="preserve">
     <value>Подключение к БД</value>
   </data>
+  <data name="LnkInventoryKamera.Text" xml:space="preserve">
+    <value>InventoryKamera</value>
+  </data>
+  <data name="LblGOODHelp.Text" xml:space="preserve">
+    <value>Приходите и импортируйте свой официальный архив сервера в GC!</value>
+  </data>
+  <data name="ButtonOpenGOODImport.Text" xml:space="preserve">
+    <value>импорт GOOD</value>
+  </data>
   <data name="LblHostTip.Location" type="System.Drawing.Point, System.Drawing">
     <value>83, 16</value>
   </data>
@@ -218,7 +227,7 @@
     <value>Подключить</value>
   </data>
   <data name="LblConsoleTip.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8pt, style=Italic</value>
+    <value>Microsoft YaHei UI, 8pt, style=Italic</value>
   </data>
   <data name="LblConsoleTip.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 34</value>
@@ -397,7 +406,7 @@
     <value>False</value>
   </data>
   <data name="LblTp.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei, 8pt</value>
+    <value>Microsoft YaHei UI, 8pt</value>
   </data>
   <data name="LblTp.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 89</value>
@@ -979,8 +988,5 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>GrasscutterTools - перевод Юрий Дворецкий</value>
-  </data>
-  <data name="ButtonOpenGOODImport.Text" xml:space="preserve">
-    <value>импорт GOOD</value>
   </data>
 </root>
