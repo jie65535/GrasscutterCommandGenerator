@@ -46,7 +46,7 @@ namespace GrasscutterTools.Game
                 ManualTextMap = new Dictionary<string, string>();
                 while (reader.Read())
                 {
-                    if (reader.TokenType == JsonToken.PropertyName && (string)reader.Value == "TextMapId")
+                    if (reader.TokenType == JsonToken.PropertyName && ((string)reader.Value == "TextMapId" || (string)reader.Value == "textMapId"))
                     {
                         var textMapId = reader.ReadAsString();
                         reader.Read();
