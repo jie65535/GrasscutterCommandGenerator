@@ -40,7 +40,8 @@ namespace GrasscutterTools.GOOD
                     var name = itemMap.Names[i];
                     var pascalCase = cultureInfo.TextInfo.ToTitleCase(name);
                     var nameGOOD = regex.Replace(pascalCase, string.Empty);
-                    dic.Add(nameGOOD, itemMap.Ids[i]);
+                    dic[nameGOOD] = itemMap.Ids[i];
+                    //dic.Add(nameGOOD, itemMap.Ids[i]);
                 }
                 return dic;
             }
