@@ -264,6 +264,9 @@
   <data name="&gt;&gt;GrpCommand.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="LnkLinks.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="LnkLinks.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -290,6 +293,9 @@
   </data>
   <data name="&gt;&gt;LnkLinks.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="LnkGOODHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="LnkGOODHelp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -321,6 +327,9 @@
   <data name="&gt;&gt;LnkGOODHelp.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="LnkInventoryKamera.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
   <data name="LnkInventoryKamera.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -347,6 +356,9 @@
   </data>
   <data name="&gt;&gt;LnkInventoryKamera.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="LblGOODHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="LblGOODHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -407,6 +419,9 @@
   </data>
   <data name="&gt;&gt;ButtonOpenGOODImport.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="LblHostTip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="LblHostTip.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -983,7 +998,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 109</value>
+    <value>296, 111</value>
   </data>
   <data name="TPConsoleCheck.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1390,7 +1405,7 @@
     <value>TxtBanReason</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Type" xml:space="preserve">
-    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.5.3.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.5.5.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
     <value>GrpBanPlayer</value>
@@ -5723,9 +5738,6 @@
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 9pt</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>

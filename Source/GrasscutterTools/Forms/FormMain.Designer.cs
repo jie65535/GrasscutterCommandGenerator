@@ -35,6 +35,7 @@ namespace GrasscutterTools.Forms
             this.GrpCommand = new System.Windows.Forms.GroupBox();
             this.BtnInvokeOpenCommand = new System.Windows.Forms.Button();
             this.TPRemoteCall = new System.Windows.Forms.TabPage();
+            this.LnkLinks = new System.Windows.Forms.LinkLabel();
             this.LnkGOODHelp = new System.Windows.Forms.LinkLabel();
             this.LnkInventoryKamera = new System.Windows.Forms.LinkLabel();
             this.LblGOODHelp = new System.Windows.Forms.Label();
@@ -74,6 +75,7 @@ namespace GrasscutterTools.Forms
             this.DTPBanEndTime = new System.Windows.Forms.DateTimePicker();
             this.BtnUnban = new System.Windows.Forms.Button();
             this.BtnBan = new System.Windows.Forms.Button();
+            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.NUDBanUID = new System.Windows.Forms.NumericUpDown();
             this.LblBanUID = new System.Windows.Forms.Label();
             this.GrpAccount = new System.Windows.Forms.GroupBox();
@@ -224,8 +226,6 @@ namespace GrasscutterTools.Forms
             this.ChkIncludeUID = new System.Windows.Forms.CheckBox();
             this.LblDefaultUid = new System.Windows.Forms.Label();
             this.TCMain = new System.Windows.Forms.TabControl();
-            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
-            this.LnkLinks = new System.Windows.Forms.LinkLabel();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -336,6 +336,13 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.TPRemoteCall, "TPRemoteCall");
             this.TPRemoteCall.Name = "TPRemoteCall";
             this.TPRemoteCall.UseVisualStyleBackColor = true;
+            // 
+            // LnkLinks
+            // 
+            resources.ApplyResources(this.LnkLinks, "LnkLinks");
+            this.LnkLinks.Name = "LnkLinks";
+            this.LnkLinks.TabStop = true;
+            this.LnkLinks.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkLinks_LinkClicked);
             // 
             // LnkGOODHelp
             // 
@@ -628,6 +635,14 @@ namespace GrasscutterTools.Forms
             this.BtnBan.Name = "BtnBan";
             this.BtnBan.UseVisualStyleBackColor = true;
             this.BtnBan.Click += new System.EventHandler(this.BtnBan_Click);
+            // 
+            // TxtBanReason
+            // 
+            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
+            this.TxtBanReason.Maximum = 0F;
+            this.TxtBanReason.Minimum = 0F;
+            this.TxtBanReason.Name = "TxtBanReason";
             // 
             // NUDBanUID
             // 
@@ -1981,21 +1996,6 @@ namespace GrasscutterTools.Forms
             this.TCMain.Controls.Add(this.TPRemoteCall);
             this.TCMain.Name = "TCMain";
             this.TCMain.SelectedIndex = 0;
-            // 
-            // TxtBanReason
-            // 
-            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
-            this.TxtBanReason.Maximum = 0F;
-            this.TxtBanReason.Minimum = 0F;
-            this.TxtBanReason.Name = "TxtBanReason";
-            // 
-            // LnkLinks
-            // 
-            resources.ApplyResources(this.LnkLinks, "LnkLinks");
-            this.LnkLinks.Name = "LnkLinks";
-            this.LnkLinks.TabStop = true;
-            this.LnkLinks.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkLinks_LinkClicked);
             // 
             // FormMain
             // 
