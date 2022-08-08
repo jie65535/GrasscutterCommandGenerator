@@ -1389,30 +1389,6 @@
   <data name="&gt;&gt;BtnBan.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="TxtBanReason.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 22</value>
-  </data>
-  <data name="TxtBanReason.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 23</value>
-  </data>
-  <data name="TxtBanReason.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="TxtBanReason.Watermark" xml:space="preserve">
-    <value>封禁理由</value>
-  </data>
-  <data name="&gt;&gt;TxtBanReason.Name" xml:space="preserve">
-    <value>TxtBanReason</value>
-  </data>
-  <data name="&gt;&gt;TxtBanReason.Type" xml:space="preserve">
-    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.5.5.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
-    <value>GrpBanPlayer</value>
-  </data>
-  <data name="&gt;&gt;TxtBanReason.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
   <data name="NUDBanUID.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 22</value>
   </data>
@@ -1432,7 +1408,7 @@
     <value>GrpBanPlayer</value>
   </data>
   <data name="&gt;&gt;NUDBanUID.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="LblBanUID.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1462,7 +1438,7 @@
     <value>GrpBanPlayer</value>
   </data>
   <data name="&gt;&gt;LblBanUID.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="GrpBanPlayer.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 138</value>
@@ -3844,6 +3820,36 @@
   <data name="GrpEntityType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
+  <data name="RbEntityGadget.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RbEntityGadget.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RbEntityGadget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="RbEntityGadget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 21</value>
+  </data>
+  <data name="RbEntityGadget.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="RbEntityGadget.Text" xml:space="preserve">
+    <value>Gadget</value>
+  </data>
+  <data name="&gt;&gt;RbEntityGadget.Name" xml:space="preserve">
+    <value>RbEntityGadget</value>
+  </data>
+  <data name="&gt;&gt;RbEntityGadget.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RbEntityGadget.Parent" xml:space="preserve">
+    <value>GrpEntityType</value>
+  </data>
+  <data name="&gt;&gt;RbEntityGadget.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="RbEntityAnimal.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -3872,7 +3878,7 @@
     <value>GrpEntityType</value>
   </data>
   <data name="&gt;&gt;RbEntityAnimal.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="RbEntityNPC.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3881,7 +3887,7 @@
     <value>NoControl</value>
   </data>
   <data name="RbEntityNPC.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 86</value>
+    <value>6, 76</value>
   </data>
   <data name="RbEntityNPC.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 21</value>
@@ -3902,7 +3908,7 @@
     <value>GrpEntityType</value>
   </data>
   <data name="&gt;&gt;RbEntityNPC.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="RbEntityMonster.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3911,7 +3917,7 @@
     <value>NoControl</value>
   </data>
   <data name="RbEntityMonster.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 54</value>
+    <value>6, 49</value>
   </data>
   <data name="RbEntityMonster.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 21</value>
@@ -3932,13 +3938,13 @@
     <value>GrpEntityType</value>
   </data>
   <data name="&gt;&gt;RbEntityMonster.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="GrpEntityType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>265, 123</value>
+    <value>265, 108</value>
   </data>
   <data name="GrpEntityType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>87, 116</value>
+    <value>87, 131</value>
   </data>
   <data name="GrpEntityType.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>

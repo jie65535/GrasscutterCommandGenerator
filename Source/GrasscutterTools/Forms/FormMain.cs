@@ -892,6 +892,7 @@ namespace GrasscutterTools.Forms
         {
             RbEntityAnimal.Tag = GameData.Animals.Lines;
             RbEntityMonster.Tag = GameData.Monsters.Lines;
+            RbEntityGadget.Tag = GameData.Gadgets.Lines;
             RbEntityNPC.Tag = GameData.NPCs.Lines;
             RbEntityAnimal.Checked = true;
             LoadEntityList();
@@ -900,6 +901,7 @@ namespace GrasscutterTools.Forms
         {
             var rb = RbEntityAnimal.Checked ? RbEntityAnimal :
                     RbEntityMonster.Checked ? RbEntityMonster :
+                    RbEntityGadget.Checked ? RbEntityGadget :
                     RbEntityNPC;
             if (rb.Checked)
             {
@@ -915,6 +917,7 @@ namespace GrasscutterTools.Forms
             var filter = TxtEntityFilter.Text.Trim();
             var rb = RbEntityAnimal.Checked ? RbEntityAnimal :
                     RbEntityMonster.Checked ? RbEntityMonster :
+                    RbEntityGadget.Checked ? RbEntityGadget :
                     RbEntityNPC;
             var data = rb.Tag as string[];
             ListEntity.BeginUpdate();

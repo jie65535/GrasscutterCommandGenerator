@@ -75,7 +75,6 @@ namespace GrasscutterTools.Forms
             this.DTPBanEndTime = new System.Windows.Forms.DateTimePicker();
             this.BtnUnban = new System.Windows.Forms.Button();
             this.BtnBan = new System.Windows.Forms.Button();
-            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.NUDBanUID = new System.Windows.Forms.NumericUpDown();
             this.LblBanUID = new System.Windows.Forms.Label();
             this.GrpAccount = new System.Windows.Forms.GroupBox();
@@ -226,6 +225,7 @@ namespace GrasscutterTools.Forms
             this.ChkIncludeUID = new System.Windows.Forms.CheckBox();
             this.LblDefaultUid = new System.Windows.Forms.Label();
             this.TCMain = new System.Windows.Forms.TabControl();
+            this.RbEntityGadget = new System.Windows.Forms.RadioButton();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -607,7 +607,6 @@ namespace GrasscutterTools.Forms
             this.GrpBanPlayer.Controls.Add(this.DTPBanEndTime);
             this.GrpBanPlayer.Controls.Add(this.BtnUnban);
             this.GrpBanPlayer.Controls.Add(this.BtnBan);
-            this.GrpBanPlayer.Controls.Add(this.TxtBanReason);
             this.GrpBanPlayer.Controls.Add(this.NUDBanUID);
             this.GrpBanPlayer.Controls.Add(this.LblBanUID);
             this.GrpBanPlayer.Name = "GrpBanPlayer";
@@ -635,14 +634,6 @@ namespace GrasscutterTools.Forms
             this.BtnBan.Name = "BtnBan";
             this.BtnBan.UseVisualStyleBackColor = true;
             this.BtnBan.Click += new System.EventHandler(this.BtnBan_Click);
-            // 
-            // TxtBanReason
-            // 
-            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
-            this.TxtBanReason.Maximum = 0F;
-            this.TxtBanReason.Minimum = 0F;
-            this.TxtBanReason.Name = "TxtBanReason";
             // 
             // NUDBanUID
             // 
@@ -1444,6 +1435,7 @@ namespace GrasscutterTools.Forms
             // GrpEntityType
             // 
             resources.ApplyResources(this.GrpEntityType, "GrpEntityType");
+            this.GrpEntityType.Controls.Add(this.RbEntityGadget);
             this.GrpEntityType.Controls.Add(this.RbEntityAnimal);
             this.GrpEntityType.Controls.Add(this.RbEntityNPC);
             this.GrpEntityType.Controls.Add(this.RbEntityMonster);
@@ -1463,6 +1455,13 @@ namespace GrasscutterTools.Forms
             this.RbEntityNPC.Name = "RbEntityNPC";
             this.RbEntityNPC.UseVisualStyleBackColor = true;
             this.RbEntityNPC.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
+            // 
+            // RbEntityGadget
+            // 
+            resources.ApplyResources(this.RbEntityGadget, "RbEntityGadget");
+            this.RbEntityGadget.Name = "RbEntityGadget";
+            this.RbEntityGadget.UseVisualStyleBackColor = true;
+            this.RbEntityGadget.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
             // 
             // RbEntityMonster
             // 
@@ -1997,6 +1996,12 @@ namespace GrasscutterTools.Forms
             this.TCMain.Name = "TCMain";
             this.TCMain.SelectedIndex = 0;
             // 
+            // RbEntityGadget
+            // 
+            resources.ApplyResources(this.RbEntityGadget, "RbEntityGadget");
+            this.RbEntityGadget.Name = "RbEntityGadget";
+            this.RbEntityGadget.UseVisualStyleBackColor = true;
+            // 
             // FormMain
             // 
             resources.ApplyResources(this, "$this");
@@ -2293,5 +2298,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Label LblGOODHelp;
         private System.Windows.Forms.LinkLabel LnkGOODHelp;
         private System.Windows.Forms.LinkLabel LnkLinks;
+        private System.Windows.Forms.RadioButton RbEntityGadget;
     }
 }
