@@ -816,7 +816,24 @@ namespace GrasscutterTools.Properties {
                 return ResourceManager.GetString("NPC", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        /// 40000001 : SteamBangField
+        /// 40000002 : ThunderFistField
+        /// 40000003 : GrassDart
+        /// 40000004 : SharkTorpedo
+        /// 40000005 : SharkTorpedo_Spurt
+        /// 40000006 : SharkTorpedo_Spurt_2
+        /// 40000007 : CreationLimit_Dummy
+        /// </summary>
+        internal static string Gadget
+        {
+            get
+            {
+                return ResourceManager.GetString("Gadget", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   查找类似 1. 填写正确的UID\n2. 向玩家发送验证码\n3. 输入正确的验证码\n4. 连接\n5. 享受 的本地化字符串。
         /// </summary>
