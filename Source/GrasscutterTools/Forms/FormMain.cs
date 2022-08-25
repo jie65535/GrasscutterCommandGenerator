@@ -618,37 +618,44 @@ namespace GrasscutterTools.Forms
             var id = GameData.Artifacts.Ids[Array.LastIndexOf(GameData.Artifacts.Names, name)];
             id = id / 1000 * 1000 + (int)NUDArtifactStars.Value * 100 + id % 100;
             if (CmbMainAttribution.SelectedIndex < 0)
-                return;
-
-            var t = CmbMainAttribution.SelectedItem as string;
-            var mainAttr = t.Substring(0, t.IndexOf(':')).Trim();
-
-            var subAttrs = "";
-            if (ListSubAttributionChecked.Items.Count > 0)
             {
-                var subAttrDir = new Dictionary<string, int>(ListSubAttributionChecked.Items.Count);
-                foreach (string item in ListSubAttributionChecked.Items)
-                {
-                    var subId = item.Substring(0, item.IndexOf(':')).Trim();
-                    var times = int.Parse(item.Substring(item.LastIndexOf('x') + 1));
-                    if (subAttrDir.ContainsKey(subId))
-                        subAttrDir[subId] += times;
-                    else
-                        subAttrDir[subId] = times;
-                }
-
-                foreach (var kv in subAttrDir)
-                {
-                    if (kv.Value > 1)
-                        subAttrs += $"{kv.Key},{kv.Value} ";
-                    else
-                        subAttrs += $"{kv.Key} ";
-                }
+                if (ChkNewCommand.Checked)
+                    SetCommand("/give", $"{id} lv{NUDArtifactLevel.Value}");
+                else
+                    SetCommand("/giveart", $"{id} {NUDArtifactLevel.Value}");
             }
-            if (ChkNewCommand.Checked)
-                SetCommand("/give", $"{id} lv{NUDArtifactLevel.Value} {mainAttr} {subAttrs}");
             else
-                SetCommand("/giveart", $"{id} {mainAttr} {subAttrs}{NUDArtifactLevel.Value}");
+            {
+                var t = CmbMainAttribution.SelectedItem as string;
+                var mainAttr = t.Substring(0, t.IndexOf(':')).Trim();
+
+                var subAttrs = "";
+                if (ListSubAttributionChecked.Items.Count > 0)
+                {
+                    var subAttrDir = new Dictionary<string, int>(ListSubAttributionChecked.Items.Count);
+                    foreach (string item in ListSubAttributionChecked.Items)
+                    {
+                        var subId = item.Substring(0, item.IndexOf(':')).Trim();
+                        var times = int.Parse(item.Substring(item.LastIndexOf('x') + 1));
+                        if (subAttrDir.ContainsKey(subId))
+                            subAttrDir[subId] += times;
+                        else
+                            subAttrDir[subId] = times;
+                    }
+
+                    foreach (var kv in subAttrDir)
+                    {
+                        if (kv.Value > 1)
+                            subAttrs += $"{kv.Key},{kv.Value} ";
+                        else
+                            subAttrs += $"{kv.Key} ";
+                    }
+                }
+                if (ChkNewCommand.Checked)
+                    SetCommand("/give", $"{id} lv{NUDArtifactLevel.Value} {mainAttr} {subAttrs}");
+                else
+                    SetCommand("/giveart", $"{id} {mainAttr} {subAttrs}{NUDArtifactLevel.Value}");
+            }
         }
 
         private void ListSubAttributionChecked_SelectedIndexChanged(object sender, EventArgs e)
@@ -663,6 +670,7 @@ namespace GrasscutterTools.Forms
 
         private void LblClearSubAttrCheckedList_Click(object sender, EventArgs e)
         {
+            CmbMainAttribution.SelectedIndex = -1;
             ListSubAttributionChecked.Items.Clear();
             ArtifactInputChanged(null, EventArgs.Empty);
         }
