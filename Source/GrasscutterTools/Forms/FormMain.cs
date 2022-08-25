@@ -32,6 +32,7 @@ using GrasscutterTools.GOOD;
 using GrasscutterTools.OpenCommand;
 using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
+
 using Newtonsoft.Json;
 
 namespace GrasscutterTools.Forms

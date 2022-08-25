@@ -1,8 +1,28 @@
-﻿using System;
+﻿/**
+ *  Grasscutter Tools
+ *  Copyright (C) 2022 jie65535
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as published
+ *  by the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * 
+ **/
+using System;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 
 using GrasscutterTools.Utils;
+
+using Newtonsoft.Json;
 
 namespace GrasscutterTools.Github
 {
@@ -14,15 +34,7 @@ namespace GrasscutterTools.Github
             try
             {
                 HttpHelper.HttpClient.DefaultRequestHeaders.UserAgent.Add(headerValue);
-                var r = await HttpHelper.GetAsync<dynamic>($"https://api.github.com/repos/{username}/{repo}/releases/latest");
-                return new ReleaseInfo
-                {
-                    TagName = r.tag_name,
-                    Url = r.html_url,
-                    CraeteTime = r.created_at,
-                    Name = r.name,
-                    Body = r.body
-                };
+                return await HttpHelper.GetAsync<ReleaseInfo>($"https://api.github.com/repos/{username}/{repo}/releases/latest");
             }
             finally
             {
@@ -32,14 +44,19 @@ namespace GrasscutterTools.Github
 
         public class ReleaseInfo
         {
+            [JsonProperty("tag_name")]
             public string TagName { get; set; }
 
+            [JsonProperty("html_url")]
             public string Url { get; set; }
 
+            [JsonProperty("created_at")]
             public DateTimeOffset CraeteTime { get; set; }
 
+            [JsonProperty("name")]
             public string Name { get; set; }
 
+            [JsonProperty("body")]
             public string Body { get; set; }
         }
     }
