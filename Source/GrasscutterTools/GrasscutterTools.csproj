@@ -42,6 +42,12 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Newtonsoft.Json.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
@@ -220,6 +226,7 @@
     <Content Include="Resources\en-us\Quest.txt" />
     <Content Include="Resources\en-us\Scene.txt" />
     <Content Include="Resources\en-us\Weapon.txt" />
+    <None Include="Resources\Newtonsoft.Json.dll" />
     <Content Include="Resources\ru-ru\Animal.txt" />
     <Content Include="Resources\ru-ru\Artifact.txt" />
     <Content Include="Resources\ru-ru\ArtifactCat.txt" />
@@ -278,17 +285,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Costura.Fody">
-      <Version>5.7.0</Version>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="Fody">
-      <Version>6.6.3</Version>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-    <PackageReference Include="Newtonsoft.Json">
-      <Version>13.0.1</Version>
-    </PackageReference>
     <PackageReference Include="Resource.Embedder">
       <Version>2.2.0</Version>
     </PackageReference>

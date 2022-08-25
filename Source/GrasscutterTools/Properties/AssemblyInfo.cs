@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // 控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("GrasscutterTools")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Grasscutter Command Generator")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("jie65535")]
 [assembly: AssemblyProduct("GrasscutterTools")]
 [assembly: AssemblyCopyright("Copyright © jie65535 2022")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("jie65535")]
 [assembly: AssemblyCulture("")]
 
 // 将 ComVisible 设置为 false 会使此程序集中的类型
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 //可以指定所有这些值，也可以使用“生成号”和“修订号”的默认值
 //通过使用 "*"，如下所示:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.6.0")]
+[assembly: AssemblyVersion("1.6.1")]
 [assembly: AssemblyFileVersion("1.0.0")]

@@ -17,6 +17,8 @@
  * 
  **/
 using System;
+using System.Globalization;
+using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
@@ -27,6 +29,33 @@ namespace GrasscutterTools
 {
     internal static class Program
     {
+        static Program()
+        {
+            AppDomain.CurrentDomain.AssemblyResolve += OnResolveAssembly;
+        }
+
+        private static Assembly OnResolveAssembly(object sender, ResolveEventArgs args)
+        {
+            //var executingAssembly = Assembly.GetExecutingAssembly();
+            //var assemblyName = new AssemblyName(args.Name);
+
+            //var path = assemblyName.Name + ".dll";
+            //if (assemblyName.CultureInfo.Equals(CultureInfo.InvariantCulture) == false)
+            //    path = $@"{assemblyName.CultureInfo}\{path}";
+            //using (var stream = executingAssembly.GetManifestResourceStream(path))
+            //{
+            //    if (stream == null) return null;
+            //    var assemblyRawBytes = new byte[stream.Length];
+            //    stream.Read(assemblyRawBytes, 0, assemblyRawBytes.Length);
+            //    return Assembly.Load(assemblyRawBytes);
+            //}
+
+            // 手工加载嵌入的dll文件
+            if (new AssemblyName(args.Name).Name == "Newtonsoft.Json")
+                return Assembly.Load(Resources.Newtonsoft_Json);
+            return null;
+        }
+
         /// <summary>
         /// 应用程序的主入口点。
         /// </summary>
