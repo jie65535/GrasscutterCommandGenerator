@@ -8,6 +8,8 @@
 /give 102 x1880200
 设置世界等级
 /prop wl 8
+点亮地图
+/prop unlockmap 1
 一键解锁深渊
 /prop ut 12
 设置纪行等级

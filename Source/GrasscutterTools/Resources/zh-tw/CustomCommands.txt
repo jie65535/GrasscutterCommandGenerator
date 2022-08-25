@@ -8,6 +8,8 @@
 /give 102 x1880200
 設置世界等級
 /prop wl 8
+點亮地圖
+/prop unlockmap 1
 一鍵解鎖深淵
 /prop ut 12
 設置紀行等級
