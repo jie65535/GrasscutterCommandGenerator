@@ -1234,35 +1234,41 @@ namespace GrasscutterTools.Forms
             }
 
             ExpandCommandRunLog();
-            BtnInvokeOpenCommand.Enabled = false;
-            BtnInvokeOpenCommand.Cursor = Cursors.WaitCursor;
-            int i = 0;
-            foreach (var command in commands)
+            try
             {
-                TxtCommandRunLog.AppendText(">");
-                TxtCommandRunLog.AppendText(command);
-                if (commands.Length > 1)
-                    TxtCommandRunLog.AppendText($" ({++i}/{commands.Length})");
-                TxtCommandRunLog.AppendText(Environment.NewLine);
-                var cmd = command.Substring(1);
-                try
+                BtnInvokeOpenCommand.Enabled = false;
+                BtnInvokeOpenCommand.Cursor = Cursors.WaitCursor;
+                int i = 0;
+                foreach (var command in commands)
                 {
-                    var msg = await OC.Invoke(cmd);
-                    TxtCommandRunLog.AppendText(string.IsNullOrEmpty(msg) ? "OK" : msg);
+                    TxtCommandRunLog.AppendText(">");
+                    TxtCommandRunLog.AppendText(command);
+                    if (commands.Length > 1)
+                        TxtCommandRunLog.AppendText($" ({++i}/{commands.Length})");
                     TxtCommandRunLog.AppendText(Environment.NewLine);
+                    var cmd = command.Substring(1);
+                    try
+                    {
+                        var msg = await OC.Invoke(cmd);
+                        TxtCommandRunLog.AppendText(string.IsNullOrEmpty(msg) ? "OK" : msg);
+                        TxtCommandRunLog.AppendText(Environment.NewLine);
+                    }
+                    catch (Exception ex)
+                    {
+                        TxtCommandRunLog.AppendText("Error: ");
+                        TxtCommandRunLog.AppendText(ex.Message);
+                        TxtCommandRunLog.AppendText(Environment.NewLine);
+                        MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return false;
+                    }
+                    TxtCommandRunLog.ScrollToCaret();
                 }
-                catch (Exception ex)
-                {
-                    TxtCommandRunLog.AppendText("Error: ");
-                    TxtCommandRunLog.AppendText(ex.Message);
-                    TxtCommandRunLog.AppendText(Environment.NewLine);
-                    MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return false;
-                }
-                TxtCommandRunLog.ScrollToCaret();
             }
-            BtnInvokeOpenCommand.Cursor = Cursors.Default;
-            BtnInvokeOpenCommand.Enabled = true;
+            finally
+            {
+                BtnInvokeOpenCommand.Cursor = Cursors.Default;
+                BtnInvokeOpenCommand.Enabled = true;
+            }
             return true;
         }
 
