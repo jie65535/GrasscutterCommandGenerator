@@ -85,7 +85,6 @@
     <Compile Include="Game\ItemMap.cs" />
     <Compile Include="Game\SetStatsCommand.cs" />
     <Compile Include="Game\TextMapData.cs" />
-    <Compile Include="Github\ReleaseAPI.cs" />
     <Compile Include="GOOD\GOOD.cs" />
     <Compile Include="GOOD\Artifact.cs" />
     <Compile Include="GOOD\Character.cs" />
@@ -102,6 +101,7 @@
     </Compile>
     <Compile Include="Utils\ArtifactUtils.cs" />
     <Compile Include="Utils\HttpHelper.cs" />
+    <Compile Include="Utils\ReleaseAPI.cs" />
     <EmbeddedResource Include="Forms\FormGachaBannerEditor2.en-us.resx">
       <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>
     </EmbeddedResource>

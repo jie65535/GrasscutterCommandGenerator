@@ -142,7 +142,7 @@ namespace GrasscutterTools.Forms
             {
                 try
                 {
-                    var info = Github.ReleaseAPI.GetReleasesLastest("jie65535", "GrasscutterCommandGenerator").Result;
+                    var info = ReleaseAPI.GetReleasesLastest("jie65535", "GrasscutterCommandGenerator").Result;
                     if (Version.TryParse(info.TagName.Substring(1), out Version lastestVersion) && AppVersion < lastestVersion)
                     {
                         if (!string.IsNullOrEmpty(Settings.Default.CheckedLastVersion)
