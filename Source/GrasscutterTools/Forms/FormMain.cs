@@ -1127,11 +1127,6 @@ namespace GrasscutterTools.Forms
             SetCommand("/talent", $"{(sender as LinkLabel).Tag} {NUDTalentLevel.Value}");
         }
 
-        private void LblResetStatsCommand_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            SetCommand("/give 101");
-        }
-
         #endregion - 数据 -
 
         #region - 管理 -
