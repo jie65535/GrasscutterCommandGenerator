@@ -138,11 +138,12 @@ namespace GrasscutterTools.Forms
         private void LoadUpdate()
         {
 #if !DEBUG
-            Task.Run(() =>
+            Task.Run(async () =>
             {
                 try
                 {
-                    var info = ReleaseAPI.GetReleasesLastest("jie65535", "GrasscutterCommandGenerator").Result;
+                    await Task.Delay(5000);
+                    var info = await ReleaseAPI.GetReleasesLastest("jie65535", "GrasscutterCommandGenerator");
                     if (Version.TryParse(info.TagName.Substring(1), out Version lastestVersion) && AppVersion < lastestVersion)
                     {
                         if (!string.IsNullOrEmpty(Settings.Default.CheckedLastVersion)
@@ -1099,12 +1100,26 @@ namespace GrasscutterTools.Forms
         {
             if (CmbStat.SelectedIndex < 0)
                 return;
+            else
+                BtnLockStat.Enabled = BtnUnlockStat.Enabled = true;
 
             var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
             LblStatPercent.Visible = stat.Percent;
             LblStatTip.Text = stat.Tip;
 
             SetCommand("/setstats", $"{stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
+        }
+
+        private void BtnLockStat_Click(object sender, EventArgs e)
+        {
+            var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
+            SetCommand("/setstats", $"locak {stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
+        }
+
+        private void BtnUnlockStat_Click(object sender, EventArgs e)
+        {
+            var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
+            SetCommand("/setstats", $"unlock {stat.ArgName}");
         }
 
         private void LnkSetTalentClicked(object sender, LinkLabelLinkClickedEventArgs e)

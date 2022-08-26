@@ -220,6 +220,9 @@
   <data name="BtnSendVerificationCode.Text" xml:space="preserve">
     <value>Отправить код</value>
   </data>
+  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 111</value>
+  </data>
   <data name="TPConsoleCheck.Text" xml:space="preserve">
     <value>консоль</value>
   </data>
@@ -567,26 +570,14 @@
   <data name="TPStats.Text" xml:space="preserve">
     <value>Статы</value>
   </data>
-  <data name="LblResetStatsCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>88, 135</value>
-  </data>
-  <data name="LblResetStatsCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>130, 17</value>
-  </data>
-  <data name="LblResetStatsCommand.Text" xml:space="preserve">
-    <value>При получении CEP</value>
-  </data>
-  <data name="LblResetStatsTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>214, 135</value>
-  </data>
-  <data name="LblResetStatsTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 17</value>
-  </data>
-  <data name="LblResetStatsTip.Text" xml:space="preserve">
-    <value>атрибуты текущего персонажа будут сброшены</value>
-  </data>
   <data name="GrpSetStats.Text" xml:space="preserve">
     <value>Статистика</value>
+  </data>
+  <data name="BtnUnlockStat.Text" xml:space="preserve">
+    <value>разморозить</value>
+  </data>
+  <data name="BtnLockStat.Text" xml:space="preserve">
+    <value>заморозить</value>
   </data>
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>Совет</value>
@@ -985,6 +976,10 @@
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Включить UID</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>GrasscutterTools - перевод Юрий Дворецкий</value>

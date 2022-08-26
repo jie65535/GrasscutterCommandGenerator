@@ -217,6 +217,9 @@
   <data name="BtnSendVerificationCode.Text" xml:space="preserve">
     <value>Send Code</value>
   </data>
+  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 111</value>
+  </data>
   <data name="TPConsoleCheck.Text" xml:space="preserve">
     <value>Console</value>
   </data>
@@ -518,26 +521,14 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="TPStats.Text" xml:space="preserve">
     <value>Stats</value>
   </data>
-  <data name="LblResetStatsCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>126, 135</value>
-  </data>
-  <data name="LblResetStatsCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 17</value>
-  </data>
-  <data name="LblResetStatsCommand.Text" xml:space="preserve">
-    <value>When getting CEP</value>
-  </data>
-  <data name="LblResetStatsTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>235, 135</value>
-  </data>
-  <data name="LblResetStatsTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>243, 17</value>
-  </data>
-  <data name="LblResetStatsTip.Text" xml:space="preserve">
-    <value>the current character's stats will be reset</value>
-  </data>
   <data name="GrpSetStats.Text" xml:space="preserve">
     <value>Stats</value>
+  </data>
+  <data name="BtnUnlockStat.Text" xml:space="preserve">
+    <value>Unlock</value>
+  </data>
+  <data name="BtnLockStat.Text" xml:space="preserve">
+    <value>Lock</value>
   </data>
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>Tip</value>
@@ -864,5 +855,9 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Include UID</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
 </root>
