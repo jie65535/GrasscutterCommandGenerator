@@ -1387,6 +1387,36 @@ namespace GrasscutterTools.Forms
                     BeginInvoke(new Action(() => ShowTip(Resources.TokenRestoredFromCache, BtnInvokeOpenCommand)));
                 });
             }
+            else
+            {
+                // 自动尝试查询本地服务端地址，降低门槛
+                Task.Run(async () =>
+                {
+                    await Task.Delay(5000);
+                    var localhosts = new string[] {
+                        "http://127.0.0.1:443",
+                        "https://127.0.0.1",
+                        "http://127.0.0.1",
+                        "https://127.0.0.1:80",
+                        "http://127.0.0.1:8080",
+                        "https://127.0.0.1:8080",
+                    };
+                    foreach (var host in localhosts)
+                    {
+                        try
+                        {
+                            await UpdateServerStatus(host);
+                            // 自动填写本地服务端地址
+                            TxtHost.Text = host;
+                            break;
+                        }
+                        catch (Exception)
+                        {
+                            // Ignore
+                        }
+                    }
+                });
+            }
         }
 
         private void SaveOpenCommand()
@@ -1394,6 +1424,16 @@ namespace GrasscutterTools.Forms
             Settings.Default.RemoteUid = NUDRemotePlayerId.Value;
             Settings.Default.Host = TxtHost.Text;
             Settings.Default.TokenCache = OC?.Token;
+        }
+
+        private async Task UpdateServerStatus(string host)
+        {
+            var status = await DispatchServerAPI.QueryServerStatus(host);
+            LblServerVersion.Text = status.Version;
+            if (status.MaxPlayer >= 0)
+                LblPlayerCount.Text = $"{status.PlayerCount}/{status.MaxPlayer}";
+            else
+                LblPlayerCount.Text = status.PlayerCount.ToString();
         }
 
         private async void BtnQueryServerStatus_Click(object sender, EventArgs e)
@@ -1405,16 +1445,12 @@ namespace GrasscutterTools.Forms
             {
                 try
                 {
-                    var status = await DispatchServerAPI.QueryServerStatus(TxtHost.Text);
-                    LblServerVersion.Text = status.Version;
-                    if (status.MaxPlayer >= 0)
-                        LblPlayerCount.Text = $"{status.PlayerCount}/{status.MaxPlayer}";
-                    else
-                        LblPlayerCount.Text = status.PlayerCount.ToString();
+                    await UpdateServerStatus(TxtHost.Text);
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show(Resources.QueryServerStatusFailed + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
                 }
 
                 OC = new OpenCommandAPI(TxtHost.Text);
