@@ -1113,7 +1113,7 @@ namespace GrasscutterTools.Forms
         private void BtnLockStat_Click(object sender, EventArgs e)
         {
             var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
-            SetCommand("/setstats", $"locak {stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
+            SetCommand("/setstats", $"lock {stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
         }
 
         private void BtnUnlockStat_Click(object sender, EventArgs e)
