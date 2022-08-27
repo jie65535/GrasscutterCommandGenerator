@@ -9,7 +9,7 @@
       <Value Profile="(Default)">10001</Value>
     </Setting>
     <Setting Name="DefaultLanguage" Type="System.String" Scope="User">
-      <Value Profile="(Default)">zh-CN</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="ResourcesDirPath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
@@ -30,7 +30,7 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="CommandVersion" Type="System.String" Scope="User">
-      <Value Profile="(Default)">1.2.2</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="IsTopMost" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>

@@ -23,6 +23,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -39,7 +40,7 @@ namespace GrasscutterTools.Forms
 {
     public partial class FormMain : Form
     {
-        #region - 初始化 -
+        #region - 初始化 Init -
 
         public FormMain()
         {
@@ -52,7 +53,6 @@ namespace GrasscutterTools.Forms
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            MultiLanguage.LoadLanguage(this, typeof(FormMain));
 #if DEBUG
             Text += "  - by jie65535  - v" + AppVersion.ToString(3) + "-debug";
 #else
@@ -74,7 +74,6 @@ namespace GrasscutterTools.Forms
 
             ChangeTPArtifact();
             ChangeBtnGiveAllChar();
-
         }
 
         private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
@@ -82,31 +81,40 @@ namespace GrasscutterTools.Forms
             SaveSettings();
         }
 
-        private readonly string[] LanguageNames = new string[] { "简体中文", "繁體中文", "English", "Русский" };
-        private readonly string[] Languages = new string[] { "zh-CN", "zh-TW", "en-US", "ru-RU" };
 
-
+        /// <summary>
+        /// 应用版本
+        /// </summary>
         private Version AppVersion;
+
+        /// <summary>
+        /// 加载应用版本
+        /// </summary>
         private void LoadVersion()
         {
             AppVersion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
         }
 
+        /// <summary>
+        /// 载入设置
+        /// </summary>
         private void LoadSettings()
         {
             try
             {
+                // 恢复自动复制选项状态
                 ChkAutoCopy.Checked       = Settings.Default.AutoCopy;
-                NUDUid.Value              = Settings.Default.Uid;
-                ChkTopMost.Checked        = Settings.Default.IsTopMost;
-                ChkNewCommand.Checked     = Settings.Default.CommandVersion == "1.2.2";
+                
+                // 初始化首页设置
+                InitHomeSettings();
 
-                CmbLanguage.Items.AddRange(LanguageNames);
-                CmbLanguage.SelectedIndex = Array.IndexOf(Languages, Settings.Default.DefaultLanguage);
-
-
+                // 初始化获取物品记录
                 InitGiveItemRecord();
+
+                // 初始化生成记录
                 InitSpawnRecord();
+
+                // 初始化开放命令
                 InitOpenCommand();
             }
             catch (Exception ex)
@@ -115,14 +123,14 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 保存设置
+        /// </summary>
         private void SaveSettings()
         {
             try
             {
                 Settings.Default.AutoCopy  = ChkAutoCopy.Checked;
-                Settings.Default.Uid       = NUDUid.Value;
-                Settings.Default.IsTopMost = ChkTopMost.Checked;
-                Settings.Default.CommandVersion = ChkNewCommand.Checked ? "1.2.2" : string.Empty;
                 SaveCustomCommands();
                 SaveGiveItemRecord();
                 SaveSpawnRecord();
@@ -172,12 +180,60 @@ namespace GrasscutterTools.Forms
 #endif
         }
 
-        #endregion - 初始化 -
+        #endregion - 初始化 Init -
 
-        #region - 主页 -
+        #region - 主页 Home -
 
+        /// <summary>
+        /// 命令版本
+        /// </summary>
+        private CommandVersion CommandVersion;
+
+        /// <summary>
+        /// 卡池编辑器窗口实例
+        /// </summary>
         private Form GachaBannerEditor;
 
+        /// <summary>
+        /// 初始化首页设置
+        /// </summary>
+        private void InitHomeSettings()
+        {
+            // 玩家UID
+            NUDUid.Value = Settings.Default.Uid;
+            NUDUid.ValueChanged += (o, e) => Settings.Default.Uid = NUDUid.Value;
+
+            // 置顶
+            ChkTopMost.Checked = Settings.Default.IsTopMost;
+            ChkTopMost.CheckedChanged += (o, e) => Settings.Default.IsTopMost = TopMost = ChkTopMost.Checked;
+
+            // 命令版本初始化
+            CommandVersion = Version.TryParse(Settings.Default.CommandVersion, out Version current) ? new CommandVersion(current) : CommandVersion.Latest();
+            CmbGcVersions.DataSource = CommandVersion.List.Select(it => it.ToString(3)).ToList();
+            CmbGcVersions.SelectedIndex = Array.IndexOf(CommandVersion.List, CommandVersion.Current);
+            CmbGcVersions.SelectedIndexChanged += (o, e) => CommandVersion.Current = CommandVersion.List[CmbGcVersions.SelectedIndex];
+            CommandVersion.VersionChanged += OnCommandVersionChanged;
+
+
+            // 初始化多语言
+            CmbLanguage.DataSource = MultiLanguage.LanguageNames;
+            if (string.IsNullOrEmpty(Settings.Default.DefaultLanguage))
+            {
+                // 如果未选择语言，则默认载入本地语言
+                var i = Array.IndexOf(MultiLanguage.Languages, Thread.CurrentThread.CurrentUICulture);
+                // 仅支持时切换，避免重复加载
+                if (i > 0) CmbLanguage.SelectedIndex = i;
+            }
+            else
+            {
+                CmbLanguage.SelectedIndex = Array.IndexOf(MultiLanguage.Languages, Settings.Default.DefaultLanguage);
+            }
+            CmbLanguage.SelectedIndexChanged += CmbLanguage_SelectedIndexChanged;
+        }
+
+        /// <summary>
+        /// 点击打开卡池编辑器时触发
+        /// </summary>
         private void BtnOpenGachaBannerEditor_Click(object sender, EventArgs e)
         {
             if (GachaBannerEditor == null || GachaBannerEditor.IsDisposed)
@@ -192,6 +248,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 文本浏览器窗口实例
+        /// </summary>
         private FormTextMapBrowser TextMapBrowser;
 
         private void BtnOpenTextMap_Click(object sender, EventArgs e)
@@ -207,151 +266,50 @@ namespace GrasscutterTools.Forms
                 TextMapBrowser.TopMost = false;
             }
         }
-        async private void ButtonOpenGOODImport_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog openFileDialog1 = new OpenFileDialog
-            {
-                Filter = "GOOD file (*.GOOD;*.json)|*.GOOD;*.json|All files (*.*)|*.*",
-            };
-            if (openFileDialog1.ShowDialog() == DialogResult.OK)
-            {
-                if (DialogResult.Yes != MessageBox.Show(Resources.GOODImportText + openFileDialog1.FileName + "?",
-                    Resources.GOODImportTitle, MessageBoxButtons.YesNo))
-                    return;
-                try
-                {
-                    GOOD.GOOD good = JsonConvert.DeserializeObject<GOOD.GOOD>(File.ReadAllText(openFileDialog1.FileName));
-                    var commands_list = new List<string>();
-                    var missingItems = new List<string>();
 
-                    if (good.Characters != null)
-                    {
-                        foreach (var character in good.Characters)
-                        {
-                            if (character.Name != "Traveler")
-                            {
-                                if (GOODData.Avatars.TryGetValue(character.Name, out var character_id))
-                                    commands_list.Add("/give " + character_id + " lv" + character.Level + "c" + character.Constellation);
-                                else
-                                    missingItems.Add(character.Name);
-                                // TODO: Implement command to set talent level when giving character in Grasscutter
-                            }
-                        }
-                    }
-
-                    if (good.Weapons != null)
-                    {
-                        foreach (var weapon in good.Weapons)
-                        {
-                            if (GOODData.Weapons.TryGetValue(weapon.Name, out var weapon_id))
-                                commands_list.Add("/give " + weapon_id + " lv" + weapon.Level + "r" + weapon.RefinementLevel);
-                            else
-                                missingItems.Add(weapon.Name);
-                            // TODO: Implement command to give weapon directly to character in Grasscutter
-                        }
-                    }
-
-                    if (good.Artifacts != null)
-                    {
-                        foreach (var artifact in good.Artifacts)
-                        {
-                            // Format: set rarity slot 
-                            if (!GOODData.ArtifactCats.TryGetValue(artifact.SetName, out var artifact_set_id))
-                            {
-                                missingItems.Add(artifact.SetName);
-                                continue;
-                            }
-                            var artifact_id = artifact_set_id.ToString() + artifact.Rarity.ToString() + GOODData.ArtifactSlotMap[artifact.GearSlot] + "4";
-                            var artifact_mainStat_id = GOODData.ArtifactMainAttribution[artifact.MainStat];
-                            var artifact_substats = "";
-                            var artifact_substat_prefix = artifact.Rarity + "0";
-                            int substat_count = 0;
-                            foreach (var substat in artifact.SubStats)
-                            {
-                                if (substat.Value <= 0)
-                                    continue;
-                                substat_count++;
-                                var substat_key = substat.Stat;
-                                var substat_key_id = GOODData.ArtifactSubAttribution[substat_key];
-                                var substat_indices = ArtifactUtils.SplitSubstats(substat_key, artifact.Rarity, substat.Value);
-
-                                foreach (int index in substat_indices)
-                                {
-                                    artifact_substats += artifact_substat_prefix + substat_key_id + index.ToString() + " ";
-                                }
-                            }
-
-                            // HACK: Add def+2 substat to counteract Grasscutter automatically adding another substat
-                            if (substat_count == 4)
-                                artifact_substats += "101081 ";
-                            commands_list.Add("/give " + artifact_id + " lv" + artifact.Level + " " + artifact_mainStat_id + " " + artifact_substats);
-                            // TODO: Implement command to give artifact directly to character in Grasscutter
-                        }
-                    }
-
-                    // TODO: Materials
-                    //if (good.Materials != null)
-                    //{
-                    //    foreach (var material in good.Materials)
-                    //    {
-
-                    //    }
-                    //}
-
-                    var msg = string.Format("Loaded {0} Characters\nLoaded {1} Weapons\nLoaded {2} Artifacts\n",
-                        good.Characters?.Count ?? 0,
-                        good.Weapons?.Count ?? 0,
-                        good.Artifacts?.Count ?? 0
-                        );
-                    if (missingItems.Count > 0)
-                    {
-                        msg += string.Format("There are {0} pieces of data that cannot be parsed, including:\n{1}",
-                            missingItems.Count,
-                            string.Join("\n", missingItems.Take(10)));
-                        if (missingItems.Count > 10)
-                            msg += "......";
-                    }
-                    msg += "Do you want to start?";
-
-                    if (DialogResult.Yes != MessageBox.Show(msg, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Information))
-                        return;
-
-
-                    if (await RunCommands(commands_list.ToArray()))
-                        MessageBox.Show(Resources.GOODImportSuccess);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
-        }
-
+        /// <summary>
+        /// 语言选中项改变时触发
+        /// </summary>
         private void CmbLanguage_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MultiLanguage.SetDefaultLanguage(Languages[CmbLanguage.SelectedIndex]);
+            if (CmbLanguage.SelectedIndex < 0) return;
+            // 切换默认语言
+            MultiLanguage.SetDefaultLanguage(MultiLanguage.Languages[CmbLanguage.SelectedIndex]);
+            // 动态更改语言
+            MultiLanguage.LoadLanguage(this, typeof(FormMain));
+            // 重新载入页面资源
             FormMain_Load(this, EventArgs.Empty);
         }
 
-        private void ChkTopMost_CheckedChanged(object sender, EventArgs e)
+        /// <summary>
+        /// 命令版本改变时触发
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void OnCommandVersionChanged(object sender, EventArgs e)
         {
-            TopMost = ChkTopMost.Checked;
-        }
-
-        private void ChkNewCommand_CheckedChanged(object sender, EventArgs e)
-        {
+            Settings.Default.CommandVersion = CommandVersion.Current.ToString(3);
             ChangeTPArtifact();
             ChangeBtnGiveAllChar();
         }
 
-        #endregion - 主页 -
+        #endregion - 主页 Home -
 
-        #region - 自定义 -
+        #region - 自定义 Custom -
 
+        /// <summary>
+        /// 自定义命令保存位置
+        /// </summary>
         private readonly string CustomCommandsFilePath = Path.Combine(Application.LocalUserAppDataPath, "CustomCommands.txt");
 
+        /// <summary>
+        /// 自定义命令是否存在更改
+        /// </summary>
         private bool CustomCommandsChanged;
 
+        /// <summary>
+        /// 加载自定义命令
+        /// </summary>
         private void LoadCustomCommands()
         {
             if (File.Exists(CustomCommandsFilePath))
@@ -360,6 +318,10 @@ namespace GrasscutterTools.Forms
                 LoadCustomCommandControls(Resources.CustomCommands);
         }
 
+        /// <summary>
+        /// 加载自定义命令控件列表
+        /// </summary>
+        /// <param name="commands">命令集（示例："标签1\n命令1\n标签2\n命令2"）</param>
         private void LoadCustomCommandControls(string commands)
         {
             FLPCustomCommands.Controls.Clear();
@@ -368,12 +330,19 @@ namespace GrasscutterTools.Forms
                 AddCustomCommand(lines[i].Trim(), lines[i + 1].Trim());
         }
 
+        /// <summary>
+        /// 保存自定义命令
+        /// </summary>
         private void SaveCustomCommands()
         {
             if (CustomCommandsChanged)
                 File.WriteAllText(CustomCommandsFilePath, SaveCustomCommandControls());
         }
 
+        /// <summary>
+        /// 保存自定义命令控件列表
+        /// </summary>
+        /// <returns>命令集（示例："标签1\n命令1\n标签2\n命令2"）</returns>
         private string SaveCustomCommandControls()
         {
             StringBuilder builder = new StringBuilder();
@@ -385,6 +354,9 @@ namespace GrasscutterTools.Forms
             return builder.ToString();
         }
 
+        /// <summary>
+        /// 自定义命令点击时触发
+        /// </summary>
         private void CustomCommand_Click(object sender, LinkLabelLinkClickedEventArgs e)
         {
             if (sender is LinkLabel lnk && lnk.Tag is string command)
@@ -394,6 +366,11 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击保存自定义命令列表时触发
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void BtnSaveCustomCommand_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(TxtCustomName.Text))
@@ -425,6 +402,11 @@ namespace GrasscutterTools.Forms
             await ButtonComplete(BtnSaveCustomCommand);
         }
 
+        /// <summary>
+        /// 添加自定义命令
+        /// </summary>
+        /// <param name="name">标签</param>
+        /// <param name="command">命令</param>
         private void AddCustomCommand(string name, string command)
         {
             var lnk = new LinkLabel
@@ -437,6 +419,9 @@ namespace GrasscutterTools.Forms
             FLPCustomCommands.Controls.Add(lnk);
         }
 
+        /// <summary>
+        /// 点击移除自定义命令按钮时触发
+        /// </summary>
         private async void BtnRemoveCustomCommand_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(TxtCustomName.Text))
@@ -462,6 +447,9 @@ namespace GrasscutterTools.Forms
             MessageBox.Show(Resources.CommandNotFound, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
+        /// <summary>
+        /// 点击导入自定义命令时触发
+        /// </summary>
         private void BtnImport_Click(object sender, EventArgs e)
         {
             var dialog = new OpenFileDialog
@@ -479,6 +467,11 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击导出自定义命令时触发
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnExport_Click(object sender, EventArgs e)
         {
             var dialog = new SaveFileDialog
@@ -496,6 +489,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击重置链接按钮时触发
+        /// </summary>
         private void LnkResetCustomCommands_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             if (MessageBox.Show(Resources.RestoreCustomCommands, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
@@ -506,9 +502,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
-        #endregion - 自定义 -
+        #endregion - 自定义 Custom -
 
-        #region - 圣遗物 -
+        #region - 圣遗物 Artifact -
 
         private Dictionary<string, List<KeyValuePair<int, string>>> subAttrs;
 
@@ -620,7 +616,7 @@ namespace GrasscutterTools.Forms
             id = id / 1000 * 1000 + (int)NUDArtifactStars.Value * 100 + id % 100;
             if (CmbMainAttribution.SelectedIndex < 0)
             {
-                if (ChkNewCommand.Checked)
+                if (Check(CommandVersion.V1_2_2))
                     SetCommand("/give", $"{id} lv{NUDArtifactLevel.Value}");
                 else
                     SetCommand("/giveart", $"{id} {NUDArtifactLevel.Value}");
@@ -652,7 +648,7 @@ namespace GrasscutterTools.Forms
                             subAttrs += $"{kv.Key} ";
                     }
                 }
-                if (ChkNewCommand.Checked)
+                if (Check(CommandVersion.V1_2_2))
                     SetCommand("/give", $"{id} lv{NUDArtifactLevel.Value} {mainAttr} {subAttrs}");
                 else
                     SetCommand("/giveart", $"{id} {mainAttr} {subAttrs}{NUDArtifactLevel.Value}");
@@ -678,7 +674,7 @@ namespace GrasscutterTools.Forms
 
         private void ChangeTPArtifact()
         {
-            if (ChkNewCommand.Checked)
+            if (Check(CommandVersion.V1_2_2))
             {
                 NUDArtifactLevel.Minimum = 0;
                 NUDArtifactLevel.Maximum = 20;
@@ -691,9 +687,9 @@ namespace GrasscutterTools.Forms
             LblArtifactLevelTip.Text = $"[{NUDArtifactLevel.Minimum}-{NUDArtifactLevel.Maximum}]";
         }
 
-        #endregion - 圣遗物 -
+        #endregion - 圣遗物 Artifact -
 
-        #region - 武器 -
+        #region - 武器 Weapons -
 
         private void InitWeapons()
         {
@@ -716,16 +712,16 @@ namespace GrasscutterTools.Forms
             if (!string.IsNullOrEmpty(name))
             {
                 var id = name.Substring(0, name.IndexOf(':')).Trim();
-                if (ChkNewCommand.Checked)
+                if (Check(CommandVersion.V1_2_2))
                     SetCommand("/give", $"{id} x{NUDWeaponAmout.Value} lv{NUDWeaponLevel.Value} r{NUDWeaponRefinement.Value}");
                 else
                     SetCommand("/give", $"{id} {NUDWeaponAmout.Value} {NUDWeaponLevel.Value} {NUDWeaponRefinement.Value}");
             }
         }
 
-        #endregion - 武器 -
+        #endregion - 武器 Weapons -
 
-        #region - 物品 -
+        #region - 物品 Items -
 
         private void InitGameItemList()
         {
@@ -757,7 +753,7 @@ namespace GrasscutterTools.Forms
                 else
                 {
                     NUDGameItemLevel.Enabled = true;
-                    if (ChkNewCommand.Checked)
+                    if (Check(CommandVersion.V1_2_2))
                         SetCommand("/give", $"{id} x{NUDGameItemAmout.Value} lv{NUDGameItemLevel.Value}");
                     else
                         SetCommand("/give", $"{id} {NUDGameItemAmout.Value} {NUDGameItemLevel.Value}");
@@ -838,9 +834,9 @@ namespace GrasscutterTools.Forms
 
         #endregion -- 物品记录 --
 
-        #endregion - 物品 -
+        #endregion - 物品 Items -
 
-        #region - 角色 -
+        #region - 角色 Avatars -
 
         private void InitAvatars()
         {
@@ -867,7 +863,7 @@ namespace GrasscutterTools.Forms
 
         private void GenAvatar(int level)
         {
-            if (ChkNewCommand.Checked)
+            if (Check(CommandVersion.V1_2_2))
             {
                 int avatarId = GameData.Avatars.Ids[CmbAvatar.SelectedIndex];
                 SetCommand("/give", $"{avatarId} lv{level}");
@@ -888,15 +884,12 @@ namespace GrasscutterTools.Forms
 
         private void ChangeBtnGiveAllChar()
         {
-            if (ChkNewCommand.Checked)
-                BtnGiveAllChar.Enabled = true;
-            else
-                BtnGiveAllChar.Enabled = false;
+            BtnGiveAllChar.Enabled = Check(CommandVersion.V1_2_2);
         }
 
-        #endregion - 角色 -
+        #endregion - 角色 Avatars -
 
-        #region - 生成 -
+        #region - 生成 Spawns -
 
         private void InitEntityList()
         {
@@ -1021,9 +1014,9 @@ namespace GrasscutterTools.Forms
 
         #endregion -- 生成记录 --
 
-        #endregion - 生成 -
+        #endregion - 生成 Spawns -
 
-        #region - 场景 -
+        #region - 场景 Scenes -
 
         private void InitScenes()
         {
@@ -1055,7 +1048,7 @@ namespace GrasscutterTools.Forms
             // 可以直接弃用 scene 命令
             var name = ListScenes.SelectedItem as string;
             var id = name.Substring(0, name.IndexOf(':')).Trim();
-            if (!ChkNewCommand.Checked)
+            if (Check(CommandVersion.V1_2_2))
             {
                 SetCommand("/scene", id.ToString());
             }
@@ -1070,7 +1063,7 @@ namespace GrasscutterTools.Forms
         {
             if (CmbClimateType.SelectedIndex < 0)
                 return;
-            if (ChkNewCommand.Checked)
+            if (Check(CommandVersion.V1_2_2))
                 SetCommand("/weather", CmbClimateType.SelectedIndex < climateTypes.Length ? climateTypes[CmbClimateType.SelectedIndex] : "none");
             else
                 SetCommand("/weather", $"0 {CmbClimateType.SelectedIndex}");
@@ -1084,9 +1077,9 @@ namespace GrasscutterTools.Forms
             SetCommand("/tp", args);
         }
 
-        #endregion - 场景 -
+        #endregion - 场景 Scenes -
 
-        #region - 数据 -
+        #region - 数据 Stats -
 
         private void InitStatList()
         {
@@ -1127,9 +1120,9 @@ namespace GrasscutterTools.Forms
             SetCommand("/talent", $"{(sender as LinkLabel).Tag} {NUDTalentLevel.Value}");
         }
 
-        #endregion - 数据 -
+        #endregion - 数据 Stats -
 
-        #region - 管理 -
+        #region - 管理 Management -
 
         private void InitPermList()
         {
@@ -1176,18 +1169,18 @@ namespace GrasscutterTools.Forms
             SetCommand($"/unban @{NUDBanUID.Value}");
         }
 
-        #endregion - 管理 -
+        #endregion - 管理 Management -
 
-        #region - 关于 -
+        #region - 关于 About -
 
         private void LnkGithub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             OpenURL("https://github.com/jie65535/GrasscutterCommandGenerator");
         }
 
-        #endregion - 关于 -
+        #endregion - 关于 About -
 
-        #region - 命令 -
+        #region - 命令 Command -
 
         private void SetCommand(string command)
         {
@@ -1315,9 +1308,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
-        #endregion - 命令 -
+        #endregion - 命令 Command -
 
-        #region - 通用 -
+        #region - 通用 General -
 
         private async Task ButtonComplete(Button btn)
         {
@@ -1343,9 +1336,11 @@ namespace GrasscutterTools.Forms
             TTip.Show(message, control, 0, control.Size.Height, 3000);
         }
 
-        #endregion - 通用 -
+        private bool Check(Version version) => CommandVersion.Current >= version;
 
-        #region - 命令记录 -
+        #endregion - 通用 General -
+
+        #region - 命令记录 Command Logs -
 
         private List<GameCommand> GetCommands(string commandsText)
         {
@@ -1367,9 +1362,9 @@ namespace GrasscutterTools.Forms
             return builder.ToString();
         }
 
-        #endregion - 命令记录 -
+        #endregion - 命令记录 Command Logs -
 
-        #region - 远程 -
+        #region - 远程 Remote -
 
         private OpenCommandAPI OC;
 
@@ -1389,7 +1384,8 @@ namespace GrasscutterTools.Forms
             }
             else
             {
-                // 自动尝试查询本地服务端地址，降低门槛
+#if !DEBUG
+                // 自动尝试查询本地服务端地址，降低使用门槛
                 Task.Run(async () =>
                 {
                     await Task.Delay(5000);
@@ -1416,6 +1412,7 @@ namespace GrasscutterTools.Forms
                         }
                     }
                 });
+#endif
             }
         }
 
@@ -1592,9 +1589,133 @@ namespace GrasscutterTools.Forms
             }
         }
 
-        #endregion - 远程 -
+        #endregion - 远程 Remote -
 
-        #region - 任务 -
+        #region - GOOD -
+
+        async private void ButtonOpenGOODImport_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog1 = new OpenFileDialog
+            {
+                Filter = "GOOD file (*.GOOD;*.json)|*.GOOD;*.json|All files (*.*)|*.*",
+            };
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                if (DialogResult.Yes != MessageBox.Show(Resources.GOODImportText + openFileDialog1.FileName + "?",
+                    Resources.GOODImportTitle, MessageBoxButtons.YesNo))
+                    return;
+                try
+                {
+                    GOOD.GOOD good = JsonConvert.DeserializeObject<GOOD.GOOD>(File.ReadAllText(openFileDialog1.FileName));
+                    var commands_list = new List<string>();
+                    var missingItems = new List<string>();
+
+                    if (good.Characters != null)
+                    {
+                        foreach (var character in good.Characters)
+                        {
+                            if (character.Name != "Traveler")
+                            {
+                                if (GOODData.Avatars.TryGetValue(character.Name, out var character_id))
+                                    commands_list.Add("/give " + character_id + " lv" + character.Level + "c" + character.Constellation);
+                                else
+                                    missingItems.Add(character.Name);
+                                // TODO: Implement command to set talent level when giving character in Grasscutter
+                            }
+                        }
+                    }
+
+                    if (good.Weapons != null)
+                    {
+                        foreach (var weapon in good.Weapons)
+                        {
+                            if (GOODData.Weapons.TryGetValue(weapon.Name, out var weapon_id))
+                                commands_list.Add("/give " + weapon_id + " lv" + weapon.Level + "r" + weapon.RefinementLevel);
+                            else
+                                missingItems.Add(weapon.Name);
+                            // TODO: Implement command to give weapon directly to character in Grasscutter
+                        }
+                    }
+
+                    if (good.Artifacts != null)
+                    {
+                        foreach (var artifact in good.Artifacts)
+                        {
+                            // Format: set rarity slot 
+                            if (!GOODData.ArtifactCats.TryGetValue(artifact.SetName, out var artifact_set_id))
+                            {
+                                missingItems.Add(artifact.SetName);
+                                continue;
+                            }
+                            var artifact_id = artifact_set_id.ToString() + artifact.Rarity.ToString() + GOODData.ArtifactSlotMap[artifact.GearSlot] + "4";
+                            var artifact_mainStat_id = GOODData.ArtifactMainAttribution[artifact.MainStat];
+                            var artifact_substats = "";
+                            var artifact_substat_prefix = artifact.Rarity + "0";
+                            int substat_count = 0;
+                            foreach (var substat in artifact.SubStats)
+                            {
+                                if (substat.Value <= 0)
+                                    continue;
+                                substat_count++;
+                                var substat_key = substat.Stat;
+                                var substat_key_id = GOODData.ArtifactSubAttribution[substat_key];
+                                var substat_indices = ArtifactUtils.SplitSubstats(substat_key, artifact.Rarity, substat.Value);
+
+                                foreach (int index in substat_indices)
+                                {
+                                    artifact_substats += artifact_substat_prefix + substat_key_id + index.ToString() + " ";
+                                }
+                            }
+
+                            // HACK: Add def+2 substat to counteract Grasscutter automatically adding another substat
+                            if (substat_count == 4)
+                                artifact_substats += "101081 ";
+                            commands_list.Add("/give " + artifact_id + " lv" + artifact.Level + " " + artifact_mainStat_id + " " + artifact_substats);
+                            // TODO: Implement command to give artifact directly to character in Grasscutter
+                        }
+                    }
+
+                    // TODO: Materials
+                    //if (good.Materials != null)
+                    //{
+                    //    foreach (var material in good.Materials)
+                    //    {
+
+                    //    }
+                    //}
+
+                    var msg = string.Format("Loaded {0} Characters\nLoaded {1} Weapons\nLoaded {2} Artifacts\n",
+                        good.Characters?.Count ?? 0,
+                        good.Weapons?.Count ?? 0,
+                        good.Artifacts?.Count ?? 0
+                        );
+                    if (missingItems.Count > 0)
+                    {
+                        msg += string.Format("There are {0} pieces of data that cannot be parsed, including:\n{1}",
+                            missingItems.Count,
+                            string.Join("\n", missingItems.Take(10)));
+                        if (missingItems.Count > 10)
+                            msg += "......";
+                    }
+                    msg += "Do you want to start?";
+
+                    if (DialogResult.Yes != MessageBox.Show(msg, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Information))
+                        return;
+
+
+                    if (await RunCommands(commands_list.ToArray()))
+                        MessageBox.Show(Resources.GOODImportSuccess);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+
+        #endregion
+
+        #region - 任务 Quests -
 
         private void InitQuestList()
         {
@@ -1629,7 +1750,7 @@ namespace GrasscutterTools.Forms
             SetCommand("/quest", $"{(sender as Button).Tag} {id}");
         }
 
-        #endregion - 任务 -
+        #endregion - 任务 Quests -
 
     }
 }

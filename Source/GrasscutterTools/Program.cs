@@ -72,6 +72,10 @@ namespace GrasscutterTools
             //处理非UI线程异常
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
 
+            // 初始化语言环境
+            if (!string.IsNullOrEmpty(Settings.Default.DefaultLanguage))
+                MultiLanguage.SetDefaultLanguage(Settings.Default.DefaultLanguage);
+
             Application.Run(new Forms.FormMain());
         }
 

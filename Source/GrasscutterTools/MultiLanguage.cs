@@ -23,14 +23,20 @@ namespace GrasscutterTools
 {
     internal static class MultiLanguage
     {
-        public static string DefaultLanguage = "zh-CN";
+        /// <summary>
+        /// 语言名称列表
+        /// </summary>
+        public static readonly string[] LanguageNames = new string[] { "简体中文", "繁體中文", "English", "Русский" };
+
+        /// <summary>
+        /// 语言代码列表
+        /// </summary>
+        public static readonly string[] Languages = new string[] { "zh-CN", "zh-TW", "en-US", "ru-RU" };
 
         public static void SetDefaultLanguage(string lang)
         {
             System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(lang);
-            DefaultLanguage = lang;
             Properties.Settings.Default.DefaultLanguage = lang;
-            Properties.Settings.Default.Save();
         }
 
         /// <summary>
