@@ -506,10 +506,19 @@ namespace GrasscutterTools.Forms
 
         #region - 圣遗物 Artifact -
 
+        /// <summary>
+        /// 副词条集
+        /// </summary>
         private Dictionary<string, List<KeyValuePair<int, string>>> subAttrs;
 
+        /// <summary>
+        /// 部位标签集
+        /// </summary>
         private string[] ArtifactPartLabels;
 
+        /// <summary>
+        /// 初始化圣遗物列表
+        /// </summary>
         private void InitArtifactList()
         {
             CmbArtifactSet.Items.Clear();
@@ -537,6 +546,9 @@ namespace GrasscutterTools.Forms
             ArtifactPartLabels = Resources.ArtifactPartLabels.Split(',');
         }
 
+        /// <summary>
+        /// 福词条下拉框选中项改变时触发
+        /// </summary>
         private void CmbSubAttribution_SelectedIndexChanged(object sender, EventArgs e)
         {
             CmbSubAttributionValue.Items.Clear();
@@ -547,6 +559,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击添加副词条按钮时触发
+        /// </summary>
         private void BtnAddSubAttr_Click(object sender, EventArgs e)
         {
             if (CmbSubAttribution.SelectedIndex >= 0 && CmbSubAttributionValue.SelectedIndex >= 0)
@@ -558,6 +573,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 圣遗物套装下拉框选中项改变时触发
+        /// </summary>
         private void CmbArtifactSet_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (CmbArtifactSet.SelectedIndex < 0)
@@ -580,6 +598,9 @@ namespace GrasscutterTools.Forms
             ArtifactInputChanged(sender, e);
         }
 
+        /// <summary>
+        /// 圣遗物部件选中项改变时触发
+        /// </summary>
         private void CmbArtifactPart_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (CmbArtifactPart.SelectedIndex < 0)
@@ -597,6 +618,9 @@ namespace GrasscutterTools.Forms
             ArtifactInputChanged(sender, e);
         }
 
+        /// <summary>
+        /// 圣遗物页面输入改变时调用
+        /// </summary>
         private void ArtifactInputChanged(object sender, EventArgs e)
         {
             // 圣遗物ID五位数，ABCDE，其中AB是圣遗物类型（魔女/水/风套......）
@@ -655,6 +679,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 已添加的副词条列表选中项改变时触发
+        /// </summary>
         private void ListSubAttributionChecked_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (ListSubAttributionChecked.SelectedIndex >= 0)
@@ -665,6 +692,11 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 清除词条链接标签点击时触发
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void LblClearSubAttrCheckedList_Click(object sender, EventArgs e)
         {
             CmbMainAttribution.SelectedIndex = -1;
@@ -672,6 +704,9 @@ namespace GrasscutterTools.Forms
             ArtifactInputChanged(null, EventArgs.Empty);
         }
 
+        /// <summary>
+        /// 改变圣遗物等级输入范围（旧版本范围是1-21）
+        /// </summary>
         private void ChangeTPArtifact()
         {
             if (Check(CommandVersion.V1_2_2))
@@ -691,12 +726,18 @@ namespace GrasscutterTools.Forms
 
         #region - 武器 Weapons -
 
+        /// <summary>
+        /// 初始化武器列表
+        /// </summary>
         private void InitWeapons()
         {
             ListWeapons.Items.Clear();
             ListWeapons.Items.AddRange(GameData.Weapons.Lines);
         }
 
+        /// <summary>
+        /// 武器列表过滤器文本改变时触发
+        /// </summary>
         private void TxtWeaponFilter_TextChanged(object sender, EventArgs e)
         {
             var filter = TxtWeaponFilter.Text.Trim();
@@ -706,6 +747,9 @@ namespace GrasscutterTools.Forms
             ListWeapons.EndUpdate();
         }
 
+        /// <summary>
+        /// 武器页面输入改变时触发
+        /// </summary>
         private void WeaponValueChanged(object sender, EventArgs e)
         {
             var name = ListWeapons.SelectedItem as string;
