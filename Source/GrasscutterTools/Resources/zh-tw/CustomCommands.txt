@@ -4,27 +4,27 @@
 /prop ns on
 無限能量
 /prop ue on
-升到60級
+冒險等階升60級
 /give 102 x1880200
-設置世界等級
+設置世界等級8
 /prop wl 8
 點亮地圖
 /prop unlockmap 1
-一鍵解鎖深淵
+一鍵解鎖深淵12層
 /prop ut 12
-設置紀行等級
+設置紀行等級50
 /prop bp 50
-設置好感等級
+設置好感等級10
 /setfetterlevel 10
-奶
+治療
 /h
 自殺
 /kill 0
 全隊充能
 /spawn 2008 25
-我在哪？
+查看坐標
 /pos
-我全都要！
+獲取全部物品
 /give all x9999 lv90 c6 r5
 一萬糾纏
 /give 223 x10000
@@ -50,13 +50,13 @@
 /clear art lv20 5*
 清空材料
 /clear mat
-清場
+擊殺全部怪物
 /killall
-進入多人
+進入多人遊戲
 /coop
-速速集合！
+[多人遊戲]全體傳送
 /tpall
-都有誰在？
+玩家列表
 /list uid
 發送廣播
 /say 大家好啊~

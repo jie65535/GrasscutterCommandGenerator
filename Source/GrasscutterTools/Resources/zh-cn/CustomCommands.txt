@@ -4,27 +4,27 @@
 /prop ns on
 无限能量
 /prop ue on
-升到60级
+冒险等阶升60级
 /give 102 x1880200
-设置世界等级
+设置世界等级8
 /prop wl 8
 点亮地图
 /prop unlockmap 1
-一键解锁深渊
+一键解锁深渊12层
 /prop ut 12
-设置纪行等级
+设置纪行等级50
 /prop bp 50
-设置好感等级
+设置好感等级10
 /setfetterlevel 10
-奶
+回血
 /h
 自杀
 /kill 0
 全队充能
 /spawn 2008 25
-我在哪？
+查看坐标
 /pos
-我全都要！
+获取全部物品
 /give all x9999 lv90 c6 r5
 一万纠缠
 /give 223 x10000
@@ -50,13 +50,13 @@
 /clear art lv20 5*
 清空材料
 /clear mat
-清场
+击杀全部怪物
 /killall
-进入多人
+进入多人游戏
 /coop
-速速集合！
+[多人游戏]全体传送
 /tpall
-都有谁在？
+玩家列表
 /list uid
 发送广播
 /say 大家好啊~
