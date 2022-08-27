@@ -4,28 +4,29 @@
 [![GitHub звёзды](https://img.shields.io/github/stars/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/stargazers)
 [![Github ВСЕ выпуски](https://img.shields.io/github/downloads/jie65535/GrasscutterCommandGenerator/total.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
 
-[中文](README.md) | [English](README_en-US.md) | Русский - Перевод Юрий Дворецкий
+[中文](README.md) | [English](README_en-US.md) | Русский - Перевод Юрий Дворецкий (с исправлениями от EgorBron) 
 
 ## Генератор команд
 
-Пожалуйса загрузите последнюю версию с [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
+Пожалуйста, загрузите последнюю версию из вкладки [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
 
-Support 简中, 繁中, English and Русский languages.
+Поддерживает 简中 (китайский упр.), 繁中 (китайский трад.), English (английский) и Русский языки.
 
 ## Удаленная команда
 
-Сервер требует [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) помощь
+Для этого серверу требуется плагин [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin)
 
 ![Open Command](Doc/Screenshots/OpenCommand.gif)
 
-> If you cannot connect to the server, please make sure the server address is correct.
+> Если вы не можете подключиться к серверу, проверьте правильность написания его URL-адреса. 
 >
-> It is recommended to configure the server to HTTP mode, as shown in the figure(config.json):
+> Рекомендуется изменить секцию HTTP в конфиге как на скриншоте ниже (в файле config.json):
+>
 > ![ConfigHttp](Doc/Screenshots/ConfigHttp.png)
-> 
-> You can visit http://127.0.0.1/status/server with a browser to test whether the service is working properly.
 >
-> If you are not using port `80`, specify the port number to access in the url: http://127.0.0.1:443
+> Для проверки можете посетить http://127.0.0.1/status/server в браузере, чтобы проверить работоспособность.
+>
+> Если вы не указали порт `80` в конфиге, вам нужно указать его в URL-адресе: http://127.0.0.1:443
 
 ---
 
