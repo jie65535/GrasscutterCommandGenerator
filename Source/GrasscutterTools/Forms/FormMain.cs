@@ -767,12 +767,18 @@ namespace GrasscutterTools.Forms
 
         #region - 物品 Items -
 
+        /// <summary>
+        /// 初始化游戏物品列表
+        /// </summary>
         private void InitGameItemList()
         {
             ListGameItems.Items.Clear();
             ListGameItems.Items.AddRange(GameData.Items.Lines);
         }
 
+        /// <summary>
+        /// 物品列表过滤器文本改变时触发
+        /// </summary>
         private void TxtGameItemFilter_TextChanged(object sender, EventArgs e)
         {
             var filter = TxtGameItemFilter.Text.Trim();
@@ -782,6 +788,10 @@ namespace GrasscutterTools.Forms
             ListGameItems.EndUpdate();
         }
 
+        /// <summary>
+        /// 生成获取物品命令
+        /// </summary>
+        /// <returns>是否生成成功</returns>
         private bool GenGiveItemCommand()
         {
             var name = ListGameItems.SelectedItem as string;
@@ -807,6 +817,9 @@ namespace GrasscutterTools.Forms
             return false;
         }
 
+        /// <summary>
+        /// 获取物品输入改变时触发
+        /// </summary>
         private void GiveItemsInputChanged(object sender, EventArgs e)
         {
             GenGiveItemCommand();
@@ -814,9 +827,19 @@ namespace GrasscutterTools.Forms
 
         #region -- 物品记录 --
 
+        /// <summary>
+        /// 获取物品记录文件路径
+        /// </summary>
         private readonly string GiveItemCommandsRecordPath = Path.Combine(Application.LocalUserAppDataPath, "GiveItemCommands.txt");
+
+        /// <summary>
+        /// 获取物品记录
+        /// </summary>
         private List<GameCommand> GiveItemCommands;
 
+        /// <summary>
+        /// 初始化获取物品记录
+        /// </summary>
         private void InitGiveItemRecord()
         {
             if (File.Exists(GiveItemCommandsRecordPath))
@@ -830,11 +853,17 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 保存获取物品记录
+        /// </summary>
         private void SaveGiveItemRecord()
         {
             File.WriteAllText(GiveItemCommandsRecordPath, GetCommandsText(GiveItemCommands));
         }
 
+        /// <summary>
+        /// 获取物品记录列表选中项改变时触发
+        /// </summary>
         private void ListGiveItemLogs_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (ListGiveItemLogs.SelectedIndex >= 0)
@@ -848,6 +877,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击保存记录按钮时触发
+        /// </summary>
         private void BtnSaveGiveItemLog_Click(object sender, EventArgs e)
         {
             if (GenGiveItemCommand())
@@ -858,6 +890,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击移除获取物品记录时触发
+        /// </summary>
         private void BtnRemoveGiveItemLog_Click(object sender, EventArgs e)
         {
             if (ListGiveItemLogs.SelectedIndex >= 0)
@@ -867,6 +902,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击清空获取物品记录时触发
+        /// </summary>
         private void LblClearGiveItemLogs_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
@@ -882,29 +920,47 @@ namespace GrasscutterTools.Forms
 
         #region - 角色 Avatars -
 
+        /// <summary>
+        /// 初始化角色列表
+        /// </summary>
         private void InitAvatars()
         {
             CmbAvatar.Items.Clear();
             CmbAvatar.Items.AddRange(GameData.Avatars.Names);
         }
 
+        /// <summary>
+        /// 角色下拉框选中项改变时触发
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void CmbAvatar_SelectedIndexChanged(object sender, EventArgs e)
         {
             // TODO: Load Avatar Image
             AvatarInputChanged();
         }
 
+        /// <summary>
+        /// 角色等级输入框数值改变时触发
+        /// </summary>
         private void NUDAvatarLevel_ValueChanged(object sender, EventArgs e)
         {
             AvatarInputChanged();
         }
 
+        /// <summary>
+        /// 角色页面输入改变时触发
+        /// </summary>
         private void AvatarInputChanged()
         {
             if (CmbAvatar.SelectedIndex >= 0)
                 GenAvatar((int)NUDAvatarLevel.Value);
         }
 
+        /// <summary>
+        /// 获取角色命令
+        /// </summary>
+        /// <param name="level">等级</param>
         private void GenAvatar(int level)
         {
             if (Check(CommandVersion.V1_2_2))
@@ -919,6 +975,11 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击获取所有角色按钮时触发
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnGiveAllChar_Click(object sender, EventArgs e)
         {
             var level = NUDAvatarLevel.Value;
@@ -926,6 +987,9 @@ namespace GrasscutterTools.Forms
             SetCommand("/give avatars", $"lv{level} c{constellation}");
         }
 
+        /// <summary>
+        /// 更新检查获取全部角色按钮是否启用
+        /// </summary>
         private void ChangeBtnGiveAllChar()
         {
             BtnGiveAllChar.Enabled = Check(CommandVersion.V1_2_2);
@@ -935,6 +999,9 @@ namespace GrasscutterTools.Forms
 
         #region - 生成 Spawns -
 
+        /// <summary>
+        /// 初始化实体列表
+        /// </summary>
         private void InitEntityList()
         {
             RbEntityAnimal.Tag = GameData.Animals.Lines;
@@ -943,6 +1010,10 @@ namespace GrasscutterTools.Forms
             RbEntityAnimal.Checked = true;
             LoadEntityList();
         }
+
+        /// <summary>
+        /// 加载实体列表
+        /// </summary>
         private void LoadEntityList()
         {
             var rb = RbEntityAnimal.Checked ? RbEntityAnimal :
@@ -957,6 +1028,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 实体列表过滤器文本改变时触发
+        /// </summary>
         private void TxtEntityFilter_TextChanged(object sender, EventArgs e)
         {
             var filter = TxtEntityFilter.Text.Trim();
@@ -970,6 +1044,10 @@ namespace GrasscutterTools.Forms
             ListEntity.EndUpdate();
         }
 
+        /// <summary>
+        /// 生成召唤实体命令
+        /// </summary>
+        /// <returns>是否生成成功</returns>
         private bool GenSpawnEntityCommand()
         {
             var selectedItem = ListEntity.SelectedItem as string;
@@ -982,11 +1060,17 @@ namespace GrasscutterTools.Forms
             return false;
         }
 
+        /// <summary>
+        /// 生成页面输入改变时触发
+        /// </summary>
         private void SpawnEntityInputChanged(object sender, EventArgs e)
         {
             GenSpawnEntityCommand();
         }
 
+        /// <summary>
+        /// 列表过滤选项切换时触发
+        /// </summary>
         private void RbEntity_CheckedChanged(object sender, EventArgs e)
         {
             LoadEntityList();
@@ -994,9 +1078,19 @@ namespace GrasscutterTools.Forms
 
         #region -- 生成记录 --
 
+        /// <summary>
+        /// 生成命令记录文件路径
+        /// </summary>
         private readonly string SpawnCommandsRecordPath = Path.Combine(Application.LocalUserAppDataPath, "SpawnCommands.txt");
+
+        /// <summary>
+        /// 生成命令记录
+        /// </summary>
         private List<GameCommand> SpawnCommands;
 
+        /// <summary>
+        /// 初始化生成记录
+        /// </summary>
         private void InitSpawnRecord()
         {
             if (File.Exists(SpawnCommandsRecordPath))
@@ -1010,11 +1104,17 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 保存生成记录
+        /// </summary>
         private void SaveSpawnRecord()
         {
             File.WriteAllText(SpawnCommandsRecordPath, GetCommandsText(SpawnCommands));
         }
 
+        /// <summary>
+        /// 生成记录列表选中项改变时触发
+        /// </summary>
         private void ListSpawnLogs_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (ListSpawnLogs.SelectedIndex >= 0)
@@ -1028,6 +1128,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击保存生成记录按钮时触发
+        /// </summary>
         private void BtnSaveSpawnLog_Click(object sender, EventArgs e)
         {
             if (GenSpawnEntityCommand())
@@ -1038,6 +1141,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击移除生成记录按钮时触发
+        /// </summary>
         private void BtnRemoveSpawnLog_Click(object sender, EventArgs e)
         {
             if (ListSpawnLogs.SelectedIndex >= 0)
@@ -1047,6 +1153,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击清空生成记录按钮时触发
+        /// </summary>
         private void LblClearSpawnLogs_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
@@ -1062,6 +1171,9 @@ namespace GrasscutterTools.Forms
 
         #region - 场景 Scenes -
 
+        /// <summary>
+        /// 初始化场景列表
+        /// </summary>
         private void InitScenes()
         {
             ListScenes.Items.Clear();
@@ -1071,6 +1183,9 @@ namespace GrasscutterTools.Forms
             CmbClimateType.Items.AddRange(Resources.ClimateType.Split(','));
         }
 
+        /// <summary>
+        /// 场景列表过滤器输入项改变时触发
+        /// </summary>
         private void TxtSceneFilter_TextChanged(object sender, EventArgs e)
         {
             var filter = TxtSceneFilter.Text.Trim();
@@ -1080,6 +1195,9 @@ namespace GrasscutterTools.Forms
             ListScenes.EndUpdate();
         }
 
+        /// <summary>
+        /// 场景列表选中项改变时触发
+        /// </summary>
         private void ListScenes_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (ListScenes.SelectedIndex < 0)
@@ -1102,7 +1220,14 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 气候类型列表
+        /// </summary>
         static readonly string[] climateTypes = { "none", "sunny", "cloudy", "rain", "thunderstorm", "snow", "mist" };
+
+        /// <summary>
+        /// 气候类型下拉框选中项改变时触发
+        /// </summary>
         private void CmbClimateType_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (CmbClimateType.SelectedIndex < 0)
@@ -1113,6 +1238,9 @@ namespace GrasscutterTools.Forms
                 SetCommand("/weather", $"0 {CmbClimateType.SelectedIndex}");
         }
 
+        /// <summary>
+        /// 点击传送按钮时触发
+        /// </summary>
         private void BtnTeleport_Click(object sender, EventArgs e)
         {
             string args = $"{NUDTpX.Value} {NUDTpY.Value} {NUDTpZ.Value}";
@@ -1125,6 +1253,9 @@ namespace GrasscutterTools.Forms
 
         #region - 数据 Stats -
 
+        /// <summary>
+        /// 初始化数据列表
+        /// </summary>
         private void InitStatList()
         {
             LblStatTip.Text = "";
@@ -1133,6 +1264,9 @@ namespace GrasscutterTools.Forms
             CmbStat.Items.AddRange(SetStatsCommand.Stats.Select(s => s.Name).ToArray());
         }
 
+        /// <summary>
+        /// 数据页面输入改变时触发
+        /// </summary>
         private void SetStatsInputChanged(object sender, EventArgs e)
         {
             if (CmbStat.SelectedIndex < 0)
@@ -1147,18 +1281,27 @@ namespace GrasscutterTools.Forms
             SetCommand("/setstats", $"{stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
         }
 
+        /// <summary>
+        /// 点击锁定按钮时触发
+        /// </summary>
         private void BtnLockStat_Click(object sender, EventArgs e)
         {
             var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
             SetCommand("/setstats", $"lock {stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
         }
 
+        /// <summary>
+        /// 点击解锁按钮时触发
+        /// </summary>
         private void BtnUnlockStat_Click(object sender, EventArgs e)
         {
             var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
             SetCommand("/setstats", $"unlock {stat.ArgName}");
         }
 
+        /// <summary>
+        /// 点击设置技能按钮时触发
+        /// </summary>
         private void LnkSetTalentClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             SetCommand("/talent", $"{(sender as LinkLabel).Tag} {NUDTalentLevel.Value}");
@@ -1168,12 +1311,18 @@ namespace GrasscutterTools.Forms
 
         #region - 管理 Management -
 
+        /// <summary>
+        /// 初始化权限列表
+        /// </summary>
         private void InitPermList()
         {
             CmbPerm.Items.Clear();
             CmbPerm.Items.AddRange(Resources.Permissions.Split('\n').Select(l => l.Trim()).ToArray());
         }
 
+        /// <summary>
+        /// 点击授权按钮时触发
+        /// </summary>
         private void BtnPermClick(object sender, EventArgs e)
         {
             var uid = NUDPermUID.Value;
@@ -1186,6 +1335,9 @@ namespace GrasscutterTools.Forms
             SetCommand($"/permission {(sender as Button).Tag} @{uid} {perm}");
         }
 
+        /// <summary>
+        /// 账号相关按钮点击时触发，Tag包含子命令
+        /// </summary>
         private void AccountButtonClicked(object sender, EventArgs e)
         {
             var username = TxtAccountUserName.Text.Trim();
@@ -1197,6 +1349,9 @@ namespace GrasscutterTools.Forms
             SetCommand($"/account {(sender as Button).Tag} {username} {(ChkAccountSetUid.Checked ? NUDAccountUid.Value.ToString() : "")}");
         }
 
+        /// <summary>
+        /// 点击封禁按钮时触发
+        /// </summary>
         private void BtnBan_Click(object sender, EventArgs e)
         {
             var uid = NUDBanUID.Value;
@@ -1208,6 +1363,9 @@ namespace GrasscutterTools.Forms
             SetCommand(command);
         }
 
+        /// <summary>
+        /// 点击解封按钮时触发
+        /// </summary>
         private void BtnUnban_Click(object sender, EventArgs e)
         {
             SetCommand($"/unban @{NUDBanUID.Value}");
@@ -1217,6 +1375,9 @@ namespace GrasscutterTools.Forms
 
         #region - 关于 About -
 
+        /// <summary>
+        /// 点击Github链接时触发
+        /// </summary>
         private void LnkGithub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             OpenURL("https://github.com/jie65535/GrasscutterCommandGenerator");
@@ -1226,6 +1387,10 @@ namespace GrasscutterTools.Forms
 
         #region - 命令 Command -
 
+        /// <summary>
+        /// 设置命令
+        /// </summary>
+        /// <param name="command">命令</param>
         private void SetCommand(string command)
         {
             TxtCommand.Text = command;
@@ -1235,6 +1400,11 @@ namespace GrasscutterTools.Forms
                 OnOpenCommandInvoke();
         }
 
+        /// <summary>
+        /// 设置带参数的命令
+        /// </summary>
+        /// <param name="command">命令</param>
+        /// <param name="args">参数</param>
         private void SetCommand(string command, string args)
         {
             if (ChkIncludeUID.Checked)
@@ -1243,23 +1413,35 @@ namespace GrasscutterTools.Forms
                 SetCommand($"{command} {args.Trim()}");
         }
 
+        /// <summary>
+        /// 点击复制按钮时触发
+        /// </summary>
         private async void BtnCopy_Click(object sender, EventArgs e)
         {
             CopyCommand();
             await ButtonComplete(BtnCopy);
         }
 
+        /// <summary>
+        /// 复制命令
+        /// </summary>
         private void CopyCommand()
         {
             if (!string.IsNullOrEmpty(TxtCommand.Text))
                 Clipboard.SetText(TxtCommand.Text);
         }
 
+        /// <summary>
+        /// 开放命令执行时触发
+        /// </summary>
         private void OnOpenCommandInvoke()
         {
             BtnInvokeOpenCommand_Click(BtnInvokeOpenCommand, EventArgs.Empty);
         }
 
+        /// <summary>
+        /// 点击执行开放命令按钮时触发
+        /// </summary>
         private async void BtnInvokeOpenCommand_Click(object sender, EventArgs e)
         {
             if (!BtnInvokeOpenCommand.Enabled) return;
@@ -1271,6 +1453,11 @@ namespace GrasscutterTools.Forms
             await RunCommands(TxtCommand.Text);
         }
 
+        /// <summary>
+        /// 运行命令
+        /// </summary>
+        /// <param name="commands">命令列表</param>
+        /// <returns>是否执行成功</returns>
         private async Task<bool> RunCommands(params string[] commands)
         {
             if (OC == null || !OC.CanInvoke)
@@ -1319,8 +1506,19 @@ namespace GrasscutterTools.Forms
             return true;
         }
 
+        /// <summary>
+        /// 命令日志最小高度
+        /// </summary>
         private const int TxtCommandRunLogMinHeight = 150;
+
+        /// <summary>
+        /// 命令日志文本框
+        /// </summary>
         private TextBox TxtCommandRunLog;
+
+        /// <summary>
+        /// 展开命令记录（可重入）
+        /// </summary>
         private void ExpandCommandRunLog()
         {
             if (GrpCommand.Height < TxtCommandRunLogMinHeight)
@@ -1356,6 +1554,11 @@ namespace GrasscutterTools.Forms
 
         #region - 通用 General -
 
+        /// <summary>
+        /// 播放按钮完成动画
+        /// </summary>
+        /// <param name="btn"></param>
+        /// <returns></returns>
         private async Task ButtonComplete(Button btn)
         {
             var t = btn.Text;
@@ -1366,26 +1569,50 @@ namespace GrasscutterTools.Forms
             btn.Enabled = true;
         }
 
+        /// <summary>
+        /// 窗口按键按下时触发
+        /// </summary>
         private void FormMain_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.F5)
             {
+                // F5 为执行命令
                 OnOpenCommandInvoke();
             }
         }
 
+        /// <summary>
+        /// 提示气泡对象
+        /// </summary>
         private readonly ToolTip TTip = new ToolTip();
+
+        /// <summary>
+        /// 在指定控件上显示提示气泡
+        /// </summary>
+        /// <param name="message">消息</param>
+        /// <param name="control">控件</param>
         private void ShowTip(string message, Control control)
         {
             TTip.Show(message, control, 0, control.Size.Height, 3000);
         }
 
+        /// <summary>
+        /// 检查命令版本
+        /// </summary>
+        /// <param name="version">最低要求版本</param>
+        /// <returns>当前版本是否满足</returns>
         private bool Check(Version version) => CommandVersion.Current >= version;
 
         #endregion - 通用 General -
 
         #region - 命令记录 Command Logs -
 
+        /// <summary>
+        /// 获取命令记录
+        /// （反序列化）
+        /// </summary>
+        /// <param name="commandsText">命令记录文本（示例："标签1\n命令1\n标签2\n命令2..."）</param>
+        /// <returns>命令列表</returns>
         private List<GameCommand> GetCommands(string commandsText)
         {
             var lines = commandsText.Split('\n');
@@ -1395,6 +1622,12 @@ namespace GrasscutterTools.Forms
             return commands;
         }
 
+        /// <summary>
+        /// 获取命令记录文本
+        /// （序列化）
+        /// </summary>
+        /// <param name="commands">命令列表</param>
+        /// <returns>命令记录文本（示例："标签1\n命令1\n标签2\n命令2..."）</returns>
         private string GetCommandsText(List<GameCommand> commands)
         {
             StringBuilder builder = new StringBuilder();
@@ -1410,8 +1643,14 @@ namespace GrasscutterTools.Forms
 
         #region - 远程 Remote -
 
+        /// <summary>
+        /// 开放命令接口
+        /// </summary>
         private OpenCommandAPI OC;
 
+        /// <summary>
+        /// 初始化开放命令
+        /// </summary>
         private void InitOpenCommand()
         {
             NUDRemotePlayerId.Value = Settings.Default.RemoteUid;
@@ -1460,6 +1699,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 保存开放命令参数
+        /// </summary>
         private void SaveOpenCommand()
         {
             Settings.Default.RemoteUid = NUDRemotePlayerId.Value;
@@ -1467,6 +1709,10 @@ namespace GrasscutterTools.Forms
             Settings.Default.TokenCache = OC?.Token;
         }
 
+        /// <summary>
+        /// 更新服务器状态
+        /// </summary>
+        /// <param name="host">主机地址</param>
         private async Task UpdateServerStatus(string host)
         {
             var status = await DispatchServerAPI.QueryServerStatus(host);
@@ -1476,7 +1722,10 @@ namespace GrasscutterTools.Forms
             else
                 LblPlayerCount.Text = status.PlayerCount.ToString();
         }
-
+        
+        /// <summary>
+        /// 点击查询服务器状态按钮时触发
+        /// </summary>
         private async void BtnQueryServerStatus_Click(object sender, EventArgs e)
         {
             var btn = sender as Button;
@@ -1519,6 +1768,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击发送校验码按钮时触发
+        /// </summary>
         private async void BtnSendVerificationCode_Click(object sender, EventArgs e)
         {
             var btn = sender as Button;
@@ -1550,6 +1802,11 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击连接到开放命令按钮时触发
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private async void BtnConnectOpenCommand_Click(object sender, EventArgs e)
         {
             var btn = sender as Button;
@@ -1573,6 +1830,9 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击控制台连接按钮时触发
+        /// </summary>
         private void BtnConsoleConnect_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(TxtToken.Text))
@@ -1584,26 +1844,41 @@ namespace GrasscutterTools.Forms
             BtnConnectOpenCommand_Click(sender, e);
         }
 
+        /// <summary>
+        /// 点击开放命令标签时触发
+        /// </summary>
         private void LnkOpenCommandLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             OpenURL("https://github.com/jie65535/gc-opencommand-plugin");
         }
 
+        /// <summary>
+        /// 点击帮助连接标签时触发
+        /// </summary>
         private void LnkRCHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             MessageBox.Show(Resources.OpenCommandHelp, Resources.Help, MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        /// <summary>
+        /// 点击库存扫描链接标签时触发
+        /// </summary>
         private void LnkInventoryKamera_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             OpenURL("https://github.com/Andrewthe13th/Inventory_Kamera");
         }
 
+        /// <summary>
+        /// 点击GOOD帮助链接标签时触发
+        /// </summary>
         private void LnkGOODHelp_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             OpenURL("https://frzyc.github.io/genshin-optimizer/#/doc");
         }
 
+        /// <summary>
+        /// 点击链接帮助标签时触发
+        /// </summary>
         private void LnkLinks_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             var links = new List<string>
@@ -1620,6 +1895,10 @@ namespace GrasscutterTools.Forms
             MessageBox.Show(string.Join("\n", links), "Links", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        /// <summary>
+        /// 使用浏览器打开网址
+        /// </summary>
+        /// <param name="url">网址</param>
         private void OpenURL(string url)
         {
             try
@@ -1637,6 +1916,9 @@ namespace GrasscutterTools.Forms
 
         #region - GOOD -
 
+        /// <summary>
+        /// 点击GOOD导入存档按钮时触发
+        /// </summary>
         async private void ButtonOpenGOODImport_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog1 = new OpenFileDialog
@@ -1761,11 +2043,17 @@ namespace GrasscutterTools.Forms
 
         #region - 任务 Quests -
 
+        /// <summary>
+        /// 初始化任务列表
+        /// </summary>
         private void InitQuestList()
         {
             QuestFilterChanged(null, EventArgs.Empty);
         }
 
+        /// <summary>
+        /// 任务列表过滤器文本改变时触发
+        /// </summary>
         private void QuestFilterChanged(object sender, EventArgs e)
         {
             ListQuest.BeginUpdate();
@@ -1785,6 +2073,9 @@ namespace GrasscutterTools.Forms
             ListQuest.EndUpdate();
         }
 
+        /// <summary>
+        /// 任务相关按钮点击时触发（Tag带子命令）
+        /// </summary>
         private void QuestButsClicked(object sender, EventArgs e)
         {
             if (ListQuest.SelectedIndex == -1)
