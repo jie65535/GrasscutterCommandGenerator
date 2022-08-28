@@ -220,9 +220,6 @@
   <data name="BtnSendVerificationCode.Text" xml:space="preserve">
     <value>Отправить код</value>
   </data>
-  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 111</value>
-  </data>
   <data name="TPConsoleCheck.Text" xml:space="preserve">
     <value>консоль</value>
   </data>
@@ -267,13 +264,20 @@
     <value>Справка</value>
   </data>
   <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>355, 68</value>
+    <value>355, 170</value>
   </data>
   <data name="LblSupportDescription.Text" xml:space="preserve">
     <value>Grasscutter Tools - основной перевод Юрий Дворецкий
-	
+
+Это бесплатный проект с открытым исходным кодом.
+Если вы считаете, что это полезно для вас,
+ вы можете дать мне бесплатную звезду.
+Если возникла проблема с генерацией команды или
+ есть запрос на новую функцию,
+ вы можете написать о проблеме на Github.
+
 	Спасибо:Dhar_Jinxed
-	</value>
+</value>
   </data>
   <data name="TPManage.Text" xml:space="preserve">
     <value>Управлять</value>
@@ -997,10 +1001,6 @@
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Включить UID</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>GrasscutterTools - перевод Юрий Дворецкий</value>
