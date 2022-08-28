@@ -350,6 +350,9 @@
   <data name="GrpPermission.Text" xml:space="preserve">
     <value>Управление правами</value>
   </data>
+  <data name="LblPermNewCommandTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 54</value>
+  </data>
   <data name="CmbPerm.Location" type="System.Drawing.Point, System.Drawing">
     <value>240, 21</value>
   </data>
@@ -359,6 +362,15 @@
   <data name="NUDPermUID.Location" type="System.Drawing.Point, System.Drawing">
     <value>42, 23</value>
   </data>
+  <data name="BtnPermClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>463, 51</value>
+  </data>
+  <data name="BtnPermClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="BtnPermClear.Text" xml:space="preserve">
+    <value>очистить</value>
+  </data>
   <data name="BtmPermRemove.Location" type="System.Drawing.Point, System.Drawing">
     <value>463, 22</value>
   </data>
@@ -367,6 +379,15 @@
   </data>
   <data name="BtmPermRemove.Text" xml:space="preserve">
     <value>Удалить</value>
+  </data>
+  <data name="BtnPermList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 51</value>
+  </data>
+  <data name="BtnPermList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="BtnPermList.Text" xml:space="preserve">
+    <value>Список</value>
   </data>
   <data name="BtnPermAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>387, 22</value>
@@ -979,7 +1000,7 @@
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>GrasscutterTools - перевод Юрий Дворецкий</value>

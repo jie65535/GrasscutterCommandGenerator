@@ -217,9 +217,6 @@
   <data name="BtnSendVerificationCode.Text" xml:space="preserve">
     <value>Send Code</value>
   </data>
-  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 111</value>
-  </data>
   <data name="TPConsoleCheck.Text" xml:space="preserve">
     <value>Console</value>
   </data>
@@ -254,10 +251,15 @@
     <value>About</value>
   </data>
   <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>110, 17</value>
+    <value>428, 102</value>
   </data>
   <data name="LblSupportDescription.Text" xml:space="preserve">
-    <value>Grasscutter Tools</value>
+    <value>Grasscutter Tools
+
+This is a free and open source project.
+If you think this is helpful to you, you can order a free Star for me.
+If there is a problem with the instruction generation,
+or there is a new feature request, you can come to Github and submit it.</value>
   </data>
   <data name="TPManage.Text" xml:space="preserve">
     <value>Manage</value>
@@ -328,8 +330,14 @@
   <data name="CmbPerm.Size" type="System.Drawing.Size, System.Drawing">
     <value>138, 25</value>
   </data>
+  <data name="BtnPermClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
   <data name="BtmPermRemove.Text" xml:space="preserve">
     <value>Delete</value>
+  </data>
+  <data name="BtnPermList.Text" xml:space="preserve">
+    <value>List</value>
   </data>
   <data name="BtnPermAdd.Text" xml:space="preserve">
     <value>Add</value>
@@ -855,9 +863,5 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Include UID</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
   </data>
 </root>

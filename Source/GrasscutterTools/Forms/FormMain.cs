@@ -73,7 +73,6 @@ namespace GrasscutterTools.Forms
             InitQuestList();
 
             ChangeTPArtifact();
-            ChangeBtnGiveAllChar();
         }
 
         private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
@@ -290,7 +289,6 @@ namespace GrasscutterTools.Forms
         {
             Settings.Default.CommandVersion = CommandVersion.Current.ToString(3);
             ChangeTPArtifact();
-            ChangeBtnGiveAllChar();
         }
 
         #endregion - 主页 Home -
@@ -987,14 +985,6 @@ namespace GrasscutterTools.Forms
             SetCommand("/give avatars", $"lv{level} c{constellation}");
         }
 
-        /// <summary>
-        /// 更新检查获取全部角色按钮是否启用
-        /// </summary>
-        private void ChangeBtnGiveAllChar()
-        {
-            BtnGiveAllChar.Enabled = Check(CommandVersion.V1_2_2);
-        }
-
         #endregion - 角色 Avatars -
 
         #region - 生成 Spawns -
@@ -1327,12 +1317,20 @@ namespace GrasscutterTools.Forms
         {
             var uid = NUDPermUID.Value;
             var perm = CmbPerm.Text.Trim();
-            if (string.IsNullOrEmpty(perm))
+            var act = (sender as Button).Tag.ToString();
+            if (act == "list" || act == "clear")
             {
-                MessageBox.Show(Resources.PermissionCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                SetCommand($"/permission {act} @{uid}");
             }
-            SetCommand($"/permission {(sender as Button).Tag} @{uid} {perm}");
+            else
+            {
+                if (string.IsNullOrEmpty(perm))
+                {
+                    MessageBox.Show(Resources.PermissionCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+                SetCommand($"/permission {act} @{uid} {perm}");
+            }
         }
 
         /// <summary>
