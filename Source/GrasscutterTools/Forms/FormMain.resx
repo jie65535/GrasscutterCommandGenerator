@@ -138,14 +138,14 @@
   <data name="LblArtifactName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="ChkNewCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="LblHost.Location" type="System.Drawing.Point, System.Drawing">
     <value>45, 39</value>
   </data>
-  <data name="LblTpX.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+  <data name="BtnSendVerificationCode.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;LnkResetCustomCommands.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="NUDArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
     <value>366, 39</value>
@@ -153,14 +153,17 @@
   <data name="ListScenes.ItemHeight" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="&gt;&gt;BtnAddSubAttr.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
+  <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>68, 69</value>
+  </data>
+  <data name="CmbSubAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="&gt;&gt;BtnSaveSpawnLog.Parent" xml:space="preserve">
     <value>TPSpawn</value>
   </data>
-  <data name="LblArtifactLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;GrpTalentLevel.Name" xml:space="preserve">
+    <value>GrpTalentLevel</value>
   </data>
   <data name="&gt;&gt;ListScenes.Type" xml:space="preserve">
     <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -183,11 +186,8 @@
   <data name="&gt;&gt;NUDStat.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LblStatTip.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="LblDefaultUid.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="ButtonOpenGOODImport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="ChkIncludeUID.Size" type="System.Drawing.Size, System.Drawing">
     <value>133, 21</value>
@@ -195,17 +195,20 @@
   <data name="LblPlayerCountLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>25, 45</value>
   </data>
+  <data name="LblHostTip.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="&gt;&gt;NUDAvatarLevel.Name" xml:space="preserve">
     <value>NUDAvatarLevel</value>
+  </data>
+  <data name="&gt;&gt;LblWeaponAmount.Parent" xml:space="preserve">
+    <value>TPWeapon</value>
   </data>
   <data name="BtnSaveGiveItemLog.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="&gt;&gt;NUDRemotePlayerId.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BtnFinishQuest.Text" xml:space="preserve">
-    <value>完成任务</value>
   </data>
   <data name="LblConstellationTip.Text" xml:space="preserve">
     <value>※仅给予所有角色时生效</value>
@@ -231,9 +234,6 @@
   <data name="LnkInventoryKamera.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="&gt;&gt;BtnUnlockStat.Parent" xml:space="preserve">
-    <value>GrpSetStats</value>
-  </data>
   <data name="NUDPermUID.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 22</value>
   </data>
@@ -258,8 +258,11 @@
   <data name="&gt;&gt;CmbStat.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="BtnUnban.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="BtnBan.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BtnPermList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 51</value>
   </data>
   <data name="LnkResetCustomCommands.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -267,17 +270,17 @@
   <data name="&gt;&gt;NUDRemotePlayerId.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;TPCustom.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="NUDTalentLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 22</value>
+  <data name="&gt;&gt;ChkIncludeSceneId.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="LblStatsDescription.Text" xml:space="preserve">
     <value>设置当前活跃角色数据</value>
   </data>
   <data name="&gt;&gt;NUDBanUID.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblWeaponDescription.Name" xml:space="preserve">
+    <value>LblWeaponDescription</value>
   </data>
   <data name="&gt;&gt;TPAvatar.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -287,9 +290,6 @@
   </data>
   <data name="BtnLoadCustomCommands.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
-  </data>
-  <data name="LblTpY.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="BtnInvokeOpenCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -305,6 +305,9 @@
   </data>
   <data name="LnkGOODHelp.Text" xml:space="preserve">
     <value>GOOD</value>
+  </data>
+  <data name="&gt;&gt;LblGCVersion.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="LblEntityLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -327,8 +330,8 @@
   <data name="GrpTalentLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>135, 156</value>
   </data>
-  <data name="LblPlayerCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 45</value>
+  <data name="LblSpawnDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
   </data>
   <data name="BtnAddSubAttr.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -338,9 +341,6 @@
   </data>
   <data name="&gt;&gt;ListGameItems.ZOrder" xml:space="preserve">
     <value>6</value>
-  </data>
-  <data name="LblStatTip.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
   </data>
   <data name="LblArtifactStars.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -369,8 +369,8 @@
   <data name="&gt;&gt;LblStatPercent.Name" xml:space="preserve">
     <value>LblStatPercent</value>
   </data>
-  <data name="&gt;&gt;BtnUnban.Parent" xml:space="preserve">
-    <value>GrpBanPlayer</value>
+  <data name="CmbSubAttributionValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>311, 98</value>
   </data>
   <data name="&gt;&gt;NUDStat.Name" xml:space="preserve">
     <value>NUDStat</value>
@@ -393,8 +393,8 @@
   <data name="&gt;&gt;LblArtifactLevel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;GrpPermission.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;LblPerm.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
   </data>
   <data name="BtnSaveGiveItemLog.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -405,11 +405,14 @@
   <data name="&gt;&gt;BtnRemoveSpawnLog.Parent" xml:space="preserve">
     <value>TPSpawn</value>
   </data>
+  <data name="&gt;&gt;LblAbout.Name" xml:space="preserve">
+    <value>LblAbout</value>
+  </data>
   <data name="&gt;&gt;ChkQuestFilterUNRELEASED.Parent" xml:space="preserve">
     <value>GrpQuestFilters</value>
   </data>
-  <data name="&gt;&gt;BtnUnban.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;BtnBan.Name" xml:space="preserve">
+    <value>BtnBan</value>
   </data>
   <data name="&gt;&gt;BtnUnlockStat.Name" xml:space="preserve">
     <value>BtnUnlockStat</value>
@@ -438,6 +441,9 @@
   <data name="&gt;&gt;NUDUid.Name" xml:space="preserve">
     <value>NUDUid</value>
   </data>
+  <data name="&gt;&gt;NUDEntityAmout.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="&gt;&gt;BtmPermRemove.Parent" xml:space="preserve">
     <value>GrpPermission</value>
   </data>
@@ -449,6 +455,9 @@
   </data>
   <data name="TxtSceneFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
+  </data>
+  <data name="LblPermNewCommandTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 54</value>
   </data>
   <data name="&gt;&gt;NUDTalentLevel.ZOrder" xml:space="preserve">
     <value>3</value>
@@ -473,6 +482,9 @@
   </data>
   <data name="&gt;&gt;TxtBanReason.Name" xml:space="preserve">
     <value>TxtBanReason</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCustomCommand.Name" xml:space="preserve">
+    <value>BtnSaveCustomCommand</value>
   </data>
   <data name="&gt;&gt;LblTpZ.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -513,8 +525,8 @@
   <data name="&gt;&gt;ButtonOpenGOODImport.Name" xml:space="preserve">
     <value>ButtonOpenGOODImport</value>
   </data>
-  <data name="&gt;&gt;ImgAvatar.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="LblClearSubAttrCheckedList.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="&gt;&gt;NUDGameItemAmout.Name" xml:space="preserve">
     <value>NUDGameItemAmout</value>
@@ -555,6 +567,9 @@
   <data name="&gt;&gt;BtmPermRemove.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;CmbArtifactPart.Name" xml:space="preserve">
+    <value>CmbArtifactPart</value>
+  </data>
   <data name="LblTpZ.Location" type="System.Drawing.Point, System.Drawing">
     <value>218, 161</value>
   </data>
@@ -572,9 +587,6 @@
 如果愿意请我喝一杯奶茶，那就更好了 : )
 指令生成有问题，或者有新的功能请求，都可以来Github提出</value>
   </data>
-  <data name="&gt;&gt;LblClearSubAttrCheckedList.Name" xml:space="preserve">
-    <value>LblClearSubAttrCheckedList</value>
-  </data>
   <data name="&gt;&gt;LblServerVersionLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -584,11 +596,11 @@
   <data name="&gt;&gt;GrasscutterToolsSupport.Name" xml:space="preserve">
     <value>GrasscutterToolsSupport</value>
   </data>
-  <data name="LblClearSpawnLogs.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="TPPlayerCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
   </data>
-  <data name="BtnUnlockStat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="BtnPermClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
   </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value>一键获得所有角色</value>
@@ -601,6 +613,9 @@
   </data>
   <data name="&gt;&gt;GrpServerStatus.Name" xml:space="preserve">
     <value>GrpServerStatus</value>
+  </data>
+  <data name="BtnConnectOpenCommand.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="LblArtifactLevel.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -632,6 +647,9 @@
   <data name="TPHome.Size" type="System.Drawing.Size, System.Drawing">
     <value>602, 245</value>
   </data>
+  <data name="LblClearSpawnLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 216</value>
+  </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>590, 204</value>
   </data>
@@ -643,6 +661,9 @@
   </data>
   <data name="GrpSettings.Text" xml:space="preserve">
     <value>设置</value>
+  </data>
+  <data name="BtnPermList.Text" xml:space="preserve">
+    <value>列出</value>
   </data>
   <data name="TPOpenCommandCheck.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 19</value>
@@ -660,9 +681,6 @@
   </data>
   <data name="TPManage.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
-  </data>
-  <data name="LnkTalentNormalATK.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="&gt;&gt;TxtHost.Name" xml:space="preserve">
     <value>TxtHost</value>
@@ -694,9 +712,6 @@
   <data name="&gt;&gt;LblClearSpawnLogs.Name" xml:space="preserve">
     <value>LblClearSpawnLogs</value>
   </data>
-  <data name="ChkDrop.Text" xml:space="preserve">
-    <value>掉落</value>
-  </data>
   <data name="&gt;&gt;CmbClimateType.Name" xml:space="preserve">
     <value>CmbClimateType</value>
   </data>
@@ -706,11 +721,8 @@
   <data name="&gt;&gt;GrasscutterToolsSupport.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="ChkTopMost.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="GrpCommand.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>610, 56</value>
+  <data name="LblGCVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="LnkTalentE.Location" type="System.Drawing.Point, System.Drawing">
     <value>260, 24</value>
@@ -727,8 +739,8 @@
   <data name="LblTpX.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 161</value>
   </data>
-  <data name="&gt;&gt;LnkGOODHelp.Parent" xml:space="preserve">
-    <value>TPRemoteCall</value>
+  <data name="GrpSetStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 54</value>
   </data>
   <data name="LblDefaultUid.Location" type="System.Drawing.Point, System.Drawing">
     <value>7, 24</value>
@@ -766,9 +778,6 @@
   <data name="TxtEntityFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 23</value>
   </data>
-  <data name="LblAccountUserName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="&gt;&gt;TCMain.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -778,11 +787,11 @@
   <data name="BtnGiveAllChar.Location" type="System.Drawing.Point, System.Drawing">
     <value>395, 192</value>
   </data>
-  <data name="LblTpY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="LblClearGiveItemLogs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;LblPermNewCommandTip.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
   </data>
   <data name="LblArtifactPart.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -790,7 +799,7 @@
   <data name="&gt;&gt;LnkRCHelp.Parent" xml:space="preserve">
     <value>TPPlayerCheck</value>
   </data>
-  <data name="LblStatsDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="LnkInventoryKamera.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="TPConsoleCheck.TabIndex" type="System.Int32, mscorlib">
@@ -850,8 +859,8 @@
   <data name="&gt;&gt;NUDWeaponRefinement.Name" xml:space="preserve">
     <value>NUDWeaponRefinement</value>
   </data>
-  <data name="&gt;&gt;TxtBanReason.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="BtnTeleport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;LblStatPercent.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -864,6 +873,9 @@
   </data>
   <data name="&gt;&gt;GrpSettings.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPermList.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="&gt;&gt;LnkRCHelp.Name" xml:space="preserve">
     <value>LnkRCHelp</value>
@@ -931,9 +943,6 @@
   <data name="ChkQuestFilterUNRELEASED.Text" xml:space="preserve">
     <value>未发布的任务</value>
   </data>
-  <data name="&gt;&gt;LblWeaponDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="LblWeaponRefinement.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
@@ -942,9 +951,6 @@
   </data>
   <data name="LnkTalentE.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="GrpPermission.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 72</value>
   </data>
   <data name="LblOpenCommandSupport.Location" type="System.Drawing.Point, System.Drawing">
     <value>99, 62</value>
@@ -958,14 +964,11 @@
   <data name="&gt;&gt;BtnExportCustomCommands.Parent" xml:space="preserve">
     <value>TPCustom</value>
   </data>
-  <data name="ChkIncludeSceneId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 21</value>
+  <data name="GrpEntityType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
   <data name="GrpSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;LblToken.Parent" xml:space="preserve">
-    <value>TPConsoleCheck</value>
   </data>
   <data name="&gt;&gt;GrasscutterToolsIcon.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -978,6 +981,9 @@
   </data>
   <data name="&gt;&gt;GrpTalentLevel.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="LblSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 102</value>
   </data>
   <data name="&gt;&gt;LnkInventoryKamera.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -1000,6 +1006,9 @@
   <data name="ListGiveItemLogs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="LblArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>328, 41</value>
+  </data>
   <data name="TPSpawn.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
@@ -1021,6 +1030,9 @@
   <data name="&gt;&gt;LblArtifactName.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="ListQuest.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
   <data name="&gt;&gt;LblAbout.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1030,17 +1042,23 @@
   <data name="ChkAutoCopy.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 21</value>
   </data>
-  <data name="CmbClimateType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
   <data name="ChkQuestFilterUNRELEASED.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;TxtWeaponFilter.Parent" xml:space="preserve">
     <value>TPWeapon</value>
   </data>
+  <data name="LblSubAttribution.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
   <data name="ListQuest.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
+  </data>
+  <data name="LblBanUID.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NUDTpY.Parent" xml:space="preserve">
+    <value>TPScene</value>
   </data>
   <data name="BtnSaveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 45</value>
@@ -1059,6 +1077,9 @@
   </data>
   <data name="&gt;&gt;LblWeaponRefinement.Name" xml:space="preserve">
     <value>LblWeaponRefinement</value>
+  </data>
+  <data name="&gt;&gt;ChkIncludeUID.Name" xml:space="preserve">
+    <value>ChkIncludeUID</value>
   </data>
   <data name="&gt;&gt;NUDRemotePlayerId.Name" xml:space="preserve">
     <value>NUDRemotePlayerId</value>
@@ -1093,9 +1114,6 @@
   <data name="&gt;&gt;TxtToken.Name" xml:space="preserve">
     <value>TxtToken</value>
   </data>
-  <data name="&gt;&gt;LblPermUID.Name" xml:space="preserve">
-    <value>LblPermUID</value>
-  </data>
   <data name="&gt;&gt;LblAvatarConstellation.Parent" xml:space="preserve">
     <value>TPAvatar</value>
   </data>
@@ -1105,20 +1123,17 @@
   <data name="&gt;&gt;LblGameItemAmount.Name" xml:space="preserve">
     <value>LblGameItemAmount</value>
   </data>
-  <data name="BtnSaveCustomCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
   <data name="&gt;&gt;LblRemotePlayerId.Parent" xml:space="preserve">
     <value>TPPlayerCheck</value>
   </data>
-  <data name="BtnBan.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="LblGCVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;LblWeaponDescription.Parent" xml:space="preserve">
     <value>TPWeapon</value>
   </data>
-  <data name="&gt;&gt;LblArtifactLevelTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LblEntityLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
   <data name="&gt;&gt;ListGameItems.Name" xml:space="preserve">
     <value>ListGameItems</value>
@@ -1159,14 +1174,26 @@
   <data name="BtnConnectOpenCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>92, 82</value>
   </data>
+  <data name="ListSpawnLogs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <data name="LblTpY.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
+  </data>
+  <data name="LblDefaultUid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 17</value>
   </data>
   <data name="&gt;&gt;ListGiveItemLogs.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;ListEntity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="LblArtifactLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactStars.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
   </data>
   <data name="LblSpawnDescription.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1209,6 +1236,9 @@
   <data name="LblCustomName.Text" xml:space="preserve">
     <value>标签</value>
   </data>
+  <data name="&gt;&gt;BtnPermList.Name" xml:space="preserve">
+    <value>BtnPermList</value>
+  </data>
   <data name="CmbArtifactPart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
@@ -1218,17 +1248,20 @@
   <data name="&gt;&gt;ListEntity.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
+  <data name="GrpCommand.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>610, 56</value>
+  </data>
   <data name="&gt;&gt;LblSceneDescription.ZOrder" xml:space="preserve">
     <value>12</value>
-  </data>
-  <data name="NUDStat.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="LblCustomName.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 219</value>
   </data>
   <data name="&gt;&gt;BtnOpenGachaBannerEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CmbLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
   </data>
   <data name="BtnTeleport.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 188</value>
@@ -1245,6 +1278,9 @@
   <data name="&gt;&gt;CmbMainAttribution.Name" xml:space="preserve">
     <value>CmbMainAttribution</value>
   </data>
+  <data name="LblAccountUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;LblSupportDescription.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
@@ -1253,9 +1289,6 @@
   </data>
   <data name="&gt;&gt;LblConsoleTip.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="GrpEntityType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
   </data>
   <data name="&gt;&gt;TPRemoteCall.ZOrder" xml:space="preserve">
     <value>12</value>
@@ -1285,14 +1318,14 @@
   <data name="&gt;&gt;LblArtifactPart.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;ListQuest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="LblGameItemAmount.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>
   </data>
   <data name="GrpEntityType.Size" type="System.Drawing.Size, System.Drawing">
     <value>87, 116</value>
-  </data>
-  <data name="RbEntityAnimal.Text" xml:space="preserve">
-    <value>生物志</value>
   </data>
   <data name="TCMain.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -1321,6 +1354,9 @@
   <data name="BtnSaveCustomCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="FLPCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
   <data name="&gt;&gt;LblAccountUserName.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -1336,8 +1372,14 @@
   <data name="&gt;&gt;TxtGameItemFilter.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="LblArtifactLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="TPRemoteCall.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
+  </data>
+  <data name="TPAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
   </data>
   <data name="&gt;&gt;CmbArtifactSet.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -1359,12 +1401,6 @@
   </data>
   <data name="LblAccountUserName.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 17</value>
-  </data>
-  <data name="LblGameItemLevel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblEntityAmount.Text" xml:space="preserve">
-    <value>数量</value>
   </data>
   <data name="&gt;&gt;ListSpawnLogs.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -1399,6 +1435,9 @@
   <data name="NUDTpY.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
   </data>
+  <data name="&gt;&gt;CmbGcVersions.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="TPPlayerCheck.Text" xml:space="preserve">
     <value>玩家验证</value>
   </data>
@@ -1414,20 +1453,14 @@
   <data name="&gt;&gt;LblClearSubAttrCheckedList.Parent" xml:space="preserve">
     <value>TPArtifact</value>
   </data>
-  <data name="TxtToken.Size" type="System.Drawing.Size, System.Drawing">
-    <value>182, 23</value>
-  </data>
-  <data name="GrpRemoteCommand.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="BtnUnban.Text" xml:space="preserve">
     <value>解封</value>
   </data>
   <data name="CmbStat.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="BtnQueryServerStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="GrasscutterToolsIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 6</value>
   </data>
   <data name="CmbSubAttribution.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 25</value>
@@ -1456,8 +1489,8 @@
   <data name="&gt;&gt;ListSubAttributionChecked.Name" xml:space="preserve">
     <value>ListSubAttributionChecked</value>
   </data>
-  <data name="LblOpenCommandSupport.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="CmbSubAttribution.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="ListWeapons.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Right</value>
@@ -1473,6 +1506,9 @@
   </data>
   <data name="&gt;&gt;ChkQuestFilterHIDDEN.Parent" xml:space="preserve">
     <value>GrpQuestFilters</value>
+  </data>
+  <data name="LblSceneDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 51</value>
   </data>
   <data name="&gt;&gt;ImgAvatar.Parent" xml:space="preserve">
     <value>TPAvatar</value>
@@ -1513,9 +1549,6 @@
   <data name="LnkLinks.Text" xml:space="preserve">
     <value>Links</value>
   </data>
-  <data name="&gt;&gt;ChkAccountSetUid.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;LblTpY.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
@@ -1549,6 +1582,9 @@
   <data name="LnkTalentNormalATK.Text" xml:space="preserve">
     <value>普通攻击</value>
   </data>
+  <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
+    <value>GrpBanPlayer</value>
+  </data>
   <data name="LblPermUID.Size" type="System.Drawing.Size, System.Drawing">
     <value>54, 17</value>
   </data>
@@ -1572,6 +1608,9 @@
   </data>
   <data name="&gt;&gt;LblGameItemLevel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TPQuest.Text" xml:space="preserve">
+    <value>任务</value>
   </data>
   <data name="LblVerificationCode.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1642,9 +1681,6 @@
   <data name="TPOpenCommandCheck.Size" type="System.Drawing.Size, System.Drawing">
     <value>304, 139</value>
   </data>
-  <data name="ChkAutoCopy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
   <data name="NUDAvatarConstellation.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
@@ -1657,11 +1693,8 @@
   <data name="FLPCustomCommands.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="LblEntityLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 69</value>
+  <data name="LblHost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="LblVerificationCode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1683,6 +1716,9 @@
   </data>
   <data name="TxtAccountUserName.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;CmbLanguage.Parent" xml:space="preserve">
+    <value>GrpSettings</value>
   </data>
   <data name="TPPlayerCheck.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1738,17 +1774,11 @@
   <data name="TPArtifact.Size" type="System.Drawing.Size, System.Drawing">
     <value>602, 245</value>
   </data>
-  <data name="&gt;&gt;TxtWeaponFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbSubAttributionValue.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
   <data name="ChkAutoCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="GrpBanPlayer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>31, 138</value>
+    <value>31, 158</value>
   </data>
   <data name="ChkQuestFilterTEST.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1768,8 +1798,8 @@
   <data name="LblArtifactName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="LblArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
-    <value>328, 41</value>
+  <data name="NUDWeaponRefinement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>256, 216</value>
   </data>
   <data name="&gt;&gt;LblConsoleTip.Name" xml:space="preserve">
     <value>LblConsoleTip</value>
@@ -1783,11 +1813,11 @@
   <data name="LnkTalentE.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
   </data>
-  <data name="LblPermUID.Text" xml:space="preserve">
-    <value>目标UID</value>
+  <data name="LnkGOODHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 206</value>
   </data>
-  <data name="&gt;&gt;BtnFinishQuest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LnkOpenCommandLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 62</value>
   </data>
   <data name="&gt;&gt;TxtEntityFilter.ZOrder" xml:space="preserve">
     <value>10</value>
@@ -1795,14 +1825,11 @@
   <data name="&gt;&gt;BtnFinishQuest.Name" xml:space="preserve">
     <value>BtnFinishQuest</value>
   </data>
-  <data name="LblAvatarLevel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="NUDEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>137, 216</value>
   </data>
   <data name="ImgAvatar.Location" type="System.Drawing.Point, System.Drawing">
     <value>17, 13</value>
-  </data>
-  <data name="LblGameItemLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
   </data>
   <data name="LblAvatarLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>
@@ -1819,8 +1846,8 @@
   <data name="LblGameItemAmount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="GrasscutterToolsIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="ChkAccountSetUid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;BtnLockStat.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1831,15 +1858,11 @@
   <data name="&gt;&gt;ChkQuestFilterTEST.Parent" xml:space="preserve">
     <value>GrpQuestFilters</value>
   </data>
-  <data name="ChkQuestFilterHIDDEN.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="ChkAutoCopy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="LblQuestDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
-  </data>
-  <data name="LblGiveCommandDescription.Text" xml:space="preserve">
-    <value>给玩家指定物品
-说明：可选择直接给到背包或者掉落到世界</value>
   </data>
   <data name="BtnUnlockStat.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -1850,14 +1873,17 @@
   <data name="TxtQuestFilter.Location" type="System.Drawing.Point, System.Drawing">
     <value>358, 5</value>
   </data>
+  <data name="BtnQueryServerStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
   <data name="TPRemoteCall.Text" xml:space="preserve">
     <value>远程</value>
   </data>
   <data name="LblEntityLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>
   </data>
-  <data name="BtnAddQuest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 216</value>
+  <data name="&gt;&gt;LblGOODHelp.Parent" xml:space="preserve">
+    <value>TPRemoteCall</value>
   </data>
   <data name="&gt;&gt;ListSpawnLogs.Name" xml:space="preserve">
     <value>ListSpawnLogs</value>
@@ -1881,19 +1907,22 @@
     <value>23, 17</value>
   </data>
   <data name="&gt;&gt;ChkTopMost.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="NUDAvatarLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
   </data>
-  <data name="NUDWeaponRefinement.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 216</value>
-  </data>
   <data name="&gt;&gt;BtnQueryServerStatus.Parent" xml:space="preserve">
     <value>TPRemoteCall</value>
   </data>
-  <data name="GrasscutterToolsIcon.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
+  <data name="LnkGOODHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>634, 361</value>
+  </data>
+  <data name="&gt;&gt;NUDBanUID.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;LnkGOODHelp.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -1919,8 +1948,8 @@
   <data name="LblClimateType.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 72</value>
   </data>
-  <data name="CmbSubAttribution.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="TxtToken.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;ListEntity.Name" xml:space="preserve">
     <value>ListEntity</value>
@@ -1955,11 +1984,8 @@
   <data name="GrpRemoteCommand.Size" type="System.Drawing.Size, System.Drawing">
     <value>310, 161</value>
   </data>
-  <data name="&gt;&gt;RbEntityMonster.Name" xml:space="preserve">
-    <value>RbEntityMonster</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormMain</value>
+  <data name="&gt;&gt;LblPermNewCommandTip.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="LblLanguage.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -1979,14 +2005,14 @@
   <data name="&gt;&gt;ListGiveItemLogs.Parent" xml:space="preserve">
     <value>GrpGiveItemRecord</value>
   </data>
-  <data name="LblStatTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 16</value>
+  <data name="BtnExportCustomCommands.Text" xml:space="preserve">
+    <value>导出</value>
   </data>
   <data name="LblClearSubAttrCheckedList.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 17</value>
   </data>
-  <data name="&gt;&gt;LblTpY.Name" xml:space="preserve">
-    <value>LblTpY</value>
+  <data name="&gt;&gt;LblArtifactLevelTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;TxtEntityFilter.Parent" xml:space="preserve">
     <value>TPSpawn</value>
@@ -1998,7 +2024,7 @@
     <value>5</value>
   </data>
   <data name="&gt;&gt;LblPerm.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="NUDGameItemLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>188, 216</value>
@@ -2017,6 +2043,9 @@
   </data>
   <data name="&gt;&gt;GrpRemoteCommand.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPermClear.Name" xml:space="preserve">
+    <value>BtnPermClear</value>
   </data>
   <data name="LnkOpenCommandLabel.Text" xml:space="preserve">
     <value>远程执行插件</value>
@@ -2048,6 +2077,12 @@
   <data name="NUDGameItemAmout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
+  <data name="&gt;&gt;TxtCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="CmbMainAttribution.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="ChkAccountSetUid.Location" type="System.Drawing.Point, System.Drawing">
     <value>215, 23</value>
   </data>
@@ -2066,14 +2101,17 @@
   <data name="LblEntityAmount.Location" type="System.Drawing.Point, System.Drawing">
     <value>5, 218</value>
   </data>
-  <data name="BtnAddQuest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="BtnPermClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnUnban.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;LblEntityLevel.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="LblPerm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 25</value>
+  <data name="&gt;&gt;LblArtifactSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ListQuest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -2102,9 +2140,6 @@
   <data name="&gt;&gt;LblArtifactStars.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="&gt;&gt;LblClimateType.Name" xml:space="preserve">
-    <value>LblClimateType</value>
-  </data>
   <data name="RbEntityNPC.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 86</value>
   </data>
@@ -2114,8 +2149,8 @@
   <data name="&gt;&gt;ChkQuestFilterTEST.Name" xml:space="preserve">
     <value>ChkQuestFilterTEST</value>
   </data>
-  <data name="&gt;&gt;NUDTpZ.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ChkTopMost.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;BtnInvokeOpenCommand.Parent" xml:space="preserve">
     <value>GrpCommand</value>
@@ -2123,17 +2158,11 @@
   <data name="LblStatPercent.Visible" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
-  <data name="ListGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>243, 140</value>
-  </data>
   <data name="&gt;&gt;NUDAvatarLevel.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;CmbSubAttribution.Parent" xml:space="preserve">
     <value>TPArtifact</value>
-  </data>
-  <data name="LblHostTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>116, 16</value>
   </data>
   <data name="TPArtifact.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -2149,9 +2178,6 @@
   </data>
   <data name="TPAbout.Text" xml:space="preserve">
     <value>关于</value>
-  </data>
-  <data name="&gt;&gt;LblAccountUserName.Name" xml:space="preserve">
-    <value>LblAccountUserName</value>
   </data>
   <data name="LblClearSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 17</value>
@@ -2176,9 +2202,6 @@
   </data>
   <data name="LblClearGiveItemLogs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="LblWeaponLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
   </data>
   <data name="BtnLoadCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
@@ -2222,6 +2245,9 @@
   <data name="GrpAccount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="&gt;&gt;LblDefaultUid.Parent" xml:space="preserve">
+    <value>GrpSettings</value>
+  </data>
   <data name="LblCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>
   </data>
@@ -2230,6 +2256,9 @@
   </data>
   <data name="CmbArtifactPart.Location" type="System.Drawing.Point, System.Drawing">
     <value>311, 8</value>
+  </data>
+  <data name="&gt;&gt;CmbGcVersions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ListScenes.Location" type="System.Drawing.Point, System.Drawing">
     <value>346, 31</value>
@@ -2243,9 +2272,6 @@
   <data name="TPItem.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="&gt;&gt;BtnSaveSpawnLog.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="LblArtifactName.Size" type="System.Drawing.Size, System.Drawing">
     <value>0, 17</value>
   </data>
@@ -2258,23 +2284,11 @@
   <data name="GrpEntityType.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 123</value>
   </data>
-  <data name="&gt;&gt;ButtonOpenGOODImport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnBan.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="BtnSaveGiveItemLog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="LblArtifactStars.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;FLPCustomCommands.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="RbEntityMonster.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 54</value>
   </data>
   <data name="CmbAvatar.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2285,14 +2299,11 @@
   <data name="&gt;&gt;LblArtifactStars.Name" xml:space="preserve">
     <value>LblArtifactStars</value>
   </data>
-  <data name="NUDGameItemLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
   <data name="&gt;&gt;LblSceneDescription.Parent" xml:space="preserve">
     <value>TPScene</value>
   </data>
-  <data name="&gt;&gt;NUDTpY.Parent" xml:space="preserve">
-    <value>TPScene</value>
+  <data name="&gt;&gt;LblGCVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LblGiveCommandDescription.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 6</value>
@@ -2303,17 +2314,11 @@
   <data name="LblConsoleTip.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 39</value>
   </data>
-  <data name="&gt;&gt;ChkNewCommand.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
   <data name="LblClearSpawnLogs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
   <data name="&gt;&gt;LblConsoleTip.Parent" xml:space="preserve">
     <value>TPConsoleCheck</value>
-  </data>
-  <data name="&gt;&gt;GrpQuestFilters.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;LblServerVersionLabel.Parent" xml:space="preserve">
     <value>GrpServerStatus</value>
@@ -2330,11 +2335,8 @@
   <data name="LblAccountUserName.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="ListSpawnLogs.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;LblVerificationCode.Parent" xml:space="preserve">
-    <value>TPPlayerCheck</value>
+  <data name="LblClearSubAttrCheckedList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
   <data name="TPItem.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -2360,9 +2362,6 @@
   <data name="&gt;&gt;GrpAccount.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="LblClearSubAttrCheckedList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
   <data name="TPWeapon.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
@@ -2372,17 +2371,17 @@
   <data name="&gt;&gt;CmbMainAttribution.Parent" xml:space="preserve">
     <value>TPArtifact</value>
   </data>
-  <data name="&gt;&gt;ChkNewCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 218</value>
+  <data name="&gt;&gt;LblMainAttribution.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
   </data>
   <data name="LblWeaponAmount.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>
   </data>
   <data name="LblOpenCommandSupport.Text" xml:space="preserve">
     <value>---</value>
+  </data>
+  <data name="&gt;&gt;LblRemotePlayerId.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="CmbStat.Location" type="System.Drawing.Point, System.Drawing">
     <value>43, 36</value>
@@ -2393,7 +2392,7 @@
   <data name="&gt;&gt;NUDArtifactStars.Name" xml:space="preserve">
     <value>NUDArtifactStars</value>
   </data>
-  <data name="&gt;&gt;LblWeaponDescription.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;FLPCustomCommands.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="LblPermUID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -2405,6 +2404,9 @@
   <data name="&gt;&gt;LblToken.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;FLPCustomCommands.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
   <data name="TPArtifact.Text" xml:space="preserve">
     <value>圣遗物</value>
   </data>
@@ -2414,9 +2416,6 @@
   <data name="&gt;&gt;NUDStat.Parent" xml:space="preserve">
     <value>GrpSetStats</value>
   </data>
-  <data name="ChkAccountSetUid.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;TPItem.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
@@ -2425,6 +2424,9 @@
   </data>
   <data name="&gt;&gt;RbEntityAnimal.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPHome.Name" xml:space="preserve">
+    <value>TPHome</value>
   </data>
   <data name="TCMain.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>610, 275</value>
@@ -2438,6 +2440,9 @@
   <data name="ChkDrop.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="&gt;&gt;LblMainAttribution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="CmbArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 25</value>
   </data>
@@ -2446,6 +2451,9 @@
   </data>
   <data name="&gt;&gt;NUDWeaponLevel.Parent" xml:space="preserve">
     <value>TPWeapon</value>
+  </data>
+  <data name="LblConstellationTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;LblToken.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -2459,6 +2467,9 @@
   <data name="TxtBanReason.Location" type="System.Drawing.Point, System.Drawing">
     <value>250, 22</value>
   </data>
+  <data name="LnkInventoryKamera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>461, 183</value>
+  </data>
   <data name="LblPermUID.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
@@ -2467,9 +2478,6 @@
   </data>
   <data name="LblAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 24</value>
-  </data>
-  <data name="TPItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>602, 245</value>
   </data>
   <data name="LblStatsDescription.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2504,20 +2512,26 @@
   <data name="LblBanUID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="&gt;&gt;TPQuest.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
     <value>× 删除</value>
   </data>
   <data name="LblWeaponLevel.Text" xml:space="preserve">
     <value>等级</value>
   </data>
-  <data name="&gt;&gt;LblPlayerCountLabel.Parent" xml:space="preserve">
-    <value>GrpServerStatus</value>
+  <data name="&gt;&gt;BtnUnban.Name" xml:space="preserve">
+    <value>BtnUnban</value>
+  </data>
+  <data name="BtnPermList.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="LblMainAttribution.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="RbEntityNPC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="LnkTalentQ.Text" xml:space="preserve">
+    <value>Q技能</value>
   </data>
   <data name="DTPBanEndTime.Location" type="System.Drawing.Point, System.Drawing">
     <value>154, 22</value>
@@ -2582,8 +2596,8 @@
   <data name="&gt;&gt;LblWeaponLevel.Name" xml:space="preserve">
     <value>LblWeaponLevel</value>
   </data>
-  <data name="&gt;&gt;BtnOpenTextMap.Name" xml:space="preserve">
-    <value>BtnOpenTextMap</value>
+  <data name="LblConsoleTip.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;NUDEntityLevel.Parent" xml:space="preserve">
     <value>TPSpawn</value>
@@ -2621,17 +2635,17 @@
   <data name="ChkTopMost.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="NUDEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>137, 216</value>
+  <data name="&gt;&gt;LblWeaponLevel.Parent" xml:space="preserve">
+    <value>TPWeapon</value>
   </data>
   <data name="&gt;&gt;ListScenes.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="&gt;&gt;TPAbout.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="LblClearSpawnLogs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="LblQuestDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="LblSupportDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 23</value>
   </data>
   <data name="LblPerm.Text" xml:space="preserve">
     <value>权限</value>
@@ -2641,6 +2655,9 @@
   </data>
   <data name="RbEntityAnimal.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="GrasscutterToolsIcon.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="LblTpY.Size" type="System.Drawing.Size, System.Drawing">
     <value>14, 17</value>
@@ -2654,8 +2671,8 @@
   <data name="&gt;&gt;LblArtifactLevel.Parent" xml:space="preserve">
     <value>TPArtifact</value>
   </data>
-  <data name="&gt;&gt;GrpGiveItemRecord.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LblToken.Text" xml:space="preserve">
+    <value>Token</value>
   </data>
   <data name="&gt;&gt;NUDTpZ.Name" xml:space="preserve">
     <value>NUDTpZ</value>
@@ -2684,9 +2701,6 @@
   <data name="ChkQuestFilterTEST.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 21</value>
   </data>
-  <data name="&gt;&gt;ImgAvatar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="NUDTpX.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -2699,14 +2713,14 @@
   <data name="&gt;&gt;ChkQuestFilterTEST.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LblArtifactLevel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="BtnTeleport.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
   <data name="LblGiveCommandDescription.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="LblStatsDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
   </data>
   <data name="&gt;&gt;BtnSendVerificationCode.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -2717,6 +2731,9 @@
   <data name="LblAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>379, 94</value>
   </data>
+  <data name="TPCustom.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
   <data name="&gt;&gt;TxtQuestFilter.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
@@ -2726,6 +2743,12 @@
   <data name="&gt;&gt;BtnGiveAllChar.Parent" xml:space="preserve">
     <value>TPAvatar</value>
   </data>
+  <data name="LblArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 11</value>
+  </data>
+  <data name="LblPlayerCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 45</value>
+  </data>
   <data name="LblPlayerCountLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -2734,6 +2757,12 @@
   </data>
   <data name="BtmPermRemove.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 23</value>
+  </data>
+  <data name="LblAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;TxtAccountUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="GrpBanPlayer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -2756,14 +2785,17 @@
   <data name="&gt;&gt;ChkDrop.Name" xml:space="preserve">
     <value>ChkDrop</value>
   </data>
+  <data name="&gt;&gt;CmbGcVersions.Parent" xml:space="preserve">
+    <value>GrpSettings</value>
+  </data>
   <data name="LblWeaponDescription.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;BtnOpenGachaBannerEditor.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="NUDArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 39</value>
   </data>
   <data name="&gt;&gt;CmbLanguage.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="LblMainAttribution.Location" type="System.Drawing.Point, System.Drawing">
     <value>92, 71</value>
@@ -2807,11 +2839,14 @@
   <data name="&gt;&gt;LblGOODHelp.Name" xml:space="preserve">
     <value>LblGOODHelp</value>
   </data>
+  <data name="&gt;&gt;LblPermNewCommandTip.Name" xml:space="preserve">
+    <value>LblPermNewCommandTip</value>
+  </data>
   <data name="&gt;&gt;TPManage.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;NUDAvatarConstellation.Name" xml:space="preserve">
-    <value>NUDAvatarConstellation</value>
+  <data name="&gt;&gt;TPAbout.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
   <data name="BtnCreateAccount.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 23</value>
@@ -2821,12 +2856,6 @@
   </data>
   <data name="&gt;&gt;TPSpawn.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="LblClearSubAttrCheckedList.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;NUDVerificationCode.Name" xml:space="preserve">
-    <value>NUDVerificationCode</value>
   </data>
   <data name="LblClearGiveItemLogs.Text" xml:space="preserve">
     <value>X 清空</value>
@@ -2840,11 +2869,14 @@
   <data name="LblTpZ.Size" type="System.Drawing.Size, System.Drawing">
     <value>14, 17</value>
   </data>
+  <data name="&gt;&gt;CmbClimateType.Parent" xml:space="preserve">
+    <value>TPScene</value>
+  </data>
   <data name="CmbSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
     <value>142, 99</value>
   </data>
-  <data name="&gt;&gt;LblCustomName.Parent" xml:space="preserve">
-    <value>TPCustom</value>
+  <data name="BtnOpenGachaBannerEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 99</value>
   </data>
   <data name="&gt;&gt;ListEntity.Parent" xml:space="preserve">
     <value>TPSpawn</value>
@@ -2855,11 +2887,8 @@
   <data name="&gt;&gt;TxtSceneFilter.Parent" xml:space="preserve">
     <value>TPScene</value>
   </data>
-  <data name="LblConsoleTip.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;NUDGameItemAmout.Parent" xml:space="preserve">
-    <value>TPItem</value>
+  <data name="&gt;&gt;LblArtifactPart.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
   </data>
   <data name="LblTp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2897,20 +2926,20 @@
   <data name="&gt;&gt;GrpEntityType.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;LnkTalentQ.Name" xml:space="preserve">
-    <value>LnkTalentQ</value>
+  <data name="&gt;&gt;LblClimateType.Name" xml:space="preserve">
+    <value>LblClimateType</value>
   </data>
   <data name="&gt;&gt;NUDBanUID.Name" xml:space="preserve">
     <value>NUDBanUID</value>
   </data>
-  <data name="BtnSaveCustomCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;ChkQuestFilterTEST.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="BtnExportCustomCommands.Text" xml:space="preserve">
-    <value>导出</value>
+  <data name="&gt;&gt;BtnUnban.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LnkTalentQ.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="TPManage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 245</value>
   </data>
   <data name="BtnRemoveGiveItemLog.Text" xml:space="preserve">
     <value>× 删除</value>
@@ -2921,8 +2950,14 @@
   <data name="&gt;&gt;LblGameItemAmount.Parent" xml:space="preserve">
     <value>TPItem</value>
   </data>
+  <data name="&gt;&gt;LblStatPercent.Parent" xml:space="preserve">
+    <value>GrpSetStats</value>
+  </data>
   <data name="&gt;&gt;ChkQuestFilterUNRELEASED.Name" xml:space="preserve">
     <value>ChkQuestFilterUNRELEASED</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttribution.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="ListGiveItemLogs.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 19</value>
@@ -2952,16 +2987,13 @@
     <value>ImgAvatar</value>
   </data>
   <data name="&gt;&gt;BtnPermAdd.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;ChkAccountSetUid.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LblAbout.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 13pt</value>
-  </data>
-  <data name="LblSpawnDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>116, 17</value>
   </data>
   <data name="&gt;&gt;LnkGithub.Name" xml:space="preserve">
     <value>LnkGithub</value>
@@ -2975,8 +3007,22 @@
   <data name="CmbClimateType.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;ChkQuestFilterTEST.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="LblWeaponDescription.Text" xml:space="preserve">
+    <value>获取武器
+
+说明：设置等级会自动设置突破等级
+&gt;20级 突破1
+&gt;40级 突破2
+&gt;50级 突破3
+&gt;60级 突破4
+&gt;70级 突破5
+&gt;80级 突破6</value>
+  </data>
+  <data name="TPWeapon.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlockStat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LnkTalentQ.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -2999,6 +3045,9 @@
   <data name="LnkResetCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>
   </data>
+  <data name="TPConsoleCheck.Text" xml:space="preserve">
+    <value>控制台</value>
+  </data>
   <data name="BtmPermRemove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -3008,26 +3057,35 @@
   <data name="BtnExportCustomCommands.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="&gt;&gt;BtnPermClear.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
+  </data>
   <data name="TPRemoteCall.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPWeapon.Text" xml:space="preserve">
     <value>武器</value>
   </data>
-  <data name="LblHostTip.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="BtnRemoveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 79</value>
   </data>
-  <data name="&gt;&gt;LblHost.Parent" xml:space="preserve">
-    <value>TPRemoteCall</value>
+  <data name="&gt;&gt;NUDTpZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LblConstellationTip.Name" xml:space="preserve">
     <value>LblConstellationTip</value>
+  </data>
+  <data name="BtnRemoveCustomCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
   <data name="LblLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="&gt;&gt;LblTp.Parent" xml:space="preserve">
     <value>TPScene</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersionLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;NUDRemotePlayerId.Parent" xml:space="preserve">
     <value>TPPlayerCheck</value>
@@ -3078,7 +3136,10 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="&gt;&gt;NUDPermUID.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BtnPermList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ChkIncludeSceneId.Parent" xml:space="preserve">
     <value>TPScene</value>
@@ -3086,8 +3147,8 @@
   <data name="&gt;&gt;GrpSettings.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;LblWeaponLevel.Parent" xml:space="preserve">
-    <value>TPWeapon</value>
+  <data name="LblPerm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 25</value>
   </data>
   <data name="&gt;&gt;BtnExportCustomCommands.Name" xml:space="preserve">
     <value>BtnExportCustomCommands</value>
@@ -3101,11 +3162,11 @@
   <data name="TPCustom.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="TPAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+  <data name="LblArtifactLevelTip.Text" xml:space="preserve">
+    <value>[0-20]</value>
   </data>
-  <data name="&gt;&gt;ChkIncludeSceneId.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="RbEntityNPC.Text" xml:space="preserve">
+    <value>NPC</value>
   </data>
   <data name="&gt;&gt;RbEntityMonster.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -3130,9 +3191,6 @@
   </data>
   <data name="&gt;&gt;GrpTalentLevel.Parent" xml:space="preserve">
     <value>TPStats</value>
-  </data>
-  <data name="&gt;&gt;TxtGameItemFilter.Parent" xml:space="preserve">
-    <value>TPItem</value>
   </data>
   <data name="&gt;&gt;ButtonOpenGOODImport.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -3164,20 +3222,14 @@
   <data name="ChkQuestFilterTEST.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="BtnSaveSpawnLog.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="TPManage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>602, 245</value>
+  <data name="&gt;&gt;CmbGcVersions.Name" xml:space="preserve">
+    <value>CmbGcVersions</value>
   </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>执行(F5)</value>
   </data>
-  <data name="NUDEntityAmout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="&gt;&gt;ChkTopMost.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
+  <data name="LblAvatarLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;NUDGameItemAmout.ZOrder" xml:space="preserve">
     <value>9</value>
@@ -3194,20 +3246,17 @@
   <data name="RbEntityNPC.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="GrpSpawnRecord.Text" xml:space="preserve">
-    <value>生成记录本</value>
+  <data name="&gt;&gt;BtnBan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LblArtifactName.Parent" xml:space="preserve">
     <value>TPArtifact</value>
   </data>
-  <data name="&gt;&gt;LblMainAttribution.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
+  <data name="NUDTalentLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 22</value>
   </data>
   <data name="&gt;&gt;ChkIncludeSceneId.Name" xml:space="preserve">
     <value>ChkIncludeSceneId</value>
-  </data>
-  <data name="BtnRemoveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>265, 79</value>
   </data>
   <data name="&gt;&gt;CmbLanguage.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3220,6 +3269,9 @@
   </data>
   <data name="&gt;&gt;BtnLoadCustomCommands.Name" xml:space="preserve">
     <value>BtnLoadCustomCommands</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormMain</value>
   </data>
   <data name="TxtEntityFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -3236,6 +3288,9 @@
   <data name="LblToken.Location" type="System.Drawing.Point, System.Drawing">
     <value>15, 16</value>
   </data>
+  <data name="&gt;&gt;ImgAvatar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
   <data name="BtnSendVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
   </data>
@@ -3245,8 +3300,8 @@
   <data name="LblArtifactStars.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="ListEntity.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="&gt;&gt;TxtGameItemFilter.Name" xml:space="preserve">
+    <value>TxtGameItemFilter</value>
   </data>
   <data name="NUDRemotePlayerId.Size" type="System.Drawing.Size, System.Drawing">
     <value>118, 23</value>
@@ -3257,8 +3312,8 @@
   <data name="TxtToken.Location" type="System.Drawing.Point, System.Drawing">
     <value>65, 13</value>
   </data>
-  <data name="ChkNewCommand.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;BtnRemoveGiveItemLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BtnCopy.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
@@ -3288,7 +3343,7 @@
     <value>198, 41</value>
   </data>
   <data name="&gt;&gt;ChkIncludeUID.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="LblWeaponLevel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3302,35 +3357,29 @@
   <data name="&gt;&gt;DTPBanEndTime.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;LnkTalentNormalATK.Name" xml:space="preserve">
-    <value>LnkTalentNormalATK</value>
+  <data name="LblGOODHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="LblHostTip.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteAccount.ZOrder" xml:space="preserve">
-    <value>2</value>
   </data>
   <data name="LblMainAttribution.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 17</value>
   </data>
   <data name="&gt;&gt;NUDUid.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="CmbSubAttributionValue.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;NUDBanUID.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="BtnAddQuest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
   </data>
   <data name="&gt;&gt;BtnQueryServerStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BtnConsoleConnect.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ChkAccountSetUid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 21</value>
   </data>
   <data name="&gt;&gt;GrpSettings.Name" xml:space="preserve">
     <value>GrpSettings</value>
@@ -3347,14 +3396,8 @@
   <data name="&gt;&gt;BtnCopy.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="LnkTalentQ.Text" xml:space="preserve">
-    <value>Q技能</value>
-  </data>
-  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 109</value>
-  </data>
-  <data name="BtnAddQuest.Text" xml:space="preserve">
-    <value>添加任务</value>
+  <data name="&gt;&gt;LblWeaponDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BtnRemoveGiveItemLog.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -3362,14 +3405,14 @@
   <data name="&gt;&gt;TPWeapon.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;RbEntityNPC.Parent" xml:space="preserve">
-    <value>GrpEntityType</value>
+  <data name="LblStatTip.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="&gt;&gt;CmbAvatar.Name" xml:space="preserve">
     <value>CmbAvatar</value>
   </data>
   <data name="&gt;&gt;CmbPerm.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="GrpBanPlayer.Text" xml:space="preserve">
     <value>封禁管理</value>
@@ -3380,8 +3423,11 @@
   <data name="&gt;&gt;TPScene.Name" xml:space="preserve">
     <value>TPScene</value>
   </data>
-  <data name="&gt;&gt;LblAccountUserName.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="CmbGcVersions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 80</value>
+  </data>
+  <data name="LblGCVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="BtnOpenGachaBannerEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3389,8 +3435,17 @@
   <data name="&gt;&gt;ListQuest.Name" xml:space="preserve">
     <value>ListQuest</value>
   </data>
+  <data name="&gt;&gt;BtnGiveAllChar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NUDArtifactLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="&gt;&gt;GrpCommand.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpGiveItemRecord.Name" xml:space="preserve">
+    <value>GrpGiveItemRecord</value>
   </data>
   <data name="&gt;&gt;CmbMainAttribution.ZOrder" xml:space="preserve">
     <value>14</value>
@@ -3401,8 +3456,8 @@
   <data name="LblClimateType.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="LblAvatarConstellation.Text" xml:space="preserve">
-    <value>命座</value>
+  <data name="ChkTopMost.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;TxtEntityFilter.Name" xml:space="preserve">
     <value>TxtEntityFilter</value>
@@ -3410,8 +3465,8 @@
   <data name="&gt;&gt;LblArtifactSet.Name" xml:space="preserve">
     <value>LblArtifactSet</value>
   </data>
-  <data name="&gt;&gt;GrpTalentLevel.Name" xml:space="preserve">
-    <value>GrpTalentLevel</value>
+  <data name="&gt;&gt;LblWeaponRefinement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LblTpY.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3419,17 +3474,14 @@
   <data name="&gt;&gt;TPPlayerCheck.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="LblHost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
-  </data>
   <data name="&gt;&gt;LblHost.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TPScene.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="&gt;&gt;ListEntity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;LnkTalentQ.Name" xml:space="preserve">
+    <value>LnkTalentQ</value>
   </data>
   <data name="&gt;&gt;ChkDrop.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3446,9 +3498,6 @@
   <data name="&gt;&gt;TxtAccountUserName.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="TPAvatar.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
   <data name="&gt;&gt;LblConstellationTip.Parent" xml:space="preserve">
     <value>TPAvatar</value>
   </data>
@@ -3460,6 +3509,9 @@
   </data>
   <data name="NUDWeaponLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
+  </data>
+  <data name="GrpTalentLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>421, 216</value>
@@ -3506,16 +3558,19 @@
   <data name="ListGiveItemLogs.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="TPConsoleCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
   <data name="LnkGithub.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
   <data name="&gt;&gt;NUDAccountUid.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;TxtCustomName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="NUDVerificationCode.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BtnRemoveSpawnLog.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
   <data name="TPHome.Location" type="System.Drawing.Point, System.Drawing">
@@ -3533,11 +3588,14 @@
   <data name="ListWeapons.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="TPWeapon.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="LblRemotePlayerId.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="BtnRemoveSpawnLog.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="&gt;&gt;LblCustomName.Parent" xml:space="preserve">
+    <value>TPCustom</value>
+  </data>
+  <data name="LblArtifactSet.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
   </data>
   <data name="&gt;&gt;CmbArtifactPart.ZOrder" xml:space="preserve">
     <value>4</value>
@@ -3550,6 +3608,9 @@
   </data>
   <data name="GrpSettings.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 128</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactSet.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;LblDefaultUid.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3626,25 +3687,28 @@
   <data name="ChkDrop.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="&gt;&gt;LblArtifactLevel.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
   <data name="LblGameItemLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
   <data name="&gt;&gt;BtnOpenTextMap.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="NUDEntityAmout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
   <data name="&gt;&gt;LnkInventoryKamera.Name" xml:space="preserve">
     <value>LnkInventoryKamera</value>
   </data>
-  <data name="TxtToken.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="LblAbout.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;BtnGiveAllChar.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CmbPerm.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="ChkNewCommand.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="TxtGameItemFilter.Location" type="System.Drawing.Point, System.Drawing">
@@ -3680,20 +3744,20 @@
   <data name="LblWeaponRefinement.Text" xml:space="preserve">
     <value>精炼等级</value>
   </data>
-  <data name="BtnRemoveCustomCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblAvatarLevel.Text" xml:space="preserve">
-    <value>等级</value>
-  </data>
   <data name="&gt;&gt;GrpServerStatus.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BtnFinishQuest.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 23</value>
   </data>
-  <data name="&gt;&gt;LblServerVersionLabel.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="LblTp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 51</value>
+  </data>
+  <data name="LblPermNewCommandTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TPCustom.Parent" xml:space="preserve">
+    <value>TCMain</value>
   </data>
   <data name="LblHostTip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3710,8 +3774,8 @@
   <data name="&gt;&gt;NUDAvatarConstellation.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LblArtifactLevel.ZOrder" xml:space="preserve">
-    <value>12</value>
+  <data name="&gt;&gt;LblPermUID.Name" xml:space="preserve">
+    <value>LblPermUID</value>
   </data>
   <data name="NUDAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
     <value>438, 139</value>
@@ -3722,8 +3786,8 @@
   <data name="BtnQueryServerStatus.Text" xml:space="preserve">
     <value>查询</value>
   </data>
-  <data name="LnkGOODHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>367, 206</value>
+  <data name="BtnPermClear.Text" xml:space="preserve">
+    <value>x 清空</value>
   </data>
   <data name="LblConstellationTip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
@@ -3734,8 +3798,8 @@
   <data name="BtnOpenTextMap.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="TPPlayerCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+  <data name="ListSpawnLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;LblHostTip.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3752,6 +3816,9 @@
   <data name="TPArtifact.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
+  <data name="GrasscutterToolsIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="&gt;&gt;BtnAddQuest.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -3764,8 +3831,8 @@
   <data name="LblEntityAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="&gt;&gt;GrpSpawnRecord.Parent" xml:space="preserve">
-    <value>TPSpawn</value>
+  <data name="&gt;&gt;LblPlayerCountLabel.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
   </data>
   <data name="&gt;&gt;GrpRemoteCommand.Name" xml:space="preserve">
     <value>GrpRemoteCommand</value>
@@ -3782,14 +3849,14 @@
   <data name="&gt;&gt;NUDWeaponAmout.Name" xml:space="preserve">
     <value>NUDWeaponAmout</value>
   </data>
-  <data name="GrpGiveItemRecord.Text" xml:space="preserve">
-    <value>物品记录本</value>
-  </data>
   <data name="BtnRemoveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 23</value>
   </data>
   <data name="LblAvatar.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>
+  </data>
+  <data name="LblPermNewCommandTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="&gt;&gt;GrasscutterToolsIcon.Name" xml:space="preserve">
     <value>GrasscutterToolsIcon</value>
@@ -3806,6 +3873,9 @@
   <data name="ButtonOpenGOODImport.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
+  <data name="BtnAddSubAttr.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
   <data name="&gt;&gt;LblPerm.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -3818,26 +3888,35 @@
   <data name="LblWeaponLevel.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="BtnOpenGachaBannerEditor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 99</value>
+  <data name="&gt;&gt;ButtonOpenGOODImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="NUDArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>142, 39</value>
-  </data>
-  <data name="&gt;&gt;LblArtifactPart.Name" xml:space="preserve">
-    <value>LblArtifactPart</value>
+  <data name="&gt;&gt;CmbSubAttributionValue.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;LblPermUID.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
   </data>
   <data name="BtnGiveAllChar.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
+  </data>
+  <data name="BtnUnlockStat.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TPStats.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="GrpSettings.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
   <data name="LblLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 17</value>
+  </data>
+  <data name="BtnRemoveGiveItemLog.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="LnkTalentQ.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="LblStatPercent.Size" type="System.Drawing.Size, System.Drawing">
     <value>19, 17</value>
@@ -3853,6 +3932,9 @@
   </data>
   <data name="&gt;&gt;BtnCreateAccount.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="RbEntityMonster.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="ImgAvatar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -3884,6 +3966,9 @@
   <data name="BtnQueryServerStatus.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="LblClearSpawnLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
   <data name="LblEntityAmount.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
@@ -3905,6 +3990,9 @@
   <data name="LblArtifactLevelTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="&gt;&gt;BtnFinishQuest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="LblWeaponLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
@@ -3920,8 +4008,8 @@
   <data name="&gt;&gt;LblHost.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;BtnUnban.Name" xml:space="preserve">
-    <value>BtnUnban</value>
+  <data name="&gt;&gt;LblTpY.Name" xml:space="preserve">
+    <value>LblTpY</value>
   </data>
   <data name="&gt;&gt;TPOpenCommandCheck.Parent" xml:space="preserve">
     <value>GrpRemoteCommand</value>
@@ -3974,11 +4062,11 @@
   <data name="&gt;&gt;LnkLinks.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="LblAvatarConstellation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;LblPermNewCommandTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CmbSubAttributionValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -4040,9 +4128,6 @@
   <data name="NUDUid.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;LblWeaponAmount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="LnkRCHelp.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
@@ -4064,17 +4149,14 @@
   <data name="GrasscutterToolsSupport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="BtnQueryServerStatus.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
+  <data name="BtnAddQuest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="LblVerificationCode.Text" xml:space="preserve">
     <value>验证码</value>
   </data>
   <data name="&gt;&gt;NUDEntityLevel.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblArtifactLevelTip.Text" xml:space="preserve">
-    <value>[0-20]</value>
   </data>
   <data name="&gt;&gt;BtnSendVerificationCode.Parent" xml:space="preserve">
     <value>TPPlayerCheck</value>
@@ -4094,8 +4176,11 @@
   <data name="LblTpY.Text" xml:space="preserve">
     <value>y</value>
   </data>
-  <data name="&gt;&gt;ListGiveItemLogs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;NUDAvatarConstellation.Name" xml:space="preserve">
+    <value>NUDAvatarConstellation</value>
+  </data>
+  <data name="&gt;&gt;BtnAddSubAttr.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
   </data>
   <data name="NUDBanUID.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 22</value>
@@ -4121,14 +4206,8 @@
   <data name="&gt;&gt;LblClearSubAttrCheckedList.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="BtnRemoveCustomCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="ChkNewCommand.Text" xml:space="preserve">
-    <value>GC &gt;= 1.2.2</value>
-  </data>
-  <data name="LblAbout.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="LblGCVersion.Text" xml:space="preserve">
+    <value>GC</value>
   </data>
   <data name="&gt;&gt;TPArtifact.ZOrder" xml:space="preserve">
     <value>2</value>
@@ -4141,9 +4220,6 @@
   </data>
   <data name="&gt;&gt;NUDArtifactStars.ZOrder" xml:space="preserve">
     <value>18</value>
-  </data>
-  <data name="LblPlayerCount.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="TPQuest.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -4160,13 +4236,10 @@
   <data name="&gt;&gt;TPArtifact.Name" xml:space="preserve">
     <value>TPArtifact</value>
   </data>
-  <data name="&gt;&gt;NUDTpY.Name" xml:space="preserve">
-    <value>NUDTpY</value>
+  <data name="&gt;&gt;BtnSaveSpawnLog.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="LblHost.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LnkLinks.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;CmbStat.Parent" xml:space="preserve">
@@ -4178,11 +4251,11 @@
   <data name="LblTp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="LblTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 161</value>
-  </data>
   <data name="&gt;&gt;BtnPermAdd.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>400, 23</value>
   </data>
   <data name="&gt;&gt;LblPermUID.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4226,11 +4299,17 @@
   <data name="LblTpX.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="LblQuestDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="&gt;&gt;TPWeapon.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CmbArtifactPart.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="CmbGcVersions.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
   <data name="ListScenes.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -4241,23 +4320,26 @@
   <data name="LblVerificationCode.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="LblClearGiveItemLogs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>262, 193</value>
+  <data name="LblDefaultUid.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="LblArtifactStars.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>
   </data>
-  <data name="&gt;&gt;LblArtifactPart.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
+  <data name="LblWeaponDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="TPCustom.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
+  <data name="&gt;&gt;RbEntityNPC.Parent" xml:space="preserve">
+    <value>GrpEntityType</value>
   </data>
   <data name="NUDStat.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 23</value>
   </data>
-  <data name="NUDArtifactLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="CmbPerm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 21</value>
+  </data>
+  <data name="&gt;&gt;LblVerificationCode.Parent" xml:space="preserve">
+    <value>TPPlayerCheck</value>
   </data>
   <data name="&gt;&gt;ListQuest.Parent" xml:space="preserve">
     <value>TPQuest</value>
@@ -4274,8 +4356,8 @@
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>提示</value>
   </data>
-  <data name="ChkIncludeUID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>147, 23</value>
+  <data name="&gt;&gt;BtnOpenGachaBannerEditor.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;BtnBan.Parent" xml:space="preserve">
     <value>GrpBanPlayer</value>
@@ -4283,11 +4365,14 @@
   <data name="LblTpX.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="&gt;&gt;BtnPermClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="LblTp.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 105</value>
   </data>
-  <data name="&gt;&gt;TxtCommand.Name" xml:space="preserve">
-    <value>TxtCommand</value>
+  <data name="LblAvatar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Right</value>
   </data>
   <data name="BtnCopy.Location" type="System.Drawing.Point, System.Drawing">
     <value>493, 22</value>
@@ -4310,14 +4395,14 @@
   <data name="&gt;&gt;BtnAddQuest.Parent" xml:space="preserve">
     <value>TPQuest</value>
   </data>
-  <data name="&gt;&gt;TPHome.Name" xml:space="preserve">
-    <value>TPHome</value>
+  <data name="CmbClimateType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
   <data name="&gt;&gt;TCMain.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LblArtifactSet.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
+  <data name="&gt;&gt;LblWeaponDescription.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="GrpGiveItemRecord.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -4355,6 +4440,9 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 17</value>
   </data>
+  <data name="LblPlayerCount.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
   <data name="&gt;&gt;RbEntityMonster.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -4379,8 +4467,8 @@
   <data name="LnkRCHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;BtnSaveCustomCommand.Name" xml:space="preserve">
-    <value>BtnSaveCustomCommand</value>
+  <data name="&gt;&gt;LblArtifactPart.Name" xml:space="preserve">
+    <value>LblArtifactPart</value>
   </data>
   <data name="&gt;&gt;TPHome.Parent" xml:space="preserve">
     <value>TCMain</value>
@@ -4394,6 +4482,9 @@
   <data name="&gt;&gt;ChkTopMost.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;BtnOpenTextMap.Name" xml:space="preserve">
+    <value>BtnOpenTextMap</value>
+  </data>
   <data name="TxtAccountUserName.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 23</value>
   </data>
@@ -4402,6 +4493,9 @@
   </data>
   <data name="CmbLanguage.Location" type="System.Drawing.Point, System.Drawing">
     <value>41, 51</value>
+  </data>
+  <data name="BtnPermList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="TxtWeaponFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 23</value>
@@ -4412,14 +4506,14 @@
   <data name="&gt;&gt;LblEntityAmount.Name" xml:space="preserve">
     <value>LblEntityAmount</value>
   </data>
+  <data name="LblPermNewCommandTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
   <data name="&gt;&gt;LblGiveCommandDescription.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="LblClearSpawnLogs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 216</value>
-  </data>
-  <data name="LblAvatar.Text" xml:space="preserve">
-    <value>角色</value>
+  <data name="NUDWeaponAmout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
   <data name="LblWeaponDescription.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -4427,8 +4521,8 @@
   <data name="LblSupportDescription.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;LblArtifactStars.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
+  <data name="LblPermUID.Text" xml:space="preserve">
+    <value>目标UID</value>
   </data>
   <data name="NUDAccountUid.Size" type="System.Drawing.Size, System.Drawing">
     <value>106, 23</value>
@@ -4454,9 +4548,6 @@
   <data name="&gt;&gt;NUDWeaponRefinement.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LblGameItemLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="TxtHost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -4478,6 +4569,9 @@
   <data name="LblServerVersion.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
+  <data name="BtmPermRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 22</value>
+  </data>
   <data name="BtnSaveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 23</value>
   </data>
@@ -4487,11 +4581,11 @@
   <data name="&gt;&gt;LnkResetCustomCommands.Type" xml:space="preserve">
     <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;GrpGiveItemRecord.Name" xml:space="preserve">
-    <value>GrpGiveItemRecord</value>
+  <data name="&gt;&gt;GrpPermission.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Type" xml:space="preserve">
-    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.6.2.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.6.3.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;CmbAvatar.Parent" xml:space="preserve">
     <value>TPAvatar</value>
@@ -4508,37 +4602,35 @@
   <data name="BtnQueryServerStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;BtnUnlockStat.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TxtToken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 23</value>
   </data>
   <data name="&gt;&gt;LblArtifactStars.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BtnSaveSpawnLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="GrpPermission.Location" type="System.Drawing.Point, System.Drawing">
+    <value>31, 72</value>
   </data>
-  <data name="LnkInventoryKamera.Location" type="System.Drawing.Point, System.Drawing">
-    <value>461, 183</value>
+  <data name="LblAvatar.Text" xml:space="preserve">
+    <value>角色</value>
   </data>
   <data name="&gt;&gt;LnkResetCustomCommands.Name" xml:space="preserve">
     <value>LnkResetCustomCommands</value>
   </data>
-  <data name="CmbStat.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 25</value>
+  <data name="&gt;&gt;BtnTeleport.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="LblSupportDescription.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="LblWeaponDescription.Text" xml:space="preserve">
-    <value>获取武器
-
-说明：设置等级会自动设置突破等级
-&gt;20级 突破1
-&gt;40级 突破2
-&gt;50级 突破3
-&gt;60级 突破4
-&gt;70级 突破5
-&gt;80级 突破6</value>
+  <data name="ListSpawnLogs.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="NUDArtifactStars.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="LblBanUID.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 25</value>
@@ -4552,26 +4644,17 @@
   <data name="LblSubAttribution.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 17</value>
   </data>
-  <data name="FLPCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
-  </data>
-  <data name="BtnFinishQuest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;LblPermUID.Parent" xml:space="preserve">
-    <value>GrpPermission</value>
+  <data name="LblGameItemLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;TPManage.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;LnkTalentQ.Parent" xml:space="preserve">
-    <value>GrpTalentLevel</value>
+  <data name="LnkRCHelp.Text" xml:space="preserve">
+    <value>帮助</value>
   </data>
   <data name="NUDEntityLevel.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
-  </data>
-  <data name="ListSpawnLogs.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
   </data>
   <data name="&gt;&gt;LblTp.Name" xml:space="preserve">
     <value>LblTp</value>
@@ -4579,11 +4662,8 @@
   <data name="&gt;&gt;LblStatTip.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="BtnCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblPlayerCount.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+  <data name="RbEntityMonster.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 54</value>
   </data>
   <data name="&gt;&gt;NUDTpX.ZOrder" xml:space="preserve">
     <value>9</value>
@@ -4591,17 +4671,11 @@
   <data name="&gt;&gt;LblStatsDescription.Name" xml:space="preserve">
     <value>LblStatsDescription</value>
   </data>
-  <data name="RbEntityNPC.Text" xml:space="preserve">
-    <value>NPC</value>
-  </data>
   <data name="&gt;&gt;CmbAvatar.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LblPerm.Parent" xml:space="preserve">
-    <value>GrpPermission</value>
-  </data>
-  <data name="&gt;&gt;TxtGameItemFilter.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;TxtGameItemFilter.Parent" xml:space="preserve">
+    <value>TPItem</value>
   </data>
   <data name="LblAvatar.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4627,14 +4701,14 @@
   <data name="LblSubAttribution.Text" xml:space="preserve">
     <value>副词条</value>
   </data>
-  <data name="&gt;&gt;TxtAccountUserName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;GrpSpawnRecord.Parent" xml:space="preserve">
+    <value>TPSpawn</value>
   </data>
   <data name="&gt;&gt;NUDEntityAmout.Name" xml:space="preserve">
     <value>NUDEntityAmout</value>
   </data>
-  <data name="&gt;&gt;LblWeaponRefinement.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LblArtifactLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 9pt</value>
@@ -4666,8 +4740,14 @@
   <data name="GrasscutterToolsSupport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
+  <data name="&gt;&gt;ListGiveItemLogs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="ListGameItems.ItemHeight" type="System.Int32, mscorlib">
     <value>17</value>
+  </data>
+  <data name="ChkAutoCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>549, 24</value>
   </data>
   <data name="&gt;&gt;BtnOpenGachaBannerEditor.Parent" xml:space="preserve">
     <value>TPHome</value>
@@ -4678,17 +4758,17 @@
   <data name="&gt;&gt;BtnRemoveGiveItemLog.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;TPQuest.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;LnkGOODHelp.Parent" xml:space="preserve">
+    <value>TPRemoteCall</value>
   </data>
-  <data name="&gt;&gt;CmbLanguage.Name" xml:space="preserve">
-    <value>CmbLanguage</value>
+  <data name="ChkIncludeSceneId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 21</value>
   </data>
   <data name="LblPerm.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="BtmPermRemove.Location" type="System.Drawing.Point, System.Drawing">
-    <value>473, 22</value>
+  <data name="BtnQueryServerStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="LblClearGiveItemLogs.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -4716,6 +4796,9 @@
   </data>
   <data name="&gt;&gt;BtnCreateAccount.Name" xml:space="preserve">
     <value>BtnCreateAccount</value>
+  </data>
+  <data name="&gt;&gt;LblGCVersion.Parent" xml:space="preserve">
+    <value>GrpSettings</value>
   </data>
   <data name="&gt;&gt;LblOpenCommandSupport.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -4747,20 +4830,17 @@
   <data name="LnkGithub.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;ChkNewCommand.Name" xml:space="preserve">
-    <value>ChkNewCommand</value>
-  </data>
   <data name="&gt;&gt;LblClearGiveItemLogs.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LblGameItemLevel.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="LblSubAttribution.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
+  <data name="&gt;&gt;LblToken.Parent" xml:space="preserve">
+    <value>TPConsoleCheck</value>
   </data>
-  <data name="CmbPerm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 21</value>
+  <data name="LblEntityAmount.Text" xml:space="preserve">
+    <value>数量</value>
   </data>
   <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
     <value>奖池编辑器</value>
@@ -4789,8 +4869,8 @@
   <data name="NUDArtifactLevel.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;BtnRemoveGiveItemLog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;TxtCommand.Name" xml:space="preserve">
+    <value>TxtCommand</value>
   </data>
   <data name="ChkAccountSetUid.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -4801,6 +4881,9 @@
   <data name="LnkResetCustomCommands.Text" xml:space="preserve">
     <value>重置</value>
   </data>
+  <data name="&gt;&gt;LblClimateType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;GrpPermission.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -4809,9 +4892,6 @@
   </data>
   <data name="TPManage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
-  </data>
-  <data name="ButtonOpenGOODImport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
   </data>
   <data name="ImgAvatar.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -4822,17 +4902,17 @@
   <data name="&gt;&gt;ChkTopMost.Name" xml:space="preserve">
     <value>ChkTopMost</value>
   </data>
-  <data name="&gt;&gt;FLPCustomCommands.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="LblAccountUserName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="LblGOODHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="LblAvatarLevel.Text" xml:space="preserve">
+    <value>等级</value>
   </data>
-  <data name="LblSceneDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>224, 51</value>
+  <data name="LnkLinks.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;ChkIncludeUID.Name" xml:space="preserve">
-    <value>ChkIncludeUID</value>
+  <data name="TPConsoleCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
   </data>
   <data name="TPArtifact.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
@@ -4858,6 +4938,9 @@
   <data name="&gt;&gt;LblClearGiveItemLogs.Parent" xml:space="preserve">
     <value>TPItem</value>
   </data>
+  <data name="BtnUnlockStat.Text" xml:space="preserve">
+    <value>解锁</value>
+  </data>
   <data name="&gt;&gt;NUDPermUID.Name" xml:space="preserve">
     <value>NUDPermUID</value>
   </data>
@@ -4871,13 +4954,13 @@
     <value>1</value>
   </data>
   <data name="GrpPermission.Size" type="System.Drawing.Size, System.Drawing">
-    <value>540, 60</value>
+    <value>540, 80</value>
   </data>
   <data name="ChkAutoCopy.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="CmbSubAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;LblPermUID.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
   </data>
   <data name="LblTp.Text" xml:space="preserve">
     <value>坐标传送
@@ -4893,20 +4976,26 @@
   <data name="LblConsoleTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 9pt, style=Italic</value>
   </data>
-  <data name="&gt;&gt;TxtCustomName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;NUDTpY.Name" xml:space="preserve">
+    <value>NUDTpY</value>
   </data>
   <data name="NUDTpZ.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
   </data>
-  <data name="LblCustomName.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="LblGCVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="&gt;&gt;LblGCVersion.Name" xml:space="preserve">
+    <value>LblGCVersion</value>
+  </data>
+  <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>90, 190</value>
   </data>
   <data name="RbEntityNPC.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="LblConstellationTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;LblWeaponAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BtnConsoleConnect.Name" xml:space="preserve">
     <value>BtnConsoleConnect</value>
@@ -4914,26 +5003,26 @@
   <data name="LnkLinks.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="&gt;&gt;BtnBan.Name" xml:space="preserve">
-    <value>BtnBan</value>
-  </data>
   <data name="&gt;&gt;LblWeaponRefinement.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
   </data>
-  <data name="&gt;&gt;LblMainAttribution.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LblPlayerCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;BtnGiveAllChar.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="BtnUnban.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
   </data>
-  <data name="&gt;&gt;LblWeaponDescription.Name" xml:space="preserve">
-    <value>LblWeaponDescription</value>
+  <data name="RbEntityNPC.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="ButtonOpenGOODImport.Location" type="System.Drawing.Point, System.Drawing">
     <value>459, 203</value>
+  </data>
+  <data name="&gt;&gt;LblHost.Parent" xml:space="preserve">
+    <value>TPRemoteCall</value>
   </data>
   <data name="&gt;&gt;LblSceneDescription.Name" xml:space="preserve">
     <value>LblSceneDescription</value>
@@ -4944,8 +5033,8 @@
   <data name="&gt;&gt;LblLanguage.Name" xml:space="preserve">
     <value>LblLanguage</value>
   </data>
-  <data name="BtnConnectOpenCommand.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="LblTpY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="NUDAccountUid.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -4971,6 +5060,9 @@
   <data name="TxtWeaponFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
+  <data name="&gt;&gt;BtnUnban.Parent" xml:space="preserve">
+    <value>GrpBanPlayer</value>
+  </data>
   <data name="groupBox1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -4981,22 +5073,25 @@
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;LblLanguage.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;ChkDrop.Parent" xml:space="preserve">
     <value>TPItem</value>
   </data>
+  <data name="CmbGcVersions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
+  </data>
   <data name="&gt;&gt;BtnLockStat.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="LblAvatar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Right</value>
+  <data name="&gt;&gt;BtnDeleteAccount.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;TPManage.Name" xml:space="preserve">
     <value>TPManage</value>
   </data>
-  <data name="&gt;&gt;LblRemotePlayerId.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="LblOpenCommandSupport.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
   <data name="&gt;&gt;LnkRCHelp.Type" xml:space="preserve">
     <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5016,14 +5111,14 @@
   <data name="TPRemoteCall.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="BtnTeleport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="TPAvatar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="GrpTalentLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;FLPCustomCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TxtGameItemFilter.Name" xml:space="preserve">
-    <value>TxtGameItemFilter</value>
+  <data name="&gt;&gt;TxtWeaponFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BtnSaveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>355, 216</value>
@@ -5031,11 +5126,11 @@
   <data name="GrpTalentLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="LblGOODHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>363, 139</value>
+  <data name="LblPermNewCommandTip.Text" xml:space="preserve">
+    <value>v1.2.3 2022/8/27 Add*</value>
   </data>
-  <data name="LblWeaponDescription.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;ChkTopMost.Parent" xml:space="preserve">
+    <value>GrpSettings</value>
   </data>
   <data name="&gt;&gt;LblPlayerCountLabel.ZOrder" xml:space="preserve">
     <value>5</value>
@@ -5043,14 +5138,11 @@
   <data name="&gt;&gt;CmbPerm.Name" xml:space="preserve">
     <value>CmbPerm</value>
   </data>
-  <data name="TPConsoleCheck.Text" xml:space="preserve">
-    <value>控制台</value>
+  <data name="LblAvatarConstellation.Text" xml:space="preserve">
+    <value>命座</value>
   </data>
   <data name="LblConsoleTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>275, 40</value>
-  </data>
-  <data name="&gt;&gt;LblServerVersion.Name" xml:space="preserve">
-    <value>LblServerVersion</value>
   </data>
   <data name="TPManage.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -5067,8 +5159,8 @@
   <data name="LblAvatar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="LblAccountUserName.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="BtnTeleport.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;LblQuestDescription.Name" xml:space="preserve">
     <value>LblQuestDescription</value>
@@ -5076,17 +5168,17 @@
   <data name="&gt;&gt;NUDArtifactStars.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="BtnAddQuest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>90, 23</value>
+  <data name="LblTpY.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;BtnUnban.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="BtnUnban.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;LblServerVersion.Name" xml:space="preserve">
+    <value>LblServerVersion</value>
   </data>
-  <data name="LnkOpenCommandLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 62</value>
+  <data name="BtnAddQuest.Text" xml:space="preserve">
+    <value>添加任务</value>
   </data>
   <data name="TxtQuestFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 23</value>
@@ -5094,20 +5186,17 @@
   <data name="&gt;&gt;GrpServerStatus.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;CmbLanguage.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="LblToken.Text" xml:space="preserve">
-    <value>Token</value>
+  <data name="GrpRemoteCommand.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="TCMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
   </data>
-  <data name="&gt;&gt;FLPCustomCommands.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="BtnAddQuest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 216</value>
   </data>
-  <data name="LblDefaultUid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 17</value>
+  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 111</value>
   </data>
   <data name="&gt;&gt;ListGameItems.Type" xml:space="preserve">
     <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5115,8 +5204,8 @@
   <data name="&gt;&gt;BtnAddQuest.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;CmbClimateType.Parent" xml:space="preserve">
-    <value>TPScene</value>
+  <data name="BtnPermClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 51</value>
   </data>
   <data name="FLPCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
     <value>584, 182</value>
@@ -5124,20 +5213,23 @@
   <data name="LblToken.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
+  <data name="LblGCVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 83</value>
+  </data>
   <data name="&gt;&gt;NUDWeaponAmout.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LblGameItemAmount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="LblTp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 51</value>
+  <data name="&gt;&gt;LnkTalentQ.Parent" xml:space="preserve">
+    <value>GrpTalentLevel</value>
   </data>
   <data name="&gt;&gt;GrpAccount.Parent" xml:space="preserve">
     <value>TPManage</value>
   </data>
-  <data name="CmbMainAttribution.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="&gt;&gt;LnkTalentNormalATK.Name" xml:space="preserve">
+    <value>LnkTalentNormalATK</value>
   </data>
   <data name="LnkGOODHelp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -5145,17 +5237,20 @@
   <data name="LblVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 17</value>
   </data>
+  <data name="LblEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 218</value>
+  </data>
+  <data name="&gt;&gt;GrpGiveItemRecord.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;LblArtifactSet.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="&gt;&gt;ListScenes.Name" xml:space="preserve">
     <value>ListScenes</value>
   </data>
-  <data name="&gt;&gt;BtnDeleteAccount.Name" xml:space="preserve">
-    <value>BtnDeleteAccount</value>
-  </data>
-  <data name="&gt;&gt;BtnTeleport.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="GrpGiveItemRecord.Text" xml:space="preserve">
+    <value>物品记录本</value>
   </data>
   <data name="LblArtifactLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>
@@ -5169,14 +5264,14 @@
   <data name="LblGOODHelp.Text" xml:space="preserve">
     <value>快来将你的官服存档导入GC吧！</value>
   </data>
-  <data name="BtnRemoveGiveItemLog.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="LblClearGiveItemLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 193</value>
   </data>
   <data name="BtnConsoleConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;LblAbout.Name" xml:space="preserve">
-    <value>LblAbout</value>
+  <data name="BtnFinishQuest.Text" xml:space="preserve">
+    <value>完成任务</value>
   </data>
   <data name="NUDGameItemLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
@@ -5199,6 +5294,9 @@
   <data name="GrasscutterToolsIcon.Size" type="System.Drawing.Size, System.Drawing">
     <value>283, 233</value>
   </data>
+  <data name="GrpSpawnRecord.Text" xml:space="preserve">
+    <value>生成记录本</value>
+  </data>
   <data name="&gt;&gt;LblAvatar.Name" xml:space="preserve">
     <value>LblAvatar</value>
   </data>
@@ -5220,17 +5318,20 @@
   <data name="BtnUnlockStat.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;LnkResetCustomCommands.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="LblTpY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 161</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
   <data name="&gt;&gt;LblQuestDescription.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ListQuest.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="&gt;&gt;BtnPermClear.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;LblWeaponAmount.Parent" xml:space="preserve">
-    <value>TPWeapon</value>
+  <data name="&gt;&gt;NUDGameItemAmout.Parent" xml:space="preserve">
+    <value>TPItem</value>
   </data>
   <data name="BtnPermAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>407, 22</value>
@@ -5238,8 +5339,8 @@
   <data name="NUDGameItemAmout.Location" type="System.Drawing.Point, System.Drawing">
     <value>44, 216</value>
   </data>
-  <data name="LblBanUID.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="RbEntityAnimal.Text" xml:space="preserve">
+    <value>生物志</value>
   </data>
   <data name="LnkTalentE.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -5250,8 +5351,8 @@
   <data name="&gt;&gt;LblVerificationCode.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="ChkAutoCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>549, 24</value>
+  <data name="&gt;&gt;GrpQuestFilters.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="TPStats.Text" xml:space="preserve">
     <value>数据</value>
@@ -5268,8 +5369,8 @@
   <data name="BtnSaveGiveItemLog.Location" type="System.Drawing.Point, System.Drawing">
     <value>265, 48</value>
   </data>
-  <data name="&gt;&gt;CmbArtifactSet.Parent" xml:space="preserve">
-    <value>TPArtifact</value>
+  <data name="BtnSaveCustomCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
   <data name="CmbArtifactSet.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5277,29 +5378,32 @@
   <data name="&gt;&gt;LblAbout.Parent" xml:space="preserve">
     <value>TPHome</value>
   </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>任务</value>
+  <data name="&gt;&gt;BtnSaveSpawnLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TxtHost.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 23</value>
   </data>
   <data name="&gt;&gt;BtmPermRemove.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
-  <data name="LnkInventoryKamera.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="ChkIncludeUID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 23</value>
+  </data>
+  <data name="LblWeaponLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
   </data>
   <data name="&gt;&gt;LblStatTip.Name" xml:space="preserve">
     <value>LblStatTip</value>
   </data>
-  <data name="NUDArtifactStars.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="LblAvatarConstellation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
   </data>
   <data name="&gt;&gt;LblCustomName.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;LblDefaultUid.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
+  <data name="BtnSaveCustomCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;CmbArtifactPart.Parent" xml:space="preserve">
     <value>TPArtifact</value>
@@ -5310,8 +5414,8 @@
   <data name="&gt;&gt;NUDTpX.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>634, 361</value>
+  <data name="BtnPermList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
   </data>
   <data name="TxtAccountUserName.Text" xml:space="preserve">
     <value>test</value>
@@ -5325,14 +5429,17 @@
   <data name="&gt;&gt;LnkOpenCommandLabel.Parent" xml:space="preserve">
     <value>GrpServerStatus</value>
   </data>
+  <data name="ChkAccountSetUid.Text" xml:space="preserve">
+    <value>指定UID</value>
+  </data>
   <data name="&gt;&gt;BtnAddSubAttr.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ListQuest.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 208</value>
   </data>
-  <data name="BtnSendVerificationCode.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="BtnSaveSpawnLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
   <data name="&gt;&gt;LblClearSpawnLogs.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5340,29 +5447,23 @@
   <data name="&gt;&gt;LnkResetCustomCommands.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="ChkTopMost.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;NUDVerificationCode.Name" xml:space="preserve">
+    <value>NUDVerificationCode</value>
   </data>
   <data name="&gt;&gt;TPConsoleCheck.Name" xml:space="preserve">
     <value>TPConsoleCheck</value>
   </data>
-  <data name="&gt;&gt;GrpPermission.Parent" xml:space="preserve">
-    <value>TPManage</value>
-  </data>
   <data name="&gt;&gt;LblSpawnDescription.Name" xml:space="preserve">
     <value>LblSpawnDescription</value>
   </data>
-  <data name="ChkAccountSetUid.Text" xml:space="preserve">
-    <value>指定UID</value>
+  <data name="LblTpX.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
   <data name="DTPBanEndTime.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
   <data name="&gt;&gt;LblQuestDescription.ZOrder" xml:space="preserve">
     <value>3</value>
-  </data>
-  <data name="CmbSubAttributionValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>311, 98</value>
   </data>
   <data name="LblAvatarConstellation.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -5376,8 +5477,8 @@
   <data name="GrpEntityType.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
-    <value>GrpBanPlayer</value>
+  <data name="&gt;&gt;BtnDeleteAccount.Name" xml:space="preserve">
+    <value>BtnDeleteAccount</value>
   </data>
   <data name="GrpSpawnRecord.Location" type="System.Drawing.Point, System.Drawing">
     <value>9, 26</value>
@@ -5400,8 +5501,8 @@
   <data name="&gt;&gt;LblHostTip.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="LblAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Left</value>
+  <data name="&gt;&gt;LblClearSubAttrCheckedList.Name" xml:space="preserve">
+    <value>LblClearSubAttrCheckedList</value>
   </data>
   <data name="&gt;&gt;LblTpY.Parent" xml:space="preserve">
     <value>TPScene</value>
@@ -5427,9 +5528,6 @@
   <data name="&gt;&gt;CmbArtifactSet.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ChkNewCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 82</value>
-  </data>
   <data name="BtnDeleteAccount.Text" xml:space="preserve">
     <value>- 删除</value>
   </data>
@@ -5437,10 +5535,10 @@
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LblDefaultUid.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;CmbArtifactPart.Name" xml:space="preserve">
-    <value>CmbArtifactPart</value>
+  <data name="BtnCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="ChkIncludeSceneId.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -5448,11 +5546,14 @@
   <data name="LblWeaponLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;TxtCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;LblStatTip.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="BtnTeleport.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="LblCustomName.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="CmbStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 25</value>
   </data>
   <data name="ChkQuestFilterHIDDEN.Location" type="System.Drawing.Point, System.Drawing">
     <value>26, 28</value>
@@ -5472,8 +5573,8 @@
   <data name="&gt;&gt;GrpGiveItemRecord.Parent" xml:space="preserve">
     <value>TPItem</value>
   </data>
-  <data name="GrasscutterToolsIcon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>313, 6</value>
+  <data name="&gt;&gt;ImgAvatar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LnkGithub.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -5481,20 +5582,14 @@
   <data name="&gt;&gt;LblPlayerCount.Name" xml:space="preserve">
     <value>LblPlayerCount</value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="LblGameItemLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
-  </data>
-  <data name="LblRemotePlayerId.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
   </data>
   <data name="NUDBanUID.Size" type="System.Drawing.Size, System.Drawing">
     <value>82, 23</value>
   </data>
-  <data name="RbEntityMonster.Text" xml:space="preserve">
-    <value>讨伐对象</value>
-  </data>
-  <data name="BtnAddSubAttr.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;BtnUnlockStat.Parent" xml:space="preserve">
+    <value>GrpSetStats</value>
   </data>
   <data name="LblAvatarLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Right</value>
@@ -5511,17 +5606,14 @@
   <data name="NUDTpZ.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
   </data>
-  <data name="LblSupportDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 23</value>
-  </data>
   <data name="&gt;&gt;LblAbout.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="ChkIncludeUID.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;CmbSubAttribution.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;RbEntityMonster.Name" xml:space="preserve">
+    <value>RbEntityMonster</value>
   </data>
   <data name="&gt;&gt;LblBanUID.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5538,14 +5630,17 @@
   <data name="&gt;&gt;ListSpawnLogs.Parent" xml:space="preserve">
     <value>GrpSpawnRecord</value>
   </data>
-  <data name="BtnUnlockStat.Text" xml:space="preserve">
-    <value>解锁</value>
+  <data name="LblStatsDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="ImgAvatar.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="TPStats.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="&gt;&gt;LblAccountUserName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnPermClear.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="GrpAccount.Size" type="System.Drawing.Size, System.Drawing">
     <value>540, 60</value>
@@ -5556,26 +5651,30 @@
   <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>TPCustom</value>
   </data>
-  <data name="GrpSetStats.Location" type="System.Drawing.Point, System.Drawing">
-    <value>135, 54</value>
+  <data name="NUDGameItemLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
   <data name="LblWeaponAmount.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="LnkGOODHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>None</value>
+  <data name="LblGiveCommandDescription.Text" xml:space="preserve">
+    <value>给玩家指定物品
+说明：可选择直接给到背包或者掉落到世界</value>
   </data>
-  <data name="ChkNewCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 21</value>
+  <data name="LblPermNewCommandTip.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
   </data>
-  <data name="CmbLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
+  <data name="LblGOODHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>363, 139</value>
   </data>
-  <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 190</value>
+  <data name="ListEntity.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
-  <data name="&gt;&gt;ChkNewCommand.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="TPItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>602, 245</value>
+  </data>
+  <data name="LblHostTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 16</value>
   </data>
   <data name="&gt;&gt;GrpSpawnRecord.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5586,8 +5685,8 @@
   <data name="&gt;&gt;NUDTpZ.Parent" xml:space="preserve">
     <value>TPScene</value>
   </data>
-  <data name="&gt;&gt;ListQuest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;TxtBanReason.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;NUDGameItemAmout.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5595,23 +5694,20 @@
   <data name="ChkQuestFilterUNRELEASED.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="NUDWeaponAmout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+  <data name="LnkTalentNormalATK.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="NUDEntityAmout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="LblClearSubAttrCheckedList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="TPStats.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="RbEntityMonster.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="ListGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>243, 140</value>
   </data>
-  <data name="LblSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
-    <value>92, 102</value>
+  <data name="BtnFinishQuest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
   <data name="&gt;&gt;BtnTeleport.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -5628,17 +5724,20 @@
   <data name="BtnConsoleConnect.Text" xml:space="preserve">
     <value>连接</value>
   </data>
+  <data name="&gt;&gt;BtnPermList.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
+  </data>
   <data name="GrpAccount.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 6</value>
   </data>
-  <data name="&gt;&gt;LblArtifactSet.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;TxtGameItemFilter.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
-  <data name="LblStatsDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
+  <data name="ChkDrop.Text" xml:space="preserve">
+    <value>掉落</value>
   </data>
-  <data name="LblClearSpawnLogs.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="NUDStat.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;LblClearSubAttrCheckedList.ZOrder" xml:space="preserve">
     <value>10</value>
@@ -5646,8 +5745,8 @@
   <data name="LblEntityAmount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="TxtCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>400, 23</value>
+  <data name="&gt;&gt;ChkAccountSetUid.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="NUDTpY.Location" type="System.Drawing.Point, System.Drawing">
     <value>132, 159</value>
@@ -5679,8 +5778,8 @@
   <data name="LblStatTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
+  <data name="&gt;&gt;GrpPermission.Parent" xml:space="preserve">
+    <value>TPManage</value>
   </data>
   <data name="BtnOpenTextMap.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -5694,14 +5793,17 @@
   <data name="BtnCreateAccount.Text" xml:space="preserve">
     <value>+ 创建</value>
   </data>
-  <data name="ListSpawnLogs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="RbEntityMonster.Text" xml:space="preserve">
+    <value>讨伐对象</value>
   </data>
   <data name="BtmPermRemove.Text" xml:space="preserve">
     <value>- 移除</value>
   </data>
-  <data name="LnkRCHelp.Text" xml:space="preserve">
-    <value>帮助</value>
+  <data name="LblGameItemLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="ChkQuestFilterHIDDEN.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="TPOpenCommandCheck.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -5721,14 +5823,14 @@
   <data name="&gt;&gt;LblArtifactSet.Parent" xml:space="preserve">
     <value>TPArtifact</value>
   </data>
-  <data name="&gt;&gt;NUDEntityAmout.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="LblStatTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 16</value>
   </data>
-  <data name="LblArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>104, 11</value>
+  <data name="BtnRemoveCustomCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;LblGOODHelp.Parent" xml:space="preserve">
-    <value>TPRemoteCall</value>
+  <data name="ChkAccountSetUid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 21</value>
   </data>
   <data name="LblStatPercent.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -5745,11 +5847,11 @@
   <data name="&gt;&gt;LblBanUID.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;LblStatPercent.Parent" xml:space="preserve">
-    <value>GrpSetStats</value>
+  <data name="&gt;&gt;CmbLanguage.Name" xml:space="preserve">
+    <value>CmbLanguage</value>
   </data>
-  <data name="&gt;&gt;LblClimateType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;LblAccountUserName.Name" xml:space="preserve">
+    <value>LblAccountUserName</value>
   </data>
   <data name="LblWeaponAmount.Text" xml:space="preserve">
     <value>数量</value>

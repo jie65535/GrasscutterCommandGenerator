@@ -86,9 +86,12 @@ namespace GrasscutterTools.Forms
             this.LblAccountUserName = new System.Windows.Forms.Label();
             this.TxtAccountUserName = new System.Windows.Forms.TextBox();
             this.GrpPermission = new System.Windows.Forms.GroupBox();
+            this.LblPermNewCommandTip = new System.Windows.Forms.Label();
             this.CmbPerm = new System.Windows.Forms.ComboBox();
             this.NUDPermUID = new System.Windows.Forms.NumericUpDown();
+            this.BtnPermClear = new System.Windows.Forms.Button();
             this.BtmPermRemove = new System.Windows.Forms.Button();
+            this.BtnPermList = new System.Windows.Forms.Button();
             this.BtnPermAdd = new System.Windows.Forms.Button();
             this.LblPerm = new System.Windows.Forms.Label();
             this.LblPermUID = new System.Windows.Forms.Label();
@@ -218,8 +221,9 @@ namespace GrasscutterTools.Forms
             this.BtnOpenGachaBannerEditor = new System.Windows.Forms.Button();
             this.GrasscutterToolsIcon = new System.Windows.Forms.PictureBox();
             this.GrpSettings = new System.Windows.Forms.GroupBox();
+            this.LblGCVersion = new System.Windows.Forms.Label();
+            this.CmbGcVersions = new System.Windows.Forms.ComboBox();
             this.ChkTopMost = new System.Windows.Forms.CheckBox();
-            this.ChkNewCommand = new System.Windows.Forms.CheckBox();
             this.CmbLanguage = new System.Windows.Forms.ComboBox();
             this.LblLanguage = new System.Windows.Forms.Label();
             this.NUDUid = new System.Windows.Forms.NumericUpDown();
@@ -726,14 +730,23 @@ namespace GrasscutterTools.Forms
             // GrpPermission
             // 
             resources.ApplyResources(this.GrpPermission, "GrpPermission");
+            this.GrpPermission.Controls.Add(this.LblPermNewCommandTip);
             this.GrpPermission.Controls.Add(this.CmbPerm);
             this.GrpPermission.Controls.Add(this.NUDPermUID);
+            this.GrpPermission.Controls.Add(this.BtnPermClear);
             this.GrpPermission.Controls.Add(this.BtmPermRemove);
+            this.GrpPermission.Controls.Add(this.BtnPermList);
             this.GrpPermission.Controls.Add(this.BtnPermAdd);
             this.GrpPermission.Controls.Add(this.LblPerm);
             this.GrpPermission.Controls.Add(this.LblPermUID);
             this.GrpPermission.Name = "GrpPermission";
             this.GrpPermission.TabStop = false;
+            // 
+            // LblPermNewCommandTip
+            // 
+            resources.ApplyResources(this.LblPermNewCommandTip, "LblPermNewCommandTip");
+            this.LblPermNewCommandTip.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.LblPermNewCommandTip.Name = "LblPermNewCommandTip";
             // 
             // CmbPerm
             // 
@@ -758,6 +771,14 @@ namespace GrasscutterTools.Forms
             0,
             0});
             // 
+            // BtnPermClear
+            // 
+            resources.ApplyResources(this.BtnPermClear, "BtnPermClear");
+            this.BtnPermClear.Name = "BtnPermClear";
+            this.BtnPermClear.Tag = "clear";
+            this.BtnPermClear.UseVisualStyleBackColor = true;
+            this.BtnPermClear.Click += new System.EventHandler(this.BtnPermClick);
+            // 
             // BtmPermRemove
             // 
             resources.ApplyResources(this.BtmPermRemove, "BtmPermRemove");
@@ -765,6 +786,14 @@ namespace GrasscutterTools.Forms
             this.BtmPermRemove.Tag = "remove";
             this.BtmPermRemove.UseVisualStyleBackColor = true;
             this.BtmPermRemove.Click += new System.EventHandler(this.BtnPermClick);
+            // 
+            // BtnPermList
+            // 
+            resources.ApplyResources(this.BtnPermList, "BtnPermList");
+            this.BtnPermList.Name = "BtnPermList";
+            this.BtnPermList.Tag = "list";
+            this.BtnPermList.UseVisualStyleBackColor = true;
+            this.BtnPermList.Click += new System.EventHandler(this.BtnPermClick);
             // 
             // BtnPermAdd
             // 
@@ -1916,8 +1945,9 @@ namespace GrasscutterTools.Forms
             // GrpSettings
             // 
             resources.ApplyResources(this.GrpSettings, "GrpSettings");
+            this.GrpSettings.Controls.Add(this.LblGCVersion);
+            this.GrpSettings.Controls.Add(this.CmbGcVersions);
             this.GrpSettings.Controls.Add(this.ChkTopMost);
-            this.GrpSettings.Controls.Add(this.ChkNewCommand);
             this.GrpSettings.Controls.Add(this.CmbLanguage);
             this.GrpSettings.Controls.Add(this.LblLanguage);
             this.GrpSettings.Controls.Add(this.NUDUid);
@@ -1926,19 +1956,23 @@ namespace GrasscutterTools.Forms
             this.GrpSettings.Name = "GrpSettings";
             this.GrpSettings.TabStop = false;
             // 
+            // LblGCVersion
+            // 
+            resources.ApplyResources(this.LblGCVersion, "LblGCVersion");
+            this.LblGCVersion.Name = "LblGCVersion";
+            // 
+            // CmbGcVersions
+            // 
+            resources.ApplyResources(this.CmbGcVersions, "CmbGcVersions");
+            this.CmbGcVersions.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbGcVersions.FormattingEnabled = true;
+            this.CmbGcVersions.Name = "CmbGcVersions";
+            // 
             // ChkTopMost
             // 
             resources.ApplyResources(this.ChkTopMost, "ChkTopMost");
             this.ChkTopMost.Name = "ChkTopMost";
             this.ChkTopMost.UseVisualStyleBackColor = true;
-            this.ChkTopMost.CheckedChanged += new System.EventHandler(this.ChkTopMost_CheckedChanged);
-            // 
-            // ChkNewCommand
-            // 
-            resources.ApplyResources(this.ChkNewCommand, "ChkNewCommand");
-            this.ChkNewCommand.Name = "ChkNewCommand";
-            this.ChkNewCommand.UseVisualStyleBackColor = true;
-            this.ChkNewCommand.CheckedChanged += new System.EventHandler(this.ChkNewCommand_CheckedChanged);
             // 
             // CmbLanguage
             // 
@@ -1946,7 +1980,6 @@ namespace GrasscutterTools.Forms
             this.CmbLanguage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbLanguage.FormattingEnabled = true;
             this.CmbLanguage.Name = "CmbLanguage";
-            this.CmbLanguage.SelectedIndexChanged += new System.EventHandler(this.CmbLanguage_SelectedIndexChanged);
             // 
             // LblLanguage
             // 
@@ -2272,7 +2305,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.PictureBox GrasscutterToolsIcon;
         private System.Windows.Forms.GroupBox GrpSettings;
         private System.Windows.Forms.CheckBox ChkTopMost;
-        private System.Windows.Forms.CheckBox ChkNewCommand;
         private System.Windows.Forms.ComboBox CmbLanguage;
         private System.Windows.Forms.Label LblLanguage;
         private System.Windows.Forms.NumericUpDown NUDUid;
@@ -2294,5 +2326,10 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.LinkLabel LnkLinks;
         private System.Windows.Forms.Button BtnUnlockStat;
         private System.Windows.Forms.Button BtnLockStat;
+        private System.Windows.Forms.Label LblGCVersion;
+        private System.Windows.Forms.ComboBox CmbGcVersions;
+        private System.Windows.Forms.Label LblPermNewCommandTip;
+        private System.Windows.Forms.Button BtnPermClear;
+        private System.Windows.Forms.Button BtnPermList;
     }
 }
