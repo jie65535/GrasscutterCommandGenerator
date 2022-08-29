@@ -98,7 +98,6 @@ namespace GrasscutterTools.Forms
             this.TPScene = new System.Windows.Forms.TabPage();
             this.TxtSceneFilter = new System.Windows.Forms.TextBox();
             this.ChkIncludeSceneId = new System.Windows.Forms.CheckBox();
-            this.LblTp = new System.Windows.Forms.Label();
             this.LblTpZ = new System.Windows.Forms.Label();
             this.LblTpY = new System.Windows.Forms.Label();
             this.BtnTeleport = new System.Windows.Forms.Button();
@@ -110,6 +109,7 @@ namespace GrasscutterTools.Forms
             this.LblClimateType = new System.Windows.Forms.Label();
             this.LblSceneDescription = new System.Windows.Forms.Label();
             this.ListScenes = new System.Windows.Forms.ListBox();
+            this.LblTp = new System.Windows.Forms.Label();
             this.TPItem = new System.Windows.Forms.TabPage();
             this.LblClearGiveItemLogs = new System.Windows.Forms.Label();
             this.BtnSaveGiveItemLog = new System.Windows.Forms.Button();
@@ -845,11 +845,6 @@ namespace GrasscutterTools.Forms
             this.ChkIncludeSceneId.Name = "ChkIncludeSceneId";
             this.ChkIncludeSceneId.UseVisualStyleBackColor = true;
             // 
-            // LblTp
-            // 
-            resources.ApplyResources(this.LblTp, "LblTp");
-            this.LblTp.Name = "LblTp";
-            // 
             // LblTpZ
             // 
             resources.ApplyResources(this.LblTpZ, "LblTpZ");
@@ -961,6 +956,11 @@ namespace GrasscutterTools.Forms
             this.ListScenes.FormattingEnabled = true;
             this.ListScenes.Name = "ListScenes";
             this.ListScenes.SelectedIndexChanged += new System.EventHandler(this.ListScenes_SelectedIndexChanged);
+            // 
+            // LblTp
+            // 
+            resources.ApplyResources(this.LblTp, "LblTp");
+            this.LblTp.Name = "LblTp";
             // 
             // TPItem
             // 
