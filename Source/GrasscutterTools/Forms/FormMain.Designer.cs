@@ -818,7 +818,6 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.TPScene, "TPScene");
             this.TPScene.Controls.Add(this.TxtSceneFilter);
             this.TPScene.Controls.Add(this.ChkIncludeSceneId);
-            this.TPScene.Controls.Add(this.LblTp);
             this.TPScene.Controls.Add(this.LblTpZ);
             this.TPScene.Controls.Add(this.LblTpY);
             this.TPScene.Controls.Add(this.BtnTeleport);
@@ -830,6 +829,7 @@ namespace GrasscutterTools.Forms
             this.TPScene.Controls.Add(this.LblClimateType);
             this.TPScene.Controls.Add(this.LblSceneDescription);
             this.TPScene.Controls.Add(this.ListScenes);
+            this.TPScene.Controls.Add(this.LblTp);
             this.TPScene.Name = "TPScene";
             this.TPScene.UseVisualStyleBackColor = true;
             // 
