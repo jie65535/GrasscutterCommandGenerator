@@ -134,10 +134,10 @@
     <value>Команда (нажмите и удерживайте Ctrl для автоматического запуска)</value>
   </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
-    <value>Выполнить(F5)</value>
+    <value>Выполнить (F5)</value>
   </data>
   <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>Подключение к БД</value>
+    <value>Подключение к OpenCommand</value>
   </data>
   <data name="LnkInventoryKamera.Text" xml:space="preserve">
     <value>InventoryKamera</value>
@@ -146,7 +146,7 @@
     <value>Приходите и импортируйте свой официальный архив сервера в GC!</value>
   </data>
   <data name="ButtonOpenGOODImport.Text" xml:space="preserve">
-    <value>импорт GOOD</value>
+    <value>Импортировать GOOD</value>
   </data>
   <data name="LblHostTip.Location" type="System.Drawing.Point, System.Drawing">
     <value>83, 16</value>
@@ -167,7 +167,7 @@
     <value>123, 17</value>
   </data>
   <data name="LnkOpenCommandLabel.Text" xml:space="preserve">
-    <value>Открытая команда</value>
+    <value>OpenCommand</value>
   </data>
   <data name="LblOpenCommandSupport.Location" type="System.Drawing.Point, System.Drawing">
     <value>142, 63</value>
@@ -194,13 +194,13 @@
     <value>89, 17</value>
   </data>
   <data name="LblPlayerCountLabel.Text" xml:space="preserve">
-    <value>Кол. игроков</value>
+    <value>Кол-во игроков</value>
   </data>
   <data name="GrpRemoteCommand.Text" xml:space="preserve">
     <value>Удалить ячейку</value>
   </data>
   <data name="TPPlayerCheck.Text" xml:space="preserve">
-    <value>игрок</value>
+    <value>Игрок</value>
   </data>
   <data name="LnkRCHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 17</value>
@@ -209,7 +209,7 @@
     <value>Помощь</value>
   </data>
   <data name="BtnConnectOpenCommand.Text" xml:space="preserve">
-    <value>Подключить</value>
+    <value>Подключиться</value>
   </data>
   <data name="LblVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
     <value>31, 17</value>
@@ -221,10 +221,10 @@
     <value>Отправить код</value>
   </data>
   <data name="TPConsoleCheck.Text" xml:space="preserve">
-    <value>консоль</value>
+    <value>Консоль</value>
   </data>
   <data name="BtnConsoleConnect.Text" xml:space="preserve">
-    <value>Подключить</value>
+    <value>Подключиться (консоль)</value>
   </data>
   <data name="LblConsoleTip.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 8pt, style=Italic</value>
@@ -237,7 +237,7 @@
   </data>
   <data name="LblConsoleTip.Text" xml:space="preserve">
     <value>Обратите внимание, что обычные команды в состоянии консоли должны указывать цель
-(набор содержит UID)</value>
+(установите "Включить UID")</value>
   </data>
   <data name="TxtHost.Location" type="System.Drawing.Point, System.Drawing">
     <value>86, 36</value>
@@ -267,32 +267,32 @@
     <value>355, 170</value>
   </data>
   <data name="LblSupportDescription.Text" xml:space="preserve">
-    <value>Grasscutter Tools - основной перевод Юрий Дворецкий
+    <value>Grasscutter Tools - основной перевод Юрий Дворецкий (с исправлениями от EgorBron)
 
 Это бесплатный проект с открытым исходным кодом.
 Если вы считаете, что это полезно для вас,
  вы можете дать мне бесплатную звезду.
 Если возникла проблема с генерацией команды или
  есть запрос на новую функцию,
- вы можете написать о проблеме на Github.
+ вы можете написать в Issues на Github.
 
 	Спасибо:Dhar_Jinxed
 </value>
   </data>
   <data name="TPManage.Text" xml:space="preserve">
-    <value>Управлять</value>
+    <value>Аккаунты</value>
   </data>
   <data name="GrpBanPlayer.Text" xml:space="preserve">
-    <value>управление запретом</value>
+    <value>Управление банами</value>
   </data>
   <data name="BtnUnban.Text" xml:space="preserve">
-    <value>unban</value>
+    <value>Разбанить</value>
   </data>
   <data name="BtnBan.Text" xml:space="preserve">
-    <value>ban</value>
+    <value>Забанить</value>
   </data>
   <data name="TxtBanReason.Watermark" xml:space="preserve">
-    <value>причина</value>
+    <value>Причина</value>
   </data>
   <data name="NUDBanUID.Location" type="System.Drawing.Point, System.Drawing">
     <value>42, 22</value>
@@ -373,7 +373,7 @@
     <value>70, 23</value>
   </data>
   <data name="BtnPermClear.Text" xml:space="preserve">
-    <value>очистить</value>
+    <value>Очистить</value>
   </data>
   <data name="BtmPermRemove.Location" type="System.Drawing.Point, System.Drawing">
     <value>463, 22</value>
@@ -391,7 +391,7 @@
     <value>70, 23</value>
   </data>
   <data name="BtnPermList.Text" xml:space="preserve">
-    <value>Список</value>
+    <value>Список прав</value>
   </data>
   <data name="BtnPermAdd.Location" type="System.Drawing.Point, System.Drawing">
     <value>387, 22</value>
@@ -444,8 +444,8 @@
   </data>
   <data name="LblTp.Text" xml:space="preserve">
     <value>Телепортация
-Совет: Вы можете быстро телепортироваться через отметку «рыболовный крючок» на миникарте в игре.
-В команде вы можете использовать ~, чтобы указать текущую позицию, и ~100, чтобы указать относительную текущую 100</value>
+Подсказка: вы можете быстро телепортироваться через отметку «рыболовный крючок» на миникарте в игре.
+В команде вы можете использовать ~, чтобы указать текущую позицию, и ~100, чтобы указать смещение на 100 относительно текущей позиции</value>
   </data>
   <data name="LblTpZ.Location" type="System.Drawing.Point, System.Drawing">
     <value>219, 184</value>
@@ -490,8 +490,8 @@
     <value>287, 55</value>
   </data>
   <data name="LblSceneDescription.Text" xml:space="preserve">
-    <value>Управление сценой
-Совет: Большинство сцен не имеют эффекта и не могут быть введены.</value>
+    <value>Управление сценами.
+Подсказка: большинство сцен не имеют видимого эффекта и не могут быть введены здесь.</value>
   </data>
   <data name="TPItem.Text" xml:space="preserve">
     <value>Предметы</value>
@@ -524,7 +524,7 @@
     <value>34, 17</value>
   </data>
   <data name="LblGameItemAmount.Text" xml:space="preserve">
-    <value>Кол.</value>
+    <value>Кол-во</value>
   </data>
   <data name="LblGameItemLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>143, 218</value>
@@ -557,7 +557,7 @@
     <value>97, 17</value>
   </data>
   <data name="LblWeaponDescription.Text" xml:space="preserve">
-    <value>Дайть Оружие</value>
+    <value>Дать Оружие</value>
   </data>
   <data name="LblWeaponRefinement.Location" type="System.Drawing.Point, System.Drawing">
     <value>190, 218</value>
@@ -572,7 +572,7 @@
     <value>34, 17</value>
   </data>
   <data name="LblWeaponAmount.Text" xml:space="preserve">
-    <value>Кол.</value>
+    <value>Кол-во</value>
   </data>
   <data name="LblWeaponLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>102, 218</value>
@@ -599,13 +599,13 @@
     <value>Статистика</value>
   </data>
   <data name="BtnUnlockStat.Text" xml:space="preserve">
-    <value>разморозить</value>
+    <value>Разморозить статы</value>
   </data>
   <data name="BtnLockStat.Text" xml:space="preserve">
-    <value>заморозить</value>
+    <value>Заморозить статы</value>
   </data>
   <data name="LblStatTip.Text" xml:space="preserve">
-    <value>Совет</value>
+    <value>Подсказка</value>
   </data>
   <data name="GrpTalentLevel.Text" xml:space="preserve">
     <value>Уровень таланта</value>
@@ -635,7 +635,7 @@
     <value>91, 17</value>
   </data>
   <data name="LnkTalentNormalATK.Text" xml:space="preserve">
-    <value>Обычная ATK</value>
+    <value>Обычная атака</value>
   </data>
   <data name="NUDTalentLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>128, 23</value>
@@ -656,7 +656,7 @@
     <value>200, 33</value>
   </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
-    <value> Дайте ВСЕХ персонажей</value>
+    <value> Дать ВСЕХ персонажей</value>
   </data>
   <data name="LblConstellationTip.Location" type="System.Drawing.Point, System.Drawing">
     <value>373, 160</value>
@@ -665,7 +665,7 @@
     <value>200, 42</value>
   </data>
   <data name="LblConstellationTip.Text" xml:space="preserve">
-    <value>※Вступает в силу только при получении всех ролей.</value>
+    <value>※Вступает в силу только при получении всех персонажей.</value>
   </data>
   <data name="LblAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
     <value>373, 139</value>
@@ -812,15 +812,15 @@
     <value>Скрытый</value>
   </data>
   <data name="BtnFinishQuest.Text" xml:space="preserve">
-    <value>Финиш</value>
+    <value>Завершить</value>
   </data>
   <data name="BtnAddQuest.Text" xml:space="preserve">
     <value>Добавить</value>
   </data>
   <data name="LblQuestDescription.Text" xml:space="preserve">
-    <value>Добавить или завершить задание
-Совет: Для многих квестов требуется поддержка сценариев на стороне сервера
-Поэтому квест можно добавлять и заканчивать, но не обязательно можно работать</value>
+    <value>Добавить или завершить задание.
+Подсказка: для многих квестов требуется поддержка скриптов на стороне сервера.
+Поэтому квест может быть  добавлен или закончен, но завершён игроком - вряд ли.</value>
   </data>
   <data name="TPArtifact.Text" xml:space="preserve">
     <value>Артефакт</value>
@@ -934,7 +934,7 @@
     <value>96, 17</value>
   </data>
   <data name="LnkResetCustomCommands.Text" xml:space="preserve">
-    <value>перезагрузить</value>
+    <value>Перезагрузить</value>
   </data>
   <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>369, 216</value>
@@ -994,7 +994,7 @@
     <value>122, 21</value>
   </data>
   <data name="ChkTopMost.Text" xml:space="preserve">
-    <value>самый верхний</value>
+    <value>Последняя версия</value>
   </data>
   <data name="ChkIncludeUID.Size" type="System.Drawing.Size, System.Drawing">
     <value>113, 21</value>
@@ -1003,6 +1003,6 @@
     <value>Включить UID</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>GrasscutterTools - перевод Юрий Дворецкий</value>
+    <value>GrasscutterTools - перевод Юрий Дворецкий (с исправлениями от EgorBron)</value>
   </data>
 </root>

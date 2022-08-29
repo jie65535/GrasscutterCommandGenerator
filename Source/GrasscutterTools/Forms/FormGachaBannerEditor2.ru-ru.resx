@@ -236,7 +236,7 @@
     <value>101, 17</value>
   </data>
   <data name="LblSortIdTip.Text" xml:space="preserve">
-    <value>Показать заказ</value>
+    <value>Показать порядок</value>
   </data>
   <data name="LblBannerType.Location" type="System.Drawing.Point, System.Drawing">
     <value>18, 87</value>
@@ -402,7 +402,7 @@
     <value>85, 23</value>
   </data>
   <data name="BtnParse.Text" xml:space="preserve">
-    <value>Загр.Json</value>
+    <value>Загр. Json</value>
   </data>
   <data name="LnkWeightHelp.Location" type="System.Drawing.Point, System.Drawing">
     <value>375, 0</value>
