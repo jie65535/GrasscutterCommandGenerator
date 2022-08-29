@@ -1,24 +1,24 @@
 [
   {
-    "Name": "Текущая HP",
+    "Name": "Текущее здоровье (HP)",
     "ArgName": "hp",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "Макс. HP",
+    "Name": "Макс. здоровье (HP)",
     "ArgName": "maxhp",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "Текущая силы атаки",
+    "Name": "Текущая сила атаки",
     "ArgName": "atk",
     "Percent": false,
     "Tip": ""
   },
   {
-    "Name": "Базовая атака",
+    "Name": "Базовая сила атаки",
     "ArgName": "atkb",
     "Percent": false,
     "Tip": "Похоже, это не пересчитывает силу атаки и может работать только с классами баффов."
@@ -42,7 +42,7 @@
     "Tip": ""
   },
   {
-    "Name": "Крит. урон",
+    "Name": "Критический урон",
     "ArgName": "cdmg",
     "Percent": true,
     "Tip": ""
@@ -186,7 +186,7 @@
     "Tip": ""
   },
   {
-    "Name": "Игнорировать DEF",
+    "Name": "Игнорирование защиты",
     "ArgName": "defi",
     "Percent": true,
     "Tip": "Это, кажется, не работает."
