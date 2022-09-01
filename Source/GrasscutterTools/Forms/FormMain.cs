@@ -46,9 +46,17 @@ namespace GrasscutterTools.Forms
         {
             InitializeComponent();
             Icon = Resources.IconGrasscutter;
+
+            // 加载版本信息
             LoadVersion();
+
+            // 加载设置
             LoadSettings();
-            LoadUpdate();
+            
+#if !DEBUG  // 仅正式版
+            // 检查更新，但不要弹窗
+            Task.Run(async () => { try { await LoadUpdate(); } catch { /* 启动时检查更新，忽略异常 */ }});
+#endif
         }
 
         private void FormMain_Load(object sender, EventArgs e)
@@ -142,41 +150,22 @@ namespace GrasscutterTools.Forms
             }
         }
 
-        private void LoadUpdate()
+        private ReleaseAPI.ReleaseInfo LastestInfo = null;
+        private Version lastestVersion = null;
+
+        private async Task LoadUpdate()
         {
-#if !DEBUG
-            Task.Run(async () =>
+            var info = await ReleaseAPI.GetReleasesLastest("jie65535", "GrasscutterCommandGenerator");
+            if (Version.TryParse(info.TagName.Substring(1), out lastestVersion) && AppVersion < lastestVersion)
             {
-                try
-                {
-                    await Task.Delay(5000);
-                    var info = await ReleaseAPI.GetReleasesLastest("jie65535", "GrasscutterCommandGenerator");
-                    if (Version.TryParse(info.TagName.Substring(1), out Version lastestVersion) && AppVersion < lastestVersion)
-                    {
-                        if (!string.IsNullOrEmpty(Settings.Default.CheckedLastVersion)
-                            && Version.TryParse(Settings.Default.CheckedLastVersion, out Version checkedVersion)
-                            && checkedVersion >= lastestVersion)
-                            return;
-                        BeginInvoke(new Action(() =>
-                        {
-                            var r = MessageBox.Show(
-                                string.Format(Resources.NewVersionInfo, info.Name, info.CraeteTime.ToLocalTime(), info.Body),
-                                Resources.CheckToNewVersion,
-                                MessageBoxButtons.YesNo,
-                                MessageBoxIcon.Information);
-                            if (r == DialogResult.Yes)
-                                OpenURL(info.Url);
-                            else if (r == DialogResult.No)
-                                Settings.Default.CheckedLastVersion = lastestVersion.ToString();
-                        }));
-                    }
-                }
-                catch (Exception)
-                {
-                    throw;
-                }
-            });
-#endif
+                if (!string.IsNullOrEmpty(Settings.Default.CheckedLastVersion)
+                    && Version.TryParse(Settings.Default.CheckedLastVersion, out Version checkedVersion)
+                    && checkedVersion >= lastestVersion)
+                    return;
+                LnkNewVersion.Text = Resources.CheckToNewVersion;
+                LnkNewVersion.Visible = true;
+                LastestInfo = info;
+            }
         }
 
         #endregion - 初始化 Init -
@@ -289,6 +278,31 @@ namespace GrasscutterTools.Forms
         {
             Settings.Default.CommandVersion = CommandVersion.Current.ToString(3);
             ChangeTPArtifact();
+        }
+
+
+        /// <summary>
+        /// 点击检查更新时触发
+        /// </summary>
+        private void LnkNewVersion_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (LastestInfo != null)
+            {
+                var r = MessageBox.Show(
+                    string.Format(Resources.NewVersionInfo, LastestInfo.Name, LastestInfo.CraeteTime.ToLocalTime(), LastestInfo.Body),
+                    Resources.CheckToNewVersion,
+                    MessageBoxButtons.YesNo,
+                    MessageBoxIcon.Information);
+                if (r == DialogResult.Yes)
+                    OpenURL(LastestInfo.Url);
+                else if (r == DialogResult.No)
+                    Settings.Default.CheckedLastVersion = lastestVersion.ToString();
+            }
+            else
+            {
+                // 没有更新，隐藏
+                LnkNewVersion.Visible = false;
+            }
         }
 
         #endregion - 主页 Home -
@@ -1647,29 +1661,16 @@ namespace GrasscutterTools.Forms
         private OpenCommandAPI OC;
 
         /// <summary>
-        /// 初始化开放命令
+        /// 进入远程页面时触发
         /// </summary>
-        private void InitOpenCommand()
+        private void TPRemoteCall_Enter(object sender, EventArgs e)
         {
-            NUDRemotePlayerId.Value = Settings.Default.RemoteUid;
-            TxtHost.Text = Settings.Default.Host;
-            if (!string.IsNullOrEmpty(Settings.Default.Host) && !string.IsNullOrEmpty(Settings.Default.TokenCache))
-            {
-                OC = new OpenCommandAPI(Settings.Default.Host, Settings.Default.TokenCache);
-                TxtToken.Text = Settings.Default.TokenCache;
-                Task.Run(async () =>
-                {
-                    await Task.Delay(1000);
-                    BeginInvoke(new Action(() => ShowTip(Resources.TokenRestoredFromCache, BtnInvokeOpenCommand)));
-                });
-            }
-            else
-            {
 #if !DEBUG
+            if (string.IsNullOrEmpty(Settings.Default.Host) || string.IsNullOrEmpty(Settings.Default.TokenCache))
+            {
                 // 自动尝试查询本地服务端地址，降低使用门槛
                 Task.Run(async () =>
                 {
-                    await Task.Delay(5000);
                     var localhosts = new string[] {
                         "http://127.0.0.1:443",
                         "https://127.0.0.1",
@@ -1693,7 +1694,26 @@ namespace GrasscutterTools.Forms
                         }
                     }
                 });
+            }
 #endif
+        }
+
+        /// <summary>
+        /// 初始化开放命令
+        /// </summary>
+        private void InitOpenCommand()
+        {
+            NUDRemotePlayerId.Value = Settings.Default.RemoteUid;
+            TxtHost.Text = Settings.Default.Host;
+            if (!string.IsNullOrEmpty(Settings.Default.Host) && !string.IsNullOrEmpty(Settings.Default.TokenCache))
+            {
+                OC = new OpenCommandAPI(Settings.Default.Host, Settings.Default.TokenCache);
+                TxtToken.Text = Settings.Default.TokenCache;
+                Task.Run(async () =>
+                {
+                    await Task.Delay(1000);
+                    BeginInvoke(new Action(() => ShowTip(Resources.TokenRestoredFromCache, BtnInvokeOpenCommand)));
+                });
             }
         }
 
@@ -2084,5 +2104,6 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 任务 Quests -
+
     }
 }
