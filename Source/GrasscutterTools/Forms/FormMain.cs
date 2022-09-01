@@ -162,9 +162,13 @@ namespace GrasscutterTools.Forms
                     && Version.TryParse(Settings.Default.CheckedLastVersion, out Version checkedVersion)
                     && checkedVersion >= lastestVersion)
                     return;
-                LnkNewVersion.Text = Resources.CheckToNewVersion;
-                LnkNewVersion.Visible = true;
                 LastestInfo = info;
+                BeginInvoke(new Action(() =>
+                {
+                    LnkNewVersion.Visible = true;
+                    LnkNewVersion.Text = Resources.CheckToNewVersion;
+                    this.Text += " - " + Resources.CheckToNewVersion;
+                }));
             }
         }
 
