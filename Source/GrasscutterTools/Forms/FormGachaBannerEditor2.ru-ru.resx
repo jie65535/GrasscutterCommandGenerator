@@ -233,7 +233,7 @@
     <value>Молитва события с оружием</value>
   </data>
   <data name="LblSortIdTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>101, 17</value>
+    <value>121, 17</value>
   </data>
   <data name="LblSortIdTip.Text" xml:space="preserve">
     <value>Показать порядок</value>
@@ -282,6 +282,9 @@
   </data>
   <data name="GrpBannerValues.Text" xml:space="preserve">
     <value>Баннер</value>
+  </data>
+  <data name="GrpFallbackPool.Text" xml:space="preserve">
+    <value>Запасной Пул</value>
   </data>
   <data name="ListFallbackItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -343,8 +346,8 @@
         bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXMws=
 </value>
   </data>
-  <data name="GrpFallbackPool.Text" xml:space="preserve">
-    <value>Запасной Пул</value>
+  <data name="GrpUpPool.Text" xml:space="preserve">
+    <value>Верхний Пул</value>
   </data>
   <data name="ListUpItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -386,9 +389,6 @@
         bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc0Cw==
 </value>
   </data>
-  <data name="GrpUpPool.Text" xml:space="preserve">
-    <value>Верхний Пул</value>
-  </data>
   <data name="BtnGen.Size" type="System.Drawing.Size, System.Drawing">
     <value>85, 23</value>
   </data>
@@ -403,6 +403,9 @@
   </data>
   <data name="BtnParse.Text" xml:space="preserve">
     <value>Загр. Json</value>
+  </data>
+  <data name="GrpWeights.Text" xml:space="preserve">
+    <value>Gacha Веса</value>
   </data>
   <data name="LnkWeightHelp.Location" type="System.Drawing.Point, System.Drawing">
     <value>375, 0</value>
@@ -431,8 +434,8 @@
   <data name="LblWeight5.Text" xml:space="preserve">
     <value>Веса 5*</value>
   </data>
-  <data name="GrpWeights.Text" xml:space="preserve">
-    <value>Gacha Веса</value>
+  <data name="GrpBalance.Text" xml:space="preserve">
+    <value>Баланс персонажа и оружия (работают только смешанные пулы)</value>
   </data>
   <data name="LblPoolWeight4.Location" type="System.Drawing.Point, System.Drawing">
     <value>28, 61</value>
@@ -452,8 +455,8 @@
   <data name="LblPoolWeight5.Text" xml:space="preserve">
     <value>Пул Веса 5*</value>
   </data>
-  <data name="GrpBalance.Text" xml:space="preserve">
-    <value>Баланс персонажа и оружия (работают только смешанные пулы)</value>
+  <data name="GrpWeightChart.Text" xml:space="preserve">
+    <value>Таблица веса</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Редактор баннеров Gacha</value>

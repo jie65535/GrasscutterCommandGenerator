@@ -30,6 +30,10 @@ namespace GrasscutterTools.Forms
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGachaBannerEditor2));
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.GrpBannerValues = new System.Windows.Forms.GroupBox();
             this.ChkAutoStripRateUpFromFallback = new System.Windows.Forms.CheckBox();
             this.LblOptions = new System.Windows.Forms.Label();
@@ -84,6 +88,8 @@ namespace GrasscutterTools.Forms
             this.TxtPoolWeight5 = new System.Windows.Forms.TextBox();
             this.LblPoolWeight4 = new System.Windows.Forms.Label();
             this.LblPoolWeight5 = new System.Windows.Forms.Label();
+            this.GrpWeightChart = new System.Windows.Forms.GroupBox();
+            this.ChartWeights = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.GrpBannerValues.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEventChance5)).BeginInit();
@@ -95,11 +101,12 @@ namespace GrasscutterTools.Forms
             this.GrpJson.SuspendLayout();
             this.GrpWeights.SuspendLayout();
             this.GrpBalance.SuspendLayout();
+            this.GrpWeightChart.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ChartWeights)).BeginInit();
             this.SuspendLayout();
             // 
             // GrpBannerValues
             // 
-            resources.ApplyResources(this.GrpBannerValues, "GrpBannerValues");
             this.GrpBannerValues.Controls.Add(this.ChkAutoStripRateUpFromFallback);
             this.GrpBannerValues.Controls.Add(this.LblOptions);
             this.GrpBannerValues.Controls.Add(this.ChkRemoveC6FormPool);
@@ -130,6 +137,7 @@ namespace GrasscutterTools.Forms
             this.GrpBannerValues.Controls.Add(this.LblCostItem);
             this.GrpBannerValues.Controls.Add(this.LblPrefabPath);
             this.GrpBannerValues.Controls.Add(this.RbCostItem223);
+            resources.ApplyResources(this.GrpBannerValues, "GrpBannerValues");
             this.GrpBannerValues.Name = "GrpBannerValues";
             this.GrpBannerValues.TabStop = false;
             // 
@@ -173,9 +181,9 @@ namespace GrasscutterTools.Forms
             // 
             // CmbPrefab
             // 
-            resources.ApplyResources(this.CmbPrefab, "CmbPrefab");
             this.CmbPrefab.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbPrefab.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbPrefab, "CmbPrefab");
             this.CmbPrefab.Name = "CmbPrefab";
             // 
             // LblEventChance4Tip
@@ -305,13 +313,13 @@ namespace GrasscutterTools.Forms
             // 
             // CmbBannerType
             // 
-            resources.ApplyResources(this.CmbBannerType, "CmbBannerType");
             this.CmbBannerType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbBannerType.FormattingEnabled = true;
             this.CmbBannerType.Items.AddRange(new object[] {
             resources.GetString("CmbBannerType.Items"),
             resources.GetString("CmbBannerType.Items1"),
             resources.GetString("CmbBannerType.Items2")});
+            resources.ApplyResources(this.CmbBannerType, "CmbBannerType");
             this.CmbBannerType.Name = "CmbBannerType";
             // 
             // LblSortIdTip
@@ -358,11 +366,11 @@ namespace GrasscutterTools.Forms
             // 
             // ListFallbackItems
             // 
-            resources.ApplyResources(this.ListFallbackItems, "ListFallbackItems");
             this.ListFallbackItems.CheckBoxes = true;
             this.ListFallbackItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColFallbackId,
             this.ColFallbackName});
+            resources.ApplyResources(this.ListFallbackItems, "ListFallbackItems");
             this.ListFallbackItems.FullRowSelect = true;
             this.ListFallbackItems.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListFallbackItems.Groups"))),
@@ -386,18 +394,18 @@ namespace GrasscutterTools.Forms
             // 
             // GrpUpPool
             // 
-            resources.ApplyResources(this.GrpUpPool, "GrpUpPool");
             this.GrpUpPool.Controls.Add(this.ListUpItems);
+            resources.ApplyResources(this.GrpUpPool, "GrpUpPool");
             this.GrpUpPool.Name = "GrpUpPool";
             this.GrpUpPool.TabStop = false;
             // 
             // ListUpItems
             // 
-            resources.ApplyResources(this.ListUpItems, "ListUpItems");
             this.ListUpItems.CheckBoxes = true;
             this.ListUpItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColUpId,
             this.ColUpName});
+            resources.ApplyResources(this.ListUpItems, "ListUpItems");
             this.ListUpItems.FullRowSelect = true;
             this.ListUpItems.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListUpItems.Groups"))),
@@ -447,12 +455,12 @@ namespace GrasscutterTools.Forms
             // 
             // GrpWeights
             // 
-            resources.ApplyResources(this.GrpWeights, "GrpWeights");
             this.GrpWeights.Controls.Add(this.LnkWeightHelp);
             this.GrpWeights.Controls.Add(this.TxtWeight4);
             this.GrpWeights.Controls.Add(this.TxtWeight5);
             this.GrpWeights.Controls.Add(this.LblWeight4);
             this.GrpWeights.Controls.Add(this.LblWeight5);
+            resources.ApplyResources(this.GrpWeights, "GrpWeights");
             this.GrpWeights.Name = "GrpWeights";
             this.GrpWeights.TabStop = false;
             // 
@@ -485,11 +493,11 @@ namespace GrasscutterTools.Forms
             // 
             // GrpBalance
             // 
-            resources.ApplyResources(this.GrpBalance, "GrpBalance");
             this.GrpBalance.Controls.Add(this.TxtPoolWeight4);
             this.GrpBalance.Controls.Add(this.TxtPoolWeight5);
             this.GrpBalance.Controls.Add(this.LblPoolWeight4);
             this.GrpBalance.Controls.Add(this.LblPoolWeight5);
+            resources.ApplyResources(this.GrpBalance, "GrpBalance");
             this.GrpBalance.Name = "GrpBalance";
             this.GrpBalance.TabStop = false;
             // 
@@ -513,10 +521,51 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.LblPoolWeight5, "LblPoolWeight5");
             this.LblPoolWeight5.Name = "LblPoolWeight5";
             // 
+            // GrpWeightChart
+            // 
+            resources.ApplyResources(this.GrpWeightChart, "GrpWeightChart");
+            this.GrpWeightChart.Controls.Add(this.ChartWeights);
+            this.GrpWeightChart.Name = "GrpWeightChart";
+            this.GrpWeightChart.TabStop = false;
+            // 
+            // ChartWeights
+            // 
+            chartArea2.AxisX.Minimum = 0D;
+            chartArea2.AxisY.Maximum = 100D;
+            chartArea2.AxisY.Minimum = 0D;
+            chartArea2.AxisY.Title = "%";
+            chartArea2.Name = "ChartArea1";
+            this.ChartWeights.ChartAreas.Add(chartArea2);
+            resources.ApplyResources(this.ChartWeights, "ChartWeights");
+            legend2.Name = "Legend1";
+            this.ChartWeights.Legends.Add(legend2);
+            this.ChartWeights.Name = "ChartWeights";
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Color = System.Drawing.Color.OrangeRed;
+            series3.Label = "(#VALX, #VAL)";
+            series3.Legend = "Legend1";
+            series3.LegendText = "5*";
+            series3.Name = "SeriesWeight5";
+            series3.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32;
+            series3.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series4.Color = System.Drawing.Color.Purple;
+            series4.Label = "(#VALX, #VAL)";
+            series4.Legend = "Legend1";
+            series4.LegendText = "4*";
+            series4.Name = "SeriesWeight4";
+            series4.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32;
+            series4.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            this.ChartWeights.Series.Add(series3);
+            this.ChartWeights.Series.Add(series4);
+            // 
             // FormGachaBannerEditor2
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.GrpWeightChart);
             this.Controls.Add(this.GrpBalance);
             this.Controls.Add(this.GrpWeights);
             this.Controls.Add(this.GrpJson);
@@ -540,6 +589,8 @@ namespace GrasscutterTools.Forms
             this.GrpWeights.PerformLayout();
             this.GrpBalance.ResumeLayout(false);
             this.GrpBalance.PerformLayout();
+            this.GrpWeightChart.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ChartWeights)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -599,5 +650,7 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.CheckBox ChkRemoveC6FormPool;
         private System.Windows.Forms.CheckBox ChkAutoStripRateUpFromFallback;
         private System.Windows.Forms.Label LblOptions;
+        private System.Windows.Forms.GroupBox GrpWeightChart;
+        private System.Windows.Forms.DataVisualization.Charting.Chart ChartWeights;
     }
 }

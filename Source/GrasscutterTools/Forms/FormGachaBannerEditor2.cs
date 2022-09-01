@@ -22,6 +22,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 
 using GrasscutterTools.Game;
 using GrasscutterTools.Game.Gacha;
@@ -183,6 +184,15 @@ namespace GrasscutterTools.Forms
             TxtWeight4.Text = '[' + string.Join(", ", SelectWeights(banner.Weights4).Select(w => $"[{w.Count}, {w.Weight}]")) + ']';
             TxtPoolWeight5.Text = '[' + string.Join(", ", SelectWeights(banner.PoolBalanceWeights5).Select(w => $"[{w.Count}, {w.Weight}]")) + ']';
             TxtPoolWeight4.Text = '[' + string.Join(", ", SelectWeights(banner.PoolBalanceWeights4).Select(w => $"[{w.Count}, {w.Weight}]")) + ']';
+
+            ChartWeights.SuspendLayout();
+            ChartWeights.Series[0].Points.Clear();
+            foreach (var w in SelectWeights(banner.Weights5))
+                ChartWeights.Series[0].Points.AddXY(w.Count, w.Weight / 100.0);
+            ChartWeights.Series[1].Points.Clear();
+            foreach (var w in SelectWeights(banner.Weights4))
+                ChartWeights.Series[1].Points.AddXY(w.Count, w.Weight / 100.0);
+            ChartWeights.ResumeLayout();
         }
 
         private IEnumerable<GachaWeight> SelectWeights(int[,] weights)
@@ -295,6 +305,7 @@ namespace GrasscutterTools.Forms
                     var json = JsonConvert.SerializeObject(banner);
                     json = json.Replace(",\"", ",\r\n  \"").Insert(1, "\r\n  ");
                     TxtJson.Text = json.Insert(json.Length-1, "\r\n");
+                    ShowBanner(banner);
                 }
             }
             catch (Exception ex)
