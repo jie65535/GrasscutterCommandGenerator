@@ -215,6 +215,8 @@
 24020401: Ruin Scout
 24020402: Ruin Scout
 24020403: Ruin Scout
+24030201: Ruin gragoyle 
+24030101: Ruin gragoyle (Winged)
 24021101: Perpetual Mechanical Array
 24021102: Perpetual Mechanical Array
 25010101: Liuliu
@@ -274,10 +276,8 @@
 25090301: Maguu Kenki: Galloping Frost
 25090401: Maguu Kenki: Mask of Terror
 25100101: Kairagi: Dancing Thunder
-25100102: Kairagi: Dancing Thunder
 25100201: Kairagi: Fiery Might
 25100301: Ochimusha: Ensorcelled Thunder
-25100302: Ochimusha: Ensorcelled Thunder
 25100401: Ochimusha: Cankered Flame
 26010101: Cryo Whopperflower
 26010102: Cryo Whopperflower
@@ -288,6 +288,7 @@
 26020101: Cryo Regisvine
 26020102: Cryo Regisvine
 26020201: Pyro Regisvine
+26020301: Electro Regisvine
 26030101: Geovishap Hatchling
 26040101: Geovishap (Hydro)
 26040102: Geovishap (Pyro)
@@ -300,10 +301,8 @@
 26050401: Primo Geovishap (Electro)
 26050501: Primo Geovishap
 26050601: Primordial Bathysmal Vishap
-26050701: Rimebiter Bathysmal Vishap
 26050702: Rimebiter Bathysmal Vishap
 26050801: Bolteater Bathysmal Vishap
-26050802: Bolteater Bathysmal Vishap
 26050901: Primordial Bathysmal Vishap
 26051001: Primordial Bathysmal Vishap Hatchling
 26051101: Bolteater Bathysmal Vishap Hatchling
@@ -318,12 +317,9 @@
 29010104: Stormterror
 29020101: Boreas, Great Wolf King of the North
 29020102: Lupus Boreas, Dominator of Wolves
-29030101: Childe - Eleventh of the Fatui Harbingers
-29030102: Childe - Delusion Unleashed
-29030103: Childe
-29030104: Childe - Eleventh of the Fatui Harbingers
-29030105: Childe - Delusion Unleashed
-29030106: Childe
+29030101 : Childe
+29030102 : Delusion Unleashed - Childe
+29030103 : Eleventh of the Fatui Harbingers - Tartaglia
 29040101: Azhdaha (Pyro, Electro)
 29040102: Azhdaha (Hydro, Electro)
 29040103: Azhdaha (Pyro, Cryo)
@@ -334,7 +330,6 @@
 29050103: La Signora
 29050104: La Signora - Crimson Witch of Embers
 29060101: Raiden Shogun
-29060102: Raiden Ei
 29060201: Magatsu Mitake Narukami no Mikoto
 29060202: Magatsu Mitake Narukami no Mikoto
 29060203: Magatsu Mitake Narukami no Mikoto
