@@ -1737,6 +1737,8 @@ namespace GrasscutterTools.Forms
         /// <param name="host">主机地址</param>
         private async Task UpdateServerStatus(string host)
         {
+            // "http://127.0.0.1/" -> "http://127.0.0.1"
+            host = host.TrimEnd('/');
             var status = await DispatchServerAPI.QueryServerStatus(host);
             LblServerVersion.Text = status.Version;
             if (status.MaxPlayer >= 0)
