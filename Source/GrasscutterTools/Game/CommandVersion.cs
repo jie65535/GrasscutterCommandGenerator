@@ -93,6 +93,18 @@ namespace GrasscutterTools.Game
         /// </summary>
         public static readonly Version V1_2_3 = new Version(1, 2, 3);
 
+        /// <summary>
+        /// v1.2.3 -> v1.3.0  2022/9/3 - stable
+        /// git 155501058fcce109489a19db37d0513d2235e08e
+        /// </summary>
+        public static readonly Version V1_3_0 = new Version(1, 3, 0);
+
+        /// <summary>
+        /// v1.3.0 -> v1.3.1  2022/9/3
+        /// git 6cf83b30eeaa98a68de2d786d7ca85ae21a95e32
+        /// </summary>
+        public static readonly Version V1_3_1 = new Version(1, 3, 1);
+
         // More...
         /// <summary>
         /// v1.2.3 -> v1.2.4  2022/7/21
@@ -104,7 +116,9 @@ namespace GrasscutterTools.Game
             V1_2_1,
             V1_2_2,
             V1_2_3,
-            //V1_2_4,
+            V1_3_0,
+            V1_3_1,
+            //V1_3_2,
         };
 
         #endregion - 版本列表 Version List -
