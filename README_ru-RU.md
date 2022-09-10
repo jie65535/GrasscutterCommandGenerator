@@ -4,13 +4,15 @@
 [![GitHub звёзды](https://img.shields.io/github/stars/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/stargazers)
 [![Github ВСЕ выпуски](https://img.shields.io/github/downloads/jie65535/GrasscutterCommandGenerator/total.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
 
-[中文](README.md) | [English](README_en-US.md) | Русский - Перевод Юрий Дворецкий (с исправлениями от EgorBron) 
+[English](README.md) | [简体中文](README_zh-cn.md) | Русский - Перевод Юрий Дворецкий (с исправлениями от EgorBron) 
 
 ## Генератор команд
 
 Пожалуйста, загрузите последнюю версию из вкладки [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
 
-Поддерживает 简中 (китайский упр.), 繁中 (китайский трад.), English (английский) и Русский языки.
+Поддерживает 简体中文 (китайский упр.), 繁体中文 (китайский трад.), English (английский) и Русский языки.
+
+Приглашаем всех улучшить [ресурс ID](/Source/GrasscutterTools/Resources/ru-ru)
 
 ## Удаленная команда
 
