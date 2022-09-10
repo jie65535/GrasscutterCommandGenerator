@@ -1408,7 +1408,7 @@
     <value>TxtBanReason</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Type" xml:space="preserve">
-    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.6.5.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.6.6.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
     <value>GrpBanPlayer</value>
@@ -5419,7 +5419,7 @@
     <value>NoControl</value>
   </data>
   <data name="LnkNewVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 102</value>
+    <value>6, 79</value>
   </data>
   <data name="LnkNewVersion.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 17</value>
