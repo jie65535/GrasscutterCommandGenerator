@@ -3973,6 +3973,9 @@
   <data name="RbEntityNPC.Text" xml:space="preserve">
     <value>NPC</value>
   </data>
+  <data name="RbEntityNPC.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="&gt;&gt;RbEntityNPC.Name" xml:space="preserve">
     <value>RbEntityNPC</value>
   </data>

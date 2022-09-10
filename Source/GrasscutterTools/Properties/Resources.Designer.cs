@@ -80,12 +80,14 @@ namespace GrasscutterTools.Properties {
         ///28010401:藤纹陆鳗鳗
         ///28010402:深海鳗鳗
         ///28010403:赤鳍陆鳗鳗
+        ///28010404:流沙鳗鳗
         ///28020101:雪狐
         ///28020102:红狐
         ///28020103:送礼雪狐
         ///28020104:送大礼雪狐
         ///28020105:雪狐
         ///28020106:红狐
+        ///28020108:沙狐
         ///28020201:松鼠
         ///28020301:野林猪
         ///28020302:小野林猪
@@ -95,9 +97,7 @@ namespace GrasscutterTools.Properties {
         ///28020306:雪猪
         ///28020307:野林猪
         ///28020308:冰冻雪猪
-        ///28020309:「大雪猪王」
-        ///28020401:北地犬
-        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///280 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Animal {
             get {
@@ -154,7 +154,7 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 ﻿20:深林的记忆
+        ///   查找类似 20:深林的记忆
         ///21:饰金之梦
         ///51:行者之心
         ///52:勇士之心
@@ -513,27 +513,27 @@ namespace GrasscutterTools.Properties {
         ////prop ns on
         ///无限能量
         ////prop ue on
-        ///升到60级
+        ///冒险等阶升60级
         ////give 102 x1880200
-        ///设置世界等级
+        ///设置世界等级8
         ////prop wl 8
         ///点亮地图
         ////prop unlockmap 1
-        ///一键解锁深渊
+        ///一键解锁深渊12层
         ////prop ut 12
-        ///设置纪行等级
+        ///设置纪行等级50
         ////prop bp 50
-        ///设置好感等级
+        ///设置好感等级10
         ////setfetterlevel 10
-        ///奶
+        ///回血
         ////h
         ///自杀
         ////kill 0
         ///全队充能
         ////spawn 2008 25
-        ///我在哪？
+        ///查看坐标
         ////pos
-        ///我全都要！
+        ///获取全部物品
         ////give all x9999 lv90 c6 r5
         ///一万纠缠
         ////give 223 x10000
@@ -552,9 +552,7 @@ namespace GrasscutterTools.Properties {
         ///清空全部角色命之座(需重登)
         ////resetconst all
         ///清空背包
-        ////clear all lv90 r5 5*
-        ///清空武器
-        //// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ////clear all lv90 r [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string CustomCommands {
             get {
@@ -738,13 +736,14 @@ namespace GrasscutterTools.Properties {
         ///143:巧思手记
         ///144:随想草稿
         ///145:古铁钱
+        ///147:节庆热度
+        ///148:营业收入
+        ///149:可用资金
+        ///150:巧策灵感
         ///201:原石
         ///202:摩拉
         ///203:创世结晶
-        ///204:洞天宝钱
-        ///314:声望经验·稻妻
-        ///315:声望经验·蒙德
-        ///316:声 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///2 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Item {
             get {
@@ -813,35 +812,6 @@ namespace GrasscutterTools.Properties {
         internal static string NewVersionInfo {
             get {
                 return ResourceManager.GetString("NewVersionInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 1: (test)蒙德城主$UNRELEASED
-        ///2: (test)哥哥$UNRELEASED
-        ///3: (test)妹妹$UNRELEASED
-        ///4: (test)塔主$UNRELEASED
-        ///5: (test)仆人$UNRELEASED
-        ///6: (test)东北村长$UNRELEASED
-        ///7: (test)西北村长$UNRELEASED
-        ///8: (test)西南村长$UNRELEASED
-        ///9: (test)正南村长$UNRELEASED
-        ///10: (test)晖哥$UNRELEASED
-        ///11: (test)果酱$UNRELEASED
-        ///12: (test)汪汪1$UNRELEASED
-        ///13: (test)汪汪2$UNRELEASED
-        ///14: (test)汪汪3$UNRELEASED
-        ///15: (test)汪汪4$UNRELEASED
-        ///21: (test)卫兵$UNRELEASED
-        ///22: (test)卫兵$UNRELEASED
-        ///23: (test)卫兵$UNRELEASED
-        ///24: (test)卫兵$UNRELEASED
-        ///25: (test)路人$UNRELEASED
-        ///26: (te [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string NPC {
-            get {
-                return ResourceManager.GetString("NPC", resourceCulture);
             }
         }
         
@@ -949,34 +919,36 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 1: BigWorld_LevelStreaming
-        ///2: BigWorld_LevelStreaming
-        ///3: 提瓦特
-        ///4: 金苹果群岛(1.6)
-        ///5: 渊下宫
-        ///6: 层岩巨渊·地下矿区
-        ///7: 三界路飨祭
-        ///9: 金苹果群岛(2.8)
-        ///1001: 移动平台性能测试(test)
-        ///1002: ClimbTest2
-        ///1003: TheBigWorld
-        ///1004: Knight_Inside_Test
-        ///1005: ChurchSteal
-        ///1006: 密林、废墟与龙之泪
-        ///1008: ChurchLobby
-        ///1009: AngelShare
-        ///1011: 角色战斗测试(test)
-        ///1013: SneakAdvancedTest
-        ///1015: 飞翔是勇气的奖励
-        ///1016: 飞翔是勇气的奖励
-        ///1017: 壶中天
-        ///1018: Chateau
-        ///1019: 洞天云海地城玩法测试(test)
-        ///1023: Level_Yurenzhong
-        ///1024: 黑夜循环地城(test)
-        ///1030: TestIntercept_LiYue
-        ///1031: 爬塔丘丘人模板(test)
-        ///1032: 云海白 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///   查找类似 1:BigWorld_LevelStreaming
+        ///2:BigWorld_LevelStreaming
+        ///3:提瓦特
+        ///4:金苹果群岛(1.6)
+        ///5:渊下宫
+        ///6:层岩巨渊·地下矿区
+        ///7:三界路飨祭
+        ///9:金苹果群岛(2.8)
+        ///1001:移动平台性能测试(test)
+        ///1002:攀爬测试2
+        ///1003:TheBigWorld
+        ///1004:Knight_Inside_Test
+        ///1005:ChurchSteal
+        ///1006:密林、废墟与龙之泪
+        ///1008:ChurchLobby
+        ///1009:AngelShare
+        ///1011:角色战斗测试(test)
+        ///1013:SneakAdvancedTest
+        ///1015:飞翔是勇气的奖励
+        ///1016:飞翔是勇气的奖励
+        ///1017:壶中天
+        ///1018:Chateau
+        ///1019:洞天云海地城玩法测试(test)
+        ///1023:Level_Yurenzhong
+        ///1024:黑夜循环地城(test)
+        ///1030:TestIntercept_LiYue
+        ///1031:爬塔丘丘人模板(test)
+        ///1032:云海白盒测试(test)
+        ///1033:Indoor_Ly_Bank
+        ///1 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Scene {
             get {
@@ -1062,6 +1034,8 @@ namespace GrasscutterTools.Properties {
         ///11414:天目影打刀
         ///11415:辰砂之纺锤
         ///11416:笼钓瓶一心
+        ///11417:原木刀
+        ///11418:西福斯的月光
         ///11419:「一心传」名刀
         ///11420:「一心传」名刀
         ///11421:「一心传」名刀
@@ -1074,14 +1048,12 @@ namespace GrasscutterTools.Properties {
         ///11507:凭虚
         ///11509:雾切之回光
         ///11510:波乱月白经津
+        ///11511:圣显之钥
         ///12101:训练大剑
         ///12201:佣兵重剑
         ///12301:铁影阔剑
         ///12302:沐浴龙血的剑
-        ///12303:白铁大剑
-        ///12304:石英大剑
-        ///12305:以理服人
-        ///12306: [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///12303 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Weapon {
             get {

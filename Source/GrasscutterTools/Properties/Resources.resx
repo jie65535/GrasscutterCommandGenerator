@@ -216,9 +216,6 @@
 --------------------------------------------
 是否查看更新？选择否将不再提醒该版本。</value>
   </data>
-  <data name="NPC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\NPC.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="OpenCommandHelp" xml:space="preserve">
     <value>1. 填写正确的UID\n2. 向玩家发送验证码\n3. 输入正确的验证码\n4. 连接\n5. 享受</value>
   </data>

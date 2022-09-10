@@ -1014,7 +1014,7 @@ namespace GrasscutterTools.Forms
         {
             RbEntityAnimal.Tag = GameData.Animals.Lines;
             RbEntityMonster.Tag = GameData.Monsters.Lines;
-            RbEntityNPC.Tag = GameData.NPCs.Lines;
+            //RbEntityNPC.Tag = GameData.NPCs.Lines;
             RbEntityAnimal.Checked = true;
             LoadEntityList();
         }
