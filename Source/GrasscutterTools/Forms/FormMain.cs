@@ -779,6 +779,14 @@ namespace GrasscutterTools.Forms
             }
         }
 
+        /// <summary>
+        /// 点击获取所有武器按钮时触发
+        /// </summary>
+        private void BtnGiveAllWeapons_Click(object sender, EventArgs e)
+        {
+            SetCommand("/give", $"weapons x{NUDWeaponAmout.Value} lv{NUDWeaponLevel.Value} r{NUDWeaponRefinement.Value}");
+        }
+
         #endregion - 武器 Weapons -
 
         #region - 物品 Items -
@@ -965,24 +973,32 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
+        /// 角色命座输入框数值改变时触发
+        /// </summary>
+        private void NUDAvatarConstellation_ValueChanged(object sender, EventArgs e)
+        {
+            AvatarInputChanged();
+        }
+
+        /// <summary>
         /// 角色页面输入改变时触发
         /// </summary>
         private void AvatarInputChanged()
         {
             if (CmbAvatar.SelectedIndex >= 0)
-                GenAvatar((int)NUDAvatarLevel.Value);
+                GenAvatar((int)NUDAvatarLevel.Value, (int)NUDAvatarConstellation.Value);
         }
 
         /// <summary>
         /// 获取角色命令
         /// </summary>
         /// <param name="level">等级</param>
-        private void GenAvatar(int level)
+        private void GenAvatar(int level, int constellation)
         {
             if (Check(CommandVersion.V1_2_2))
             {
                 int avatarId = GameData.Avatars.Ids[CmbAvatar.SelectedIndex];
-                SetCommand("/give", $"{avatarId} lv{level}");
+                SetCommand("/give", $"{avatarId} lv{level} c{constellation}");
             }
             else
             {
@@ -1012,10 +1028,9 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void InitEntityList()
         {
-            RbEntityAnimal.Tag = GameData.Animals.Lines;
             RbEntityMonster.Tag = GameData.Monsters.Lines;
-            //RbEntityNPC.Tag = GameData.NPCs.Lines;
-            RbEntityAnimal.Checked = true;
+            RbEntityAnimal.Tag = GameData.Animals.Lines;
+            RbEntityMonster.Checked = true;
             LoadEntityList();
         }
 
@@ -1024,9 +1039,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void LoadEntityList()
         {
-            var rb = RbEntityAnimal.Checked ? RbEntityAnimal :
-                    RbEntityMonster.Checked ? RbEntityMonster :
-                    RbEntityNPC;
+            var rb = RbEntityAnimal.Checked ? RbEntityAnimal : RbEntityMonster;
             if (rb.Checked)
             {
                 ListEntity.BeginUpdate();
@@ -1042,9 +1055,7 @@ namespace GrasscutterTools.Forms
         private void TxtEntityFilter_TextChanged(object sender, EventArgs e)
         {
             var filter = TxtEntityFilter.Text.Trim();
-            var rb = RbEntityAnimal.Checked ? RbEntityAnimal :
-                    RbEntityMonster.Checked ? RbEntityMonster :
-                    RbEntityNPC;
+            var rb = RbEntityAnimal.Checked ? RbEntityAnimal : RbEntityMonster;
             var data = rb.Tag as string[];
             ListEntity.BeginUpdate();
             ListEntity.Items.Clear();
@@ -1062,7 +1073,10 @@ namespace GrasscutterTools.Forms
             if (!string.IsNullOrEmpty(selectedItem))
             {
                 var id = selectedItem.Substring(0, selectedItem.IndexOf(':')).Trim();
-                SetCommand("/spawn", $"{id} {NUDEntityAmout.Value} {NUDEntityLevel.Value}");
+                if (Check(CommandVersion.V1_3_1))
+                    SetCommand("/spawn", $"{id} x{NUDEntityAmout.Value} lv{NUDEntityLevel.Value}" + (ChkInfiniteHP.Checked ? " hp0" : ""));
+                else
+                    SetCommand("/spawn", $"{id} {NUDEntityAmout.Value} {NUDEntityLevel.Value}");
                 return true;
             }
             return false;

@@ -123,11 +123,14 @@
   <data name="ChkAutoCopy.Text" xml:space="preserve">
     <value>自動</value>
   </data>
+  <data name="GrpCommand.Text" xml:space="preserve">
+    <value>命令（按住 Ctrl 自動執行）</value>
+  </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>執行(F5)</value>
   </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>命令（按住 Ctrl 自動執行）</value>
+  <data name="TPRemoteCall.Text" xml:space="preserve">
+    <value>遠程</value>
   </data>
   <data name="LnkInventoryKamera.Text" xml:space="preserve">
     <value>存檔掃描開源工具</value>
@@ -145,6 +148,9 @@
   <data name="LblHostTip.Text" xml:space="preserve">
     <value>請確保地址中包含 http:// 或 https://</value>
   </data>
+  <data name="GrpServerStatus.Text" xml:space="preserve">
+    <value>伺服器狀態</value>
+  </data>
   <data name="LnkOpenCommandLabel.Text" xml:space="preserve">
     <value>遠程執行插件</value>
   </data>
@@ -154,8 +160,11 @@
   <data name="LblPlayerCountLabel.Text" xml:space="preserve">
     <value>當前玩家數</value>
   </data>
-  <data name="GrpServerStatus.Text" xml:space="preserve">
-    <value>伺服器狀態</value>
+  <data name="GrpRemoteCommand.Text" xml:space="preserve">
+    <value>遠程執行</value>
+  </data>
+  <data name="TPPlayerCheck.Text" xml:space="preserve">
+    <value>玩家驗證</value>
   </data>
   <data name="LnkRCHelp.Text" xml:space="preserve">
     <value>幫助</value>
@@ -169,9 +178,6 @@
   <data name="BtnSendVerificationCode.Text" xml:space="preserve">
     <value>發送驗證碼</value>
   </data>
-  <data name="TPPlayerCheck.Text" xml:space="preserve">
-    <value>玩家驗證</value>
-  </data>
   <data name="BtnConsoleConnect.Text" xml:space="preserve">
     <value>連接</value>
   </data>
@@ -179,17 +185,14 @@
     <value>請注意，控制台狀態下普通命令必須指定目標
 （即設置包含UID）</value>
   </data>
-  <data name="GrpRemoteCommand.Text" xml:space="preserve">
-    <value>遠程執行</value>
-  </data>
   <data name="BtnQueryServerStatus.Text" xml:space="preserve">
     <value>查詢</value>
   </data>
   <data name="LblHost.Text" xml:space="preserve">
     <value>伺服器地址</value>
   </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>遠程</value>
+  <data name="TPAbout.Text" xml:space="preserve">
+    <value>關於</value>
   </data>
   <data name="LblSupportDescription.Text" xml:space="preserve">
     <value>割草機工具箱
@@ -199,14 +202,14 @@
 如果願意請我喝一杯奶茶，那就更好了 : )
 指令生成有問題，或者有新的功能請求，都可以來Github提出</value>
   </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>關於</value>
-  </data>
   <data name="BtnBan.Text" xml:space="preserve">
     <value>封號</value>
   </data>
   <data name="LblBanUID.Text" xml:space="preserve">
     <value>目標UID</value>
+  </data>
+  <data name="GrpAccount.Text" xml:space="preserve">
+    <value>賬號管理</value>
   </data>
   <data name="BtnDeleteAccount.Text" xml:space="preserve">
     <value>- 刪除</value>
@@ -217,8 +220,8 @@
   <data name="LblAccountUserName.Text" xml:space="preserve">
     <value>用戶名</value>
   </data>
-  <data name="GrpAccount.Text" xml:space="preserve">
-    <value>賬號管理</value>
+  <data name="GrpPermission.Text" xml:space="preserve">
+    <value>權限管理</value>
   </data>
   <data name="LblPerm.Text" xml:space="preserve">
     <value>權限</value>
@@ -226,16 +229,11 @@
   <data name="LblPermUID.Text" xml:space="preserve">
     <value>目標UID</value>
   </data>
-  <data name="GrpPermission.Text" xml:space="preserve">
-    <value>權限管理</value>
+  <data name="TPScene.Text" xml:space="preserve">
+    <value>場景</value>
   </data>
   <data name="ChkIncludeSceneId.Text" xml:space="preserve">
     <value>含場景ID</value>
-  </data>
-  <data name="LblTp.Text" xml:space="preserve">
-    <value>座標傳送
-提示：遊戲內可以通過小地圖的'魚鉤'標記來快捷傳送
-命令中可以用~表示當前位置，~100表示相對當前100</value>
   </data>
   <data name="BtnTeleport.Text" xml:space="preserve">
     <value>傳送</value>
@@ -248,8 +246,10 @@
 
 提示：大部分場景沒有作用，無法進入。</value>
   </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>場景</value>
+  <data name="LblTp.Text" xml:space="preserve">
+    <value>座標傳送
+提示：遊戲內可以通過小地圖的'魚鉤'標記來快捷傳送
+命令中可以用~表示當前位置，~100表示相對當前100</value>
   </data>
   <data name="BtnSaveGiveItemLog.Text" xml:space="preserve">
     <value>√ 記錄</value>
@@ -269,6 +269,9 @@
   <data name="LblGiveCommandDescription.Text" xml:space="preserve">
     <value>給玩家指定物品
 說明：可選擇直接給到背包或者掉落到世界</value>
+  </data>
+  <data name="BtnGiveAllWeapons.Text" xml:space="preserve">
+    <value>獲得所有武器</value>
   </data>
   <data name="LblWeaponDescription.Text" xml:space="preserve">
     <value>獲取武器
@@ -290,32 +293,35 @@
   <data name="LblWeaponLevel.Text" xml:space="preserve">
     <value>等級</value>
   </data>
+  <data name="TPStats.Text" xml:space="preserve">
+    <value>數據</value>
+  </data>
+  <data name="GrpSetStats.Text" xml:space="preserve">
+    <value>角色屬性</value>
+  </data>
   <data name="BtnUnlockStat.Text" xml:space="preserve">
     <value>解鎖</value>
   </data>
   <data name="BtnLockStat.Text" xml:space="preserve">
     <value>鎖定</value>
   </data>
-  <data name="GrpSetStats.Text" xml:space="preserve">
-    <value>角色屬性</value>
+  <data name="GrpTalentLevel.Text" xml:space="preserve">
+    <value>技能等級</value>
   </data>
   <data name="LnkTalentNormalATK.Text" xml:space="preserve">
     <value>普通攻擊</value>
   </data>
-  <data name="GrpTalentLevel.Text" xml:space="preserve">
-    <value>技能等級</value>
-  </data>
   <data name="LblStatsDescription.Text" xml:space="preserve">
     <value>設置當前活躍角色數據</value>
-  </data>
-  <data name="TPStats.Text" xml:space="preserve">
-    <value>數據</value>
   </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value>一鍵獲得所有角色</value>
   </data>
   <data name="LblAvatarLevel.Text" xml:space="preserve">
     <value>等級</value>
+  </data>
+  <data name="ChkInfiniteHP.Text" xml:space="preserve">
+    <value>無限血</value>
   </data>
   <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
     <value>√ 記錄</value>
@@ -326,14 +332,20 @@
   <data name="GrpSpawnRecord.Text" xml:space="preserve">
     <value>生成記錄本</value>
   </data>
+  <data name="GrpEntityType.Text" xml:space="preserve">
+    <value>列表分類</value>
+  </data>
+  <data name="RbEntityAnimal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 21</value>
+  </data>
   <data name="RbEntityAnimal.Text" xml:space="preserve">
     <value>生物誌</value>
   </data>
+  <data name="RbEntityMonster.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 21</value>
+  </data>
   <data name="RbEntityMonster.Text" xml:space="preserve">
     <value>討伐對象</value>
-  </data>
-  <data name="GrpEntityType.Text" xml:space="preserve">
-    <value>列表分類</value>
   </data>
   <data name="LblSpawnDescription.Text" xml:space="preserve">
     <value>在玩家附近召喚生物</value>
@@ -344,6 +356,12 @@
   <data name="LblEntityLevel.Text" xml:space="preserve">
     <value>等級</value>
   </data>
+  <data name="TPQuest.Text" xml:space="preserve">
+    <value>任務</value>
+  </data>
+  <data name="GrpQuestFilters.Text" xml:space="preserve">
+    <value>列表過濾</value>
+  </data>
   <data name="ChkQuestFilterTEST.Text" xml:space="preserve">
     <value>測試任務</value>
   </data>
@@ -352,9 +370,6 @@
   </data>
   <data name="ChkQuestFilterHIDDEN.Text" xml:space="preserve">
     <value>隱藏的任務</value>
-  </data>
-  <data name="GrpQuestFilters.Text" xml:space="preserve">
-    <value>列表過濾</value>
   </data>
   <data name="BtnFinishQuest.Text" xml:space="preserve">
     <value>完成任務</value>
@@ -367,8 +382,8 @@
 提示：許多任務需要服務端腳本支持
 囙此任務可以接，可以完成，但是不一定可以做</value>
   </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>任務</value>
+  <data name="TPArtifact.Text" xml:space="preserve">
+    <value>聖遺物</value>
   </data>
   <data name="LblArtifactSet.Text" xml:space="preserve">
     <value>套裝</value>
@@ -385,8 +400,8 @@
   <data name="LblArtifactStars.Text" xml:space="preserve">
     <value>星級</value>
   </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>聖遺物</value>
+  <data name="TPCustom.Text" xml:space="preserve">
+    <value>自定義</value>
   </data>
   <data name="BtnExportCustomCommands.Text" xml:space="preserve">
     <value>導出</value>
@@ -400,8 +415,8 @@
   <data name="BtnRemoveCustomCommand.Text" xml:space="preserve">
     <value>× 刪除</value>
   </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>自定義</value>
+  <data name="TPHome.Text" xml:space="preserve">
+    <value>主頁</value>
   </data>
   <data name="BtnOpenTextMap.Text" xml:space="preserve">
     <value>文本瀏覽器</value>
@@ -412,7 +427,8 @@
   <data name="ChkTopMost.Text" xml:space="preserve">
     <value>置頂</value>
   </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>主頁</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
 </root>

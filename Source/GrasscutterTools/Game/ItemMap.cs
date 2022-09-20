@@ -16,6 +16,7 @@
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  * 
  **/
+using System;
 using System.Collections.Generic;
 
 namespace GrasscutterTools.Game
@@ -24,7 +25,7 @@ namespace GrasscutterTools.Game
     {
         public ItemMap(string idNamePairs)
         {
-            var lines = idNamePairs.Split('\n');
+            var lines = idNamePairs.Split(new char[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
             var capacity = lines.Length;
             //IdMap = new Dictionary<int, string>(capacity);
             //NameMap = new Dictionary<string, int>(capacity);
