@@ -1104,4 +1104,7 @@
   <data name="DeleteWaypoint.Text" xml:space="preserve">
     <value>Удалить</value>
   </data>
+  <data name="WaypointNotFound" xml:space="preserve">
+    <value>Метка не найдена</value>
+  </data>
 </root>

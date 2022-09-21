@@ -8001,28 +8001,28 @@
   <data name="&gt;&gt;WaypointX.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="numericUpDown1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="NUDWaypointZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="NUDWaypointZ.Location" type="System.Drawing.Point, System.Drawing">
     <value>453, 216</value>
   </data>
-  <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="NUDWaypointZ.Size" type="System.Drawing.Size, System.Drawing">
     <value>48, 23</value>
   </data>
-  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
+  <data name="NUDWaypointZ.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
-    <value>numericUpDown1</value>
+  <data name="&gt;&gt;NUDWaypointZ.Name" xml:space="preserve">
+    <value>NUDWaypointZ</value>
   </data>
-  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
+  <data name="&gt;&gt;NUDWaypointZ.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;NUDWaypointZ.Parent" xml:space="preserve">
     <value>TPWaypoints</value>
   </data>
-  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;NUDWaypointZ.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="WaypointZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -8058,52 +8058,52 @@
   <data name="&gt;&gt;WaypointZ.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="numericUpDown2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="NUDWaypointY.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="numericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="NUDWaypointY.Location" type="System.Drawing.Point, System.Drawing">
     <value>383, 216</value>
   </data>
-  <data name="numericUpDown2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="NUDWaypointY.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
   </data>
-  <data name="numericUpDown2.TabIndex" type="System.Int32, mscorlib">
+  <data name="NUDWaypointY.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="&gt;&gt;numericUpDown2.Name" xml:space="preserve">
-    <value>numericUpDown2</value>
+  <data name="&gt;&gt;NUDWaypointY.Name" xml:space="preserve">
+    <value>NUDWaypointY</value>
   </data>
-  <data name="&gt;&gt;numericUpDown2.Type" xml:space="preserve">
+  <data name="&gt;&gt;NUDWaypointY.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;numericUpDown2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;NUDWaypointY.Parent" xml:space="preserve">
     <value>TPWaypoints</value>
   </data>
-  <data name="&gt;&gt;numericUpDown2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;NUDWaypointY.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="numericUpDown3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="NUDWaypointX.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="numericUpDown3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="NUDWaypointX.Location" type="System.Drawing.Point, System.Drawing">
     <value>314, 216</value>
   </data>
-  <data name="numericUpDown3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="NUDWaypointX.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 23</value>
   </data>
-  <data name="numericUpDown3.TabIndex" type="System.Int32, mscorlib">
+  <data name="NUDWaypointX.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
-  <data name="&gt;&gt;numericUpDown3.Name" xml:space="preserve">
-    <value>numericUpDown3</value>
+  <data name="&gt;&gt;NUDWaypointX.Name" xml:space="preserve">
+    <value>NUDWaypointX</value>
   </data>
-  <data name="&gt;&gt;numericUpDown3.Type" xml:space="preserve">
+  <data name="&gt;&gt;NUDWaypointX.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;numericUpDown3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;NUDWaypointX.Parent" xml:space="preserve">
     <value>TPWaypoints</value>
   </data>
-  <data name="&gt;&gt;numericUpDown3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;NUDWaypointX.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="WaypointName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -8175,24 +8175,6 @@
   <data name="WaypointsGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="LnkResetWaypoints.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LnkResetWaypoints.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LnkResetWaypoints.Location" type="System.Drawing.Point, System.Drawing">
-    <value>552, -1</value>
-  </data>
-  <data name="LnkResetWaypoints.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
-  <data name="LnkResetWaypoints.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="LnkResetWaypoints.Text" xml:space="preserve">
-    <value>重置</value>
-  </data>
   <data name="&gt;&gt;LnkResetWaypoints.Name" xml:space="preserve">
     <value>LnkResetWaypoints</value>
   </data>
@@ -8205,31 +8187,16 @@
   <data name="&gt;&gt;LnkResetWaypoints.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="flowLayoutPanel1.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;FLPWaypointsList.Name" xml:space="preserve">
+    <value>FLPWaypointsList</value>
   </data>
-  <data name="flowLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="flowLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
-  </data>
-  <data name="flowLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 182</value>
-  </data>
-  <data name="flowLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Name" xml:space="preserve">
-    <value>flowLayoutPanel1</value>
-  </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Type" xml:space="preserve">
+  <data name="&gt;&gt;FLPWaypointsList.Type" xml:space="preserve">
     <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;flowLayoutPanel1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;FLPWaypointsList.Parent" xml:space="preserve">
     <value>WaypointsGroupBox</value>
   </data>
-  <data name="&gt;&gt;flowLayoutPanel1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;FLPWaypointsList.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="WaypointsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
@@ -8387,6 +8354,63 @@
   </data>
   <data name="&gt;&gt;TCMain.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="LnkResetWaypoints.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkResetWaypoints.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkResetWaypoints.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, -1</value>
+  </data>
+  <data name="LnkResetWaypoints.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LnkResetWaypoints.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LnkResetWaypoints.Text" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="&gt;&gt;LnkResetWaypoints.Name" xml:space="preserve">
+    <value>LnkResetWaypoints</value>
+  </data>
+  <data name="&gt;&gt;LnkResetWaypoints.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkResetWaypoints.Parent" xml:space="preserve">
+    <value>WaypointsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;LnkResetWaypoints.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FLPWaypointsList.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FLPWaypointsList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="FLPWaypointsList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="FLPWaypointsList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 182</value>
+  </data>
+  <data name="FLPWaypointsList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FLPWaypointsList.Name" xml:space="preserve">
+    <value>FLPWaypointsList</value>
+  </data>
+  <data name="&gt;&gt;FLPWaypointsList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FLPWaypointsList.Parent" xml:space="preserve">
+    <value>WaypointsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;FLPWaypointsList.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

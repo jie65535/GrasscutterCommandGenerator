@@ -205,7 +205,7 @@
 Вы хотите проверить наличие обновлений? Выбирая "Нет", программа больше не будет напоминать вам об этой версии.</value>
   </data>
   <data name="OpenCommandHelp" xml:space="preserve">
-    <value>1. Заполните правильный UID\n2. Отправьте проверочный код игроку\n3. Введите правильный проверочный код\n4. Покдлючитесь\n5. Наслаждайтесь!</value>
+    <value>1. Введите правильный UID\n2. Отправьте проверочный код игроку\n3. Введите правильный проверочный код\n4. Покдлючитесь\n5. Наслаждайтесь!</value>
   </data>
   <data name="PermissionCannotBeEmpty" xml:space="preserve">
     <value>Разрешение не может быть пустым!</value>
@@ -225,8 +225,11 @@
 	<data name="RestoreCustomCommands" xml:space="preserve">
     <value>Вы уверены, что хотите восстановить пользовательские команды по умолчанию?</value>
   </data>
-	<data name="RestoreWaypoints" xml:space="preserve">
+	<data name="ResetWaypoints" xml:space="preserve">
     <value>Вы уверены, что хотите сбросить метки?</value>
+  </data>
+  <data name="WaypointNotFound" xml:space="preserve">
+    <value>Метка не найдена</value>
   </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>

@@ -166,6 +166,9 @@
   <data name="CommandContentCannotBeEmpty" xml:space="preserve">
     <value>Command cannot be empty</value>
   </data>
+  <data name="WaypointNameCannotBeEmpty" xml:space="preserve">
+    <value>Waypoint name cannot be empty</value>
+  </data>
   <data name="CommandNotFound" xml:space="preserve">
     <value>Command not found</value>
   </data>
@@ -205,7 +208,7 @@ Update info :
 Do you want to check for updates? Selecting No will no longer remind you of this version.</value>
   </data>
   <data name="OpenCommandHelp" xml:space="preserve">
-    <value>1. Fill in the correct uid\n2. Send verification code to player\n3. Enter the correct verification code\n4. Connection\n5. Enjoy</value>
+    <value>1. Fill in the correct UID\n2. Send verification code to player\n3. Enter the correct verification code\n4. Connection\n5. Enjoy</value>
   </data>
   <data name="PermissionCannotBeEmpty" xml:space="preserve">
     <value>Permission cannot be empty!</value>
@@ -220,10 +223,16 @@ Do you want to check for updates? Selecting No will no longer remind you of this
     <value>..\Resources\en-us\Quest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="RequireOpenCommandTip" xml:space="preserve">
-    <value>Please connect to a server that supports [opencommand] first</value>
+    <value>Please connect to a server that supports [OpenCommand] first</value>
   </data>
   <data name="RestoreCustomCommands" xml:space="preserve">
     <value>Are you sure you want to restore custom commands to defaults?</value>
+  </data>
+  <data name="ResetWaypoints" xml:space="preserve">
+    <value>Are you sure you want to reset all waypoints?</value>
+  </data>
+  <data name="WaypointNotFound" xml:space="preserve">
+    <value>Waypoint not found</value>
   </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>

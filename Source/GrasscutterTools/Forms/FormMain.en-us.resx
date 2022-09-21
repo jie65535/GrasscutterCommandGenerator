@@ -885,6 +885,9 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="WaypointName.Text" xml:space="preserve">
     <value>Name</value>
   </data>
+  <data name="WaypointNotFound" xml:space="preserve">
+    <value>Waypoint not found</value>
+  </data>
   <data name="WaypointsGroupBox.Text" xml:space="preserve">
     <value>Waypoints list</value>
   </data>
