@@ -428,7 +428,7 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblTp.Text" xml:space="preserve">
     <value>Teleporting
 Tip: You can quickly teleport through the 'fishing hook' pin on the map in-game.
-In the command, you can use ~ to indicate the current position, and ~100 to indicate the relative current 100</value>
+In the command, you can use ~ to indicate the current position, and ~N to indicate the relative current N</value>
   </data>
   <data name="TPItem.Text" xml:space="preserve">
     <value>Items</value>
@@ -869,5 +869,23 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Include UID</value>
+  </data>
+  <data name="CreateWaypoint.Text" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="DeleteWaypoint.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="LnkResetWaypoints.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="TPWaypoints.Text" xml:space="preserve">
+    <value>Waypoints</value>
+  </data>
+  <data name="WaypointName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="WaypointsGroupBox.Text" xml:space="preserve">
+    <value>Waypoints list</value>
   </data>
 </root>

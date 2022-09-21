@@ -276,7 +276,7 @@
   </data>
   <data name="LblConsoleTip.Text" xml:space="preserve">
     <value>Обратите внимание, что обычные команды в состоянии консоли должны указывать цель
-(установите "Включить UID")</value>
+(установите галочку "Включить UID")</value>
   </data>
   <data name="TxtHost.Location" type="System.Drawing.Point, System.Drawing">
     <value>111, 36</value>
@@ -310,12 +310,12 @@
 
 Это бесплатный проект с открытым исходным кодом.
 Если вы считаете, что это полезно для вас,
- вы можете дать мне бесплатную звезду.
+ вы можете дать мне звезду на Github.
 Если возникла проблема с генерацией команды или
  есть запрос на новую функцию,
  вы можете написать в Issues на Github.
 
-	Спасибо:Dhar_Jinxed
+	Спасибо: Dhar_Jinxed
 </value>
   </data>
   <data name="TPManage.Text" xml:space="preserve">
@@ -545,7 +545,7 @@
   <data name="LblTp.Text" xml:space="preserve">
     <value>Телепортация
 Подсказка: вы можете быстро телепортироваться через отметку «рыболовный крючок» на миникарте в игре.
-В команде вы можете использовать ~, чтобы указать текущую позицию, и ~100, чтобы указать смещение на 100 относительно текущей позиции</value>
+В команде вы можете использовать ~, чтобы указать текущую позицию, и ~N, чтобы указать смещение на N относительно текущей позиции</value>
   </data>
   <data name="TPItem.Text" xml:space="preserve">
     <value>Предметы</value>
@@ -563,7 +563,7 @@
     <value>80, 23</value>
   </data>
   <data name="BtnSaveGiveItemLog.Text" xml:space="preserve">
-    <value>√ Запись</value>
+    <value>√ Сохр.</value>
   </data>
   <data name="BtnRemoveGiveItemLog.Location" type="System.Drawing.Point, System.Drawing">
     <value>260, 77</value>
@@ -578,7 +578,7 @@
     <value>244, 162</value>
   </data>
   <data name="GrpGiveItemRecord.Text" xml:space="preserve">
-    <value>Запись</value>
+    <value>Список предметов</value>
   </data>
   <data name="ListGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
     <value>238, 140</value>
@@ -626,7 +626,7 @@
     <value>Оружие</value>
   </data>
   <data name="BtnGiveAllWeapons.Text" xml:space="preserve">
-    <value>дать все оружие</value>
+    <value>Дать всё оружие</value>
   </data>
   <data name="LblWeaponDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>89, 17</value>
@@ -641,7 +641,7 @@
     <value>75, 17</value>
   </data>
   <data name="LblWeaponRefinement.Text" xml:space="preserve">
-    <value>Улучшение</value>
+    <value>Ур. пробуждения</value>
   </data>
   <data name="LblWeaponAmount.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 17</value>
@@ -734,7 +734,7 @@
     <value>200, 33</value>
   </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
-    <value> Дать ВСЕХ персонажей</value>
+    <value> Дать всех персонажей</value>
   </data>
   <data name="LblAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
     <value>428, 125</value>
@@ -809,7 +809,7 @@
     <value>80, 23</value>
   </data>
   <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
-    <value>√ Запись</value>
+    <value>√ Сохр.</value>
   </data>
   <data name="BtnRemoveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
     <value>266, 62</value>
@@ -824,7 +824,7 @@
     <value>240, 184</value>
   </data>
   <data name="GrpSpawnRecord.Text" xml:space="preserve">
-    <value>Запись</value>
+    <value>Список мобов</value>
   </data>
   <data name="ListSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
     <value>234, 162</value>
@@ -903,8 +903,8 @@
   </data>
   <data name="LblQuestDescription.Text" xml:space="preserve">
     <value>Добавить или завершить задание.
-Подсказка: для многих квестов требуется поддержка скриптов на стороне сервера.
-Поэтому квест может быть  добавлен или закончен, но завершён игроком - вряд ли.</value>
+Внимание: для многих квестов требуются скрипты таковых на стороне сервера.
+Поэтому квест может быть добавлен или отозван через консоль, но завершён игроком - вряд ли.</value>
   </data>
   <data name="TPArtifact.Text" xml:space="preserve">
     <value>Артефакт</value>
@@ -985,7 +985,7 @@
     <value>Кастомное</value>
   </data>
   <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>526, 216</value>
+    <value>536, 216</value>
   </data>
   <data name="BtnExportCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 23</value>
@@ -997,7 +997,7 @@
     <value>450, 216</value>
   </data>
   <data name="BtnLoadCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
+    <value>80, 23</value>
   </data>
   <data name="BtnLoadCustomCommands.Text" xml:space="preserve">
     <value>Загрузить</value>
@@ -1006,7 +1006,7 @@
     <value>46, 17</value>
   </data>
   <data name="LblCustomName.Text" xml:space="preserve">
-    <value>Метка</value>
+    <value>Имя</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Список</value>
@@ -1018,7 +1018,7 @@
     <value>97, 17</value>
   </data>
   <data name="LnkResetCustomCommands.Text" xml:space="preserve">
-    <value>Перезагрузить</value>
+    <value>Сбросить</value>
   </data>
   <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>369, 216</value>
@@ -1085,5 +1085,23 @@
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Включить UID</value>
+  </data>
+  <data name="LnkResetWaypoints.Text" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="TPWaypoints.Text" xml:space="preserve">
+    <value>Метки</value>
+  </data>
+  <data name="WaypointName.Text" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="WaypointsGroupBox.Text" xml:space="preserve">
+    <value>Список меток</value>
+  </data>
+  <data name="CreateWaypoint.Text" xml:space="preserve">
+    <value>Сохр.</value>
+  </data>
+  <data name="DeleteWaypoint.Text" xml:space="preserve">
+    <value>Удалить</value>
   </data>
 </root>
