@@ -229,20 +229,6 @@ namespace GrasscutterTools.Forms
             this.ChkIncludeUID = new System.Windows.Forms.CheckBox();
             this.LblDefaultUid = new System.Windows.Forms.Label();
             this.TCMain = new System.Windows.Forms.TabControl();
-            this.TPWaypoints = new System.Windows.Forms.TabPage();
-            this.WaypointX = new System.Windows.Forms.Label();
-            this.NUDWaypointZ = new System.Windows.Forms.NumericUpDown();
-            this.WaypointZ = new System.Windows.Forms.Label();
-            this.NUDWaypointY = new System.Windows.Forms.NumericUpDown();
-            this.NUDWaypointX = new System.Windows.Forms.NumericUpDown();
-            this.WaypointName = new System.Windows.Forms.Label();
-            this.WaypointY = new System.Windows.Forms.Label();
-            this.WaypointsGroupBox = new System.Windows.Forms.GroupBox();
-            this.LnkResetWaypoints = new System.Windows.Forms.LinkLabel();
-            this.FLPWaypointsList = new System.Windows.Forms.FlowLayoutPanel();
-            this.DeleteWaypoint = new System.Windows.Forms.Button();
-            this.CreateWaypoint = new System.Windows.Forms.Button();
-            this.WaypointNameInput = new System.Windows.Forms.TextBox();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -300,11 +286,6 @@ namespace GrasscutterTools.Forms
             this.GrpSettings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDUid)).BeginInit();
             this.TCMain.SuspendLayout();
-            this.TPWaypoints.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDWaypointZ)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDWaypointY)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDWaypointX)).BeginInit();
-            this.WaypointsGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // TxtCommand
@@ -2037,154 +2018,12 @@ namespace GrasscutterTools.Forms
             this.TCMain.Controls.Add(this.TPWeapon);
             this.TCMain.Controls.Add(this.TPItem);
             this.TCMain.Controls.Add(this.TPScene);
-            this.TCMain.Controls.Add(this.TPWaypoints);
             this.TCMain.Controls.Add(this.TPManage);
             this.TCMain.Controls.Add(this.TPAbout);
             this.TCMain.Controls.Add(this.TPRemoteCall);
             this.TCMain.Name = "TCMain";
             this.TCMain.SelectedIndex = 0;
-            // 
-            // TPWaypoints
-            // 
-            this.TPWaypoints.Controls.Add(this.WaypointX);
-            this.TPWaypoints.Controls.Add(this.NUDWaypointZ);
-            this.TPWaypoints.Controls.Add(this.WaypointZ);
-            this.TPWaypoints.Controls.Add(this.NUDWaypointY);
-            this.TPWaypoints.Controls.Add(this.NUDWaypointX);
-            this.TPWaypoints.Controls.Add(this.WaypointName);
-            this.TPWaypoints.Controls.Add(this.WaypointY);
-            this.TPWaypoints.Controls.Add(this.WaypointsGroupBox);
-            this.TPWaypoints.Controls.Add(this.DeleteWaypoint);
-            this.TPWaypoints.Controls.Add(this.CreateWaypoint);
-            this.TPWaypoints.Controls.Add(this.WaypointNameInput);
-            resources.ApplyResources(this.TPWaypoints, "TPWaypoints");
-            this.TPWaypoints.Name = "TPWaypoints";
-            this.TPWaypoints.UseVisualStyleBackColor = true;
-            // 
-            // WaypointX
-            // 
-            resources.ApplyResources(this.WaypointX, "WaypointX");
-            this.WaypointX.Name = "WaypointX";
-            // 
-            // NUDWaypointZ
-            // 
-            resources.ApplyResources(this.NUDWaypointZ, "NUDWaypointZ");
-            this.NUDWaypointZ.Increment = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.NUDWaypointZ.Maximum = new decimal(new int[] {
-            2147483647,
-            0,
-            0,
-            0});
-            this.NUDWaypointZ.Minimum = new decimal(new int[] {
-            -2147483648,
-            0,
-            0,
-            -2147483648});
-            this.NUDWaypointZ.Name = "NUDWaypointZ";
-            // 
-            // WaypointZ
-            // 
-            resources.ApplyResources(this.WaypointZ, "WaypointZ");
-            this.WaypointZ.Name = "WaypointZ";
-            // 
-            // NUDWaypointY
-            // 
-            resources.ApplyResources(this.NUDWaypointY, "NUDWaypointY");
-            this.NUDWaypointY.Increment = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.NUDWaypointY.Maximum = new decimal(new int[] {
-            2147483647,
-            0,
-            0,
-            0});
-            this.NUDWaypointY.Minimum = new decimal(new int[] {
-            -2147483648,
-            0,
-            0,
-            -2147483648});
-            this.NUDWaypointY.Name = "NUDWaypointY";
-            this.NUDWaypointY.Value = new decimal(new int[] {
-            300,
-            0,
-            0,
-            0});
-            // 
-            // NUDWaypointX
-            // 
-            resources.ApplyResources(this.NUDWaypointX, "NUDWaypointX");
-            this.NUDWaypointX.Increment = new decimal(new int[] {
-            100,
-            0,
-            0,
-            0});
-            this.NUDWaypointX.Maximum = new decimal(new int[] {
-            2147483647,
-            0,
-            0,
-            0});
-            this.NUDWaypointX.Minimum = new decimal(new int[] {
-            -2147483648,
-            0,
-            0,
-            -2147483648});
-            this.NUDWaypointX.Name = "NUDWaypointX";
-            // 
-            // WaypointName
-            // 
-            resources.ApplyResources(this.WaypointName, "WaypointName");
-            this.WaypointName.Name = "WaypointName";
-            // 
-            // WaypointY
-            // 
-            resources.ApplyResources(this.WaypointY, "WaypointY");
-            this.WaypointY.Name = "WaypointY";
-            // 
-            // WaypointsGroupBox
-            // 
-            resources.ApplyResources(this.WaypointsGroupBox, "WaypointsGroupBox");
-            this.WaypointsGroupBox.Controls.Add(this.LnkResetWaypoints);
-            this.WaypointsGroupBox.Controls.Add(this.FLPWaypointsList);
-            this.WaypointsGroupBox.Name = "WaypointsGroupBox";
-            this.WaypointsGroupBox.TabStop = false;
-            // 
-            // LnkResetWaypoints
-            // 
-            resources.ApplyResources(this.LnkResetWaypoints, "LnkResetWaypoints");
-            this.LnkResetWaypoints.Name = "LnkResetWaypoints";
-            this.LnkResetWaypoints.TabStop = true;
-            this.LnkResetWaypoints.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkResetWaypoints_LinkClicked);
-            // 
-            // FLPWaypointsList
-            // 
-            resources.ApplyResources(this.FLPWaypointsList, "FLPWaypointsList");
-            this.FLPWaypointsList.Name = "FLPWaypointsList";
-            // 
-            // DeleteWaypoint
-            // 
-            resources.ApplyResources(this.DeleteWaypoint, "DeleteWaypoint");
-            this.DeleteWaypoint.Name = "DeleteWaypoint";
-            this.DeleteWaypoint.UseVisualStyleBackColor = true;
-            this.DeleteWaypoint.Click += new System.EventHandler(this.DeleteWaypoint_Click);
-            // 
-            // CreateWaypoint
-            // 
-            resources.ApplyResources(this.CreateWaypoint, "CreateWaypoint");
-            this.CreateWaypoint.Name = "CreateWaypoint";
-            this.CreateWaypoint.UseVisualStyleBackColor = true;
-            this.CreateWaypoint.Click += new System.EventHandler(this.CreateWaypoint_Click);
-            // 
-            // WaypointNameInput
-            // 
-            resources.ApplyResources(this.WaypointNameInput, "WaypointNameInput");
-            this.WaypointNameInput.Name = "WaypointNameInput";
-            // 
+            //
             // FormMain
             // 
             resources.ApplyResources(this, "$this");
@@ -2278,13 +2117,6 @@ namespace GrasscutterTools.Forms
             this.GrpSettings.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDUid)).EndInit();
             this.TCMain.ResumeLayout(false);
-            this.TPWaypoints.ResumeLayout(false);
-            this.TPWaypoints.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDWaypointZ)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDWaypointY)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDWaypointX)).EndInit();
-            this.WaypointsGroupBox.ResumeLayout(false);
-            this.WaypointsGroupBox.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2492,19 +2324,5 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.LinkLabel LnkNewVersion;
         private System.Windows.Forms.Button BtnGiveAllWeapons;
         private System.Windows.Forms.CheckBox ChkInfiniteHP;
-        private System.Windows.Forms.TabPage TPWaypoints;
-        private System.Windows.Forms.Label WaypointName;
-        private System.Windows.Forms.GroupBox WaypointsGroupBox;
-        private System.Windows.Forms.LinkLabel LnkResetWaypoints;
-        private System.Windows.Forms.FlowLayoutPanel FLPWaypointsList;
-        private System.Windows.Forms.Button DeleteWaypoint;
-        private System.Windows.Forms.Button CreateWaypoint;
-        private System.Windows.Forms.TextBox WaypointNameInput;
-        private System.Windows.Forms.NumericUpDown NUDWaypointX;
-        private System.Windows.Forms.NumericUpDown NUDWaypointY;
-        private System.Windows.Forms.NumericUpDown NUDWaypointZ;
-        private System.Windows.Forms.Label WaypointX;
-        private System.Windows.Forms.Label WaypointY;
-        private System.Windows.Forms.Label WaypointZ;
     }
 }

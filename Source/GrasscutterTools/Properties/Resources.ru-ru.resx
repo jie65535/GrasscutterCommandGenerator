@@ -225,12 +225,6 @@
 	<data name="RestoreCustomCommands" xml:space="preserve">
     <value>Вы уверены, что хотите восстановить пользовательские команды по умолчанию?</value>
   </data>
-	<data name="ResetWaypoints" xml:space="preserve">
-    <value>Вы уверены, что хотите сбросить метки?</value>
-  </data>
-  <data name="WaypointNotFound" xml:space="preserve">
-    <value>Метка не найдена</value>
-  </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>

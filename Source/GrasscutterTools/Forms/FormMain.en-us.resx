@@ -870,25 +870,4 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Include UID</value>
   </data>
-  <data name="CreateWaypoint.Text" xml:space="preserve">
-    <value>Add</value>
-  </data>
-  <data name="DeleteWaypoint.Text" xml:space="preserve">
-    <value>Delete</value>
-  </data>
-  <data name="LnkResetWaypoints.Text" xml:space="preserve">
-    <value>Reset</value>
-  </data>
-  <data name="TPWaypoints.Text" xml:space="preserve">
-    <value>Waypoints</value>
-  </data>
-  <data name="WaypointName.Text" xml:space="preserve">
-    <value>Name</value>
-  </data>
-  <data name="WaypointNotFound" xml:space="preserve">
-    <value>Waypoint not found</value>
-  </data>
-  <data name="WaypointsGroupBox.Text" xml:space="preserve">
-    <value>Waypoints list</value>
-  </data>
 </root>

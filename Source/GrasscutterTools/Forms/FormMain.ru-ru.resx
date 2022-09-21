@@ -276,7 +276,7 @@
   </data>
   <data name="LblConsoleTip.Text" xml:space="preserve">
     <value>Обратите внимание, что обычные команды в состоянии консоли должны указывать цель
-(установите галочку "Включить UID")</value>
+(установите галочку галочку "Включить UID")</value>
   </data>
   <data name="TxtHost.Location" type="System.Drawing.Point, System.Drawing">
     <value>111, 36</value>
@@ -315,7 +315,7 @@
  есть запрос на новую функцию,
  вы можете написать в Issues на Github.
 
-	Спасибо: Dhar_Jinxed
+	Спасибо:  Dhar_Jinxed
 </value>
   </data>
   <data name="TPManage.Text" xml:space="preserve">
@@ -1085,26 +1085,5 @@
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Включить UID</value>
-  </data>
-  <data name="LnkResetWaypoints.Text" xml:space="preserve">
-    <value>Сбросить</value>
-  </data>
-  <data name="TPWaypoints.Text" xml:space="preserve">
-    <value>Метки</value>
-  </data>
-  <data name="WaypointName.Text" xml:space="preserve">
-    <value>Имя</value>
-  </data>
-  <data name="WaypointsGroupBox.Text" xml:space="preserve">
-    <value>Список меток</value>
-  </data>
-  <data name="CreateWaypoint.Text" xml:space="preserve">
-    <value>Сохр.</value>
-  </data>
-  <data name="DeleteWaypoint.Text" xml:space="preserve">
-    <value>Удалить</value>
-  </data>
-  <data name="WaypointNotFound" xml:space="preserve">
-    <value>Метка не найдена</value>
   </data>
 </root>
