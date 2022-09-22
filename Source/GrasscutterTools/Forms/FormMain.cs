@@ -69,7 +69,6 @@ namespace GrasscutterTools.Forms
             GameData.LoadResources();
 
             LoadCustomCommands();
-            LoadWaypoints();
             InitArtifactList();
             InitGameItemList();
             InitWeapons();
@@ -138,7 +137,6 @@ namespace GrasscutterTools.Forms
             try
             {
                 Settings.Default.AutoCopy  = ChkAutoCopy.Checked;
-                SaveWaypoints();
                 SaveCustomCommands();
                 SaveGiveItemRecord();
                 SaveSpawnRecord();
@@ -311,119 +309,6 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 主页 Home -
-
-        #region Waypoints
-        private readonly string WaypointsFilePath = Path.Combine(Application.LocalUserAppDataPath, "Waypoints.txt");
-        private bool WaypointsChanged;
-
-        private void LoadWaypoints() {
-            if (File.Exists(WaypointsFilePath))
-                LoadWaypointsControls(File.ReadAllText(WaypointsFilePath));
-            else
-                LoadWaypointsControls("");
-        }
-        private void LoadWaypointsControls(string waypoints) {
-            FLPWaypointsList.Controls.Clear();
-            var lines = waypoints.Split('\n');
-            for (int i = 0; i < lines.Length - 1; i += 2)
-                AddWaypoint(lines[i].Trim(), lines[i + 1].Trim());
-        }
-
-        private void SaveWaypoints() {
-            if (WaypointsChanged)
-                File.WriteAllText(WaypointsFilePath, SaveWaypointsControls());
-        }
-        private string SaveWaypointsControls() {
-            StringBuilder builder = new StringBuilder();
-            foreach (LinkLabel lnk in FLPWaypointsList.Controls) {
-                builder.AppendLine(lnk.Text);
-                builder.AppendLine(lnk.Tag as string);
-            }
-            return builder.ToString();
-        }
-        private void Waypoint_Click(object sender, LinkLabelLinkClickedEventArgs e) {
-            if (sender is LinkLabel lnk && lnk.Tag is string command) {
-                WaypointNameInput.Text = lnk.Text;
-                SetCommand(command);
-            }
-        }
-
-        /// <summary>
-        /// 点击保存自定义命令列表时触发
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private async void CreateWaypoint_Click(object sender, EventArgs e) {
-            if (string.IsNullOrWhiteSpace(WaypointNameInput.Text)) {
-                MessageBox.Show(Resources.WaypointNameCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            var name = WaypointNameInput.Text.Trim();
-            var command = $"/tp {NUDWaypointX.Value} {NUDWaypointY.Value} {NUDWaypointZ.Value}";
-
-            foreach (LinkLabel lnk in FLPWaypointsList.Controls) {
-                if (lnk.Text == name) {
-                    lnk.Tag = command;
-                    WaypointsChanged = true;
-                    await ButtonComplete(CreateWaypoint);
-                    MessageBox.Show("aa");
-                    return;
-                }
-            }
-
-            WaypointsChanged = true;
-            AddWaypoint(name, command);
-            await ButtonComplete(CreateWaypoint);
-        }
-
-        /// <summary>
-        /// 添加自定义命令
-        /// </summary>
-        /// <param name="name">标签</param>
-        /// <param name="command">命令</param>
-        private void AddWaypoint(string name, string command) {
-            var lnk = new LinkLabel {
-                Text = name,
-                Tag = command,
-                AutoSize = true,
-            };
-            lnk.LinkClicked += Waypoint_Click;
-            FLPWaypointsList.Controls.Add(lnk);
-        }
-
-        /// <summary>
-        /// 点击移除自定义命令按钮时触发
-        /// </summary>
-        private async void DeleteWaypoint_Click(object sender, EventArgs e) {
-            if (string.IsNullOrWhiteSpace(WaypointNameInput.Text)) {
-                MessageBox.Show(Resources.WaypointNameCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            var name = WaypointNameInput.Text.Trim();
-
-            foreach (LinkLabel lnk in FLPWaypointsList.Controls) {
-                if (lnk.Text == name && MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes) {
-                    FLPWaypointsList.Controls.Remove(lnk);
-                    WaypointsChanged = true;
-                    //TxtCustomName.Text = "";
-                    //TxtCommand.Text = "";
-                    await ButtonComplete(DeleteWaypoint);
-                    return;
-                }
-            }
-
-            MessageBox.Show(Resources.WaypointNotFound, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-        }
-
-        private void LnkResetWaypoints_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) {
-            if (MessageBox.Show(Resources.RestoreCustomCommands, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes) {
-                if (File.Exists(WaypointsFilePath))
-                    File.Delete(WaypointsFilePath);
-                LoadWaypointsControls("");
-            }
-        }
-
-        #endregion
 
         #region - 自定义 Custom -
 
