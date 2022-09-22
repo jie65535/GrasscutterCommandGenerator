@@ -61,9 +61,9 @@ namespace GrasscutterTools.Forms
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-            Text += "  - by jie65535  - v" + AppVersion.ToString(3)
+            Text += "  - by jie65535  - v" + AppVersion.ToString(3);
 #if DEBUG
-                + "-debug";
+            Text += "-debug";
 #endif
 
             GameData.LoadResources();

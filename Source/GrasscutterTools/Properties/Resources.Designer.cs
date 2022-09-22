@@ -487,7 +487,7 @@ namespace GrasscutterTools.Properties {
                 return ResourceManager.GetString("CommandNotFound", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   查找类似 命令标签不能为空 的本地化字符串。
         /// </summary>
@@ -496,25 +496,7 @@ namespace GrasscutterTools.Properties {
                 return ResourceManager.GetString("CommandTagCannotBeEmpty", resourceCulture);
             }
         }
-
-        internal static string WaypointNameCannotBeEmpty {
-            get {
-                return ResourceManager.GetString("WaypointNameCannotBeEmpty", resourceCulture);
-            }
-        }
-
-        internal static string WaypointNotFound {
-            get {
-                return ResourceManager.GetString("WaypointNotFound", resourceCulture);
-            }
-        }
-
-        internal static string ResetWayopints {
-            get {
-                return ResourceManager.GetString("ResetWaypoints", resourceCulture);
-            }
-        }
-
+        
         /// <summary>
         ///   查找类似 现在你可以远程执行命令了哦！ 的本地化字符串。
         /// </summary>
