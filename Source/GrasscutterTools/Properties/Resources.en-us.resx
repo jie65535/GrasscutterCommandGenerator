@@ -228,12 +228,6 @@ Do you want to check for updates? Selecting No will no longer remind you of this
   <data name="RestoreCustomCommands" xml:space="preserve">
     <value>Are you sure you want to restore custom commands to defaults?</value>
   </data>
-  <data name="ResetWaypoints" xml:space="preserve">
-    <value>Are you sure you want to reset all waypoints?</value>
-  </data>
-  <data name="WaypointNotFound" xml:space="preserve">
-    <value>Waypoint not found</value>
-  </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
