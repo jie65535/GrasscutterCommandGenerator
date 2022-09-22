@@ -137,7 +137,7 @@
     <value>..\Resources\ru-ru\ArtifactSubAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="AskConfirmDeletion" xml:space="preserve">
-    <value>Are you sure you want to delete this command?</value>
+    <value>Вы точно хотите удалить эту команду?</value>
   </data>
   <data name="Avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\Avatar.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
@@ -149,7 +149,7 @@
     <value>..\Resources\ru-ru\AvatarStats.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BrowserOpenFailedTip" xml:space="preserve">
-    <value>Браузерe не удалось открыть. Вы можете вручную получить доступ к следующему адресу:</value>
+    <value>Не удалось открыть в браузере. Вы можете вручную получить доступ к следующему адресу:</value>
   </data>
   <data name="CheckToNewVersion" xml:space="preserve">
     <value>Переход на новую версию</value>
@@ -161,7 +161,7 @@
     <value>Повторная отправка через {0} секунд</value>
   </data>
   <data name="CodeSending" xml:space="preserve">
-    <value>отправка...</value>
+    <value>Отправка...</value>
   </data>
   <data name="CommandContentCannotBeEmpty" xml:space="preserve">
     <value>Команда не может быть пустой</value>
@@ -170,7 +170,7 @@
     <value>Команда не найдена</value>
   </data>
   <data name="CommandTagCannotBeEmpty" xml:space="preserve">
-    <value>Командный тег не может быть пустым</value>
+    <value>Тег команды не может быть пустым</value>
   </data>
   <data name="ConnectedTip" xml:space="preserve">
     <value>Теперь вы можете выполнять команды удаленно!</value>
@@ -185,7 +185,7 @@
     <value>..\Resources\ru-ru\GachaBennerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="Help" xml:space="preserve">
-    <value>Help</value>
+    <value>Помощь</value>
   </data>
   <data name="IconGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconGrasscutter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,10 +202,10 @@
 Информация об обновлении : 
 {2}
 -------------------------------------------
-Вы хотите проверить наличие обновлений? Выбор Нет больше не будет напоминать вам об этой версии.</value>
+Вы хотите проверить наличие обновлений? Выбирая "Нет", программа больше не будет напоминать вам об этой версии.</value>
   </data>
   <data name="OpenCommandHelp" xml:space="preserve">
-    <value>1. Заполните правильный uid\n2. Отправьте проверочный код игроку\n3. Введите правильный проверочный код\n4. Соединение\n5. Наслаждаться</value>
+    <value>1. Введите правильный UID\n2. Отправьте проверочный код игроку\n3. Введите правильный проверочный код\n4. Покдлючитесь\n5. Наслаждайтесь!</value>
   </data>
   <data name="PermissionCannotBeEmpty" xml:space="preserve">
     <value>Разрешение не может быть пустым!</value>
@@ -220,9 +220,9 @@
     <value>..\Resources\ru-ru\Quest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="RequireOpenCommandTip" xml:space="preserve">
-    <value>Пожалуйста, сначала подключитесь к серверу, который поддерживает [команду открытия]</value>
+    <value>Пожалуйста, сначала подключитесь к серверу, который поддерживает [OpenCommand]</value>
   </data>
-  <data name="RestoreCustomCommands" xml:space="preserve">
+	<data name="RestoreCustomCommands" xml:space="preserve">
     <value>Вы уверены, что хотите восстановить пользовательские команды по умолчанию?</value>
   </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -235,7 +235,7 @@
     <value>Не удалось сохранить настройки:</value>
   </data>
   <data name="Tips" xml:space="preserve">
-    <value>Совет</value>
+    <value>Внимание</value>
   </data>
   <data name="TokenCannotBeEmpty" xml:space="preserve">
     <value>Токен не может быть пустым</value>

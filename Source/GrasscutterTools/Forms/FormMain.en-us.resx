@@ -428,7 +428,7 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
   <data name="LblTp.Text" xml:space="preserve">
     <value>Teleporting
 Tip: You can quickly teleport through the 'fishing hook' pin on the map in-game.
-In the command, you can use ~ to indicate the current position, and ~100 to indicate the relative current 100</value>
+In the command, you can use ~ to indicate the current position, and ~N to indicate the relative current N</value>
   </data>
   <data name="TPItem.Text" xml:space="preserve">
     <value>Items</value>

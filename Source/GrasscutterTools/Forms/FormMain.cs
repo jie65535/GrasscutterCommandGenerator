@@ -61,10 +61,9 @@ namespace GrasscutterTools.Forms
 
         private void FormMain_Load(object sender, EventArgs e)
         {
-#if DEBUG
-            Text += "  - by jie65535  - v" + AppVersion.ToString(3) + "-debug";
-#else
             Text += "  - by jie65535  - v" + AppVersion.ToString(3);
+#if DEBUG
+            Text += "-debug";
 #endif
 
             GameData.LoadResources();
@@ -2124,6 +2123,5 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 任务 Quests -
-
     }
 }

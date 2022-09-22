@@ -249,7 +249,7 @@
   <data name="LblTp.Text" xml:space="preserve">
     <value>座標傳送
 提示：遊戲內可以通過小地圖的'魚鉤'標記來快捷傳送
-命令中可以用~表示當前位置，~100表示相對當前100</value>
+命令中可以用~表示當前位置，~N 表示相對當前N</value>
   </data>
   <data name="BtnSaveGiveItemLog.Text" xml:space="preserve">
     <value>√ 記錄</value>
