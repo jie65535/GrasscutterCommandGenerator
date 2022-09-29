@@ -118,159 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Animal.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="Artifact" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Artifact.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="ArtifactCat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\ArtifactCat.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="ArtifactMainAttribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\ArtifactMainAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>..\Resources\en-us\ArtifactMainAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
-  <data name="ArtifactPartLabels" xml:space="preserve">
-    <value>空之杯,死之羽,理之冠,生之花,时之沙</value>
+  <data name="ArtifactSets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\en-us\ArtifactSets.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="ArtifactSubAttribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\ArtifactSubAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="AskConfirmDeletion" xml:space="preserve">
-    <value>确认删除？</value>
-  </data>
-  <data name="Avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Avatar.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="AvatarColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AvatarColor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>..\Resources\en-us\ArtifactSubAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
   <data name="AvatarStats" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\AvatarStats.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>..\Resources\en-us\AvatarStats.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="BrowserOpenFailedTip" xml:space="preserve">
-    <value>浏览器打开失败，你可以通过以下链接手动访问：</value>
-  </data>
-  <data name="CheckToNewVersion" xml:space="preserve">
-    <value>检查到新版本</value>
-  </data>
-  <data name="ClimateType" xml:space="preserve">
-    <value>无,晴天,多云,雨天,雷暴,雪天,雾天</value>
-  </data>
-  <data name="CodeResendTip" xml:space="preserve">
-    <value>{0} 秒后可重发</value>
-  </data>
-  <data name="CodeSending" xml:space="preserve">
-    <value>发送中...</value>
-  </data>
-  <data name="CommandContentCannotBeEmpty" xml:space="preserve">
-    <value>命令内容不能为空</value>
-  </data>
-  <data name="CommandNotFound" xml:space="preserve">
-    <value>未找到该命令</value>
-  </data>
-  <data name="CommandTagCannotBeEmpty" xml:space="preserve">
-    <value>命令标签不能为空</value>
-  </data>
-  <data name="ConnectedTip" xml:space="preserve">
-    <value>现在你可以远程执行命令了哦！</value>
+  <data name="Colors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colors.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CustomCommands" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\CustomCommands.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>..\Resources\en-us\CustomCommands.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
-  <data name="Error" xml:space="preserve">
-    <value>错误</value>
+  <data name="Dungeons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\en-us\Dungeons.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="GachaBennerPrefab" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\GachaBennerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>..\Resources\en-us\GachaBennerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="SettingSaveError" xml:space="preserve">
-    <value>保存设置时异常：</value>
-  </data>
-  <data name="Help" xml:space="preserve">
-    <value>帮助</value>
+  <data name="GrasscutterTools" xml:space="preserve">
+    <value>GrasscutterTools</value>
   </data>
   <data name="IconGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconGrasscutter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="ImgGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconGrasscutter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ImgHome" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ImgHome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ImgIconGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\IconGrasscutter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ImgSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ImgSupport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Item" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Item.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Items" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\en-us\Items.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Monster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Monster.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="NewVersionInfo" xml:space="preserve">
-    <value>版本名：{0}
-更新时间：{1}
-更新内容：
-{2}
---------------------------------------------
-是否查看更新？选择否将不再提醒该版本。</value>
-  </data>
-  <data name="OpenCommandHelp" xml:space="preserve">
-    <value>1. 填写正确的UID\n2. 向玩家发送验证码\n3. 输入正确的验证码\n4. 连接\n5. 享受</value>
-  </data>
-  <data name="PermissionCannotBeEmpty" xml:space="preserve">
-    <value>要设置的权限不能为空！</value>
+  <data name="Monsters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\en-us\Monsters.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
   <data name="Permissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Permissions.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="QueryServerStatusFailed" xml:space="preserve">
-    <value>查询服务端状态失败：</value>
+  <data name="Quests" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\en-us\Quests.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Quest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Quest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="RequireOpenCommandTip" xml:space="preserve">
-    <value>请先连接到支持[OpenCommand]的服务器</value>
-  </data>
-  <data name="RestoreCustomCommands" xml:space="preserve">
-    <value>确认将自定义命令恢复到默认值？</value>
-  </data>
-  <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="SettingLoadError" xml:space="preserve">
-    <value>加载设置时异常：</value>
-  </data>
-  <data name="Tips" xml:space="preserve">
-    <value>提示</value>
-  </data>
-  <data name="TokenCannotBeEmpty" xml:space="preserve">
-    <value>Token不能为空</value>
-  </data>
-  <data name="TokenRestoredFromCache" xml:space="preserve">
-    <value>已从缓存中恢复Token</value>
-  </data>
-  <data name="UsernameCannotBeEmpty" xml:space="preserve">
-    <value>用户名不能为空！</value>
-  </data>
-  <data name="Weapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\Weapon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="WeaponColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WeaponColor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="GOODImportText" xml:space="preserve">
-    <value>是否导入 </value>
-  </data>
-  <data name="GOODImportTitle" xml:space="preserve">
-    <value>导入GOOD档案</value>
-  </data>
-  <data name="GOODImportSuccess" xml:space="preserve">
-    <value>导入成功!</value>
-  </data>
-  <data name="Newtonsoft_Json" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Newtonsoft.Json.dll;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Scenes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\en-us\Scenes.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>

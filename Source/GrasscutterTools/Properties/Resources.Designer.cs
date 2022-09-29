@@ -22,7 +22,7 @@ namespace GrasscutterTools.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class Resources {
+    public class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace GrasscutterTools.Properties {
         ///   返回此类使用的缓存的 ResourceManager 实例。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("GrasscutterTools.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace GrasscutterTools.Properties {
         ///   使用此强类型资源类的所有资源查找执行重写。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        public static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,364 +61,115 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 28010101:黄金蟹
-        ///28010102:太阳蟹
-        ///28010103:海蓝蟹
-        ///28010104:将军蟹
-        ///28010105:薄红蟹
-        ///28010106:螃蟹
-        ///28010201:蓝角蜥
-        ///28010202:红角蜥
-        ///28010203:绿角蜥
-        ///28010204:落日鳅鳅
-        ///28010205:金鳅鳅
-        ///28010206:晴天鳅鳅
-        ///28010207:嗜髓蜥
-        ///28010301:青蛙
-        ///28010302:泥蛙
-        ///28010303:蓝蛙
-        ///28010401:藤纹陆鳗鳗
-        ///28010402:深海鳗鳗
-        ///28010403:赤鳍陆鳗鳗
-        ///28010404:流沙鳗鳗
-        ///28020101:雪狐
-        ///28020102:红狐
-        ///28020103:送礼雪狐
-        ///28020104:送大礼雪狐
-        ///28020105:雪狐
-        ///28020106:红狐
-        ///28020108:沙狐
-        ///28020201:松鼠
-        ///28020301:野林猪
-        ///28020302:小野林猪
-        ///28020303:雪猪
-        ///28020304:「大雪猪王」
-        ///28020305:冰冻雪猪
-        ///28020306:雪猪
-        ///28020307:野林猪
-        ///28020308:冰冻雪猪
-        ///280 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///   查找类似 10001: HP
+        ///10002: HP Percentage
+        ///10003: ATK
+        ///10004: ATK Percentage
+        ///10005: DEF
+        ///10006: DEF Percentage
+        ///10007: Energy Recharge
+        ///10008: Elemental Mastery
+        ///10009: Pyro RES
+        ///10010: Electro RES
+        ///10011: Cryo RES
+        ///10012: Hydro RES
+        ///10013: Anemo RES
+        ///10014: Geo RES
+        ///10015: Dendro RES
+        ///12001: ATK
+        ///13001: HP
+        ///13002: HP Percentage
+        ///13003: ATK
+        ///13004: ATK Percentage
+        ///13005: DEF
+        ///13006: DEF Percentage
+        ///13007: CRIT Rate
+        ///13008: CRIT DMG
+        ///13009: Healing Bonus
+        ///13010: Elemental Mastery
+        ///14001: HP
+        ///15001: HP
+        ///15002: HP Perc [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static string Animal {
-            get {
-                return ResourceManager.GetString("Animal", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 20412:迷误者之灯
-        ///20413:迷误者之灯
-        ///20422:翠蔓的智者
-        ///20423:翠蔓的智者
-        ///20432:月桂的宝冠
-        ///20433:月桂的宝冠
-        ///20442:迷宫的游人
-        ///20443:迷宫的游人
-        ///20452:贤智的定期
-        ///20453:贤智的定期
-        ///20513:迷误者之灯
-        ///20514:迷误者之灯
-        ///20523:翠蔓的智者
-        ///20524:翠蔓的智者
-        ///20533:月桂的宝冠
-        ///20534:月桂的宝冠
-        ///20543:迷宫的游人
-        ///20544:迷宫的游人
-        ///20553:贤智的定期
-        ///20554:贤智的定期
-        ///21412:如蜜的终宴
-        ///21413:如蜜的终宴
-        ///21422:裁断的翎羽
-        ///21423:裁断的翎羽
-        ///21432:沙王的投影
-        ///21433:沙王的投影
-        ///21442:梦中的铁花
-        ///21443:梦中的铁花
-        ///21452:沉金的岁月
-        ///21453:沉金的岁月
-        ///21513:如蜜的终宴
-        ///21514:如蜜的终宴
-        ///21523:裁断的翎羽
-        ///21524:裁断的翎羽
-        ///21533:沙王的投影
-        ///21534:沙王的投影
-        ///21543:梦中的铁花
-        ///21544:梦中的铁花
-        ///21553:沉金的岁月
-        ///21554 [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string Artifact {
-            get {
-                return ResourceManager.GetString("Artifact", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 20:深林的记忆
-        ///21:饰金之梦
-        ///51:行者之心
-        ///52:勇士之心
-        ///53:守护之心
-        ///54:奇迹
-        ///55:战狂
-        ///56:武人
-        ///57:教官
-        ///58:赌徒
-        ///59:流放者
-        ///60:冒险家
-        ///61:幸运儿
-        ///62:学士
-        ///63:游医
-        ///71:冰风迷途的勇士
-        ///72:平息鸣雷的尊者
-        ///73:渡过烈火的贤人
-        ///74:被怜爱的少女
-        ///75:角斗士的终幕礼
-        ///76:翠绿之影
-        ///77:流浪大地的乐团
-        ///78:冰之川与雪之砂
-        ///79:如雷的盛怒
-        ///80:炽烈的炎之魔女
-        ///81:昔日宗室之仪
-        ///82:染血的骑士道
-        ///83:祭火之人
-        ///84:祭水之人
-        ///85:祭雷之人
-        ///86:祭风之人
-        ///87:祭冰之人
-        ///88:悠古的磐岩
-        ///89:逆飞的流星
-        ///90:沉沦之心
-        ///91:千岩牢固
-        ///92:苍白之火
-        ///93:追忆之注连
-        ///94:绝缘之旗印
-        ///95:华馆梦醒形骸记
-        ///96:海染砗磲
-        ///97:辰砂往生录
-        ///98:来歆余响
-        ///99:高天的风之主 的本地化字符串。
-        /// </summary>
-        internal static string ArtifactCat {
-            get {
-                return ResourceManager.GetString("ArtifactCat", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 10001: 生命值
-        ///10002: 生命值百分比
-        ///10003: 攻击力
-        ///10004: 攻击力百分比
-        ///10005: 防御力
-        ///10006: 防御力百分比
-        ///10007: 元素充能效率
-        ///10008: 元素精通
-        ///10009: 火元素抗性
-        ///10010: 雷元素抗性
-        ///10011: 冰元素抗性
-        ///10012: 水元素抗性
-        ///10013: 风元素抗性
-        ///10014: 岩元素抗性
-        ///10015: 草元素抗性
-        ///12001: 攻击力
-        ///13001: 生命值
-        ///13002: 生命值百分比
-        ///13003: 攻击力
-        ///13004: 攻击力百分比
-        ///13005: 防御力
-        ///13006: 防御力百分比
-        ///13007: 暴击率
-        ///13008: 暴击伤害
-        ///13009: 治疗加成
-        ///13010: 元素精通
-        ///14001: 生命值
-        ///15001: 生命值
-        ///15002: 生命值百分比
-        ///15003: 攻击力
-        ///15004: 攻击力百分比
-        ///15005: 防御力
-        ///15006: 防御力百分比
-        ///15007: 元素精通
-        ///15008: 火元素伤害加成
-        ///15009: 雷元素伤害加成
-        ///15010: 冰元素伤害加成
-        ///15011:  [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string ArtifactMainAttribution {
+        public static string ArtifactMainAttribution {
             get {
                 return ResourceManager.GetString("ArtifactMainAttribution", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找类似 空之杯,死之羽,理之冠,生之花,时之沙 的本地化字符串。
+        ///   查找类似 20:Deepwood Memories
+        ///21:Gilded Dreams
+        ///51:Resolution of Sojourner
+        ///52:Brave Heart
+        ///53:Defender&apos;s Will
+        ///54:Tiny Miracle
+        ///55:Berserker
+        ///56:Martial Artist
+        ///57:Instructor
+        ///58:Gambler
+        ///59:The Exile
+        ///60:Adventurer
+        ///61:Lucky Dog
+        ///62:Scholar
+        ///63:Traveling Doctor
+        ///71:Blizzard Strayer
+        ///72:Thundersoother
+        ///73:Lavawalker
+        ///74:Maiden Beloved
+        ///75:Gladiator&apos;s Finale
+        ///76:Viridescent Venerer
+        ///77:Wanderer&apos;s Troupe
+        ///78:Glacier and Snowfield
+        ///79:Thundering Fury
+        ///80:Crimson Witch of Flames
+        ///81:Noblesse Oblige
+        ///82:Bloodstained Ch [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static string ArtifactPartLabels {
+        public static string ArtifactSets {
             get {
-                return ResourceManager.GetString("ArtifactPartLabels", resourceCulture);
+                return ResourceManager.GetString("ArtifactSets", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找类似 101021: 生命值+24
-        ///101022: 生命值+30
-        ///201021: 生命值+50
-        ///201022: 生命值+61
-        ///201023: 生命值+72
-        ///301021: 生命值+100
-        ///301022: 生命值+115
-        ///301023: 生命值+129
-        ///301024: 生命值+143
-        ///401021: 生命值+167
-        ///401022: 生命值+191
-        ///401023: 生命值+215
-        ///401024: 生命值+239
-        ///501021: 生命值+209
-        ///501022: 生命值+239
-        ///501023: 生命值+269
-        ///501024: 生命值+299
-        ///101031: 生命值百分比+1.2%
-        ///101032: 生命值百分比+1.5%
-        ///201031: 生命值百分比+1.6%
-        ///201032: 生命值百分比+2.0%
-        ///201033: 生命值百分比+2.3%
-        ///301031: 生命值百分比+2.4%
-        ///301032: 生命值百分比+2.8%
-        ///301033: 生命值百分比+3.2%
-        ///301034: 生命值百分比+3.5%
-        ///401031: 生命值百分比+3.3%
-        ///401032: 生命值百分比+3.7 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///   查找类似 101021: HP+24
+        ///101022: HP+30
+        ///201021: HP+50
+        ///201022: HP+61
+        ///201023: HP+72
+        ///301021: HP+100
+        ///301022: HP+115
+        ///301023: HP+129
+        ///301024: HP+143
+        ///401021: HP+167
+        ///401022: HP+191
+        ///401023: HP+215
+        ///401024: HP+239
+        ///501021: HP+209
+        ///501022: HP+239
+        ///501023: HP+269
+        ///501024: HP+299
+        ///101031: HP Percentage+1.2%
+        ///101032: HP Percentage+1.5%
+        ///201031: HP Percentage+1.6%
+        ///201032: HP Percentage+2.0%
+        ///201033: HP Percentage+2.3%
+        ///301031: HP Percentage+2.4%
+        ///301032: HP Percentage+2.8%
+        ///301033: HP Percentage+3.2%
+        ///301034: HP Percentage [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static string ArtifactSubAttribution {
+        public static string ArtifactSubAttribution {
             get {
                 return ResourceManager.GetString("ArtifactSubAttribution", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找类似 确认删除？ 的本地化字符串。
-        /// </summary>
-        internal static string AskConfirmDeletion {
-            get {
-                return ResourceManager.GetString("AskConfirmDeletion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 1002:神里绫华
-        ///1003:琴
-        ///1005:空
-        ///1006:丽莎
-        ///1007:荧
-        ///1014:芭芭拉
-        ///1015:凯亚
-        ///1016:迪卢克
-        ///1020:雷泽
-        ///1021:安柏
-        ///1022:温迪
-        ///1023:香菱
-        ///1024:北斗
-        ///1025:行秋
-        ///1026:魈
-        ///1027:凝光
-        ///1029:可莉
-        ///1030:钟离
-        ///1031:菲谢尔
-        ///1032:班尼特
-        ///1033:达达利亚
-        ///1034:诺艾尔
-        ///1035:七七
-        ///1036:重云
-        ///1037:甘雨
-        ///1038:阿贝多
-        ///1039:迪奥娜
-        ///1041:莫娜
-        ///1042:刻晴
-        ///1043:砂糖
-        ///1044:辛焱
-        ///1045:罗莎莉亚
-        ///1046:胡桃
-        ///1047:枫原万叶
-        ///1048:烟绯
-        ///1049:宵宫
-        ///1050:托马
-        ///1051:优菈
-        ///1052:雷电将军
-        ///1053:早柚
-        ///1054:珊瑚宫心海
-        ///1055:五郎
-        ///1056:九条裟罗
-        ///1057:荒泷一斗
-        ///1058:八重神子
-        ///1059:鹿野院平藏
-        ///1060:夜兰
-        ///1062:埃洛伊
-        ///1063:申鹤
-        ///1064:云堇
-        ///1065:久岐忍
-        ///1066:神里绫人
-        ///1067:柯莱
-        ///1068:多 [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string Avatar {
-            get {
-                return ResourceManager.GetString("Avatar", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 1001:purple
-        ///1002:yellow
-        ///1003:yellow
-        ///1005:yellow
-        ///1006:purple
-        ///1007:yellow
-        ///1014:purple
-        ///1015:purple
-        ///1016:yellow
-        ///1020:purple
-        ///1021:purple
-        ///1022:yellow
-        ///1023:purple
-        ///1024:purple
-        ///1025:purple
-        ///1026:yellow
-        ///1027:purple
-        ///1029:yellow
-        ///1030:yellow
-        ///1031:purple
-        ///1032:purple
-        ///1033:yellow
-        ///1034:purple
-        ///1035:yellow
-        ///1036:purple
-        ///1037:yellow
-        ///1038:yellow
-        ///1039:purple
-        ///1041:yellow
-        ///1042:yellow
-        ///1043:purple
-        ///1044:purple
-        ///1045:purple
-        ///1046:yellow
-        ///1047:yellow
-        ///1048:purple
-        ///1049:yellow
-        ///1050:purple
-        ///1051:yellow
-        ///1052: [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string AvatarColor {
-            get {
-                return ResourceManager.GetString("AvatarColor", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
-        internal static byte[] AvatarStats {
+        public static byte[] AvatarStats {
             get {
                 object obj = ResourceManager.GetObject("AvatarStats", resourceCulture);
                 return ((byte[])(obj));
@@ -426,236 +177,129 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 浏览器打开失败，你可以通过以下链接手动访问： 的本地化字符串。
+        ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
-        internal static string BrowserOpenFailedTip {
+        public static byte[] Colors {
             get {
-                return ResourceManager.GetString("BrowserOpenFailedTip", resourceCulture);
+                object obj = ResourceManager.GetObject("Colors", resourceCulture);
+                return ((byte[])(obj));
             }
         }
         
         /// <summary>
-        ///   查找类似 检查到新版本 的本地化字符串。
-        /// </summary>
-        internal static string CheckToNewVersion {
-            get {
-                return ResourceManager.GetString("CheckToNewVersion", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 无,晴天,多云,雨天,雷暴,雪天,雾天 的本地化字符串。
-        /// </summary>
-        internal static string ClimateType {
-            get {
-                return ResourceManager.GetString("ClimateType", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 {0} 秒后可重发 的本地化字符串。
-        /// </summary>
-        internal static string CodeResendTip {
-            get {
-                return ResourceManager.GetString("CodeResendTip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 发送中... 的本地化字符串。
-        /// </summary>
-        internal static string CodeSending {
-            get {
-                return ResourceManager.GetString("CodeSending", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 命令内容不能为空 的本地化字符串。
-        /// </summary>
-        internal static string CommandContentCannotBeEmpty {
-            get {
-                return ResourceManager.GetString("CommandContentCannotBeEmpty", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 未找到该命令 的本地化字符串。
-        /// </summary>
-        internal static string CommandNotFound {
-            get {
-                return ResourceManager.GetString("CommandNotFound", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 命令标签不能为空 的本地化字符串。
-        /// </summary>
-        internal static string CommandTagCannotBeEmpty {
-            get {
-                return ResourceManager.GetString("CommandTagCannotBeEmpty", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 现在你可以远程执行命令了哦！ 的本地化字符串。
-        /// </summary>
-        internal static string ConnectedTip {
-            get {
-                return ResourceManager.GetString("ConnectedTip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 无敌
+        ///   查找类似 God Mode
         ////prop god on
-        ///无限体力
+        ///NoStamina
         ////prop ns on
-        ///无限能量
+        ///Unlimited Energy
         ////prop ue on
-        ///冒险等阶升60级
+        ///Level up to 60
         ////give 102 x1880200
-        ///设置世界等级8
+        ///Set World Level
         ////prop wl 8
-        ///点亮地图
+        ///Unlock Map
         ////prop unlockmap 1
-        ///一键解锁深渊12层
+        ///Unlock The Tower
         ////prop ut 12
-        ///设置纪行等级50
+        ///Set BattlePass Level
         ////prop bp 50
-        ///设置好感等级10
+        ///Set Friendship Level
         ////setfetterlevel 10
-        ///回血
+        ///Heal
         ////h
-        ///自杀
+        ///Suicide
         ////kill 0
-        ///全队充能
+        ///Charge Energy
         ////spawn 2008 25
-        ///查看坐标
+        ///Where am I?
         ////pos
-        ///获取全部物品
+        ///Give me ALL!
         ////give all x9999 lv90 c6 r5
-        ///一万纠缠
+        ///10k Intertwined Fates
         ////give 223 x10000
-        ///一万相遇
+        ///10k Acquaint Fates
         ////give 224 x10000
-        ///十万原石
-        ////give 201 x100000
-        ///一亿摩拉
-        ////give 202 x100000000
-        ///重载配置
-        ////reload
-        ///重登
-        ////kick
-        ///清空当前角色命之座(需重登)
-        ////resetconst
-        ///清空全部角色命之座(需重登)
-        ////resetconst all
-        ///清空背包
-        ////clear all lv90 r [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///100k Primogem
+        ////give 201 x1000 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static string CustomCommands {
+        public static string CustomCommands {
             get {
                 return ResourceManager.GetString("CustomCommands", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找类似 错误 的本地化字符串。
+        ///   查找类似 // Dungeons
+        ///1:Level_KaeyaTutorialMission01
+        ///2:Level_KaeyaTutorialMission01
+        ///3:Level_KaeyaTutorialMission01
+        ///4:PlotLevel_BarbaraMission02_Xyd
+        ///5:PlotLevel_BarbaraMission02_Xyd
+        ///6:PlotLevel_BarbaraMission02_Xyd
+        ///7:Level_UCDungeon01
+        ///8:Level_UCDungeon01
+        ///9:Level_UCDungeon01
+        ///10:Level_PFDungeon01
+        ///11:Level_FCdungeon_Kettle01
+        ///12:Level_Wisdom03
+        ///13:Level_Gameplay_Test
+        ///15:TestLevel_Cold_LYX
+        ///16:ClimbTest1
+        ///17:TestLevel_Battle_CLX
+        ///18:Level_PowerCharge_Test
+        ///19:Level_CycleDungeon02_Normal
+        ///20:Level_CycleDungeon02_Normal
+        ///21:Level_C [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static string Error {
+        public static string Dungeons {
             get {
-                return ResourceManager.GetString("Error", resourceCulture);
+                return ResourceManager.GetString("Dungeons", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找类似 007:初行者推荐祈愿
-        ///008:奔行世间
-        ///009:杯装之诗
-        ///010:黎明巡礼
-        ///011:南风之眷
-        ///012:靖妖傩舞
-        ///013:神铸赋形
-        ///015:闪焰的驻足
-        ///016:初行者推荐祈愿
-        ///017:奔行世间
-        ///018:闪焰的驻足
-        ///019:杯装之诗
-        ///020:神铸赋形
-        ///021:神铸赋形
-        ///022:奔行世间
-        ///023:暂别冬都
-        ///024:陵薮市朝
-        ///027:深秘之息
-        ///028:浮生孰来
-        ///031:烟火之邀
-        ///032:鱼龙灯昼
-        ///033:赤团开时
-        ///036:杯装之诗
-        ///037:暂别冬都
-        ///040:陵薮市朝
-        ///041:浪涌之瞬
-        ///045:叶落风随
-        ///048:白鹭之庭
-        ///049:焰色天河
-        ///052:影寂天下人
-        ///053:浮岳虹珠
-        ///061:鬼门斗宴
-        ///065:出尘入世
-        ///071:华紫樱绯
-        ///076:苍流踏花
-        ///081:素霓伣天
-        ///091:提纳里池（非原名）
-        ///092:钟离池（非原名）
-        ///093:猎人之径池（非原名） 的本地化字符串。
+        ///   查找类似 007:Beginners&apos; wish
+        ///008:Wanderlust Invocation
+        ///009:Ballad in Goblets
+        ///010:Dawn Pilgrimage
+        ///011:Grace of Southwind
+        ///012:Bane of All Evil
+        ///013:Epitome Invocation
+        ///015:Sparkling Steps
+        ///016:Beginners&apos; wish
+        ///017:Wanderlust Invocation
+        ///018:Sparkling Steps
+        ///019:Ballad in Goblets
+        ///020:Epitome Invocation
+        ///021:Epitome Invocation
+        ///022:Wanderlust Invocation
+        ///023:Farewell of Snezhnaya
+        ///024:Gentry of Hermitage
+        ///027:Secretum Secretorum
+        ///028:Adrift in the Harbor
+        ///031:Invitation to Mundane Life
+        ///032:Dance of Lanterns
+        ///033: [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static string GachaBennerPrefab {
+        public static string GachaBennerPrefab {
             get {
                 return ResourceManager.GetString("GachaBennerPrefab", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找类似 导入成功! 的本地化字符串。
+        ///   查找类似 GrasscutterTools 的本地化字符串。
         /// </summary>
-        internal static string GOODImportSuccess {
+        public static string GrasscutterTools {
             get {
-                return ResourceManager.GetString("GOODImportSuccess", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 是否导入  的本地化字符串。
-        /// </summary>
-        internal static string GOODImportText {
-            get {
-                return ResourceManager.GetString("GOODImportText", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 导入GOOD档案 的本地化字符串。
-        /// </summary>
-        internal static string GOODImportTitle {
-            get {
-                return ResourceManager.GetString("GOODImportTitle", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 帮助 的本地化字符串。
-        /// </summary>
-        internal static string Help {
-            get {
-                return ResourceManager.GetString("Help", resourceCulture);
+                return ResourceManager.GetString("GrasscutterTools", resourceCulture);
             }
         }
         
         /// <summary>
         ///   查找类似于 (图标) 的 System.Drawing.Icon 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Icon IconGrasscutter {
+        public static System.Drawing.Icon IconGrasscutter {
             get {
                 object obj = ResourceManager.GetObject("IconGrasscutter", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
@@ -665,7 +309,17 @@ namespace GrasscutterTools.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap ImgHome {
+        public static System.Drawing.Bitmap ImgGrasscutter {
+            get {
+                object obj = ResourceManager.GetObject("ImgGrasscutter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        public static System.Drawing.Bitmap ImgHome {
             get {
                 object obj = ResourceManager.GetObject("ImgHome", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -675,17 +329,7 @@ namespace GrasscutterTools.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap ImgIconGrasscutter {
-            get {
-                object obj = ResourceManager.GetObject("ImgIconGrasscutter", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
-        internal static System.Drawing.Bitmap ImgSupport {
+        public static System.Drawing.Bitmap ImgSupport {
             get {
                 object obj = ResourceManager.GetObject("ImgSupport", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
@@ -693,143 +337,65 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 101:角色经验
-        ///102:冒险阅历
-        ///105:好感经验
-        ///106:原粹树脂
-        ///107:传说钥匙
-        ///108:(test)天体推演
-        ///109:熄星能量
-        ///110:熄星精粹
-        ///111:微光精粹
-        ///112:温暖精粹
-        ///113:奇迹精粹
-        ///114:铁钱
-        ///115:平安玉符
-        ///116:节庆热度
-        ///117:奇术符
-        ///118:庆典巡回券
-        ///119:奇趣协力券
-        ///120:纯水真心
-        ///121:信任值
-        ///122:碎果数据
-        ///123:迷踪币
-        ///124:亮闪闪的漂流物
-        ///125:迷你「羽球」
-        ///126:神秘齿轮
-        ///127:鸣雷霰子
-        ///128:鸣雷纯晶
-        ///129:弈棋术经验
-        ///130:灵妙玉符
-        ///131:逐月节节庆热度
-        ///132:残悴之式札
-        ///133:虚损之拓本
-        ///134:朽裂之庚牌
-        ///135:踏雪章
-        ///136:克险章
-        ///137:逢福玉符
-        ///138:完璧玉符
-        ///139:降魔玉符
-        ///140:幽蕴砺石
-        ///141:花簇簇的漂流物
-        ///142:战策碎珀
-        ///143:巧思手记
-        ///144:随想草稿
-        ///145:古铁钱
-        ///147:节庆热度
-        ///148:营业收入
-        ///149:可用资金
-        ///150:巧策灵感
-        ///201:原石
-        ///202:摩拉
-        ///203:创世结晶
-        ///2 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///   查找类似 // VirtualItems
+        ///101:Character EXP
+        ///102:Adventure EXP
+        ///105:Companionship EXP
+        ///106:Original Resin
+        ///107:Story Key
+        ///108:[CHS] - (test)天体推演
+        ///109:Fading Star&apos;s Might
+        ///110:Fading Star&apos;s Essence
+        ///111:Glimmering Essence
+        ///112:Warm Essence
+        ///113:Miraculous Essence
+        ///114:Iron Coin
+        ///115:Peace Talisman
+        ///116:Festive Fever
+        ///117:Veneficus Sigil
+        ///118:Festive Tour Ticket
+        ///119:Peculiar Collab Coupon
+        ///120:Heart of the Spring
+        ///121:Trust
+        ///122:Fractured Fruit Data
+        ///123:Windtrace Coins
+        ///124:Shiny Flotsam
+        ///125:Mini &quot;Harpastum&quot;
+        ///126:E [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static string Item {
+        public static string Items {
             get {
-                return ResourceManager.GetString("Item", resourceCulture);
+                return ResourceManager.GetString("Items", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找类似 20010101:草史莱姆
-        ///20010201:大型草史莱姆
-        ///20010202:大型草史莱姆
-        ///20010301:风史莱姆
-        ///20010302:风史莱姆
-        ///20010401:大型风史莱姆
-        ///20010402:大型风史莱姆
-        ///20010403:大型风史莱姆
-        ///20010501:雷史莱姆
-        ///20010502:雷史莱姆
-        ///20010601:大型雷史莱姆
-        ///20010602:大型雷史莱姆
-        ///20010604:大型雷史莱姆
-        ///20010701:变异雷史莱姆
-        ///20010702:变异雷史莱姆
-        ///20010703:变异雷史莱姆
-        ///20010801:冰史莱姆
-        ///20010802:冰史莱姆
-        ///20010803:冰史莱姆
-        ///20010901:大型冰史莱姆
-        ///20010902:大型冰史莱姆
-        ///20010903:大型冰史莱姆
-        ///20010904:大型冰史莱姆
-        ///20011001:水史莱姆
-        ///20011002:水史莱姆
-        ///20011101:大型水史莱姆
-        ///20011102:大型水史莱姆
-        ///20011103:大型水史莱姆
-        ///20011201:火史莱姆
-        ///20011202:火史莱姆
-        ///20011203:火史莱姆
-        ///20011301:大型 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///   查找类似 // MONSTER_NONE
+        ///
+        ///
+        ///// MONSTER_ORDINARY
+        ///20010101:Dendro Slime
+        ///20010201:Large Dendro Slime
+        ///20010202:Large Dendro Slime
+        ///20010301:Anemo Slime
+        ///20010302:Anemo Slime
+        ///20010401:Large Anemo Slime
+        ///20010402:Large Anemo Slime
+        ///20010403:Large Anemo Slime
+        ///20010501:Electro Slime
+        ///20010502:Electro Slime
+        ///20010601:Large Electro Slime
+        ///20010602:Large Electro Slime
+        ///20010604:Large Electro Slime
+        ///20010701:Mutant Electro Slime
+        ///20010702:Mutant Electro Slime
+        ///20010703:Mutant Electro Slime
+        ///20010801:Cryo Slime
+        ///20010802: [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static string Monster {
+        public static string Monsters {
             get {
-                return ResourceManager.GetString("Monster", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Byte[] 类型的本地化资源。
-        /// </summary>
-        internal static byte[] Newtonsoft_Json {
-            get {
-                object obj = ResourceManager.GetObject("Newtonsoft_Json", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 版本名：{0}
-        ///更新时间：{1}
-        ///更新内容：
-        ///{2}
-        ///--------------------------------------------
-        ///是否查看更新？选择否将不再提醒该版本。 的本地化字符串。
-        /// </summary>
-        internal static string NewVersionInfo {
-            get {
-                return ResourceManager.GetString("NewVersionInfo", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 1. 填写正确的UID\n2. 向玩家发送验证码\n3. 输入正确的验证码\n4. 连接\n5. 享受 的本地化字符串。
-        /// </summary>
-        internal static string OpenCommandHelp {
-            get {
-                return ResourceManager.GetString("OpenCommandHelp", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 要设置的权限不能为空！ 的本地化字符串。
-        /// </summary>
-        internal static string PermissionCannotBeEmpty {
-            get {
-                return ResourceManager.GetString("PermissionCannotBeEmpty", resourceCulture);
+                return ResourceManager.GetString("Monsters", resourceCulture);
             }
         }
         
@@ -863,248 +429,64 @@ namespace GrasscutterTools.Properties {
         ///player.settalent
         ///p [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static string Permissions {
+        public static string Permissions {
             get {
                 return ResourceManager.GetString("Permissions", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找类似 查询服务端状态失败： 的本地化字符串。
+        ///   查找类似 30302:Goddess Statue Unlocked - [N/A] 362713143
+        ///30303:Goddess Statue Unlocked - [N/A] 715511863
+        ///30304:Goddess Statue Unlocked - [N/A] 163018255
+        ///30305:Goddess Statue Unlocked - [N/A] 3694648119
+        ///30306:Goddess Statue Unlocked - [N/A] 3223799591
+        ///30307:Goddess Statue Unlocked - [N/A] 1232757671
+        ///30308:Goddess Statue Unlocked - [N/A] 3056513767
+        ///30309:Goddess Statue Unlocked - [N/A] 2426653367
+        ///30310:Goddess Statue Unlocked - [N/A] 2003131071
+        ///30311:Goddess Statue Unlocked - [N/A] 105277231
+        ///30312:Goddess St [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static string QueryServerStatusFailed {
+        public static string Quests {
             get {
-                return ResourceManager.GetString("QueryServerStatusFailed", resourceCulture);
+                return ResourceManager.GetString("Quests", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   查找类似 30302:女神像解锁$HIDDEN - [N/A] 362713143
-        ///30303:女神像解锁$HIDDEN - [N/A] 715511863
-        ///30304:女神像解锁$HIDDEN - [N/A] 163018255
-        ///30305:女神像解锁$HIDDEN - [N/A] 3694648119
-        ///30306:女神像解锁$HIDDEN - [N/A] 3223799591
-        ///30307:女神像解锁$HIDDEN - [N/A] 1232757671
-        ///30308:女神像解锁$HIDDEN - [N/A] 3056513767
-        ///30309:女神像解锁$HIDDEN - [N/A] 2426653367
-        ///30310:女神像解锁$HIDDEN - [N/A] 2003131071
-        ///30311:女神像解锁$HIDDEN - [N/A] 105277231
-        ///30312:女神像解锁$HIDDEN - [N/A] 3391806215
-        ///30313:女神像解锁$HIDDEN - [N/A] 1357500887
-        ///30314:女神像解锁$HIDDEN - [N/A] 3054344935
-        ///30315:女神像 [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string Quest {
-            get {
-                return ResourceManager.GetString("Quest", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 请先连接到支持[OpenCommand]的服务器 的本地化字符串。
-        /// </summary>
-        internal static string RequireOpenCommandTip {
-            get {
-                return ResourceManager.GetString("RequireOpenCommandTip", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 确认将自定义命令恢复到默认值？ 的本地化字符串。
-        /// </summary>
-        internal static string RestoreCustomCommands {
-            get {
-                return ResourceManager.GetString("RestoreCustomCommands", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 1:BigWorld_LevelStreaming
+        ///   查找类似 // Scenes
+        ///
+        ///
+        ///// SCENE_NONE
+        ///
+        ///
+        ///// SCENE_WORLD
+        ///1:BigWorld_LevelStreaming
         ///2:BigWorld_LevelStreaming
-        ///3:提瓦特
-        ///4:金苹果群岛(1.6)
-        ///5:渊下宫
-        ///6:层岩巨渊·地下矿区
-        ///7:三界路飨祭
-        ///9:金苹果群岛(2.8)
-        ///1001:移动平台性能测试(test)
-        ///1002:攀爬测试2
+        ///3:BigWorld_LevelStreaming
+        ///4:LostParadise_LevelStreaming
+        ///5:AbyssalPalace_LevelStreaming
+        ///6:TheChasm_LevelStreaming
+        ///7:MichiaeMatsuri_LevelStreaming
+        ///9:DreamIsland_LevelStreaming
+        ///1002:ClimbTest2
         ///1003:TheBigWorld
-        ///1004:Knight_Inside_Test
-        ///1005:ChurchSteal
-        ///1006:密林、废墟与龙之泪
-        ///1008:ChurchLobby
-        ///1009:AngelShare
-        ///1011:角色战斗测试(test)
-        ///1013:SneakAdvancedTest
-        ///1015:飞翔是勇气的奖励
-        ///1016:飞翔是勇气的奖励
-        ///1017:壶中天
-        ///1018:Chateau
-        ///1019:洞天云海地城玩法测试(test)
-        ///1023:Level_Yurenzhong
-        ///1024:黑夜循环地城(test)
         ///1030:TestIntercept_LiYue
-        ///1031:爬塔丘丘人模板(test)
-        ///1032:云海白盒测试(test)
-        ///1033:Indoor_Ly_Bank
-        ///1 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///50020:ClimbTest1
+        ///50069:TestLevel_ClimbBox
+        ///50071:TestWorld_APA_ZQQ
+        ///50073:PerformanceTest_LevelStreaming
+        ///
+        ///
+        ///// SCENE_DUNGEON
+        ///1001:ClimbTest1
+        ///1006:Level_PFDungeon01
+        ///1011:Level_Gameplay_Test [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static string Scene {
+        public static string Scenes {
             get {
-                return ResourceManager.GetString("Scene", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 加载设置时异常： 的本地化字符串。
-        /// </summary>
-        internal static string SettingLoadError {
-            get {
-                return ResourceManager.GetString("SettingLoadError", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 保存设置时异常： 的本地化字符串。
-        /// </summary>
-        internal static string SettingSaveError {
-            get {
-                return ResourceManager.GetString("SettingSaveError", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 提示 的本地化字符串。
-        /// </summary>
-        internal static string Tips {
-            get {
-                return ResourceManager.GetString("Tips", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 Token不能为空 的本地化字符串。
-        /// </summary>
-        internal static string TokenCannotBeEmpty {
-            get {
-                return ResourceManager.GetString("TokenCannotBeEmpty", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 已从缓存中恢复Token 的本地化字符串。
-        /// </summary>
-        internal static string TokenRestoredFromCache {
-            get {
-                return ResourceManager.GetString("TokenRestoredFromCache", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 用户名不能为空！ 的本地化字符串。
-        /// </summary>
-        internal static string UsernameCannotBeEmpty {
-            get {
-                return ResourceManager.GetString("UsernameCannotBeEmpty", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 11101:无锋剑
-        ///11201:银剑
-        ///11301:冷刃
-        ///11302:黎明神剑
-        ///11303:旅行剑
-        ///11304:暗铁剑
-        ///11305:吃虎鱼刀
-        ///11306:飞天御剑
-        ///11401:西风剑
-        ///11402:笛剑
-        ///11403:祭礼剑
-        ///11404:宗室长剑
-        ///11405:匣里龙吟
-        ///11406:试作斩岩
-        ///11407:铁蜂刺
-        ///11408:黑岩长剑
-        ///11409:黑剑
-        ///11410:暗巷闪光
-        ///11412:降临之剑
-        ///11413:腐殖之剑
-        ///11414:天目影打刀
-        ///11415:辰砂之纺锤
-        ///11416:笼钓瓶一心
-        ///11417:原木刀
-        ///11418:西福斯的月光
-        ///11419:「一心传」名刀
-        ///11420:「一心传」名刀
-        ///11421:「一心传」名刀
-        ///11501:风鹰剑
-        ///11502:天空之刃
-        ///11503:苍古自由之誓
-        ///11504:斫峰之刃
-        ///11505:磐岩结绿
-        ///11506:磐岩结绿
-        ///11507:凭虚
-        ///11509:雾切之回光
-        ///11510:波乱月白经津
-        ///11511:圣显之钥
-        ///12101:训练大剑
-        ///12201:佣兵重剑
-        ///12301:铁影阔剑
-        ///12302:沐浴龙血的剑
-        ///12303 [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string Weapon {
-            get {
-                return ResourceManager.GetString("Weapon", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 11301:blue
-        ///11302:blue
-        ///11303:blue
-        ///11304:blue
-        ///11305:blue
-        ///11306:blue
-        ///11401:purple
-        ///11402:purple
-        ///11403:purple
-        ///11404:purple
-        ///11405:purple
-        ///11406:purple
-        ///11407:purple
-        ///11408:purple
-        ///11409:purple
-        ///11410:purple
-        ///11411:purple
-        ///11412:purple
-        ///11413:purple
-        ///11414:purple
-        ///11415:purple
-        ///11501:yellow
-        ///11502:yellow
-        ///11503:yellow
-        ///11504:yellow
-        ///11505:yellow
-        ///11506:yellow
-        ///11507:yellow
-        ///11508:yellow
-        ///11509:yellow
-        ///11510:yellow
-        ///12301:blue
-        ///12302:blue
-        ///12303:blue
-        ///12304:blue
-        ///12305:blue
-        ///12306:blue
-        ///12401:purple
-        ///1240 [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        internal static string WeaponColor {
-            get {
-                return ResourceManager.GetString("WeaponColor", resourceCulture);
+                return ResourceManager.GetString("Scenes", resourceCulture);
             }
         }
     }

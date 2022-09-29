@@ -17,6 +17,7 @@
  * 
  **/
 using GrasscutterTools.Properties;
+using GrasscutterTools.Utils;
 
 namespace GrasscutterTools.Game
 {
@@ -24,48 +25,42 @@ namespace GrasscutterTools.Game
     {
         public static void LoadResources()
         {
-            Animals = new ItemMap(Resources.Animal);
-            Artifacts = new ItemMap(Resources.Artifact);
-            ArtifactCats = new ItemMap(Resources.ArtifactCat);
+            //SparseSet illegalWeaponIds = new SparseSet(
+            //    "10000-10008, 11411, 11506-11508, 12505, 12506, 12508, 12509," +
+            //    "13503, 13506, 14411, 14503, 14505, 14508, 15504-15506");
+
+
+            //SparseSet illegalRelicIds = new SparseSet(
+            //    "20001, 23300-23340, 23383-23385, 78310-78554, 99310-99554"
+            //    );
+
+            //SparseSet illegalItemIds = new SparseSet(
+            //    "100086, 100087, 100100-101000, 101106-101110, 101306, 101500-104000," +
+            //    "105001, 105004, 106000-107000, 107011, 108000, 109000-110000," +
+            //    "115000-130000, 200200-200899, 220050, 220054"
+            //    );
+
+            ArtifactSets = new ItemMap(Resources.ArtifactSets);
             ArtifactMainAttribution = new ItemMap(Resources.ArtifactMainAttribution);
             ArtifactSubAttribution = new ItemMap(Resources.ArtifactSubAttribution);
-            Avatars = new ItemMap(Resources.Avatar);
-            AvatarColors = new ItemMap(Resources.AvatarColor);
-            Items = new ItemMap(Resources.Item);
-            Monsters = new ItemMap(Resources.Monster);
-            //NPCs = new ItemMap(Resources.NPC);
-            Scenes = new ItemMap(Resources.Scene);
-            Weapons = new ItemMap(Resources.Weapon);
-            WeaponColors = new ItemMap(Resources.WeaponColor);
+            Items = new ItemMap(Resources.Items);
+            Monsters = new ItemMap(Resources.Monsters);
+            Scenes = new ItemMap(Resources.Scenes);
             GachaBannerPrefabs = new ItemMap(Resources.GachaBennerPrefab);
-            Quests = new ItemMap(Resources.Quest);
+            Quests = new ItemMap(Resources.Quests);
         }
 
-        public static ItemMap Animals { get; private set; }
-
-        public static ItemMap Artifacts { get; private set; }
-
-        public static ItemMap ArtifactCats { get; private set; }
+        public static ItemMap ArtifactSets { get; private set; }
 
         public static ItemMap ArtifactMainAttribution { get; private set; }
 
         public static ItemMap ArtifactSubAttribution { get; private set; }
 
-        public static ItemMap Avatars { get; private set; }
-
-        public static ItemMap AvatarColors { get; private set; }
-
         public static ItemMap Items { get; private set; }
 
         public static ItemMap Monsters { get; private set; }
 
-        //public static ItemMap NPCs { get; private set; }
-
         public static ItemMap Scenes { get; private set; }
-
-        public static ItemMap Weapons { get; private set; }
-
-        public static ItemMap WeaponColors { get; private set; }
 
         public static ItemMap GachaBannerPrefabs { get; private set; }
 

@@ -1,0 +1,747 @@
+// MONSTER_NONE
+
+
+// MONSTER_ORDINARY
+20010101:Dendro Slime
+20010201:Large Dendro Slime
+20010202:Large Dendro Slime
+20010301:Anemo Slime
+20010302:Anemo Slime (Mechanicus)
+20010401:Large Anemo Slime
+20010402:Large Anemo Slime (Mechanicus)
+20010403:Large Anemo Slime
+20010501:Electro Slime
+20010502:Electro Slime (Mechanicus)
+20010601:Large Electro Slime
+20010602:Large Electro Slime (Mechanicus)
+20010604:Large Electro Slime
+20010701:Mutant Electro Slime
+20010702:Mutant Electro Slime
+20010703:Mutant Electro Slime
+20010801:Cryo Slime
+20010802:Cryo Slime
+20010803:Cryo Slime
+20010901:Large Cryo Slime
+20010902:Large Cryo Slime
+20010903:Large Cryo Slime
+20010904:Large Cryo Slime
+20011001:Hydro Slime
+20011002:Hydro Slime
+20011101:Large Hydro Slime
+20011102:Large Hydro Slime
+20011103:Large Hydro Slime
+20011201:Pyro Slime
+20011202:Pyro Slime
+20011203:Pyro Slime
+20011301:Large Pyro Slime
+20011302:Large Pyro Slime
+20011304:Large Pyro Slime
+20011401:Geo Slime
+20011402:Geo Slime
+20011501:Large Geo Slime
+20011502:Large Geo Slime
+20011503:Large Geo Slime
+20011601:Hydro Hypostasis Summon: Split (L)
+20011701:Hydro Hypostasis Summon: Split (S)
+20011801:Hydro Hypostasis Summon: Self-Destruct
+20011901:Hydro Hypostasis Summon: Heal
+20020101:Eye of the Storm
+20050201:Oceanid Boar
+20050202:Oceanid Boar
+20050203:Oceanid Boar
+20050301:Oceanid Crane
+20050302:Oceanid Crane
+20050401:Oceanid Crab
+20050402:Oceanid Crab
+20050403:Oceanid Crab
+20050501:Oceanid Finch
+20050502:Oceanid Finch
+20050601:Oceanid Mallard
+20050602:Oceanid Mallard
+20050603:Oceanid Mallard
+20050701:Oceanid Ferret
+20050702:Oceanid Ferret
+20050703:Oceanid Ferret
+20050801:Oceanid Frog
+20050802:Oceanid Frog
+20050901:Oceanid Raptor
+20060101:Hydro Specter
+20060201:Geo Specter
+20060301:Anemo Specter
+20060401:Cryo Specter
+20060501:Electro Specter
+20060601:Pyro Specter
+20060701:[N/A] 586909705
+21010101:Hilichurl
+21010102:Hilichurl
+21010201:Hilichurl Fighter
+21010301:Wooden Shield Hilichurl Guard
+21010302:Wooden Shield Hilichurl Guard
+21010401:Hilichurl Shooter
+21010402:Hilichurl Shooter
+21010501:Pyro Hilichurl Shooter
+21010502:Pyro Hilichurl Shooter
+21010601:Hilichurl Grenadier
+21010603:Hilichurl Grenadier
+21010701:Hilichurl Berserker
+21010702:Hilichurl Berserker
+21010901:Cryo Hilichurl Shooter
+21010902:Cryo Hilichurl Shooter
+21011001:Electro Hilichurl Shooter
+21011002:Electro Hilichurl Shooter
+21011201:Rock Shield Hilichurl Guard
+21011202:Rock Shield Hilichurl Guard
+21011301:Cryo Hilichurl Grenadier
+21011302:Cryo Hilichurl Grenadier
+21011401:Ice Shield Hilichurl Guard
+21011402:Ice Shield Hilichurl Guard
+21011403:Ice Shield Hilichurl Guard
+21011501:Unusual Hilichurl
+21011601:Electro Hilichurl Grenadier
+21011602:Electro Hilichurl Grenadier
+21020101:Wooden Shieldwall Mitachurl
+21020102:Wooden Shieldwall Mitachurl
+21020201:Blazing Axe Mitachurl
+21020202:Blazing Axe Mitachurl
+21020203:Blazing Axe Mitachurl
+21020301:Rock Shieldwall Mitachurl
+21020302:Rock Shieldwall Mitachurl
+21020401:Frostarm Lawachurl
+21020402:Frostarm Lawachurl
+21020501:Stonehide Lawachurl
+21020502:Stonehide Lawachurl
+21020601:Ice Shieldwall Mitachurl
+21020602:Ice Shieldwall Mitachurl
+21020701:Crackling Axe Mitachurl
+21020702:Crackling Axe Mitachurl
+21020703:Crackling Axe Mitachurl
+21020801:Thunderhelm Lawachurl
+21020802:Thunderhelm Lawachurl
+21030101:Hydro Samachurl
+21030102:Hydro Samachurl
+21030103:Hydro Samachurl
+21030201:Dendro Samachurl
+21030202:Dendro Samachurl
+21030203:Dendro Samachurl
+21030301:Anemo Samachurl
+21030302:Anemo Samachurl
+21030303:Anemo Samachurl
+21030304:Anemo Samachurl
+21030401:Geo Samachurl
+21030402:Geo Samachurl
+21030403:Geo Samachurl
+21030501:Cryo Samachurl
+21030502:Cryo Samachurl
+21030601:Electro Samachurl
+21030602:Electro Samachurl
+21030603:Electro Samachurl
+22010101:Pyro Abyss Mage
+22010102:Pyro Abyss Mage
+22010103:Pyro Abyss Mage
+22010104:Pyro Abyss Mage
+22010105:Pyro Abyss Mage
+22010201:Cryo Abyss Mage
+22010202:Cryo Abyss Mage
+22010203:Cryo Abyss Mage
+22010204:Cryo Abyss Mage
+22010205:Cryo Abyss Mage
+22010301:Hydro Abyss Mage
+22010302:Hydro Abyss Mage
+22010303:Hydro Abyss Mage
+22010304:Hydro Abyss Mage
+22010305:Hydro Abyss Mage
+22010401:Electro Abyss Mage
+22010402:Electro Abyss Mage
+22010403:Electro Abyss Mage
+22010404:Electro Abyss Mage
+22020101:Abyss Herald: Wicked Torrents
+22020102:Abyss Herald: Wicked Torrents
+22020103:[N/A] 3179556369
+22030101:Abyss Lector: Violet Lightning
+22030102:Abyss Lector: Violet Lightning
+22030103:[N/A] 577563505
+22030201:Abyss Lector: Fathomless Flames
+22030202:Abyss Lector: Fathomless Flames
+22040101:Rockfond Rifthound Whelp
+22040201:Thundercraven Rifthound Whelp
+22050101:Rockfond Rifthound
+22050201:Thundercraven Rifthound
+22070101:Shadowy Husk: Standard Bearer
+22070102:Shadowy Husk: Standard Bearer
+22070201:Shadowy Husk: Line Breaker
+22070202:Shadowy Husk: Line Breaker
+22070301:Shadowy Husk: Defender
+22070302:Shadowy Husk: Defender
+22080101:Black Serpent Knight: Windcutter
+22090101:Guess!
+23010101:Fatui Skirmisher - Cryogunner Legionnaire
+23010201:Fatui Skirmisher - Hydrogunner Legionnaire
+23010301:Fatui Skirmisher - Electrohammer Vanguard
+23010401:Fatui Skirmisher - Geochanter Bracer
+23010501:Fatui Skirmisher - Anemoboxer Vanguard
+23010601:Fatui Skirmisher - Pyroslinger Bracer
+23020101:Fatui Pyro Agent
+23020102:Fatui Pyro Agent
+23030101:Fatui Electro Cicin Mage
+23030102:Fatui Electro Cicin Mage
+23040101:Fatui Cryo Cicin Mage
+23040102:Fatui Cryo Cicin Mage
+23050101:Mirror Maiden
+24010101:Ruin Guard
+24010102:Ruin Guard
+24010108:Ruin Guard
+24010109:Ruin Guard
+24010201:Ruin Hunter
+24010202:Ruin Hunter
+24010301:Ruin Grader
+24010302:Ruin Grader
+24010303:Ruin Grader
+24010304:[N/A] 4152683505
+24020101:Ruin Cruiser
+24020102:Ruin Cruiser
+24020103:Ruin Cruiser
+24020201:Ruin Destroyer
+24020202:Ruin Destroyer
+24020203:Ruin Destroyer
+24020301:Ruin Defender
+24020302:Ruin Defender
+24020303:Ruin Defender
+24020304:[N/A] 3323395121
+24020401:Ruin Scout
+24020402:Ruin Scout
+24020403:Ruin Scout
+24030101:[N/A] 765448937
+24030201:[N/A] 3903929633
+24040101:[N/A] 1462919497
+24040201:[N/A] 285953129
+24040301:[N/A] 3626535649
+25010101:Liuliu
+25010102:Mystery Man
+25010103:Treasure Hoarders: Liuliu
+25010104:Treasure Hoarders: Liuliu
+25010105:Treasure Hoarders: Liuliu
+25010106:Treasure Hoarders: Liuliu
+25010201:Treasure Hoarders: Scout
+25010203:Treasure Hoarders: Scout
+25010204:Treasure Hoarders: Scout
+25010205:Treasure Hoarders: Scout
+25010206:Treasure Hoarders: Scout
+25010207:Treasure Hoarders: Scout
+25010208:Treasure Hoarders: Scout
+25010209:[N/A] 1167900689
+25010210:[N/A] 4032173065
+25010211:[N/A] 392055353
+25010301:Treasure Hoarders: Pyro Potioneer
+25010302:Treasure Hoarders: Pyro Potioneer
+25010401:Treasure Hoarders: Hydro Potioneer
+25010501:Treasure Hoarders: Electro Potioneer
+25010601:Treasure Hoarders: Cryo Potioneer
+25010701:Treasure Hoarders: Handyman
+25020101:Treasure Hoarders: Raptor
+25020102:Treasure Hoarders: Raptor
+25020201:Treasure Hoarders: Marksman
+25020204:Treasure Hoarders: Marksman
+25030101:Treasure Hoarders: Carmen
+25030102:Treasure Hoarders: Carmen
+25030103:Treasure Hoarders: Carmen
+25030201:Treasure Hoarders: Gravedigger
+25030301:Treasure Hoarders: Oarsman
+25040101:Treasure Hoarders: Boss
+25040102:Treasure Hoarders: Boss
+25040103:Treasure Hoarders: Boss
+25050101:Millelith Soldier
+25050201:Millelith Sergeant
+25050301:Shogunate Infantry
+25050401:Shogunate Infantry Captain
+25050402:Shogunate Infantry Captain
+25050501:Sangonomiya Cohort
+25050502:Sangonomiya Cohort
+25060101:Treasure Hoarders: Pugilist
+25060102:Treasure Hoarders: Pugilist
+25070101:Treasure Hoarders: Crusher
+25070201:Treasure Hoarders: Wallenstein
+25070202:Treasure Hoarders: Wallenstein
+25080101:Nobushi: Jintouban
+25080201:Nobushi: Hitsukeban
+25080202:Nobushi: Hitsukeban
+25080301:Nobushi: Kikouban
+25080401:Yoriki Samurai
+25080402:Yoriki Samurai
+25080403:[N/A] 1581579825
+25080404:[N/A] 400320561
+25100101:Kairagi: Dancing Thunder
+25100102:Kairagi: Dancing Thunder
+25100201:Kairagi: Fiery Might
+25100301:Ochimusha: Ensorcelled Thunder
+25100302:Ochimusha: Ensorcelled Thunder
+25100401:Ochimusha: Cankered Flame
+25110101:[N/A] 1820584137
+25110102:[N/A] 2361510321
+25110201:[N/A] 3397827697
+25110202:[N/A] 1458817257
+25210101:[N/A] 593962337
+25210102:[N/A] 655804089
+25210103:[N/A] 3189818729
+25210104:[N/A] 2655106977
+25210105:[N/A] 2175825297
+25210106:[N/A] 660925665
+25210107:[N/A] 2260729353
+25210201:[N/A] 1998919569
+25210202:[N/A] 2119181617
+25210203:[N/A] 3425185161
+25210204:[N/A] 3201394457
+25210205:[N/A] 3735395833
+25210206:[N/A] 1444996537
+25210207:[N/A] 1636753185
+25210301:[N/A] 4008986473
+25210302:[N/A] 2939413633
+25210303:[N/A] 2517557169
+25210304:[N/A] 3890286705
+25210305:[N/A] 1664946217
+25210306:[N/A] 696066441
+25210307:[N/A] 2671081977
+25210401:[N/A] 998410809
+25210402:[N/A] 839477089
+25210403:[N/A] 2628038825
+25210404:[N/A] 509218169
+25210405:[N/A] 4366953
+25210406:[N/A] 1385944497
+25210501:[N/A] 914092905
+25210502:[N/A] 3484979137
+25210503:[N/A] 2747515289
+25210504:[N/A] 1621612097
+25210505:[N/A] 4251715865
+25210506:[N/A] 124112617
+25210601:[N/A] 3480498409
+25210602:[N/A] 1531750897
+25310101:[N/A] 2984077569
+25310201:[N/A] 3154173257
+25310202:[N/A] 3503187145
+25310301:[N/A] 863506833
+25410101:[N/A] 1317576089
+25410201:[N/A] 1223193297
+26010101:Cryo Whopperflower
+26010102:Cryo Whopperflower
+26010201:Pyro Whopperflower
+26010301:Electro Whopperflower
+26030101:Geovishap Hatchling
+26040101:Geovishap (Hydro)
+26040102:Geovishap (Pyro)
+26040103:Geovishap (Cryo)
+26040104:Geovishap (Electro)
+26040105:Geovishap
+26050601:Primordial Bathysmal Vishap
+26050901:Primordial Bathysmal Vishap
+26051001:Primordial Bathysmal Vishap Hatchling
+26051101:Bolteater Bathysmal Vishap Hatchling
+26060101:Electro Cicin
+26060201:Hydro Cicin
+26060301:Cryo Cicin
+26090101:Floating Hydro Fungus
+26090201:[N/A] 4206793049
+26090202:[N/A] 3825581857
+26090301:[N/A] 243798441
+26090401:[N/A] 2774139065
+26090501:[N/A] 1181717657
+26090601:[N/A] 4148148753
+26090701:[N/A] 2130513233
+26090801:[N/A] 554072617
+26090901:[N/A] 2734459225
+26091001:[N/A] 1409125529
+26120101:[N/A] 198051785
+26120201:[N/A] 2368019041
+26120301:[N/A] 3299184601
+26120401:[N/A] 4098645257
+28020101:Snow Fox
+28020102:Crimson Fox
+28020103:Gifting Snow Fox
+28020104:Super-Gifting Snow Fox
+28020105:Snow Fox
+28020106:Crimson Fox
+28020107:[N/A] 378885401
+28020108:[N/A] 2121972905
+28020201:Squirrel
+28020301:Forest Boar
+28020302:Forest Piglet
+28020303:Snowboar
+28020304:Great Snowboar King
+28020305:Frozen Snowboar
+28020306:Snowboar
+28020307:Forest Boar
+28020308:Frozen Snowboar
+28020309:Great Snowboar King
+28020310:[N/A] 1922000329
+28020311:[N/A] 3804855321
+28020312:[N/A] 1052664969
+28020313:[N/A] 2391061289
+28020314:[N/A] 2761000073
+28020315:[N/A] 977650529
+28020401:Northland Hound
+28020402:Forest-Patrol Hound
+28020403:Shiba
+28020404:Black-Back Hound
+28020405:Shiba
+28020406:Northland Hound
+28020407:Northland Hound
+28020408:Forest-Patrol Hound
+28020409:Shiba
+28020410:Black-Back Hound
+28020501:Sapphire
+28020502:Jade-Eyed Cat
+28020503:Gray Snow Cat
+28020504:Northland Cat
+28020505:Tiger-Striped Cat
+28020506:Sheriff Cat
+28020507:Black Cat
+28020508:Sapphire
+28020509:Gray Snow Cat
+28020510:Jade-Eyed Cat
+28020511:Gray Snow Cat
+28020512:Northland Cat
+28020513:Tiger-Striped Cat
+28020601:Snow Weasel
+28020602:Red-Tailed Weasel
+28020603:Boot Weasel
+28020604:Masked Weasel
+28020605:Bluethunder Weasel
+28020701:Kitsune
+28020702:Kitsune
+28020801:Bake-Danuki
+28020802:Kichiboushi
+28020803:Bake-Danuki
+28020901:Samurai Dog Diversion (test)
+28020902:Samurai dog boss (test)
+28020903:Taroumaru
+28030101:Azure Crane
+28030102:Violet Ibis
+28030103:[N/A] 434877481
+28030104:[N/A] 3431473329
+28030201:Brownwing Falcon
+28030202:Umbertail Falcon
+28030203:Lapis Glede
+28030204:Silkwhite Falcon
+28030301:White Pigeon
+28030302:Brightcrown Pigeon
+28030303:Graywing Pigeon
+28030304:Crimsonflank Pigeon
+28030305:Black King Pigeon
+28030306:Duck
+28030307:White Pigeon
+28030308:Brightcrown Pigeon
+28030309:Graywing Pigeon
+28030310:Crimsonflank Pigeon
+28030311:Black King Pigeon
+28030312:[N/A] 1045054721
+28030313:[N/A] 45487625
+28030401:Crimson Finch
+28030402:Golden Finch
+28030403:Snow Finch
+28030404:Emerald Finch
+28030405:Golden Finch
+28030406:Crimson Finch
+28030407:Golden Finch
+28030408:Snow Finch
+28030409:Emerald Finch
+28030501:Scarletbeak Duck
+28030502:Emerald Duck
+28030503:Golden Duck
+28030504:Scarletbeak Duck
+28030505:[N/A] 3375863305
+28040703:Floating Ray
+28050201:Amateur Weasel Thief
+28050202:Hoarder Weasel Thief
+28050203:Golden Weasel Thief
+28050204:Amateur Weasel Thief
+28050211:Amateur Weasel Thief
+28050212:Hoarder Weasel Thief
+28050213:Golden Weasel Thief
+28050221:Amateur Weasel Thief
+28050222:Hoarder Weasel Thief
+28050223:Golden Weasel Thief
+28060101:[N/A] 128716817
+28060102:[N/A] 2866718929
+28060103:[N/A] 1328271489
+28060201:[N/A] 2538068521
+28060202:[N/A] 3539690529
+28060203:[N/A] 3418949673
+28060301:[N/A] 1575409961
+28060302:[N/A] 35400545
+28060401:[N/A] 2550380273
+28060402:[N/A] 1827515817
+28060501:[N/A] 2910802777
+28060502:[N/A] 3424336233
+28060503:[N/A] 3938050385
+28060504:[N/A] 457094737
+28060505:[N/A] 3374220305
+28060506:[N/A] 1349374089
+28060509:[N/A] 1497649297
+28060510:[N/A] 3380533609
+28060511:[N/A] 423020265
+28060512:[N/A] 112703337
+28060513:[N/A] 2396817929
+28060601:[N/A] 2825466249
+28060602:[N/A] 409501041
+28060603:[N/A] 2740821897
+28060604:[N/A] 2340527241
+28060605:[N/A] 37512633
+28060606:[N/A] 2214856321
+28060609:[N/A] 1426424937
+28060610:[N/A] 3717654113
+28060611:[N/A] 1648208073
+28060612:[N/A] 2053098161
+28060613:[N/A] 276253497
+28060614:[N/A] 465761521
+28060701:[N/A] 3963893857
+28060801:[N/A] 3494586161
+28060901:[N/A] 3910686713
+28061001:[N/A] 3720242777
+28061002:[N/A] 3801760225
+28061101:[N/A] 3407624849
+28061201:[N/A] 2733673945
+28061301:[N/A] 3469996769
+28061401:[N/A] 2330015681
+28061402:[N/A] 3443985385
+28210101:Serenitea Pot: Golden Crab
+28210102:Serenitea Pot: Sun Crab
+28210103:Serenitea Pot: Ocean Crab
+28210104:Serenitea Pot: General Crab
+28210105:Serenitea Pot: Pale Red Crab
+28210201:Serenitea Pot: Blue Horned Lizard
+28210202:Serenitea Pot: Red Horned Lizard
+28210203:Serenitea Pot: Green Horned Lizard
+28210204:Serenitea Pot: Sunset Loach
+28210205:Serenitea Pot: Golden Loach
+28210206:Serenitea Pot: Sunny Loach
+28210207:Serenitea Pot: Marrow Lizard
+28210208:[N/A] 4168682209
+28210301:Serenitea Pot: Frog
+28210302:Serenitea Pot: Mud Frog
+28210303:Serenitea Pot: Blue Frog
+28210304:[N/A] 1743923249
+28210401:Serenitea Pot: Adorned Unagi
+28210402:Serenitea Pot: Deep Sea Unagi
+28210403:Serenitea Pot: Red-Finned Unagi
+28210404:[N/A] 1020919801
+28220101:Serenitea Pot: Snow Fox
+28220102:Serenitea Pot: Crimson Fox
+28220108:[N/A] 3596224209
+28220201:Serenitea Pot: Squirrel
+28220301:Serenitea Pot: Forest Boar
+28220303:Serenitea Pot: Snowboar
+28220313:[N/A] 2460569713
+28220314:[N/A] 3974077529
+28220401:Serenitea Pot: Northland Hound
+28220402:Serenitea Pot: Forest-Patrol Hound
+28220403:Serenitea Pot: Shiba
+28220404:Serenitea Pot: Black-Back Hound
+28220501:Serenitea Pot: Sapphire
+28220502:Serenitea Pot: Jade-Eyed Cat
+28220503:Serenitea Pot: Gray Snow Cat
+28220504:Serenitea Pot: Northland Cat
+28220505:Serenitea Pot: Tiger-Striped Cat
+28220506:Serenitea Pot: Sheriff Cat
+28220601:Serenitea Pot: Snow Weasel
+28220602:Serenitea Pot: Red-Tailed Weasel
+28220603:Serenitea Pot: Boot Weasel
+28220604:[N/A] 3102074185
+28220605:Serenitea Pot: Bluethunder Weasel
+28220701:Serenitea Pot: Kitsune
+28220901:Serenitea Pot: Kageroumaru
+28230101:Serenitea Pot: Azure Crane
+28230102:Serenitea Pot: Violet Ibis
+28230104:[N/A] 811422561
+28230301:Serenitea Pot: White Pigeon
+28230302:Serenitea Pot: Brightcrown Pigeon
+28230303:Serenitea Pot: Graywing Pigeon
+28230304:Serenitea Pot: Crimsonflank Pigeon
+28230305:Serenitea Pot: Black King Pigeon
+28230306:Serenitea Pot: Crow
+28230313:[N/A] 3724967537
+28230401:Serenitea Pot: Crimson Finch
+28230402:Serenitea Pot: Golden Finch
+28230403:Serenitea Pot: Snow Finch
+28230404:Serenitea Pot: Emerald Finch
+28240201:Serenitea Pot: Medaka
+28240202:Serenitea Pot: Glaze Medaka
+28240203:Serenitea Pot: Sweet-Flower Medaka
+28240204:Serenitea Pot: Aizen Medaka
+28240205:Serenitea Pot: Dawncatcher
+28240206:Serenitea Pot: Crystalfish
+28240301:Serenitea Pot: Lunged Stickleback
+28240302:Serenitea Pot: Betta
+28240303:Serenitea Pot: Venomspine Fish
+28240304:Serenitea Pot: Akai Maou
+28240305:Serenitea Pot: Snowstrider
+28240401:Serenitea Pot: Golden Koi
+28240402:Serenitea Pot: Rusty Koi
+28240501:Serenitea Pot: Brown Shirakodai
+28240502:Serenitea Pot: Purple Shirakodai
+28240503:Serenitea Pot: Tea-Colored Shirakodai
+28240504:Serenitea Pot: Abiding Angelfish
+28240505:Serenitea Pot: Raimei Angelfish
+28240506:Serenitea Pot: Moonfin
+28240601:Serenitea Pot: Pufferfish
+28240602:Serenitea Pot: Bitter Pufferfish
+28240701:Serenitea Pot: Divda Ray
+28240702:Serenitea Pot: Formalo Ray
+28240801:[N/A] 2213501889
+28240802:[N/A] 2420839809
+28240803:[N/A] 619347953
+28240804:[N/A] 2847515857
+28240901:[N/A] 4288334729
+28240902:[N/A] 2843011617
+28250101:Serenitea Pot: Anemo Crystalfly
+28250102:Serenitea Pot: Geo Crystalfly
+28250103:Serenitea Pot: Cryo Crystalfly
+28250104:Serenitea Pot: Electro Crystalfly
+28250105:Serenitea Pot: Coral Butterfly
+28250106:[N/A] 3343647737
+28250301:Serenitea Pot: Lucklight Fly
+28250401:[N/A] 741074761
+
+
+// MONSTER_BOSS
+20040101:Electro Hypostasis
+20040102:Electro Hypostasis
+20040201:Anemo Hypostasis
+20040202:Anemo Hypostasis
+20040301:Geo Hypostasis
+20040302:Geo Hypostasis
+20040401:Hydro Hypostasis
+20040501:Cryo Hypostasis
+20040601:Pyro Hypostasis
+20050101:Oceanid
+20050102:Oceanid
+20070101:Thunder Manifestation
+22060101:Golden Wolflord
+24010401:Ruin Serpent
+24021101:Perpetual Mechanical Array
+24021102:Perpetual Mechanical Array
+24030301:[N/A] 3108339881
+24050101:[N/A] 2629579681
+25090101:Maguu Kenki
+25090102:Maguu Kenki: Wind Bunshin
+25090103:Maguu Kenki: Ice Bunshin
+25090104:Maguu Kenki: Masked Bunshin
+25090201:Maguu Kenki: Lone Gale
+25090301:Maguu Kenki: Galloping Frost
+25090401:Maguu Kenki: Mask of Terror
+26010103:Cryo Whopperflower
+26010104:Cryo Whopperflower
+26020101:Cryo Regisvine
+26020102:Cryo Regisvine
+26020201:Pyro Regisvine
+26020301:[N/A] 67218681
+26050101:Primo Geovishap (Hydro)
+26050201:Primo Geovishap (Pyro)
+26050301:Primo Geovishap (Cryo)
+26050401:Primo Geovishap (Electro)
+26050501:Primo Geovishap
+26050701:Rimebiter Bathysmal Vishap
+26050702:Rimebiter Bathysmal Vishap
+26050801:Bolteater Bathysmal Vishap
+26050802:Bolteater Bathysmal Vishap
+26080101:Beisht
+26110101:[N/A] 4290207929
+29010101:Stormterror
+29010102:Stormterror
+29010103:Stormterror
+29010104:Stormterror
+29020101:Boreas, Great Wolf King of the North
+29020102:Lupus Boreas, Dominator of Wolves
+29030101:Childe - Eleventh of the Fatui Harbingers
+29030102:Childe - Delusion Unleashed
+29030103:Childe
+29030104:Childe - Eleventh of the Fatui Harbingers
+29030105:Childe - Delusion Unleashed
+29030106:Childe
+29040101:Azhdaha (Pyro, Electro)
+29040102:Azhdaha (Hydro, Electro)
+29040103:Azhdaha (Pyro, Cryo)
+29040104:Azhdaha (Hydro, Cryo)
+29040111:Azhdaha
+29050101:La Signora
+29050102:La Signora - Crimson Witch of Embers
+29050103:La Signora
+29050104:La Signora - Crimson Witch of Embers
+29060101:Raiden Shogun
+29060102:Raiden Ei
+29060201:Magatsu Mitake Narukami no Mikoto
+29060202:Magatsu Mitake Narukami no Mikoto
+29060203:Magatsu Mitake Narukami no Mikoto
+
+
+// MONSTER_ENV_ANIMAL
+28010101:Golden Crab
+28010102:Sun Crab
+28010103:Ocean Crab
+28010104:General Crab
+28010105:Pale Red Crab
+28010106:Crab
+28010201:Blue Horned Lizard
+28010202:Red Horned Lizard
+28010203:Green Horned Lizard
+28010204:Sunset Loach
+28010205:Golden Loach
+28010206:Sunny Loach
+28010207:Pith Lizard
+28010208:[N/A] 404479849
+28010301:Frog
+28010302:Mud Frog
+28010303:Blue Frog
+28010304:[N/A] 13583441
+28010401:Adorned Unagi
+28010402:Deep Sea Unagi
+28010403:Red-Finned Unagi
+28010404:[N/A] 2823603497
+28040101:Black-Back Bass
+28040102:Blue-Fin Bass
+28040103:Golden Bass
+28040104:Black-Back Bass
+28040105:Black-Back Bass
+28040106:Blue-Fin Bass
+28040107:Golden Bass
+28040108:Black-Back Bass
+28050101:Anemo Crystalfly
+28050102:Geo Crystalfly
+28050103:Cryo Crystalfly
+28050104:Electro Crystalfly
+28050105:Coral Butterfly
+28050106:[N/A] 149328065
+28050301:Lucklight Fly
+28050401:[N/A] 2466918521
+
+
+// MONSTER_LITTLE_MONSTER
+
+
+// MONSTER_FISH
+28040201:Medaka
+28040202:Glaze Medaka
+28040203:Sweet-Flower Medaka
+28040204:Aizen Medaka
+28040205:Dawncatcher
+28040206:Crystalfish
+28040301:Lunged Stickleback
+28040302:Betta
+28040303:Venomspine Fish
+28040304:Akai Maou
+28040305:Snowstrider
+28040401:Golden Koi
+28040402:Rusty Koi
+28040501:Brown Shirakodai
+28040502:Purple Shirakodai
+28040503:Tea-Colored Shirakodai
+28040504:Abiding Angelfish
+28040505:Raimei Angelfish
+28040506:Moonfin
+28040601:Pufferfish
+28040602:Bitter Pufferfish
+28040701:Divda Ray
+28040702:Formalo Ray
+28040801:[N/A] 1381140681
+28040802:[N/A] 3230531961
+28040803:[N/A] 2534877817
+28040804:[N/A] 1321673065
+28040901:[N/A] 3639121545
+28040902:[N/A] 3476332937
