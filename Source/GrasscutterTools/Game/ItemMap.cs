@@ -19,11 +19,13 @@
 using System;
 using System.Collections.Generic;
 
+using GrasscutterTools.Utils;
+
 namespace GrasscutterTools.Game
 {
     public class ItemMap
     {
-        public ItemMap(string idNamePairs)
+        public ItemMap(string idNamePairs, SparseSet exclusions = null)
         {
             var lines = idNamePairs.Split(new char[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
             var capacity = lines.Length;
@@ -41,6 +43,8 @@ namespace GrasscutterTools.Game
                     var name = line.Substring(si + 1).Trim();
                     if (!string.IsNullOrEmpty(name) && name != "null")
                     {
+                        if (exclusions?.Contains(id) == true)
+                            continue;
                         //IdMap[id] = name;
                         //NameMap[name] = id;
                         IdList.Add(id);

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,138 +118,58 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\Animal.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="Artifact" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\Artifact.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="ArtifactCat" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\ArtifactCat.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="ArtifactMainAttribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\ArtifactMainAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>..\Resources\ru-ru\ArtifactMainAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
-  <data name="ArtifactPartLabels" xml:space="preserve">
-    <value>Goblet of Eonothem,Plume of Death,Circlet of Logos,Flower of Life,Sands of Eon</value>
+  <data name="ArtifactSets" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ru-ru\ArtifactSets.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="ArtifactSubAttribution" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\ArtifactSubAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="AskConfirmDeletion" xml:space="preserve">
-    <value>Вы точно хотите удалить эту команду?</value>
-  </data>
-  <data name="Avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\Avatar.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="AvatarColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AvatarColor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>..\Resources\ru-ru\ArtifactSubAttribution.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
   <data name="AvatarStats" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\AvatarStats.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="BrowserOpenFailedTip" xml:space="preserve">
-    <value>Не удалось открыть в браузере. Вы можете вручную получить доступ к следующему адресу:</value>
-  </data>
-  <data name="CheckToNewVersion" xml:space="preserve">
-    <value>Переход на новую версию</value>
-  </data>
-  <data name="ClimateType" xml:space="preserve">
-    <value>Нет,Солнечно,Переменная облачность,Дождь,Гроза,Снег,Туман</value>
-  </data>
-  <data name="CodeResendTip" xml:space="preserve">
-    <value>Повторная отправка через {0} секунд</value>
-  </data>
-  <data name="CodeSending" xml:space="preserve">
-    <value>Отправка...</value>
-  </data>
-  <data name="CommandContentCannotBeEmpty" xml:space="preserve">
-    <value>Команда не может быть пустой</value>
-  </data>
-  <data name="CommandNotFound" xml:space="preserve">
-    <value>Команда не найдена</value>
-  </data>
-  <data name="CommandTagCannotBeEmpty" xml:space="preserve">
-    <value>Тег команды не может быть пустым</value>
-  </data>
-  <data name="ConnectedTip" xml:space="preserve">
-    <value>Теперь вы можете выполнять команды удаленно!</value>
+  <data name="Colors" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Colors.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CustomCommands" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\CustomCommands.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+    <value>..\Resources\ru-ru\CustomCommands.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
-  <data name="Error" xml:space="preserve">
-    <value>Ошибка</value>
+  <data name="Dungeons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ru-ru\Dungeons.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="GachaBennerPrefab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\GachaBennerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Help" xml:space="preserve">
-    <value>Помощь</value>
+  <data name="GrasscutterTools" xml:space="preserve">
+    <value>GrasscutterTools</value>
   </data>
   <data name="IconGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IconGrasscutter.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Item" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\Item.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="ImgGrasscutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IconGrasscutter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Monster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\Monster.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="ImgHome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImgHome.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NewVersionInfo" xml:space="preserve">
-    <value>Название : {0}
-Время обновления : {1}
-Информация об обновлении : 
-{2}
--------------------------------------------
-Вы хотите проверить наличие обновлений? Выбирая "Нет", программа больше не будет напоминать вам об этой версии.</value>
+  <data name="ImgSupport" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ImgSupport.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="OpenCommandHelp" xml:space="preserve">
-    <value>1. Введите правильный UID\n2. Отправьте проверочный код игроку\n3. Введите правильный проверочный код\n4. Покдлючитесь\n5. Наслаждайтесь!</value>
+  <data name="Items" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ru-ru\Items.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="PermissionCannotBeEmpty" xml:space="preserve">
-    <value>Разрешение не может быть пустым!</value>
+  <data name="Monsters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ru-ru\Monsters.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
   <data name="Permissions" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Permissions.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="QueryServerStatusFailed" xml:space="preserve">
-    <value>Не удалось запросить состояние сервера:</value>
+  <data name="Quests" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ru-ru\Quests.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Quest" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\Quest.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="RequireOpenCommandTip" xml:space="preserve">
-    <value>Пожалуйста, сначала подключитесь к серверу, который поддерживает [OpenCommand]</value>
-  </data>
-	<data name="RestoreCustomCommands" xml:space="preserve">
-    <value>Вы уверены, что хотите восстановить пользовательские команды по умолчанию?</value>
-  </data>
-  <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="SettingLoadError" xml:space="preserve">
-    <value>Не удалось загрузить настройки:</value>
-  </data>
-  <data name="SettingSaveError" xml:space="preserve">
-    <value>Не удалось сохранить настройки:</value>
-  </data>
-  <data name="Tips" xml:space="preserve">
-    <value>Внимание</value>
-  </data>
-  <data name="TokenCannotBeEmpty" xml:space="preserve">
-    <value>Токен не может быть пустым</value>
-  </data>
-  <data name="TokenRestoredFromCache" xml:space="preserve">
-    <value>Токен восстановлен из кеша</value>
-  </data>
-  <data name="UsernameCannotBeEmpty" xml:space="preserve">
-    <value>Имя пользователя не может быть пустым!</value>
-  </data>
-  <data name="Weapon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ru-ru\Weapon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
-  <data name="WeaponColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\WeaponColor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Scenes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ru-ru\Scenes.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
 </root>
