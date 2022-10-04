@@ -73,7 +73,7 @@
         <GradientStop Offset="1.0" Color="#888" />
     </LinearGradientBrush>
 
-    <SolidColorBrush x:Key="DefaultedBorderBrush" Color="{StaticResource DefaultColor}" />
+    <SolidColorBrush x:Key="DefaultedBorderBrush" Color="{StaticResource MainColor}" />
     <SolidColorBrush x:Key="SolidBorderBrush" Color="#888" />
 
 
@@ -2136,70 +2136,80 @@
 
     <Style TargetType="{x:Type ComboBox}">
         <Setter Property="Foreground" Value="{DynamicResource TextBrush}" />
+        <Setter Property="BorderBrush" Value="{DynamicResource DefaultedBorderBrush}" />
         <Setter Property="SnapsToDevicePixels" Value="true" />
         <Setter Property="Template" Value="{DynamicResource ComboBoxTemplate}" />
     </Style>
 
     <ControlTemplate x:Key="ComboBoxTemplate" TargetType="{x:Type ComboBox}">
-        <Grid x:Name="grid">
-            <ToggleButton
-                x:Name="ToggleButton"
-                Grid.Column="2"
-                ClickMode="Press"
-                Focusable="false"
-                IsChecked="{Binding Path=IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
-                Template="{DynamicResource ComboBoxToggleButton}" />
-            <ContentPresenter
-                x:Name="ContentSite"
-                Margin="3,3,23,3"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Content="{TemplateBinding SelectionBoxItem}"
-                ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
-                ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
-                IsHitTestVisible="False" />
-            <TextBox
-                x:Name="PART_EditableTextBox"
-                Margin="3,3,23,3"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Center"
-                Background="{DynamicResource LightBrush}"
-                BorderBrush="{DynamicResource NormalBorderBrush}"
-                Focusable="True"
-                Foreground="{DynamicResource TextBrush}"
-                IsReadOnly="{TemplateBinding IsReadOnly}"
-                Style="{x:Null}"
-                Template="{DynamicResource ComboBoxTextBox}"
-                Visibility="Hidden" />
-            <Popup
-                x:Name="Popup"
-                AllowsTransparency="True"
-                Focusable="False"
-                IsOpen="{TemplateBinding IsDropDownOpen}"
-                Placement="Bottom"
-                PopupAnimation="Slide">
-                <Grid
-                    x:Name="DropDown"
-                    MinWidth="{TemplateBinding ActualWidth}"
-                    MaxHeight="{TemplateBinding MaxDropDownHeight}"
-                    SnapsToDevicePixels="True">
-                    <Border
-                        x:Name="DropDownBorder"
-                        Background="{DynamicResource ControlBackgroundBrush}"
-                        CornerRadius="3,3,3,3" />
-                    <ScrollViewer
-                        Margin="4,6,4,6"
-                        CanContentScroll="True"
-                        Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}"
-                        HorizontalScrollBarVisibility="Auto"
-                        SnapsToDevicePixels="True"
-                        Style="{DynamicResource NuclearScrollViewer}"
-                        VerticalScrollBarVisibility="Auto">
-                        <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained" />
-                    </ScrollViewer>
-                </Grid>
-            </Popup>
-        </Grid>
+        <Border
+            x:Name="ComboBoxBorder"
+            Background="{DynamicResource ControlBackgroundBrush}"
+            BorderBrush="{TemplateBinding BorderBrush}"
+            BorderThickness="1"
+            CornerRadius="3,3,3,3">
+            <Grid x:Name="grid">
+                <ToggleButton
+                    x:Name="ToggleButton"
+                    Grid.Column="2"
+                    ClickMode="Press"
+                    Focusable="false"
+                    IsChecked="{Binding Path=IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource TemplatedParent}}"
+                    Template="{DynamicResource ComboBoxToggleButton}" />
+                <ContentPresenter
+                    x:Name="ContentSite"
+                    Margin="3,3,23,3"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Content="{TemplateBinding SelectionBoxItem}"
+                    ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                    ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
+                    IsHitTestVisible="False" />
+                <TextBox
+                    x:Name="PART_EditableTextBox"
+                    Margin="3,3,23,3"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Center"
+                    Background="{DynamicResource LightBrush}"
+                    BorderBrush="{DynamicResource NormalBorderBrush}"
+                    Focusable="True"
+                    Foreground="{DynamicResource TextBrush}"
+                    IsReadOnly="{TemplateBinding IsReadOnly}"
+                    Style="{x:Null}"
+                    Template="{DynamicResource ComboBoxTextBox}"
+                    Visibility="Hidden" />
+                <Popup
+                    x:Name="Popup"
+                    AllowsTransparency="True"
+                    Focusable="False"
+                    IsOpen="{TemplateBinding IsDropDownOpen}"
+                    Placement="Bottom"
+                    PopupAnimation="Slide">
+                    <Grid
+                        x:Name="DropDown"
+                        MinWidth="{TemplateBinding ActualWidth}"
+                        MaxHeight="{TemplateBinding MaxDropDownHeight}"
+                        SnapsToDevicePixels="True">
+                        <Border
+                            x:Name="DropDownBorder"
+                            Background="{DynamicResource ControlBackgroundBrush}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            BorderThickness="1"
+                            CornerRadius="3,3,3,3" />
+                        <ScrollViewer
+                            Margin="4,6,4,6"
+                            CanContentScroll="True"
+                            Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}"
+                            HorizontalScrollBarVisibility="Auto"
+                            SnapsToDevicePixels="True"
+                            Style="{DynamicResource NuclearScrollViewer}"
+                            VerticalScrollBarVisibility="Auto">
+                            <StackPanel IsItemsHost="True" KeyboardNavigation.DirectionalNavigation="Contained" />
+                        </ScrollViewer>
+                    </Grid>
+                </Popup>
+            </Grid>
+        </Border>
         <ControlTemplate.Triggers>
             <Trigger Property="HasItems" Value="false">
                 <Setter TargetName="DropDownBorder" Property="MinHeight" Value="95" />
@@ -2454,7 +2464,7 @@
         <Setter Property="Template" Value="{DynamicResource TextBoxTemplate}" />
         <Setter Property="Foreground" Value="{DynamicResource TextBrush}" />
         <Setter Property="Background" Value="{DynamicResource ControlBackgroundBrush}" />
-        <Setter Property="BorderBrush" Value="#FF000000" />
+        <Setter Property="BorderBrush" Value="{DynamicResource DefaultedBorderBrush}" />
     </Style>
 
     <ControlTemplate x:Key="TextBoxTemplate" TargetType="{x:Type TextBox}">
