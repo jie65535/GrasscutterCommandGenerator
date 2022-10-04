@@ -253,8 +253,17 @@
     <None Include="Resources\Colors.json" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Resources\ru-ru\Avatars.txt" />
+    <Resource Include="Resources\ru-ru\Weapons.txt" />
+    <Resource Include="Resources\en-us\Avatars.txt" />
+    <Resource Include="Resources\en-us\Weapons.txt" />
     <Content Include="Resources\MyLanguage.java" />
     <Content Include="Resources\MyTools.java" />
+    <Resource Include="Resources\zh-tw\Avatars.txt" />
+    <Resource Include="Resources\zh-tw\Weapons.txt" />
+    <Resource Include="Resources\zh-cn\Avatars.txt" />
+    <Resource Include="Resources\zh-cn\Relics.txt" />
+    <Resource Include="Resources\zh-cn\Weapons.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

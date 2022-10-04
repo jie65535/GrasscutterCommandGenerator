@@ -11,44 +11,175 @@
     d:DesignWidth="490"
     mc:Ignorable="d">
 
-    <StackPanel Margin="16">
+    <Grid Margin="8">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
 
-        <GroupBox Header="Give Item" />
+        <!--  获取角色  -->
+        <GroupBox
+            Grid.Row="0"
+            Padding="4"
+            Header="Avatar">
+            <DockPanel>
+                <!--  获取所有角色  -->
+                <Button
+                    Padding="8,4"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center">
+                    All Avatars
+                </Button>
 
-        <DockPanel>
-            <Label x:Name="LblLevelTip" Content="Level:" />
-            <TextBox
-                x:Name="TxtLevel"
-                Margin="4,0,0,0"
-                Text="100" />
-        </DockPanel>
+                <!--  角色等级  -->
+                <Label Margin="8,0,0,0" VerticalAlignment="Center">Level:</Label>
+                <TextBox
+                    Width="30"
+                    Margin="4,0,0,0"
+                    VerticalAlignment="Center">
+                    90
+                </TextBox>
 
-        <GroupBox Header="Give All">
-            <StackPanel Margin="8" Orientation="Horizontal">
-                <Button
-                    x:Name="BtnGiveAll"
-                    Padding="16,8"
-                    HorizontalAlignment="Left"
-                    Content="All" />
-                <Button
-                    x:Name="BtnGiveWeapons"
+                <!--  角色命座  -->
+                <Label Margin="8,0,0,0" VerticalAlignment="Center">Constellation:</Label>
+                <TextBox
+                    Width="30"
+                    Margin="4,0,0,0"
+                    VerticalAlignment="Center">
+                    5
+                </TextBox>
+
+                <!--  角色下拉框  -->
+                <ComboBox
+                    x:Name="CmbAvatar"
                     Margin="8,0,0,0"
-                    Padding="16,8"
-                    HorizontalAlignment="Left"
-                    Content="Weapons" />
-                <Button
-                    x:Name="BtnGiveMats"
-                    Margin="8,0,0,0"
-                    Padding="16,8"
-                    HorizontalAlignment="Left"
-                    Content="Mats" />
-                <Button
-                    x:Name="BtnGiveAvatars"
-                    Margin="8,0,0,0"
-                    Padding="16,8"
-                    HorizontalAlignment="Left"
-                    Content="Avatars" />
-            </StackPanel>
+                    VerticalAlignment="Center"
+                    IsEditable="True" />
+            </DockPanel>
         </GroupBox>
-    </StackPanel>
+
+        <!--  获取武器  -->
+        <GroupBox
+            Grid.Row="1"
+            Margin="0,4,0,0"
+            Padding="4"
+            Header="Weapon">
+            <DockPanel>
+                <!--  获取所有武器  -->
+                <Button
+                    Padding="8,4"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center">
+                    All Weapons
+                </Button>
+
+                <!--  武器等级  -->
+                <Label Margin="8,0,0,0" VerticalAlignment="Center">Level:</Label>
+                <TextBox
+                    Width="30"
+                    Margin="4,0,0,0"
+                    VerticalAlignment="Center">
+                    90
+                </TextBox>
+
+                <!--  精练等级  -->
+                <Label Margin="8,0,0,0" VerticalAlignment="Center">Refinement:</Label>
+                <TextBox
+                    Width="30"
+                    Margin="4,0,0,0"
+                    VerticalAlignment="Center">
+                    5
+                </TextBox>
+
+                <!--  武器下拉框  -->
+                <ComboBox
+                    x:Name="CmbWeapon"
+                    Margin="8,0,0,0"
+                    VerticalAlignment="Center" />
+            </DockPanel>
+        </GroupBox>
+
+        <!--  获取材料物品  -->
+        <GroupBox
+            Grid.Row="2"
+            Margin="0,4,0,0"
+            Padding="4"
+            Header="Item">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto" />
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <StackPanel
+                    Grid.Row="0"
+                    HorizontalAlignment="Left"
+                    Orientation="Horizontal">
+                    <!--  获取所有材料  -->
+                    <Button
+                        Padding="8,4"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center">
+                        All Mats
+                    </Button>
+
+                    <!--  物品数量  -->
+                    <Label Margin="8,0,0,0" VerticalAlignment="Center">Amount:</Label>
+                    <TextBox
+                        Width="50"
+                        Margin="4,0,0,0"
+                        VerticalAlignment="Center">
+                        99
+                    </TextBox>
+
+                    <!--  物品ID  -->
+                    <Label Margin="8,0,0,0" VerticalAlignment="Center">Id:</Label>
+                    <TextBox
+                        Width="50"
+                        Margin="4,0,0,0"
+                        VerticalAlignment="Center" />
+                </StackPanel>
+
+                <!--  操作按钮  -->
+                <StackPanel
+                    Grid.Row="0"
+                    HorizontalAlignment="Right"
+                    Orientation="Horizontal">
+                    <!--  添加记录  -->
+                    <Button
+                        Padding="8,4"
+                        VerticalAlignment="Center"
+                        IsEnabled="False">
+                        √ Record
+                    </Button>
+                    <!--  删除记录  -->
+                    <Button
+                        Margin="4,0,0,0"
+                        Padding="8,4"
+                        VerticalAlignment="Center"
+                        IsEnabled="False">
+                        × Delete
+                    </Button>
+                </StackPanel>
+
+
+                <Label
+                    Grid.Row="1"
+                    Margin="4"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top">
+                    Records:
+                </Label>
+                <Label
+                    Grid.Row="1"
+                    Margin="4"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Bottom"
+                    Cursor="Hand"
+                    Foreground="OrangeRed">
+                    × Clear
+                </Label>
+            </Grid>
+        </GroupBox>
+    </Grid>
 </Page>

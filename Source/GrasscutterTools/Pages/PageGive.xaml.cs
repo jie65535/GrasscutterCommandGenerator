@@ -47,7 +47,7 @@ namespace GrasscutterTools.Pages
 
         public void OnListItemSelected(GameItem item)
         {
-            LblTest.Content = item;
+            //LblTest.Content = item;
         }
     }
 }
