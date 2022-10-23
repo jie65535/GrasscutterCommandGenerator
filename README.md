@@ -38,6 +38,8 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
 
 ![Home](Doc/Screenshots-en/0-Home.png)
 
+![Run Command](Doc/Screenshots/RunMultipleCommands.png)
+
 ![Custom Commands Screenshot](Doc/Screenshots-en/1-CustomCommands.png)
 
 ![Custom Artifact Screenshot](Doc/Screenshots-en/2-CustomArtifact.png)

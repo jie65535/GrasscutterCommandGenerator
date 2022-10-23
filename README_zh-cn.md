@@ -37,6 +37,8 @@
 
 ![Home](Doc/Screenshots/0-Home.png)
 
+![Run Command](Doc/Screenshots/RunMultipleCommands.png)
+
 ![Custom Commands Screenshot](Doc/Screenshots/1-CustomCommands.png)
 
 ![Custom Artifact Screenshot](Doc/Screenshots/2-CustomArtifact.png)

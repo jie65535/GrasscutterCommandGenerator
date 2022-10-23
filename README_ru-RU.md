@@ -38,6 +38,8 @@ GCG поддерживает 简体中文 (китайский упр.), 繁体�
 
 ![Главная](Doc/Screenshots-ru/0-Home.png)
 
+![Run Command](Doc/Screenshots/RunMultipleCommands.png)
+
 ![Скриншот пользовательских команд](Doc/Screenshots-ru/1-CustomCommands.png)
 
 ![Скриншот артефактов](Doc/Screenshots-ru/2-CustomArtifact.png)
