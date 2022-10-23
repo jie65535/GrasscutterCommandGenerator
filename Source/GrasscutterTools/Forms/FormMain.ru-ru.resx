@@ -143,7 +143,7 @@
     <value>Авто</value>
   </data>
   <data name="GrpCommand.Text" xml:space="preserve">
-    <value>Команда (нажмите и удерживайте Ctrl для автоматического запуска)</value>
+    <value>Команды  - [Ctrl] Автозапуск  - [|] Разделить несколько команд</value>
   </data>
   <data name="BtnInvokeOpenCommand.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 23</value>
@@ -638,7 +638,7 @@
     <value>207, 218</value>
   </data>
   <data name="LblWeaponRefinement.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 17</value>
+    <value>115, 17</value>
   </data>
   <data name="LblWeaponRefinement.Text" xml:space="preserve">
     <value>Ур. пробуждения</value>
@@ -688,6 +688,15 @@
   <data name="GrpTalentLevel.Text" xml:space="preserve">
     <value>Уровень таланта</value>
   </data>
+  <data name="LnkTalentAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 24</value>
+  </data>
+  <data name="LnkTalentAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 17</value>
+  </data>
+  <data name="LnkTalentAll.Text" xml:space="preserve">
+    <value>все</value>
+  </data>
   <data name="LnkTalentE.Location" type="System.Drawing.Point, System.Drawing">
     <value>309, 24</value>
   </data>
@@ -716,7 +725,7 @@
     <value>Обычная атака</value>
   </data>
   <data name="NUDTalentLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 23</value>
+    <value>94, 23</value>
   </data>
   <data name="LblStatsDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>316, 17</value>
@@ -727,6 +736,9 @@
   <data name="TPAvatar.Text" xml:space="preserve">
     <value>Персонаж</value>
   </data>
+  <data name="LblAvatarSkillLevelTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>552, 141</value>
+  </data>
   <data name="BtnGiveAllChar.Location" type="System.Drawing.Point, System.Drawing">
     <value>425, 182</value>
   </data>
@@ -736,8 +748,17 @@
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value> Дать всех персонажей</value>
   </data>
+  <data name="LblAvatarSkillLevelLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>428, 119</value>
+  </data>
+  <data name="LblAvatarSkillLevelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 17</value>
+  </data>
+  <data name="LblAvatarSkillLevelLabel.Text" xml:space="preserve">
+    <value>Уровень квалификации</value>
+  </data>
   <data name="LblAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>428, 125</value>
+    <value>428, 90</value>
   </data>
   <data name="LblAvatarConstellation.Size" type="System.Drawing.Size, System.Drawing">
     <value>72, 17</value>
@@ -745,8 +766,14 @@
   <data name="LblAvatarConstellation.Text" xml:space="preserve">
     <value>Созвездия</value>
   </data>
+  <data name="NUDAvatarSkillLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>431, 139</value>
+  </data>
+  <data name="NUDAvatarSkillLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 23</value>
+  </data>
   <data name="NUDAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
-    <value>503, 122</value>
+    <value>503, 88</value>
   </data>
   <data name="NUDAvatarConstellation.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 23</value>
@@ -761,7 +788,7 @@
     <value>Персонаж</value>
   </data>
   <data name="LblAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>428, 78</value>
+    <value>428, 61</value>
   </data>
   <data name="LblAvatarLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 17</value>
@@ -770,7 +797,7 @@
     <value>Уровень</value>
   </data>
   <data name="NUDAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>503, 75</value>
+    <value>503, 59</value>
   </data>
   <data name="NUDAvatarLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>115, 23</value>
@@ -1003,7 +1030,7 @@
     <value>Загрузить</value>
   </data>
   <data name="LblCustomName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 17</value>
+    <value>34, 17</value>
   </data>
   <data name="LblCustomName.Text" xml:space="preserve">
     <value>Имя</value>
@@ -1015,7 +1042,7 @@
     <value>535, -1</value>
   </data>
   <data name="LnkResetCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 17</value>
+    <value>66, 17</value>
   </data>
   <data name="LnkResetCustomCommands.Text" xml:space="preserve">
     <value>Сбросить</value>

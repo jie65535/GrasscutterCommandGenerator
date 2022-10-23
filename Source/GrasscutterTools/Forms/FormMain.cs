@@ -985,16 +985,21 @@ namespace GrasscutterTools.Forms
         private void AvatarInputChanged()
         {
             if (CmbAvatar.SelectedIndex >= 0)
-                GenAvatar((int)NUDAvatarLevel.Value, (int)NUDAvatarConstellation.Value);
+                GenAvatar((int)NUDAvatarLevel.Value, (int)NUDAvatarConstellation.Value, (int)NUDAvatarSkillLevel.Value);
         }
 
         /// <summary>
         /// 获取角色命令
         /// </summary>
         /// <param name="level">等级</param>
-        private void GenAvatar(int level, int constellation)
+        private void GenAvatar(int level, int constellation, int skillLevel)
         {
-            if (Check(CommandVersion.V1_2_2))
+            if (Check(CommandVersion.V1_4_1))
+            {
+                int avatarId = GameData.Avatars.Ids[CmbAvatar.SelectedIndex];
+                SetCommand("/give", $"{avatarId} lv{level} c{constellation} sl{skillLevel}");
+            }
+            else if (Check(CommandVersion.V1_2_2))
             {
                 int avatarId = GameData.Avatars.Ids[CmbAvatar.SelectedIndex];
                 SetCommand("/give", $"{avatarId} lv{level} c{constellation}");
@@ -1015,7 +1020,11 @@ namespace GrasscutterTools.Forms
         {
             var level = NUDAvatarLevel.Value;
             var constellation = NUDAvatarConstellation.Value;
-            SetCommand("/give avatars", $"lv{level} c{constellation}");
+            var skillLevel = NUDAvatarSkillLevel.Value;
+            if (Check(CommandVersion.V1_4_1))
+                SetCommand("/give avatars", $"lv{level} c{constellation} sl{skillLevel}");
+            else
+                SetCommand("/give avatars", $"lv{level} c{constellation}");
         }
 
         #endregion - 角色 Avatars -
@@ -1479,7 +1488,10 @@ namespace GrasscutterTools.Forms
                 ShowTip(Resources.CommandContentCannotBeEmpty, TxtCommand);
                 return;
             }
-            await RunCommands(TxtCommand.Text);
+            if (TxtCommand.Text.IndexOf('|') == -1)
+                await RunCommands(TxtCommand.Text);
+            else
+                await RunCommands(TxtCommand.Text.Split('|').Select(it => it.Trim()).ToArray());
         }
 
         /// <summary>
@@ -1509,7 +1521,7 @@ namespace GrasscutterTools.Forms
                     if (commands.Length > 1)
                         TxtCommandRunLog.AppendText($" ({++i}/{commands.Length})");
                     TxtCommandRunLog.AppendText(Environment.NewLine);
-                    var cmd = command.Substring(1);
+                    var cmd = command.TrimStart('/');
                     try
                     {
                         var msg = await OC.Invoke(cmd);

@@ -128,7 +128,7 @@
     <value>Auto</value>
   </data>
   <data name="GrpCommand.Text" xml:space="preserve">
-    <value>Command (Press and hold Ctrl to run automatically)</value>
+    <value>Command  - [Ctrl] Autorun  - [|] Split multiple commands</value>
   </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>Run(F5)</value>
@@ -547,6 +547,15 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="GrpTalentLevel.Text" xml:space="preserve">
     <value>Talent Level</value>
   </data>
+  <data name="LnkTalentAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>146, 24</value>
+  </data>
+  <data name="LnkTalentAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 17</value>
+  </data>
+  <data name="LnkTalentAll.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
   <data name="LnkTalentE.Location" type="System.Drawing.Point, System.Drawing">
     <value>283, 24</value>
   </data>
@@ -575,7 +584,7 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
     <value>NormalATK</value>
   </data>
   <data name="NUDTalentLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 23</value>
+    <value>96, 23</value>
   </data>
   <data name="LblStatsDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>179, 17</value>
@@ -588,6 +597,12 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value>Give All Char</value>
+  </data>
+  <data name="LblAvatarSkillLevelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 17</value>
+  </data>
+  <data name="LblAvatarSkillLevelLabel.Text" xml:space="preserve">
+    <value>Skill level</value>
   </data>
   <data name="LblAvatarConstellation.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 17</value>

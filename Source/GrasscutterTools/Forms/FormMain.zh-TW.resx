@@ -124,7 +124,7 @@
     <value>自動</value>
   </data>
   <data name="GrpCommand.Text" xml:space="preserve">
-    <value>命令（按住 Ctrl 自動執行）</value>
+    <value>命令  - [Ctrl] 自動執行  - [|] 分割多條命令</value>
   </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>執行(F5)</value>
@@ -246,6 +246,9 @@
 
 提示：大部分場景沒有作用，無法進入。</value>
   </data>
+  <data name="LblTp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 51</value>
+  </data>
   <data name="LblTp.Text" xml:space="preserve">
     <value>座標傳送
 提示：遊戲內可以通過小地圖的'魚鉤'標記來快捷傳送
@@ -316,6 +319,9 @@
   </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value>一鍵獲得所有角色</value>
+  </data>
+  <data name="LblAvatarSkillLevelLabel.Text" xml:space="preserve">
+    <value>技能等級</value>
   </data>
   <data name="LblAvatarLevel.Text" xml:space="preserve">
     <value>等級</value>
