@@ -181,11 +181,6 @@ namespace GrasscutterTools.Forms
         private CommandVersion CommandVersion;
 
         /// <summary>
-        /// 卡池编辑器窗口实例
-        /// </summary>
-        private Form GachaBannerEditor;
-
-        /// <summary>
         /// 初始化首页设置
         /// </summary>
         private void InitHomeSettings()
@@ -222,6 +217,17 @@ namespace GrasscutterTools.Forms
             CmbLanguage.SelectedIndexChanged += CmbLanguage_SelectedIndexChanged;
         }
 
+        private static void ToTop(Form form)
+        {
+            form.TopMost = true;
+            form.TopMost = false;
+        }
+
+        /// <summary>
+        /// 卡池编辑器窗口实例
+        /// </summary>
+        private Form GachaBannerEditor;
+
         /// <summary>
         /// 点击打开卡池编辑器时触发
         /// </summary>
@@ -234,8 +240,7 @@ namespace GrasscutterTools.Forms
             }
             else
             {
-                GachaBannerEditor.TopMost = true;
-                GachaBannerEditor.TopMost = false;
+                ToTop(GachaBannerEditor);
             }
         }
 
@@ -253,8 +258,28 @@ namespace GrasscutterTools.Forms
             }
             else
             {
-                TextMapBrowser.TopMost = true;
-                TextMapBrowser.TopMost = false;
+                ToTop(TextMapBrowser);
+            }
+        }
+
+        /// <summary>
+        /// 掉落物编辑器窗口实例
+        /// </summary>
+        private FormDropEditor DropEditor;
+
+        /// <summary>
+        /// 点击打开掉落物编辑器时触发
+        /// </summary>
+        private void BtnOpenDropEditor_Click(object sender, EventArgs e)
+        {
+            if (DropEditor == null || DropEditor.IsDisposed)
+            {
+                DropEditor = new FormDropEditor();
+                DropEditor.Show();
+            }
+            else
+            {
+                ToTop(DropEditor);
             }
         }
 
@@ -2135,5 +2160,6 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 任务 Quests -
+
     }
 }

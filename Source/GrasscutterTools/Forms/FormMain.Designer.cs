@@ -233,6 +233,7 @@ namespace GrasscutterTools.Forms
             this.ChkIncludeUID = new System.Windows.Forms.CheckBox();
             this.LblDefaultUid = new System.Windows.Forms.Label();
             this.TCMain = new System.Windows.Forms.TabControl();
+            this.BtnOpenDropEditor = new System.Windows.Forms.Button();
             this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
@@ -1938,6 +1939,7 @@ namespace GrasscutterTools.Forms
             // 
             // TPHome
             // 
+            this.TPHome.Controls.Add(this.BtnOpenDropEditor);
             this.TPHome.Controls.Add(this.LnkNewVersion);
             this.TPHome.Controls.Add(this.LblAbout);
             this.TPHome.Controls.Add(this.BtnOpenTextMap);
@@ -2069,6 +2071,13 @@ namespace GrasscutterTools.Forms
             this.TCMain.Controls.Add(this.TPRemoteCall);
             this.TCMain.Name = "TCMain";
             this.TCMain.SelectedIndex = 0;
+            // 
+            // BtnOpenDropEditor
+            // 
+            resources.ApplyResources(this.BtnOpenDropEditor, "BtnOpenDropEditor");
+            this.BtnOpenDropEditor.Name = "BtnOpenDropEditor";
+            this.BtnOpenDropEditor.UseVisualStyleBackColor = true;
+            this.BtnOpenDropEditor.Click += new System.EventHandler(this.BtnOpenDropEditor_Click);
             // 
             // TxtBanReason
             // 
@@ -2383,5 +2392,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.NumericUpDown NUDAvatarSkillLevel;
         private System.Windows.Forms.Label LblAvatarSkillLevelLabel;
         private System.Windows.Forms.Label LblAvatarSkillLevelTip;
+        private System.Windows.Forms.Button BtnOpenDropEditor;
     }
 }

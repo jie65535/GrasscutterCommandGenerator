@@ -90,6 +90,12 @@
     </Compile>
     <Compile Include="DispatchServer\DispatchServerAPI.cs" />
     <Compile Include="DispatchServer\Model\ServerStatus.cs" />
+    <Compile Include="Forms\FormDropEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormDropEditor.Designer.cs">
+      <DependentUpon>FormDropEditor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormGachaBannerEditor2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,8 @@
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </Compile>
     <Compile Include="Game\CommandVersion.cs" />
+    <Compile Include="Game\Drop\DropData.cs" />
+    <Compile Include="Game\Drop\DropInfo.cs" />
     <Compile Include="Game\Gacha\GachaBanner2.cs" />
     <Compile Include="Game\GameCommand.cs" />
     <Compile Include="Game\Gacha\BannerType.cs" />
@@ -140,6 +148,9 @@
     <Compile Include="Utils\ArtifactUtils.cs" />
     <Compile Include="Utils\HttpHelper.cs" />
     <Compile Include="Utils\ReleaseAPI.cs" />
+    <EmbeddedResource Include="Forms\FormDropEditor.resx">
+      <DependentUpon>FormDropEditor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormGachaBannerEditor2.en-us.resx">
       <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>
     </EmbeddedResource>
