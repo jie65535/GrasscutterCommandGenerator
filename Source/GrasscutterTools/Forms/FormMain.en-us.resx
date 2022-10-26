@@ -852,6 +852,12 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="TPHome.Text" xml:space="preserve">
     <value>Home</value>
   </data>
+  <data name="BtnOpenDropEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>546, 216</value>
+  </data>
+  <data name="BtnOpenDropEditor.Text" xml:space="preserve">
+    <value>Drop Editor</value>
+  </data>
   <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
     <value>74, 38</value>
   </data>

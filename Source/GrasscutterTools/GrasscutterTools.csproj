@@ -149,7 +149,16 @@
     <Compile Include="Utils\HttpHelper.cs" />
     <Compile Include="Utils\ReleaseAPI.cs" />
     <Compile Include="Utils\UIUtil.cs" />
+    <EmbeddedResource Include="Forms\FormDropEditor.en-US.resx">
+      <DependentUpon>FormDropEditor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormDropEditor.resx">
+      <DependentUpon>FormDropEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDropEditor.ru-RU.resx">
+      <DependentUpon>FormDropEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormDropEditor.zh-TW.resx">
       <DependentUpon>FormDropEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormGachaBannerEditor2.en-us.resx">

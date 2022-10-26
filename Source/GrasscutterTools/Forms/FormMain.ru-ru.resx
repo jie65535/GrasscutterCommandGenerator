@@ -259,6 +259,9 @@
   <data name="LblRemotePlayerId.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 15</value>
   </data>
+  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 109</value>
+  </data>
   <data name="TPConsoleCheck.Text" xml:space="preserve">
     <value>Консоль</value>
   </data>
@@ -341,12 +344,6 @@
   </data>
   <data name="BtnBan.Text" xml:space="preserve">
     <value>Забанить</value>
-  </data>
-  <data name="TxtBanReason.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 23</value>
-  </data>
-  <data name="TxtBanReason.Watermark" xml:space="preserve">
-    <value>Причина</value>
   </data>
   <data name="NUDBanUID.Location" type="System.Drawing.Point, System.Drawing">
     <value>42, 22</value>
@@ -1074,6 +1071,15 @@
   <data name="TPHome.Text" xml:space="preserve">
     <value>Главная</value>
   </data>
+  <data name="BtnOpenDropEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>459, 216</value>
+  </data>
+  <data name="BtnOpenDropEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 23</value>
+  </data>
+  <data name="BtnOpenDropEditor.Text" xml:space="preserve">
+    <value>Редактор перетаскивания</value>
+  </data>
   <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 41</value>
   </data>
@@ -1084,7 +1090,7 @@
     <value>Желаем приятно провести время!</value>
   </data>
   <data name="BtnOpenTextMap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>152, 99</value>
+    <value>526, 187</value>
   </data>
   <data name="BtnOpenTextMap.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 23</value>
@@ -1112,5 +1118,15 @@
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Включить UID</value>
+  </data>
+  <data name="TxtBanReason.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 23</value>
+  </data>
+  <data name="TxtBanReason.Watermark" xml:space="preserve">
+    <value>Причина</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
 </root>

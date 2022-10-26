@@ -117,4 +117,775 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>839, 450</value>
+  </data>
+  <data name="&gt;&gt;BtnDelete.Name" xml:space="preserve">
+    <value>BtnDelete</value>
+  </data>
+  <data name="&gt;&gt;BtnCopyAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpMonsterList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnPaste.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;GrpMonsterList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ListDropData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;NUDMinCount.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LblItemLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnClear.Name" xml:space="preserve">
+    <value>BtnClear</value>
+  </data>
+  <data name="&gt;&gt;ListMonsters.Name" xml:space="preserve">
+    <value>ListMonsters</value>
+  </data>
+  <data name="&gt;&gt;GrpMonsterList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblTilde2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="LblTilde1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnAddOrUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="LblDropPathLabel.Text" xml:space="preserve">
+    <value>Drop.json 路径：</value>
+  </data>
+  <data name="LblTilde2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="GrpItemList.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="NUDMaxWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 340</value>
+  </data>
+  <data name="LblItemLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ListItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ListMonsters.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="LblCountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 313</value>
+  </data>
+  <data name="&gt;&gt;LblDropPathLabel.Name" xml:space="preserve">
+    <value>LblDropPathLabel</value>
+  </data>
+  <data name="TxtItemFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="ListMonsters.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 344</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxCount.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="TxtDropJsonPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>487, 23</value>
+  </data>
+  <data name="NUDMinWeight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="TxtDropJsonPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TxtMonsterFilter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="ListItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 51</value>
+  </data>
+  <data name="&gt;&gt;TxtDropJsonPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblDropPathLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnCopy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;ListItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtMonsterFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;LblDropPathLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtMonsterFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblDropPathLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblTilde1.Text" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="&gt;&gt;BtnClear.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ListMonsters.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;LblTilde1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Name" xml:space="preserve">
+    <value>BtnSave</value>
+  </data>
+  <data name="GrpItemList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="LblTilde2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TxtItem.Name" xml:space="preserve">
+    <value>TxtItem</value>
+  </data>
+  <data name="TxtItemFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 23</value>
+  </data>
+  <data name="&gt;&gt;TxtItemFilter.Name" xml:space="preserve">
+    <value>TxtItemFilter</value>
+  </data>
+  <data name="NUDMaxCount.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BtnCopyAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;ListItems.Name" xml:space="preserve">
+    <value>ListItems</value>
+  </data>
+  <data name="&gt;&gt;LblWeightLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblCountLabel.Text" xml:space="preserve">
+    <value>数量：</value>
+  </data>
+  <data name="LblItemLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 283</value>
+  </data>
+  <data name="&gt;&gt;BtnPaste.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;NUDMinWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NUDMaxWeight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="BtnCopyAll.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;TxtItemFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpItemList.Name" xml:space="preserve">
+    <value>GrpItemList</value>
+  </data>
+  <data name="&gt;&gt;LblCountLabel.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;LblTilde1.Name" xml:space="preserve">
+    <value>LblTilde1</value>
+  </data>
+  <data name="&gt;&gt;ListMonsters.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListItems.Parent" xml:space="preserve">
+    <value>GrpItemList</value>
+  </data>
+  <data name="BtnClear.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="LblTilde2.Text" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="NUDMaxWeight.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="BtnPaste.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="GrpDropList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 41</value>
+  </data>
+  <data name="ListDropData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 174</value>
+  </data>
+  <data name="&gt;&gt;GrpMonsterList.Name" xml:space="preserve">
+    <value>GrpMonsterList</value>
+  </data>
+  <data name="&gt;&gt;BtnCopyAll.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;BtnDelete.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="NUDMinWeight.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="BtnLoad.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LblDropPathLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 230</value>
+  </data>
+  <data name="TxtItem.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TxtItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 280</value>
+  </data>
+  <data name="ListDropData.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="GrpItemList.Text" xml:space="preserve">
+    <value>物品列表</value>
+  </data>
+  <data name="&gt;&gt;GrpDropList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TxtDropJsonPath.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LblItemLabel.Text" xml:space="preserve">
+    <value>掉落物：</value>
+  </data>
+  <data name="GrpDropList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;BtnLoad.Name" xml:space="preserve">
+    <value>BtnLoad</value>
+  </data>
+  <data name="LblCountLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;LblTilde2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblCountLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="LblItemLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="LblTilde1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 313</value>
+  </data>
+  <data name="BtnLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxWeight.Name" xml:space="preserve">
+    <value>NUDMaxWeight</value>
+  </data>
+  <data name="&gt;&gt;TxtMonsterFilter.Name" xml:space="preserve">
+    <value>TxtMonsterFilter</value>
+  </data>
+  <data name="&gt;&gt;ListMonsters.Parent" xml:space="preserve">
+    <value>GrpMonsterList</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="TxtMonsterFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="LblTilde1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="NUDMinCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="BtnClear.Text" xml:space="preserve">
+    <value>× 清空</value>
+  </data>
+  <data name="BtnCopyAll.Text" xml:space="preserve">
+    <value>复制全部</value>
+  </data>
+  <data name="&gt;&gt;ListMonsters.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpMonsterList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 41</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>855, 489</value>
+  </data>
+  <data name="BtnCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;LblCountLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtMonsterFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="NUDMinCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="BtnDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 230</value>
+  </data>
+  <data name="LblTilde1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;TxtItem.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="LblWeightLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="GrpDropList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 400</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnDelete.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="BtnAddOrUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>196, 23</value>
+  </data>
+  <data name="LblTilde2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 342</value>
+  </data>
+  <data name="&gt;&gt;LblTilde2.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;LblItemLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NUDMinCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 311</value>
+  </data>
+  <data name="&gt;&gt;GrpDropList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ListItems.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;BtnPaste.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblItemLabel.Name" xml:space="preserve">
+    <value>LblItemLabel</value>
+  </data>
+  <data name="GrpMonsterList.Text" xml:space="preserve">
+    <value>怪物列表</value>
+  </data>
+  <data name="&gt;&gt;BtnLoad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblWeightLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="BtnLoad.Text" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="BtnCopy.Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="&gt;&gt;LblCountLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;TxtItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListDropData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnClear.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="BtnCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="LblWeightLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 344</value>
+  </data>
+  <data name="ListItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 344</value>
+  </data>
+  <data name="TxtDropJsonPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 12</value>
+  </data>
+  <data name="&gt;&gt;GrpDropList.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListDropData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="TxtItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 23</value>
+  </data>
+  <data name="&gt;&gt;ListDropData.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;LblTilde1.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="GrpItemList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 400</value>
+  </data>
+  <data name="BtnAddOrUpdate.Text" xml:space="preserve">
+    <value>√ 添加或更新</value>
+  </data>
+  <data name="&gt;&gt;LblItemLabel.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="BtnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>726, 12</value>
+  </data>
+  <data name="BtnDelete.Text" xml:space="preserve">
+    <value>- 删除</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="TxtItemFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.Name" xml:space="preserve">
+    <value>BtnCopy</value>
+  </data>
+  <data name="&gt;&gt;LblWeightLabel.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="BtnPaste.Location" type="System.Drawing.Point, System.Drawing">
+    <value>193, 202</value>
+  </data>
+  <data name="BtnPaste.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="ListDropData.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;BtnDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;GrpItemList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ListDropData.Name" xml:space="preserve">
+    <value>ListDropData</value>
+  </data>
+  <data name="BtnSave.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="&gt;&gt;NUDMinWeight.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="LblWeightLabel.Text" xml:space="preserve">
+    <value>权重：</value>
+  </data>
+  <data name="BtnCopyAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 202</value>
+  </data>
+  <data name="LblTilde2.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="TxtItemFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="BtnDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="GrpMonsterList.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;NUDMinWeight.Name" xml:space="preserve">
+    <value>NUDMinWeight</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="LblTilde1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormDropEditor</value>
+  </data>
+  <data name="&gt;&gt;NUDMinCount.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="NUDMaxCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="BtnCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 202</value>
+  </data>
+  <data name="LblItemLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnLoad.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LblTilde2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;TxtItemFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpDropList.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Drop.json Editor</value>
+  </data>
+  <data name="&gt;&gt;LblTilde1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BtnClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;BtnPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NUDMinWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="NUDMinCount.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;NUDMinCount.Name" xml:space="preserve">
+    <value>NUDMinCount</value>
+  </data>
+  <data name="ListMonsters.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 51</value>
+  </data>
+  <data name="NUDMaxCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>190, 311</value>
+  </data>
+  <data name="LblWeightLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnPaste.Name" xml:space="preserve">
+    <value>BtnPaste</value>
+  </data>
+  <data name="LblItemLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.Name" xml:space="preserve">
+    <value>BtnAddOrUpdate</value>
+  </data>
+  <data name="TxtMonsterFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 23</value>
+  </data>
+  <data name="ListItems.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="LblDropPathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="&gt;&gt;TxtMonsterFilter.Parent" xml:space="preserve">
+    <value>GrpMonsterList</value>
+  </data>
+  <data name="LblCountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="&gt;&gt;LblTilde2.Name" xml:space="preserve">
+    <value>LblTilde2</value>
+  </data>
+  <data name="&gt;&gt;LblCountLabel.Name" xml:space="preserve">
+    <value>LblCountLabel</value>
+  </data>
+  <data name="&gt;&gt;ListItems.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NUDMaxWeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="GrpMonsterList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;BtnLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtItemFilter.Parent" xml:space="preserve">
+    <value>GrpItemList</value>
+  </data>
+  <data name="ListMonsters.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BtnAddOrUpdate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;NUDMinWeight.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxCount.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="GrpMonsterList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 400</value>
+  </data>
+  <data name="&gt;&gt;TxtDropJsonPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnDelete.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;ListDropData.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;LblDropPathLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="BtnCopyAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="TxtItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;BtnCopyAll.Name" xml:space="preserve">
+    <value>BtnCopyAll</value>
+  </data>
+  <data name="LblCountLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GrpItemList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>576, 41</value>
+  </data>
+  <data name="&gt;&gt;BtnCopyAll.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NUDMaxCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;LblWeightLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="BtnAddOrUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>54, 371</value>
+  </data>
+  <data name="LblDropPathLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 15</value>
+  </data>
+  <data name="BtnPaste.Text" xml:space="preserve">
+    <value>粘贴</value>
+  </data>
+  <data name="&gt;&gt;TxtDropJsonPath.Name" xml:space="preserve">
+    <value>TxtDropJsonPath</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxCount.Name" xml:space="preserve">
+    <value>NUDMaxCount</value>
+  </data>
+  <data name="GrpDropList.Text" xml:space="preserve">
+    <value>掉落列表</value>
+  </data>
+  <data name="&gt;&gt;BtnClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMinCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpItemList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpItemList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblWeightLabel.Name" xml:space="preserve">
+    <value>LblWeightLabel</value>
+  </data>
+  <data name="LblWeightLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxWeight.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;BtnClear.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="NUDMinWeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 342</value>
+  </data>
+  <data name="&gt;&gt;TxtItem.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;GrpDropList.Name" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxWeight.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="BtnLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 12</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

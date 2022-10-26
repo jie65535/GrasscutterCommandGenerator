@@ -424,6 +424,9 @@
   <data name="TPHome.Text" xml:space="preserve">
     <value>主頁</value>
   </data>
+  <data name="BtnOpenDropEditor.Text" xml:space="preserve">
+    <value>掉落物編輯器</value>
+  </data>
   <data name="BtnOpenTextMap.Text" xml:space="preserve">
     <value>文本瀏覽器</value>
   </data>
@@ -432,9 +435,5 @@
   </data>
   <data name="ChkTopMost.Text" xml:space="preserve">
     <value>置頂</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
 </root>
