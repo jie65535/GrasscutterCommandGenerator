@@ -432,14 +432,14 @@ namespace GrasscutterTools.Forms
                 {
                     lnk.Tag = command;
                     CustomCommandsChanged = true;
-                    await ButtonComplete(BtnSaveCustomCommand);
+                    await UIUtil.ButtonComplete(BtnSaveCustomCommand);
                     return;
                 }
             }
 
             CustomCommandsChanged = true;
             AddCustomCommand(name, command);
-            await ButtonComplete(BtnSaveCustomCommand);
+            await UIUtil.ButtonComplete(BtnSaveCustomCommand);
         }
 
         /// <summary>
@@ -479,7 +479,7 @@ namespace GrasscutterTools.Forms
                     CustomCommandsChanged = true;
                     //TxtCustomName.Text = "";
                     //TxtCommand.Text = "";
-                    await ButtonComplete(BtnRemoveCustomCommand);
+                    await UIUtil.ButtonComplete(BtnRemoveCustomCommand);
                     return;
                 }
             }
@@ -1482,7 +1482,7 @@ namespace GrasscutterTools.Forms
         private async void BtnCopy_Click(object sender, EventArgs e)
         {
             CopyCommand();
-            await ButtonComplete(BtnCopy);
+            await UIUtil.ButtonComplete(BtnCopy);
         }
 
         /// <summary>
@@ -1619,21 +1619,6 @@ namespace GrasscutterTools.Forms
         #endregion - 命令 Command -
 
         #region - 通用 General -
-
-        /// <summary>
-        /// 播放按钮完成动画
-        /// </summary>
-        /// <param name="btn"></param>
-        /// <returns></returns>
-        private async Task ButtonComplete(Button btn)
-        {
-            var t = btn.Text;
-            btn.Text = "√";
-            btn.Enabled = false;
-            await Task.Delay(300);
-            btn.Text = t;
-            btn.Enabled = true;
-        }
 
         /// <summary>
         /// 窗口按键按下时触发

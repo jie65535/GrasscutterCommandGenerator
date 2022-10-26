@@ -85,7 +85,7 @@
             // 
             this.BtnLoad.Location = new System.Drawing.Point(621, 12);
             this.BtnLoad.Name = "BtnLoad";
-            this.BtnLoad.Size = new System.Drawing.Size(75, 23);
+            this.BtnLoad.Size = new System.Drawing.Size(100, 23);
             this.BtnLoad.TabIndex = 2;
             this.BtnLoad.Text = "加载";
             this.BtnLoad.UseVisualStyleBackColor = true;
@@ -93,9 +93,9 @@
             // 
             // BtnSave
             // 
-            this.BtnSave.Location = new System.Drawing.Point(702, 12);
+            this.BtnSave.Location = new System.Drawing.Point(726, 12);
             this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(75, 23);
+            this.BtnSave.Size = new System.Drawing.Size(100, 23);
             this.BtnSave.TabIndex = 3;
             this.BtnSave.Text = "保存";
             this.BtnSave.UseVisualStyleBackColor = true;
@@ -182,7 +182,7 @@
             this.BtnCopyAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.BtnCopyAll.Location = new System.Drawing.Point(87, 202);
             this.BtnCopyAll.Name = "BtnCopyAll";
-            this.BtnCopyAll.Size = new System.Drawing.Size(75, 23);
+            this.BtnCopyAll.Size = new System.Drawing.Size(100, 23);
             this.BtnCopyAll.TabIndex = 22;
             this.BtnCopyAll.Text = "复制全部";
             this.BtnCopyAll.UseVisualStyleBackColor = true;
@@ -191,9 +191,9 @@
             // BtnClear
             // 
             this.BtnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnClear.Location = new System.Drawing.Point(87, 230);
+            this.BtnClear.Location = new System.Drawing.Point(113, 230);
             this.BtnClear.Name = "BtnClear";
-            this.BtnClear.Size = new System.Drawing.Size(75, 23);
+            this.BtnClear.Size = new System.Drawing.Size(100, 23);
             this.BtnClear.TabIndex = 21;
             this.BtnClear.Text = "× 清空";
             this.BtnClear.UseVisualStyleBackColor = true;
@@ -202,9 +202,9 @@
             // BtnPaste
             // 
             this.BtnPaste.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnPaste.Location = new System.Drawing.Point(168, 202);
+            this.BtnPaste.Location = new System.Drawing.Point(193, 202);
             this.BtnPaste.Name = "BtnPaste";
-            this.BtnPaste.Size = new System.Drawing.Size(75, 23);
+            this.BtnPaste.Size = new System.Drawing.Size(100, 23);
             this.BtnPaste.TabIndex = 20;
             this.BtnPaste.Text = "粘贴";
             this.BtnPaste.UseVisualStyleBackColor = true;
@@ -232,9 +232,9 @@
             // BtnDelete
             // 
             this.BtnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnDelete.Location = new System.Drawing.Point(6, 230);
+            this.BtnDelete.Location = new System.Drawing.Point(7, 230);
             this.BtnDelete.Name = "BtnDelete";
-            this.BtnDelete.Size = new System.Drawing.Size(75, 23);
+            this.BtnDelete.Size = new System.Drawing.Size(100, 23);
             this.BtnDelete.TabIndex = 18;
             this.BtnDelete.Text = "- 删除";
             this.BtnDelete.UseVisualStyleBackColor = true;
@@ -247,7 +247,7 @@
             this.BtnAddOrUpdate.Name = "BtnAddOrUpdate";
             this.BtnAddOrUpdate.Size = new System.Drawing.Size(196, 23);
             this.BtnAddOrUpdate.TabIndex = 17;
-            this.BtnAddOrUpdate.Text = "+ 添加";
+            this.BtnAddOrUpdate.Text = "√ 添加或更新";
             this.BtnAddOrUpdate.UseVisualStyleBackColor = true;
             this.BtnAddOrUpdate.Click += new System.EventHandler(this.BtnAddOrUpdate_Click);
             // 
@@ -322,7 +322,7 @@
             this.NUDMaxCount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.NUDMaxCount.Location = new System.Drawing.Point(190, 311);
             this.NUDMaxCount.Maximum = new decimal(new int[] {
-            10000,
+            1000000,
             0,
             0,
             0});
