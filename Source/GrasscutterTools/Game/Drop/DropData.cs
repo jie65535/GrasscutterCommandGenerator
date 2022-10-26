@@ -2,7 +2,7 @@
 
 namespace GrasscutterTools.Game.Drop
 {
-    public class DropData
+    public struct DropData
     {
         /// <summary>
         /// 物品ID

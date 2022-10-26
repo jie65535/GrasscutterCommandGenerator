@@ -37,6 +37,7 @@
             this.TxtItemFilter = new System.Windows.Forms.TextBox();
             this.ListDropData = new System.Windows.Forms.ListBox();
             this.GrpDropList = new System.Windows.Forms.GroupBox();
+            this.BtnCopyAll = new System.Windows.Forms.Button();
             this.BtnClear = new System.Windows.Forms.Button();
             this.BtnPaste = new System.Windows.Forms.Button();
             this.BtnCopy = new System.Windows.Forms.Button();
@@ -55,7 +56,6 @@
             this.ListItems = new System.Windows.Forms.ListBox();
             this.GrpMonsterList = new System.Windows.Forms.GroupBox();
             this.GrpItemList = new System.Windows.Forms.GroupBox();
-            this.BtnCopyAll = new System.Windows.Forms.Button();
             this.GrpDropList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDMaxWeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDMinWeight)).BeginInit();
@@ -110,6 +110,7 @@
             this.ListMonsters.ItemHeight = 17;
             this.ListMonsters.Location = new System.Drawing.Point(6, 51);
             this.ListMonsters.Name = "ListMonsters";
+            this.ListMonsters.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
             this.ListMonsters.Size = new System.Drawing.Size(238, 344);
             this.ListMonsters.TabIndex = 4;
             this.ListMonsters.SelectedIndexChanged += new System.EventHandler(this.ListMonsters_SelectedIndexChanged);
@@ -175,6 +176,17 @@
             this.GrpDropList.TabIndex = 8;
             this.GrpDropList.TabStop = false;
             this.GrpDropList.Text = "掉落列表";
+            // 
+            // BtnCopyAll
+            // 
+            this.BtnCopyAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BtnCopyAll.Location = new System.Drawing.Point(87, 202);
+            this.BtnCopyAll.Name = "BtnCopyAll";
+            this.BtnCopyAll.Size = new System.Drawing.Size(75, 23);
+            this.BtnCopyAll.TabIndex = 22;
+            this.BtnCopyAll.Text = "复制全部";
+            this.BtnCopyAll.UseVisualStyleBackColor = true;
+            this.BtnCopyAll.Click += new System.EventHandler(this.BtnCopyAll_Click);
             // 
             // BtnClear
             // 
@@ -409,17 +421,6 @@
             this.GrpItemList.TabIndex = 11;
             this.GrpItemList.TabStop = false;
             this.GrpItemList.Text = "物品列表";
-            // 
-            // BtnCopyAll
-            // 
-            this.BtnCopyAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnCopyAll.Location = new System.Drawing.Point(87, 202);
-            this.BtnCopyAll.Name = "BtnCopyAll";
-            this.BtnCopyAll.Size = new System.Drawing.Size(75, 23);
-            this.BtnCopyAll.TabIndex = 22;
-            this.BtnCopyAll.Text = "复制全部";
-            this.BtnCopyAll.UseVisualStyleBackColor = true;
-            this.BtnCopyAll.Click += new System.EventHandler(this.BtnCopyAll_Click);
             // 
             // FormDropEditor
             // 

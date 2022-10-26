@@ -10,13 +10,31 @@ using GrasscutterTools.Properties;
 
 using Newtonsoft.Json;
 
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+
 namespace GrasscutterTools.Forms
 {
     public partial class FormDropEditor : Form
     {
         #region - 成员 -
 
+        /// <summary>
+        /// 掉落池
+        /// Key:怪物ID
+        /// Value:掉落列表
+        /// </summary>
         private Dictionary<int, List<DropData>> Banners;
+
+        /// <summary>
+        /// 怪物集
+        /// </summary>
+        private readonly string[] Monsters;
+
+        /// <summary>
+        /// 当前选中项的掉落列表
+        /// （当选中多条时，数据为交集）
+        /// </summary>
+        private readonly List<DropData> DropList = new List<DropData>();
 
         #endregion - 成员 -
 
@@ -28,7 +46,12 @@ namespace GrasscutterTools.Forms
 
             Icon = Resources.IconGrasscutter;
 
-            ListMonsters.Items.AddRange(GameData.Monsters.Lines);
+            Monsters = new string[GameData.Monsters.Lines.Length + GameData.Animals.Lines.Length];
+            GameData.Monsters.Lines.CopyTo(Monsters, 0);
+            GameData.Animals.Lines.CopyTo(Monsters, GameData.Monsters.Lines.Length);
+            Array.Sort(Monsters);
+
+            ListMonsters.Items.AddRange(Monsters);
             ListItems.Items.AddRange(GameData.Items.Lines);
 
             Banners = new Dictionary<int, List<DropData>>();
@@ -158,7 +181,7 @@ namespace GrasscutterTools.Forms
             var filter = TxtMonsterFilter.Text.Trim();
             ListMonsters.BeginUpdate();
             ListMonsters.Items.Clear();
-            ListMonsters.Items.AddRange(GameData.Monsters.Lines.Where(n => n.Contains(filter)).ToArray());
+            ListMonsters.Items.AddRange(Monsters.Where(n => n.Contains(filter)).ToArray());
             ListMonsters.EndUpdate();
         }
 
@@ -167,13 +190,61 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void ListMonsters_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var monster = ListMonsters.SelectedItem as string;
-            if (string.IsNullOrEmpty(monster)) return;
-            var id = int.Parse(monster.Substring(0, monster.IndexOf(':')).Trim());
+            if (ListMonsters.SelectedItems.Count == 0) return;
+
+            // 掉落物列表标题显示
+            var sp = GrpDropList.Text.IndexOf(" | ");
+            if (sp >= 0) GrpDropList.Text = GrpDropList.Text.Remove(sp);
+            if (ListMonsters.SelectedItems.Count == 1)
+            {
+                var item = ListMonsters.SelectedItem as string;
+                GrpDropList.Text += " | " + item;
+            }
+            else
+            {
+                GrpDropList.Text += " | Monsters x" + ListMonsters.SelectedItems.Count.ToString();
+            }
+
+            // 获取选中项中相同的掉落物集合（仅物品、掉落数量、掉落概率完全一致的显示）
+            DropList.Clear();
+            var first = true;
+            foreach (string item in ListMonsters.SelectedItems)
+            {
+                var monsterId = int.Parse(item.Substring(0, item.IndexOf(':')).Trim());
+                if (Banners.TryGetValue(monsterId, out List<DropData> dropList))
+                {
+                    if (first)
+                    {
+                        DropList.AddRange(dropList);
+                        first = false;
+                    }
+                    else if (DropList.Count > 0)
+                    {
+                        // 仅保留交集
+                        var intersect = DropList.Intersect(dropList).ToList();
+                        DropList.Clear();
+                        DropList.AddRange(intersect);
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                else
+                {
+                    DropList.Clear();
+                    break;
+                }
+            }
+
+            // 显示到列表
             ListDropData.BeginUpdate();
             ListDropData.Items.Clear();
-            if (Banners.TryGetValue(id, out List<DropData> dropList))
-                ListDropData.Items.AddRange(dropList.ToArray());
+            if (DropList.Count > 0)
+            {
+                ListDropData.Items.AddRange(DropList.Select(it => it.ToString()).ToArray());
+                ListDropData.SelectedIndex = 0;
+            }
             ListDropData.EndUpdate();
         }
 
@@ -186,9 +257,11 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void ListDropData_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var dropData = ListDropData.SelectedItem as DropData;
-            if (dropData == null) return;
-            TxtItem.Text = $"{dropData.ItemId}: {GameData.Items[dropData.ItemId]}";
+            if (ListDropData.SelectedIndex == -1) return;
+
+            var dropData = DropList[ListDropData.SelectedIndex];
+
+            TxtItem.Text = $"{dropData.ItemId} : {GameData.Items[dropData.ItemId]}";
             NUDMinCount.Value = dropData.MinCount;
             NUDMaxCount.Value = dropData.MaxCount;
             NUDMinWeight.Value = dropData.MinWeight;
@@ -244,9 +317,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void ListItems_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var item = ListItems.SelectedItem as string;
-            if (string.IsNullOrEmpty(item)) return;
-            TxtItem.Text = item;
+            TxtItem.Text = ListItems.SelectedItem as string;
         }
 
         #endregion - 物品列表 -
