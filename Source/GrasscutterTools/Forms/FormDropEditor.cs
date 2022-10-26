@@ -1,13 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using GrasscutterTools.Game;
@@ -20,6 +14,14 @@ namespace GrasscutterTools.Forms
 {
     public partial class FormDropEditor : Form
     {
+        #region - 成员 -
+
+        private Dictionary<int, List<DropData>> Banners;
+
+        #endregion - 成员 -
+
+        #region - 构造与窗体事件 -
+
         public FormDropEditor()
         {
             InitializeComponent();
@@ -32,9 +34,36 @@ namespace GrasscutterTools.Forms
             Banners = new Dictionary<int, List<DropData>>();
         }
 
-        private Dictionary<int, List<DropData>> Banners;
+        protected override void OnLoad(EventArgs e)
+        {
+            base.OnLoad(e);
+            try
+            {
+                // 加载文件路径
+                var path = Settings.Default.DropJsonPath;
+                TxtDropJsonPath.Text = path;
+                if (!string.IsNullOrEmpty(path) && File.Exists(path))
+                    LoadBanners(path);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        protected override void OnFormClosed(FormClosedEventArgs e)
+        {
+            // 保存文件路径
+            Settings.Default.DropJsonPath = TxtDropJsonPath.Text;
+            Settings.Default.Save();
+
+            base.OnFormClosed(e);
+        }
+
+        #endregion - 构造与窗体事件 -
 
         #region - Drop.json 文件相关 -
+
         /// <summary>
         /// 加载按钮点击时触发
         /// </summary>
@@ -58,16 +87,22 @@ namespace GrasscutterTools.Forms
                 }
 
                 // 反序列化
-                var banners = JsonConvert.DeserializeObject<List<DropInfo>>(File.ReadAllText(path));
-                Banners = new Dictionary<int, List<DropData>>(banners.Count);
-                foreach (var item in banners)
-                    Banners.Add(item.MonsterId, item.DropDataList);
+                LoadBanners(path);
                 MessageBox.Show("OK", Resources.Tips, MessageBoxButtons.OK);
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void LoadBanners(string path)
+        {
+            // 反序列化
+            var banners = JsonConvert.DeserializeObject<List<DropInfo>>(File.ReadAllText(path));
+            Banners = new Dictionary<int, List<DropData>>(banners.Count);
+            foreach (var item in banners)
+                Banners.Add(item.MonsterId, item.DropDataList);
         }
 
         /// <summary>
@@ -111,8 +146,7 @@ namespace GrasscutterTools.Forms
             }
         }
 
-        #endregion
-
+        #endregion - Drop.json 文件相关 -
 
         #region - 怪物列表 -
 
@@ -143,7 +177,7 @@ namespace GrasscutterTools.Forms
             ListDropData.EndUpdate();
         }
 
-        #endregion
+        #endregion - 怪物列表 -
 
         #region - 掉落物列表 -
 
@@ -154,14 +188,42 @@ namespace GrasscutterTools.Forms
         {
             var dropData = ListDropData.SelectedItem as DropData;
             if (dropData == null) return;
-            TxtItem.Text = dropData.ItemId.ToString();
+            TxtItem.Text = $"{dropData.ItemId}: {GameData.Items[dropData.ItemId]}";
             NUDMinCount.Value = dropData.MinCount;
             NUDMaxCount.Value = dropData.MaxCount;
             NUDMinWeight.Value = dropData.MinWeight;
             NUDMaxWeight.Value = dropData.MaxWeight;
+
+            //BtnCopy.Enabled = true;
+            //BtnDelete.Enabled = true;
+            //BtnAddOrUpdate.Enabled = true;
         }
 
-        #endregion
+        private void BtnCopy_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void BtnCopyAll_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void BtnPaste_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void BtnDelete_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void BtnClear_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void BtnAddOrUpdate_Click(object sender, EventArgs e)
+        {
+        }
+
+        #endregion - 掉落物列表 -
 
         #region - 物品列表 -
 
@@ -187,6 +249,6 @@ namespace GrasscutterTools.Forms
             TxtItem.Text = item;
         }
 
-        #endregion
+        #endregion - 物品列表 -
     }
 }

@@ -50,7 +50,10 @@ namespace GrasscutterTools.Game.Drop
 
         public override string ToString()
         {
-            return $"{ItemId} x{MinCount}~x{MaxCount} [{MinWeight}~{MaxWeight}]";
+            if (MinCount != MaxCount)
+                return $"{ItemId}:{GameData.Items[ItemId]} | x[{MinCount}~{MaxCount}] w[{MinWeight}~{MaxWeight}]";
+            else
+                return $"{ItemId}:{GameData.Items[ItemId]} | x{MinCount} w[{MinWeight}~{MaxWeight}]";
         }
     }
 }

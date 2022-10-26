@@ -27,7 +27,7 @@ namespace GrasscutterTools.Game
         {
             var lines = idNamePairs.Split(new char[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
             var capacity = lines.Length;
-            //IdMap = new Dictionary<int, string>(capacity);
+            IdMap = new Dictionary<int, string>(capacity);
             //NameMap = new Dictionary<string, int>(capacity);
             var IdList = new List<int>(capacity);
             var NameList = new List<string>(capacity);
@@ -41,7 +41,7 @@ namespace GrasscutterTools.Game
                     var name = line.Substring(si + 1).Trim();
                     if (!string.IsNullOrEmpty(name) && name != "null")
                     {
-                        //IdMap[id] = name;
+                        IdMap[id] = name;
                         //NameMap[name] = id;
                         IdList.Add(id);
                         NameList.Add(name);
@@ -55,14 +55,12 @@ namespace GrasscutterTools.Game
             Lines = lineList.ToArray();
         }
 
-        //Dictionary<int, string> IdMap;
-        //Dictionary<string, int> NameMap;
-        //List<int> IdList;
-        //List<string> NameList;
+        private readonly Dictionary<int, string> IdMap;
+        //private readonly Dictionary<string, int> NameMap;
 
         public int Count => Ids.Length;
 
-        //public string this[int id] => IdMap[id];
+        public string this[int id] => IdMap.TryGetValue(id, out string name) ? name : "???";
 
         //public int this[string name] => NameMap[name];
 

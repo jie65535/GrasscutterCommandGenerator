@@ -154,5 +154,17 @@ namespace GrasscutterTools.Properties {
                 this["IsTopMost"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string DropJsonPath {
+            get {
+                return ((string)(this["DropJsonPath"]));
+            }
+            set {
+                this["DropJsonPath"] = value;
+            }
+        }
     }
 }

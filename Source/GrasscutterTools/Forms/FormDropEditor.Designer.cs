@@ -42,7 +42,7 @@
             this.BtnCopy = new System.Windows.Forms.Button();
             this.TxtItem = new System.Windows.Forms.TextBox();
             this.BtnDelete = new System.Windows.Forms.Button();
-            this.BtnAdd = new System.Windows.Forms.Button();
+            this.BtnAddOrUpdate = new System.Windows.Forms.Button();
             this.LblItemLabel = new System.Windows.Forms.Label();
             this.LblTilde2 = new System.Windows.Forms.Label();
             this.LblTilde1 = new System.Windows.Forms.Label();
@@ -55,6 +55,7 @@
             this.ListItems = new System.Windows.Forms.ListBox();
             this.GrpMonsterList = new System.Windows.Forms.GroupBox();
             this.GrpItemList = new System.Windows.Forms.GroupBox();
+            this.BtnCopyAll = new System.Windows.Forms.Button();
             this.GrpDropList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDMaxWeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDMinWeight)).BeginInit();
@@ -102,6 +103,9 @@
             // 
             // ListMonsters
             // 
+            this.ListMonsters.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ListMonsters.FormattingEnabled = true;
             this.ListMonsters.ItemHeight = 17;
             this.ListMonsters.Location = new System.Drawing.Point(6, 51);
@@ -112,6 +116,8 @@
             // 
             // TxtMonsterFilter
             // 
+            this.TxtMonsterFilter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TxtMonsterFilter.Location = new System.Drawing.Point(6, 22);
             this.TxtMonsterFilter.Name = "TxtMonsterFilter";
             this.TxtMonsterFilter.Size = new System.Drawing.Size(238, 23);
@@ -120,6 +126,8 @@
             // 
             // TxtItemFilter
             // 
+            this.TxtItemFilter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.TxtItemFilter.Location = new System.Drawing.Point(6, 22);
             this.TxtItemFilter.Name = "TxtItemFilter";
             this.TxtItemFilter.Size = new System.Drawing.Size(238, 23);
@@ -128,22 +136,29 @@
             // 
             // ListDropData
             // 
+            this.ListDropData.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ListDropData.FormattingEnabled = true;
             this.ListDropData.ItemHeight = 17;
             this.ListDropData.Location = new System.Drawing.Point(6, 22);
             this.ListDropData.Name = "ListDropData";
-            this.ListDropData.Size = new System.Drawing.Size(238, 174);
+            this.ListDropData.Size = new System.Drawing.Size(288, 174);
             this.ListDropData.TabIndex = 7;
             this.ListDropData.SelectedIndexChanged += new System.EventHandler(this.ListDropData_SelectedIndexChanged);
             // 
             // GrpDropList
             // 
+            this.GrpDropList.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.GrpDropList.Controls.Add(this.BtnCopyAll);
             this.GrpDropList.Controls.Add(this.BtnClear);
             this.GrpDropList.Controls.Add(this.BtnPaste);
             this.GrpDropList.Controls.Add(this.BtnCopy);
             this.GrpDropList.Controls.Add(this.TxtItem);
             this.GrpDropList.Controls.Add(this.BtnDelete);
-            this.GrpDropList.Controls.Add(this.BtnAdd);
+            this.GrpDropList.Controls.Add(this.BtnAddOrUpdate);
             this.GrpDropList.Controls.Add(this.LblItemLabel);
             this.GrpDropList.Controls.Add(this.LblTilde2);
             this.GrpDropList.Controls.Add(this.LblTilde1);
@@ -156,67 +171,79 @@
             this.GrpDropList.Controls.Add(this.ListDropData);
             this.GrpDropList.Location = new System.Drawing.Point(270, 41);
             this.GrpDropList.Name = "GrpDropList";
-            this.GrpDropList.Size = new System.Drawing.Size(250, 400);
+            this.GrpDropList.Size = new System.Drawing.Size(300, 400);
             this.GrpDropList.TabIndex = 8;
             this.GrpDropList.TabStop = false;
             this.GrpDropList.Text = "掉落列表";
             // 
             // BtnClear
             // 
-            this.BtnClear.Location = new System.Drawing.Point(169, 202);
+            this.BtnClear.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BtnClear.Location = new System.Drawing.Point(87, 230);
             this.BtnClear.Name = "BtnClear";
             this.BtnClear.Size = new System.Drawing.Size(75, 23);
             this.BtnClear.TabIndex = 21;
             this.BtnClear.Text = "× 清空";
             this.BtnClear.UseVisualStyleBackColor = true;
+            this.BtnClear.Click += new System.EventHandler(this.BtnClear_Click);
             // 
             // BtnPaste
             // 
-            this.BtnPaste.Location = new System.Drawing.Point(87, 202);
+            this.BtnPaste.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BtnPaste.Location = new System.Drawing.Point(168, 202);
             this.BtnPaste.Name = "BtnPaste";
             this.BtnPaste.Size = new System.Drawing.Size(75, 23);
             this.BtnPaste.TabIndex = 20;
             this.BtnPaste.Text = "粘贴";
             this.BtnPaste.UseVisualStyleBackColor = true;
+            this.BtnPaste.Click += new System.EventHandler(this.BtnPaste_Click);
             // 
             // BtnCopy
             // 
+            this.BtnCopy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.BtnCopy.Location = new System.Drawing.Point(6, 202);
             this.BtnCopy.Name = "BtnCopy";
             this.BtnCopy.Size = new System.Drawing.Size(75, 23);
             this.BtnCopy.TabIndex = 19;
             this.BtnCopy.Text = "复制";
             this.BtnCopy.UseVisualStyleBackColor = true;
+            this.BtnCopy.Click += new System.EventHandler(this.BtnCopy_Click);
             // 
             // TxtItem
             // 
-            this.TxtItem.Location = new System.Drawing.Point(87, 253);
+            this.TxtItem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.TxtItem.Location = new System.Drawing.Point(113, 280);
             this.TxtItem.Name = "TxtItem";
             this.TxtItem.Size = new System.Drawing.Size(137, 23);
             this.TxtItem.TabIndex = 12;
             // 
             // BtnDelete
             // 
-            this.BtnDelete.Location = new System.Drawing.Point(87, 360);
+            this.BtnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BtnDelete.Location = new System.Drawing.Point(6, 230);
             this.BtnDelete.Name = "BtnDelete";
             this.BtnDelete.Size = new System.Drawing.Size(75, 23);
             this.BtnDelete.TabIndex = 18;
             this.BtnDelete.Text = "- 删除";
             this.BtnDelete.UseVisualStyleBackColor = true;
+            this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
-            // BtnAdd
+            // BtnAddOrUpdate
             // 
-            this.BtnAdd.Location = new System.Drawing.Point(6, 360);
-            this.BtnAdd.Name = "BtnAdd";
-            this.BtnAdd.Size = new System.Drawing.Size(75, 23);
-            this.BtnAdd.TabIndex = 17;
-            this.BtnAdd.Text = "+ 添加";
-            this.BtnAdd.UseVisualStyleBackColor = true;
+            this.BtnAddOrUpdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BtnAddOrUpdate.Location = new System.Drawing.Point(54, 371);
+            this.BtnAddOrUpdate.Name = "BtnAddOrUpdate";
+            this.BtnAddOrUpdate.Size = new System.Drawing.Size(196, 23);
+            this.BtnAddOrUpdate.TabIndex = 17;
+            this.BtnAddOrUpdate.Text = "+ 添加";
+            this.BtnAddOrUpdate.UseVisualStyleBackColor = true;
+            this.BtnAddOrUpdate.Click += new System.EventHandler(this.BtnAddOrUpdate_Click);
             // 
             // LblItemLabel
             // 
+            this.LblItemLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.LblItemLabel.AutoSize = true;
-            this.LblItemLabel.Location = new System.Drawing.Point(25, 256);
+            this.LblItemLabel.Location = new System.Drawing.Point(51, 283);
             this.LblItemLabel.Name = "LblItemLabel";
             this.LblItemLabel.Size = new System.Drawing.Size(56, 17);
             this.LblItemLabel.TabIndex = 15;
@@ -224,8 +251,9 @@
             // 
             // LblTilde2
             // 
+            this.LblTilde2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.LblTilde2.AutoSize = true;
-            this.LblTilde2.Location = new System.Drawing.Point(141, 315);
+            this.LblTilde2.Location = new System.Drawing.Point(167, 342);
             this.LblTilde2.Name = "LblTilde2";
             this.LblTilde2.Size = new System.Drawing.Size(17, 17);
             this.LblTilde2.TabIndex = 14;
@@ -233,8 +261,9 @@
             // 
             // LblTilde1
             // 
+            this.LblTilde1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.LblTilde1.AutoSize = true;
-            this.LblTilde1.Location = new System.Drawing.Point(141, 286);
+            this.LblTilde1.Location = new System.Drawing.Point(167, 313);
             this.LblTilde1.Name = "LblTilde1";
             this.LblTilde1.Size = new System.Drawing.Size(17, 17);
             this.LblTilde1.TabIndex = 14;
@@ -242,7 +271,8 @@
             // 
             // NUDMaxWeight
             // 
-            this.NUDMaxWeight.Location = new System.Drawing.Point(164, 313);
+            this.NUDMaxWeight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.NUDMaxWeight.Location = new System.Drawing.Point(190, 340);
             this.NUDMaxWeight.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -264,7 +294,8 @@
             // 
             // NUDMinWeight
             // 
-            this.NUDMinWeight.Location = new System.Drawing.Point(75, 315);
+            this.NUDMinWeight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.NUDMinWeight.Location = new System.Drawing.Point(101, 342);
             this.NUDMinWeight.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -276,7 +307,8 @@
             // 
             // NUDMaxCount
             // 
-            this.NUDMaxCount.Location = new System.Drawing.Point(164, 284);
+            this.NUDMaxCount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.NUDMaxCount.Location = new System.Drawing.Point(190, 311);
             this.NUDMaxCount.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -298,7 +330,8 @@
             // 
             // NUDMinCount
             // 
-            this.NUDMinCount.Location = new System.Drawing.Point(75, 284);
+            this.NUDMinCount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.NUDMinCount.Location = new System.Drawing.Point(101, 311);
             this.NUDMinCount.Maximum = new decimal(new int[] {
             10000,
             0,
@@ -320,8 +353,9 @@
             // 
             // LblWeightLabel
             // 
+            this.LblWeightLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.LblWeightLabel.AutoSize = true;
-            this.LblWeightLabel.Location = new System.Drawing.Point(25, 317);
+            this.LblWeightLabel.Location = new System.Drawing.Point(51, 344);
             this.LblWeightLabel.Name = "LblWeightLabel";
             this.LblWeightLabel.Size = new System.Drawing.Size(44, 17);
             this.LblWeightLabel.TabIndex = 9;
@@ -329,8 +363,9 @@
             // 
             // LblCountLabel
             // 
+            this.LblCountLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.LblCountLabel.AutoSize = true;
-            this.LblCountLabel.Location = new System.Drawing.Point(25, 286);
+            this.LblCountLabel.Location = new System.Drawing.Point(51, 313);
             this.LblCountLabel.Name = "LblCountLabel";
             this.LblCountLabel.Size = new System.Drawing.Size(44, 17);
             this.LblCountLabel.TabIndex = 8;
@@ -338,6 +373,9 @@
             // 
             // ListItems
             // 
+            this.ListItems.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ListItems.FormattingEnabled = true;
             this.ListItems.ItemHeight = 17;
             this.ListItems.Location = new System.Drawing.Point(6, 51);
@@ -348,6 +386,8 @@
             // 
             // GrpMonsterList
             // 
+            this.GrpMonsterList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.GrpMonsterList.Controls.Add(this.ListMonsters);
             this.GrpMonsterList.Controls.Add(this.TxtMonsterFilter);
             this.GrpMonsterList.Location = new System.Drawing.Point(12, 41);
@@ -359,20 +399,33 @@
             // 
             // GrpItemList
             // 
+            this.GrpItemList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.GrpItemList.Controls.Add(this.TxtItemFilter);
             this.GrpItemList.Controls.Add(this.ListItems);
-            this.GrpItemList.Location = new System.Drawing.Point(526, 41);
+            this.GrpItemList.Location = new System.Drawing.Point(576, 41);
             this.GrpItemList.Name = "GrpItemList";
             this.GrpItemList.Size = new System.Drawing.Size(250, 400);
             this.GrpItemList.TabIndex = 11;
             this.GrpItemList.TabStop = false;
             this.GrpItemList.Text = "物品列表";
             // 
+            // BtnCopyAll
+            // 
+            this.BtnCopyAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BtnCopyAll.Location = new System.Drawing.Point(87, 202);
+            this.BtnCopyAll.Name = "BtnCopyAll";
+            this.BtnCopyAll.Size = new System.Drawing.Size(75, 23);
+            this.BtnCopyAll.TabIndex = 22;
+            this.BtnCopyAll.Text = "复制全部";
+            this.BtnCopyAll.UseVisualStyleBackColor = true;
+            this.BtnCopyAll.Click += new System.EventHandler(this.BtnCopyAll_Click);
+            // 
             // FormDropEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(789, 450);
+            this.ClientSize = new System.Drawing.Size(839, 450);
             this.Controls.Add(this.GrpItemList);
             this.Controls.Add(this.GrpMonsterList);
             this.Controls.Add(this.GrpDropList);
@@ -382,6 +435,7 @@
             this.Controls.Add(this.LblDropPathLabel);
             this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Margin = new System.Windows.Forms.Padding(4);
+            this.MinimumSize = new System.Drawing.Size(855, 489);
             this.Name = "FormDropEditor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Drop.json Editor";
@@ -424,10 +478,11 @@
         private System.Windows.Forms.GroupBox GrpMonsterList;
         private System.Windows.Forms.GroupBox GrpItemList;
         private System.Windows.Forms.Button BtnDelete;
-        private System.Windows.Forms.Button BtnAdd;
+        private System.Windows.Forms.Button BtnAddOrUpdate;
         private System.Windows.Forms.TextBox TxtItem;
         private System.Windows.Forms.Button BtnCopy;
         private System.Windows.Forms.Button BtnPaste;
         private System.Windows.Forms.Button BtnClear;
+        private System.Windows.Forms.Button BtnCopyAll;
     }
 }
