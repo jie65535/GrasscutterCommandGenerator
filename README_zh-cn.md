@@ -14,6 +14,13 @@
 
 欢迎大家一起来完善工具的[内置资源](/Source/GrasscutterTools/Resources/zh-cn)。
 
+## Update
+### GrasscutterTools-v1.7.0
+
+![Run Commands](Doc/Screenshots/RunMultipleCommands.png)
+
+![Drop Editor](Doc/Screenshots/15-DropEditor.png)
+
 ## 远程执行
 
 服务端需要 [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) 插件支持
@@ -36,8 +43,6 @@
 ![Logo](Doc/Screenshots/GrasscutterLogo.png)
 
 ![Home](Doc/Screenshots/0-Home.png)
-
-![Run Command](Doc/Screenshots/RunMultipleCommands.png)
 
 ![Custom Commands Screenshot](Doc/Screenshots/1-CustomCommands.png)
 

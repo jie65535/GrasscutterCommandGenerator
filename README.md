@@ -14,6 +14,13 @@ Support 简体中文, 繁体中文, English and Русский languages.
 
 Welcome everyone to improve the [ID Resource](/Source/GrasscutterTools/Resources/en-us).
 
+## Update
+### GrasscutterTools-v1.7.0
+
+![Run Commands](Doc/Screenshots/RunMultipleCommands.png)
+
+![Drop Editor](Doc/Screenshots-en/15-DropEditor.png)
+
 ## Remote command
 
 The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) support
@@ -37,8 +44,6 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
 ![Logo](Doc/Screenshots/GrasscutterLogo.png)
 
 ![Home](Doc/Screenshots-en/0-Home.png)
-
-![Run Command](Doc/Screenshots/RunMultipleCommands.png)
 
 ![Custom Commands Screenshot](Doc/Screenshots-en/1-CustomCommands.png)
 

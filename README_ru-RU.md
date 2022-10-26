@@ -14,6 +14,13 @@ GCG поддерживает 简体中文 (китайский упр.), 繁体�
 
 Приглашаем всех улучшить [ID ресурсов и перевод](/Source/GrasscutterTools/Resources/ru-ru)
 
+## Update
+### GrasscutterTools-v1.7.0
+
+![Run Commands](Doc/Screenshots/RunMultipleCommands.png)
+
+![Drop Editor](Doc/Screenshots-ru/15-DropEditor.png)
+
 ## Удаленная команда (OpenCommand)
 
 Чтобы использовать команды прямо из GCG, серверу требуется плагин [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin).
