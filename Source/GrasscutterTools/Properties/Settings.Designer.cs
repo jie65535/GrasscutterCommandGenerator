@@ -166,5 +166,17 @@ namespace GrasscutterTools.Properties {
                 this["DropJsonPath"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("GrasscutterTools")]
+        public string DefaultMailSender {
+            get {
+                return ((string)(this["DefaultMailSender"]));
+            }
+            set {
+                this["DefaultMailSender"] = value;
+            }
+        }
     }
 }

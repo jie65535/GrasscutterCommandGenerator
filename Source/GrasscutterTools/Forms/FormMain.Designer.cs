@@ -75,7 +75,6 @@ namespace GrasscutterTools.Forms
             this.DTPBanEndTime = new System.Windows.Forms.DateTimePicker();
             this.BtnUnban = new System.Windows.Forms.Button();
             this.BtnBan = new System.Windows.Forms.Button();
-            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.NUDBanUID = new System.Windows.Forms.NumericUpDown();
             this.LblBanUID = new System.Windows.Forms.Label();
             this.GrpAccount = new System.Windows.Forms.GroupBox();
@@ -235,6 +234,33 @@ namespace GrasscutterTools.Forms
             this.ChkIncludeUID = new System.Windows.Forms.CheckBox();
             this.LblDefaultUid = new System.Windows.Forms.Label();
             this.TCMain = new System.Windows.Forms.TabControl();
+            this.TPMail = new System.Windows.Forms.TabPage();
+            this.LblMailSenderLabel = new System.Windows.Forms.Label();
+            this.TxtMailSender = new System.Windows.Forms.TextBox();
+            this.LblMailTitleLabel = new System.Windows.Forms.Label();
+            this.TxtMailTitle = new System.Windows.Forms.TextBox();
+            this.LblMailContentLabel = new System.Windows.Forms.Label();
+            this.TxtMailContent = new System.Windows.Forms.TextBox();
+            this.LblMailRecipientLabel = new System.Windows.Forms.Label();
+            this.RbMailSendToAll = new System.Windows.Forms.RadioButton();
+            this.RbMailSendToPlayer = new System.Windows.Forms.RadioButton();
+            this.NUDMailRecipient = new System.Windows.Forms.NumericUpDown();
+            this.LblMailItemsLabel = new System.Windows.Forms.Label();
+            this.ListMailItems = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.ListMailSelectableItems = new System.Windows.Forms.ListBox();
+            this.TxtMailSelectableItemFilter = new System.Windows.Forms.TextBox();
+            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
+            this.label1 = new System.Windows.Forms.Label();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.label2 = new System.Windows.Forms.Label();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.ListMailList = new System.Windows.Forms.ListBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -293,6 +319,13 @@ namespace GrasscutterTools.Forms
             this.GrpSettings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDUid)).BeginInit();
             this.TCMain.SuspendLayout();
+            this.TPMail.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDMailRecipient)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // TxtCommand
@@ -332,7 +365,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPRemoteCall
             // 
-            resources.ApplyResources(this.TPRemoteCall, "TPRemoteCall");
             this.TPRemoteCall.Controls.Add(this.LnkLinks);
             this.TPRemoteCall.Controls.Add(this.LnkGOODHelp);
             this.TPRemoteCall.Controls.Add(this.LnkInventoryKamera);
@@ -344,6 +376,7 @@ namespace GrasscutterTools.Forms
             this.TPRemoteCall.Controls.Add(this.TxtHost);
             this.TPRemoteCall.Controls.Add(this.BtnQueryServerStatus);
             this.TPRemoteCall.Controls.Add(this.LblHost);
+            resources.ApplyResources(this.TPRemoteCall, "TPRemoteCall");
             this.TPRemoteCall.Name = "TPRemoteCall";
             this.TPRemoteCall.UseVisualStyleBackColor = true;
             this.TPRemoteCall.Enter += new System.EventHandler(this.TPRemoteCall_Enter);
@@ -441,15 +474,14 @@ namespace GrasscutterTools.Forms
             // 
             // TPOpenCommandCheck
             // 
-            resources.ApplyResources(this.TPOpenCommandCheck, "TPOpenCommandCheck");
             this.TPOpenCommandCheck.Controls.Add(this.TPPlayerCheck);
             this.TPOpenCommandCheck.Controls.Add(this.TPConsoleCheck);
+            resources.ApplyResources(this.TPOpenCommandCheck, "TPOpenCommandCheck");
             this.TPOpenCommandCheck.Name = "TPOpenCommandCheck";
             this.TPOpenCommandCheck.SelectedIndex = 0;
             // 
             // TPPlayerCheck
             // 
-            resources.ApplyResources(this.TPPlayerCheck, "TPPlayerCheck");
             this.TPPlayerCheck.Controls.Add(this.LnkRCHelp);
             this.TPPlayerCheck.Controls.Add(this.NUDRemotePlayerId);
             this.TPPlayerCheck.Controls.Add(this.BtnConnectOpenCommand);
@@ -457,6 +489,7 @@ namespace GrasscutterTools.Forms
             this.TPPlayerCheck.Controls.Add(this.BtnSendVerificationCode);
             this.TPPlayerCheck.Controls.Add(this.NUDVerificationCode);
             this.TPPlayerCheck.Controls.Add(this.LblRemotePlayerId);
+            resources.ApplyResources(this.TPPlayerCheck, "TPPlayerCheck");
             this.TPPlayerCheck.Name = "TPPlayerCheck";
             this.TPPlayerCheck.UseVisualStyleBackColor = true;
             // 
@@ -528,11 +561,11 @@ namespace GrasscutterTools.Forms
             // 
             // TPConsoleCheck
             // 
-            resources.ApplyResources(this.TPConsoleCheck, "TPConsoleCheck");
             this.TPConsoleCheck.Controls.Add(this.BtnConsoleConnect);
             this.TPConsoleCheck.Controls.Add(this.TxtToken);
             this.TPConsoleCheck.Controls.Add(this.LblToken);
             this.TPConsoleCheck.Controls.Add(this.LblConsoleTip);
+            resources.ApplyResources(this.TPConsoleCheck, "TPConsoleCheck");
             this.TPConsoleCheck.Name = "TPConsoleCheck";
             this.TPConsoleCheck.UseVisualStyleBackColor = true;
             // 
@@ -577,10 +610,10 @@ namespace GrasscutterTools.Forms
             // 
             // TPAbout
             // 
-            resources.ApplyResources(this.TPAbout, "TPAbout");
             this.TPAbout.Controls.Add(this.GrasscutterToolsSupport);
             this.TPAbout.Controls.Add(this.LnkGithub);
             this.TPAbout.Controls.Add(this.LblSupportDescription);
+            resources.ApplyResources(this.TPAbout, "TPAbout");
             this.TPAbout.Name = "TPAbout";
             this.TPAbout.UseVisualStyleBackColor = true;
             // 
@@ -605,10 +638,10 @@ namespace GrasscutterTools.Forms
             // 
             // TPManage
             // 
-            resources.ApplyResources(this.TPManage, "TPManage");
             this.TPManage.Controls.Add(this.GrpBanPlayer);
             this.TPManage.Controls.Add(this.GrpAccount);
             this.TPManage.Controls.Add(this.GrpPermission);
+            resources.ApplyResources(this.TPManage, "TPManage");
             this.TPManage.Name = "TPManage";
             this.TPManage.UseVisualStyleBackColor = true;
             // 
@@ -626,8 +659,8 @@ namespace GrasscutterTools.Forms
             // 
             // DTPBanEndTime
             // 
-            resources.ApplyResources(this.DTPBanEndTime, "DTPBanEndTime");
             this.DTPBanEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            resources.ApplyResources(this.DTPBanEndTime, "DTPBanEndTime");
             this.DTPBanEndTime.MaxDate = new System.DateTime(2034, 12, 31, 0, 0, 0, 0);
             this.DTPBanEndTime.MinDate = new System.DateTime(2022, 6, 28, 0, 0, 0, 0);
             this.DTPBanEndTime.Name = "DTPBanEndTime";
@@ -646,14 +679,6 @@ namespace GrasscutterTools.Forms
             this.BtnBan.Name = "BtnBan";
             this.BtnBan.UseVisualStyleBackColor = true;
             this.BtnBan.Click += new System.EventHandler(this.BtnBan_Click);
-            // 
-            // TxtBanReason
-            // 
-            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
-            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtBanReason.Maximum = 0F;
-            this.TxtBanReason.Minimum = 0F;
-            this.TxtBanReason.Name = "TxtBanReason";
             // 
             // NUDBanUID
             // 
@@ -750,10 +775,10 @@ namespace GrasscutterTools.Forms
             // 
             // CmbPerm
             // 
-            resources.ApplyResources(this.CmbPerm, "CmbPerm");
             this.CmbPerm.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.CmbPerm.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.CmbPerm.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbPerm, "CmbPerm");
             this.CmbPerm.Name = "CmbPerm";
             // 
             // NUDPermUID
@@ -815,7 +840,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPScene
             // 
-            resources.ApplyResources(this.TPScene, "TPScene");
             this.TPScene.Controls.Add(this.TxtSceneFilter);
             this.TPScene.Controls.Add(this.ChkIncludeSceneId);
             this.TPScene.Controls.Add(this.LblTpZ);
@@ -830,6 +854,7 @@ namespace GrasscutterTools.Forms
             this.TPScene.Controls.Add(this.LblSceneDescription);
             this.TPScene.Controls.Add(this.ListScenes);
             this.TPScene.Controls.Add(this.LblTp);
+            resources.ApplyResources(this.TPScene, "TPScene");
             this.TPScene.Name = "TPScene";
             this.TPScene.UseVisualStyleBackColor = true;
             // 
@@ -964,7 +989,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPItem
             // 
-            resources.ApplyResources(this.TPItem, "TPItem");
             this.TPItem.Controls.Add(this.LblClearGiveItemLogs);
             this.TPItem.Controls.Add(this.BtnSaveGiveItemLog);
             this.TPItem.Controls.Add(this.BtnRemoveGiveItemLog);
@@ -977,6 +1001,7 @@ namespace GrasscutterTools.Forms
             this.TPItem.Controls.Add(this.NUDGameItemAmout);
             this.TPItem.Controls.Add(this.NUDGameItemLevel);
             this.TPItem.Controls.Add(this.LblGiveCommandDescription);
+            resources.ApplyResources(this.TPItem, "TPItem");
             this.TPItem.Name = "TPItem";
             this.TPItem.UseVisualStyleBackColor = true;
             // 
@@ -1094,7 +1119,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPWeapon
             // 
-            resources.ApplyResources(this.TPWeapon, "TPWeapon");
             this.TPWeapon.Controls.Add(this.BtnGiveAllWeapons);
             this.TPWeapon.Controls.Add(this.TxtWeaponFilter);
             this.TPWeapon.Controls.Add(this.LblWeaponDescription);
@@ -1105,6 +1129,7 @@ namespace GrasscutterTools.Forms
             this.TPWeapon.Controls.Add(this.NUDWeaponAmout);
             this.TPWeapon.Controls.Add(this.NUDWeaponLevel);
             this.TPWeapon.Controls.Add(this.ListWeapons);
+            resources.ApplyResources(this.TPWeapon, "TPWeapon");
             this.TPWeapon.Name = "TPWeapon";
             this.TPWeapon.UseVisualStyleBackColor = true;
             // 
@@ -1208,10 +1233,10 @@ namespace GrasscutterTools.Forms
             // 
             // TPStats
             // 
-            resources.ApplyResources(this.TPStats, "TPStats");
             this.TPStats.Controls.Add(this.GrpSetStats);
             this.TPStats.Controls.Add(this.GrpTalentLevel);
             this.TPStats.Controls.Add(this.LblStatsDescription);
+            resources.ApplyResources(this.TPStats, "TPStats");
             this.TPStats.Name = "TPStats";
             this.TPStats.UseVisualStyleBackColor = true;
             // 
@@ -1243,9 +1268,9 @@ namespace GrasscutterTools.Forms
             // 
             // LblStatTip
             // 
-            resources.ApplyResources(this.LblStatTip, "LblStatTip");
             this.LblStatTip.AutoEllipsis = true;
             this.LblStatTip.ForeColor = System.Drawing.SystemColors.GrayText;
+            resources.ApplyResources(this.LblStatTip, "LblStatTip");
             this.LblStatTip.Name = "LblStatTip";
             // 
             // LblStatPercent
@@ -1271,9 +1296,9 @@ namespace GrasscutterTools.Forms
             // 
             // CmbStat
             // 
-            resources.ApplyResources(this.CmbStat, "CmbStat");
             this.CmbStat.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbStat.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbStat, "CmbStat");
             this.CmbStat.Name = "CmbStat";
             this.CmbStat.SelectedIndexChanged += new System.EventHandler(this.SetStatsInputChanged);
             // 
@@ -1342,7 +1367,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPAvatar
             // 
-            resources.ApplyResources(this.TPAvatar, "TPAvatar");
             this.TPAvatar.Controls.Add(this.LblAvatarSkillLevelTip);
             this.TPAvatar.Controls.Add(this.BtnGiveAllChar);
             this.TPAvatar.Controls.Add(this.LblAvatarSkillLevelLabel);
@@ -1354,6 +1378,7 @@ namespace GrasscutterTools.Forms
             this.TPAvatar.Controls.Add(this.LblAvatarLevel);
             this.TPAvatar.Controls.Add(this.NUDAvatarLevel);
             this.TPAvatar.Controls.Add(this.CmbAvatar);
+            resources.ApplyResources(this.TPAvatar, "TPAvatar");
             this.TPAvatar.Name = "TPAvatar";
             this.TPAvatar.UseVisualStyleBackColor = true;
             // 
@@ -1460,7 +1485,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPSpawn
             // 
-            resources.ApplyResources(this.TPSpawn, "TPSpawn");
             this.TPSpawn.Controls.Add(this.ChkInfiniteHP);
             this.TPSpawn.Controls.Add(this.LblClearSpawnLogs);
             this.TPSpawn.Controls.Add(this.BtnSaveSpawnLog);
@@ -1474,6 +1498,7 @@ namespace GrasscutterTools.Forms
             this.TPSpawn.Controls.Add(this.NUDEntityLevel);
             this.TPSpawn.Controls.Add(this.TxtEntityFilter);
             this.TPSpawn.Controls.Add(this.ListEntity);
+            resources.ApplyResources(this.TPSpawn, "TPSpawn");
             this.TPSpawn.Name = "TPSpawn";
             this.TPSpawn.UseVisualStyleBackColor = true;
             // 
@@ -1613,13 +1638,13 @@ namespace GrasscutterTools.Forms
             // 
             // TPQuest
             // 
-            resources.ApplyResources(this.TPQuest, "TPQuest");
             this.TPQuest.Controls.Add(this.GrpQuestFilters);
             this.TPQuest.Controls.Add(this.BtnFinishQuest);
             this.TPQuest.Controls.Add(this.BtnAddQuest);
             this.TPQuest.Controls.Add(this.LblQuestDescription);
             this.TPQuest.Controls.Add(this.TxtQuestFilter);
             this.TPQuest.Controls.Add(this.ListQuest);
+            resources.ApplyResources(this.TPQuest, "TPQuest");
             this.TPQuest.Name = "TPQuest";
             this.TPQuest.UseVisualStyleBackColor = true;
             // 
@@ -1691,7 +1716,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPArtifact
             // 
-            resources.ApplyResources(this.TPArtifact, "TPArtifact");
             this.TPArtifact.Controls.Add(this.LblArtifactLevelTip);
             this.TPArtifact.Controls.Add(this.BtnAddSubAttr);
             this.TPArtifact.Controls.Add(this.LblArtifactName);
@@ -1711,6 +1735,7 @@ namespace GrasscutterTools.Forms
             this.TPArtifact.Controls.Add(this.NUDArtifactLevel);
             this.TPArtifact.Controls.Add(this.LblArtifactStars);
             this.TPArtifact.Controls.Add(this.NUDArtifactStars);
+            resources.ApplyResources(this.TPArtifact, "TPArtifact");
             this.TPArtifact.Name = "TPArtifact";
             this.TPArtifact.UseVisualStyleBackColor = true;
             // 
@@ -1876,7 +1901,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPCustom
             // 
-            resources.ApplyResources(this.TPCustom, "TPCustom");
             this.TPCustom.Controls.Add(this.BtnExportCustomCommands);
             this.TPCustom.Controls.Add(this.BtnLoadCustomCommands);
             this.TPCustom.Controls.Add(this.LblCustomName);
@@ -1884,6 +1908,7 @@ namespace GrasscutterTools.Forms
             this.TPCustom.Controls.Add(this.BtnRemoveCustomCommand);
             this.TPCustom.Controls.Add(this.BtnSaveCustomCommand);
             this.TPCustom.Controls.Add(this.TxtCustomName);
+            resources.ApplyResources(this.TPCustom, "TPCustom");
             this.TPCustom.Name = "TPCustom";
             this.TPCustom.UseVisualStyleBackColor = true;
             // 
@@ -1947,7 +1972,6 @@ namespace GrasscutterTools.Forms
             // 
             // TPHome
             // 
-            resources.ApplyResources(this.TPHome, "TPHome");
             this.TPHome.Controls.Add(this.BtnOpenDropEditor);
             this.TPHome.Controls.Add(this.LnkNewVersion);
             this.TPHome.Controls.Add(this.LblAbout);
@@ -1955,6 +1979,7 @@ namespace GrasscutterTools.Forms
             this.TPHome.Controls.Add(this.BtnOpenGachaBannerEditor);
             this.TPHome.Controls.Add(this.GrasscutterToolsIcon);
             this.TPHome.Controls.Add(this.GrpSettings);
+            resources.ApplyResources(this.TPHome, "TPHome");
             this.TPHome.Name = "TPHome";
             this.TPHome.UseVisualStyleBackColor = true;
             // 
@@ -2019,9 +2044,9 @@ namespace GrasscutterTools.Forms
             // 
             // CmbGcVersions
             // 
-            resources.ApplyResources(this.CmbGcVersions, "CmbGcVersions");
             this.CmbGcVersions.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbGcVersions.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbGcVersions, "CmbGcVersions");
             this.CmbGcVersions.Name = "CmbGcVersions";
             // 
             // ChkTopMost
@@ -2032,9 +2057,9 @@ namespace GrasscutterTools.Forms
             // 
             // CmbLanguage
             // 
-            resources.ApplyResources(this.CmbLanguage, "CmbLanguage");
             this.CmbLanguage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbLanguage.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbLanguage, "CmbLanguage");
             this.CmbLanguage.Name = "CmbLanguage";
             // 
             // LblLanguage
@@ -2082,10 +2107,218 @@ namespace GrasscutterTools.Forms
             this.TCMain.Controls.Add(this.TPItem);
             this.TCMain.Controls.Add(this.TPScene);
             this.TCMain.Controls.Add(this.TPManage);
+            this.TCMain.Controls.Add(this.TPMail);
             this.TCMain.Controls.Add(this.TPAbout);
             this.TCMain.Controls.Add(this.TPRemoteCall);
             this.TCMain.Name = "TCMain";
             this.TCMain.SelectedIndex = 0;
+            // 
+            // TPMail
+            // 
+            this.TPMail.Controls.Add(this.tabControl1);
+            this.TPMail.Controls.Add(this.button1);
+            this.TPMail.Controls.Add(this.ListMailItems);
+            this.TPMail.Controls.Add(this.LblMailItemsLabel);
+            this.TPMail.Controls.Add(this.NUDMailRecipient);
+            this.TPMail.Controls.Add(this.RbMailSendToPlayer);
+            this.TPMail.Controls.Add(this.RbMailSendToAll);
+            this.TPMail.Controls.Add(this.LblMailRecipientLabel);
+            this.TPMail.Controls.Add(this.TxtMailContent);
+            this.TPMail.Controls.Add(this.LblMailContentLabel);
+            this.TPMail.Controls.Add(this.TxtMailTitle);
+            this.TPMail.Controls.Add(this.LblMailTitleLabel);
+            this.TPMail.Controls.Add(this.TxtMailSender);
+            this.TPMail.Controls.Add(this.LblMailSenderLabel);
+            resources.ApplyResources(this.TPMail, "TPMail");
+            this.TPMail.Name = "TPMail";
+            this.TPMail.UseVisualStyleBackColor = true;
+            // 
+            // LblMailSenderLabel
+            // 
+            resources.ApplyResources(this.LblMailSenderLabel, "LblMailSenderLabel");
+            this.LblMailSenderLabel.Name = "LblMailSenderLabel";
+            // 
+            // TxtMailSender
+            // 
+            resources.ApplyResources(this.TxtMailSender, "TxtMailSender");
+            this.TxtMailSender.Name = "TxtMailSender";
+            // 
+            // LblMailTitleLabel
+            // 
+            resources.ApplyResources(this.LblMailTitleLabel, "LblMailTitleLabel");
+            this.LblMailTitleLabel.Name = "LblMailTitleLabel";
+            // 
+            // TxtMailTitle
+            // 
+            resources.ApplyResources(this.TxtMailTitle, "TxtMailTitle");
+            this.TxtMailTitle.Name = "TxtMailTitle";
+            // 
+            // LblMailContentLabel
+            // 
+            resources.ApplyResources(this.LblMailContentLabel, "LblMailContentLabel");
+            this.LblMailContentLabel.Name = "LblMailContentLabel";
+            // 
+            // TxtMailContent
+            // 
+            resources.ApplyResources(this.TxtMailContent, "TxtMailContent");
+            this.TxtMailContent.Name = "TxtMailContent";
+            // 
+            // LblMailRecipientLabel
+            // 
+            resources.ApplyResources(this.LblMailRecipientLabel, "LblMailRecipientLabel");
+            this.LblMailRecipientLabel.Name = "LblMailRecipientLabel";
+            // 
+            // RbMailSendToAll
+            // 
+            resources.ApplyResources(this.RbMailSendToAll, "RbMailSendToAll");
+            this.RbMailSendToAll.Name = "RbMailSendToAll";
+            this.RbMailSendToAll.TabStop = true;
+            this.RbMailSendToAll.UseVisualStyleBackColor = true;
+            // 
+            // RbMailSendToPlayer
+            // 
+            resources.ApplyResources(this.RbMailSendToPlayer, "RbMailSendToPlayer");
+            this.RbMailSendToPlayer.Name = "RbMailSendToPlayer";
+            this.RbMailSendToPlayer.TabStop = true;
+            this.RbMailSendToPlayer.UseVisualStyleBackColor = true;
+            // 
+            // NUDMailRecipient
+            // 
+            resources.ApplyResources(this.NUDMailRecipient, "NUDMailRecipient");
+            this.NUDMailRecipient.Name = "NUDMailRecipient";
+            // 
+            // LblMailItemsLabel
+            // 
+            resources.ApplyResources(this.LblMailItemsLabel, "LblMailItemsLabel");
+            this.LblMailItemsLabel.Name = "LblMailItemsLabel";
+            // 
+            // ListMailItems
+            // 
+            resources.ApplyResources(this.ListMailItems, "ListMailItems");
+            this.ListMailItems.FormattingEnabled = true;
+            this.ListMailItems.Name = "ListMailItems";
+            // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // ListMailSelectableItems
+            // 
+            resources.ApplyResources(this.ListMailSelectableItems, "ListMailSelectableItems");
+            this.ListMailSelectableItems.FormattingEnabled = true;
+            this.ListMailSelectableItems.Name = "ListMailSelectableItems";
+            // 
+            // TxtMailSelectableItemFilter
+            // 
+            resources.ApplyResources(this.TxtMailSelectableItemFilter, "TxtMailSelectableItemFilter");
+            this.TxtMailSelectableItemFilter.Name = "TxtMailSelectableItemFilter";
+            // 
+            // TxtBanReason
+            // 
+            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
+            this.TxtBanReason.Maximum = 0F;
+            this.TxtBanReason.Minimum = 0F;
+            this.TxtBanReason.Name = "TxtBanReason";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
+            // numericUpDown1
+            // 
+            resources.ApplyResources(this.numericUpDown1, "numericUpDown1");
+            this.numericUpDown1.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // numericUpDown2
+            // 
+            resources.ApplyResources(this.numericUpDown2, "numericUpDown2");
+            this.numericUpDown2.Maximum = new decimal(new int[] {
+            90,
+            0,
+            0,
+            0});
+            this.numericUpDown2.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // tabControl1
+            // 
+            resources.ApplyResources(this.tabControl1, "tabControl1");
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.Controls.Add(this.TxtMailSelectableItemFilter);
+            this.tabPage1.Controls.Add(this.numericUpDown2);
+            this.tabPage1.Controls.Add(this.ListMailSelectableItems);
+            this.tabPage1.Controls.Add(this.label2);
+            this.tabPage1.Controls.Add(this.label1);
+            this.tabPage1.Controls.Add(this.numericUpDown1);
+            resources.ApplyResources(this.tabPage1, "tabPage1");
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.button3);
+            this.tabPage2.Controls.Add(this.button2);
+            this.tabPage2.Controls.Add(this.ListMailList);
+            resources.ApplyResources(this.tabPage2, "tabPage2");
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // ListMailList
+            // 
+            resources.ApplyResources(this.ListMailList, "ListMailList");
+            this.ListMailList.FormattingEnabled = true;
+            this.ListMailList.Name = "ListMailList";
+            // 
+            // button2
+            // 
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            resources.ApplyResources(this.button3, "button3");
+            this.button3.Name = "button3";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // FormMain
             // 
@@ -2181,6 +2414,15 @@ namespace GrasscutterTools.Forms
             this.GrpSettings.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDUid)).EndInit();
             this.TCMain.ResumeLayout(false);
+            this.TPMail.ResumeLayout(false);
+            this.TPMail.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDMailRecipient)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -2393,5 +2635,31 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Label LblAvatarSkillLevelLabel;
         private System.Windows.Forms.Label LblAvatarSkillLevelTip;
         private System.Windows.Forms.Button BtnOpenDropEditor;
+        private System.Windows.Forms.TabPage TPMail;
+        private System.Windows.Forms.TextBox TxtMailContent;
+        private System.Windows.Forms.Label LblMailContentLabel;
+        private System.Windows.Forms.TextBox TxtMailTitle;
+        private System.Windows.Forms.Label LblMailTitleLabel;
+        private System.Windows.Forms.TextBox TxtMailSender;
+        private System.Windows.Forms.Label LblMailSenderLabel;
+        private System.Windows.Forms.ListBox ListMailItems;
+        private System.Windows.Forms.Label LblMailItemsLabel;
+        private System.Windows.Forms.NumericUpDown NUDMailRecipient;
+        private System.Windows.Forms.RadioButton RbMailSendToPlayer;
+        private System.Windows.Forms.RadioButton RbMailSendToAll;
+        private System.Windows.Forms.Label LblMailRecipientLabel;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox TxtMailSelectableItemFilter;
+        private System.Windows.Forms.ListBox ListMailSelectableItems;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.ListBox ListMailList;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button2;
     }
 }

@@ -780,11 +780,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void TxtWeaponFilter_TextChanged(object sender, EventArgs e)
         {
-            var filter = TxtWeaponFilter.Text.Trim();
-            ListWeapons.BeginUpdate();
-            ListWeapons.Items.Clear();
-            ListWeapons.Items.AddRange(GameData.Weapons.Lines.Where(n => n.Contains(filter)).ToArray());
-            ListWeapons.EndUpdate();
+            UIUtil.ListBoxFilter(ListWeapons, GameData.Weapons.Lines, TxtWeaponFilter.Text);
         }
 
         /// <summary>
@@ -829,11 +825,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void TxtGameItemFilter_TextChanged(object sender, EventArgs e)
         {
-            var filter = TxtGameItemFilter.Text.Trim();
-            ListGameItems.BeginUpdate();
-            ListGameItems.Items.Clear();
-            ListGameItems.Items.AddRange(GameData.Items.Lines.Where(n => n.Contains(filter)).ToArray());
-            ListGameItems.EndUpdate();
+            UIUtil.ListBoxFilter(ListGameItems, GameData.Items.Lines, TxtGameItemFilter.Text);
         }
 
         /// <summary>
@@ -1087,13 +1079,9 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void TxtEntityFilter_TextChanged(object sender, EventArgs e)
         {
-            var filter = TxtEntityFilter.Text.Trim();
             var rb = RbEntityAnimal.Checked ? RbEntityAnimal : RbEntityMonster;
             var data = rb.Tag as string[];
-            ListEntity.BeginUpdate();
-            ListEntity.Items.Clear();
-            ListEntity.Items.AddRange(data.Where(n => n.Contains(filter)).ToArray());
-            ListEntity.EndUpdate();
+            UIUtil.ListBoxFilter(ListEntity, data, TxtEntityFilter.Text);
         }
 
         /// <summary>
@@ -1243,11 +1231,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void TxtSceneFilter_TextChanged(object sender, EventArgs e)
         {
-            var filter = TxtSceneFilter.Text.Trim();
-            ListScenes.BeginUpdate();
-            ListScenes.Items.Clear();
-            ListScenes.Items.AddRange(GameData.Scenes.Lines.Where(n => n.Contains(filter)).ToArray());
-            ListScenes.EndUpdate();
+            UIUtil.ListBoxFilter(ListScenes, GameData.Scenes.Lines, TxtSceneFilter.Text);
         }
 
         /// <summary>

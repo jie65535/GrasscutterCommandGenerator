@@ -184,11 +184,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void TxtMonsterFilter_TextChanged(object sender, EventArgs e)
         {
-            var filter = TxtMonsterFilter.Text.Trim();
-            ListMonsters.BeginUpdate();
-            ListMonsters.Items.Clear();
-            ListMonsters.Items.AddRange(Monsters.Where(n => n.Contains(filter)).ToArray());
-            ListMonsters.EndUpdate();
+            UIUtil.ListBoxFilter(ListMonsters, Monsters, TxtMonsterFilter.Text);
         }
 
         /// <summary>
@@ -486,11 +482,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void TxtItemFilter_TextChanged(object sender, EventArgs e)
         {
-            var filter = TxtItemFilter.Text.Trim();
-            ListItems.BeginUpdate();
-            ListItems.Items.Clear();
-            ListItems.Items.AddRange(GameData.Items.Lines.Where(n => n.Contains(filter)).ToArray());
-            ListItems.EndUpdate();
+            UIUtil.ListBoxFilter(ListItems, GameData.Items.Lines, TxtItemFilter.Text);
         }
 
         /// <summary>

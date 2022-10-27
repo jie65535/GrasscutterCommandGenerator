@@ -129,6 +129,8 @@
     <Compile Include="Game\Gacha\GachaBanner.cs" />
     <Compile Include="Game\GameData.cs" />
     <Compile Include="Game\ItemMap.cs" />
+    <Compile Include="Game\Mail\Mail.cs" />
+    <Compile Include="Game\Mail\MailItem.cs" />
     <Compile Include="Game\SetStatsCommand.cs" />
     <Compile Include="Game\TextMapData.cs" />
     <Compile Include="GOOD\GOOD.cs" />

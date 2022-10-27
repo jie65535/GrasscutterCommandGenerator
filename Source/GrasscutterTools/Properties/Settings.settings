@@ -38,5 +38,8 @@
     <Setting Name="DropJsonPath" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="DefaultMailSender" Type="System.String" Scope="User">
+      <Value Profile="(Default)">GrasscutterTools</Value>
+    </Setting>
   </Settings>
 </SettingsFile>
