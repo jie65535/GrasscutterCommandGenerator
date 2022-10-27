@@ -1986,7 +1986,12 @@ namespace GrasscutterTools.Forms
                             if (character.Name != "Traveler")
                             {
                                 if (GOODData.Avatars.TryGetValue(character.Name, out var character_id))
-                                    commands_list.Add("/give " + character_id + " lv" + character.Level + "c" + character.Constellation);
+                                {
+                                    if (Check(CommandVersion.V1_4_1))
+                                        commands_list.Add($"/give {character_id} lv{character.Level} c{character.Constellation} sl{character.Talents}");
+                                    else
+                                        commands_list.Add($"/give {character_id} lv{character.Level} c{character.Constellation}");
+                                }
                                 else
                                     missingItems.Add(character.Name);
                                 // TODO: Implement command to set talent level when giving character in Grasscutter
@@ -1999,7 +2004,7 @@ namespace GrasscutterTools.Forms
                         foreach (var weapon in good.Weapons)
                         {
                             if (GOODData.Weapons.TryGetValue(weapon.Name, out var weapon_id))
-                                commands_list.Add("/give " + weapon_id + " lv" + weapon.Level + "r" + weapon.RefinementLevel);
+                                commands_list.Add($"/give {weapon_id} lv{weapon.Level} r{weapon.RefinementLevel}");
                             else
                                 missingItems.Add(weapon.Name);
                             // TODO: Implement command to give weapon directly to character in Grasscutter
@@ -2016,7 +2021,18 @@ namespace GrasscutterTools.Forms
                                 missingItems.Add(artifact.SetName);
                                 continue;
                             }
-                            var artifact_id = artifact_set_id.ToString() + artifact.Rarity.ToString() + GOODData.ArtifactSlotMap[artifact.GearSlot] + "4";
+                            var artifact_id = artifact_set_id * 1000 + artifact.Rarity * 100 + GOODData.ArtifactSlotMap[artifact.GearSlot] * 10;
+                            for (int i = 4; i > 0; i--)
+                            {
+                                if (Array.IndexOf(GameData.Artifacts.Ids, artifact_id + i) != -1)
+                                {
+                                    artifact_id += i;
+                                    break;
+                                }
+                            }
+                            if (artifact_id % 10 == 0)
+                                artifact_id += 4;
+
                             var artifact_mainStat_id = GOODData.ArtifactMainAttribution[artifact.MainStat];
                             var artifact_substats = "";
                             var artifact_substat_prefix = artifact.Rarity + "0";
@@ -2039,7 +2055,7 @@ namespace GrasscutterTools.Forms
                             // HACK: Add def+2 substat to counteract Grasscutter automatically adding another substat
                             if (substat_count == 4)
                                 artifact_substats += "101081 ";
-                            commands_list.Add("/give " + artifact_id + " lv" + artifact.Level + " " + artifact_mainStat_id + " " + artifact_substats);
+                            commands_list.Add($"/give {artifact_id} lv{artifact.Level} {artifact_mainStat_id} {artifact_substats}");
                             // TODO: Implement command to give artifact directly to character in Grasscutter
                         }
                     }

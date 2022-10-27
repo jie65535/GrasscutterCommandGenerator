@@ -59,8 +59,8 @@ namespace GrasscutterTools.GOOD
         public static Dictionary<string, int> ArtifactCats { get; private set; }
 
 
-        public static Dictionary<string, string> ArtifactSlotMap = new Dictionary<string, string> {
-            {"goblet", "1"}, {"plume", "2"}, {"circlet", "3"}, {"flower", "4"}, {"sands", "5"}
+        public static Dictionary<string, int> ArtifactSlotMap = new Dictionary<string, int> {
+            {"goblet", 1}, {"plume", 2}, {"circlet", 3}, {"flower", 4}, {"sands", 5}
         };
 
         public static Dictionary<string, int> ArtifactMainAttribution { get; } = new Dictionary<string, int>
