@@ -3,6 +3,7 @@
 [![GitHub license](https://img.shields.io/github/license/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/stargazers)
 [![Github All Releases](https://img.shields.io/github/downloads/jie65535/GrasscutterCommandGenerator/total.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
+[![QQ Group](https://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=PdS9--b-n8LEAmYjX8fNFXtKDcsp4NHN&jump_from=webapi&authKey=7ty3ZCKYMKLGWLmO8O84qiNAZ0EuCnSGF+acP+74xuDMKYXXNjuPP7iUzffHz4r2)
 
 [English](README.md) | 简体中文 | [Русский](README_ru-RU.md)
 
