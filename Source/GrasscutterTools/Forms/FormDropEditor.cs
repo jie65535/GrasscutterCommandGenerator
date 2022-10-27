@@ -193,7 +193,7 @@ namespace GrasscutterTools.Forms
         private IEnumerable<int> SelectedMonsterIds()
         {
             foreach (string item in ListMonsters.SelectedItems)
-                yield return int.Parse(item.Substring(0, item.IndexOf(':')).Trim());
+                yield return ItemMap.ToId(item);
         }
 
         /// <summary>
@@ -378,7 +378,7 @@ namespace GrasscutterTools.Forms
             var dropData = new DropData();
 
             var item = TxtItem.Text;
-            dropData.ItemId = int.Parse(item.Substring(0, item.IndexOf(':')).Trim());
+            dropData.ItemId = ItemMap.ToId(item);
             //if (int.TryParse(item.Substring(0, item.IndexOf(':')).Trim(), out int itemId))
             //{
             //    dropData.ItemId = itemId;

@@ -22,7 +22,12 @@
 
         public override string ToString()
         {
-            return $"{ItemId}:{GameData.Items[ItemId]} x{ItemCount} lv{ItemLevel}";
+            if (ItemLevel > 1)
+                return $"{ItemId}:{GameData.Items[ItemId]} x{ItemCount} lv{ItemLevel}";
+            else if (ItemCount > 1)
+                return $"{ItemId}:{GameData.Items[ItemId]} x{ItemCount}";
+            else
+                return $"{ItemId}:{GameData.Items[ItemId]}";
         }
     }
 }

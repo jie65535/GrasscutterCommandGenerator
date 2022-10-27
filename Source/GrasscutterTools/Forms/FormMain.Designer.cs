@@ -235,32 +235,34 @@ namespace GrasscutterTools.Forms
             this.LblDefaultUid = new System.Windows.Forms.Label();
             this.TCMain = new System.Windows.Forms.TabControl();
             this.TPMail = new System.Windows.Forms.TabPage();
-            this.LblMailSenderLabel = new System.Windows.Forms.Label();
-            this.TxtMailSender = new System.Windows.Forms.TextBox();
-            this.LblMailTitleLabel = new System.Windows.Forms.Label();
-            this.TxtMailTitle = new System.Windows.Forms.TextBox();
-            this.LblMailContentLabel = new System.Windows.Forms.Label();
-            this.TxtMailContent = new System.Windows.Forms.TextBox();
-            this.LblMailRecipientLabel = new System.Windows.Forms.Label();
-            this.RbMailSendToAll = new System.Windows.Forms.RadioButton();
-            this.RbMailSendToPlayer = new System.Windows.Forms.RadioButton();
-            this.NUDMailRecipient = new System.Windows.Forms.NumericUpDown();
-            this.LblMailItemsLabel = new System.Windows.Forms.Label();
-            this.ListMailItems = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.ListMailSelectableItems = new System.Windows.Forms.ListBox();
-            this.TxtMailSelectableItemFilter = new System.Windows.Forms.TextBox();
-            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
-            this.label1 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
-            this.label2 = new System.Windows.Forms.Label();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.TxtMailSelectableItemFilter = new System.Windows.Forms.TextBox();
+            this.NUDMailItemLevel = new System.Windows.Forms.NumericUpDown();
+            this.ListMailSelectableItems = new System.Windows.Forms.ListBox();
+            this.LblMailItemLevel = new System.Windows.Forms.Label();
+            this.LblMailItemCount = new System.Windows.Forms.Label();
+            this.NUDMailItemCount = new System.Windows.Forms.NumericUpDown();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.BtnClearMail = new System.Windows.Forms.Button();
+            this.BtnRemoveMail = new System.Windows.Forms.Button();
             this.ListMailList = new System.Windows.Forms.ListBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.BtnSendMail = new System.Windows.Forms.Button();
+            this.ListMailItems = new System.Windows.Forms.ListBox();
+            this.LblMailItemsLabel = new System.Windows.Forms.Label();
+            this.NUDMailRecipient = new System.Windows.Forms.NumericUpDown();
+            this.RbMailSendToPlayer = new System.Windows.Forms.RadioButton();
+            this.RbMailSendToAll = new System.Windows.Forms.RadioButton();
+            this.LblMailRecipientLabel = new System.Windows.Forms.Label();
+            this.TxtMailContent = new System.Windows.Forms.TextBox();
+            this.LblMailContentLabel = new System.Windows.Forms.Label();
+            this.TxtMailTitle = new System.Windows.Forms.TextBox();
+            this.LblMailTitleLabel = new System.Windows.Forms.Label();
+            this.TxtMailSender = new System.Windows.Forms.TextBox();
+            this.LblMailSenderLabel = new System.Windows.Forms.Label();
+            this.BtnAddMailItem = new System.Windows.Forms.Button();
+            this.BtnDeleteMailItem = new System.Windows.Forms.Button();
+            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -320,12 +322,12 @@ namespace GrasscutterTools.Forms
             ((System.ComponentModel.ISupportInitialize)(this.NUDUid)).BeginInit();
             this.TCMain.SuspendLayout();
             this.TPMail.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDMailRecipient)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDMailItemLevel)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDMailItemCount)).BeginInit();
             this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDMailRecipient)).BeginInit();
             this.SuspendLayout();
             // 
             // TxtCommand
@@ -2115,8 +2117,10 @@ namespace GrasscutterTools.Forms
             // 
             // TPMail
             // 
+            this.TPMail.Controls.Add(this.BtnAddMailItem);
+            this.TPMail.Controls.Add(this.BtnDeleteMailItem);
             this.TPMail.Controls.Add(this.tabControl1);
-            this.TPMail.Controls.Add(this.button1);
+            this.TPMail.Controls.Add(this.BtnSendMail);
             this.TPMail.Controls.Add(this.ListMailItems);
             this.TPMail.Controls.Add(this.LblMailItemsLabel);
             this.TPMail.Controls.Add(this.NUDMailRecipient);
@@ -2133,146 +2137,6 @@ namespace GrasscutterTools.Forms
             this.TPMail.Name = "TPMail";
             this.TPMail.UseVisualStyleBackColor = true;
             // 
-            // LblMailSenderLabel
-            // 
-            resources.ApplyResources(this.LblMailSenderLabel, "LblMailSenderLabel");
-            this.LblMailSenderLabel.Name = "LblMailSenderLabel";
-            // 
-            // TxtMailSender
-            // 
-            resources.ApplyResources(this.TxtMailSender, "TxtMailSender");
-            this.TxtMailSender.Name = "TxtMailSender";
-            // 
-            // LblMailTitleLabel
-            // 
-            resources.ApplyResources(this.LblMailTitleLabel, "LblMailTitleLabel");
-            this.LblMailTitleLabel.Name = "LblMailTitleLabel";
-            // 
-            // TxtMailTitle
-            // 
-            resources.ApplyResources(this.TxtMailTitle, "TxtMailTitle");
-            this.TxtMailTitle.Name = "TxtMailTitle";
-            // 
-            // LblMailContentLabel
-            // 
-            resources.ApplyResources(this.LblMailContentLabel, "LblMailContentLabel");
-            this.LblMailContentLabel.Name = "LblMailContentLabel";
-            // 
-            // TxtMailContent
-            // 
-            resources.ApplyResources(this.TxtMailContent, "TxtMailContent");
-            this.TxtMailContent.Name = "TxtMailContent";
-            // 
-            // LblMailRecipientLabel
-            // 
-            resources.ApplyResources(this.LblMailRecipientLabel, "LblMailRecipientLabel");
-            this.LblMailRecipientLabel.Name = "LblMailRecipientLabel";
-            // 
-            // RbMailSendToAll
-            // 
-            resources.ApplyResources(this.RbMailSendToAll, "RbMailSendToAll");
-            this.RbMailSendToAll.Name = "RbMailSendToAll";
-            this.RbMailSendToAll.TabStop = true;
-            this.RbMailSendToAll.UseVisualStyleBackColor = true;
-            // 
-            // RbMailSendToPlayer
-            // 
-            resources.ApplyResources(this.RbMailSendToPlayer, "RbMailSendToPlayer");
-            this.RbMailSendToPlayer.Name = "RbMailSendToPlayer";
-            this.RbMailSendToPlayer.TabStop = true;
-            this.RbMailSendToPlayer.UseVisualStyleBackColor = true;
-            // 
-            // NUDMailRecipient
-            // 
-            resources.ApplyResources(this.NUDMailRecipient, "NUDMailRecipient");
-            this.NUDMailRecipient.Name = "NUDMailRecipient";
-            // 
-            // LblMailItemsLabel
-            // 
-            resources.ApplyResources(this.LblMailItemsLabel, "LblMailItemsLabel");
-            this.LblMailItemsLabel.Name = "LblMailItemsLabel";
-            // 
-            // ListMailItems
-            // 
-            resources.ApplyResources(this.ListMailItems, "ListMailItems");
-            this.ListMailItems.FormattingEnabled = true;
-            this.ListMailItems.Name = "ListMailItems";
-            // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // ListMailSelectableItems
-            // 
-            resources.ApplyResources(this.ListMailSelectableItems, "ListMailSelectableItems");
-            this.ListMailSelectableItems.FormattingEnabled = true;
-            this.ListMailSelectableItems.Name = "ListMailSelectableItems";
-            // 
-            // TxtMailSelectableItemFilter
-            // 
-            resources.ApplyResources(this.TxtMailSelectableItemFilter, "TxtMailSelectableItemFilter");
-            this.TxtMailSelectableItemFilter.Name = "TxtMailSelectableItemFilter";
-            // 
-            // TxtBanReason
-            // 
-            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
-            this.TxtBanReason.Maximum = 0F;
-            this.TxtBanReason.Minimum = 0F;
-            this.TxtBanReason.Name = "TxtBanReason";
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            // 
-            // numericUpDown1
-            // 
-            resources.ApplyResources(this.numericUpDown1, "numericUpDown1");
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            1000000,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
-            // numericUpDown2
-            // 
-            resources.ApplyResources(this.numericUpDown2, "numericUpDown2");
-            this.numericUpDown2.Maximum = new decimal(new int[] {
-            90,
-            0,
-            0,
-            0});
-            this.numericUpDown2.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
             // tabControl1
             // 
             resources.ApplyResources(this.tabControl1, "tabControl1");
@@ -2284,41 +2148,200 @@ namespace GrasscutterTools.Forms
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.TxtMailSelectableItemFilter);
-            this.tabPage1.Controls.Add(this.numericUpDown2);
+            this.tabPage1.Controls.Add(this.NUDMailItemLevel);
             this.tabPage1.Controls.Add(this.ListMailSelectableItems);
-            this.tabPage1.Controls.Add(this.label2);
-            this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Controls.Add(this.numericUpDown1);
+            this.tabPage1.Controls.Add(this.LblMailItemLevel);
+            this.tabPage1.Controls.Add(this.LblMailItemCount);
+            this.tabPage1.Controls.Add(this.NUDMailItemCount);
             resources.ApplyResources(this.tabPage1, "tabPage1");
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // TxtMailSelectableItemFilter
+            // 
+            resources.ApplyResources(this.TxtMailSelectableItemFilter, "TxtMailSelectableItemFilter");
+            this.TxtMailSelectableItemFilter.Name = "TxtMailSelectableItemFilter";
+            this.TxtMailSelectableItemFilter.TextChanged += new System.EventHandler(this.TxtMailSelectableItemFilter_TextChanged);
+            // 
+            // NUDMailItemLevel
+            // 
+            resources.ApplyResources(this.NUDMailItemLevel, "NUDMailItemLevel");
+            this.NUDMailItemLevel.Maximum = new decimal(new int[] {
+            90,
+            0,
+            0,
+            0});
+            this.NUDMailItemLevel.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NUDMailItemLevel.Name = "NUDMailItemLevel";
+            this.NUDMailItemLevel.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // ListMailSelectableItems
+            // 
+            resources.ApplyResources(this.ListMailSelectableItems, "ListMailSelectableItems");
+            this.ListMailSelectableItems.FormattingEnabled = true;
+            this.ListMailSelectableItems.Name = "ListMailSelectableItems";
+            // 
+            // LblMailItemLevel
+            // 
+            resources.ApplyResources(this.LblMailItemLevel, "LblMailItemLevel");
+            this.LblMailItemLevel.Name = "LblMailItemLevel";
+            // 
+            // LblMailItemCount
+            // 
+            resources.ApplyResources(this.LblMailItemCount, "LblMailItemCount");
+            this.LblMailItemCount.Name = "LblMailItemCount";
+            // 
+            // NUDMailItemCount
+            // 
+            resources.ApplyResources(this.NUDMailItemCount, "NUDMailItemCount");
+            this.NUDMailItemCount.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
+            this.NUDMailItemCount.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.NUDMailItemCount.Name = "NUDMailItemCount";
+            this.NUDMailItemCount.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.button3);
-            this.tabPage2.Controls.Add(this.button2);
+            this.tabPage2.Controls.Add(this.BtnClearMail);
+            this.tabPage2.Controls.Add(this.BtnRemoveMail);
             this.tabPage2.Controls.Add(this.ListMailList);
             resources.ApplyResources(this.tabPage2, "tabPage2");
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // BtnClearMail
+            // 
+            resources.ApplyResources(this.BtnClearMail, "BtnClearMail");
+            this.BtnClearMail.Name = "BtnClearMail";
+            this.BtnClearMail.UseVisualStyleBackColor = true;
+            this.BtnClearMail.Click += new System.EventHandler(this.BtnClearMail_Click);
+            // 
+            // BtnRemoveMail
+            // 
+            resources.ApplyResources(this.BtnRemoveMail, "BtnRemoveMail");
+            this.BtnRemoveMail.Name = "BtnRemoveMail";
+            this.BtnRemoveMail.UseVisualStyleBackColor = true;
+            this.BtnRemoveMail.Click += new System.EventHandler(this.BtnRemoveMail_Click);
             // 
             // ListMailList
             // 
             resources.ApplyResources(this.ListMailList, "ListMailList");
             this.ListMailList.FormattingEnabled = true;
             this.ListMailList.Name = "ListMailList";
+            this.ListMailList.SelectedIndexChanged += new System.EventHandler(this.ListMailList_SelectedIndexChanged);
             // 
-            // button2
+            // BtnSendMail
             // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.BtnSendMail, "BtnSendMail");
+            this.BtnSendMail.Name = "BtnSendMail";
+            this.BtnSendMail.UseVisualStyleBackColor = true;
+            this.BtnSendMail.Click += new System.EventHandler(this.BtnSendMail_Click);
             // 
-            // button3
+            // ListMailItems
             // 
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.ListMailItems, "ListMailItems");
+            this.ListMailItems.FormattingEnabled = true;
+            this.ListMailItems.Name = "ListMailItems";
+            // 
+            // LblMailItemsLabel
+            // 
+            resources.ApplyResources(this.LblMailItemsLabel, "LblMailItemsLabel");
+            this.LblMailItemsLabel.Name = "LblMailItemsLabel";
+            // 
+            // NUDMailRecipient
+            // 
+            resources.ApplyResources(this.NUDMailRecipient, "NUDMailRecipient");
+            this.NUDMailRecipient.Name = "NUDMailRecipient";
+            // 
+            // RbMailSendToPlayer
+            // 
+            resources.ApplyResources(this.RbMailSendToPlayer, "RbMailSendToPlayer");
+            this.RbMailSendToPlayer.Name = "RbMailSendToPlayer";
+            this.RbMailSendToPlayer.UseVisualStyleBackColor = true;
+            // 
+            // RbMailSendToAll
+            // 
+            resources.ApplyResources(this.RbMailSendToAll, "RbMailSendToAll");
+            this.RbMailSendToAll.Checked = true;
+            this.RbMailSendToAll.Name = "RbMailSendToAll";
+            this.RbMailSendToAll.TabStop = true;
+            this.RbMailSendToAll.UseVisualStyleBackColor = true;
+            // 
+            // LblMailRecipientLabel
+            // 
+            resources.ApplyResources(this.LblMailRecipientLabel, "LblMailRecipientLabel");
+            this.LblMailRecipientLabel.Name = "LblMailRecipientLabel";
+            // 
+            // TxtMailContent
+            // 
+            resources.ApplyResources(this.TxtMailContent, "TxtMailContent");
+            this.TxtMailContent.Name = "TxtMailContent";
+            // 
+            // LblMailContentLabel
+            // 
+            resources.ApplyResources(this.LblMailContentLabel, "LblMailContentLabel");
+            this.LblMailContentLabel.Name = "LblMailContentLabel";
+            // 
+            // TxtMailTitle
+            // 
+            resources.ApplyResources(this.TxtMailTitle, "TxtMailTitle");
+            this.TxtMailTitle.Name = "TxtMailTitle";
+            // 
+            // LblMailTitleLabel
+            // 
+            resources.ApplyResources(this.LblMailTitleLabel, "LblMailTitleLabel");
+            this.LblMailTitleLabel.Name = "LblMailTitleLabel";
+            // 
+            // TxtMailSender
+            // 
+            resources.ApplyResources(this.TxtMailSender, "TxtMailSender");
+            this.TxtMailSender.Name = "TxtMailSender";
+            // 
+            // LblMailSenderLabel
+            // 
+            resources.ApplyResources(this.LblMailSenderLabel, "LblMailSenderLabel");
+            this.LblMailSenderLabel.Name = "LblMailSenderLabel";
+            // 
+            // BtnAddMailItem
+            // 
+            resources.ApplyResources(this.BtnAddMailItem, "BtnAddMailItem");
+            this.BtnAddMailItem.Name = "BtnAddMailItem";
+            this.BtnAddMailItem.UseVisualStyleBackColor = true;
+            this.BtnAddMailItem.Click += new System.EventHandler(this.BtnAddMailItem_Click);
+            // 
+            // BtnDeleteMailItem
+            // 
+            resources.ApplyResources(this.BtnDeleteMailItem, "BtnDeleteMailItem");
+            this.BtnDeleteMailItem.Name = "BtnDeleteMailItem";
+            this.BtnDeleteMailItem.UseVisualStyleBackColor = true;
+            this.BtnDeleteMailItem.Click += new System.EventHandler(this.BtnDeleteMailItem_Click);
+            // 
+            // TxtBanReason
+            // 
+            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
+            this.TxtBanReason.Maximum = 0F;
+            this.TxtBanReason.Minimum = 0F;
+            this.TxtBanReason.Name = "TxtBanReason";
             // 
             // FormMain
             // 
@@ -2416,13 +2439,13 @@ namespace GrasscutterTools.Forms
             this.TCMain.ResumeLayout(false);
             this.TPMail.ResumeLayout(false);
             this.TPMail.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDMailRecipient)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDMailItemLevel)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDMailItemCount)).EndInit();
             this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.NUDMailRecipient)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2648,18 +2671,20 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.RadioButton RbMailSendToPlayer;
         private System.Windows.Forms.RadioButton RbMailSendToAll;
         private System.Windows.Forms.Label LblMailRecipientLabel;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnSendMail;
         private System.Windows.Forms.TextBox TxtMailSelectableItemFilter;
         private System.Windows.Forms.ListBox ListMailSelectableItems;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.NumericUpDown NUDMailItemLevel;
+        private System.Windows.Forms.Label LblMailItemLevel;
+        private System.Windows.Forms.NumericUpDown NUDMailItemCount;
+        private System.Windows.Forms.Label LblMailItemCount;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.ListBox ListMailList;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button BtnClearMail;
+        private System.Windows.Forms.Button BtnRemoveMail;
+        private System.Windows.Forms.Button BtnAddMailItem;
+        private System.Windows.Forms.Button BtnDeleteMailItem;
     }
 }

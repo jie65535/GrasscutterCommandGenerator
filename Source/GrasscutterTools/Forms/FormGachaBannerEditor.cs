@@ -189,7 +189,7 @@ namespace GrasscutterTools.Forms
                 else
                 {
                     var item = list.Items[i] as string;
-                    var id = int.Parse(item.Substring(0, item.IndexOf(':')));
+                    var id = ItemMap.ToId(item);
                     list.SetItemChecked(i, Array.IndexOf(checkedIds, id) != -1);
                 }
             }
@@ -217,7 +217,7 @@ namespace GrasscutterTools.Forms
             {
                 StringBuilder builder = new StringBuilder();
                 foreach (string item in list.CheckedItems)
-                    builder.Append(item.Substring(0, item.IndexOf(':')))
+                    builder.Append(ItemMap.ToId(item))
                         .Append(", ");
                 txt.Text = builder.ToString(0, builder.Length - 2);
             }

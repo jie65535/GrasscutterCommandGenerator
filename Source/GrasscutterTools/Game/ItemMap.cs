@@ -69,5 +69,7 @@ namespace GrasscutterTools.Game
         public string[] Names { get; }
 
         public string[] Lines { get; }
+
+        public static int ToId(string line) => int.Parse(line.Substring(0, line.IndexOf(':')).Trim());
     }
 }

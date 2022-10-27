@@ -8193,8 +8193,245 @@
   <data name="TCMain.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="BtnAddMailItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAddMailItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 121</value>
+  </data>
+  <data name="BtnAddMailItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnAddMailItem.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="BtnAddMailItem.Text" xml:space="preserve">
+    <value>+ 添加</value>
+  </data>
+  <data name="&gt;&gt;BtnAddMailItem.Name" xml:space="preserve">
+    <value>BtnAddMailItem</value>
+  </data>
+  <data name="&gt;&gt;BtnAddMailItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAddMailItem.Parent" xml:space="preserve">
+    <value>TPMail</value>
+  </data>
+  <data name="&gt;&gt;BtnAddMailItem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnDeleteMailItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnDeleteMailItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>329, 150</value>
+  </data>
+  <data name="BtnDeleteMailItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnDeleteMailItem.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="BtnDeleteMailItem.Text" xml:space="preserve">
+    <value>- 删除</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteMailItem.Name" xml:space="preserve">
+    <value>BtnDeleteMailItem</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteMailItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteMailItem.Parent" xml:space="preserve">
+    <value>TPMail</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteMailItem.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="tabControl1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="TxtMailSelectableItemFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="TxtMailSelectableItemFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="TxtMailSelectableItemFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 23</value>
+  </data>
+  <data name="TxtMailSelectableItemFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;TxtMailSelectableItemFilter.Name" xml:space="preserve">
+    <value>TxtMailSelectableItemFilter</value>
+  </data>
+  <data name="&gt;&gt;TxtMailSelectableItemFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtMailSelectableItemFilter.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;TxtMailSelectableItemFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NUDMailItemLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="NUDMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 179</value>
+  </data>
+  <data name="NUDMailItemLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="NUDMailItemLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemLevel.Name" xml:space="preserve">
+    <value>NUDMailItemLevel</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemLevel.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemLevel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListMailSelectableItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ListMailSelectableItems.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ListMailSelectableItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 26</value>
+  </data>
+  <data name="ListMailSelectableItems.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ListMailSelectableItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 140</value>
+  </data>
+  <data name="ListMailSelectableItems.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;ListMailSelectableItems.Name" xml:space="preserve">
+    <value>ListMailSelectableItems</value>
+  </data>
+  <data name="&gt;&gt;ListMailSelectableItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListMailSelectableItems.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;ListMailSelectableItems.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblMailItemLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="LblMailItemLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblMailItemLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 181</value>
+  </data>
+  <data name="LblMailItemLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblMailItemLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="LblMailItemLevel.Text" xml:space="preserve">
+    <value>等级：</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemLevel.Name" xml:space="preserve">
+    <value>LblMailItemLevel</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemLevel.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemLevel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblMailItemCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="LblMailItemCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblMailItemCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 181</value>
+  </data>
+  <data name="LblMailItemCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblMailItemCount.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="LblMailItemCount.Text" xml:space="preserve">
+    <value>数量：</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemCount.Name" xml:space="preserve">
+    <value>LblMailItemCount</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemCount.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemCount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NUDMailItemCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="NUDMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 179</value>
+  </data>
+  <data name="NUDMailItemCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="NUDMailItemCount.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemCount.Name" xml:space="preserve">
+    <value>NUDMailItemCount</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemCount.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemCount.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 204</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>物品列表</value>
   </data>
   <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
     <value>tabPage1</value>
@@ -8207,6 +8444,105 @@
   </data>
   <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="BtnClearMail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnClearMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 177</value>
+  </data>
+  <data name="BtnClearMail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnClearMail.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="BtnClearMail.Text" xml:space="preserve">
+    <value>× 清空</value>
+  </data>
+  <data name="&gt;&gt;BtnClearMail.Name" xml:space="preserve">
+    <value>BtnClearMail</value>
+  </data>
+  <data name="&gt;&gt;BtnClearMail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnClearMail.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;BtnClearMail.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnRemoveMail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnRemoveMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 178</value>
+  </data>
+  <data name="BtnRemoveMail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnRemoveMail.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="BtnRemoveMail.Text" xml:space="preserve">
+    <value>- 删除</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveMail.Name" xml:space="preserve">
+    <value>BtnRemoveMail</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveMail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveMail.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveMail.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListMailList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ListMailList.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ListMailList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ListMailList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ListMailList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 174</value>
+  </data>
+  <data name="ListMailList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ListMailList.Name" xml:space="preserve">
+    <value>ListMailList</value>
+  </data>
+  <data name="&gt;&gt;ListMailList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListMailList.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;ListMailList.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 204</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>邮件列表</value>
   </data>
   <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
     <value>tabPage2</value>
@@ -8227,7 +8563,7 @@
     <value>236, 234</value>
   </data>
   <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+    <value>11</value>
   </data>
   <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
     <value>tabControl1</value>
@@ -8239,37 +8575,37 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
-  <data name="button1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="BtnSendMail.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="BtnSendMail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="BtnSendMail.Location" type="System.Drawing.Point, System.Drawing">
     <value>329, 219</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="BtnSendMail.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
   </data>
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+  <data name="BtnSendMail.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
+  <data name="BtnSendMail.Text" xml:space="preserve">
     <value>发送</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;BtnSendMail.Name" xml:space="preserve">
+    <value>BtnSendMail</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;BtnSendMail.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BtnSendMail.Parent" xml:space="preserve">
     <value>TPMail</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;BtnSendMail.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="ListMailItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
@@ -8284,7 +8620,7 @@
     <value>250, 123</value>
   </data>
   <data name="ListMailItems.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;ListMailItems.Name" xml:space="preserve">
     <value>ListMailItems</value>
@@ -8296,7 +8632,7 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;ListMailItems.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="LblMailItemsLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -8326,7 +8662,7 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;LblMailItemsLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="NUDMailRecipient.Location" type="System.Drawing.Point, System.Drawing">
     <value>202, 35</value>
@@ -8335,7 +8671,7 @@
     <value>121, 23</value>
   </data>
   <data name="NUDMailRecipient.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;NUDMailRecipient.Name" xml:space="preserve">
     <value>NUDMailRecipient</value>
@@ -8347,7 +8683,7 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;NUDMailRecipient.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="RbMailSendToPlayer.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -8362,7 +8698,7 @@
     <value>50, 21</value>
   </data>
   <data name="RbMailSendToPlayer.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>3</value>
   </data>
   <data name="RbMailSendToPlayer.Text" xml:space="preserve">
     <value>玩家</value>
@@ -8377,7 +8713,7 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;RbMailSendToPlayer.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="RbMailSendToAll.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -8392,7 +8728,7 @@
     <value>62, 21</value>
   </data>
   <data name="RbMailSendToAll.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>2</value>
   </data>
   <data name="RbMailSendToAll.Text" xml:space="preserve">
     <value>所有人</value>
@@ -8407,7 +8743,7 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;RbMailSendToAll.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="LblMailRecipientLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -8437,7 +8773,7 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;LblMailRecipientLabel.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="TxtMailContent.Location" type="System.Drawing.Point, System.Drawing">
     <value>73, 93</value>
@@ -8446,7 +8782,7 @@
     <value>250, 23</value>
   </data>
   <data name="TxtMailContent.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;TxtMailContent.Name" xml:space="preserve">
     <value>TxtMailContent</value>
@@ -8458,7 +8794,7 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;TxtMailContent.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="LblMailContentLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -8488,7 +8824,7 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;LblMailContentLabel.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="TxtMailTitle.Location" type="System.Drawing.Point, System.Drawing">
     <value>73, 64</value>
@@ -8497,7 +8833,7 @@
     <value>250, 23</value>
   </data>
   <data name="TxtMailTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;TxtMailTitle.Name" xml:space="preserve">
     <value>TxtMailTitle</value>
@@ -8509,7 +8845,7 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;TxtMailTitle.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="LblMailTitleLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -8539,7 +8875,7 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;LblMailTitleLabel.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="TxtMailSender.Location" type="System.Drawing.Point, System.Drawing">
     <value>73, 6</value>
@@ -8560,7 +8896,7 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;TxtMailSender.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="LblMailSenderLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -8590,7 +8926,7 @@
     <value>TPMail</value>
   </data>
   <data name="&gt;&gt;LblMailSenderLabel.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="TPMail.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -8643,60 +8979,6 @@
   <data name="&gt;&gt;TCMain.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="ListMailSelectableItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="ListMailSelectableItems.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="ListMailSelectableItems.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 26</value>
-  </data>
-  <data name="ListMailSelectableItems.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="ListMailSelectableItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 140</value>
-  </data>
-  <data name="ListMailSelectableItems.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="&gt;&gt;ListMailSelectableItems.Name" xml:space="preserve">
-    <value>ListMailSelectableItems</value>
-  </data>
-  <data name="&gt;&gt;ListMailSelectableItems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListMailSelectableItems.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;ListMailSelectableItems.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="TxtMailSelectableItemFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="TxtMailSelectableItemFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="TxtMailSelectableItemFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 23</value>
-  </data>
-  <data name="TxtMailSelectableItemFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;TxtMailSelectableItemFilter.Name" xml:space="preserve">
-    <value>TxtMailSelectableItemFilter</value>
-  </data>
-  <data name="&gt;&gt;TxtMailSelectableItemFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtMailSelectableItemFilter.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;TxtMailSelectableItemFilter.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <data name="TxtBanReason.Location" type="System.Drawing.Point, System.Drawing">
     <value>250, 22</value>
   </data>
@@ -8721,354 +9003,6 @@
   <data name="&gt;&gt;TxtBanReason.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 177</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>数量：</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="numericUpDown1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="numericUpDown1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 175</value>
-  </data>
-  <data name="numericUpDown1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 23</value>
-  </data>
-  <data name="numericUpDown1.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
-    <value>numericUpDown1</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 177</value>
-  </data>
-  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="label2.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="label2.Text" xml:space="preserve">
-    <value>等级：</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="numericUpDown2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="numericUpDown2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 175</value>
-  </data>
-  <data name="numericUpDown2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="numericUpDown2.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown2.Name" xml:space="preserve">
-    <value>numericUpDown2</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown2.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;TxtMailSelectableItemFilter.Name" xml:space="preserve">
-    <value>TxtMailSelectableItemFilter</value>
-  </data>
-  <data name="&gt;&gt;TxtMailSelectableItemFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtMailSelectableItemFilter.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;TxtMailSelectableItemFilter.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown2.Name" xml:space="preserve">
-    <value>numericUpDown2</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown2.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ListMailSelectableItems.Name" xml:space="preserve">
-    <value>ListMailSelectableItems</value>
-  </data>
-  <data name="&gt;&gt;ListMailSelectableItems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListMailSelectableItems.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;ListMailSelectableItems.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label2.Name" xml:space="preserve">
-    <value>label2</value>
-  </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Name" xml:space="preserve">
-    <value>numericUpDown1</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.Parent" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;numericUpDown1.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 204</value>
-  </data>
-  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>物品列表</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
-    <value>tabPage1</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ListMailList.Name" xml:space="preserve">
-    <value>ListMailList</value>
-  </data>
-  <data name="&gt;&gt;ListMailList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListMailList.Parent" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;ListMailList.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 204</value>
-  </data>
-  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>邮件列表</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
-    <value>tabControl1</value>
-  </data>
-  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ListMailList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="ListMailList.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="ListMailList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ListMailList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="ListMailList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 174</value>
-  </data>
-  <data name="ListMailList.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ListMailList.Name" xml:space="preserve">
-    <value>ListMailList</value>
-  </data>
-  <data name="&gt;&gt;ListMailList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListMailList.Parent" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;ListMailList.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 178</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>- 删除</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 177</value>
-  </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>× 清空</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>tabPage2</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -9080,6 +9014,9 @@
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>

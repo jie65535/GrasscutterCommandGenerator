@@ -29,6 +29,7 @@ using System.Windows.Forms;
 
 using GrasscutterTools.DispatchServer;
 using GrasscutterTools.Game;
+using GrasscutterTools.Game.Mail;
 using GrasscutterTools.GOOD;
 using GrasscutterTools.OpenCommand;
 using GrasscutterTools.Properties;
@@ -78,6 +79,7 @@ namespace GrasscutterTools.Forms
             InitStatList();
             InitPermList();
             InitQuestList();
+            InitMailPage();
 
             ChangeTPArtifact();
         }
@@ -122,6 +124,9 @@ namespace GrasscutterTools.Forms
 
                 // 初始化开放命令
                 InitOpenCommand();
+
+                // 初始化邮件列表
+                InitMailList();
             }
             catch (Exception ex)
             {
@@ -136,11 +141,15 @@ namespace GrasscutterTools.Forms
         {
             try
             {
-                Settings.Default.AutoCopy  = ChkAutoCopy.Checked;
+                Settings.Default.AutoCopy = ChkAutoCopy.Checked;
+
+                // 保存自定义命令
                 SaveCustomCommands();
-                SaveGiveItemRecord();
-                SaveSpawnRecord();
+
+                // 保存开放命令设置
                 SaveOpenCommand();
+
+                // 保存默认设置
                 Settings.Default.Save();
             }
             catch (Exception ex)
@@ -688,15 +697,15 @@ namespace GrasscutterTools.Forms
             else
             {
                 var t = CmbMainAttribution.SelectedItem as string;
-                var mainAttr = t.Substring(0, t.IndexOf(':')).Trim();
+                var mainAttr = ItemMap.ToId(t);
 
                 var subAttrs = "";
                 if (ListSubAttributionChecked.Items.Count > 0)
                 {
-                    var subAttrDir = new Dictionary<string, int>(ListSubAttributionChecked.Items.Count);
+                    var subAttrDir = new Dictionary<int, int>(ListSubAttributionChecked.Items.Count);
                     foreach (string item in ListSubAttributionChecked.Items)
                     {
-                        var subId = item.Substring(0, item.IndexOf(':')).Trim();
+                        var subId = ItemMap.ToId(item);
                         var times = int.Parse(item.Substring(item.LastIndexOf('x') + 1));
                         if (subAttrDir.ContainsKey(subId))
                             subAttrDir[subId] += times;
@@ -791,7 +800,7 @@ namespace GrasscutterTools.Forms
             var name = ListWeapons.SelectedItem as string;
             if (!string.IsNullOrEmpty(name))
             {
-                var id = name.Substring(0, name.IndexOf(':')).Trim();
+                var id = ItemMap.ToId(name);
                 if (Check(CommandVersion.V1_2_2))
                     SetCommand("/give", $"{id} x{NUDWeaponAmout.Value} lv{NUDWeaponLevel.Value} r{NUDWeaponRefinement.Value}");
                 else
@@ -837,7 +846,7 @@ namespace GrasscutterTools.Forms
             var name = ListGameItems.SelectedItem as string;
             if (!string.IsNullOrEmpty(name))
             {
-                var id = name.Substring(0, name.IndexOf(':')).Trim();
+                var id = ItemMap.ToId(name);
 
                 if (ChkDrop.Checked)
                 {
@@ -927,6 +936,7 @@ namespace GrasscutterTools.Forms
                 var cmd = new GameCommand($"{ListGameItems.SelectedItem} x{NUDGameItemAmout.Value}", TxtCommand.Text);
                 GiveItemCommands.Add(cmd);
                 ListGiveItemLogs.Items.Add(cmd.Name);
+                SaveGiveItemRecord();
             }
         }
 
@@ -939,6 +949,7 @@ namespace GrasscutterTools.Forms
             {
                 GiveItemCommands.RemoveAt(ListGiveItemLogs.SelectedIndex);
                 ListGiveItemLogs.Items.RemoveAt(ListGiveItemLogs.SelectedIndex);
+                SaveGiveItemRecord();
             }
         }
 
@@ -951,6 +962,7 @@ namespace GrasscutterTools.Forms
             {
                 GiveItemCommands.Clear();
                 ListGiveItemLogs.Items.Clear();
+                SaveGiveItemRecord();
             }
         }
 
@@ -1093,7 +1105,7 @@ namespace GrasscutterTools.Forms
             var selectedItem = ListEntity.SelectedItem as string;
             if (!string.IsNullOrEmpty(selectedItem))
             {
-                var id = selectedItem.Substring(0, selectedItem.IndexOf(':')).Trim();
+                var id = ItemMap.ToId(selectedItem);
                 if (Check(CommandVersion.V1_3_1))
                     SetCommand("/spawn", $"{id} x{NUDEntityAmout.Value} lv{NUDEntityLevel.Value}" + (ChkInfiniteHP.Checked ? " hp0" : ""));
                 else
@@ -1181,6 +1193,7 @@ namespace GrasscutterTools.Forms
                 var cmd = new GameCommand($"{ListEntity.SelectedItem} Lv{NUDEntityLevel.Value} x{NUDEntityAmout.Value}", TxtCommand.Text);
                 SpawnCommands.Add(cmd);
                 ListSpawnLogs.Items.Add(cmd.Name);
+                SaveSpawnRecord();
             }
         }
 
@@ -1193,6 +1206,7 @@ namespace GrasscutterTools.Forms
             {
                 SpawnCommands.RemoveAt(ListSpawnLogs.SelectedIndex);
                 ListSpawnLogs.Items.RemoveAt(ListSpawnLogs.SelectedIndex);
+                SaveSpawnRecord();
             }
         }
 
@@ -1205,6 +1219,7 @@ namespace GrasscutterTools.Forms
             {
                 SpawnCommands.Clear();
                 ListSpawnLogs.Items.Clear();
+                SaveSpawnRecord();
             }
         }
 
@@ -1248,7 +1263,7 @@ namespace GrasscutterTools.Forms
 
             // 可以直接弃用 scene 命令
             var name = ListScenes.SelectedItem as string;
-            var id = name.Substring(0, name.IndexOf(':')).Trim();
+            var id = ItemMap.ToId(name);
             if (Check(CommandVersion.V1_2_2))
             {
                 SetCommand("/scene", id.ToString());
@@ -1419,6 +1434,227 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 管理 Management -
+
+        #region - 邮件 Mail -
+
+        /// <summary>
+        /// 初始化邮件页面
+        /// </summary>
+        private void InitMailPage()
+        {
+            TxtMailSender.Text = Settings.Default.DefaultMailSender;
+            LoadMailSelectableItems();
+        }
+
+        /// <summary>
+        /// 点击发送邮件时触发
+        /// </summary>
+        private void BtnSendMail_Click(object sender, EventArgs e)
+        {
+            var mail = new Mail
+            {
+                Title = TxtMailTitle.Text.Trim(),
+                Sender = TxtMailSender.Text.Trim(),
+                Content = TxtMailContent.Text.Trim(),
+                Recipient = RbMailSendToAll.Checked ? 0 : (int)NUDMailRecipient.Value,
+                ItemList = new List<MailItem>(MailItems),
+                SendTime = DateTime.Now,
+            };
+
+            if (mail.Title == "" || mail.Sender == "" || mail.Content == "")
+            {
+                MessageBox.Show("输入不能为空！", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            var cmd = $"/sendMail {(mail.SendToAll ? "all" : mail.Recipient.ToString())} |" +
+                $"/sendMail {mail.Title} |" +
+                $"/sendMail {mail.Content} |" +
+                $"/sendMail {mail.Sender} |";
+            foreach (var item in mail.ItemList)
+                cmd += $"/sendMail {item.ItemId}  {item.ItemCount} {item.ItemLevel} |";
+            cmd += "/sendMail finish";
+
+            SetCommand(cmd);
+            AddMailToList(mail);
+        }
+
+        /// <summary>
+        /// 展示邮件
+        /// </summary>
+        /// <param name="mail"></param>
+        private void ShowMail(Mail mail)
+        {
+            TxtMailTitle.Text = mail.Title;
+            TxtMailSender.Text = mail.Sender;
+            TxtMailContent.Text = mail.Content;
+            NUDMailRecipient.Value = mail.Recipient;
+            RbMailSendToAll.Checked = mail.SendToAll;
+            RbMailSendToPlayer.Checked = !mail.SendToAll;
+            ShowMailItems(mail.ItemList);
+        }
+
+
+        #region -- 邮件附件列表 Mail items --
+
+        /// <summary>
+        /// 当前邮件附件列表
+        /// </summary>
+        private readonly List<MailItem> MailItems = new List<MailItem>();
+
+        /// <summary>
+        /// 展示邮件附件列表
+        /// </summary>
+        /// <param name="items"></param>
+        private void ShowMailItems(List<MailItem> items)
+        {
+            MailItems.Clear();
+            MailItems.AddRange(items);
+            ListMailItems.BeginUpdate();
+            ListMailItems.Items.Clear();
+            ListMailItems.Items.AddRange(items.Select(it => it.ToString()).ToArray());
+            ListMailItems.EndUpdate();
+        }
+
+        /// <summary>
+        /// 点击添加邮件附件项时触发
+        /// </summary>
+        private void BtnAddMailItem_Click(object sender, EventArgs e)
+        {
+            if (ListMailSelectableItems.SelectedIndex == -1)
+                return;
+            var item = ListMailSelectableItems.SelectedItem as string;
+            var itemId = ItemMap.ToId(item);
+            var mailItem = new MailItem
+            {
+                ItemId = itemId,
+                ItemCount = (int)NUDMailItemCount.Value,
+                ItemLevel = (int)NUDMailItemLevel.Value,
+            };
+            MailItems.Add(mailItem);
+            ListMailItems.Items.Add(mailItem.ToString());
+        }
+
+        /// <summary>
+        /// 点击删除邮件附件项时触发
+        /// </summary>
+        private void BtnDeleteMailItem_Click(object sender, EventArgs e)
+        {
+            if (ListMailItems.SelectedIndex == -1) return;
+
+            MailItems.RemoveAt(ListMailItems.SelectedIndex);
+            ListMailItems.Items.RemoveAt(ListMailItems.SelectedIndex);
+        }
+
+        #endregion
+
+        #region -- 邮件附件可选列表 Mail item selectable list --
+
+        /// <summary>
+        /// 加载附件可选项列表
+        /// </summary>
+        private void LoadMailSelectableItems()
+        {
+            ListMailSelectableItems.Items.Clear();
+            ListMailSelectableItems.Items.AddRange(GameData.Items.Lines);
+        }
+
+        /// <summary>
+        /// 邮件页面物品列表过滤器文本改变时触发
+        /// </summary>
+        private void TxtMailSelectableItemFilter_TextChanged(object sender, EventArgs e)
+        {
+            UIUtil.ListBoxFilter(ListMailSelectableItems, GameData.Items.Lines, TxtMailSelectableItemFilter.Text);
+        }
+
+        #endregion
+
+        #region -- 邮件列表 Mail list --
+
+        /// <summary>
+        /// 获取物品记录文件路径
+        /// </summary>
+        private readonly string MailListPath = Path.Combine(Application.LocalUserAppDataPath, "MailList.json");
+
+        /// <summary>
+        /// 邮件列表
+        /// </summary>
+        private List<Mail> MailList = new List<Mail>();
+
+        /// <summary>
+        /// 初始化邮件列表
+        /// </summary>
+        private void InitMailList()
+        {
+            if (File.Exists(MailListPath))
+            {
+                MailList = JsonConvert.DeserializeObject<List<Mail>>(File.ReadAllText(MailListPath));
+                ListMailList.Items.AddRange(MailList.Select(it => it.ToString()).ToArray());
+            }
+            else
+            {
+                MailList = new List<Mail>();
+            }
+        }
+
+        /// <summary>
+        /// 保存邮件列表
+        /// </summary>
+        private void SaveMailList()
+        {
+            File.WriteAllText(MailListPath, JsonConvert.SerializeObject(MailList));
+        }
+
+        /// <summary>
+        /// 添加邮件到列表
+        /// </summary>
+        /// <param name="mail">邮件</param>
+        private void AddMailToList(Mail mail)
+        {
+            MailList.Add(mail);
+            ListMailList.Items.Add(mail.ToString());
+            SaveMailList();
+        }
+
+        /// <summary>
+        /// 邮件列表选中项改变时发生
+        /// </summary>
+        private void ListMailList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ListMailList.SelectedIndex == -1) return;
+            // 显示选中邮件
+            var mail = MailList[ListMailList.SelectedIndex];
+            ShowMail(mail);
+        }
+
+        /// <summary>
+        /// 点击删除邮件按钮时触发
+        /// </summary>
+        private void BtnRemoveMail_Click(object sender, EventArgs e)
+        {
+            if (ListMailList.SelectedIndex == -1) return;
+            MailList.RemoveAt(ListMailList.SelectedIndex);
+            ListMailList.Items.RemoveAt(ListMailList.SelectedIndex);
+            SaveMailList();
+        }
+
+        /// <summary>
+        /// 点击清空邮件列表按钮时触发
+        /// </summary>
+        private void BtnClearMail_Click(object sender, EventArgs e)
+        {
+            if (MailList.Count == 0) return;
+            if (MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                ListMailList.Items.Clear();
+                MailList.Clear();
+                SaveMailList();
+            }
+        }
+
+        #endregion
+
+        #endregion
 
         #region - 关于 About -
 
@@ -1988,7 +2224,11 @@ namespace GrasscutterTools.Forms
                                 if (GOODData.Avatars.TryGetValue(character.Name, out var character_id))
                                 {
                                     if (Check(CommandVersion.V1_4_1))
-                                        commands_list.Add($"/give {character_id} lv{character.Level} c{character.Constellation} sl{character.Talents}");
+                                    {
+                                        // 取最高级的技能等级
+                                        var skillLevel = Math.Max(Math.Max(character.Talents.Auto, character.Talents.Skill), character.Talents.Burst);
+                                        commands_list.Add($"/give {character_id} lv{character.Level} c{character.Constellation} sl{skillLevel}");
+                                    }
                                     else
                                         commands_list.Add($"/give {character_id} lv{character.Level} c{character.Constellation}");
                                 }
@@ -2140,7 +2380,7 @@ namespace GrasscutterTools.Forms
             if (ListQuest.SelectedIndex == -1)
                 return;
             var item = ListQuest.SelectedItem as string;
-            var id = item.Substring(0, item.IndexOf(':')).Trim();
+            var id = ItemMap.ToId(item);
             SetCommand("/quest", $"{(sender as Button).Tag} {id}");
         }
 

@@ -45,5 +45,13 @@ namespace GrasscutterTools.Game.Mail
         /// 发送时间
         /// </summary>
         public DateTime SendTime { get; set; }
+
+        public override string ToString()
+        {
+            if (SendToAll)
+                return $"ToAll: [{Title}] {Content} | {SendTime}";
+            else
+                return $"To[{Recipient}]: [{Title}] {Content} | {SendTime}";
+        }
     }
 }
