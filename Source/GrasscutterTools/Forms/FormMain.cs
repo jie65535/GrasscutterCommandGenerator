@@ -2225,8 +2225,8 @@ namespace GrasscutterTools.Forms
                                 {
                                     if (Check(CommandVersion.V1_4_1))
                                     {
-                                        // 取最高级的技能等级
-                                        var skillLevel = Math.Max(Math.Max(character.Talents.Auto, character.Talents.Skill), character.Talents.Burst);
+                                        // 取最低的技能等级
+                                        var skillLevel = Math.Min(Math.Min(character.Talents.Auto, character.Talents.Skill), character.Talents.Burst);
                                         commands_list.Add($"/give {character_id} lv{character.Level} c{character.Constellation} sl{skillLevel}");
                                     }
                                     else
