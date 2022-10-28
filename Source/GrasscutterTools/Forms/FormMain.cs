@@ -149,6 +149,9 @@ namespace GrasscutterTools.Forms
                 // 保存开放命令设置
                 SaveOpenCommand();
 
+                // 保存邮件设置
+                SaveMailSettings();
+
                 // 保存默认设置
                 Settings.Default.Save();
             }
@@ -1056,6 +1059,71 @@ namespace GrasscutterTools.Forms
                 SetCommand("/give avatars", $"lv{level} c{constellation}");
         }
 
+        /// <summary>
+        /// 初始化数据列表
+        /// </summary>
+        private void InitStatList()
+        {
+            LblStatTip.Text = "";
+            SetStatsCommand.InitStats();
+            CmbStat.Items.Clear();
+            CmbStat.Items.AddRange(SetStatsCommand.Stats.Select(s => s.Name).ToArray());
+        }
+
+        /// <summary>
+        /// 数据页面输入改变时触发
+        /// </summary>
+        private void SetStatsInputChanged(object sender, EventArgs e)
+        {
+            if (CmbStat.SelectedIndex < 0)
+                return;
+            else
+                BtnLockStat.Enabled = BtnUnlockStat.Enabled = true;
+
+            var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
+            LblStatPercent.Visible = stat.Percent;
+            LblStatTip.Text = stat.Tip;
+
+            SetCommand("/setstats", $"{stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
+        }
+
+        /// <summary>
+        /// 点击锁定按钮时触发
+        /// </summary>
+        private void BtnLockStat_Click(object sender, EventArgs e)
+        {
+            var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
+            SetCommand("/setstats", $"lock {stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
+        }
+
+        /// <summary>
+        /// 点击解锁按钮时触发
+        /// </summary>
+        private void BtnUnlockStat_Click(object sender, EventArgs e)
+        {
+            var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
+            SetCommand("/setstats", $"unlock {stat.ArgName}");
+        }
+
+        /// <summary>
+        /// 点击设置技能按钮时触发
+        /// </summary>
+        private void LnkSetTalentClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            SetCommand("/talent", $"{(sender as LinkLabel).Tag} {NUDTalentLevel.Value}");
+        }
+
+        /// <summary>
+        /// 设置命座链接标签点击时触发
+        /// </summary>
+        private void LnkSetConst_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            if (NUDSetConstellation.Value >= 0)
+                SetCommand("/setConst", $"{NUDSetConstellation.Value}" + (sender == LnkSetAllConst ? " all" : string.Empty));
+            else
+                SetCommand("/resetConst", (sender == LnkSetAllConst ? "all" : string.Empty));
+        }
+
         #endregion - 角色 Avatars -
 
         #region - 生成 Spawns -
@@ -1305,64 +1373,6 @@ namespace GrasscutterTools.Forms
 
         #endregion - 场景 Scenes -
 
-        #region - 数据 Stats -
-
-        /// <summary>
-        /// 初始化数据列表
-        /// </summary>
-        private void InitStatList()
-        {
-            LblStatTip.Text = "";
-            SetStatsCommand.InitStats();
-            CmbStat.Items.Clear();
-            CmbStat.Items.AddRange(SetStatsCommand.Stats.Select(s => s.Name).ToArray());
-        }
-
-        /// <summary>
-        /// 数据页面输入改变时触发
-        /// </summary>
-        private void SetStatsInputChanged(object sender, EventArgs e)
-        {
-            if (CmbStat.SelectedIndex < 0)
-                return;
-            else
-                BtnLockStat.Enabled = BtnUnlockStat.Enabled = true;
-
-            var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
-            LblStatPercent.Visible = stat.Percent;
-            LblStatTip.Text = stat.Tip;
-
-            SetCommand("/setstats", $"{stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
-        }
-
-        /// <summary>
-        /// 点击锁定按钮时触发
-        /// </summary>
-        private void BtnLockStat_Click(object sender, EventArgs e)
-        {
-            var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
-            SetCommand("/setstats", $"lock {stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
-        }
-
-        /// <summary>
-        /// 点击解锁按钮时触发
-        /// </summary>
-        private void BtnUnlockStat_Click(object sender, EventArgs e)
-        {
-            var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
-            SetCommand("/setstats", $"unlock {stat.ArgName}");
-        }
-
-        /// <summary>
-        /// 点击设置技能按钮时触发
-        /// </summary>
-        private void LnkSetTalentClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            SetCommand("/talent", $"{(sender as LinkLabel).Tag} {NUDTalentLevel.Value}");
-        }
-
-        #endregion - 数据 Stats -
-
         #region - 管理 Management -
 
         /// <summary>
@@ -1444,6 +1454,14 @@ namespace GrasscutterTools.Forms
         {
             TxtMailSender.Text = Settings.Default.DefaultMailSender;
             LoadMailSelectableItems();
+        }
+
+        /// <summary>
+        /// 保存邮件设置
+        /// </summary>
+        private void SaveMailSettings()
+        {
+            Settings.Default.DefaultMailSender = TxtMailSender.Text;
         }
 
         /// <summary>
@@ -1558,13 +1576,23 @@ namespace GrasscutterTools.Forms
 
         #region -- 邮件附件可选列表 Mail item selectable list --
 
+        private string[] MailSelectableItems;
+        
         /// <summary>
         /// 加载附件可选项列表
         /// </summary>
         private void LoadMailSelectableItems()
         {
+            MailSelectableItems = new string[GameData.Items.Count + GameData.Weapons.Count + GameData.Artifacts.Count];
+            int i = 0;
+            GameData.Items.Lines.CopyTo(MailSelectableItems, i); i += GameData.Items.Count;
+            GameData.Weapons.Lines.CopyTo(MailSelectableItems, i); i += GameData.Weapons.Count;
+            GameData.Artifacts.Lines.CopyTo(MailSelectableItems, i); i += GameData.Artifacts.Count;
+
+            Array.Sort(MailSelectableItems, (a, b) => ItemMap.ToId(a) - ItemMap.ToId(b));
+
             ListMailSelectableItems.Items.Clear();
-            ListMailSelectableItems.Items.AddRange(GameData.Items.Lines);
+            ListMailSelectableItems.Items.AddRange(MailSelectableItems);
         }
 
         /// <summary>
@@ -1572,7 +1600,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void TxtMailSelectableItemFilter_TextChanged(object sender, EventArgs e)
         {
-            UIUtil.ListBoxFilter(ListMailSelectableItems, GameData.Items.Lines, TxtMailSelectableItemFilter.Text);
+            UIUtil.ListBoxFilter(ListMailSelectableItems, MailSelectableItems, TxtMailSelectableItemFilter.Text);
         }
 
         #endregion

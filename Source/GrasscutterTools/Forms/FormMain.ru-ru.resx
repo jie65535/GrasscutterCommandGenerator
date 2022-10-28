@@ -670,6 +670,24 @@
   <data name="TPAvatar.Text" xml:space="preserve">
     <value>Персонаж</value>
   </data>
+  <data name="GrpSetConstellation.Text" xml:space="preserve">
+    <value>Установить созвездие</value>
+  </data>
+  <data name="LnkSetAllConst.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 24</value>
+  </data>
+  <data name="LnkSetAllConst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 17</value>
+  </data>
+  <data name="LnkSetAllConst.Text" xml:space="preserve">
+    <value>все</value>
+  </data>
+  <data name="LnkSetConst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="LnkSetConst.Text" xml:space="preserve">
+    <value>текущий</value>
+  </data>
   <data name="GrpSetStats.Text" xml:space="preserve">
     <value>Статистика</value>
   </data>
@@ -726,12 +744,6 @@
   </data>
   <data name="NUDTalentLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 23</value>
-  </data>
-  <data name="LblStatsDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>316, 17</value>
-  </data>
-  <data name="LblStatsDescription.Text" xml:space="preserve">
-    <value>Установите текущие активные данные персонажа</value>
   </data>
   <data name="GrpGiveAvatar.Text" xml:space="preserve">
     <value>Дать Персонаж</value>
@@ -1147,22 +1159,13 @@
     <value>Предметы</value>
   </data>
   <data name="NUDMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 178</value>
+    <value>172, 3</value>
   </data>
   <data name="NUDMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>53, 178</value>
-  </data>
-  <data name="LblMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 181</value>
-  </data>
-  <data name="LblMailItemLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 17</value>
-  </data>
-  <data name="LblMailItemLevel.Text" xml:space="preserve">
-    <value>Уровень</value>
+    <value>49, 3</value>
   </data>
   <data name="LblMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 180</value>
+    <value>1, 5</value>
   </data>
   <data name="LblMailItemCount.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 17</value>
@@ -1170,11 +1173,20 @@
   <data name="LblMailItemCount.Text" xml:space="preserve">
     <value>Кол-во</value>
   </data>
+  <data name="LblMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>114, 6</value>
+  </data>
+  <data name="LblMailItemLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
+  </data>
+  <data name="LblMailItemLevel.Text" xml:space="preserve">
+    <value>Уровень</value>
+  </data>
   <data name="tabPage2.Text" xml:space="preserve">
     <value>Почтовый ящик</value>
   </data>
   <data name="BtnClearMail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 177</value>
+    <value>114, 5</value>
   </data>
   <data name="BtnClearMail.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -1183,7 +1195,7 @@
     <value>× Очистить</value>
   </data>
   <data name="BtnRemoveMail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 177</value>
+    <value>8, 5</value>
   </data>
   <data name="BtnRemoveMail.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>

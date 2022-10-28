@@ -194,6 +194,9 @@
   <data name="TPAbout.Text" xml:space="preserve">
     <value>關於</value>
   </data>
+  <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 102</value>
+  </data>
   <data name="LblSupportDescription.Text" xml:space="preserve">
     <value>割草機工具箱
 
@@ -296,6 +299,15 @@
   <data name="LblWeaponLevel.Text" xml:space="preserve">
     <value>等級</value>
   </data>
+  <data name="GrpSetConstellation.Text" xml:space="preserve">
+    <value>設置命座</value>
+  </data>
+  <data name="LnkSetAllConst.Text" xml:space="preserve">
+    <value>設置所有角色</value>
+  </data>
+  <data name="LnkSetConst.Text" xml:space="preserve">
+    <value>設置當前角色</value>
+  </data>
   <data name="GrpSetStats.Text" xml:space="preserve">
     <value>角色屬性</value>
   </data>
@@ -310,9 +322,6 @@
   </data>
   <data name="LnkTalentNormalATK.Text" xml:space="preserve">
     <value>普通攻擊</value>
-  </data>
-  <data name="LblStatsDescription.Text" xml:space="preserve">
-    <value>設置當前活躍角色數據</value>
   </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value>一鍵獲得所有角色</value>
@@ -436,35 +445,33 @@
   <data name="TPMail.Text" xml:space="preserve">
     <value>郵件</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblClearMailContent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="BtnDeleteMailItem.Text" xml:space="preserve">
     <value>- 刪除</value>
   </data>
   <data name="NUDMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 180</value>
+    <value>171, 4</value>
   </data>
   <data name="NUDMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 180</value>
-  </data>
-  <data name="LblMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 182</value>
-  </data>
-  <data name="LblMailItemLevel.Text" xml:space="preserve">
-    <value>等級：</value>
+    <value>47, 4</value>
   </data>
   <data name="LblMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 182</value>
+    <value>-3, 6</value>
   </data>
   <data name="LblMailItemCount.Text" xml:space="preserve">
     <value>數量：</value>
   </data>
+  <data name="LblMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 6</value>
+  </data>
+  <data name="LblMailItemLevel.Text" xml:space="preserve">
+    <value>等級：</value>
+  </data>
   <data name="tabPage2.Text" xml:space="preserve">
     <value>郵件列表</value>
-  </data>
-  <data name="BtnClearMail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 180</value>
-  </data>
-  <data name="BtnRemoveMail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 181</value>
   </data>
   <data name="BtnRemoveMail.Text" xml:space="preserve">
     <value>- 刪除</value>
