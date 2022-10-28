@@ -214,7 +214,11 @@
 是否查看更新？选择否将不再提醒该版本。</value>
   </data>
   <data name="OpenCommandHelp" xml:space="preserve">
-    <value>1. 填写正确的UID\n2. 向玩家发送验证码\n3. 输入正确的验证码\n4. 连接\n5. 享受</value>
+    <value>1. 填写正确的UID
+2. 向玩家发送验证码
+3. 输入正确的验证码
+4. 连接
+5. 享受</value>
   </data>
   <data name="PermissionCannotBeEmpty" xml:space="preserve">
     <value>要设置的权限不能为空！</value>

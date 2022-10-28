@@ -202,7 +202,11 @@
 是否查看更新？選擇否將不再提醒該版本。</value>
   </data>
   <data name="OpenCommandHelp" xml:space="preserve">
-    <value>1. 填寫正確的UID\n2. 向玩家發送驗證碼\n3. 輸入正確的驗證碼\n4. 連接\n5. 享受</value>
+    <value>1. 填寫正確的UID
+2. 向玩家發送驗證碼
+3. 輸入正確的驗證碼
+4. 連接
+5. 享受</value>
   </data>
   <data name="PermissionCannotBeEmpty" xml:space="preserve">
     <value>要設置的權限不能為空！</value>

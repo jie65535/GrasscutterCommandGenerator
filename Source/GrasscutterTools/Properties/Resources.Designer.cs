@@ -814,7 +814,11 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 1. 填写正确的UID\n2. 向玩家发送验证码\n3. 输入正确的验证码\n4. 连接\n5. 享受 的本地化字符串。
+        ///   查找类似 1. 填写正确的UID
+        ///2. 向玩家发送验证码
+        ///3. 输入正确的验证码
+        ///4. 连接
+        ///5. 享受 的本地化字符串。
         /// </summary>
         internal static string OpenCommandHelp {
             get {

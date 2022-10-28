@@ -208,7 +208,11 @@ Update info :
 Do you want to check for updates? Selecting No will no longer remind you of this version.</value>
   </data>
   <data name="OpenCommandHelp" xml:space="preserve">
-    <value>1. Fill in the correct UID\n2. Send verification code to player\n3. Enter the correct verification code\n4. Connection\n5. Enjoy</value>
+    <value>1. Fill in the correct UID
+2. Send verification code to player
+3. Enter the correct verification code
+4. Connection
+5. Enjoy</value>
   </data>
   <data name="PermissionCannotBeEmpty" xml:space="preserve">
     <value>Permission cannot be empty!</value>
