@@ -22,12 +22,17 @@
 
         public override string ToString()
         {
+            var name = GameData.Items[ItemId];
+            if (name == ItemMap.EmptyName)
+                name = GameData.Weapons[ItemId];
+            if (name == ItemMap.EmptyName)
+                name = GameData.Artifacts[ItemId];
             if (ItemLevel > 1)
-                return $"{ItemId}:{GameData.Items[ItemId]} x{ItemCount} lv{ItemLevel}";
+                return $"{ItemId}:{name} x{ItemCount} lv{ItemLevel}";
             else if (ItemCount > 1)
-                return $"{ItemId}:{GameData.Items[ItemId]} x{ItemCount}";
+                return $"{ItemId}:{name} x{ItemCount}";
             else
-                return $"{ItemId}:{GameData.Items[ItemId]}";
+                return $"{ItemId}:{name}";
         }
     }
 }

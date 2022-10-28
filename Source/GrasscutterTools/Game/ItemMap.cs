@@ -60,8 +60,9 @@ namespace GrasscutterTools.Game
 
         public int Count => Ids.Length;
 
-        public string this[int id] => IdMap.TryGetValue(id, out string name) ? name : "???";
+        public string this[int id] => IdMap.TryGetValue(id, out string name) ? name : EmptyName;
 
+        public static string EmptyName = "???";
         //public int this[string name] => NameMap[name];
 
         public int[] Ids { get; }
