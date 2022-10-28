@@ -75,6 +75,7 @@ namespace GrasscutterTools.Forms
             this.DTPBanEndTime = new System.Windows.Forms.DateTimePicker();
             this.BtnUnban = new System.Windows.Forms.Button();
             this.BtnBan = new System.Windows.Forms.Button();
+            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.NUDBanUID = new System.Windows.Forms.NumericUpDown();
             this.LblBanUID = new System.Windows.Forms.Label();
             this.GrpAccount = new System.Windows.Forms.GroupBox();
@@ -235,6 +236,8 @@ namespace GrasscutterTools.Forms
             this.LblDefaultUid = new System.Windows.Forms.Label();
             this.TCMain = new System.Windows.Forms.TabControl();
             this.TPMail = new System.Windows.Forms.TabPage();
+            this.BtnAddMailItem = new System.Windows.Forms.Button();
+            this.BtnDeleteMailItem = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.TxtMailSelectableItemFilter = new System.Windows.Forms.TextBox();
@@ -260,9 +263,6 @@ namespace GrasscutterTools.Forms
             this.LblMailTitleLabel = new System.Windows.Forms.Label();
             this.TxtMailSender = new System.Windows.Forms.TextBox();
             this.LblMailSenderLabel = new System.Windows.Forms.Label();
-            this.BtnAddMailItem = new System.Windows.Forms.Button();
-            this.BtnDeleteMailItem = new System.Windows.Forms.Button();
-            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -681,6 +681,14 @@ namespace GrasscutterTools.Forms
             this.BtnBan.Name = "BtnBan";
             this.BtnBan.UseVisualStyleBackColor = true;
             this.BtnBan.Click += new System.EventHandler(this.BtnBan_Click);
+            // 
+            // TxtBanReason
+            // 
+            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
+            this.TxtBanReason.Maximum = 0F;
+            this.TxtBanReason.Minimum = 0F;
+            this.TxtBanReason.Name = "TxtBanReason";
             // 
             // NUDBanUID
             // 
@@ -2137,6 +2145,20 @@ namespace GrasscutterTools.Forms
             this.TPMail.Name = "TPMail";
             this.TPMail.UseVisualStyleBackColor = true;
             // 
+            // BtnAddMailItem
+            // 
+            resources.ApplyResources(this.BtnAddMailItem, "BtnAddMailItem");
+            this.BtnAddMailItem.Name = "BtnAddMailItem";
+            this.BtnAddMailItem.UseVisualStyleBackColor = true;
+            this.BtnAddMailItem.Click += new System.EventHandler(this.BtnAddMailItem_Click);
+            // 
+            // BtnDeleteMailItem
+            // 
+            resources.ApplyResources(this.BtnDeleteMailItem, "BtnDeleteMailItem");
+            this.BtnDeleteMailItem.Name = "BtnDeleteMailItem";
+            this.BtnDeleteMailItem.UseVisualStyleBackColor = true;
+            this.BtnDeleteMailItem.Click += new System.EventHandler(this.BtnDeleteMailItem_Click);
+            // 
             // tabControl1
             // 
             resources.ApplyResources(this.tabControl1, "tabControl1");
@@ -2270,7 +2292,17 @@ namespace GrasscutterTools.Forms
             // NUDMailRecipient
             // 
             resources.ApplyResources(this.NUDMailRecipient, "NUDMailRecipient");
+            this.NUDMailRecipient.Maximum = new decimal(new int[] {
+            2147483647,
+            0,
+            0,
+            0});
             this.NUDMailRecipient.Name = "NUDMailRecipient";
+            this.NUDMailRecipient.Value = new decimal(new int[] {
+            10001,
+            0,
+            0,
+            0});
             // 
             // RbMailSendToPlayer
             // 
@@ -2320,28 +2352,6 @@ namespace GrasscutterTools.Forms
             // 
             resources.ApplyResources(this.LblMailSenderLabel, "LblMailSenderLabel");
             this.LblMailSenderLabel.Name = "LblMailSenderLabel";
-            // 
-            // BtnAddMailItem
-            // 
-            resources.ApplyResources(this.BtnAddMailItem, "BtnAddMailItem");
-            this.BtnAddMailItem.Name = "BtnAddMailItem";
-            this.BtnAddMailItem.UseVisualStyleBackColor = true;
-            this.BtnAddMailItem.Click += new System.EventHandler(this.BtnAddMailItem_Click);
-            // 
-            // BtnDeleteMailItem
-            // 
-            resources.ApplyResources(this.BtnDeleteMailItem, "BtnDeleteMailItem");
-            this.BtnDeleteMailItem.Name = "BtnDeleteMailItem";
-            this.BtnDeleteMailItem.UseVisualStyleBackColor = true;
-            this.BtnDeleteMailItem.Click += new System.EventHandler(this.BtnDeleteMailItem_Click);
-            // 
-            // TxtBanReason
-            // 
-            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
-            this.TxtBanReason.Maximum = 0F;
-            this.TxtBanReason.Minimum = 0F;
-            this.TxtBanReason.Name = "TxtBanReason";
             // 
             // FormMain
             // 

@@ -1354,7 +1354,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 109</value>
+    <value>296, 111</value>
   </data>
   <data name="TPConsoleCheck.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1970,6 +1970,30 @@
   </data>
   <data name="&gt;&gt;BtnBan.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="TxtBanReason.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 22</value>
+  </data>
+  <data name="TxtBanReason.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="TxtBanReason.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TxtBanReason.Watermark" xml:space="preserve">
+    <value>封禁理由</value>
+  </data>
+  <data name="&gt;&gt;TxtBanReason.Name" xml:space="preserve">
+    <value>TxtBanReason</value>
+  </data>
+  <data name="&gt;&gt;TxtBanReason.Type" xml:space="preserve">
+    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.7.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  </data>
+  <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
+    <value>GrpBanPlayer</value>
+  </data>
+  <data name="&gt;&gt;TxtBanReason.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="NUDBanUID.Location" type="System.Drawing.Point, System.Drawing">
     <value>66, 22</value>
@@ -8278,7 +8302,7 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 179</value>
+    <value>175, 183</value>
   </data>
   <data name="NUDMailItemLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
@@ -8311,7 +8335,7 @@
     <value>0, 0, 0, 0</value>
   </data>
   <data name="ListMailSelectableItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 140</value>
+    <value>228, 157</value>
   </data>
   <data name="ListMailSelectableItems.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -8338,7 +8362,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 181</value>
+    <value>127, 185</value>
   </data>
   <data name="LblMailItemLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 17</value>
@@ -8371,7 +8395,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 181</value>
+    <value>1, 185</value>
   </data>
   <data name="LblMailItemCount.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 17</value>
@@ -8398,7 +8422,7 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 179</value>
+    <value>51, 183</value>
   </data>
   <data name="NUDMailItemCount.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 23</value>
@@ -8445,21 +8469,6 @@
   <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="BtnClearMail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="BtnClearMail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 177</value>
-  </data>
-  <data name="BtnClearMail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnClearMail.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="BtnClearMail.Text" xml:space="preserve">
-    <value>× 清空</value>
-  </data>
   <data name="&gt;&gt;BtnClearMail.Name" xml:space="preserve">
     <value>BtnClearMail</value>
   </data>
@@ -8472,21 +8481,6 @@
   <data name="&gt;&gt;BtnClearMail.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="BtnRemoveMail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="BtnRemoveMail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 178</value>
-  </data>
-  <data name="BtnRemoveMail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnRemoveMail.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="BtnRemoveMail.Text" xml:space="preserve">
-    <value>- 删除</value>
-  </data>
   <data name="&gt;&gt;BtnRemoveMail.Name" xml:space="preserve">
     <value>BtnRemoveMail</value>
   </data>
@@ -8498,24 +8492,6 @@
   </data>
   <data name="&gt;&gt;BtnRemoveMail.ZOrder" xml:space="preserve">
     <value>1</value>
-  </data>
-  <data name="ListMailList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="ListMailList.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="ListMailList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ListMailList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="ListMailList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 174</value>
-  </data>
-  <data name="ListMailList.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;ListMailList.Name" xml:space="preserve">
     <value>ListMailList</value>
@@ -8979,29 +8955,89 @@
   <data name="&gt;&gt;TCMain.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="TxtBanReason.Location" type="System.Drawing.Point, System.Drawing">
-    <value>250, 22</value>
+  <data name="BtnClearMail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="TxtBanReason.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 23</value>
+  <data name="BtnClearMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 177</value>
   </data>
-  <data name="TxtBanReason.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+  <data name="BtnClearMail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
   </data>
-  <data name="TxtBanReason.Watermark" xml:space="preserve">
-    <value>封禁理由</value>
+  <data name="BtnClearMail.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
-  <data name="&gt;&gt;TxtBanReason.Name" xml:space="preserve">
-    <value>TxtBanReason</value>
+  <data name="BtnClearMail.Text" xml:space="preserve">
+    <value>× 清空</value>
   </data>
-  <data name="&gt;&gt;TxtBanReason.Type" xml:space="preserve">
-    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.7.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  <data name="&gt;&gt;BtnClearMail.Name" xml:space="preserve">
+    <value>BtnClearMail</value>
   </data>
-  <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
-    <value>GrpBanPlayer</value>
+  <data name="&gt;&gt;BtnClearMail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TxtBanReason.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;BtnClearMail.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;BtnClearMail.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnRemoveMail.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnRemoveMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 178</value>
+  </data>
+  <data name="BtnRemoveMail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnRemoveMail.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="BtnRemoveMail.Text" xml:space="preserve">
+    <value>- 删除</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveMail.Name" xml:space="preserve">
+    <value>BtnRemoveMail</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveMail.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveMail.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveMail.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ListMailList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ListMailList.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ListMailList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ListMailList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ListMailList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 174</value>
+  </data>
+  <data name="ListMailList.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ListMailList.Name" xml:space="preserve">
+    <value>ListMailList</value>
+  </data>
+  <data name="&gt;&gt;ListMailList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListMailList.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;ListMailList.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -9014,9 +9050,6 @@
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 9pt</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
