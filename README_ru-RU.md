@@ -14,12 +14,14 @@ GCG поддерживает 简体中文 (китайский упр.), 繁体�
 
 Приглашаем всех улучшить [ID ресурсов и перевод](/Source/GrasscutterTools/Resources/ru-ru)
 
-## Update
+## Update log
 ### GrasscutterTools-v1.7.0
 
 ![Run Commands](Doc/Screenshots/RunMultipleCommands.png)
 
 ![Drop Editor](Doc/Screenshots-ru/15-DropEditor.png)
+
+![Mail Editor](Doc/Screenshots-ru/16-MailEditor.png)
 
 ## Удаленная команда (OpenCommand)
 
@@ -57,15 +59,11 @@ GCG поддерживает 简体中文 (китайский упр.), 繁体�
 
 ![Скриншот выдачи персонажа](Doc/Screenshots-ru/5-GiveAvatar.png)
 
-![Скриншот кастомной статистики](Doc/Screenshots-ru/6-CustomStats.png)
-
 ![Скриншот выдачи оружия](Doc/Screenshots-ru/7-CustomWeapon.png)
 
 ![Скриншот выдачи предметов](Doc/Screenshots-ru/8-GiveItem.png)
 
 ![Скриншот смены сцены](Doc/Screenshots-ru/9-ChangeScene.png)
-
-<!-- ![Скриншот меток](Doc/Screenshots-ru/10-Waypoints.png) -->
 
 ![Скриншот управления аккаунтом](Doc/Screenshots-ru/11-Manage.png)
 

@@ -15,12 +15,14 @@
 
 欢迎大家一起来完善工具的[内置资源](/Source/GrasscutterTools/Resources/zh-cn)。
 
-## Update
+## Update log
 ### GrasscutterTools-v1.7.0
 
 ![Run Commands](Doc/Screenshots/RunMultipleCommands.png)
 
 ![Drop Editor](Doc/Screenshots/15-DropEditor.png)
+
+![Mail Editor](Doc/Screenshots/16-MailEditor.png)
 
 ## 远程执行
 
@@ -58,8 +60,6 @@
 ![Spawn Entity Screenshort](Doc/Screenshots/6-SpawnEntity.png)
 
 ![Change Scene Screenshort](Doc/Screenshots/7-ChangeScene.png)
-
-![Custom Stats Screenshort](Doc/Screenshots/8-CustomStats.png)
 
 ![Management](Doc/Screenshots/9-Manage.png)
 
