@@ -178,6 +178,9 @@
   <data name="CustomCommands" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\CustomCommands.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="EmptyInputTip" xml:space="preserve">
+    <value>Ввод не может быть пустым!</value>
+  </data>
   <data name="Error" xml:space="preserve">
     <value>Ошибка</value>
   </data>
@@ -222,7 +225,7 @@
   <data name="RequireOpenCommandTip" xml:space="preserve">
     <value>Пожалуйста, сначала подключитесь к серверу, который поддерживает [OpenCommand]</value>
   </data>
-	<data name="RestoreCustomCommands" xml:space="preserve">
+  <data name="RestoreCustomCommands" xml:space="preserve">
     <value>Вы уверены, что хотите восстановить пользовательские команды по умолчанию?</value>
   </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">

@@ -255,14 +255,16 @@ Do you want to check for updates? Selecting No will no longer remind you of this
   <data name="WeaponColor" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WeaponColor.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-
   <data name="GOODImportText" xml:space="preserve">
- 	<value>Do you wish to import </value>
+    <value>Do you wish to import </value>
   </data>
   <data name="GOODImportTitle" xml:space="preserve">
- 	<value>Import GOOD dump file</value>
+    <value>Import GOOD dump file</value>
   </data>
   <data name="GOODImportSuccess" xml:space="preserve">
- 	<value>Import success!</value>
+    <value>Import success!</value>
+  </data>
+  <data name="EmptyInputTip" xml:space="preserve">
+    <value>Input cannot be empty!</value>
   </data>
 </root>

@@ -1489,7 +1489,7 @@ namespace GrasscutterTools.Forms
 
             if (mail.Title == "" || mail.Sender == "" || mail.Content == "")
             {
-                MessageBox.Show("输入不能为空！", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(Resources.EmptyInputTip, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 

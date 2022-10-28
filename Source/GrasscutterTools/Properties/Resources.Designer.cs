@@ -561,6 +561,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 输入不能为空！ 的本地化字符串。
+        /// </summary>
+        internal static string EmptyInputTip {
+            get {
+                return ResourceManager.GetString("EmptyInputTip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 错误 的本地化字符串。
         /// </summary>
         internal static string Error {
@@ -665,16 +674,6 @@ namespace GrasscutterTools.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
-        internal static System.Drawing.Bitmap ImgHome {
-            get {
-                object obj = ResourceManager.GetObject("ImgHome", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
-        /// </summary>
         internal static System.Drawing.Bitmap ImgIconGrasscutter {
             get {
                 object obj = ResourceManager.GetObject("ImgIconGrasscutter", resourceCulture);
@@ -740,10 +739,9 @@ namespace GrasscutterTools.Properties {
         ///148:营业收入
         ///149:可用资金
         ///150:巧策灵感
-        ///201:原石
-        ///202:摩拉
-        ///203:创世结晶
-        ///2 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///151:蘑菇宝钱
+        ///152:灵蕈奖章
+        ///153:绮碎斑 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Item {
             get {
