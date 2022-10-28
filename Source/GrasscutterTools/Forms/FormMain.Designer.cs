@@ -1320,12 +1320,14 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.BtnUnlockStat, "BtnUnlockStat");
             this.BtnUnlockStat.Name = "BtnUnlockStat";
             this.BtnUnlockStat.UseVisualStyleBackColor = true;
+            this.BtnUnlockStat.Click += new System.EventHandler(this.BtnUnlockStat_Click);
             // 
             // BtnLockStat
             // 
             resources.ApplyResources(this.BtnLockStat, "BtnLockStat");
             this.BtnLockStat.Name = "BtnLockStat";
             this.BtnLockStat.UseVisualStyleBackColor = true;
+            this.BtnLockStat.Click += new System.EventHandler(this.BtnLockStat_Click);
             // 
             // LblStatTip
             // 
@@ -1353,6 +1355,7 @@ namespace GrasscutterTools.Forms
             0,
             0,
             0});
+            this.NUDStat.ValueChanged += new System.EventHandler(this.SetStatsInputChanged);
             // 
             // CmbStat
             // 
@@ -1360,6 +1363,7 @@ namespace GrasscutterTools.Forms
             this.CmbStat.FormattingEnabled = true;
             resources.ApplyResources(this.CmbStat, "CmbStat");
             this.CmbStat.Name = "CmbStat";
+            this.CmbStat.SelectedIndexChanged += new System.EventHandler(this.SetStatsInputChanged);
             // 
             // GrpTalentLevel
             // 
@@ -1378,6 +1382,7 @@ namespace GrasscutterTools.Forms
             this.LnkTalentAll.Name = "LnkTalentAll";
             this.LnkTalentAll.TabStop = true;
             this.LnkTalentAll.Tag = "all";
+            this.LnkTalentAll.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkSetTalentClicked);
             // 
             // LnkTalentE
             // 
@@ -1385,6 +1390,7 @@ namespace GrasscutterTools.Forms
             this.LnkTalentE.Name = "LnkTalentE";
             this.LnkTalentE.TabStop = true;
             this.LnkTalentE.Tag = "e";
+            this.LnkTalentE.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkSetTalentClicked);
             // 
             // LnkTalentQ
             // 
@@ -1392,6 +1398,7 @@ namespace GrasscutterTools.Forms
             this.LnkTalentQ.Name = "LnkTalentQ";
             this.LnkTalentQ.TabStop = true;
             this.LnkTalentQ.Tag = "q";
+            this.LnkTalentQ.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkSetTalentClicked);
             // 
             // LnkTalentNormalATK
             // 
@@ -1399,6 +1406,7 @@ namespace GrasscutterTools.Forms
             this.LnkTalentNormalATK.Name = "LnkTalentNormalATK";
             this.LnkTalentNormalATK.TabStop = true;
             this.LnkTalentNormalATK.Tag = "n";
+            this.LnkTalentNormalATK.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkSetTalentClicked);
             // 
             // NUDTalentLevel
             // 
