@@ -1472,7 +1472,7 @@ namespace GrasscutterTools.Forms
                 $"/sendMail {mail.Content} |" +
                 $"/sendMail {mail.Sender} |";
             foreach (var item in mail.ItemList)
-                cmd += $"/sendMail {item.ItemId}  {item.ItemCount} {item.ItemLevel} |";
+                cmd += $"/sendMail {item.ItemId} {item.ItemCount} {item.ItemLevel} |";
             cmd += "/sendMail finish";
 
             SetCommand(cmd);
