@@ -529,8 +529,8 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="NUDWeaponLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>147, 216</value>
   </data>
-  <data name="TPStats.Text" xml:space="preserve">
-    <value>Stats</value>
+  <data name="TPAvatar.Text" xml:space="preserve">
+    <value>Avatar</value>
   </data>
   <data name="GrpSetStats.Text" xml:space="preserve">
     <value>Stats</value>
@@ -592,11 +592,14 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="LblStatsDescription.Text" xml:space="preserve">
     <value>Set current active Avatar data</value>
   </data>
-  <data name="TPAvatar.Text" xml:space="preserve">
-    <value>Avatar</value>
-  </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value>Give All Char</value>
+  </data>
+  <data name="LblAvatarLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 17</value>
+  </data>
+  <data name="LblAvatarLevel.Text" xml:space="preserve">
+    <value>Level</value>
   </data>
   <data name="LblAvatarSkillLevelLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>61, 17</value>
@@ -604,23 +607,17 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="LblAvatarSkillLevelLabel.Text" xml:space="preserve">
     <value>Skill level</value>
   </data>
-  <data name="LblAvatarConstellation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="LblAvatarConstellation.Text" xml:space="preserve">
-    <value>Const.</value>
-  </data>
   <data name="LblAvatar.Size" type="System.Drawing.Size, System.Drawing">
     <value>45, 17</value>
   </data>
   <data name="LblAvatar.Text" xml:space="preserve">
     <value>Avatar</value>
   </data>
-  <data name="LblAvatarLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 17</value>
+  <data name="LblAvatarConstellation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
   </data>
-  <data name="LblAvatarLevel.Text" xml:space="preserve">
-    <value>Level</value>
+  <data name="LblAvatarConstellation.Text" xml:space="preserve">
+    <value>Const.</value>
   </data>
   <data name="TPSpawn.Text" xml:space="preserve">
     <value>Spawn</value>
@@ -890,5 +887,98 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Include UID</value>
+  </data>
+  <data name="TPMail.Text" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="BtnAddMailItem.Text" xml:space="preserve">
+    <value>+ Add</value>
+  </data>
+  <data name="BtnDeleteMailItem.Text" xml:space="preserve">
+    <value>- Delete</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>Items</value>
+  </data>
+  <data name="NUDMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 176</value>
+  </data>
+  <data name="NUDMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 176</value>
+  </data>
+  <data name="LblMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 178</value>
+  </data>
+  <data name="LblMailItemLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
+  </data>
+  <data name="LblMailItemLevel.Text" xml:space="preserve">
+    <value>Level:</value>
+  </data>
+  <data name="LblMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 178</value>
+  </data>
+  <data name="LblMailItemCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="LblMailItemCount.Text" xml:space="preserve">
+    <value>Count:</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Mailbox</value>
+  </data>
+  <data name="BtnClearMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 176</value>
+  </data>
+  <data name="BtnClearMail.Text" xml:space="preserve">
+    <value>× Clear</value>
+  </data>
+  <data name="BtnRemoveMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 177</value>
+  </data>
+  <data name="BtnRemoveMail.Text" xml:space="preserve">
+    <value>- Delete</value>
+  </data>
+  <data name="BtnSendMail.Text" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="LblMailItemsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 17</value>
+  </data>
+  <data name="LblMailItemsLabel.Text" xml:space="preserve">
+    <value>Items:</value>
+  </data>
+  <data name="RbMailSendToPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 21</value>
+  </data>
+  <data name="RbMailSendToPlayer.Text" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="RbMailSendToAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 21</value>
+  </data>
+  <data name="RbMailSendToAll.Text" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="LblMailRecipientLabel.Text" xml:space="preserve">
+    <value>Send to:</value>
+  </data>
+  <data name="LblMailContentLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LblMailContentLabel.Text" xml:space="preserve">
+    <value>Content:</value>
+  </data>
+  <data name="LblMailTitleLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 17</value>
+  </data>
+  <data name="LblMailTitleLabel.Text" xml:space="preserve">
+    <value>Title:</value>
+  </data>
+  <data name="LblMailSenderLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="LblMailSenderLabel.Text" xml:space="preserve">
+    <value>Sender:</value>
   </data>
 </root>

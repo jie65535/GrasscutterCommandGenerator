@@ -1447,6 +1447,14 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
+        /// 点击清空邮件内容时触发
+        /// </summary>
+        private void LblClearMailContent_Click(object sender, EventArgs e)
+        {
+            TxtMailContent.Clear();
+        }
+
+        /// <summary>
         /// 点击发送邮件时触发
         /// </summary>
         private void BtnSendMail_Click(object sender, EventArgs e)
@@ -1469,7 +1477,7 @@ namespace GrasscutterTools.Forms
 
             var cmd = $"/sendMail {(mail.SendToAll ? "all" : mail.Recipient.ToString())} |" +
                 $"/sendMail {mail.Title} |" +
-                $"/sendMail {mail.Content} |" +
+                $"/sendMail {mail.Content.Replace("\r", "\\r").Replace("\n", "\\n")} |" +
                 $"/sendMail {mail.Sender} |";
             foreach (var item in mail.ItemList)
                 cmd += $"/sendMail {item.ItemId} {item.ItemCount} {item.ItemLevel} |";
@@ -1734,9 +1742,20 @@ namespace GrasscutterTools.Forms
                 return;
             }
             if (TxtCommand.Text.IndexOf('|') == -1)
-                await RunCommands(TxtCommand.Text);
+                await RunCommands(FormatCommand(TxtCommand.Text));
             else
-                await RunCommands(TxtCommand.Text.Split('|').Select(it => it.Trim()).ToArray());
+                await RunCommands(TxtCommand.Text.Split('|').Select(it => FormatCommand(it)).ToArray());
+        }
+
+        /// <summary>
+        /// 格式化命令
+        /// （去除收尾空白，替换换行）
+        /// </summary>
+        /// <param name="raw">原始输入</param>
+        /// <returns>格式化后可执行命令</returns>
+        private string FormatCommand(string raw)
+        {
+            return raw.Trim().Replace("\\r", "\r").Replace("\\n", "\n");
         }
 
         /// <summary>

@@ -296,9 +296,6 @@
   <data name="LblWeaponLevel.Text" xml:space="preserve">
     <value>等級</value>
   </data>
-  <data name="TPStats.Text" xml:space="preserve">
-    <value>數據</value>
-  </data>
   <data name="GrpSetStats.Text" xml:space="preserve">
     <value>角色屬性</value>
   </data>
@@ -320,11 +317,11 @@
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value>一鍵獲得所有角色</value>
   </data>
-  <data name="LblAvatarSkillLevelLabel.Text" xml:space="preserve">
-    <value>技能等級</value>
-  </data>
   <data name="LblAvatarLevel.Text" xml:space="preserve">
     <value>等級</value>
+  </data>
+  <data name="LblAvatarSkillLevelLabel.Text" xml:space="preserve">
+    <value>技能等級</value>
   </data>
   <data name="ChkInfiniteHP.Text" xml:space="preserve">
     <value>無限血</value>
@@ -435,5 +432,53 @@
   </data>
   <data name="ChkTopMost.Text" xml:space="preserve">
     <value>置頂</value>
+  </data>
+  <data name="TPMail.Text" xml:space="preserve">
+    <value>郵件</value>
+  </data>
+  <data name="BtnDeleteMailItem.Text" xml:space="preserve">
+    <value>- 刪除</value>
+  </data>
+  <data name="NUDMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 180</value>
+  </data>
+  <data name="NUDMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 180</value>
+  </data>
+  <data name="LblMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 182</value>
+  </data>
+  <data name="LblMailItemLevel.Text" xml:space="preserve">
+    <value>等級：</value>
+  </data>
+  <data name="LblMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 182</value>
+  </data>
+  <data name="LblMailItemCount.Text" xml:space="preserve">
+    <value>數量：</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>郵件列表</value>
+  </data>
+  <data name="BtnClearMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 180</value>
+  </data>
+  <data name="BtnRemoveMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 181</value>
+  </data>
+  <data name="BtnRemoveMail.Text" xml:space="preserve">
+    <value>- 刪除</value>
+  </data>
+  <data name="BtnSendMail.Text" xml:space="preserve">
+    <value>發送</value>
+  </data>
+  <data name="LblMailContentLabel.Text" xml:space="preserve">
+    <value>內容：</value>
+  </data>
+  <data name="LblMailTitleLabel.Text" xml:space="preserve">
+    <value>標題：</value>
+  </data>
+  <data name="LblMailSenderLabel.Text" xml:space="preserve">
+    <value>發件人：</value>
   </data>
 </root>
