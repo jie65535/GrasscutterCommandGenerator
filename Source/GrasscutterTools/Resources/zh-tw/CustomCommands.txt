@@ -25,7 +25,7 @@
 查看坐標
 /pos
 獲取全部物品
-/give all x9999 lv90 c6 r5
+/give all x9999 lv90 c6 r5 sl10
 一萬糾纏
 /give 223 x10000
 一萬相遇
@@ -64,3 +64,7 @@
 /a 歡迎來到Grasscutter PS!
 關閉伺服器
 /stop
+解鎖所有狀態(可使用塵歌壺道具)
+/unlockall
+無CD
+/setstats cdr 100%
