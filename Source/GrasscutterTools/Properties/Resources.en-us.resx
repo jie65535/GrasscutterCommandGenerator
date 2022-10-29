@@ -269,9 +269,9 @@ Do you want to check for updates? Selecting No will no longer remind you of this
     <value>Input cannot be empty!</value>
   </data>
   <data name="MailSendToAllWarning" xml:space="preserve">
-    <value>将邮件发送给所有人在当前(v1.4.2)或更早版本可能导致服务器卡顿甚至耗尽资源而崩溃！
-实测在4H8G机器中向3k+账号发送邮件导致服务端卡死，在32H80G中仅获取所有玩家(2k+)就耗时40秒。
-目前已经提交了改进建议，在优化完成之前，请谨慎使用向所有玩家发送邮件！</value>
+    <value>Sending mail to everyone in current (v1.4.2) or earlier versions can cause the server to freeze or even run out of resources and crash!
+It is actually measured that sending emails to 3k+ accounts in the 4H8G machine causes the server to freeze, and it takes 40 seconds to acquire all players (2k+) in the 32H80G.
+Improvement suggestions have been submitted, please use caution to send emails to all players until the optimization is completed!</value>
   </data>
   <data name="Warning" xml:space="preserve">
     <value>Warning</value>

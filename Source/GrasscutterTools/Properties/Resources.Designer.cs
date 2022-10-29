@@ -489,7 +489,7 @@ namespace GrasscutterTools.Properties {
         ///查看坐标
         ////pos
         ///获取全部物品
-        ////give all x9999 lv90 c6 r5
+        ////give all x9999 lv90 c6 r5 sl10
         ///一万纠缠
         ////give 223 x10000
         ///一万相遇
@@ -507,7 +507,7 @@ namespace GrasscutterTools.Properties {
         ///清空全部角色命之座(需重登)
         ////resetconst all
         ///清空背包
-        ////clear all lv90 r [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ////clear all l [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string CustomCommands {
             get {

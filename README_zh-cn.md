@@ -16,6 +16,11 @@
 欢迎大家一起来完善工具的[内置资源](/Source/GrasscutterTools/Resources/zh-cn)。
 
 ## Update log
+
+### GrasscutterTools-v1.7.1
+
+![Spawn Entity Screenshort](Doc/Screenshots/6-SpawnEntity.png)
+
 ### GrasscutterTools-v1.7.0
 
 ![Run Commands](Doc/Screenshots/RunMultipleCommands.png)
