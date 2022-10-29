@@ -1504,6 +1504,11 @@ namespace GrasscutterTools.Forms
                 return;
             }
 
+            if (mail.SendToAll)
+            {
+                MessageBox.Show(Resources.MailSendToAllWarning, Resources.Warning, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
             var cmd = $"/sendMail {(mail.SendToAll ? "all" : mail.Recipient.ToString())} |" +
                 $"/sendMail {mail.Title} |" +
                 $"/sendMail {mail.Content.Replace("\r", "\\r").Replace("\n", "\\n")} |" +

@@ -740,6 +740,17 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 将邮件发送给所有人在当前(v1.4.2)或更早版本可能导致服务器卡顿甚至耗尽资源而崩溃！
+        ///实测在4H8G机器中向3k+账号发送邮件导致服务端卡死，在32H80G中仅获取所有玩家(2k+)就耗时40秒。
+        ///目前已经提交了改进建议，在优化完成之前，请谨慎使用向所有玩家发送邮件！ 的本地化字符串。
+        /// </summary>
+        internal static string MailSendToAllWarning {
+            get {
+                return ResourceManager.GetString("MailSendToAllWarning", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 // 普通怪物
         ///20010101:草史莱姆
         ///20010201:大型草史莱姆
@@ -995,6 +1006,15 @@ namespace GrasscutterTools.Properties {
         internal static string UsernameCannotBeEmpty {
             get {
                 return ResourceManager.GetString("UsernameCannotBeEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 警告 的本地化字符串。
+        /// </summary>
+        internal static string Warning {
+            get {
+                return ResourceManager.GetString("Warning", resourceCulture);
             }
         }
         

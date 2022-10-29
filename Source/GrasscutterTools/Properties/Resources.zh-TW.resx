@@ -262,4 +262,12 @@
   <data name="EmptyInputTip" xml:space="preserve">
     <value>輸入不能為空！</value>
   </data>
+  <data name="MailSendToAllWarning" xml:space="preserve">
+    <value>將郵件發送給所有人在當前(v1.4.2)或更早版本可能導致服務器卡頓甚至耗盡資源而崩潰！
+實測在4H8G機器中向3k+賬號發送郵件導致服務端卡死，在32H80G中僅獲取所有玩家(2k+)就耗時40秒。
+目前已經提交了改進建議，在優化完成之前，請謹慎使用向所有玩家發送郵件！</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
 </root>
