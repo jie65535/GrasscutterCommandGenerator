@@ -118,9 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Animal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-tw\Animal.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
-  </data>
   <data name="Artifact" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-tw\Artifact.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
@@ -190,8 +187,8 @@
   <data name="Item" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-tw\Item.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="Monster" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-tw\Monster.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="Monsters" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\Monsters.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="NewVersionInfo" xml:space="preserve">
     <value>版本名：{0}

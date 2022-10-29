@@ -16,6 +16,8 @@
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  * 
  **/
+using System.Collections.Generic;
+
 using GrasscutterTools.Properties;
 
 namespace GrasscutterTools.Game
@@ -24,7 +26,6 @@ namespace GrasscutterTools.Game
     {
         public static void LoadResources()
         {
-            Animals = new ItemMap(Resources.Animal);
             Artifacts = new ItemMap(Resources.Artifact);
             ArtifactCats = new ItemMap(Resources.ArtifactCat);
             ArtifactMainAttribution = new ItemMap(Resources.ArtifactMainAttribution);
@@ -32,8 +33,8 @@ namespace GrasscutterTools.Game
             Avatars = new ItemMap(Resources.Avatar);
             AvatarColors = new ItemMap(Resources.AvatarColor);
             Items = new ItemMap(Resources.Item);
-            Monsters = new ItemMap(Resources.Monster);
-            //NPCs = new ItemMap(Resources.NPC);
+            Monsters = new ItemMapGroup(Resources.Monsters);
+            Gatgets = new ItemMapGroup(Resources.Gadget);
             Scenes = new ItemMap(Resources.Scene);
             Weapons = new ItemMap(Resources.Weapon);
             WeaponColors = new ItemMap(Resources.WeaponColor);
@@ -41,7 +42,6 @@ namespace GrasscutterTools.Game
             Quests = new ItemMap(Resources.Quest);
         }
 
-        public static ItemMap Animals { get; private set; }
 
         public static ItemMap Artifacts { get; private set; }
 
@@ -57,9 +57,9 @@ namespace GrasscutterTools.Game
 
         public static ItemMap Items { get; private set; }
 
-        public static ItemMap Monsters { get; private set; }
+        public static ItemMapGroup Monsters { get; private set; }
 
-        //public static ItemMap NPCs { get; private set; }
+        public static ItemMapGroup Gatgets { get; private set; }
 
         public static ItemMap Scenes { get; private set; }
 

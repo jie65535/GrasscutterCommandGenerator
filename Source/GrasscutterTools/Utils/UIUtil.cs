@@ -32,7 +32,10 @@ namespace GrasscutterTools.Utils
             filter = filter.Trim();
             listBox.BeginUpdate();
             listBox.Items.Clear();
-            listBox.Items.AddRange(source.Where(n => n.Contains(filter)).ToArray());
+            if (string.IsNullOrEmpty(filter))
+                listBox.Items.AddRange(source);
+            else
+                listBox.Items.AddRange(source.Where(n => n.Contains(filter)).ToArray());
             listBox.EndUpdate();
         }
     }

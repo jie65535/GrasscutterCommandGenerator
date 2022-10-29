@@ -52,9 +52,7 @@ namespace GrasscutterTools.Forms
 
             Icon = Resources.IconGrasscutter;
 
-            Monsters = new string[GameData.Monsters.Lines.Length + GameData.Animals.Lines.Length];
-            GameData.Monsters.Lines.CopyTo(Monsters, 0);
-            GameData.Animals.Lines.CopyTo(Monsters, GameData.Monsters.Lines.Length);
+            Monsters = GameData.Monsters.AllLines.ToArray();
             Array.Sort(Monsters);
 
             ListMonsters.Items.AddRange(Monsters);

@@ -217,6 +217,9 @@
   <data name="BtnSendVerificationCode.Text" xml:space="preserve">
     <value>Send Code</value>
   </data>
+  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 111</value>
+  </data>
   <data name="TPConsoleCheck.Text" xml:space="preserve">
     <value>Console</value>
   </data>
@@ -641,7 +644,7 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
     <value>Infinite HP</value>
   </data>
   <data name="LblClearSpawnLogs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>204, 25</value>
+    <value>181, 190</value>
   </data>
   <data name="LblClearSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 17</value>
@@ -661,23 +664,17 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="GrpEntityType.Text" xml:space="preserve">
     <value>Class</value>
   </data>
-  <data name="RbEntityAnimal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 21</value>
-  </data>
-  <data name="RbEntityAnimal.Text" xml:space="preserve">
-    <value>Animal</value>
-  </data>
   <data name="RbEntityMonster.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 21</value>
   </data>
   <data name="RbEntityMonster.Text" xml:space="preserve">
     <value>Monster</value>
   </data>
-  <data name="LblSpawnDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 17</value>
+  <data name="RbEntityAnimal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 21</value>
   </data>
-  <data name="LblSpawnDescription.Text" xml:space="preserve">
-    <value>Spawn entity</value>
+  <data name="RbEntityAnimal.Text" xml:space="preserve">
+    <value>Animal</value>
   </data>
   <data name="LblEntityAmount.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 17</value>

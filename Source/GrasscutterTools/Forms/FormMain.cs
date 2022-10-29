@@ -1133,10 +1133,22 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void InitEntityList()
         {
-            RbEntityMonster.Tag = GameData.Monsters.Lines;
-            RbEntityAnimal.Tag = GameData.Animals.Lines;
-            RbEntityMonster.Checked = true;
-            LoadEntityList();
+            FLPEntityType.SuspendLayout();
+            FLPEntityType.Controls.Clear();
+            foreach (var m in GameData.Monsters.Concat(GameData.Gatgets))
+            {
+                var rb = new RadioButton
+                {
+                    AutoSize = true,
+                    Text = m.Key,
+                    Tag = m.Value.Lines
+                };
+                rb.CheckedChanged += RbEntity_CheckedChanged;
+                FLPEntityType.Controls.Add(rb);
+            }
+            FLPEntityType.ResumeLayout();
+            if (FLPEntityType.Controls.Count > 0)
+                (FLPEntityType.Controls[0] as RadioButton).Checked = true;
         }
 
         /// <summary>
@@ -1144,13 +1156,13 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void LoadEntityList()
         {
-            var rb = RbEntityAnimal.Checked ? RbEntityAnimal : RbEntityMonster;
-            if (rb.Checked)
+            foreach (RadioButton rb in FLPEntityType.Controls)
             {
-                ListEntity.BeginUpdate();
-                ListEntity.Items.Clear();
-                ListEntity.Items.AddRange(rb.Tag as string[]);
-                ListEntity.EndUpdate();
+                if (rb.Checked)
+                {
+                    UIUtil.ListBoxFilter(ListEntity, rb.Tag as string[], TxtEntityFilter.Text);
+                    break;
+                }
             }
         }
 
@@ -1159,9 +1171,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void TxtEntityFilter_TextChanged(object sender, EventArgs e)
         {
-            var rb = RbEntityAnimal.Checked ? RbEntityAnimal : RbEntityMonster;
-            var data = rb.Tag as string[];
-            UIUtil.ListBoxFilter(ListEntity, data, TxtEntityFilter.Text);
+            LoadEntityList();
         }
 
         /// <summary>
@@ -1196,7 +1206,8 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void RbEntity_CheckedChanged(object sender, EventArgs e)
         {
-            LoadEntityList();
+            if ((sender as RadioButton).Checked)
+                LoadEntityList();
         }
 
         #region -- 生成记录 --

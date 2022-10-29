@@ -171,9 +171,7 @@ namespace GrasscutterTools.Forms
             this.GrpSpawnRecord = new System.Windows.Forms.GroupBox();
             this.ListSpawnLogs = new System.Windows.Forms.ListBox();
             this.GrpEntityType = new System.Windows.Forms.GroupBox();
-            this.RbEntityAnimal = new System.Windows.Forms.RadioButton();
-            this.RbEntityMonster = new System.Windows.Forms.RadioButton();
-            this.LblSpawnDescription = new System.Windows.Forms.Label();
+            this.FLPEntityType = new System.Windows.Forms.FlowLayoutPanel();
             this.LblEntityAmount = new System.Windows.Forms.Label();
             this.LblEntityLevel = new System.Windows.Forms.Label();
             this.NUDEntityAmout = new System.Windows.Forms.NumericUpDown();
@@ -1541,7 +1539,6 @@ namespace GrasscutterTools.Forms
             this.TPSpawn.Controls.Add(this.BtnRemoveSpawnLog);
             this.TPSpawn.Controls.Add(this.GrpSpawnRecord);
             this.TPSpawn.Controls.Add(this.GrpEntityType);
-            this.TPSpawn.Controls.Add(this.LblSpawnDescription);
             this.TPSpawn.Controls.Add(this.LblEntityAmount);
             this.TPSpawn.Controls.Add(this.LblEntityLevel);
             this.TPSpawn.Controls.Add(this.NUDEntityAmout);
@@ -1597,29 +1594,14 @@ namespace GrasscutterTools.Forms
             // GrpEntityType
             // 
             resources.ApplyResources(this.GrpEntityType, "GrpEntityType");
-            this.GrpEntityType.Controls.Add(this.RbEntityAnimal);
-            this.GrpEntityType.Controls.Add(this.RbEntityMonster);
+            this.GrpEntityType.Controls.Add(this.FLPEntityType);
             this.GrpEntityType.Name = "GrpEntityType";
             this.GrpEntityType.TabStop = false;
             // 
-            // RbEntityAnimal
+            // FLPEntityType
             // 
-            resources.ApplyResources(this.RbEntityAnimal, "RbEntityAnimal");
-            this.RbEntityAnimal.Name = "RbEntityAnimal";
-            this.RbEntityAnimal.UseVisualStyleBackColor = true;
-            this.RbEntityAnimal.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
-            // 
-            // RbEntityMonster
-            // 
-            resources.ApplyResources(this.RbEntityMonster, "RbEntityMonster");
-            this.RbEntityMonster.Name = "RbEntityMonster";
-            this.RbEntityMonster.UseVisualStyleBackColor = true;
-            this.RbEntityMonster.CheckedChanged += new System.EventHandler(this.RbEntity_CheckedChanged);
-            // 
-            // LblSpawnDescription
-            // 
-            resources.ApplyResources(this.LblSpawnDescription, "LblSpawnDescription");
-            this.LblSpawnDescription.Name = "LblSpawnDescription";
+            resources.ApplyResources(this.FLPEntityType, "FLPEntityType");
+            this.FLPEntityType.Name = "FLPEntityType";
             // 
             // LblEntityAmount
             // 
@@ -2484,7 +2466,6 @@ namespace GrasscutterTools.Forms
             this.TPSpawn.PerformLayout();
             this.GrpSpawnRecord.ResumeLayout(false);
             this.GrpEntityType.ResumeLayout(false);
-            this.GrpEntityType.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEntityAmout)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDEntityLevel)).EndInit();
             this.TPQuest.ResumeLayout(false);
@@ -2631,9 +2612,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.GroupBox GrpSpawnRecord;
         private System.Windows.Forms.ListBox ListSpawnLogs;
         private System.Windows.Forms.GroupBox GrpEntityType;
-        private System.Windows.Forms.RadioButton RbEntityAnimal;
-        private System.Windows.Forms.RadioButton RbEntityMonster;
-        private System.Windows.Forms.Label LblSpawnDescription;
         private System.Windows.Forms.Label LblEntityAmount;
         private System.Windows.Forms.Label LblEntityLevel;
         private System.Windows.Forms.NumericUpDown NUDEntityAmout;
@@ -2764,5 +2742,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.LinkLabel LnkSetAllConst;
         private System.Windows.Forms.LinkLabel LnkSetConst;
         private System.Windows.Forms.NumericUpDown NUDSetConstellation;
+        private System.Windows.Forms.FlowLayoutPanel FLPEntityType;
     }
 }

@@ -129,8 +129,10 @@
     <Compile Include="Game\Gacha\GachaBanner.cs" />
     <Compile Include="Game\GameData.cs" />
     <Compile Include="Game\ItemMap.cs" />
+    <Compile Include="Game\ItemMapGroup.cs" />
     <Compile Include="Game\Mail\Mail.cs" />
     <Compile Include="Game\Mail\MailItem.cs" />
+    <Compile Include="Game\Player\PlayerData.cs" />
     <Compile Include="Game\SetStatsCommand.cs" />
     <Compile Include="Game\TextMapData.cs" />
     <Compile Include="GOOD\GOOD.cs" />
@@ -268,7 +270,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="FodyWeavers.xml" />
-    <Content Include="Resources\en-us\Animal.txt" />
     <Content Include="Resources\en-us\Artifact.txt" />
     <Content Include="Resources\en-us\ArtifactCat.txt" />
     <Content Include="Resources\en-us\ArtifactMainAttribution.txt" />
@@ -276,13 +277,13 @@
     <Content Include="Resources\en-us\Avatar.txt" />
     <Content Include="Resources\en-us\CustomCommands.txt" />
     <Content Include="Resources\en-us\GachaBennerPrefab.txt" />
+    <Content Include="Resources\en-us\Gadget.txt" />
     <Content Include="Resources\en-us\Item.txt" />
-    <Content Include="Resources\en-us\Monster.txt" />
+    <Content Include="Resources\en-us\Monsters.txt" />
     <Content Include="Resources\en-us\Quest.txt" />
     <Content Include="Resources\en-us\Scene.txt" />
     <Content Include="Resources\en-us\Weapon.txt" />
     <None Include="Resources\Newtonsoft.Json.dll" />
-    <Content Include="Resources\ru-ru\Animal.txt" />
     <Content Include="Resources\ru-ru\Artifact.txt" />
     <Content Include="Resources\ru-ru\ArtifactCat.txt" />
     <Content Include="Resources\ru-ru\ArtifactMainAttribution.txt" />
@@ -291,7 +292,7 @@
     <Content Include="Resources\ru-ru\CustomCommands.txt" />
     <Content Include="Resources\ru-ru\GachaBennerPrefab.txt" />
     <Content Include="Resources\ru-ru\Item.txt" />
-    <Content Include="Resources\ru-ru\Monster.txt" />
+    <Content Include="Resources\ru-ru\Monsters.txt" />
     <Content Include="Resources\ru-ru\Quest.txt" />
     <Content Include="Resources\ru-ru\Scene.txt" />
     <Content Include="Resources\ru-ru\Weapon.txt" />
@@ -300,7 +301,6 @@
     <None Include="Resources\ImgSupport.png" />
     <Content Include="Resources\Permissions.txt" />
     <Content Include="Resources\WeaponColor.txt" />
-    <Content Include="Resources\zh-cn\Animal.txt" />
     <Content Include="Resources\zh-cn\ArtifactCat.txt" />
     <Content Include="Resources\zh-cn\ArtifactMainAttribution.txt" />
     <Content Include="Resources\zh-cn\Artifact.txt" />
@@ -309,12 +309,12 @@
     <Content Include="Resources\zh-cn\CustomCommands.txt" />
     <Content Include="Resources\AvatarColor.txt" />
     <Content Include="Resources\zh-cn\GachaBennerPrefab.txt" />
+    <Content Include="Resources\zh-cn\Gadget.txt" />
     <Content Include="Resources\zh-cn\Item.txt" />
-    <Content Include="Resources\zh-cn\Monster.txt" />
+    <Content Include="Resources\zh-cn\Monsters.txt" />
     <Content Include="Resources\zh-cn\Quest.txt" />
     <Content Include="Resources\zh-cn\Scene.txt" />
     <Content Include="Resources\zh-cn\Weapon.txt" />
-    <Content Include="Resources\zh-tw\Animal.txt" />
     <Content Include="Resources\zh-tw\ArtifactCat.txt" />
     <Content Include="Resources\zh-tw\ArtifactMainAttribution.txt" />
     <Content Include="Resources\zh-tw\Artifact.txt" />
@@ -323,7 +323,7 @@
     <Content Include="Resources\zh-tw\CustomCommands.txt" />
     <Content Include="Resources\zh-tw\GachaBennerPrefab.txt" />
     <Content Include="Resources\zh-tw\Item.txt" />
-    <Content Include="Resources\zh-tw\Monster.txt" />
+    <Content Include="Resources\zh-tw\Monsters.txt" />
     <Content Include="Resources\zh-tw\Quest.txt" />
     <Content Include="Resources\zh-tw\Scene.txt" />
     <Content Include="Resources\zh-tw\Weapon.txt" />
