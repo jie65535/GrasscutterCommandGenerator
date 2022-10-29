@@ -68,17 +68,3 @@
 /unlockall
 нет компакт-диска
 /setstats cdr 100%
-Установите текущий зодиак персонажа на 6
-/setConst 6
-солнечно
-/w sunny
-переменная облачность
-/w cloudy
-дождь
-/w rain
-гроза
-/w thunderstorm
-Снег
-/w snow
-туман
-/w mist

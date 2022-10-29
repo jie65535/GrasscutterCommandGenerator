@@ -68,17 +68,3 @@
 /unlockall
 无CD
 /setstats cdr 100%
-设置当前角色命座为6
-/setConst 6
-晴天
-/w sunny
-多云
-/w cloudy
-雨
-/w rain
-雷雨
-/w thunderstorm
-雪
-/w snow
-雾
-/w mist

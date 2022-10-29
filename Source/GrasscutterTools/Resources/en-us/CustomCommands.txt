@@ -68,17 +68,3 @@ Unlock player status
 /unlockall
 no CD
 /setstats cdr 100%
-Character zodiac is 6
-/setConst 6
-sunny
-/w sunny
-partly cloudy
-/w cloudy
-rain
-/w rain
-thunderstorm
-/w thunderstorm
-Snow
-/w snow
-fog
-/w mist
