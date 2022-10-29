@@ -25,7 +25,7 @@ Charge Energy
 Where am I?
 /pos
 Give me ALL!
-/give all x9999 lv90 c6 r5
+/give all x9999 lv90 c6 r5 sl10
 10k Intertwined Fates
 /give 223 x10000
 10k Acquaint Fates
@@ -64,3 +64,21 @@ Server Announcement
 /a Welcome to grasscutter PS!
 Close Server
 /stop
+Unlock player status
+/unlockall
+no CD
+/setstats cdr 100%
+Character zodiac is 6
+/setConst 6
+sunny
+/w sunny
+partly cloudy
+/w cloudy
+rain
+/w rain
+thunderstorm
+/w thunderstorm
+Snow
+/w snow
+fog
+/w mist

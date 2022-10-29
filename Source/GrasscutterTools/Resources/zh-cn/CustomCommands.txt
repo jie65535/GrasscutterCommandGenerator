@@ -25,7 +25,7 @@
 查看坐标
 /pos
 获取全部物品
-/give all x9999 lv90 c6 r5
+/give all x9999 lv90 c6 r5 sl10
 一万纠缠
 /give 223 x10000
 一万相遇
@@ -64,3 +64,21 @@
 /a 欢迎来到Grasscutter PS!
 关闭服务器
 /stop
+解锁所有状态(可使用尘歌壶道具)
+/unlockall
+无CD
+/setstats cdr 100%
+设置当前角色命座为6
+/setConst 6
+晴天
+/w sunny
+多云
+/w cloudy
+雨
+/w rain
+雷雨
+/w thunderstorm
+雪
+/w snow
+雾
+/w mist
