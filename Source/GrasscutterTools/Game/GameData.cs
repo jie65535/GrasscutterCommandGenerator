@@ -16,8 +16,6 @@
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  * 
  **/
-using System.Collections.Generic;
-
 using GrasscutterTools.Properties;
 
 namespace GrasscutterTools.Game
@@ -40,6 +38,7 @@ namespace GrasscutterTools.Game
             WeaponColors = new ItemMap(Resources.WeaponColor);
             GachaBannerPrefabs = new ItemMap(Resources.GachaBennerPrefab);
             Quests = new ItemMap(Resources.Quest);
+            ShopType = new ItemMap(Resources.ShopType);
         }
 
 
@@ -70,5 +69,7 @@ namespace GrasscutterTools.Game
         public static ItemMap GachaBannerPrefabs { get; private set; }
 
         public static ItemMap Quests { get; private set; }
+
+        public static ItemMap ShopType { get; private set; }
     }
 }

@@ -134,6 +134,9 @@
     <Compile Include="Game\Mail\MailItem.cs" />
     <Compile Include="Game\Player\PlayerData.cs" />
     <Compile Include="Game\SetStatsCommand.cs" />
+    <Compile Include="Game\Shop\ItemParamData.cs" />
+    <Compile Include="Game\Shop\ShopInfo.cs" />
+    <Compile Include="Game\Shop\ShopTable.cs" />
     <Compile Include="Game\TextMapData.cs" />
     <Compile Include="GOOD\GOOD.cs" />
     <Compile Include="GOOD\Artifact.cs" />
@@ -282,6 +285,7 @@
     <Content Include="Resources\en-us\Monsters.txt" />
     <Content Include="Resources\en-us\Quest.txt" />
     <Content Include="Resources\en-us\Scene.txt" />
+    <Content Include="Resources\en-us\ShopType.txt" />
     <Content Include="Resources\en-us\Weapon.txt" />
     <None Include="Resources\Newtonsoft.Json.dll" />
     <Content Include="Resources\ru-ru\Artifact.txt" />
@@ -295,6 +299,7 @@
     <Content Include="Resources\ru-ru\Monsters.txt" />
     <Content Include="Resources\ru-ru\Quest.txt" />
     <Content Include="Resources\ru-ru\Scene.txt" />
+    <Content Include="Resources\ru-ru\ShopType.txt" />
     <Content Include="Resources\ru-ru\Weapon.txt" />
     <Content Include="Resources\IconGrasscutter.ico" />
     <Content Include="Resources\IconGrasscutter.png" />
@@ -314,6 +319,7 @@
     <Content Include="Resources\zh-cn\Monsters.txt" />
     <Content Include="Resources\zh-cn\Quest.txt" />
     <Content Include="Resources\zh-cn\Scene.txt" />
+    <Content Include="Resources\zh-cn\ShopType.txt" />
     <Content Include="Resources\zh-cn\Weapon.txt" />
     <Content Include="Resources\zh-tw\ArtifactCat.txt" />
     <Content Include="Resources\zh-tw\ArtifactMainAttribution.txt" />
@@ -326,6 +332,7 @@
     <Content Include="Resources\zh-tw\Monsters.txt" />
     <Content Include="Resources\zh-tw\Quest.txt" />
     <Content Include="Resources\zh-tw\Scene.txt" />
+    <Content Include="Resources\zh-tw\ShopType.txt" />
     <Content Include="Resources\zh-tw\Weapon.txt" />
   </ItemGroup>
   <ItemGroup>
