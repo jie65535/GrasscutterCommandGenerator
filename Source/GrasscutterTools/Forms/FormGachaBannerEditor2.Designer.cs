@@ -377,8 +377,7 @@ namespace GrasscutterTools.Forms
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListFallbackItems.Groups1"))),
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListFallbackItems.Groups2"))),
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListFallbackItems.Groups3"))),
-            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListFallbackItems.Groups4"))),
-            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListFallbackItems.Groups5")))});
+            ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListFallbackItems.Groups4")))});
             this.ListFallbackItems.HideSelection = false;
             this.ListFallbackItems.Name = "ListFallbackItems";
             this.ListFallbackItems.UseCompatibleStateImageBehavior = false;

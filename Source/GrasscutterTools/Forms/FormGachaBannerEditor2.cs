@@ -72,16 +72,13 @@ namespace GrasscutterTools.Forms
             ListFallbackItems.BeginUpdate();
             var a5 = ListFallbackItems.Groups["GroupA5"];
             var a4 = ListFallbackItems.Groups["GroupA4"];
-            var a3 = ListFallbackItems.Groups["GroupA3"];
             var w5 = ListFallbackItems.Groups["GroupW5"];
             var w4 = ListFallbackItems.Groups["GroupW4"];
             var w3 = ListFallbackItems.Groups["GroupW3"];
-            var avatars = GetAvatarsByColor("yellow")
+            var avatars = GetAvatarsByColor("5")
                 .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, a5) { ForeColor = Color.OrangeRed })
-                .Concat(GetAvatarsByColor("purple")
-                .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, a4) { ForeColor = Color.Purple }))
-                .Concat(GetAvatarsByColor("blue")
-                .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, a3) { ForeColor = Color.Blue }));
+                .Concat(GetAvatarsByColor("4")
+                .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, a4) { ForeColor = Color.Purple }));
             var weapons = GetWeaponsByColor("yellow")
                 .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, w5) { ForeColor = Color.OrangeRed })
                 .Concat(GetWeaponsByColor("purple")
@@ -96,9 +93,9 @@ namespace GrasscutterTools.Forms
             var ua4 = ListUpItems.Groups["GroupUpA4"];
             var uw5 = ListUpItems.Groups["GroupUpW5"];
             var uw4 = ListUpItems.Groups["GroupUpW4"];
-            var upAvatars = GetAvatarsByColor("yellow")
+            var upAvatars = GetAvatarsByColor("5")
                 .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, ua5) { ForeColor = Color.OrangeRed })
-                .Concat(GetAvatarsByColor("purple")
+                .Concat(GetAvatarsByColor("4")
                 .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, ua4) { ForeColor = Color.Purple }));
             var upWeapons = GetWeaponsByColor("yellow")
                 .Select(it => new ListViewItem(new string[] { it.Item1.ToString(), it.Item2 }, uw5) { ForeColor = Color.OrangeRed })
