@@ -1259,10 +1259,10 @@ namespace GrasscutterTools.Forms
             // 
             // GrpSetConstellation
             // 
+            resources.ApplyResources(this.GrpSetConstellation, "GrpSetConstellation");
             this.GrpSetConstellation.Controls.Add(this.LnkSetAllConst);
             this.GrpSetConstellation.Controls.Add(this.LnkSetConst);
             this.GrpSetConstellation.Controls.Add(this.NUDSetConstellation);
-            resources.ApplyResources(this.GrpSetConstellation, "GrpSetConstellation");
             this.GrpSetConstellation.Name = "GrpSetConstellation";
             this.GrpSetConstellation.TabStop = false;
             // 

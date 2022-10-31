@@ -1410,7 +1410,7 @@
     <value>TxtBanReason</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Type" xml:space="preserve">
-    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.7.1.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.7.2.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
     <value>GrpBanPlayer</value>
@@ -2783,7 +2783,7 @@
     <value>7</value>
   </data>
   <data name="BtnGiveAllWeapons.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
+    <value>Bottom, Left</value>
   </data>
   <data name="BtnGiveAllWeapons.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 10pt</value>
@@ -3104,6 +3104,9 @@
   </data>
   <data name="&gt;&gt;TPWeapon.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="GrpSetConstellation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
   </data>
   <data name="LnkSetAllConst.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
