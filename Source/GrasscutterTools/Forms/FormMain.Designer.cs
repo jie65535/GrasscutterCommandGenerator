@@ -266,6 +266,7 @@ namespace GrasscutterTools.Forms
             this.LblMailTitleLabel = new System.Windows.Forms.Label();
             this.TxtMailSender = new System.Windows.Forms.TextBox();
             this.LblMailSenderLabel = new System.Windows.Forms.Label();
+            this.BtnOpenShopEditor = new System.Windows.Forms.Button();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -2004,6 +2005,7 @@ namespace GrasscutterTools.Forms
             // 
             // TPHome
             // 
+            this.TPHome.Controls.Add(this.BtnOpenShopEditor);
             this.TPHome.Controls.Add(this.BtnOpenDropEditor);
             this.TPHome.Controls.Add(this.LnkNewVersion);
             this.TPHome.Controls.Add(this.LblAbout);
@@ -2394,6 +2396,13 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.LblMailSenderLabel, "LblMailSenderLabel");
             this.LblMailSenderLabel.Name = "LblMailSenderLabel";
             // 
+            // BtnOpenShopEditor
+            // 
+            resources.ApplyResources(this.BtnOpenShopEditor, "BtnOpenShopEditor");
+            this.BtnOpenShopEditor.Name = "BtnOpenShopEditor";
+            this.BtnOpenShopEditor.UseVisualStyleBackColor = true;
+            this.BtnOpenShopEditor.Click += new System.EventHandler(this.BtnOpenShopEditor_Click);
+            // 
             // FormMain
             // 
             resources.ApplyResources(this, "$this");
@@ -2743,5 +2752,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.LinkLabel LnkSetConst;
         private System.Windows.Forms.NumericUpDown NUDSetConstellation;
         private System.Windows.Forms.FlowLayoutPanel FLPEntityType;
+        private System.Windows.Forms.Button BtnOpenShopEditor;
     }
 }

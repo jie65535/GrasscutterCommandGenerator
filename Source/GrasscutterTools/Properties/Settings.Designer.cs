@@ -178,5 +178,17 @@ namespace GrasscutterTools.Properties {
                 this["DefaultMailSender"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ShopJsonPath {
+            get {
+                return ((string)(this["ShopJsonPath"]));
+            }
+            set {
+                this["ShopJsonPath"] = value;
+            }
+        }
     }
 }

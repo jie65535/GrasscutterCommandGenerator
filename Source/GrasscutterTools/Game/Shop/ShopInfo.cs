@@ -66,8 +66,19 @@ namespace GrasscutterTools.Game.Shop
         [JsonProperty("disableType")]
         public int DisableType { get; set; }
 
-
         [JsonProperty("secondarySheetId")]
         public int SecondarySheetId { get; set; }
+
+        [JsonProperty("refreshType")]
+        public ShopRefreshType RefreshType { get; set; }
+
+        [JsonProperty("shopRefreshParam")]
+        public int ShopRefreshParam { get; set; }
+
+
+        public override string ToString()
+        {
+            return $"{GoodsId}:{GameData.Items[GoodsItem.Id]} x{GoodsItem.Count}";
+        }
     }
 }

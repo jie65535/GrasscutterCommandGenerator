@@ -65,6 +65,7 @@ namespace GrasscutterTools.Forms
             Text += "  - by jie65535  - v" + AppVersion.ToString(3);
 #if DEBUG
             Text += "-debug";
+            //Text += "-debug -攻击修改特供版";
 #endif
 
             GameData.LoadResources();
@@ -292,6 +293,27 @@ namespace GrasscutterTools.Forms
             else
             {
                 ToTop(DropEditor);
+            }
+        }
+
+        /// <summary>
+        /// 商店编辑器窗口实例
+        /// </summary>
+        private FormShopEditor ShopEditor;
+
+        /// <summary>
+        /// 点击打开商店编辑器时触发
+        /// </summary>
+        private void BtnOpenShopEditor_Click(object sender, EventArgs e)
+        {
+            if (ShopEditor == null || ShopEditor.IsDisposed)
+            {
+                ShopEditor = new FormShopEditor();
+                ShopEditor.Show();
+            }
+            else
+            {
+                ToTop(ShopEditor);
             }
         }
 
@@ -1184,6 +1206,11 @@ namespace GrasscutterTools.Forms
             if (!string.IsNullOrEmpty(selectedItem))
             {
                 var id = ItemMap.ToId(selectedItem);
+
+                //// 自定义攻击Gadget特供版
+                //SetCommand("/at", $"set n {id}");
+                //return true;
+                
                 if (Check(CommandVersion.V1_3_1))
                     SetCommand("/spawn", $"{id} x{NUDEntityAmout.Value} lv{NUDEntityLevel.Value}" + (ChkInfiniteHP.Checked ? " hp0" : ""));
                 else

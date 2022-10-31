@@ -5468,6 +5468,30 @@
   <data name="&gt;&gt;TPCustom.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="BtnOpenShopEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 187</value>
+  </data>
+  <data name="BtnOpenShopEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnOpenShopEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BtnOpenShopEditor.Text" xml:space="preserve">
+    <value>商店编辑器</value>
+  </data>
+  <data name="&gt;&gt;BtnOpenShopEditor.Name" xml:space="preserve">
+    <value>BtnOpenShopEditor</value>
+  </data>
+  <data name="&gt;&gt;BtnOpenShopEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnOpenShopEditor.Parent" xml:space="preserve">
+    <value>TPHome</value>
+  </data>
+  <data name="&gt;&gt;BtnOpenShopEditor.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="BtnOpenDropEditor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
@@ -5496,7 +5520,7 @@
     <value>TPHome</value>
   </data>
   <data name="&gt;&gt;BtnOpenDropEditor.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="LnkNewVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -5532,7 +5556,7 @@
     <value>TPHome</value>
   </data>
   <data name="&gt;&gt;LnkNewVersion.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="LblAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Left</value>
@@ -5568,7 +5592,7 @@
     <value>TPHome</value>
   </data>
   <data name="&gt;&gt;LblAbout.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="BtnOpenTextMap.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -5598,7 +5622,7 @@
     <value>TPHome</value>
   </data>
   <data name="&gt;&gt;BtnOpenTextMap.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="BtnOpenGachaBannerEditor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -5628,7 +5652,7 @@
     <value>TPHome</value>
   </data>
   <data name="&gt;&gt;BtnOpenGachaBannerEditor.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="GrasscutterToolsIcon.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -5658,7 +5682,7 @@
     <value>TPHome</value>
   </data>
   <data name="&gt;&gt;GrasscutterToolsIcon.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="GrpSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -5898,7 +5922,7 @@
     <value>TPHome</value>
   </data>
   <data name="&gt;&gt;GrpSettings.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="TPHome.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>

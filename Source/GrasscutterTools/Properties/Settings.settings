@@ -41,5 +41,8 @@
     <Setting Name="DefaultMailSender" Type="System.String" Scope="User">
       <Value Profile="(Default)">GrasscutterTools</Value>
     </Setting>
+    <Setting Name="ShopJsonPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
   </Settings>
 </SettingsFile>

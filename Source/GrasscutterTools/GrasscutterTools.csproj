@@ -142,6 +142,7 @@
     <Compile Include="Game\SetStatsCommand.cs" />
     <Compile Include="Game\Shop\ItemParamData.cs" />
     <Compile Include="Game\Shop\ShopInfo.cs" />
+    <Compile Include="Game\Shop\ShopRefreshType.cs" />
     <Compile Include="Game\Shop\ShopTable.cs" />
     <Compile Include="Game\TextMapData.cs" />
     <Compile Include="GOOD\GOOD.cs" />
