@@ -25,7 +25,6 @@ using System.Windows.Forms;
 
 using GrasscutterTools.Game;
 using GrasscutterTools.Game.Shop;
-using GrasscutterTools.GOOD;
 using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
 
@@ -118,16 +117,7 @@ namespace GrasscutterTools.Forms
             }
             catch (Exception ex)
             {
-                try
-                {
-                    // 当Json解析失败时尝试以tsv方式解析
-                    LoadShopsFromTsv(path);
-                    MessageBox.Show("OK", Resources.Tips, MessageBoxButtons.OK);
-                }
-                catch
-                {
-                    MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -137,11 +127,26 @@ namespace GrasscutterTools.Forms
         /// <param name="path">文件路径</param>
         private void LoadShops(string path)
         {
-            // 反序列化
-            var banners = JsonConvert.DeserializeObject<List<ShopTable>>(File.ReadAllText(path));
-            Shops = new Dictionary<int, List<ShopInfo>>(banners.Count);
-            foreach (var item in banners)
-                Shops.Add(item.ShopType, item.Items);
+            try
+            {
+                // 反序列化
+                var banners = JsonConvert.DeserializeObject<List<ShopTable>>(File.ReadAllText(path));
+                Shops = new Dictionary<int, List<ShopInfo>>(banners.Count);
+                foreach (var item in banners)
+                    Shops.Add(item.ShopType, item.Items);
+            }
+            catch (Exception ex)
+            {
+                try
+                {
+                    // 当Json解析失败时尝试以tsv方式解析
+                    LoadShopsFromTsv(path);
+                }
+                catch
+                {
+                    throw ex;
+                }
+            }
         }
 
         /// <summary>

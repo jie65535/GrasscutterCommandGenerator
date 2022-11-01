@@ -347,21 +347,6 @@
   <data name="GrpEntityType.Text" xml:space="preserve">
     <value>列表分類</value>
   </data>
-  <data name="RbEntityAnimal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>62, 21</value>
-  </data>
-  <data name="RbEntityAnimal.Text" xml:space="preserve">
-    <value>生物誌</value>
-  </data>
-  <data name="RbEntityMonster.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 21</value>
-  </data>
-  <data name="RbEntityMonster.Text" xml:space="preserve">
-    <value>討伐對象</value>
-  </data>
-  <data name="LblSpawnDescription.Text" xml:space="preserve">
-    <value>在玩家附近召喚生物</value>
-  </data>
   <data name="LblEntityAmount.Text" xml:space="preserve">
     <value>數量</value>
   </data>
@@ -430,6 +415,9 @@
   <data name="TPHome.Text" xml:space="preserve">
     <value>主頁</value>
   </data>
+  <data name="BtnOpenShopEditor.Text" xml:space="preserve">
+    <value>商店編輯器</value>
+  </data>
   <data name="BtnOpenDropEditor.Text" xml:space="preserve">
     <value>掉落物編輯器</value>
   </data>
@@ -444,10 +432,6 @@
   </data>
   <data name="TPMail.Text" xml:space="preserve">
     <value>郵件</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LblClearMailContent.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="BtnDeleteMailItem.Text" xml:space="preserve">
     <value>- 刪除</value>

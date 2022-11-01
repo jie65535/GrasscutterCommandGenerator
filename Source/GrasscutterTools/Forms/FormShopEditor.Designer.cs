@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormShopEditor));
             this.ListShop = new System.Windows.Forms.ListBox();
             this.ListGoods = new System.Windows.Forms.ListBox();
             this.ListItems = new System.Windows.Forms.ListBox();
@@ -110,113 +111,72 @@
             // 
             // ListShop
             // 
-            this.ListShop.Dock = System.Windows.Forms.DockStyle.Fill;
+            resources.ApplyResources(this.ListShop, "ListShop");
             this.ListShop.FormattingEnabled = true;
-            this.ListShop.ItemHeight = 17;
-            this.ListShop.Location = new System.Drawing.Point(3, 19);
             this.ListShop.Name = "ListShop";
-            this.ListShop.Size = new System.Drawing.Size(244, 178);
-            this.ListShop.TabIndex = 0;
             this.ListShop.SelectedIndexChanged += new System.EventHandler(this.ListShop_SelectedIndexChanged);
             // 
             // ListGoods
             // 
-            this.ListGoods.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.ListGoods, "ListGoods");
             this.ListGoods.FormattingEnabled = true;
-            this.ListGoods.ItemHeight = 17;
-            this.ListGoods.Location = new System.Drawing.Point(3, 19);
             this.ListGoods.Name = "ListGoods";
-            this.ListGoods.Size = new System.Drawing.Size(244, 242);
-            this.ListGoods.TabIndex = 1;
             this.ListGoods.SelectedIndexChanged += new System.EventHandler(this.ListGoods_SelectedIndexChanged);
             // 
             // ListItems
             // 
-            this.ListItems.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.ListItems, "ListItems");
             this.ListItems.FormattingEnabled = true;
-            this.ListItems.ItemHeight = 17;
-            this.ListItems.Location = new System.Drawing.Point(6, 51);
             this.ListItems.Name = "ListItems";
-            this.ListItems.Size = new System.Drawing.Size(238, 446);
-            this.ListItems.TabIndex = 2;
             this.ListItems.SelectedIndexChanged += new System.EventHandler(this.ListItems_SelectedIndexChanged);
             // 
             // GrpShopList
             // 
+            resources.ApplyResources(this.GrpShopList, "GrpShopList");
             this.GrpShopList.Controls.Add(this.ListShop);
-            this.GrpShopList.Location = new System.Drawing.Point(12, 41);
             this.GrpShopList.Name = "GrpShopList";
-            this.GrpShopList.Size = new System.Drawing.Size(250, 200);
-            this.GrpShopList.TabIndex = 3;
             this.GrpShopList.TabStop = false;
-            this.GrpShopList.Text = "商店列表";
             // 
             // GrpGoodsList
             // 
-            this.GrpGoodsList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            resources.ApplyResources(this.GrpGoodsList, "GrpGoodsList");
             this.GrpGoodsList.Controls.Add(this.BtnClearGoods);
             this.GrpGoodsList.Controls.Add(this.BtnDeleteGoods);
             this.GrpGoodsList.Controls.Add(this.ListGoods);
-            this.GrpGoodsList.Location = new System.Drawing.Point(12, 247);
             this.GrpGoodsList.Name = "GrpGoodsList";
-            this.GrpGoodsList.Size = new System.Drawing.Size(250, 302);
-            this.GrpGoodsList.TabIndex = 4;
             this.GrpGoodsList.TabStop = false;
-            this.GrpGoodsList.Text = "商品列表";
             // 
             // BtnClearGoods
             // 
-            this.BtnClearGoods.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnClearGoods.Location = new System.Drawing.Point(112, 273);
+            resources.ApplyResources(this.BtnClearGoods, "BtnClearGoods");
             this.BtnClearGoods.Name = "BtnClearGoods";
-            this.BtnClearGoods.Size = new System.Drawing.Size(100, 23);
-            this.BtnClearGoods.TabIndex = 3;
-            this.BtnClearGoods.Text = "× 清空";
             this.BtnClearGoods.UseVisualStyleBackColor = true;
             this.BtnClearGoods.Click += new System.EventHandler(this.BtnClearGoods_Click);
             // 
             // BtnDeleteGoods
             // 
-            this.BtnDeleteGoods.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnDeleteGoods.Location = new System.Drawing.Point(6, 273);
+            resources.ApplyResources(this.BtnDeleteGoods, "BtnDeleteGoods");
             this.BtnDeleteGoods.Name = "BtnDeleteGoods";
-            this.BtnDeleteGoods.Size = new System.Drawing.Size(100, 23);
-            this.BtnDeleteGoods.TabIndex = 2;
-            this.BtnDeleteGoods.Text = "- 删除";
             this.BtnDeleteGoods.UseVisualStyleBackColor = true;
             this.BtnDeleteGoods.Click += new System.EventHandler(this.BtnDeleteGoods_Click);
             // 
             // GrpItems
             // 
-            this.GrpItems.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.GrpItems, "GrpItems");
             this.GrpItems.Controls.Add(this.TxtItemFilter);
             this.GrpItems.Controls.Add(this.ListItems);
-            this.GrpItems.Location = new System.Drawing.Point(622, 41);
             this.GrpItems.Name = "GrpItems";
-            this.GrpItems.Size = new System.Drawing.Size(250, 508);
-            this.GrpItems.TabIndex = 6;
             this.GrpItems.TabStop = false;
-            this.GrpItems.Text = "物品列表";
             // 
             // TxtItemFilter
             // 
-            this.TxtItemFilter.Location = new System.Drawing.Point(6, 22);
+            resources.ApplyResources(this.TxtItemFilter, "TxtItemFilter");
             this.TxtItemFilter.Name = "TxtItemFilter";
-            this.TxtItemFilter.Size = new System.Drawing.Size(238, 23);
-            this.TxtItemFilter.TabIndex = 3;
             this.TxtItemFilter.TextChanged += new System.EventHandler(this.TxtItemFilter_TextChanged);
             // 
             // GrpGoodsInfo
             // 
-            this.GrpGoodsInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.GrpGoodsInfo, "GrpGoodsInfo");
             this.GrpGoodsInfo.Controls.Add(this.BtnSaveGoods);
             this.GrpGoodsInfo.Controls.Add(this.CmbRefreshType);
             this.GrpGoodsInfo.Controls.Add(this.NUDRefreshParm);
@@ -260,87 +220,62 @@
             this.GrpGoodsInfo.Controls.Add(this.LnkGenGoodsId);
             this.GrpGoodsInfo.Controls.Add(this.label18);
             this.GrpGoodsInfo.Controls.Add(this.label1);
-            this.GrpGoodsInfo.Location = new System.Drawing.Point(268, 41);
             this.GrpGoodsInfo.Name = "GrpGoodsInfo";
-            this.GrpGoodsInfo.Size = new System.Drawing.Size(348, 508);
-            this.GrpGoodsInfo.TabIndex = 5;
             this.GrpGoodsInfo.TabStop = false;
-            this.GrpGoodsInfo.Text = "商品信息";
             // 
             // BtnSaveGoods
             // 
-            this.BtnSaveGoods.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.BtnSaveGoods.Location = new System.Drawing.Point(99, 472);
+            resources.ApplyResources(this.BtnSaveGoods, "BtnSaveGoods");
             this.BtnSaveGoods.Name = "BtnSaveGoods";
-            this.BtnSaveGoods.Size = new System.Drawing.Size(150, 30);
-            this.BtnSaveGoods.TabIndex = 30;
-            this.BtnSaveGoods.Text = "√ 添加或更新";
             this.BtnSaveGoods.UseVisualStyleBackColor = true;
             this.BtnSaveGoods.Click += new System.EventHandler(this.BtnSaveGoods_Click);
             // 
             // CmbRefreshType
             // 
-            this.CmbRefreshType.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            resources.ApplyResources(this.CmbRefreshType, "CmbRefreshType");
             this.CmbRefreshType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbRefreshType.FormattingEnabled = true;
             this.CmbRefreshType.Items.AddRange(new object[] {
-            "无",
-            "天",
-            "周",
-            "月"});
-            this.CmbRefreshType.Location = new System.Drawing.Point(175, 207);
+            resources.GetString("CmbRefreshType.Items"),
+            resources.GetString("CmbRefreshType.Items1"),
+            resources.GetString("CmbRefreshType.Items2"),
+            resources.GetString("CmbRefreshType.Items3")});
             this.CmbRefreshType.Name = "CmbRefreshType";
-            this.CmbRefreshType.Size = new System.Drawing.Size(104, 25);
-            this.CmbRefreshType.TabIndex = 10;
             this.CmbRefreshType.SelectedIndexChanged += new System.EventHandler(this.CmbRefreshType_SelectedIndexChanged);
             // 
             // NUDRefreshParm
             // 
-            this.NUDRefreshParm.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDRefreshParm.Location = new System.Drawing.Point(119, 209);
+            resources.ApplyResources(this.NUDRefreshParm, "NUDRefreshParm");
             this.NUDRefreshParm.Maximum = new decimal(new int[] {
             1000,
             0,
             0,
             0});
             this.NUDRefreshParm.Name = "NUDRefreshParm";
-            this.NUDRefreshParm.Size = new System.Drawing.Size(50, 23);
-            this.NUDRefreshParm.TabIndex = 9;
             // 
             // DTPEndTime
             // 
-            this.DTPEndTime.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.DTPEndTime.CustomFormat = "yyyy\'/\'MM\'/\'dd HH\':\'mm\':\'ss";
+            resources.ApplyResources(this.DTPEndTime, "DTPEndTime");
             this.DTPEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DTPEndTime.Location = new System.Drawing.Point(119, 180);
             this.DTPEndTime.Name = "DTPEndTime";
-            this.DTPEndTime.Size = new System.Drawing.Size(160, 23);
-            this.DTPEndTime.TabIndex = 8;
             this.DTPEndTime.Value = new System.DateTime(2035, 1, 1, 0, 0, 0, 0);
             // 
             // DTPBeginTime
             // 
-            this.DTPBeginTime.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.DTPBeginTime.CustomFormat = "yyyy\'/\'MM\'/\'dd HH\':\'mm\':\'ss";
+            resources.ApplyResources(this.DTPBeginTime, "DTPBeginTime");
             this.DTPBeginTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.DTPBeginTime.Location = new System.Drawing.Point(119, 151);
             this.DTPBeginTime.Name = "DTPBeginTime";
-            this.DTPBeginTime.Size = new System.Drawing.Size(160, 23);
-            this.DTPBeginTime.TabIndex = 7;
             this.DTPBeginTime.Value = new System.DateTime(2022, 1, 1, 0, 0, 0, 0);
             // 
             // NUDGoodsId
             // 
-            this.NUDGoodsId.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDGoodsId.Location = new System.Drawing.Point(119, 32);
+            resources.ApplyResources(this.NUDGoodsId, "NUDGoodsId");
             this.NUDGoodsId.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
             this.NUDGoodsId.Name = "NUDGoodsId";
-            this.NUDGoodsId.Size = new System.Drawing.Size(120, 23);
-            this.NUDGoodsId.TabIndex = 0;
             this.NUDGoodsId.Value = new decimal(new int[] {
             101001,
             0,
@@ -349,16 +284,13 @@
             // 
             // NUDMaxLevel
             // 
-            this.NUDMaxLevel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDMaxLevel.Location = new System.Drawing.Point(198, 122);
+            resources.ApplyResources(this.NUDMaxLevel, "NUDMaxLevel");
             this.NUDMaxLevel.Maximum = new decimal(new int[] {
             99,
             0,
             0,
             0});
             this.NUDMaxLevel.Name = "NUDMaxLevel";
-            this.NUDMaxLevel.Size = new System.Drawing.Size(50, 23);
-            this.NUDMaxLevel.TabIndex = 6;
             this.NUDMaxLevel.Value = new decimal(new int[] {
             61,
             0,
@@ -367,16 +299,13 @@
             // 
             // NUDMinLevel
             // 
-            this.NUDMinLevel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDMinLevel.Location = new System.Drawing.Point(119, 122);
+            resources.ApplyResources(this.NUDMinLevel, "NUDMinLevel");
             this.NUDMinLevel.Maximum = new decimal(new int[] {
             99,
             0,
             0,
             0});
             this.NUDMinLevel.Name = "NUDMinLevel";
-            this.NUDMinLevel.Size = new System.Drawing.Size(50, 23);
-            this.NUDMinLevel.TabIndex = 5;
             this.NUDMinLevel.Value = new decimal(new int[] {
             1,
             0,
@@ -385,99 +314,77 @@
             // 
             // NUDCostItem4
             // 
-            this.NUDCostItem4.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDCostItem4.Location = new System.Drawing.Point(119, 412);
+            resources.ApplyResources(this.NUDCostItem4, "NUDCostItem4");
             this.NUDCostItem4.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
             this.NUDCostItem4.Name = "NUDCostItem4";
-            this.NUDCostItem4.Size = new System.Drawing.Size(80, 23);
-            this.NUDCostItem4.TabIndex = 20;
             // 
             // NUDCostItem3
             // 
-            this.NUDCostItem3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDCostItem3.Location = new System.Drawing.Point(119, 383);
+            resources.ApplyResources(this.NUDCostItem3, "NUDCostItem3");
             this.NUDCostItem3.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
             this.NUDCostItem3.Name = "NUDCostItem3";
-            this.NUDCostItem3.Size = new System.Drawing.Size(80, 23);
-            this.NUDCostItem3.TabIndex = 18;
             // 
             // NUDCostItem2
             // 
-            this.NUDCostItem2.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDCostItem2.Location = new System.Drawing.Point(119, 354);
+            resources.ApplyResources(this.NUDCostItem2, "NUDCostItem2");
             this.NUDCostItem2.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
             this.NUDCostItem2.Name = "NUDCostItem2";
-            this.NUDCostItem2.Size = new System.Drawing.Size(80, 23);
-            this.NUDCostItem2.TabIndex = 16;
             // 
             // NUDCostItem1
             // 
-            this.NUDCostItem1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDCostItem1.Location = new System.Drawing.Point(119, 325);
+            resources.ApplyResources(this.NUDCostItem1, "NUDCostItem1");
             this.NUDCostItem1.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
             this.NUDCostItem1.Name = "NUDCostItem1";
-            this.NUDCostItem1.Size = new System.Drawing.Size(80, 23);
-            this.NUDCostItem1.TabIndex = 14;
             // 
             // NUDCostMcoin
             // 
-            this.NUDCostMcoin.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDCostMcoin.Location = new System.Drawing.Point(119, 296);
+            resources.ApplyResources(this.NUDCostMcoin, "NUDCostMcoin");
             this.NUDCostMcoin.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
             this.NUDCostMcoin.Name = "NUDCostMcoin";
-            this.NUDCostMcoin.Size = new System.Drawing.Size(120, 23);
-            this.NUDCostMcoin.TabIndex = 13;
             // 
             // NUDCostScoin
             // 
-            this.NUDCostScoin.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDCostScoin.Location = new System.Drawing.Point(119, 267);
+            resources.ApplyResources(this.NUDCostScoin, "NUDCostScoin");
             this.NUDCostScoin.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
             this.NUDCostScoin.Name = "NUDCostScoin";
-            this.NUDCostScoin.Size = new System.Drawing.Size(120, 23);
-            this.NUDCostScoin.TabIndex = 12;
             // 
             // NUDCostHcoin
             // 
-            this.NUDCostHcoin.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDCostHcoin.Location = new System.Drawing.Point(119, 238);
+            resources.ApplyResources(this.NUDCostHcoin, "NUDCostHcoin");
             this.NUDCostHcoin.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
             this.NUDCostHcoin.Name = "NUDCostHcoin";
-            this.NUDCostHcoin.Size = new System.Drawing.Size(120, 23);
-            this.NUDCostHcoin.TabIndex = 11;
             // 
             // NUDBuyLimit
             // 
-            this.NUDBuyLimit.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDBuyLimit.Location = new System.Drawing.Point(119, 90);
+            resources.ApplyResources(this.NUDBuyLimit, "NUDBuyLimit");
             this.NUDBuyLimit.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -489,8 +396,6 @@
             0,
             0});
             this.NUDBuyLimit.Name = "NUDBuyLimit";
-            this.NUDBuyLimit.Size = new System.Drawing.Size(120, 23);
-            this.NUDBuyLimit.TabIndex = 4;
             this.NUDBuyLimit.Value = new decimal(new int[] {
             100,
             0,
@@ -499,60 +404,47 @@
             // 
             // NUDCostItem4Count
             // 
-            this.NUDCostItem4Count.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDCostItem4Count.Location = new System.Drawing.Point(219, 412);
+            resources.ApplyResources(this.NUDCostItem4Count, "NUDCostItem4Count");
             this.NUDCostItem4Count.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
             this.NUDCostItem4Count.Name = "NUDCostItem4Count";
-            this.NUDCostItem4Count.Size = new System.Drawing.Size(60, 23);
-            this.NUDCostItem4Count.TabIndex = 21;
             // 
             // NUDCostItem3Count
             // 
-            this.NUDCostItem3Count.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDCostItem3Count.Location = new System.Drawing.Point(219, 383);
+            resources.ApplyResources(this.NUDCostItem3Count, "NUDCostItem3Count");
             this.NUDCostItem3Count.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
             this.NUDCostItem3Count.Name = "NUDCostItem3Count";
-            this.NUDCostItem3Count.Size = new System.Drawing.Size(60, 23);
-            this.NUDCostItem3Count.TabIndex = 19;
             // 
             // NUDCostItem2Count
             // 
-            this.NUDCostItem2Count.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDCostItem2Count.Location = new System.Drawing.Point(219, 354);
+            resources.ApplyResources(this.NUDCostItem2Count, "NUDCostItem2Count");
             this.NUDCostItem2Count.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
             this.NUDCostItem2Count.Name = "NUDCostItem2Count";
-            this.NUDCostItem2Count.Size = new System.Drawing.Size(60, 23);
-            this.NUDCostItem2Count.TabIndex = 17;
             // 
             // NUDCostItem1Count
             // 
-            this.NUDCostItem1Count.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDCostItem1Count.Location = new System.Drawing.Point(219, 325);
+            resources.ApplyResources(this.NUDCostItem1Count, "NUDCostItem1Count");
             this.NUDCostItem1Count.Maximum = new decimal(new int[] {
             2147483647,
             0,
             0,
             0});
             this.NUDCostItem1Count.Name = "NUDCostItem1Count";
-            this.NUDCostItem1Count.Size = new System.Drawing.Size(60, 23);
-            this.NUDCostItem1Count.TabIndex = 15;
             // 
             // NUDGoodsItemCount
             // 
-            this.NUDGoodsItemCount.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.NUDGoodsItemCount.Location = new System.Drawing.Point(257, 61);
+            resources.ApplyResources(this.NUDGoodsItemCount, "NUDGoodsItemCount");
             this.NUDGoodsItemCount.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -564,8 +456,6 @@
             0,
             0});
             this.NUDGoodsItemCount.Name = "NUDGoodsItemCount";
-            this.NUDGoodsItemCount.Size = new System.Drawing.Size(70, 23);
-            this.NUDGoodsItemCount.TabIndex = 3;
             this.NUDGoodsItemCount.Value = new decimal(new int[] {
             1,
             0,
@@ -574,268 +464,144 @@
             // 
             // TxtGoodsItem
             // 
-            this.TxtGoodsItem.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.TxtGoodsItem.Location = new System.Drawing.Point(95, 61);
+            resources.ApplyResources(this.TxtGoodsItem, "TxtGoodsItem");
             this.TxtGoodsItem.Name = "TxtGoodsItem";
-            this.TxtGoodsItem.Size = new System.Drawing.Size(144, 23);
-            this.TxtGoodsItem.TabIndex = 2;
             // 
             // LblRefreshModeLabel
             // 
-            this.LblRefreshModeLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblRefreshModeLabel.AutoSize = true;
-            this.LblRefreshModeLabel.Location = new System.Drawing.Point(45, 211);
+            resources.ApplyResources(this.LblRefreshModeLabel, "LblRefreshModeLabel");
             this.LblRefreshModeLabel.Name = "LblRefreshModeLabel";
-            this.LblRefreshModeLabel.Size = new System.Drawing.Size(68, 17);
-            this.LblRefreshModeLabel.TabIndex = 15;
-            this.LblRefreshModeLabel.Text = "刷新方式：";
             // 
             // LblBuyLevelLabel
             // 
-            this.LblBuyLevelLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblBuyLevelLabel.AutoSize = true;
-            this.LblBuyLevelLabel.Location = new System.Drawing.Point(45, 125);
+            resources.ApplyResources(this.LblBuyLevelLabel, "LblBuyLevelLabel");
             this.LblBuyLevelLabel.Name = "LblBuyLevelLabel";
-            this.LblBuyLevelLabel.Size = new System.Drawing.Size(68, 17);
-            this.LblBuyLevelLabel.TabIndex = 12;
-            this.LblBuyLevelLabel.Text = "限购等级：";
             // 
             // LblEndTimeLabel
             // 
-            this.LblEndTimeLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblEndTimeLabel.AutoSize = true;
-            this.LblEndTimeLabel.Location = new System.Drawing.Point(45, 185);
+            resources.ApplyResources(this.LblEndTimeLabel, "LblEndTimeLabel");
             this.LblEndTimeLabel.Name = "LblEndTimeLabel";
-            this.LblEndTimeLabel.Size = new System.Drawing.Size(68, 17);
-            this.LblEndTimeLabel.TabIndex = 9;
-            this.LblEndTimeLabel.Text = "下架时间：";
             // 
             // LblBeginTimeLabel
             // 
-            this.LblBeginTimeLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblBeginTimeLabel.AutoSize = true;
-            this.LblBeginTimeLabel.Location = new System.Drawing.Point(45, 156);
+            resources.ApplyResources(this.LblBeginTimeLabel, "LblBeginTimeLabel");
             this.LblBeginTimeLabel.Name = "LblBeginTimeLabel";
-            this.LblBeginTimeLabel.Size = new System.Drawing.Size(68, 17);
-            this.LblBeginTimeLabel.TabIndex = 8;
-            this.LblBeginTimeLabel.Text = "上架时间：";
             // 
             // LblCostItem4Label
             // 
-            this.LblCostItem4Label.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblCostItem4Label.AutoSize = true;
-            this.LblCostItem4Label.Location = new System.Drawing.Point(38, 412);
+            resources.ApplyResources(this.LblCostItem4Label, "LblCostItem4Label");
             this.LblCostItem4Label.Name = "LblCostItem4Label";
-            this.LblCostItem4Label.Size = new System.Drawing.Size(75, 17);
-            this.LblCostItem4Label.TabIndex = 7;
-            this.LblCostItem4Label.Text = "消耗物品4：";
             // 
             // LblCostItem3Label
             // 
-            this.LblCostItem3Label.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblCostItem3Label.AutoSize = true;
-            this.LblCostItem3Label.Location = new System.Drawing.Point(38, 383);
+            resources.ApplyResources(this.LblCostItem3Label, "LblCostItem3Label");
             this.LblCostItem3Label.Name = "LblCostItem3Label";
-            this.LblCostItem3Label.Size = new System.Drawing.Size(75, 17);
-            this.LblCostItem3Label.TabIndex = 7;
-            this.LblCostItem3Label.Text = "消耗物品3：";
             // 
             // LblCostItem2Label
             // 
-            this.LblCostItem2Label.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblCostItem2Label.AutoSize = true;
-            this.LblCostItem2Label.Location = new System.Drawing.Point(38, 356);
+            resources.ApplyResources(this.LblCostItem2Label, "LblCostItem2Label");
             this.LblCostItem2Label.Name = "LblCostItem2Label";
-            this.LblCostItem2Label.Size = new System.Drawing.Size(75, 17);
-            this.LblCostItem2Label.TabIndex = 7;
-            this.LblCostItem2Label.Text = "消耗物品2：";
             // 
             // LblCostItem1Label
             // 
-            this.LblCostItem1Label.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblCostItem1Label.AutoSize = true;
-            this.LblCostItem1Label.Location = new System.Drawing.Point(38, 327);
+            resources.ApplyResources(this.LblCostItem1Label, "LblCostItem1Label");
             this.LblCostItem1Label.Name = "LblCostItem1Label";
-            this.LblCostItem1Label.Size = new System.Drawing.Size(75, 17);
-            this.LblCostItem1Label.TabIndex = 7;
-            this.LblCostItem1Label.Text = "消耗物品1：";
             // 
             // LblCostMcoinLabel
             // 
-            this.LblCostMcoinLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblCostMcoinLabel.AutoSize = true;
-            this.LblCostMcoinLabel.Location = new System.Drawing.Point(21, 298);
+            resources.ApplyResources(this.LblCostMcoinLabel, "LblCostMcoinLabel");
             this.LblCostMcoinLabel.Name = "LblCostMcoinLabel";
-            this.LblCostMcoinLabel.Size = new System.Drawing.Size(92, 17);
-            this.LblCostMcoinLabel.TabIndex = 7;
-            this.LblCostMcoinLabel.Text = "消耗创世结晶：";
             // 
             // LblCostScoinLabel
             // 
-            this.LblCostScoinLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblCostScoinLabel.AutoSize = true;
-            this.LblCostScoinLabel.Location = new System.Drawing.Point(45, 269);
+            resources.ApplyResources(this.LblCostScoinLabel, "LblCostScoinLabel");
             this.LblCostScoinLabel.Name = "LblCostScoinLabel";
-            this.LblCostScoinLabel.Size = new System.Drawing.Size(68, 17);
-            this.LblCostScoinLabel.TabIndex = 7;
-            this.LblCostScoinLabel.Text = "消耗摩拉：";
             // 
             // LblCostHcoinLabel
             // 
-            this.LblCostHcoinLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblCostHcoinLabel.AutoSize = true;
-            this.LblCostHcoinLabel.Location = new System.Drawing.Point(45, 240);
+            resources.ApplyResources(this.LblCostHcoinLabel, "LblCostHcoinLabel");
             this.LblCostHcoinLabel.Name = "LblCostHcoinLabel";
-            this.LblCostHcoinLabel.Size = new System.Drawing.Size(68, 17);
-            this.LblCostHcoinLabel.TabIndex = 7;
-            this.LblCostHcoinLabel.Text = "消耗原石：";
             // 
             // LblBuyLimitLabel
             // 
-            this.LblBuyLimitLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblBuyLimitLabel.AutoSize = true;
-            this.LblBuyLimitLabel.Location = new System.Drawing.Point(45, 92);
+            resources.ApplyResources(this.LblBuyLimitLabel, "LblBuyLimitLabel");
             this.LblBuyLimitLabel.Name = "LblBuyLimitLabel";
-            this.LblBuyLimitLabel.Size = new System.Drawing.Size(68, 17);
-            this.LblBuyLimitLabel.TabIndex = 6;
-            this.LblBuyLimitLabel.Text = "限购数量：";
             // 
             // LblGoodsIdLabel
             // 
-            this.LblGoodsIdLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblGoodsIdLabel.AutoSize = true;
-            this.LblGoodsIdLabel.Location = new System.Drawing.Point(56, 34);
+            resources.ApplyResources(this.LblGoodsIdLabel, "LblGoodsIdLabel");
             this.LblGoodsIdLabel.Name = "LblGoodsIdLabel";
-            this.LblGoodsIdLabel.Size = new System.Drawing.Size(57, 17);
-            this.LblGoodsIdLabel.TabIndex = 4;
-            this.LblGoodsIdLabel.Text = "商品ID：";
             // 
             // LblGoodsItemLabel
             // 
-            this.LblGoodsItemLabel.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LblGoodsItemLabel.AutoSize = true;
-            this.LblGoodsItemLabel.Location = new System.Drawing.Point(45, 64);
+            resources.ApplyResources(this.LblGoodsItemLabel, "LblGoodsItemLabel");
             this.LblGoodsItemLabel.Name = "LblGoodsItemLabel";
-            this.LblGoodsItemLabel.Size = new System.Drawing.Size(44, 17);
-            this.LblGoodsItemLabel.TabIndex = 0;
-            this.LblGoodsItemLabel.Text = "商品：";
             // 
             // label13
             // 
-            this.label13.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(207, 386);
+            resources.ApplyResources(this.label13, "label13");
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(14, 17);
-            this.label13.TabIndex = 2;
-            this.label13.Text = "x";
             // 
             // label12
             // 
-            this.label12.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(207, 357);
+            resources.ApplyResources(this.label12, "label12");
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(14, 17);
-            this.label12.TabIndex = 2;
-            this.label12.Text = "x";
             // 
             // label11
             // 
-            this.label11.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(207, 328);
+            resources.ApplyResources(this.label11, "label11");
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(14, 17);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "x";
             // 
             // label14
             // 
-            this.label14.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(207, 415);
+            resources.ApplyResources(this.label14, "label14");
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(14, 17);
-            this.label14.TabIndex = 2;
-            this.label14.Text = "x";
             // 
             // LnkGenGoodsId
             // 
-            this.LnkGenGoodsId.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.LnkGenGoodsId.AutoSize = true;
-            this.LnkGenGoodsId.Location = new System.Drawing.Point(247, 34);
+            resources.ApplyResources(this.LnkGenGoodsId, "LnkGenGoodsId");
             this.LnkGenGoodsId.Name = "LnkGenGoodsId";
-            this.LnkGenGoodsId.Size = new System.Drawing.Size(45, 17);
-            this.LnkGenGoodsId.TabIndex = 1;
             this.LnkGenGoodsId.TabStop = true;
-            this.LnkGenGoodsId.Text = "生成ID";
             this.LnkGenGoodsId.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkGenGoodsId_LinkClicked);
             // 
             // label18
             // 
-            this.label18.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(175, 124);
+            resources.ApplyResources(this.label18, "label18");
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(17, 17);
-            this.label18.TabIndex = 13;
-            this.label18.Text = "~";
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(245, 64);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 17);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "x";
             // 
             // BtnSave
             // 
-            this.BtnSave.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.BtnSave.Location = new System.Drawing.Point(772, 12);
+            resources.ApplyResources(this.BtnSave, "BtnSave");
             this.BtnSave.Name = "BtnSave";
-            this.BtnSave.Size = new System.Drawing.Size(100, 23);
-            this.BtnSave.TabIndex = 2;
-            this.BtnSave.Text = "保存";
             this.BtnSave.UseVisualStyleBackColor = true;
             this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
             // BtnLoad
             // 
-            this.BtnLoad.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.BtnLoad.Location = new System.Drawing.Point(666, 12);
+            resources.ApplyResources(this.BtnLoad, "BtnLoad");
             this.BtnLoad.Name = "BtnLoad";
-            this.BtnLoad.Size = new System.Drawing.Size(100, 23);
-            this.BtnLoad.TabIndex = 1;
-            this.BtnLoad.Text = "加载";
             this.BtnLoad.UseVisualStyleBackColor = true;
             this.BtnLoad.Click += new System.EventHandler(this.BtnLoad_Click);
             // 
             // TxtShopJsonPath
             // 
-            this.TxtShopJsonPath.Location = new System.Drawing.Point(122, 12);
+            resources.ApplyResources(this.TxtShopJsonPath, "TxtShopJsonPath");
             this.TxtShopJsonPath.Name = "TxtShopJsonPath";
-            this.TxtShopJsonPath.Size = new System.Drawing.Size(538, 23);
-            this.TxtShopJsonPath.TabIndex = 0;
             // 
             // LblShopPathLabel
             // 
-            this.LblShopPathLabel.AutoSize = true;
-            this.LblShopPathLabel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.LblShopPathLabel.Location = new System.Drawing.Point(11, 15);
+            resources.ApplyResources(this.LblShopPathLabel, "LblShopPathLabel");
             this.LblShopPathLabel.Name = "LblShopPathLabel";
-            this.LblShopPathLabel.Size = new System.Drawing.Size(105, 17);
-            this.LblShopPathLabel.TabIndex = 7;
-            this.LblShopPathLabel.Text = "Shop.json 路径：";
             // 
             // FormShopEditor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.BtnSave);
             this.Controls.Add(this.BtnLoad);
             this.Controls.Add(this.TxtShopJsonPath);
@@ -844,12 +610,7 @@
             this.Controls.Add(this.GrpItems);
             this.Controls.Add(this.GrpGoodsList);
             this.Controls.Add(this.GrpShopList);
-            this.Font = new System.Drawing.Font("微软雅黑", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.MinimumSize = new System.Drawing.Size(900, 600);
             this.Name = "FormShopEditor";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Shop.json Editor";
             this.GrpShopList.ResumeLayout(false);
             this.GrpGoodsList.ResumeLayout(false);
             this.GrpItems.ResumeLayout(false);

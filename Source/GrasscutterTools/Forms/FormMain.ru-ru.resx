@@ -868,18 +868,6 @@
   <data name="GrpSpawnRecord.Text" xml:space="preserve">
     <value>Список мобов</value>
   </data>
-  <data name="RbEntityMonster.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 21</value>
-  </data>
-  <data name="RbEntityMonster.Text" xml:space="preserve">
-    <value>Монстры</value>
-  </data>
-  <data name="RbEntityAnimal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 21</value>
-  </data>
-  <data name="RbEntityAnimal.Text" xml:space="preserve">
-    <value>Животные</value>
-  </data>
   <data name="FLPEntityType.Size" type="System.Drawing.Size, System.Drawing">
     <value>97, 183</value>
   </data>
@@ -1083,6 +1071,12 @@
   <data name="TPCustom.Text" xml:space="preserve">
     <value>Кастомное</value>
   </data>
+  <data name="BtnOpenShopEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="BtnOpenShopEditor.Text" xml:space="preserve">
+    <value>Редактор магазина</value>
+  </data>
   <data name="BtnOpenDropEditor.Location" type="System.Drawing.Point, System.Drawing">
     <value>459, 216</value>
   </data>
@@ -1283,9 +1277,5 @@
   </data>
   <data name="TPMail.Text" xml:space="preserve">
     <value>Почта</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
 </root>
