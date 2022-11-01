@@ -33,7 +33,10 @@
             this.ListItems = new System.Windows.Forms.ListBox();
             this.GrpShopList = new System.Windows.Forms.GroupBox();
             this.GrpGoodsList = new System.Windows.Forms.GroupBox();
+            this.BtnClearGoods = new System.Windows.Forms.Button();
+            this.BtnDeleteGoods = new System.Windows.Forms.Button();
             this.GrpItems = new System.Windows.Forms.GroupBox();
+            this.TxtItemFilter = new System.Windows.Forms.TextBox();
             this.GrpGoodsInfo = new System.Windows.Forms.GroupBox();
             this.BtnSaveGoods = new System.Windows.Forms.Button();
             this.CmbRefreshType = new System.Windows.Forms.ComboBox();
@@ -82,7 +85,6 @@
             this.BtnLoad = new System.Windows.Forms.Button();
             this.TxtShopJsonPath = new System.Windows.Forms.TextBox();
             this.LblShopPathLabel = new System.Windows.Forms.Label();
-            this.TxtItemFilter = new System.Windows.Forms.TextBox();
             this.GrpShopList.SuspendLayout();
             this.GrpGoodsList.SuspendLayout();
             this.GrpItems.SuspendLayout();
@@ -113,18 +115,20 @@
             this.ListShop.ItemHeight = 17;
             this.ListShop.Location = new System.Drawing.Point(3, 19);
             this.ListShop.Name = "ListShop";
-            this.ListShop.Size = new System.Drawing.Size(244, 169);
+            this.ListShop.Size = new System.Drawing.Size(244, 178);
             this.ListShop.TabIndex = 0;
             this.ListShop.SelectedIndexChanged += new System.EventHandler(this.ListShop_SelectedIndexChanged);
             // 
             // ListGoods
             // 
-            this.ListGoods.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ListGoods.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ListGoods.FormattingEnabled = true;
             this.ListGoods.ItemHeight = 17;
             this.ListGoods.Location = new System.Drawing.Point(3, 19);
             this.ListGoods.Name = "ListGoods";
-            this.ListGoods.Size = new System.Drawing.Size(244, 289);
+            this.ListGoods.Size = new System.Drawing.Size(244, 242);
             this.ListGoods.TabIndex = 1;
             this.ListGoods.SelectedIndexChanged += new System.EventHandler(this.ListGoods_SelectedIndexChanged);
             // 
@@ -146,7 +150,7 @@
             this.GrpShopList.Controls.Add(this.ListShop);
             this.GrpShopList.Location = new System.Drawing.Point(12, 41);
             this.GrpShopList.Name = "GrpShopList";
-            this.GrpShopList.Size = new System.Drawing.Size(250, 191);
+            this.GrpShopList.Size = new System.Drawing.Size(250, 200);
             this.GrpShopList.TabIndex = 3;
             this.GrpShopList.TabStop = false;
             this.GrpShopList.Text = "商店列表";
@@ -155,13 +159,37 @@
             // 
             this.GrpGoodsList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.GrpGoodsList.Controls.Add(this.BtnClearGoods);
+            this.GrpGoodsList.Controls.Add(this.BtnDeleteGoods);
             this.GrpGoodsList.Controls.Add(this.ListGoods);
-            this.GrpGoodsList.Location = new System.Drawing.Point(12, 238);
+            this.GrpGoodsList.Location = new System.Drawing.Point(12, 247);
             this.GrpGoodsList.Name = "GrpGoodsList";
-            this.GrpGoodsList.Size = new System.Drawing.Size(250, 311);
+            this.GrpGoodsList.Size = new System.Drawing.Size(250, 302);
             this.GrpGoodsList.TabIndex = 4;
             this.GrpGoodsList.TabStop = false;
             this.GrpGoodsList.Text = "商品列表";
+            // 
+            // BtnClearGoods
+            // 
+            this.BtnClearGoods.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BtnClearGoods.Location = new System.Drawing.Point(112, 273);
+            this.BtnClearGoods.Name = "BtnClearGoods";
+            this.BtnClearGoods.Size = new System.Drawing.Size(100, 23);
+            this.BtnClearGoods.TabIndex = 3;
+            this.BtnClearGoods.Text = "× 清空";
+            this.BtnClearGoods.UseVisualStyleBackColor = true;
+            this.BtnClearGoods.Click += new System.EventHandler(this.BtnClearGoods_Click);
+            // 
+            // BtnDeleteGoods
+            // 
+            this.BtnDeleteGoods.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BtnDeleteGoods.Location = new System.Drawing.Point(6, 273);
+            this.BtnDeleteGoods.Name = "BtnDeleteGoods";
+            this.BtnDeleteGoods.Size = new System.Drawing.Size(100, 23);
+            this.BtnDeleteGoods.TabIndex = 2;
+            this.BtnDeleteGoods.Text = "- 删除";
+            this.BtnDeleteGoods.UseVisualStyleBackColor = true;
+            this.BtnDeleteGoods.Click += new System.EventHandler(this.BtnDeleteGoods_Click);
             // 
             // GrpItems
             // 
@@ -175,6 +203,14 @@
             this.GrpItems.TabIndex = 6;
             this.GrpItems.TabStop = false;
             this.GrpItems.Text = "物品列表";
+            // 
+            // TxtItemFilter
+            // 
+            this.TxtItemFilter.Location = new System.Drawing.Point(6, 22);
+            this.TxtItemFilter.Name = "TxtItemFilter";
+            this.TxtItemFilter.Size = new System.Drawing.Size(238, 23);
+            this.TxtItemFilter.TabIndex = 3;
+            this.TxtItemFilter.TextChanged += new System.EventHandler(this.TxtItemFilter_TextChanged);
             // 
             // GrpGoodsInfo
             // 
@@ -234,11 +270,11 @@
             // BtnSaveGoods
             // 
             this.BtnSaveGoods.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.BtnSaveGoods.Location = new System.Drawing.Point(114, 472);
+            this.BtnSaveGoods.Location = new System.Drawing.Point(99, 472);
             this.BtnSaveGoods.Name = "BtnSaveGoods";
-            this.BtnSaveGoods.Size = new System.Drawing.Size(120, 30);
+            this.BtnSaveGoods.Size = new System.Drawing.Size(150, 30);
             this.BtnSaveGoods.TabIndex = 30;
-            this.BtnSaveGoods.Text = "√ 保存";
+            this.BtnSaveGoods.Text = "√ 添加或更新";
             this.BtnSaveGoods.UseVisualStyleBackColor = true;
             this.BtnSaveGoods.Click += new System.EventHandler(this.BtnSaveGoods_Click);
             // 
@@ -262,6 +298,11 @@
             // 
             this.NUDRefreshParm.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.NUDRefreshParm.Location = new System.Drawing.Point(119, 209);
+            this.NUDRefreshParm.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
             this.NUDRefreshParm.Name = "NUDRefreshParm";
             this.NUDRefreshParm.Size = new System.Drawing.Size(50, 23);
             this.NUDRefreshParm.TabIndex = 9;
@@ -275,6 +316,7 @@
             this.DTPEndTime.Name = "DTPEndTime";
             this.DTPEndTime.Size = new System.Drawing.Size(160, 23);
             this.DTPEndTime.TabIndex = 8;
+            this.DTPEndTime.Value = new System.DateTime(2035, 1, 1, 0, 0, 0, 0);
             // 
             // DTPBeginTime
             // 
@@ -285,6 +327,7 @@
             this.DTPBeginTime.Name = "DTPBeginTime";
             this.DTPBeginTime.Size = new System.Drawing.Size(160, 23);
             this.DTPBeginTime.TabIndex = 7;
+            this.DTPBeginTime.Value = new System.DateTime(2022, 1, 1, 0, 0, 0, 0);
             // 
             // NUDGoodsId
             // 
@@ -752,7 +795,7 @@
             // BtnSave
             // 
             this.BtnSave.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.BtnSave.Location = new System.Drawing.Point(720, 12);
+            this.BtnSave.Location = new System.Drawing.Point(772, 12);
             this.BtnSave.Name = "BtnSave";
             this.BtnSave.Size = new System.Drawing.Size(100, 23);
             this.BtnSave.TabIndex = 2;
@@ -763,7 +806,7 @@
             // BtnLoad
             // 
             this.BtnLoad.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.BtnLoad.Location = new System.Drawing.Point(615, 12);
+            this.BtnLoad.Location = new System.Drawing.Point(666, 12);
             this.BtnLoad.Name = "BtnLoad";
             this.BtnLoad.Size = new System.Drawing.Size(100, 23);
             this.BtnLoad.TabIndex = 1;
@@ -775,7 +818,7 @@
             // 
             this.TxtShopJsonPath.Location = new System.Drawing.Point(122, 12);
             this.TxtShopJsonPath.Name = "TxtShopJsonPath";
-            this.TxtShopJsonPath.Size = new System.Drawing.Size(487, 23);
+            this.TxtShopJsonPath.Size = new System.Drawing.Size(538, 23);
             this.TxtShopJsonPath.TabIndex = 0;
             // 
             // LblShopPathLabel
@@ -787,14 +830,6 @@
             this.LblShopPathLabel.Size = new System.Drawing.Size(105, 17);
             this.LblShopPathLabel.TabIndex = 7;
             this.LblShopPathLabel.Text = "Shop.json 路径：";
-            // 
-            // TxtItemFilter
-            // 
-            this.TxtItemFilter.Location = new System.Drawing.Point(6, 22);
-            this.TxtItemFilter.Name = "TxtItemFilter";
-            this.TxtItemFilter.Size = new System.Drawing.Size(238, 23);
-            this.TxtItemFilter.TabIndex = 3;
-            this.TxtItemFilter.TextChanged += new System.EventHandler(this.TxtItemFilter_TextChanged);
             // 
             // FormShopEditor
             // 
@@ -900,5 +935,7 @@
         private System.Windows.Forms.Label LblRefreshModeLabel;
         private System.Windows.Forms.Button BtnSaveGoods;
         private System.Windows.Forms.TextBox TxtItemFilter;
+        private System.Windows.Forms.Button BtnClearGoods;
+        private System.Windows.Forms.Button BtnDeleteGoods;
     }
 }

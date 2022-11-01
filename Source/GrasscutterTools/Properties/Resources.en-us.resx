@@ -279,4 +279,7 @@ Improvement suggestions have been submitted, please use caution to send emails t
   <data name="ShopType" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\ShopType.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="GoodsIDConflictPrompt" xml:space="preserve">
+    <value>There is a conflict between the current goods ID and the ID in other stores, please replace with another ID or automatically generate an ID</value>
+  </data>
 </root>

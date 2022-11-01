@@ -1,4 +1,23 @@
-﻿using System;
+﻿/**
+ *  Grasscutter Tools
+ *  Copyright (C) 2022 jie65535
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as published
+ *  by the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ **/
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -6,6 +25,7 @@ using System.Windows.Forms;
 
 using GrasscutterTools.Game;
 using GrasscutterTools.Game.Shop;
+using GrasscutterTools.GOOD;
 using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
 
@@ -17,11 +37,17 @@ namespace GrasscutterTools.Forms
     {
         #region - 成员 -
 
+        /// <summary>
+        /// 商店列表数据
+        /// </summary>
         private Dictionary<int, List<ShopInfo>> Shops = new Dictionary<int, List<ShopInfo>>();
 
-        private List<ShopInfo> SelectedShop = new List<ShopInfo>();
+        /// <summary>
+        /// 选中的商店类型
+        /// </summary>
+        private int SelectedShopType;
 
-        #endregion
+        #endregion - 成员 -
 
         #region - 构造与窗体事件 -
 
@@ -69,9 +95,9 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void BtnLoad_Click(object sender, EventArgs e)
         {
+            var path = TxtShopJsonPath.Text.Trim();
             try
             {
-                var path = TxtShopJsonPath.Text.Trim();
                 if (path == string.Empty)
                 {
                     var dialog = new OpenFileDialog
@@ -92,14 +118,23 @@ namespace GrasscutterTools.Forms
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                try
+                {
+                    // 当Json解析失败时尝试以tsv方式解析
+                    LoadShopsFromTsv(path);
+                    MessageBox.Show("OK", Resources.Tips, MessageBoxButtons.OK);
+                }
+                catch
+                {
+                    MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
         /// <summary>
         /// 加载商店
         /// </summary>
-        /// <param name="path"></param>
+        /// <param name="path">文件路径</param>
         private void LoadShops(string path)
         {
             // 反序列化
@@ -108,6 +143,50 @@ namespace GrasscutterTools.Forms
             foreach (var item in banners)
                 Shops.Add(item.ShopType, item.Items);
         }
+
+        /// <summary>
+        /// 从TSV加载商店
+        /// </summary>
+        /// <param name="path">文件路径</param>
+        private void LoadShopsFromTsv(string path)
+        {
+            var lines = File.ReadAllLines(path);
+            Shops = new Dictionary<int, List<ShopInfo>>();
+            for (int i = 1; i < lines.Length; i++)
+            {
+                var cells = lines[i].Split('\t');
+
+                var goods = new ShopInfo
+                {
+                    GoodsId = int.Parse(cells[0]),
+                    GoodsItem = new ItemParamData(int.Parse(cells[2]), int.Parse(cells[4])),
+                    BuyLimit = TryParse(cells[16]),
+                    MinLevel = TryParse(cells[29]),
+                    MaxLevel = TryParse(cells[30]),
+                    BeginTime = (int)new DateTimeOffset(DateTime.Parse(cells[20])).ToUnixTimeSeconds(),
+                    EndTime = (int)new DateTimeOffset(DateTime.Parse(cells[21])).ToUnixTimeSeconds(),
+                    RefreshType = (ShopRefreshType)TryParse(cells[17]),
+                    ShopRefreshParam = TryParse(cells[18]),
+                    HCoin = TryParse(cells[5]),
+                    SCoin = TryParse(cells[6]),
+                    MCoin = TryParse(cells[7]),
+                    CostItemList = new List<ItemParamData>
+                    {
+                        new ItemParamData(TryParse(cells[8]), TryParse(cells[9])),
+                        new ItemParamData(TryParse(cells[10]), TryParse(cells[11])),
+                        new ItemParamData(TryParse(cells[12]), TryParse(cells[13])),
+                        new ItemParamData(TryParse(cells[14]), TryParse(cells[15])),
+                    }
+                };
+
+                var shopType = int.Parse(cells[1]);
+                if (!Shops.TryGetValue(shopType, out List<ShopInfo> shops))
+                    Shops.Add(shopType, shops = new List<ShopInfo>());
+                shops.Add(goods);
+            }
+        }
+
+        private static int TryParse(string value) => int.TryParse(value, out int n) ? n : 0;
 
         /// <summary>
         /// 点击保存Shop.json按钮时触发
@@ -135,13 +214,20 @@ namespace GrasscutterTools.Forms
                 var banners = new List<ShopTable>(Shops.Count);
                 foreach (var shop in Shops)
                 {
-                    banners.Add(new ShopTable
+                    if (shop.Value != null && shop.Value.Count > 0)
                     {
-                        ShopType = shop.Key,
-                        Items = shop.Value,
-                    });
+                        banners.Add(new ShopTable
+                        {
+                            ShopType = shop.Key,
+                            Items = shop.Value,
+                        });
+                    }
                 }
-                File.WriteAllText(path, JsonConvert.SerializeObject(banners));
+                File.WriteAllText(path, JsonConvert.SerializeObject(banners, new JsonSerializerSettings
+                {
+                    Formatting = Formatting.Indented,
+                    DefaultValueHandling = DefaultValueHandling.Ignore,
+                }));
                 MessageBox.Show("OK", Resources.Tips, MessageBoxButtons.OK);
             }
             catch (Exception ex)
@@ -159,12 +245,14 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void ListShop_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (ListShop.SelectedIndex == -1) return;
-            var shopType = ItemMap.ToId(ListShop.SelectedItem as string);
-            SelectedShop.Clear();
-            if (Shops.TryGetValue(shopType, out var items))
-                SelectedShop.AddRange(items);
-            ShowGoodsList(SelectedShop);
+            if (ListShop.SelectedIndex == -1)
+            {
+                SelectedShopType = 0;
+                return;
+            }
+            SelectedShopType = ItemMap.ToId(ListShop.SelectedItem as string);
+            Shops.TryGetValue(SelectedShopType, out var shop);
+            ShowGoodsList(shop);
         }
 
         #endregion - 商店列表 -
@@ -178,10 +266,10 @@ namespace GrasscutterTools.Forms
         {
             ListGoods.BeginUpdate();
             ListGoods.Items.Clear();
-            if (banner.Count > 0)
+            if (banner != null && banner.Count > 0)
             {
                 ListGoods.Items.AddRange(banner.Select(it => it.ToString()).ToArray());
-                ListGoods.SelectedIndex = 0;
+                //ListGoods.SelectedIndex = 0;
             }
             ListGoods.EndUpdate();
         }
@@ -192,7 +280,33 @@ namespace GrasscutterTools.Forms
         private void ListGoods_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (ListGoods.SelectedIndex == -1) return;
-            ShowGoods(SelectedShop[ListGoods.SelectedIndex]);
+            ShowGoods(Shops[SelectedShopType][ListGoods.SelectedIndex]);
+        }
+
+        /// <summary>
+        /// 点击删除商品按钮时触发
+        /// </summary>
+        private void BtnDeleteGoods_Click(object sender, EventArgs e)
+        {
+            if (ListGoods.SelectedIndex == -1) return;
+            if (MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Shops[SelectedShopType].RemoveAt(ListGoods.SelectedIndex);
+                ListGoods.Items.RemoveAt(ListGoods.SelectedIndex);
+            }
+        }
+
+        /// <summary>
+        /// 点击清空商品按钮时触发
+        /// </summary>
+        private void BtnClearGoods_Click(object sender, EventArgs e)
+        {
+            if (ListGoods.Items.Count == 0) return;
+            if (MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                Shops.Remove(SelectedShopType);
+                ListGoods.Items.Clear();
+            }
         }
 
         #endregion - 商品列表 -
@@ -211,8 +325,8 @@ namespace GrasscutterTools.Forms
             NUDBuyLimit.Value = goods.BuyLimit;
             NUDMinLevel.Value = goods.MinLevel;
             NUDMaxLevel.Value = goods.MaxLevel;
-            DTPBeginTime.Value = DateTimeOffset.FromUnixTimeSeconds(goods.BeginTime).DateTime;
-            DTPEndTime.Value = DateTimeOffset.FromUnixTimeSeconds(goods.EndTime).DateTime;
+            DTPBeginTime.Value = DateTimeOffset.FromUnixTimeSeconds(goods.BeginTime).LocalDateTime;
+            DTPEndTime.Value = DateTimeOffset.FromUnixTimeSeconds(goods.EndTime).LocalDateTime;
             NUDRefreshParm.Value = goods.ShopRefreshParam;
             CmbRefreshType.SelectedIndex = (int)goods.RefreshType;
             NUDCostHcoin.Value = goods.HCoin;
@@ -235,6 +349,10 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void LnkGenGoodsId_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            if (ListShop.SelectedIndex == -1) return;
+
+            if (ItemMap.TryToId(TxtGoodsItem.Text, out int itemId))
+                NUDGoodsId.Value = SelectedShopType * 1000 + itemId % 1000;
         }
 
         /// <summary>
@@ -243,15 +361,91 @@ namespace GrasscutterTools.Forms
         private void CmbRefreshType_SelectedIndexChanged(object sender, EventArgs e)
         {
             NUDRefreshParm.Enabled = CmbRefreshType.SelectedIndex > 0;
+            if (CmbRefreshType.SelectedIndex == 0)
+                NUDRefreshParm.Value = 0;
+            else if (NUDRefreshParm.Value == 0)
+                NUDRefreshParm.Value = 1;
         }
 
         /// <summary>
         /// 点击保存商品按钮时触发
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void BtnSaveGoods_Click(object sender, EventArgs e)
         {
+            if (!ItemMap.TryToId(TxtGoodsItem.Text, out int itemId))
+            {
+                MessageBox.Show(Resources.EmptyInputTip, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // 检查ID冲突
+            var goodsId = (int)NUDGoodsId.Value;
+            if (Shops.Any(kv => kv.Key != SelectedShopType && kv.Value.Any(it => it.GoodsId == goodsId)))
+            {
+                MessageBox.Show(Resources.GoodsIDConflictPrompt, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            try
+            {
+                List<ItemParamData> costs = new List<ItemParamData>();
+                if (NUDCostItem1Count.Value > 0 && NUDCostItem1.Value > 0)
+                    costs.Add(new ItemParamData((int)NUDCostItem1.Value, (int)NUDCostItem1Count.Value));
+                if (NUDCostItem2Count.Value > 0 && NUDCostItem2.Value > 0)
+                    costs.Add(new ItemParamData((int)NUDCostItem2.Value, (int)NUDCostItem2Count.Value));
+                if (NUDCostItem3Count.Value > 0 && NUDCostItem3.Value > 0)
+                    costs.Add(new ItemParamData((int)NUDCostItem3.Value, (int)NUDCostItem3Count.Value));
+                if (NUDCostItem4Count.Value > 0 && NUDCostItem4.Value > 0)
+                    costs.Add(new ItemParamData((int)NUDCostItem4.Value, (int)NUDCostItem4Count.Value));
+                ShopInfo goods = new ShopInfo
+                {
+                    GoodsId = goodsId,
+                    GoodsItem = new ItemParamData(itemId, (int)NUDGoodsItemCount.Value),
+                    BuyLimit = (int)NUDBuyLimit.Value,
+                    MinLevel = (int)NUDMinLevel.Value,
+                    MaxLevel = (int)NUDMaxLevel.Value,
+                    BeginTime = (int)new DateTimeOffset(DTPBeginTime.Value).ToUnixTimeSeconds(),
+                    EndTime = (int)new DateTimeOffset(DTPEndTime.Value).ToUnixTimeSeconds(),
+                    RefreshType = CmbRefreshType.SelectedIndex == -1 ? ShopRefreshType.None : (ShopRefreshType)CmbRefreshType.SelectedIndex,
+                    ShopRefreshParam = (int)NUDRefreshParm.Value,
+                    HCoin = (int)NUDCostHcoin.Value,
+                    SCoin = (int)NUDCostScoin.Value,
+                    MCoin = (int)NUDCostMcoin.Value,
+                    CostItemList = costs,
+                    // 以下属性不认识，代码里看似也没用，不写了
+                    //BoughtNum
+                    //DisableType
+                    //PreGoodsIdList
+                    //SecondarySheetId
+                };
+
+                if (Shops.TryGetValue(SelectedShopType, out var shop))
+                {
+                    var i = shop.FindIndex(it => it.GoodsId == goodsId);
+                    if (i == -1)
+                    {
+                        // 增加到现有列表
+                        shop.Add(goods);
+                        ListGoods.Items.Add(goods.ToString());
+                    }
+                    else
+                    {
+                        // 修改
+                        shop[i] = goods;
+                        ListGoods.Items[i] = goods.ToString();
+                    }
+                }
+                else
+                {
+                    // 增加到新列表
+                    Shops[SelectedShopType] = new List<ShopInfo> { goods };
+                    ListGoods.Items.Add(goods.ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         #endregion - 商品信息 -
@@ -276,6 +470,5 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 物品列表 -
-
     }
 }

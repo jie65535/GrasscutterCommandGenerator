@@ -273,4 +273,7 @@
   <data name="ShopType" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-tw\ShopType.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="GoodsIDConflictPrompt" xml:space="preserve">
+    <value>當前商品ID與其它商店中的ID存在衝突，請更換其它ID或自動生成ID</value>
+  </data>
 </root>

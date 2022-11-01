@@ -22,6 +22,12 @@ namespace GrasscutterTools.Game.Shop
 {
     public struct ItemParamData
     {
+        public ItemParamData(int id, int count)
+        {
+            Id = id;
+            Count = count;
+        }
+
         [JsonProperty("id")]
         public int Id { get; set; }
 

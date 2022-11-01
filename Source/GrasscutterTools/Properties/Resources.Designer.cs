@@ -591,12 +591,15 @@ namespace GrasscutterTools.Properties {
         ///071:华紫樱绯
         ///076:苍流踏花
         ///081:素霓伣天
-        ///091:提纳里池
-        ///092:钟离池
-        ///093:猎人之径池
-        ///097:赛诺池
-        ///098:温迪池
-        ///099:终末嗟谈之诗/赤沙之杖池 的本地化字符串。
+        ///091:巡御蘙荟-提纳里
+        ///092:陵薮市朝-钟离
+        ///093:神铸赋形-猎人贯虹
+        ///097:雳裁冥昭-赛诺
+        ///098:杯装之诗-温迪
+        ///099:神铸赋形-赤沙终末
+        ///100:翩舞歈莲-妮露
+        ///101:深秘之息-阿贝多
+        ///101:神铸赋形-圣显绿箭 的本地化字符串。
         /// </summary>
         internal static string GachaBennerPrefab {
             get {
@@ -663,6 +666,15 @@ namespace GrasscutterTools.Properties {
         internal static string GOODImportTitle {
             get {
                 return ResourceManager.GetString("GOODImportTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 当前商品ID与其它商店中的ID存在冲突，请更换其它ID或自动生成ID 的本地化字符串。
+        /// </summary>
+        internal static string GoodsIDConflictPrompt {
+            get {
+                return ResourceManager.GetString("GoodsIDConflictPrompt", resourceCulture);
             }
         }
         
@@ -902,20 +914,20 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 30302:女神像解锁$HIDDEN - [N/A] 362713143
-        ///30303:女神像解锁$HIDDEN - [N/A] 715511863
-        ///30304:女神像解锁$HIDDEN - [N/A] 163018255
-        ///30305:女神像解锁$HIDDEN - [N/A] 3694648119
-        ///30306:女神像解锁$HIDDEN - [N/A] 3223799591
-        ///30307:女神像解锁$HIDDEN - [N/A] 1232757671
-        ///30308:女神像解锁$HIDDEN - [N/A] 3056513767
-        ///30309:女神像解锁$HIDDEN - [N/A] 2426653367
-        ///30310:女神像解锁$HIDDEN - [N/A] 2003131071
-        ///30311:女神像解锁$HIDDEN - [N/A] 105277231
-        ///30312:女神像解锁$HIDDEN - [N/A] 3391806215
-        ///30313:女神像解锁$HIDDEN - [N/A] 1357500887
-        ///30314:女神像解锁$HIDDEN - [N/A] 3054344935
-        ///30315:女神像 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///   查找类似 30302:七天神像解锁$HIDDEN - 苍风高地 362713143
+        ///30303:七天神像解锁$HIDDEN - 风啸山坡 715511863
+        ///30304:七天神像解锁$HIDDEN - 明冠山地 163018255
+        ///30305:七天神像解锁$HIDDEN - 碧水原 3694648119
+        ///30306:七天神像解锁$HIDDEN - 云来海 3223799591
+        ///30307:七天神像解锁$HIDDEN - 珉林 1232757671
+        ///30308:七天神像解锁$HIDDEN - 璃沙郊 3056513767
+        ///30309:七天神像解锁$HIDDEN - 琼玑原 2426653367
+        ///30310:七天神像解锁$HIDDEN - 龙脊雪山 2003131071
+        ///30311:七天神像解锁$HIDDEN - 鸣神岛 105277231
+        ///30312:七天神像解锁$HIDDEN - 神无冢 3391806215
+        ///30313:七天神像解锁$HIDDEN - 八酝岛 1357500887
+        ///30314:七天神像解锁$HIDDEN - 清籁岛 3054344935
+        ///30315:七天神像解锁$HIDDEN [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Quest {
             get {

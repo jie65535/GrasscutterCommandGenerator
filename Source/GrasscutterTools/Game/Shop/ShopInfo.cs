@@ -30,6 +30,9 @@ namespace GrasscutterTools.Game.Shop
         [JsonProperty("goodsItem")]
         public ItemParamData GoodsItem { get; set; }
 
+        /// <summary>
+        /// 消耗摩拉
+        /// </summary>
         [JsonProperty("scoin")]
         public int SCoin { get; set; }
 
@@ -55,10 +58,17 @@ namespace GrasscutterTools.Game.Shop
         public int MaxLevel { get; set; } = 61;
 
         [JsonProperty("preGoodsIdList")]
-        public List<int> PreGoodsIdList { get; set; } = new List<int>();
+        public List<int> PreGoodsIdList { get; set; }
 
+        /// <summary>
+        /// 消耗创世结晶
+        /// </summary>
         [JsonProperty("mcoin")]
         public int MCoin { get; set; }
+
+        /// <summary>
+        /// 消耗原石
+        /// </summary>
 
         [JsonProperty("hcoin")]
         public int HCoin { get; set; }
