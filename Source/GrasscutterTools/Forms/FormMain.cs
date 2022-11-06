@@ -714,7 +714,7 @@ namespace GrasscutterTools.Forms
             id = id / 1000 * 1000 + (int)NUDArtifactStars.Value * 100 + id % 100;
             if (CmbMainAttribution.SelectedIndex < 0)
             {
-                if (Check(CommandVersion.V1_2_2))
+                if (CommandVersion.Check(CommandVersion.V1_2_2))
                     SetCommand("/give", $"{id} lv{NUDArtifactLevel.Value}");
                 else
                     SetCommand("/giveart", $"{id} {NUDArtifactLevel.Value}");
@@ -746,7 +746,7 @@ namespace GrasscutterTools.Forms
                             subAttrs += $"{kv.Key} ";
                     }
                 }
-                if (Check(CommandVersion.V1_2_2))
+                if (CommandVersion.Check(CommandVersion.V1_2_2))
                     SetCommand("/give", $"{id} lv{NUDArtifactLevel.Value} {mainAttr} {subAttrs}");
                 else
                     SetCommand("/giveart", $"{id} {mainAttr} {subAttrs}{NUDArtifactLevel.Value}");
@@ -783,7 +783,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void ChangeTPArtifact()
         {
-            if (Check(CommandVersion.V1_2_2))
+            if (CommandVersion.Check(CommandVersion.V1_2_2))
             {
                 NUDArtifactLevel.Minimum = 0;
                 NUDArtifactLevel.Maximum = 20;
@@ -826,7 +826,7 @@ namespace GrasscutterTools.Forms
             if (!string.IsNullOrEmpty(name))
             {
                 var id = ItemMap.ToId(name);
-                if (Check(CommandVersion.V1_2_2))
+                if (CommandVersion.Check(CommandVersion.V1_2_2))
                     SetCommand("/give", $"{id} x{NUDWeaponAmout.Value} lv{NUDWeaponLevel.Value} r{NUDWeaponRefinement.Value}");
                 else
                     SetCommand("/give", $"{id} {NUDWeaponAmout.Value} {NUDWeaponLevel.Value} {NUDWeaponRefinement.Value}");
@@ -881,7 +881,7 @@ namespace GrasscutterTools.Forms
                 else
                 {
                     NUDGameItemLevel.Enabled = true;
-                    if (Check(CommandVersion.V1_2_2))
+                    if (CommandVersion.Check(CommandVersion.V1_2_2))
                         SetCommand("/give", $"{id} x{NUDGameItemAmout.Value} lv{NUDGameItemLevel.Value}");
                     else
                         SetCommand("/give", $"{id} {NUDGameItemAmout.Value} {NUDGameItemLevel.Value}");
@@ -1048,12 +1048,12 @@ namespace GrasscutterTools.Forms
         /// <param name="level">等级</param>
         private void GenAvatar(int level, int constellation, int skillLevel)
         {
-            if (Check(CommandVersion.V1_4_1))
+            if (CommandVersion.Check(CommandVersion.V1_4_1))
             {
                 int avatarId = GameData.Avatars.Ids[CmbAvatar.SelectedIndex];
                 SetCommand("/give", $"{avatarId} lv{level} c{constellation} sl{skillLevel}");
             }
-            else if (Check(CommandVersion.V1_2_2))
+            else if (CommandVersion.Check(CommandVersion.V1_2_2))
             {
                 int avatarId = GameData.Avatars.Ids[CmbAvatar.SelectedIndex];
                 SetCommand("/give", $"{avatarId} lv{level} c{constellation}");
@@ -1075,7 +1075,7 @@ namespace GrasscutterTools.Forms
             var level = NUDAvatarLevel.Value;
             var constellation = NUDAvatarConstellation.Value;
             var skillLevel = NUDAvatarSkillLevel.Value;
-            if (Check(CommandVersion.V1_4_1))
+            if (CommandVersion.Check(CommandVersion.V1_4_1))
                 SetCommand("/give avatars", $"lv{level} c{constellation} sl{skillLevel}");
             else
                 SetCommand("/give avatars", $"lv{level} c{constellation}");
@@ -1150,27 +1150,54 @@ namespace GrasscutterTools.Forms
 
         #region - 生成 Spawns -
 
+        #region -- 实体列表 --
+
         /// <summary>
         /// 初始化实体列表
         /// </summary>
         private void InitEntityList()
         {
-            FLPEntityType.SuspendLayout();
-            FLPEntityType.Controls.Clear();
-            foreach (var m in GameData.Monsters.Concat(GameData.Gatgets))
+            // 初始化列表类型过滤器
+            MenuSpawnEntityFilter.SuspendLayout();
+            MenuSpawnEntityFilter.Items.Clear();
+            void AddTypes(ItemMapGroup group)
             {
-                var rb = new RadioButton
+                foreach (var kv in group)
                 {
-                    AutoSize = true,
-                    Text = m.Key,
-                    Tag = m.Value.Lines
-                };
-                rb.CheckedChanged += RbEntity_CheckedChanged;
-                FLPEntityType.Controls.Add(rb);
+                    var item = new ToolStripMenuItem
+                    {
+                        Text = kv.Key,
+                        Tag = kv.Value.Lines,
+                    };
+                    item.Click += OnEntityTypeFilterClick;
+                    MenuSpawnEntityFilter.Items.Add(item);
+                }
             }
-            FLPEntityType.ResumeLayout();
-            if (FLPEntityType.Controls.Count > 0)
-                (FLPEntityType.Controls[0] as RadioButton).Checked = true;
+            //MenuSpawnEntityFilter.Items.Add(new ToolStripLabel("Monsters"));
+            AddTypes(GameData.Monsters);
+            MenuSpawnEntityFilter.Items.Add(new ToolStripSeparator());
+            //MenuSpawnEntityFilter.Items.Add(new ToolStripLabel("Gadgets"));
+            AddTypes(GameData.Gadgets);
+            MenuSpawnEntityFilter.ResumeLayout();
+
+            // 默认显示所有怪物
+            SelectedEntityTypeLines = GameData.Monsters.AllLines.ToArray();
+            LoadEntityList();
+        }
+
+        /// <summary>
+        /// 当前选中的实体类型行
+        /// </summary>
+        private string[] SelectedEntityTypeLines;
+
+        /// <summary>
+        /// 实体类型过滤器类型选中时触发
+        /// </summary>
+        private void OnEntityTypeFilterClick(object sender, EventArgs e)
+        {
+            var btn = sender as ToolStripMenuItem;
+            SelectedEntityTypeLines = btn.Tag as string[];
+            LoadEntityList();
         }
 
         /// <summary>
@@ -1178,14 +1205,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void LoadEntityList()
         {
-            foreach (RadioButton rb in FLPEntityType.Controls)
-            {
-                if (rb.Checked)
-                {
-                    UIUtil.ListBoxFilter(ListEntity, rb.Tag as string[], TxtEntityFilter.Text);
-                    break;
-                }
-            }
+            UIUtil.ListBoxFilter(ListEntity, SelectedEntityTypeLines, TxtEntityFilter.Text);
         }
 
         /// <summary>
@@ -1197,45 +1217,39 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
-        /// 生成召唤实体命令
+        /// 实体列表类型过滤按钮点击时触发
         /// </summary>
-        /// <returns>是否生成成功</returns>
-        private bool GenSpawnEntityCommand()
+        private void BtnFilterEntity_Click(object sender, EventArgs e)
         {
-            var selectedItem = ListEntity.SelectedItem as string;
-            if (!string.IsNullOrEmpty(selectedItem))
+            MenuSpawnEntityFilter.Show(BtnFilterEntity, 0, BtnFilterEntity.Height);
+        }
+
+        /// <summary>
+        /// 实体列表选中项改变时触发
+        /// </summary>
+        private void ListEntity_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // 根据当前所在页面确定要做的事情
+
+            // 攻击修改界面
+            if (TCSpawnSettings.SelectedTab == TPAttackModArgs)
             {
-                var id = ItemMap.ToId(selectedItem);
-
-                //// 自定义攻击Gadget特供版
-                //SetCommand("/at", $"set n {id}");
-                //return true;
-                
-                if (Check(CommandVersion.V1_3_1))
-                    SetCommand("/spawn", $"{id} x{NUDEntityAmout.Value} lv{NUDEntityLevel.Value}" + (ChkInfiniteHP.Checked ? " hp0" : ""));
-                else
-                    SetCommand("/spawn", $"{id} {NUDEntityAmout.Value} {NUDEntityLevel.Value}");
-                return true;
+                OnAttackModifierInputChanged(sender, e);
             }
-            return false;
+            // 攻击注入界面
+            else if (TCSpawnSettings.SelectedTab == TPAttackInfusedArgs)
+            {
+                // 无事发生，因为要页面上点击按钮才会生成命令
+            }
+            // 生成参数界面 或其它
+            else
+            {
+                // 触发输入改变事件
+                SpawnEntityInputChanged(sender, e);
+            }
         }
 
-        /// <summary>
-        /// 生成页面输入改变时触发
-        /// </summary>
-        private void SpawnEntityInputChanged(object sender, EventArgs e)
-        {
-            GenSpawnEntityCommand();
-        }
-
-        /// <summary>
-        /// 列表过滤选项切换时触发
-        /// </summary>
-        private void RbEntity_CheckedChanged(object sender, EventArgs e)
-        {
-            if ((sender as RadioButton).Checked)
-                LoadEntityList();
-        }
+        #endregion
 
         #region -- 生成记录 --
 
@@ -1294,9 +1308,10 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void BtnSaveSpawnLog_Click(object sender, EventArgs e)
         {
-            if (GenSpawnEntityCommand())
+            // 不再重新生成，直接记录当前命令行的内容
+            //if (GenSpawnEntityCommand())
             {
-                var cmd = new GameCommand($"{ListEntity.SelectedItem} Lv{NUDEntityLevel.Value} x{NUDEntityAmout.Value}", TxtCommand.Text);
+                var cmd = new GameCommand($"{ListEntity.SelectedItem} | {TxtCommand.Text}", TxtCommand.Text);
                 SpawnCommands.Add(cmd);
                 ListSpawnLogs.Items.Add(cmd.Name);
                 SaveSpawnRecord();
@@ -1330,6 +1345,140 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion -- 生成记录 --
+
+        #region -- 生成参数 --
+
+        /// <summary>
+        /// 生成页面输入改变时触发
+        /// </summary>
+        private void SpawnEntityInputChanged(object sender, EventArgs e)
+        {
+            if (ListEntity.SelectedIndex == -1) return;
+            var selectedItem = ListEntity.SelectedItem as string;
+            var id = ItemMap.ToId(selectedItem);
+
+            if (CommandVersion.Check(CommandVersion.V1_3_1))
+            {
+                var args = id.ToString();
+                void CheckAndConnect(NumericUpDown input, int value, string prefix)
+                {
+                    if (input.Value > value)
+                        args += prefix + input.Value;
+                }
+                CheckAndConnect(NUDEntityAmout, 1, " x");
+                CheckAndConnect(NUDEntityLevel, 1, " lv");
+                CheckAndConnect(NUDEntityHp, -1, " hp");
+                CheckAndConnect(NUDEntityMaxHp, 0, " maxhp");
+                CheckAndConnect(NUDEntityAtk, -1, " atk");
+                CheckAndConnect(NUDEntityDef, -1, " def");
+                if (NUDEntityPosX.Value != 0 || NUDEntityPosY.Value != 0 || NUDEntityPosZ.Value != 0)
+                    args += $" {NUDEntityPosX.Value} {NUDEntityPosY.Value} {NUDEntityPosZ.Value}";
+                SetCommand("/spawn", args);
+            }
+            else
+            {
+                SetCommand("/spawn", $"{id} {NUDEntityAmout.Value} {NUDEntityLevel.Value}");
+            }
+        }
+
+        #endregion
+
+        #region -- 攻击修改参数 --
+
+        /// <summary>
+        /// 攻击修改插件链接标签点击时触发
+        /// </summary>
+        private void LnkAttackModifierPlugin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenURL("https://github.com/NotThorny/AttackModifier");
+        }
+
+        /// <summary>
+        /// 攻击修改输入改变事件
+        /// </summary>
+        private void OnAttackModifierInputChanged(object sender, EventArgs e)
+        {
+            if (ListEntity.SelectedIndex == -1) return;
+            var selectedItem = ListEntity.SelectedItem as string;
+            var id = ItemMap.ToId(selectedItem);
+            char skill;
+            if (RbAtE.Checked)
+            {
+                skill = 'e';
+                TxtAtEntityE.Text = selectedItem;
+            }
+            else if (RbAtQ.Checked)
+            {
+                skill = 'q';
+                TxtAtEntityQ.Text = selectedItem;
+            }
+            else
+            {
+                skill = 'n';
+                TxtAtEntityN.Text = selectedItem;
+            }
+            SetCommand("/at", $"set {skill} {id}");
+        }
+
+        /// <summary>
+        /// 攻击修改页面命令事件
+        /// </summary>
+        private void OnAttackModifierCommand(object sender, EventArgs e)
+        {
+            SetCommand("/at", (sender as Control).Tag as string);
+        }
+
+        #endregion
+
+        #region -- 攻击注入参数 --
+
+        /// <summary>
+        /// 攻击注入插件链接标签点击时触发
+        /// </summary>
+        private void LnkAttackInfusedWithItem_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenURL("https://github.com/snoobi-seggs/AttackInfusedWithItem");
+        }
+
+        /// <summary>
+        /// 攻击注入页面命令事件
+        /// </summary>
+        private void OnAttackInfusedCommand(object sender, EventArgs e)
+        {
+            SetCommand("/at", (sender as Control).Tag as string);
+        }
+
+        /// <summary>
+        /// 点击攻击注入按钮时触发
+        /// </summary>
+        private void BtnAttackInfuse_Click(object sender, EventArgs e)
+        {
+            if (ListEntity.SelectedIndex == -1) return;
+            var selectedItem = ListEntity.SelectedItem as string;
+            var id = ItemMap.ToId(selectedItem);
+
+            var args = string.Empty;
+            var flag = false;
+            void ConnectArg(NumericUpDown input)
+            {
+                if (flag || input.Value != 0)
+                {
+                    flag = true;
+                    args = " " + input.Value + args;
+                }
+            }
+            ConnectArg(NUDAiwiRotateZ);
+            ConnectArg(NUDAiwiRotateY);
+            ConnectArg(NUDAiwiRotateX);
+            ConnectArg(NUDAiwiSpread);
+            ConnectArg(NUDAiwiCount);
+            ConnectArg(NUDAiwiHeight);
+            ConnectArg(NUDAiwiRadius);
+            SetCommand("/at", id.ToString() + args);
+            //SetCommand("/at", $"{id} {NUDAiwiRadius.Value} {NUDAiwiHeight.Value} {NUDAiwiCount.Value} {NUDAiwiSpread.Value} {NUDAiwiRotateX.Value} {NUDAiwiRotateY.Value} {NUDAiwiRotateZ.Value}");
+
+        }
+        #endregion
 
         #endregion - 生成 Spawns -
 
@@ -1370,7 +1519,7 @@ namespace GrasscutterTools.Forms
             // 可以直接弃用 scene 命令
             var name = ListScenes.SelectedItem as string;
             var id = ItemMap.ToId(name);
-            if (Check(CommandVersion.V1_2_2))
+            if (CommandVersion.Check(CommandVersion.V1_2_2))
             {
                 SetCommand("/scene", id.ToString());
             }
@@ -1392,7 +1541,7 @@ namespace GrasscutterTools.Forms
         {
             if (CmbClimateType.SelectedIndex < 0)
                 return;
-            if (Check(CommandVersion.V1_2_2))
+            if (CommandVersion.Check(CommandVersion.V1_2_2))
                 SetCommand("/weather", CmbClimateType.SelectedIndex < climateTypes.Length ? climateTypes[CmbClimateType.SelectedIndex] : "none");
             else
                 SetCommand("/weather", $"0 {CmbClimateType.SelectedIndex}");
@@ -1957,13 +2106,6 @@ namespace GrasscutterTools.Forms
             TTip.Show(message, control, 0, control.Size.Height, 3000);
         }
 
-        /// <summary>
-        /// 检查命令版本
-        /// </summary>
-        /// <param name="version">最低要求版本</param>
-        /// <returns>当前版本是否满足</returns>
-        private bool Check(Version version) => CommandVersion.Current >= version;
-
         #endregion - 通用 General -
 
         #region - 命令记录 Command Logs -
@@ -2313,7 +2455,7 @@ namespace GrasscutterTools.Forms
                             {
                                 if (GOODData.Avatars.TryGetValue(character.Name, out var character_id))
                                 {
-                                    if (Check(CommandVersion.V1_4_1))
+                                    if (CommandVersion.Check(CommandVersion.V1_4_1))
                                     {
                                         // 取最低的技能等级
                                         var skillLevel = Math.Min(Math.Min(character.Talents.Auto, character.Talents.Skill), character.Talents.Burst);

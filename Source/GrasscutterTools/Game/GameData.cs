@@ -32,7 +32,7 @@ namespace GrasscutterTools.Game
             AvatarColors = new ItemMap(Resources.AvatarColor);
             Items = new ItemMap(Resources.Item);
             Monsters = new ItemMapGroup(Resources.Monsters);
-            Gatgets = new ItemMapGroup(Resources.Gadget);
+            Gadgets = new ItemMapGroup(Resources.Gadget);
             Scenes = new ItemMap(Resources.Scene);
             Weapons = new ItemMap(Resources.Weapon);
             WeaponColors = new ItemMap(Resources.WeaponColor);
@@ -58,7 +58,7 @@ namespace GrasscutterTools.Game
 
         public static ItemMapGroup Monsters { get; private set; }
 
-        public static ItemMapGroup Gatgets { get; private set; }
+        public static ItemMapGroup Gadgets { get; private set; }
 
         public static ItemMap Scenes { get; private set; }
 

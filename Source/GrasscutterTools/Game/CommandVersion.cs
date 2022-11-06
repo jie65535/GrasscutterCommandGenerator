@@ -71,6 +71,12 @@ namespace GrasscutterTools.Game
         /// </summary>
         public static CommandVersion Latest() => new CommandVersion(List[List.Length - 1]);
 
+        /// <summary>
+        /// 检查命令版本
+        /// </summary>
+        /// <param name="version">最低要求版本</param>
+        /// <returns>当前版本是否满足</returns>
+        public bool Check(Version version) => Current >= version;
 
         #region - 版本列表 Version List -
 
@@ -120,11 +126,16 @@ namespace GrasscutterTools.Game
         /// </summary>
         public static readonly Version V1_4_2 = new Version(1, 4, 2);
 
+        /// <summary>
+        /// 2022/11/15
+        /// </summary>
+        public static readonly Version V1_4_3 = new Version(1, 4, 3);
+
         // More...
         /// <summary>
-        /// 2022/10/18
+        /// Date
         /// </summary>
-        //public static readonly Version V1_4_3 = new Version(1, 4, 2);
+        //public static readonly Version V1_4_4 = new Version(1, 4, 4);
 
         public static Version[] List { get; } = new Version[] {
             V1_2_1,
@@ -135,7 +146,8 @@ namespace GrasscutterTools.Game
             V1_4_0,
             V1_4_1,
             V1_4_2,
-            //V1_4_3,
+            V1_4_3,
+            //V1_4_4,
         };
 
         #endregion - 版本列表 Version List -
