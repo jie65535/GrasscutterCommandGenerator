@@ -149,7 +149,7 @@
     <value>Выполнить (F5)</value>
   </data>
   <data name="GrpCommand.Text" xml:space="preserve">
-    <value>Команды  - [Ctrl] Автозапуск  - [|] Разделить несколько команд</value>
+    <value>Команды: [Ctrl] - Автозапуск; [|] - Разделить несколько команд</value>
   </data>
   <data name="LnkInventoryKamera.Text" xml:space="preserve">
     <value>InventoryKamera</value>
@@ -266,8 +266,8 @@
     <value>275, 48</value>
   </data>
   <data name="LblConsoleTip.Text" xml:space="preserve">
-    <value>Обратите внимание, что обычные команды в состоянии консоли должны указывать цель
-(установите галочку галочку "Включить UID")</value>
+    <value>Обратите внимание, что обычные команды в консоли должны указывать UID цели
+(установите галочку галочку "Включить UID" на главной)</value>
   </data>
   <data name="TPConsoleCheck.Text" xml:space="preserve">
     <value>Консоль</value>
@@ -629,7 +629,7 @@
     <value>89, 17</value>
   </data>
   <data name="LblWeaponDescription.Text" xml:space="preserve">
-    <value>Дать Оружие</value>
+    <value>Дать оружие</value>
   </data>
   <data name="LblWeaponRefinement.Location" type="System.Drawing.Point, System.Drawing">
     <value>207, 218</value>
@@ -782,7 +782,7 @@
     <value>155, 17</value>
   </data>
   <data name="LblAvatarSkillLevelLabel.Text" xml:space="preserve">
-    <value>Уровень квалификации</value>
+    <value>Уровень таланта</value>
   </data>
   <data name="LblAvatar.Location" type="System.Drawing.Point, System.Drawing">
     <value>36, 19</value>
@@ -815,7 +815,7 @@
     <value>114, 23</value>
   </data>
   <data name="GrpGiveAvatar.Text" xml:space="preserve">
-    <value>Дать Персонаж</value>
+    <value>Выдать персонажа</value>
   </data>
   <data name="TPAvatar.Text" xml:space="preserve">
     <value>Персонаж</value>
@@ -1084,7 +1084,7 @@
     <value>187, 23</value>
   </data>
   <data name="BtnOpenDropEditor.Text" xml:space="preserve">
-    <value>Редактор перетаскивания</value>
+    <value>Редактор дропа</value>
   </data>
   <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 41</value>
@@ -1192,7 +1192,7 @@
     <value>- Удалить</value>
   </data>
   <data name="tabPage2.Text" xml:space="preserve">
-    <value>Почтовый ящик</value>
+    <value>Почта</value>
   </data>
   <data name="BtnSendMail.Location" type="System.Drawing.Point, System.Drawing">
     <value>304, 213</value>
