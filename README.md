@@ -13,7 +13,7 @@ Please download the latest version from [Releases](https://github.com/jie65535/G
 
 Support 简体中文, 繁体中文, English and Русский languages.
 
-Welcome everyone to improve the [ID Resource](/Source/GrasscutterTools/Resources/en-us).
+> **Warning**: app look may be different rather than on screenshots. It may also contain translation errors and a lack of certain resources. **We're welcome everyone to contribute to their [improvement](/Source/GrasscutterTools/Resources/en-us)**
 
 ## Update log
 ### GrasscutterTools-v1.7.0

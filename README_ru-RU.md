@@ -12,16 +12,16 @@
 
 GCG поддерживает 简体中文 (китайский упр.), 繁体中文 (китайский трад.), English (английский) и Русский языки.
 
-Приглашаем всех улучшить [ID ресурсов и перевод](/Source/GrasscutterTools/Resources/ru-ru)
+> **Warning**: вид приложения может отличаться от скриншотов. Также в нём могут присутствовать ошибки в переводе и отсутсвие некоторых ресурсов. **Мы приглашаем всех сделать вклад в их [улучшение](/Source/GrasscutterTools/Resources/ru-ru)**
 
-## Update log
+## Лог обновлений
 ### GrasscutterTools-v1.7.0
 
-![Run Commands](Doc/Screenshots/RunMultipleCommands.png)
+![Запуск нескольких команд](Doc/Screenshots/RunMultipleCommands.png)
 
-![Drop Editor](Doc/Screenshots-ru/15-DropEditor.png)
+![Редактор дропа](Doc/Screenshots-ru/15-DropEditor.png)
 
-![Mail Editor](Doc/Screenshots-ru/16-MailEditor.png)
+![Редактор писем](Doc/Screenshots-ru/16-MailEditor.png)
 
 ## Удаленная команда (OpenCommand)
 

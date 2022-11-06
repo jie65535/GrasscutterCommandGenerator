@@ -13,7 +13,7 @@
 
 本工具支持 简体中文, 繁体中文, English 与 Русский 语言。
 
-欢迎大家一起来完善工具的[内置资源](/Source/GrasscutterTools/Resources/zh-cn)。
+> **Warning**: 应用程序的外观可能与截图上的不同。它也可能包含翻译错误和缺乏某些资源。**我们欢迎大家为他们的[改进]（/Source/GrasscutterTools/Resources/zh-cn）作出贡献**。
 
 ## Update log
 
