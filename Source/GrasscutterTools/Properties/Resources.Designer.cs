@@ -506,7 +506,7 @@ namespace GrasscutterTools.Properties {
         ///自杀
         ////kill 0
         ///全队充能
-        ////spawn 2008 25
+        ////spawn 2008 x25
         ///查看坐标
         ////pos
         ///获取全部物品
@@ -528,7 +528,7 @@ namespace GrasscutterTools.Properties {
         ///清空全部角色命之座(需重登)
         ////resetconst all
         ///清空背包
-        ////clear all l [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ////clear all  [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string CustomCommands {
             get {
@@ -1006,6 +1006,15 @@ namespace GrasscutterTools.Properties {
         internal static string SettingSaveError {
             get {
                 return ResourceManager.GetString("SettingSaveError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 仅允许以 Shop.json 格式保存！确定要覆盖当前指定文件吗？ 的本地化字符串。
+        /// </summary>
+        internal static string ShopJsonOverrideWarning {
+            get {
+                return ResourceManager.GetString("ShopJsonOverrideWarning", resourceCulture);
             }
         }
         

@@ -141,6 +141,7 @@
     <Compile Include="Game\Player\PlayerData.cs" />
     <Compile Include="Game\SetStatsCommand.cs" />
     <Compile Include="Game\Shop\ItemParamData.cs" />
+    <Compile Include="Game\Shop\ShopGoodsData.cs" />
     <Compile Include="Game\Shop\ShopInfo.cs" />
     <Compile Include="Game\Shop\ShopRefreshType.cs" />
     <Compile Include="Game\Shop\ShopTable.cs" />

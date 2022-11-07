@@ -102,7 +102,7 @@ namespace GrasscutterTools.Forms
                     var dialog = new OpenFileDialog
                     {
                         FileName = "Shop.json",
-                        Filter = "Shop.Json (*.json)|*.json|All files (*.*)|*.*",
+                        Filter = "Shop.json/ShopGoodsExcelConfigData.json (*.json)|*.json|ShopGoodsData.txt (*.txt)|*.txt|All files (*.*)|*.*",
                     };
                     var result = dialog.ShowDialog();
                     if (result == DialogResult.OK)
@@ -127,40 +127,101 @@ namespace GrasscutterTools.Forms
         /// <param name="path">文件路径</param>
         private void LoadShops(string path)
         {
-            try
+            var name = Path.GetFileName(path);
+            var content = File.ReadAllText(path);
+            var funs = new Action<string>[3]
             {
-                // 反序列化
-                var banners = JsonConvert.DeserializeObject<List<ShopTable>>(File.ReadAllText(path));
-                Shops = new Dictionary<int, List<ShopInfo>>(banners.Count);
-                foreach (var item in banners)
-                    Shops.Add(item.ShopType, item.Items);
+                LoadShopsFromShopJson,
+                LoadShopsFromShopGoodsExcelConfigData,
+                LoadShopsFromTsv
+            };
+            if (name == "ShopGoodsExcelConfigData.json")
+            {
+                funs[0] = LoadShopsFromShopGoodsExcelConfigData;
+                funs[1] = LoadShopsFromShopJson;
             }
-            catch (Exception ex)
+            else if (name == "ShopGoodsData.txt")
+            {
+                funs[0] = LoadShopsFromTsv;
+                funs[1] = LoadShopsFromShopJson;
+                funs[2] = LoadShopsFromShopGoodsExcelConfigData;
+            }
+
+            Exception firstEx = null;
+
+            foreach (var fun in funs)
             {
                 try
                 {
-                    // 当Json解析失败时尝试以tsv方式解析
-                    LoadShopsFromTsv(path);
+                    fun(content);
+                    return;
                 }
-                catch
+                catch (Exception ex)
                 {
-                    throw ex;
+                    if (firstEx == null)
+                        firstEx = ex;
                 }
             }
+            throw firstEx;
+
+
+            //{
+            //    try
+            //    {
+            //        // 尝试当作Shop.json解析
+            //        LoadShopsFromShopJson(content);
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        try
+            //        {
+            //            // 尝试当作ShopGoodsExcelConfigData.json解析
+            //            LoadShopsFromShopGoodsExcelConfigData(path);
+            //        }
+            //        catch
+            //        {
+            //            try
+            //            {
+            //                // 当Json解析失败时尝试以tsv方式解析
+            //                LoadShopsFromTsv(content);
+            //            }
+            //            catch
+            //            {
+            //                throw ex;
+            //            }
+            //        }
+            //    }
+            //}
+        }
+
+        private void LoadShopsFromShopJson(string content)
+        {
+            var banners = JsonConvert.DeserializeObject<List<ShopTable>>(content);
+            Shops = new Dictionary<int, List<ShopInfo>>(banners.Count);
+            foreach (var item in banners)
+                Shops.Add(item.ShopType, item.Items);
+        }
+
+        private void LoadShopsFromShopGoodsExcelConfigData(string content)
+        {
+            var banners = JsonConvert.DeserializeObject<List<ShopGoodsData>>(content);
+            Shops = new Dictionary<int, List<ShopInfo>>();
+            foreach (var kv in banners.GroupBy(it => it.ShopType))
+                Shops.Add(kv.Key, kv.Select(it => new ShopInfo(it)).ToList());
         }
 
         /// <summary>
         /// 从TSV加载商店
         /// </summary>
-        /// <param name="path">文件路径</param>
-        private void LoadShopsFromTsv(string path)
+        /// <param name="content">文件内容</param>
+        private void LoadShopsFromTsv(string content)
         {
-            var lines = File.ReadAllLines(path);
+            var lines = content.Split('\n');
             Shops = new Dictionary<int, List<ShopInfo>>();
             for (int i = 1; i < lines.Length; i++)
             {
                 var cells = lines[i].Split('\t');
-
+                if (cells.Length < 31) continue;
                 var goods = new ShopInfo
                 {
                     GoodsId = int.Parse(cells[0]),
@@ -212,6 +273,13 @@ namespace GrasscutterTools.Forms
                     if (result == DialogResult.OK)
                         path = TxtShopJsonPath.Text = dialog.FileName;
                     else
+                        return;
+                }
+
+                if (Path.GetFileName(path) != "Shop.json")
+                {
+                    var ret = MessageBox.Show(Resources.ShopJsonOverrideWarning + '\n' + path, Resources.Warning, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    if (ret != DialogResult.Yes)
                         return;
                 }
 
@@ -411,7 +479,7 @@ namespace GrasscutterTools.Forms
                     MaxLevel = (int)NUDMaxLevel.Value,
                     BeginTime = (int)new DateTimeOffset(DTPBeginTime.Value).ToUnixTimeSeconds(),
                     EndTime = (int)new DateTimeOffset(DTPEndTime.Value).ToUnixTimeSeconds(),
-                    RefreshType = CmbRefreshType.SelectedIndex == -1 ? ShopRefreshType.None : (ShopRefreshType)CmbRefreshType.SelectedIndex,
+                    RefreshType = CmbRefreshType.SelectedIndex == -1 ? ShopRefreshType.NONE : (ShopRefreshType)CmbRefreshType.SelectedIndex,
                     ShopRefreshParam = (int)NUDRefreshParm.Value,
                     HCoin = (int)NUDCostHcoin.Value,
                     SCoin = (int)NUDCostScoin.Value,
