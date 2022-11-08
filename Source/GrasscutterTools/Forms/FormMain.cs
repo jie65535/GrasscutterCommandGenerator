@@ -1245,8 +1245,8 @@ namespace GrasscutterTools.Forms
             AddTypes(GameData.Gadgets);
             MenuSpawnEntityFilter.ResumeLayout();
 
-            // 默认显示所有怪物
-            SelectedEntityTypeLines = GameData.Monsters.AllLines.ToArray();
+            // 默认显示所有
+            SelectedEntityTypeLines = GameData.Monsters.AllLines.Concat(GameData.Gadgets.AllLines).ToArray();
             LoadEntityList();
         }
 
