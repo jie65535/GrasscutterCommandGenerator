@@ -2490,7 +2490,7 @@ namespace GrasscutterTools.Forms
 
         #endregion - 远程 Remote -
 
-        #region - GOOD -
+        #region - 导入存档 GOOD -
 
         /// <summary>
         /// 点击GOOD导入存档按钮时触发
@@ -2499,7 +2499,7 @@ namespace GrasscutterTools.Forms
         {
             if (OC == null || !OC.CanInvoke)
             {
-                ShowTip(Resources.RequireOpenCommandTip, BtnInvokeOpenCommand);
+                ShowTip(Resources.RequireOpenCommandTip, ButtonOpenGOODImport);
                 return;
             }
 
