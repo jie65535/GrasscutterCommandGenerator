@@ -1130,7 +1130,7 @@ namespace GrasscutterTools.Forms
         private void CmbSwitchElement_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (CmbSwitchElement.SelectedIndex == -1 || CmbSwitchElement.SelectedIndex >= Elements.Length) return;
-            SetCommand("/sw", Elements[CmbSwitchElement.SelectedIndex]);
+            SetCommand("/se", Elements[CmbSwitchElement.SelectedIndex]);
         }
         #endregion
 
