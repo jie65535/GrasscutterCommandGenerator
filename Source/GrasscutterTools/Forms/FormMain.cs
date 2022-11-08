@@ -60,6 +60,9 @@ namespace GrasscutterTools.Forms
 #endif
         }
 
+        /// <summary>
+        /// 窗体载入时触发（切换语言时会重新载入）
+        /// </summary>
         private void FormMain_Load(object sender, EventArgs e)
         {
             Text += "  - by jie65535  - v" + AppVersion.ToString(3);
@@ -85,8 +88,26 @@ namespace GrasscutterTools.Forms
             ChangeTPArtifact();
         }
 
+        /// <summary>
+        /// 第一次显示窗体时触发
+        /// </summary>
+        protected override void OnShown(EventArgs e)
+        {
+            // 还原窗体位置
+            if (Settings.Default.MainFormLocation != default)
+                Location = Settings.Default.MainFormLocation;
+            // 还原窗体大小
+            if (Settings.Default.MainFormSize != default)
+                Size = Settings.Default.MainFormSize;
+            base.OnShown(e);
+        }
+
+        /// <summary>
+        /// 窗口关闭后触发
+        /// </summary>
         private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
         {
+            // 保存当前设置
             SaveSettings();
         }
 
@@ -112,8 +133,8 @@ namespace GrasscutterTools.Forms
             try
             {
                 // 恢复自动复制选项状态
-                ChkAutoCopy.Checked       = Settings.Default.AutoCopy;
-                
+                ChkAutoCopy.Checked = Settings.Default.AutoCopy;
+
                 // 初始化首页设置
                 InitHomeSettings();
 
@@ -142,7 +163,10 @@ namespace GrasscutterTools.Forms
         {
             try
             {
+                // 记录界面状态
                 Settings.Default.AutoCopy = ChkAutoCopy.Checked;
+                Settings.Default.MainFormLocation = Location;
+                Settings.Default.MainFormSize = Size;
 
                 // 保存自定义命令
                 SaveCustomCommands();
