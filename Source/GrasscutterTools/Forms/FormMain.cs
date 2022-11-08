@@ -2432,6 +2432,12 @@ namespace GrasscutterTools.Forms
         /// </summary>
         async private void ButtonOpenGOODImport_Click(object sender, EventArgs e)
         {
+            if (OC == null || !OC.CanInvoke)
+            {
+                ShowTip(Resources.RequireOpenCommandTip, BtnInvokeOpenCommand);
+                return;
+            }
+
             OpenFileDialog openFileDialog1 = new OpenFileDialog
             {
                 Filter = "GOOD file (*.GOOD;*.json)|*.GOOD;*.json|All files (*.*)|*.*",
