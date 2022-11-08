@@ -123,14 +123,11 @@
   <data name="ChkAutoCopy.Text" xml:space="preserve">
     <value>自動</value>
   </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>命令  - [Ctrl] 自動執行  - [|] 分割多條命令</value>
-  </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>執行(F5)</value>
   </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>遠程</value>
+  <data name="GrpCommand.Text" xml:space="preserve">
+    <value>命令  - [Ctrl] 自動執行  - [|] 分割多條命令</value>
   </data>
   <data name="LnkInventoryKamera.Text" xml:space="preserve">
     <value>存檔掃描開源工具</value>
@@ -148,9 +145,6 @@
   <data name="LblHostTip.Text" xml:space="preserve">
     <value>請確保地址中包含 http:// 或 https://</value>
   </data>
-  <data name="GrpServerStatus.Text" xml:space="preserve">
-    <value>伺服器狀態</value>
-  </data>
   <data name="LnkOpenCommandLabel.Text" xml:space="preserve">
     <value>遠程執行插件</value>
   </data>
@@ -160,11 +154,8 @@
   <data name="LblPlayerCountLabel.Text" xml:space="preserve">
     <value>當前玩家數</value>
   </data>
-  <data name="GrpRemoteCommand.Text" xml:space="preserve">
-    <value>遠程執行</value>
-  </data>
-  <data name="TPPlayerCheck.Text" xml:space="preserve">
-    <value>玩家驗證</value>
+  <data name="GrpServerStatus.Text" xml:space="preserve">
+    <value>伺服器狀態</value>
   </data>
   <data name="LnkRCHelp.Text" xml:space="preserve">
     <value>幫助</value>
@@ -178,8 +169,14 @@
   <data name="BtnSendVerificationCode.Text" xml:space="preserve">
     <value>發送驗證碼</value>
   </data>
-  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 111</value>
+  <data name="TPPlayerCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPPlayerCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 113</value>
+  </data>
+  <data name="TPPlayerCheck.Text" xml:space="preserve">
+    <value>玩家驗證</value>
   </data>
   <data name="BtnConsoleConnect.Text" xml:space="preserve">
     <value>連接</value>
@@ -188,14 +185,26 @@
     <value>請注意，控制台狀態下普通命令必須指定目標
 （即設置包含UID）</value>
   </data>
+  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 109</value>
+  </data>
+  <data name="GrpRemoteCommand.Text" xml:space="preserve">
+    <value>遠程執行</value>
+  </data>
   <data name="BtnQueryServerStatus.Text" xml:space="preserve">
     <value>查詢</value>
   </data>
   <data name="LblHost.Text" xml:space="preserve">
     <value>伺服器地址</value>
   </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>關於</value>
+  <data name="TPRemoteCall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPRemoteCall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
+  <data name="TPRemoteCall.Text" xml:space="preserve">
+    <value>遠程</value>
   </data>
   <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>334, 102</value>
@@ -208,14 +217,20 @@
 如果願意請我喝一杯奶茶，那就更好了 : )
 指令生成有問題，或者有新的功能請求，都可以來Github提出</value>
   </data>
+  <data name="TPAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
+  <data name="TPAbout.Text" xml:space="preserve">
+    <value>關於</value>
+  </data>
   <data name="BtnBan.Text" xml:space="preserve">
     <value>封號</value>
   </data>
   <data name="LblBanUID.Text" xml:space="preserve">
     <value>目標UID</value>
-  </data>
-  <data name="GrpAccount.Text" xml:space="preserve">
-    <value>賬號管理</value>
   </data>
   <data name="BtnDeleteAccount.Text" xml:space="preserve">
     <value>- 刪除</value>
@@ -226,8 +241,8 @@
   <data name="LblAccountUserName.Text" xml:space="preserve">
     <value>用戶名</value>
   </data>
-  <data name="GrpPermission.Text" xml:space="preserve">
-    <value>權限管理</value>
+  <data name="GrpAccount.Text" xml:space="preserve">
+    <value>賬號管理</value>
   </data>
   <data name="LblPerm.Text" xml:space="preserve">
     <value>權限</value>
@@ -235,8 +250,14 @@
   <data name="LblPermUID.Text" xml:space="preserve">
     <value>目標UID</value>
   </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>場景</value>
+  <data name="GrpPermission.Text" xml:space="preserve">
+    <value>權限管理</value>
+  </data>
+  <data name="TPManage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPManage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
   </data>
   <data name="ChkIncludeSceneId.Text" xml:space="preserve">
     <value>含場景ID</value>
@@ -260,6 +281,15 @@
 提示：遊戲內可以通過小地圖的'魚鉤'標記來快捷傳送
 命令中可以用~表示當前位置，~N 表示相對當前N</value>
   </data>
+  <data name="TPScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
+  <data name="TPScene.Text" xml:space="preserve">
+    <value>場景</value>
+  </data>
   <data name="BtnSaveGiveItemLog.Text" xml:space="preserve">
     <value>√ 記錄</value>
   </data>
@@ -278,6 +308,12 @@
   <data name="LblGiveCommandDescription.Text" xml:space="preserve">
     <value>給玩家指定物品
 說明：可選擇直接給到背包或者掉落到世界</value>
+  </data>
+  <data name="TPItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
   </data>
   <data name="BtnGiveAllWeapons.Text" xml:space="preserve">
     <value>獲得所有武器</value>
@@ -302,8 +338,11 @@
   <data name="LblWeaponLevel.Text" xml:space="preserve">
     <value>等級</value>
   </data>
-  <data name="GrpSetConstellation.Text" xml:space="preserve">
-    <value>設置命座</value>
+  <data name="TPWeapon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPWeapon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
   </data>
   <data name="LnkSetAllConst.Text" xml:space="preserve">
     <value>設置所有角色</value>
@@ -311,8 +350,11 @@
   <data name="LnkSetConst.Text" xml:space="preserve">
     <value>設置當前角色</value>
   </data>
-  <data name="GrpSetStats.Text" xml:space="preserve">
-    <value>角色屬性</value>
+  <data name="GrpSetConstellation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 174</value>
+  </data>
+  <data name="GrpSetConstellation.Text" xml:space="preserve">
+    <value>設置命座</value>
   </data>
   <data name="BtnUnlockStat.Text" xml:space="preserve">
     <value>解鎖</value>
@@ -320,11 +362,33 @@
   <data name="BtnLockStat.Text" xml:space="preserve">
     <value>鎖定</value>
   </data>
-  <data name="GrpTalentLevel.Text" xml:space="preserve">
-    <value>技能等級</value>
+  <data name="GrpSetStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 11</value>
+  </data>
+  <data name="GrpSetStats.Text" xml:space="preserve">
+    <value>角色屬性</value>
   </data>
   <data name="LnkTalentNormalATK.Text" xml:space="preserve">
     <value>普通攻擊</value>
+  </data>
+  <data name="GrpTalentLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 113</value>
+  </data>
+  <data name="GrpTalentLevel.Text" xml:space="preserve">
+    <value>技能等級</value>
+  </data>
+  <data name="CmbSwitchElement.Items" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="CmbSwitchElement.Items3" xml:space="preserve">
+    <value>風</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LnkSwitchElement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkSwitchElement.Text" xml:space="preserve">
+    <value>切換主角元素</value>
   </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value>一鍵獲得所有角色</value>
@@ -335,8 +399,8 @@
   <data name="LblAvatarSkillLevelLabel.Text" xml:space="preserve">
     <value>技能等級</value>
   </data>
-  <data name="TPSpawnArgs.Text" xml:space="preserve">
-    <value>生成參數</value>
+  <data name="GrpGiveAvatar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 11</value>
   </data>
   <data name="LblSpawnVersionRequireTip.Text" xml:space="preserve">
     <value>以下參數至少要求 GC v1.3.1</value>
@@ -362,8 +426,14 @@
   <data name="LblEntityAmount.Text" xml:space="preserve">
     <value>數量</value>
   </data>
-  <data name="TPAttackModArgs.Text" xml:space="preserve">
-    <value>攻擊修改參數</value>
+  <data name="TPSpawnArgs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPSpawnArgs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 207</value>
+  </data>
+  <data name="TPSpawnArgs.Text" xml:space="preserve">
+    <value>生成參數</value>
   </data>
   <data name="LblAMPluginTip.Text" xml:space="preserve">
     <value>見識一下真正的雷神吧！</value>
@@ -386,8 +456,14 @@
   <data name="GrpAMSkills.Text" xml:space="preserve">
     <value>替換技能</value>
   </data>
-  <data name="TPAttackInfusedArgs.Text" xml:space="preserve">
-    <value>攻擊注入參數</value>
+  <data name="TPAttackModArgs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPAttackModArgs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 207</value>
+  </data>
+  <data name="TPAttackModArgs.Text" xml:space="preserve">
+    <value>攻擊修改參數</value>
   </data>
   <data name="LblAiwiRotate.Text" xml:space="preserve">
     <value>旋轉： x:                    y:                    z:</value>
@@ -410,11 +486,20 @@
   <data name="BtnAiwiClear.Text" xml:space="preserve">
     <value>清空實體</value>
   </data>
+  <data name="TPAttackInfusedArgs.Text" xml:space="preserve">
+    <value>攻擊注入參數</value>
+  </data>
+  <data name="ListEntity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 171</value>
+  </data>
+  <data name="TPSpawnItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPSpawnItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 207</value>
+  </data>
   <data name="TPSpawnItems.Text" xml:space="preserve">
     <value>實體列表</value>
-  </data>
-  <data name="TPSpawnRecords.Text" xml:space="preserve">
-    <value>生成記錄本</value>
   </data>
   <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
     <value>√ 記錄</value>
@@ -422,11 +507,14 @@
   <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
     <value>× 刪除</value>
   </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>任務</value>
+  <data name="TPSpawnRecords.Text" xml:space="preserve">
+    <value>生成記錄本</value>
   </data>
-  <data name="GrpQuestFilters.Text" xml:space="preserve">
-    <value>列表過濾</value>
+  <data name="TPSpawn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPSpawn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
   </data>
   <data name="ChkQuestFilterTEST.Text" xml:space="preserve">
     <value>測試任務</value>
@@ -436,6 +524,9 @@
   </data>
   <data name="ChkQuestFilterHIDDEN.Text" xml:space="preserve">
     <value>隱藏的任務</value>
+  </data>
+  <data name="GrpQuestFilters.Text" xml:space="preserve">
+    <value>列表過濾</value>
   </data>
   <data name="BtnFinishQuest.Text" xml:space="preserve">
     <value>完成任務</value>
@@ -448,8 +539,14 @@
 提示：許多任務需要服務端腳本支持
 囙此任務可以接，可以完成，但是不一定可以做</value>
   </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>聖遺物</value>
+  <data name="TPQuest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPQuest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
+  <data name="TPQuest.Text" xml:space="preserve">
+    <value>任務</value>
   </data>
   <data name="LblArtifactSet.Text" xml:space="preserve">
     <value>套裝</value>
@@ -466,8 +563,14 @@
   <data name="LblArtifactStars.Text" xml:space="preserve">
     <value>星級</value>
   </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>自定義</value>
+  <data name="TPArtifact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPArtifact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
+  <data name="TPArtifact.Text" xml:space="preserve">
+    <value>聖遺物</value>
   </data>
   <data name="BtnExportCustomCommands.Text" xml:space="preserve">
     <value>導出</value>
@@ -481,29 +584,62 @@
   <data name="BtnRemoveCustomCommand.Text" xml:space="preserve">
     <value>× 刪除</value>
   </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>主頁</value>
+  <data name="TPCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
+  <data name="TPCustom.Text" xml:space="preserve">
+    <value>自定義</value>
+  </data>
+  <data name="BtnOpenShopEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 183</value>
   </data>
   <data name="BtnOpenShopEditor.Text" xml:space="preserve">
     <value>商店編輯器</value>
   </data>
+  <data name="BtnOpenDropEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>525, 212</value>
+  </data>
   <data name="BtnOpenDropEditor.Text" xml:space="preserve">
     <value>掉落物編輯器</value>
+  </data>
+  <data name="LnkNewVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 104</value>
+  </data>
+  <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 34</value>
+  </data>
+  <data name="BtnOpenTextMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 212</value>
   </data>
   <data name="BtnOpenTextMap.Text" xml:space="preserve">
     <value>文本瀏覽器</value>
   </data>
+  <data name="BtnOpenGachaBannerEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 212</value>
+  </data>
   <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
     <value>獎池編輯器</value>
+  </data>
+  <data name="GrasscutterToolsIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 200</value>
   </data>
   <data name="ChkTopMost.Text" xml:space="preserve">
     <value>置頂</value>
   </data>
-  <data name="TPMail.Text" xml:space="preserve">
-    <value>郵件</value>
+  <data name="GrpSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 124</value>
+  </data>
+  <data name="TPHome.Text" xml:space="preserve">
+    <value>主頁</value>
   </data>
   <data name="BtnDeleteMailItem.Text" xml:space="preserve">
     <value>- 刪除</value>
+  </data>
+  <data name="ListMailSelectableItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 123</value>
   </data>
   <data name="NUDMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>171, 4</value>
@@ -526,6 +662,15 @@
   <data name="BtnRemoveMail.Text" xml:space="preserve">
     <value>- 刪除</value>
   </data>
+  <data name="PanelMailListControls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 177</value>
+  </data>
+  <data name="TPMailList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPMailList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 208</value>
+  </data>
   <data name="BtnSendMail.Text" xml:space="preserve">
     <value>發送</value>
   </data>
@@ -538,8 +683,13 @@
   <data name="LblMailSenderLabel.Text" xml:space="preserve">
     <value>發件人：</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+  <data name="TPMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPMail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
+  <data name="TPMail.Text" xml:space="preserve">
+    <value>郵件</value>
   </data>
 </root>

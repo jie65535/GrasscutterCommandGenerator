@@ -217,9 +217,6 @@
   <data name="LblConsoleTip.Text" xml:space="preserve">
     <value>Note that normal commands in the console state must specify the target (set include UID)</value>
   </data>
-  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 109</value>
-  </data>
   <data name="TPConsoleCheck.Text" xml:space="preserve">
     <value>Console</value>
   </data>
@@ -600,6 +597,36 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   </data>
   <data name="GrpTalentLevel.Text" xml:space="preserve">
     <value>Talent Level</value>
+  </data>
+  <data name="CmbSwitchElement.Items" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="CmbSwitchElement.Items1" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="CmbSwitchElement.Items2" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="CmbSwitchElement.Items3" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="CmbSwitchElement.Items4" xml:space="preserve">
+    <value>Ice</value>
+  </data>
+  <data name="CmbSwitchElement.Items5" xml:space="preserve">
+    <value>Rock</value>
+  </data>
+  <data name="CmbSwitchElement.Items6" xml:space="preserve">
+    <value>Electro</value>
+  </data>
+  <data name="CmbSwitchElement.Items7" xml:space="preserve">
+    <value>Grass</value>
+  </data>
+  <data name="LnkSwitchElement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="LnkSwitchElement.Text" xml:space="preserve">
+    <value>SwitchElement</value>
   </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value>Give All Char</value>
@@ -1091,9 +1118,5 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   </data>
   <data name="TPMail.Text" xml:space="preserve">
     <value>Mail</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
 </root>

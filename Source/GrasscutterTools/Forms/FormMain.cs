@@ -1021,6 +1021,8 @@ namespace GrasscutterTools.Forms
 
         #region - 角色 Avatars -
 
+        #region -- 获取角色 --
+
         /// <summary>
         /// 初始化角色列表
         /// </summary>
@@ -1105,6 +1107,35 @@ namespace GrasscutterTools.Forms
                 SetCommand("/give avatars", $"lv{level} c{constellation}");
         }
 
+        #endregion
+
+        #region -- 切换主角元素 --
+
+        /// <summary>
+        /// 点击切换主角元素链接标签时触发
+        /// </summary>
+        private void LnkSwitchElement_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenURL("https://github.com/Penelopeep/SwitchElementTraveller");
+        }
+
+        /// <summary>
+        /// 元素参数
+        /// </summary>
+        private readonly string[] Elements = { "white", "fire", "water", "wind", "ice", "rock", "electro", "grass" };
+
+        /// <summary>
+        /// 切换元素下拉框选中项改变时触发
+        /// </summary>
+        private void CmbSwitchElement_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CmbSwitchElement.SelectedIndex == -1 || CmbSwitchElement.SelectedIndex >= Elements.Length) return;
+            SetCommand("/sw", Elements[CmbSwitchElement.SelectedIndex]);
+        }
+        #endregion
+
+        #region -- 设置角色属性 --
+
         /// <summary>
         /// 初始化数据列表
         /// </summary>
@@ -1151,6 +1182,10 @@ namespace GrasscutterTools.Forms
             SetCommand("/setstats", $"unlock {stat.ArgName}");
         }
 
+        #endregion
+
+        #region -- 设置技能等级 --
+
         /// <summary>
         /// 点击设置技能按钮时触发
         /// </summary>
@@ -1158,6 +1193,10 @@ namespace GrasscutterTools.Forms
         {
             SetCommand("/talent", $"{(sender as LinkLabel).Tag} {NUDTalentLevel.Value}");
         }
+
+        #endregion
+
+        #region -- 设置命座 --
 
         /// <summary>
         /// 设置命座链接标签点击时触发
@@ -1169,6 +1208,8 @@ namespace GrasscutterTools.Forms
             else
                 SetCommand("/resetConst", (sender == LnkSetAllConst ? "all" : string.Empty));
         }
+
+        #endregion
 
         #endregion - 角色 Avatars -
 
