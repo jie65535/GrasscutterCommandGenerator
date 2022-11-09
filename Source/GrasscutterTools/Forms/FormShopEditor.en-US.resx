@@ -120,20 +120,17 @@
   <data name="GrpShopList.Text" xml:space="preserve">
     <value>Shop list</value>
   </data>
-  <data name="GrpGoodsList.Text" xml:space="preserve">
-    <value>Shop info list</value>
-  </data>
   <data name="BtnClearGoods.Text" xml:space="preserve">
     <value>× Clear</value>
   </data>
   <data name="BtnDeleteGoods.Text" xml:space="preserve">
     <value>- Delete</value>
   </data>
+  <data name="GrpGoodsList.Text" xml:space="preserve">
+    <value>Shop info list</value>
+  </data>
   <data name="GrpItems.Text" xml:space="preserve">
     <value>Item list</value>
-  </data>
-  <data name="GrpGoodsInfo.Text" xml:space="preserve">
-    <value>Shop info</value>
   </data>
   <data name="BtnSaveGoods.Text" xml:space="preserve">
     <value>√ Add or Update</value>
@@ -243,6 +240,9 @@
   </data>
   <data name="LnkGenGoodsId.Text" xml:space="preserve">
     <value>Generate ID</value>
+  </data>
+  <data name="GrpGoodsInfo.Text" xml:space="preserve">
+    <value>Shop info</value>
   </data>
   <data name="BtnSave.Text" xml:space="preserve">
     <value>Save</value>

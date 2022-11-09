@@ -145,6 +145,18 @@
   <data name="BtnSaveGoods.Text" xml:space="preserve">
     <value>√ Добавить или обновить</value>
   </data>
+  <data name="CmbRefreshType.Items" xml:space="preserve">
+    <value>Никто</value>
+  </data>
+  <data name="CmbRefreshType.Items1" xml:space="preserve">
+    <value>Повседневная</value>
+  </data>
+  <data name="CmbRefreshType.Items2" xml:space="preserve">
+    <value>Еженедельно</value>
+  </data>
+  <data name="CmbRefreshType.Items3" xml:space="preserve">
+    <value>Ежемесячно</value>
+  </data>
   <data name="LblRefreshModeLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 211</value>
   </data>

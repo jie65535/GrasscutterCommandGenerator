@@ -276,4 +276,7 @@
   <data name="GoodsIDConflictPrompt" xml:space="preserve">
     <value>當前商品ID與其它商店中的ID存在衝突，請更換其它ID或自動生成ID</value>
   </data>
+  <data name="ShopJsonOverrideWarning" xml:space="preserve">
+    <value>僅允許以 Shop.json 格式保存！確定要覆蓋當前指定文件嗎？</value>
+  </data>
 </root>

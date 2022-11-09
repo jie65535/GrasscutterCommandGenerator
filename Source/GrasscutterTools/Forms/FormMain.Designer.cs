@@ -76,6 +76,7 @@ namespace GrasscutterTools.Forms
             this.DTPBanEndTime = new System.Windows.Forms.DateTimePicker();
             this.BtnUnban = new System.Windows.Forms.Button();
             this.BtnBan = new System.Windows.Forms.Button();
+            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.NUDBanUID = new System.Windows.Forms.NumericUpDown();
             this.LblBanUID = new System.Windows.Forms.Label();
             this.GrpAccount = new System.Windows.Forms.GroupBox();
@@ -153,6 +154,8 @@ namespace GrasscutterTools.Forms
             this.LnkTalentNormalATK = new System.Windows.Forms.LinkLabel();
             this.NUDTalentLevel = new System.Windows.Forms.NumericUpDown();
             this.GrpGiveAvatar = new System.Windows.Forms.GroupBox();
+            this.CmbSwitchElement = new System.Windows.Forms.ComboBox();
+            this.LnkSwitchElement = new System.Windows.Forms.LinkLabel();
             this.CmbAvatar = new System.Windows.Forms.ComboBox();
             this.LblAvatarSkillLevelTip = new System.Windows.Forms.Label();
             this.NUDAvatarLevel = new System.Windows.Forms.NumericUpDown();
@@ -321,7 +324,7 @@ namespace GrasscutterTools.Forms
             this.TxtMailSender = new System.Windows.Forms.TextBox();
             this.LblMailSenderLabel = new System.Windows.Forms.Label();
             this.MenuSpawnEntityFilter = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
+            this.LnkCharacterBuilder = new System.Windows.Forms.LinkLabel();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -765,6 +768,14 @@ namespace GrasscutterTools.Forms
             this.BtnBan.Name = "BtnBan";
             this.BtnBan.UseVisualStyleBackColor = true;
             this.BtnBan.Click += new System.EventHandler(this.BtnBan_Click);
+            // 
+            // TxtBanReason
+            // 
+            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
+            this.TxtBanReason.Maximum = 0F;
+            this.TxtBanReason.Minimum = 0F;
+            this.TxtBanReason.Name = "TxtBanReason";
             // 
             // NUDBanUID
             // 
@@ -1494,6 +1505,8 @@ namespace GrasscutterTools.Forms
             // GrpGiveAvatar
             // 
             resources.ApplyResources(this.GrpGiveAvatar, "GrpGiveAvatar");
+            this.GrpGiveAvatar.Controls.Add(this.CmbSwitchElement);
+            this.GrpGiveAvatar.Controls.Add(this.LnkSwitchElement);
             this.GrpGiveAvatar.Controls.Add(this.CmbAvatar);
             this.GrpGiveAvatar.Controls.Add(this.LblAvatarSkillLevelTip);
             this.GrpGiveAvatar.Controls.Add(this.NUDAvatarLevel);
@@ -1506,6 +1519,30 @@ namespace GrasscutterTools.Forms
             this.GrpGiveAvatar.Controls.Add(this.NUDAvatarSkillLevel);
             this.GrpGiveAvatar.Name = "GrpGiveAvatar";
             this.GrpGiveAvatar.TabStop = false;
+            // 
+            // CmbSwitchElement
+            // 
+            this.CmbSwitchElement.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.CmbSwitchElement.FormattingEnabled = true;
+            this.CmbSwitchElement.Items.AddRange(new object[] {
+            resources.GetString("CmbSwitchElement.Items"),
+            resources.GetString("CmbSwitchElement.Items1"),
+            resources.GetString("CmbSwitchElement.Items2"),
+            resources.GetString("CmbSwitchElement.Items3"),
+            resources.GetString("CmbSwitchElement.Items4"),
+            resources.GetString("CmbSwitchElement.Items5"),
+            resources.GetString("CmbSwitchElement.Items6"),
+            resources.GetString("CmbSwitchElement.Items7")});
+            resources.ApplyResources(this.CmbSwitchElement, "CmbSwitchElement");
+            this.CmbSwitchElement.Name = "CmbSwitchElement";
+            this.CmbSwitchElement.SelectedIndexChanged += new System.EventHandler(this.CmbSwitchElement_SelectedIndexChanged);
+            // 
+            // LnkSwitchElement
+            // 
+            resources.ApplyResources(this.LnkSwitchElement, "LnkSwitchElement");
+            this.LnkSwitchElement.Name = "LnkSwitchElement";
+            this.LnkSwitchElement.TabStop = true;
+            this.LnkSwitchElement.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkSwitchElement_LinkClicked);
             // 
             // CmbAvatar
             // 
@@ -2328,6 +2365,7 @@ namespace GrasscutterTools.Forms
             // 
             // TPArtifact
             // 
+            this.TPArtifact.Controls.Add(this.LnkCharacterBuilder);
             this.TPArtifact.Controls.Add(this.LblArtifactLevelTip);
             this.TPArtifact.Controls.Add(this.BtnAddSubAttr);
             this.TPArtifact.Controls.Add(this.LblArtifactName);
@@ -2717,18 +2755,18 @@ namespace GrasscutterTools.Forms
             // 
             resources.ApplyResources(this.TCMain, "TCMain");
             this.TCMain.Controls.Add(this.TPHome);
+            this.TCMain.Controls.Add(this.TPRemoteCall);
             this.TCMain.Controls.Add(this.TPCustom);
             this.TCMain.Controls.Add(this.TPArtifact);
-            this.TCMain.Controls.Add(this.TPQuest);
             this.TCMain.Controls.Add(this.TPSpawn);
+            this.TCMain.Controls.Add(this.TPItem);
             this.TCMain.Controls.Add(this.TPAvatar);
             this.TCMain.Controls.Add(this.TPWeapon);
-            this.TCMain.Controls.Add(this.TPItem);
-            this.TCMain.Controls.Add(this.TPScene);
             this.TCMain.Controls.Add(this.TPManage);
             this.TCMain.Controls.Add(this.TPMail);
+            this.TCMain.Controls.Add(this.TPQuest);
+            this.TCMain.Controls.Add(this.TPScene);
             this.TCMain.Controls.Add(this.TPAbout);
-            this.TCMain.Controls.Add(this.TPRemoteCall);
             this.TCMain.Name = "TCMain";
             this.TCMain.SelectedIndex = 0;
             // 
@@ -2987,13 +3025,12 @@ namespace GrasscutterTools.Forms
             this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
             // 
-            // TxtBanReason
+            // LnkCharacterBuilder
             // 
-            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
-            this.TxtBanReason.Maximum = 0F;
-            this.TxtBanReason.Minimum = 0F;
-            this.TxtBanReason.Name = "TxtBanReason";
+            resources.ApplyResources(this.LnkCharacterBuilder, "LnkCharacterBuilder");
+            this.LnkCharacterBuilder.Name = "LnkCharacterBuilder";
+            this.LnkCharacterBuilder.TabStop = true;
+            this.LnkCharacterBuilder.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkCharacterBuilder_LinkClicked);
             // 
             // FormMain
             // 
@@ -3427,5 +3464,8 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.NumericUpDown NUDEntityMaxHp;
         private System.Windows.Forms.Label LblEntityMaxHp;
         private System.Windows.Forms.Label LblSpawnVersionRequireTip;
+        private System.Windows.Forms.ComboBox CmbSwitchElement;
+        private System.Windows.Forms.LinkLabel LnkSwitchElement;
+        private System.Windows.Forms.LinkLabel LnkCharacterBuilder;
     }
 }

@@ -15,6 +15,19 @@ GCG поддерживает 简体中文 (китайский упр.), 繁体�
 > **Warning**: вид приложения может отличаться от скриншотов. Также в нём могут присутствовать ошибки в переводе и отсутсвие некоторых ресурсов. **Мы приглашаем всех сделать вклад в их [улучшение](/Source/GrasscutterTools/Resources/ru-ru)**
 
 ## Лог обновлений
+### GrasscutterTools-v1.7.3
+![Улучшенный спавн](Doc/Screenshots-ru/4-SpawnEntity.png)
+
+Добавлена поддержка генерации команд для плагинов [AttackModifier](https://github.com/NotThorny/AttackModifier), [AttackInfusedWithItem](https://github.com/snoobi-seggs/AttackInfusedWithItem), [SwitchElementTraveller](https://github.com/Penelopeep/SwitchElementTraveller).
+
+![AttackInfusedWithItem Gif](Doc/Screenshots/AttackMod.gif)
+
+### GrasscutterTools-v1.7.2
+![Редактор магазина](Doc/Screenshots-ru/17-ShopEditor.png)
+
+### GrasscutterTools-v1.7.1
+ - Гаджеты (пока что только на китайском)
+
 ### GrasscutterTools-v1.7.0
 
 ![Запуск нескольких команд](Doc/Screenshots/RunMultipleCommands.png)
@@ -47,8 +60,6 @@ GCG поддерживает 简体中文 (китайский упр.), 繁体�
 
 ![Главная](Doc/Screenshots-ru/0-Home.png)
 
-![Run Command](Doc/Screenshots/RunMultipleCommands.png)
-
 ![Скриншот пользовательских команд](Doc/Screenshots-ru/1-CustomCommands.png)
 
 ![Скриншот артефактов](Doc/Screenshots-ru/2-CustomArtifact.png)
@@ -66,8 +77,6 @@ GCG поддерживает 简体中文 (китайский упр.), 繁体�
 ![Скриншот смены сцены](Doc/Screenshots-ru/9-ChangeScene.png)
 
 ![Скриншот управления аккаунтом](Doc/Screenshots-ru/11-Manage.png)
-
-![Скриншот Credits](Doc/Screenshots-ru/12-Credits.png)
 
 ![Скриншот OpenCommand](Doc/Screenshots-ru/13-Remote.png)
 

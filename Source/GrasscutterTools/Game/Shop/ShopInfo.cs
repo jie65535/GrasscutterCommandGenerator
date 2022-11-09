@@ -16,14 +16,44 @@
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  * 
  **/
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 
 namespace GrasscutterTools.Game.Shop
 {
     public class ShopInfo
     {
+        public ShopInfo()
+        {
+
+        }
+
+        public ShopInfo(ShopGoodsData sgd)
+        {
+            GoodsId          = sgd.GoodsId;
+            GoodsItem        = new ItemParamData(sgd.ItemId, sgd.ItemCount);
+            SCoin            = sgd.CostScoin;
+            MCoin            = sgd.CostMcion;
+            HCoin            = sgd.CostHcoin;
+            BuyLimit         = sgd.BuyLimit;
+
+            MinLevel         = sgd.MinPlayerLevel;
+            MaxLevel         = sgd.MaxPlayerLevel;
+            CostItemList     = sgd.CostItems.Where(it => it.Id != 0).ToList();
+            SecondarySheetId = sgd.SubTabId;
+            RefreshType      = sgd.RefreshType;
+            ShopRefreshParam = sgd.RefreshParam;
+            if (sgd.BeginTime != null && sgd.EndTime != null)
+            {
+                BeginTime    = (int)new DateTimeOffset(sgd.BeginTime.Value).ToUnixTimeSeconds();
+                EndTime      = (int)new DateTimeOffset(sgd.EndTime.Value).ToUnixTimeSeconds();
+            }
+        }
+
         [JsonProperty("goodsId")]
         public int GoodsId { get; set; }
 
@@ -79,7 +109,7 @@ namespace GrasscutterTools.Game.Shop
         [JsonProperty("secondarySheetId")]
         public int SecondarySheetId { get; set; }
 
-        [JsonProperty("refreshType")]
+        [JsonProperty("refreshType"), JsonConverter(typeof(StringEnumConverter))]
         public ShopRefreshType RefreshType { get; set; }
 
         [JsonProperty("shopRefreshParam")]
