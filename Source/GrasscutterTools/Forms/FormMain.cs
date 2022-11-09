@@ -1510,7 +1510,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void OnAttackInfusedCommand(object sender, EventArgs e)
         {
-            SetCommand("/at", (sender as Control).Tag as string);
+            SetCommand("/snoospawn", (sender as Control).Tag as string);
         }
 
         /// <summary>
@@ -1539,7 +1539,7 @@ namespace GrasscutterTools.Forms
             ConnectArg(NUDAiwiCount);
             ConnectArg(NUDAiwiHeight);
             ConnectArg(NUDAiwiRadius);
-            SetCommand("/at", id.ToString() + args);
+            SetCommand("/snoospawn", id.ToString() + args);
             //SetCommand("/at", $"{id} {NUDAiwiRadius.Value} {NUDAiwiHeight.Value} {NUDAiwiCount.Value} {NUDAiwiSpread.Value} {NUDAiwiRotateX.Value} {NUDAiwiRotateY.Value} {NUDAiwiRotateZ.Value}");
 
         }
