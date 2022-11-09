@@ -16,6 +16,15 @@ Support 简体中文, 繁体中文, English and Русский languages.
 Welcome everyone to improve the [ID Resource](/Source/GrasscutterTools/Resources/en-us).
 
 ## Update log
+### GrasscutterTools-v1.7.3
+![Gadget](Doc/Screenshots-en/6-SpawnEntity.png)
+
+### GrasscutterTools-v1.7.2
+![Shop Editor](Doc/Screenshots-en/17-ShopEditor.png)
+
+### GrasscutterTools-v1.7.1
+ - Gadgets(CHS Only)
+
 ### GrasscutterTools-v1.7.0
 
 ![Run Commands](Doc/Screenshots/RunMultipleCommands.png)

@@ -17,9 +17,18 @@
 
 ## Update log
 
-### GrasscutterTools-v1.7.1
+### GrasscutterTools-v1.7.3
+![Spawns](Doc/Screenshots/6-SpawnEntity.png)
 
-![Spawn Entity Screenshort](Doc/Screenshots/6-SpawnEntity.png)
+![Spawns](Doc/Screenshots/6.1-AttackMod.png)
+
+![Spawns](Doc/Screenshots/6.2-AttackInfuse.png)
+
+### GrasscutterTools-v1.7.2
+![Shop Editor](Doc/Screenshots/17-ShopEditor.png)
+
+### GrasscutterTools-v1.7.1
+ - 增加了 Gadgets
 
 ### GrasscutterTools-v1.7.0
 

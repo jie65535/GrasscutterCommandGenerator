@@ -15,6 +15,16 @@ GCG поддерживает 简体中文 (китайский упр.), 繁体�
 Приглашаем всех улучшить [ID ресурсов и перевод](/Source/GrasscutterTools/Resources/ru-ru)
 
 ## Update log
+
+### GrasscutterTools-v1.7.3
+![Gadget](Doc/Screenshots-ru/4-SpawnEntity.png)
+
+### GrasscutterTools-v1.7.2
+![Shop Editor](Doc/Screenshots-ru/17-ShopEditor.png)
+
+### GrasscutterTools-v1.7.1
+ - Gadgets (CHS Only)
+
 ### GrasscutterTools-v1.7.0
 
 ![Run Commands](Doc/Screenshots/RunMultipleCommands.png)
