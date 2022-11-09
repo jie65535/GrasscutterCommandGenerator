@@ -20,9 +20,13 @@
 ### GrasscutterTools-v1.7.3
 ![Spawns](Doc/Screenshots/6-SpawnEntity.png)
 
-![Spawns](Doc/Screenshots/6.1-AttackMod.png)
+![AttackMod](Doc/Screenshots/6.1-AttackMod.png)
 
-![Spawns](Doc/Screenshots/6.2-AttackInfuse.png)
+![AttackInfuse](Doc/Screenshots/6.2-AttackInfuse.png)
+
+新增[攻击修改](https://github.com/NotThorny/AttackModifier)、[攻击注入](https://github.com/snoobi-seggs/AttackInfusedWithItem)、[切换元素](https://github.com/Penelopeep/SwitchElementTraveller)等插件命令生成
+
+![AttackInfusedWithItem Gif](Doc/Screenshots/AttackMod.gif)
 
 ### GrasscutterTools-v1.7.2
 ![Shop Editor](Doc/Screenshots/17-ShopEditor.png)

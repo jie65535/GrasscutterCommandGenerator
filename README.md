@@ -19,6 +19,10 @@ Welcome everyone to improve the [ID Resource](/Source/GrasscutterTools/Resources
 ### GrasscutterTools-v1.7.3
 ![Gadget](Doc/Screenshots-en/6-SpawnEntity.png)
 
+Added [AttackModifier](https://github.com/NotThorny/AttackModifier), [AttackInfusedWithItem](https://github.com/snoobi-seggs/AttackInfusedWithItem), [SwitchElementTraveller](https://github.com/Penelopeep/SwitchElementTraveller) plugins command generation
+
+![AttackInfusedWithItem Gif](Doc/Screenshots/AttackMod.gif)
+
 ### GrasscutterTools-v1.7.2
 ![Shop Editor](Doc/Screenshots-en/17-ShopEditor.png)
 
