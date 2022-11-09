@@ -120,6 +120,12 @@
   <data name="BtnDeleteGoods.Text" xml:space="preserve">
     <value>- 刪除</value>
   </data>
+  <data name="CmbRefreshType.Items" xml:space="preserve">
+    <value>無</value>
+  </data>
+  <data name="CmbRefreshType.Items2" xml:space="preserve">
+    <value>週</value>
+  </data>
   <data name="LblBuyLevelLabel.Text" xml:space="preserve">
     <value>限購等級：</value>
   </data>
