@@ -797,28 +797,28 @@
     <value>Уровень таланта</value>
   </data>
   <data name="CmbSwitchElement.Items" xml:space="preserve">
-    <value>Никто</value>
+    <value>Без элемента</value>
   </data>
   <data name="CmbSwitchElement.Items1" xml:space="preserve">
-    <value>Огонь</value>
+    <value>Пиро</value>
   </data>
   <data name="CmbSwitchElement.Items2" xml:space="preserve">
-    <value>Вода</value>
+    <value>Гидро</value>
   </data>
   <data name="CmbSwitchElement.Items3" xml:space="preserve">
-    <value>Ветер</value>
+    <value>Анемо</value>
   </data>
   <data name="CmbSwitchElement.Items4" xml:space="preserve">
-    <value>Лед</value>
+    <value>Крио</value>
   </data>
   <data name="CmbSwitchElement.Items5" xml:space="preserve">
-    <value>Камень</value>
+    <value>Гео</value>
   </data>
   <data name="CmbSwitchElement.Items6" xml:space="preserve">
     <value>Электро</value>
   </data>
   <data name="CmbSwitchElement.Items7" xml:space="preserve">
-    <value>Трава</value>
+    <value>Дендро</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LnkSwitchElement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -972,7 +972,7 @@
     <value>338, 207</value>
   </data>
   <data name="TPSpawnArgs.Text" xml:space="preserve">
-    <value>Spawn args</value>
+    <value>Спавн</value>
   </data>
   <data name="LblAMPluginTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>190, 17</value>
@@ -1023,7 +1023,7 @@
     <value>338, 207</value>
   </data>
   <data name="TPAttackModArgs.Text" xml:space="preserve">
-    <value>Attack Modifier</value>
+    <value>Изменение атаки</value>
   </data>
   <data name="LblAiwiRotate.Size" type="System.Drawing.Size, System.Drawing">
     <value>241, 17</value>
@@ -1044,7 +1044,7 @@
     <value>56, 17</value>
   </data>
   <data name="LblAiwiCount.Text" xml:space="preserve">
-    <value>Количе.</value>
+    <value>Кол-во</value>
   </data>
   <data name="LblAiwiHeight.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 17</value>
@@ -1059,16 +1059,16 @@
     <value>Радиус</value>
   </data>
   <data name="BtnAttackInfuse.Text" xml:space="preserve">
-    <value>инъекция атаки</value>
+    <value>Создать инфузию</value>
   </data>
   <data name="BtnAiwiReload.Text" xml:space="preserve">
-    <value>config</value>
+    <value>Перезагрузка</value>
   </data>
   <data name="BtnAiwiClear.Text" xml:space="preserve">
-    <value>Чистый</value>
+    <value>Очистить</value>
   </data>
   <data name="BtnAiwiReset.Text" xml:space="preserve">
-    <value>Reset</value>
+    <value>Сбросить</value>
   </data>
   <data name="LblAiwiPlugin.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 17</value>
@@ -1077,7 +1077,7 @@
     <value>Плагин</value>
   </data>
   <data name="TPAttackInfusedArgs.Text" xml:space="preserve">
-    <value>Attack Infuse</value>
+    <value>Элем. инфузия</value>
   </data>
   <data name="ListEntity.Size" type="System.Drawing.Size, System.Drawing">
     <value>274, 171</value>
@@ -1116,7 +1116,7 @@
     <value>X Очистить</value>
   </data>
   <data name="TPSpawnRecords.Text" xml:space="preserve">
-    <value>Рекорды спавна</value>
+    <value>Записи спавнов</value>
   </data>
   <data name="TPSpawn.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>
@@ -1551,6 +1551,12 @@
   </data>
   <data name="TPMail.Text" xml:space="preserve">
     <value>Почта</value>
+  </data>
+  <data name="TPMailSelectableItemList.Text" xml:space="preserve">
+    <value>Предметы</value>
+  </data>
+  <data name="TPMailList.Text" xml:space="preserve">
+    <value>Список рассылки</value>
   </data>
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>

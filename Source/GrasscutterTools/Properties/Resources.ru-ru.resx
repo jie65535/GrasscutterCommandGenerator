@@ -146,7 +146,7 @@
     <value>..\Resources\ru-ru\AvatarStats.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BrowserOpenFailedTip" xml:space="preserve">
-    <value>Не удалось открыть в браузере. Вы можете вручную получить доступ к следующему адресу:</value>
+    <value>Не удалось открыть в браузере. Вы можете вручную перейти по этому адресу:</value>
   </data>
   <data name="CheckToNewVersion" xml:space="preserve">
     <value>Переход на новую версию</value>
@@ -227,7 +227,7 @@
     <value>Пожалуйста, сначала подключитесь к серверу, который поддерживает [OpenCommand]</value>
   </data>
   <data name="RestoreCustomCommands" xml:space="preserve">
-    <value>Вы уверены, что хотите восстановить пользовательские команды по умолчанию?</value>
+    <value>Вы уверены, что хотите восстановить пользовательские команды до списка по умолчанию?</value>
   </data>
   <data name="Scene" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ru-ru\Scene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
@@ -258,8 +258,8 @@
   </data>
   <data name="MailSendToAllWarning" xml:space="preserve">
     <value>Отправка почты всем в текущей (v1.4.2) или более ранних версиях может привести к зависанию сервера или даже к нехватке ресурсов и сбою!
-На самом деле было измерено, что отправка электронных писем на 3000+ учетных записей на машине 4H8G приводит к зависанию сервера, и для получения всех игроков (2000+) на машине 32H80G требуется 40 секунд.
-Были отправлены предложения по улучшению, пожалуйста, будьте осторожны, чтобы отправить электронные письма всем игрокам, пока оптимизация не будет завершена!</value>
+Было проверено, что отправка электронных писем на 3000+ учетных записей на машине 4H8G приводит к зависанию сервера, и для получения всех игроков (2000+) на машине 32H80G требуется 40 секунд.
+Были отправлены предложения по улучшению, но пока, пожалуйста, будьте осторожны при отправке писем всем игрокам, пока оптимизация не будет завершена!</value>
   </data>
   <data name="Warning" xml:space="preserve">
     <value>Предупреждение</value>
@@ -268,9 +268,9 @@
     <value>..\Resources\ru-ru\ShopType.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="GoodsIDConflictPrompt" xml:space="preserve">
-    <value>Существует конфликт между текущим идентификатором товара и идентификатором в других магазинах, пожалуйста, замените другим идентификатором или автоматически сгенерируйте идентификатор</value>
+    <value>Существует конфликт между текущим ID товара и ID в других магазинах. Пожалуйста, замените его другим ID или автоматически сгенерируйте новый ID</value>
   </data>
   <data name="ShopJsonOverrideWarning" xml:space="preserve">
-    <value>Разрешено сохранять только в формате Shop.json! Вы уверены, что хотите перезаписать текущий указанный файл?</value>
+    <value>Разрешено сохранять только в формате Shop.json! Вы уверены, что хотите перезаписать текущий файл?</value>
   </data>
 </root>

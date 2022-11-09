@@ -76,7 +76,6 @@ namespace GrasscutterTools.Forms
             this.DTPBanEndTime = new System.Windows.Forms.DateTimePicker();
             this.BtnUnban = new System.Windows.Forms.Button();
             this.BtnBan = new System.Windows.Forms.Button();
-            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.NUDBanUID = new System.Windows.Forms.NumericUpDown();
             this.LblBanUID = new System.Windows.Forms.Label();
             this.GrpAccount = new System.Windows.Forms.GroupBox();
@@ -245,6 +244,7 @@ namespace GrasscutterTools.Forms
             this.TxtQuestFilter = new System.Windows.Forms.TextBox();
             this.ListQuest = new System.Windows.Forms.ListBox();
             this.TPArtifact = new System.Windows.Forms.TabPage();
+            this.LnkCharacterBuilder = new System.Windows.Forms.LinkLabel();
             this.LblArtifactLevelTip = new System.Windows.Forms.Label();
             this.BtnAddSubAttr = new System.Windows.Forms.Button();
             this.LblArtifactName = new System.Windows.Forms.Label();
@@ -324,7 +324,7 @@ namespace GrasscutterTools.Forms
             this.TxtMailSender = new System.Windows.Forms.TextBox();
             this.LblMailSenderLabel = new System.Windows.Forms.Label();
             this.MenuSpawnEntityFilter = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.LnkCharacterBuilder = new System.Windows.Forms.LinkLabel();
+            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -768,14 +768,6 @@ namespace GrasscutterTools.Forms
             this.BtnBan.Name = "BtnBan";
             this.BtnBan.UseVisualStyleBackColor = true;
             this.BtnBan.Click += new System.EventHandler(this.BtnBan_Click);
-            // 
-            // TxtBanReason
-            // 
-            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
-            this.TxtBanReason.Maximum = 0F;
-            this.TxtBanReason.Minimum = 0F;
-            this.TxtBanReason.Name = "TxtBanReason";
             // 
             // NUDBanUID
             // 
@@ -2389,6 +2381,13 @@ namespace GrasscutterTools.Forms
             this.TPArtifact.Name = "TPArtifact";
             this.TPArtifact.UseVisualStyleBackColor = true;
             // 
+            // LnkCharacterBuilder
+            // 
+            resources.ApplyResources(this.LnkCharacterBuilder, "LnkCharacterBuilder");
+            this.LnkCharacterBuilder.Name = "LnkCharacterBuilder";
+            this.LnkCharacterBuilder.TabStop = true;
+            this.LnkCharacterBuilder.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkCharacterBuilder_LinkClicked);
+            // 
             // LblArtifactLevelTip
             // 
             resources.ApplyResources(this.LblArtifactLevelTip, "LblArtifactLevelTip");
@@ -3025,12 +3024,13 @@ namespace GrasscutterTools.Forms
             this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
             // 
-            // LnkCharacterBuilder
+            // TxtBanReason
             // 
-            resources.ApplyResources(this.LnkCharacterBuilder, "LnkCharacterBuilder");
-            this.LnkCharacterBuilder.Name = "LnkCharacterBuilder";
-            this.LnkCharacterBuilder.TabStop = true;
-            this.LnkCharacterBuilder.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkCharacterBuilder_LinkClicked);
+            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
+            this.TxtBanReason.Maximum = 0F;
+            this.TxtBanReason.Minimum = 0F;
+            this.TxtBanReason.Name = "TxtBanReason";
             // 
             // FormMain
             // 
