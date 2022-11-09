@@ -820,6 +820,14 @@ namespace GrasscutterTools.Forms
             LblArtifactLevelTip.Text = $"[{NUDArtifactLevel.Minimum}-{NUDArtifactLevel.Maximum}]";
         }
 
+        /// <summary>
+        /// 点击CharacterBuilder链接标签时触发
+        /// </summary>
+        private void LnkCharacterBuilder_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenURL("https://github.com/Penelopeep/CharacterBuilder");
+        }
+
         #endregion - 圣遗物 Artifact -
 
         #region - 武器 Weapons -

@@ -324,6 +324,7 @@ namespace GrasscutterTools.Forms
             this.TxtMailSender = new System.Windows.Forms.TextBox();
             this.LblMailSenderLabel = new System.Windows.Forms.Label();
             this.MenuSpawnEntityFilter = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.LnkCharacterBuilder = new System.Windows.Forms.LinkLabel();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -2364,6 +2365,7 @@ namespace GrasscutterTools.Forms
             // 
             // TPArtifact
             // 
+            this.TPArtifact.Controls.Add(this.LnkCharacterBuilder);
             this.TPArtifact.Controls.Add(this.LblArtifactLevelTip);
             this.TPArtifact.Controls.Add(this.BtnAddSubAttr);
             this.TPArtifact.Controls.Add(this.LblArtifactName);
@@ -3023,6 +3025,13 @@ namespace GrasscutterTools.Forms
             this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
             // 
+            // LnkCharacterBuilder
+            // 
+            resources.ApplyResources(this.LnkCharacterBuilder, "LnkCharacterBuilder");
+            this.LnkCharacterBuilder.Name = "LnkCharacterBuilder";
+            this.LnkCharacterBuilder.TabStop = true;
+            this.LnkCharacterBuilder.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkCharacterBuilder_LinkClicked);
+            // 
             // FormMain
             // 
             resources.ApplyResources(this, "$this");
@@ -3457,5 +3466,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Label LblSpawnVersionRequireTip;
         private System.Windows.Forms.ComboBox CmbSwitchElement;
         private System.Windows.Forms.LinkLabel LnkSwitchElement;
+        private System.Windows.Forms.LinkLabel LnkCharacterBuilder;
     }
 }
