@@ -127,14 +127,11 @@
   <data name="ChkAutoCopy.Text" xml:space="preserve">
     <value>Auto</value>
   </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>Command  - [Ctrl] Autorun  - [|] Split multiple commands</value>
-  </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>Run(F5)</value>
   </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>Remote</value>
+  <data name="GrpCommand.Text" xml:space="preserve">
+    <value>Command  - [Ctrl] Autorun  - [|] Split multiple commands</value>
   </data>
   <data name="LnkInventoryKamera.Text" xml:space="preserve">
     <value>InventoryKamera</value>
@@ -153,9 +150,6 @@
   </data>
   <data name="LblHostTip.Text" xml:space="preserve">
     <value>Please be sure https:// or http:// is included with the IP address</value>
-  </data>
-  <data name="GrpServerStatus.Text" xml:space="preserve">
-    <value>Server status</value>
   </data>
   <data name="LnkOpenCommandLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 63</value>
@@ -193,11 +187,8 @@
   <data name="LblPlayerCountLabel.Text" xml:space="preserve">
     <value>Player count</value>
   </data>
-  <data name="GrpRemoteCommand.Text" xml:space="preserve">
-    <value>Remote Cell</value>
-  </data>
-  <data name="TPPlayerCheck.Text" xml:space="preserve">
-    <value>Player</value>
+  <data name="GrpServerStatus.Text" xml:space="preserve">
+    <value>Server status</value>
   </data>
   <data name="LnkRCHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>35, 17</value>
@@ -217,14 +208,20 @@
   <data name="BtnSendVerificationCode.Text" xml:space="preserve">
     <value>Send Code</value>
   </data>
-  <data name="TPConsoleCheck.Text" xml:space="preserve">
-    <value>Console</value>
+  <data name="TPPlayerCheck.Text" xml:space="preserve">
+    <value>Player</value>
   </data>
   <data name="BtnConsoleConnect.Text" xml:space="preserve">
     <value>Connect</value>
   </data>
   <data name="LblConsoleTip.Text" xml:space="preserve">
     <value>Note that normal commands in the console state must specify the target (set include UID)</value>
+  </data>
+  <data name="TPConsoleCheck.Text" xml:space="preserve">
+    <value>Console</value>
+  </data>
+  <data name="GrpRemoteCommand.Text" xml:space="preserve">
+    <value>Remote Cell</value>
   </data>
   <data name="TxtHost.Location" type="System.Drawing.Point, System.Drawing">
     <value>136, 36</value>
@@ -247,8 +244,8 @@
   <data name="LblHost.Text" xml:space="preserve">
     <value>Server IP</value>
   </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>About</value>
+  <data name="TPRemoteCall.Text" xml:space="preserve">
+    <value>Remote</value>
   </data>
   <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>387, 102</value>
@@ -261,11 +258,8 @@ If you think this is helpful to you, you can give me a free Star.
 If there is a problem with the command generation,
 or there is a new feature request, you can file an issue on Github.</value>
   </data>
-  <data name="TPManage.Text" xml:space="preserve">
-    <value>Manage</value>
-  </data>
-  <data name="GrpBanPlayer.Text" xml:space="preserve">
-    <value>Ban</value>
+  <data name="TPAbout.Text" xml:space="preserve">
+    <value>About</value>
   </data>
   <data name="BtnUnban.Text" xml:space="preserve">
     <value>Unban</value>
@@ -285,8 +279,8 @@ or there is a new feature request, you can file an issue on Github.</value>
   <data name="LblBanUID.Text" xml:space="preserve">
     <value>UID</value>
   </data>
-  <data name="GrpAccount.Text" xml:space="preserve">
-    <value>Account</value>
+  <data name="GrpBanPlayer.Text" xml:space="preserve">
+    <value>Ban</value>
   </data>
   <data name="ChkAccountSetUid.Size" type="System.Drawing.Size, System.Drawing">
     <value>49, 21</value>
@@ -321,8 +315,8 @@ or there is a new feature request, you can file an issue on Github.</value>
   <data name="TxtAccountUserName.Size" type="System.Drawing.Size, System.Drawing">
     <value>127, 23</value>
   </data>
-  <data name="GrpPermission.Text" xml:space="preserve">
-    <value>Permissions</value>
+  <data name="GrpAccount.Text" xml:space="preserve">
+    <value>Account</value>
   </data>
   <data name="CmbPerm.Location" type="System.Drawing.Point, System.Drawing">
     <value>262, 21</value>
@@ -357,8 +351,11 @@ or there is a new feature request, you can file an issue on Github.</value>
   <data name="LblPermUID.Text" xml:space="preserve">
     <value>UID</value>
   </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>Scene</value>
+  <data name="GrpPermission.Text" xml:space="preserve">
+    <value>Permissions</value>
+  </data>
+  <data name="TPManage.Text" xml:space="preserve">
+    <value>Manage</value>
   </data>
   <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
     <value>91, 213</value>
@@ -430,8 +427,8 @@ Tip: Most of the scenes have no effect and cannot be entered.</value>
 Tip: You can quickly teleport through the 'fishing hook' pin on the map in-game.
 In the command, you can use ~ to indicate the current position, and ~N to indicate the relative current N</value>
   </data>
-  <data name="TPItem.Text" xml:space="preserve">
-    <value>Items</value>
+  <data name="TPScene.Text" xml:space="preserve">
+    <value>Scene</value>
   </data>
   <data name="LblClearGiveItemLogs.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 17</value>
@@ -484,8 +481,8 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="LblGiveCommandDescription.Text" xml:space="preserve">
     <value>Give item to player</value>
   </data>
-  <data name="TPWeapon.Text" xml:space="preserve">
-    <value>Weapons</value>
+  <data name="TPItem.Text" xml:space="preserve">
+    <value>Items</value>
   </data>
   <data name="BtnGiveAllWeapons.Text" xml:space="preserve">
     <value>Give all Weapons</value>
@@ -529,11 +526,8 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="NUDWeaponLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>147, 216</value>
   </data>
-  <data name="TPAvatar.Text" xml:space="preserve">
-    <value>Avatar</value>
-  </data>
-  <data name="GrpSetConstellation.Text" xml:space="preserve">
-    <value>Constellation</value>
+  <data name="TPWeapon.Text" xml:space="preserve">
+    <value>Weapons</value>
   </data>
   <data name="LnkSetAllConst.Size" type="System.Drawing.Size, System.Drawing">
     <value>43, 17</value>
@@ -547,8 +541,8 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="LnkSetConst.Text" xml:space="preserve">
     <value>Set current</value>
   </data>
-  <data name="GrpSetStats.Text" xml:space="preserve">
-    <value>Stats</value>
+  <data name="GrpSetConstellation.Text" xml:space="preserve">
+    <value>Constellation</value>
   </data>
   <data name="BtnUnlockStat.Text" xml:space="preserve">
     <value>Unlock</value>
@@ -559,8 +553,8 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>Tip</value>
   </data>
-  <data name="GrpTalentLevel.Text" xml:space="preserve">
-    <value>Talent Level</value>
+  <data name="GrpSetStats.Text" xml:space="preserve">
+    <value>Stats</value>
   </data>
   <data name="LnkTalentAll.Location" type="System.Drawing.Point, System.Drawing">
     <value>146, 24</value>
@@ -601,6 +595,39 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="NUDTalentLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 23</value>
   </data>
+  <data name="GrpTalentLevel.Text" xml:space="preserve">
+    <value>Talent Level</value>
+  </data>
+  <data name="CmbSwitchElement.Items" xml:space="preserve">
+    <value>White</value>
+  </data>
+  <data name="CmbSwitchElement.Items1" xml:space="preserve">
+    <value>Fire</value>
+  </data>
+  <data name="CmbSwitchElement.Items2" xml:space="preserve">
+    <value>Water</value>
+  </data>
+  <data name="CmbSwitchElement.Items3" xml:space="preserve">
+    <value>Wind</value>
+  </data>
+  <data name="CmbSwitchElement.Items4" xml:space="preserve">
+    <value>Ice</value>
+  </data>
+  <data name="CmbSwitchElement.Items5" xml:space="preserve">
+    <value>Rock</value>
+  </data>
+  <data name="CmbSwitchElement.Items6" xml:space="preserve">
+    <value>Electro</value>
+  </data>
+  <data name="CmbSwitchElement.Items7" xml:space="preserve">
+    <value>Grass</value>
+  </data>
+  <data name="LnkSwitchElement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="LnkSwitchElement.Text" xml:space="preserve">
+    <value>SwitchElement</value>
+  </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value>Give All Char</value>
   </data>
@@ -628,38 +655,59 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="LblAvatarConstellation.Text" xml:space="preserve">
     <value>Const.</value>
   </data>
-  <data name="TPSpawn.Text" xml:space="preserve">
-    <value>Spawn</value>
+  <data name="TPAvatar.Text" xml:space="preserve">
+    <value>Avatar</value>
   </data>
-  <data name="ChkInfiniteHP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>202, 217</value>
+  <data name="NUDEntityAmout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 25</value>
   </data>
-  <data name="ChkInfiniteHP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>86, 21</value>
+  <data name="LblSpawnVersionRequireTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 17</value>
   </data>
-  <data name="ChkInfiniteHP.Text" xml:space="preserve">
-    <value>Infinite HP</value>
+  <data name="LblSpawnVersionRequireTip.Text" xml:space="preserve">
+    <value>v Require GC &gt; v1.3.1 v</value>
   </data>
-  <data name="LblClearSpawnLogs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>181, 190</value>
+  <data name="LblInfiniteHpTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
   </data>
-  <data name="LblClearSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 17</value>
+  <data name="LblInfiniteHpTip.Text" xml:space="preserve">
+    <value>HP 0 for infinite</value>
   </data>
-  <data name="LblClearSpawnLogs.Text" xml:space="preserve">
-    <value>X Clear</value>
+  <data name="LblEntityDef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 17</value>
   </data>
-  <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
-    <value>√ Record</value>
+  <data name="LblEntityDef.Text" xml:space="preserve">
+    <value>Defense</value>
   </data>
-  <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
-    <value>× Delete</value>
+  <data name="LblEntityAtk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
   </data>
-  <data name="GrpSpawnRecord.Text" xml:space="preserve">
-    <value>Records</value>
+  <data name="LblEntityAtk.Text" xml:space="preserve">
+    <value>Attack</value>
   </data>
-  <data name="GrpEntityType.Text" xml:space="preserve">
-    <value>Class</value>
+  <data name="LblEntityHp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 17</value>
+  </data>
+  <data name="LblEntityHp.Text" xml:space="preserve">
+    <value>HP</value>
+  </data>
+  <data name="LblEntityMaxHp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="LblEntityMaxHp.Text" xml:space="preserve">
+    <value>Max HP</value>
+  </data>
+  <data name="LblEntitySpawnPostion.Text" xml:space="preserve">
+    <value>Pos:    x:                    y:                    z:</value>
+  </data>
+  <data name="LblEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 27</value>
+  </data>
+  <data name="LblEntityLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 17</value>
+  </data>
+  <data name="LblEntityLevel.Text" xml:space="preserve">
+    <value>Level</value>
   </data>
   <data name="LblEntityAmount.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 17</value>
@@ -667,26 +715,122 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="LblEntityAmount.Text" xml:space="preserve">
     <value>Amount</value>
   </data>
-  <data name="LblEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>120, 218</value>
+  <data name="TPSpawnArgs.Text" xml:space="preserve">
+    <value>Spawn args</value>
   </data>
-  <data name="LblEntityLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>20, 17</value>
+  <data name="LblAMPluginTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 17</value>
   </data>
-  <data name="LblEntityLevel.Text" xml:space="preserve">
-    <value>Lv</value>
+  <data name="LblAMPluginTip.Text" xml:space="preserve">
+    <value>Meet the real Thor!</value>
   </data>
-  <data name="NUDEntityAmout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>64, 216</value>
+  <data name="LblAMPluginIntroduction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>326, 17</value>
   </data>
-  <data name="NUDEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>146, 216</value>
+  <data name="LblAMPluginIntroduction.Text" xml:space="preserve">
+    <value>This plugin can use Gadget to replace character attack</value>
   </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>Quest</value>
+  <data name="LblAMPlugin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
   </data>
-  <data name="GrpQuestFilters.Text" xml:space="preserve">
-    <value>List Filter</value>
+  <data name="LblAMPlugin.Text" xml:space="preserve">
+    <value>Plugin:</value>
+  </data>
+  <data name="LnkAMOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 17</value>
+  </data>
+  <data name="LnkAMOff.Text" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="LnkAMOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="LnkAMOn.Text" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="BtnAtReload.Text" xml:space="preserve">
+    <value>Reload config</value>
+  </data>
+  <data name="BtnAtClear.Text" xml:space="preserve">
+    <value>Clear all gadgets</value>
+  </data>
+  <data name="GrpAMSkills.Text" xml:space="preserve">
+    <value>Replace Skill</value>
+  </data>
+  <data name="TPAttackModArgs.Text" xml:space="preserve">
+    <value>AttackModifier</value>
+  </data>
+  <data name="LblAiwiRotate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 17</value>
+  </data>
+  <data name="LblAiwiRotate.Text" xml:space="preserve">
+    <value>Rot:     x:                    y:                    z:</value>
+  </data>
+  <data name="LblAiwiSpread.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="LblAiwiSpread.Text" xml:space="preserve">
+    <value>Spread</value>
+  </data>
+  <data name="LblAiwiCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="LblAiwiCount.Text" xml:space="preserve">
+    <value>Count</value>
+  </data>
+  <data name="LblAiwiHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="LblAiwiHeight.Text" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="LblAiwiRadius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>47, 17</value>
+  </data>
+  <data name="LblAiwiRadius.Text" xml:space="preserve">
+    <value>Radius</value>
+  </data>
+  <data name="BtnAttackInfuse.Text" xml:space="preserve">
+    <value>Attack Infuse</value>
+  </data>
+  <data name="BtnAiwiReload.Text" xml:space="preserve">
+    <value>Reload config</value>
+  </data>
+  <data name="BtnAiwiClear.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="BtnAiwiReset.Text" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="LblAiwiPlugin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="LblAiwiPlugin.Text" xml:space="preserve">
+    <value>Plugin:</value>
+  </data>
+  <data name="TPAttackInfusedArgs.Text" xml:space="preserve">
+    <value>AttackInfused</value>
+  </data>
+  <data name="TPSpawnItems.Text" xml:space="preserve">
+    <value>Entities</value>
+  </data>
+  <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
+    <value>√ Record</value>
+  </data>
+  <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
+    <value>× Delete</value>
+  </data>
+  <data name="LblClearSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="LblClearSpawnLogs.Text" xml:space="preserve">
+    <value>X Clear</value>
+  </data>
+  <data name="TPSpawnRecords.Text" xml:space="preserve">
+    <value>Spawn Records</value>
+  </data>
+  <data name="TPSpawn.Text" xml:space="preserve">
+    <value>Spawn</value>
   </data>
   <data name="ChkQuestFilterTEST.Size" type="System.Drawing.Size, System.Drawing">
     <value>51, 21</value>
@@ -706,6 +850,9 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="ChkQuestFilterHIDDEN.Text" xml:space="preserve">
     <value>Hidden</value>
   </data>
+  <data name="GrpQuestFilters.Text" xml:space="preserve">
+    <value>List Filter</value>
+  </data>
   <data name="BtnFinishQuest.Text" xml:space="preserve">
     <value>Finish</value>
   </data>
@@ -717,8 +864,8 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
 Tip: Many quest require server-side scripting support
 Therefore, the quest can be added and finished, but not necessarily work.</value>
   </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>Artifacts</value>
+  <data name="TPQuest.Text" xml:space="preserve">
+    <value>Quest</value>
   </data>
   <data name="BtnAddSubAttr.Text" xml:space="preserve">
     <value>+ Add</value>
@@ -777,8 +924,8 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="LblArtifactStars.Text" xml:space="preserve">
     <value>Stars</value>
   </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>Custom</value>
+  <data name="TPArtifact.Text" xml:space="preserve">
+    <value>Artifacts</value>
   </data>
   <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
     <value>583, 216</value>
@@ -804,9 +951,6 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="LblCustomName.Text" xml:space="preserve">
     <value>Tag</value>
   </data>
-  <data name="groupBox1.Text" xml:space="preserve">
-    <value>List</value>
-  </data>
   <data name="LnkResetCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
     <value>581, -1</value>
   </data>
@@ -815,6 +959,9 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   </data>
   <data name="LnkResetCustomCommands.Text" xml:space="preserve">
     <value>Restore</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>List</value>
   </data>
   <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>443, 216</value>
@@ -837,8 +984,8 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="TxtCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>317, 23</value>
   </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>Home</value>
+  <data name="TPCustom.Text" xml:space="preserve">
+    <value>Custom</value>
   </data>
   <data name="BtnOpenShopEditor.Text" xml:space="preserve">
     <value>Shop Editor</value>
@@ -867,9 +1014,6 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
     <value>Banner Editor</value>
   </data>
-  <data name="GrpSettings.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
   <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 21</value>
   </data>
@@ -882,17 +1026,17 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Include UID</value>
   </data>
-  <data name="TPMail.Text" xml:space="preserve">
-    <value>Mail</value>
+  <data name="GrpSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="TPHome.Text" xml:space="preserve">
+    <value>Home</value>
   </data>
   <data name="BtnAddMailItem.Text" xml:space="preserve">
     <value>+ Add</value>
   </data>
   <data name="BtnDeleteMailItem.Text" xml:space="preserve">
     <value>- Delete</value>
-  </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>Items</value>
   </data>
   <data name="NUDMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>171, 4</value>
@@ -917,9 +1061,6 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   </data>
   <data name="LblMailItemLevel.Text" xml:space="preserve">
     <value>Level:</value>
-  </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>Mailbox</value>
   </data>
   <data name="BtnClearMail.Location" type="System.Drawing.Point, System.Drawing">
     <value>84, 4</value>
@@ -974,5 +1115,8 @@ Therefore, the quest can be added and finished, but not necessarily work.</value
   </data>
   <data name="LblMailSenderLabel.Text" xml:space="preserve">
     <value>Sender:</value>
+  </data>
+  <data name="TPMail.Text" xml:space="preserve">
+    <value>Mail</value>
   </data>
 </root>

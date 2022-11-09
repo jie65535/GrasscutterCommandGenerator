@@ -282,4 +282,7 @@ Improvement suggestions have been submitted, please use caution to send emails t
   <data name="GoodsIDConflictPrompt" xml:space="preserve">
     <value>There is a conflict between the current goods ID and the ID in other stores, please replace with another ID or automatically generate an ID</value>
   </data>
+  <data name="ShopJsonOverrideWarning" xml:space="preserve">
+    <value>Only allowed to save in Shop.json format! Are you sure you want to overwrite the currently specified file?</value>
+  </data>
 </root>

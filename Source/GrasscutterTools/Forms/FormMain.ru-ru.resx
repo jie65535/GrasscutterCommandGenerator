@@ -250,6 +250,12 @@
   <data name="LblRemotePlayerId.Location" type="System.Drawing.Point, System.Drawing">
     <value>16, 15</value>
   </data>
+  <data name="TPPlayerCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPPlayerCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 113</value>
+  </data>
   <data name="TPPlayerCheck.Text" xml:space="preserve">
     <value>Игрок</value>
   </data>
@@ -268,6 +274,9 @@
   <data name="LblConsoleTip.Text" xml:space="preserve">
     <value>Обратите внимание, что обычные команды в консоли должны указывать UID цели
 (установите галочку галочку "Включить UID" на главной)</value>
+  </data>
+  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 109</value>
   </data>
   <data name="TPConsoleCheck.Text" xml:space="preserve">
     <value>Консоль</value>
@@ -296,8 +305,14 @@
   <data name="LblHost.Text" xml:space="preserve">
     <value>Хост</value>
   </data>
+  <data name="TPRemoteCall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPRemoteCall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
   <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>Подключение к OpenCommand</value>
+    <value>OpenCommand</value>
   </data>
   <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
     <value>552, 170</value>
@@ -314,6 +329,12 @@
 
 	Спасибо:  Dhar_Jinxed
 </value>
+  </data>
+  <data name="TPAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
   </data>
   <data name="TPAbout.Text" xml:space="preserve">
     <value>Справка</value>
@@ -468,6 +489,12 @@
   <data name="GrpPermission.Text" xml:space="preserve">
     <value>Управление правами</value>
   </data>
+  <data name="TPManage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPManage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
   <data name="TPManage.Text" xml:space="preserve">
     <value>Аккаунты</value>
   </data>
@@ -544,6 +571,12 @@
 Подсказка: вы можете быстро телепортироваться через отметку «рыболовный крючок» на миникарте в игре.
 В команде вы можете использовать ~, чтобы указать текущую позицию, и ~N, чтобы указать смещение на N относительно текущей позиции</value>
   </data>
+  <data name="TPScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
   <data name="TPScene.Text" xml:space="preserve">
     <value>Сцена</value>
   </data>
@@ -619,6 +652,12 @@
   <data name="LblGiveCommandDescription.Text" xml:space="preserve">
     <value>Дать предмет игроку</value>
   </data>
+  <data name="TPItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
   <data name="TPItem.Text" xml:space="preserve">
     <value>Предметы</value>
   </data>
@@ -664,6 +703,12 @@
   <data name="NUDWeaponLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>151, 216</value>
   </data>
+  <data name="TPWeapon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPWeapon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
   <data name="TPWeapon.Text" xml:space="preserve">
     <value>Оружие</value>
   </data>
@@ -682,6 +727,9 @@
   <data name="LnkSetConst.Text" xml:space="preserve">
     <value>текущий</value>
   </data>
+  <data name="GrpSetConstellation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 172</value>
+  </data>
   <data name="GrpSetConstellation.Text" xml:space="preserve">
     <value>Установить созвездие</value>
   </data>
@@ -696,6 +744,9 @@
   </data>
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>Подсказка</value>
+  </data>
+  <data name="GrpSetStats.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 9</value>
   </data>
   <data name="GrpSetStats.Text" xml:space="preserve">
     <value>Статистика</value>
@@ -739,8 +790,45 @@
   <data name="NUDTalentLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>94, 23</value>
   </data>
+  <data name="GrpTalentLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>288, 111</value>
+  </data>
   <data name="GrpTalentLevel.Text" xml:space="preserve">
     <value>Уровень таланта</value>
+  </data>
+  <data name="CmbSwitchElement.Items" xml:space="preserve">
+    <value>Без элемента</value>
+  </data>
+  <data name="CmbSwitchElement.Items1" xml:space="preserve">
+    <value>Пиро</value>
+  </data>
+  <data name="CmbSwitchElement.Items2" xml:space="preserve">
+    <value>Гидро</value>
+  </data>
+  <data name="CmbSwitchElement.Items3" xml:space="preserve">
+    <value>Анемо</value>
+  </data>
+  <data name="CmbSwitchElement.Items4" xml:space="preserve">
+    <value>Крио</value>
+  </data>
+  <data name="CmbSwitchElement.Items5" xml:space="preserve">
+    <value>Гео</value>
+  </data>
+  <data name="CmbSwitchElement.Items6" xml:space="preserve">
+    <value>Электро</value>
+  </data>
+  <data name="CmbSwitchElement.Items7" xml:space="preserve">
+    <value>Дендро</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LnkSwitchElement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkSwitchElement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
+  </data>
+  <data name="LnkSwitchElement.Text" xml:space="preserve">
+    <value>SwitchElement</value>
   </data>
   <data name="CmbAvatar.Location" type="System.Drawing.Point, System.Drawing">
     <value>111, 16</value>
@@ -749,7 +837,7 @@
     <value>114, 25</value>
   </data>
   <data name="LblAvatarSkillLevelTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>160, 129</value>
+    <value>160, 124</value>
   </data>
   <data name="NUDAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>111, 47</value>
@@ -758,10 +846,10 @@
     <value>114, 23</value>
   </data>
   <data name="BtnGiveAllChar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 161</value>
+    <value>25, 151</value>
   </data>
   <data name="BtnGiveAllChar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 33</value>
+    <value>200, 30</value>
   </data>
   <data name="BtnGiveAllChar.Text" xml:space="preserve">
     <value> Дать всех персонажей</value>
@@ -776,7 +864,7 @@
     <value>Уровень</value>
   </data>
   <data name="LblAvatarSkillLevelLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>36, 107</value>
+    <value>36, 102</value>
   </data>
   <data name="LblAvatarSkillLevelLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>155, 17</value>
@@ -809,10 +897,13 @@
     <value>114, 23</value>
   </data>
   <data name="NUDAvatarSkillLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 127</value>
+    <value>39, 122</value>
   </data>
   <data name="NUDAvatarSkillLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 23</value>
+  </data>
+  <data name="GrpGiveAvatar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 9</value>
   </data>
   <data name="GrpGiveAvatar.Text" xml:space="preserve">
     <value>Выдать персонажа</value>
@@ -820,26 +911,185 @@
   <data name="TPAvatar.Text" xml:space="preserve">
     <value>Персонаж</value>
   </data>
-  <data name="ChkInfiniteHP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>186, 217</value>
+  <data name="LblSpawnVersionRequireTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 17</value>
   </data>
-  <data name="ChkInfiniteHP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 21</value>
+  <data name="LblSpawnVersionRequireTip.Text" xml:space="preserve">
+    <value>Требуется GC &gt;= v1.3.1</value>
   </data>
-  <data name="ChkInfiniteHP.Text" xml:space="preserve">
-    <value>Бесконечное HP</value>
+  <data name="LblInfiniteHpTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 17</value>
   </data>
-  <data name="LblClearSpawnLogs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>170, 192</value>
+  <data name="LblInfiniteHpTip.Text" xml:space="preserve">
+    <value>HP 0 для бесконечности</value>
   </data>
-  <data name="LblClearSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 17</value>
+  <data name="LblEntityDef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
   </data>
-  <data name="LblClearSpawnLogs.Text" xml:space="preserve">
-    <value>X Очистить</value>
+  <data name="LblEntityDef.Text" xml:space="preserve">
+    <value>Защита</value>
   </data>
-  <data name="BtnSaveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 189</value>
+  <data name="LblEntityAtk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="LblEntityAtk.Text" xml:space="preserve">
+    <value>Атака</value>
+  </data>
+  <data name="LblEntityHp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 17</value>
+  </data>
+  <data name="LblEntityHp.Text" xml:space="preserve">
+    <value>HP</value>
+  </data>
+  <data name="LblEntityMaxHp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="LblEntityMaxHp.Text" xml:space="preserve">
+    <value>Макс. HP</value>
+  </data>
+  <data name="LblEntitySpawnPostion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 17</value>
+  </data>
+  <data name="LblEntitySpawnPostion.Text" xml:space="preserve">
+    <value>Поз     x:                    y:                    z:</value>
+  </data>
+  <data name="LblEntityLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 17</value>
+  </data>
+  <data name="LblEntityLevel.Text" xml:space="preserve">
+    <value>Ур.</value>
+  </data>
+  <data name="LblEntityAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 17</value>
+  </data>
+  <data name="LblEntityAmount.Text" xml:space="preserve">
+    <value>Кол.</value>
+  </data>
+  <data name="TPSpawnArgs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPSpawnArgs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 207</value>
+  </data>
+  <data name="TPSpawnArgs.Text" xml:space="preserve">
+    <value>Спавн</value>
+  </data>
+  <data name="LblAMPluginTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 17</value>
+  </data>
+  <data name="LblAMPluginTip.Text" xml:space="preserve">
+    <value>Встречайте настоящего Тора!</value>
+  </data>
+  <data name="LblAMPluginIntroduction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 17</value>
+  </data>
+  <data name="LblAMPluginIntroduction.Text" xml:space="preserve">
+    <value>Атаки можно заменить гаджетом</value>
+  </data>
+  <data name="LblAMPlugin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="LblAMPlugin.Text" xml:space="preserve">
+    <value>Плагин</value>
+  </data>
+  <data name="LnkAMOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 3</value>
+  </data>
+  <data name="LnkAMOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 17</value>
+  </data>
+  <data name="LnkAMOff.Text" xml:space="preserve">
+    <value>выкл.</value>
+  </data>
+  <data name="LnkAMOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LnkAMOn.Text" xml:space="preserve">
+    <value>вкл.</value>
+  </data>
+  <data name="BtnAtReload.Text" xml:space="preserve">
+    <value>Перезагрузить</value>
+  </data>
+  <data name="BtnAtClear.Text" xml:space="preserve">
+    <value>Очистить гаджеты</value>
+  </data>
+  <data name="GrpAMSkills.Text" xml:space="preserve">
+    <value>Замена навыков</value>
+  </data>
+  <data name="TPAttackModArgs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPAttackModArgs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 207</value>
+  </data>
+  <data name="TPAttackModArgs.Text" xml:space="preserve">
+    <value>Изменение атаки</value>
+  </data>
+  <data name="LblAiwiRotate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>241, 17</value>
+  </data>
+  <data name="LblAiwiRotate.Text" xml:space="preserve">
+    <value>Повер. x:                    y:                    z:</value>
+  </data>
+  <data name="LblAiwiSpread.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 78</value>
+  </data>
+  <data name="LblAiwiSpread.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 17</value>
+  </data>
+  <data name="LblAiwiSpread.Text" xml:space="preserve">
+    <value>Распростр.</value>
+  </data>
+  <data name="LblAiwiCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LblAiwiCount.Text" xml:space="preserve">
+    <value>Кол-во</value>
+  </data>
+  <data name="LblAiwiHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 17</value>
+  </data>
+  <data name="LblAiwiHeight.Text" xml:space="preserve">
+    <value>Высота</value>
+  </data>
+  <data name="LblAiwiRadius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 17</value>
+  </data>
+  <data name="LblAiwiRadius.Text" xml:space="preserve">
+    <value>Радиус</value>
+  </data>
+  <data name="BtnAttackInfuse.Text" xml:space="preserve">
+    <value>Создать инфузию</value>
+  </data>
+  <data name="BtnAiwiReload.Text" xml:space="preserve">
+    <value>Перезагрузка</value>
+  </data>
+  <data name="BtnAiwiClear.Text" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="BtnAiwiReset.Text" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="LblAiwiPlugin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="LblAiwiPlugin.Text" xml:space="preserve">
+    <value>Плагин</value>
+  </data>
+  <data name="TPAttackInfusedArgs.Text" xml:space="preserve">
+    <value>Элем. инфузия</value>
+  </data>
+  <data name="ListEntity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 171</value>
+  </data>
+  <data name="TPSpawnItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPSpawnItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 207</value>
+  </data>
+  <data name="TPSpawnItems.Text" xml:space="preserve">
+    <value>Список объектов</value>
   </data>
   <data name="BtnSaveSpawnLog.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
@@ -848,7 +1098,7 @@
     <value>√ Сохр.</value>
   </data>
   <data name="BtnRemoveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 189</value>
+    <value>89, 3</value>
   </data>
   <data name="BtnRemoveSpawnLog.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
@@ -856,44 +1106,23 @@
   <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
     <value>× Удалить</value>
   </data>
-  <data name="ListSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>234, 162</value>
+  <data name="LblClearSpawnLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 6</value>
   </data>
-  <data name="GrpSpawnRecord.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 6</value>
+  <data name="LblClearSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 17</value>
   </data>
-  <data name="GrpSpawnRecord.Size" type="System.Drawing.Size, System.Drawing">
-    <value>240, 184</value>
+  <data name="LblClearSpawnLogs.Text" xml:space="preserve">
+    <value>X Очистить</value>
   </data>
-  <data name="GrpSpawnRecord.Text" xml:space="preserve">
-    <value>Список мобов</value>
+  <data name="TPSpawnRecords.Text" xml:space="preserve">
+    <value>Записи спавнов</value>
   </data>
-  <data name="FLPEntityType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>97, 183</value>
+  <data name="TPSpawn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
   </data>
-  <data name="GrpEntityType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>249, 6</value>
-  </data>
-  <data name="GrpEntityType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 205</value>
-  </data>
-  <data name="GrpEntityType.Text" xml:space="preserve">
-    <value>Класс</value>
-  </data>
-  <data name="LblEntityAmount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>34, 17</value>
-  </data>
-  <data name="LblEntityAmount.Text" xml:space="preserve">
-    <value>Кол.</value>
-  </data>
-  <data name="LblEntityLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 17</value>
-  </data>
-  <data name="LblEntityLevel.Text" xml:space="preserve">
-    <value>Ур.</value>
-  </data>
-  <data name="NUDEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 216</value>
+  <data name="TPSpawn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
   </data>
   <data name="TPSpawn.Text" xml:space="preserve">
     <value>Спавн</value>
@@ -929,6 +1158,12 @@
     <value>Добавить или завершить задание.
 Внимание: для многих квестов требуются скрипты таковых на стороне сервера.
 Поэтому квест может быть добавлен или отозван через консоль, но завершён игроком - вряд ли.</value>
+  </data>
+  <data name="TPQuest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPQuest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
   </data>
   <data name="TPQuest.Text" xml:space="preserve">
     <value>Квест</value>
@@ -1005,6 +1240,12 @@
   <data name="LblArtifactStars.Text" xml:space="preserve">
     <value>Звезды</value>
   </data>
+  <data name="TPArtifact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPArtifact.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
   <data name="TPArtifact.Text" xml:space="preserve">
     <value>Артефакт</value>
   </data>
@@ -1068,8 +1309,17 @@
   <data name="TxtCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>204, 23</value>
   </data>
+  <data name="TPCustom.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
   <data name="TPCustom.Text" xml:space="preserve">
     <value>Кастомное</value>
+  </data>
+  <data name="BtnOpenShopEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 179</value>
   </data>
   <data name="BtnOpenShopEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 23</value>
@@ -1078,7 +1328,7 @@
     <value>Редактор магазина</value>
   </data>
   <data name="BtnOpenDropEditor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>459, 216</value>
+    <value>459, 208</value>
   </data>
   <data name="BtnOpenDropEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>187, 23</value>
@@ -1086,8 +1336,11 @@
   <data name="BtnOpenDropEditor.Text" xml:space="preserve">
     <value>Редактор дропа</value>
   </data>
+  <data name="LnkNewVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 100</value>
+  </data>
   <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 41</value>
+    <value>12, 37</value>
   </data>
   <data name="LblAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>314, 24</value>
@@ -1096,7 +1349,7 @@
     <value>Желаем приятно провести время!</value>
   </data>
   <data name="BtnOpenTextMap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>526, 187</value>
+    <value>526, 179</value>
   </data>
   <data name="BtnOpenTextMap.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 23</value>
@@ -1104,11 +1357,17 @@
   <data name="BtnOpenTextMap.Text" xml:space="preserve">
     <value>Браузер карт</value>
   </data>
+  <data name="BtnOpenGachaBannerEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 208</value>
+  </data>
   <data name="BtnOpenGachaBannerEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 23</value>
   </data>
   <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
     <value>Редактор баннеров</value>
+  </data>
+  <data name="GrasscutterToolsIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 196</value>
   </data>
   <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 21</value>
@@ -1121,6 +1380,9 @@
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Включить UID</value>
+  </data>
+  <data name="GrpSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 120</value>
   </data>
   <data name="GrpSettings.Text" xml:space="preserve">
     <value>Настройки</value>
@@ -1146,6 +1408,9 @@
   <data name="BtnDeleteMailItem.Text" xml:space="preserve">
     <value>- Удалить</value>
   </data>
+  <data name="ListMailSelectableItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 106</value>
+  </data>
   <data name="NUDMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>172, 3</value>
   </data>
@@ -1170,9 +1435,6 @@
   <data name="LblMailItemLevel.Text" xml:space="preserve">
     <value>Уровень</value>
   </data>
-  <data name="tabPage1.Text" xml:space="preserve">
-    <value>Предметы</value>
-  </data>
   <data name="BtnClearMail.Location" type="System.Drawing.Point, System.Drawing">
     <value>114, 5</value>
   </data>
@@ -1191,8 +1453,14 @@
   <data name="BtnRemoveMail.Text" xml:space="preserve">
     <value>- Удалить</value>
   </data>
-  <data name="tabPage2.Text" xml:space="preserve">
-    <value>Почта</value>
+  <data name="PanelMailListControls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 177</value>
+  </data>
+  <data name="TPMailList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPMailList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 208</value>
   </data>
   <data name="BtnSendMail.Location" type="System.Drawing.Point, System.Drawing">
     <value>304, 213</value>
@@ -1275,7 +1543,22 @@
   <data name="LblMailSenderLabel.Text" xml:space="preserve">
     <value>Отправитель:</value>
   </data>
+  <data name="TPMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TPMail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 249</value>
+  </data>
   <data name="TPMail.Text" xml:space="preserve">
     <value>Почта</value>
+  </data>
+  <data name="TPMailSelectableItemList.Text" xml:space="preserve">
+    <value>Предметы</value>
+  </data>
+  <data name="TPMailList.Text" xml:space="preserve">
+    <value>Список рассылки</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
 </root>

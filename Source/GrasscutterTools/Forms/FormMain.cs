@@ -60,6 +60,9 @@ namespace GrasscutterTools.Forms
 #endif
         }
 
+        /// <summary>
+        /// 窗体载入时触发（切换语言时会重新载入）
+        /// </summary>
         private void FormMain_Load(object sender, EventArgs e)
         {
             Text += "  - by jie65535  - v" + AppVersion.ToString(3);
@@ -85,8 +88,26 @@ namespace GrasscutterTools.Forms
             ChangeTPArtifact();
         }
 
+        /// <summary>
+        /// 第一次显示窗体时触发
+        /// </summary>
+        protected override void OnShown(EventArgs e)
+        {
+            // 还原窗体位置
+            if (Settings.Default.MainFormLocation != default)
+                Location = Settings.Default.MainFormLocation;
+            // 还原窗体大小
+            if (Settings.Default.MainFormSize != default)
+                Size = Settings.Default.MainFormSize;
+            base.OnShown(e);
+        }
+
+        /// <summary>
+        /// 窗口关闭后触发
+        /// </summary>
         private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
         {
+            // 保存当前设置
             SaveSettings();
         }
 
@@ -112,8 +133,8 @@ namespace GrasscutterTools.Forms
             try
             {
                 // 恢复自动复制选项状态
-                ChkAutoCopy.Checked       = Settings.Default.AutoCopy;
-                
+                ChkAutoCopy.Checked = Settings.Default.AutoCopy;
+
                 // 初始化首页设置
                 InitHomeSettings();
 
@@ -142,7 +163,10 @@ namespace GrasscutterTools.Forms
         {
             try
             {
+                // 记录界面状态
                 Settings.Default.AutoCopy = ChkAutoCopy.Checked;
+                Settings.Default.MainFormLocation = Location;
+                Settings.Default.MainFormSize = Size;
 
                 // 保存自定义命令
                 SaveCustomCommands();
@@ -796,6 +820,14 @@ namespace GrasscutterTools.Forms
             LblArtifactLevelTip.Text = $"[{NUDArtifactLevel.Minimum}-{NUDArtifactLevel.Maximum}]";
         }
 
+        /// <summary>
+        /// 点击CharacterBuilder链接标签时触发
+        /// </summary>
+        private void LnkCharacterBuilder_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenURL("https://github.com/Penelopeep/CharacterBuilder");
+        }
+
         #endregion - 圣遗物 Artifact -
 
         #region - 武器 Weapons -
@@ -997,6 +1029,8 @@ namespace GrasscutterTools.Forms
 
         #region - 角色 Avatars -
 
+        #region -- 获取角色 --
+
         /// <summary>
         /// 初始化角色列表
         /// </summary>
@@ -1081,6 +1115,35 @@ namespace GrasscutterTools.Forms
                 SetCommand("/give avatars", $"lv{level} c{constellation}");
         }
 
+        #endregion
+
+        #region -- 切换主角元素 --
+
+        /// <summary>
+        /// 点击切换主角元素链接标签时触发
+        /// </summary>
+        private void LnkSwitchElement_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            OpenURL("https://github.com/Penelopeep/SwitchElementTraveller");
+        }
+
+        /// <summary>
+        /// 元素参数
+        /// </summary>
+        private readonly string[] Elements = { "white", "fire", "water", "wind", "ice", "rock", "electro", "grass" };
+
+        /// <summary>
+        /// 切换元素下拉框选中项改变时触发
+        /// </summary>
+        private void CmbSwitchElement_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CmbSwitchElement.SelectedIndex == -1 || CmbSwitchElement.SelectedIndex >= Elements.Length) return;
+            SetCommand("/se", Elements[CmbSwitchElement.SelectedIndex]);
+        }
+        #endregion
+
+        #region -- 设置角色属性 --
+
         /// <summary>
         /// 初始化数据列表
         /// </summary>
@@ -1127,6 +1190,10 @@ namespace GrasscutterTools.Forms
             SetCommand("/setstats", $"unlock {stat.ArgName}");
         }
 
+        #endregion
+
+        #region -- 设置技能等级 --
+
         /// <summary>
         /// 点击设置技能按钮时触发
         /// </summary>
@@ -1134,6 +1201,10 @@ namespace GrasscutterTools.Forms
         {
             SetCommand("/talent", $"{(sender as LinkLabel).Tag} {NUDTalentLevel.Value}");
         }
+
+        #endregion
+
+        #region -- 设置命座 --
 
         /// <summary>
         /// 设置命座链接标签点击时触发
@@ -1145,6 +1216,8 @@ namespace GrasscutterTools.Forms
             else
                 SetCommand("/resetConst", (sender == LnkSetAllConst ? "all" : string.Empty));
         }
+
+        #endregion
 
         #endregion - 角色 Avatars -
 
@@ -1180,8 +1253,8 @@ namespace GrasscutterTools.Forms
             AddTypes(GameData.Gadgets);
             MenuSpawnEntityFilter.ResumeLayout();
 
-            // 默认显示所有怪物
-            SelectedEntityTypeLines = GameData.Monsters.AllLines.ToArray();
+            // 默认显示所有
+            SelectedEntityTypeLines = GameData.Monsters.AllLines.Concat(GameData.Gadgets.AllLines).ToArray();
             LoadEntityList();
         }
 
@@ -1445,7 +1518,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void OnAttackInfusedCommand(object sender, EventArgs e)
         {
-            SetCommand("/at", (sender as Control).Tag as string);
+            SetCommand("/snoospawn", (sender as Control).Tag as string);
         }
 
         /// <summary>
@@ -1474,7 +1547,7 @@ namespace GrasscutterTools.Forms
             ConnectArg(NUDAiwiCount);
             ConnectArg(NUDAiwiHeight);
             ConnectArg(NUDAiwiRadius);
-            SetCommand("/at", id.ToString() + args);
+            SetCommand("/snoospawn", id.ToString() + args);
             //SetCommand("/at", $"{id} {NUDAiwiRadius.Value} {NUDAiwiHeight.Value} {NUDAiwiCount.Value} {NUDAiwiSpread.Value} {NUDAiwiRotateX.Value} {NUDAiwiRotateY.Value} {NUDAiwiRotateZ.Value}");
 
         }
@@ -2425,13 +2498,19 @@ namespace GrasscutterTools.Forms
 
         #endregion - 远程 Remote -
 
-        #region - GOOD -
+        #region - 导入存档 GOOD -
 
         /// <summary>
         /// 点击GOOD导入存档按钮时触发
         /// </summary>
         async private void ButtonOpenGOODImport_Click(object sender, EventArgs e)
         {
+            if (OC == null || !OC.CanInvoke)
+            {
+                ShowTip(Resources.RequireOpenCommandTip, ButtonOpenGOODImport);
+                return;
+            }
+
             OpenFileDialog openFileDialog1 = new OpenFileDialog
             {
                 Filter = "GOOD file (*.GOOD;*.json)|*.GOOD;*.json|All files (*.*)|*.*",

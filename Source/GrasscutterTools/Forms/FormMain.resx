@@ -274,7 +274,7 @@
     <value>NoControl</value>
   </data>
   <data name="LnkLinks.Location" type="System.Drawing.Point, System.Drawing">
-    <value>444, 206</value>
+    <value>444, 204</value>
   </data>
   <data name="LnkLinks.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 17</value>
@@ -307,7 +307,7 @@
     <value>NoControl</value>
   </data>
   <data name="LnkGOODHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 206</value>
+    <value>392, 204</value>
   </data>
   <data name="LnkGOODHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 17</value>
@@ -337,7 +337,7 @@
     <value>NoControl</value>
   </data>
   <data name="LnkInventoryKamera.Location" type="System.Drawing.Point, System.Drawing">
-    <value>486, 183</value>
+    <value>486, 181</value>
   </data>
   <data name="LnkInventoryKamera.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 17</value>
@@ -367,7 +367,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblGOODHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>388, 139</value>
+    <value>388, 137</value>
   </data>
   <data name="LblGOODHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 58</value>
@@ -393,14 +393,11 @@
   <data name="ButtonOpenGOODImport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
-  <data name="ButtonOpenGOODImport.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="ButtonOpenGOODImport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="ButtonOpenGOODImport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 203</value>
+    <value>484, 201</value>
   </data>
   <data name="ButtonOpenGOODImport.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 23</value>
@@ -433,7 +430,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblHostTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>141, 16</value>
+    <value>141, 14</value>
   </data>
   <data name="LblHostTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 17</value>
@@ -640,7 +637,7 @@
     <value>5</value>
   </data>
   <data name="GrpServerStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>388, 36</value>
+    <value>388, 34</value>
   </data>
   <data name="GrpServerStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 100</value>
@@ -859,13 +856,13 @@
     <value>6</value>
   </data>
   <data name="TPPlayerCheck.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 22</value>
   </data>
   <data name="TPPlayerCheck.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPPlayerCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 109</value>
+    <value>296, 113</value>
   </data>
   <data name="TPPlayerCheck.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1049,7 +1046,7 @@
     <value>False</value>
   </data>
   <data name="GrpRemoteCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 65</value>
+    <value>72, 63</value>
   </data>
   <data name="GrpRemoteCommand.Size" type="System.Drawing.Size, System.Drawing">
     <value>310, 161</value>
@@ -1076,7 +1073,7 @@
     <value>None</value>
   </data>
   <data name="TxtHost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 36</value>
+    <value>144, 34</value>
   </data>
   <data name="TxtHost.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 23</value>
@@ -1103,7 +1100,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnQueryServerStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>332, 36</value>
+    <value>332, 34</value>
   </data>
   <data name="BtnQueryServerStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
@@ -1136,7 +1133,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblHost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 39</value>
+    <value>70, 37</value>
   </data>
   <data name="LblHost.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 17</value>
@@ -1184,7 +1181,7 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPRemoteCall.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>1</value>
   </data>
   <data name="GrasscutterToolsSupport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -1290,13 +1287,13 @@
     <value>2</value>
   </data>
   <data name="TPAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 22</value>
   </data>
   <data name="TPAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
+    <value>652, 249</value>
   </data>
   <data name="TPAbout.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -1314,7 +1311,7 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPAbout.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="GrpBanPlayer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -1410,7 +1407,7 @@
     <value>TxtBanReason</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Type" xml:space="preserve">
-    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.7.2.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.7.3.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
     <value>GrpBanPlayer</value>
@@ -1470,7 +1467,7 @@
     <value>5</value>
   </data>
   <data name="GrpBanPlayer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 158</value>
+    <value>56, 156</value>
   </data>
   <data name="GrpBanPlayer.Size" type="System.Drawing.Size, System.Drawing">
     <value>540, 60</value>
@@ -1656,7 +1653,7 @@
     <value>5</value>
   </data>
   <data name="GrpAccount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 6</value>
+    <value>56, 4</value>
   </data>
   <data name="GrpAccount.Size" type="System.Drawing.Size, System.Drawing">
     <value>540, 60</value>
@@ -1893,7 +1890,7 @@
     <value>7</value>
   </data>
   <data name="GrpPermission.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 72</value>
+    <value>56, 70</value>
   </data>
   <data name="GrpPermission.Size" type="System.Drawing.Size, System.Drawing">
     <value>540, 80</value>
@@ -1917,13 +1914,13 @@
     <value>2</value>
   </data>
   <data name="TPManage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 22</value>
   </data>
   <data name="TPManage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPManage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
+    <value>652, 249</value>
   </data>
   <data name="TPManage.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -1941,7 +1938,7 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPManage.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="TxtSceneFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -1980,7 +1977,7 @@
     <value>NoControl</value>
   </data>
   <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 190</value>
+    <value>90, 186</value>
   </data>
   <data name="ChkIncludeSceneId.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 21</value>
@@ -2013,7 +2010,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblTpZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 161</value>
+    <value>218, 157</value>
   </data>
   <data name="LblTpZ.Size" type="System.Drawing.Size, System.Drawing">
     <value>14, 17</value>
@@ -2046,7 +2043,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 161</value>
+    <value>112, 157</value>
   </data>
   <data name="LblTpY.Size" type="System.Drawing.Size, System.Drawing">
     <value>14, 17</value>
@@ -2076,7 +2073,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnTeleport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 188</value>
+    <value>9, 184</value>
   </data>
   <data name="BtnTeleport.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -2109,7 +2106,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblTpX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 161</value>
+    <value>6, 157</value>
   </data>
   <data name="LblTpX.Size" type="System.Drawing.Size, System.Drawing">
     <value>14, 17</value>
@@ -2136,7 +2133,7 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDTpZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 159</value>
+    <value>238, 155</value>
   </data>
   <data name="NUDTpZ.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
@@ -2160,7 +2157,7 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 159</value>
+    <value>132, 155</value>
   </data>
   <data name="NUDTpY.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
@@ -2184,7 +2181,7 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDTpX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 159</value>
+    <value>26, 155</value>
   </data>
   <data name="NUDTpX.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
@@ -2208,7 +2205,7 @@
     <value>Bottom, Left</value>
   </data>
   <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 69</value>
+    <value>68, 65</value>
   </data>
   <data name="CmbClimateType.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 25</value>
@@ -2238,7 +2235,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblClimateType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 72</value>
+    <value>6, 68</value>
   </data>
   <data name="LblClimateType.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
@@ -2303,7 +2300,7 @@
     <value>346, 31</value>
   </data>
   <data name="ListScenes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 208</value>
+    <value>300, 191</value>
   </data>
   <data name="ListScenes.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -2330,7 +2327,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblTp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 105</value>
+    <value>6, 101</value>
   </data>
   <data name="LblTp.Size" type="System.Drawing.Size, System.Drawing">
     <value>296, 51</value>
@@ -2356,13 +2353,13 @@
     <value>13</value>
   </data>
   <data name="TPScene.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 22</value>
   </data>
   <data name="TPScene.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPScene.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
+    <value>652, 249</value>
   </data>
   <data name="TPScene.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -2380,7 +2377,7 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPScene.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="LblClearGiveItemLogs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2756,13 +2753,13 @@
     <value>11</value>
   </data>
   <data name="TPItem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 22</value>
   </data>
   <data name="TPItem.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
+    <value>652, 249</value>
   </data>
   <data name="TPItem.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -2780,7 +2777,7 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPItem.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>5</value>
   </data>
   <data name="BtnGiveAllWeapons.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -3079,13 +3076,13 @@
     <value>9</value>
   </data>
   <data name="TPWeapon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 22</value>
   </data>
   <data name="TPWeapon.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPWeapon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
+    <value>652, 249</value>
   </data>
   <data name="TPWeapon.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -3103,7 +3100,7 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPWeapon.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="GrpSetConstellation.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
@@ -3573,6 +3570,81 @@
   <data name="GrpGiveAvatar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
+  <data name="CmbSwitchElement.Items" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="CmbSwitchElement.Items1" xml:space="preserve">
+    <value>火</value>
+  </data>
+  <data name="CmbSwitchElement.Items2" xml:space="preserve">
+    <value>水</value>
+  </data>
+  <data name="CmbSwitchElement.Items3" xml:space="preserve">
+    <value>风</value>
+  </data>
+  <data name="CmbSwitchElement.Items4" xml:space="preserve">
+    <value>冰</value>
+  </data>
+  <data name="CmbSwitchElement.Items5" xml:space="preserve">
+    <value>岩</value>
+  </data>
+  <data name="CmbSwitchElement.Items6" xml:space="preserve">
+    <value>雷</value>
+  </data>
+  <data name="CmbSwitchElement.Items7" xml:space="preserve">
+    <value>草</value>
+  </data>
+  <data name="CmbSwitchElement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 187</value>
+  </data>
+  <data name="CmbSwitchElement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 25</value>
+  </data>
+  <data name="CmbSwitchElement.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;CmbSwitchElement.Name" xml:space="preserve">
+    <value>CmbSwitchElement</value>
+  </data>
+  <data name="&gt;&gt;CmbSwitchElement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbSwitchElement.Parent" xml:space="preserve">
+    <value>GrpGiveAvatar</value>
+  </data>
+  <data name="&gt;&gt;CmbSwitchElement.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LnkSwitchElement.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkSwitchElement.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkSwitchElement.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 191</value>
+  </data>
+  <data name="LnkSwitchElement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="LnkSwitchElement.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="LnkSwitchElement.Text" xml:space="preserve">
+    <value>切换主角元素</value>
+  </data>
+  <data name="&gt;&gt;LnkSwitchElement.Name" xml:space="preserve">
+    <value>LnkSwitchElement</value>
+  </data>
+  <data name="&gt;&gt;LnkSwitchElement.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkSwitchElement.Parent" xml:space="preserve">
+    <value>GrpGiveAvatar</value>
+  </data>
+  <data name="&gt;&gt;LnkSwitchElement.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="CmbAvatar.Location" type="System.Drawing.Point, System.Drawing">
     <value>89, 22</value>
   </data>
@@ -3592,7 +3664,7 @@
     <value>GrpGiveAvatar</value>
   </data>
   <data name="&gt;&gt;CmbAvatar.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="LblAvatarSkillLevelTip.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3622,7 +3694,7 @@
     <value>GrpGiveAvatar</value>
   </data>
   <data name="&gt;&gt;LblAvatarSkillLevelTip.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="NUDAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>89, 53</value>
@@ -3643,7 +3715,7 @@
     <value>GrpGiveAvatar</value>
   </data>
   <data name="&gt;&gt;NUDAvatarLevel.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="BtnGiveAllChar.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 10pt</value>
@@ -3652,10 +3724,10 @@
     <value>NoControl</value>
   </data>
   <data name="BtnGiveAllChar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>50, 159</value>
+    <value>49, 140</value>
   </data>
   <data name="BtnGiveAllChar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 35</value>
+    <value>150, 30</value>
   </data>
   <data name="BtnGiveAllChar.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -3673,7 +3745,7 @@
     <value>GrpGiveAvatar</value>
   </data>
   <data name="&gt;&gt;BtnGiveAllChar.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="LblAvatarLevel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3703,7 +3775,7 @@
     <value>GrpGiveAvatar</value>
   </data>
   <data name="&gt;&gt;LblAvatarLevel.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="LblAvatarSkillLevelLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3733,7 +3805,7 @@
     <value>GrpGiveAvatar</value>
   </data>
   <data name="&gt;&gt;LblAvatarSkillLevelLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="LblAvatar.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3763,7 +3835,7 @@
     <value>GrpGiveAvatar</value>
   </data>
   <data name="&gt;&gt;LblAvatar.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="LblAvatarConstellation.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3793,7 +3865,7 @@
     <value>GrpGiveAvatar</value>
   </data>
   <data name="&gt;&gt;LblAvatarConstellation.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="NUDAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
     <value>89, 82</value>
@@ -3814,7 +3886,7 @@
     <value>GrpGiveAvatar</value>
   </data>
   <data name="&gt;&gt;NUDAvatarConstellation.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="NUDAvatarSkillLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>89, 111</value>
@@ -3835,7 +3907,7 @@
     <value>GrpGiveAvatar</value>
   </data>
   <data name="&gt;&gt;NUDAvatarSkillLevel.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="GrpGiveAvatar.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 13</value>
@@ -3862,13 +3934,13 @@
     <value>3</value>
   </data>
   <data name="TPAvatar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 22</value>
   </data>
   <data name="TPAvatar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPAvatar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
+    <value>652, 249</value>
   </data>
   <data name="TPAvatar.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -3886,7 +3958,7 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPAvatar.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="TCSpawnSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
@@ -4789,13 +4861,13 @@
     <value>8</value>
   </data>
   <data name="TPAttackModArgs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 22</value>
   </data>
   <data name="TPAttackModArgs.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPAttackModArgs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>338, 199</value>
+    <value>338, 207</value>
   </data>
   <data name="TPAttackModArgs.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -5287,7 +5359,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPAttackInfusedArgs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>338, 203</value>
+    <value>338, 199</value>
   </data>
   <data name="TPAttackInfusedArgs.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -5311,7 +5383,7 @@
     <value>6, 6</value>
   </data>
   <data name="TCSpawnSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>346, 233</value>
+    <value>346, 229</value>
   </data>
   <data name="TCSpawnSettings.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5341,7 +5413,7 @@
     <value>3, 33</value>
   </data>
   <data name="ListEntity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 167</value>
+    <value>274, 171</value>
   </data>
   <data name="ListEntity.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -5437,13 +5509,13 @@
     <value>1</value>
   </data>
   <data name="TPSpawnItems.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 22</value>
   </data>
   <data name="TPSpawnItems.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPSpawnItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 203</value>
+    <value>280, 207</value>
   </data>
   <data name="TPSpawnItems.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5473,7 +5545,7 @@
     <value>3, 3</value>
   </data>
   <data name="ListSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 168</value>
+    <value>274, 164</value>
   </data>
   <data name="ListSpawnLogs.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -5587,7 +5659,7 @@
     <value>Bottom</value>
   </data>
   <data name="FLPSpawnRecordControls.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 171</value>
+    <value>3, 167</value>
   </data>
   <data name="FLPSpawnRecordControls.Size" type="System.Drawing.Size, System.Drawing">
     <value>274, 29</value>
@@ -5614,7 +5686,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPSpawnRecords.Size" type="System.Drawing.Size, System.Drawing">
-    <value>280, 203</value>
+    <value>280, 199</value>
   </data>
   <data name="TPSpawnRecords.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -5638,7 +5710,7 @@
     <value>358, 6</value>
   </data>
   <data name="TCSpawnItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 233</value>
+    <value>288, 229</value>
   </data>
   <data name="TCSpawnItems.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -5776,7 +5848,7 @@
     <value>2</value>
   </data>
   <data name="GrpQuestFilters.Location" type="System.Drawing.Point, System.Drawing">
-    <value>202, 109</value>
+    <value>202, 105</value>
   </data>
   <data name="GrpQuestFilters.Size" type="System.Drawing.Size, System.Drawing">
     <value>150, 130</value>
@@ -5806,7 +5878,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnFinishQuest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 216</value>
+    <value>102, 212</value>
   </data>
   <data name="BtnFinishQuest.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 23</value>
@@ -5836,7 +5908,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnAddQuest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 216</value>
+    <value>6, 212</value>
   </data>
   <data name="BtnAddQuest.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 23</value>
@@ -5869,7 +5941,7 @@
     <value>6, 6</value>
   </data>
   <data name="LblQuestDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>346, 100</value>
+    <value>346, 96</value>
   </data>
   <data name="LblQuestDescription.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -5925,7 +5997,7 @@
     <value>358, 31</value>
   </data>
   <data name="ListQuest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 208</value>
+    <value>288, 191</value>
   </data>
   <data name="ListQuest.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -5943,13 +6015,13 @@
     <value>5</value>
   </data>
   <data name="TPQuest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 22</value>
   </data>
   <data name="TPQuest.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPQuest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
+    <value>652, 249</value>
   </data>
   <data name="TPQuest.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -5967,7 +6039,40 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPQuest.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>10</value>
+  </data>
+  <data name="LnkCharacterBuilder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="LnkCharacterBuilder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkCharacterBuilder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkCharacterBuilder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 221</value>
+  </data>
+  <data name="LnkCharacterBuilder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="LnkCharacterBuilder.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="LnkCharacterBuilder.Text" xml:space="preserve">
+    <value>Character Builder</value>
+  </data>
+  <data name="&gt;&gt;LnkCharacterBuilder.Name" xml:space="preserve">
+    <value>LnkCharacterBuilder</value>
+  </data>
+  <data name="&gt;&gt;LnkCharacterBuilder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkCharacterBuilder.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;LnkCharacterBuilder.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="LblArtifactLevelTip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6000,7 +6105,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;LblArtifactLevelTip.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="BtnAddSubAttr.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6030,7 +6135,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;BtnAddSubAttr.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="LblArtifactName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6060,7 +6165,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;LblArtifactName.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="LblArtifactPart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6093,7 +6198,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;LblArtifactPart.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="CmbArtifactPart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6117,7 +6222,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;CmbArtifactPart.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="CmbArtifactSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6141,7 +6246,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;CmbArtifactSet.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="LblArtifactSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6174,7 +6279,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;LblArtifactSet.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="NUDSubAttributionTimes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6198,7 +6303,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;NUDSubAttributionTimes.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="CmbSubAttributionValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6222,7 +6327,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;CmbSubAttributionValue.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="CmbSubAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6246,7 +6351,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;CmbSubAttribution.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="LblClearSubAttrCheckedList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6279,7 +6384,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;LblClearSubAttrCheckedList.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="ListSubAttributionChecked.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom</value>
@@ -6291,7 +6396,7 @@
     <value>167, 129</value>
   </data>
   <data name="ListSubAttributionChecked.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 106</value>
+    <value>289, 89</value>
   </data>
   <data name="ListSubAttributionChecked.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -6306,7 +6411,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;ListSubAttributionChecked.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="LblArtifactLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6339,7 +6444,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;LblArtifactLevel.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="LblSubAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6372,7 +6477,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;LblSubAttribution.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="CmbMainAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6396,7 +6501,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;CmbMainAttribution.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="LblMainAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6429,7 +6534,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;LblMainAttribution.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="NUDArtifactLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6453,7 +6558,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;NUDArtifactLevel.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="LblArtifactStars.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6486,7 +6591,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;LblArtifactStars.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="NUDArtifactStars.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
@@ -6510,7 +6615,7 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;NUDArtifactStars.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <data name="TPArtifact.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -6537,7 +6642,7 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPArtifact.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="BtnExportCustomCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
@@ -6546,7 +6651,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>593, 216</value>
+    <value>593, 212</value>
   </data>
   <data name="BtnExportCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
@@ -6576,7 +6681,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnLoadCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>537, 216</value>
+    <value>537, 212</value>
   </data>
   <data name="BtnLoadCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
@@ -6609,7 +6714,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblCustomName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 219</value>
+    <value>6, 215</value>
   </data>
   <data name="LblCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>
@@ -6675,7 +6780,7 @@
     <value>3, 19</value>
   </data>
   <data name="FLPCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 182</value>
+    <value>634, 178</value>
   </data>
   <data name="FLPCustomCommands.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -6696,7 +6801,7 @@
     <value>6, 6</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>640, 204</value>
+    <value>640, 200</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -6723,7 +6828,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>471, 216</value>
+    <value>471, 212</value>
   </data>
   <data name="BtnRemoveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 23</value>
@@ -6753,7 +6858,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnSaveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>405, 216</value>
+    <value>405, 212</value>
   </data>
   <data name="BtnSaveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 23</value>
@@ -6780,7 +6885,7 @@
     <value>Bottom, Left, Right</value>
   </data>
   <data name="TxtCustomName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 216</value>
+    <value>44, 212</value>
   </data>
   <data name="TxtCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>355, 23</value>
@@ -6825,13 +6930,16 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPCustom.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
+  </data>
+  <data name="BtnOpenShopEditor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
   <data name="BtnOpenShopEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="BtnOpenShopEditor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>313, 187</value>
+    <value>313, 179</value>
   </data>
   <data name="BtnOpenShopEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6861,7 +6969,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnOpenDropEditor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>525, 216</value>
+    <value>525, 208</value>
   </data>
   <data name="BtnOpenDropEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6894,7 +7002,7 @@
     <value>NoControl</value>
   </data>
   <data name="LnkNewVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 108</value>
+    <value>6, 100</value>
   </data>
   <data name="LnkNewVersion.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 17</value>
@@ -6933,7 +7041,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>88, 36</value>
+    <value>88, 32</value>
   </data>
   <data name="LblAbout.Size" type="System.Drawing.Size, System.Drawing">
     <value>136, 24</value>
@@ -6963,7 +7071,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnOpenTextMap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>419, 216</value>
+    <value>419, 208</value>
   </data>
   <data name="BtnOpenTextMap.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -6993,7 +7101,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnOpenGachaBannerEditor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>313, 216</value>
+    <value>313, 208</value>
   </data>
   <data name="BtnOpenGachaBannerEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 23</value>
@@ -7026,7 +7134,7 @@
     <value>313, 6</value>
   </data>
   <data name="GrasscutterToolsIcon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>333, 204</value>
+    <value>333, 196</value>
   </data>
   <data name="GrasscutterToolsIcon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>CenterImage</value>
@@ -7263,7 +7371,7 @@
     <value>7</value>
   </data>
   <data name="GrpSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 128</value>
+    <value>6, 120</value>
   </data>
   <data name="GrpSettings.Size" type="System.Drawing.Size, System.Drawing">
     <value>301, 111</value>
@@ -7353,7 +7461,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnAddMailItem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 155</value>
+    <value>329, 151</value>
   </data>
   <data name="BtnAddMailItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -7383,7 +7491,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnDeleteMailItem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 184</value>
+    <value>329, 180</value>
   </data>
   <data name="BtnDeleteMailItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -7446,7 +7554,7 @@
     <value>0, 0, 0, 0</value>
   </data>
   <data name="ListMailSelectableItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 140</value>
+    <value>228, 89</value>
   </data>
   <data name="ListMailSelectableItems.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -7569,7 +7677,7 @@
     <value>Bottom</value>
   </data>
   <data name="PanelMailItemArgs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 171</value>
+    <value>3, 167</value>
   </data>
   <data name="PanelMailItemArgs.Size" type="System.Drawing.Size, System.Drawing">
     <value>222, 30</value>
@@ -7596,7 +7704,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPMailSelectableItemList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 204</value>
+    <value>228, 200</value>
   </data>
   <data name="TPMailSelectableItemList.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -7725,7 +7833,7 @@
     <value>1</value>
   </data>
   <data name="TPMailList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 22</value>
   </data>
   <data name="TPMailList.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
@@ -7755,7 +7863,7 @@
     <value>410, 8</value>
   </data>
   <data name="TCMailRight.Size" type="System.Drawing.Size, System.Drawing">
-    <value>236, 234</value>
+    <value>236, 230</value>
   </data>
   <data name="TCMailRight.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -7779,7 +7887,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnSendMail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>329, 210</value>
+    <value>329, 206</value>
   </data>
   <data name="BtnSendMail.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 32</value>
@@ -7809,7 +7917,7 @@
     <value>17</value>
   </data>
   <data name="ListMailItems.Location" type="System.Drawing.Point, System.Drawing">
-    <value>73, 155</value>
+    <value>73, 151</value>
   </data>
   <data name="ListMailItems.Size" type="System.Drawing.Size, System.Drawing">
     <value>250, 89</value>
@@ -7839,7 +7947,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblMailItemsLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 158</value>
+    <value>6, 154</value>
   </data>
   <data name="LblMailItemsLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>44, 17</value>
@@ -7986,7 +8094,7 @@
     <value>Vertical</value>
   </data>
   <data name="TxtMailContent.Size" type="System.Drawing.Size, System.Drawing">
-    <value>331, 56</value>
+    <value>331, 52</value>
   </data>
   <data name="TxtMailContent.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -8136,13 +8244,13 @@
     <value>16</value>
   </data>
   <data name="TPMail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+    <value>4, 22</value>
   </data>
   <data name="TPMail.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPMail.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
+    <value>652, 249</value>
   </data>
   <data name="TPMail.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -8160,7 +8268,7 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPMail.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="TCMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
@@ -8209,9 +8317,6 @@
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 9pt</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>

@@ -70,12 +70,6 @@
   </PropertyGroup>
   <PropertyGroup />
   <ItemGroup>
-    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>Resources\Newtonsoft.Json.dll</HintPath>
-      <EmbedInteropTypes>False</EmbedInteropTypes>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -141,6 +135,7 @@
     <Compile Include="Game\Player\PlayerData.cs" />
     <Compile Include="Game\SetStatsCommand.cs" />
     <Compile Include="Game\Shop\ItemParamData.cs" />
+    <Compile Include="Game\Shop\ShopGoodsData.cs" />
     <Compile Include="Game\Shop\ShopInfo.cs" />
     <Compile Include="Game\Shop\ShopRefreshType.cs" />
     <Compile Include="Game\Shop\ShopTable.cs" />
@@ -367,6 +362,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.1</Version>
+    </PackageReference>
     <PackageReference Include="Resource.Embedder">
       <Version>2.2.0</Version>
     </PackageReference>
