@@ -1977,7 +1977,11 @@ namespace GrasscutterTools.Forms
         /// <param name="command">命令</param>
         private void SetCommand(string command)
         {
-            TxtCommand.Text = command;
+            if (ModifierKeys == Keys.Shift)
+                TxtCommand.Text += " | " + command;
+            else
+                TxtCommand.Text = command;
+
             if (ChkAutoCopy.Checked)
                 CopyCommand();
             if (ModifierKeys == Keys.Control)
