@@ -166,7 +166,11 @@ namespace GrasscutterTools.Forms
                 // 记录界面状态
                 Settings.Default.AutoCopy = ChkAutoCopy.Checked;
                 Settings.Default.MainFormLocation = Location;
-                Settings.Default.MainFormSize = Size;
+                // 如果命令窗口已经弹出了，则不要保存多余的高度
+                if (TxtCommandRunLog != null)
+                    Settings.Default.MainFormSize = new Size(Width, Height - TxtCommandRunLogMinHeight);
+                else
+                    Settings.Default.MainFormSize = Size;
 
                 // 保存自定义命令
                 SaveCustomCommands();
