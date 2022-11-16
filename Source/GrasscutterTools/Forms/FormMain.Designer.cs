@@ -225,7 +225,7 @@ namespace GrasscutterTools.Forms
             this.TCSpawnItems = new System.Windows.Forms.TabControl();
             this.TPSpawnItems = new System.Windows.Forms.TabPage();
             this.ListEntity = new System.Windows.Forms.ListBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.PanelEntityFilterBar = new System.Windows.Forms.Panel();
             this.TxtEntityFilter = new System.Windows.Forms.TextBox();
             this.BtnFilterEntity = new System.Windows.Forms.Button();
             this.TPSpawnRecords = new System.Windows.Forms.TabPage();
@@ -245,6 +245,7 @@ namespace GrasscutterTools.Forms
             this.TxtQuestFilter = new System.Windows.Forms.TextBox();
             this.ListQuest = new System.Windows.Forms.ListBox();
             this.TPArtifact = new System.Windows.Forms.TabPage();
+            this.LnkCharacterBuilder = new System.Windows.Forms.LinkLabel();
             this.LblArtifactLevelTip = new System.Windows.Forms.Label();
             this.BtnAddSubAttr = new System.Windows.Forms.Button();
             this.LblArtifactName = new System.Windows.Forms.Label();
@@ -324,7 +325,6 @@ namespace GrasscutterTools.Forms
             this.TxtMailSender = new System.Windows.Forms.TextBox();
             this.LblMailSenderLabel = new System.Windows.Forms.Label();
             this.MenuSpawnEntityFilter = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.LnkCharacterBuilder = new System.Windows.Forms.LinkLabel();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -390,7 +390,7 @@ namespace GrasscutterTools.Forms
             ((System.ComponentModel.ISupportInitialize)(this.NUDAiwiRadius)).BeginInit();
             this.TCSpawnItems.SuspendLayout();
             this.TPSpawnItems.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.PanelEntityFilterBar.SuspendLayout();
             this.TPSpawnRecords.SuspendLayout();
             this.FLPSpawnRecordControls.SuspendLayout();
             this.TPQuest.SuspendLayout();
@@ -2209,7 +2209,7 @@ namespace GrasscutterTools.Forms
             // TPSpawnItems
             // 
             this.TPSpawnItems.Controls.Add(this.ListEntity);
-            this.TPSpawnItems.Controls.Add(this.panel1);
+            this.TPSpawnItems.Controls.Add(this.PanelEntityFilterBar);
             resources.ApplyResources(this.TPSpawnItems, "TPSpawnItems");
             this.TPSpawnItems.Name = "TPSpawnItems";
             this.TPSpawnItems.UseVisualStyleBackColor = true;
@@ -2221,12 +2221,12 @@ namespace GrasscutterTools.Forms
             this.ListEntity.Name = "ListEntity";
             this.ListEntity.SelectedIndexChanged += new System.EventHandler(this.ListEntity_SelectedIndexChanged);
             // 
-            // panel1
+            // PanelEntityFilterBar
             // 
-            this.panel1.Controls.Add(this.TxtEntityFilter);
-            this.panel1.Controls.Add(this.BtnFilterEntity);
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
+            this.PanelEntityFilterBar.Controls.Add(this.TxtEntityFilter);
+            this.PanelEntityFilterBar.Controls.Add(this.BtnFilterEntity);
+            resources.ApplyResources(this.PanelEntityFilterBar, "PanelEntityFilterBar");
+            this.PanelEntityFilterBar.Name = "PanelEntityFilterBar";
             // 
             // TxtEntityFilter
             // 
@@ -2388,6 +2388,13 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.TPArtifact, "TPArtifact");
             this.TPArtifact.Name = "TPArtifact";
             this.TPArtifact.UseVisualStyleBackColor = true;
+            // 
+            // LnkCharacterBuilder
+            // 
+            resources.ApplyResources(this.LnkCharacterBuilder, "LnkCharacterBuilder");
+            this.LnkCharacterBuilder.Name = "LnkCharacterBuilder";
+            this.LnkCharacterBuilder.TabStop = true;
+            this.LnkCharacterBuilder.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkCharacterBuilder_LinkClicked);
             // 
             // LblArtifactLevelTip
             // 
@@ -3025,13 +3032,6 @@ namespace GrasscutterTools.Forms
             this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
             // 
-            // LnkCharacterBuilder
-            // 
-            resources.ApplyResources(this.LnkCharacterBuilder, "LnkCharacterBuilder");
-            this.LnkCharacterBuilder.Name = "LnkCharacterBuilder";
-            this.LnkCharacterBuilder.TabStop = true;
-            this.LnkCharacterBuilder.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkCharacterBuilder_LinkClicked);
-            // 
             // FormMain
             // 
             resources.ApplyResources(this, "$this");
@@ -3128,8 +3128,8 @@ namespace GrasscutterTools.Forms
             ((System.ComponentModel.ISupportInitialize)(this.NUDAiwiRadius)).EndInit();
             this.TCSpawnItems.ResumeLayout(false);
             this.TPSpawnItems.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.PanelEntityFilterBar.ResumeLayout(false);
+            this.PanelEntityFilterBar.PerformLayout();
             this.TPSpawnRecords.ResumeLayout(false);
             this.TPSpawnRecords.PerformLayout();
             this.FLPSpawnRecordControls.ResumeLayout(false);
@@ -3413,7 +3413,7 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.TabPage TPSpawnArgs;
         private System.Windows.Forms.TabPage TPAttackModArgs;
         private System.Windows.Forms.Button BtnFilterEntity;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel PanelEntityFilterBar;
         private System.Windows.Forms.FlowLayoutPanel FLPSpawnRecordControls;
         private System.Windows.Forms.ContextMenuStrip MenuSpawnEntityFilter;
         private System.Windows.Forms.GroupBox GrpAMSkills;

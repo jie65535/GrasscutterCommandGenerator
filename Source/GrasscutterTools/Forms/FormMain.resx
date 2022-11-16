@@ -130,7 +130,7 @@
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TxtCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;TxtCommand.Name" xml:space="preserve">
     <value>TxtCommand</value>
@@ -157,7 +157,7 @@
     <value>50, 23</value>
   </data>
   <data name="BtnCopy.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="BtnCopy.Text" xml:space="preserve">
     <value>复制</value>
@@ -190,7 +190,7 @@
     <value>51, 21</value>
   </data>
   <data name="ChkAutoCopy.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="ChkAutoCopy.Text" xml:space="preserve">
     <value>自动</value>
@@ -259,7 +259,7 @@
     <value>75, 23</value>
   </data>
   <data name="BtnInvokeOpenCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>0</value>
   </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>执行(F5)</value>
@@ -451,7 +451,7 @@
     <value>37, 17</value>
   </data>
   <data name="LnkLinks.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+    <value>9</value>
   </data>
   <data name="LnkLinks.Text" xml:space="preserve">
     <value>Links</value>
@@ -484,7 +484,7 @@
     <value>46, 17</value>
   </data>
   <data name="LnkGOODHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>8</value>
   </data>
   <data name="LnkGOODHelp.Text" xml:space="preserve">
     <value>GOOD</value>
@@ -514,7 +514,7 @@
     <value>107, 17</value>
   </data>
   <data name="LnkInventoryKamera.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>7</value>
   </data>
   <data name="LnkInventoryKamera.Text" xml:space="preserve">
     <value>存档扫描开源工具</value>
@@ -544,7 +544,7 @@
     <value>205, 58</value>
   </data>
   <data name="LblGOODHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>6</value>
   </data>
   <data name="LblGOODHelp.Text" xml:space="preserve">
     <value>快来将你的官服存档导入GC吧！</value>
@@ -607,7 +607,7 @@
     <value>210, 17</value>
   </data>
   <data name="LblHostTip.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>0</value>
   </data>
   <data name="LblHostTip.Text" xml:space="preserve">
     <value>请确保地址中包含 http:// 或 https:// </value>
@@ -928,7 +928,7 @@
     <value>310, 161</value>
   </data>
   <data name="GrpRemoteCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="GrpRemoteCommand.Text" xml:space="preserve">
     <value>远程执行</value>
@@ -979,7 +979,7 @@
     <value>304, 139</value>
   </data>
   <data name="TPOpenCommandCheck.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;TPOpenCommandCheck.Name" xml:space="preserve">
     <value>TPOpenCommandCheck</value>
@@ -1117,7 +1117,7 @@
     <value>32, 17</value>
   </data>
   <data name="LnkRCHelp.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>2</value>
   </data>
   <data name="LnkRCHelp.Text" xml:space="preserve">
     <value>帮助</value>
@@ -1141,7 +1141,7 @@
     <value>118, 23</value>
   </data>
   <data name="NUDRemotePlayerId.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;NUDRemotePlayerId.Name" xml:space="preserve">
     <value>NUDRemotePlayerId</value>
@@ -1168,7 +1168,7 @@
     <value>100, 23</value>
   </data>
   <data name="BtnConnectOpenCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>6</value>
   </data>
   <data name="BtnConnectOpenCommand.Text" xml:space="preserve">
     <value>连接</value>
@@ -1198,7 +1198,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblVerificationCode.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>3</value>
   </data>
   <data name="LblVerificationCode.Text" xml:space="preserve">
     <value>验证码</value>
@@ -1225,7 +1225,7 @@
     <value>100, 23</value>
   </data>
   <data name="BtnSendVerificationCode.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>5</value>
   </data>
   <data name="BtnSendVerificationCode.Text" xml:space="preserve">
     <value>发送验证码</value>
@@ -1252,7 +1252,7 @@
     <value>118, 23</value>
   </data>
   <data name="NUDVerificationCode.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;NUDVerificationCode.Name" xml:space="preserve">
     <value>NUDVerificationCode</value>
@@ -1279,7 +1279,7 @@
     <value>30, 17</value>
   </data>
   <data name="LblRemotePlayerId.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>0</value>
   </data>
   <data name="LblRemotePlayerId.Text" xml:space="preserve">
     <value>UID</value>
@@ -1351,7 +1351,7 @@
     <value>3, 3, 3, 3</value>
   </data>
   <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 111</value>
+    <value>296, 109</value>
   </data>
   <data name="TPConsoleCheck.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -1381,7 +1381,7 @@
     <value>100, 23</value>
   </data>
   <data name="BtnConsoleConnect.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="BtnConsoleConnect.Text" xml:space="preserve">
     <value>连接</value>
@@ -1462,7 +1462,7 @@
     <value>275, 40</value>
   </data>
   <data name="LblConsoleTip.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="LblConsoleTip.Text" xml:space="preserve">
     <value>请注意，控制台状态下普通命令必须指定目标
@@ -1567,69 +1567,6 @@
   <data name="&gt;&gt;LblHost.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="&gt;&gt;GrasscutterToolsSupport.Name" xml:space="preserve">
-    <value>GrasscutterToolsSupport</value>
-  </data>
-  <data name="&gt;&gt;GrasscutterToolsSupport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrasscutterToolsSupport.Parent" xml:space="preserve">
-    <value>TPAbout</value>
-  </data>
-  <data name="&gt;&gt;GrasscutterToolsSupport.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LnkGithub.Name" xml:space="preserve">
-    <value>LnkGithub</value>
-  </data>
-  <data name="&gt;&gt;LnkGithub.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LnkGithub.Parent" xml:space="preserve">
-    <value>TPAbout</value>
-  </data>
-  <data name="&gt;&gt;LnkGithub.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LblSupportDescription.Name" xml:space="preserve">
-    <value>LblSupportDescription</value>
-  </data>
-  <data name="&gt;&gt;LblSupportDescription.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblSupportDescription.Parent" xml:space="preserve">
-    <value>TPAbout</value>
-  </data>
-  <data name="&gt;&gt;LblSupportDescription.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="TPAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
-  </data>
-  <data name="TPAbout.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>关于</value>
-  </data>
-  <data name="&gt;&gt;TPAbout.Name" xml:space="preserve">
-    <value>TPAbout</value>
-  </data>
-  <data name="&gt;&gt;TPAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPAbout.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPAbout.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
   <data name="GrasscutterToolsSupport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
   </data>
@@ -1679,7 +1616,7 @@
     <value>46, 17</value>
   </data>
   <data name="LnkGithub.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>1</value>
   </data>
   <data name="LnkGithub.Text" xml:space="preserve">
     <value>Github</value>
@@ -1709,7 +1646,7 @@
     <value>334, 136</value>
   </data>
   <data name="LblSupportDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>0</value>
   </data>
   <data name="LblSupportDescription.Text" xml:space="preserve">
     <value>割草机工具箱
@@ -1719,7 +1656,7 @@
 如果愿意请我喝一杯奶茶，那就更好了 : )
 指令生成有问题，或者有新的功能请求，都可以来Github提出
 
-欢迎内测Q群: 457427536</value>
+欢迎加入内测Q群: 457427536 （需要回答正确答案）</value>
   </data>
   <data name="&gt;&gt;LblSupportDescription.Name" xml:space="preserve">
     <value>LblSupportDescription</value>
@@ -1732,6 +1669,33 @@
   </data>
   <data name="&gt;&gt;LblSupportDescription.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <data name="TPAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TPAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TPAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 245</value>
+  </data>
+  <data name="TPAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="TPAbout.Text" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="&gt;&gt;TPAbout.Name" xml:space="preserve">
+    <value>TPAbout</value>
+  </data>
+  <data name="&gt;&gt;TPAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPAbout.Parent" xml:space="preserve">
+    <value>TCMain</value>
+  </data>
+  <data name="&gt;&gt;TPAbout.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;GrpBanPlayer.Name" xml:space="preserve">
     <value>GrpBanPlayer</value>
@@ -1839,7 +1803,7 @@
     <value>TxtBanReason</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Type" xml:space="preserve">
-    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.7.3.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.7.4.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
     <value>GrpBanPlayer</value>
@@ -1902,7 +1866,7 @@
     <value>90, 23</value>
   </data>
   <data name="DTPBanEndTime.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;DTPBanEndTime.Name" xml:space="preserve">
     <value>DTPBanEndTime</value>
@@ -1926,7 +1890,7 @@
     <value>60, 23</value>
   </data>
   <data name="BtnUnban.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>5</value>
   </data>
   <data name="BtnUnban.Text" xml:space="preserve">
     <value>解封</value>
@@ -1953,7 +1917,7 @@
     <value>60, 23</value>
   </data>
   <data name="BtnBan.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>4</value>
   </data>
   <data name="BtnBan.Text" xml:space="preserve">
     <value>封号</value>
@@ -1977,7 +1941,7 @@
     <value>150, 23</value>
   </data>
   <data name="TxtBanReason.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>3</value>
   </data>
   <data name="TxtBanReason.Watermark" xml:space="preserve">
     <value>封禁理由</value>
@@ -1986,7 +1950,7 @@
     <value>TxtBanReason</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Type" xml:space="preserve">
-    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.7.3.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Controls.TextBoxXP, GrasscutterTools, Version=1.7.4.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
   <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
     <value>GrpBanPlayer</value>
@@ -2001,7 +1965,7 @@
     <value>82, 23</value>
   </data>
   <data name="NUDBanUID.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;NUDBanUID.Name" xml:space="preserve">
     <value>NUDBanUID</value>
@@ -2433,7 +2397,7 @@
     <value>150, 25</value>
   </data>
   <data name="CmbPerm.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;CmbPerm.Name" xml:space="preserve">
     <value>CmbPerm</value>
@@ -2454,7 +2418,7 @@
     <value>140, 23</value>
   </data>
   <data name="NUDPermUID.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;NUDPermUID.Name" xml:space="preserve">
     <value>NUDPermUID</value>
@@ -2841,7 +2805,7 @@
     <value>300, 23</value>
   </data>
   <data name="TxtSceneFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>12</value>
   </data>
   <data name="&gt;&gt;TxtSceneFilter.Name" xml:space="preserve">
     <value>TxtSceneFilter</value>
@@ -2874,7 +2838,7 @@
     <value>76, 21</value>
   </data>
   <data name="ChkIncludeSceneId.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>11</value>
   </data>
   <data name="ChkIncludeSceneId.Text" xml:space="preserve">
     <value>含场景ID</value>
@@ -2907,7 +2871,7 @@
     <value>14, 17</value>
   </data>
   <data name="LblTpZ.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>8</value>
   </data>
   <data name="LblTpZ.Text" xml:space="preserve">
     <value>z</value>
@@ -2940,7 +2904,7 @@
     <value>14, 17</value>
   </data>
   <data name="LblTpY.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>6</value>
   </data>
   <data name="LblTpY.Text" xml:space="preserve">
     <value>y</value>
@@ -2970,7 +2934,7 @@
     <value>75, 23</value>
   </data>
   <data name="BtnTeleport.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="BtnTeleport.Text" xml:space="preserve">
     <value>传送</value>
@@ -3003,7 +2967,7 @@
     <value>14, 17</value>
   </data>
   <data name="LblTpX.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>4</value>
   </data>
   <data name="LblTpX.Text" xml:space="preserve">
     <value>x</value>
@@ -3030,7 +2994,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDTpZ.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;NUDTpZ.Name" xml:space="preserve">
     <value>NUDTpZ</value>
@@ -3054,7 +3018,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDTpY.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;NUDTpY.Name" xml:space="preserve">
     <value>NUDTpY</value>
@@ -3078,7 +3042,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDTpX.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;NUDTpX.Name" xml:space="preserve">
     <value>NUDTpX</value>
@@ -3102,7 +3066,7 @@
     <value>121, 25</value>
   </data>
   <data name="CmbClimateType.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;CmbClimateType.Name" xml:space="preserve">
     <value>CmbClimateType</value>
@@ -3132,7 +3096,7 @@
     <value>56, 17</value>
   </data>
   <data name="LblClimateType.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>1</value>
   </data>
   <data name="LblClimateType.Text" xml:space="preserve">
     <value>设置天气</value>
@@ -3162,7 +3126,7 @@
     <value>224, 51</value>
   </data>
   <data name="LblSceneDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="LblSceneDescription.Text" xml:space="preserve">
     <value>场景控制
@@ -3194,7 +3158,7 @@
     <value>300, 208</value>
   </data>
   <data name="ListScenes.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>13</value>
   </data>
   <data name="&gt;&gt;ListScenes.Name" xml:space="preserve">
     <value>ListScenes</value>
@@ -3224,7 +3188,7 @@
     <value>296, 51</value>
   </data>
   <data name="LblTp.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>3</value>
   </data>
   <data name="LblTp.Text" xml:space="preserve">
     <value>坐标传送
@@ -3430,7 +3394,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblClearGiveItemLogs.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+    <value>4</value>
   </data>
   <data name="LblClearGiveItemLogs.Text" xml:space="preserve">
     <value>X 清空</value>
@@ -3457,7 +3421,7 @@
     <value>75, 23</value>
   </data>
   <data name="BtnSaveGiveItemLog.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>2</value>
   </data>
   <data name="BtnSaveGiveItemLog.Text" xml:space="preserve">
     <value>√ 记录</value>
@@ -3487,7 +3451,7 @@
     <value>75, 23</value>
   </data>
   <data name="BtnRemoveGiveItemLog.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>3</value>
   </data>
   <data name="BtnRemoveGiveItemLog.Text" xml:space="preserve">
     <value>× 删除</value>
@@ -3526,7 +3490,7 @@
     <value>249, 162</value>
   </data>
   <data name="GrpGiveItemRecord.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>1</value>
   </data>
   <data name="GrpGiveItemRecord.Text" xml:space="preserve">
     <value>物品记录本</value>
@@ -3586,7 +3550,7 @@
     <value>51, 21</value>
   </data>
   <data name="ChkDrop.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>9</value>
   </data>
   <data name="ChkDrop.Text" xml:space="preserve">
     <value>掉落</value>
@@ -3613,7 +3577,7 @@
     <value>300, 23</value>
   </data>
   <data name="TxtGameItemFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;TxtGameItemFilter.Name" xml:space="preserve">
     <value>TxtGameItemFilter</value>
@@ -3640,7 +3604,7 @@
     <value>300, 208</value>
   </data>
   <data name="ListGameItems.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>11</value>
   </data>
   <data name="&gt;&gt;ListGameItems.Name" xml:space="preserve">
     <value>ListGameItems</value>
@@ -3670,7 +3634,7 @@
     <value>32, 17</value>
   </data>
   <data name="LblGameItemAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+    <value>5</value>
   </data>
   <data name="LblGameItemAmount.Text" xml:space="preserve">
     <value>数量</value>
@@ -3703,7 +3667,7 @@
     <value>32, 17</value>
   </data>
   <data name="LblGameItemLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+    <value>7</value>
   </data>
   <data name="LblGameItemLevel.Text" xml:space="preserve">
     <value>等级</value>
@@ -3730,7 +3694,7 @@
     <value>100, 23</value>
   </data>
   <data name="NUDGameItemAmout.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;NUDGameItemAmout.Name" xml:space="preserve">
     <value>NUDGameItemAmout</value>
@@ -3754,7 +3718,7 @@
     <value>50, 23</value>
   </data>
   <data name="NUDGameItemLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>8</value>
   </data>
   <data name="&gt;&gt;NUDGameItemLevel.Name" xml:space="preserve">
     <value>NUDGameItemLevel</value>
@@ -3781,7 +3745,7 @@
     <value>236, 34</value>
   </data>
   <data name="LblGiveCommandDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="LblGiveCommandDescription.Text" xml:space="preserve">
     <value>给玩家指定物品
@@ -3962,7 +3926,7 @@
     <value>150, 35</value>
   </data>
   <data name="BtnGiveAllWeapons.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>1</value>
   </data>
   <data name="BtnGiveAllWeapons.Text" xml:space="preserve">
     <value>获得所有武器</value>
@@ -4019,7 +3983,7 @@
     <value>200, 153</value>
   </data>
   <data name="LblWeaponDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>0</value>
   </data>
   <data name="LblWeaponDescription.Text" xml:space="preserve">
     <value>获取武器
@@ -4093,7 +4057,7 @@
     <value>32, 17</value>
   </data>
   <data name="LblWeaponAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>2</value>
   </data>
   <data name="LblWeaponAmount.Text" xml:space="preserve">
     <value>数量</value>
@@ -4126,7 +4090,7 @@
     <value>32, 17</value>
   </data>
   <data name="LblWeaponLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>4</value>
   </data>
   <data name="LblWeaponLevel.Text" xml:space="preserve">
     <value>等级</value>
@@ -4153,7 +4117,7 @@
     <value>50, 23</value>
   </data>
   <data name="NUDWeaponRefinement.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;NUDWeaponRefinement.Name" xml:space="preserve">
     <value>NUDWeaponRefinement</value>
@@ -4177,7 +4141,7 @@
     <value>50, 23</value>
   </data>
   <data name="NUDWeaponAmout.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;NUDWeaponAmout.Name" xml:space="preserve">
     <value>NUDWeaponAmout</value>
@@ -4228,7 +4192,7 @@
     <value>200, 208</value>
   </data>
   <data name="ListWeapons.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;ListWeapons.Name" xml:space="preserve">
     <value>ListWeapons</value>
@@ -4363,7 +4327,7 @@
     <value>332, 55</value>
   </data>
   <data name="GrpSetConstellation.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+    <value>3</value>
   </data>
   <data name="GrpSetConstellation.Text" xml:space="preserve">
     <value>设置命座</value>
@@ -4543,7 +4507,7 @@
     <value>332, 96</value>
   </data>
   <data name="GrpSetStats.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+    <value>1</value>
   </data>
   <data name="GrpSetStats.Text" xml:space="preserve">
     <value>角色属性</value>
@@ -4573,7 +4537,7 @@
     <value>125, 23</value>
   </data>
   <data name="BtnUnlockStat.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="BtnUnlockStat.Text" xml:space="preserve">
     <value>解锁</value>
@@ -4603,7 +4567,7 @@
     <value>125, 23</value>
   </data>
   <data name="BtnLockStat.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="BtnLockStat.Text" xml:space="preserve">
     <value>锁定</value>
@@ -4630,7 +4594,7 @@
     <value>286, 17</value>
   </data>
   <data name="LblStatTip.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>0</value>
   </data>
   <data name="LblStatTip.Text" xml:space="preserve">
     <value>提示</value>
@@ -4687,7 +4651,7 @@
     <value>70, 23</value>
   </data>
   <data name="NUDStat.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;NUDStat.Name" xml:space="preserve">
     <value>NUDStat</value>
@@ -4708,7 +4672,7 @@
     <value>158, 25</value>
   </data>
   <data name="CmbStat.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;CmbStat.Name" xml:space="preserve">
     <value>CmbStat</value>
@@ -4792,7 +4756,7 @@
     <value>332, 55</value>
   </data>
   <data name="GrpTalentLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>2</value>
   </data>
   <data name="GrpTalentLevel.Text" xml:space="preserve">
     <value>技能等级</value>
@@ -4822,7 +4786,7 @@
     <value>32, 17</value>
   </data>
   <data name="LnkTalentAll.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>1</value>
   </data>
   <data name="LnkTalentAll.Text" xml:space="preserve">
     <value>全部</value>
@@ -4852,7 +4816,7 @@
     <value>39, 17</value>
   </data>
   <data name="LnkTalentE.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="LnkTalentE.Text" xml:space="preserve">
     <value>E技能</value>
@@ -4882,7 +4846,7 @@
     <value>42, 17</value>
   </data>
   <data name="LnkTalentQ.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="LnkTalentQ.Text" xml:space="preserve">
     <value>Q技能</value>
@@ -4912,7 +4876,7 @@
     <value>56, 17</value>
   </data>
   <data name="LnkTalentNormalATK.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="LnkTalentNormalATK.Text" xml:space="preserve">
     <value>普通攻击</value>
@@ -5104,7 +5068,7 @@
     <value>250, 218</value>
   </data>
   <data name="GrpGiveAvatar.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>0</value>
   </data>
   <data name="GrpGiveAvatar.Text" xml:space="preserve">
     <value>获取角色</value>
@@ -5152,7 +5116,7 @@
     <value>87, 25</value>
   </data>
   <data name="CmbSwitchElement.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>11</value>
   </data>
   <data name="&gt;&gt;CmbSwitchElement.Name" xml:space="preserve">
     <value>CmbSwitchElement</value>
@@ -5176,7 +5140,7 @@
     <value>80, 17</value>
   </data>
   <data name="LnkSwitchElement.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>10</value>
   </data>
   <data name="LnkSwitchElement.Text" xml:space="preserve">
     <value>切换主角元素</value>
@@ -5200,7 +5164,7 @@
     <value>110, 25</value>
   </data>
   <data name="CmbAvatar.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;CmbAvatar.Name" xml:space="preserve">
     <value>CmbAvatar</value>
@@ -5227,7 +5191,7 @@
     <value>46, 17</value>
   </data>
   <data name="LblAvatarSkillLevelTip.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>8</value>
   </data>
   <data name="LblAvatarSkillLevelTip.Text" xml:space="preserve">
     <value>*v1.4.1</value>
@@ -5251,7 +5215,7 @@
     <value>110, 23</value>
   </data>
   <data name="NUDAvatarLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;NUDAvatarLevel.Name" xml:space="preserve">
     <value>NUDAvatarLevel</value>
@@ -5338,7 +5302,7 @@
     <value>56, 17</value>
   </data>
   <data name="LblAvatarSkillLevelLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="LblAvatarSkillLevelLabel.Text" xml:space="preserve">
     <value>技能等级</value>
@@ -5368,7 +5332,7 @@
     <value>32, 17</value>
   </data>
   <data name="LblAvatar.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>0</value>
   </data>
   <data name="LblAvatar.Text" xml:space="preserve">
     <value>角色</value>
@@ -5398,7 +5362,7 @@
     <value>32, 17</value>
   </data>
   <data name="LblAvatarConstellation.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>4</value>
   </data>
   <data name="LblAvatarConstellation.Text" xml:space="preserve">
     <value>命座</value>
@@ -5422,7 +5386,7 @@
     <value>110, 23</value>
   </data>
   <data name="NUDAvatarConstellation.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;NUDAvatarConstellation.Name" xml:space="preserve">
     <value>NUDAvatarConstellation</value>
@@ -5443,7 +5407,7 @@
     <value>110, 23</value>
   </data>
   <data name="NUDAvatarSkillLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;NUDAvatarSkillLevel.Name" xml:space="preserve">
     <value>NUDAvatarSkillLevel</value>
@@ -5818,7 +5782,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDEntityDef.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>13</value>
   </data>
   <data name="&gt;&gt;NUDEntityDef.Name" xml:space="preserve">
     <value>NUDEntityDef</value>
@@ -5839,7 +5803,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDEntityAtk.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>11</value>
   </data>
   <data name="&gt;&gt;NUDEntityAtk.Name" xml:space="preserve">
     <value>NUDEntityAtk</value>
@@ -5860,7 +5824,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDEntityHp.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;NUDEntityHp.Name" xml:space="preserve">
     <value>NUDEntityHp</value>
@@ -5881,7 +5845,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDEntityMaxHp.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>8</value>
   </data>
   <data name="&gt;&gt;NUDEntityMaxHp.Name" xml:space="preserve">
     <value>NUDEntityMaxHp</value>
@@ -5902,7 +5866,7 @@
     <value>60, 23</value>
   </data>
   <data name="NUDEntityPosZ.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>17</value>
   </data>
   <data name="&gt;&gt;NUDEntityPosZ.Name" xml:space="preserve">
     <value>NUDEntityPosZ</value>
@@ -5923,7 +5887,7 @@
     <value>60, 23</value>
   </data>
   <data name="NUDEntityPosY.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>16</value>
   </data>
   <data name="&gt;&gt;NUDEntityPosY.Name" xml:space="preserve">
     <value>NUDEntityPosY</value>
@@ -5944,7 +5908,7 @@
     <value>60, 23</value>
   </data>
   <data name="NUDEntityPosX.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>15</value>
   </data>
   <data name="&gt;&gt;NUDEntityPosX.Name" xml:space="preserve">
     <value>NUDEntityPosX</value>
@@ -5965,7 +5929,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDEntityAmout.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;NUDEntityAmout.Name" xml:space="preserve">
     <value>NUDEntityAmout</value>
@@ -5986,7 +5950,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDEntityLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;NUDEntityLevel.Name" xml:space="preserve">
     <value>NUDEntityLevel</value>
@@ -6013,7 +5977,7 @@
     <value>162, 17</value>
   </data>
   <data name="LblSpawnVersionRequireTip.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
+    <value>4</value>
   </data>
   <data name="LblSpawnVersionRequireTip.Text" xml:space="preserve">
     <value>以下参数至少要求 GC v1.3.1</value>
@@ -6043,7 +6007,7 @@
     <value>107, 17</value>
   </data>
   <data name="LblInfiniteHpTip.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
+    <value>9</value>
   </data>
   <data name="LblInfiniteHpTip.Text" xml:space="preserve">
     <value>血量为 0 表示无限</value>
@@ -6073,7 +6037,7 @@
     <value>56, 17</value>
   </data>
   <data name="LblEntityDef.TabIndex" type="System.Int32, mscorlib">
-    <value>40</value>
+    <value>12</value>
   </data>
   <data name="LblEntityDef.Text" xml:space="preserve">
     <value>防御力：</value>
@@ -6103,7 +6067,7 @@
     <value>56, 17</value>
   </data>
   <data name="LblEntityAtk.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
+    <value>10</value>
   </data>
   <data name="LblEntityAtk.Text" xml:space="preserve">
     <value>攻击力：</value>
@@ -6133,7 +6097,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblEntityHp.TabIndex" type="System.Int32, mscorlib">
-    <value>36</value>
+    <value>5</value>
   </data>
   <data name="LblEntityHp.Text" xml:space="preserve">
     <value>血量：</value>
@@ -6163,7 +6127,7 @@
     <value>68, 17</value>
   </data>
   <data name="LblEntityMaxHp.TabIndex" type="System.Int32, mscorlib">
-    <value>34</value>
+    <value>7</value>
   </data>
   <data name="LblEntityMaxHp.Text" xml:space="preserve">
     <value>最大血量：</value>
@@ -6193,7 +6157,7 @@
     <value>235, 17</value>
   </data>
   <data name="LblEntitySpawnPostion.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
+    <value>14</value>
   </data>
   <data name="LblEntitySpawnPostion.Text" xml:space="preserve">
     <value>位置： x:                    y:                    z:</value>
@@ -6223,7 +6187,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblEntityLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>2</value>
   </data>
   <data name="LblEntityLevel.Text" xml:space="preserve">
     <value>等级：</value>
@@ -6253,7 +6217,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblEntityAmount.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>0</value>
   </data>
   <data name="LblEntityAmount.Text" xml:space="preserve">
     <value>数量：</value>
@@ -6418,7 +6382,7 @@
     <value>140, 17</value>
   </data>
   <data name="LblAMPluginTip.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>5</value>
   </data>
   <data name="LblAMPluginTip.Text" xml:space="preserve">
     <value>见识一下真正的雷神吧！</value>
@@ -6448,7 +6412,7 @@
     <value>227, 17</value>
   </data>
   <data name="LblAMPluginIntroduction.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>4</value>
   </data>
   <data name="LblAMPluginIntroduction.Text" xml:space="preserve">
     <value>这个插件可以使用 Gadget 替换角色攻击</value>
@@ -6478,7 +6442,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblAMPlugin.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>0</value>
   </data>
   <data name="LblAMPlugin.Text" xml:space="preserve">
     <value>插件：</value>
@@ -6508,7 +6472,7 @@
     <value>20, 17</value>
   </data>
   <data name="LnkAMOff.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="LnkAMOff.Text" xml:space="preserve">
     <value>关</value>
@@ -6538,7 +6502,7 @@
     <value>20, 17</value>
   </data>
   <data name="LnkAMOn.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="LnkAMOn.Text" xml:space="preserve">
     <value>开</value>
@@ -6565,7 +6529,7 @@
     <value>100, 23</value>
   </data>
   <data name="BtnAtReload.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>8</value>
   </data>
   <data name="BtnAtReload.Text" xml:space="preserve">
     <value>重载配置</value>
@@ -6592,7 +6556,7 @@
     <value>217, 23</value>
   </data>
   <data name="BtnAtClear.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="BtnAtClear.Text" xml:space="preserve">
     <value>清空实体！！</value>
@@ -6622,7 +6586,7 @@
     <value>94, 17</value>
   </data>
   <data name="LnkAttackModifierPlugin.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="LnkAttackModifierPlugin.Text" xml:space="preserve">
     <value>AttackModifier</value>
@@ -6718,7 +6682,7 @@
     <value>323, 103</value>
   </data>
   <data name="GrpAMSkills.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="GrpAMSkills.Text" xml:space="preserve">
     <value>替换技能</value>
@@ -7138,7 +7102,7 @@
     <value>60, 23</value>
   </data>
   <data name="NUDAiwiRotateZ.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>13</value>
   </data>
   <data name="&gt;&gt;NUDAiwiRotateZ.Name" xml:space="preserve">
     <value>NUDAiwiRotateZ</value>
@@ -7159,7 +7123,7 @@
     <value>60, 23</value>
   </data>
   <data name="NUDAiwiRotateY.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>12</value>
   </data>
   <data name="&gt;&gt;NUDAiwiRotateY.Name" xml:space="preserve">
     <value>NUDAiwiRotateY</value>
@@ -7180,7 +7144,7 @@
     <value>60, 23</value>
   </data>
   <data name="NUDAiwiRotateX.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>11</value>
   </data>
   <data name="&gt;&gt;NUDAiwiRotateX.Name" xml:space="preserve">
     <value>NUDAiwiRotateX</value>
@@ -7207,7 +7171,7 @@
     <value>235, 17</value>
   </data>
   <data name="LblAiwiRotate.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
+    <value>10</value>
   </data>
   <data name="LblAiwiRotate.Text" xml:space="preserve">
     <value>旋转： x:                    y:                    z:</value>
@@ -7231,7 +7195,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDAiwiSpread.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;NUDAiwiSpread.Name" xml:space="preserve">
     <value>NUDAiwiSpread</value>
@@ -7258,7 +7222,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblAiwiSpread.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+    <value>8</value>
   </data>
   <data name="LblAiwiSpread.Text" xml:space="preserve">
     <value>扩散：</value>
@@ -7282,7 +7246,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDAiwiCount.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;NUDAiwiCount.Name" xml:space="preserve">
     <value>NUDAiwiCount</value>
@@ -7303,7 +7267,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDAiwiHeight.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;NUDAiwiHeight.Name" xml:space="preserve">
     <value>NUDAiwiHeight</value>
@@ -7324,7 +7288,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDAiwiRadius.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;NUDAiwiRadius.Name" xml:space="preserve">
     <value>NUDAiwiRadius</value>
@@ -7351,7 +7315,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblAiwiCount.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
+    <value>6</value>
   </data>
   <data name="LblAiwiCount.Text" xml:space="preserve">
     <value>数量：</value>
@@ -7381,7 +7345,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblAiwiHeight.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+    <value>4</value>
   </data>
   <data name="LblAiwiHeight.Text" xml:space="preserve">
     <value>高度：</value>
@@ -7411,7 +7375,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblAiwiRadius.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
+    <value>2</value>
   </data>
   <data name="LblAiwiRadius.Text" xml:space="preserve">
     <value>范围：</value>
@@ -7438,7 +7402,7 @@
     <value>150, 30</value>
   </data>
   <data name="BtnAttackInfuse.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>14</value>
   </data>
   <data name="BtnAttackInfuse.Text" xml:space="preserve">
     <value>攻击注入</value>
@@ -7465,7 +7429,7 @@
     <value>100, 23</value>
   </data>
   <data name="BtnAiwiReload.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>17</value>
   </data>
   <data name="BtnAiwiReload.Text" xml:space="preserve">
     <value>重载配置</value>
@@ -7492,7 +7456,7 @@
     <value>100, 23</value>
   </data>
   <data name="BtnAiwiClear.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>16</value>
   </data>
   <data name="BtnAiwiClear.Text" xml:space="preserve">
     <value>清空实体</value>
@@ -7519,7 +7483,7 @@
     <value>100, 23</value>
   </data>
   <data name="BtnAiwiReset.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>15</value>
   </data>
   <data name="BtnAiwiReset.Text" xml:space="preserve">
     <value>重置</value>
@@ -7549,7 +7513,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblAiwiPlugin.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>0</value>
   </data>
   <data name="LblAiwiPlugin.Text" xml:space="preserve">
     <value>插件：</value>
@@ -7579,7 +7543,7 @@
     <value>139, 17</value>
   </data>
   <data name="LnkAttackInfusedWithItem.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="LnkAttackInfusedWithItem.Text" xml:space="preserve">
     <value>AttackInfusedWithItem</value>
@@ -7656,16 +7620,16 @@
   <data name="&gt;&gt;ListEntity.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;PanelEntityFilterBar.Name" xml:space="preserve">
+    <value>PanelEntityFilterBar</value>
   </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+  <data name="&gt;&gt;PanelEntityFilterBar.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PanelEntityFilterBar.Parent" xml:space="preserve">
     <value>TPSpawnItems</value>
   </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;PanelEntityFilterBar.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="TPSpawnItems.Location" type="System.Drawing.Point, System.Drawing">
@@ -7729,7 +7693,7 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;TxtEntityFilter.Parent" xml:space="preserve">
-    <value>panel1</value>
+    <value>PanelEntityFilterBar</value>
   </data>
   <data name="&gt;&gt;TxtEntityFilter.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -7741,33 +7705,33 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BtnFilterEntity.Parent" xml:space="preserve">
-    <value>panel1</value>
+    <value>PanelEntityFilterBar</value>
   </data>
   <data name="&gt;&gt;BtnFilterEntity.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="panel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+  <data name="PanelEntityFilterBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="PanelEntityFilterBar.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 3</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="PanelEntityFilterBar.Size" type="System.Drawing.Size, System.Drawing">
     <value>274, 30</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="PanelEntityFilterBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;PanelEntityFilterBar.Name" xml:space="preserve">
+    <value>PanelEntityFilterBar</value>
   </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+  <data name="&gt;&gt;PanelEntityFilterBar.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;PanelEntityFilterBar.Parent" xml:space="preserve">
     <value>TPSpawnItems</value>
   </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;PanelEntityFilterBar.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="TxtEntityFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -7789,7 +7753,7 @@
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;TxtEntityFilter.Parent" xml:space="preserve">
-    <value>panel1</value>
+    <value>PanelEntityFilterBar</value>
   </data>
   <data name="&gt;&gt;TxtEntityFilter.ZOrder" xml:space="preserve">
     <value>0</value>
@@ -7807,7 +7771,7 @@
     <value>26, 24</value>
   </data>
   <data name="BtnFilterEntity.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>1</value>
   </data>
   <data name="BtnFilterEntity.Text" xml:space="preserve">
     <value>三</value>
@@ -7819,7 +7783,7 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BtnFilterEntity.Parent" xml:space="preserve">
-    <value>panel1</value>
+    <value>PanelEntityFilterBar</value>
   </data>
   <data name="&gt;&gt;BtnFilterEntity.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -7888,7 +7852,7 @@
     <value>274, 168</value>
   </data>
   <data name="ListSpawnLogs.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;ListSpawnLogs.Name" xml:space="preserve">
     <value>ListSpawnLogs</value>
@@ -7951,7 +7915,7 @@
     <value>274, 29</value>
   </data>
   <data name="FLPSpawnRecordControls.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;FLPSpawnRecordControls.Name" xml:space="preserve">
     <value>FLPSpawnRecordControls</value>
@@ -7975,7 +7939,7 @@
     <value>75, 23</value>
   </data>
   <data name="BtnSaveSpawnLog.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>0</value>
   </data>
   <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
     <value>√ 记录</value>
@@ -8005,7 +7969,7 @@
     <value>75, 23</value>
   </data>
   <data name="BtnRemoveSpawnLog.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>1</value>
   </data>
   <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
     <value>× 删除</value>
@@ -8038,7 +8002,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblClearSpawnLogs.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>2</value>
   </data>
   <data name="LblClearSpawnLogs.Text" xml:space="preserve">
     <value>X 清空</value>
@@ -8200,7 +8164,7 @@
     <value>150, 130</value>
   </data>
   <data name="GrpQuestFilters.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>3</value>
   </data>
   <data name="GrpQuestFilters.Text" xml:space="preserve">
     <value>列表过滤</value>
@@ -8320,7 +8284,7 @@
     <value>90, 23</value>
   </data>
   <data name="BtnFinishQuest.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>2</value>
   </data>
   <data name="BtnFinishQuest.Text" xml:space="preserve">
     <value>完成任务</value>
@@ -8350,7 +8314,7 @@
     <value>90, 23</value>
   </data>
   <data name="BtnAddQuest.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>1</value>
   </data>
   <data name="BtnAddQuest.Text" xml:space="preserve">
     <value>添加任务</value>
@@ -8380,7 +8344,7 @@
     <value>346, 100</value>
   </data>
   <data name="LblQuestDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>0</value>
   </data>
   <data name="LblQuestDescription.Text" xml:space="preserve">
     <value>添加或完成任务
@@ -8409,7 +8373,7 @@
     <value>288, 23</value>
   </data>
   <data name="TxtQuestFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;TxtQuestFilter.Name" xml:space="preserve">
     <value>TxtQuestFilter</value>
@@ -8436,7 +8400,7 @@
     <value>288, 208</value>
   </data>
   <data name="ListQuest.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;ListQuest.Name" xml:space="preserve">
     <value>ListQuest</value>
@@ -8450,24 +8414,6 @@
   <data name="&gt;&gt;ListQuest.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="LnkCharacterBuilder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="LnkCharacterBuilder.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LnkCharacterBuilder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>540, 225</value>
-  </data>
-  <data name="LnkCharacterBuilder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 17</value>
-  </data>
-  <data name="LnkCharacterBuilder.TabIndex" type="System.Int32, mscorlib">
-    <value>46</value>
-  </data>
-  <data name="LnkCharacterBuilder.Text" xml:space="preserve">
-    <value>Character Builder</value>
-  </data>
   <data name="&gt;&gt;LnkCharacterBuilder.Name" xml:space="preserve">
     <value>LnkCharacterBuilder</value>
   </data>
@@ -8479,27 +8425,6 @@
   </data>
   <data name="&gt;&gt;LnkCharacterBuilder.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="LblArtifactLevelTip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblArtifactLevelTip.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblArtifactLevelTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblArtifactLevelTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>223, 41</value>
-  </data>
-  <data name="LblArtifactLevelTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 17</value>
-  </data>
-  <data name="LblArtifactLevelTip.TabIndex" type="System.Int32, mscorlib">
-    <value>37</value>
-  </data>
-  <data name="LblArtifactLevelTip.Text" xml:space="preserve">
-    <value>[0-20]</value>
   </data>
   <data name="&gt;&gt;LblArtifactLevelTip.Name" xml:space="preserve">
     <value>LblArtifactLevelTip</value>
@@ -8513,24 +8438,6 @@
   <data name="&gt;&gt;LblArtifactLevelTip.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="BtnAddSubAttr.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="BtnAddSubAttr.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="BtnAddSubAttr.Location" type="System.Drawing.Point, System.Drawing">
-    <value>465, 129</value>
-  </data>
-  <data name="BtnAddSubAttr.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnAddSubAttr.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="BtnAddSubAttr.Text" xml:space="preserve">
-    <value>+ 添加</value>
-  </data>
   <data name="&gt;&gt;BtnAddSubAttr.Name" xml:space="preserve">
     <value>BtnAddSubAttr</value>
   </data>
@@ -8542,24 +8449,6 @@
   </data>
   <data name="&gt;&gt;BtnAddSubAttr.ZOrder" xml:space="preserve">
     <value>2</value>
-  </data>
-  <data name="LblArtifactName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblArtifactName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblArtifactName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblArtifactName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>462, 11</value>
-  </data>
-  <data name="LblArtifactName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 17</value>
-  </data>
-  <data name="LblArtifactName.TabIndex" type="System.Int32, mscorlib">
-    <value>45</value>
   </data>
   <data name="&gt;&gt;LblArtifactName.Name" xml:space="preserve">
     <value>LblArtifactName</value>
@@ -8573,27 +8462,6 @@
   <data name="&gt;&gt;LblArtifactName.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="LblArtifactPart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblArtifactPart.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblArtifactPart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblArtifactPart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 11</value>
-  </data>
-  <data name="LblArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
-  <data name="LblArtifactPart.TabIndex" type="System.Int32, mscorlib">
-    <value>42</value>
-  </data>
-  <data name="LblArtifactPart.Text" xml:space="preserve">
-    <value>部位</value>
-  </data>
   <data name="&gt;&gt;LblArtifactPart.Name" xml:space="preserve">
     <value>LblArtifactPart</value>
   </data>
@@ -8605,18 +8473,6 @@
   </data>
   <data name="&gt;&gt;LblArtifactPart.ZOrder" xml:space="preserve">
     <value>4</value>
-  </data>
-  <data name="CmbArtifactPart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="CmbArtifactPart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 8</value>
-  </data>
-  <data name="CmbArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 25</value>
-  </data>
-  <data name="CmbArtifactPart.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="&gt;&gt;CmbArtifactPart.Name" xml:space="preserve">
     <value>CmbArtifactPart</value>
@@ -8630,18 +8486,6 @@
   <data name="&gt;&gt;CmbArtifactPart.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="CmbArtifactSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="CmbArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 8</value>
-  </data>
-  <data name="CmbArtifactSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 25</value>
-  </data>
-  <data name="CmbArtifactSet.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
   <data name="&gt;&gt;CmbArtifactSet.Name" xml:space="preserve">
     <value>CmbArtifactSet</value>
   </data>
@@ -8654,27 +8498,6 @@
   <data name="&gt;&gt;CmbArtifactSet.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="LblArtifactSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblArtifactSet.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblArtifactSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 11</value>
-  </data>
-  <data name="LblArtifactSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
-  <data name="LblArtifactSet.TabIndex" type="System.Int32, mscorlib">
-    <value>38</value>
-  </data>
-  <data name="LblArtifactSet.Text" xml:space="preserve">
-    <value>套装</value>
-  </data>
   <data name="&gt;&gt;LblArtifactSet.Name" xml:space="preserve">
     <value>LblArtifactSet</value>
   </data>
@@ -8685,18 +8508,6 @@
     <value>TPArtifact</value>
   </data>
   <data name="&gt;&gt;LblArtifactSet.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="NUDSubAttributionTimes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="NUDSubAttributionTimes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>465, 100</value>
-  </data>
-  <data name="NUDSubAttributionTimes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 23</value>
-  </data>
-  <data name="NUDSubAttributionTimes.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
   <data name="&gt;&gt;NUDSubAttributionTimes.Name" xml:space="preserve">
@@ -8711,18 +8522,6 @@
   <data name="&gt;&gt;NUDSubAttributionTimes.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="CmbSubAttributionValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="CmbSubAttributionValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>336, 98</value>
-  </data>
-  <data name="CmbSubAttributionValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 25</value>
-  </data>
-  <data name="CmbSubAttributionValue.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
   <data name="&gt;&gt;CmbSubAttributionValue.Name" xml:space="preserve">
     <value>CmbSubAttributionValue</value>
   </data>
@@ -8734,18 +8533,6 @@
   </data>
   <data name="&gt;&gt;CmbSubAttributionValue.ZOrder" xml:space="preserve">
     <value>9</value>
-  </data>
-  <data name="CmbSubAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="CmbSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 99</value>
-  </data>
-  <data name="CmbSubAttribution.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 25</value>
-  </data>
-  <data name="CmbSubAttribution.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
   </data>
   <data name="&gt;&gt;CmbSubAttribution.Name" xml:space="preserve">
     <value>CmbSubAttribution</value>
@@ -8759,27 +8546,6 @@
   <data name="&gt;&gt;CmbSubAttribution.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="LblClearSubAttrCheckedList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblClearSubAttrCheckedList.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblClearSubAttrCheckedList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblClearSubAttrCheckedList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>462, 218</value>
-  </data>
-  <data name="LblClearSubAttrCheckedList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="LblClearSubAttrCheckedList.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="LblClearSubAttrCheckedList.Text" xml:space="preserve">
-    <value>X 清空</value>
-  </data>
   <data name="&gt;&gt;LblClearSubAttrCheckedList.Name" xml:space="preserve">
     <value>LblClearSubAttrCheckedList</value>
   </data>
@@ -8791,21 +8557,6 @@
   </data>
   <data name="&gt;&gt;LblClearSubAttrCheckedList.ZOrder" xml:space="preserve">
     <value>11</value>
-  </data>
-  <data name="ListSubAttributionChecked.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom</value>
-  </data>
-  <data name="ListSubAttributionChecked.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="ListSubAttributionChecked.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 129</value>
-  </data>
-  <data name="ListSubAttributionChecked.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 106</value>
-  </data>
-  <data name="ListSubAttributionChecked.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
   </data>
   <data name="&gt;&gt;ListSubAttributionChecked.Name" xml:space="preserve">
     <value>ListSubAttributionChecked</value>
@@ -8819,27 +8570,6 @@
   <data name="&gt;&gt;ListSubAttributionChecked.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="LblArtifactLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblArtifactLevel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblArtifactLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 41</value>
-  </data>
-  <data name="LblArtifactLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
-  <data name="LblArtifactLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
-  </data>
-  <data name="LblArtifactLevel.Text" xml:space="preserve">
-    <value>等级</value>
-  </data>
   <data name="&gt;&gt;LblArtifactLevel.Name" xml:space="preserve">
     <value>LblArtifactLevel</value>
   </data>
@@ -8851,27 +8581,6 @@
   </data>
   <data name="&gt;&gt;LblArtifactLevel.ZOrder" xml:space="preserve">
     <value>13</value>
-  </data>
-  <data name="LblSubAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblSubAttribution.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblSubAttribution.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 102</value>
-  </data>
-  <data name="LblSubAttribution.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="LblSubAttribution.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="LblSubAttribution.Text" xml:space="preserve">
-    <value>副词条</value>
   </data>
   <data name="&gt;&gt;LblSubAttribution.Name" xml:space="preserve">
     <value>LblSubAttribution</value>
@@ -8885,18 +8594,6 @@
   <data name="&gt;&gt;LblSubAttribution.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="CmbMainAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="CmbMainAttribution.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 68</value>
-  </data>
-  <data name="CmbMainAttribution.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 25</value>
-  </data>
-  <data name="CmbMainAttribution.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
   <data name="&gt;&gt;CmbMainAttribution.Name" xml:space="preserve">
     <value>CmbMainAttribution</value>
   </data>
@@ -8908,27 +8605,6 @@
   </data>
   <data name="&gt;&gt;CmbMainAttribution.ZOrder" xml:space="preserve">
     <value>15</value>
-  </data>
-  <data name="LblMainAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblMainAttribution.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblMainAttribution.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblMainAttribution.Location" type="System.Drawing.Point, System.Drawing">
-    <value>117, 71</value>
-  </data>
-  <data name="LblMainAttribution.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="LblMainAttribution.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="LblMainAttribution.Text" xml:space="preserve">
-    <value>主词条</value>
   </data>
   <data name="&gt;&gt;LblMainAttribution.Name" xml:space="preserve">
     <value>LblMainAttribution</value>
@@ -8942,18 +8618,6 @@
   <data name="&gt;&gt;LblMainAttribution.ZOrder" xml:space="preserve">
     <value>16</value>
   </data>
-  <data name="NUDArtifactLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="NUDArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>167, 39</value>
-  </data>
-  <data name="NUDArtifactLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="NUDArtifactLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
   <data name="&gt;&gt;NUDArtifactLevel.Name" xml:space="preserve">
     <value>NUDArtifactLevel</value>
   </data>
@@ -8966,27 +8630,6 @@
   <data name="&gt;&gt;NUDArtifactLevel.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="LblArtifactStars.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblArtifactStars.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblArtifactStars.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
-    <value>353, 41</value>
-  </data>
-  <data name="LblArtifactStars.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
-  <data name="LblArtifactStars.TabIndex" type="System.Int32, mscorlib">
-    <value>43</value>
-  </data>
-  <data name="LblArtifactStars.Text" xml:space="preserve">
-    <value>星级</value>
-  </data>
   <data name="&gt;&gt;LblArtifactStars.Name" xml:space="preserve">
     <value>LblArtifactStars</value>
   </data>
@@ -8998,18 +8641,6 @@
   </data>
   <data name="&gt;&gt;LblArtifactStars.ZOrder" xml:space="preserve">
     <value>18</value>
-  </data>
-  <data name="NUDArtifactStars.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="NUDArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
-    <value>391, 39</value>
-  </data>
-  <data name="NUDArtifactStars.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 23</value>
-  </data>
-  <data name="NUDArtifactStars.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;NUDArtifactStars.Name" xml:space="preserve">
     <value>NUDArtifactStars</value>
@@ -9049,6 +8680,579 @@
   </data>
   <data name="&gt;&gt;TPArtifact.ZOrder" xml:space="preserve">
     <value>3</value>
+  </data>
+  <data name="LnkCharacterBuilder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="LnkCharacterBuilder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkCharacterBuilder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 225</value>
+  </data>
+  <data name="LnkCharacterBuilder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="LnkCharacterBuilder.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="LnkCharacterBuilder.Text" xml:space="preserve">
+    <value>Character Builder</value>
+  </data>
+  <data name="&gt;&gt;LnkCharacterBuilder.Name" xml:space="preserve">
+    <value>LnkCharacterBuilder</value>
+  </data>
+  <data name="&gt;&gt;LnkCharacterBuilder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkCharacterBuilder.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;LnkCharacterBuilder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblArtifactLevelTip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblArtifactLevelTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblArtifactLevelTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblArtifactLevelTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>223, 41</value>
+  </data>
+  <data name="LblArtifactLevelTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="LblArtifactLevelTip.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblArtifactLevelTip.Text" xml:space="preserve">
+    <value>[0-20]</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevelTip.Name" xml:space="preserve">
+    <value>LblArtifactLevelTip</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevelTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevelTip.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevelTip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnAddSubAttr.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="BtnAddSubAttr.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAddSubAttr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 129</value>
+  </data>
+  <data name="BtnAddSubAttr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnAddSubAttr.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="BtnAddSubAttr.Text" xml:space="preserve">
+    <value>+ 添加</value>
+  </data>
+  <data name="&gt;&gt;BtnAddSubAttr.Name" xml:space="preserve">
+    <value>BtnAddSubAttr</value>
+  </data>
+  <data name="&gt;&gt;BtnAddSubAttr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAddSubAttr.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;BtnAddSubAttr.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblArtifactName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblArtifactName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblArtifactName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblArtifactName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 11</value>
+  </data>
+  <data name="LblArtifactName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="LblArtifactName.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactName.Name" xml:space="preserve">
+    <value>LblArtifactName</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactName.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblArtifactPart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblArtifactPart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblArtifactPart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblArtifactPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 11</value>
+  </data>
+  <data name="LblArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblArtifactPart.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblArtifactPart.Text" xml:space="preserve">
+    <value>部位</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactPart.Name" xml:space="preserve">
+    <value>LblArtifactPart</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactPart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactPart.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactPart.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CmbArtifactPart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CmbArtifactPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 8</value>
+  </data>
+  <data name="CmbArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="CmbArtifactPart.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactPart.Name" xml:space="preserve">
+    <value>CmbArtifactPart</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactPart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactPart.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactPart.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CmbArtifactSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CmbArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 8</value>
+  </data>
+  <data name="CmbArtifactSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 25</value>
+  </data>
+  <data name="CmbArtifactSet.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactSet.Name" xml:space="preserve">
+    <value>CmbArtifactSet</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactSet.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactSet.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LblArtifactSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblArtifactSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblArtifactSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 11</value>
+  </data>
+  <data name="LblArtifactSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblArtifactSet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblArtifactSet.Text" xml:space="preserve">
+    <value>套装</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactSet.Name" xml:space="preserve">
+    <value>LblArtifactSet</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactSet.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactSet.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NUDSubAttributionTimes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDSubAttributionTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>465, 100</value>
+  </data>
+  <data name="NUDSubAttributionTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 23</value>
+  </data>
+  <data name="NUDSubAttributionTimes.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;NUDSubAttributionTimes.Name" xml:space="preserve">
+    <value>NUDSubAttributionTimes</value>
+  </data>
+  <data name="&gt;&gt;NUDSubAttributionTimes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDSubAttributionTimes.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;NUDSubAttributionTimes.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CmbSubAttributionValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CmbSubAttributionValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>336, 98</value>
+  </data>
+  <data name="CmbSubAttributionValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="CmbSubAttributionValue.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttributionValue.Name" xml:space="preserve">
+    <value>CmbSubAttributionValue</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttributionValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttributionValue.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttributionValue.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CmbSubAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CmbSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 99</value>
+  </data>
+  <data name="CmbSubAttribution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 25</value>
+  </data>
+  <data name="CmbSubAttribution.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttribution.Name" xml:space="preserve">
+    <value>CmbSubAttribution</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttribution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttribution.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttribution.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>462, 218</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.Text" xml:space="preserve">
+    <value>X 清空</value>
+  </data>
+  <data name="&gt;&gt;LblClearSubAttrCheckedList.Name" xml:space="preserve">
+    <value>LblClearSubAttrCheckedList</value>
+  </data>
+  <data name="&gt;&gt;LblClearSubAttrCheckedList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblClearSubAttrCheckedList.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;LblClearSubAttrCheckedList.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ListSubAttributionChecked.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="ListSubAttributionChecked.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ListSubAttributionChecked.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 129</value>
+  </data>
+  <data name="ListSubAttributionChecked.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 106</value>
+  </data>
+  <data name="ListSubAttributionChecked.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;ListSubAttributionChecked.Name" xml:space="preserve">
+    <value>ListSubAttributionChecked</value>
+  </data>
+  <data name="&gt;&gt;ListSubAttributionChecked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListSubAttributionChecked.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;ListSubAttributionChecked.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="LblArtifactLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblArtifactLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblArtifactLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 41</value>
+  </data>
+  <data name="LblArtifactLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblArtifactLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LblArtifactLevel.Text" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevel.Name" xml:space="preserve">
+    <value>LblArtifactLevel</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevel.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="LblSubAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblSubAttribution.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblSubAttribution.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 102</value>
+  </data>
+  <data name="LblSubAttribution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblSubAttribution.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="LblSubAttribution.Text" xml:space="preserve">
+    <value>副词条</value>
+  </data>
+  <data name="&gt;&gt;LblSubAttribution.Name" xml:space="preserve">
+    <value>LblSubAttribution</value>
+  </data>
+  <data name="&gt;&gt;LblSubAttribution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblSubAttribution.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;LblSubAttribution.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="CmbMainAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CmbMainAttribution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 68</value>
+  </data>
+  <data name="CmbMainAttribution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 25</value>
+  </data>
+  <data name="CmbMainAttribution.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;CmbMainAttribution.Name" xml:space="preserve">
+    <value>CmbMainAttribution</value>
+  </data>
+  <data name="&gt;&gt;CmbMainAttribution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbMainAttribution.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;CmbMainAttribution.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="LblMainAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblMainAttribution.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblMainAttribution.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblMainAttribution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>117, 71</value>
+  </data>
+  <data name="LblMainAttribution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblMainAttribution.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="LblMainAttribution.Text" xml:space="preserve">
+    <value>主词条</value>
+  </data>
+  <data name="&gt;&gt;LblMainAttribution.Name" xml:space="preserve">
+    <value>LblMainAttribution</value>
+  </data>
+  <data name="&gt;&gt;LblMainAttribution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMainAttribution.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;LblMainAttribution.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="NUDArtifactLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 39</value>
+  </data>
+  <data name="NUDArtifactLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="NUDArtifactLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactLevel.Name" xml:space="preserve">
+    <value>NUDArtifactLevel</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactLevel.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactLevel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="LblArtifactStars.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblArtifactStars.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblArtifactStars.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 41</value>
+  </data>
+  <data name="LblArtifactStars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblArtifactStars.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LblArtifactStars.Text" xml:space="preserve">
+    <value>星级</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactStars.Name" xml:space="preserve">
+    <value>LblArtifactStars</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactStars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactStars.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactStars.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="NUDArtifactStars.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>391, 39</value>
+  </data>
+  <data name="NUDArtifactStars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="NUDArtifactStars.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactStars.Name" xml:space="preserve">
+    <value>NUDArtifactStars</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactStars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactStars.Parent" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactStars.ZOrder" xml:space="preserve">
+    <value>19</value>
   </data>
   <data name="&gt;&gt;BtnExportCustomCommands.Name" xml:space="preserve">
     <value>BtnExportCustomCommands</value>
@@ -9237,7 +9441,7 @@
     <value>32, 17</value>
   </data>
   <data name="LblCustomName.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>2</value>
   </data>
   <data name="LblCustomName.Text" xml:space="preserve">
     <value>标签</value>
@@ -9318,7 +9522,7 @@
     <value>32, 17</value>
   </data>
   <data name="LnkResetCustomCommands.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>8</value>
   </data>
   <data name="LnkResetCustomCommands.Text" xml:space="preserve">
     <value>重置</value>
@@ -9375,7 +9579,7 @@
     <value>60, 23</value>
   </data>
   <data name="BtnRemoveCustomCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="BtnRemoveCustomCommand.Text" xml:space="preserve">
     <value>× 删除</value>
@@ -9405,7 +9609,7 @@
     <value>60, 23</value>
   </data>
   <data name="BtnSaveCustomCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="BtnSaveCustomCommand.Text" xml:space="preserve">
     <value>√ 保存</value>
@@ -9432,7 +9636,7 @@
     <value>355, 23</value>
   </data>
   <data name="TxtCustomName.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;TxtCustomName.Name" xml:space="preserve">
     <value>TxtCustomName</value>
@@ -9582,7 +9786,7 @@
     <value>100, 23</value>
   </data>
   <data name="BtnOpenShopEditor.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>3</value>
   </data>
   <data name="BtnOpenShopEditor.Text" xml:space="preserve">
     <value>商店编辑器</value>
@@ -9612,7 +9816,7 @@
     <value>100, 23</value>
   </data>
   <data name="BtnOpenDropEditor.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>6</value>
   </data>
   <data name="BtnOpenDropEditor.Text" xml:space="preserve">
     <value>掉落物编辑器</value>
@@ -9645,7 +9849,7 @@
     <value>104, 17</value>
   </data>
   <data name="LnkNewVersion.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>1</value>
   </data>
   <data name="LnkNewVersion.Text" xml:space="preserve">
     <value>New Version Tip</value>
@@ -9714,7 +9918,7 @@
     <value>100, 23</value>
   </data>
   <data name="BtnOpenTextMap.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>5</value>
   </data>
   <data name="BtnOpenTextMap.Text" xml:space="preserve">
     <value>文本浏览器</value>
@@ -9744,7 +9948,7 @@
     <value>100, 23</value>
   </data>
   <data name="BtnOpenGachaBannerEditor.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>4</value>
   </data>
   <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
     <value>奖池编辑器</value>
@@ -9897,7 +10101,7 @@
     <value>301, 111</value>
   </data>
   <data name="GrpSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>2</value>
   </data>
   <data name="GrpSettings.Text" xml:space="preserve">
     <value>设置</value>
@@ -9927,7 +10131,7 @@
     <value>25, 17</value>
   </data>
   <data name="LblGCVersion.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>5</value>
   </data>
   <data name="LblGCVersion.Text" xml:space="preserve">
     <value>GC</value>
@@ -9951,7 +10155,7 @@
     <value>100, 25</value>
   </data>
   <data name="CmbGcVersions.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;CmbGcVersions.Name" xml:space="preserve">
     <value>CmbGcVersions</value>
@@ -9975,13 +10179,13 @@
     <value>147, 82</value>
   </data>
   <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 21</value>
+    <value>75, 21</value>
   </data>
   <data name="ChkTopMost.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="ChkTopMost.Text" xml:space="preserve">
-    <value>置顶</value>
+    <value>窗口置顶</value>
   </data>
   <data name="&gt;&gt;ChkTopMost.Name" xml:space="preserve">
     <value>ChkTopMost</value>
@@ -10002,7 +10206,7 @@
     <value>100, 25</value>
   </data>
   <data name="CmbLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;CmbLanguage.Name" xml:space="preserve">
     <value>CmbLanguage</value>
@@ -10029,7 +10233,7 @@
     <value>128, 17</value>
   </data>
   <data name="LblLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="LblLanguage.Text" xml:space="preserve">
     <value>语言/Language/язык</value>
@@ -10053,7 +10257,7 @@
     <value>100, 23</value>
   </data>
   <data name="NUDUid.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;NUDUid.Name" xml:space="preserve">
     <value>NUDUid</value>
@@ -10080,7 +10284,7 @@
     <value>133, 21</value>
   </data>
   <data name="ChkIncludeUID.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>2</value>
   </data>
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>生成的命令包含UID</value>
@@ -10110,7 +10314,7 @@
     <value>30, 17</value>
   </data>
   <data name="LblDefaultUid.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="LblDefaultUid.Text" xml:space="preserve">
     <value>UID</value>
@@ -10428,7 +10632,7 @@
     <value>75, 23</value>
   </data>
   <data name="BtnAddMailItem.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>12</value>
   </data>
   <data name="BtnAddMailItem.Text" xml:space="preserve">
     <value>+ 添加</value>
@@ -10458,7 +10662,7 @@
     <value>75, 23</value>
   </data>
   <data name="BtnDeleteMailItem.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>13</value>
   </data>
   <data name="BtnDeleteMailItem.Text" xml:space="preserve">
     <value>- 删除</value>
@@ -10509,7 +10713,7 @@
     <value>236, 234</value>
   </data>
   <data name="TCMailRight.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>15</value>
   </data>
   <data name="&gt;&gt;TCMailRight.Name" xml:space="preserve">
     <value>TCMailRight</value>
@@ -10596,7 +10800,7 @@
     <value>228, 23</value>
   </data>
   <data name="TxtMailSelectableItemFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;TxtMailSelectableItemFilter.Name" xml:space="preserve">
     <value>TxtMailSelectableItemFilter</value>
@@ -10626,7 +10830,7 @@
     <value>228, 140</value>
   </data>
   <data name="ListMailSelectableItems.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;ListMailSelectableItems.Name" xml:space="preserve">
     <value>ListMailSelectableItems</value>
@@ -10698,7 +10902,7 @@
     <value>222, 30</value>
   </data>
   <data name="PanelMailItemArgs.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;PanelMailItemArgs.Name" xml:space="preserve">
     <value>PanelMailItemArgs</value>
@@ -10719,7 +10923,7 @@
     <value>50, 23</value>
   </data>
   <data name="NUDMailItemLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;NUDMailItemLevel.Name" xml:space="preserve">
     <value>NUDMailItemLevel</value>
@@ -10740,7 +10944,7 @@
     <value>60, 23</value>
   </data>
   <data name="NUDMailItemCount.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;NUDMailItemCount.Name" xml:space="preserve">
     <value>NUDMailItemCount</value>
@@ -10767,7 +10971,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblMailItemCount.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+    <value>0</value>
   </data>
   <data name="LblMailItemCount.Text" xml:space="preserve">
     <value>数量：</value>
@@ -10797,7 +11001,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblMailItemLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+    <value>2</value>
   </data>
   <data name="LblMailItemLevel.Text" xml:space="preserve">
     <value>等级：</value>
@@ -10929,7 +11133,7 @@
     <value>222, 28</value>
   </data>
   <data name="PanelMailListControls.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+    <value>1</value>
   </data>
   <data name="&gt;&gt;PanelMailListControls.Name" xml:space="preserve">
     <value>PanelMailListControls</value>
@@ -10953,7 +11157,7 @@
     <value>75, 23</value>
   </data>
   <data name="BtnClearMail.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+    <value>1</value>
   </data>
   <data name="BtnClearMail.Text" xml:space="preserve">
     <value>× 清空</value>
@@ -10980,7 +11184,7 @@
     <value>75, 23</value>
   </data>
   <data name="BtnRemoveMail.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+    <value>0</value>
   </data>
   <data name="BtnRemoveMail.Text" xml:space="preserve">
     <value>- 删除</value>
@@ -11010,7 +11214,7 @@
     <value>75, 32</value>
   </data>
   <data name="BtnSendMail.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>14</value>
   </data>
   <data name="BtnSendMail.Text" xml:space="preserve">
     <value>发送</value>
@@ -11040,7 +11244,7 @@
     <value>250, 89</value>
   </data>
   <data name="ListMailItems.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>11</value>
   </data>
   <data name="&gt;&gt;ListMailItems.Name" xml:space="preserve">
     <value>ListMailItems</value>
@@ -11094,7 +11298,7 @@
     <value>121, 23</value>
   </data>
   <data name="NUDMailRecipient.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;NUDMailRecipient.Name" xml:space="preserve">
     <value>NUDMailRecipient</value>
@@ -11121,7 +11325,7 @@
     <value>50, 21</value>
   </data>
   <data name="RbMailSendToPlayer.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="RbMailSendToPlayer.Text" xml:space="preserve">
     <value>玩家</value>
@@ -11151,7 +11355,7 @@
     <value>62, 21</value>
   </data>
   <data name="RbMailSendToAll.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="RbMailSendToAll.Text" xml:space="preserve">
     <value>所有人</value>
@@ -11181,7 +11385,7 @@
     <value>56, 17</value>
   </data>
   <data name="LblMailRecipientLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>2</value>
   </data>
   <data name="LblMailRecipientLabel.Text" xml:space="preserve">
     <value>收件人：</value>
@@ -11214,7 +11418,7 @@
     <value>331, 56</value>
   </data>
   <data name="TxtMailContent.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;TxtMailContent.Name" xml:space="preserve">
     <value>TxtMailContent</value>
@@ -11241,7 +11445,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblMailContentLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="LblMailContentLabel.Text" xml:space="preserve">
     <value>内容：</value>
@@ -11265,7 +11469,7 @@
     <value>331, 23</value>
   </data>
   <data name="TxtMailTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;TxtMailTitle.Name" xml:space="preserve">
     <value>TxtMailTitle</value>
@@ -11292,7 +11496,7 @@
     <value>44, 17</value>
   </data>
   <data name="LblMailTitleLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="LblMailTitleLabel.Text" xml:space="preserve">
     <value>标题：</value>
