@@ -30,7 +30,7 @@ namespace GrasscutterTools.Forms
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            this.TxtCommand = new System.Windows.Forms.TextBox();
+            this.CmbCommand = new System.Windows.Forms.ComboBox();
             this.BtnCopy = new System.Windows.Forms.Button();
             this.ChkAutoCopy = new System.Windows.Forms.CheckBox();
             this.GrpCommand = new System.Windows.Forms.GroupBox();
@@ -76,7 +76,6 @@ namespace GrasscutterTools.Forms
             this.DTPBanEndTime = new System.Windows.Forms.DateTimePicker();
             this.BtnUnban = new System.Windows.Forms.Button();
             this.BtnBan = new System.Windows.Forms.Button();
-            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.NUDBanUID = new System.Windows.Forms.NumericUpDown();
             this.LblBanUID = new System.Windows.Forms.Label();
             this.GrpAccount = new System.Windows.Forms.GroupBox();
@@ -325,6 +324,7 @@ namespace GrasscutterTools.Forms
             this.TxtMailSender = new System.Windows.Forms.TextBox();
             this.LblMailSenderLabel = new System.Windows.Forms.Label();
             this.MenuSpawnEntityFilter = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.TxtBanReason = new GrasscutterTools.Controls.TextBoxXP();
             this.GrpCommand.SuspendLayout();
             this.TPRemoteCall.SuspendLayout();
             this.GrpServerStatus.SuspendLayout();
@@ -417,11 +417,13 @@ namespace GrasscutterTools.Forms
             ((System.ComponentModel.ISupportInitialize)(this.NUDMailRecipient)).BeginInit();
             this.SuspendLayout();
             // 
-            // TxtCommand
+            // CmbCommand
             // 
-            resources.ApplyResources(this.TxtCommand, "TxtCommand");
-            this.TxtCommand.Name = "TxtCommand";
-            this.TxtCommand.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtCommand_KeyDown);
+            resources.ApplyResources(this.CmbCommand, "CmbCommand");
+            this.CmbCommand.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.CmbCommand.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.CmbCommand.Name = "CmbCommand";
+            this.CmbCommand.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtCommand_KeyDown);
             // 
             // BtnCopy
             // 
@@ -442,7 +444,7 @@ namespace GrasscutterTools.Forms
             this.GrpCommand.Controls.Add(this.BtnInvokeOpenCommand);
             this.GrpCommand.Controls.Add(this.BtnCopy);
             this.GrpCommand.Controls.Add(this.ChkAutoCopy);
-            this.GrpCommand.Controls.Add(this.TxtCommand);
+            this.GrpCommand.Controls.Add(this.CmbCommand);
             this.GrpCommand.Name = "GrpCommand";
             this.GrpCommand.TabStop = false;
             // 
@@ -773,14 +775,6 @@ namespace GrasscutterTools.Forms
             this.BtnBan.Name = "BtnBan";
             this.BtnBan.UseVisualStyleBackColor = true;
             this.BtnBan.Click += new System.EventHandler(this.BtnBan_Click);
-            // 
-            // TxtBanReason
-            // 
-            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
-            this.TxtBanReason.Maximum = 0F;
-            this.TxtBanReason.Minimum = 0F;
-            this.TxtBanReason.Name = "TxtBanReason";
             // 
             // NUDBanUID
             // 
@@ -2837,8 +2831,8 @@ namespace GrasscutterTools.Forms
             // 
             // TPMailSelectableItemList
             // 
-            this.TPMailSelectableItemList.Controls.Add(this.TxtMailSelectableItemFilter);
             this.TPMailSelectableItemList.Controls.Add(this.ListMailSelectableItems);
+            this.TPMailSelectableItemList.Controls.Add(this.TxtMailSelectableItemFilter);
             this.TPMailSelectableItemList.Controls.Add(this.PanelMailItemArgs);
             resources.ApplyResources(this.TPMailSelectableItemList, "TPMailSelectableItemList");
             this.TPMailSelectableItemList.Name = "TPMailSelectableItemList";
@@ -3038,6 +3032,14 @@ namespace GrasscutterTools.Forms
             this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
             // 
+            // TxtBanReason
+            // 
+            this.TxtBanReason.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.TxtBanReason, "TxtBanReason");
+            this.TxtBanReason.Maximum = 0F;
+            this.TxtBanReason.Minimum = 0F;
+            this.TxtBanReason.Name = "TxtBanReason";
+            // 
             // FormMain
             // 
             resources.ApplyResources(this, "$this");
@@ -3178,7 +3180,7 @@ namespace GrasscutterTools.Forms
 
         #endregion
 
-        private System.Windows.Forms.TextBox TxtCommand;
+        private System.Windows.Forms.ComboBox CmbCommand;
         private System.Windows.Forms.Button BtnCopy;
         private System.Windows.Forms.CheckBox ChkAutoCopy;
         private System.Windows.Forms.GroupBox GrpCommand;
