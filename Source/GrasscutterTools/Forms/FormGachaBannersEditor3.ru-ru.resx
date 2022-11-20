@@ -118,8 +118,41 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnAddOrUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>180, 328</value>
+  </data>
+  <data name="BtnAddOrUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 23</value>
+  </data>
+  <data name="BtnAddOrUpdate.Text" xml:space="preserve">
+    <value>√ Добавить или обновить</value>
+  </data>
+  <data name="LblTitlePath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblTitlePath.Text" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="LblCostItemAmount10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 175</value>
+  </data>
+  <data name="LblCostItemAmount10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 17</value>
+  </data>
+  <data name="LblCostItemAmount10.Text" xml:space="preserve">
+    <value>Ten Amount</value>
+  </data>
+  <data name="LblCostItemAmount1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 175</value>
+  </data>
+  <data name="LblCostItemAmount1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="LblCostItemAmount1.Text" xml:space="preserve">
+    <value>Cost Amount</value>
+  </data>
   <data name="ChkAutoStripRateUpFromFallback.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 287</value>
+    <value>112, 307</value>
   </data>
   <data name="ChkAutoStripRateUpFromFallback.Size" type="System.Drawing.Size, System.Drawing">
     <value>288, 21</value>
@@ -128,7 +161,7 @@
     <value>Авто возврат шанса выпадения с баннера</value>
   </data>
   <data name="LblOptions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 261</value>
+    <value>56, 290</value>
   </data>
   <data name="LblOptions.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 17</value>
@@ -158,7 +191,7 @@
     <value>Тип Гачи</value>
   </data>
   <data name="LblEventChance4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>210, 233</value>
+    <value>210, 262</value>
   </data>
   <data name="LblEventChance4.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 17</value>
@@ -167,7 +200,7 @@
     <value>Шанс соб. 4*</value>
   </data>
   <data name="LblEventChance5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 233</value>
+    <value>20, 262</value>
   </data>
   <data name="LblEventChance5.Size" type="System.Drawing.Size, System.Drawing">
     <value>86, 17</value>
@@ -176,7 +209,7 @@
     <value>Шанс соб. 5*</value>
   </data>
   <data name="LblSortId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 204</value>
+    <value>66, 233</value>
   </data>
   <data name="LblSortId.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 17</value>
@@ -191,7 +224,7 @@
     <value>Увеличение с 400</value>
   </data>
   <data name="LblEndTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>234, 176</value>
+    <value>249, 204</value>
   </data>
   <data name="LblEndTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>47, 17</value>
@@ -209,7 +242,7 @@
     <value>ID расписания</value>
   </data>
   <data name="LblBeginTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>53, 176</value>
+    <value>53, 204</value>
   </data>
   <data name="LblBeginTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 17</value>
@@ -283,6 +316,9 @@
   <data name="GrpBannerValues.Text" xml:space="preserve">
     <value>Баннер</value>
   </data>
+  <data name="GrpFallbackPool.Text" xml:space="preserve">
+    <value>Запасной Пул</value>
+  </data>
   <data name="ListFallbackItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
@@ -333,8 +369,8 @@
         bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXMws=
 </value>
   </data>
-  <data name="GrpFallbackPool.Text" xml:space="preserve">
-    <value>Запасной Пул</value>
+  <data name="GrpUpPool.Text" xml:space="preserve">
+    <value>Верхний Пул</value>
   </data>
   <data name="ListUpItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -376,23 +412,8 @@
         bWVudAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc0Cw==
 </value>
   </data>
-  <data name="GrpUpPool.Text" xml:space="preserve">
-    <value>Верхний Пул</value>
-  </data>
-  <data name="BtnGen.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 23</value>
-  </data>
-  <data name="BtnGen.Text" xml:space="preserve">
-    <value>Сген. Json</value>
-  </data>
-  <data name="BtnParse.Location" type="System.Drawing.Point, System.Drawing">
-    <value>409, 201</value>
-  </data>
-  <data name="BtnParse.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 23</value>
-  </data>
-  <data name="BtnParse.Text" xml:space="preserve">
-    <value>Загр. Json</value>
+  <data name="GrpWeights.Text" xml:space="preserve">
+    <value>Gacha Веса</value>
   </data>
   <data name="LnkWeightHelp.Location" type="System.Drawing.Point, System.Drawing">
     <value>375, 0</value>
@@ -421,8 +442,8 @@
   <data name="LblWeight5.Text" xml:space="preserve">
     <value>Веса 5*</value>
   </data>
-  <data name="GrpWeights.Text" xml:space="preserve">
-    <value>Gacha Веса</value>
+  <data name="GrpBalance.Text" xml:space="preserve">
+    <value>Баланс персонажа и оружия (работают только смешанные пулы)</value>
   </data>
   <data name="LblPoolWeight4.Location" type="System.Drawing.Point, System.Drawing">
     <value>28, 61</value>
@@ -442,11 +463,26 @@
   <data name="LblPoolWeight5.Text" xml:space="preserve">
     <value>Пул Веса 5*</value>
   </data>
-  <data name="GrpBalance.Text" xml:space="preserve">
-    <value>Баланс персонажа и оружия (работают только смешанные пулы)</value>
+  <data name="GrpBanners.Text" xml:space="preserve">
+    <value>Banners</value>
   </data>
-  <data name="GrpWeightChart.Text" xml:space="preserve">
-    <value>Таблица веса</value>
+  <data name="BtnDelete.Text" xml:space="preserve">
+    <value>- Удалить</value>
+  </data>
+  <data name="BtnClear.Text" xml:space="preserve">
+    <value>× Очистить</value>
+  </data>
+  <data name="LblBannersJson.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 17</value>
+  </data>
+  <data name="LblBannersJson.Text" xml:space="preserve">
+    <value>Banners.json Путь:</value>
+  </data>
+  <data name="BtnLoad.Text" xml:space="preserve">
+    <value>Нагрузка</value>
+  </data>
+  <data name="BtnSave.Text" xml:space="preserve">
+    <value>Сохранять</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Редактор баннеров Gacha</value>

@@ -30,11 +30,12 @@ namespace GrasscutterTools.Forms
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGachaBannersEditor3));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.GrpBannerValues = new System.Windows.Forms.GroupBox();
+            this.BtnAddOrUpdate = new System.Windows.Forms.Button();
             this.CmbTitlePath = new System.Windows.Forms.ComboBox();
             this.LblTitlePath = new System.Windows.Forms.Label();
             this.NUDCostItemAmount10 = new System.Windows.Forms.NumericUpDown();
@@ -94,13 +95,12 @@ namespace GrasscutterTools.Forms
             this.GrpBanners = new System.Windows.Forms.GroupBox();
             this.ListBanners = new System.Windows.Forms.ListBox();
             this.FLPBannersControl = new System.Windows.Forms.FlowLayoutPanel();
-            this.BtnAddOrUpdate = new System.Windows.Forms.Button();
             this.BtnDelete = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.BtnClear = new System.Windows.Forms.Button();
+            this.LblBannersJson = new System.Windows.Forms.Label();
             this.TxtBannersJsonPath = new System.Windows.Forms.TextBox();
             this.BtnLoad = new System.Windows.Forms.Button();
             this.BtnSave = new System.Windows.Forms.Button();
-            this.BtnClear = new System.Windows.Forms.Button();
             this.GrpBannerValues.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDCostItemAmount10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDCostItemAmount1)).BeginInit();
@@ -161,11 +161,18 @@ namespace GrasscutterTools.Forms
             this.GrpBannerValues.Name = "GrpBannerValues";
             this.GrpBannerValues.TabStop = false;
             // 
+            // BtnAddOrUpdate
+            // 
+            resources.ApplyResources(this.BtnAddOrUpdate, "BtnAddOrUpdate");
+            this.BtnAddOrUpdate.Name = "BtnAddOrUpdate";
+            this.BtnAddOrUpdate.UseVisualStyleBackColor = true;
+            this.BtnAddOrUpdate.Click += new System.EventHandler(this.BtnAddOrUpdate_Click);
+            // 
             // CmbTitlePath
             // 
+            resources.ApplyResources(this.CmbTitlePath, "CmbTitlePath");
             this.CmbTitlePath.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbTitlePath.FormattingEnabled = true;
-            resources.ApplyResources(this.CmbTitlePath, "CmbTitlePath");
             this.CmbTitlePath.Name = "CmbTitlePath";
             // 
             // LblTitlePath
@@ -253,9 +260,9 @@ namespace GrasscutterTools.Forms
             // 
             // CmbPrefab
             // 
+            resources.ApplyResources(this.CmbPrefab, "CmbPrefab");
             this.CmbPrefab.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbPrefab.FormattingEnabled = true;
-            resources.ApplyResources(this.CmbPrefab, "CmbPrefab");
             this.CmbPrefab.Name = "CmbPrefab";
             // 
             // LblEventChance4Tip
@@ -380,13 +387,13 @@ namespace GrasscutterTools.Forms
             // 
             // CmbBannerType
             // 
+            resources.ApplyResources(this.CmbBannerType, "CmbBannerType");
             this.CmbBannerType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbBannerType.FormattingEnabled = true;
             this.CmbBannerType.Items.AddRange(new object[] {
             resources.GetString("CmbBannerType.Items"),
             resources.GetString("CmbBannerType.Items1"),
             resources.GetString("CmbBannerType.Items2")});
-            resources.ApplyResources(this.CmbBannerType, "CmbBannerType");
             this.CmbBannerType.Name = "CmbBannerType";
             // 
             // LblSortIdTip
@@ -433,11 +440,11 @@ namespace GrasscutterTools.Forms
             // 
             // ListFallbackItems
             // 
+            resources.ApplyResources(this.ListFallbackItems, "ListFallbackItems");
             this.ListFallbackItems.CheckBoxes = true;
             this.ListFallbackItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColFallbackId,
             this.ColFallbackName});
-            resources.ApplyResources(this.ListFallbackItems, "ListFallbackItems");
             this.ListFallbackItems.FullRowSelect = true;
             this.ListFallbackItems.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListFallbackItems.Groups"))),
@@ -467,11 +474,11 @@ namespace GrasscutterTools.Forms
             // 
             // ListUpItems
             // 
+            resources.ApplyResources(this.ListUpItems, "ListUpItems");
             this.ListUpItems.CheckBoxes = true;
             this.ListUpItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColUpId,
             this.ColUpName});
-            resources.ApplyResources(this.ListUpItems, "ListUpItems");
             this.ListUpItems.FullRowSelect = true;
             this.ListUpItems.Groups.AddRange(new System.Windows.Forms.ListViewGroup[] {
             ((System.Windows.Forms.ListViewGroup)(resources.GetObject("ListUpItems.Groups"))),
@@ -561,36 +568,36 @@ namespace GrasscutterTools.Forms
             // 
             // ChartWeights
             // 
-            chartArea1.AxisX.Minimum = 0D;
-            chartArea1.AxisY.Maximum = 100D;
-            chartArea1.AxisY.Minimum = 0D;
-            chartArea1.AxisY.Title = "%";
-            chartArea1.Name = "ChartArea1";
-            this.ChartWeights.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.ChartWeights.Legends.Add(legend1);
             resources.ApplyResources(this.ChartWeights, "ChartWeights");
+            chartArea9.AxisX.Minimum = 0D;
+            chartArea9.AxisY.Maximum = 100D;
+            chartArea9.AxisY.Minimum = 0D;
+            chartArea9.AxisY.Title = "%";
+            chartArea9.Name = "ChartArea1";
+            this.ChartWeights.ChartAreas.Add(chartArea9);
+            legend9.Name = "Legend1";
+            this.ChartWeights.Legends.Add(legend9);
             this.ChartWeights.Name = "ChartWeights";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series1.Color = System.Drawing.Color.OrangeRed;
-            series1.Label = "(#VALX, #VAL)";
-            series1.Legend = "Legend1";
-            series1.LegendText = "5*";
-            series1.Name = "SeriesWeight5";
-            series1.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32;
-            series1.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            series2.ChartArea = "ChartArea1";
-            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series2.Color = System.Drawing.Color.Purple;
-            series2.Label = "(#VALX, #VAL)";
-            series2.Legend = "Legend1";
-            series2.LegendText = "4*";
-            series2.Name = "SeriesWeight4";
-            series2.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32;
-            series2.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            this.ChartWeights.Series.Add(series1);
-            this.ChartWeights.Series.Add(series2);
+            series17.ChartArea = "ChartArea1";
+            series17.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series17.Color = System.Drawing.Color.OrangeRed;
+            series17.Label = "(#VALX, #VAL)";
+            series17.Legend = "Legend1";
+            series17.LegendText = "5*";
+            series17.Name = "SeriesWeight5";
+            series17.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32;
+            series17.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            series18.ChartArea = "ChartArea1";
+            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series18.Color = System.Drawing.Color.Purple;
+            series18.Label = "(#VALX, #VAL)";
+            series18.Legend = "Legend1";
+            series18.LegendText = "4*";
+            series18.Name = "SeriesWeight4";
+            series18.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32;
+            series18.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            this.ChartWeights.Series.Add(series17);
+            this.ChartWeights.Series.Add(series18);
             // 
             // GrpBanners
             // 
@@ -609,17 +616,10 @@ namespace GrasscutterTools.Forms
             // 
             // FLPBannersControl
             // 
+            resources.ApplyResources(this.FLPBannersControl, "FLPBannersControl");
             this.FLPBannersControl.Controls.Add(this.BtnDelete);
             this.FLPBannersControl.Controls.Add(this.BtnClear);
-            resources.ApplyResources(this.FLPBannersControl, "FLPBannersControl");
             this.FLPBannersControl.Name = "FLPBannersControl";
-            // 
-            // BtnAddOrUpdate
-            // 
-            resources.ApplyResources(this.BtnAddOrUpdate, "BtnAddOrUpdate");
-            this.BtnAddOrUpdate.Name = "BtnAddOrUpdate";
-            this.BtnAddOrUpdate.UseVisualStyleBackColor = true;
-            this.BtnAddOrUpdate.Click += new System.EventHandler(this.BtnAddOrUpdate_Click);
             // 
             // BtnDelete
             // 
@@ -628,10 +628,17 @@ namespace GrasscutterTools.Forms
             this.BtnDelete.UseVisualStyleBackColor = true;
             this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
             // 
-            // label1
+            // BtnClear
             // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
+            resources.ApplyResources(this.BtnClear, "BtnClear");
+            this.BtnClear.Name = "BtnClear";
+            this.BtnClear.UseVisualStyleBackColor = true;
+            this.BtnClear.Click += new System.EventHandler(this.BtnClear_Click);
+            // 
+            // LblBannersJson
+            // 
+            resources.ApplyResources(this.LblBannersJson, "LblBannersJson");
+            this.LblBannersJson.Name = "LblBannersJson";
             // 
             // TxtBannersJsonPath
             // 
@@ -652,13 +659,6 @@ namespace GrasscutterTools.Forms
             this.BtnSave.UseVisualStyleBackColor = true;
             this.BtnSave.Click += new System.EventHandler(this.BtnSave_Click);
             // 
-            // BtnClear
-            // 
-            resources.ApplyResources(this.BtnClear, "BtnClear");
-            this.BtnClear.Name = "BtnClear";
-            this.BtnClear.UseVisualStyleBackColor = true;
-            this.BtnClear.Click += new System.EventHandler(this.BtnClear_Click);
-            // 
             // FormGachaBannersEditor3
             // 
             resources.ApplyResources(this, "$this");
@@ -667,7 +667,7 @@ namespace GrasscutterTools.Forms
             this.Controls.Add(this.BtnSave);
             this.Controls.Add(this.BtnLoad);
             this.Controls.Add(this.TxtBannersJsonPath);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.LblBannersJson);
             this.Controls.Add(this.GrpBanners);
             this.Controls.Add(this.GrpBalance);
             this.Controls.Add(this.GrpWeights);
@@ -752,7 +752,7 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Label LblOptions;
         private System.Windows.Forms.DataVisualization.Charting.Chart ChartWeights;
         private System.Windows.Forms.GroupBox GrpBanners;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label LblBannersJson;
         private System.Windows.Forms.TextBox TxtBannersJsonPath;
         private System.Windows.Forms.Button BtnLoad;
         private System.Windows.Forms.Button BtnSave;
