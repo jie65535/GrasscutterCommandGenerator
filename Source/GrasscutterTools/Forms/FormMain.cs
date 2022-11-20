@@ -426,6 +426,14 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
+        /// 自定义命令文本框回车时触发
+        /// </summary>
+        private void TxtCustomName_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) BtnSaveCustomCommand_Click(BtnSaveCustomCommand, e);
+        }
+
+        /// <summary>
         /// 点击保存自定义命令列表时触发
         /// </summary>
         /// <param name="sender"></param>
@@ -1938,11 +1946,19 @@ namespace GrasscutterTools.Forms
         /// <param name="command">命令</param>
         private void SetCommand(string command)
         {
+            var oldCommand = TxtCommand.Text;
             TxtCommand.Text = command;
             if (ChkAutoCopy.Checked)
                 CopyCommand();
-            if (ModifierKeys == Keys.Control)
+            if (ModifierKeys == Keys.Shift)
+            {
                 OnOpenCommandInvoke();
+                TxtCommand.Text = oldCommand;
+            }
+            else if (ModifierKeys == Keys.Control)
+            {
+                OnOpenCommandInvoke();
+            }
         }
 
         /// <summary>
@@ -1977,6 +1993,14 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
+        /// 在命令行内按下回车时直接执行
+        /// </summary>
+        private void TxtCommand_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) OnOpenCommandInvoke();
+        }
+
+        /// <summary>
         /// 开放命令执行时触发
         /// </summary>
         private void OnOpenCommandInvoke()
@@ -1990,15 +2014,16 @@ namespace GrasscutterTools.Forms
         private async void BtnInvokeOpenCommand_Click(object sender, EventArgs e)
         {
             if (!BtnInvokeOpenCommand.Enabled) return;
-            if (TxtCommand.Text.Length < 2)
+            var cmd = TxtCommand.Text;
+            if (cmd.Length < 2)
             {
                 ShowTip(Resources.CommandContentCannotBeEmpty, TxtCommand);
                 return;
             }
-            if (TxtCommand.Text.IndexOf('|') == -1)
-                await RunCommands(FormatCommand(TxtCommand.Text));
+            if (cmd.IndexOf('|') == -1)
+                await RunCommands(FormatCommand(cmd));
             else
-                await RunCommands(TxtCommand.Text.Split('|').Select(it => FormatCommand(it)).ToArray());
+                await RunCommands(cmd.Split('|').Select(it => FormatCommand(it)).ToArray());
         }
 
         /// <summary>
@@ -2267,7 +2292,15 @@ namespace GrasscutterTools.Forms
             else
                 LblPlayerCount.Text = status.PlayerCount.ToString();
         }
-        
+
+        /// <summary>
+        /// 输入服务器地址按下回车时触发
+        /// </summary>
+        private void TxtHost_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) BtnQueryServerStatus_Click(BtnQueryServerStatus, e);
+        }
+
         /// <summary>
         /// 点击查询服务器状态按钮时触发
         /// </summary>
@@ -2314,6 +2347,14 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
+        /// 玩家ID输入框按下回车时触发
+        /// </summary>
+        private void NUDRemotePlayerId_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) BtnSendVerificationCode_Click(BtnSendVerificationCode, e);
+        }
+
+        /// <summary>
         /// 点击发送校验码按钮时触发
         /// </summary>
         private async void BtnSendVerificationCode_Click(object sender, EventArgs e)
@@ -2348,6 +2389,14 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
+        /// 验证码输入框按下回车时触发
+        /// </summary>
+        private void NUDVerificationCode_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) BtnConnectOpenCommand_Click(BtnConnectOpenCommand, e);
+        }
+
+        /// <summary>
         /// 点击连接到开放命令按钮时触发
         /// </summary>
         /// <param name="sender"></param>
@@ -2373,6 +2422,14 @@ namespace GrasscutterTools.Forms
                 btn.Cursor = Cursors.Default;
                 btn.Enabled = true;
             }
+        }
+
+        /// <summary>
+        /// Token 输入框按下回车时触发
+        /// </summary>
+        private void TxtToken_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) BtnConsoleConnect_Click(BtnConsoleConnect, e);
         }
 
         /// <summary>

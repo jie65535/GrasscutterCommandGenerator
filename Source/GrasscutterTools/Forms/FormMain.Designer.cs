@@ -421,6 +421,7 @@ namespace GrasscutterTools.Forms
             // 
             resources.ApplyResources(this.TxtCommand, "TxtCommand");
             this.TxtCommand.Name = "TxtCommand";
+            this.TxtCommand.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtCommand_KeyDown);
             // 
             // BtnCopy
             // 
@@ -603,6 +604,7 @@ namespace GrasscutterTools.Forms
             0,
             0,
             0});
+            this.NUDRemotePlayerId.KeyDown += new System.Windows.Forms.KeyEventHandler(this.NUDRemotePlayerId_KeyDown);
             // 
             // BtnConnectOpenCommand
             // 
@@ -642,6 +644,7 @@ namespace GrasscutterTools.Forms
             0,
             0,
             0});
+            this.NUDVerificationCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.NUDVerificationCode_KeyDown);
             // 
             // LblRemotePlayerId
             // 
@@ -669,6 +672,7 @@ namespace GrasscutterTools.Forms
             // 
             resources.ApplyResources(this.TxtToken, "TxtToken");
             this.TxtToken.Name = "TxtToken";
+            this.TxtToken.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtToken_KeyDown);
             // 
             // LblToken
             // 
@@ -684,6 +688,7 @@ namespace GrasscutterTools.Forms
             // 
             resources.ApplyResources(this.TxtHost, "TxtHost");
             this.TxtHost.Name = "TxtHost";
+            this.TxtHost.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtHost_KeyDown);
             // 
             // BtnQueryServerStatus
             // 
@@ -2626,6 +2631,7 @@ namespace GrasscutterTools.Forms
             // 
             resources.ApplyResources(this.TxtCustomName, "TxtCustomName");
             this.TxtCustomName.Name = "TxtCustomName";
+            this.TxtCustomName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtCustomName_KeyDown);
             // 
             // TPHome
             // 
