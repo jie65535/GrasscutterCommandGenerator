@@ -279,4 +279,7 @@
   <data name="ShopJsonOverrideWarning" xml:space="preserve">
     <value>僅允許以 Shop.json 格式保存！確定要覆蓋當前指定文件嗎？</value>
   </data>
+  <data name="GachaBennerTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\GachaBennerTitle.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
 </root>

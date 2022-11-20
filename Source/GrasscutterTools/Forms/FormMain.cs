@@ -264,86 +264,43 @@ namespace GrasscutterTools.Forms
             form.TopMost = false;
         }
 
-        /// <summary>
-        /// 卡池编辑器窗口实例
-        /// </summary>
-        private Form GachaBannerEditor;
+        private readonly Dictionary<string, Form> MyForms = new Dictionary<string, Form>();
+
+        private void ShowForm<T>(string tag) where T : Form, new()
+        {
+            if (!MyForms.TryGetValue(tag, out var form) || form.IsDisposed)
+                form = new T();
+            MyForms[tag] = form;
+            if (form.IsHandleCreated)
+                ToTop(form);
+            else
+                form.Show();
+        }
+
 
         /// <summary>
         /// 点击打开卡池编辑器时触发
         /// </summary>
         private void BtnOpenGachaBannerEditor_Click(object sender, EventArgs e)
-        {
-            if (GachaBannerEditor == null || GachaBannerEditor.IsDisposed)
-            {
-                GachaBannerEditor = new FormGachaBannerEditor2();
-                GachaBannerEditor.Show();
-            }
-            else
-            {
-                ToTop(GachaBannerEditor);
-            }
-        }
+            => ShowForm<FormGachaBannersEditor3>("BannersEditor");
 
         /// <summary>
-        /// 文本浏览器窗口实例
+        /// 点击打开文本浏览器时触发
         /// </summary>
-        private FormTextMapBrowser TextMapBrowser;
-
         private void BtnOpenTextMap_Click(object sender, EventArgs e)
-        {
-            if (TextMapBrowser == null || TextMapBrowser.IsDisposed)
-            {
-                TextMapBrowser = new FormTextMapBrowser();
-                TextMapBrowser.Show();
-            }
-            else
-            {
-                ToTop(TextMapBrowser);
-            }
-        }
-
-        /// <summary>
-        /// 掉落物编辑器窗口实例
-        /// </summary>
-        private FormDropEditor DropEditor;
+            => ShowForm<FormTextMapBrowser>("TextMapBrowser");
 
         /// <summary>
         /// 点击打开掉落物编辑器时触发
         /// </summary>
         private void BtnOpenDropEditor_Click(object sender, EventArgs e)
-        {
-            if (DropEditor == null || DropEditor.IsDisposed)
-            {
-                DropEditor = new FormDropEditor();
-                DropEditor.Show();
-            }
-            else
-            {
-                ToTop(DropEditor);
-            }
-        }
-
-        /// <summary>
-        /// 商店编辑器窗口实例
-        /// </summary>
-        private FormShopEditor ShopEditor;
+            => ShowForm<FormDropEditor>("DropEditor");
 
         /// <summary>
         /// 点击打开商店编辑器时触发
         /// </summary>
         private void BtnOpenShopEditor_Click(object sender, EventArgs e)
-        {
-            if (ShopEditor == null || ShopEditor.IsDisposed)
-            {
-                ShopEditor = new FormShopEditor();
-                ShopEditor.Show();
-            }
-            else
-            {
-                ToTop(ShopEditor);
-            }
-        }
+            => ShowForm<FormShopEditor>("ShopEditor");
 
         /// <summary>
         /// 语言选中项改变时触发

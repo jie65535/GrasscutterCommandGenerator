@@ -294,4 +294,10 @@
   <data name="ShopJsonOverrideWarning" xml:space="preserve">
     <value>仅允许以 Shop.json 格式保存！确定要覆盖当前指定文件吗？</value>
   </data>
+  <data name="GachaBannerTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-cn\GachaBannerTitle.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Banners" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banners.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

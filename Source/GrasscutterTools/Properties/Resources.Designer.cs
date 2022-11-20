@@ -402,6 +402,16 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        internal static byte[] Banners {
+            get {
+                object obj = ResourceManager.GetObject("Banners", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 浏览器打开失败，你可以通过以下链接手动访问： 的本地化字符串。
         /// </summary>
         internal static string BrowserOpenFailedTip {
@@ -551,6 +561,59 @@ namespace GrasscutterTools.Properties {
         internal static string Error {
             get {
                 return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 007:初行者推荐祈愿
+        ///008:奔行世间
+        ///009:杯装之诗
+        ///010:黎明巡礼
+        ///011:南风之眷
+        ///012:靖妖傩舞
+        ///013:神铸赋形
+        ///015:闪焰的驻足
+        ///016:初行者推荐祈愿
+        ///017:奔行世间
+        ///018:闪焰的驻足
+        ///019:杯装之诗
+        ///020:神铸赋形
+        ///021:神铸赋形
+        ///022:奔行世间
+        ///023:暂别冬都
+        ///024:陵薮市朝
+        ///027:深秘之息
+        ///028:浮生孰来
+        ///031:烟火之邀
+        ///032:鱼龙灯昼
+        ///033:赤团开时
+        ///036:杯装之诗
+        ///037:暂别冬都
+        ///040:陵薮市朝
+        ///041:浪涌之瞬
+        ///045:叶落风随
+        ///048:白鹭之庭
+        ///049:焰色天河
+        ///052:影寂天下人
+        ///053:浮岳虹珠
+        ///061:鬼门斗宴
+        ///065:出尘入世
+        ///071:华紫樱绯
+        ///076:苍流踏花
+        ///081:素霓伣天
+        ///091:巡御蘙荟-提纳里
+        ///092:陵薮市朝-钟离
+        ///093:神铸赋形-猎人贯虹
+        ///097:雳裁冥昭-赛诺
+        ///098:杯装之诗-温迪
+        ///099:神铸赋形-赤沙终末
+        ///100:翩舞歈莲-妮露
+        ///101:深秘之息-阿贝多
+        ///101:神铸赋形-圣显绿箭 的本地化字符串。
+        /// </summary>
+        internal static string GachaBannerTitle {
+            get {
+                return ResourceManager.GetString("GachaBannerTitle", resourceCulture);
             }
         }
         

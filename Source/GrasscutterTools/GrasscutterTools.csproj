@@ -96,6 +96,12 @@
     <Compile Include="Forms\FormDropEditor.Designer.cs">
       <DependentUpon>FormDropEditor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormGachaBannersEditor3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormGachaBannersEditor3.Designer.cs">
+      <DependentUpon>FormGachaBannersEditor3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FormGachaBannerEditor2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,7 @@
     <Compile Include="Game\CommandVersion.cs" />
     <Compile Include="Game\Drop\DropData.cs" />
     <Compile Include="Game\Drop\DropInfo.cs" />
+    <Compile Include="Game\Gacha\GachaBanner3.cs" />
     <Compile Include="Game\Gacha\GachaBanner2.cs" />
     <Compile Include="Game\GameCommand.cs" />
     <Compile Include="Game\Gacha\BannerType.cs" />
@@ -175,6 +182,20 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormDropEditor.zh-TW.resx">
       <DependentUpon>FormDropEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGachaBannersEditor3.en-us.resx">
+      <DependentUpon>FormGachaBannersEditor3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGachaBannersEditor3.resx">
+      <DependentUpon>FormGachaBannersEditor3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGachaBannersEditor3.ru-ru.resx">
+      <DependentUpon>FormGachaBannersEditor3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGachaBannersEditor3.zh-TW.resx">
+      <DependentUpon>FormGachaBannersEditor3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormGachaBannerEditor2.en-us.resx">
       <DependentUpon>FormGachaBannerEditor2.cs</DependentUpon>
@@ -284,6 +305,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\Banners.json" />
     <None Include="Resources\en-us\AvatarStats.json" />
     <None Include="Resources\ru-ru\AvatarStats.json" />
     <None Include="Resources\zh-cn\AvatarStats.json" />
@@ -299,6 +321,7 @@
     <Content Include="Resources\en-us\ArtifactSubAttribution.txt" />
     <Content Include="Resources\en-us\Avatar.txt" />
     <Content Include="Resources\en-us\CustomCommands.txt" />
+    <Content Include="Resources\en-us\GachaBennerTitle.txt" />
     <Content Include="Resources\en-us\GachaBennerPrefab.txt" />
     <Content Include="Resources\en-us\Gadget.txt" />
     <Content Include="Resources\en-us\Item.txt" />
@@ -314,6 +337,7 @@
     <Content Include="Resources\ru-ru\ArtifactSubAttribution.txt" />
     <Content Include="Resources\ru-ru\Avatar.txt" />
     <Content Include="Resources\ru-ru\CustomCommands.txt" />
+    <Content Include="Resources\ru-ru\GachaBennerTitle.txt" />
     <Content Include="Resources\ru-ru\GachaBennerPrefab.txt" />
     <Content Include="Resources\ru-ru\Item.txt" />
     <Content Include="Resources\ru-ru\Monsters.txt" />
@@ -333,6 +357,7 @@
     <Content Include="Resources\zh-cn\Avatar.txt" />
     <Content Include="Resources\zh-cn\CustomCommands.txt" />
     <Content Include="Resources\AvatarColor.txt" />
+    <Content Include="Resources\zh-cn\GachaBannerTitle.txt" />
     <Content Include="Resources\zh-cn\GachaBennerPrefab.txt" />
     <Content Include="Resources\zh-cn\Gadget.txt" />
     <Content Include="Resources\zh-cn\Item.txt" />
@@ -347,6 +372,7 @@
     <Content Include="Resources\zh-tw\ArtifactSubAttribution.txt" />
     <Content Include="Resources\zh-tw\Avatar.txt" />
     <Content Include="Resources\zh-tw\CustomCommands.txt" />
+    <Content Include="Resources\zh-tw\GachaBennerTitle.txt" />
     <Content Include="Resources\zh-tw\GachaBennerPrefab.txt" />
     <Content Include="Resources\zh-tw\Item.txt" />
     <Content Include="Resources\zh-tw\Monsters.txt" />
