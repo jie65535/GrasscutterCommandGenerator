@@ -30,7 +30,7 @@ namespace GrasscutterTools.Forms
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            this.TxtCommand = new System.Windows.Forms.TextBox();
+            this.CmbCommand = new System.Windows.Forms.ComboBox();
             this.BtnCopy = new System.Windows.Forms.Button();
             this.ChkAutoCopy = new System.Windows.Forms.CheckBox();
             this.GrpCommand = new System.Windows.Forms.GroupBox();
@@ -224,7 +224,7 @@ namespace GrasscutterTools.Forms
             this.TCSpawnItems = new System.Windows.Forms.TabControl();
             this.TPSpawnItems = new System.Windows.Forms.TabPage();
             this.ListEntity = new System.Windows.Forms.ListBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.PanelEntityFilterBar = new System.Windows.Forms.Panel();
             this.TxtEntityFilter = new System.Windows.Forms.TextBox();
             this.BtnFilterEntity = new System.Windows.Forms.Button();
             this.TPSpawnRecords = new System.Windows.Forms.TabPage();
@@ -390,7 +390,7 @@ namespace GrasscutterTools.Forms
             ((System.ComponentModel.ISupportInitialize)(this.NUDAiwiRadius)).BeginInit();
             this.TCSpawnItems.SuspendLayout();
             this.TPSpawnItems.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.PanelEntityFilterBar.SuspendLayout();
             this.TPSpawnRecords.SuspendLayout();
             this.FLPSpawnRecordControls.SuspendLayout();
             this.TPQuest.SuspendLayout();
@@ -417,10 +417,13 @@ namespace GrasscutterTools.Forms
             ((System.ComponentModel.ISupportInitialize)(this.NUDMailRecipient)).BeginInit();
             this.SuspendLayout();
             // 
-            // TxtCommand
+            // CmbCommand
             // 
-            resources.ApplyResources(this.TxtCommand, "TxtCommand");
-            this.TxtCommand.Name = "TxtCommand";
+            resources.ApplyResources(this.CmbCommand, "CmbCommand");
+            this.CmbCommand.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.CmbCommand.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.CmbCommand.Name = "CmbCommand";
+            this.CmbCommand.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtCommand_KeyDown);
             // 
             // BtnCopy
             // 
@@ -441,7 +444,7 @@ namespace GrasscutterTools.Forms
             this.GrpCommand.Controls.Add(this.BtnInvokeOpenCommand);
             this.GrpCommand.Controls.Add(this.BtnCopy);
             this.GrpCommand.Controls.Add(this.ChkAutoCopy);
-            this.GrpCommand.Controls.Add(this.TxtCommand);
+            this.GrpCommand.Controls.Add(this.CmbCommand);
             this.GrpCommand.Name = "GrpCommand";
             this.GrpCommand.TabStop = false;
             // 
@@ -603,6 +606,7 @@ namespace GrasscutterTools.Forms
             0,
             0,
             0});
+            this.NUDRemotePlayerId.KeyDown += new System.Windows.Forms.KeyEventHandler(this.NUDRemotePlayerId_KeyDown);
             // 
             // BtnConnectOpenCommand
             // 
@@ -642,6 +646,7 @@ namespace GrasscutterTools.Forms
             0,
             0,
             0});
+            this.NUDVerificationCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.NUDVerificationCode_KeyDown);
             // 
             // LblRemotePlayerId
             // 
@@ -669,6 +674,7 @@ namespace GrasscutterTools.Forms
             // 
             resources.ApplyResources(this.TxtToken, "TxtToken");
             this.TxtToken.Name = "TxtToken";
+            this.TxtToken.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtToken_KeyDown);
             // 
             // LblToken
             // 
@@ -684,6 +690,7 @@ namespace GrasscutterTools.Forms
             // 
             resources.ApplyResources(this.TxtHost, "TxtHost");
             this.TxtHost.Name = "TxtHost";
+            this.TxtHost.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtHost_KeyDown);
             // 
             // BtnQueryServerStatus
             // 
@@ -2201,7 +2208,7 @@ namespace GrasscutterTools.Forms
             // TPSpawnItems
             // 
             this.TPSpawnItems.Controls.Add(this.ListEntity);
-            this.TPSpawnItems.Controls.Add(this.panel1);
+            this.TPSpawnItems.Controls.Add(this.PanelEntityFilterBar);
             resources.ApplyResources(this.TPSpawnItems, "TPSpawnItems");
             this.TPSpawnItems.Name = "TPSpawnItems";
             this.TPSpawnItems.UseVisualStyleBackColor = true;
@@ -2213,12 +2220,12 @@ namespace GrasscutterTools.Forms
             this.ListEntity.Name = "ListEntity";
             this.ListEntity.SelectedIndexChanged += new System.EventHandler(this.ListEntity_SelectedIndexChanged);
             // 
-            // panel1
+            // PanelEntityFilterBar
             // 
-            this.panel1.Controls.Add(this.TxtEntityFilter);
-            this.panel1.Controls.Add(this.BtnFilterEntity);
-            resources.ApplyResources(this.panel1, "panel1");
-            this.panel1.Name = "panel1";
+            this.PanelEntityFilterBar.Controls.Add(this.TxtEntityFilter);
+            this.PanelEntityFilterBar.Controls.Add(this.BtnFilterEntity);
+            resources.ApplyResources(this.PanelEntityFilterBar, "PanelEntityFilterBar");
+            this.PanelEntityFilterBar.Name = "PanelEntityFilterBar";
             // 
             // TxtEntityFilter
             // 
@@ -2618,6 +2625,7 @@ namespace GrasscutterTools.Forms
             // 
             resources.ApplyResources(this.TxtCustomName, "TxtCustomName");
             this.TxtCustomName.Name = "TxtCustomName";
+            this.TxtCustomName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtCustomName_KeyDown);
             // 
             // TPHome
             // 
@@ -2823,8 +2831,8 @@ namespace GrasscutterTools.Forms
             // 
             // TPMailSelectableItemList
             // 
-            this.TPMailSelectableItemList.Controls.Add(this.TxtMailSelectableItemFilter);
             this.TPMailSelectableItemList.Controls.Add(this.ListMailSelectableItems);
+            this.TPMailSelectableItemList.Controls.Add(this.TxtMailSelectableItemFilter);
             this.TPMailSelectableItemList.Controls.Add(this.PanelMailItemArgs);
             resources.ApplyResources(this.TPMailSelectableItemList, "TPMailSelectableItemList");
             this.TPMailSelectableItemList.Name = "TPMailSelectableItemList";
@@ -3128,8 +3136,8 @@ namespace GrasscutterTools.Forms
             ((System.ComponentModel.ISupportInitialize)(this.NUDAiwiRadius)).EndInit();
             this.TCSpawnItems.ResumeLayout(false);
             this.TPSpawnItems.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.PanelEntityFilterBar.ResumeLayout(false);
+            this.PanelEntityFilterBar.PerformLayout();
             this.TPSpawnRecords.ResumeLayout(false);
             this.TPSpawnRecords.PerformLayout();
             this.FLPSpawnRecordControls.ResumeLayout(false);
@@ -3172,7 +3180,7 @@ namespace GrasscutterTools.Forms
 
         #endregion
 
-        private System.Windows.Forms.TextBox TxtCommand;
+        private System.Windows.Forms.ComboBox CmbCommand;
         private System.Windows.Forms.Button BtnCopy;
         private System.Windows.Forms.CheckBox ChkAutoCopy;
         private System.Windows.Forms.GroupBox GrpCommand;
@@ -3413,7 +3421,7 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.TabPage TPSpawnArgs;
         private System.Windows.Forms.TabPage TPAttackModArgs;
         private System.Windows.Forms.Button BtnFilterEntity;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel PanelEntityFilterBar;
         private System.Windows.Forms.FlowLayoutPanel FLPSpawnRecordControls;
         private System.Windows.Forms.ContextMenuStrip MenuSpawnEntityFilter;
         private System.Windows.Forms.GroupBox GrpAMSkills;

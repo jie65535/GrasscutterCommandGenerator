@@ -166,7 +166,11 @@ namespace GrasscutterTools.Forms
                 // 记录界面状态
                 Settings.Default.AutoCopy = ChkAutoCopy.Checked;
                 Settings.Default.MainFormLocation = Location;
-                Settings.Default.MainFormSize = Size;
+                // 如果命令窗口已经弹出了，则不要保存多余的高度
+                if (TxtCommandRunLog != null)
+                    Settings.Default.MainFormSize = new Size(Width, Height - TxtCommandRunLogMinHeight);
+                else
+                    Settings.Default.MainFormSize = Size;
 
                 // 保存自定义命令
                 SaveCustomCommands();
@@ -260,86 +264,43 @@ namespace GrasscutterTools.Forms
             form.TopMost = false;
         }
 
-        /// <summary>
-        /// 卡池编辑器窗口实例
-        /// </summary>
-        private Form GachaBannerEditor;
+        private readonly Dictionary<string, Form> MyForms = new Dictionary<string, Form>();
+
+        private void ShowForm<T>(string tag) where T : Form, new()
+        {
+            if (!MyForms.TryGetValue(tag, out var form) || form.IsDisposed)
+                form = new T();
+            MyForms[tag] = form;
+            if (form.IsHandleCreated)
+                ToTop(form);
+            else
+                form.Show();
+        }
+
 
         /// <summary>
         /// 点击打开卡池编辑器时触发
         /// </summary>
         private void BtnOpenGachaBannerEditor_Click(object sender, EventArgs e)
-        {
-            if (GachaBannerEditor == null || GachaBannerEditor.IsDisposed)
-            {
-                GachaBannerEditor = new FormGachaBannerEditor2();
-                GachaBannerEditor.Show();
-            }
-            else
-            {
-                ToTop(GachaBannerEditor);
-            }
-        }
+            => ShowForm<FormGachaBannersEditor3>("BannersEditor");
 
         /// <summary>
-        /// 文本浏览器窗口实例
+        /// 点击打开文本浏览器时触发
         /// </summary>
-        private FormTextMapBrowser TextMapBrowser;
-
         private void BtnOpenTextMap_Click(object sender, EventArgs e)
-        {
-            if (TextMapBrowser == null || TextMapBrowser.IsDisposed)
-            {
-                TextMapBrowser = new FormTextMapBrowser();
-                TextMapBrowser.Show();
-            }
-            else
-            {
-                ToTop(TextMapBrowser);
-            }
-        }
-
-        /// <summary>
-        /// 掉落物编辑器窗口实例
-        /// </summary>
-        private FormDropEditor DropEditor;
+            => ShowForm<FormTextMapBrowser>("TextMapBrowser");
 
         /// <summary>
         /// 点击打开掉落物编辑器时触发
         /// </summary>
         private void BtnOpenDropEditor_Click(object sender, EventArgs e)
-        {
-            if (DropEditor == null || DropEditor.IsDisposed)
-            {
-                DropEditor = new FormDropEditor();
-                DropEditor.Show();
-            }
-            else
-            {
-                ToTop(DropEditor);
-            }
-        }
-
-        /// <summary>
-        /// 商店编辑器窗口实例
-        /// </summary>
-        private FormShopEditor ShopEditor;
+            => ShowForm<FormDropEditor>("DropEditor");
 
         /// <summary>
         /// 点击打开商店编辑器时触发
         /// </summary>
         private void BtnOpenShopEditor_Click(object sender, EventArgs e)
-        {
-            if (ShopEditor == null || ShopEditor.IsDisposed)
-            {
-                ShopEditor = new FormShopEditor();
-                ShopEditor.Show();
-            }
-            else
-            {
-                ToTop(ShopEditor);
-            }
-        }
+            => ShowForm<FormShopEditor>("ShopEditor");
 
         /// <summary>
         /// 语言选中项改变时触发
@@ -465,6 +426,14 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
+        /// 自定义命令文本框回车时触发
+        /// </summary>
+        private void TxtCustomName_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) BtnSaveCustomCommand_Click(BtnSaveCustomCommand, e);
+        }
+
+        /// <summary>
         /// 点击保存自定义命令列表时触发
         /// </summary>
         /// <param name="sender"></param>
@@ -476,13 +445,13 @@ namespace GrasscutterTools.Forms
                 MessageBox.Show(Resources.CommandTagCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            if (string.IsNullOrWhiteSpace(TxtCommand.Text))
+            if (string.IsNullOrWhiteSpace(CmbCommand.Text))
             {
                 MessageBox.Show(Resources.CommandContentCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
             var name = TxtCustomName.Text.Trim();
-            var command = TxtCommand.Text.Trim();
+            var command = CmbCommand.Text.Trim();
 
             foreach (LinkLabel lnk in FLPCustomCommands.Controls)
             {
@@ -990,7 +959,7 @@ namespace GrasscutterTools.Forms
         {
             if (GenGiveItemCommand())
             {
-                var cmd = new GameCommand($"{ListGameItems.SelectedItem} x{NUDGameItemAmout.Value}", TxtCommand.Text);
+                var cmd = new GameCommand($"{ListGameItems.SelectedItem} x{NUDGameItemAmout.Value}", CmbCommand.Text);
                 GiveItemCommands.Add(cmd);
                 ListGiveItemLogs.Items.Add(cmd.Name);
                 SaveGiveItemRecord();
@@ -1384,7 +1353,7 @@ namespace GrasscutterTools.Forms
             // 不再重新生成，直接记录当前命令行的内容
             //if (GenSpawnEntityCommand())
             {
-                var cmd = new GameCommand($"{ListEntity.SelectedItem} | {TxtCommand.Text}", TxtCommand.Text);
+                var cmd = new GameCommand($"{ListEntity.SelectedItem} | {CmbCommand.Text}", CmbCommand.Text);
                 SpawnCommands.Add(cmd);
                 ListSpawnLogs.Items.Add(cmd.Name);
                 SaveSpawnRecord();
@@ -1977,15 +1946,36 @@ namespace GrasscutterTools.Forms
         /// <param name="command">命令</param>
         private void SetCommand(string command)
         {
-            if (ModifierKeys == Keys.Shift)
-                TxtCommand.Text += " | " + command;
-            else
-                TxtCommand.Text = command;
-
+            var oldCommand = CmbCommand.Text;
+            CmbCommand.Text = (ModifierKeys == Keys.Shift) ? $"{oldCommand} | {command}" : command;
             if (ChkAutoCopy.Checked)
                 CopyCommand();
+            AddCommandToList(command);
+
             if (ModifierKeys == Keys.Control)
+            {
                 OnOpenCommandInvoke();
+            }
+            else if (ModifierKeys == Keys.Alt)
+            {
+                OnOpenCommandInvoke();
+                CmbCommand.Text = oldCommand;
+            }
+        }
+
+        /// <summary>
+        /// 添加命令到执行记录
+        /// </summary>
+        private void AddCommandToList(string command = "")
+        {
+            if (string.IsNullOrEmpty(command))
+                command = CmbCommand.Text;
+            if (!string.IsNullOrEmpty(command))
+            {
+                if (CmbCommand.Items.Count > 19)
+                    CmbCommand.Items.RemoveAt(0);
+                CmbCommand.Items.Add(command);
+            }
         }
 
         /// <summary>
@@ -2015,8 +2005,16 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void CopyCommand()
         {
-            if (!string.IsNullOrEmpty(TxtCommand.Text))
-                Clipboard.SetText(TxtCommand.Text);
+            if (!string.IsNullOrEmpty(CmbCommand.Text))
+                Clipboard.SetText(CmbCommand.Text);
+        }
+
+        /// <summary>
+        /// 在命令行内按下回车时直接执行
+        /// </summary>
+        private void TxtCommand_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) OnOpenCommandInvoke();
         }
 
         /// <summary>
@@ -2033,15 +2031,16 @@ namespace GrasscutterTools.Forms
         private async void BtnInvokeOpenCommand_Click(object sender, EventArgs e)
         {
             if (!BtnInvokeOpenCommand.Enabled) return;
-            if (TxtCommand.Text.Length < 2)
+            var cmd = CmbCommand.Text;
+            if (cmd.Length < 2)
             {
-                ShowTip(Resources.CommandContentCannotBeEmpty, TxtCommand);
+                ShowTip(Resources.CommandContentCannotBeEmpty, CmbCommand);
                 return;
             }
-            if (TxtCommand.Text.IndexOf('|') == -1)
-                await RunCommands(FormatCommand(TxtCommand.Text));
+            if (cmd.IndexOf('|') == -1)
+                await RunCommands(FormatCommand(cmd));
             else
-                await RunCommands(TxtCommand.Text.Split('|').Select(it => FormatCommand(it)).ToArray());
+                await RunCommands(cmd.Split('|').Select(it => FormatCommand(it)).ToArray());
         }
 
         /// <summary>
@@ -2310,7 +2309,15 @@ namespace GrasscutterTools.Forms
             else
                 LblPlayerCount.Text = status.PlayerCount.ToString();
         }
-        
+
+        /// <summary>
+        /// 输入服务器地址按下回车时触发
+        /// </summary>
+        private void TxtHost_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) BtnQueryServerStatus_Click(BtnQueryServerStatus, e);
+        }
+
         /// <summary>
         /// 点击查询服务器状态按钮时触发
         /// </summary>
@@ -2357,6 +2364,14 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
+        /// 玩家ID输入框按下回车时触发
+        /// </summary>
+        private void NUDRemotePlayerId_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) BtnSendVerificationCode_Click(BtnSendVerificationCode, e);
+        }
+
+        /// <summary>
         /// 点击发送校验码按钮时触发
         /// </summary>
         private async void BtnSendVerificationCode_Click(object sender, EventArgs e)
@@ -2391,6 +2406,14 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
+        /// 验证码输入框按下回车时触发
+        /// </summary>
+        private void NUDVerificationCode_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) BtnConnectOpenCommand_Click(BtnConnectOpenCommand, e);
+        }
+
+        /// <summary>
         /// 点击连接到开放命令按钮时触发
         /// </summary>
         /// <param name="sender"></param>
@@ -2416,6 +2439,14 @@ namespace GrasscutterTools.Forms
                 btn.Cursor = Cursors.Default;
                 btn.Enabled = true;
             }
+        }
+
+        /// <summary>
+        /// Token 输入框按下回车时触发
+        /// </summary>
+        private void TxtToken_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) BtnConsoleConnect_Click(BtnConsoleConnect, e);
         }
 
         /// <summary>
