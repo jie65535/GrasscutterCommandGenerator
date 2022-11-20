@@ -146,10 +146,10 @@
     <value>√ Добавить или обновить</value>
   </data>
   <data name="CmbRefreshType.Items" xml:space="preserve">
-    <value>Никто</value>
+    <value>Никогда</value>
   </data>
   <data name="CmbRefreshType.Items1" xml:space="preserve">
-    <value>Повседневная</value>
+    <value>Ежедневно</value>
   </data>
   <data name="CmbRefreshType.Items2" xml:space="preserve">
     <value>Еженедельно</value>
@@ -170,7 +170,7 @@
     <value>62, 17</value>
   </data>
   <data name="LblBuyLevelLabel.Text" xml:space="preserve">
-    <value>Buy level:</value>
+    <value>Уровень:</value>
   </data>
   <data name="LblEndTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 183</value>
@@ -194,25 +194,25 @@
     <value>76, 17</value>
   </data>
   <data name="LblCostItem4Label.Text" xml:space="preserve">
-    <value>Cast item 4:</value>
+    <value>Стоимость 4:</value>
   </data>
   <data name="LblCostItem3Label.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 17</value>
   </data>
   <data name="LblCostItem3Label.Text" xml:space="preserve">
-    <value>Cast item 3:</value>
+    <value>Стоимость 3:</value>
   </data>
   <data name="LblCostItem2Label.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 17</value>
   </data>
   <data name="LblCostItem2Label.Text" xml:space="preserve">
-    <value>Cast item 2:</value>
+    <value>Стоимость 2:</value>
   </data>
   <data name="LblCostItem1Label.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 17</value>
   </data>
   <data name="LblCostItem1Label.Text" xml:space="preserve">
-    <value>Cast item 1:</value>
+    <value>Стоимость 1:</value>
   </data>
   <data name="LblCostMcoinLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>46, 298</value>
@@ -221,7 +221,7 @@
     <value>67, 17</value>
   </data>
   <data name="LblCostMcoinLabel.Text" xml:space="preserve">
-    <value>Кристалл:</value>
+    <value>Кристаллы:</value>
   </data>
   <data name="LblCostScoinLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>67, 269</value>
@@ -239,19 +239,19 @@
     <value>104, 17</value>
   </data>
   <data name="LblCostHcoinLabel.Text" xml:space="preserve">
-    <value>Камень Истока:</value>
+    <value>Камни истока:</value>
   </data>
   <data name="LblBuyLimitLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 17</value>
   </data>
   <data name="LblBuyLimitLabel.Text" xml:space="preserve">
-    <value>Buy limit:</value>
+    <value>Лимит:</value>
   </data>
   <data name="LblGoodsIdLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 17</value>
   </data>
   <data name="LblGoodsIdLabel.Text" xml:space="preserve">
-    <value>Goods Id:</value>
+    <value>Goods ID:</value>
   </data>
   <data name="LblGoodsItemLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 17</value>
@@ -266,7 +266,7 @@
     <value>Создать ID</value>
   </data>
   <data name="BtnSave.Text" xml:space="preserve">
-    <value>Сохранять</value>
+    <value>Сохранить</value>
   </data>
   <data name="BtnLoad.Text" xml:space="preserve">
     <value>Загрузить</value>
@@ -281,6 +281,6 @@
     <value>127, 17</value>
   </data>
   <data name="LblShopPathLabel.Text" xml:space="preserve">
-    <value>Shop.json дорожка:</value>
+    <value>Путь до Shop.json:</value>
   </data>
 </root>

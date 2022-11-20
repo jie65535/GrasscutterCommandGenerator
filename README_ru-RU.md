@@ -12,30 +12,29 @@
 
 GCG поддерживает 简体中文 (китайский упр.), 繁体中文 (китайский трад.), English (английский) и Русский языки.
 
-Приглашаем всех улучшить [ID ресурсов и перевод](/Source/GrasscutterTools/Resources/ru-ru)
+> **Warning**: вид приложения может отличаться от скриншотов. Также в нём могут присутствовать ошибки в переводе и отсутсвие некоторых ресурсов. **Мы приглашаем всех сделать вклад в их [улучшение](/Source/GrasscutterTools/Resources/ru-ru)**
 
-## Update log
-
+## Лог обновлений
 ### GrasscutterTools-v1.7.3
-![Gadget](Doc/Screenshots-ru/4-SpawnEntity.png)
+![Улучшенный спавн](Doc/Screenshots-ru/5-Spawn.png)
 
-Added [AttackModifier](https://github.com/NotThorny/AttackModifier), [AttackInfusedWithItem](https://github.com/snoobi-seggs/AttackInfusedWithItem), [SwitchElementTraveller](https://github.com/Penelopeep/SwitchElementTraveller) plugins command generation
+Добавлена поддержка генерации команд для плагинов [AttackModifier](https://github.com/NotThorny/AttackModifier), [AttackInfusedWithItem](https://github.com/snoobi-seggs/AttackInfusedWithItem), [SwitchElementTraveller](https://github.com/Penelopeep/SwitchElementTraveller).
 
 ![AttackInfusedWithItem Gif](Doc/Screenshots/AttackMod.gif)
 
 ### GrasscutterTools-v1.7.2
-![Shop Editor](Doc/Screenshots-ru/17-ShopEditor.png)
+![Редактор магазина](Doc/Screenshots-ru/13-Shop.png)
 
 ### GrasscutterTools-v1.7.1
- - Gadgets (CHS Only)
+ - Гаджеты (пока что только на китайском)
 
 ### GrasscutterTools-v1.7.0
 
-![Run Commands](Doc/Screenshots/RunMultipleCommands.png)
+![Запуск нескольких команд](Doc/Screenshots/RunMultipleCommands.png)
 
-![Drop Editor](Doc/Screenshots-ru/15-DropEditor.png)
+![Редактор дропа](Doc/Screenshots-ru/15-Drops.png)
 
-![Mail Editor](Doc/Screenshots-ru/16-MailEditor.png)
+![Редактор писем](Doc/Screenshots-ru/10-Mail.png)
 
 ## Удаленная команда (OpenCommand)
 
@@ -59,28 +58,34 @@ Added [AttackModifier](https://github.com/NotThorny/AttackModifier), [AttackInfu
 
 ![Логитип](Doc/Screenshots/GrasscutterLogo.png)
 
-![Главная](Doc/Screenshots-ru/0-Home.png)
+![Главная](Doc/Screenshots-ru/1-Home.png)
 
-![Скриншот пользовательских команд](Doc/Screenshots-ru/1-CustomCommands.png)
+![OpenCommand](Doc/Screenshots-ru/2-Opencommand.png)
 
-![Скриншот артефактов](Doc/Screenshots-ru/2-CustomArtifact.png)
+![Кастомные команды](Doc/Screenshots-ru/3-Custom.png)
 
-![Скриншот квестов](Doc/Screenshots-ru/3-Quest.png)
+![Артефакты](Doc/Screenshots-ru/4-Artifacts.png)
 
-![Скриншот спавна сущностей](Doc/Screenshots-ru/4-SpawnEntity.png)
+![Спавн сущностей](Doc/Screenshots-ru/5-Spawn.png)
 
-![Скриншот выдачи персонажа](Doc/Screenshots-ru/5-GiveAvatar.png)
+![Выдача предметов](Doc/Screenshots-ru/6-Give.png)
 
-![Скриншот выдачи оружия](Doc/Screenshots-ru/7-CustomWeapon.png)
+![Выдача персонажей](Doc/Screenshots-ru/7-Character.png)
 
-![Скриншот выдачи предметов](Doc/Screenshots-ru/8-GiveItem.png)
+![Выдача оружий](Doc/Screenshots-ru/8-Weapons.png)
 
-![Скриншот смены сцены](Doc/Screenshots-ru/9-ChangeScene.png)
+![Управление аккаунтами](Doc/Screenshots-ru/9-Accounts.png)
 
-![Скриншот управления аккаунтом](Doc/Screenshots-ru/11-Manage.png)
+![Почта](Doc/Screenshots-ru/10-Mail.png)
 
-![Скриншот OpenCommand](Doc/Screenshots-ru/13-Remote.png)
+![Квесты](Doc/Screenshots-ru/11-Quests.png)
 
-![Редактор баннеров](Doc/Screenshots-ru/14-GachaBannerEditor.png)
+![Сцены](Doc/Screenshots-ru/12-Scenes.png)
 
-![Текстоый браузер карт](Doc/Screenshots-ru/15-TextMapBrowser.png)
+![Редактор магазина](Doc/Screenshots-ru/13-Shop.png)
+
+![Редактор баннеров](Doc/Screenshots-ru/14-Gachas.png)
+
+![Редактор дропа](Doc/Screenshots-ru/14-Drops.png)
+
+![Браузер текстов](Doc/Screenshots-ru/16-Textmaps.png)

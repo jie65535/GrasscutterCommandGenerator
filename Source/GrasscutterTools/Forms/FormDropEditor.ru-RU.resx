@@ -122,16 +122,16 @@
     <value>99, 17</value>
   </data>
   <data name="LblDropPathLabel.Text" xml:space="preserve">
-    <value>Drop.json Путь:</value>
+    <value>Путь до Drop.json:</value>
   </data>
   <data name="BtnLoad.Text" xml:space="preserve">
-    <value>Нагрузка</value>
+    <value>Загрузить</value>
   </data>
   <data name="BtnSave.Text" xml:space="preserve">
-    <value>Сохранять</value>
+    <value>Сохранить</value>
   </data>
   <data name="GrpDropList.Text" xml:space="preserve">
-    <value>Drop list</value>
+    <value>Список дропа</value>
   </data>
   <data name="BtnCopyAll.Location" type="System.Drawing.Point, System.Drawing">
     <value>94, 202</value>
@@ -170,7 +170,7 @@
     <value>62, 17</value>
   </data>
   <data name="LblItemLabel.Text" xml:space="preserve">
-    <value>предмет:</value>
+    <value>Предмет:</value>
   </data>
   <data name="LblWeightLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>39, 17</value>
