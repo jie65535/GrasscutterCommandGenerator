@@ -274,7 +274,7 @@
     <value>NoControl</value>
   </data>
   <data name="LnkLinks.Location" type="System.Drawing.Point, System.Drawing">
-    <value>444, 204</value>
+    <value>444, 206</value>
   </data>
   <data name="LnkLinks.Size" type="System.Drawing.Size, System.Drawing">
     <value>37, 17</value>
@@ -307,7 +307,7 @@
     <value>NoControl</value>
   </data>
   <data name="LnkGOODHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>392, 204</value>
+    <value>392, 206</value>
   </data>
   <data name="LnkGOODHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>46, 17</value>
@@ -337,7 +337,7 @@
     <value>NoControl</value>
   </data>
   <data name="LnkInventoryKamera.Location" type="System.Drawing.Point, System.Drawing">
-    <value>486, 181</value>
+    <value>486, 183</value>
   </data>
   <data name="LnkInventoryKamera.Size" type="System.Drawing.Size, System.Drawing">
     <value>107, 17</value>
@@ -367,7 +367,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblGOODHelp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>388, 137</value>
+    <value>388, 139</value>
   </data>
   <data name="LblGOODHelp.Size" type="System.Drawing.Size, System.Drawing">
     <value>205, 58</value>
@@ -397,7 +397,7 @@
     <value>NoControl</value>
   </data>
   <data name="ButtonOpenGOODImport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 201</value>
+    <value>484, 203</value>
   </data>
   <data name="ButtonOpenGOODImport.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 23</value>
@@ -430,7 +430,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblHostTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>141, 14</value>
+    <value>141, 16</value>
   </data>
   <data name="LblHostTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>210, 17</value>
@@ -1073,7 +1073,7 @@
     <value>None</value>
   </data>
   <data name="TxtHost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 34</value>
+    <value>144, 36</value>
   </data>
   <data name="TxtHost.Size" type="System.Drawing.Size, System.Drawing">
     <value>182, 23</value>
@@ -1100,7 +1100,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnQueryServerStatus.Location" type="System.Drawing.Point, System.Drawing">
-    <value>332, 34</value>
+    <value>332, 36</value>
   </data>
   <data name="BtnQueryServerStatus.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
@@ -1133,7 +1133,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblHost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>70, 37</value>
+    <value>70, 39</value>
   </data>
   <data name="LblHost.Size" type="System.Drawing.Size, System.Drawing">
     <value>68, 17</value>
@@ -1977,7 +1977,7 @@
     <value>NoControl</value>
   </data>
   <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>90, 186</value>
+    <value>90, 190</value>
   </data>
   <data name="ChkIncludeSceneId.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 21</value>
@@ -2010,7 +2010,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblTpZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 157</value>
+    <value>218, 161</value>
   </data>
   <data name="LblTpZ.Size" type="System.Drawing.Size, System.Drawing">
     <value>14, 17</value>
@@ -2043,7 +2043,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 157</value>
+    <value>112, 161</value>
   </data>
   <data name="LblTpY.Size" type="System.Drawing.Size, System.Drawing">
     <value>14, 17</value>
@@ -2073,7 +2073,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnTeleport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 184</value>
+    <value>9, 188</value>
   </data>
   <data name="BtnTeleport.Size" type="System.Drawing.Size, System.Drawing">
     <value>75, 23</value>
@@ -2106,7 +2106,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblTpX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 157</value>
+    <value>6, 161</value>
   </data>
   <data name="LblTpX.Size" type="System.Drawing.Size, System.Drawing">
     <value>14, 17</value>
@@ -2133,7 +2133,7 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDTpZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>238, 155</value>
+    <value>238, 159</value>
   </data>
   <data name="NUDTpZ.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
@@ -2157,7 +2157,7 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 155</value>
+    <value>132, 159</value>
   </data>
   <data name="NUDTpY.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
@@ -2181,7 +2181,7 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDTpX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>26, 155</value>
+    <value>26, 159</value>
   </data>
   <data name="NUDTpX.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
@@ -2205,7 +2205,7 @@
     <value>Bottom, Left</value>
   </data>
   <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>68, 65</value>
+    <value>68, 69</value>
   </data>
   <data name="CmbClimateType.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 25</value>
@@ -2235,7 +2235,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblClimateType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 68</value>
+    <value>6, 72</value>
   </data>
   <data name="LblClimateType.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
@@ -2300,7 +2300,7 @@
     <value>346, 31</value>
   </data>
   <data name="ListScenes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 191</value>
+    <value>300, 208</value>
   </data>
   <data name="ListScenes.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -2327,7 +2327,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblTp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 101</value>
+    <value>6, 105</value>
   </data>
   <data name="LblTp.Size" type="System.Drawing.Size, System.Drawing">
     <value>296, 51</value>
@@ -5545,7 +5545,7 @@
     <value>3, 3</value>
   </data>
   <data name="ListSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 164</value>
+    <value>274, 168</value>
   </data>
   <data name="ListSpawnLogs.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5878,7 +5878,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnFinishQuest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 212</value>
+    <value>102, 216</value>
   </data>
   <data name="BtnFinishQuest.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 23</value>
@@ -5908,7 +5908,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnAddQuest.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 212</value>
+    <value>6, 216</value>
   </data>
   <data name="BtnAddQuest.Size" type="System.Drawing.Size, System.Drawing">
     <value>90, 23</value>
@@ -5941,7 +5941,7 @@
     <value>6, 6</value>
   </data>
   <data name="LblQuestDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>346, 96</value>
+    <value>346, 100</value>
   </data>
   <data name="LblQuestDescription.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -5997,7 +5997,7 @@
     <value>358, 31</value>
   </data>
   <data name="ListQuest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>288, 191</value>
+    <value>288, 208</value>
   </data>
   <data name="ListQuest.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -6051,7 +6051,7 @@
     <value>NoControl</value>
   </data>
   <data name="LnkCharacterBuilder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>540, 221</value>
+    <value>540, 225</value>
   </data>
   <data name="LnkCharacterBuilder.Size" type="System.Drawing.Size, System.Drawing">
     <value>109, 17</value>
@@ -6396,7 +6396,7 @@
     <value>167, 129</value>
   </data>
   <data name="ListSubAttributionChecked.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 89</value>
+    <value>289, 106</value>
   </data>
   <data name="ListSubAttributionChecked.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -6651,7 +6651,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>593, 212</value>
+    <value>593, 216</value>
   </data>
   <data name="BtnExportCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
@@ -6681,7 +6681,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnLoadCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>537, 212</value>
+    <value>537, 216</value>
   </data>
   <data name="BtnLoadCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 23</value>
@@ -6714,7 +6714,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblCustomName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 215</value>
+    <value>6, 219</value>
   </data>
   <data name="LblCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>32, 17</value>
@@ -6780,7 +6780,7 @@
     <value>3, 19</value>
   </data>
   <data name="FLPCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 178</value>
+    <value>634, 182</value>
   </data>
   <data name="FLPCustomCommands.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -6828,7 +6828,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>471, 212</value>
+    <value>471, 216</value>
   </data>
   <data name="BtnRemoveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 23</value>
@@ -6858,7 +6858,7 @@
     <value>NoControl</value>
   </data>
   <data name="BtnSaveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>405, 212</value>
+    <value>405, 216</value>
   </data>
   <data name="BtnSaveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
     <value>60, 23</value>
@@ -6885,7 +6885,7 @@
     <value>Bottom, Left, Right</value>
   </data>
   <data name="TxtCustomName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 212</value>
+    <value>44, 216</value>
   </data>
   <data name="TxtCustomName.Size" type="System.Drawing.Size, System.Drawing">
     <value>355, 23</value>
