@@ -1,0 +1,365 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Windows.Forms;
+
+using GrasscutterTools.Game;
+
+using GrasscutterTools.Properties;
+
+using GrasscutterTools.Utils;
+
+namespace GrasscutterTools.Pages
+{
+    internal partial class PageSpawn : BasePage
+    {
+        public PageSpawn()
+        {
+            InitializeComponent();
+
+            InitSpawnRecord();
+        }
+
+        public override void OnLoad()
+        {
+            InitEntityList();
+        }
+
+        public override void OnClosed()
+        {
+            SaveSpawnRecord();
+        }
+
+        #region -- 实体列表 --
+
+        /// <summary>
+        /// 初始化实体列表
+        /// </summary>
+        private void InitEntityList()
+        {
+            // 初始化列表类型过滤器
+            MenuSpawnEntityFilter.SuspendLayout();
+            MenuSpawnEntityFilter.Items.Clear();
+            void AddTypes(ItemMapGroup group)
+            {
+                foreach (var kv in group)
+                {
+                    var item = new ToolStripMenuItem
+                    {
+                        Text = kv.Key,
+                        Tag = kv.Value.Lines,
+                    };
+                    item.Click += OnEntityTypeFilterClick;
+                    MenuSpawnEntityFilter.Items.Add(item);
+                }
+            }
+            //MenuSpawnEntityFilter.Items.Add(new ToolStripLabel("Monsters"));
+            AddTypes(GameData.Monsters);
+            MenuSpawnEntityFilter.Items.Add(new ToolStripSeparator());
+            //MenuSpawnEntityFilter.Items.Add(new ToolStripLabel("Gadgets"));
+            AddTypes(GameData.Gadgets);
+            MenuSpawnEntityFilter.ResumeLayout();
+
+            // 默认显示所有
+            SelectedEntityTypeLines = GameData.Monsters.AllLines.Concat(GameData.Gadgets.AllLines).ToArray();
+            LoadEntityList();
+        }
+
+        /// <summary>
+        /// 当前选中的实体类型行
+        /// </summary>
+        private string[] SelectedEntityTypeLines;
+
+        /// <summary>
+        /// 实体类型过滤器类型选中时触发
+        /// </summary>
+        private void OnEntityTypeFilterClick(object sender, EventArgs e)
+        {
+            var btn = sender as ToolStripMenuItem;
+            SelectedEntityTypeLines = btn.Tag as string[];
+            LoadEntityList();
+        }
+
+        /// <summary>
+        /// 加载实体列表
+        /// </summary>
+        private void LoadEntityList()
+        {
+            UIUtil.ListBoxFilter(ListEntity, SelectedEntityTypeLines, TxtEntityFilter.Text);
+        }
+
+        /// <summary>
+        /// 实体列表过滤器文本改变时触发
+        /// </summary>
+        private void TxtEntityFilter_TextChanged(object sender, EventArgs e)
+        {
+            LoadEntityList();
+        }
+
+        /// <summary>
+        /// 实体列表类型过滤按钮点击时触发
+        /// </summary>
+        private void BtnFilterEntity_Click(object sender, EventArgs e)
+        {
+            MenuSpawnEntityFilter.Show(BtnFilterEntity, 0, BtnFilterEntity.Height);
+        }
+
+        /// <summary>
+        /// 实体列表选中项改变时触发
+        /// </summary>
+        private void ListEntity_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // 根据当前所在页面确定要做的事情
+
+            // 攻击修改界面
+            if (TCSpawnSettings.SelectedTab == TPAttackModArgs)
+            {
+                OnAttackModifierInputChanged(sender, e);
+            }
+            // 攻击注入界面
+            else if (TCSpawnSettings.SelectedTab == TPAttackInfusedArgs)
+            {
+                // 无事发生，因为要页面上点击按钮才会生成命令
+            }
+            // 生成参数界面 或其它
+            else
+            {
+                // 触发输入改变事件
+                SpawnEntityInputChanged(sender, e);
+            }
+        }
+
+        #endregion -- 实体列表 --
+
+        #region -- 生成记录 --
+
+        /// <summary>
+        /// 生成命令记录文件路径
+        /// </summary>
+        private readonly string SpawnCommandsRecordPath = Path.Combine(Application.LocalUserAppDataPath, "SpawnCommands.txt");
+
+        /// <summary>
+        /// 生成命令记录
+        /// </summary>
+        private List<GameCommand> SpawnCommands;
+
+        /// <summary>
+        /// 初始化生成记录
+        /// </summary>
+        private void InitSpawnRecord()
+        {
+            if (File.Exists(SpawnCommandsRecordPath))
+            {
+                SpawnCommands = GameCommand.Parse(File.ReadAllText(SpawnCommandsRecordPath));
+                ListSpawnLogs.Items.AddRange(SpawnCommands.Select(c => c.Name).ToArray());
+            }
+            else
+            {
+                SpawnCommands = new List<GameCommand>();
+            }
+        }
+
+        /// <summary>
+        /// 保存生成记录
+        /// </summary>
+        private void SaveSpawnRecord()
+        {
+            File.WriteAllText(SpawnCommandsRecordPath, GameCommand.ToString(SpawnCommands));
+        }
+
+        /// <summary>
+        /// 生成记录列表选中项改变时触发
+        /// </summary>
+        private void ListSpawnLogs_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ListSpawnLogs.SelectedIndex >= 0)
+            {
+                BtnRemoveSpawnLog.Enabled = true;
+                SetCommand(SpawnCommands[ListSpawnLogs.SelectedIndex].Command);
+            }
+            else
+            {
+                BtnRemoveSpawnLog.Enabled = false;
+            }
+        }
+
+        /// <summary>
+        /// 点击保存生成记录按钮时触发
+        /// </summary>
+        private void BtnSaveSpawnLog_Click(object sender, EventArgs e)
+        {
+            // 不再重新生成，直接记录当前命令行的内容
+            //if (GenSpawnEntityCommand())
+            {
+                var cmdText = GetCommand();
+                var cmd = new GameCommand($"{ListEntity.SelectedItem} | {cmdText}", cmdText);
+                SpawnCommands.Add(cmd);
+                ListSpawnLogs.Items.Add(cmd.Name);
+                SaveSpawnRecord();
+            }
+        }
+
+        /// <summary>
+        /// 点击移除生成记录按钮时触发
+        /// </summary>
+        private void BtnRemoveSpawnLog_Click(object sender, EventArgs e)
+        {
+            if (ListSpawnLogs.SelectedIndex >= 0)
+            {
+                SpawnCommands.RemoveAt(ListSpawnLogs.SelectedIndex);
+                ListSpawnLogs.Items.RemoveAt(ListSpawnLogs.SelectedIndex);
+                SaveSpawnRecord();
+            }
+        }
+
+        /// <summary>
+        /// 点击清空生成记录按钮时触发
+        /// </summary>
+        private void LblClearSpawnLogs_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                SpawnCommands.Clear();
+                ListSpawnLogs.Items.Clear();
+                SaveSpawnRecord();
+            }
+        }
+
+        #endregion -- 生成记录 --
+
+        #region -- 生成参数 --
+
+        /// <summary>
+        /// 生成页面输入改变时触发
+        /// </summary>
+        private void SpawnEntityInputChanged(object sender, EventArgs e)
+        {
+            if (ListEntity.SelectedIndex == -1) return;
+            var selectedItem = ListEntity.SelectedItem as string;
+            var id = ItemMap.ToId(selectedItem);
+
+            if (CommandVersion.Check(CommandVersion.V1_3_1))
+            {
+                var args = id.ToString();
+                void CheckAndConnect(NumericUpDown input, int value, string prefix)
+                {
+                    if (input.Value > value)
+                        args += prefix + input.Value;
+                }
+                CheckAndConnect(NUDEntityAmout, 1, " x");
+                CheckAndConnect(NUDEntityLevel, 1, " lv");
+                CheckAndConnect(NUDEntityHp, -1, " hp");
+                CheckAndConnect(NUDEntityMaxHp, 0, " maxhp");
+                CheckAndConnect(NUDEntityAtk, -1, " atk");
+                CheckAndConnect(NUDEntityDef, -1, " def");
+                if (NUDEntityPosX.Value != 0 || NUDEntityPosY.Value != 0 || NUDEntityPosZ.Value != 0)
+                    args += $" {NUDEntityPosX.Value} {NUDEntityPosY.Value} {NUDEntityPosZ.Value}";
+                SetCommand("/spawn", args);
+            }
+            else
+            {
+                SetCommand("/spawn", $"{id} {NUDEntityAmout.Value} {NUDEntityLevel.Value}");
+            }
+        }
+
+        #endregion -- 生成参数 --
+
+        #region -- 攻击修改参数 --
+
+        /// <summary>
+        /// 攻击修改插件链接标签点击时触发
+        /// </summary>
+        private void LnkAttackModifierPlugin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            UIUtil.OpenURL("https://github.com/NotThorny/AttackModifier");
+        }
+
+        /// <summary>
+        /// 攻击修改输入改变事件
+        /// </summary>
+        private void OnAttackModifierInputChanged(object sender, EventArgs e)
+        {
+            if (ListEntity.SelectedIndex == -1) return;
+            var selectedItem = ListEntity.SelectedItem as string;
+            var id = ItemMap.ToId(selectedItem);
+            char skill;
+            if (RbAtE.Checked)
+            {
+                skill = 'e';
+                TxtAtEntityE.Text = selectedItem;
+            }
+            else if (RbAtQ.Checked)
+            {
+                skill = 'q';
+                TxtAtEntityQ.Text = selectedItem;
+            }
+            else
+            {
+                skill = 'n';
+                TxtAtEntityN.Text = selectedItem;
+            }
+            SetCommand("/at", $"set {skill} {id}");
+        }
+
+        /// <summary>
+        /// 攻击修改页面命令事件
+        /// </summary>
+        private void OnAttackModifierCommand(object sender, EventArgs e)
+        {
+            SetCommand("/at", (sender as Control).Tag as string);
+        }
+
+        #endregion -- 攻击修改参数 --
+
+        #region -- 攻击注入参数 --
+
+        /// <summary>
+        /// 攻击注入插件链接标签点击时触发
+        /// </summary>
+        private void LnkAttackInfusedWithItem_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            UIUtil.OpenURL("https://github.com/snoobi-seggs/AttackInfusedWithItem");
+        }
+
+        /// <summary>
+        /// 攻击注入页面命令事件
+        /// </summary>
+        private void OnAttackInfusedCommand(object sender, EventArgs e)
+        {
+            SetCommand("/snoospawn", (sender as Control).Tag as string);
+        }
+
+        /// <summary>
+        /// 点击攻击注入按钮时触发
+        /// </summary>
+        private void BtnAttackInfuse_Click(object sender, EventArgs e)
+        {
+            if (ListEntity.SelectedIndex == -1) return;
+            var selectedItem = ListEntity.SelectedItem as string;
+            var id = ItemMap.ToId(selectedItem);
+
+            var args = string.Empty;
+            var flag = false;
+            void ConnectArg(NumericUpDown input)
+            {
+                if (flag || input.Value != 0)
+                {
+                    flag = true;
+                    args = " " + input.Value + args;
+                }
+            }
+            ConnectArg(NUDAiwiRotateZ);
+            ConnectArg(NUDAiwiRotateY);
+            ConnectArg(NUDAiwiRotateX);
+            ConnectArg(NUDAiwiSpread);
+            ConnectArg(NUDAiwiCount);
+            ConnectArg(NUDAiwiHeight);
+            ConnectArg(NUDAiwiRadius);
+            SetCommand("/snoospawn", id.ToString() + args);
+            //SetCommand("/at", $"{id} {NUDAiwiRadius.Value} {NUDAiwiHeight.Value} {NUDAiwiCount.Value} {NUDAiwiSpread.Value} {NUDAiwiRotateX.Value} {NUDAiwiRotateY.Value} {NUDAiwiRotateZ.Value}");
+        }
+
+        #endregion -- 攻击注入参数 --
+    }
+}

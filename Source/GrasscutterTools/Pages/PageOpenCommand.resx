@@ -1,0 +1,1027 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LnkLinks.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LnkLinks.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkLinks.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LnkLinks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>436, 204</value>
+  </data>
+  <data name="LnkLinks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 17</value>
+  </data>
+  <data name="LnkLinks.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="LnkLinks.Text" xml:space="preserve">
+    <value>Links</value>
+  </data>
+  <data name="&gt;&gt;LnkLinks.Name" xml:space="preserve">
+    <value>LnkLinks</value>
+  </data>
+  <data name="&gt;&gt;LnkLinks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkLinks.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LnkLinks.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LnkGOODHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LnkGOODHelp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkGOODHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkGOODHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 204</value>
+  </data>
+  <data name="LnkGOODHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="LnkGOODHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LnkGOODHelp.Text" xml:space="preserve">
+    <value>GOOD</value>
+  </data>
+  <data name="&gt;&gt;LnkGOODHelp.Name" xml:space="preserve">
+    <value>LnkGOODHelp</value>
+  </data>
+  <data name="&gt;&gt;LnkGOODHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkGOODHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LnkGOODHelp.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LnkInventoryKamera.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LnkInventoryKamera.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkInventoryKamera.Location" type="System.Drawing.Point, System.Drawing">
+    <value>478, 181</value>
+  </data>
+  <data name="LnkInventoryKamera.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="LnkInventoryKamera.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LnkInventoryKamera.Text" xml:space="preserve">
+    <value>存档扫描开源工具</value>
+  </data>
+  <data name="&gt;&gt;LnkInventoryKamera.Name" xml:space="preserve">
+    <value>LnkInventoryKamera</value>
+  </data>
+  <data name="&gt;&gt;LnkInventoryKamera.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkInventoryKamera.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LnkInventoryKamera.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblGOODHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LblGOODHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblGOODHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 137</value>
+  </data>
+  <data name="LblGOODHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 58</value>
+  </data>
+  <data name="LblGOODHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LblGOODHelp.Text" xml:space="preserve">
+    <value>快来将你的官服存档导入GC吧！</value>
+  </data>
+  <data name="&gt;&gt;LblGOODHelp.Name" xml:space="preserve">
+    <value>LblGOODHelp</value>
+  </data>
+  <data name="&gt;&gt;LblGOODHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblGOODHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblGOODHelp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="ButtonOpenGOODImport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ButtonOpenGOODImport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ButtonOpenGOODImport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>476, 201</value>
+  </data>
+  <data name="ButtonOpenGOODImport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 23</value>
+  </data>
+  <data name="ButtonOpenGOODImport.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="ButtonOpenGOODImport.Text" xml:space="preserve">
+    <value>导入GOOD存档</value>
+  </data>
+  <data name="&gt;&gt;ButtonOpenGOODImport.Name" xml:space="preserve">
+    <value>ButtonOpenGOODImport</value>
+  </data>
+  <data name="&gt;&gt;ButtonOpenGOODImport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ButtonOpenGOODImport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ButtonOpenGOODImport.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LblHostTip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LblHostTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblHostTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblHostTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 14</value>
+  </data>
+  <data name="LblHostTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>210, 17</value>
+  </data>
+  <data name="LblHostTip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblHostTip.Text" xml:space="preserve">
+    <value>请确保地址中包含 http:// 或 https:// </value>
+  </data>
+  <data name="&gt;&gt;LblHostTip.Name" xml:space="preserve">
+    <value>LblHostTip</value>
+  </data>
+  <data name="&gt;&gt;LblHostTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblHostTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblHostTip.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GrpServerStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LnkOpenCommandLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkOpenCommandLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkOpenCommandLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 62</value>
+  </data>
+  <data name="LnkOpenCommandLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="LnkOpenCommandLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LnkOpenCommandLabel.Text" xml:space="preserve">
+    <value>远程执行插件</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenCommandLabel.Name" xml:space="preserve">
+    <value>LnkOpenCommandLabel</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenCommandLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenCommandLabel.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenCommandLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblOpenCommandSupport.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblOpenCommandSupport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblOpenCommandSupport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 62</value>
+  </data>
+  <data name="LblOpenCommandSupport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="LblOpenCommandSupport.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LblOpenCommandSupport.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;LblOpenCommandSupport.Name" xml:space="preserve">
+    <value>LblOpenCommandSupport</value>
+  </data>
+  <data name="&gt;&gt;LblOpenCommandSupport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblOpenCommandSupport.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;LblOpenCommandSupport.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblServerVersion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblServerVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblServerVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 28</value>
+  </data>
+  <data name="LblServerVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="LblServerVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LblServerVersion.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersion.Name" xml:space="preserve">
+    <value>LblServerVersion</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersion.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersion.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblPlayerCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPlayerCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblPlayerCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 45</value>
+  </data>
+  <data name="LblPlayerCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
+  </data>
+  <data name="LblPlayerCount.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LblPlayerCount.Text" xml:space="preserve">
+    <value>---</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCount.Name" xml:space="preserve">
+    <value>LblPlayerCount</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCount.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblServerVersionLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblServerVersionLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblServerVersionLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>37, 28</value>
+  </data>
+  <data name="LblServerVersionLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LblServerVersionLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblServerVersionLabel.Text" xml:space="preserve">
+    <value>游戏版本</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersionLabel.Name" xml:space="preserve">
+    <value>LblServerVersionLabel</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersionLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersionLabel.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;LblServerVersionLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LblPlayerCountLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPlayerCountLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblPlayerCountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 45</value>
+  </data>
+  <data name="LblPlayerCountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="LblPlayerCountLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblPlayerCountLabel.Text" xml:space="preserve">
+    <value>当前玩家数</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCountLabel.Name" xml:space="preserve">
+    <value>LblPlayerCountLabel</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCountLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCountLabel.Parent" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerCountLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GrpServerStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 34</value>
+  </data>
+  <data name="GrpServerStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 100</value>
+  </data>
+  <data name="GrpServerStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="GrpServerStatus.Text" xml:space="preserve">
+    <value>服务器状态</value>
+  </data>
+  <data name="&gt;&gt;GrpServerStatus.Name" xml:space="preserve">
+    <value>GrpServerStatus</value>
+  </data>
+  <data name="&gt;&gt;GrpServerStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpServerStatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpServerStatus.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="GrpRemoteCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LnkRCHelp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkRCHelp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkRCHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 15</value>
+  </data>
+  <data name="LnkRCHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LnkRCHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LnkRCHelp.Text" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="&gt;&gt;LnkRCHelp.Name" xml:space="preserve">
+    <value>LnkRCHelp</value>
+  </data>
+  <data name="&gt;&gt;LnkRCHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkRCHelp.Parent" xml:space="preserve">
+    <value>TPPlayerCheck</value>
+  </data>
+  <data name="&gt;&gt;LnkRCHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NUDRemotePlayerId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="NUDRemotePlayerId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 23</value>
+  </data>
+  <data name="NUDRemotePlayerId.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NUDRemotePlayerId.Name" xml:space="preserve">
+    <value>NUDRemotePlayerId</value>
+  </data>
+  <data name="&gt;&gt;NUDRemotePlayerId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDRemotePlayerId.Parent" xml:space="preserve">
+    <value>TPPlayerCheck</value>
+  </data>
+  <data name="&gt;&gt;NUDRemotePlayerId.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnConnectOpenCommand.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="BtnConnectOpenCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnConnectOpenCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 82</value>
+  </data>
+  <data name="BtnConnectOpenCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnConnectOpenCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BtnConnectOpenCommand.Text" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="&gt;&gt;BtnConnectOpenCommand.Name" xml:space="preserve">
+    <value>BtnConnectOpenCommand</value>
+  </data>
+  <data name="&gt;&gt;BtnConnectOpenCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnConnectOpenCommand.Parent" xml:space="preserve">
+    <value>TPPlayerCheck</value>
+  </data>
+  <data name="&gt;&gt;BtnConnectOpenCommand.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblVerificationCode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblVerificationCode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblVerificationCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 44</value>
+  </data>
+  <data name="LblVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblVerificationCode.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="LblVerificationCode.Text" xml:space="preserve">
+    <value>验证码</value>
+  </data>
+  <data name="&gt;&gt;LblVerificationCode.Name" xml:space="preserve">
+    <value>LblVerificationCode</value>
+  </data>
+  <data name="&gt;&gt;LblVerificationCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblVerificationCode.Parent" xml:space="preserve">
+    <value>TPPlayerCheck</value>
+  </data>
+  <data name="&gt;&gt;LblVerificationCode.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnSendVerificationCode.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnSendVerificationCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 42</value>
+  </data>
+  <data name="BtnSendVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnSendVerificationCode.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BtnSendVerificationCode.Text" xml:space="preserve">
+    <value>发送验证码</value>
+  </data>
+  <data name="&gt;&gt;BtnSendVerificationCode.Name" xml:space="preserve">
+    <value>BtnSendVerificationCode</value>
+  </data>
+  <data name="&gt;&gt;BtnSendVerificationCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSendVerificationCode.Parent" xml:space="preserve">
+    <value>TPPlayerCheck</value>
+  </data>
+  <data name="&gt;&gt;BtnSendVerificationCode.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NUDVerificationCode.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="NUDVerificationCode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 42</value>
+  </data>
+  <data name="NUDVerificationCode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 23</value>
+  </data>
+  <data name="NUDVerificationCode.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;NUDVerificationCode.Name" xml:space="preserve">
+    <value>NUDVerificationCode</value>
+  </data>
+  <data name="&gt;&gt;NUDVerificationCode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDVerificationCode.Parent" xml:space="preserve">
+    <value>TPPlayerCheck</value>
+  </data>
+  <data name="&gt;&gt;NUDVerificationCode.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LblRemotePlayerId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblRemotePlayerId.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblRemotePlayerId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 15</value>
+  </data>
+  <data name="LblRemotePlayerId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 17</value>
+  </data>
+  <data name="LblRemotePlayerId.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblRemotePlayerId.Text" xml:space="preserve">
+    <value>UID</value>
+  </data>
+  <data name="&gt;&gt;LblRemotePlayerId.Name" xml:space="preserve">
+    <value>LblRemotePlayerId</value>
+  </data>
+  <data name="&gt;&gt;LblRemotePlayerId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblRemotePlayerId.Parent" xml:space="preserve">
+    <value>TPPlayerCheck</value>
+  </data>
+  <data name="&gt;&gt;LblRemotePlayerId.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TPPlayerCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TPPlayerCheck.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TPPlayerCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 109</value>
+  </data>
+  <data name="TPPlayerCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TPPlayerCheck.Text" xml:space="preserve">
+    <value>玩家验证</value>
+  </data>
+  <data name="&gt;&gt;TPPlayerCheck.Name" xml:space="preserve">
+    <value>TPPlayerCheck</value>
+  </data>
+  <data name="&gt;&gt;TPPlayerCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPPlayerCheck.Parent" xml:space="preserve">
+    <value>TPOpenCommandCheck</value>
+  </data>
+  <data name="&gt;&gt;TPPlayerCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnConsoleConnect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnConsoleConnect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 82</value>
+  </data>
+  <data name="BtnConsoleConnect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnConsoleConnect.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BtnConsoleConnect.Text" xml:space="preserve">
+    <value>连接</value>
+  </data>
+  <data name="&gt;&gt;BtnConsoleConnect.Name" xml:space="preserve">
+    <value>BtnConsoleConnect</value>
+  </data>
+  <data name="&gt;&gt;BtnConsoleConnect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnConsoleConnect.Parent" xml:space="preserve">
+    <value>TPConsoleCheck</value>
+  </data>
+  <data name="&gt;&gt;BtnConsoleConnect.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TxtToken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="TxtToken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 23</value>
+  </data>
+  <data name="TxtToken.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TxtToken.Name" xml:space="preserve">
+    <value>TxtToken</value>
+  </data>
+  <data name="&gt;&gt;TxtToken.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtToken.Parent" xml:space="preserve">
+    <value>TPConsoleCheck</value>
+  </data>
+  <data name="&gt;&gt;TxtToken.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblToken.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblToken.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblToken.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="LblToken.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblToken.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblToken.Text" xml:space="preserve">
+    <value>Token</value>
+  </data>
+  <data name="&gt;&gt;LblToken.Name" xml:space="preserve">
+    <value>LblToken</value>
+  </data>
+  <data name="&gt;&gt;LblToken.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblToken.Parent" xml:space="preserve">
+    <value>TPConsoleCheck</value>
+  </data>
+  <data name="&gt;&gt;LblToken.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblConsoleTip.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt, style=Italic</value>
+  </data>
+  <data name="LblConsoleTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblConsoleTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 39</value>
+  </data>
+  <data name="LblConsoleTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 40</value>
+  </data>
+  <data name="LblConsoleTip.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblConsoleTip.Text" xml:space="preserve">
+    <value>请注意，控制台状态下普通命令必须指定目标
+（即设置包含UID）</value>
+  </data>
+  <data name="&gt;&gt;LblConsoleTip.Name" xml:space="preserve">
+    <value>LblConsoleTip</value>
+  </data>
+  <data name="&gt;&gt;LblConsoleTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblConsoleTip.Parent" xml:space="preserve">
+    <value>TPConsoleCheck</value>
+  </data>
+  <data name="&gt;&gt;LblConsoleTip.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TPConsoleCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TPConsoleCheck.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TPConsoleCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>296, 109</value>
+  </data>
+  <data name="TPConsoleCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TPConsoleCheck.Text" xml:space="preserve">
+    <value>控制台</value>
+  </data>
+  <data name="&gt;&gt;TPConsoleCheck.Name" xml:space="preserve">
+    <value>TPConsoleCheck</value>
+  </data>
+  <data name="&gt;&gt;TPConsoleCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPConsoleCheck.Parent" xml:space="preserve">
+    <value>TPOpenCommandCheck</value>
+  </data>
+  <data name="&gt;&gt;TPConsoleCheck.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TPOpenCommandCheck.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="TPOpenCommandCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="TPOpenCommandCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>304, 139</value>
+  </data>
+  <data name="TPOpenCommandCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TPOpenCommandCheck.Name" xml:space="preserve">
+    <value>TPOpenCommandCheck</value>
+  </data>
+  <data name="&gt;&gt;TPOpenCommandCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPOpenCommandCheck.Parent" xml:space="preserve">
+    <value>GrpRemoteCommand</value>
+  </data>
+  <data name="&gt;&gt;TPOpenCommandCheck.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpRemoteCommand.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="GrpRemoteCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 63</value>
+  </data>
+  <data name="GrpRemoteCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 161</value>
+  </data>
+  <data name="GrpRemoteCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GrpRemoteCommand.Text" xml:space="preserve">
+    <value>远程执行</value>
+  </data>
+  <data name="&gt;&gt;GrpRemoteCommand.Name" xml:space="preserve">
+    <value>GrpRemoteCommand</value>
+  </data>
+  <data name="&gt;&gt;GrpRemoteCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpRemoteCommand.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpRemoteCommand.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="TxtHost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="TxtHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 34</value>
+  </data>
+  <data name="TxtHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>182, 23</value>
+  </data>
+  <data name="TxtHost.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TxtHost.Name" xml:space="preserve">
+    <value>TxtHost</value>
+  </data>
+  <data name="&gt;&gt;TxtHost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtHost.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TxtHost.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="BtnQueryServerStatus.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="BtnQueryServerStatus.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnQueryServerStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 34</value>
+  </data>
+  <data name="BtnQueryServerStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="BtnQueryServerStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BtnQueryServerStatus.Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="&gt;&gt;BtnQueryServerStatus.Name" xml:space="preserve">
+    <value>BtnQueryServerStatus</value>
+  </data>
+  <data name="&gt;&gt;BtnQueryServerStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnQueryServerStatus.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnQueryServerStatus.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="LblHost.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="LblHost.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblHost.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblHost.Location" type="System.Drawing.Point, System.Drawing">
+    <value>62, 37</value>
+  </data>
+  <data name="LblHost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="LblHost.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LblHost.Text" xml:space="preserve">
+    <value>服务器地址</value>
+  </data>
+  <data name="&gt;&gt;LblHost.Name" xml:space="preserve">
+    <value>LblHost</value>
+  </data>
+  <data name="&gt;&gt;LblHost.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblHost.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblHost.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PageOpenCommand</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.7.4.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  </data>
+</root>

@@ -1,6 +1,9 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
+using GrasscutterTools.Properties;
 
 namespace GrasscutterTools.Utils
 {
@@ -40,6 +43,40 @@ namespace GrasscutterTools.Utils
                     listBox.Items.AddRange(source.Where(n => n.Contains(filter)).ToArray());
             }
             listBox.EndUpdate();
+        }
+
+
+        /// <summary>
+        /// 使用浏览器打开网址
+        /// </summary>
+        /// <param name="url">网址</param>
+        public static void OpenURL(string url)
+        {
+            try
+            {
+                System.Diagnostics.Process.Start(url);
+            }
+            catch (Exception)
+            {
+                MessageBox.Show(Resources.BrowserOpenFailedTip + "\n " + url,
+                    Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+
+        /// <summary>
+        /// 提示气泡对象
+        /// </summary>
+        private readonly static ToolTip TTip = new ToolTip();
+
+        /// <summary>
+        /// 在指定控件上显示提示气泡
+        /// </summary>
+        /// <param name="message">消息</param>
+        /// <param name="control">控件</param>
+        public static void ShowTip(string message, Control control)
+        {
+            TTip.Show(message, control, 0, control.Size.Height, 3000);
         }
     }
 }

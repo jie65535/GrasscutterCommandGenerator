@@ -160,6 +160,45 @@
     <Compile Include="GOOD\Weapon.cs" />
     <Compile Include="OpenCommand\OpenCommandAPI.cs" />
     <Compile Include="MultiLanguage.cs" />
+    <Compile Include="Pages\BasePage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageCustomCommands.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageCustomCommands.Designer.cs">
+      <DependentUpon>PageCustomCommands.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageGiveArtifact.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageGiveArtifact.Designer.cs">
+      <DependentUpon>PageGiveArtifact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageGiveWeapon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageGiveWeapon.Designer.cs">
+      <DependentUpon>PageGiveWeapon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageHome.Designer.cs">
+      <DependentUpon>PageHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageOpenCommand.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageOpenCommand.Designer.cs">
+      <DependentUpon>PageOpenCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSpawn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSpawn.Designer.cs">
+      <DependentUpon>PageSpawn.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.zh-TW.Designer.cs">
@@ -168,6 +207,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="Utils\ArtifactUtils.cs" />
+    <Compile Include="Utils\Common.cs" />
     <Compile Include="Utils\HttpHelper.cs" />
     <Compile Include="Utils\ReleaseAPI.cs" />
     <Compile Include="Utils\UIUtil.cs" />
@@ -259,6 +299,78 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormTextMapBrowser.zh-TW.resx">
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageCustomCommands.en-US.resx">
+      <DependentUpon>PageCustomCommands.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageCustomCommands.resx">
+      <DependentUpon>PageCustomCommands.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageCustomCommands.ru-RU.resx">
+      <DependentUpon>PageCustomCommands.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageCustomCommands.zh-TW.resx">
+      <DependentUpon>PageCustomCommands.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageGiveArtifact.en-US.resx">
+      <DependentUpon>PageGiveArtifact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageGiveArtifact.resx">
+      <DependentUpon>PageGiveArtifact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageGiveArtifact.ru-RU.resx">
+      <DependentUpon>PageGiveArtifact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageGiveArtifact.zh-TW.resx">
+      <DependentUpon>PageGiveArtifact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageGiveWeapon.en-US.resx">
+      <DependentUpon>PageGiveWeapon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageGiveWeapon.resx">
+      <DependentUpon>PageGiveWeapon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageGiveWeapon.ru-RU.resx">
+      <DependentUpon>PageGiveWeapon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageGiveWeapon.zh-TW.resx">
+      <DependentUpon>PageGiveWeapon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageHome.en-US.resx">
+      <DependentUpon>PageHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageHome.resx">
+      <DependentUpon>PageHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageHome.ru-RU.resx">
+      <DependentUpon>PageHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageHome.zh-TW.resx">
+      <DependentUpon>PageHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageOpenCommand.en-US.resx">
+      <DependentUpon>PageOpenCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageOpenCommand.resx">
+      <DependentUpon>PageOpenCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageOpenCommand.ru-RU.resx">
+      <DependentUpon>PageOpenCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageOpenCommand.zh-TW.resx">
+      <DependentUpon>PageOpenCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSpawn.en-US.resx">
+      <DependentUpon>PageSpawn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSpawn.resx">
+      <DependentUpon>PageSpawn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSpawn.ru-RU.resx">
+      <DependentUpon>PageSpawn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSpawn.zh-TW.resx">
+      <DependentUpon>PageSpawn.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.zh-TW.resx">
       <Generator>ResXFileCodeGenerator</Generator>

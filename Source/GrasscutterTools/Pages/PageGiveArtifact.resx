@@ -1,0 +1,711 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LnkCharacterBuilder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LnkCharacterBuilder.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkCharacterBuilder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LnkCharacterBuilder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>534, 214</value>
+  </data>
+  <data name="LnkCharacterBuilder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 17</value>
+  </data>
+  <data name="LnkCharacterBuilder.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="LnkCharacterBuilder.Text" xml:space="preserve">
+    <value>Character Builder</value>
+  </data>
+  <data name="&gt;&gt;LnkCharacterBuilder.Name" xml:space="preserve">
+    <value>LnkCharacterBuilder</value>
+  </data>
+  <data name="&gt;&gt;LnkCharacterBuilder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkCharacterBuilder.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LnkCharacterBuilder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblArtifactLevelTip.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblArtifactLevelTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblArtifactLevelTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblArtifactLevelTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>218, 37</value>
+  </data>
+  <data name="LblArtifactLevelTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="LblArtifactLevelTip.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LblArtifactLevelTip.Text" xml:space="preserve">
+    <value>[0-20]</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevelTip.Name" xml:space="preserve">
+    <value>LblArtifactLevelTip</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevelTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevelTip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevelTip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnAddSubAttr.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="BtnAddSubAttr.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAddSubAttr.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 125</value>
+  </data>
+  <data name="BtnAddSubAttr.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnAddSubAttr.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="BtnAddSubAttr.Text" xml:space="preserve">
+    <value>+ 添加</value>
+  </data>
+  <data name="&gt;&gt;BtnAddSubAttr.Name" xml:space="preserve">
+    <value>BtnAddSubAttr</value>
+  </data>
+  <data name="&gt;&gt;BtnAddSubAttr.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAddSubAttr.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnAddSubAttr.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblArtifactName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblArtifactName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblArtifactName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblArtifactName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 7</value>
+  </data>
+  <data name="LblArtifactName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 17</value>
+  </data>
+  <data name="LblArtifactName.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactName.Name" xml:space="preserve">
+    <value>LblArtifactName</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblArtifactPart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblArtifactPart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblArtifactPart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblArtifactPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 7</value>
+  </data>
+  <data name="LblArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblArtifactPart.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblArtifactPart.Text" xml:space="preserve">
+    <value>部位</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactPart.Name" xml:space="preserve">
+    <value>LblArtifactPart</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactPart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactPart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactPart.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="CmbArtifactPart.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CmbArtifactPart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 4</value>
+  </data>
+  <data name="CmbArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="CmbArtifactPart.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactPart.Name" xml:space="preserve">
+    <value>CmbArtifactPart</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactPart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactPart.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactPart.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CmbArtifactSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CmbArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 4</value>
+  </data>
+  <data name="CmbArtifactSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 25</value>
+  </data>
+  <data name="CmbArtifactSet.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactSet.Name" xml:space="preserve">
+    <value>CmbArtifactSet</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CmbArtifactSet.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LblArtifactSet.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblArtifactSet.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblArtifactSet.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 7</value>
+  </data>
+  <data name="LblArtifactSet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblArtifactSet.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblArtifactSet.Text" xml:space="preserve">
+    <value>套装</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactSet.Name" xml:space="preserve">
+    <value>LblArtifactSet</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactSet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactSet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactSet.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NUDSubAttributionTimes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDSubAttributionTimes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>460, 96</value>
+  </data>
+  <data name="NUDSubAttributionTimes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 23</value>
+  </data>
+  <data name="NUDSubAttributionTimes.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;NUDSubAttributionTimes.Name" xml:space="preserve">
+    <value>NUDSubAttributionTimes</value>
+  </data>
+  <data name="&gt;&gt;NUDSubAttributionTimes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDSubAttributionTimes.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NUDSubAttributionTimes.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="CmbSubAttributionValue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CmbSubAttributionValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 94</value>
+  </data>
+  <data name="CmbSubAttributionValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
+  </data>
+  <data name="CmbSubAttributionValue.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttributionValue.Name" xml:space="preserve">
+    <value>CmbSubAttributionValue</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttributionValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttributionValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttributionValue.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="CmbSubAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CmbSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 95</value>
+  </data>
+  <data name="CmbSubAttribution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 25</value>
+  </data>
+  <data name="CmbSubAttribution.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttribution.Name" xml:space="preserve">
+    <value>CmbSubAttribution</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttribution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttribution.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CmbSubAttribution.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>457, 214</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.Text" xml:space="preserve">
+    <value>X 清空</value>
+  </data>
+  <data name="&gt;&gt;LblClearSubAttrCheckedList.Name" xml:space="preserve">
+    <value>LblClearSubAttrCheckedList</value>
+  </data>
+  <data name="&gt;&gt;LblClearSubAttrCheckedList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblClearSubAttrCheckedList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblClearSubAttrCheckedList.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="ListSubAttributionChecked.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom</value>
+  </data>
+  <data name="ListSubAttributionChecked.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ListSubAttributionChecked.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 125</value>
+  </data>
+  <data name="ListSubAttributionChecked.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 106</value>
+  </data>
+  <data name="ListSubAttributionChecked.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ListSubAttributionChecked.Name" xml:space="preserve">
+    <value>ListSubAttributionChecked</value>
+  </data>
+  <data name="&gt;&gt;ListSubAttributionChecked.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListSubAttributionChecked.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ListSubAttributionChecked.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="LblArtifactLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblArtifactLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblArtifactLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>124, 37</value>
+  </data>
+  <data name="LblArtifactLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblArtifactLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LblArtifactLevel.Text" xml:space="preserve">
+    <value>等级</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevel.Name" xml:space="preserve">
+    <value>LblArtifactLevel</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactLevel.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="LblSubAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblSubAttribution.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblSubAttribution.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 98</value>
+  </data>
+  <data name="LblSubAttribution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblSubAttribution.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="LblSubAttribution.Text" xml:space="preserve">
+    <value>副词条</value>
+  </data>
+  <data name="&gt;&gt;LblSubAttribution.Name" xml:space="preserve">
+    <value>LblSubAttribution</value>
+  </data>
+  <data name="&gt;&gt;LblSubAttribution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblSubAttribution.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblSubAttribution.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="CmbMainAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CmbMainAttribution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 64</value>
+  </data>
+  <data name="CmbMainAttribution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>289, 25</value>
+  </data>
+  <data name="CmbMainAttribution.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;CmbMainAttribution.Name" xml:space="preserve">
+    <value>CmbMainAttribution</value>
+  </data>
+  <data name="&gt;&gt;CmbMainAttribution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbMainAttribution.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CmbMainAttribution.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="LblMainAttribution.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblMainAttribution.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblMainAttribution.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblMainAttribution.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 67</value>
+  </data>
+  <data name="LblMainAttribution.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblMainAttribution.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="LblMainAttribution.Text" xml:space="preserve">
+    <value>主词条</value>
+  </data>
+  <data name="&gt;&gt;LblMainAttribution.Name" xml:space="preserve">
+    <value>LblMainAttribution</value>
+  </data>
+  <data name="&gt;&gt;LblMainAttribution.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMainAttribution.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblMainAttribution.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="NUDArtifactLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 35</value>
+  </data>
+  <data name="NUDArtifactLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="NUDArtifactLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactLevel.Name" xml:space="preserve">
+    <value>NUDArtifactLevel</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactLevel.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="LblArtifactStars.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblArtifactStars.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblArtifactStars.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>348, 37</value>
+  </data>
+  <data name="LblArtifactStars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblArtifactStars.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblArtifactStars.Text" xml:space="preserve">
+    <value>星级</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactStars.Name" xml:space="preserve">
+    <value>LblArtifactStars</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactStars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactStars.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblArtifactStars.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="NUDArtifactStars.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 35</value>
+  </data>
+  <data name="NUDArtifactStars.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="NUDArtifactStars.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactStars.Name" xml:space="preserve">
+    <value>NUDArtifactStars</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactStars.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactStars.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NUDArtifactStars.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PageGiveArtifact</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.7.4.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  </data>
+</root>

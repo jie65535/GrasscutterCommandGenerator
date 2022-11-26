@@ -1,0 +1,1914 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="RbAtN.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ListEntity.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="NUDAiwiRadius.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TxtAtEntityQ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="NUDEntityPosX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="&gt;&gt;TPAttackInfusedArgs.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LnkAttackModifierPlugin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityPosZ.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NUDAiwiSpread.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiSpread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtAtEntityN.Name" xml:space="preserve">
+    <value>TxtAtEntityN</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRotateY.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="LblAiwiRotate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 17</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiHeight.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="LblEntitySpawnPostion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TPAttackModArgs.Text" xml:space="preserve">
+    <value>攻击修改参数</value>
+  </data>
+  <data name="LblEntityHp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 82</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRadius.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="&gt;&gt;LblClearSpawnLogs.Parent" xml:space="preserve">
+    <value>FLPSpawnRecordControls</value>
+  </data>
+  <data name="&gt;&gt;LnkAttackModifierPlugin.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LblSpawnVersionRequireTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRotateX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnRemoveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 3</value>
+  </data>
+  <data name="LnkAttackModifierPlugin.Text" xml:space="preserve">
+    <value>AttackModifier</value>
+  </data>
+  <data name="BtnAtClear.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BtnAiwiReset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;TCSpawnItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RbAtQ.Text" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="&gt;&gt;RbAtN.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;FLPSpawnRecordControls.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpAMSkills.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 61</value>
+  </data>
+  <data name="LblAiwiRotate.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;LblInfiniteHpTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblAMPlugin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkAMOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 17</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityMaxHp.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="LblEntityLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblEntityAmount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 27</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityAmout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiHeight.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LnkAttackModifierPlugin.Parent" xml:space="preserve">
+    <value>TPAttackModArgs</value>
+  </data>
+  <data name="RbAtE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TxtEntityFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtAtEntityQ.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;LblAMPluginIntroduction.Parent" xml:space="preserve">
+    <value>TPAttackModArgs</value>
+  </data>
+  <data name="ListSpawnLogs.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;TPSpawnRecords.Name" xml:space="preserve">
+    <value>TPSpawnRecords</value>
+  </data>
+  <data name="LblEntityAmount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblEntityDef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 128</value>
+  </data>
+  <data name="&gt;&gt;TxtAtEntityE.Name" xml:space="preserve">
+    <value>TxtAtEntityE</value>
+  </data>
+  <data name="&gt;&gt;BtnAiwiReset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelEntityFilterBar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
+    <value>× 删除</value>
+  </data>
+  <data name="BtnFilterEntity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 24</value>
+  </data>
+  <data name="BtnAtReload.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;LblSpawnVersionRequireTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnAiwiClear.Text" xml:space="preserve">
+    <value>清空实体</value>
+  </data>
+  <data name="LblAiwiCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="FLPSpawnRecordControls.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnAtClear.Parent" xml:space="preserve">
+    <value>TPAttackModArgs</value>
+  </data>
+  <data name="&gt;&gt;TPAttackInfusedArgs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblAMPlugin.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BtnAttackInfuse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblEntityAmount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;FLPSpawnRecordControls.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityHp.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="LblAiwiPlugin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="&gt;&gt;TPSpawnRecords.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiRadius.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityPosZ.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="LblAiwiRotate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 103</value>
+  </data>
+  <data name="BtnFilterEntity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 3</value>
+  </data>
+  <data name="&gt;&gt;LblAMPluginTip.Parent" xml:space="preserve">
+    <value>TPAttackModArgs</value>
+  </data>
+  <data name="BtnAttackInfuse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="NUDAiwiCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="&gt;&gt;RbAtQ.Name" xml:space="preserve">
+    <value>RbAtQ</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiRotate.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="BtnRemoveSpawnLog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityPosX.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NUDAiwiCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 72</value>
+  </data>
+  <data name="NUDAiwiRotateY.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="NUDAiwiRotateY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>157, 101</value>
+  </data>
+  <data name="&gt;&gt;FLPSpawnRecordControls.Name" xml:space="preserve">
+    <value>FLPSpawnRecordControls</value>
+  </data>
+  <data name="NUDEntityAmout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 25</value>
+  </data>
+  <data name="LblAiwiRadius.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 45</value>
+  </data>
+  <data name="&gt;&gt;BtnAttackInfuse.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="TPAttackModArgs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;LnkAttackModifierPlugin.Name" xml:space="preserve">
+    <value>LnkAttackModifierPlugin</value>
+  </data>
+  <data name="LblAiwiHeight.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblEntityMaxHp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiHeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblEntityMaxHp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblAMPluginIntroduction.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityPosZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiSpread.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LblInfiniteHpTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RbAtE.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LnkAMOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FLPSpawnRecordControls.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="&gt;&gt;BtnFilterEntity.Name" xml:space="preserve">
+    <value>BtnFilterEntity</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiHeight.Name" xml:space="preserve">
+    <value>LblAiwiHeight</value>
+  </data>
+  <data name="&gt;&gt;RbAtN.Parent" xml:space="preserve">
+    <value>GrpAMSkills</value>
+  </data>
+  <data name="&gt;&gt;GrpAMSkills.Parent" xml:space="preserve">
+    <value>TPAttackModArgs</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityDef.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LnkAttackInfusedWithItem.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRotateY.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblClearSpawnLogs.Text" xml:space="preserve">
+    <value>X 清空</value>
+  </data>
+  <data name="TPAttackModArgs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 195</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityLevel.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="BtnSaveSpawnLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="LblEntityHp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblAMPlugin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="TCSpawnItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="LblAMPlugin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="&gt;&gt;TxtAtEntityN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PanelEntityFilterBar.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblAiwiRotate.Text" xml:space="preserve">
+    <value>旋转： x:                    y:                    z:</value>
+  </data>
+  <data name="LnkAMOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 17</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiPlugin.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="RbAtQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 73</value>
+  </data>
+  <data name="&gt;&gt;TPSpawnItems.Parent" xml:space="preserve">
+    <value>TCSpawnItems</value>
+  </data>
+  <data name="BtnFilterEntity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAtClear.Text" xml:space="preserve">
+    <value>清空实体！！</value>
+  </data>
+  <data name="&gt;&gt;TxtAtEntityN.Parent" xml:space="preserve">
+    <value>GrpAMSkills</value>
+  </data>
+  <data name="NUDEntityDef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="LblAMPluginTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnAttackInfuse.Name" xml:space="preserve">
+    <value>BtnAttackInfuse</value>
+  </data>
+  <data name="LblEntityHp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnAiwiReload.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="NUDAiwiRotateZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>248, 101</value>
+  </data>
+  <data name="LblEntityLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblEntityAtk.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="NUDEntityAmout.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TxtEntityFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 3</value>
+  </data>
+  <data name="&gt;&gt;LnkAMOn.Parent" xml:space="preserve">
+    <value>TPAttackModArgs</value>
+  </data>
+  <data name="NUDEntityHp.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LblAiwiCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 74</value>
+  </data>
+  <data name="LblEntityLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityDef.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiRadius.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblEntityDef.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="NUDEntityPosX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 155</value>
+  </data>
+  <data name="RbAtN.Text" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="LblEntityAmount.Text" xml:space="preserve">
+    <value>数量：</value>
+  </data>
+  <data name="&gt;&gt;BtnAtClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ListEntity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 159</value>
+  </data>
+  <data name="&gt;&gt;LblEntityMaxHp.Name" xml:space="preserve">
+    <value>LblEntityMaxHp</value>
+  </data>
+  <data name="&gt;&gt;LblAMPluginIntroduction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblSpawnVersionRequireTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 60</value>
+  </data>
+  <data name="&gt;&gt;TPAttackModArgs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblEntityDef.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;LnkAMOff.Parent" xml:space="preserve">
+    <value>TPAttackModArgs</value>
+  </data>
+  <data name="LblAMPlugin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="BtnAtReload.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityAtk.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="LblAiwiSpread.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="BtnAttackInfuse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>94, 130</value>
+  </data>
+  <data name="NUDEntityHp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="LblEntityAtk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="TPAttackInfusedArgs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LblEntitySpawnPostion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblAiwiSpread.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TxtEntityFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 23</value>
+  </data>
+  <data name="&gt;&gt;TPAttackModArgs.Parent" xml:space="preserve">
+    <value>TCSpawnSettings</value>
+  </data>
+  <data name="&gt;&gt;TPSpawnArgs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblInfiniteHpTip.Text" xml:space="preserve">
+    <value>血量为 0 表示无限</value>
+  </data>
+  <data name="&gt;&gt;LblAMPlugin.Parent" xml:space="preserve">
+    <value>TPAttackModArgs</value>
+  </data>
+  <data name="RbAtQ.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TPSpawnArgs.Parent" xml:space="preserve">
+    <value>TCSpawnSettings</value>
+  </data>
+  <data name="&gt;&gt;ListSpawnLogs.Parent" xml:space="preserve">
+    <value>TPSpawnRecords</value>
+  </data>
+  <data name="RbAtN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 15</value>
+  </data>
+  <data name="TxtAtEntityN.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityHp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LblEntityMaxHp.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="BtnAttackInfuse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;TxtAtEntityN.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TxtAtEntityQ.Name" xml:space="preserve">
+    <value>TxtAtEntityQ</value>
+  </data>
+  <data name="&gt;&gt;GrpAMSkills.Name" xml:space="preserve">
+    <value>GrpAMSkills</value>
+  </data>
+  <data name="LblAMPluginIntroduction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 17</value>
+  </data>
+  <data name="NUDEntityPosZ.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="LblSpawnVersionRequireTip.Text" xml:space="preserve">
+    <value>以下参数至少要求 GC v1.3.1</value>
+  </data>
+  <data name="&gt;&gt;TPAttackModArgs.Name" xml:space="preserve">
+    <value>TPAttackModArgs</value>
+  </data>
+  <data name="BtnRemoveSpawnLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="LnkAMOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 3</value>
+  </data>
+  <data name="GrpAMSkills.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;RbAtN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityAmout.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ListSpawnLogs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblInfiniteHpTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TPSpawnItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TxtAtEntityQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 23</value>
+  </data>
+  <data name="&gt;&gt;BtnAiwiReload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblAiwiRotate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;ListSpawnLogs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnAttackInfuse.Text" xml:space="preserve">
+    <value>攻击注入</value>
+  </data>
+  <data name="&gt;&gt;LblEntityDef.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtAtEntityE.Parent" xml:space="preserve">
+    <value>GrpAMSkills</value>
+  </data>
+  <data name="NUDEntityMaxHp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="NUDAiwiHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;LblAMPluginIntroduction.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TPSpawnArgs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="LblAiwiPlugin.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityAtk.Name" xml:space="preserve">
+    <value>NUDEntityAtk</value>
+  </data>
+  <data name="LnkAttackInfusedWithItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 17</value>
+  </data>
+  <data name="LblAiwiHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 45</value>
+  </data>
+  <data name="&gt;&gt;TxtEntityFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblEntityDef.Text" xml:space="preserve">
+    <value>防御力：</value>
+  </data>
+  <data name="TxtAtEntityN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 23</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveSpawnLog.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LblEntityLevel.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="TPSpawnArgs.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TPAttackInfusedArgs.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="LblAMPluginIntroduction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 24</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiSpread.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="LblAiwiRadius.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblEntityLevel.Text" xml:space="preserve">
+    <value>等级：</value>
+  </data>
+  <data name="&gt;&gt;LblEntityAtk.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="LblEntityMaxHp.Text" xml:space="preserve">
+    <value>最大血量：</value>
+  </data>
+  <data name="&gt;&gt;RbAtQ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiRadius.Name" xml:space="preserve">
+    <value>LblAiwiRadius</value>
+  </data>
+  <data name="TPSpawnRecords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveSpawnLog.Name" xml:space="preserve">
+    <value>BtnRemoveSpawnLog</value>
+  </data>
+  <data name="TCSpawnItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>355, 7</value>
+  </data>
+  <data name="TPAttackModArgs.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="LblInfiniteHpTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="&gt;&gt;RbAtE.Parent" xml:space="preserve">
+    <value>GrpAMSkills</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityPosX.Name" xml:space="preserve">
+    <value>NUDEntityPosX</value>
+  </data>
+  <data name="NUDEntityAtk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 126</value>
+  </data>
+  <data name="&gt;&gt;BtnAtClear.Name" xml:space="preserve">
+    <value>BtnAtClear</value>
+  </data>
+  <data name="BtnAiwiReset.Text" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="TPAttackInfusedArgs.Text" xml:space="preserve">
+    <value>攻击注入参数</value>
+  </data>
+  <data name="BtnAtClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblEntityHp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LnkAMOff.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiPlugin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityMaxHp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListEntity.Parent" xml:space="preserve">
+    <value>TPSpawnItems</value>
+  </data>
+  <data name="TPSpawnItems.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRadius.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="NUDAiwiSpread.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 72</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityLevel.Name" xml:space="preserve">
+    <value>NUDEntityLevel</value>
+  </data>
+  <data name="&gt;&gt;ListEntity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblInfiniteHpTip.Name" xml:space="preserve">
+    <value>LblInfiniteHpTip</value>
+  </data>
+  <data name="&gt;&gt;LblAMPluginTip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NUDAiwiRotateX.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;RbAtE.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnAtClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 170</value>
+  </data>
+  <data name="&gt;&gt;LblEntityAmount.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;LblClearSpawnLogs.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblEntitySpawnPostion.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityPosX.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="&gt;&gt;LblEntitySpawnPostion.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="TPSpawnItems.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RbAtQ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LblEntitySpawnPostion.Name" xml:space="preserve">
+    <value>LblEntitySpawnPostion</value>
+  </data>
+  <data name="RbAtE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>14, 44</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityHp.Name" xml:space="preserve">
+    <value>NUDEntityHp</value>
+  </data>
+  <data name="RbAtE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiRotate.Name" xml:space="preserve">
+    <value>LblAiwiRotate</value>
+  </data>
+  <data name="&gt;&gt;BtnAiwiReset.Name" xml:space="preserve">
+    <value>BtnAiwiReset</value>
+  </data>
+  <data name="ListSpawnLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TPSpawnArgs.Name" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRotateZ.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ListSpawnLogs.Name" xml:space="preserve">
+    <value>ListSpawnLogs</value>
+  </data>
+  <data name="LblEntityDef.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="&gt;&gt;TCSpawnSettings.Name" xml:space="preserve">
+    <value>TCSpawnSettings</value>
+  </data>
+  <data name="LblEntityDef.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;TPSpawnItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblSpawnVersionRequireTip.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="&gt;&gt;LblEntityLevel.Name" xml:space="preserve">
+    <value>LblEntityLevel</value>
+  </data>
+  <data name="&gt;&gt;TCSpawnSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblAiwiSpread.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityMaxHp.Name" xml:space="preserve">
+    <value>NUDEntityMaxHp</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRotateX.Name" xml:space="preserve">
+    <value>NUDAiwiRotateX</value>
+  </data>
+  <data name="&gt;&gt;LblSpawnVersionRequireTip.Name" xml:space="preserve">
+    <value>LblSpawnVersionRequireTip</value>
+  </data>
+  <data name="&gt;&gt;RbAtE.Name" xml:space="preserve">
+    <value>RbAtE</value>
+  </data>
+  <data name="RbAtE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 21</value>
+  </data>
+  <data name="LblEntityLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NUDEntityHp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 80</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiCount.Name" xml:space="preserve">
+    <value>LblAiwiCount</value>
+  </data>
+  <data name="BtnAiwiClear.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityPosY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblClearSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="&gt;&gt;LblEntitySpawnPostion.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;BtnAiwiReload.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;LblEntityLevel.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="ListSpawnLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 160</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityDef.Name" xml:space="preserve">
+    <value>NUDEntityDef</value>
+  </data>
+  <data name="&gt;&gt;LnkAMOff.Name" xml:space="preserve">
+    <value>LnkAMOff</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiCount.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;BtnAiwiClear.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="LblAiwiCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="NUDEntityDef.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="LblAiwiHeight.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LnkAttackInfusedWithItem.Text" xml:space="preserve">
+    <value>AttackInfusedWithItem</value>
+  </data>
+  <data name="TPSpawnArgs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 195</value>
+  </data>
+  <data name="&gt;&gt;BtnFilterEntity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityLevel.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;BtnFilterEntity.Parent" xml:space="preserve">
+    <value>PanelEntityFilterBar</value>
+  </data>
+  <data name="&gt;&gt;TxtEntityFilter.Parent" xml:space="preserve">
+    <value>PanelEntityFilterBar</value>
+  </data>
+  <data name="&gt;&gt;LblEntityDef.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;TCSpawnSettings.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblEntitySpawnPostion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 157</value>
+  </data>
+  <data name="&gt;&gt;LnkAttackInfusedWithItem.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="LblEntityAtk.Text" xml:space="preserve">
+    <value>攻击力：</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiSpread.Name" xml:space="preserve">
+    <value>NUDAiwiSpread</value>
+  </data>
+  <data name="BtnFilterEntity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LblAiwiHeight.Text" xml:space="preserve">
+    <value>高度：</value>
+  </data>
+  <data name="&gt;&gt;ListEntity.Name" xml:space="preserve">
+    <value>ListEntity</value>
+  </data>
+  <data name="LblEntityDef.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkAMOn.Text" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="LblAMPluginIntroduction.Text" xml:space="preserve">
+    <value>这个插件可以使用 Gadget 替换角色攻击</value>
+  </data>
+  <data name="&gt;&gt;TCSpawnItems.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="RbAtN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LnkAttackInfusedWithItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NUDEntityMaxHp.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LblAMPluginTip.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;TxtAtEntityQ.Parent" xml:space="preserve">
+    <value>GrpAMSkills</value>
+  </data>
+  <data name="BtnFilterEntity.Text" xml:space="preserve">
+    <value>三</value>
+  </data>
+  <data name="PanelEntityFilterBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;BtnAiwiReload.Name" xml:space="preserve">
+    <value>BtnAiwiReload</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityAmout.Name" xml:space="preserve">
+    <value>NUDEntityAmout</value>
+  </data>
+  <data name="&gt;&gt;TPSpawnRecords.Parent" xml:space="preserve">
+    <value>TCSpawnItems</value>
+  </data>
+  <data name="GrpAMSkills.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 103</value>
+  </data>
+  <data name="LnkAttackModifierPlugin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="BtnAiwiReset.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;LblEntityDef.Name" xml:space="preserve">
+    <value>LblEntityDef</value>
+  </data>
+  <data name="LblEntityAmount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiSpread.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPSpawnArgs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityPosZ.Name" xml:space="preserve">
+    <value>NUDEntityPosZ</value>
+  </data>
+  <data name="&gt;&gt;MenuSpawnEntityFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblAMPlugin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;BtnAiwiClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LnkAttackInfusedWithItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityAtk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiRotate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtAtEntityE.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblSpawnVersionRequireTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnAiwiReload.Text" xml:space="preserve">
+    <value>重载配置</value>
+  </data>
+  <data name="LblAiwiRadius.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblAMPluginTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 41</value>
+  </data>
+  <data name="LblAMPluginTip.Text" xml:space="preserve">
+    <value>见识一下真正的雷神吧！</value>
+  </data>
+  <data name="TPSpawnItems.Text" xml:space="preserve">
+    <value>实体列表</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiRotate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;RbAtN.Name" xml:space="preserve">
+    <value>RbAtN</value>
+  </data>
+  <data name="LblAMPluginIntroduction.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TPAttackInfusedArgs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>338, 195</value>
+  </data>
+  <data name="LnkAttackInfusedWithItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 3</value>
+  </data>
+  <data name="LblAiwiSpread.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 74</value>
+  </data>
+  <data name="&gt;&gt;TxtEntityFilter.Name" xml:space="preserve">
+    <value>TxtEntityFilter</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRotateZ.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="NUDEntityPosZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="NUDAiwiCount.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;BtnAtClear.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityPosX.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LblClearSpawnLogs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TPSpawnItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 195</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PageSpawn</value>
+  </data>
+  <data name="&gt;&gt;LblEntityHp.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;GrpAMSkills.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;PanelEntityFilterBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RbAtE.Text" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="&gt;&gt;LblEntityAtk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRotateZ.Name" xml:space="preserve">
+    <value>NUDAiwiRotateZ</value>
+  </data>
+  <data name="LblAMPluginTip.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblEntityMaxHp.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LnkAMOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPAttackInfusedArgs.Name" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="ListEntity.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiCount.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveSpawnLog.Parent" xml:space="preserve">
+    <value>FLPSpawnRecordControls</value>
+  </data>
+  <data name="&gt;&gt;BtnAiwiClear.Name" xml:space="preserve">
+    <value>BtnAiwiClear</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiCount.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="&gt;&gt;ListEntity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TCSpawnSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;LblEntityMaxHp.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="NUDAiwiHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="&gt;&gt;LblEntityLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAiwiReset.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="LnkAMOff.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnAiwiReset.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NUDEntityAmout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRotateX.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="&gt;&gt;TxtAtEntityE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="FLPSpawnRecordControls.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="RbAtN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 21</value>
+  </data>
+  <data name="NUDEntityAtk.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityPosY.Name" xml:space="preserve">
+    <value>NUDEntityPosY</value>
+  </data>
+  <data name="&gt;&gt;TCSpawnItems.Name" xml:space="preserve">
+    <value>TCSpawnItems</value>
+  </data>
+  <data name="LnkAMOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAiwiReload.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblAiwiSpread.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblClearSpawnLogs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="GrpAMSkills.Text" xml:space="preserve">
+    <value>替换技能</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiCount.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="BtnAiwiClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblEntitySpawnPostion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NUDEntityMaxHp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 80</value>
+  </data>
+  <data name="NUDAiwiSpread.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="LblEntityAtk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>19, 128</value>
+  </data>
+  <data name="LblEntityAtk.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NUDEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 25</value>
+  </data>
+  <data name="&gt;&gt;LblInfiniteHpTip.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="NUDEntityPosY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>169, 155</value>
+  </data>
+  <data name="&gt;&gt;LblEntityAmount.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="&gt;&gt;LblEntityAtk.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="NUDEntityAtk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="&gt;&gt;LnkAMOn.Name" xml:space="preserve">
+    <value>LnkAMOn</value>
+  </data>
+  <data name="&gt;&gt;BtnAtReload.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiHeight.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="BtnRemoveSpawnLog.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TxtAtEntityQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 72</value>
+  </data>
+  <data name="BtnAiwiReload.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="BtnAiwiReset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 166</value>
+  </data>
+  <data name="TPSpawnArgs.Text" xml:space="preserve">
+    <value>生成参数</value>
+  </data>
+  <data name="TxtAtEntityE.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LblEntityAmount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ListSpawnLogs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;TPAttackInfusedArgs.Parent" xml:space="preserve">
+    <value>TCSpawnSettings</value>
+  </data>
+  <data name="LnkAttackModifierPlugin.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiPlugin.Name" xml:space="preserve">
+    <value>LblAiwiPlugin</value>
+  </data>
+  <data name="LnkAMOn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblEntityHp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAtReload.Name" xml:space="preserve">
+    <value>BtnAtReload</value>
+  </data>
+  <data name="&gt;&gt;LblInfiniteHpTip.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="TPSpawnRecords.Text" xml:space="preserve">
+    <value>生成记录本</value>
+  </data>
+  <data name="&gt;&gt;BtnFilterEntity.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveSpawnLog.Name" xml:space="preserve">
+    <value>BtnSaveSpawnLog</value>
+  </data>
+  <data name="&gt;&gt;BtnAiwiReset.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="TCSpawnItems.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LblAiwiPlugin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRotateY.Name" xml:space="preserve">
+    <value>NUDAiwiRotateY</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiRadius.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;LblClearSpawnLogs.Name" xml:space="preserve">
+    <value>LblClearSpawnLogs</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiHeight.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="FLPSpawnRecordControls.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 163</value>
+  </data>
+  <data name="NUDAiwiRotateX.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 101</value>
+  </data>
+  <data name="TPSpawnRecords.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LblEntityHp.Name" xml:space="preserve">
+    <value>LblEntityHp</value>
+  </data>
+  <data name="BtnSaveSpawnLog.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtnRemoveSpawnLog.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;GrpAMSkills.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NUDAiwiRotateZ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="LblEntityMaxHp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>170, 82</value>
+  </data>
+  <data name="BtnAiwiClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 166</value>
+  </data>
+  <data name="LblEntityAmount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NUDEntityPosY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="LblAiwiPlugin.Text" xml:space="preserve">
+    <value>插件：</value>
+  </data>
+  <data name="BtnAiwiClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="LnkAMOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>156, 3</value>
+  </data>
+  <data name="LnkAttackModifierPlugin.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PanelEntityFilterBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 30</value>
+  </data>
+  <data name="LblAiwiHeight.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="BtnSaveSpawnLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;LblEntityAtk.Name" xml:space="preserve">
+    <value>LblEntityAtk</value>
+  </data>
+  <data name="NUDAiwiRotateX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="LblAiwiRadius.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TPSpawnRecords.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
+    <value>√ 记录</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveSpawnLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnAiwiReload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="LnkAttackInfusedWithItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblAiwiCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TPAttackModArgs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkAttackModifierPlugin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblAiwiPlugin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiSpread.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveSpawnLog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblInfiniteHpTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 106</value>
+  </data>
+  <data name="TxtAtEntityE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 23</value>
+  </data>
+  <data name="LblEntityAtk.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;LblAMPlugin.Name" xml:space="preserve">
+    <value>LblAMPlugin</value>
+  </data>
+  <data name="&gt;&gt;TCSpawnItems.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiCount.Name" xml:space="preserve">
+    <value>NUDAiwiCount</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiPlugin.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRotateY.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityHp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblAiwiHeight.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnAiwiReload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 166</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiHeight.Name" xml:space="preserve">
+    <value>NUDAiwiHeight</value>
+  </data>
+  <data name="LblSpawnVersionRequireTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 17</value>
+  </data>
+  <data name="LblClearSpawnLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RbAtQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 21</value>
+  </data>
+  <data name="&gt;&gt;LblEntityHp.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="LblInfiniteHpTip.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="RbAtQ.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TPSpawnItems.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TxtAtEntityQ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblAiwiRotate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NUDAiwiRadius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityPosY.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="BtnAttackInfuse.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;LblAMPlugin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtAtEntityE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 43</value>
+  </data>
+  <data name="BtnAtReload.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 170</value>
+  </data>
+  <data name="BtnSaveSpawnLog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="FLPSpawnRecordControls.Size" type="System.Drawing.Size, System.Drawing">
+    <value>274, 29</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRotateZ.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblClearSpawnLogs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRotateX.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TPAttackModArgs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LblAiwiCount.Text" xml:space="preserve">
+    <value>数量：</value>
+  </data>
+  <data name="&gt;&gt;FLPSpawnRecordControls.Parent" xml:space="preserve">
+    <value>TPSpawnRecords</value>
+  </data>
+  <data name="NUDAiwiRotateY.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="TCSpawnSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>346, 225</value>
+  </data>
+  <data name="TCSpawnItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 225</value>
+  </data>
+  <data name="TCSpawnSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblAMPluginTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAttackInfuse.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="BtnAtReload.Text" xml:space="preserve">
+    <value>重载配置</value>
+  </data>
+  <data name="TxtEntityFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiSpread.Parent" xml:space="preserve">
+    <value>TPAttackInfusedArgs</value>
+  </data>
+  <data name="LblAMPluginIntroduction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRadius.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblAiwiCount.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="TCSpawnSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="ListEntity.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="LblEntitySpawnPostion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>235, 17</value>
+  </data>
+  <data name="&gt;&gt;TCSpawnSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblAiwiRadius.Text" xml:space="preserve">
+    <value>范围：</value>
+  </data>
+  <data name="ListSpawnLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;RbAtE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PanelEntityFilterBar.Name" xml:space="preserve">
+    <value>PanelEntityFilterBar</value>
+  </data>
+  <data name="NUDEntityPosZ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 155</value>
+  </data>
+  <data name="LblSpawnVersionRequireTip.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LblAMPluginTip.Name" xml:space="preserve">
+    <value>LblAMPluginTip</value>
+  </data>
+  <data name="&gt;&gt;BtnAiwiClear.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;MenuSpawnEntityFilter.Name" xml:space="preserve">
+    <value>MenuSpawnEntityFilter</value>
+  </data>
+  <data name="BtnAtClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 23</value>
+  </data>
+  <data name="LnkAMOff.Text" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.7.4.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  </data>
+  <data name="&gt;&gt;LnkAttackInfusedWithItem.Name" xml:space="preserve">
+    <value>LnkAttackInfusedWithItem</value>
+  </data>
+  <data name="&gt;&gt;RbAtQ.Parent" xml:space="preserve">
+    <value>GrpAMSkills</value>
+  </data>
+  <data name="&gt;&gt;TPSpawnRecords.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveSpawnLog.Parent" xml:space="preserve">
+    <value>FLPSpawnRecordControls</value>
+  </data>
+  <data name="MenuSpawnEntityFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
+  </data>
+  <data name="LblAiwiPlugin.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblAMPlugin.Text" xml:space="preserve">
+    <value>插件：</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityAmout.Parent" xml:space="preserve">
+    <value>TPSpawnArgs</value>
+  </data>
+  <data name="NUDEntityPosX.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;BtnAtReload.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkAMOff.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblEntityMaxHp.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="TPAttackInfusedArgs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="NUDAiwiHeight.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 43</value>
+  </data>
+  <data name="BtnAtReload.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="TxtAtEntityN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>67, 14</value>
+  </data>
+  <data name="&gt;&gt;TPSpawnItems.Name" xml:space="preserve">
+    <value>TPSpawnItems</value>
+  </data>
+  <data name="TPSpawnRecords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>280, 195</value>
+  </data>
+  <data name="NUDAiwiRotateZ.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="LblEntityHp.Text" xml:space="preserve">
+    <value>血量：</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityMaxHp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LblAiwiSpread.Name" xml:space="preserve">
+    <value>LblAiwiSpread</value>
+  </data>
+  <data name="NUDEntityPosY.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="RbAtN.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkAMOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;RbAtQ.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnFilterEntity.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TxtEntityFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityDef.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LnkAMOn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LblAiwiRadius.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityAtk.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PanelEntityFilterBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblClearSpawnLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 6</value>
+  </data>
+  <data name="&gt;&gt;NUDAiwiRadius.Name" xml:space="preserve">
+    <value>NUDAiwiRadius</value>
+  </data>
+  <data name="&gt;&gt;PanelEntityFilterBar.Parent" xml:space="preserve">
+    <value>TPSpawnItems</value>
+  </data>
+  <data name="TPSpawnArgs.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="NUDAiwiRadius.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 43</value>
+  </data>
+  <data name="LnkAttackModifierPlugin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 3</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveSpawnLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblEntityLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>194, 27</value>
+  </data>
+  <data name="&gt;&gt;LblSpawnVersionRequireTip.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="LblEntitySpawnPostion.Text" xml:space="preserve">
+    <value>位置： x:                    y:                    z:</value>
+  </data>
+  <data name="&gt;&gt;LblClearSpawnLogs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblAiwiSpread.Text" xml:space="preserve">
+    <value>扩散：</value>
+  </data>
+  <data name="&gt;&gt;LnkAttackInfusedWithItem.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="NUDEntityDef.Location" type="System.Drawing.Point, System.Drawing">
+    <value>240, 126</value>
+  </data>
+  <data name="NUDEntityLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="ListEntity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 33</value>
+  </data>
+  <data name="LblEntityHp.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BtnAtReload.Parent" xml:space="preserve">
+    <value>TPAttackModArgs</value>
+  </data>
+  <data name="NUDEntityLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;LblEntityAmount.Name" xml:space="preserve">
+    <value>LblEntityAmount</value>
+  </data>
+  <data name="LblAMPluginTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 17</value>
+  </data>
+  <data name="&gt;&gt;NUDEntityPosY.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LnkAMOn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;LblAMPluginIntroduction.Name" xml:space="preserve">
+    <value>LblAMPluginIntroduction</value>
+  </data>
+  <data name="&gt;&gt;LblEntityMaxHp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="MenuSpawnEntityFilter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
