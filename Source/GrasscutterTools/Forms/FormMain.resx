@@ -1940,6 +1940,66 @@
   <data name="&gt;&gt;TPManage.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="RbListDungeons.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RbListDungeons.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RbListDungeons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>290, 7</value>
+  </data>
+  <data name="RbListDungeons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="RbListDungeons.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="RbListDungeons.Text" xml:space="preserve">
+    <value>秘境</value>
+  </data>
+  <data name="&gt;&gt;RbListDungeons.Name" xml:space="preserve">
+    <value>RbListDungeons</value>
+  </data>
+  <data name="&gt;&gt;RbListDungeons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RbListDungeons.Parent" xml:space="preserve">
+    <value>TPScene</value>
+  </data>
+  <data name="&gt;&gt;RbListDungeons.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="RbListScene.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RbListScene.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RbListScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 7</value>
+  </data>
+  <data name="RbListScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="RbListScene.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="RbListScene.Text" xml:space="preserve">
+    <value>场景</value>
+  </data>
+  <data name="&gt;&gt;RbListScene.Name" xml:space="preserve">
+    <value>RbListScene</value>
+  </data>
+  <data name="&gt;&gt;RbListScene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RbListScene.Parent" xml:space="preserve">
+    <value>TPScene</value>
+  </data>
+  <data name="&gt;&gt;RbListScene.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="TxtSceneFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
@@ -1950,7 +2010,7 @@
     <value>300, 23</value>
   </data>
   <data name="TxtSceneFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="&gt;&gt;TxtSceneFilter.Name" xml:space="preserve">
     <value>TxtSceneFilter</value>
@@ -1962,7 +2022,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;TxtSceneFilter.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="ChkIncludeSceneId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -1983,7 +2043,7 @@
     <value>76, 21</value>
   </data>
   <data name="ChkIncludeSceneId.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="ChkIncludeSceneId.Text" xml:space="preserve">
     <value>含场景ID</value>
@@ -1998,7 +2058,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;ChkIncludeSceneId.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="LblTpZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2016,7 +2076,7 @@
     <value>14, 17</value>
   </data>
   <data name="LblTpZ.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="LblTpZ.Text" xml:space="preserve">
     <value>z</value>
@@ -2031,7 +2091,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;LblTpZ.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="LblTpY.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2049,7 +2109,7 @@
     <value>14, 17</value>
   </data>
   <data name="LblTpY.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="LblTpY.Text" xml:space="preserve">
     <value>y</value>
@@ -2064,7 +2124,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;LblTpY.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="BtnTeleport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2079,7 +2139,7 @@
     <value>75, 23</value>
   </data>
   <data name="BtnTeleport.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="BtnTeleport.Text" xml:space="preserve">
     <value>传送</value>
@@ -2094,7 +2154,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;BtnTeleport.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="LblTpX.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2112,7 +2172,7 @@
     <value>14, 17</value>
   </data>
   <data name="LblTpX.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="LblTpX.Text" xml:space="preserve">
     <value>x</value>
@@ -2127,7 +2187,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;LblTpX.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="NUDTpZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2139,7 +2199,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDTpZ.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;NUDTpZ.Name" xml:space="preserve">
     <value>NUDTpZ</value>
@@ -2151,7 +2211,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;NUDTpZ.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="NUDTpY.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2163,7 +2223,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDTpY.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;NUDTpY.Name" xml:space="preserve">
     <value>NUDTpY</value>
@@ -2175,7 +2235,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;NUDTpY.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="NUDTpX.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2187,7 +2247,7 @@
     <value>80, 23</value>
   </data>
   <data name="NUDTpX.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;NUDTpX.Name" xml:space="preserve">
     <value>NUDTpX</value>
@@ -2199,7 +2259,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;NUDTpX.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="CmbClimateType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2211,7 +2271,7 @@
     <value>121, 25</value>
   </data>
   <data name="CmbClimateType.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;CmbClimateType.Name" xml:space="preserve">
     <value>CmbClimateType</value>
@@ -2223,7 +2283,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;CmbClimateType.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="LblClimateType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2241,7 +2301,7 @@
     <value>56, 17</value>
   </data>
   <data name="LblClimateType.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="LblClimateType.Text" xml:space="preserve">
     <value>设置天气</value>
@@ -2256,7 +2316,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;LblClimateType.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="LblSceneDescription.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -2274,9 +2334,7 @@
     <value>0</value>
   </data>
   <data name="LblSceneDescription.Text" xml:space="preserve">
-    <value>场景控制
-
-提示：大部分场景没有作用，无法进入。</value>
+    <value>场景控制</value>
   </data>
   <data name="&gt;&gt;LblSceneDescription.Name" xml:space="preserve">
     <value>LblSceneDescription</value>
@@ -2303,7 +2361,7 @@
     <value>300, 208</value>
   </data>
   <data name="ListScenes.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="&gt;&gt;ListScenes.Name" xml:space="preserve">
     <value>ListScenes</value>
@@ -2315,7 +2373,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;ListScenes.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="LblTp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -2333,7 +2391,7 @@
     <value>296, 51</value>
   </data>
   <data name="LblTp.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="LblTp.Text" xml:space="preserve">
     <value>坐标传送
@@ -2350,7 +2408,7 @@
     <value>TPScene</value>
   </data>
   <data name="&gt;&gt;LblTp.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="TPScene.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 22</value>

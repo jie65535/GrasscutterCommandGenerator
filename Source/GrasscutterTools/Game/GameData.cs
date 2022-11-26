@@ -34,6 +34,7 @@ namespace GrasscutterTools.Game
             Monsters = new ItemMapGroup(Resources.Monsters);
             Gadgets = new ItemMapGroup(Resources.Gadget);
             Scenes = new ItemMap(Resources.Scene);
+            Dungeons = new ItemMap(Resources.Dungeon);
             Weapons = new ItemMap(Resources.Weapon);
             WeaponColors = new ItemMap(Resources.WeaponColor);
             GachaBannerPrefabs = new ItemMap(Resources.GachaBennerPrefab);
@@ -63,11 +64,14 @@ namespace GrasscutterTools.Game
 
         public static ItemMap Scenes { get; private set; }
 
+        public static ItemMap Dungeons { get; private set; }
+
         public static ItemMap Weapons { get; private set; }
 
         public static ItemMap WeaponColors { get; private set; }
 
         public static ItemMap GachaBannerPrefabs { get; private set; }
+        
         public static ItemMap GachaBannerTitles { get; private set; }
 
         public static ItemMap Quests { get; private set; }

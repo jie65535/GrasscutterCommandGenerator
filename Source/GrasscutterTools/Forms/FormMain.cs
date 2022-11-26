@@ -1526,16 +1526,46 @@ namespace GrasscutterTools.Forms
 
         #region - 场景 Scenes -
 
+        private string[] _scenes;
+        private string[] Scenes
+        {
+            get => _scenes;
+            set
+            {
+                if (_scenes == value)
+                    return;
+                _scenes = value;
+                ListScenes.Items.Clear();
+                ListScenes.Items.AddRange(value);
+            }
+        }
+
         /// <summary>
         /// 初始化场景列表
         /// </summary>
         private void InitScenes()
         {
-            ListScenes.Items.Clear();
-            ListScenes.Items.AddRange(GameData.Scenes.Lines);
-
+            Scenes = GameData.Scenes.Lines;
             CmbClimateType.Items.Clear();
             CmbClimateType.Items.AddRange(Resources.ClimateType.Split(','));
+        }
+
+        /// <summary>
+        /// 选中场景时触发
+        /// </summary>
+        private void RbListScene_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RbListScene.Checked)
+                Scenes = GameData.Scenes.Lines;
+        }
+
+        /// <summary>
+        /// 选中秘境时触发
+        /// </summary>
+        private void RbListDungeons_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RbListDungeons.Checked)
+                Scenes = GameData.Dungeons.Lines;
         }
 
         /// <summary>
@@ -1543,7 +1573,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void TxtSceneFilter_TextChanged(object sender, EventArgs e)
         {
-            UIUtil.ListBoxFilter(ListScenes, GameData.Scenes.Lines, TxtSceneFilter.Text);
+            UIUtil.ListBoxFilter(ListScenes, Scenes, TxtSceneFilter.Text);
         }
 
         /// <summary>
@@ -1561,13 +1591,20 @@ namespace GrasscutterTools.Forms
             // 可以直接弃用 scene 命令
             var name = ListScenes.SelectedItem as string;
             var id = ItemMap.ToId(name);
-            if (CommandVersion.Check(CommandVersion.V1_2_2))
+            if (RbListScene.Checked)
             {
-                SetCommand("/scene", id.ToString());
+                if (CommandVersion.Check(CommandVersion.V1_2_2))
+                {
+                    SetCommand("/scene", id.ToString());
+                }
+                else
+                {
+                    SetCommand("/tp ~ ~ ~", id.ToString());
+                }
             }
-            else
+            else if (RbListDungeons.Checked)
             {
-                SetCommand("/tp ~ ~ ~", id.ToString());
+                SetCommand("/dungeon", id.ToString());
             }
         }
 
@@ -1595,7 +1632,7 @@ namespace GrasscutterTools.Forms
         private void BtnTeleport_Click(object sender, EventArgs e)
         {
             string args = $"{NUDTpX.Value} {NUDTpY.Value} {NUDTpZ.Value}";
-            if (ChkIncludeSceneId.Checked && ListScenes.SelectedIndex != -1)
+            if (ChkIncludeSceneId.Checked && RbListScene.Checked && ListScenes.SelectedIndex != -1)
                 args += $" {GameData.Scenes.Ids[ListScenes.SelectedIndex]}";
             SetCommand("/tp", args);
         }

@@ -95,6 +95,8 @@ namespace GrasscutterTools.Forms
             this.LblPerm = new System.Windows.Forms.Label();
             this.LblPermUID = new System.Windows.Forms.Label();
             this.TPScene = new System.Windows.Forms.TabPage();
+            this.RbListDungeons = new System.Windows.Forms.RadioButton();
+            this.RbListScene = new System.Windows.Forms.RadioButton();
             this.TxtSceneFilter = new System.Windows.Forms.TextBox();
             this.ChkIncludeSceneId = new System.Windows.Forms.CheckBox();
             this.LblTpZ = new System.Windows.Forms.Label();
@@ -298,8 +300,8 @@ namespace GrasscutterTools.Forms
             this.BtnDeleteMailItem = new System.Windows.Forms.Button();
             this.TCMailRight = new System.Windows.Forms.TabControl();
             this.TPMailSelectableItemList = new System.Windows.Forms.TabPage();
-            this.TxtMailSelectableItemFilter = new System.Windows.Forms.TextBox();
             this.ListMailSelectableItems = new System.Windows.Forms.ListBox();
+            this.TxtMailSelectableItemFilter = new System.Windows.Forms.TextBox();
             this.PanelMailItemArgs = new System.Windows.Forms.Panel();
             this.NUDMailItemLevel = new System.Windows.Forms.NumericUpDown();
             this.NUDMailItemCount = new System.Windows.Forms.NumericUpDown();
@@ -936,6 +938,8 @@ namespace GrasscutterTools.Forms
             // 
             // TPScene
             // 
+            this.TPScene.Controls.Add(this.RbListDungeons);
+            this.TPScene.Controls.Add(this.RbListScene);
             this.TPScene.Controls.Add(this.TxtSceneFilter);
             this.TPScene.Controls.Add(this.ChkIncludeSceneId);
             this.TPScene.Controls.Add(this.LblTpZ);
@@ -953,6 +957,22 @@ namespace GrasscutterTools.Forms
             resources.ApplyResources(this.TPScene, "TPScene");
             this.TPScene.Name = "TPScene";
             this.TPScene.UseVisualStyleBackColor = true;
+            // 
+            // RbListDungeons
+            // 
+            resources.ApplyResources(this.RbListDungeons, "RbListDungeons");
+            this.RbListDungeons.Name = "RbListDungeons";
+            this.RbListDungeons.UseVisualStyleBackColor = true;
+            this.RbListDungeons.CheckedChanged += new System.EventHandler(this.RbListDungeons_CheckedChanged);
+            // 
+            // RbListScene
+            // 
+            resources.ApplyResources(this.RbListScene, "RbListScene");
+            this.RbListScene.Checked = true;
+            this.RbListScene.Name = "RbListScene";
+            this.RbListScene.TabStop = true;
+            this.RbListScene.UseVisualStyleBackColor = true;
+            this.RbListScene.CheckedChanged += new System.EventHandler(this.RbListScene_CheckedChanged);
             // 
             // TxtSceneFilter
             // 
@@ -2838,17 +2858,17 @@ namespace GrasscutterTools.Forms
             this.TPMailSelectableItemList.Name = "TPMailSelectableItemList";
             this.TPMailSelectableItemList.UseVisualStyleBackColor = true;
             // 
-            // TxtMailSelectableItemFilter
-            // 
-            resources.ApplyResources(this.TxtMailSelectableItemFilter, "TxtMailSelectableItemFilter");
-            this.TxtMailSelectableItemFilter.Name = "TxtMailSelectableItemFilter";
-            this.TxtMailSelectableItemFilter.TextChanged += new System.EventHandler(this.TxtMailSelectableItemFilter_TextChanged);
-            // 
             // ListMailSelectableItems
             // 
             resources.ApplyResources(this.ListMailSelectableItems, "ListMailSelectableItems");
             this.ListMailSelectableItems.FormattingEnabled = true;
             this.ListMailSelectableItems.Name = "ListMailSelectableItems";
+            // 
+            // TxtMailSelectableItemFilter
+            // 
+            resources.ApplyResources(this.TxtMailSelectableItemFilter, "TxtMailSelectableItemFilter");
+            this.TxtMailSelectableItemFilter.Name = "TxtMailSelectableItemFilter";
+            this.TxtMailSelectableItemFilter.TextChanged += new System.EventHandler(this.TxtMailSelectableItemFilter_TextChanged);
             // 
             // PanelMailItemArgs
             // 
@@ -3475,5 +3495,7 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.ComboBox CmbSwitchElement;
         private System.Windows.Forms.LinkLabel LnkSwitchElement;
         private System.Windows.Forms.LinkLabel LnkCharacterBuilder;
+        private System.Windows.Forms.RadioButton RbListDungeons;
+        private System.Windows.Forms.RadioButton RbListScene;
     }
 }
