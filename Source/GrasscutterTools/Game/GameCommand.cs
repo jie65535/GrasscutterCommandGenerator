@@ -1,6 +1,6 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
+
 /**
  *  Grasscutter Tools
  *  Copyright (C) 2022 jie65535
@@ -17,8 +17,9 @@ using System.Text;
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 namespace GrasscutterTools.Game
 {
     public class GameCommand

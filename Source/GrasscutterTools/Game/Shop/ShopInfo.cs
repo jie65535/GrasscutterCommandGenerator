@@ -14,8 +14,9 @@
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,28 +30,27 @@ namespace GrasscutterTools.Game.Shop
     {
         public ShopInfo()
         {
-
         }
 
         public ShopInfo(ShopGoodsData sgd)
         {
-            GoodsId          = sgd.GoodsId;
-            GoodsItem        = new ItemParamData(sgd.ItemId, sgd.ItemCount);
-            SCoin            = sgd.CostScoin;
-            MCoin            = sgd.CostMcion;
-            HCoin            = sgd.CostHcoin;
-            BuyLimit         = sgd.BuyLimit;
+            GoodsId = sgd.GoodsId;
+            GoodsItem = new ItemParamData(sgd.ItemId, sgd.ItemCount);
+            SCoin = sgd.CostScoin;
+            MCoin = sgd.CostMcion;
+            HCoin = sgd.CostHcoin;
+            BuyLimit = sgd.BuyLimit;
 
-            MinLevel         = sgd.MinPlayerLevel;
-            MaxLevel         = sgd.MaxPlayerLevel;
-            CostItemList     = sgd.CostItems.Where(it => it.Id != 0).ToList();
+            MinLevel = sgd.MinPlayerLevel;
+            MaxLevel = sgd.MaxPlayerLevel;
+            CostItemList = sgd.CostItems.Where(it => it.Id != 0).ToList();
             SecondarySheetId = sgd.SubTabId;
-            RefreshType      = sgd.RefreshType;
+            RefreshType = sgd.RefreshType;
             ShopRefreshParam = sgd.RefreshParam;
             if (sgd.BeginTime != null && sgd.EndTime != null)
             {
-                BeginTime    = (int)new DateTimeOffset(sgd.BeginTime.Value).ToUnixTimeSeconds();
-                EndTime      = (int)new DateTimeOffset(sgd.EndTime.Value).ToUnixTimeSeconds();
+                BeginTime = (int)new DateTimeOffset(sgd.BeginTime.Value).ToUnixTimeSeconds();
+                EndTime = (int)new DateTimeOffset(sgd.EndTime.Value).ToUnixTimeSeconds();
             }
         }
 
@@ -114,7 +114,6 @@ namespace GrasscutterTools.Game.Shop
 
         [JsonProperty("shopRefreshParam")]
         public int ShopRefreshParam { get; set; }
-
 
         public override string ToString()
         {

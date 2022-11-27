@@ -14,18 +14,19 @@
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 using System;
 
 namespace GrasscutterTools.Game
 {
     /// <summary>
     /// 命令版本
-    /// 
+    ///
     /// 用法：
     /// ver = Version.TryParse(input, out Version current) ? new CommandVersion(current) : CommandVersion.Latest();
-    /// 
+    ///
     /// </summary>
     internal class CommandVersion
     {

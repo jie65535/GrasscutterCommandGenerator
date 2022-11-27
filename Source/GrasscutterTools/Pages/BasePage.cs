@@ -63,25 +63,28 @@ namespace GrasscutterTools.Pages
         /// </summary>
         public Func<string> GetCommand { get; set; }
 
-        #endregion
+        #endregion - 命令相关 -
 
         #region - 生命周期事件 -
 
         /// <summary>
         /// 加载时触发（修改语言时会再次触发）
         /// </summary>
-        public virtual void OnLoad() { }
+        public virtual void OnLoad()
+        { }
 
         /// <summary>
         /// 进入页面时触发（可触发多次）
         /// </summary>
-        public virtual void OnEnter() { } 
+        public virtual void OnEnter()
+        { }
 
         /// <summary>
         /// 关闭时触发（用于保存页面数据）
         /// </summary>
-        public virtual void OnClosed() { }
+        public virtual void OnClosed()
+        { }
 
-        #endregion
+        #endregion - 生命周期事件 -
     }
 }

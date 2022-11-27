@@ -24,10 +24,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-using System.Windows.Forms.DataVisualization.Charting;
 
 using GrasscutterTools.Game;
-using GrasscutterTools.Game.Drop;
 using GrasscutterTools.Game.Gacha;
 using GrasscutterTools.Properties;
 
@@ -44,7 +42,7 @@ namespace GrasscutterTools.Forms
 
         private List<GachaBanner3> Banners;
 
-        #endregion
+        #endregion - 成员 -
 
         #region - 构造与窗体事件 -
 
@@ -105,10 +103,9 @@ namespace GrasscutterTools.Forms
             new FormGachaBannerEditor().ShowDialog();
         }
 
-        #endregion
+        #endregion - 构造与窗体事件 -
 
         #region - Banners.json 文件相关 -
-
 
         /// <summary>
         /// 加载按钮点击时触发
@@ -174,7 +171,7 @@ namespace GrasscutterTools.Forms
             }
         }
 
-        #endregion
+        #endregion - Banners.json 文件相关 -
 
         #region - 卡池列表 -
 
@@ -254,7 +251,7 @@ namespace GrasscutterTools.Forms
             }
         }
 
-        #endregion
+        #endregion - 卡池列表 -
 
         #region - 卡池 -
 
@@ -497,8 +494,6 @@ namespace GrasscutterTools.Forms
             return banner;
         }
 
-
         #endregion - 卡池参数 -
-
     }
 }

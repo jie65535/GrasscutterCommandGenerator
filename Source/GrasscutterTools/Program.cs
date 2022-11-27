@@ -14,10 +14,10 @@
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 using System;
-using System.Globalization;
 using System.Reflection;
 using System.Text;
 using System.Threading;
@@ -77,7 +77,7 @@ namespace GrasscutterTools
                 MultiLanguage.SetDefaultLanguage(Settings.Default.DefaultLanguage);
 
             Application.Run(new Forms.FormMain());
-            Console.WriteLine("Program end."); 
+            Console.WriteLine("Program end.");
         }
 
         #region - 全局异常处理 -

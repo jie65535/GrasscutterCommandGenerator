@@ -14,8 +14,9 @@
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 using System.Collections.Generic;
 using System.Linq;
 
@@ -37,7 +38,7 @@ namespace GrasscutterTools.Game
                 if (categoryLineEndIndex == -1)
                     break;
 
-                var category = idNamePairs.Substring(categoryLineStartIndex+2, categoryLineEndIndex - categoryLineStartIndex - 3).Trim();
+                var category = idNamePairs.Substring(categoryLineStartIndex + 2, categoryLineEndIndex - categoryLineStartIndex - 3).Trim();
 
                 var nextStartIndex = idNamePairs.IndexOf("//", categoryLineEndIndex);
                 if (nextStartIndex == -1)

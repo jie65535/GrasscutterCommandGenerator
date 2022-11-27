@@ -163,7 +163,6 @@ namespace GrasscutterTools.Forms
             }
             throw firstEx;
 
-
             //{
             //    try
             //    {

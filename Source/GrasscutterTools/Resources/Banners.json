@@ -1,707 +1,707 @@
 [
-	//新手
-	{
-		"comment": "Beginner's Banner. Do not change for no reason.",
-		"gachaType": 100,
-		"scheduleId": 803,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A016",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A016_TITLE",
-		"costItemId": 224,
-		"costItemAmount10": 8,
-		"gachaTimesLimit": 20,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 100,
-		"rateUpItems5": [],
-		"rateUpItems4": [ 1034 ]
-	},
-	//常驻1
-	{
-		"comment": "Standard",
-		"gachaType": 200,
-		"scheduleId": 2000,
-		"bannerType": "STANDARD",
-		"prefabPath": "GachaShowPanel_A022",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A022_TITLE",
-		"costItemId": 224,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 1,
-		"fallbackItems4Pool1": [ 1006, 1014, 1015, 1020, 1021, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
-		"weights5": [
-			[ 1, 75 ],
-			[ 73, 150 ],
-			[ 90, 10000 ]
-		]
-	},
-	//常驻2
-	{
-		"comment": "Standard",
-		"gachaType": 201,
-		"scheduleId": 2001,
-		"bannerType": "STANDARD",
-		"prefabPath": "GachaShowPanel_A017",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A017_TITLE",
-		"costItemId": 224,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 1,
-		"fallbackItems4Pool1": [ 1006, 1014, 1015, 1020, 1021, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
-		"weights5": [
-			[ 1, 75 ],
-			[ 73, 150 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.0上角色-杯装之诗：温迪、菲谢尔、香菱、芭芭拉
-	{
-		"comment": "1.0",
-		"gachaType": 400,
-		"scheduleId": 800,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A019",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A019_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 1000,
-		"rateUpItems4": [ 1023, 1031, 1014 ],
-		"rateUpItems5": [ 1022 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.0下角色-闪焰的驻足：可莉、行秋、诺艾尔、砂糖
-	{
-		"comment": "1.0",
-		"gachaType": 401,
-		"scheduleId": 801,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A018",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A018_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 999,
-		"rateUpItems4": [ 1025, 1034, 1043 ],
-		"rateUpItems5": [ 1029 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.1上角色-暂别冬都：达达利亚、迪奥娜、北斗、凝光
-	{
-		"comment": "1.0",
-		"gachaType": 402,
-		"scheduleId": 802,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A023",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A023_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 998,
-		"rateUpItems4": [ 1027, 1024, 1039 ],
-		"rateUpItems5": [ 1033 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.1下角色-陵薮市朝：钟离、辛焱、雷泽、重云
-	{
-		"comment": "1.0",
-		"gachaType": 403,
-		"scheduleId": 803,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A024",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A024_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 997,
-		"rateUpItems4": [ 1044, 1020, 1036 ],
-		"rateUpItems5": [ 1030 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.2上角色-深秘之息：阿贝多、菲谢尔、砂糖、班尼特
-	{
-		"comment": "1.0",
-		"gachaType": 404,
-		"scheduleId": 804,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A027",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A027_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 996,
-		"rateUpItems4": [ 1031, 1043, 1032 ],
-		"rateUpItems5": [ 1038 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.2下角色-浮生孰来：甘雨，香菱，行秋，诺艾尔
-	{
-		"comment": "1.0",
-		"gachaType": 405,
-		"scheduleId": 805,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A028",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A028_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 995,
-		"rateUpItems4": [ 1023, 1025, 1034 ],
-		"rateUpItems5": [ 1037 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.3上角色-烟火之邀：魈、迪奥娜、北斗、辛焱
-	{
-		"comment": "1.0",
-		"gachaType": 406,
-		"scheduleId": 806,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A031",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A031_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 994,
-		"rateUpItems4": [ 1039, 1024, 1044 ],
-		"rateUpItems5": [ 1026 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.3中角色-鱼龙灯昼：刻晴、凝光、班尼特、芭芭拉
-	{
-		"comment": "1.0",
-		"gachaType": 407,
-		"scheduleId": 807,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A032",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A032_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 993,
-		"rateUpItems4": [ 1027, 1032, 1014 ],
-		"rateUpItems5": [ 1042 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.3下角色-赤团开时：胡桃、行秋、重云、香菱
-	{
-		"comment": "1.0",
-		"gachaType": 408,
-		"scheduleId": 808,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A033",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A033_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 992,
-		"rateUpItems4": [ 1025, 1036, 1023 ],
-		"rateUpItems5": [ 1046 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.4上角色-杯装之诗：温迪、砂糖、雷泽、诺艾尔
-	{
-		"comment": "1.0",
-		"gachaType": 409,
-		"scheduleId": 809,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A036",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A036_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 991,
-		"rateUpItems4": [ 1043, 1020, 1034 ],
-		"rateUpItems5": [ 1022 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.4下角色-暂别冬都：达达利亚、罗莎莉亚、芭芭拉，菲谢尔
-	{
-		"comment": "1.0",
-		"gachaType": 410,
-		"scheduleId": 810,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A037",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A037_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 990,
-		"rateUpItems4": [ 1045, 1014, 1031 ],
-		"rateUpItems5": [ 1033 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.5上角色-陵薮市朝：钟离、烟绯、诺艾尔、迪奥娜
-	{
-		"comment": "1.0",
-		"gachaType": 411,
-		"scheduleId": 811,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A040",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A040_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 989,
-		"rateUpItems4": [ 1048, 1034, 1039 ],
-		"rateUpItems5": [ 1030 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.5下角色-浪涌之瞬：优菈、辛焱、行秋、北斗
-	{
-		"comment": "1.0",
-		"gachaType": 412,
-		"scheduleId": 812,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A041",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A041_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 988,
-		"rateUpItems4": [ 1044, 1025, 1024 ],
-		"rateUpItems5": [ 1051 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.6上角色-闪焰的驻足：可莉、芭芭拉、砂糖、菲谢尔
-	{
-		"comment": "1.0",
-		"gachaType": 413,
-		"scheduleId": 813,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A044",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A044_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 987,
-		"rateUpItems4": [ 1014, 1043, 1031 ],
-		"rateUpItems5": [ 1029 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//1.6下角色-叶落风随：枫原万叶、罗莎莉亚、班尼特、雷泽
-	{
-		"comment": "1.0",
-		"gachaType": 414,
-		"scheduleId": 814,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A045",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A045_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 986,
-		"rateUpItems4": [ 1045, 1032, 1020 ],
-		"rateUpItems5": [ 1047 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.0上角色-白鹭之庭：神里绫华、 凝光、 重云、 烟绯
-	{
-		"comment": "2.0",
-		"gachaType": 415,
-		"scheduleId": 815,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A048",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A048_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 985,
-		"rateUpItems4": [ 1027, 1036, 1048 ],
-		"rateUpItems5": [ 1002 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.0下角色-焰色天河：宵宫、早柚、迪奥娜、辛焱
-	{
-		"comment": "2.0",
-		"gachaType": 416,
-		"scheduleId": 816,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A049",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A049_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 984,
-		"rateUpItems4": [ 1053, 1039, 1044 ],
-		"rateUpItems5": [ 1049 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.1上角色-影寂天下人：雷电将军、九条裟罗、香菱、砂糖
-	{
-		"comment": "2.0",
-		"gachaType": 417,
-		"scheduleId": 817,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A052",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A052_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 983,
-		"rateUpItems4": [ 1056, 1023, 1043 ],
-		"rateUpItems5": [ 1052 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.1下角色-浮岳虹珠：珊瑚宫心海、罗莎莉亚、北斗、行秋
-	{
-		"comment": "2.0",
-		"gachaType": 418,
-		"scheduleId": 818,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A053",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A053_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 982,
-		"rateUpItems4": [ 1045, 1024, 1025 ],
-		"rateUpItems5": [ 1054 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.2上角色-暂别冬都：达达利亚、凝光、重云、烟绯
-	{
-		"comment": "2.0",
-		"gachaType": 419,
-		"scheduleId": 819,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A056",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A056_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 981,
-		"rateUpItems4": [ 1027, 1036, 1048 ],
-		"rateUpItems5": [ 1033 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.2下角色-赤团开时：胡桃、托马、迪奥娜、早柚
-	{
-		"comment": "2.0",
-		"gachaType": 420,
-		"scheduleId": 820,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A057",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A057_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 980,
-		"rateUpItems4": [ 1050, 1039, 1053 ],
-		"rateUpItems5": [ 1046 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.3上角色1-浪涌之瞬：优菈、班尼特、诺艾尔、罗莎莉亚
-	{
-		"comment": "2.0",
-		"gachaType": 421,
-		"scheduleId": 821,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A062",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A062_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 979,
-		"rateUpItems4": [ 1032, 1034, 1045 ],
-		"rateUpItems5": [ 1051 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.3上角色2-深秘之息：阿贝多、班尼特、诺艾尔、罗莎莉亚
-	{
-		"comment": "2.0",
-		"gachaType": 422,
-		"scheduleId": 822,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A060",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A060_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 978,
-		"rateUpItems4": [ 1032, 1034, 1045 ],
-		"rateUpItems5": [ 1038 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.3下角色-鬼门斗宴：荒泷一斗、五郎、芭芭拉、香菱
-	{
-		"comment": "2.0",
-		"gachaType": 423,
-		"scheduleId": 823,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A061",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A061_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 977,
-		"rateUpItems4": [ 1055, 1014, 1023 ],
-		"rateUpItems5": [ 1057 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.4上角色1-烟火之邀：魈、云堇、凝光、重云
-	//2.4上角色2-出尘入世：申鹤、云堇、凝光、重云
-	{
-		"comment": "2.0",
-		"gachaType": 424,
-		"scheduleId": 824,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A065",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A065_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 976,
-		"rateUpItems4": [ 1027, 1036, 1064 ],
-		"rateUpItems5": [ 1063 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.4下角色1-浮生孰来：甘雨、行秋、北斗、烟绯(复刻不放卡池)
-	//2.4下角色2-陵薮市朝：钟离、行秋、北斗、烟绯(复刻不放卡池)
-	//2.5上角色-华紫樱绯：八重神子、菲谢尔、迪奥娜、托马
-	{
-		"comment": "2.0",
-		"gachaType": 425,
-		"scheduleId": 825,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A071",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A071_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 975,
-		"rateUpItems4": [ 1031, 1039, 1050 ],
-		"rateUpItems5": [ 1058 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.5下角色1-影寂天下人：雷电将军、九条裟罗、辛焱、班尼特(复刻不放卡池)
-	//2.5下角色2-浮岳虹珠：珊瑚宫心海、九条裟罗、辛焱、班尼特(复刻不放卡池)
-	//2.6上角色1-苍流踏花：神里绫人、砂糖、香菱、云堇
-	{
-		"comment": "2.0",
-		"gachaType": 426,
-		"scheduleId": 826,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A076",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A076_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 974,
-		"rateUpItems4": [ 1043, 1023, 1064 ],
-		"rateUpItems5": [ 1066 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.6上角色2-杯装之诗：神里绫人、砂糖、香菱、云堇(复刻不放卡池)
-	//2.6下角色-白鹭之庭：神里绫华、雷泽、罗莎莉亚、早柚(复刻不放卡池)
-	//2.7上角色1-素霓伣天：夜兰、诺艾尔、烟绯、芭芭拉
-	{
-		"comment": "2.0",
-		"gachaType": 427,
-		"scheduleId": 827,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A081",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A081_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 973,
-		"rateUpItems4": [ 1034, 1048, 1014 ],
-		"rateUpItems5": [ 1060 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//2.7上角色2-烟火之邀：魈、诺艾尔、烟绯、芭芭拉(复刻不放卡池)
-	//2.7下角色-鬼门斗宴：荒泷一斗、久岐忍、五郎、重云(复刻不放卡池)
-	//2.8上角色1-闪焰的驻足：可莉、凝光、托马、鹿野原平藏(复刻不放卡池)
-	//2.8上角色2-叶落风随：枫原万叶、凝光、托马、鹿野原平藏(复刻不放卡池)
-	//2.8下角色-焰色天河：宵宫、班尼特、云堇、辛焱(复刻不放卡池)
-	//3.0上角色1-巡御蘙荟：提纳里、柯莱、迪奥娜、菲谢尔
-	{
-		"comment": "3.0",
-		"gachaType": 428,
-		"scheduleId": 828,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A091",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A091_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 972,
-		"rateUpItems4": [ 1031, 1039, 1067 ],
-		"rateUpItems5": [ 1069 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//3.0上角色2-陵薮市朝：钟离、柯莱、迪奥娜、菲谢尔(复刻不放卡池)
-	//3.0下角色1-浮岳虹珠：珊瑚宫心海、多莉、砂糖、行秋(复刻不放卡池)
-	//3.0下角色2-浮生孰来：甘雨、多莉、砂糖、行秋(复刻不放卡池)
-	//3.1上角色1-杯装之诗：温迪、早柚、坎蒂丝、久岐忍(复刻不放卡池)
-	//3.1上角色2-雳裁冥昭：温迪、早柚、坎蒂丝、久岐忍
-	{
-		"comment": "3.0",
-		"gachaType": 429,
-		"scheduleId": 829,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A097",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A097_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 971,
-		"rateUpItems4": [ 1053, 1065, 1072 ],
-		"rateUpItems5": [ 1071 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//3.1下角色1-翩舞歈莲：妮露、芭芭拉、北斗、香菱
-	/*{
+  //新手
+  {
+    "comment": "Beginner's Banner. Do not change for no reason.",
+    "gachaType": 100,
+    "scheduleId": 803,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A016",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A016_TITLE",
+    "costItemId": 224,
+    "costItemAmount10": 8,
+    "gachaTimesLimit": 20,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 100,
+    "rateUpItems5": [],
+    "rateUpItems4": [ 1034 ]
+  },
+  //常驻1
+  {
+    "comment": "Standard",
+    "gachaType": 200,
+    "scheduleId": 2000,
+    "bannerType": "STANDARD",
+    "prefabPath": "GachaShowPanel_A022",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A022_TITLE",
+    "costItemId": 224,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 1,
+    "fallbackItems4Pool1": [ 1006, 1014, 1015, 1020, 1021, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+    "weights5": [
+      [ 1, 75 ],
+      [ 73, 150 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //常驻2
+  {
+    "comment": "Standard",
+    "gachaType": 201,
+    "scheduleId": 2001,
+    "bannerType": "STANDARD",
+    "prefabPath": "GachaShowPanel_A017",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A017_TITLE",
+    "costItemId": 224,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 1,
+    "fallbackItems4Pool1": [ 1006, 1014, 1015, 1020, 1021, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+    "weights5": [
+      [ 1, 75 ],
+      [ 73, 150 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.0上角色-杯装之诗：温迪、菲谢尔、香菱、芭芭拉
+  {
+    "comment": "1.0",
+    "gachaType": 400,
+    "scheduleId": 800,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A019",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A019_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 1000,
+    "rateUpItems4": [ 1023, 1031, 1014 ],
+    "rateUpItems5": [ 1022 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.0下角色-闪焰的驻足：可莉、行秋、诺艾尔、砂糖
+  {
+    "comment": "1.0",
+    "gachaType": 401,
+    "scheduleId": 801,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A018",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A018_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 999,
+    "rateUpItems4": [ 1025, 1034, 1043 ],
+    "rateUpItems5": [ 1029 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.1上角色-暂别冬都：达达利亚、迪奥娜、北斗、凝光
+  {
+    "comment": "1.0",
+    "gachaType": 402,
+    "scheduleId": 802,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A023",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A023_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 998,
+    "rateUpItems4": [ 1027, 1024, 1039 ],
+    "rateUpItems5": [ 1033 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.1下角色-陵薮市朝：钟离、辛焱、雷泽、重云
+  {
+    "comment": "1.0",
+    "gachaType": 403,
+    "scheduleId": 803,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A024",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A024_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 997,
+    "rateUpItems4": [ 1044, 1020, 1036 ],
+    "rateUpItems5": [ 1030 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.2上角色-深秘之息：阿贝多、菲谢尔、砂糖、班尼特
+  {
+    "comment": "1.0",
+    "gachaType": 404,
+    "scheduleId": 804,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A027",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A027_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 996,
+    "rateUpItems4": [ 1031, 1043, 1032 ],
+    "rateUpItems5": [ 1038 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.2下角色-浮生孰来：甘雨，香菱，行秋，诺艾尔
+  {
+    "comment": "1.0",
+    "gachaType": 405,
+    "scheduleId": 805,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A028",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A028_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 995,
+    "rateUpItems4": [ 1023, 1025, 1034 ],
+    "rateUpItems5": [ 1037 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.3上角色-烟火之邀：魈、迪奥娜、北斗、辛焱
+  {
+    "comment": "1.0",
+    "gachaType": 406,
+    "scheduleId": 806,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A031",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A031_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 994,
+    "rateUpItems4": [ 1039, 1024, 1044 ],
+    "rateUpItems5": [ 1026 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.3中角色-鱼龙灯昼：刻晴、凝光、班尼特、芭芭拉
+  {
+    "comment": "1.0",
+    "gachaType": 407,
+    "scheduleId": 807,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A032",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A032_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 993,
+    "rateUpItems4": [ 1027, 1032, 1014 ],
+    "rateUpItems5": [ 1042 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.3下角色-赤团开时：胡桃、行秋、重云、香菱
+  {
+    "comment": "1.0",
+    "gachaType": 408,
+    "scheduleId": 808,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A033",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A033_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 992,
+    "rateUpItems4": [ 1025, 1036, 1023 ],
+    "rateUpItems5": [ 1046 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.4上角色-杯装之诗：温迪、砂糖、雷泽、诺艾尔
+  {
+    "comment": "1.0",
+    "gachaType": 409,
+    "scheduleId": 809,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A036",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A036_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 991,
+    "rateUpItems4": [ 1043, 1020, 1034 ],
+    "rateUpItems5": [ 1022 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.4下角色-暂别冬都：达达利亚、罗莎莉亚、芭芭拉，菲谢尔
+  {
+    "comment": "1.0",
+    "gachaType": 410,
+    "scheduleId": 810,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A037",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A037_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 990,
+    "rateUpItems4": [ 1045, 1014, 1031 ],
+    "rateUpItems5": [ 1033 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.5上角色-陵薮市朝：钟离、烟绯、诺艾尔、迪奥娜
+  {
+    "comment": "1.0",
+    "gachaType": 411,
+    "scheduleId": 811,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A040",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A040_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 989,
+    "rateUpItems4": [ 1048, 1034, 1039 ],
+    "rateUpItems5": [ 1030 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.5下角色-浪涌之瞬：优菈、辛焱、行秋、北斗
+  {
+    "comment": "1.0",
+    "gachaType": 412,
+    "scheduleId": 812,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A041",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A041_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 988,
+    "rateUpItems4": [ 1044, 1025, 1024 ],
+    "rateUpItems5": [ 1051 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.6上角色-闪焰的驻足：可莉、芭芭拉、砂糖、菲谢尔
+  {
+    "comment": "1.0",
+    "gachaType": 413,
+    "scheduleId": 813,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A044",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A044_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 987,
+    "rateUpItems4": [ 1014, 1043, 1031 ],
+    "rateUpItems5": [ 1029 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //1.6下角色-叶落风随：枫原万叶、罗莎莉亚、班尼特、雷泽
+  {
+    "comment": "1.0",
+    "gachaType": 414,
+    "scheduleId": 814,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A045",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A045_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 986,
+    "rateUpItems4": [ 1045, 1032, 1020 ],
+    "rateUpItems5": [ 1047 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.0上角色-白鹭之庭：神里绫华、 凝光、 重云、 烟绯
+  {
+    "comment": "2.0",
+    "gachaType": 415,
+    "scheduleId": 815,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A048",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A048_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 985,
+    "rateUpItems4": [ 1027, 1036, 1048 ],
+    "rateUpItems5": [ 1002 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.0下角色-焰色天河：宵宫、早柚、迪奥娜、辛焱
+  {
+    "comment": "2.0",
+    "gachaType": 416,
+    "scheduleId": 816,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A049",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A049_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 984,
+    "rateUpItems4": [ 1053, 1039, 1044 ],
+    "rateUpItems5": [ 1049 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.1上角色-影寂天下人：雷电将军、九条裟罗、香菱、砂糖
+  {
+    "comment": "2.0",
+    "gachaType": 417,
+    "scheduleId": 817,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A052",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A052_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 983,
+    "rateUpItems4": [ 1056, 1023, 1043 ],
+    "rateUpItems5": [ 1052 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.1下角色-浮岳虹珠：珊瑚宫心海、罗莎莉亚、北斗、行秋
+  {
+    "comment": "2.0",
+    "gachaType": 418,
+    "scheduleId": 818,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A053",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A053_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 982,
+    "rateUpItems4": [ 1045, 1024, 1025 ],
+    "rateUpItems5": [ 1054 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.2上角色-暂别冬都：达达利亚、凝光、重云、烟绯
+  {
+    "comment": "2.0",
+    "gachaType": 419,
+    "scheduleId": 819,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A056",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A056_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 981,
+    "rateUpItems4": [ 1027, 1036, 1048 ],
+    "rateUpItems5": [ 1033 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.2下角色-赤团开时：胡桃、托马、迪奥娜、早柚
+  {
+    "comment": "2.0",
+    "gachaType": 420,
+    "scheduleId": 820,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A057",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A057_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 980,
+    "rateUpItems4": [ 1050, 1039, 1053 ],
+    "rateUpItems5": [ 1046 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.3上角色1-浪涌之瞬：优菈、班尼特、诺艾尔、罗莎莉亚
+  {
+    "comment": "2.0",
+    "gachaType": 421,
+    "scheduleId": 821,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A062",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A062_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 979,
+    "rateUpItems4": [ 1032, 1034, 1045 ],
+    "rateUpItems5": [ 1051 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.3上角色2-深秘之息：阿贝多、班尼特、诺艾尔、罗莎莉亚
+  {
+    "comment": "2.0",
+    "gachaType": 422,
+    "scheduleId": 822,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A060",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A060_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 978,
+    "rateUpItems4": [ 1032, 1034, 1045 ],
+    "rateUpItems5": [ 1038 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.3下角色-鬼门斗宴：荒泷一斗、五郎、芭芭拉、香菱
+  {
+    "comment": "2.0",
+    "gachaType": 423,
+    "scheduleId": 823,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A061",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A061_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 977,
+    "rateUpItems4": [ 1055, 1014, 1023 ],
+    "rateUpItems5": [ 1057 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.4上角色1-烟火之邀：魈、云堇、凝光、重云
+  //2.4上角色2-出尘入世：申鹤、云堇、凝光、重云
+  {
+    "comment": "2.0",
+    "gachaType": 424,
+    "scheduleId": 824,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A065",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A065_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 976,
+    "rateUpItems4": [ 1027, 1036, 1064 ],
+    "rateUpItems5": [ 1063 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.4下角色1-浮生孰来：甘雨、行秋、北斗、烟绯(复刻不放卡池)
+  //2.4下角色2-陵薮市朝：钟离、行秋、北斗、烟绯(复刻不放卡池)
+  //2.5上角色-华紫樱绯：八重神子、菲谢尔、迪奥娜、托马
+  {
+    "comment": "2.0",
+    "gachaType": 425,
+    "scheduleId": 825,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A071",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A071_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 975,
+    "rateUpItems4": [ 1031, 1039, 1050 ],
+    "rateUpItems5": [ 1058 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.5下角色1-影寂天下人：雷电将军、九条裟罗、辛焱、班尼特(复刻不放卡池)
+  //2.5下角色2-浮岳虹珠：珊瑚宫心海、九条裟罗、辛焱、班尼特(复刻不放卡池)
+  //2.6上角色1-苍流踏花：神里绫人、砂糖、香菱、云堇
+  {
+    "comment": "2.0",
+    "gachaType": 426,
+    "scheduleId": 826,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A076",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A076_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 974,
+    "rateUpItems4": [ 1043, 1023, 1064 ],
+    "rateUpItems5": [ 1066 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.6上角色2-杯装之诗：神里绫人、砂糖、香菱、云堇(复刻不放卡池)
+  //2.6下角色-白鹭之庭：神里绫华、雷泽、罗莎莉亚、早柚(复刻不放卡池)
+  //2.7上角色1-素霓伣天：夜兰、诺艾尔、烟绯、芭芭拉
+  {
+    "comment": "2.0",
+    "gachaType": 427,
+    "scheduleId": 827,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A081",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A081_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 973,
+    "rateUpItems4": [ 1034, 1048, 1014 ],
+    "rateUpItems5": [ 1060 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //2.7上角色2-烟火之邀：魈、诺艾尔、烟绯、芭芭拉(复刻不放卡池)
+  //2.7下角色-鬼门斗宴：荒泷一斗、久岐忍、五郎、重云(复刻不放卡池)
+  //2.8上角色1-闪焰的驻足：可莉、凝光、托马、鹿野原平藏(复刻不放卡池)
+  //2.8上角色2-叶落风随：枫原万叶、凝光、托马、鹿野原平藏(复刻不放卡池)
+  //2.8下角色-焰色天河：宵宫、班尼特、云堇、辛焱(复刻不放卡池)
+  //3.0上角色1-巡御蘙荟：提纳里、柯莱、迪奥娜、菲谢尔
+  {
+    "comment": "3.0",
+    "gachaType": 428,
+    "scheduleId": 828,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A091",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A091_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 972,
+    "rateUpItems4": [ 1031, 1039, 1067 ],
+    "rateUpItems5": [ 1069 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //3.0上角色2-陵薮市朝：钟离、柯莱、迪奥娜、菲谢尔(复刻不放卡池)
+  //3.0下角色1-浮岳虹珠：珊瑚宫心海、多莉、砂糖、行秋(复刻不放卡池)
+  //3.0下角色2-浮生孰来：甘雨、多莉、砂糖、行秋(复刻不放卡池)
+  //3.1上角色1-杯装之诗：温迪、早柚、坎蒂丝、久岐忍(复刻不放卡池)
+  //3.1上角色2-雳裁冥昭：温迪、早柚、坎蒂丝、久岐忍
+  {
+    "comment": "3.0",
+    "gachaType": 429,
+    "scheduleId": 829,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A097",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A097_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 971,
+    "rateUpItems4": [ 1053, 1065, 1072 ],
+    "rateUpItems5": [ 1071 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //3.1下角色1-翩舞歈莲：妮露、芭芭拉、北斗、香菱
+  /*{
 		"comment": "3.0",
 		"gachaType": 430,
 		"scheduleId": 830,
@@ -717,57 +717,57 @@
 		"fallbackItems5Pool2": [],
 		"weights5": [[1,80], [73,80], [90,10000]]
 	},*/
-	//3.2上角色1-月草的赐慧：纳西妲、诺艾尔、班尼特、雷泽
-	{
-		"comment": "Character Event Banner 1",
-		"gachaType": 431,
-		"scheduleId": 831,
-		"bannerType": "EVENT",
-		"prefabPath": "GachaShowPanel_A103",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A0103_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 969,
-		"rateUpItems4": [ 1034, 1020, 1032 ],
-		"rateUpItems5": [ 1073 ],
-		"fallbackItems5Pool2": [],
-		"weights5": [
-			[ 1, 80 ],
-			[ 73, 80 ],
-			[ 90, 10000 ]
-		]
-	},
-	//3.2上角色-焰色天河：宵宫、诺艾尔、班尼特、雷泽(复刻不放卡池)
-	//3.2上武器-神铸赋形：飞雷之弦振、
-	{
-		"comment": "Weapon Event Banner",
-		"gachaType": 502,
-		"scheduleId": 602,
-		"bannerType": "WEAPON",
-		"prefabPath": "GachaShowPanel_A105",
-		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
-		"costItemId": 223,
-		"beginTime": 0,
-		"endTime": 1924992000,
-		"sortId": 2,
-		"rateUpItems4": [ 15405, 11402, 14402, 13407, 12403 ],
-		"rateUpItems5": [ 114511, 15509 ],
-		"fallbackItems5Pool1": [],
-		"weights4": [
-			[ 1, 600 ],
-			[ 7, 600 ],
-			[ 8, 6600 ],
-			[ 10, 12600 ]
-		],
-		"weights5": [
-			[ 1, 100 ],
-			[ 62, 100 ],
-			[ 73, 7800 ],
-			[ 80, 10000 ]
-		],
-		"eventChance4": 75,
-		"eventChance5": 75
-	}
-	//3.1下角色2-深秘之息：阿贝多、芭芭拉、北斗、香菱(复刻不放卡池)
+  //3.2上角色1-月草的赐慧：纳西妲、诺艾尔、班尼特、雷泽
+  {
+    "comment": "Character Event Banner 1",
+    "gachaType": 431,
+    "scheduleId": 831,
+    "bannerType": "EVENT",
+    "prefabPath": "GachaShowPanel_A103",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A0103_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 969,
+    "rateUpItems4": [ 1034, 1020, 1032 ],
+    "rateUpItems5": [ 1073 ],
+    "fallbackItems5Pool2": [],
+    "weights5": [
+      [ 1, 80 ],
+      [ 73, 80 ],
+      [ 90, 10000 ]
+    ]
+  },
+  //3.2上角色-焰色天河：宵宫、诺艾尔、班尼特、雷泽(复刻不放卡池)
+  //3.2上武器-神铸赋形：飞雷之弦振、
+  {
+    "comment": "Weapon Event Banner",
+    "gachaType": 502,
+    "scheduleId": 602,
+    "bannerType": "WEAPON",
+    "prefabPath": "GachaShowPanel_A105",
+    "titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+    "costItemId": 223,
+    "beginTime": 0,
+    "endTime": 1924992000,
+    "sortId": 2,
+    "rateUpItems4": [ 15405, 11402, 14402, 13407, 12403 ],
+    "rateUpItems5": [ 114511, 15509 ],
+    "fallbackItems5Pool1": [],
+    "weights4": [
+      [ 1, 600 ],
+      [ 7, 600 ],
+      [ 8, 6600 ],
+      [ 10, 12600 ]
+    ],
+    "weights5": [
+      [ 1, 100 ],
+      [ 62, 100 ],
+      [ 73, 7800 ],
+      [ 80, 10000 ]
+    ],
+    "eventChance4": 75,
+    "eventChance5": 75
+  }
+  //3.1下角色2-深秘之息：阿贝多、芭芭拉、北斗、香菱(复刻不放卡池)
 ]

@@ -14,8 +14,9 @@
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 using System.Collections.Generic;
 using System.Globalization;
 using System.Text.RegularExpressions;
@@ -55,9 +56,7 @@ namespace GrasscutterTools.GOOD
             Weapons = ToGOODMap(weapons);
         }
 
-
         public static Dictionary<string, int> ArtifactCats { get; private set; }
-
 
         public static Dictionary<string, int> ArtifactSlotMap = new Dictionary<string, int> {
             {"goblet", 1}, {"plume", 2}, {"circlet", 3}, {"flower", 4}, {"sands", 5}
@@ -103,6 +102,5 @@ namespace GrasscutterTools.GOOD
         public static Dictionary<string, int> Avatars { get; private set; }
 
         public static Dictionary<string, int> Weapons { get; private set; }
-
     }
 }

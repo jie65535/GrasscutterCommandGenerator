@@ -14,8 +14,9 @@
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 using System.ComponentModel;
 using System.Linq;
 
@@ -214,7 +215,6 @@ namespace GrasscutterTools.Game.Gacha
         /// </summary>
         [JsonProperty("bannerType"), JsonConverter(typeof(StringEnumConverter)), DefaultValue(BannerType.STANDARD)]
         public BannerType BannerType { get; set; } = BannerType.STANDARD;
-
 
         public override string ToString()
         {

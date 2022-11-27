@@ -45,7 +45,6 @@ namespace GrasscutterTools.Utils
             listBox.EndUpdate();
         }
 
-
         /// <summary>
         /// 使用浏览器打开网址
         /// </summary>
@@ -63,11 +62,10 @@ namespace GrasscutterTools.Utils
             }
         }
 
-
         /// <summary>
         /// 提示气泡对象
         /// </summary>
-        private readonly static ToolTip TTip = new ToolTip();
+        private static readonly ToolTip TTip = new ToolTip();
 
         /// <summary>
         /// 在指定控件上显示提示气泡

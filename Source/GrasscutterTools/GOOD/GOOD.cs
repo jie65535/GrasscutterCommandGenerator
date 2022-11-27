@@ -14,8 +14,9 @@
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 using System.Collections.Generic;
 
 using Newtonsoft.Json;
@@ -26,7 +27,7 @@ namespace GrasscutterTools.GOOD
     /// Genshin Open Object Description (GOOD)
     /// Doc: https://frzyc.github.io/genshin-optimizer/#/doc
     /// Modified from https://github.com/Andrewthe13th/Inventory_Kamera/blob/master/InventoryKamera/data/GOOD.cs
-    /// 
+    ///
     /// Available for
     /// https://frzyc.github.io/genshin-optimizer/
     /// https://github.com/Andrewthe13th/Inventory_Kamera

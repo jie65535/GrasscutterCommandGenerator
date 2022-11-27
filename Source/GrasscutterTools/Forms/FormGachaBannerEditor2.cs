@@ -22,7 +22,6 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using System.Windows.Forms.DataVisualization.Charting;
 
 using GrasscutterTools.Game;
 using GrasscutterTools.Game.Gacha;
@@ -301,7 +300,7 @@ namespace GrasscutterTools.Forms
                 {
                     var json = JsonConvert.SerializeObject(banner);
                     json = json.Replace(",\"", ",\r\n  \"").Insert(1, "\r\n  ");
-                    TxtJson.Text = json.Insert(json.Length-1, "\r\n");
+                    TxtJson.Text = json.Insert(json.Length - 1, "\r\n");
                     ShowBanner(banner);
                 }
             }

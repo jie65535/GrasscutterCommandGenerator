@@ -14,8 +14,9 @@
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -99,25 +100,25 @@ namespace GrasscutterTools.Forms
         {
             try
             {
-                NUDGachaType.Value          = banner.GachaType;
-                NUDScheduleId.Value         = banner.ScheduleId;
+                NUDGachaType.Value = banner.GachaType;
+                NUDScheduleId.Value = banner.ScheduleId;
                 CmbBannerType.SelectedIndex = (int)banner.BannerType;
                 if (string.IsNullOrEmpty(banner.TitlePath) || !int.TryParse(banner.TitlePath.Substring("UI_GACHA_SHOW_PANEL_A".Length, 3), out int prefabId))
                     CmbPrefab.SelectedIndex = -1;
                 else
                     CmbPrefab.SelectedIndex = Array.IndexOf(GameData.GachaBannerPrefabs.Ids, prefabId);
-                RbCostItem224.Checked       = banner.CostItem == 224;
-                RbCostItem223.Checked       = banner.CostItem == 223;
-                NUDBeginTime.Value          = banner.BeginTime;
-                NUDEndTime.Value            = banner.EndTime;
-                NUDSortId.Value             = banner.SortId;
-                TxtRateUpItems1.Text        = string.Join(", ", banner.RateUpItems1);
-                TxtRateUpItems2.Text        = string.Join(", ", banner.RateUpItems2);
-                NUDBaseYellowWeight.Value   = banner.BaseYellowWeight * 0.01M;
-                NUDBasePurpleWeight.Value   = banner.BasePurpleWeight * 0.01M;
-                NUDEventChance.Value        = banner.EventChance;
-                NUDSoftPity.Value           = banner.SoftPity;
-                NUDHardPity.Value           = banner.HardPity;
+                RbCostItem224.Checked = banner.CostItem == 224;
+                RbCostItem223.Checked = banner.CostItem == 223;
+                NUDBeginTime.Value = banner.BeginTime;
+                NUDEndTime.Value = banner.EndTime;
+                NUDSortId.Value = banner.SortId;
+                TxtRateUpItems1.Text = string.Join(", ", banner.RateUpItems1);
+                TxtRateUpItems2.Text = string.Join(", ", banner.RateUpItems2);
+                NUDBaseYellowWeight.Value = banner.BaseYellowWeight * 0.01M;
+                NUDBasePurpleWeight.Value = banner.BasePurpleWeight * 0.01M;
+                NUDEventChance.Value = banner.EventChance;
+                NUDSoftPity.Value = banner.SoftPity;
+                NUDHardPity.Value = banner.HardPity;
                 InitRateUpItems(banner);
             }
             catch (Exception ex)
@@ -155,23 +156,23 @@ namespace GrasscutterTools.Forms
             var prefabId = GameData.GachaBannerPrefabs.Ids[CmbPrefab.SelectedIndex];
             GachaBanner banner = new GachaBanner
             {
-                GachaType         = (int)NUDGachaType.Value,
-                ScheduleId        = (int)NUDScheduleId.Value,
-                BannerType        = (BannerType)CmbBannerType.SelectedIndex,
-                PrefabPath        = $"GachaShowPanel_A{prefabId:000}",
+                GachaType = (int)NUDGachaType.Value,
+                ScheduleId = (int)NUDScheduleId.Value,
+                BannerType = (BannerType)CmbBannerType.SelectedIndex,
+                PrefabPath = $"GachaShowPanel_A{prefabId:000}",
                 PreviewPrefabPath = $"UI_Tab_GachaShowPanel_A{prefabId:000}",
-                TitlePath         = $"UI_GACHA_SHOW_PANEL_A{prefabId:000}_TITLE",
-                CostItem          = RbCostItem224.Checked ? 224 : 223,
-                BeginTime         = (int)NUDBeginTime.Value,
-                EndTime           = (int)NUDEndTime.Value,
-                SortId            = (int)NUDSortId.Value,
-                RateUpItems1      = yellowIds,
-                RateUpItems2      = purpleIds,
-                BaseYellowWeight  = (int)(NUDBaseYellowWeight.Value * 100),
-                BasePurpleWeight  = (int)(NUDBasePurpleWeight.Value * 100),
-                EventChance       = (int)NUDEventChance.Value,
-                SoftPity          = (int)NUDSoftPity.Value,
-                HardPity          = (int)NUDHardPity.Value
+                TitlePath = $"UI_GACHA_SHOW_PANEL_A{prefabId:000}_TITLE",
+                CostItem = RbCostItem224.Checked ? 224 : 223,
+                BeginTime = (int)NUDBeginTime.Value,
+                EndTime = (int)NUDEndTime.Value,
+                SortId = (int)NUDSortId.Value,
+                RateUpItems1 = yellowIds,
+                RateUpItems2 = purpleIds,
+                BaseYellowWeight = (int)(NUDBaseYellowWeight.Value * 100),
+                BasePurpleWeight = (int)(NUDBasePurpleWeight.Value * 100),
+                EventChance = (int)NUDEventChance.Value,
+                SoftPity = (int)NUDSoftPity.Value,
+                HardPity = (int)NUDHardPity.Value
             };
             return banner;
         }

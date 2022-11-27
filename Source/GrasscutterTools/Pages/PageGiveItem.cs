@@ -22,6 +22,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+
 using GrasscutterTools.Game;
 
 using GrasscutterTools.Properties;
@@ -39,7 +40,6 @@ namespace GrasscutterTools.Pages
 
             InitGiveItemRecord();
         }
-
 
         /// <summary>
         /// 初始化游戏物品列表
@@ -185,6 +185,5 @@ namespace GrasscutterTools.Pages
         }
 
         #endregion -- 物品记录 --
-
     }
 }

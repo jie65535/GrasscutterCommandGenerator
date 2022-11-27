@@ -14,8 +14,9 @@
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 using System;
 using System.Collections.Generic;
 
@@ -58,7 +59,7 @@ namespace GrasscutterTools.Game.Mail
         /// 附件列表
         /// </summary>
         public List<MailItem> ItemList { get; set; }
-        
+
         /// <summary>
         /// 发送时间
         /// </summary>

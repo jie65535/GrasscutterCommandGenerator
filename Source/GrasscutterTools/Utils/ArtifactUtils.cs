@@ -14,15 +14,16 @@
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace GrasscutterTools.Utils
 {
-    class SubstatSumEquality : IEqualityComparer<List<KeyValuePair<int, double>>>
+    internal class SubstatSumEquality : IEqualityComparer<List<KeyValuePair<int, double>>>
     {
         public bool Equals(List<KeyValuePair<int, double>> left, List<KeyValuePair<int, double>> right)
         {
@@ -48,8 +49,8 @@ namespace GrasscutterTools.Utils
         }
     }
 
-    class ArtifactUtils
-    {   
+    internal class ArtifactUtils
+    {
         public static Dictionary<string, double[][]> substats_rolls = new Dictionary<string, double[][]>
         {
             {
@@ -179,6 +180,7 @@ namespace GrasscutterTools.Utils
             // Default, should never happen
             return last_stat_list;
         }
+
         private static void InitSubstats()
         {
             substats_dict = new Dictionary<string, Dictionary<int, List<KeyValuePair<double, int[]>>>>();
@@ -193,7 +195,7 @@ namespace GrasscutterTools.Utils
                     substat_options.Add(new KeyValuePair<int, double>(0, 0));
                     for (int substat_index = 0; substat_index < substats_rolls[stat_name][rarity_index].Length; substat_index++)
                     {
-                        substat_options.Add(new KeyValuePair<int, double>(substat_index+1, substats_rolls[stat_name][rarity_index][substat_index]));
+                        substat_options.Add(new KeyValuePair<int, double>(substat_index + 1, substats_rolls[stat_name][rarity_index][substat_index]));
                     }
 
                     var substat_sum_data = (from s1 in substat_options from s2 in substat_options from s3 in substat_options from s4 in substat_options from s5 in substat_options from s6 in substat_options select new { s1, s2, s3, s4, s5, s6 })

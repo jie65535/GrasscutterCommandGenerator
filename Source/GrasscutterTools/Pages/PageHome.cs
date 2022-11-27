@@ -85,7 +85,6 @@ namespace GrasscutterTools.Pages
 
         #region - 检查更新 Check update -
 
-
         private ReleaseAPI.ReleaseInfo LastestInfo = null;
         private Version lastestVersion = null;
 
