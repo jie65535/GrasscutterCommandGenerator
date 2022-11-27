@@ -101,6 +101,7 @@
             resources.ApplyResources(this.ButtonOpenGOODImport, "ButtonOpenGOODImport");
             this.ButtonOpenGOODImport.Name = "ButtonOpenGOODImport";
             this.ButtonOpenGOODImport.UseVisualStyleBackColor = true;
+            this.ButtonOpenGOODImport.Click += new System.EventHandler(this.ButtonOpenGOODImport_Click);
             // 
             // LblHostTip
             // 
