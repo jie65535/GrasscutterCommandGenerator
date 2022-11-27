@@ -38,7 +38,7 @@ namespace GrasscutterTools.Pages
         /// <summary>
         /// 自定义命令保存位置
         /// </summary>
-        private readonly string CustomCommandsFilePath = Path.Combine(Application.LocalUserAppDataPath, "CustomCommands.txt");
+        private readonly string CustomCommandsFilePath = Common.GetAppDataFile("CustomCommands.txt");
 
         /// <summary>
         /// 自定义命令是否存在更改

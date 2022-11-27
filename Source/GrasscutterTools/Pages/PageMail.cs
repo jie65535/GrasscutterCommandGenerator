@@ -208,7 +208,7 @@ namespace GrasscutterTools.Pages
         /// <summary>
         /// 获取物品记录文件路径
         /// </summary>
-        private readonly string MailListPath = Path.Combine(Application.LocalUserAppDataPath, "MailList.json");
+        private readonly string MailListPath = Common.GetAppDataFile("MailList.json");
 
         /// <summary>
         /// 邮件列表

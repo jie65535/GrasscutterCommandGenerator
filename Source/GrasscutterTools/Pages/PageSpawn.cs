@@ -156,7 +156,7 @@ namespace GrasscutterTools.Pages
         /// <summary>
         /// 生成命令记录文件路径
         /// </summary>
-        private readonly string SpawnCommandsRecordPath = Path.Combine(Application.LocalUserAppDataPath, "SpawnCommands.txt");
+        private readonly string SpawnCommandsRecordPath = Common.GetAppDataFile("SpawnCommands.txt");
 
         /// <summary>
         /// 生成命令记录

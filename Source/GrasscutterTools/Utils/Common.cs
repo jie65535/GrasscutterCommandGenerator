@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 using GrasscutterTools.Game;
 using GrasscutterTools.OpenCommand;
@@ -21,5 +22,14 @@ namespace GrasscutterTools.Utils
         /// 开放命令接口
         /// </summary>
         public static OpenCommandAPI OC { get; set; }
+
+        /// <summary>
+        /// 应用数据目录
+        /// </summary>
+        public static string GetAppDataFile(string filename) =>
+            Path.Combine(
+                Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
+                "GrasscutterTools",
+                filename);
     }
 }

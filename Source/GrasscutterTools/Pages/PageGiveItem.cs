@@ -100,7 +100,7 @@ namespace GrasscutterTools.Pages
         /// <summary>
         /// 获取物品记录文件路径
         /// </summary>
-        private readonly string GiveItemCommandsRecordPath = Path.Combine(Application.LocalUserAppDataPath, "GiveItemCommands.txt");
+        private readonly string GiveItemCommandsRecordPath = Common.GetAppDataFile("GiveItemCommands.txt");
 
         /// <summary>
         /// 获取物品记录
