@@ -46,6 +46,10 @@ namespace GrasscutterTools.Pages
             NUDUid.Value = Settings.Default.Uid;
             NUDUid.ValueChanged += (o, e) => Settings.Default.Uid = NUDUid.Value;
 
+            // 是否包含UID
+            ChkIncludeUID.Checked = Settings.Default.IsIncludeUID;
+            ChkIncludeUID.CheckedChanged += (o, e) => Settings.Default.IsIncludeUID = ChkIncludeUID.Checked;
+
             // 置顶
             ChkTopMost.Checked = Settings.Default.IsTopMost;
             ChkTopMost.CheckedChanged += (o, e) => Settings.Default.IsTopMost = ParentForm.TopMost = ChkTopMost.Checked;

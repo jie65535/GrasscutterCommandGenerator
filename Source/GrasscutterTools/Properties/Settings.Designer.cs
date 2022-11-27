@@ -226,5 +226,17 @@ namespace GrasscutterTools.Properties {
                 this["BannersJsonPath"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool IsIncludeUID {
+            get {
+                return ((bool)(this["IsIncludeUID"]));
+            }
+            set {
+                this["IsIncludeUID"] = value;
+            }
+        }
     }
 }
