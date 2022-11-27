@@ -41,10 +41,33 @@ namespace GrasscutterTools.Forms
             Icon = Resources.IconGrasscutter;
 
             if (DesignMode) return;
-            // 初始化页面
-            InitPages();
-            // 加载设置
-            LoadSettings();
+
+            try
+            {
+                // 还原窗体位置
+                if (Settings.Default.MainFormLocation != default)
+                {
+                    StartPosition = FormStartPosition.Manual;
+                    Location = Settings.Default.MainFormLocation;
+                    Console.WriteLine("Restore window location: " + Location.ToString());
+                }
+
+                // 还原窗体大小
+                if (Settings.Default.MainFormSize != default)
+                {
+                    Size = Settings.Default.MainFormSize;
+                    Console.WriteLine("Restore window size: " + Size.ToString());
+                }
+
+                // 初始化页面
+                InitPages();
+                // 恢复自动复制选项状态
+                ChkAutoCopy.Checked = Settings.Default.AutoCopy;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(Resources.SettingLoadError + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
             Console.WriteLine("FormMain ctor completed");
         }
 
@@ -94,22 +117,6 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
-        /// 载入设置
-        /// </summary>
-        private void LoadSettings()
-        {
-            try
-            {
-                // 恢复自动复制选项状态
-                ChkAutoCopy.Checked = Settings.Default.AutoCopy;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(Resources.SettingLoadError + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        /// <summary>
         /// 窗体载入时触发（切换语言时会重新载入）
         /// </summary>
         private void FormMain_Load(object sender, EventArgs e)
@@ -128,26 +135,6 @@ namespace GrasscutterTools.Forms
             {
                 if (tp.Controls.Count > 0 && tp.Controls[0] is BasePage page)
                     page.OnLoad();
-            }
-        }
-
-        /// <summary>
-        /// 第一次显示窗体时触发
-        /// </summary>
-        protected override void OnShown(EventArgs e)
-        {
-            base.OnShown(e);
-            // 还原窗体位置
-            if (Settings.Default.MainFormLocation != default)
-            {
-                Location = Settings.Default.MainFormLocation;
-                Console.WriteLine("Restore window location: " + Location.ToString());
-            }
-            // 还原窗体大小
-            if (Settings.Default.MainFormSize != default)
-            {
-                Size = Settings.Default.MainFormSize;
-                Console.WriteLine("Restore window size: " + Size.ToString());
             }
         }
 
