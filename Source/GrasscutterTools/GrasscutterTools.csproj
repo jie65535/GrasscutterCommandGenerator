@@ -163,6 +163,18 @@
     <Compile Include="Pages\BasePage.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Pages\PageAbout.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageAbout.Designer.cs">
+      <DependentUpon>PageAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageAvatar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageAvatar.Designer.cs">
+      <DependentUpon>PageAvatar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PageCustomCommands.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -174,6 +186,12 @@
     </Compile>
     <Compile Include="Pages\PageGiveArtifact.Designer.cs">
       <DependentUpon>PageGiveArtifact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageGiveItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageGiveItem.Designer.cs">
+      <DependentUpon>PageGiveItem.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\PageGiveWeapon.cs">
       <SubType>UserControl</SubType>
@@ -187,11 +205,35 @@
     <Compile Include="Pages\PageHome.Designer.cs">
       <DependentUpon>PageHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PageMail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageMail.Designer.cs">
+      <DependentUpon>PageMail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageManagement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageManagement.Designer.cs">
+      <DependentUpon>PageManagement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PageOpenCommand.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Pages\PageOpenCommand.Designer.cs">
       <DependentUpon>PageOpenCommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageQuest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageQuest.Designer.cs">
+      <DependentUpon>PageQuest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageScene.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageScene.Designer.cs">
+      <DependentUpon>PageScene.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\PageSpawn.cs">
       <SubType>UserControl</SubType>
@@ -300,6 +342,30 @@
     <EmbeddedResource Include="Forms\FormTextMapBrowser.zh-TW.resx">
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageAbout.en-US.resx">
+      <DependentUpon>PageAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageAbout.resx">
+      <DependentUpon>PageAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageAbout.ru-RU.resx">
+      <DependentUpon>PageAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageAbout.zh-TW.resx">
+      <DependentUpon>PageAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageAvatar.en-US.resx">
+      <DependentUpon>PageAvatar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageAvatar.resx">
+      <DependentUpon>PageAvatar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageAvatar.ru-RU.resx">
+      <DependentUpon>PageAvatar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageAvatar.zh-TW.resx">
+      <DependentUpon>PageAvatar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageCustomCommands.en-US.resx">
       <DependentUpon>PageCustomCommands.cs</DependentUpon>
     </EmbeddedResource>
@@ -323,6 +389,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageGiveArtifact.zh-TW.resx">
       <DependentUpon>PageGiveArtifact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageGiveItem.en-US.resx">
+      <DependentUpon>PageGiveItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageGiveItem.resx">
+      <DependentUpon>PageGiveItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageGiveItem.ru-RU.resx">
+      <DependentUpon>PageGiveItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageGiveItem.zh-TW.resx">
+      <DependentUpon>PageGiveItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageGiveWeapon.en-US.resx">
       <DependentUpon>PageGiveWeapon.cs</DependentUpon>
@@ -348,6 +426,30 @@
     <EmbeddedResource Include="Pages\PageHome.zh-TW.resx">
       <DependentUpon>PageHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageMail.en-US.resx">
+      <DependentUpon>PageMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageMail.resx">
+      <DependentUpon>PageMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageMail.ru-RU.resx">
+      <DependentUpon>PageMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageMail.zh-TW.resx">
+      <DependentUpon>PageMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageManagement.en-US.resx">
+      <DependentUpon>PageManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageManagement.resx">
+      <DependentUpon>PageManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageManagement.ru-RU.resx">
+      <DependentUpon>PageManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageManagement.zh-TW.resx">
+      <DependentUpon>PageManagement.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageOpenCommand.en-US.resx">
       <DependentUpon>PageOpenCommand.cs</DependentUpon>
     </EmbeddedResource>
@@ -359,6 +461,30 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageOpenCommand.zh-TW.resx">
       <DependentUpon>PageOpenCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageQuest.en-US.resx">
+      <DependentUpon>PageQuest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageQuest.resx">
+      <DependentUpon>PageQuest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageQuest.ru-RU.resx">
+      <DependentUpon>PageQuest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageQuest.zh-TW.resx">
+      <DependentUpon>PageQuest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageScene.en-US.resx">
+      <DependentUpon>PageScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageScene.resx">
+      <DependentUpon>PageScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageScene.ru-RU.resx">
+      <DependentUpon>PageScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageScene.zh-TW.resx">
+      <DependentUpon>PageScene.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageSpawn.en-US.resx">
       <DependentUpon>PageSpawn.cs</DependentUpon>

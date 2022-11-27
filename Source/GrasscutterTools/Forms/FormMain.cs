@@ -14,27 +14,21 @@
  *
  *  You should have received a copy of the GNU Affero General Public License
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
- * 
+ *
  **/
+
 using System;
 using System.Collections.Generic;
 using System.Drawing;
-using System.IO;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-using GrasscutterTools.DispatchServer;
 using GrasscutterTools.Game;
-using GrasscutterTools.Game.Mail;
-using GrasscutterTools.GOOD;
 using GrasscutterTools.OpenCommand;
 using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
-
-using Newtonsoft.Json;
 
 namespace GrasscutterTools.Forms
 {
@@ -72,15 +66,15 @@ namespace GrasscutterTools.Forms
 
             //LoadCustomCommands();
             //InitArtifactList();
-            InitGameItemList();
+            //InitGameItemList();
             //InitWeapons();
-            InitAvatars();
+            //InitAvatars();
             //InitEntityList();
-            InitScenes();
-            InitStatList();
-            InitPermList();
-            InitQuestList();
-            InitMailPage();
+            //InitScenes();
+            //InitStatList();
+            //InitPermList();
+            //InitQuestList();
+            //InitMailPage();
 
             //ChangeTPArtifact();
         }
@@ -107,7 +101,6 @@ namespace GrasscutterTools.Forms
             // 保存当前设置
             SaveSettings();
         }
-
 
         /// <summary>
         /// 应用版本
@@ -136,7 +129,7 @@ namespace GrasscutterTools.Forms
                 //InitHomeSettings();
 
                 // 初始化获取物品记录
-                InitGiveItemRecord();
+                //InitGiveItemRecord();
 
                 // 初始化生成记录
                 //InitSpawnRecord();
@@ -145,7 +138,7 @@ namespace GrasscutterTools.Forms
                 //InitOpenCommand();
 
                 // 初始化邮件列表
-                InitMailList();
+                //InitMailList();
             }
             catch (Exception ex)
             {
@@ -176,7 +169,7 @@ namespace GrasscutterTools.Forms
                 //SaveOpenCommand();
 
                 // 保存邮件设置
-                SaveMailSettings();
+                //SaveMailSettings();
 
                 // 保存默认设置
                 Settings.Default.Save();
@@ -187,812 +180,12 @@ namespace GrasscutterTools.Forms
             }
         }
 
-
         #endregion - 初始化 Init -
-
 
         /// <summary>
         /// 命令版本
         /// </summary>
         private CommandVersion CommandVersion => Common.CommandVersion;
-
-
-        #region - 物品 Items -
-
-        /// <summary>
-        /// 初始化游戏物品列表
-        /// </summary>
-        private void InitGameItemList()
-        {
-            ListGameItems.Items.Clear();
-            ListGameItems.Items.AddRange(GameData.Items.Lines);
-        }
-
-        /// <summary>
-        /// 物品列表过滤器文本改变时触发
-        /// </summary>
-        private void TxtGameItemFilter_TextChanged(object sender, EventArgs e)
-        {
-            UIUtil.ListBoxFilter(ListGameItems, GameData.Items.Lines, TxtGameItemFilter.Text);
-        }
-
-        /// <summary>
-        /// 生成获取物品命令
-        /// </summary>
-        /// <returns>是否生成成功</returns>
-        private bool GenGiveItemCommand()
-        {
-            var name = ListGameItems.SelectedItem as string;
-            if (!string.IsNullOrEmpty(name))
-            {
-                var id = ItemMap.ToId(name);
-
-                if (ChkDrop.Checked)
-                {
-                    NUDGameItemLevel.Enabled = false;
-                    SetCommand("/drop", $"{id} {NUDGameItemAmout.Value}");
-                }
-                else
-                {
-                    NUDGameItemLevel.Enabled = true;
-                    if (CommandVersion.Check(CommandVersion.V1_2_2))
-                        SetCommand("/give", $"{id} x{NUDGameItemAmout.Value} lv{NUDGameItemLevel.Value}");
-                    else
-                        SetCommand("/give", $"{id} {NUDGameItemAmout.Value} {NUDGameItemLevel.Value}");
-                }
-                return true;
-            }
-            return false;
-        }
-
-        /// <summary>
-        /// 获取物品输入改变时触发
-        /// </summary>
-        private void GiveItemsInputChanged(object sender, EventArgs e)
-        {
-            GenGiveItemCommand();
-        }
-
-        #region -- 物品记录 --
-
-        /// <summary>
-        /// 获取物品记录文件路径
-        /// </summary>
-        private readonly string GiveItemCommandsRecordPath = Path.Combine(Application.LocalUserAppDataPath, "GiveItemCommands.txt");
-
-        /// <summary>
-        /// 获取物品记录
-        /// </summary>
-        private List<GameCommand> GiveItemCommands;
-
-        /// <summary>
-        /// 初始化获取物品记录
-        /// </summary>
-        private void InitGiveItemRecord()
-        {
-            if (File.Exists(GiveItemCommandsRecordPath))
-            {
-                GiveItemCommands = GetCommands(File.ReadAllText(GiveItemCommandsRecordPath));
-                ListGiveItemLogs.Items.AddRange(GiveItemCommands.Select(c => c.Name).ToArray());
-            }
-            else
-            {
-                GiveItemCommands = new List<GameCommand>();
-            }
-        }
-
-        /// <summary>
-        /// 保存获取物品记录
-        /// </summary>
-        private void SaveGiveItemRecord()
-        {
-            File.WriteAllText(GiveItemCommandsRecordPath, GetCommandsText(GiveItemCommands));
-        }
-
-        /// <summary>
-        /// 获取物品记录列表选中项改变时触发
-        /// </summary>
-        private void ListGiveItemLogs_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (ListGiveItemLogs.SelectedIndex >= 0)
-            {
-                BtnRemoveGiveItemLog.Enabled = true;
-                SetCommand(GiveItemCommands[ListGiveItemLogs.SelectedIndex].Command);
-            }
-            else
-            {
-                BtnRemoveGiveItemLog.Enabled = false;
-            }
-        }
-
-        /// <summary>
-        /// 点击保存记录按钮时触发
-        /// </summary>
-        private void BtnSaveGiveItemLog_Click(object sender, EventArgs e)
-        {
-            if (GenGiveItemCommand())
-            {
-                var cmd = new GameCommand($"{ListGameItems.SelectedItem} x{NUDGameItemAmout.Value}", CmbCommand.Text);
-                GiveItemCommands.Add(cmd);
-                ListGiveItemLogs.Items.Add(cmd.Name);
-                SaveGiveItemRecord();
-            }
-        }
-
-        /// <summary>
-        /// 点击移除获取物品记录时触发
-        /// </summary>
-        private void BtnRemoveGiveItemLog_Click(object sender, EventArgs e)
-        {
-            if (ListGiveItemLogs.SelectedIndex >= 0)
-            {
-                GiveItemCommands.RemoveAt(ListGiveItemLogs.SelectedIndex);
-                ListGiveItemLogs.Items.RemoveAt(ListGiveItemLogs.SelectedIndex);
-                SaveGiveItemRecord();
-            }
-        }
-
-        /// <summary>
-        /// 点击清空获取物品记录时触发
-        /// </summary>
-        private void LblClearGiveItemLogs_Click(object sender, EventArgs e)
-        {
-            if (MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                GiveItemCommands.Clear();
-                ListGiveItemLogs.Items.Clear();
-                SaveGiveItemRecord();
-            }
-        }
-
-        #endregion -- 物品记录 --
-
-        #endregion - 物品 Items -
-
-        #region - 角色 Avatars -
-
-        #region -- 获取角色 --
-
-        /// <summary>
-        /// 初始化角色列表
-        /// </summary>
-        private void InitAvatars()
-        {
-            CmbAvatar.Items.Clear();
-            CmbAvatar.Items.AddRange(GameData.Avatars.Names);
-        }
-
-        /// <summary>
-        /// 角色下拉框选中项改变时触发
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void CmbAvatar_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            // TODO: Load Avatar Image
-            AvatarInputChanged();
-        }
-
-        /// <summary>
-        /// 角色等级输入框数值改变时触发
-        /// </summary>
-        private void NUDAvatarLevel_ValueChanged(object sender, EventArgs e)
-        {
-            AvatarInputChanged();
-        }
-
-        /// <summary>
-        /// 角色命座输入框数值改变时触发
-        /// </summary>
-        private void NUDAvatarConstellation_ValueChanged(object sender, EventArgs e)
-        {
-            AvatarInputChanged();
-        }
-
-        /// <summary>
-        /// 角色页面输入改变时触发
-        /// </summary>
-        private void AvatarInputChanged()
-        {
-            if (CmbAvatar.SelectedIndex >= 0)
-                GenAvatar((int)NUDAvatarLevel.Value, (int)NUDAvatarConstellation.Value, (int)NUDAvatarSkillLevel.Value);
-        }
-
-        /// <summary>
-        /// 获取角色命令
-        /// </summary>
-        /// <param name="level">等级</param>
-        private void GenAvatar(int level, int constellation, int skillLevel)
-        {
-            if (CommandVersion.Check(CommandVersion.V1_4_1))
-            {
-                int avatarId = GameData.Avatars.Ids[CmbAvatar.SelectedIndex];
-                SetCommand("/give", $"{avatarId} lv{level} c{constellation} sl{skillLevel}");
-            }
-            else if (CommandVersion.Check(CommandVersion.V1_2_2))
-            {
-                int avatarId = GameData.Avatars.Ids[CmbAvatar.SelectedIndex];
-                SetCommand("/give", $"{avatarId} lv{level} c{constellation}");
-            }
-            else
-            {
-                int avatarId = GameData.Avatars.Ids[CmbAvatar.SelectedIndex] - 1000 + 10000000;
-                SetCommand("/givechar", $"{avatarId} {level}");
-            }
-        }
-
-        /// <summary>
-        /// 点击获取所有角色按钮时触发
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void BtnGiveAllChar_Click(object sender, EventArgs e)
-        {
-            var level = NUDAvatarLevel.Value;
-            var constellation = NUDAvatarConstellation.Value;
-            var skillLevel = NUDAvatarSkillLevel.Value;
-            if (CommandVersion.Check(CommandVersion.V1_4_1))
-                SetCommand("/give avatars", $"lv{level} c{constellation} sl{skillLevel}");
-            else
-                SetCommand("/give avatars", $"lv{level} c{constellation}");
-        }
-
-        #endregion
-
-        #region -- 切换主角元素 --
-
-        /// <summary>
-        /// 点击切换主角元素链接标签时触发
-        /// </summary>
-        private void LnkSwitchElement_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            UIUtil.OpenURL("https://github.com/Penelopeep/SwitchElementTraveller");
-        }
-
-        /// <summary>
-        /// 元素参数
-        /// </summary>
-        private readonly string[] Elements = { "white", "fire", "water", "wind", "ice", "rock", "electro", "grass" };
-
-        /// <summary>
-        /// 切换元素下拉框选中项改变时触发
-        /// </summary>
-        private void CmbSwitchElement_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (CmbSwitchElement.SelectedIndex == -1 || CmbSwitchElement.SelectedIndex >= Elements.Length) return;
-            SetCommand("/se", Elements[CmbSwitchElement.SelectedIndex]);
-        }
-        #endregion
-
-        #region -- 设置角色属性 --
-
-        /// <summary>
-        /// 初始化数据列表
-        /// </summary>
-        private void InitStatList()
-        {
-            LblStatTip.Text = "";
-            SetStatsCommand.InitStats();
-            CmbStat.Items.Clear();
-            CmbStat.Items.AddRange(SetStatsCommand.Stats.Select(s => s.Name).ToArray());
-        }
-
-        /// <summary>
-        /// 数据页面输入改变时触发
-        /// </summary>
-        private void SetStatsInputChanged(object sender, EventArgs e)
-        {
-            if (CmbStat.SelectedIndex < 0)
-                return;
-            else
-                BtnLockStat.Enabled = BtnUnlockStat.Enabled = true;
-
-            var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
-            LblStatPercent.Visible = stat.Percent;
-            LblStatTip.Text = stat.Tip;
-
-            SetCommand("/setstats", $"{stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
-        }
-
-        /// <summary>
-        /// 点击锁定按钮时触发
-        /// </summary>
-        private void BtnLockStat_Click(object sender, EventArgs e)
-        {
-            var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
-            SetCommand("/setstats", $"lock {stat.ArgName} {NUDStat.Value}{(stat.Percent ? "%" : "")}");
-        }
-
-        /// <summary>
-        /// 点击解锁按钮时触发
-        /// </summary>
-        private void BtnUnlockStat_Click(object sender, EventArgs e)
-        {
-            var stat = SetStatsCommand.Stats[CmbStat.SelectedIndex];
-            SetCommand("/setstats", $"unlock {stat.ArgName}");
-        }
-
-        #endregion
-
-        #region -- 设置技能等级 --
-
-        /// <summary>
-        /// 点击设置技能按钮时触发
-        /// </summary>
-        private void LnkSetTalentClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            SetCommand("/talent", $"{(sender as LinkLabel).Tag} {NUDTalentLevel.Value}");
-        }
-
-        #endregion
-
-        #region -- 设置命座 --
-
-        /// <summary>
-        /// 设置命座链接标签点击时触发
-        /// </summary>
-        private void LnkSetConst_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            if (NUDSetConstellation.Value >= 0)
-                SetCommand("/setConst", $"{NUDSetConstellation.Value}" + (sender == LnkSetAllConst ? " all" : string.Empty));
-            else
-                SetCommand("/resetConst", (sender == LnkSetAllConst ? "all" : string.Empty));
-        }
-
-        #endregion
-
-        #endregion - 角色 Avatars -
-
-        #region - 场景 Scenes -
-
-        private string[] _scenes;
-        private string[] Scenes
-        {
-            get => _scenes;
-            set
-            {
-                if (_scenes == value)
-                    return;
-                _scenes = value;
-                ListScenes.Items.Clear();
-                ListScenes.Items.AddRange(value);
-            }
-        }
-
-        /// <summary>
-        /// 初始化场景列表
-        /// </summary>
-        private void InitScenes()
-        {
-            Scenes = GameData.Scenes.Lines;
-            CmbClimateType.Items.Clear();
-            CmbClimateType.Items.AddRange(Resources.ClimateType.Split(','));
-        }
-
-        /// <summary>
-        /// 选中场景时触发
-        /// </summary>
-        private void RbListScene_CheckedChanged(object sender, EventArgs e)
-        {
-            if (RbListScene.Checked)
-                Scenes = GameData.Scenes.Lines;
-        }
-
-        /// <summary>
-        /// 选中秘境时触发
-        /// </summary>
-        private void RbListDungeons_CheckedChanged(object sender, EventArgs e)
-        {
-            if (RbListDungeons.Checked)
-                Scenes = GameData.Dungeons.Lines;
-        }
-
-        /// <summary>
-        /// 场景列表过滤器输入项改变时触发
-        /// </summary>
-        private void TxtSceneFilter_TextChanged(object sender, EventArgs e)
-        {
-            UIUtil.ListBoxFilter(ListScenes, Scenes, TxtSceneFilter.Text);
-        }
-
-        /// <summary>
-        /// 场景列表选中项改变时触发
-        /// </summary>
-        private void ListScenes_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (ListScenes.SelectedIndex < 0)
-            {
-                ChkIncludeSceneId.Enabled = false;
-                return;
-            }
-            ChkIncludeSceneId.Enabled = true;
-
-            // 可以直接弃用 scene 命令
-            var name = ListScenes.SelectedItem as string;
-            var id = ItemMap.ToId(name);
-            if (RbListScene.Checked)
-            {
-                if (CommandVersion.Check(CommandVersion.V1_2_2))
-                {
-                    SetCommand("/scene", id.ToString());
-                }
-                else
-                {
-                    SetCommand("/tp ~ ~ ~", id.ToString());
-                }
-            }
-            else if (RbListDungeons.Checked)
-            {
-                SetCommand("/dungeon", id.ToString());
-            }
-        }
-
-        /// <summary>
-        /// 气候类型列表
-        /// </summary>
-        static readonly string[] climateTypes = { "none", "sunny", "cloudy", "rain", "thunderstorm", "snow", "mist" };
-
-        /// <summary>
-        /// 气候类型下拉框选中项改变时触发
-        /// </summary>
-        private void CmbClimateType_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (CmbClimateType.SelectedIndex < 0)
-                return;
-            if (CommandVersion.Check(CommandVersion.V1_2_2))
-                SetCommand("/weather", CmbClimateType.SelectedIndex < climateTypes.Length ? climateTypes[CmbClimateType.SelectedIndex] : "none");
-            else
-                SetCommand("/weather", $"0 {CmbClimateType.SelectedIndex}");
-        }
-
-        /// <summary>
-        /// 点击传送按钮时触发
-        /// </summary>
-        private void BtnTeleport_Click(object sender, EventArgs e)
-        {
-            string args = $"{NUDTpX.Value} {NUDTpY.Value} {NUDTpZ.Value}";
-            if (ChkIncludeSceneId.Checked && RbListScene.Checked && ListScenes.SelectedIndex != -1)
-                args += $" {GameData.Scenes.Ids[ListScenes.SelectedIndex]}";
-            SetCommand("/tp", args);
-        }
-
-        #endregion - 场景 Scenes -
-
-        #region - 管理 Management -
-
-        /// <summary>
-        /// 初始化权限列表
-        /// </summary>
-        private void InitPermList()
-        {
-            CmbPerm.Items.Clear();
-            CmbPerm.Items.AddRange(Resources.Permissions.Split('\n').Select(l => l.Trim()).ToArray());
-        }
-
-        /// <summary>
-        /// 点击授权按钮时触发
-        /// </summary>
-        private void BtnPermClick(object sender, EventArgs e)
-        {
-            var uid = NUDPermUID.Value;
-            var perm = CmbPerm.Text.Trim();
-            var act = (sender as Button).Tag.ToString();
-            if (act == "list" || act == "clear")
-            {
-                SetCommand($"/permission {act} @{uid}");
-            }
-            else
-            {
-                if (string.IsNullOrEmpty(perm))
-                {
-                    MessageBox.Show(Resources.PermissionCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    return;
-                }
-                SetCommand($"/permission {act} @{uid} {perm}");
-            }
-        }
-
-        /// <summary>
-        /// 账号相关按钮点击时触发，Tag包含子命令
-        /// </summary>
-        private void AccountButtonClicked(object sender, EventArgs e)
-        {
-            var username = TxtAccountUserName.Text.Trim();
-            if (string.IsNullOrEmpty(username))
-            {
-                MessageBox.Show(Resources.UsernameCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-            SetCommand($"/account {(sender as Button).Tag} {username} {(ChkAccountSetUid.Checked ? NUDAccountUid.Value.ToString() : "")}");
-        }
-
-        /// <summary>
-        /// 点击封禁按钮时触发
-        /// </summary>
-        private void BtnBan_Click(object sender, EventArgs e)
-        {
-            var uid = NUDBanUID.Value;
-            var endTime = DTPBanEndTime.Value;
-            var command = $"/ban @{uid} {new DateTimeOffset(endTime).ToUnixTimeSeconds()}";
-            var reaseon = Regex.Replace(TxtBanReason.Text.Trim(), @"\s+", "-");
-            if (!string.IsNullOrEmpty(reaseon))
-                command += $" {reaseon}";
-            SetCommand(command);
-        }
-
-        /// <summary>
-        /// 点击解封按钮时触发
-        /// </summary>
-        private void BtnUnban_Click(object sender, EventArgs e)
-        {
-            SetCommand($"/unban @{NUDBanUID.Value}");
-        }
-
-        #endregion - 管理 Management -
-
-        #region - 邮件 Mail -
-
-        /// <summary>
-        /// 初始化邮件页面
-        /// </summary>
-        private void InitMailPage()
-        {
-            TxtMailSender.Text = Settings.Default.DefaultMailSender;
-            LoadMailSelectableItems();
-        }
-
-        /// <summary>
-        /// 保存邮件设置
-        /// </summary>
-        private void SaveMailSettings()
-        {
-            Settings.Default.DefaultMailSender = TxtMailSender.Text;
-        }
-
-        /// <summary>
-        /// 点击清空邮件内容时触发
-        /// </summary>
-        private void LblClearMailContent_Click(object sender, EventArgs e)
-        {
-            TxtMailContent.Clear();
-        }
-
-        /// <summary>
-        /// 点击发送邮件时触发
-        /// </summary>
-        private void BtnSendMail_Click(object sender, EventArgs e)
-        {
-            var mail = new Mail
-            {
-                Title = TxtMailTitle.Text.Trim(),
-                Sender = TxtMailSender.Text.Trim(),
-                Content = TxtMailContent.Text.Trim(),
-                Recipient = RbMailSendToAll.Checked ? 0 : (int)NUDMailRecipient.Value,
-                ItemList = new List<MailItem>(MailItems),
-                SendTime = DateTime.Now,
-            };
-
-            if (mail.Title == "" || mail.Sender == "" || mail.Content == "")
-            {
-                MessageBox.Show(Resources.EmptyInputTip, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }
-
-            if (mail.SendToAll)
-            {
-                MessageBox.Show(Resources.MailSendToAllWarning, Resources.Warning, MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-
-            var cmd = $"/sendMail {(mail.SendToAll ? "all" : mail.Recipient.ToString())} |" +
-                $"/sendMail {mail.Title} |" +
-                $"/sendMail {mail.Content.Replace("\r", "\\r").Replace("\n", "\\n")} |" +
-                $"/sendMail {mail.Sender} |";
-            foreach (var item in mail.ItemList)
-                cmd += $"/sendMail {item.ItemId} {item.ItemCount} {item.ItemLevel} |";
-            cmd += "/sendMail finish";
-
-            SetCommand(cmd);
-            AddMailToList(mail);
-        }
-
-        /// <summary>
-        /// 展示邮件
-        /// </summary>
-        /// <param name="mail"></param>
-        private void ShowMail(Mail mail)
-        {
-            TxtMailTitle.Text = mail.Title;
-            TxtMailSender.Text = mail.Sender;
-            TxtMailContent.Text = mail.Content;
-            NUDMailRecipient.Value = mail.Recipient;
-            RbMailSendToAll.Checked = mail.SendToAll;
-            RbMailSendToPlayer.Checked = !mail.SendToAll;
-            ShowMailItems(mail.ItemList);
-        }
-
-
-        #region -- 邮件附件列表 Mail items --
-
-        /// <summary>
-        /// 当前邮件附件列表
-        /// </summary>
-        private readonly List<MailItem> MailItems = new List<MailItem>();
-
-        /// <summary>
-        /// 展示邮件附件列表
-        /// </summary>
-        /// <param name="items"></param>
-        private void ShowMailItems(List<MailItem> items)
-        {
-            MailItems.Clear();
-            MailItems.AddRange(items);
-            ListMailItems.BeginUpdate();
-            ListMailItems.Items.Clear();
-            ListMailItems.Items.AddRange(items.Select(it => it.ToString()).ToArray());
-            ListMailItems.EndUpdate();
-        }
-
-        /// <summary>
-        /// 点击添加邮件附件项时触发
-        /// </summary>
-        private void BtnAddMailItem_Click(object sender, EventArgs e)
-        {
-            if (ListMailSelectableItems.SelectedIndex == -1)
-                return;
-            var item = ListMailSelectableItems.SelectedItem as string;
-            var itemId = ItemMap.ToId(item);
-            var mailItem = new MailItem
-            {
-                ItemId = itemId,
-                ItemCount = (int)NUDMailItemCount.Value,
-                ItemLevel = (int)NUDMailItemLevel.Value,
-            };
-            MailItems.Add(mailItem);
-            ListMailItems.Items.Add(mailItem.ToString());
-        }
-
-        /// <summary>
-        /// 点击删除邮件附件项时触发
-        /// </summary>
-        private void BtnDeleteMailItem_Click(object sender, EventArgs e)
-        {
-            if (ListMailItems.SelectedIndex == -1) return;
-
-            MailItems.RemoveAt(ListMailItems.SelectedIndex);
-            ListMailItems.Items.RemoveAt(ListMailItems.SelectedIndex);
-        }
-
-        #endregion
-
-        #region -- 邮件附件可选列表 Mail item selectable list --
-
-        private string[] MailSelectableItems;
-        
-        /// <summary>
-        /// 加载附件可选项列表
-        /// </summary>
-        private void LoadMailSelectableItems()
-        {
-            MailSelectableItems = new string[GameData.Items.Count + GameData.Weapons.Count + GameData.Artifacts.Count];
-            int i = 0;
-            GameData.Items.Lines.CopyTo(MailSelectableItems, i); i += GameData.Items.Count;
-            GameData.Weapons.Lines.CopyTo(MailSelectableItems, i); i += GameData.Weapons.Count;
-            GameData.Artifacts.Lines.CopyTo(MailSelectableItems, i); i += GameData.Artifacts.Count;
-
-            Array.Sort(MailSelectableItems, (a, b) => ItemMap.ToId(a) - ItemMap.ToId(b));
-
-            ListMailSelectableItems.Items.Clear();
-            ListMailSelectableItems.Items.AddRange(MailSelectableItems);
-        }
-
-        /// <summary>
-        /// 邮件页面物品列表过滤器文本改变时触发
-        /// </summary>
-        private void TxtMailSelectableItemFilter_TextChanged(object sender, EventArgs e)
-        {
-            UIUtil.ListBoxFilter(ListMailSelectableItems, MailSelectableItems, TxtMailSelectableItemFilter.Text);
-        }
-
-        #endregion
-
-        #region -- 邮件列表 Mail list --
-
-        /// <summary>
-        /// 获取物品记录文件路径
-        /// </summary>
-        private readonly string MailListPath = Path.Combine(Application.LocalUserAppDataPath, "MailList.json");
-
-        /// <summary>
-        /// 邮件列表
-        /// </summary>
-        private List<Mail> MailList = new List<Mail>();
-
-        /// <summary>
-        /// 初始化邮件列表
-        /// </summary>
-        private void InitMailList()
-        {
-            if (File.Exists(MailListPath))
-            {
-                MailList = JsonConvert.DeserializeObject<List<Mail>>(File.ReadAllText(MailListPath));
-                ListMailList.Items.AddRange(MailList.Select(it => it.ToString()).ToArray());
-            }
-            else
-            {
-                MailList = new List<Mail>();
-            }
-        }
-
-        /// <summary>
-        /// 保存邮件列表
-        /// </summary>
-        private void SaveMailList()
-        {
-            File.WriteAllText(MailListPath, JsonConvert.SerializeObject(MailList));
-        }
-
-        /// <summary>
-        /// 添加邮件到列表
-        /// </summary>
-        /// <param name="mail">邮件</param>
-        private void AddMailToList(Mail mail)
-        {
-            MailList.Add(mail);
-            ListMailList.Items.Add(mail.ToString());
-            SaveMailList();
-        }
-
-        /// <summary>
-        /// 邮件列表选中项改变时发生
-        /// </summary>
-        private void ListMailList_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (ListMailList.SelectedIndex == -1) return;
-            // 显示选中邮件
-            var mail = MailList[ListMailList.SelectedIndex];
-            ShowMail(mail);
-        }
-
-        /// <summary>
-        /// 点击删除邮件按钮时触发
-        /// </summary>
-        private void BtnRemoveMail_Click(object sender, EventArgs e)
-        {
-            if (ListMailList.SelectedIndex == -1) return;
-            MailList.RemoveAt(ListMailList.SelectedIndex);
-            ListMailList.Items.RemoveAt(ListMailList.SelectedIndex);
-            SaveMailList();
-        }
-
-        /// <summary>
-        /// 点击清空邮件列表按钮时触发
-        /// </summary>
-        private void BtnClearMail_Click(object sender, EventArgs e)
-        {
-            if (MailList.Count == 0) return;
-            if (MessageBox.Show(Resources.AskConfirmDeletion, Resources.Tips, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                ListMailList.Items.Clear();
-                MailList.Clear();
-                SaveMailList();
-            }
-        }
-
-        #endregion
-
-        #endregion
-
-        #region - 关于 About -
-
-        /// <summary>
-        /// 点击Github链接时触发
-        /// </summary>
-        private void LnkGithub_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            UIUtil.OpenURL("https://github.com/jie65535/GrasscutterCommandGenerator");
-        }
-
-        #endregion - 关于 About -
 
         #region - 命令 Command -
 
@@ -1044,7 +237,7 @@ namespace GrasscutterTools.Forms
             //if (ChkIncludeUID.Checked)
             //    SetCommand($"{command} @{NUDUid.Value} {args.Trim()}");
             //else
-                SetCommand($"{command} {args.Trim()}");
+            SetCommand($"{command} {args.Trim()}");
         }
 
         /// <summary>
@@ -1276,58 +469,9 @@ namespace GrasscutterTools.Forms
 
         #endregion - 命令记录 Command Logs -
 
-
         /// <summary>
         /// 开放命令接口
         /// </summary>
         private OpenCommandAPI OC => Common.OC;
-
-
-        #region - 任务 Quests -
-
-        /// <summary>
-        /// 初始化任务列表
-        /// </summary>
-        private void InitQuestList()
-        {
-            QuestFilterChanged(null, EventArgs.Empty);
-        }
-
-        /// <summary>
-        /// 任务列表过滤器文本改变时触发
-        /// </summary>
-        private void QuestFilterChanged(object sender, EventArgs e)
-        {
-            ListQuest.BeginUpdate();
-            ListQuest.Items.Clear();
-            ListQuest.Items.AddRange(GameData.Quests.Lines.Where(l =>
-            {
-                if (!ChkQuestFilterHIDDEN.Checked && l.Contains((string)ChkQuestFilterHIDDEN.Tag))
-                    return false;
-                if (!ChkQuestFilterUNRELEASED.Checked && l.Contains((string)ChkQuestFilterUNRELEASED.Tag))
-                    return false;
-                if (!ChkQuestFilterTEST.Checked && l.Contains((string)ChkQuestFilterTEST.Tag))
-                    return false;
-                if (!string.IsNullOrEmpty(TxtQuestFilter.Text))
-                    return l.Contains(TxtQuestFilter.Text);
-                return true;
-            }).ToArray());
-            ListQuest.EndUpdate();
-        }
-
-        /// <summary>
-        /// 任务相关按钮点击时触发（Tag带子命令）
-        /// </summary>
-        private void QuestButsClicked(object sender, EventArgs e)
-        {
-            if (ListQuest.SelectedIndex == -1)
-                return;
-            var item = ListQuest.SelectedItem as string;
-            var id = ItemMap.ToId(item);
-            SetCommand("/quest", $"{(sender as Button).Tag} {id}");
-        }
-
-        #endregion - 任务 Quests -
-
     }
 }

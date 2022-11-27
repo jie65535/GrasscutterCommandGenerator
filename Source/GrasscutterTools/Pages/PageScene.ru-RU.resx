@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,189 +117,84 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnCopy.Text" xml:space="preserve">
-    <value>Copy</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ChkAutoCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 21</value>
-  </data>
-  <data name="ChkAutoCopy.Text" xml:space="preserve">
-    <value>Auto</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
-    <value>Run(F5)</value>
-  </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>Command  - [Ctrl] Autorun  - [Shift] Append  - [Alt] Only run  - [|] Split multiple commands</value>
-  </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>Remote</value>
-  </data>
-  <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>387, 102</value>
-  </data>
-  <data name="LblSupportDescription.Text" xml:space="preserve">
-    <value>Grasscutter Tools
-
-This is a free and open source project.
-If you think this is helpful to you, you can give me a free Star.
-If there is a problem with the command generation,
-or there is a new feature request, you can file an issue on Github.</value>
-  </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>About</value>
-  </data>
-  <data name="TPManage.Text" xml:space="preserve">
-    <value>Manage</value>
-  </data>
   <data name="RbListDungeons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 7</value>
+    <value>237, 29</value>
   </data>
   <data name="RbListDungeons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 21</value>
+    <value>100, 21</value>
   </data>
   <data name="RbListDungeons.Text" xml:space="preserve">
-    <value>Dungeons</value>
+    <value>Подземелья</value>
   </data>
   <data name="RbListScene.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 7</value>
+    <value>237, 2</value>
   </data>
   <data name="RbListScene.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 21</value>
   </data>
   <data name="RbListScene.Text" xml:space="preserve">
-    <value>Scenes</value>
+    <value>Сцены</value>
   </data>
   <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 213</value>
+    <value>84, 215</value>
   </data>
   <data name="ChkIncludeSceneId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 21</value>
+    <value>228, 21</value>
   </data>
   <data name="ChkIncludeSceneId.Text" xml:space="preserve">
-    <value>Include scene Id</value>
+    <value>Включить идентификатор сцены</value>
   </data>
   <data name="LblTpZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 184</value>
+    <value>212, 186</value>
   </data>
   <data name="LblTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 184</value>
+    <value>106, 186</value>
   </data>
   <data name="BtnTeleport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 211</value>
+    <value>3, 213</value>
   </data>
   <data name="BtnTeleport.Text" xml:space="preserve">
-    <value>Teleport</value>
+    <value>Телепорт</value>
   </data>
   <data name="LblTpX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 184</value>
+    <value>0, 186</value>
   </data>
   <data name="NUDTpZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>239, 182</value>
+    <value>232, 184</value>
   </data>
   <data name="NUDTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>133, 182</value>
+    <value>126, 184</value>
   </data>
   <data name="NUDTpX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 182</value>
-  </data>
-  <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 61</value>
-  </data>
-  <data name="LblClimateType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 64</value>
+    <value>20, 184</value>
   </data>
   <data name="LblClimateType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 17</value>
+    <value>52, 17</value>
   </data>
   <data name="LblClimateType.Text" xml:space="preserve">
-    <value>weather</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LblSceneDescription.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+    <value>Погода</value>
   </data>
   <data name="LblSceneDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>287, 55</value>
+    <value>142, 17</value>
   </data>
   <data name="LblSceneDescription.Text" xml:space="preserve">
-    <value>Scene control</value>
+    <value>Управление сценами.</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LblTp.AutoSize" type="System.Boolean, mscorlib">
     <value>False</value>
   </data>
   <data name="LblTp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 89</value>
+    <value>3, 57</value>
   </data>
   <data name="LblTp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>337, 90</value>
+    <value>334, 124</value>
   </data>
   <data name="LblTp.Text" xml:space="preserve">
-    <value>Teleporting
-Tip: You can quickly teleport through the 'fishing hook' pin on the map in-game.
-In the command, you can use ~ to indicate the current position, and ~N to indicate the relative current N</value>
-  </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>Scene</value>
-  </data>
-  <data name="TPItem.Text" xml:space="preserve">
-    <value>Items</value>
-  </data>
-  <data name="TPWeapon.Text" xml:space="preserve">
-    <value>Weapons</value>
-  </data>
-  <data name="TPAvatar.Text" xml:space="preserve">
-    <value>Avatar</value>
-  </data>
-  <data name="TPSpawn.Text" xml:space="preserve">
-    <value>Spawn</value>
-  </data>
-  <data name="ChkQuestFilterTEST.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 21</value>
-  </data>
-  <data name="ChkQuestFilterTEST.Text" xml:space="preserve">
-    <value>Test</value>
-  </data>
-  <data name="ChkQuestFilterUNRELEASED.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 21</value>
-  </data>
-  <data name="ChkQuestFilterUNRELEASED.Text" xml:space="preserve">
-    <value>Unreleased</value>
-  </data>
-  <data name="ChkQuestFilterHIDDEN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 21</value>
-  </data>
-  <data name="ChkQuestFilterHIDDEN.Text" xml:space="preserve">
-    <value>Hidden</value>
-  </data>
-  <data name="GrpQuestFilters.Text" xml:space="preserve">
-    <value>List Filter</value>
-  </data>
-  <data name="BtnFinishQuest.Text" xml:space="preserve">
-    <value>Finish</value>
-  </data>
-  <data name="BtnAddQuest.Text" xml:space="preserve">
-    <value>Add</value>
-  </data>
-  <data name="LblQuestDescription.Text" xml:space="preserve">
-    <value>Add or Finish Quest
-Tip: Many quest require server-side scripting support
-Therefore, the quest can be added and finished, but not necessarily work.</value>
-  </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>Quest</value>
-  </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>Artifacts</value>
-  </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>Custom</value>
-  </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>Home</value>
-  </data>
-  <data name="TPMail.Text" xml:space="preserve">
-    <value>Mail</value>
+    <value>Телепортация
+Подсказка: вы можете быстро телепортироваться через отметку «рыболовный крючок» на миникарте в игре.
+В команде вы можете использовать ~, чтобы указать текущую позицию, и ~N, чтобы указать смещение на N относительно текущей позиции
+</value>
   </data>
 </root>

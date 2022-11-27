@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,189 +117,164 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnCopy.Text" xml:space="preserve">
-    <value>Copy</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ChkAutoCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 21</value>
+  <data name="LnkSetAllConst.Location" type="System.Drawing.Point, System.Drawing">
+    <value>178, 24</value>
   </data>
-  <data name="ChkAutoCopy.Text" xml:space="preserve">
-    <value>Auto</value>
+  <data name="LnkSetAllConst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 17</value>
   </data>
-  <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
-    <value>Run(F5)</value>
+  <data name="LnkSetAllConst.Text" xml:space="preserve">
+    <value>все</value>
   </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>Command  - [Ctrl] Autorun  - [Shift] Append  - [Alt] Only run  - [|] Split multiple commands</value>
+  <data name="LnkSetConst.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
   </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>Remote</value>
+  <data name="LnkSetConst.Text" xml:space="preserve">
+    <value>текущий</value>
   </data>
-  <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>387, 102</value>
+  <data name="GrpSetConstellation.Text" xml:space="preserve">
+    <value>Установить созвездие</value>
   </data>
-  <data name="LblSupportDescription.Text" xml:space="preserve">
-    <value>Grasscutter Tools
-
-This is a free and open source project.
-If you think this is helpful to you, you can give me a free Star.
-If there is a problem with the command generation,
-or there is a new feature request, you can file an issue on Github.</value>
+  <data name="GrpSetStats.Text" xml:space="preserve">
+    <value>Статистика</value>
   </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>About</value>
+  <data name="BtnUnlockStat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
   </data>
-  <data name="TPManage.Text" xml:space="preserve">
-    <value>Manage</value>
+  <data name="BtnUnlockStat.Text" xml:space="preserve">
+    <value>Разморозить статы</value>
   </data>
-  <data name="RbListDungeons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>255, 7</value>
+  <data name="BtnLockStat.Text" xml:space="preserve">
+    <value>Заморозить статы</value>
   </data>
-  <data name="RbListDungeons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 21</value>
+  <data name="LblStatTip.Text" xml:space="preserve">
+    <value>Подсказка</value>
   </data>
-  <data name="RbListDungeons.Text" xml:space="preserve">
-    <value>Dungeons</value>
+  <data name="GrpTalentLevel.Text" xml:space="preserve">
+    <value>Уровень таланта</value>
   </data>
-  <data name="RbListScene.Location" type="System.Drawing.Point, System.Drawing">
-    <value>183, 7</value>
+  <data name="LnkTalentAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>28, 17</value>
   </data>
-  <data name="RbListScene.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 21</value>
+  <data name="LnkTalentAll.Text" xml:space="preserve">
+    <value>все</value>
   </data>
-  <data name="RbListScene.Text" xml:space="preserve">
-    <value>Scenes</value>
+  <data name="LnkTalentE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 24</value>
   </data>
-  <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 213</value>
+  <data name="LnkTalentE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 17</value>
   </data>
-  <data name="ChkIncludeSceneId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 21</value>
+  <data name="LnkTalentE.Text" xml:space="preserve">
+    <value>E</value>
   </data>
-  <data name="ChkIncludeSceneId.Text" xml:space="preserve">
-    <value>Include scene Id</value>
+  <data name="LnkTalentQ.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 24</value>
   </data>
-  <data name="LblTpZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 184</value>
+  <data name="LnkTalentQ.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 17</value>
   </data>
-  <data name="LblTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 184</value>
+  <data name="LnkTalentQ.Text" xml:space="preserve">
+    <value>Q</value>
   </data>
-  <data name="BtnTeleport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 211</value>
+  <data name="LnkTalentNormalATK.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
   </data>
-  <data name="BtnTeleport.Text" xml:space="preserve">
-    <value>Teleport</value>
+  <data name="LnkTalentNormalATK.Text" xml:space="preserve">
+    <value>Обычная атака</value>
   </data>
-  <data name="LblTpX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 184</value>
+  <data name="GrpGiveAvatar.Text" xml:space="preserve">
+    <value>Выдать персонажа</value>
   </data>
-  <data name="NUDTpZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>239, 182</value>
+  <data name="CmbSwitchElement.Items" xml:space="preserve">
+    <value>Без элемента</value>
   </data>
-  <data name="NUDTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>133, 182</value>
+  <data name="CmbSwitchElement.Items1" xml:space="preserve">
+    <value>Пиро</value>
   </data>
-  <data name="NUDTpX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 182</value>
+  <data name="CmbSwitchElement.Items2" xml:space="preserve">
+    <value>Гидро</value>
   </data>
-  <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 61</value>
+  <data name="CmbSwitchElement.Items3" xml:space="preserve">
+    <value>Анемо</value>
   </data>
-  <data name="LblClimateType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 64</value>
+  <data name="CmbSwitchElement.Items4" xml:space="preserve">
+    <value>Крио</value>
   </data>
-  <data name="LblClimateType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 17</value>
+  <data name="CmbSwitchElement.Items5" xml:space="preserve">
+    <value>Гео</value>
   </data>
-  <data name="LblClimateType.Text" xml:space="preserve">
-    <value>weather</value>
+  <data name="CmbSwitchElement.Items6" xml:space="preserve">
+    <value>Электро</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LblSceneDescription.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="CmbSwitchElement.Items7" xml:space="preserve">
+    <value>Дендро</value>
   </data>
-  <data name="LblSceneDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>287, 55</value>
+  <data name="LnkSwitchElement.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 17</value>
   </data>
-  <data name="LblSceneDescription.Text" xml:space="preserve">
-    <value>Scene control</value>
+  <data name="LnkSwitchElement.Text" xml:space="preserve">
+    <value>SwitchElement</value>
   </data>
-  <data name="LblTp.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="CmbAvatar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 16</value>
   </data>
-  <data name="LblTp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 89</value>
+  <data name="LblAvatarSkillLevelTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 107</value>
   </data>
-  <data name="LblTp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>337, 90</value>
+  <data name="NUDAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 47</value>
   </data>
-  <data name="LblTp.Text" xml:space="preserve">
-    <value>Teleporting
-Tip: You can quickly teleport through the 'fishing hook' pin on the map in-game.
-In the command, you can use ~ to indicate the current position, and ~N to indicate the relative current N</value>
+  <data name="BtnGiveAllChar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 151</value>
   </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>Scene</value>
+  <data name="BtnGiveAllChar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 30</value>
   </data>
-  <data name="TPItem.Text" xml:space="preserve">
-    <value>Items</value>
+  <data name="BtnGiveAllChar.Text" xml:space="preserve">
+    <value> Дать всех персонажей</value>
   </data>
-  <data name="TPWeapon.Text" xml:space="preserve">
-    <value>Weapons</value>
+  <data name="LblAvatarLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 49</value>
   </data>
-  <data name="TPAvatar.Text" xml:space="preserve">
-    <value>Avatar</value>
+  <data name="LblAvatarLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 17</value>
   </data>
-  <data name="TPSpawn.Text" xml:space="preserve">
-    <value>Spawn</value>
+  <data name="LblAvatarLevel.Text" xml:space="preserve">
+    <value>Уровень</value>
   </data>
-  <data name="ChkQuestFilterTEST.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 21</value>
+  <data name="LblAvatarSkillLevelLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 107</value>
   </data>
-  <data name="ChkQuestFilterTEST.Text" xml:space="preserve">
-    <value>Test</value>
+  <data name="LblAvatarSkillLevelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
   </data>
-  <data name="ChkQuestFilterUNRELEASED.Size" type="System.Drawing.Size, System.Drawing">
-    <value>93, 21</value>
+  <data name="LblAvatarSkillLevelLabel.Text" xml:space="preserve">
+    <value>Уровень таланта</value>
   </data>
-  <data name="ChkQuestFilterUNRELEASED.Text" xml:space="preserve">
-    <value>Unreleased</value>
+  <data name="LblAvatar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 19</value>
   </data>
-  <data name="ChkQuestFilterHIDDEN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>69, 21</value>
+  <data name="LblAvatar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
   </data>
-  <data name="ChkQuestFilterHIDDEN.Text" xml:space="preserve">
-    <value>Hidden</value>
+  <data name="LblAvatar.Text" xml:space="preserve">
+    <value>Персонаж</value>
   </data>
-  <data name="GrpQuestFilters.Text" xml:space="preserve">
-    <value>List Filter</value>
+  <data name="LblAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 78</value>
   </data>
-  <data name="BtnFinishQuest.Text" xml:space="preserve">
-    <value>Finish</value>
+  <data name="LblAvatarConstellation.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
   </data>
-  <data name="BtnAddQuest.Text" xml:space="preserve">
-    <value>Add</value>
+  <data name="LblAvatarConstellation.Text" xml:space="preserve">
+    <value>Созвездия</value>
   </data>
-  <data name="LblQuestDescription.Text" xml:space="preserve">
-    <value>Add or Finish Quest
-Tip: Many quest require server-side scripting support
-Therefore, the quest can be added and finished, but not necessarily work.</value>
+  <data name="NUDAvatarConstellation.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 76</value>
   </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>Quest</value>
-  </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>Artifacts</value>
-  </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>Custom</value>
-  </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>Home</value>
-  </data>
-  <data name="TPMail.Text" xml:space="preserve">
-    <value>Mail</value>
+  <data name="NUDAvatarSkillLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>30, 126</value>
   </data>
 </root>

@@ -1,0 +1,732 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GrpBanPlayer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="TxtBanReason.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 22</value>
+  </data>
+  <data name="TxtBanReason.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TxtBanReason.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TxtBanReason.Name" xml:space="preserve">
+    <value>TxtBanReason</value>
+  </data>
+  <data name="&gt;&gt;TxtBanReason.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtBanReason.Parent" xml:space="preserve">
+    <value>GrpBanPlayer</value>
+  </data>
+  <data name="&gt;&gt;TxtBanReason.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DTPBanEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 22</value>
+  </data>
+  <data name="DTPBanEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 23</value>
+  </data>
+  <data name="DTPBanEndTime.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;DTPBanEndTime.Name" xml:space="preserve">
+    <value>DTPBanEndTime</value>
+  </data>
+  <data name="&gt;&gt;DTPBanEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DTPBanEndTime.Parent" xml:space="preserve">
+    <value>GrpBanPlayer</value>
+  </data>
+  <data name="&gt;&gt;DTPBanEndTime.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnUnban.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnUnban.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 22</value>
+  </data>
+  <data name="BtnUnban.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="BtnUnban.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BtnUnban.Text" xml:space="preserve">
+    <value>解封</value>
+  </data>
+  <data name="&gt;&gt;BtnUnban.Name" xml:space="preserve">
+    <value>BtnUnban</value>
+  </data>
+  <data name="&gt;&gt;BtnUnban.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnUnban.Parent" xml:space="preserve">
+    <value>GrpBanPlayer</value>
+  </data>
+  <data name="&gt;&gt;BtnUnban.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnBan.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnBan.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 22</value>
+  </data>
+  <data name="BtnBan.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="BtnBan.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BtnBan.Text" xml:space="preserve">
+    <value>封号</value>
+  </data>
+  <data name="&gt;&gt;BtnBan.Name" xml:space="preserve">
+    <value>BtnBan</value>
+  </data>
+  <data name="&gt;&gt;BtnBan.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnBan.Parent" xml:space="preserve">
+    <value>GrpBanPlayer</value>
+  </data>
+  <data name="&gt;&gt;BtnBan.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="NUDBanUID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="NUDBanUID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 23</value>
+  </data>
+  <data name="NUDBanUID.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NUDBanUID.Name" xml:space="preserve">
+    <value>NUDBanUID</value>
+  </data>
+  <data name="&gt;&gt;NUDBanUID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDBanUID.Parent" xml:space="preserve">
+    <value>GrpBanPlayer</value>
+  </data>
+  <data name="&gt;&gt;NUDBanUID.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LblBanUID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblBanUID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblBanUID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="LblBanUID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="LblBanUID.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblBanUID.Text" xml:space="preserve">
+    <value>目标UID</value>
+  </data>
+  <data name="&gt;&gt;LblBanUID.Name" xml:space="preserve">
+    <value>LblBanUID</value>
+  </data>
+  <data name="&gt;&gt;LblBanUID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblBanUID.Parent" xml:space="preserve">
+    <value>GrpBanPlayer</value>
+  </data>
+  <data name="&gt;&gt;LblBanUID.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GrpBanPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 165</value>
+  </data>
+  <data name="GrpBanPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 60</value>
+  </data>
+  <data name="GrpBanPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GrpBanPlayer.Text" xml:space="preserve">
+    <value>封禁管理</value>
+  </data>
+  <data name="&gt;&gt;GrpBanPlayer.Name" xml:space="preserve">
+    <value>GrpBanPlayer</value>
+  </data>
+  <data name="&gt;&gt;GrpBanPlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpBanPlayer.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpBanPlayer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpAccount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="ChkAccountSetUid.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ChkAccountSetUid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChkAccountSetUid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 23</value>
+  </data>
+  <data name="ChkAccountSetUid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 21</value>
+  </data>
+  <data name="ChkAccountSetUid.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ChkAccountSetUid.Text" xml:space="preserve">
+    <value>指定UID</value>
+  </data>
+  <data name="&gt;&gt;ChkAccountSetUid.Name" xml:space="preserve">
+    <value>ChkAccountSetUid</value>
+  </data>
+  <data name="&gt;&gt;ChkAccountSetUid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkAccountSetUid.Parent" xml:space="preserve">
+    <value>GrpAccount</value>
+  </data>
+  <data name="&gt;&gt;ChkAccountSetUid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NUDAccountUid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 22</value>
+  </data>
+  <data name="NUDAccountUid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 23</value>
+  </data>
+  <data name="NUDAccountUid.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NUDAccountUid.Name" xml:space="preserve">
+    <value>NUDAccountUid</value>
+  </data>
+  <data name="&gt;&gt;NUDAccountUid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDAccountUid.Parent" xml:space="preserve">
+    <value>GrpAccount</value>
+  </data>
+  <data name="&gt;&gt;NUDAccountUid.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnDeleteAccount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnDeleteAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 22</value>
+  </data>
+  <data name="BtnDeleteAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="BtnDeleteAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BtnDeleteAccount.Text" xml:space="preserve">
+    <value>- 删除</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteAccount.Name" xml:space="preserve">
+    <value>BtnDeleteAccount</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteAccount.Parent" xml:space="preserve">
+    <value>GrpAccount</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteAccount.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnCreateAccount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnCreateAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 22</value>
+  </data>
+  <data name="BtnCreateAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="BtnCreateAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BtnCreateAccount.Text" xml:space="preserve">
+    <value>+ 创建</value>
+  </data>
+  <data name="&gt;&gt;BtnCreateAccount.Name" xml:space="preserve">
+    <value>BtnCreateAccount</value>
+  </data>
+  <data name="&gt;&gt;BtnCreateAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCreateAccount.Parent" xml:space="preserve">
+    <value>GrpAccount</value>
+  </data>
+  <data name="&gt;&gt;BtnCreateAccount.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblAccountUserName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblAccountUserName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblAccountUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 25</value>
+  </data>
+  <data name="LblAccountUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblAccountUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblAccountUserName.Text" xml:space="preserve">
+    <value>用户名</value>
+  </data>
+  <data name="&gt;&gt;LblAccountUserName.Name" xml:space="preserve">
+    <value>LblAccountUserName</value>
+  </data>
+  <data name="&gt;&gt;LblAccountUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblAccountUserName.Parent" xml:space="preserve">
+    <value>GrpAccount</value>
+  </data>
+  <data name="&gt;&gt;LblAccountUserName.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="TxtAccountUserName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="TxtAccountUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="TxtAccountUserName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TxtAccountUserName.Text" xml:space="preserve">
+    <value>test</value>
+  </data>
+  <data name="&gt;&gt;TxtAccountUserName.Name" xml:space="preserve">
+    <value>TxtAccountUserName</value>
+  </data>
+  <data name="&gt;&gt;TxtAccountUserName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtAccountUserName.Parent" xml:space="preserve">
+    <value>GrpAccount</value>
+  </data>
+  <data name="&gt;&gt;TxtAccountUserName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="GrpAccount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="GrpAccount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 60</value>
+  </data>
+  <data name="GrpAccount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="GrpAccount.Text" xml:space="preserve">
+    <value>账号管理</value>
+  </data>
+  <data name="&gt;&gt;GrpAccount.Name" xml:space="preserve">
+    <value>GrpAccount</value>
+  </data>
+  <data name="&gt;&gt;GrpAccount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpAccount.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpAccount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpPermission.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="CmbPerm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>250, 21</value>
+  </data>
+  <data name="CmbPerm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="CmbPerm.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;CmbPerm.Name" xml:space="preserve">
+    <value>CmbPerm</value>
+  </data>
+  <data name="&gt;&gt;CmbPerm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbPerm.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
+  </data>
+  <data name="&gt;&gt;CmbPerm.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NUDPermUID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>66, 22</value>
+  </data>
+  <data name="NUDPermUID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 23</value>
+  </data>
+  <data name="NUDPermUID.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NUDPermUID.Name" xml:space="preserve">
+    <value>NUDPermUID</value>
+  </data>
+  <data name="&gt;&gt;NUDPermUID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDPermUID.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
+  </data>
+  <data name="&gt;&gt;NUDPermUID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnPermClear.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnPermClear.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 51</value>
+  </data>
+  <data name="BtnPermClear.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="BtnPermClear.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="BtnPermClear.Text" xml:space="preserve">
+    <value>x 清空</value>
+  </data>
+  <data name="&gt;&gt;BtnPermClear.Name" xml:space="preserve">
+    <value>BtnPermClear</value>
+  </data>
+  <data name="&gt;&gt;BtnPermClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPermClear.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
+  </data>
+  <data name="&gt;&gt;BtnPermClear.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtmPermRemove.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtmPermRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 22</value>
+  </data>
+  <data name="BtmPermRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="BtmPermRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="BtmPermRemove.Text" xml:space="preserve">
+    <value>- 移除</value>
+  </data>
+  <data name="&gt;&gt;BtmPermRemove.Name" xml:space="preserve">
+    <value>BtmPermRemove</value>
+  </data>
+  <data name="&gt;&gt;BtmPermRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtmPermRemove.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
+  </data>
+  <data name="&gt;&gt;BtmPermRemove.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnPermList.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnPermList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 51</value>
+  </data>
+  <data name="BtnPermList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="BtnPermList.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="BtnPermList.Text" xml:space="preserve">
+    <value>列出</value>
+  </data>
+  <data name="&gt;&gt;BtnPermList.Name" xml:space="preserve">
+    <value>BtnPermList</value>
+  </data>
+  <data name="&gt;&gt;BtnPermList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPermList.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
+  </data>
+  <data name="&gt;&gt;BtnPermList.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnPermAdd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnPermAdd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>407, 22</value>
+  </data>
+  <data name="BtnPermAdd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="BtnPermAdd.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BtnPermAdd.Text" xml:space="preserve">
+    <value>+ 添加</value>
+  </data>
+  <data name="&gt;&gt;BtnPermAdd.Name" xml:space="preserve">
+    <value>BtnPermAdd</value>
+  </data>
+  <data name="&gt;&gt;BtnPermAdd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPermAdd.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
+  </data>
+  <data name="&gt;&gt;BtnPermAdd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LblPerm.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPerm.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblPerm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 25</value>
+  </data>
+  <data name="LblPerm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblPerm.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblPerm.Text" xml:space="preserve">
+    <value>权限</value>
+  </data>
+  <data name="&gt;&gt;LblPerm.Name" xml:space="preserve">
+    <value>LblPerm</value>
+  </data>
+  <data name="&gt;&gt;LblPerm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPerm.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
+  </data>
+  <data name="&gt;&gt;LblPerm.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LblPermUID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPermUID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblPermUID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="LblPermUID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
+  </data>
+  <data name="LblPermUID.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblPermUID.Text" xml:space="preserve">
+    <value>目标UID</value>
+  </data>
+  <data name="&gt;&gt;LblPermUID.Name" xml:space="preserve">
+    <value>LblPermUID</value>
+  </data>
+  <data name="&gt;&gt;LblPermUID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPermUID.Parent" xml:space="preserve">
+    <value>GrpPermission</value>
+  </data>
+  <data name="&gt;&gt;LblPermUID.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GrpPermission.Location" type="System.Drawing.Point, System.Drawing">
+    <value>53, 79</value>
+  </data>
+  <data name="GrpPermission.Size" type="System.Drawing.Size, System.Drawing">
+    <value>540, 80</value>
+  </data>
+  <data name="GrpPermission.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GrpPermission.Text" xml:space="preserve">
+    <value>权限管理</value>
+  </data>
+  <data name="&gt;&gt;GrpPermission.Name" xml:space="preserve">
+    <value>GrpPermission</value>
+  </data>
+  <data name="&gt;&gt;GrpPermission.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpPermission.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpPermission.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PageManagement</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.7.4.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  </data>
+</root>

@@ -117,101 +117,122 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnCopy.Text" xml:space="preserve">
-    <value>複製</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GrasscutterToolsSupport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
-  <data name="ChkAutoCopy.Text" xml:space="preserve">
-    <value>自動</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
-    <value>執行(F5)</value>
-  </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>命令  - [Ctrl] 自動執行  - [Shift] 拼接命令  - [Alt] 僅執行  - [|] 分割多條命令</value>
-  </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>遠程</value>
+  <data name="GrasscutterToolsSupport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GrasscutterToolsSupport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 86</value>
+  </data>
+  <data name="GrasscutterToolsSupport.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>280, 280</value>
+  </data>
+  <data name="GrasscutterToolsSupport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 140</value>
+  </data>
+  <data name="GrasscutterToolsSupport.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GrasscutterToolsSupport.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;GrasscutterToolsSupport.Name" xml:space="preserve">
+    <value>GrasscutterToolsSupport</value>
+  </data>
+  <data name="&gt;&gt;GrasscutterToolsSupport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrasscutterToolsSupport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrasscutterToolsSupport.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LnkGithub.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="LnkGithub.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkGithub.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkGithub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 209</value>
+  </data>
+  <data name="LnkGithub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="LnkGithub.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LnkGithub.Text" xml:space="preserve">
+    <value>Github</value>
+  </data>
+  <data name="&gt;&gt;LnkGithub.Name" xml:space="preserve">
+    <value>LnkGithub</value>
+  </data>
+  <data name="&gt;&gt;LnkGithub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkGithub.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LnkGithub.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblSupportDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblSupportDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblSupportDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 12</value>
+  </data>
   <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 102</value>
+    <value>334, 136</value>
+  </data>
+  <data name="LblSupportDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="LblSupportDescription.Text" xml:space="preserve">
-    <value>割草機工具箱
+    <value>割草机工具箱
 
-這是一個免費且開源的項目
-如果覺得這對你很有幫助，可以為我點一個免費的Star
-如果願意請我喝一杯奶茶，那就更好了 : )
-指令生成有問題，或者有新的功能請求，都可以來Github提出</value>
+这是一个免费且开源的项目
+如果觉得这对你很有帮助，可以为我点一个免费的Star
+如果愿意请我喝一杯奶茶，那就更好了 : )
+指令生成有问题，或者有新的功能请求，都可以来Github提出
+
+欢迎加入内测Q群: 457427536 （需要回答正确答案）</value>
   </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>關於</value>
+  <data name="&gt;&gt;LblSupportDescription.Name" xml:space="preserve">
+    <value>LblSupportDescription</value>
   </data>
-  <data name="RbListDungeons.Text" xml:space="preserve">
-    <value>祕境</value>
+  <data name="&gt;&gt;LblSupportDescription.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="RbListScene.Text" xml:space="preserve">
-    <value>場景</value>
+  <data name="&gt;&gt;LblSupportDescription.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="ChkIncludeSceneId.Text" xml:space="preserve">
-    <value>含場景ID</value>
+  <data name="&gt;&gt;LblSupportDescription.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="BtnTeleport.Text" xml:space="preserve">
-    <value>傳送</value>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
   </data>
-  <data name="LblClimateType.Text" xml:space="preserve">
-    <value>設置天氣</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PageAbout</value>
   </data>
-  <data name="LblSceneDescription.Text" xml:space="preserve">
-    <value>場景控制</value>
-  </data>
-  <data name="LblTp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 51</value>
-  </data>
-  <data name="LblTp.Text" xml:space="preserve">
-    <value>座標傳送
-提示：遊戲內可以通過小地圖的'魚鉤'標記來快捷傳送
-命令中可以用~表示當前位置，~N 表示相對當前N</value>
-  </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>場景</value>
-  </data>
-  <data name="ChkQuestFilterTEST.Text" xml:space="preserve">
-    <value>測試任務</value>
-  </data>
-  <data name="ChkQuestFilterUNRELEASED.Text" xml:space="preserve">
-    <value>未發佈的任務</value>
-  </data>
-  <data name="ChkQuestFilterHIDDEN.Text" xml:space="preserve">
-    <value>隱藏的任務</value>
-  </data>
-  <data name="GrpQuestFilters.Text" xml:space="preserve">
-    <value>列表過濾</value>
-  </data>
-  <data name="BtnFinishQuest.Text" xml:space="preserve">
-    <value>完成任務</value>
-  </data>
-  <data name="BtnAddQuest.Text" xml:space="preserve">
-    <value>添加任務</value>
-  </data>
-  <data name="LblQuestDescription.Text" xml:space="preserve">
-    <value>添加或完成任務
-提示：許多任務需要服務端腳本支持
-囙此任務可以接，可以完成，但是不一定可以做</value>
-  </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>任務</value>
-  </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>聖遺物</value>
-  </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>自定義</value>
-  </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>主頁</value>
-  </data>
-  <data name="TPMail.Text" xml:space="preserve">
-    <value>郵件</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.7.4.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
 </root>

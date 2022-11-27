@@ -117,101 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnCopy.Text" xml:space="preserve">
-    <value>複製</value>
-  </data>
-  <data name="ChkAutoCopy.Text" xml:space="preserve">
-    <value>自動</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
-    <value>執行(F5)</value>
-  </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>命令  - [Ctrl] 自動執行  - [Shift] 拼接命令  - [Alt] 僅執行  - [|] 分割多條命令</value>
-  </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>遠程</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 102</value>
+    <value>387, 102</value>
   </data>
   <data name="LblSupportDescription.Text" xml:space="preserve">
-    <value>割草機工具箱
+    <value>Grasscutter Tools
 
-這是一個免費且開源的項目
-如果覺得這對你很有幫助，可以為我點一個免費的Star
-如果願意請我喝一杯奶茶，那就更好了 : )
-指令生成有問題，或者有新的功能請求，都可以來Github提出</value>
-  </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>關於</value>
-  </data>
-  <data name="RbListDungeons.Text" xml:space="preserve">
-    <value>祕境</value>
-  </data>
-  <data name="RbListScene.Text" xml:space="preserve">
-    <value>場景</value>
-  </data>
-  <data name="ChkIncludeSceneId.Text" xml:space="preserve">
-    <value>含場景ID</value>
-  </data>
-  <data name="BtnTeleport.Text" xml:space="preserve">
-    <value>傳送</value>
-  </data>
-  <data name="LblClimateType.Text" xml:space="preserve">
-    <value>設置天氣</value>
-  </data>
-  <data name="LblSceneDescription.Text" xml:space="preserve">
-    <value>場景控制</value>
-  </data>
-  <data name="LblTp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>290, 51</value>
-  </data>
-  <data name="LblTp.Text" xml:space="preserve">
-    <value>座標傳送
-提示：遊戲內可以通過小地圖的'魚鉤'標記來快捷傳送
-命令中可以用~表示當前位置，~N 表示相對當前N</value>
-  </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>場景</value>
-  </data>
-  <data name="ChkQuestFilterTEST.Text" xml:space="preserve">
-    <value>測試任務</value>
-  </data>
-  <data name="ChkQuestFilterUNRELEASED.Text" xml:space="preserve">
-    <value>未發佈的任務</value>
-  </data>
-  <data name="ChkQuestFilterHIDDEN.Text" xml:space="preserve">
-    <value>隱藏的任務</value>
-  </data>
-  <data name="GrpQuestFilters.Text" xml:space="preserve">
-    <value>列表過濾</value>
-  </data>
-  <data name="BtnFinishQuest.Text" xml:space="preserve">
-    <value>完成任務</value>
-  </data>
-  <data name="BtnAddQuest.Text" xml:space="preserve">
-    <value>添加任務</value>
-  </data>
-  <data name="LblQuestDescription.Text" xml:space="preserve">
-    <value>添加或完成任務
-提示：許多任務需要服務端腳本支持
-囙此任務可以接，可以完成，但是不一定可以做</value>
-  </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>任務</value>
-  </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>聖遺物</value>
-  </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>自定義</value>
-  </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>主頁</value>
-  </data>
-  <data name="TPMail.Text" xml:space="preserve">
-    <value>郵件</value>
+This is a free and open source project.
+If you think this is helpful to you, you can give me a free Star.
+If there is a problem with the command generation,
+or there is a new feature request, you can file an issue on Github.
+</value>
   </data>
 </root>
