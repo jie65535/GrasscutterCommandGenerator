@@ -57,7 +57,6 @@ namespace GrasscutterTools.Forms
                 if (Settings.Default.ResourcesDirPath != resourcesDirPath)
                 {
                     Settings.Default.ResourcesDirPath = resourcesDirPath;
-                    Settings.Default.Save();
                 }
 
                 CmbLanguage.Items.Clear();
@@ -104,7 +103,6 @@ namespace GrasscutterTools.Forms
 
                 GenLines();
                 Settings.Default.TextMapFileName = CmbLanguage.Text;
-                Settings.Default.Save();
             }
             catch (Exception ex)
             {

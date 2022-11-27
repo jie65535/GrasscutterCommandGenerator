@@ -98,7 +98,6 @@ namespace GrasscutterTools.Forms
         {
             // 保存文件路径
             Settings.Default.DropJsonPath = TxtDropJsonPath.Text;
-            Settings.Default.Save();
 
             base.OnFormClosed(e);
         }

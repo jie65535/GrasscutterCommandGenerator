@@ -172,7 +172,7 @@ namespace GrasscutterTools.Forms
                 else
                     Settings.Default.MainFormSize = Size;
 
-                // 保存默认设置
+                // 保存设置
                 Settings.Default.Save();
             }
             catch (Exception ex)

@@ -31,15 +31,5 @@ namespace GrasscutterTools.Utils
                 Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
                 "GrasscutterTools",
                 filename);
-
-        /// <summary>
-        /// UID
-        /// </summary>
-        public static int UID { get; set; }
-
-        /// <summary>
-        /// 生成命令是否包含UID
-        /// </summary>
-        public static bool IsIncludeUID { get; set; }
     }
 }
