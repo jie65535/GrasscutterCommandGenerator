@@ -10,7 +10,7 @@ namespace GrasscutterTools.Utils
         /// <summary>
         /// 应用版本
         /// </summary>
-        public static Version AppVersion { get; set; }
+        public static Version AppVersion { get; } = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
 
         /// <summary>
         /// 命令版本

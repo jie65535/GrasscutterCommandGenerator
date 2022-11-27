@@ -441,9 +441,6 @@
   <data name="&gt;&gt;NUDTpX.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="CmbClimateType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
   <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
     <value>65, 29</value>
   </data>
@@ -464,9 +461,6 @@
   </data>
   <data name="&gt;&gt;CmbClimateType.ZOrder" xml:space="preserve">
     <value>11</value>
-  </data>
-  <data name="LblClimateType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
   </data>
   <data name="LblClimateType.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>

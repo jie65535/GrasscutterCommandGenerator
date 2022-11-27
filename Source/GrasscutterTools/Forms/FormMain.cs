@@ -18,15 +18,13 @@
  **/
 
 using System;
-using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using GrasscutterTools.Game;
-using GrasscutterTools.OpenCommand;
+using GrasscutterTools.Pages;
 using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
 
@@ -38,81 +36,61 @@ namespace GrasscutterTools.Forms
 
         public FormMain()
         {
+            Console.WriteLine("FormMain ctor enter");
             InitializeComponent();
             Icon = Resources.IconGrasscutter;
 
             if (DesignMode) return;
-
-            // 加载版本信息
-            LoadVersion();
-
+            // 初始化页面
+            InitPages();
             // 加载设置
             LoadSettings();
+            Console.WriteLine("FormMain ctor completed");
         }
 
         /// <summary>
-        /// 窗体载入时触发（切换语言时会重新载入）
+        /// 初始化并创建所有页面
         /// </summary>
-        private void FormMain_Load(object sender, EventArgs e)
+        private void InitPages()
         {
-            Text += "  - by jie65535  - v" + AppVersion.ToString(3);
-#if DEBUG
-            Text += "-debug";
-            //Text += "-debug -攻击修改特供版";
-#endif
-            if (DesignMode) return;
-
-            GameData.LoadResources();
-
-            //LoadCustomCommands();
-            //InitArtifactList();
-            //InitGameItemList();
-            //InitWeapons();
-            //InitAvatars();
-            //InitEntityList();
-            //InitScenes();
-            //InitStatList();
-            //InitPermList();
-            //InitQuestList();
-            //InitMailPage();
-
-            //ChangeTPArtifact();
+            Console.WriteLine("InitPages enter");
+            TCMain.SuspendLayout();
+            var ph = CreatePage<PageHome>();
+            ph.OnLanguageChanged = () => FormMain_Load(this, EventArgs.Empty);
+            TPHome.Controls.Add(ph);
+            var poc = CreatePage<PageOpenCommand>();
+            poc.ShowTipInRunButton = msg => ShowTip(msg, BtnInvokeOpenCommand);
+            TPRemoteCall.Controls.Add(poc);
+            TPCustom.Controls.Add(CreatePage<PageCustomCommands>());
+            TPArtifact.Controls.Add(CreatePage<PageGiveArtifact>());
+            TPSpawn.Controls.Add(CreatePage<PageSpawn>());
+            TPItem.Controls.Add(CreatePage<PageGiveItem>());
+            TPAvatar.Controls.Add(CreatePage<PageAvatar>());
+            TPWeapon.Controls.Add(CreatePage<PageGiveWeapon>());
+            TPManage.Controls.Add(CreatePage<PageManagement>());
+            TPMail.Controls.Add(CreatePage<PageMail>());
+            TPQuest.Controls.Add(CreatePage<PageQuest>());
+            TPScene.Controls.Add(CreatePage<PageScene>());
+            TPAbout.Controls.Add(CreatePage<PageAbout>());
+            TCMain.ResumeLayout();
+            Console.WriteLine("InitPages completed");
         }
 
         /// <summary>
-        /// 第一次显示窗体时触发
+        /// 创建指定类型页面
         /// </summary>
-        protected override void OnShown(EventArgs e)
+        /// <typeparam name="T">页面类型，必须继承BasePage</typeparam>
+        /// <returns>页面实例</returns>
+        private T CreatePage<T>() where T : BasePage, new()
         {
-            base.OnShown(e);
-            // 还原窗体位置
-            if (Settings.Default.MainFormLocation != default)
-                Location = Settings.Default.MainFormLocation;
-            // 还原窗体大小
-            if (Settings.Default.MainFormSize != default)
-                Size = Settings.Default.MainFormSize;
-        }
-
-        /// <summary>
-        /// 窗口关闭后触发
-        /// </summary>
-        private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            // 保存当前设置
-            SaveSettings();
-        }
-
-        /// <summary>
-        /// 应用版本
-        /// </summary>
-        private Version AppVersion;
-
-        /// <summary>
-        /// 加载应用版本
-        /// </summary>
-        private void LoadVersion()
-        {
-            AppVersion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+            var page = new T
+            {
+                SetCommand = SetCommand,
+                RunCommands = RunCommands,
+                GetCommand = () => CmbCommand.Text,
+                Dock = DockStyle.Fill,
+            };
+            return page;
         }
 
         /// <summary>
@@ -124,26 +102,71 @@ namespace GrasscutterTools.Forms
             {
                 // 恢复自动复制选项状态
                 ChkAutoCopy.Checked = Settings.Default.AutoCopy;
-
-                // 初始化首页设置
-                //InitHomeSettings();
-
-                // 初始化获取物品记录
-                //InitGiveItemRecord();
-
-                // 初始化生成记录
-                //InitSpawnRecord();
-
-                // 初始化开放命令
-                //InitOpenCommand();
-
-                // 初始化邮件列表
-                //InitMailList();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(Resources.SettingLoadError + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        /// <summary>
+        /// 窗体载入时触发（切换语言时会重新载入）
+        /// </summary>
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            Text += "  - by jie65535  - v" + Common.AppVersion.ToString(3);
+#if DEBUG
+            Text += "-debug";
+#endif
+            if (DesignMode) return;
+
+            // 加载游戏ID资源
+            GameData.LoadResources();
+
+            // 遍历每一个页面重新加载
+            foreach (TabPage tp in TCMain.Controls)
+            {
+                if (tp.Controls.Count > 0 && tp.Controls[0] is BasePage page)
+                    page.OnLoad();
+            }
+        }
+
+        /// <summary>
+        /// 第一次显示窗体时触发
+        /// </summary>
+        protected override void OnShown(EventArgs e)
+        {
+            base.OnShown(e);
+            // 还原窗体位置
+            if (Settings.Default.MainFormLocation != default)
+            {
+                Location = Settings.Default.MainFormLocation;
+                Console.WriteLine("Restore window location: " + Location.ToString());
+            }
+            // 还原窗体大小
+            if (Settings.Default.MainFormSize != default)
+            {
+                Size = Settings.Default.MainFormSize;
+                Console.WriteLine("Restore window size: " + Size.ToString());
+            }
+        }
+
+        /// <summary>
+        /// 窗口关闭后触发
+        /// </summary>
+        private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Console.WriteLine("FormMain FormClosed enter");
+            // 遍历每一个页面，通知关闭
+            foreach (TabPage tp in TCMain.Controls)
+            {
+                if (tp.Controls.Count > 0 && tp.Controls[0] is BasePage page)
+                    page.OnClosed();
+            }
+
+            // 保存当前设置
+            SaveSettings();
+            Console.WriteLine("FormMain FormClosed completed");
         }
 
         /// <summary>
@@ -162,15 +185,6 @@ namespace GrasscutterTools.Forms
                 else
                     Settings.Default.MainFormSize = Size;
 
-                // 保存自定义命令
-                //SaveCustomCommands();
-
-                // 保存开放命令设置
-                //SaveOpenCommand();
-
-                // 保存邮件设置
-                //SaveMailSettings();
-
                 // 保存默认设置
                 Settings.Default.Save();
             }
@@ -181,11 +195,6 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 初始化 Init -
-
-        /// <summary>
-        /// 命令版本
-        /// </summary>
-        private CommandVersion CommandVersion => Common.CommandVersion;
 
         #region - 命令 Command -
 
@@ -310,7 +319,7 @@ namespace GrasscutterTools.Forms
         /// <returns>是否执行成功</returns>
         private async Task<bool> RunCommands(params string[] commands)
         {
-            if (OC == null || !OC.CanInvoke)
+            if (Common.OC == null || !Common.OC.CanInvoke)
             {
                 ShowTip(Resources.RequireOpenCommandTip, BtnInvokeOpenCommand);
                 TCMain.SelectedTab = TPRemoteCall;
@@ -333,7 +342,7 @@ namespace GrasscutterTools.Forms
                     var cmd = command.TrimStart('/');
                     try
                     {
-                        var msg = await OC.Invoke(cmd);
+                        var msg = await Common.OC.Invoke(cmd);
                         TxtCommandRunLog.AppendText(string.IsNullOrEmpty(msg) ? "OK" : msg);
                         TxtCommandRunLog.AppendText(Environment.NewLine);
                     }
@@ -432,46 +441,5 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 通用 General -
-
-        #region - 命令记录 Command Logs -
-
-        /// <summary>
-        /// 获取命令记录
-        /// （反序列化）
-        /// </summary>
-        /// <param name="commandsText">命令记录文本（示例："标签1\n命令1\n标签2\n命令2..."）</param>
-        /// <returns>命令列表</returns>
-        private List<GameCommand> GetCommands(string commandsText)
-        {
-            var lines = commandsText.Split('\n');
-            List<GameCommand> commands = new List<GameCommand>(lines.Length / 2);
-            for (int i = 0; i < lines.Length - 1; i += 2)
-                commands.Add(new GameCommand(lines[i].Trim(), lines[i + 1].Trim()));
-            return commands;
-        }
-
-        /// <summary>
-        /// 获取命令记录文本
-        /// （序列化）
-        /// </summary>
-        /// <param name="commands">命令列表</param>
-        /// <returns>命令记录文本（示例："标签1\n命令1\n标签2\n命令2..."）</returns>
-        private string GetCommandsText(List<GameCommand> commands)
-        {
-            StringBuilder builder = new StringBuilder();
-            foreach (var cmd in commands)
-            {
-                builder.AppendLine(cmd.Name);
-                builder.AppendLine(cmd.Command);
-            }
-            return builder.ToString();
-        }
-
-        #endregion - 命令记录 Command Logs -
-
-        /// <summary>
-        /// 开放命令接口
-        /// </summary>
-        private OpenCommandAPI OC => Common.OC;
     }
 }

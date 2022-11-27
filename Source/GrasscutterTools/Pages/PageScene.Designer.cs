@@ -167,9 +167,9 @@
             // 
             // CmbClimateType
             // 
-            resources.ApplyResources(this.CmbClimateType, "CmbClimateType");
             this.CmbClimateType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbClimateType.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbClimateType, "CmbClimateType");
             this.CmbClimateType.Name = "CmbClimateType";
             this.CmbClimateType.SelectedIndexChanged += new System.EventHandler(this.CmbClimateType_SelectedIndexChanged);
             // 

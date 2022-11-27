@@ -42,8 +42,6 @@ namespace GrasscutterTools.Pages
             InitializeComponent();
             if (DesignMode) return;
 
-            LoadVersion();
-
             // 玩家UID
             NUDUid.Value = Settings.Default.Uid;
             NUDUid.ValueChanged += (o, e) => Settings.Default.Uid = NUDUid.Value;
@@ -83,18 +81,6 @@ namespace GrasscutterTools.Pages
 
         #region - 检查更新 Check update -
 
-        /// <summary>
-        /// 应用版本
-        /// </summary>
-        private Version AppVersion;
-
-        /// <summary>
-        /// 加载应用版本
-        /// </summary>
-        private void LoadVersion()
-        {
-            AppVersion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
-        }
 
         private ReleaseAPI.ReleaseInfo LastestInfo = null;
         private Version lastestVersion = null;
@@ -102,7 +88,7 @@ namespace GrasscutterTools.Pages
         private async Task LoadUpdate()
         {
             var info = await ReleaseAPI.GetReleasesLastest("jie65535", "GrasscutterCommandGenerator");
-            if (Version.TryParse(info.TagName.Substring(1), out lastestVersion) && AppVersion < lastestVersion)
+            if (Version.TryParse(info.TagName.Substring(1), out lastestVersion) && Common.AppVersion < lastestVersion)
             {
                 if (!string.IsNullOrEmpty(Settings.Default.CheckedLastVersion)
                     && Version.TryParse(Settings.Default.CheckedLastVersion, out Version checkedVersion)
@@ -164,6 +150,11 @@ namespace GrasscutterTools.Pages
             => ShowForm<FormShopEditor>("ShopEditor");
 
         /// <summary>
+        /// 当选中语言改变时触发
+        /// </summary>
+        public Action OnLanguageChanged { get; set; }
+
+        /// <summary>
         /// 语言选中项改变时触发
         /// </summary>
         private void CmbLanguage_SelectedIndexChanged(object sender, EventArgs e)
@@ -173,6 +164,8 @@ namespace GrasscutterTools.Pages
             MultiLanguage.SetDefaultLanguage(MultiLanguage.Languages[CmbLanguage.SelectedIndex]);
             // 动态更改语言
             MultiLanguage.LoadLanguage(ParentForm, ParentForm.GetType());
+            // 通知语言改变
+            OnLanguageChanged?.Invoke();
         }
 
         /// <summary>
