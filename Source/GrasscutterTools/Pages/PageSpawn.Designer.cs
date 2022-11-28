@@ -137,7 +137,6 @@
             // 
             // TPSpawnArgs
             // 
-            resources.ApplyResources(this.TPSpawnArgs, "TPSpawnArgs");
             this.TPSpawnArgs.Controls.Add(this.NUDEntityDef);
             this.TPSpawnArgs.Controls.Add(this.NUDEntityAtk);
             this.TPSpawnArgs.Controls.Add(this.NUDEntityHp);
@@ -156,6 +155,7 @@
             this.TPSpawnArgs.Controls.Add(this.LblEntitySpawnPostion);
             this.TPSpawnArgs.Controls.Add(this.LblEntityLevel);
             this.TPSpawnArgs.Controls.Add(this.LblEntityAmount);
+            resources.ApplyResources(this.TPSpawnArgs, "TPSpawnArgs");
             this.TPSpawnArgs.Name = "TPSpawnArgs";
             this.TPSpawnArgs.UseVisualStyleBackColor = true;
             // 
@@ -382,7 +382,6 @@
             // 
             // TPAttackModArgs
             // 
-            resources.ApplyResources(this.TPAttackModArgs, "TPAttackModArgs");
             this.TPAttackModArgs.Controls.Add(this.LblAMPluginTip);
             this.TPAttackModArgs.Controls.Add(this.LblAMPluginIntroduction);
             this.TPAttackModArgs.Controls.Add(this.LblAMPlugin);
@@ -392,6 +391,7 @@
             this.TPAttackModArgs.Controls.Add(this.BtnAtClear);
             this.TPAttackModArgs.Controls.Add(this.LnkAttackModifierPlugin);
             this.TPAttackModArgs.Controls.Add(this.GrpAMSkills);
+            resources.ApplyResources(this.TPAttackModArgs, "TPAttackModArgs");
             this.TPAttackModArgs.Name = "TPAttackModArgs";
             this.TPAttackModArgs.UseVisualStyleBackColor = true;
             // 
@@ -433,6 +433,7 @@
             this.BtnAtReload.Name = "BtnAtReload";
             this.BtnAtReload.Tag = "reload";
             this.BtnAtReload.UseVisualStyleBackColor = true;
+            this.BtnAtReload.Click += new System.EventHandler(this.OnAttackModifierCommand);
             // 
             // BtnAtClear
             // 
@@ -440,6 +441,7 @@
             this.BtnAtClear.Name = "BtnAtClear";
             this.BtnAtClear.Tag = "remove";
             this.BtnAtClear.UseVisualStyleBackColor = true;
+            this.BtnAtClear.Click += new System.EventHandler(this.OnAttackModifierCommand);
             // 
             // LnkAttackModifierPlugin
             // 
@@ -450,13 +452,13 @@
             // 
             // GrpAMSkills
             // 
-            resources.ApplyResources(this.GrpAMSkills, "GrpAMSkills");
             this.GrpAMSkills.Controls.Add(this.TxtAtEntityQ);
             this.GrpAMSkills.Controls.Add(this.TxtAtEntityE);
             this.GrpAMSkills.Controls.Add(this.TxtAtEntityN);
             this.GrpAMSkills.Controls.Add(this.RbAtQ);
             this.GrpAMSkills.Controls.Add(this.RbAtE);
             this.GrpAMSkills.Controls.Add(this.RbAtN);
+            resources.ApplyResources(this.GrpAMSkills, "GrpAMSkills");
             this.GrpAMSkills.Name = "GrpAMSkills";
             this.GrpAMSkills.TabStop = false;
             // 
@@ -503,7 +505,6 @@
             // 
             // TPAttackInfusedArgs
             // 
-            resources.ApplyResources(this.TPAttackInfusedArgs, "TPAttackInfusedArgs");
             this.TPAttackInfusedArgs.Controls.Add(this.NUDAiwiRotateZ);
             this.TPAttackInfusedArgs.Controls.Add(this.NUDAiwiRotateY);
             this.TPAttackInfusedArgs.Controls.Add(this.NUDAiwiRotateX);
@@ -522,6 +523,7 @@
             this.TPAttackInfusedArgs.Controls.Add(this.BtnAiwiReset);
             this.TPAttackInfusedArgs.Controls.Add(this.LblAiwiPlugin);
             this.TPAttackInfusedArgs.Controls.Add(this.LnkAttackInfusedWithItem);
+            resources.ApplyResources(this.TPAttackInfusedArgs, "TPAttackInfusedArgs");
             this.TPAttackInfusedArgs.Name = "TPAttackInfusedArgs";
             this.TPAttackInfusedArgs.UseVisualStyleBackColor = true;
             // 
@@ -577,8 +579,8 @@
             // 
             // NUDAiwiSpread
             // 
-            resources.ApplyResources(this.NUDAiwiSpread, "NUDAiwiSpread");
             this.NUDAiwiSpread.DecimalPlaces = 2;
+            resources.ApplyResources(this.NUDAiwiSpread, "NUDAiwiSpread");
             this.NUDAiwiSpread.Maximum = new decimal(new int[] {
             2147483647,
             0,
@@ -689,9 +691,9 @@
             // 
             // TPSpawnItems
             // 
-            resources.ApplyResources(this.TPSpawnItems, "TPSpawnItems");
             this.TPSpawnItems.Controls.Add(this.ListEntity);
             this.TPSpawnItems.Controls.Add(this.PanelEntityFilterBar);
+            resources.ApplyResources(this.TPSpawnItems, "TPSpawnItems");
             this.TPSpawnItems.Name = "TPSpawnItems";
             this.TPSpawnItems.UseVisualStyleBackColor = true;
             // 
@@ -704,9 +706,9 @@
             // 
             // PanelEntityFilterBar
             // 
-            resources.ApplyResources(this.PanelEntityFilterBar, "PanelEntityFilterBar");
             this.PanelEntityFilterBar.Controls.Add(this.TxtEntityFilter);
             this.PanelEntityFilterBar.Controls.Add(this.BtnFilterEntity);
+            resources.ApplyResources(this.PanelEntityFilterBar, "PanelEntityFilterBar");
             this.PanelEntityFilterBar.Name = "PanelEntityFilterBar";
             // 
             // TxtEntityFilter
@@ -724,9 +726,9 @@
             // 
             // TPSpawnRecords
             // 
-            resources.ApplyResources(this.TPSpawnRecords, "TPSpawnRecords");
             this.TPSpawnRecords.Controls.Add(this.ListSpawnLogs);
             this.TPSpawnRecords.Controls.Add(this.FLPSpawnRecordControls);
+            resources.ApplyResources(this.TPSpawnRecords, "TPSpawnRecords");
             this.TPSpawnRecords.Name = "TPSpawnRecords";
             this.TPSpawnRecords.UseVisualStyleBackColor = true;
             // 
@@ -768,8 +770,8 @@
             // 
             // MenuSpawnEntityFilter
             // 
-            resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
             this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
+            resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
             // 
             // PageSpawn
             // 
