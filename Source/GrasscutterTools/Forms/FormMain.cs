@@ -112,6 +112,7 @@ namespace GrasscutterTools.Forms
                 RunCommands = RunCommands,
                 GetCommand = () => CmbCommand.Text,
                 Dock = DockStyle.Fill,
+                Name = nameof(T)
             };
             return page;
         }
@@ -121,6 +122,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void FormMain_Load(object sender, EventArgs e)
         {
+            Console.WriteLine("FormMain_Load enter");
             Text += "  - by jie65535  - v" + Common.AppVersion.ToString(3);
 #if DEBUG
             Text += "-debug";
@@ -134,8 +136,13 @@ namespace GrasscutterTools.Forms
             foreach (TabPage tp in TCMain.Controls)
             {
                 if (tp.Controls.Count > 0 && tp.Controls[0] is BasePage page)
+                {
+                    Console.WriteLine($"{page.Name} OnLoad enter");
                     page.OnLoad();
+                    Console.WriteLine($"{page.Name} OnLoad completed");
+                }
             }
+            Console.WriteLine("FormMain_Load completed");
         }
 
         /// <summary>
@@ -191,6 +198,7 @@ namespace GrasscutterTools.Forms
         /// <param name="command">命令</param>
         private void SetCommand(string command)
         {
+            Console.WriteLine($"SetCommand(\"{command}\")");
             var oldCommand = CmbCommand.Text;
             CmbCommand.Text = (ModifierKeys == Keys.Shift) ? $"{oldCommand} | {command}" : command;
             if (ChkAutoCopy.Checked)
@@ -329,12 +337,14 @@ namespace GrasscutterTools.Forms
                     var cmd = command.TrimStart('/');
                     try
                     {
+                        Console.WriteLine("RunCommand:" + cmd);
                         var msg = await Common.OC.Invoke(cmd);
                         TxtCommandRunLog.AppendText(string.IsNullOrEmpty(msg) ? "OK" : msg);
                         TxtCommandRunLog.AppendText(Environment.NewLine);
                     }
                     catch (Exception ex)
                     {
+                        Console.WriteLine("RunCommand Error:" + ex.ToString());
                         TxtCommandRunLog.AppendText("Error: ");
                         TxtCommandRunLog.AppendText(ex.Message);
                         TxtCommandRunLog.AppendText(Environment.NewLine);
