@@ -549,7 +549,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FodyWeavers.xml" />
     <Content Include="Resources\en-us\Artifact.txt" />
     <Content Include="Resources\en-us\ArtifactCat.txt" />
     <Content Include="Resources\en-us\ArtifactMainAttribution.txt" />
