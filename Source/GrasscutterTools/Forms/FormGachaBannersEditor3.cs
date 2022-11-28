@@ -81,6 +81,7 @@ namespace GrasscutterTools.Forms
             }
             catch (Exception ex)
             {
+                LoadBanners(Encoding.UTF8.GetString(Resources.Banners));
                 MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -129,7 +130,10 @@ namespace GrasscutterTools.Forms
                         return;
                 }
 
-                LoadBanners(File.ReadAllText(path));
+                var content = File.ReadAllText(path);
+                if (string.IsNullOrEmpty(content))
+                    content = Encoding.UTF8.GetString(Resources.Banners);
+                LoadBanners(content);
                 MessageBox.Show("OK", Resources.Tips, MessageBoxButtons.OK);
             }
             catch (Exception ex)
