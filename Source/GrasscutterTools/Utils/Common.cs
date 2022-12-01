@@ -26,10 +26,14 @@ namespace GrasscutterTools.Utils
         /// <summary>
         /// 应用数据目录
         /// </summary>
-        public static string GetAppDataFile(string filename) =>
-            Path.Combine(
+        public static string GetAppDataFile(string filename)
+        {
+            var dir = Path.Combine(
                 Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
-                "GrasscutterTools",
-                filename);
+                "GrasscutterTools");
+            if (!Directory.Exists(dir))
+                Directory.CreateDirectory(dir);
+            return Path.Combine(dir, filename);
+        }
     }
 }
