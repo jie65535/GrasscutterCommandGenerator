@@ -23,17 +23,23 @@ namespace GrasscutterTools.Utils
         /// </summary>
         public static OpenCommandAPI OC { get; set; }
 
-        /// <summary>
-        /// 应用数据目录
-        /// </summary>
-        public static string GetAppDataFile(string filename)
+        private static string AppDataFolder { get; } = GetAppDataFolder();
+        private static string GetAppDataFolder()
         {
             var dir = Path.Combine(
                 Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData),
                 "GrasscutterTools");
             if (!Directory.Exists(dir))
                 Directory.CreateDirectory(dir);
-            return Path.Combine(dir, filename);
+            return dir;
+        }
+
+        /// <summary>
+        /// 应用数据目录
+        /// </summary>
+        public static string GetAppDataFile(string filename)
+        {
+            return Path.Combine(AppDataFolder, filename);
         }
     }
 }
