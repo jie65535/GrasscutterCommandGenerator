@@ -34,9 +34,11 @@ namespace GrasscutterTools.Forms
     {
         #region - 初始化 Init -
 
+        private const string TAG = "FormMain";
+
         public FormMain()
         {
-            Console.WriteLine("FormMain ctor enter");
+            Logger.I(TAG, "FormMain ctor enter");
             InitializeComponent();
             Icon = Resources.IconGrasscutter;
 
@@ -49,14 +51,14 @@ namespace GrasscutterTools.Forms
                 {
                     StartPosition = FormStartPosition.Manual;
                     Location = Settings.Default.MainFormLocation;
-                    Console.WriteLine("Restore window location: " + Location.ToString());
+                    Logger.I(TAG, "Restore window location: " + Location.ToString());
                 }
 
                 // 还原窗体大小
                 if (Settings.Default.MainFormSize != default)
                 {
                     Size = Settings.Default.MainFormSize;
-                    Console.WriteLine("Restore window size: " + Size.ToString());
+                    Logger.I(TAG, "Restore window size: " + Size.ToString());
                 }
 
                 // 初始化页面
@@ -66,9 +68,10 @@ namespace GrasscutterTools.Forms
             }
             catch (Exception ex)
             {
+                Logger.E(TAG, "Loading settings error", ex);
                 MessageBox.Show(Resources.SettingLoadError + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            Console.WriteLine("FormMain ctor completed");
+            Logger.I(TAG, "FormMain ctor completed");
         }
 
         /// <summary>
@@ -76,7 +79,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void InitPages()
         {
-            Console.WriteLine("InitPages enter");
+            Logger.I(TAG, "InitPages enter");
             TCMain.SuspendLayout();
             var ph = CreatePage<PageHome>();
             ph.OnLanguageChanged = () => FormMain_Load(this, EventArgs.Empty);
@@ -96,7 +99,7 @@ namespace GrasscutterTools.Forms
             TPScene.Controls.Add(CreatePage<PageScene>());
             TPAbout.Controls.Add(CreatePage<PageAbout>());
             TCMain.ResumeLayout();
-            Console.WriteLine("InitPages completed");
+            Logger.I(TAG, "InitPages completed");
         }
 
         /// <summary>
@@ -112,7 +115,7 @@ namespace GrasscutterTools.Forms
                 RunCommands = RunCommands,
                 GetCommand = () => CmbCommand.Text,
                 Dock = DockStyle.Fill,
-                Name = nameof(T)
+                Name = typeof(T).Name,
             };
             return page;
         }
@@ -122,7 +125,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void FormMain_Load(object sender, EventArgs e)
         {
-            Console.WriteLine("FormMain_Load enter");
+            Logger.I(TAG, "FormMain_Load enter");
             Text += "  - by jie65535  - v" + Common.AppVersion.ToString(3);
 #if DEBUG
             Text += "-debug";
@@ -137,12 +140,12 @@ namespace GrasscutterTools.Forms
             {
                 if (tp.Controls.Count > 0 && tp.Controls[0] is BasePage page)
                 {
-                    Console.WriteLine($"{page.Name} OnLoad enter");
+                    Logger.I(TAG, $"{page.Name} OnLoad enter");
                     page.OnLoad();
-                    Console.WriteLine($"{page.Name} OnLoad completed");
+                    Logger.I(TAG, $"{page.Name} OnLoad completed");
                 }
             }
-            Console.WriteLine("FormMain_Load completed");
+            Logger.I(TAG, "FormMain_Load completed");
         }
 
         /// <summary>
@@ -150,7 +153,7 @@ namespace GrasscutterTools.Forms
         /// </summary>
         private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Console.WriteLine("FormMain FormClosed enter");
+            Logger.I(TAG, "FormMain FormClosed enter");
             // 遍历每一个页面，通知关闭
             foreach (TabPage tp in TCMain.Controls)
             {
@@ -160,7 +163,7 @@ namespace GrasscutterTools.Forms
 
             // 保存当前设置
             SaveSettings();
-            Console.WriteLine("FormMain FormClosed completed");
+            Logger.I(TAG, "FormMain FormClosed completed");
         }
 
         /// <summary>
@@ -198,7 +201,7 @@ namespace GrasscutterTools.Forms
         /// <param name="command">命令</param>
         private void SetCommand(string command)
         {
-            Console.WriteLine($"SetCommand(\"{command}\")");
+            Logger.I(TAG, $"SetCommand(\"{command}\")");
             var oldCommand = CmbCommand.Text;
             CmbCommand.Text = (ModifierKeys == Keys.Shift) ? $"{oldCommand} | {command}" : command;
             if (ChkAutoCopy.Checked)
@@ -337,14 +340,14 @@ namespace GrasscutterTools.Forms
                     var cmd = command.TrimStart('/');
                     try
                     {
-                        Console.WriteLine("RunCommand:" + cmd);
+                        Logger.I(TAG, "RunCommand:" + cmd);
                         var msg = await Common.OC.Invoke(cmd);
                         TxtCommandRunLog.AppendText(string.IsNullOrEmpty(msg) ? "OK" : msg);
                         TxtCommandRunLog.AppendText(Environment.NewLine);
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine("RunCommand Error:" + ex.ToString());
+                        Logger.W(TAG, "RunCommand Error:", ex);
                         TxtCommandRunLog.AppendText("Error: ");
                         TxtCommandRunLog.AppendText(ex.Message);
                         TxtCommandRunLog.AppendText(Environment.NewLine);

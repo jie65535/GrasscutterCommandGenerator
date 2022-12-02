@@ -24,11 +24,14 @@ using System.Threading;
 using System.Windows.Forms;
 
 using GrasscutterTools.Properties;
+using GrasscutterTools.Utils;
 
 namespace GrasscutterTools
 {
     internal static class Program
     {
+        private const string TAG = "Program";
+
         static Program()
         {
             AppDomain.CurrentDomain.AssemblyResolve += OnResolveAssembly;
@@ -72,12 +75,22 @@ namespace GrasscutterTools
             //处理非UI线程异常
             AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
 
-            // 初始化语言环境
-            if (!string.IsNullOrEmpty(Settings.Default.DefaultLanguage))
-                MultiLanguage.SetDefaultLanguage(Settings.Default.DefaultLanguage);
+            Logger.I(TAG, "Program startup");
+
+            try
+            {
+                // 初始化语言环境
+                if (!string.IsNullOrEmpty(Settings.Default.DefaultLanguage))
+                    MultiLanguage.SetDefaultLanguage(Settings.Default.DefaultLanguage);
+            }
+            catch (Exception ex)
+            {
+                Logger.W(TAG, "Loading language error", ex);
+                MessageBox.Show(Resources.SettingLoadError + ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
             Application.Run(new Forms.FormMain());
-            Console.WriteLine("Program end.");
+            Logger.I(TAG, "Program end.");
         }
 
         #region - 全局异常处理 -
@@ -85,16 +98,16 @@ namespace GrasscutterTools
         private static void Application_ThreadException(object sender, ThreadExceptionEventArgs e)
         {
             string str = GetExceptionMsg(e.Exception, e.ToString());
-            Console.WriteLine("Application_ThreadException");
-            Console.WriteLine(str);
+            Logger.E(TAG, "Application_ThreadException");
+            Logger.E(TAG, str);
             MessageBox.Show(str, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
         private static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
         {
             string str = GetExceptionMsg(e.ExceptionObject as Exception, e.ToString());
-            Console.WriteLine("CurrentDomain_UnhandledException");
-            Console.WriteLine(str);
+            Logger.E(TAG, "CurrentDomain_UnhandledException");
+            Logger.E(TAG, str);
             MessageBox.Show(str, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 

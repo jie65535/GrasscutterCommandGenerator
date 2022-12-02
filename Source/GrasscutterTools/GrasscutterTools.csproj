@@ -248,6 +248,7 @@
     <Compile Include="Utils\ArtifactUtils.cs" />
     <Compile Include="Utils\Common.cs" />
     <Compile Include="Utils\HttpHelper.cs" />
+    <Compile Include="Utils\Logger.cs" />
     <Compile Include="Utils\ReleaseAPI.cs" />
     <Compile Include="Utils\UIUtil.cs" />
     <EmbeddedResource Include="Forms\FormDropEditor.en-US.resx">
