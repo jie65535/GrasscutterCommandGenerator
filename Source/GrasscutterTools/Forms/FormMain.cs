@@ -46,11 +46,12 @@ namespace GrasscutterTools.Forms
 
             try
             {
+                var location = Settings.Default.MainFormLocation;
                 // 还原窗体位置
-                if (Settings.Default.MainFormLocation != default)
+                if (location != default && location.X >= 0 && location.Y >= 0)
                 {
                     StartPosition = FormStartPosition.Manual;
-                    Location = Settings.Default.MainFormLocation;
+                    Location = location;
                     Logger.I(TAG, "Restore window location: " + Location.ToString());
                 }
 
@@ -63,8 +64,6 @@ namespace GrasscutterTools.Forms
 
                 // 初始化页面
                 InitPages();
-                // 恢复自动复制选项状态
-                ChkAutoCopy.Checked = Settings.Default.AutoCopy;
             }
             catch (Exception ex)
             {
@@ -131,6 +130,9 @@ namespace GrasscutterTools.Forms
             Text += "-debug";
 #endif
             if (DesignMode) return;
+
+            // 恢复自动复制选项状态
+            ChkAutoCopy.Checked = Settings.Default.AutoCopy;
 
             // 加载游戏ID资源
             GameData.LoadResources();
