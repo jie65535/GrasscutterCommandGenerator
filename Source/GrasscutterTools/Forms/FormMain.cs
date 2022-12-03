@@ -48,7 +48,7 @@ namespace GrasscutterTools.Forms
             {
                 var location = Settings.Default.MainFormLocation;
                 // 还原窗体位置
-                if (location != default && location.X >= 0 && location.Y >= 0)
+                if (location.X > 0 && location.Y > 0)
                 {
                     StartPosition = FormStartPosition.Manual;
                     Location = location;
@@ -61,6 +61,9 @@ namespace GrasscutterTools.Forms
                     Size = Settings.Default.MainFormSize;
                     Logger.I(TAG, "Restore window size: " + Size.ToString());
                 }
+
+                // 恢复自动复制选项状态
+                ChkAutoCopy.Checked = Settings.Default.AutoCopy;
 
                 // 初始化页面
                 InitPages();
@@ -131,9 +134,6 @@ namespace GrasscutterTools.Forms
 #endif
             if (DesignMode) return;
 
-            // 恢复自动复制选项状态
-            ChkAutoCopy.Checked = Settings.Default.AutoCopy;
-
             // 加载游戏ID资源
             GameData.LoadResources();
 
@@ -177,7 +177,8 @@ namespace GrasscutterTools.Forms
             {
                 // 记录界面状态
                 Settings.Default.AutoCopy = ChkAutoCopy.Checked;
-                Settings.Default.MainFormLocation = Location;
+                if (WindowState == FormWindowState.Normal)
+                    Settings.Default.MainFormLocation = Location;
                 // 如果命令窗口已经弹出了，则不要保存多余的高度
                 if (TxtCommandRunLog != null)
                     Settings.Default.MainFormSize = new Size(Width, Height - TxtCommandRunLogMinHeight);
