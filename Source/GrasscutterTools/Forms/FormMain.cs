@@ -47,7 +47,7 @@ namespace GrasscutterTools.Forms
             try
             {
                 var location = Settings.Default.MainFormLocation;
-                // 还原窗体位置
+                // 还原窗体位置 
                 if (location.X > 0 && location.Y > 0)
                 {
                     StartPosition = FormStartPosition.Manual;
