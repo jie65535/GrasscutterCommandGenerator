@@ -25,13 +25,10 @@ jobs:
       uses: microsoft/setup-msbuild@v1.1.3
       
     - name: Build release
-      run: msbuild Source/GrasscutterTools.sln /p:Configuration=Release
-    
-    - name: Create zip
-      run: Compress-Archive Source/GrasscutterTools/bin/Release/GrasscutterTools.exe GrasscutterTools.zip
+      run: msbuild Source/GrasscutterTools.sln /p:Configuration=Release /t:build /restore
 
     - name: Upload build artifacts
       uses: actions/upload-artifact@v3
       with:
         name: GrasscutterTools
-        path: GrasscutterTools.zip
+        path: Source/GrasscutterTools/bin/Release/GrasscutterTools.exe
