@@ -117,524 +117,572 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CmbCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="CmbCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 21</value>
-  </data>
-  <data name="CmbCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>450, 25</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="CmbCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;CmbCommand.Name" xml:space="preserve">
-    <value>CmbCommand</value>
-  </data>
-  <data name="&gt;&gt;CmbCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbCommand.Parent" xml:space="preserve">
-    <value>GrpCommand</value>
-  </data>
-  <data name="&gt;&gt;CmbCommand.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="BtnCopy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="BtnCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="BtnCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>543, 22</value>
-  </data>
-  <data name="BtnCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="BtnCopy.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="BtnCopy.Text" xml:space="preserve">
-    <value>复制</value>
-  </data>
-  <data name="&gt;&gt;BtnCopy.Name" xml:space="preserve">
-    <value>BtnCopy</value>
-  </data>
-  <data name="&gt;&gt;BtnCopy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnCopy.Parent" xml:space="preserve">
-    <value>GrpCommand</value>
-  </data>
-  <data name="&gt;&gt;BtnCopy.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ChkAutoCopy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="ChkAutoCopy.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ChkAutoCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="ChkAutoCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>599, 24</value>
-  </data>
-  <data name="ChkAutoCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 21</value>
-  </data>
-  <data name="ChkAutoCopy.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="ChkAutoCopy.Text" xml:space="preserve">
-    <value>自动</value>
-  </data>
-  <data name="&gt;&gt;ChkAutoCopy.Name" xml:space="preserve">
-    <value>ChkAutoCopy</value>
-  </data>
-  <data name="&gt;&gt;ChkAutoCopy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ChkAutoCopy.Parent" xml:space="preserve">
-    <value>GrpCommand</value>
-  </data>
-  <data name="&gt;&gt;ChkAutoCopy.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="GrpCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 22</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
-    <value>执行(F5)</value>
-  </data>
-  <data name="&gt;&gt;BtnInvokeOpenCommand.Name" xml:space="preserve">
-    <value>BtnInvokeOpenCommand</value>
-  </data>
-  <data name="&gt;&gt;BtnInvokeOpenCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnInvokeOpenCommand.Parent" xml:space="preserve">
-    <value>GrpCommand</value>
-  </data>
-  <data name="&gt;&gt;BtnInvokeOpenCommand.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="GrpCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 293</value>
-  </data>
-  <data name="GrpCommand.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>610, 56</value>
-  </data>
-  <data name="GrpCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>660, 56</value>
-  </data>
-  <data name="GrpCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>命令  - [Ctrl] 自动执行  - [Shift] 拼接命令  - [Alt] 仅执行  - [|] 分割多条命令</value>
-  </data>
-  <data name="&gt;&gt;GrpCommand.Name" xml:space="preserve">
-    <value>GrpCommand</value>
-  </data>
-  <data name="&gt;&gt;GrpCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpCommand.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GrpCommand.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="TPRemoteCall.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPRemoteCall.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPRemoteCall.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPQuest.Size" type="System.Drawing.Size, System.Drawing">
     <value>652, 245</value>
-  </data>
-  <data name="TPRemoteCall.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>远程</value>
-  </data>
-  <data name="&gt;&gt;TPRemoteCall.Name" xml:space="preserve">
-    <value>TPRemoteCall</value>
-  </data>
-  <data name="&gt;&gt;TPRemoteCall.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPRemoteCall.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPRemoteCall.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="TPAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
-  </data>
-  <data name="TPAbout.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>关于</value>
-  </data>
-  <data name="&gt;&gt;TPAbout.Name" xml:space="preserve">
-    <value>TPAbout</value>
-  </data>
-  <data name="&gt;&gt;TPAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPAbout.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPAbout.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="TPManage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPManage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPManage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
-  </data>
-  <data name="TPManage.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="TPManage.Text" xml:space="preserve">
-    <value>管理</value>
-  </data>
-  <data name="&gt;&gt;TPManage.Name" xml:space="preserve">
-    <value>TPManage</value>
-  </data>
-  <data name="&gt;&gt;TPManage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPManage.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPManage.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="TPScene.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPScene.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPScene.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
-  </data>
-  <data name="TPScene.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>场景</value>
-  </data>
-  <data name="&gt;&gt;TPScene.Name" xml:space="preserve">
-    <value>TPScene</value>
-  </data>
-  <data name="&gt;&gt;TPScene.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPScene.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPScene.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="TPItem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPItem.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
-  </data>
-  <data name="TPItem.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="TPItem.Text" xml:space="preserve">
-    <value>物品</value>
-  </data>
-  <data name="&gt;&gt;TPItem.Name" xml:space="preserve">
-    <value>TPItem</value>
-  </data>
-  <data name="&gt;&gt;TPItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPItem.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPItem.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="TPWeapon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPWeapon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="TPWeapon.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
   </data>
   <data name="TPWeapon.Size" type="System.Drawing.Size, System.Drawing">
     <value>652, 245</value>
   </data>
-  <data name="TPWeapon.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="TPWeapon.Text" xml:space="preserve">
-    <value>武器</value>
-  </data>
-  <data name="&gt;&gt;TPWeapon.Name" xml:space="preserve">
-    <value>TPWeapon</value>
-  </data>
-  <data name="&gt;&gt;TPWeapon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPWeapon.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPWeapon.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="TPAvatar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPAvatar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPAvatar.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPArtifact.Size" type="System.Drawing.Size, System.Drawing">
     <value>652, 245</value>
   </data>
-  <data name="TPAvatar.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="GrpCommand.Text" xml:space="preserve">
+    <value>命令  - [Ctrl] 自动执行  - [Shift] 拼接命令  - [Alt] 仅执行  - [|] 分割多条命令</value>
   </data>
-  <data name="TPAvatar.Text" xml:space="preserve">
-    <value>角色</value>
+  <data name="&gt;&gt;GrpCommand.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="&gt;&gt;TPAvatar.Name" xml:space="preserve">
-    <value>TPAvatar</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;TPAvatar.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPAvatar.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPAvatar.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="TPSpawn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPSpawn.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPSpawn.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPScene.Size" type="System.Drawing.Size, System.Drawing">
     <value>652, 245</value>
   </data>
-  <data name="TPSpawn.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="TPManage.Text" xml:space="preserve">
+    <value>管理</value>
   </data>
-  <data name="TPSpawn.Text" xml:space="preserve">
-    <value>生成</value>
+  <data name="TCMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 275</value>
+  </data>
+  <data name="&gt;&gt;MenuSpawnEntityFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;TPSpawn.Name" xml:space="preserve">
     <value>TPSpawn</value>
   </data>
-  <data name="&gt;&gt;TPSpawn.Type" xml:space="preserve">
+  <data name="&gt;&gt;GrpCommand.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TPAbout.Name" xml:space="preserve">
+    <value>TPAbout</value>
+  </data>
+  <data name="&gt;&gt;TPScene.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPSpawn.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPSpawn.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="TPQuest.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="TPCustom.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
-  <data name="TPQuest.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPQuest.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
-  </data>
-  <data name="TPQuest.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>任务</value>
-  </data>
-  <data name="&gt;&gt;TPQuest.Name" xml:space="preserve">
-    <value>TPQuest</value>
-  </data>
-  <data name="&gt;&gt;TPQuest.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPQuest.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPSpawn.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPQuest.ZOrder" xml:space="preserve">
     <value>11</value>
   </data>
-  <data name="TPArtifact.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
+  <data name="TPLoopTasks.Text" xml:space="preserve">
+    <value>循环</value>
   </data>
-  <data name="TPArtifact.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPArtifact.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
-  </data>
-  <data name="TPArtifact.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>圣遗物</value>
-  </data>
-  <data name="&gt;&gt;TPArtifact.Name" xml:space="preserve">
-    <value>TPArtifact</value>
-  </data>
-  <data name="&gt;&gt;TPArtifact.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPArtifact.Parent" xml:space="preserve">
+  <data name="&gt;&gt;TPRemoteCall.Parent" xml:space="preserve">
     <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPArtifact.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="TPCustom.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPCustom.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPCustom.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
-  </data>
-  <data name="TPCustom.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>自定义</value>
-  </data>
-  <data name="&gt;&gt;TPCustom.Name" xml:space="preserve">
-    <value>TPCustom</value>
-  </data>
-  <data name="&gt;&gt;TPCustom.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TPCustom.Parent" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TPCustom.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="TPHome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPHome.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPHome.Size" type="System.Drawing.Size, System.Drawing">
-    <value>652, 245</value>
-  </data>
-  <data name="TPHome.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>主页</value>
   </data>
   <data name="&gt;&gt;TPHome.Name" xml:space="preserve">
     <value>TPHome</value>
   </data>
-  <data name="&gt;&gt;TPHome.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;BtnInvokeOpenCommand.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GrpCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;TPHome.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;TPHome.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;TPRemoteCall.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="TCMain.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="TPMail.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 26</value>
-  </data>
-  <data name="TPMail.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 3, 3, 3</value>
-  </data>
-  <data name="TPMail.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="TPHome.Size" type="System.Drawing.Size, System.Drawing">
     <value>652, 245</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="&gt;&gt;TPWeapon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPSpawn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkAutoCopy.Parent" xml:space="preserve">
+    <value>GrpCommand</value>
+  </data>
+  <data name="TPSpawn.Text" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="&gt;&gt;TPAvatar.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;TPAvatar.Name" xml:space="preserve">
+    <value>TPAvatar</value>
+  </data>
+  <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
+    <value>执行(F5)</value>
   </data>
   <data name="TPMail.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="TPMail.Text" xml:space="preserve">
-    <value>邮件</value>
+  <data name="TPManage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
   </data>
-  <data name="&gt;&gt;TPMail.Name" xml:space="preserve">
-    <value>TPMail</value>
+  <data name="TPArtifact.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;TPArtifact.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPCustom.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>660, 56</value>
+  </data>
+  <data name="TPAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TPWeapon.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="BtnCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="&gt;&gt;TPArtifact.Parent" xml:space="preserve">
+    <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPMail.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPMail.Parent" xml:space="preserve">
+  <data name="TPAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="TPScene.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TPSpawn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.Parent" xml:space="preserve">
+    <value>GrpCommand</value>
+  </data>
+  <data name="&gt;&gt;TPCustom.Parent" xml:space="preserve">
     <value>TCMain</value>
   </data>
-  <data name="&gt;&gt;TPMail.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="TCMain.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="TPScene.Text" xml:space="preserve">
+    <value>场景</value>
+  </data>
+  <data name="&gt;&gt;TPLoopTasks.Parent" xml:space="preserve">
+    <value>TCMain</value>
+  </data>
+  <data name="&gt;&gt;TPAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TPLoopTasks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TPRemoteCall.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;ChkAutoCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TPAbout.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="TPLoopTasks.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="TPHome.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;ChkAutoCopy.Name" xml:space="preserve">
+    <value>ChkAutoCopy</value>
+  </data>
+  <data name="&gt;&gt;TPLoopTasks.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;TPArtifact.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="TPAvatar.Text" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="TPSpawn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="BtnInvokeOpenCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormMain</value>
+  </data>
+  <data name="&gt;&gt;TPAvatar.Parent" xml:space="preserve">
+    <value>TCMain</value>
+  </data>
+  <data name="TPRemoteCall.Text" xml:space="preserve">
+    <value>远程</value>
+  </data>
+  <data name="&gt;&gt;TPItem.Parent" xml:space="preserve">
+    <value>TCMain</value>
+  </data>
+  <data name="&gt;&gt;TCMain.Name" xml:space="preserve">
+    <value>TCMain</value>
+  </data>
+  <data name="TPQuest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TCMain.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>610, 275</value>
+  </data>
+  <data name="TPManage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="TPSpawn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 245</value>
+  </data>
+  <data name="BtnInvokeOpenCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="TPItem.Text" xml:space="preserve">
+    <value>物品</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="ChkAutoCopy.Text" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>GrasscutterTools</value>
+  </data>
+  <data name="&gt;&gt;TPWeapon.Parent" xml:space="preserve">
+    <value>TCMain</value>
+  </data>
+  <data name="TPRemoteCall.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TPAvatar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="TPQuest.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="BtnCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 22</value>
+  </data>
+  <data name="&gt;&gt;BtnInvokeOpenCommand.Parent" xml:space="preserve">
+    <value>GrpCommand</value>
+  </data>
+  <data name="&gt;&gt;TPCustom.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="TPScene.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;TPWeapon.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>700, 400</value>
+  </data>
+  <data name="&gt;&gt;TPHome.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TPRemoteCall.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="TPAvatar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 245</value>
+  </data>
+  <data name="&gt;&gt;TPManage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpCommand.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>610, 56</value>
+  </data>
+  <data name="ChkAutoCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;GrpCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ChkAutoCopy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="TPHome.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;TPArtifact.Name" xml:space="preserve">
+    <value>TPArtifact</value>
+  </data>
+  <data name="&gt;&gt;TPQuest.Parent" xml:space="preserve">
+    <value>TCMain</value>
+  </data>
+  <data name="TPMail.Text" xml:space="preserve">
+    <value>邮件</value>
+  </data>
+  <data name="ChkAutoCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnInvokeOpenCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TPScene.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;TPItem.Name" xml:space="preserve">
+    <value>TPItem</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPQuest.Name" xml:space="preserve">
+    <value>TPQuest</value>
+  </data>
+  <data name="CmbCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;TPAbout.Parent" xml:space="preserve">
+    <value>TCMain</value>
+  </data>
+  <data name="TPWeapon.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="TPMail.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 245</value>
+  </data>
+  <data name="TPCustom.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TCMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="ChkAutoCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="BtnCopy.Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="ChkAutoCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>599, 24</value>
+  </data>
+  <data name="&gt;&gt;TPScene.Name" xml:space="preserve">
+    <value>TPScene</value>
+  </data>
+  <data name="TPItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 245</value>
+  </data>
+  <data name="BtnCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TPSpawn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;TCMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TPRemoteCall.Name" xml:space="preserve">
+    <value>TPRemoteCall</value>
+  </data>
+  <data name="TPItem.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TPWeapon.Text" xml:space="preserve">
+    <value>武器</value>
+  </data>
+  <data name="TPWeapon.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="CmbCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="TPArtifact.Text" xml:space="preserve">
+    <value>圣遗物</value>
+  </data>
+  <data name="TPHome.Text" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.Name" xml:space="preserve">
+    <value>BtnCopy</value>
+  </data>
+  <data name="&gt;&gt;BtnInvokeOpenCommand.Name" xml:space="preserve">
+    <value>BtnInvokeOpenCommand</value>
+  </data>
+  <data name="TPQuest.Text" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>684, 361</value>
+  </data>
+  <data name="TPCustom.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TPQuest.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TPAvatar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TPCustom.Text" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="TPMail.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="&gt;&gt;TCMain.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TPArtifact.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="TPWeapon.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
   </data>
   <data name="TPLoopTasks.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
+  <data name="&gt;&gt;TPWeapon.Name" xml:space="preserve">
+    <value>TPWeapon</value>
+  </data>
+  <data name="TPItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;TPManage.Name" xml:space="preserve">
+    <value>TPManage</value>
+  </data>
+  <data name="TPAvatar.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TPAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 245</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="TPAbout.Text" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="&gt;&gt;GrpCommand.Name" xml:space="preserve">
+    <value>GrpCommand</value>
+  </data>
+  <data name="&gt;&gt;TPScene.Parent" xml:space="preserve">
+    <value>TCMain</value>
+  </data>
+  <data name="CmbCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 21</value>
+  </data>
+  <data name="&gt;&gt;TPQuest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPAvatar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnCopy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;TPAbout.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="BtnInvokeOpenCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="ChkAutoCopy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;TPItem.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TPManage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;CmbCommand.Parent" xml:space="preserve">
+    <value>GrpCommand</value>
+  </data>
+  <data name="TPSpawn.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TPArtifact.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TPHome.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TPManage.Parent" xml:space="preserve">
+    <value>TCMain</value>
+  </data>
   <data name="TPLoopTasks.Size" type="System.Drawing.Size, System.Drawing">
     <value>652, 245</value>
   </data>
-  <data name="TPLoopTasks.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="TCMain.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
-  <data name="TPLoopTasks.Text" xml:space="preserve">
-    <value>循环</value>
+  <data name="MenuSpawnEntityFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
+  </data>
+  <data name="&gt;&gt;ChkAutoCopy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GrpCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 293</value>
+  </data>
+  <data name="&gt;&gt;TPItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="TPMail.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;TCMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPCustom.Name" xml:space="preserve">
+    <value>TPCustom</value>
+  </data>
+  <data name="&gt;&gt;TPRemoteCall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPHome.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TPCustom.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 245</value>
+  </data>
+  <data name="&gt;&gt;CmbCommand.Name" xml:space="preserve">
+    <value>CmbCommand</value>
+  </data>
+  <data name="&gt;&gt;MenuSpawnEntityFilter.Name" xml:space="preserve">
+    <value>MenuSpawnEntityFilter</value>
+  </data>
+  <data name="&gt;&gt;CmbCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TPScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="&gt;&gt;CmbCommand.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TPMail.Name" xml:space="preserve">
+    <value>TPMail</value>
+  </data>
+  <data name="TPManage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 245</value>
+  </data>
+  <data name="TPRemoteCall.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 245</value>
   </data>
   <data name="&gt;&gt;TPLoopTasks.Name" xml:space="preserve">
     <value>TPLoopTasks</value>
@@ -642,76 +690,31 @@
   <data name="&gt;&gt;TPLoopTasks.Type" xml:space="preserve">
     <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;TPLoopTasks.Parent" xml:space="preserve">
-    <value>TCMain</value>
+  <data name="&gt;&gt;TPManage.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="&gt;&gt;TPLoopTasks.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;TPMail.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
-  <data name="TCMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+  <data name="CmbCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>450, 25</value>
   </data>
-  <data name="TCMain.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>610, 275</value>
-  </data>
-  <data name="TCMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>660, 275</value>
-  </data>
-  <data name="TCMain.TabIndex" type="System.Int32, mscorlib">
+  <data name="TPItem.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;TCMain.Name" xml:space="preserve">
+  <data name="&gt;&gt;BtnInvokeOpenCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPMail.Parent" xml:space="preserve">
     <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TCMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TCMain.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TCMain.ZOrder" xml:space="preserve">
-    <value>1</value>
   </data>
   <metadata name="MenuSpawnEntityFilter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <data name="MenuSpawnEntityFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 4</value>
-  </data>
-  <data name="&gt;&gt;MenuSpawnEntityFilter.Name" xml:space="preserve">
-    <value>MenuSpawnEntityFilter</value>
-  </data>
-  <data name="&gt;&gt;MenuSpawnEntityFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>684, 361</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 9pt</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>700, 400</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>GrasscutterTools</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormMain</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>zh-TW</value>
+  </metadata>
 </root>

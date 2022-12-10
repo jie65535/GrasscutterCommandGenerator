@@ -49,8 +49,8 @@ namespace GrasscutterTools.Forms
             this.TPHome = new System.Windows.Forms.TabPage();
             this.TCMain = new System.Windows.Forms.TabControl();
             this.TPMail = new System.Windows.Forms.TabPage();
-            this.MenuSpawnEntityFilter = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.TPLoopTasks = new System.Windows.Forms.TabPage();
+            this.MenuSpawnEntityFilter = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.GrpCommand.SuspendLayout();
             this.TCMain.SuspendLayout();
             this.SuspendLayout();
@@ -191,16 +191,16 @@ namespace GrasscutterTools.Forms
             this.TPMail.Name = "TPMail";
             this.TPMail.UseVisualStyleBackColor = true;
             // 
-            // MenuSpawnEntityFilter
-            // 
-            this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
-            resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
-            // 
             // TPLoopTasks
             // 
             resources.ApplyResources(this.TPLoopTasks, "TPLoopTasks");
             this.TPLoopTasks.Name = "TPLoopTasks";
             this.TPLoopTasks.UseVisualStyleBackColor = true;
+            // 
+            // MenuSpawnEntityFilter
+            // 
+            resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
+            this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
             // 
             // FormMain
             // 

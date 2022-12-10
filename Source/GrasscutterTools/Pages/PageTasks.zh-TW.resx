@@ -117,43 +117,37 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnCopy.Text" xml:space="preserve">
-    <value>複製</value>
+  <data name="GrpTasks.Text" xml:space="preserve">
+    <value>任務列表</value>
   </data>
-  <data name="ChkAutoCopy.Text" xml:space="preserve">
-    <value>自動</value>
+  <data name="ColTag.Text" xml:space="preserve">
+    <value>標籤</value>
   </data>
-  <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
-    <value>執行(F5)</value>
+  <data name="ColContent.Text" xml:space="preserve">
+    <value>內容</value>
   </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>命令  - [Ctrl] 自動執行  - [Shift] 拼接命令  - [Alt] 僅執行  - [|] 分割多條命令</value>
+  <data name="ColDelay.Text" xml:space="preserve">
+    <value>延遲</value>
   </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>遠程</value>
+  <data name="ColCount.Text" xml:space="preserve">
+    <value>次數</value>
   </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>關於</value>
-  </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>場景</value>
-  </data>
-  <data name="TPQuest.Text" xml:space="preserve">
+  <data name="GrpTask.Text" xml:space="preserve">
     <value>任務</value>
   </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>聖遺物</value>
+  <data name="BtnRemove.Text" xml:space="preserve">
+    <value>× 刪除</value>
   </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>自定義</value>
+  <data name="BtnAccept.Text" xml:space="preserve">
+    <value>√ 確定</value>
   </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>主頁</value>
+  <data name="LblTriggerCount.Text" xml:space="preserve">
+    <value>次數</value>
   </data>
-  <data name="TPMail.Text" xml:space="preserve">
-    <value>郵件</value>
+  <data name="LblDelay.Text" xml:space="preserve">
+    <value>延遲</value>
   </data>
-  <data name="TPLoopTasks.Text" xml:space="preserve">
-    <value>循環</value>
+  <data name="LblTag.Text" xml:space="preserve">
+    <value>標籤</value>
   </data>
 </root>

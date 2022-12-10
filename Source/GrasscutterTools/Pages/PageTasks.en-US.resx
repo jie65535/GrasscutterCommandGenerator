@@ -117,43 +117,53 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnCopy.Text" xml:space="preserve">
-    <value>複製</value>
+  <data name="GrpTasks.Text" xml:space="preserve">
+    <value>Task list</value>
   </data>
-  <data name="ChkAutoCopy.Text" xml:space="preserve">
-    <value>自動</value>
+  <data name="ColTag.Text" xml:space="preserve">
+    <value>Tag</value>
   </data>
-  <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
-    <value>執行(F5)</value>
+  <data name="ColContent.Text" xml:space="preserve">
+    <value>Content</value>
   </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>命令  - [Ctrl] 自動執行  - [Shift] 拼接命令  - [Alt] 僅執行  - [|] 分割多條命令</value>
+  <data name="ColDelay.Text" xml:space="preserve">
+    <value>Delay</value>
   </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>遠程</value>
+  <data name="ColCount.Text" xml:space="preserve">
+    <value>Count</value>
   </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>關於</value>
+  <data name="GrpTask.Text" xml:space="preserve">
+    <value>Task</value>
   </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>場景</value>
+  <data name="BtnRemove.Text" xml:space="preserve">
+    <value>× Delete</value>
   </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>任務</value>
+  <data name="BtnAccept.Text" xml:space="preserve">
+    <value>√ Accept</value>
   </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>聖遺物</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblTriggerCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>331, 22</value>
   </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>自定義</value>
+  <data name="LblTriggerCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
   </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>主頁</value>
+  <data name="LblTriggerCount.Text" xml:space="preserve">
+    <value>Count</value>
   </data>
-  <data name="TPMail.Text" xml:space="preserve">
-    <value>郵件</value>
+  <data name="LblDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 22</value>
   </data>
-  <data name="TPLoopTasks.Text" xml:space="preserve">
-    <value>循環</value>
+  <data name="LblDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 17</value>
+  </data>
+  <data name="LblDelay.Text" xml:space="preserve">
+    <value>Delay</value>
+  </data>
+  <data name="LblTag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 17</value>
+  </data>
+  <data name="LblTag.Text" xml:space="preserve">
+    <value>Tag</value>
   </data>
 </root>

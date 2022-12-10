@@ -502,7 +502,16 @@
     <EmbeddedResource Include="Pages\PageSpawn.zh-TW.resx">
       <DependentUpon>PageSpawn.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageTasks.en-US.resx">
+      <DependentUpon>PageTasks.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageTasks.resx">
+      <DependentUpon>PageTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageTasks.ru-RU.resx">
+      <DependentUpon>PageTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageTasks.zh-TW.resx">
       <DependentUpon>PageTasks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.zh-TW.resx">

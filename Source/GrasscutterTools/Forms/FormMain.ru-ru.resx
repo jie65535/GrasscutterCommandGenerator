@@ -142,129 +142,23 @@
   <data name="ChkAutoCopy.Text" xml:space="preserve">
     <value>Авто</value>
   </data>
+  <data name="GrpCommand.Text" xml:space="preserve">
+    <value>Команды - [Ctrl] Запуск и замена - [Shift] Добавить  - [Alt] Только запустить  - [|] Разделитель</value>
+  </data>
   <data name="BtnInvokeOpenCommand.Size" type="System.Drawing.Size, System.Drawing">
     <value>120, 23</value>
   </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>Выполнить (F5)</value>
   </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>Команды - [Ctrl] Запуск и замена - [Shift] Добавить  - [Alt] Только запустить  - [|] Разделитель</value>
-  </data>
   <data name="TPRemoteCall.Text" xml:space="preserve">
     <value>OpenCommand</value>
-  </data>
-  <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>552, 170</value>
-  </data>
-  <data name="LblSupportDescription.Text" xml:space="preserve">
-    <value>Grasscutter Tools - основной перевод Юрий Дворецкий (с исправлениями от EgorBron)
-
-Это бесплатный проект с открытым исходным кодом.
-Если вы считаете, что это полезно для вас,
- вы можете дать мне звезду на Github.
-Если возникла проблема с генерацией команды или
- есть запрос на новую функцию,
- вы можете написать в Issues на Github.
-
-	Спасибо:  Dhar_Jinxed
-</value>
   </data>
   <data name="TPAbout.Text" xml:space="preserve">
     <value>Справка</value>
   </data>
   <data name="TPManage.Text" xml:space="preserve">
     <value>Аккаунты</value>
-  </data>
-  <data name="RbListDungeons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>243, 7</value>
-  </data>
-  <data name="RbListDungeons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 21</value>
-  </data>
-  <data name="RbListDungeons.Text" xml:space="preserve">
-    <value>Подземелья</value>
-  </data>
-  <data name="RbListScene.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 7</value>
-  </data>
-  <data name="RbListScene.Size" type="System.Drawing.Size, System.Drawing">
-    <value>66, 21</value>
-  </data>
-  <data name="RbListScene.Text" xml:space="preserve">
-    <value>Сцены</value>
-  </data>
-  <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>91, 213</value>
-  </data>
-  <data name="ChkIncludeSceneId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 21</value>
-  </data>
-  <data name="ChkIncludeSceneId.Text" xml:space="preserve">
-    <value>Включить идентификатор сцены</value>
-  </data>
-  <data name="LblTpZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 184</value>
-  </data>
-  <data name="LblTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 184</value>
-  </data>
-  <data name="BtnTeleport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 211</value>
-  </data>
-  <data name="BtnTeleport.Text" xml:space="preserve">
-    <value>Телепорт</value>
-  </data>
-  <data name="LblTpX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 184</value>
-  </data>
-  <data name="NUDTpZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>239, 182</value>
-  </data>
-  <data name="NUDTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>133, 182</value>
-  </data>
-  <data name="NUDTpX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>27, 182</value>
-  </data>
-  <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>66, 61</value>
-  </data>
-  <data name="LblClimateType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 64</value>
-  </data>
-  <data name="LblClimateType.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 17</value>
-  </data>
-  <data name="LblClimateType.Text" xml:space="preserve">
-    <value>Погода</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LblSceneDescription.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="LblSceneDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>287, 55</value>
-  </data>
-  <data name="LblSceneDescription.Text" xml:space="preserve">
-    <value>Управление сценами.</value>
-  </data>
-  <data name="LblTp.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="LblTp.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 8pt</value>
-  </data>
-  <data name="LblTp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 84</value>
-  </data>
-  <data name="LblTp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>337, 100</value>
-  </data>
-  <data name="LblTp.Text" xml:space="preserve">
-    <value>Телепортация
-Подсказка: вы можете быстро телепортироваться через отметку «рыболовный крючок» на миникарте в игре.
-В команде вы можете использовать ~, чтобы указать текущую позицию, и ~N, чтобы указать смещение на N относительно текущей позиции</value>
   </data>
   <data name="TPScene.Text" xml:space="preserve">
     <value>Сцена</value>
@@ -281,38 +175,6 @@
   <data name="TPSpawn.Text" xml:space="preserve">
     <value>Спавн</value>
   </data>
-  <data name="ChkQuestFilterTEST.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 21</value>
-  </data>
-  <data name="ChkQuestFilterTEST.Text" xml:space="preserve">
-    <value>Тест</value>
-  </data>
-  <data name="ChkQuestFilterUNRELEASED.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 21</value>
-  </data>
-  <data name="ChkQuestFilterUNRELEASED.Text" xml:space="preserve">
-    <value>Неизданное</value>
-  </data>
-  <data name="ChkQuestFilterHIDDEN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 21</value>
-  </data>
-  <data name="ChkQuestFilterHIDDEN.Text" xml:space="preserve">
-    <value>Скрытый</value>
-  </data>
-  <data name="GrpQuestFilters.Text" xml:space="preserve">
-    <value>Фильтр списка</value>
-  </data>
-  <data name="BtnFinishQuest.Text" xml:space="preserve">
-    <value>Завершить</value>
-  </data>
-  <data name="BtnAddQuest.Text" xml:space="preserve">
-    <value>Добавить</value>
-  </data>
-  <data name="LblQuestDescription.Text" xml:space="preserve">
-    <value>Добавить или завершить задание.
-Внимание: для многих квестов требуются скрипты таковых на стороне сервера.
-Поэтому квест может быть добавлен или отозван через консоль, но завершён игроком - вряд ли.</value>
-  </data>
   <data name="TPQuest.Text" xml:space="preserve">
     <value>Квест</value>
   </data>
@@ -327,5 +189,8 @@
   </data>
   <data name="TPMail.Text" xml:space="preserve">
     <value>Почта</value>
+  </data>
+  <data name="TPLoopTasks.Text" xml:space="preserve">
+    <value>Петля</value>
   </data>
 </root>
