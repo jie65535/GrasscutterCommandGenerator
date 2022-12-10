@@ -151,7 +151,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblClearGiveItemLogs.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="BtnSaveGiveItemLog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -178,7 +178,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BtnSaveGiveItemLog.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="BtnRemoveGiveItemLog.Enabled" type="System.Boolean, mscorlib">
     <value>False</value>
@@ -208,7 +208,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BtnRemoveGiveItemLog.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="GrpGiveItemRecord.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
@@ -262,7 +262,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GrpGiveItemRecord.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="ChkDrop.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -295,7 +295,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ChkDrop.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="TxtGameItemFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -304,7 +304,7 @@
     <value>343, 3</value>
   </data>
   <data name="TxtGameItemFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 23</value>
+    <value>268, 23</value>
   </data>
   <data name="TxtGameItemFilter.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -319,7 +319,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TxtGameItemFilter.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="ListGameItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -334,7 +334,7 @@
     <value>300, 208</value>
   </data>
   <data name="ListGameItems.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="&gt;&gt;ListGameItems.Name" xml:space="preserve">
     <value>ListGameItems</value>
@@ -346,7 +346,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ListGameItems.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="LblGameItemAmount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -379,7 +379,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblGameItemAmount.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="LblGameItemLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -412,7 +412,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblGameItemLevel.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="NUDGameItemAmout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -436,7 +436,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NUDGameItemAmout.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="NUDGameItemLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -460,7 +460,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NUDGameItemLevel.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>12</value>
   </data>
   <data name="LblGiveCommandDescription.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -491,7 +491,49 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblGiveCommandDescription.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
+  </data>
+  <data name="BtnFilterItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="BtnFilterItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnFilterItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>617, 3</value>
+  </data>
+  <data name="BtnFilterItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 24</value>
+  </data>
+  <data name="BtnFilterItem.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BtnFilterItem.Text" xml:space="preserve">
+    <value>三</value>
+  </data>
+  <data name="&gt;&gt;BtnFilterItem.Name" xml:space="preserve">
+    <value>BtnFilterItem</value>
+  </data>
+  <data name="&gt;&gt;BtnFilterItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnFilterItem.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnFilterItem.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="MenuItemFilter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="MenuItemFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
+  </data>
+  <data name="&gt;&gt;MenuItemFilter.Name" xml:space="preserve">
+    <value>MenuItemFilter</value>
+  </data>
+  <data name="&gt;&gt;MenuItemFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -503,6 +545,6 @@
     <value>PageGiveItem</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.7.4.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.7.6.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
 </root>

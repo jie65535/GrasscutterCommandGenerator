@@ -61,6 +61,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 全部 的本地化字符串。
+        /// </summary>
+        internal static string All {
+            get {
+                return ResourceManager.GetString("All", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 20412:迷误者之灯
         ///20413:迷误者之灯
         ///20422:翠蔓的智者
@@ -820,10 +829,12 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 101:角色经验
+        ///   查找类似 // Items
+        ///
+        ///
+        ///// ITEM_VIRTUAL
+        ///101:角色经验
         ///102:冒险阅历
-        ///103:星尘
-        ///104:星辉
         ///105:好感经验
         ///106:原粹树脂
         ///107:传说钥匙
@@ -865,12 +876,10 @@ namespace GrasscutterTools.Properties {
         ///143:巧思手记
         ///144:随想草稿
         ///145:古铁钱
+        ///146:牌手经验
         ///147:节庆热度
         ///148:营业收入
-        ///149:可用资金
-        ///150:巧策灵感
-        ///151:蘑菇宝钱
-        ///1 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///149:可用 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Item {
             get {
@@ -1250,13 +1259,12 @@ namespace GrasscutterTools.Properties {
         ///11419:「一心传」名刀
         ///11420:「一心传」名刀
         ///11421:「一心传」名刀
+        ///11422:东花坊时雨
         ///11501:风鹰剑
         ///11502:天空之刃
         ///11503:苍古自由之誓
         ///11504:斫峰之刃
         ///11505:磐岩结绿
-        ///11506:磐岩结绿
-        ///11507:凭虚
         ///11509:雾切之回光
         ///11510:波乱月白经津
         ///11511:圣显之钥
@@ -1264,7 +1272,8 @@ namespace GrasscutterTools.Properties {
         ///12201:佣兵重剑
         ///12301:铁影阔剑
         ///12302:沐浴龙血的剑
-        ///12303 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///12303:白铁大剑
+        ///12 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Weapon {
             get {

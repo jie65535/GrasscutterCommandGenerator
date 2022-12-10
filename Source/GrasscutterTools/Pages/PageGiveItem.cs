@@ -46,8 +46,52 @@ namespace GrasscutterTools.Pages
         /// </summary>
         public override void OnLoad()
         {
-            ListGameItems.Items.Clear();
-            ListGameItems.Items.AddRange(GameData.Items.Lines);
+            MenuItemFilter.SuspendLayout();
+            MenuItemFilter.Items.Clear();
+            SelectedItemTypeLines = GameData.Items.Lines;
+            var all = new ToolStripMenuItem
+            {
+                Text = Resources.All,
+                Tag = SelectedItemTypeLines,
+            };
+            all.Click += OnItemFilterClick;
+            MenuItemFilter.Items.Add(all);
+            foreach (var kv in GameData.Items)
+            {
+                var item = new ToolStripMenuItem
+                {
+                    Text = kv.Key,
+                    Tag = kv.Value.Lines,
+                };
+                item.Click += OnItemFilterClick;
+                MenuItemFilter.Items.Add(item);
+            }
+            MenuItemFilter.ResumeLayout();
+
+            LoadItemList();
+        }
+
+        /// <summary>
+        /// 当前选中的物品类型行
+        /// </summary>
+        private string[] SelectedItemTypeLines;
+
+        /// <summary>
+        /// 物品类型过滤器类型选中时触发
+        /// </summary>
+        private void OnItemFilterClick(object sender, EventArgs e)
+        {
+            var btn = sender as ToolStripMenuItem;
+            SelectedItemTypeLines = btn.Tag as string[];
+            LoadItemList();
+        }
+
+        /// <summary>
+        /// 加载物品列表
+        /// </summary>
+        private void LoadItemList()
+        {
+            UIUtil.ListBoxFilter(ListGameItems, SelectedItemTypeLines, TxtGameItemFilter.Text);
         }
 
         /// <summary>
@@ -55,7 +99,7 @@ namespace GrasscutterTools.Pages
         /// </summary>
         private void TxtGameItemFilter_TextChanged(object sender, EventArgs e)
         {
-            UIUtil.ListBoxFilter(ListGameItems, GameData.Items.Lines, TxtGameItemFilter.Text);
+            LoadItemList();
         }
 
         /// <summary>
@@ -93,6 +137,14 @@ namespace GrasscutterTools.Pages
         private void GiveItemsInputChanged(object sender, EventArgs e)
         {
             GenGiveItemCommand();
+        }
+
+        /// <summary>
+        /// 点击过滤物品按钮时触发
+        /// </summary>
+        private void BtnFilterItem_Click(object sender, EventArgs e)
+        {
+            MenuItemFilter.Show(BtnFilterItem, 0, BtnFilterItem.Height);
         }
 
         #region -- 物品记录 --
