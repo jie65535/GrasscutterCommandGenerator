@@ -567,6 +567,7 @@
     <Content Include="Resources\en-us\ShopType.txt" />
     <Content Include="Resources\en-us\Weapon.txt" />
     <None Include="Resources\Newtonsoft.Json.dll" />
+    <Content Include="Resources\MyTools.java" />
     <Content Include="Resources\ru-ru\Artifact.txt" />
     <Content Include="Resources\ru-ru\ArtifactCat.txt" />
     <Content Include="Resources\ru-ru\ArtifactMainAttribution.txt" />

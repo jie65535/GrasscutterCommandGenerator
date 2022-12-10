@@ -63,5 +63,21 @@ namespace GrasscutterTools.Game
         /// 获取所有行
         /// </summary>
         public IEnumerable<string> AllLines => Values.SelectMany(it => it.Lines);
+
+        private string[] lines;
+        public string[] Lines => lines ?? (lines = AllLines.ToArray());
+
+        public string this[int id]
+        {
+            get
+            {
+                foreach (var map in Values) {
+                    var n = map[id];
+                    if (n != ItemMap.EmptyName)
+                        return n;
+                }
+                return ItemMap.EmptyName;
+            }
+        }
     }
 }

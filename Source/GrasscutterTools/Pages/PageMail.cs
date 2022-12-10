@@ -181,9 +181,9 @@ namespace GrasscutterTools.Pages
         /// </summary>
         private void LoadMailSelectableItems()
         {
-            MailSelectableItems = new string[GameData.Items.Count + GameData.Weapons.Count + GameData.Artifacts.Count];
+            MailSelectableItems = new string[GameData.Items.Lines.Length + GameData.Weapons.Count + GameData.Artifacts.Count];
             int i = 0;
-            GameData.Items.Lines.CopyTo(MailSelectableItems, i); i += GameData.Items.Count;
+            GameData.Items.Lines.CopyTo(MailSelectableItems, i); i += GameData.Items.Lines.Length;
             GameData.Weapons.Lines.CopyTo(MailSelectableItems, i); i += GameData.Weapons.Count;
             GameData.Artifacts.Lines.CopyTo(MailSelectableItems, i); i += GameData.Artifacts.Count;
 
