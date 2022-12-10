@@ -3,6 +3,8 @@
 [![GitHub лицензия](https://img.shields.io/github/license/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/blob/main/LICENSE)
 [![GitHub звёзды](https://img.shields.io/github/stars/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/stargazers)
 [![Github ВСЕ выпуски](https://img.shields.io/github/downloads/jie65535/GrasscutterCommandGenerator/total.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
+[![GitHub release](https://img.shields.io/github/v/release/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/releases/latest)
+[![Build](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml/badge.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml)
 
 [English](README.md) | [简体中文](README_zh-cn.md) | Русский - Перевод [Юрий Дворецкий](https://github.com/yurikenjx) (с исправлениями от [EgorBron](https://github.com/EgorBron)) 
 
