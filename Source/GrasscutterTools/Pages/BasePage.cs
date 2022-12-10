@@ -19,6 +19,7 @@
 
 using System;
 using System.Drawing;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -51,7 +52,7 @@ namespace GrasscutterTools.Pages
         /// <param name="args">参数</param>
         public SetCommandHandler SetCommand { get; set; }
 
-        public delegate Task<bool> RunCommandsHandler(string[] commands);
+        public delegate Task<bool> RunCommandsHandler(params string[] commands);
 
         /// <summary>
         /// 运行命令
@@ -62,6 +63,30 @@ namespace GrasscutterTools.Pages
         /// 获取当前输入框命令
         /// </summary>
         public Func<string> GetCommand { get; set; }
+
+        /// <summary>
+        /// 运行原始命令（未处理的竖线分割命令文本）
+        /// </summary>
+        /// <param name="commands">未处理的竖线分割命令文本</param>
+        /// <returns>是否运行成功</returns>
+        protected async Task<bool> RunRawCommands(string commands)
+        {
+            if (commands.IndexOf('|') == -1)
+                return await RunCommands(FormatCommand(commands));
+            else
+                return await RunCommands(commands.Split('|').Select(it => FormatCommand(it)).ToArray());
+        }
+
+        /// <summary>
+        /// 格式化命令
+        /// （去除收尾空白，替换换行）
+        /// </summary>
+        /// <param name="raw">原始输入</param>
+        /// <returns>格式化后可执行命令</returns>
+        private string FormatCommand(string raw)
+        {
+            return raw.Trim().Replace("\\r", "\r").Replace("\\n", "\n");
+        }
 
         #endregion - 命令相关 -
 

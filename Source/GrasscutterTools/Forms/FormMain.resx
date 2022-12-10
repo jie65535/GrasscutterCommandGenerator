@@ -316,7 +316,7 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPAbout.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="TPManage.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -370,7 +370,7 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPScene.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="TPItem.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -508,7 +508,7 @@
     <value>TCMain</value>
   </data>
   <data name="&gt;&gt;TPQuest.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="TPArtifact.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -620,6 +620,33 @@
   </data>
   <data name="&gt;&gt;TPMail.ZOrder" xml:space="preserve">
     <value>9</value>
+  </data>
+  <data name="TPLoopTasks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 26</value>
+  </data>
+  <data name="TPLoopTasks.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TPLoopTasks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>652, 245</value>
+  </data>
+  <data name="TPLoopTasks.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="TPLoopTasks.Text" xml:space="preserve">
+    <value>循环</value>
+  </data>
+  <data name="&gt;&gt;TPLoopTasks.Name" xml:space="preserve">
+    <value>TPLoopTasks</value>
+  </data>
+  <data name="&gt;&gt;TPLoopTasks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TPLoopTasks.Parent" xml:space="preserve">
+    <value>TCMain</value>
+  </data>
+  <data name="&gt;&gt;TPLoopTasks.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="TCMain.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>

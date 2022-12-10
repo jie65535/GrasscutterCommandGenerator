@@ -1186,6 +1186,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 任务已经启动，无法操作 的本地化字符串。
+        /// </summary>
+        internal static string TaskRunningCannotOperated {
+            get {
+                return ResourceManager.GetString("TaskRunningCannotOperated", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 提示 的本地化字符串。
         /// </summary>
         internal static string Tips {

@@ -288,4 +288,7 @@
   <data name="All" xml:space="preserve">
     <value>全部</value>
   </data>
+  <data name="TaskRunningCannotOperated" xml:space="preserve">
+    <value>任務已經啟動，無法操作</value>
+  </data>
 </root>

@@ -97,6 +97,7 @@ namespace GrasscutterTools.Forms
             TPWeapon.Controls.Add(CreatePage<PageGiveWeapon>());
             TPManage.Controls.Add(CreatePage<PageManagement>());
             TPMail.Controls.Add(CreatePage<PageMail>());
+            TPLoopTasks.Controls.Add(CreatePage<PageTasks>());
             TPQuest.Controls.Add(CreatePage<PageQuest>());
             TPScene.Controls.Add(CreatePage<PageScene>());
             TPAbout.Controls.Add(CreatePage<PageAbout>());

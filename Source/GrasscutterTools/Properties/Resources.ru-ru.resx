@@ -282,4 +282,7 @@
   <data name="All" xml:space="preserve">
     <value>Все</value>
   </data>
+  <data name="TaskRunningCannotOperated" xml:space="preserve">
+    <value>Задача уже запущена и не может быть выполнена</value>
+  </data>
 </root>

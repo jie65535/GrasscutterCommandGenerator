@@ -294,4 +294,7 @@ Improvement suggestions have been submitted, please use caution to send emails t
   <data name="All" xml:space="preserve">
     <value>All</value>
   </data>
+  <data name="TaskRunningCannotOperated" xml:space="preserve">
+    <value>The task has already started and cannot be operated</value>
+  </data>
 </root>
