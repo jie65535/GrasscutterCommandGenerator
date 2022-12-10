@@ -207,7 +207,9 @@ namespace GrasscutterTools.Forms
         {
             Logger.I(TAG, $"SetCommand(\"{command}\")");
             var oldCommand = CmbCommand.Text;
-            CmbCommand.Text = (ModifierKeys == Keys.Shift) ? $"{oldCommand} | {command}" : command;
+            CmbCommand.Text = (ModifierKeys == Keys.Shift) ?
+                (string.IsNullOrEmpty(oldCommand) ? command : $"{oldCommand} | {command}")
+                : command;
             if (ChkAutoCopy.Checked)
                 CopyCommand();
             AddCommandToList(command);
