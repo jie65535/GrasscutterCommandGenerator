@@ -59,7 +59,7 @@ namespace GrasscutterTools.Game.Gacha
         /// <summary>
         /// 这个是抽卡的预览背景路径id
         /// </summary>
-        [JsonProperty("previewPrefabPath")]
+        [JsonProperty("previewPrefabPath"), JsonIgnore]
         public string PreviewPrefabPath { get; set; } = "UI_Tab_GachaShowPanel_A007";
 
         /// <summary>
