@@ -101,6 +101,7 @@ namespace GrasscutterTools.Forms
             TPQuest.Controls.Add(CreatePage<PageQuest>());
             TPScene.Controls.Add(CreatePage<PageScene>());
             TPAbout.Controls.Add(CreatePage<PageAbout>());
+            //TPAbout.Controls.Add(CreatePage<PageTools>());
             TCMain.ResumeLayout();
             Logger.I(TAG, "InitPages completed");
         }

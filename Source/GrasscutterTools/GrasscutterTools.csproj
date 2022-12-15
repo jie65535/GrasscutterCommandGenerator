@@ -244,6 +244,12 @@
     <Compile Include="Pages\PageTasks.Designer.cs">
       <DependentUpon>PageTasks.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PageTools.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageTools.Designer.cs">
+      <DependentUpon>PageTools.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.zh-TW.Designer.cs">
@@ -513,6 +519,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageTasks.zh-TW.resx">
       <DependentUpon>PageTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageTools.resx">
+      <DependentUpon>PageTools.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.zh-TW.resx">
       <Generator>ResXFileCodeGenerator</Generator>
