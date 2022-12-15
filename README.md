@@ -18,6 +18,10 @@ Support 简体中文, 繁体中文, English and Русский languages.
 > **Warning**: app look may be different rather than on screenshots. It may also contain translation errors and a lack of certain resources. **We're welcome everyone to contribute to their [improvement](/Source/GrasscutterTools/Resources/en-us)**
 
 ## Update log
+
+### GrasscutterTools-v1.8
+![Task page](Doc/Screenshots-en/18-TaskPage.png)
+
 ### GrasscutterTools-v1.7.3
 ![Gadget](Doc/Screenshots-en/6-SpawnEntity.png)
 

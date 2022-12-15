@@ -19,6 +19,9 @@
 
 ## Update log
 
+### GrasscutterTools-v1.8
+![Task page](Doc/Screenshots/18-TaskPage.png)
+
 ### GrasscutterTools-v1.7.3
 ![Spawns](Doc/Screenshots/6-SpawnEntity.png)
 
