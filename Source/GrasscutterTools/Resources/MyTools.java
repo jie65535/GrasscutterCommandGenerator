@@ -182,6 +182,32 @@ public final class Tools {
             }
         }
 
+//        h.newSection("WeaponColors");
+//        for (val data : items.get(ItemType.ITEM_WEAPON)) {
+//            val color = switch (data.getRankLevel()) {
+//                case 3 -> "blue";
+//                case 4 -> "purple";
+//                case 5 -> "yellow";
+//                default -> null;
+//            };
+//            if (color != null) {
+//                h.newLine("%d:%s".formatted(data.getId(), color));
+//            }
+//        }
+//
+//        h.newSection("AvatarColors");
+//        for (val data : avatarDataMap.values()) {
+//            if (data.getId() >= 10000002 && data.getId() < 11000000) {
+//                String color = switch (data.getQualityType()) {
+//                    case "QUALITY_PURPLE" -> "purple";
+//                    case "QUALITY_ORANGE" -> "yellow";
+//                    case "QUALITY_BLUE" -> "blue";
+//                    default -> "";
+//                };
+//                h.newLine("%d:%s".formatted(data.getId(), color));
+//            }
+//        }
+
 //        itemDataMap.forEach((id, data) -> {
 //            val name = getTextMapKey(data.getNameTextMapHash());
 //            switch (data.getMaterialType()) {
@@ -222,7 +248,7 @@ public final class Tools {
         // Quests
         h.newSection("Quests");
         questDataMap.forEach((id, data) -> h.newTranslatedLine(
-                "%d:".formatted(id) + "{0} - {1}",
+            "%d:".formatted(id) + "{0} - {1}",
             mainQuestTitles.get(data.getMainId()),
             data.getDescTextMapHash()));
 
