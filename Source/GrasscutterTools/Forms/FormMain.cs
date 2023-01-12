@@ -208,12 +208,11 @@ namespace GrasscutterTools.Forms
         {
             Logger.I(TAG, $"SetCommand(\"{command}\")");
             var oldCommand = CmbCommand.Text;
-            CmbCommand.Text = (ModifierKeys == Keys.Shift) ?
-                (string.IsNullOrEmpty(oldCommand) ? command : $"{oldCommand} | {command}")
-                : command;
+            if (ModifierKeys == Keys.Shift && !string.IsNullOrEmpty(oldCommand))
+                command = $"{oldCommand} | {command}";
+            AddCommandToList(command);
             if (ChkAutoCopy.Checked)
                 CopyCommand();
-            AddCommandToList(command);
 
             if (ModifierKeys == Keys.Control)
             {
@@ -233,12 +232,12 @@ namespace GrasscutterTools.Forms
         {
             if (string.IsNullOrEmpty(command))
                 command = CmbCommand.Text;
-            if (!string.IsNullOrEmpty(command))
-            {
-                if (CmbCommand.Items.Count > 19)
-                    CmbCommand.Items.RemoveAt(0);
-                CmbCommand.Items.Add(command);
-            }
+            if (string.IsNullOrEmpty(command))
+                return;
+            if (CmbCommand.Items.Count > 19)
+                CmbCommand.Items.RemoveAt(0);
+            CmbCommand.Items.Add(command);
+            CmbCommand.SelectedIndex = CmbCommand.Items.Count - 1;
         }
 
         /// <summary>
