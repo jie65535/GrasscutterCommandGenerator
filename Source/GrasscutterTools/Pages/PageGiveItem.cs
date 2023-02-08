@@ -113,14 +113,25 @@ namespace GrasscutterTools.Pages
             {
                 var id = ItemMap.ToId(name);
 
+                NUDGameItemLevel.Enabled = true;
                 if (ChkDrop.Checked)
                 {
-                    NUDGameItemLevel.Enabled = false;
-                    SetCommand("/drop", $"{id} {NUDGameItemAmout.Value}");
+                    if (CommandVersion.Check(CommandVersion.V1_3_1))
+                    {
+                        SetCommand("/spawn", $"{id} x{NUDGameItemAmout.Value} lv{NUDGameItemLevel.Value}");
+                    }
+                    else if (CommandVersion.Check(CommandVersion.V1_2_2))
+                    {
+                        SetCommand("/spawn", $"{id} {NUDGameItemAmout.Value} {NUDGameItemLevel.Value}");
+                    }
+                    else
+                    {
+                        NUDGameItemLevel.Enabled = false;
+                        SetCommand("/drop", $"{id} {NUDGameItemAmout.Value}");
+                    }
                 }
                 else
                 {
-                    NUDGameItemLevel.Enabled = true;
                     if (CommandVersion.Check(CommandVersion.V1_2_2))
                         SetCommand("/give", $"{id} x{NUDGameItemAmout.Value} lv{NUDGameItemLevel.Value}");
                     else
