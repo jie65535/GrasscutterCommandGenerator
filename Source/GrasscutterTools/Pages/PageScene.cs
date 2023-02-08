@@ -102,11 +102,11 @@ namespace GrasscutterTools.Pages
             {
                 if (CommandVersion.Check(CommandVersion.V1_2_2))
                 {
-                    SetCommand("/scene", id.ToString());
+                    SetCommand("/tp", $"0 400 0 {id}");
                 }
                 else
                 {
-                    SetCommand("/tp ~ ~ ~", id.ToString());
+                    SetCommand("/scene", id.ToString());
                 }
             }
             else if (RbListDungeons.Checked)
