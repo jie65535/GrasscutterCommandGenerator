@@ -130,4 +130,7 @@ If there is a problem with the command generation,
 or there is a new feature request, you can file an issue on Github.
 </value>
   </data>
+  <data name="LnkOpenChat.Text" xml:space="preserve">
+    <value>Click to view server chat plugin</value>
+  </data>
 </root>

@@ -32,6 +32,7 @@
             this.GrasscutterToolsSupport = new System.Windows.Forms.PictureBox();
             this.LnkGithub = new System.Windows.Forms.LinkLabel();
             this.LblSupportDescription = new System.Windows.Forms.Label();
+            this.LnkOpenChat = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.GrasscutterToolsSupport)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,10 +55,18 @@
             resources.ApplyResources(this.LblSupportDescription, "LblSupportDescription");
             this.LblSupportDescription.Name = "LblSupportDescription";
             // 
+            // LnkOpenChat
+            // 
+            resources.ApplyResources(this.LnkOpenChat, "LnkOpenChat");
+            this.LnkOpenChat.Name = "LnkOpenChat";
+            this.LnkOpenChat.TabStop = true;
+            this.LnkOpenChat.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkOpenChat_LinkClicked);
+            // 
             // PageAbout
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.LnkOpenChat);
             this.Controls.Add(this.GrasscutterToolsSupport);
             this.Controls.Add(this.LnkGithub);
             this.Controls.Add(this.LblSupportDescription);
@@ -73,5 +82,6 @@
         private System.Windows.Forms.PictureBox GrasscutterToolsSupport;
         private System.Windows.Forms.LinkLabel LnkGithub;
         private System.Windows.Forms.Label LblSupportDescription;
+        private System.Windows.Forms.LinkLabel LnkOpenChat;
     }
 }

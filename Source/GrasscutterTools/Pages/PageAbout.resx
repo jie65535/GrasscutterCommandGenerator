@@ -117,89 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="GrasscutterToolsSupport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="GrasscutterToolsSupport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="GrasscutterToolsSupport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>498, 86</value>
-  </data>
-  <data name="GrasscutterToolsSupport.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>280, 280</value>
-  </data>
-  <data name="GrasscutterToolsSupport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 140</value>
-  </data>
-  <data name="GrasscutterToolsSupport.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="GrasscutterToolsSupport.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;GrasscutterToolsSupport.Name" xml:space="preserve">
-    <value>GrasscutterToolsSupport</value>
-  </data>
-  <data name="&gt;&gt;GrasscutterToolsSupport.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrasscutterToolsSupport.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GrasscutterToolsSupport.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;LnkOpenChat.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="&gt;&gt;GrasscutterToolsSupport.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;LblSupportDescription.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LnkGithub.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="LnkGithub.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LnkGithub.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LnkGithub.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 209</value>
-  </data>
-  <data name="LnkGithub.Size" type="System.Drawing.Size, System.Drawing">
-    <value>46, 17</value>
-  </data>
-  <data name="LnkGithub.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="LnkGithub.Text" xml:space="preserve">
-    <value>Github</value>
-  </data>
-  <data name="&gt;&gt;LnkGithub.Name" xml:space="preserve">
-    <value>LnkGithub</value>
-  </data>
-  <data name="&gt;&gt;LnkGithub.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LnkGithub.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LnkGithub.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LblSupportDescription.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblSupportDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblSupportDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 12</value>
-  </data>
-  <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>334, 136</value>
-  </data>
-  <data name="LblSupportDescription.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="LnkOpenChat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
   <data name="LblSupportDescription.Text" xml:space="preserve">
     <value>割草机工具箱
@@ -211,28 +143,129 @@
 
 欢迎加入内测Q群: 457427536 （需要回答正确答案）</value>
   </data>
+  <data name="&gt;&gt;GrasscutterToolsSupport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LnkGithub.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LnkOpenChat.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="LblSupportDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="GrasscutterToolsSupport.Location" type="System.Drawing.Point, System.Drawing">
+    <value>498, 86</value>
+  </data>
+  <data name="&gt;&gt;LnkGithub.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblSupportDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkGithub.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GrasscutterToolsSupport.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PageAbout</value>
+  </data>
+  <data name="LblSupportDescription.Size" type="System.Drawing.Size, System.Drawing">
+    <value>334, 136</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenChat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LnkOpenChat.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 207</value>
+  </data>
+  <data name="GrasscutterToolsSupport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenChat.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.8.1.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  </data>
+  <data name="&gt;&gt;LnkOpenChat.Name" xml:space="preserve">
+    <value>LnkOpenChat</value>
+  </data>
   <data name="&gt;&gt;LblSupportDescription.Name" xml:space="preserve">
     <value>LblSupportDescription</value>
+  </data>
+  <data name="&gt;&gt;LnkGithub.Name" xml:space="preserve">
+    <value>LnkGithub</value>
+  </data>
+  <data name="LnkGithub.Text" xml:space="preserve">
+    <value>Github</value>
+  </data>
+  <data name="LnkOpenChat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 20</value>
+  </data>
+  <data name="GrasscutterToolsSupport.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="LnkOpenChat.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="GrasscutterToolsSupport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 140</value>
+  </data>
+  <data name="GrasscutterToolsSupport.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;GrasscutterToolsSupport.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrasscutterToolsSupport.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>280, 280</value>
+  </data>
+  <data name="LnkGithub.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblSupportDescription.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LnkOpenChat.Text" xml:space="preserve">
+    <value>点击查看服务器聊天插件</value>
+  </data>
+  <data name="LblSupportDescription.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="LblSupportDescription.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LnkGithub.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 209</value>
+  </data>
+  <data name="LnkGithub.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
   </data>
   <data name="&gt;&gt;LblSupportDescription.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LblSupportDescription.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="LnkGithub.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;LblSupportDescription.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;GrasscutterToolsSupport.Name" xml:space="preserve">
+    <value>GrasscutterToolsSupport</value>
+  </data>
+  <data name="&gt;&gt;LnkGithub.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>PageAbout</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.7.4.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
-  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ru-RU</value>
+  </metadata>
 </root>
