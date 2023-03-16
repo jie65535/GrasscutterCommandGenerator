@@ -7,13 +7,13 @@
 [![Build](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml/badge.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml)
 [![QQ Group](https://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=PdS9--b-n8LEAmYjX8fNFXtKDcsp4NHN&jump_from=webapi&authKey=7ty3ZCKYMKLGWLmO8O84qiNAZ0EuCnSGF+acP+74xuDMKYXXNjuPP7iUzffHz4r2)
 
-English | [简体中文](README_zh-cn.md) | [Русский](README_ru-RU.md)
+English | [简体中文](README_zh-cn.md) | [繁體中文](README_zh-tw.md) | [Русский](README_ru-RU.md)
 
 ## Commands Generator
 
 Please download the latest version from [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
 
-Support 简体中文, 繁体中文, English and Русский languages.
+Support 简体中文, 繁體中文, English and Русский languages.
 
 > **Warning**: app look may be different rather than on screenshots. It may also contain translation errors and a lack of certain resources. **We're welcome everyone to contribute to their [improvement](/Source/GrasscutterTools/Resources/en-us)**
 

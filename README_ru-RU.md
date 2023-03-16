@@ -6,13 +6,13 @@
 [![GitHub release](https://img.shields.io/github/v/release/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/releases/latest)
 [![Build](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml/badge.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml)
 
-[English](README.md) | [简体中文](README_zh-cn.md) | Русский - Перевод [Юрий Дворецкий](https://github.com/yurikenjx) (с исправлениями от [EgorBron](https://github.com/EgorBron)) 
+[English](README.md) | [简体中文](README_zh-cn.md) | [繁體中文](README_zh-tw.md) | Русский - Перевод [Юрий Дворецкий](https://github.com/yurikenjx) (с исправлениями от [EgorBron](https://github.com/EgorBron)) 
 
 ## Генератор команд (GCG)
 
 Загрузите последнюю версию из вкладки [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases).
 
-GCG поддерживает 简体中文 (китайский упр.), 繁体中文 (китайский трад.), English (английский) и Русский языки.
+GCG поддерживает 简体中文 (китайский упр.), 繁體中文 (китайский трад.), English (английский) и Русский языки.
 
 > **Warning**: вид приложения может отличаться от скриншотов. Также в нём могут присутствовать ошибки в переводе и отсутсвие некоторых ресурсов. **Мы приглашаем всех сделать вклад в их [улучшение](/Source/GrasscutterTools/Resources/ru-ru)**
 
