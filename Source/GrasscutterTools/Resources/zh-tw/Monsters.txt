@@ -221,6 +221,7 @@
 24040101:Monolith_Ordinator_01 - [N/A] 1462919497
 24040201:Monolith_Ordinator_02 - [N/A] 285953129
 24040301:Monolith_Ordinator_03 - [N/A] 3626535649
+24990101:Monster_Alternate_01 - [N/A] 3880332545
 25010101:「溜溜」
 25010102:神秘人
 25010103:盜寶團·「溜溜」
@@ -298,6 +299,7 @@
 25210106:EremiteElite_Female_Hatchet_03 - [N/A] 660925665
 25210107:Eremite_Female_Hatchet_04 - [N/A] 2260729353
 25210108:Eremite_Female_Hatchet_05 - [N/A] 1446861633
+25210109:NPC_Quest_Female_Standard_Nailan_20933 - [N/A] 2358839953
 25210201:鍍金旅團·機弩兵
 25210202:Eremite_Male_Standard_Crossbow_02 - [N/A] 2119181617
 25210203:Eremite_Male_Standard_Crossbow_03 - [N/A] 3425185161
@@ -307,6 +309,8 @@
 25210207:Eremite_Male_Standard_Crossbow_04 - [N/A] 1636753185
 25210208:NPC_Quest_Male_Standard_Eremite_01 - [N/A] 2050456833
 25210209:NPC_Quest_Male_Standard_Eremite_02 - [N/A] 3171996801
+25210210:NPC_Sumeru_Male_Standard_Aderfi_4293 - [N/A] 2723889409
+25210211:NPC_Quest_Male_Standard_Assassin02_20940 - [N/A] 3153927337
 25210301:鍍金旅團·鴉喙戟手
 25210302:Eremite_Male_Standard_Pole_02 - [N/A] 2939413633
 25210303:Eremite_Male_Standard_Pole_03 - [N/A] 2517557169
@@ -314,6 +318,8 @@
 25210305:EremiteElite_Male_Standard_Pole_02 - [N/A] 1664946217
 25210306:EremiteElite_Male_Standard_Pole_03 - [N/A] 696066441
 25210307:Eremite_Male_Standard_Pole_01 - [N/A] 2671081977
+25210308:NPC_Sumeru_Male_Standard_Warden03_4298 - [N/A] 2403836809
+25210309:NPC_Sumeru_Male_Standard_Warden04_4299 - [N/A] 191969201
 25210401:鍍金旅團·破陣者
 25210402:Eremite_MuscleMan_Gloves_02 - [N/A] 839477089
 25210403:Eremite_MuscleMan_Gloves_03 - [N/A] 2628038825
@@ -321,6 +327,7 @@
 25210405:EremiteElite_MuscleMan_Gloves_02 - [N/A] 4366953
 25210406:EremiteElite_MuscleMan_Gloves_03 - [N/A] 1385944497
 25210407:NPC_Quest_MuscleMan_Standard_Eremite_01 - [N/A] 3844535385
+25210408:NPC_Quest_MuscleMan_Standard_Assassin01_20913 - [N/A] 2083537065
 25210501:鍍金旅團·刀舞者
 25210502:Eremite_MuscleMan_Simitar_02 - [N/A] 3484979137
 25210503:Eremite_MuscleMan_Simitar_03 - [N/A] 2747515289
@@ -328,9 +335,11 @@
 25210505:EremiteElite_MuscleMan_Simitar_02 - [N/A] 4251715865
 25210506:EremiteElite_MuscleMan_Simitar_03 - [N/A] 124112617
 25210507:Eremite_MuscleMan_Simitar_04 - [N/A] 1714026825
+25210508:NPC_Sumeru_MuscleMan_Standard_Yuften_4294 - [N/A] 2949828257
 25210601:Eremite_Male_Standard_NoWeapon_01 - [N/A] 3480498409
 25210602:Eremite_Male_Standard_NoWeapon_02 - [N/A] 1531750897
 25310101:鍍金旅團·沙中淨水
+25310102:Eremite_Female_Slim_PushDagger_02 - [N/A] 1936242505
 25310201:鍍金旅團·熾陽凝冰
 25310202:Eremite_Male_Standard_Glaive_02 - [N/A] 3503187145
 25310301:鍍金旅團·白日鳴雷
@@ -340,6 +349,8 @@
 25410201:Eremite_Female_Standard_Longbow_01 - [N/A] 1223193297
 25410202:Eremite_Female_Standard_Longbow_01 - [N/A] 1223193297
 25410301:Eremite_Female_Standard_Oracle_01 - [N/A] 1223193297
+25410302:Eremite_Female_Standard_Oracle_02 - [N/A] 3319063017
+25410303:Eremite_Female_Standard_Oracle_03 - [N/A] 1427419849
 25410401:Monster_Eremite_Female_Standard_Dancer_01 - [N/A] 1223193297
 26010101:冰霜騙騙花
 26010102:冰霜騙騙花（雪山活動）
@@ -503,10 +514,16 @@
 28050221:新手盜寶鼬
 28050222:藏金盜寶鼬
 28050223:大黃金盜寶鼬
-28060101:棘冠鳄
+28050501:Electrohercules_01 - [N/A] 2466918521
+28050502:Electrohercules_02 - [N/A] 2466918521
+28050503:Electrohercules_03 - [N/A] 2466918521
+28050504:Electrohercules_04 - [N/A] 2466918521
+28050505:Electrohercules_05 - [N/A] 2466918521
+28050506:Electrohercules_06 - [N/A] 2466918521
+28060101:棘冠鱷
 28060102:Gator_Strong_01 - [N/A] 2866718929
 28060103:Gator_01 - [N/A] 1328271489
-28060201:长鬓虎
+28060201:長鬢虎
 28060202:Panther_Strong_01 - [N/A] 3539690529
 28060203:Panther_01 - [N/A] 3418949673
 28060301:Vulture_01 - [N/A] 1575409961
@@ -524,7 +541,7 @@
 28060511:Megamoth_Desert_06 - [N/A] 423020265
 28060512:Megamoth_Desert_07 - [N/A] 112703337
 28060513:Megamoth_Desert_08 - [N/A] 2396817929
-28060601:牦牦驮兽
+28060601:犛犛馱獸
 28060602:Megamoth_Jungle_02 - [N/A] 409501041
 28060603:Megamoth_Jungle_03 - [N/A] 2740821897
 28060604:Megamoth_Jungle_01 - [N/A] 2340527241
@@ -546,6 +563,8 @@
 28061301:Megamoth_Jungle_06 - [N/A] 3469996769
 28061401:Megamoth_Jungle_07 - [N/A] 2330015681
 28061402:Megamoth_Jungle_08 - [N/A] 3443985385
+28061501:Chrysopelea_01 - [N/A] 447726457
+28061502:Chrysopelea_01 - [N/A] 3984456185
 28210101:塵歌壺：黃金蟹
 28210102:塵歌壺：太陽蟹
 28210103:塵歌壺：海藍蟹
@@ -747,7 +766,7 @@
 28010301:青蛙
 28010302:泥蛙
 28010303:藍蛙
-28010304:丛林树蛙
+28010304:叢林樹蛙
 28010401:藤紋陸鰻鰻
 28010402:深海鰻鰻
 28010403:赤鰭陸鰻鰻

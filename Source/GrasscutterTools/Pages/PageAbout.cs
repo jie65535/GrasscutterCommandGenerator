@@ -37,5 +37,13 @@ namespace GrasscutterTools.Pages
         {
             UIUtil.OpenURL("https://github.com/jie65535/GrasscutterCommandGenerator");
         }
+
+        /// <summary>
+        /// 点击查看服务器聊天插件时触发
+        /// </summary>
+        private void LnkOpenChat_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            UIUtil.OpenURL("https://github.com/jie65535/gc-openchat-plugin");
+        }
     }
 }

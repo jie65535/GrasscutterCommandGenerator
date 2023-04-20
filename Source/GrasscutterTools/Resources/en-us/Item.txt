@@ -54,6 +54,7 @@
 152:Fungus Medal
 153:Shattered Phenocryst
 155:Courage Test Ticket
+156:Festive Fever
 201:Primogem
 202:Mora
 203:Genesis Crystal
@@ -131,6 +132,8 @@
 1074:Layla
 1075:Wanderer
 1076:Faruzan
+1077:Yaoyao
+1078:Alhaitham
 
 
 // MATERIAL_TALENT
@@ -203,6 +206,8 @@
 1174:Layla's Stella Fortuna
 1175:Wanderer's Stella Fortuna
 1176:Faruzan's Stella Fortuna
+1177:Yaoyao's Stella Fortuna
+1178:Alhaitham's Stella Fortuna
 
 
 // MATERIAL_ADSORBATE
@@ -437,6 +442,13 @@
 108475:Suspicious Samosa
 108476:Samosa
 108477:Delicious Samosa
+108480:Suspicious Sabz Meat Stew
+108481:Sabz Meat Stew
+108482:Delicious Sabz Meat Stew
+108483:Suspicious Scented Meat Balls
+108484:Scented Meat Balls
+108485:Delicious Scented Meat Balls
+108486:Ideal Circumstance
 
 
 // MATERIAL_FOOD
@@ -777,6 +789,8 @@
 108474:Halvamazd
 108478:Traditionally-Made Charcoal-Baked Ajilenakh Cake
 108479:Shimi Chazuke
+108487:Qingce Household Dish
+108488:Crocodile Jerky
 111006:Heatshield Potion
 111007:Desiccant Potion
 111008:Frostshield Potion
@@ -853,6 +867,7 @@
 100094:Chilled Meat
 100095:Eel Meat
 100096:Glabrous Beans
+100097:Mysterious Meat
 101001:Iron Chunk
 101002:White Iron Chunk
 101003:Crystal Chunk
@@ -889,6 +904,7 @@
 101219:Sumeru Rose
 101220:Henna Berry
 101221:Ajilenakh Nut
+101222:Sand Grease Pupa
 101225:Scarab
 101228:Viparyas
 101401:Fabric
@@ -1093,6 +1109,9 @@
 112071:Damaged Prism
 112072:Turbid Prism
 112073:Radiant Prism
+112074:Desiccated Shell
+112075:Sturdy Shell
+112076:Marked Shell
 113001:Hurricane Seed
 113002:Lightning Prism
 113003:Dvalin's Plume
@@ -1135,6 +1154,7 @@
 113041:Puppet Strings
 113042:Mirror of Mushin
 113043:Daka's Bell
+113044:Pseudo-Stamens
 114001:Tile of Decarabian's Tower
 114002:Debris of Decarabian's City
 114003:Fragment of Decarabian's Epic
@@ -1327,6 +1347,12 @@
 141085:Radiant Spincrystal 85
 141086:Radiant Spincrystal 86
 141087:Radiant Spincrystal 87
+141088:Radiant Spincrystal 88
+141089:Radiant Spincrystal 89
+141090:Radiant Spincrystal 90
+141091:Radiant Spincrystal 91
+141092:Radiant Spincrystal 92
+141093:Radiant Spincrystal 93
 
 
 // MATERIAL_CONSUME
@@ -1572,6 +1598,11 @@
 210144:Faruzan: Sealed Secret
 210145:Achievement: Invoker
 210146:Travel Notes: Stellar Rivers
+210147:Alhaitham: Enlightenment
+210148:Yaoyao: Yuegui
+210149:Celebration: Lenticular Clouds
+210150:Travel Notes: Rhythm and Rhyme
+210151:Achievement: Sandstorm
 
 
 // MATERIAL_WIDGET
@@ -1636,6 +1667,7 @@
 220067:Jumpy Dumpty Party Popper
 220070:"Bubbly Kamera"
 220071:"Kusava"
+220072:Jinni in the Magic Bottle — Liloupar
 220073:Wisdom Orb
 220074:Cloud Retainer's Damasked Device
 220075:Wilderness Compass
@@ -1662,6 +1694,12 @@
 223010:Unyielding Spirit
 223011:Festival Spotlight
 223012:Wanmin Feast
+223013:Between the Exquisite Throws of Her Enigmatic Dice
+223014:Inuzaka General's Friendly Helper
+223015:Cliffbreaker's Banner Flutters in Drum Rolls
+223016:That Fairly Effectual "Advice" Against Wine
+223017:Rainforest-Born Fungi
+223018:Obliging Little Yuegui
 
 
 // MATERIAL_NONE
@@ -1696,6 +1734,8 @@
 330025:Barbara
 330026:Mirror Maiden
 330027:Jadeplume Terrorshroom
+330032:Klee
+330034:Beidou
 330500:Undivided Heart
 330501:Cold-Blooded Strike
 330502:Steady Breathing
@@ -1723,6 +1763,8 @@
 330525:Glorious Season
 330526:Mirror Cage
 330527:Proliferating Spores
+330530:Pounding Surprise
+330531:Lightning Storm
 331000:Magic Guide
 331001:Sacrificial Fragments
 331002:Skyward Atlas
@@ -1842,6 +1884,8 @@
 334025:Barbara
 334026:Mirror Maiden
 334027:Jadeplume Terrorshroom
+334028:Beidou
+334029:Klee
 334500:Undivided Heart
 334501:Cold-Blooded Strike
 334502:Steady Breathing
@@ -1869,6 +1913,8 @@
 334525:Glorious Season
 334526:Mirror Cage
 334527:Proliferating Spores
+334528:Lightning Storm
+334529:Pounding Surprise
 335000:Magic Guide
 335001:Sacrificial Fragments
 335002:Skyward Atlas
@@ -1995,6 +2041,8 @@
 340007:100% Outrider
 340008:Pact of Stars and Moon
 340009:To the Church's Free Spirit
+340010:Springbloom Missive
+340011:A Sobriquet Under Shade
 
 
 // MATERIAL_FURNITURE_SUITE_FORMULA
@@ -2100,6 +2148,7 @@
 380414:Maple Wood Chandelier: Illume
 380415:Blooming Candle: Pure as a Lotus
 380416:Rainbow Lights: At Dawn We Celebrate
+380417:Countless Homes Light Up the Moon
 380418:Stoneworks Lamp: Deeping-Gloom Candle
 380419:Slumbering Dewlight
 380420:Dripping Verdant Light
@@ -2107,6 +2156,8 @@
 380422:Immersive Light
 380423:Perennial Illumination
 380424:Blooming Illumination
+380426:Fluttering Light
+380427:Light of Slumber
 380504:Efflorescent Illumination
 381101:Northern Birch Folding Counter
 381102:Open-Top Fir Shelf
@@ -2118,6 +2169,8 @@
 381108:Desert Desk: Hospitality
 381109:Adhigama Wood "Versatile" Shelves
 381110:Brightwood "Invigorating" Nightstand
+381111:Athel Triple Drawer Cabinet
+381112:Athel Pottery Shelf
 381201:Two-Tier Library Bookshelf
 381202:Exquisite Cuihua Bookshelf
 381203:Economy Cuihua Bookshelf
@@ -2151,7 +2204,7 @@
 381319:A Choice of Delicacies
 381320:Spirit of the Banquet
 381321:A Table for Two
-381322:Long Adhighama Chamfer Table
+381322:Long Adhigama Chamfer Table
 381401:Breeze-Blessed Bed
 381402:Cloudy Haze Bed
 381403:Yumemiru "Sakura's Rest" Bed
@@ -2208,6 +2261,7 @@
 382236:Aroma of High-Heat Barbecue
 382237:Fragrance of Low-Heat Roast
 382238:Deepwood Dweller's Aggregation
+382239:Hued Vase: Molten Sand
 382301:Mondstadt Rug: Crimson Ardor
 382302:Mondstadt Rug: Tireless Search
 382303:Tavern Rug: Home Away From Home
@@ -2217,6 +2271,7 @@
 382307:Musing Tawny Tapestry
 382308:Sun-Scorched Solemnity
 382309:The Olive Grove
+382310:Pure Like Wheat Sprouts
 383101:Trusty Portable Lamp
 383102:Liuli Pavilion Sandbearer Floor Lamp
 383103:Tianyuan Lantern: Fragrant Brilliance
@@ -2225,6 +2280,9 @@
 383107:Desert Lamp: Lingering Light
 383108:Joyful Illumination
 383109:Light of the Land of Wisdom
+383110:Nightwatcher's Candlelight
+383111:Listening Candelight
+383112:Two-way Iron Lamp
 383201:Flower Arrangement: Baby Blue Tranquility
 383202:Potted Plant: Crystalline Breeze
 383203:Flower Arrangement: Sprawling Daybreak
@@ -2262,6 +2320,11 @@
 383338:Amidst Bitter Aromas
 383339:Deepwood Dweller's Ingenuity
 383340:Deepwood Dweller's Brilliance
+383341:Hued Vase: Sprout
+383342:Star-Shaped Multipurpose Bottle
+383501:"Realizations from the Land of Wisdom"
+383502:Restorative Fragrance
+383504:The Art of Retaining Water
 384101:Landscape Painting: Country Home
 384102:Landscape Painting: Distant Clouds
 384103:Landscape Painting: Nameless Precipice
@@ -2287,6 +2350,7 @@
 384214:Desert Wall-Drapes: Sunset
 384215:Desert Wall-Drapes: Flaming Feathers
 384216:Forest Watcher's Considerations
+384217:Athelwood Metal Combat Shield
 384501:Lingering Moment
 390101:Straw Hut
 390102:Straw Depot
@@ -2333,6 +2397,8 @@
 390319:Fisherman's Maintenance
 390320:Brightwood Grocery Stall
 390321:Brightwood Kebab Cart
+390322:Abundance of Crisp Air
+390323:Deliberation of Choice
 390401:Hilichurl Outpost Hut
 390402:Hilichurl Chieftain Hall
 390501:"Clouds East of Bishui"
@@ -2411,6 +2477,8 @@
 390730:Contrasts of the City of Wisdom
 390731:Peace in the City of Wisdom
 390732:Errands in the City of Wisdom
+390733:Silky Queller of Sea Monsters
+390734:Night of Serenity in the Sandy Breeze
 391101:Bird and Blossom Design Fountain
 391102:Hilichurl Spiral Watchtower
 391103:Hilichurl Straw Hut
@@ -2433,6 +2501,10 @@
 391125:Desert Hut: Rest
 391126:Theater's Cool Mist
 391127:Clarity from the Land of Wisdom
+391129:Port Ormos GP Crane III
+391130:Composite Timber Long-Distance Hand Cart
+391131:Composite Timber In-Port Transfer Cart
+391132:Three-Wheeled Mountain Hand Cart
 391201:Adeptus Gate
 391202:Birch Main Courtyard Gate
 391203:Carved Courtyard Fence Ending
@@ -2516,6 +2588,15 @@
 393144:Fisherman's Storage Solution
 393145:Fisherman's Efforts
 393146:Fisherman's Clemency
+393148:Heavy Brightwood Pottery Wheel
+393149:"Iron, Sand, Treasure"
+393150:"Iron, Blood, Broken Armor"
+393151:"Iron, Water, Steam"
+393152:Karmaphala Wood Liquid Cargo Rack
+393153:"String, Feather, Trajectory"
+393154:Ingenuity of the Forest Forager
+393155:"It just might work!"
+393156:Coloration and Precipitation
 393201:Potted Plant: Verdant Vastness
 393202:Water-Retaining Flower Beds
 393203:Soil-Carrying Wooden Barrel
@@ -2575,6 +2656,13 @@
 393363:A Mellow Voice
 393364:Karmaphala Three-Ply Noticeboard
 393365:Tea-Break Shade
+393366:Propitious Screen: Fog Gathering on Smoky Mountains
+393367:Propitious Screen: Fleet Feathers Against Emerald Waves
+393368:Propitious Screen: Instruments in the Distance
+393369:Propitious Screen: Old Songs Lingering
+393370:Propitious Screen: Overlapping Clouds Above Peaks
+393371:Propitious Screen: Genuine Words Travel Far
+393372:"Trumpet and Firewood"
 393401:Wrought Iron Carved Street Light
 393402:Pine Street Light
 393403:Evil-Repelling Lantern: All-Around Lighting
@@ -2682,6 +2770,9 @@
 360422:Immersive Light
 360423:Perennial Illumination
 360424:Blooming Illumination
+360425:Between Moonlit Hills
+360426:Fluttering Light
+360427:Light of Slumber
 360504:Efflorescent Illumination
 361101:Northern Birch Folding Counter
 361102:Open-Top Fir Shelf
@@ -2693,6 +2784,8 @@
 361108:Desert Desk: Hospitality
 361109:Adhigama Wood "Versatile" Shelves
 361110:Brightwood "Invigorating" Nightstand
+361111:Athel Triple Drawer Cabinet
+361112:Athel Pottery Shelf
 361201:Two-Tier Library Bookshelf
 361202:Exquisite Cuihua Bookshelf
 361203:Economy Cuihua Bookshelf
@@ -2727,7 +2820,7 @@
 361319:A Choice of Delicacies
 361320:Spirit of the Banquet
 361321:A Table for Two
-361322:Long Adhighama Chamfer Table
+361322:Long Adhigama Chamfer Table
 361401:Breeze-Blessed Bed
 361402:Cloudy Haze Bed
 361403:Yumemiru "Sakura's Rest" Bed
@@ -2750,6 +2843,7 @@
 362110:Karmaphala Wood "Counter-Assault" Dining Chair
 362111:Satisfaction of Sated Thirst
 362112:Adhigama Vine-Backed Chair
+362113:A Seat of Sophisticated Luxury
 362201:Northern Stone Hearth
 362202:Pine Folding Screen: Billowing Sails
 362203:Hardwood Screen: Morning Mist in Jueyun
@@ -2787,6 +2881,7 @@
 362236:Aroma of High-Heat Barbecue
 362237:Fragrance of Low-Heat Roast
 362238:Deepwood Dweller's Aggregation
+362239:Hued Vase: Molten Sand
 362301:Mondstadt Rug: Crimson Ardor
 362302:Mondstadt Rug: Tireless Search
 362303:Tavern Rug: Home Away From Home
@@ -2796,6 +2891,7 @@
 362307:Musing Tawny Tapestry
 362308:Sun-Scorched Solemnity
 362309:The Olive Grove
+362310:Pure Like Wheat Sprouts
 363101:Trusty Portable Lamp
 363102:Liuli Pavilion Sandbearer Floor Lamp
 363103:Tianyuan Lantern: Fragrant Brilliance
@@ -2805,6 +2901,9 @@
 363107:Desert Lamp: Lingering Light
 363108:Joyful Illumination
 363109:Light of the Land of Wisdom
+363110:Nightwatcher's Candlelight
+363111:Listening Candelight
+363112:Two-Way Iron Lamp
 363201:Flower Arrangement: Baby Blue Tranquility
 363202:Potted Plant: Crystalline Breeze
 363203:Flower Arrangement: Sprawling Daybreak
@@ -2853,6 +2952,11 @@
 363338:Amidst Bitter Aromas
 363339:Deepwood Dweller's Ingenuity
 363340:Deepwood Dweller's Brilliance
+363341:Hued Vase: Sprout
+363342:Star-Shaped Multipurpose Bottle
+363501:"Realizations from the Land of Wisdom"
+363502:Restorative Fragrance
+363504:The Art of Retaining Water
 364101:Landscape Painting: Country Home
 364102:Landscape Painting: Distant Clouds
 364103:Landscape Painting: Nameless Precipice
@@ -2879,6 +2983,7 @@
 364214:Desert Wall-Drapes: Sunset
 364215:Desert Wall-Drapes: Flaming Feathers
 364216:Forest Watcher's Considerations
+364217:Athelwood Metal Combat Shield
 364301:Fragrant Cedar Door
 364302:Favonius Fir Door
 364303:Estate Maple Doorway
@@ -2973,6 +3078,8 @@
 368159:Layla
 368160:#{REALNAME[ID(1)|HOSTONLY(true)]}
 368161:Faruzan
+368162:Yaoyao
+368163:Alhaitham
 369101:Jade-Eyed Cat
 369102:Northland Hound
 369103:Forest Boar
@@ -3086,6 +3193,8 @@
 370319:Fisherman's Maintenance
 370320:Brightwood Grocery Stall
 370321:Brightwood Kebab Cart
+370322:Abundance of Crisp Air
+370323:Deliberation of Choice
 370401:Hilichurl Outpost Hut
 370402:Hilichurl Chieftain Hall
 370501:"Clouds East of Bishui"
@@ -3168,6 +3277,8 @@
 370730:Contrasts of the City of Wisdom
 370731:Peace in the City of Wisdom
 370732:Errands in the City of Wisdom
+370733:Silky Queller of Sea Monsters
+370734:Night of Serenity in the Sandy Breeze
 371101:Bird and Blossom Design Fountain
 371102:Hilichurl Spiral Watchtower
 371103:Hilichurl Straw Hut
@@ -3190,6 +3301,11 @@
 371125:Desert Hut: Rest
 371126:Theater's Cool Mist
 371127:Clarity from the Land of Wisdom
+371129:Port Ormos GP Crane III
+371130:Composite Timber Long-Distance Hand Cart
+371131:Composite Timber In-Port Transfer Cart
+371132:Three-Wheeled Mountain Hand Cart
+371133:God of the Stove Statue
 371201:Adeptus Gate
 371202:Birch Main Courtyard Gate
 371203:Carved Courtyard Fence Ending
@@ -3311,6 +3427,7 @@
 372339:Verdant Meandering Wood
 372340:Viridite Noonwood
 372341:Viridite Dawnwood
+372342:Secluded Hibiscus Branches
 372401:Fragrant Cedar Vegetable Rack
 372402:Blooming Hedge
 372403:Ordinary Garden Hedge
@@ -3384,6 +3501,13 @@
 372472:Flaming Catalyst
 372473:Prolongation Medium
 372474:Balancing Dye
+372475:Peaceful Hibiscus Purple
+372476:Fountain of Scorching Sands
+372477:Sunset Reflection
+372478:Umbrella of Dewdrops
+372479:The Bountiful Waterside
+372480:Umbrella of Refuge
+372481:A Different Kind of Sweetness
 372501:A Path of Value: Jade Field
 372502:A Path of Value: Luxuriant Glebe
 372503:A Path of Value: Orderly Meadow
@@ -3442,6 +3566,15 @@
 373145:Fisherman's Efforts
 373146:Fisherman's Clemency
 373147:Taste of Warmth
+373148:Heavy Brightwood Pottery Wheel
+373149:"Iron, Sand, Treasure"
+373150:"Iron, Blood, Broken Armor"
+373151:"Iron, Water, Steam"
+373152:Karmaphala Wood Liquid Cargo Rack
+373153:"String, Feather, Trajectory"
+373154:Ingenuity of the Forest Forager
+373155:"It Just Might Work!"
+373156:Coloration and Precipitation
 373201:Potted Plant: Verdant Vastness
 373202:Water-Retaining Flower Beds
 373203:Soil-Carrying Wooden Barrel
@@ -3519,6 +3652,14 @@
 373363:A Mellow Voice
 373364:Karmaphala Three-Ply Noticeboard
 373365:Tea-Break Shade
+373366:Propitious Screen: Fog Gathering on Smoky Mountains
+373367:Propitious Screen: Fleet Feathers Against Emerald Waves
+373368:Propitious Screen: Instruments in the Distance
+373369:Propitious Screen: Old Songs Lingering
+373370:Propitious Screen: Overlapping Clouds Above Peaks
+373371:Propitious Screen: Genuine Words Travel Far
+373372:"Trumpet and Firewood"
+373373:Prototype Aranara
 373401:Wrought Iron Carved Street Light
 373402:Pine Street Light
 373403:Evil-Repelling Lantern: All-Around Lighting

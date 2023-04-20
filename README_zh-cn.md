@@ -7,13 +7,13 @@
 [![Build](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml/badge.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml)
 [![QQ Group](https://pub.idqqimg.com/wpa/images/group.png)](https://qm.qq.com/cgi-bin/qm/qr?k=PdS9--b-n8LEAmYjX8fNFXtKDcsp4NHN&jump_from=webapi&authKey=7ty3ZCKYMKLGWLmO8O84qiNAZ0EuCnSGF+acP+74xuDMKYXXNjuPP7iUzffHz4r2)
 
-[English](README.md) | 简体中文 | [Русский](README_ru-RU.md)
+[English](README.md) | 简体中文 | [繁體中文](README_zh-tw.md) | [Русский](README_ru-RU.md)
 
 ## Commands Generator
 
 请从 [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) 中获取最新版本
 
-本工具支持 简体中文, 繁体中文, English 与 Русский 语言。
+本工具支持 简体中文, 繁體中文, English 与 Русский 语言。
 
 > **Warning**: 应用程序的外观可能与截图上的不同。它也可能包含翻译错误和缺乏某些资源。我们欢迎大家为他们的<a href="./Source/GrasscutterTools/Resources/zh-cn">改进</a>作出贡献。
 
