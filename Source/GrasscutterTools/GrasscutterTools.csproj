@@ -166,6 +166,12 @@
     <Compile Include="Pages\PageAbout.Designer.cs">
       <DependentUpon>PageAbout.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PageAchievement.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageAchievement.Designer.cs">
+      <DependentUpon>PageAchievement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PageAvatar.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -261,7 +267,7 @@
     <Compile Include="Utils\Common.cs" />
     <Compile Include="Utils\HttpHelper.cs" />
     <Compile Include="Utils\Logger.cs" />
-    <Compile Include="Utils\ReleaseAPI.cs" />
+    <Compile Include="Utils\GithubHelper.cs" />
     <Compile Include="Utils\UIUtil.cs" />
     <EmbeddedResource Include="Forms\FormDropEditor.en-US.resx">
       <DependentUpon>FormDropEditor.cs</DependentUpon>
@@ -363,6 +369,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageAbout.zh-TW.resx">
       <DependentUpon>PageAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageAchievement.resx">
+      <DependentUpon>PageAchievement.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageAvatar.en-US.resx">
       <DependentUpon>PageAvatar.cs</DependentUpon>
@@ -577,6 +586,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Resources\en-us\Achievement.txt" />
     <Content Include="Resources\en-us\Artifact.txt" />
     <Content Include="Resources\en-us\ArtifactCat.txt" />
     <Content Include="Resources\en-us\ArtifactMainAttribution.txt" />
@@ -595,6 +605,7 @@
     <Content Include="Resources\en-us\Weapon.txt" />
     <None Include="Resources\Newtonsoft.Json.dll" />
     <Content Include="Resources\MyTools.java" />
+    <Content Include="Resources\ru-ru\Achievement.txt" />
     <Content Include="Resources\ru-ru\Artifact.txt" />
     <Content Include="Resources\ru-ru\ArtifactCat.txt" />
     <Content Include="Resources\ru-ru\ArtifactMainAttribution.txt" />
@@ -616,6 +627,7 @@
     <None Include="Resources\ImgSupport.png" />
     <Content Include="Resources\Permissions.txt" />
     <Content Include="Resources\WeaponColor.txt" />
+    <Content Include="Resources\zh-cn\Achievement.txt" />
     <Content Include="Resources\zh-cn\ArtifactCat.txt" />
     <Content Include="Resources\zh-cn\ArtifactMainAttribution.txt" />
     <Content Include="Resources\zh-cn\Artifact.txt" />
@@ -633,6 +645,7 @@
     <Content Include="Resources\zh-cn\Scene.txt" />
     <Content Include="Resources\zh-cn\ShopType.txt" />
     <Content Include="Resources\zh-cn\Weapon.txt" />
+    <Content Include="Resources\zh-tw\Achievement.txt" />
     <Content Include="Resources\zh-tw\ArtifactCat.txt" />
     <Content Include="Resources\zh-tw\ArtifactMainAttribution.txt" />
     <Content Include="Resources\zh-tw\Artifact.txt" />
@@ -664,6 +677,9 @@
   <ItemGroup>
     <PackageReference Include="Resource.Embedder">
       <Version>2.2.0</Version>
+    </PackageReference>
+    <PackageReference Include="System.IO.Compression.ZipFile">
+      <Version>4.3.0</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

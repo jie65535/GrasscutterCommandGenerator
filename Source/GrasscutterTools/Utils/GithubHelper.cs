@@ -6,9 +6,9 @@ using Newtonsoft.Json;
 
 namespace GrasscutterTools.Utils
 {
-    internal class ReleaseAPI
+    internal class GithubHelper
     {
-        public static async Task<ReleaseInfo> GetReleasesLastest(string username, string repo)
+        public static async Task<ReleaseInfo> GetReleasesLatest(string username, string repo)
         {
             var headerValue = new ProductInfoHeaderValue("GrasscutterTools", "1");
             try
@@ -29,6 +29,23 @@ namespace GrasscutterTools.Utils
             }
         }
 
+        public static async Task<byte[]> DownloadRepo(string username, string repo, string branch)
+        {
+            byte[] zipBytes;
+            try
+            {
+                zipBytes = await HttpHelper.GetDataAsync(
+                    $"https://github.com/{username}/{repo}/archive/refs/heads/{branch}.zip");
+            }
+            catch
+            {
+                zipBytes = await HttpHelper.GetDataAsync(
+                    $"https://hub.fastgit.org/{username}/{repo}/archive/refs/heads/{branch}.zip");
+            }
+
+            return zipBytes;
+        }
+
         public class ReleaseInfo
         {
             [JsonProperty("tag_name")]
@@ -38,7 +55,7 @@ namespace GrasscutterTools.Utils
             public string Url { get; set; }
 
             [JsonProperty("created_at")]
-            public DateTimeOffset CraeteTime { get; set; }
+            public DateTimeOffset CreateTime { get; set; }
 
             [JsonProperty("name")]
             public string Name { get; set; }

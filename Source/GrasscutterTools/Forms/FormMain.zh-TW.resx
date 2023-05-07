@@ -129,31 +129,8 @@
   <data name="GrpCommand.Text" xml:space="preserve">
     <value>命令  - [Ctrl] 自動執行  - [Shift] 拼接命令  - [Alt] 僅執行  - [|] 分割多條命令</value>
   </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>遠程</value>
-  </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>關於</value>
-  </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>場景</value>
-  </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>任務</value>
-  </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>聖遺物</value>
-  </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>自定義</value>
-  </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>主頁</value>
-  </data>
-  <data name="TPMail.Text" xml:space="preserve">
-    <value>郵件</value>
-  </data>
-  <data name="TPLoopTasks.Text" xml:space="preserve">
-    <value>循環</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
 </root>

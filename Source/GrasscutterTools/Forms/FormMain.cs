@@ -85,25 +85,67 @@ namespace GrasscutterTools.Forms
             TCMain.SuspendLayout();
             var ph = CreatePage<PageHome>();
             ph.OnLanguageChanged = () => FormMain_Load(this, EventArgs.Empty);
-            TPHome.Controls.Add(ph);
             var poc = CreatePage<PageOpenCommand>();
             poc.ShowTipInRunButton = msg => ShowTip(msg, BtnInvokeOpenCommand);
-            TPRemoteCall.Controls.Add(poc);
-            TPCustom.Controls.Add(CreatePage<PageCustomCommands>());
-            TPArtifact.Controls.Add(CreatePage<PageGiveArtifact>());
-            TPSpawn.Controls.Add(CreatePage<PageSpawn>());
-            TPItem.Controls.Add(CreatePage<PageGiveItem>());
-            TPAvatar.Controls.Add(CreatePage<PageAvatar>());
-            TPWeapon.Controls.Add(CreatePage<PageGiveWeapon>());
-            TPManage.Controls.Add(CreatePage<PageManagement>());
-            TPMail.Controls.Add(CreatePage<PageMail>());
-            TPLoopTasks.Controls.Add(CreatePage<PageTasks>());
-            TPQuest.Controls.Add(CreatePage<PageQuest>());
-            TPScene.Controls.Add(CreatePage<PageScene>());
-            TPAbout.Controls.Add(CreatePage<PageAbout>());
-            //TPAbout.Controls.Add(CreatePage<PageTools>());
+            CreatePage<PageCustomCommands>();
+            CreatePage<PageGiveArtifact>();
+            CreatePage<PageSpawn>();
+            CreatePage<PageGiveItem>();
+            CreatePage<PageAvatar>();
+            CreatePage<PageGiveWeapon>();
+            CreatePage<PageManagement>();
+            CreatePage<PageMail>();
+            CreatePage<PageTasks>();
+            CreatePage<PageQuest>();
+            CreatePage<PageScene>();
+            CreatePage<PageAchievement>();
+            CreatePage<PageAbout>();
+            //AddPageToGui(CreatePage<PageTools>("Tools"));
             TCMain.ResumeLayout();
             Logger.I(TAG, "InitPages completed");
+        }
+
+        /// <summary>
+        /// 初始化页面导航
+        /// </summary>
+        private void InitPagesNav()
+        {
+            ListPages.Items.Clear();
+            ListPages.Items.AddRange(new object[]
+            {
+                Resources.PageHomeTitle,
+                Resources.PageOpenCommandTitle,
+                Resources.PageCustomCommandsTitle,
+                Resources.PageGetArtifactTitle,
+                Resources.PageSpawnTitle,
+                Resources.PageGiveItemTitle,
+                Resources.PageAvatarTitle,
+                Resources.PageGiveWeaponTitle,
+                Resources.PageManagementTitle,
+                Resources.PageMailTitle,
+                Resources.PageTasksTitle,
+                Resources.PageQuestTitle,
+                Resources.PageSceneTitle,
+                Resources.PageAchievementTitle,
+                Resources.PageAboutTitle,
+            });
+        }
+
+        /// <summary>
+        /// 导航列表项居中绘制
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void ListPages_DrawItem(object sender, DrawItemEventArgs e)
+        {
+            e.DrawBackground();
+            e.DrawFocusRectangle();
+            var strFmt = new StringFormat
+            {
+                Alignment = StringAlignment.Center, //文本垂直居中
+                LineAlignment = StringAlignment.Center //文本水平居中
+            };
+            e.Graphics.DrawString(ListPages.Items[e.Index].ToString(), e.Font, new SolidBrush(e.ForeColor), e.Bounds, strFmt);
         }
 
         /// <summary>
@@ -121,7 +163,15 @@ namespace GrasscutterTools.Forms
                 Dock = DockStyle.Fill,
                 Name = typeof(T).Name,
             };
+            var tp = new TabPage();
+            TCMain.TabPages.Add(tp);
+            tp.Controls.Add(page);
             return page;
+        }
+        
+        private void ListPages_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            TCMain.SelectedIndex = ListPages.SelectedIndex;
         }
 
         /// <summary>
@@ -135,6 +185,9 @@ namespace GrasscutterTools.Forms
             Text += "-debug";
 #endif
             if (DesignMode) return;
+
+            // 加载页面导航
+            InitPagesNav();
 
             // 加载游戏ID资源
             GameData.LoadResources();
@@ -326,7 +379,16 @@ namespace GrasscutterTools.Forms
             if (Common.OC == null || !Common.OC.CanInvoke)
             {
                 ShowTip(Resources.RequireOpenCommandTip, BtnInvokeOpenCommand);
-                TCMain.SelectedTab = TPRemoteCall;
+                //TCMain.SelectedTab = TPRemoteCall;
+                for (var i = 0; i < TCMain.Controls.Count; i++)
+                {
+                    if (TCMain.Controls[i].Controls[0] is PageOpenCommand)
+                    {
+                        ListPages.SelectedIndex = i;
+                        break;
+                    }
+                }
+
                 return false;
             }
 
@@ -447,5 +509,6 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 通用 General -
+
     }
 }

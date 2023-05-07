@@ -25,6 +25,7 @@ namespace GrasscutterTools.Game
     {
         public static void LoadResources()
         {
+            Achievements = new ItemMap(Resources.Achievement);
             Artifacts = new ItemMap(Resources.Artifact);
             ArtifactCats = new ItemMap(Resources.ArtifactCat);
             ArtifactMainAttribution = new ItemMap(Resources.ArtifactMainAttribution);
@@ -44,6 +45,7 @@ namespace GrasscutterTools.Game
             ShopType = new ItemMap(Resources.ShopType);
         }
 
+        public static ItemMap Achievements { get; private set; }
         public static ItemMap Artifacts { get; private set; }
 
         public static ItemMap ArtifactCats { get; private set; }

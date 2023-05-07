@@ -309,4 +309,55 @@
   <data name="TaskRunningCannotOperated" xml:space="preserve">
     <value>任务已经启动，无法操作</value>
   </data>
+  <data name="PageAboutTitle" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="PageAvatarTitle" xml:space="preserve">
+    <value>角色</value>
+  </data>
+  <data name="PageCustomCommandsTitle" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="PageGetArtifactTitle" xml:space="preserve">
+    <value>圣遗物</value>
+  </data>
+  <data name="PageGiveItemTitle" xml:space="preserve">
+    <value>物品</value>
+  </data>
+  <data name="PageGiveWeaponTitle" xml:space="preserve">
+    <value>武器</value>
+  </data>
+  <data name="PageHomeTitle" xml:space="preserve">
+    <value>主页</value>
+  </data>
+  <data name="PageMailTitle" xml:space="preserve">
+    <value>邮件</value>
+  </data>
+  <data name="PageManagementTitle" xml:space="preserve">
+    <value>管理</value>
+  </data>
+  <data name="PageOpenCommandTitle" xml:space="preserve">
+    <value>远程</value>
+  </data>
+  <data name="PageQuestTitle" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="PageSceneTitle" xml:space="preserve">
+    <value>场景</value>
+  </data>
+  <data name="PageSpawnTitle" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="PageTasksTitle" xml:space="preserve">
+    <value>循环</value>
+  </data>
+  <data name="Achievement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-cn\Achievement.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="SelectAnyItem" xml:space="preserve">
+    <value>请先选中任意项！</value>
+  </data>
+  <data name="PageAchievementTitle" xml:space="preserve">
+    <value>成就</value>
+  </data>
 </root>

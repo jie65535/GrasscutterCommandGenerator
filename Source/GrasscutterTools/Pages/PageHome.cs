@@ -85,12 +85,12 @@ namespace GrasscutterTools.Pages
 
         #region - 检查更新 Check update -
 
-        private ReleaseAPI.ReleaseInfo LastestInfo = null;
+        private GithubHelper.ReleaseInfo LastestInfo = null;
         private Version lastestVersion = null;
 
         private async Task LoadUpdate()
         {
-            var info = await ReleaseAPI.GetReleasesLastest("jie65535", "GrasscutterCommandGenerator");
+            var info = await GithubHelper.GetReleasesLatest("jie65535", "GrasscutterCommandGenerator");
             if (Version.TryParse(info.TagName.Substring(1), out lastestVersion) && Common.AppVersion < lastestVersion)
             {
                 if (!string.IsNullOrEmpty(Settings.Default.CheckedLastVersion)
@@ -179,7 +179,7 @@ namespace GrasscutterTools.Pages
             if (LastestInfo != null)
             {
                 var r = MessageBox.Show(
-                    string.Format(Resources.NewVersionInfo, LastestInfo.Name, LastestInfo.CraeteTime.ToLocalTime(), LastestInfo.Body),
+                    string.Format(Resources.NewVersionInfo, LastestInfo.Name, LastestInfo.CreateTime.ToLocalTime(), LastestInfo.Body),
                     Resources.CheckToNewVersion,
                     MessageBoxButtons.YesNo,
                     MessageBoxIcon.Information);

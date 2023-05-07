@@ -44,15 +44,27 @@ namespace GrasscutterTools.Utils
             try
             {
                 var responseMessage = await HttpClient.GetAsync(url);
-                if (responseMessage.IsSuccessStatusCode)
-                {
-                    var responseString = await responseMessage.Content.ReadAsStringAsync();
-                    return JsonConvert.DeserializeObject<T>(responseString);
-                }
-                else
-                {
+                if (!responseMessage.IsSuccessStatusCode)
                     throw new HttpRequestException(responseMessage.ReasonPhrase);
-                }
+                var responseString = await responseMessage.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<T>(responseString);
+            }
+            catch (Exception ex)
+            {
+                if (ex.InnerException != null)
+                    throw ex.InnerException;
+                throw;
+            }
+        }
+
+        public static async Task<byte[]> GetDataAsync(string url)
+        {
+            try
+            {
+                var responseMessage = await HttpClient.GetAsync(url);
+                if (!responseMessage.IsSuccessStatusCode)
+                    throw new HttpRequestException(responseMessage.ReasonPhrase);
+                return await responseMessage.Content.ReadAsByteArrayAsync();
             }
             catch (Exception ex)
             {
@@ -68,15 +80,10 @@ namespace GrasscutterTools.Utils
             {
                 var content = new StringContent(JsonConvert.SerializeObject(obj), Encoding.UTF8, "application/json");
                 var responseMessage = await HttpClient.PostAsync(url, content);
-                if (responseMessage.IsSuccessStatusCode)
-                {
-                    var responseString = await responseMessage.Content.ReadAsStringAsync();
-                    return JsonConvert.DeserializeObject<T>(responseString);
-                }
-                else
-                {
+                if (!responseMessage.IsSuccessStatusCode)
                     throw new HttpRequestException(responseMessage.ReasonPhrase);
-                }
+                var responseString = await responseMessage.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<T>(responseString);
             }
             catch (Exception ex)
             {

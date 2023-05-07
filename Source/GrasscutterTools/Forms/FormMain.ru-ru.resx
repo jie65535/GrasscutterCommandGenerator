@@ -122,10 +122,10 @@
     <value>132, 21</value>
   </data>
   <data name="CmbCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>359, 25</value>
+    <value>513, 25</value>
   </data>
   <data name="BtnCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>497, 22</value>
+    <value>651, 21</value>
   </data>
   <data name="BtnCopy.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 23</value>
@@ -134,7 +134,7 @@
     <value>Копировать</value>
   </data>
   <data name="ChkAutoCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>595, 24</value>
+    <value>749, 23</value>
   </data>
   <data name="ChkAutoCopy.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 21</value>
@@ -151,46 +151,8 @@
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>Выполнить (F5)</value>
   </data>
-  <data name="TPRemoteCall.Text" xml:space="preserve">
-    <value>OpenCommand</value>
-  </data>
-  <data name="TPAbout.Text" xml:space="preserve">
-    <value>Справка</value>
-  </data>
-  <data name="TPManage.Text" xml:space="preserve">
-    <value>Аккаунты</value>
-  </data>
-  <data name="TPScene.Text" xml:space="preserve">
-    <value>Сцена</value>
-  </data>
-  <data name="TPItem.Text" xml:space="preserve">
-    <value>Предметы</value>
-  </data>
-  <data name="TPWeapon.Text" xml:space="preserve">
-    <value>Оружие</value>
-  </data>
-  <data name="TPAvatar.Text" xml:space="preserve">
-    <value>Персонаж</value>
-  </data>
-  <data name="TPSpawn.Text" xml:space="preserve">
-    <value>Спавн</value>
-  </data>
-  <data name="TPQuest.Text" xml:space="preserve">
-    <value>Квест</value>
-  </data>
-  <data name="TPArtifact.Text" xml:space="preserve">
-    <value>Артефакт</value>
-  </data>
-  <data name="TPCustom.Text" xml:space="preserve">
-    <value>Кастомное</value>
-  </data>
-  <data name="TPHome.Text" xml:space="preserve">
-    <value>Главная</value>
-  </data>
-  <data name="TPMail.Text" xml:space="preserve">
-    <value>Почта</value>
-  </data>
-  <data name="TPLoopTasks.Text" xml:space="preserve">
-    <value>Циклы</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>Inherit</value>
   </data>
 </root>

@@ -285,4 +285,55 @@
   <data name="TaskRunningCannotOperated" xml:space="preserve">
     <value>Задача уже запущена и не может быть выполнена</value>
   </data>
+  <data name="PageAboutTitle" xml:space="preserve">
+    <value>Справка</value>
+  </data>
+  <data name="PageAvatarTitle" xml:space="preserve">
+    <value>Персонаж</value>
+  </data>
+  <data name="PageCustomCommandsTitle" xml:space="preserve">
+    <value>Кастомное</value>
+  </data>
+  <data name="PageGetArtifactTitle" xml:space="preserve">
+    <value>Артефакт</value>
+  </data>
+  <data name="PageGiveItemTitle" xml:space="preserve">
+    <value>Предметы</value>
+  </data>
+  <data name="PageGiveWeaponTitle" xml:space="preserve">
+    <value>Оружие</value>
+  </data>
+  <data name="PageHomeTitle" xml:space="preserve">
+    <value>Главная</value>
+  </data>
+  <data name="PageMailTitle" xml:space="preserve">
+    <value>Почта</value>
+  </data>
+  <data name="PageManagementTitle" xml:space="preserve">
+    <value>Аккаунты</value>
+  </data>
+  <data name="PageOpenCommandTitle" xml:space="preserve">
+    <value>OpenCommand</value>
+  </data>
+  <data name="PageQuestTitle" xml:space="preserve">
+    <value>Квест</value>
+  </data>
+  <data name="PageSceneTitle" xml:space="preserve">
+    <value>Сцена</value>
+  </data>
+  <data name="PageSpawnTitle" xml:space="preserve">
+    <value>Спавн</value>
+  </data>
+  <data name="PageTasksTitle" xml:space="preserve">
+    <value>Циклы</value>
+  </data>
+  <data name="Achievement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ru-ru\Achievement.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="SelectAnyItem" xml:space="preserve">
+    <value>Сначала выберите любой элемент</value>
+  </data>
+  <data name="PageAchievementTitle" xml:space="preserve">
+    <value>Достижение</value>
+  </data>
 </root>
