@@ -11,11 +11,11 @@
 
 ## Commands Generator
 
-请从 [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) 中获取最新版本
+请从 [Action](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml) 中下载最新提交的自动构建版本，或者从 [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) 中下载发布版本（可能落后）
 
 本工具支持 简体中文, 繁體中文, English 与 Русский 语言。
 
-> **Warning**: 应用程序的外观可能与截图上的不同。它也可能包含翻译错误和缺乏某些资源。我们欢迎大家为他们的<a href="./Source/GrasscutterTools/Resources/zh-cn">改进</a>作出贡献。
+> **Warning**: 应用程序的外观可能与截图上的不同。它也可能包含翻译错误和缺乏某些资源。**我们欢迎各位为此工具做出贡献并<a href="./Source/GrasscutterTools/Resources/zh-cn">改进</a> : )**
 
 ## Update log
 

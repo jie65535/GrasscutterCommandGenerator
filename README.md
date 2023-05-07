@@ -11,7 +11,7 @@ English | [简体中文](README_zh-cn.md) | [繁體中文](README_zh-tw.md) | [�
 
 ## Commands Generator
 
-Please download the latest version from [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
+Please download the latest committed automated build from [Action](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml), or a release from [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) (may be behind)
 
 Support 简体中文, 繁體中文, English and Русский languages.
 

@@ -11,7 +11,7 @@
 
 ## 指令產生工具
 
-請從 [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) 取得最新版本
+請從 [Action](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml) 中下載最新提交的自動構建版本，或者從 [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) 中下載發布版本（可能落後）
 
 本工具支援 简体中文、繁體中文、English 及 Русский 上述語言。
 

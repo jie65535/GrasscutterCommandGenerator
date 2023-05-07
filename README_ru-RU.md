@@ -10,7 +10,7 @@
 
 ## Генератор команд (GCG)
 
-Загрузите последнюю версию из вкладки [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases).
+Пожалуйста, загрузите последнюю подтвержденную автоматизированную сборку из [Action](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml) или выпуск из [Releases](https://github.com/jie65535/GrasscutterCommandGenerator/releases) (может отставать)
 
 GCG поддерживает 简体中文 (китайский упр.), 繁體中文 (китайский трад.), English (английский) и Русский языки.
 
