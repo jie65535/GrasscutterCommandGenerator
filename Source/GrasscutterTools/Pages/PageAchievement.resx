@@ -117,283 +117,283 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;LnkRevokeAll.Parent" xml:space="preserve">
-    <value>GrpAchievements</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ListAchievements.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;NUDProgress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LnkGrantAll.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="BtnProgress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;TxtAchievementFilter.Name" xml:space="preserve">
-    <value>TxtAchievementFilter</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.9.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
-  </data>
-  <data name="&gt;&gt;GrpAchievementCommands.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LnkRevokeAll.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="BtnGrant.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="TxtAchievementFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;GrpAchievements.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="GrpAchievementCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;TxtAchievementFilter.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;NUDProgress.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="LnkRevokeAll.Text" xml:space="preserve">
-    <value>全部撤销</value>
-  </data>
-  <data name="LnkGrantAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;GrpAchievementCommands.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ListAchievements.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="ListAchievements.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ListAchievements.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 51</value>
+  </data>
   <data name="ListAchievements.Size" type="System.Drawing.Size, System.Drawing">
     <value>628, 106</value>
   </data>
-  <data name="&gt;&gt;BtnProgress.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LnkRevokeAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>578, 0</value>
-  </data>
-  <data name="&gt;&gt;BtnRevoke.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="BtnGrant.Text" xml:space="preserve">
-    <value>达成</value>
-  </data>
-  <data name="LnkGrantAll.Text" xml:space="preserve">
-    <value>全部达成</value>
-  </data>
-  <data name="LnkRevokeAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
-  </data>
-  <data name="&gt;&gt;GrpAchievements.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NUDProgress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="BtnProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="GrpAchievements.Text" xml:space="preserve">
-    <value>成就列表（GC v1.4.7 起）</value>
-  </data>
-  <data name="&gt;&gt;ListAchievements.Parent" xml:space="preserve">
-    <value>GrpAchievements</value>
-  </data>
-  <data name="&gt;&gt;TxtAchievementFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LnkGrantAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
+  <data name="ListAchievements.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="&gt;&gt;ListAchievements.Name" xml:space="preserve">
     <value>ListAchievements</value>
   </data>
-  <data name="GrpAchievements.Size" type="System.Drawing.Size, System.Drawing">
-    <value>640, 167</value>
-  </data>
-  <data name="&gt;&gt;BtnProgress.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BtnRevoke.Parent" xml:space="preserve">
-    <value>GrpAchievementCommands</value>
-  </data>
-  <data name="TxtAchievementFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>628, 23</value>
-  </data>
-  <data name="&gt;&gt;GrpAchievements.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LnkRevokeAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="BtnRevoke.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="BtnGrant.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 25</value>
-  </data>
   <data name="&gt;&gt;ListAchievements.Type" xml:space="preserve">
     <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="ListAchievements.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;NUDProgress.Parent" xml:space="preserve">
-    <value>GrpAchievementCommands</value>
-  </data>
-  <data name="BtnRevoke.Text" xml:space="preserve">
-    <value>撤销</value>
-  </data>
-  <data name="ListAchievements.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 51</value>
-  </data>
-  <data name="&gt;&gt;BtnRevoke.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtAchievementFilter.Parent" xml:space="preserve">
+  <data name="&gt;&gt;ListAchievements.Parent" xml:space="preserve">
     <value>GrpAchievements</value>
   </data>
-  <data name="LnkGrantAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>516, 0</value>
+  <data name="&gt;&gt;ListAchievements.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="GrpAchievements.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="BtnRevoke.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+  <data name="TxtAchievementFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
   </data>
   <data name="TxtAchievementFilter.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 22</value>
   </data>
-  <data name="BtnProgress.Text" xml:space="preserve">
-    <value>修改进度</value>
-  </data>
-  <data name="ListAchievements.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BtnGrant.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="GrpAchievementCommands.Text" xml:space="preserve">
-    <value>成就控制（在列表中选择目标项）</value>
-  </data>
-  <data name="&gt;&gt;BtnGrant.Parent" xml:space="preserve">
-    <value>GrpAchievementCommands</value>
-  </data>
-  <data name="GrpAchievements.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LnkRevokeAll.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="GrpAchievements.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
-  </data>
-  <data name="&gt;&gt;LnkRevokeAll.Name" xml:space="preserve">
-    <value>LnkRevokeAll</value>
-  </data>
-  <data name="BtnProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>473, 25</value>
-  </data>
-  <data name="BtnGrant.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="&gt;&gt;BtnGrant.Name" xml:space="preserve">
-    <value>BtnGrant</value>
-  </data>
-  <data name="GrpAchievementCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>640, 60</value>
-  </data>
-  <data name="BtnProgress.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>PageAchievement</value>
-  </data>
-  <data name="NUDProgress.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;BtnGrant.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;GrpAchievementCommands.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;LnkGrantAll.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LnkGrantAll.Name" xml:space="preserve">
-    <value>LnkGrantAll</value>
+  <data name="TxtAchievementFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>628, 23</value>
   </data>
   <data name="TxtAchievementFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;GrpAchievements.Name" xml:space="preserve">
+  <data name="&gt;&gt;TxtAchievementFilter.Name" xml:space="preserve">
+    <value>TxtAchievementFilter</value>
+  </data>
+  <data name="&gt;&gt;TxtAchievementFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtAchievementFilter.Parent" xml:space="preserve">
     <value>GrpAchievements</value>
   </data>
-  <data name="LnkGrantAll.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;TxtAchievementFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LnkRevokeAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
   </data>
   <data name="LnkRevokeAll.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="GrpAchievementCommands.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="LnkRevokeAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>578, 0</value>
   </data>
-  <data name="GrpAchievementCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 176</value>
-  </data>
-  <data name="BtnRevoke.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 25</value>
-  </data>
-  <data name="&gt;&gt;BtnProgress.Name" xml:space="preserve">
-    <value>BtnProgress</value>
-  </data>
-  <data name="&gt;&gt;LnkGrantAll.Parent" xml:space="preserve">
-    <value>GrpAchievements</value>
-  </data>
-  <data name="&gt;&gt;GrpAchievementCommands.Name" xml:space="preserve">
-    <value>GrpAchievementCommands</value>
-  </data>
-  <data name="&gt;&gt;NUDProgress.Name" xml:space="preserve">
-    <value>NUDProgress</value>
-  </data>
-  <data name="&gt;&gt;BtnProgress.Parent" xml:space="preserve">
-    <value>GrpAchievementCommands</value>
+  <data name="LnkRevokeAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
   </data>
   <data name="LnkRevokeAll.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;BtnRevoke.Name" xml:space="preserve">
-    <value>BtnRevoke</value>
+  <data name="LnkRevokeAll.Text" xml:space="preserve">
+    <value>全部撤销</value>
   </data>
-  <data name="NUDProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>579, 25</value>
+  <data name="&gt;&gt;LnkRevokeAll.Name" xml:space="preserve">
+    <value>LnkRevokeAll</value>
+  </data>
+  <data name="&gt;&gt;LnkRevokeAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkRevokeAll.Parent" xml:space="preserve">
+    <value>GrpAchievements</value>
+  </data>
+  <data name="&gt;&gt;LnkRevokeAll.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LnkGrantAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LnkGrantAll.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkGrantAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 0</value>
+  </data>
+  <data name="LnkGrantAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LnkGrantAll.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LnkGrantAll.Text" xml:space="preserve">
+    <value>全部达成</value>
+  </data>
+  <data name="&gt;&gt;LnkGrantAll.Name" xml:space="preserve">
+    <value>LnkGrantAll</value>
   </data>
   <data name="&gt;&gt;LnkGrantAll.Type" xml:space="preserve">
     <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;LnkGrantAll.Parent" xml:space="preserve">
+    <value>GrpAchievements</value>
+  </data>
+  <data name="&gt;&gt;LnkGrantAll.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GrpAchievements.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="GrpAchievements.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 167</value>
+  </data>
+  <data name="GrpAchievements.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GrpAchievements.Text" xml:space="preserve">
+    <value>成就列表（GC v1.4.7 起）</value>
+  </data>
+  <data name="&gt;&gt;GrpAchievements.Name" xml:space="preserve">
+    <value>GrpAchievements</value>
+  </data>
+  <data name="&gt;&gt;GrpAchievements.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpAchievements.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpAchievements.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpAchievementCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="NUDProgress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="NUDProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>579, 25</value>
+  </data>
   <data name="NUDProgress.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 23</value>
+  </data>
+  <data name="NUDProgress.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NUDProgress.Name" xml:space="preserve">
+    <value>NUDProgress</value>
+  </data>
+  <data name="&gt;&gt;NUDProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDProgress.Parent" xml:space="preserve">
+    <value>GrpAchievementCommands</value>
+  </data>
+  <data name="&gt;&gt;NUDProgress.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnProgress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="BtnProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>473, 25</value>
+  </data>
+  <data name="BtnProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnProgress.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnProgress.Text" xml:space="preserve">
+    <value>修改进度</value>
+  </data>
+  <data name="&gt;&gt;BtnProgress.Name" xml:space="preserve">
+    <value>BtnProgress</value>
+  </data>
+  <data name="&gt;&gt;BtnProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnProgress.Parent" xml:space="preserve">
+    <value>GrpAchievementCommands</value>
+  </data>
+  <data name="&gt;&gt;BtnProgress.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnRevoke.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 25</value>
+  </data>
+  <data name="BtnRevoke.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnRevoke.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnRevoke.Text" xml:space="preserve">
+    <value>撤销</value>
+  </data>
+  <data name="&gt;&gt;BtnRevoke.Name" xml:space="preserve">
+    <value>BtnRevoke</value>
+  </data>
+  <data name="&gt;&gt;BtnRevoke.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnRevoke.Parent" xml:space="preserve">
+    <value>GrpAchievementCommands</value>
+  </data>
+  <data name="&gt;&gt;BtnRevoke.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="BtnGrant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="BtnGrant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnGrant.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtnGrant.Text" xml:space="preserve">
+    <value>达成</value>
+  </data>
+  <data name="&gt;&gt;BtnGrant.Name" xml:space="preserve">
+    <value>BtnGrant</value>
+  </data>
+  <data name="&gt;&gt;BtnGrant.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnGrant.Parent" xml:space="preserve">
+    <value>GrpAchievementCommands</value>
+  </data>
+  <data name="&gt;&gt;BtnGrant.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GrpAchievementCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 176</value>
+  </data>
+  <data name="GrpAchievementCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 60</value>
+  </data>
+  <data name="GrpAchievementCommands.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="GrpAchievementCommands.Text" xml:space="preserve">
+    <value>成就控制（在列表中选择目标项）</value>
+  </data>
+  <data name="&gt;&gt;GrpAchievementCommands.Name" xml:space="preserve">
+    <value>GrpAchievementCommands</value>
+  </data>
+  <data name="&gt;&gt;GrpAchievementCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpAchievementCommands.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpAchievementCommands.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PageAchievement</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.9.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  </data>
 </root>
