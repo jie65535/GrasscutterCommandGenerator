@@ -34,7 +34,6 @@ namespace GrasscutterTools.Pages
         {
             Font = new Font("Microsoft YaHei UI", 9, GraphicsUnit.Point);
             //Size = new Size(652, 245);
-            Dock = DockStyle.Fill;
             Size = new Size(646, 239);
             BackColor = Color.FromArgb(0xF9, 0xF9, 0xF9);
             Margin = new Padding(0);
