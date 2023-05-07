@@ -58,6 +58,7 @@
 1077:村长家
 1078:IndoorScene_Xm_Zls
 1079:IndoorScene_Xm_Zls
+1082:IndoorScene_Ly_Baizhu
 2001:罗浮洞
 2002:翠黛峰
 2003:清琼岛
@@ -170,6 +171,16 @@
 20171:3.3间章地城04（test）
 20172:3.3间章地城05（test）
 20173:？？？
+20174:Level_Wisdom01
+20175:Level_Wisdom02
+20176:Level_Wisdom03
+20177:Level_SmrDungeon_Dehya
+20178:Level_HangMystification
+20179:Level_WeekDungeon_Apep
+20180:BigWorld_LevelStreaming
+20181:Level_HangMystification
+20182:Level_Ly_Baizhu_01
+20185:Level_WeekDungeon_Apep
 30001:迷雾迷宫(test)
 30100:爬塔第一层-第1关(test)
 30101:爬塔第一层-第2关(test)
@@ -338,6 +349,10 @@
 33746:Level_Tower_Universe_01
 33747:Level_Tower_Moon_01
 33748:Level_Tower_Universe_01
+33749:Level_Tower_Moon_01
+33750:Level_Tower_Universe_01
+33751:Level_Tower_Moon_01
+33752:Level_Tower_Universe_01
 34100:爬塔第二档-ZHT第1关（单路）(test)
 34101:爬塔第二档-ZHT第2关（单路）(test)
 34102:爬塔第二档-ZHT第3关（单路）(test)
@@ -395,6 +410,10 @@
 34746:Level_Tower_Universe_01
 34747:Level_Tower_Moon_01
 34748:Level_Tower_Universe_01
+34749:Level_Tower_Moon_01
+34750:Level_Tower_Universe_01
+34751:Level_Tower_Moon_01
+34752:Level_Tower_Universe_01
 35100:爬塔第三档-ZHT第1关（单路）(test)
 35101:爬塔第三档-ZHT第2关（单路）(test)
 35102:爬塔第三档-ZHT第3关（单路）(test)
@@ -452,6 +471,10 @@
 35746:Level_Tower_Universe_01
 35747:Level_Tower_Moon_01
 35748:Level_Tower_Universe_01
+35749:Level_Tower_Moon_01
+35750:Level_Tower_Universe_01
+35751:Level_Tower_Moon_01
+35752:Level_Tower_Universe_01
 35800:奇趣秘园
 35801:2.1换人挑战1阶段(test)
 35802:2.1换人挑战2阶段(test)
@@ -504,11 +527,38 @@
 35870:3.3大活动打砖块特殊关1(test)
 35871:3.3大活动打砖块特殊关2(test)
 35872:3.3大活动打砖块特殊关3(test)
+35873:Level_FungusFighter01
+35874:Level_FungusFighter01
+35875:Level_FungusFighter01
+35876:Level_FungusFighter02
+35877:Level_FungusFighter02
+35878:Level_FungusFighter02
+35879:Level_FungusFighter02
 35880:(test)3.4连线挑战地城1
 35881:(test)3.4连线挑战地城2
 35882:(test)3.4连线挑战地城3
 35883:(test)3.4连线挑战地城4
 35884:(test)3.4连线挑战地城5
+35890:Level_CrystalLink_01
+35891:Level_CrystalLink_01
+35892:Level_CrystalLink_01
+35893:Level_CrystalLink_01
+35894:Level_CrystalLink_01
+35895:Level_CrystalLink_01
+35896:Level_AkaFesRhythm01
+35897:Level_AkaFesRhythm01
+35898:Level_AkaFesRhythm01
+35899:Level_FungusFighter01
+35900:Level_AkaFesArc_01
+35901:Level_AkaFesArc_01
+35902:Level_AkaFesArc_01
+35903:Level_SmrDungeon_Challenge
+35904:Level_SmrDungeon_Challenge
+35905:Level_SmrDungeon_Challenge
+35910:Level_SmrDungeon_Challenge
+35911:Level_SmrDungeon_Challenge
+35912:Level_SmrDungeon_Challenge
+35913:Level_SmrDungeon_Challenge
 40001:调查遗迹深处的骚动(test)
 40002:Level_UCDungeon01
 40003:Level_UCDungeon01
@@ -572,6 +622,8 @@
 40062:『激奏乐谱』模式的『回旋曲·森郁之笼』
 40063:Level_Smr_LostCity
 40064:Level_Smr_LostCity
+40065:Level_XM_BigLeaf
+40066:Level_SmrDungeon_Challenge
 40100:太山府 I
 40101:太山府 II
 40102:太山府 III
@@ -644,6 +696,10 @@
 40661:祝圣秘境：沙中孤城 II
 40662:祝圣秘境：沙中孤城 III
 40663:祝圣秘境：沙中孤城 IV
+40664:Level_Cycle01_XM04
+40665:Level_Cycle01_XM04
+40666:Level_Cycle01_XM04
+40667:Level_Cycle01_XM04
 40700:Level_CycleDungeon01_Rock
 40701:Level_CycleDungeon01_Rock
 40702:Level_CycleDungeon01_Rock
@@ -744,6 +800,10 @@
 41060:Level_Tower_01_Open
 41061:Level_Tower_01_Open
 41062:Level_Tower_01_Open
+41063:Level_Tower_01_Open
+41064:Level_Tower_01_Open
+41065:Level_Tower_01_Open
+41066:Level_Tower_01_Open
 42001:去年双燕来还去：难度3
 42002:解鞍倚枕画仙桥：难度2
 42003:春水蛾眉各分飞：难度5
@@ -866,6 +926,12 @@
 47305:(test)3.4拼刀地城05
 47306:(test)3.4拼刀地城06
 47307:(test)3.4拼刀地城07
+47401:Level_PacMan_01
+47402:Level_PacMan_02
+47403:Level_PacMan_01
+47404:Level_PacMan_02
+47405:Level_PacMan_03
+47406:Level_PacMan_03
 50002:低温关卡白盒(test)
 50003:战斗性能测试(test)
 50004:电桩电源白盒(test)
@@ -971,6 +1037,9 @@
 51010:(test)LCM测试秘境
 51011:TestLevel_WhiteBox_Xm_04
 51013:(test)须弥单线白盒
+51014:Level_Cycle01_XM04
 51015:(test)吃豆人白盒
+51017:Level_Cycle01_XM04
+51018:TestLevel_Dehya_GJH
 51019:(test)任务地城白盒
 79999:(test)卡牌测试场景

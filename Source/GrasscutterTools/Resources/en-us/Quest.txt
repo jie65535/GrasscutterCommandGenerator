@@ -388,9 +388,9 @@
 45205:Another Day as an Outrider! - Talk to Siegfria
 45206:Another Day as an Outrider! - Defeat the hilichurls
 45301:Ravaged by Wolves - Talk to Draff
-45302:Ravaged by Wolves - Investigate Clue
-45303:Ravaged by Wolves - Investigate Clue
-45304:Ravaged by Wolves - Investigate Clue
+45302:Ravaged by Wolves - Investigate clues
+45303:Ravaged by Wolves - Investigate clues
+45304:Ravaged by Wolves - Investigate clues
 45305:Ravaged by Wolves - Important clue
 45306:Ravaged by Wolves - Calm the Springvale villagers down
 45307:Ravaged by Wolves - Talk to Paimon
@@ -1059,7 +1059,7 @@
 99005:[CHS] - (test)对话编辑器测试任务$UNRELEASED - [CHS] - (test)哥哥妹妹NPC相关测试$UNRELEASED
 99006:[CHS] - (test)对话编辑器测试任务$UNRELEASED - [CHS] - （test）哥哥妹妹NPC回滚测试$UNRELEASED
 99007:[CHS] - (test)对话编辑器测试任务$UNRELEASED - [CHS] - 家园NPC对话测试任务$UNRELEASED
-99301:[CHS] - (test)玉京台潜入测试$UNRELEASED - Enter scene1023
+99301:[CHS] - (test)玉京台潜入测试$UNRELEASED - Enter scene 1023
 99302:[CHS] - (test)玉京台潜入测试$UNRELEASED - [CHS] - (test)玉京台潜行，创建NPC$UNRELEASED
 99303:[CHS] - (test)玉京台潜入测试$UNRELEASED - Sneak failure rollback
 99304:[CHS] - (test)玉京台潜入测试$UNRELEASED - [CHS] - (test)潜行成功，先不完成父任务$UNRELEASED
@@ -2197,206 +2197,206 @@
 303203:As Though Morning Dew - Listen in on the scholars' conversation
 303204:As Though Morning Dew - Talk to Nahida
 303205:As Though Morning Dew - Return to the resting place
- 800001:Involuntary Sacrifice - Go near the Adventurers' Guild Bulletin Board
- 800002:Involuntary Sacrifice - Go to the ruins
- 800003:Involuntary Sacrifice - Follow the Treasure Hoarders
- 800004:Involuntary Sacrifice - Check out the depths of the ruins
- 800005:Involuntary Sacrifice - Flee the ruins
- 800006:Involuntary Sacrifice - Defeat the Abyss Herald
- 800007:Involuntary Sacrifice - Leave the ruins
- 800008:Involuntary Sacrifice - Talk to the Abyss Herald
- 800009:Involuntary Sacrifice - Negotiate with the Abyss Herald
- 800010:Involuntary Sacrifice - [CHS] - （test）任务前置提示$HIDDEN
- 800101:A Herald Without Adherents - Talk to Dainsleif
- 800102:A Herald Without Adherents - Look for traces of the Abyss Order
- 800103:A Herald Without Adherents - Talk to Dainsleif
- 800104:A Herald Without Adherents - Look for traces of the Abyss Order
- 800105:A Herald Without Adherents - Talk to Dainsleif
- 800106:A Herald Without Adherents - Defeat all opponents
- 800107:A Herald Without Adherents - Talk to Dainsleif
- 800108:A Herald Without Adherents - Talk to Dainsleif
- 800109:A Herald Without Adherents - Look for traces of the Abyss Order
- 800201:Dishonorable Trial - Go to the Favonius Cathedral
- 800202:Dishonorable Trial - Talk to Barbara
- 800203:Dishonorable Trial - Go to Wolvendom
- 800204:Dishonorable Trial - Defeat the Abyss Order
- 800205:Dishonorable Trial - Talk to Jean
- 800206:Dishonorable Trial - Look for the Great Wolf King of the North
- 800207:Dishonorable Trial - Defeat all opponents
- 800208:Dishonorable Trial - Talk to the Great Wolf King of the North
- 800209:Dishonorable Trial - Talk to Dainsleif
- 800210:Dishonorable Trial - Talk to Dainsleif
- 800211:Dishonorable Trial - Talk to Razor
- 800212:Dishonorable Trial - [CHS] - (test)解除束缚$HIDDEN
- 800301:A Soul Set Apart - Talk to Dainsleif
- 800302:A Soul Set Apart - Enter the ruins again
- 800303:A Soul Set Apart - Search for the Defiled Statue
- 800304:A Soul Set Apart - Defeat the Abyss Herald
- 800305:A Soul Set Apart - #Meet {F#Aether}{M#Lumine}.
- 800306:A Soul Set Apart - Go to Stormterror's Lair
- 800307:A Soul Set Apart - Talk to Dainsleif
- 800308:A Soul Set Apart - Talk to Paimon
- 800309:A Soul Set Apart - Enter the ruins again
- 800310:A Soul Set Apart - Talk to Dainsleif
- 800311:A Soul Set Apart - Talk to Paimon
- 800401:In the Depths, an Unexpected Reunion - Talk to Katheryne
- 800402:In the Depths, an Unexpected Reunion - Look for the miner who posted the commission at The Chasm
- 800403:In the Depths, an Unexpected Reunion - Go to the designated location to investigate
- 800404:In the Depths, an Unexpected Reunion - Go to the designated location to investigate
- 800405:In the Depths, an Unexpected Reunion - Go to the designated location to investigate
- 800406:In the Depths, an Unexpected Reunion - [N/A] 495736276
- 800407:In the Depths, an Unexpected Reunion - Enter The Chasm: Underground Mines
- 800501:The Grave of the Guarded - Investigate the ruins ahead and find a path
- 800502:The Grave of the Guarded - Defeat the Black Serpent Knights
- 800503:The Grave of the Guarded - Talk to Dainsleif
- 800504:The Grave of the Guarded - Go to the entrance to the ruins
- 800505:The Grave of the Guarded - Go to the lit room in the ruins
- 800506:The Grave of the Guarded - Defeat the Black Serpent Knights
- 800508:The Grave of the Guarded - Continue investigating the ruins
- 800509:The Grave of the Guarded - Defeat the Black Serpent Knights
- 800510:The Grave of the Guarded - Examine what the Black Serpent Knights were protecting
- 800511:The Grave of the Guarded - Go to the chamber at the center of the ruins' summit
- 800512:The Grave of the Guarded - Go to the chamber at the center of the ruins' summit
- 800513:The Grave of the Guarded - Go to the chamber at the center of the ruins' summit
- 800514:The Grave of the Guarded - Go to the chamber at the center of the ruins' summit
- 800515:The Grave of the Guarded - Go to the chamber at the center of the ruins' summit
- 800516:The Grave of the Guarded - [N/A] 3839397684
- 800517:The Grave of the Guarded - [N/A] 737032788
- 800518:The Grave of the Guarded - [N/A] 2804690324
- 800519:The Grave of the Guarded - [N/A] 3683290620
- 800520:The Grave of the Guarded - [N/A] 3488080028
- 800601:Memories of Inteyvat - Go along the path that Halfdan has indicated
- 800602:Memories of Inteyvat - Follow the path and continue exploring
- 800603:Memories of Inteyvat - Follow the path and continue exploring
- 800604:Memories of Inteyvat - Head to the hilichurl camp
- 800605:Memories of Inteyvat - Look for clues in the hilichurl camp
- 800606:Memories of Inteyvat - Leave the hilichurl camp
- 800607:Memories of Inteyvat - Defeat the Abyss Herald
- 800608:Memories of Inteyvat - Talk to Dainsleif
- 800609:Memories of Inteyvat - Look for clues in the hilichurl camp
- 800610:Memories of Inteyvat - Look for clues in the hilichurl camp
- 800611:Memories of Inteyvat - Look for clues in the hilichurl camp
- 800612:Memories of Inteyvat - [N/A] 3797687676
- 800613:Memories of Inteyvat - [N/A] 3320356388
- 800614:Memories of Inteyvat - [N/A] 1705733180
- 800701:The Black Serpent Knights' Glory - Check the situation at the chamber at the center of the ruins' summit
- 800702:The Black Serpent Knights' Glory - Defeat the Abyss Lector
- 800703:The Black Serpent Knights' Glory - Talk to Dainsleif
- 800704:The Black Serpent Knights' Glory - Destroy all the charging devices
- 800705:The Black Serpent Knights' Glory - Destroy all the charging devices
- 800706:The Black Serpent Knights' Glory - Destroy all the charging devices
- 800707:The Black Serpent Knights' Glory - Destroy all the charging devices
- 800708:The Black Serpent Knights' Glory - [N/A] 2551205260
- 800709:The Black Serpent Knights' Glory - Reach Halfdan
- 800710:The Black Serpent Knights' Glory - Talk to Dainsleif
- 800711:The Black Serpent Knights' Glory - Talk to Dainsleif
- 800712:The Black Serpent Knights' Glory - [N/A] 214060724
- 800713:The Black Serpent Knights' Glory - [N/A] 1403425724
- 800801:[N/A] 0 - [N/A] 924901764
- 800802:[N/A] 0 - [N/A] 844327260
- 800901:Destined Encounter - Talk to Masrur
- 800902:Destined Encounter - Wait until the following afternoon (16:00 – 18:00)
- 800903:Destined Encounter - Go to Djafar Tavern and look for Kaeya
- 800904:Destined Encounter - Go to the place Dainsleif mentioned
- 800905:Destined Encounter - Light the bonfire
- 800906:Destined Encounter - [N/A] 3348320404
- 800907:Destined Encounter - [N/A] 3189902180
- 800908:Destined Encounter - Talk to Dainsleif
- 800909:Destined Encounter - [N/A] 1981770324
- 800910:Destined Encounter - Enter the house to investigate
- 800911:Destined Encounter - Investigate the interior of the house
- 800912:Destined Encounter - Investigate the interior of the house
- 800913:Destined Encounter - Investigate the interior of the house
- 800914:Destined Encounter - [N/A] 578801956
- 800915:Destined Encounter - [N/A] 2267497388
- 800916:Destined Encounter - Talk to Dainsleif
- 800917:Destined Encounter - Defeat the attacking monsters
- 800918:Destined Encounter - Talk to Dainsleif
- 800919:Destined Encounter - Talk to Paimon
- 800920:Destined Encounter - [N/A] 80045228
- 800921:Destined Encounter - Check out the situation outside
- 800922:Destined Encounter - [N/A] 3921345692
- 801001:Fortune-Mocking Pedigree - Talk to Eide
- 801002:Fortune-Mocking Pedigree - Look for Paimon inside the house
- 801003:Fortune-Mocking Pedigree - Go inside
- 801004:Fortune-Mocking Pedigree - Talk to Eide
- 801005:Fortune-Mocking Pedigree - Synthesize the Nameless Taboo Medicine of the Royal Court
- 801006:Fortune-Mocking Pedigree - Talk to Eide
- 801007:Fortune-Mocking Pedigree - Go to the nearby Statue of The Seven
- 801008:Fortune-Mocking Pedigree - Administer the dose of medicine to the hilichurl
- 801009:Fortune-Mocking Pedigree - [N/A] 2716687252
- 801010:Fortune-Mocking Pedigree - Go to the waterfall to fetch some water
- 801011:Fortune-Mocking Pedigree - Give Eide the water
- 801012:Fortune-Mocking Pedigree - Defeat the attacking monsters
- 801013:Fortune-Mocking Pedigree - Talk to Eide
- 801014:Fortune-Mocking Pedigree - [N/A] 48747156
- 801015:Fortune-Mocking Pedigree - Synthesize the Nameless Taboo Medicine of the Royal Court
- 801016:Fortune-Mocking Pedigree - Talk to Eide
- 801017:Fortune-Mocking Pedigree - Go to the nearby Statue of The Seven
- 801018:Fortune-Mocking Pedigree - Go inside
- 801019:Fortune-Mocking Pedigree - Go inside
- 801020:Fortune-Mocking Pedigree - Go inside
- 801021:Fortune-Mocking Pedigree - Go inside
- 801022:Fortune-Mocking Pedigree - Go inside
- 801023:Fortune-Mocking Pedigree - Go inside
- 801024:Fortune-Mocking Pedigree - Go inside
- 801025:Fortune-Mocking Pedigree - Go inside
- 801026:Fortune-Mocking Pedigree - Go inside
- 801027:Fortune-Mocking Pedigree - Go inside
- 801028:Fortune-Mocking Pedigree - Go inside
- 801029:Fortune-Mocking Pedigree - Go inside
- 801030:Fortune-Mocking Pedigree - Go inside
- 801031:Fortune-Mocking Pedigree - [N/A] 3915188364
- 801032:Fortune-Mocking Pedigree - Pick the Strange Mushrooms
- 801101:A Lamenter at Fate's End - Follow the hilichurl
- 801102:A Lamenter at Fate's End - Follow the hilichurl
- 801103:A Lamenter at Fate's End - Follow the hilichurl to the cavern
- 801104:A Lamenter at Fate's End - Talk to Eide
- 801105:A Lamenter at Fate's End - Continue exploring
- 801106:A Lamenter at Fate's End - Talk to Eide
- 801107:A Lamenter at Fate's End - Defeat the Fortune Lector
- 801108:A Lamenter at Fate's End - Talk to Eide
- 801109:A Lamenter at Fate's End - Continue exploring
- 801110:A Lamenter at Fate's End - Continue exploring
- 801111:A Lamenter at Fate's End - Talk to Eide
- 801112:A Lamenter at Fate's End - [N/A] 911186436
- 801113:A Lamenter at Fate's End - Go inside
- 801114:A Lamenter at Fate's End - Follow the hilichurl to the cavern
- 801115:A Lamenter at Fate's End - [N/A] 28531996
- 801116:A Lamenter at Fate's End - Talk to Eide
- 801117:A Lamenter at Fate's End - Continue exploring
- 801118:A Lamenter at Fate's End - [N/A] 2671572964
- 801119:A Lamenter at Fate's End - [N/A] 1738130932
- 801120:A Lamenter at Fate's End - Talk to Eide
- 801121:A Lamenter at Fate's End - Continue exploring
- 801122:A Lamenter at Fate's End - [N/A] 1500768940
- 801201:Portended Fate - Enter the cavern again
- 801202:Portended Fate - Go to the mysterious statue
- 801203:Portended Fate - Go to the mysterious statue
- 801204:Portended Fate - Return to Eide's house
- 801205:Portended Fate - Look for clues outside
- 801206:Portended Fate - Continue to search for Caribert
- 801207:Portended Fate - Talk to the Forest Rangers
- 801208:Portended Fate - [N/A] 1343440428
- 801209:Portended Fate - [N/A] 1134358068
- 801210:Portended Fate - Use the clue to continue searching for Caribert
- 801211:Portended Fate - Talk to Eide
- 801212:Portended Fate - Talk to Dainsleif
- 801213:Portended Fate - [N/A] 3993431108
- 801214:Portended Fate - Enter the cavern again
- 801215:Portended Fate - Go inside
- 801216:Portended Fate - Go inside
- 801217:Portended Fate - Go inside
- 801218:Portended Fate - [N/A] 671343140
- 801219:Portended Fate - [N/A] 3112240204
- 801220:Portended Fate - Go inside
- 801221:Portended Fate - [N/A] 3559923132
- 801222:Portended Fate - Enter the cavern again
- 801223:Portended Fate - Talk to Eide
- 801224:Portended Fate - Enter the cavern again
- 801301:[N/A] 0 - [N/A] 2385465084
- 801401:[N/A] 0 - [N/A] 1397074996
- 801501:[N/A] 0 - [N/A] 1504494828
+800001:Involuntary Sacrifice - Go near the Adventurers' Guild Bulletin Board
+800002:Involuntary Sacrifice - Go to the ruins
+800003:Involuntary Sacrifice - Follow the Treasure Hoarders
+800004:Involuntary Sacrifice - Check out the depths of the ruins
+800005:Involuntary Sacrifice - Flee the ruins
+800006:Involuntary Sacrifice - Defeat the Abyss Herald
+800007:Involuntary Sacrifice - Leave the ruins
+800008:Involuntary Sacrifice - Talk to the Abyss Herald
+800009:Involuntary Sacrifice - Negotiate with the Abyss Herald
+800010:Involuntary Sacrifice - [CHS] - （test）任务前置提示$HIDDEN
+800101:A Herald Without Adherents - Talk to Dainsleif
+800102:A Herald Without Adherents - Look for traces of the Abyss Order
+800103:A Herald Without Adherents - Talk to Dainsleif
+800104:A Herald Without Adherents - Look for traces of the Abyss Order
+800105:A Herald Without Adherents - Talk to Dainsleif
+800106:A Herald Without Adherents - Defeat all opponents
+800107:A Herald Without Adherents - Talk to Dainsleif
+800108:A Herald Without Adherents - Talk to Dainsleif
+800109:A Herald Without Adherents - Look for traces of the Abyss Order
+800201:Dishonorable Trial - Go to the Favonius Cathedral
+800202:Dishonorable Trial - Talk to Barbara
+800203:Dishonorable Trial - Go to Wolvendom
+800204:Dishonorable Trial - Defeat the Abyss Order
+800205:Dishonorable Trial - Talk to Jean
+800206:Dishonorable Trial - Look for the Great Wolf King of the North
+800207:Dishonorable Trial - Defeat all opponents
+800208:Dishonorable Trial - Talk to the Great Wolf King of the North
+800209:Dishonorable Trial - Talk to Dainsleif
+800210:Dishonorable Trial - Talk to Dainsleif
+800211:Dishonorable Trial - Talk to Razor
+800212:Dishonorable Trial - [CHS] - (test)解除束缚$HIDDEN
+800301:A Soul Set Apart - Talk to Dainsleif
+800302:A Soul Set Apart - Enter the ruins again
+800303:A Soul Set Apart - Search for the Defiled Statue
+800304:A Soul Set Apart - Defeat the Abyss Herald
+800305:A Soul Set Apart - #Meet {F#Aether}{M#Lumine}.
+800306:A Soul Set Apart - Go to Stormterror's Lair
+800307:A Soul Set Apart - Talk to Dainsleif
+800308:A Soul Set Apart - Talk to Paimon
+800309:A Soul Set Apart - Enter the ruins again
+800310:A Soul Set Apart - Talk to Dainsleif
+800311:A Soul Set Apart - Talk to Paimon
+800401:In the Depths, an Unexpected Reunion - Talk to Katheryne
+800402:In the Depths, an Unexpected Reunion - Look for the miner who posted the commission at The Chasm
+800403:In the Depths, an Unexpected Reunion - Go to the designated location to investigate
+800404:In the Depths, an Unexpected Reunion - Go to the designated location to investigate
+800405:In the Depths, an Unexpected Reunion - Go to the designated location to investigate
+800406:In the Depths, an Unexpected Reunion - [N/A] 495736276
+800407:In the Depths, an Unexpected Reunion - Enter The Chasm: Underground Mines
+800501:The Grave of the Guarded - Investigate the ruins ahead and find a path
+800502:The Grave of the Guarded - Defeat the Black Serpent Knights
+800503:The Grave of the Guarded - Talk to Dainsleif
+800504:The Grave of the Guarded - Go to the entrance to the ruins
+800505:The Grave of the Guarded - Go to the lit room in the ruins
+800506:The Grave of the Guarded - Defeat the Black Serpent Knights
+800508:The Grave of the Guarded - Continue investigating the ruins
+800509:The Grave of the Guarded - Defeat the Black Serpent Knights
+800510:The Grave of the Guarded - Examine what the Black Serpent Knights were protecting
+800511:The Grave of the Guarded - Go to the chamber at the center of the ruins' summit
+800512:The Grave of the Guarded - Go to the chamber at the center of the ruins' summit
+800513:The Grave of the Guarded - Go to the chamber at the center of the ruins' summit
+800514:The Grave of the Guarded - Go to the chamber at the center of the ruins' summit
+800515:The Grave of the Guarded - Go to the chamber at the center of the ruins' summit
+800516:The Grave of the Guarded - [N/A] 3839397684
+800517:The Grave of the Guarded - [N/A] 737032788
+800518:The Grave of the Guarded - [N/A] 2804690324
+800519:The Grave of the Guarded - [N/A] 3683290620
+800520:The Grave of the Guarded - [N/A] 3488080028
+800601:Memories of Inteyvat - Go along the path that Halfdan has indicated
+800602:Memories of Inteyvat - Follow the path and continue exploring
+800603:Memories of Inteyvat - Follow the path and continue exploring
+800604:Memories of Inteyvat - Head to the hilichurl camp
+800605:Memories of Inteyvat - Look for clues in the hilichurl camp
+800606:Memories of Inteyvat - Leave the hilichurl camp
+800607:Memories of Inteyvat - Defeat the Abyss Herald
+800608:Memories of Inteyvat - Talk to Dainsleif
+800609:Memories of Inteyvat - Look for clues in the hilichurl camp
+800610:Memories of Inteyvat - Look for clues in the hilichurl camp
+800611:Memories of Inteyvat - Look for clues in the hilichurl camp
+800612:Memories of Inteyvat - [N/A] 3797687676
+800613:Memories of Inteyvat - [N/A] 3320356388
+800614:Memories of Inteyvat - [N/A] 1705733180
+800701:The Black Serpent Knights' Glory - Check the situation at the chamber at the center of the ruins' summit
+800702:The Black Serpent Knights' Glory - Defeat the Abyss Lector
+800703:The Black Serpent Knights' Glory - Talk to Dainsleif
+800704:The Black Serpent Knights' Glory - Destroy all the charging devices
+800705:The Black Serpent Knights' Glory - Destroy all the charging devices
+800706:The Black Serpent Knights' Glory - Destroy all the charging devices
+800707:The Black Serpent Knights' Glory - Destroy all the charging devices
+800708:The Black Serpent Knights' Glory - [N/A] 2551205260
+800709:The Black Serpent Knights' Glory - Reach Halfdan
+800710:The Black Serpent Knights' Glory - Talk to Dainsleif
+800711:The Black Serpent Knights' Glory - Talk to Dainsleif
+800712:The Black Serpent Knights' Glory - [N/A] 214060724
+800713:The Black Serpent Knights' Glory - [N/A] 1403425724
+800801:[N/A] 0 - [N/A] 924901764
+800802:[N/A] 0 - [N/A] 844327260
+800901:Destined Encounter - Talk to Masrur
+800902:Destined Encounter - Wait until the following afternoon (16:00 – 18:00)
+800903:Destined Encounter - Go to Djafar Tavern and look for Kaeya
+800904:Destined Encounter - Go to the place Dainsleif mentioned
+800905:Destined Encounter - Light the bonfire
+800906:Destined Encounter - [N/A] 3348320404
+800907:Destined Encounter - [N/A] 3189902180
+800908:Destined Encounter - Talk to Dainsleif
+800909:Destined Encounter - [N/A] 1981770324
+800910:Destined Encounter - Enter the house to investigate
+800911:Destined Encounter - Investigate the interior of the house
+800912:Destined Encounter - Investigate the interior of the house
+800913:Destined Encounter - Investigate the interior of the house
+800914:Destined Encounter - [N/A] 578801956
+800915:Destined Encounter - [N/A] 2267497388
+800916:Destined Encounter - Talk to Dainsleif
+800917:Destined Encounter - Defeat the attacking monsters
+800918:Destined Encounter - Talk to Dainsleif
+800919:Destined Encounter - Talk to Paimon
+800920:Destined Encounter - [N/A] 80045228
+800921:Destined Encounter - Check out the situation outside
+800922:Destined Encounter - [N/A] 3921345692
+801001:Fortune-Mocking Pedigree - Talk to Eide
+801002:Fortune-Mocking Pedigree - Look for Paimon inside the house
+801003:Fortune-Mocking Pedigree - Go inside
+801004:Fortune-Mocking Pedigree - Talk to Eide
+801005:Fortune-Mocking Pedigree - Synthesize the Nameless Taboo Medicine of the Royal Court
+801006:Fortune-Mocking Pedigree - Talk to Eide
+801007:Fortune-Mocking Pedigree - Go to the nearby Statue of The Seven
+801008:Fortune-Mocking Pedigree - Administer the dose of medicine to the hilichurl
+801009:Fortune-Mocking Pedigree - [N/A] 2716687252
+801010:Fortune-Mocking Pedigree - Go to the waterfall to fetch some water
+801011:Fortune-Mocking Pedigree - Give Eide the water
+801012:Fortune-Mocking Pedigree - Defeat the attacking monsters
+801013:Fortune-Mocking Pedigree - Talk to Eide
+801014:Fortune-Mocking Pedigree - [N/A] 48747156
+801015:Fortune-Mocking Pedigree - Synthesize the Nameless Taboo Medicine of the Royal Court
+801016:Fortune-Mocking Pedigree - Talk to Eide
+801017:Fortune-Mocking Pedigree - Go to the nearby Statue of The Seven
+801018:Fortune-Mocking Pedigree - Go inside
+801019:Fortune-Mocking Pedigree - Go inside
+801020:Fortune-Mocking Pedigree - Go inside
+801021:Fortune-Mocking Pedigree - Go inside
+801022:Fortune-Mocking Pedigree - Go inside
+801023:Fortune-Mocking Pedigree - Go inside
+801024:Fortune-Mocking Pedigree - Go inside
+801025:Fortune-Mocking Pedigree - Go inside
+801026:Fortune-Mocking Pedigree - Go inside
+801027:Fortune-Mocking Pedigree - Go inside
+801028:Fortune-Mocking Pedigree - Go inside
+801029:Fortune-Mocking Pedigree - Go inside
+801030:Fortune-Mocking Pedigree - Go inside
+801031:Fortune-Mocking Pedigree - [N/A] 3915188364
+801032:Fortune-Mocking Pedigree - Pick the Strange Mushrooms
+801101:A Lamenter at Fate's End - Follow the hilichurl
+801102:A Lamenter at Fate's End - Follow the hilichurl
+801103:A Lamenter at Fate's End - Follow the hilichurl to the cavern
+801104:A Lamenter at Fate's End - Talk to Eide
+801105:A Lamenter at Fate's End - Continue exploring
+801106:A Lamenter at Fate's End - Talk to Eide
+801107:A Lamenter at Fate's End - Defeat the Fortune Lector
+801108:A Lamenter at Fate's End - Talk to Eide
+801109:A Lamenter at Fate's End - Continue exploring
+801110:A Lamenter at Fate's End - Continue exploring
+801111:A Lamenter at Fate's End - Talk to Eide
+801112:A Lamenter at Fate's End - [N/A] 911186436
+801113:A Lamenter at Fate's End - Go inside
+801114:A Lamenter at Fate's End - Follow the hilichurl to the cavern
+801115:A Lamenter at Fate's End - [N/A] 28531996
+801116:A Lamenter at Fate's End - Talk to Eide
+801117:A Lamenter at Fate's End - Continue exploring
+801118:A Lamenter at Fate's End - [N/A] 2671572964
+801119:A Lamenter at Fate's End - [N/A] 1738130932
+801120:A Lamenter at Fate's End - Talk to Eide
+801121:A Lamenter at Fate's End - Continue exploring
+801122:A Lamenter at Fate's End - [N/A] 1500768940
+801201:Portended Fate - Enter the cavern again
+801202:Portended Fate - Go to the mysterious statue
+801203:Portended Fate - Go to the mysterious statue
+801204:Portended Fate - Return to Eide's house
+801205:Portended Fate - Look for clues outside
+801206:Portended Fate - Continue to search for Caribert
+801207:Portended Fate - Talk to the Forest Rangers
+801208:Portended Fate - [N/A] 1343440428
+801209:Portended Fate - [N/A] 1134358068
+801210:Portended Fate - Use the clue to continue searching for Caribert
+801211:Portended Fate - Talk to Eide
+801212:Portended Fate - Talk to Dainsleif
+801213:Portended Fate - [N/A] 3993431108
+801214:Portended Fate - Enter the cavern again
+801215:Portended Fate - Go inside
+801216:Portended Fate - Go inside
+801217:Portended Fate - Go inside
+801218:Portended Fate - [N/A] 671343140
+801219:Portended Fate - [N/A] 3112240204
+801220:Portended Fate - Go inside
+801221:Portended Fate - [N/A] 3559923132
+801222:Portended Fate - Enter the cavern again
+801223:Portended Fate - Talk to Eide
+801224:Portended Fate - Enter the cavern again
+801301:[N/A] 0 - [N/A] 2385465084
+801401:[N/A] 0 - [N/A] 1397074996
+801501:[N/A] 0 - [N/A] 1504494828
 1000101:[CHS] - 刷兽境猎犬$UNRELEASED$HIDDEN - [CHS] - 刷兽境猎犬$UNRELEASED$HIDDEN
 1010001:Troublesome Work - Find Lisa in the Library
 1010002:Troublesome Work - Talk to Lisa
@@ -2911,7 +2911,7 @@
 1102604:Foregone Conclusion - Go to Feiyun Slope and follow Zhiyi
 1102605:Foregone Conclusion - Go to Xinyue Kiosk to investigate
 1102606:Foregone Conclusion - Go to Xigu Antiques to investigate
-1102607:Foregone Conclusion - Go to Yanshang Teahouse after20:00
+1102607:Foregone Conclusion - Go to Yanshang Teahouse after 20:00
 1102608:Foregone Conclusion - Go to Yanshang Teahouse to meet Yelan
 1102609:Foregone Conclusion - Go to Qingxu Pool
 1102610:Foregone Conclusion - Go to the place Yelan pointed out
@@ -3425,7 +3425,7 @@
 1202118:Rumors Abound - [CHS] - 商人和士兵闲置对话$HIDDEN
 1202119:Rumors Abound - Defeat the Fatui in the camp
 1202120:Rumors Abound - [CHS] - 刷出车车$HIDDEN
-1202201:Her Secret - Wait till10:00 – 12:00 the next day
+1202201:Her Secret - Wait till 10:00 – 12:00 the next day
 1202202:Her Secret - Wait for Kokomi near the Sangonomiya Shrine
 1202203:Her Secret - Talk to Paimon
 1202204:Her Secret - Ask the guards about Kokomi's whereabouts
@@ -3454,7 +3454,7 @@
 1202310:Victory Banquet - Wait until nighttime (18:00 – 6:00)
 1202311:Victory Banquet - [CHS] - 刷出第一波人群$HIDDEN
 1202312:Victory Banquet - [CHS] - 心海闲置对话$HIDDEN
-1202401:New Beginning - Wait till10:00 – 12:00 the next day
+1202401:New Beginning - Wait till 10:00 – 12:00 the next day
 1202402:New Beginning - Go to the peace talks
 1202403:New Beginning - Complete the peace talks with Kokomi
 1202404:New Beginning - Talk to Kokomi
@@ -5019,7 +5019,7 @@
 2000908:Language Exchange - Approach the hilichurl that is awake, but don't wake the others
 2000909:Language Exchange - Talk to Ella Musk
 2000910:Language Exchange - The hilichurls have been startled awake
-2000911:Language Exchange - Decide if 08 or10 are complete
+2000911:Language Exchange - Decide if 08 or 10 are complete
 2000912:Language Exchange - Trigger communication success branch
 2000913:Language Exchange - Trigger communication failure branch
 2000914:Language Exchange - Talk to the hilichurl with Ella Musk
@@ -5034,7 +5034,7 @@
 2001008:Language Exchange - Approach the hilichurl that is awake, but don't wake the others
 2001009:Language Exchange - Talk to Ella Musk
 2001010:Language Exchange - The hilichurls have been startled awake
-2001011:Language Exchange - Decide if 08 or10 are complete
+2001011:Language Exchange - Decide if 08 or 10 are complete
 2001012:Language Exchange - Trigger communication success branch
 2001013:Language Exchange - Trigger communication failure branch
 2001014:Language Exchange - Talk to the hilichurl with Ella Musk
@@ -5066,7 +5066,7 @@
 2001508:Language Exchange - Approach the hilichurl that is awake, but don't wake the others
 2001509:Language Exchange - Talk to Ella Musk
 2001510:Language Exchange - The hilichurls have been startled awake
-2001511:Language Exchange - Decide if 08 or10 are complete
+2001511:Language Exchange - Decide if 08 or 10 are complete
 2001512:Language Exchange - Trigger communication success branch
 2001513:Language Exchange - Trigger communication failure branch
 2001514:Language Exchange - Talk to the hilichurl with Ella Musk
@@ -6442,7 +6442,7 @@
 2204203:A Fishy Flavor - [CHS] - (test)检测玩家是否打猫$HIDDEN
 2204204:A Fishy Flavor - Report back to Neko
 2204301:To Make a Cat Carving - Talk to Ooshima Junpei
-2204302:To Make a Cat Carving - Give Ooshima Junpei10 Otogi Wood
+2204302:To Make a Cat Carving - Give Ooshima Junpei 10 Otogi Wood
 2204303:To Make a Cat Carving - Talk to Ooshima Junpei
 2204401:To Make Cat Ornaments - Talk to Ooshima Junpei
 2204402:To Make Cat Ornaments - Give Ooshima Junpei three Naku Weed
@@ -6842,24 +6842,24 @@
 2300801:Concresoil - Talk to Akim
 2300802:Concresoil - Give three portions of Slime Condensate to Akim
 2300803:Concresoil - Keep talking to Akim
-2300901:Other Applications of Concresoil - [CHS] - 与阿金对话$HIDDEN
-2300902:Other Applications of Concresoil - Talk to Akim
-2300903:Other Applications of Concresoil - Give three portions of Slime Condensate to Akim
-2300904:Other Applications of Concresoil - Give the soil to Nima
-2300908:Other Applications of Concresoil - Talk to Akim
-2300909:Other Applications of Concresoil - Head to where the Whopperflower appeared
-2300910:Other Applications of Concresoil - Bring the sample back to Akim
-2300911:Other Applications of Concresoil - Talk to Akim
-2300912:Other Applications of Concresoil - Go to the place Akim recommended
-2300913:Other Applications of Concresoil - Bring the sample back to Akim
-2300914:Other Applications of Concresoil - Talk to Akim
-2300915:Other Applications of Concresoil - Go and retrieve the soil
-2300916:Other Applications of Concresoil - Talk to Akim
-2300917:Other Applications of Concresoil - Keep talking to Akim
-2300918:Other Applications of Concresoil - Keep talking to Nima
-2300919:Other Applications of Concresoil - Keep talking to Akim
-2300920:Other Applications of Concresoil - Talk to Akim
-2300921:Other Applications of Concresoil - Keep talking to Akim
+2300901:The Other Applications of Concresoil - [CHS] - 与阿金对话$HIDDEN
+2300902:The Other Applications of Concresoil - Talk to Akim
+2300903:The Other Applications of Concresoil - Give three portions of Slime Condensate to Akim
+2300904:The Other Applications of Concresoil - Give the soil to Nima
+2300908:The Other Applications of Concresoil - Talk to Akim
+2300909:The Other Applications of Concresoil - Head to where the Whopperflower appeared
+2300910:The Other Applications of Concresoil - Bring the sample back to Akim
+2300911:The Other Applications of Concresoil - Talk to Akim
+2300912:The Other Applications of Concresoil - Go to the place Akim recommended
+2300913:The Other Applications of Concresoil - Bring the sample back to Akim
+2300914:The Other Applications of Concresoil - Talk to Akim
+2300915:The Other Applications of Concresoil - Go and retrieve the soil
+2300916:The Other Applications of Concresoil - Talk to Akim
+2300917:The Other Applications of Concresoil - Keep talking to Akim
+2300918:The Other Applications of Concresoil - Keep talking to Nima
+2300919:The Other Applications of Concresoil - Keep talking to Akim
+2300920:The Other Applications of Concresoil - Talk to Akim
+2300921:The Other Applications of Concresoil - Keep talking to Akim
 2301001:Eat and Learn - Talk to Jafar
 2301002:Eat and Learn - Give the cooking ingredient to Jafar
 2301003:Eat and Learn - Talk to Jafar
@@ -7270,7 +7270,7 @@
 4001112:Summer Vacation: Proceed With Caution - [CHS] - (test)二阶段桥接任务$HIDDEN
 4001113:Summer Vacation: Proceed With Caution - Confirm your combat readiness
 4001114:Summer Vacation: Proceed With Caution - Report to Jean
-4001115:Summer Vacation: Proceed With Caution - Rest until the next morning (08:00 –10:00)
+4001115:Summer Vacation: Proceed With Caution - Rest until the next morning (08:00 – 10:00)
 4001116:Summer Vacation: Proceed With Caution - Return to camp
 4001117:Summer Vacation: Proceed With Caution - Investigate the mysterious device
 4001118:Summer Vacation: Proceed With Caution - Investigate the mysterious device
@@ -7745,7 +7745,7 @@
 4005511:The Strange Tale of Suikou's Tipsy Tincture - Talk to Venti
 4005512:The Strange Tale of Suikou's Tipsy Tincture - [CHS] - (test)播放翠光CG$HIDDEN
 4005513:The Strange Tale of Suikou's Tipsy Tincture - Go and talk to Albedo at The Five Kasen Plaza
-4005601:What the Blue Flowers Left Behind - Wait until the following day (08:00 –10:00)
+4005601:What the Blue Flowers Left Behind - Wait until the following day (08:00 – 10:00)
 4005602:What the Blue Flowers Left Behind - Go to the Ritou docks
 4005603:What the Blue Flowers Left Behind - Talk to Xu
 4005604:What the Blue Flowers Left Behind - Meet Albedo at The Five Kasen Plaza
@@ -7835,7 +7835,7 @@
 4006402:The Golden Apple Vacation Returns! - Meet Fischl at the plaza
 4006403:The Golden Apple Vacation Returns! - Head to the Angel's Share
 4006404:The Golden Apple Vacation Returns! - Talk to everyone
-4006405:The Golden Apple Vacation Returns! - Wait till the next morning (08:00 –10:00)
+4006405:The Golden Apple Vacation Returns! - Wait till the next morning (08:00 – 10:00)
 4006406:The Golden Apple Vacation Returns! - Go to the city gate
 4006407:The Golden Apple Vacation Returns! - Go to the location Paimon mentioned
 4006408:The Golden Apple Vacation Returns! - Go to the Golden Apple Archipelago
@@ -8099,12 +8099,12 @@
 4007808:Sounds From Afar - Use Elemental Sight to trace Electro
 4007809:Sounds From Afar - Use Elemental Sight to trace Electro
 4007810:Sounds From Afar - Go back to the Grand Master's office
-4007811:Sounds From Afar - Wait for the Weinlesefest (08:00 –10:00 two days later)
+4007811:Sounds From Afar - Wait for the Weinlesefest (08:00 – 10:00 two days later)
 4007812:Sounds From Afar - Go to Weinlesefest's venue
 4007813:Sounds From Afar - Talk to Venti
 4007814:Sounds From Afar - Leave the Knights of Favonius Headquarters
 4007815:Sounds From Afar - Go to Weinlesefest's venue
-4007901:Bonds of Melody - Wait until the appointed time (08:00 –10:00 two days later)
+4007901:Bonds of Melody - Wait until the appointed time (08:00 – 10:00 two days later)
 4007902:Bonds of Melody - Meet up with Razor
 4007903:Bonds of Melody - Search for the late cart in the wild
 4007904:Bonds of Melody - Scare off the hilichurls and save the cart
@@ -8148,7 +8148,7 @@
 4008121:The Most Fantastic Tournament You've Never Heard Of? - [N/A] 3952051172
 4008122:The Most Fantastic Tournament You've Never Heard Of? - Go to the Special Training Grounds
 4008123:The Most Fantastic Tournament You've Never Heard Of? - [N/A] 2379212236
-4008201:Nilotpala Cup: Debut Match - Wait till the next morning (8:00 –10:00)
+4008201:Nilotpala Cup: Debut Match - Wait till the next morning (8:00 – 10:00)
 4008202:Nilotpala Cup: Debut Match - Go to the Nilotpala Cup Arena
 4008203:Nilotpala Cup: Debut Match - Defeat your opponents
 4008204:Nilotpala Cup: Debut Match - [N/A] 4210983868
@@ -8163,7 +8163,7 @@
 4008213:Nilotpala Cup: Debut Match - Leave the arena
 4008214:Nilotpala Cup: Debut Match - [CHS] - 参加比赛$HIDDEN
 4008215:Nilotpala Cup: Debut Match - Participate in the competition
-4008301:Dual Missions: Progress and Probe! - Wait till the next morning (8:00 –10:00)
+4008301:Dual Missions: Progress and Probe! - Wait till the next morning (8:00 – 10:00)
 4008302:Dual Missions: Progress and Probe! - Defeat your opponents
 4008303:Dual Missions: Progress and Probe! - Participate in the competition
 4008304:Dual Missions: Progress and Probe! - Defeat your opponents
@@ -8186,7 +8186,7 @@
 4008321:Dual Missions: Progress and Probe! - [CHS] - 参加比赛$HIDDEN
 4008322:Dual Missions: Progress and Probe! - Defeat your opponents
 4008323:Dual Missions: Progress and Probe! - Defeat your opponents
-4008401:Unfathomable Defenses - Wait till the next morning (8:00 –10:00)
+4008401:Unfathomable Defenses - Wait till the next morning (8:00 – 10:00)
 4008402:Unfathomable Defenses - Leave the arena
 4008403:Unfathomable Defenses - Participate in the competition
 4008404:Unfathomable Defenses - Defeat your opponents
@@ -8206,7 +8206,7 @@
 4008418:Unfathomable Defenses - [CHS] - 参加半决赛$HIDDEN
 4008419:Unfathomable Defenses - Defeat your opponents
 4008420:Unfathomable Defenses - Participate in the semifinals
-4008501:The Strongest Opponent! The Biggest Crisis! - Wait till the next morning (8:00 –10:00)
+4008501:The Strongest Opponent! The Biggest Crisis! - Wait till the next morning (8:00 – 10:00)
 4008502:The Strongest Opponent! The Biggest Crisis! - Defeat Haniyyah
 4008503:The Strongest Opponent! The Biggest Crisis! - Participate in the final
 4008504:The Strongest Opponent! The Biggest Crisis! - Talk to Haniyyah
@@ -8357,7 +8357,7 @@
 4009221:A Thousand Miles for an Enigmatic Tune - Investigate clues
 4009222:A Thousand Miles for an Enigmatic Tune - Investigate clues
 4009223:A Thousand Miles for an Enigmatic Tune - Stay put and wait for 2 hours
-4009301:A Single Harmony for an Irreplaceable Soul - Wait until the appointed time (08:00 –10:00 two days later)
+4009301:A Single Harmony for an Irreplaceable Soul - Wait until the appointed time (08:00 – 10:00 two days later)
 4009302:A Single Harmony for an Irreplaceable Soul - Head to Yujing Terrace and talk to Ganyu
 4009303:A Single Harmony for an Irreplaceable Soul - Go to Mt. Aocang
 4009304:A Single Harmony for an Irreplaceable Soul - Swim to the center of the pool
@@ -9787,7 +9787,7 @@
 7066905:Ascension Challenge IV - [N/A] 2948263644
 7067001:Windtrace - Talk to Gygax
 7067101:[N/A] 0 - [N/A] 1341440180
-7070001:Helen's Special Blend - Give10 Sweet Flowers to Helen
+7070001:Helen's Special Blend - Give 10 Sweet Flowers to Helen
 7070002:Helen's Special Blend - Talk to Helen
 7070101:Glory's Wish - Give three sets of Dandelion Seeds to Glory
 7070102:Glory's Wish - Talk to Glory
@@ -9903,7 +9903,7 @@
 7081503:Will of Stone - Find Little Liu
 7081504:Will of Stone - Defeat all opponents
 7081505:Will of Stone - Talk to Little Liu
-7081506:Will of Stone - Catch up to Little Liu (if she gets more than30m away, the quest will be failed)
+7081506:Will of Stone - Catch up to Little Liu (if she gets more than 30m away, the quest will be failed)
 7081507:Will of Stone - Defeat all opponents
 7081508:Will of Stone - Talk to Little Liu
 7081509:Will of Stone - Talk to Little Liu
@@ -10678,7 +10678,7 @@
 7106606:Stolen, by the Rightful Owner - Give the ring back to Taliesin
 7106607:Stolen, by the Rightful Owner - Give the ring back to Taliesin
 7106701:[CHS] - (test) 身后事 废弃$HIDDEN - [N/A] 1601845316
-7106801:[CHS] - （test）身后事刷香$UNRELEASED$HIDDEN - [N/A] 89970372
+7106801:[CHS] - （test）身后事  刷香$UNRELEASED$HIDDEN - [N/A] 89970372
 7106901:[CHS] - test隐藏-层岩巨渊上层主线WQ结束后的阿志彩蛋对话$UNRELEASED - [CHS] - test隐藏-层岩巨渊上层主线WQ结束后的阿志彩蛋对话$UNRELEASED
 7107001:[CHS] - test下层对话控制器$HIDDEN - [CHS] - 初到营地-阿武$HIDDEN
 7107002:[CHS] - test下层对话控制器$HIDDEN - [CHS] - 初到营地-克里托夫$HIDDEN
@@ -10951,7 +10951,7 @@
 7170102:Herbalist's Forage - Talk to Herbalist Gui
 7170201:Herbalist's Forage - Give three Violetgrass to Herbalist Gui
 7170202:Herbalist's Forage - Talk to Herbalist Gui
-7170301:Herbalist's Forage - Give10 Sweet Flowers to Herbalist Gui
+7170301:Herbalist's Forage - Give 10 Sweet Flowers to Herbalist Gui
 7170302:Herbalist's Forage - Talk to Herbalist Gui
 7170401:Herbalist's Forage - Give ten Mints to Herbalist Gui
 7170402:Herbalist's Forage - Talk to Herbalist Gui
@@ -11432,8 +11432,8 @@
 7210509:Yougou Cleansing - [CHS] - 花散里消散CS后切换天气场景1$HIDDEN
 7210510:Yougou Cleansing - [CHS] - 花散里消散CS后切换天气场景2$HIDDEN
 7210511:Yougou Cleansing - [CHS] - 废弃$HIDDEN
-7210601:A Strange Story in Konda - [CHS] - 隐藏第一次对话后 然后闲置对话$HIDDEN
-7210602:A Strange Story in Konda - [CHS] - 隐藏任务接取对话$HIDDEN
+7210601:A Strange Story in Konda - [CHS] - 隐藏  第一次对话后 然后闲置对话$HIDDEN
+7210602:A Strange Story in Konda - [CHS] - 隐藏  任务接取对话$HIDDEN
 7210603:A Strange Story in Konda - Go to Konda Village
 7210604:A Strange Story in Konda - Ask the locals for information
 7210605:A Strange Story in Konda - Ask the Konda Village Chief for information
@@ -12093,7 +12093,7 @@
 7216103:Fate of a Fighter - Clear out the pirate camp
 7216104:Fate of a Fighter - Gather 12 Naku Weeds
 7216105:Fate of a Fighter - Talk to Inaba Kyuuzou
-7216106:Fate of a Fighter - Wait till10:00 – 12:00 the next day and talk to Inaba Kyuuzou
+7216106:Fate of a Fighter - Wait till 10:00 – 12:00 the next day and talk to Inaba Kyuuzou
 7216107:Fate of a Fighter - Report the situation to Inaba Kyuuzou
 7216108:Fate of a Fighter - Clear the nearby monster camps discarded
 7216109:Fate of a Fighter - [CHS] - （test）陪老兵祭奠之前的战友废弃
@@ -12754,8 +12754,8 @@
 7222008:[CHS] - （test）奥博伦玩法白盒任务$HIDDEN - [N/A] 3266922804
 7222009:[CHS] - （test）奥博伦玩法白盒任务$HIDDEN - [CHS] - （test）开启挑战$HIDDEN
 7222010:[CHS] - （test）奥博伦玩法白盒任务$HIDDEN - [CHS] - （test）最后一环传送$HIDDEN
-7222201:[CHS] - test 海盗隐藏任务 发钥匙101585$HIDDEN - [N/A] 3846515764
-7222301:[CHS] - test 海盗隐藏任务 发钥匙101583$UNRELEASED$HIDDEN - [N/A] 3357226836
+7222201:[CHS] - test 海盗隐藏任务 发钥匙 101585$HIDDEN - [N/A] 3846515764
+7222301:[CHS] - test 海盗隐藏任务 发钥匙 101583$UNRELEASED$HIDDEN - [N/A] 3357226836
 7222401:[CHS] - test 寝子是只猫·神社食谱 后续$HIDDEN - [CHS] - test 第一天$HIDDEN
 7222402:[CHS] - test 寝子是只猫·神社食谱 后续$HIDDEN - [CHS] - test 第二天$HIDDEN
 7222403:[CHS] - test 寝子是只猫·神社食谱 后续$HIDDEN - [CHS] - test 第三天$HIDDEN
@@ -13223,7 +13223,7 @@
 7228017:Buyer's Guide to the Statue of Her Excellency, the Almighty Narukami Ogosho, God of Thunder - Talk to Sayu
 7228018:Buyer's Guide to the Statue of Her Excellency, the Almighty Narukami Ogosho, God of Thunder - [N/A] 2646940972
 7228019:Buyer's Guide to the Statue of Her Excellency, the Almighty Narukami Ogosho, God of Thunder - [N/A] 2845109252
-7228101:Pen Pals, Book Reviews, and the Super Lucky General - Wait till the next morning (08:00 –10:00)
+7228101:Pen Pals, Book Reviews, and the Super Lucky General - Wait till the next morning (08:00 – 10:00)
 7228102:Pen Pals, Book Reviews, and the Super Lucky General - Go to the docks
 7228103:Pen Pals, Book Reviews, and the Super Lucky General - Accompany Kokomi to see her pen pal
 7228104:Pen Pals, Book Reviews, and the Super Lucky General - Accompany Kokomi to see her pen pal
@@ -13236,7 +13236,7 @@
 7228111:Pen Pals, Book Reviews, and the Super Lucky General - Go to the Raffle Machine
 7228112:Pen Pals, Book Reviews, and the Super Lucky General - Wait at The Five Kasen Plaza
 7228113:Pen Pals, Book Reviews, and the Super Lucky General - Wait at The Five Kasen Plaza
-7228114:Pen Pals, Book Reviews, and the Super Lucky General - Go to the docks to see Kokomi and Gorou off (18:00 –20:00 the next day)
+7228114:Pen Pals, Book Reviews, and the Super Lucky General - Go to the docks to see Kokomi and Gorou off (18:00 – 20:00 the next day)
 7228115:Pen Pals, Book Reviews, and the Super Lucky General - Go to the docks to see Kokomi and Gorou off
 7228116:Pen Pals, Book Reviews, and the Super Lucky General - Go to the docks to see Kokomi and Gorou off
 7228117:Pen Pals, Book Reviews, and the Super Lucky General - Go to the docks
@@ -13272,8 +13272,8 @@
 7228705:Mushounin - Talk to Xavier to begin the shoot
 7228706:Mushounin - Finish filming the first act
 7228707:Mushounin - Talk to Xavier
-7228708:Mushounin - Wait until the following evening (18:00 –20:00)
-7228709:Mushounin - Wait until evening (18:00 –20:00)
+7228708:Mushounin - Wait until the following evening (18:00 – 20:00)
+7228709:Mushounin - Wait until evening (18:00 – 20:00)
 7228710:Mushounin - Go to Nazuchi Beach
 7228711:Mushounin - Persuade the extras
 7228712:Mushounin - Talk to Xavier
@@ -13287,7 +13287,7 @@
 7228720:Mushounin - Finish filming the third act
 7228721:Mushounin - Finish filming the third act
 7228722:Mushounin - Land safely in the designated location
-7228723:Mushounin - Wait until evening (18:00 –20:00)
+7228723:Mushounin - Wait until evening (18:00 – 20:00)
 7228724:Mushounin - Rendezvous with everyone
 7228725:Mushounin - [CHS] - 刷NPC$HIDDEN
 7228726:Mushounin - [N/A] 804153588
@@ -13915,7 +13915,7 @@
 7301608:Irate Iron Chunk - Find the mechanism and activate it
 7301609:Irate Iron Chunk - Find the "branch" with Arabalika
 7301610:Irate Iron Chunk - Talk to Arabalika
-7301611:Irate Iron Chunk - Defeat the Ruin Grader
+7301611:Irate Iron Chunk - Defeat the Ruin Graders
 7301612:Irate Iron Chunk - [N/A] 2929751308
 7301613:Irate Iron Chunk - Make the three "leaves" turn towards the "branch"
 7301614:Irate Iron Chunk - [N/A] 53834828
@@ -15085,7 +15085,7 @@
 7310311:Dune-Entombed Fecundity: Part III - Talk to Azariq
 7310312:Dune-Entombed Fecundity: Part III - [N/A] 1015841708
 7310313:Dune-Entombed Fecundity: Part III - Talk to Jeht
-7310314:Dune-Entombed Fecundity: Part III - Alight from the machine
+7310314:Dune-Entombed Fecundity: Part III - Leave the machine
 7310315:Dune-Entombed Fecundity: Part III - Confront Aderfi
 7310316:Dune-Entombed Fecundity: Part III - Defeat Aderfi and the Fatui
 7310317:Dune-Entombed Fecundity: Part III - Check the dropped items
@@ -15822,7 +15822,7 @@
 7321210:Behold, the Sign Comes Like A Thief... - Report your findings back to Yuften
 7321211:Behold, the Sign Comes Like A Thief... - Report your findings to Babel
 7321212:Behold, the Sign Comes Like A Thief... - [CHS] - (test)废弃-前往调查破碎的马车
-7321213:Behold, the Sign Comes Like A Thief... - Investigate the Hilichurl camp
+7321213:Behold, the Sign Comes Like A Thief... - Investigate the hilichurl camp
 7321214:Behold, the Sign Comes Like A Thief... - Follow the trail of clues
 7321215:Behold, the Sign Comes Like A Thief... - [CHS] - (test)剿灭丘丘人营地$HIDDEN
 7321216:Behold, the Sign Comes Like A Thief... - Talk to Paimon
@@ -16161,7 +16161,7 @@
 7326419:Make Bright the Arrows, Gather the Shields... - [CHS] - (test)隐藏：阅读愚人众信件B$HIDDEN
 7326420:Make Bright the Arrows, Gather the Shields... - [CHS] - (test)隐藏：木箱调查$HIDDEN
 7326421:Make Bright the Arrows, Gather the Shields... - [CHS] - (test)隐藏：军靴调查$HIDDEN
-7326422:Make Bright the Arrows, Gather the Shields... - Wait till the next day and ask Babel again
+7326422:Make Bright the Arrows, Gather the Shields... - Wait till the next day and talk to Babel again
 7326423:Make Bright the Arrows, Gather the Shields... - Go to the place Babel mentioned
 7326424:Make Bright the Arrows, Gather the Shields... - Proceed to the place Babel mentioned
 7326425:Make Bright the Arrows, Gather the Shields... - Talk to Paimon
@@ -16283,7 +16283,7 @@
 7328703:Wisdom Has Built Her House, She Has Hewn Out Her Seven Pillars - [CHS] - (test)隐藏任务沙漠踩圈完成$HIDDEN
 7328704:Wisdom Has Built Her House, She Has Hewn Out Her Seven Pillars - Talk to the Tribe Scout
 7328705:Wisdom Has Built Her House, She Has Hewn Out Her Seven Pillars - Talk to Aderfi
-7328706:Wisdom Has Built Her House, She Has Hewn Out Her Seven Pillars - Meet with the tribe's matriarch
+7328706:Wisdom Has Built Her House, She Has Hewn Out Her Seven Pillars - Meet with the tribe's Matriarch
 7328707:Wisdom Has Built Her House, She Has Hewn Out Her Seven Pillars - Talk to Babel
 7328708:Wisdom Has Built Her House, She Has Hewn Out Her Seven Pillars - Help Yuften together with Jeht
 7328709:Wisdom Has Built Her House, She Has Hewn Out Her Seven Pillars - Feed the crocodiles together with Jeht

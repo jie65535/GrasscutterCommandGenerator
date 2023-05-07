@@ -22,6 +22,7 @@ import emu.grasscutter.command.CommandHandler;
 import emu.grasscutter.command.CommandMap;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.ResourceLoader;
+import emu.grasscutter.data.excels.AchievementData;
 import emu.grasscutter.data.excels.AvatarData;
 import emu.grasscutter.data.excels.ItemData;
 import emu.grasscutter.game.inventory.ItemType;
@@ -68,6 +69,7 @@ public final class Tools {
         val monsterDataMap = new Int2ObjectRBTreeMap<>(GameData.getMonsterDataMap());
         val sceneDataMap = new Int2ObjectRBTreeMap<>(GameData.getSceneDataMap());
         val questDataMap = new Int2ObjectRBTreeMap<>(GameData.getQuestDataMap());
+        val achievementDataMap = new Int2ObjectRBTreeMap<>(GameData.getAchievementDataMap());
 
         // Create builders and helper functions
         val handbookBuilders = IntStream.range(0, TextStrings.NUM_LANGUAGES).mapToObj(i -> new StringBuilder()).toList();
@@ -90,12 +92,14 @@ public final class Tools {
                 newTranslatedLine(template, LongStream.of(hashes).mapToObj(hash -> getTextMapKey(hash)).toArray(TextStrings[]::new));
             }
         };
+        Grasscutter.getLogger().debug("Generating...");
 
         // Preamble
         h.newLine("// Grasscutter " + GameConstants.VERSION + " GM Handbook");
         h.newLine("// Created " + DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss").format(LocalDateTime.now()));
 
         // Commands
+        Grasscutter.getLogger().debug("Commands generating...");
         h.newSection("Commands");
         final List<CommandHandler> cmdList = CommandMap.getInstance().getHandlersAsList();
         final String padCmdLabel = "%s:";
@@ -108,6 +112,7 @@ public final class Tools {
             }
         }
         // Avatars
+        Grasscutter.getLogger().debug("Avatars generating...");
         h.newSection("Avatars");
         for (val data : avatarDataMap.values()) {
             if (data.getId() >= 10000002 && data.getId() < 11000000)
@@ -115,6 +120,7 @@ public final class Tools {
         }
 //        avatarDataMap.forEach((id, data) -> h.newTranslatedLine("%d:".formatted(id) + "{0}", data.getNameTextMapHash()));
         // Items
+        Grasscutter.getLogger().debug("Items generating...");
         h.newSection("Items");
         Map<ItemType, List<ItemData>> items = new HashMap<>();
         for (val type : ItemType.values()) {
@@ -134,6 +140,7 @@ public final class Tools {
 
             if (kv.getValue().size() == 0)
                 continue;
+            Grasscutter.getLogger().debug(kv.getKey().name() + " generating...");
             h.newSection(kv.getKey().name());
             if (kv.getKey() == ItemType.ITEM_MATERIAL) {
                 Map<MaterialType, List<ItemData>> materials = new HashMap<>();
@@ -152,6 +159,8 @@ public final class Tools {
                         .average()
                         .orElse(0)))
                     .toList()) {
+
+                    Grasscutter.getLogger().debug(mkv.getKey().name() + " generating...");
                     h.newSection(mkv.getKey().name());
                     if (mkv.getKey() == MaterialType.MATERIAL_BGM) {
                         for (val item : mkv.getValue()) {
@@ -165,7 +174,7 @@ public final class Tools {
                                 .map(hash -> getTextMapKey(hash));
                             if (bgmName.isPresent()) {
                                 h.newTranslatedLine("%d:{0} - {1}".formatted(item.getId()), getTextMapKey(item.getNameTextMapHash()), bgmName.get());
-                                return;
+                                continue;
                             }  // Fall-through
                             h.newTranslatedLine("%d:{0}".formatted(item.getId()), getTextMapKey(item.getNameTextMapHash()));
                         }
@@ -230,6 +239,7 @@ public final class Tools {
 //            }
 //        });
         // Monsters
+        Grasscutter.getLogger().debug("Monsters generating...");
         h.newSection("Monsters");
         val monsterTypes = MonsterType.values();
         for (val type : monsterTypes) {
@@ -243,20 +253,30 @@ public final class Tools {
         }
 
         // Scenes - no translations
+        Grasscutter.getLogger().debug("Scenes generating...");
         h.newSection("Scenes");
         sceneDataMap.forEach((id, data) -> h.newLine("%d:".formatted(id) + data.getScriptData()));
         // Quests
+        Grasscutter.getLogger().debug("Quests generating...");
         h.newSection("Quests");
         questDataMap.forEach((id, data) -> h.newTranslatedLine(
             "%d:".formatted(id) + "{0} - {1}",
             mainQuestTitles.get(data.getMainId()),
             data.getDescTextMapHash()));
 
+        // Achievements
+        Grasscutter.getLogger().debug("Achievements generating...");
+        h.newSection("Achievements");
+        achievementDataMap.values().stream()
+            .filter(AchievementData::isUsed)
+            .forEach(data -> h.newTranslatedLine("%d:".formatted(data.getId()) + "{0} - {1}", data.getTitleTextMapHash(), data.getDescTextMapHash()));
+
         // Write txt files
         for (int i = 0; i < TextStrings.NUM_LANGUAGES; i++) {
             File GMHandbookOutputpath=new File("./GM Handbook");
             GMHandbookOutputpath.mkdir();
             final String fileName = "./GM Handbook/GM Handbook - %s.txt".formatted(TextStrings.ARR_LANGUAGES[i]);
+            Grasscutter.getLogger().debug("Generating " + fileName);
             try (PrintWriter writer = new PrintWriter(new OutputStreamWriter(new FileOutputStream(fileName), StandardCharsets.UTF_8), false)) {
                 writer.write(handbookBuilders.get(i).toString());
             }

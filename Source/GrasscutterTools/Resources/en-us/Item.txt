@@ -55,6 +55,9 @@
 153:Shattered Phenocryst
 155:Courage Test Ticket
 156:Festive Fever
+157:Floral Coupon
+158:Gala Excitement
+159:Festive Ticket
 201:Primogem
 202:Mora
 203:Genesis Crystal
@@ -134,6 +137,10 @@
 1076:Faruzan
 1077:Yaoyao
 1078:Alhaitham
+1079:Dehya
+1080:Mika
+1081:Kaveh
+1082:Baizhu
 
 
 // MATERIAL_TALENT
@@ -208,6 +215,10 @@
 1176:Faruzan's Stella Fortuna
 1177:Yaoyao's Stella Fortuna
 1178:Alhaitham's Stella Fortuna
+1179:Dehya's Stella Fortuna
+1180:Mika's Stella Fortuna
+1181:Kaveh's Stella Fortuna
+1182:Baizhu's Stella Fortuna
 
 
 // MATERIAL_ADSORBATE
@@ -791,6 +802,28 @@
 108479:Shimi Chazuke
 108487:Qingce Household Dish
 108488:Crocodile Jerky
+108489:Suspicious Tulumba
+108490:Tulumba
+108491:Delicious Tulumba
+108492:Suspicious Gilded Tajine
+108493:Gilded Tajine
+108494:Delicious Gilded Tajine
+108495:Suspicious Super Magnificent Pizza
+108496:Super Magnificent Pizza
+108497:Delicious Super Magnificent Pizza
+108498:Suspicious Minty Fruit Tea
+108499:Minty Fruit Tea
+108500:Delicious Minty Fruit Tea
+108501:Goldflame Tajine
+108502:Surveyor's Breakfast Sandwich
+108503:Suspicious Fatteh
+108504:Fatteh
+108505:Delicious Fatteh
+108506:Suspicious Jade Fruit Soup
+108507:Jade Fruit Soup
+108508:Delicious Jade Fruit Soup
+108509:The Endeavor
+108510:Heat-Quelling Soup
 111006:Heatshield Potion
 111007:Desiccant Potion
 111008:Frostshield Potion
@@ -868,6 +901,7 @@
 100095:Eel Meat
 100096:Glabrous Beans
 100097:Mysterious Meat
+100098:Coffee Beans
 101001:Iron Chunk
 101002:White Iron Chunk
 101003:Crystal Chunk
@@ -905,6 +939,8 @@
 101220:Henna Berry
 101221:Ajilenakh Nut
 101222:Sand Grease Pupa
+101223:Mourning Flower
+101224:Trishiraite
 101225:Scarab
 101228:Viparyas
 101401:Fabric
@@ -1112,6 +1148,9 @@
 112074:Desiccated Shell
 112075:Sturdy Shell
 112076:Marked Shell
+112077:A Flower Yet to Bloom
+112078:Treasured Flower
+112079:Wanderer's Blooming Flower
 113001:Hurricane Seed
 113002:Lightning Prism
 113003:Dvalin's Plume
@@ -1155,6 +1194,10 @@
 113042:Mirror of Mushin
 113043:Daka's Bell
 113044:Pseudo-Stamens
+113045:Evergloom Ring
+113046:Worldspan Fern
+113047:Primordial Greenbloom
+113048:Everamber
 114001:Tile of Decarabian's Tower
 114002:Debris of Decarabian's City
 114003:Fragment of Decarabian's Epic
@@ -1214,6 +1257,7 @@
 200111:Original Fish Ointment
 200112:Plume of the Changing Winds
 200113:Parasol Talcum
+200114:Unfading Silky Grace
 
 
 // MATERIAL_HOME_SEED
@@ -1257,102 +1301,127 @@
 140008:Wings of the Stormstrider
 140009:Wings of Shimmering Galaxy
 140010:Wings of the Forest
+140011:Wings of the Starlit Feast
 
 
 // MATERIAL_BGM
-141001:Radiant Spincrystal 1
-141002:Radiant Spincrystal 2
-141003:Radiant Spincrystal 3
-141004:Radiant Spincrystal 4
-141005:Radiant Spincrystal 5
-141006:Radiant Spincrystal 6
-141007:Radiant Spincrystal 7
-141008:Radiant Spincrystal 8
-141009:Radiant Spincrystal 9
-141010:Radiant Spincrystal 10
-141011:Radiant Spincrystal 11
-141012:Radiant Spincrystal 12
-141013:Radiant Spincrystal 13
-141014:Radiant Spincrystal 14
-141015:Radiant Spincrystal 15
-141016:Radiant Spincrystal 16
-141017:Radiant Spincrystal 17
-141018:Radiant Spincrystal 18
-141019:Radiant Spincrystal 19
-141020:Radiant Spincrystal 20
-141021:Radiant Spincrystal 21
-141022:Radiant Spincrystal 22
-141023:Radiant Spincrystal 23
-141024:Radiant Spincrystal 24
-141025:Radiant Spincrystal 25
-141026:Radiant Spincrystal 26
-141027:Radiant Spincrystal 27
-141028:Radiant Spincrystal 28
-141029:Radiant Spincrystal 29
-141030:Radiant Spincrystal 30
-141031:Radiant Spincrystal 31
-141032:Radiant Spincrystal 32
-141033:Radiant Spincrystal 33
-141034:Radiant Spincrystal 34
-141035:Radiant Spincrystal 35
-141036:Radiant Spincrystal 36
-141037:Radiant Spincrystal 37
-141038:Radiant Spincrystal 38
-141039:Radiant Spincrystal 39
-141040:Radiant Spincrystal 40
-141041:Radiant Spincrystal 41
-141042:Radiant Spincrystal 42
-141043:Radiant Spincrystal 43
-141044:Radiant Spincrystal 44
-141045:Radiant Spincrystal 45
-141046:Radiant Spincrystal 46
-141047:Radiant Spincrystal 47
-141048:Radiant Spincrystal 48
-141049:Radiant Spincrystal 49
-141050:Radiant Spincrystal 50
-141051:Radiant Spincrystal 51
-141052:Radiant Spincrystal 52
-141053:Radiant Spincrystal 53
-141054:Radiant Spincrystal 54
-141055:Radiant Spincrystal 55
-141056:Radiant Spincrystal 56
-141057:Radiant Spincrystal 57
-141058:Radiant Spincrystal 58
-141059:Radiant Spincrystal 59
-141060:Radiant Spincrystal 60
-141061:Radiant Spincrystal 61
-141062:Radiant Spincrystal 62
-141063:Radiant Spincrystal 63
-141064:Radiant Spincrystal 64
-141065:Radiant Spincrystal 65
-141066:Radiant Spincrystal 66
-141067:Radiant Spincrystal 67
-141068:Radiant Spincrystal 68
-141069:Radiant Spincrystal 69
-141070:Radiant Spincrystal 70
-141071:Radiant Spincrystal 71
-141072:Radiant Spincrystal 72
-141073:Radiant Spincrystal 73
-141074:Radiant Spincrystal 74
-141075:Radiant Spincrystal 75
-141076:Radiant Spincrystal 76
-141077:Radiant Spincrystal 77
-141078:Radiant Spincrystal 78
-141079:Radiant Spincrystal 79
-141080:Radiant Spincrystal 80
-141081:Radiant Spincrystal 81
-141082:Radiant Spincrystal 82
-141083:Radiant Spincrystal 83
-141084:Radiant Spincrystal 84
-141085:Radiant Spincrystal 85
-141086:Radiant Spincrystal 86
-141087:Radiant Spincrystal 87
-141088:Radiant Spincrystal 88
-141089:Radiant Spincrystal 89
-141090:Radiant Spincrystal 90
-141091:Radiant Spincrystal 91
-141092:Radiant Spincrystal 92
-141093:Radiant Spincrystal 93
+141001:Radiant Spincrystal 1 - Dawn Winery Theme
+141002:Radiant Spincrystal 2 - A Sweet Smile
+141003:Radiant Spincrystal 3 - Lone Sojourner
+141004:Radiant Spincrystal 4 - A Day in Mondstadt
+141005:Radiant Spincrystal 5 - The Edge of the Prairie
+141006:Radiant Spincrystal 6 - A Tale of Two Dragons
+141007:Radiant Spincrystal 7 - Happy Journey
+141008:Radiant Spincrystal 8 - Legend of the Wind
+141009:Radiant Spincrystal 9 - Bustling Afternoon in Mondstadt
+141010:Radiant Spincrystal 10 - Dusk in Mondstadt
+141011:Radiant Spincrystal 11 - Mondstadt Starlit
+141012:Radiant Spincrystal 12 - Moonlight in Mondstadt
+141013:Radiant Spincrystal 13 - Another Day in Mondstadt
+141014:Radiant Spincrystal 14 - Windborne Hymn
+141015:Radiant Spincrystal 15 - Knights of Favonius
+141016:Radiant Spincrystal 16 - Angel's Share
+141017:Radiant Spincrystal 17 - A Happy Day
+141018:Radiant Spincrystal 18 - Tender Strength
+141019:Radiant Spincrystal 19 - Before Dawn, at the Winery
+141020:Radiant Spincrystal 20 - Whispering Plain
+141021:Radiant Spincrystal 21 - A New Day With Hope
+141022:Radiant Spincrystal 22 - Eternal Anamnesis
+141023:Radiant Spincrystal 23 - Journey of Hope
+141024:Radiant Spincrystal 24 - Sun Rises in Liyue
+141025:Radiant Spincrystal 25 - Good Night, Liyue
+141026:Radiant Spincrystal 26 - Call It a Day in Liyue
+141027:Radiant Spincrystal 27 - Clear Sky Over Liyue
+141028:Radiant Spincrystal 28 - Cozy Leisure Time
+141029:Radiant Spincrystal 29 - Winding River
+141030:Radiant Spincrystal 30 - Mild Waves
+141031:Radiant Spincrystal 31 - Rhythm Amidst the Reeds
+141032:Radiant Spincrystal 32 - Flows of Jade-Like Water
+141033:Radiant Spincrystal 33 - Flow of Mildness
+141034:Radiant Spincrystal 34 - Vague Whispers
+141035:Radiant Spincrystal 35 - Legends Swept Away
+141036:Radiant Spincrystal 36 - Plain of Nostalgia
+141037:Radiant Spincrystal 37 - Rhythms From the Conch
+141038:Radiant Spincrystal 38 - Peaceful Hike
+141039:Radiant Spincrystal 39 - The Fading Stories
+141040:Radiant Spincrystal 40 - Above the Sea of Clouds
+141041:Radiant Spincrystal 41 - Rainbow at Summit
+141042:Radiant Spincrystal 42 - Red Leaf on the Chessboard
+141043:Radiant Spincrystal 43 - Slumbering Lore
+141044:Radiant Spincrystal 44 - Lost Expectation
+141045:Radiant Spincrystal 45 - The Realm Within
+141046:Radiant Spincrystal 46 - Sojourner's Sweet Dream
+141047:Radiant Spincrystal 47 - Miko's Night
+141048:Radiant Spincrystal 48 - Streets of Elegance
+141049:Radiant Spincrystal 49 - The Land of Her Serenity
+141050:Radiant Spincrystal 50 - The Mysterious Islands
+141051:Radiant Spincrystal 51 - Everlasting Devotion
+141052:Radiant Spincrystal 52 - Kitsune's Mask
+141053:Radiant Spincrystal 53 - Hanachirusato
+141054:Radiant Spincrystal 54 - Time to Say Farewell
+141055:Radiant Spincrystal 55 - Flickering Sakura
+141056:Radiant Spincrystal 56 - Murmuring Creek
+141057:Radiant Spincrystal 57 - Scarred Island
+141058:Radiant Spincrystal 58 - Silent Testimony
+141059:Radiant Spincrystal 59 - Island of Hanabi
+141060:Radiant Spincrystal 60 - Preparation of Matsuri
+141061:Radiant Spincrystal 61 - Illuminated Coral Palace
+141062:Radiant Spincrystal 62 - A Tranquil Town
+141063:Radiant Spincrystal 63 - In a Harmonious Atmosphere
+141064:Radiant Spincrystal 64 - Island of Crystal and Pearl
+141065:Radiant Spincrystal 65 - Misty Truth
+141066:Radiant Spincrystal 66 - Sorrows of Strays
+141067:Radiant Spincrystal 67 - Ruu's Melody
+141068:Radiant Spincrystal 68 - Roaming in Silence
+141069:Radiant Spincrystal 69 - Echoes of Solitude
+141070:Radiant Spincrystal 70 - Dirge of the Soundless
+141071:Radiant Spincrystal 71 - Nothing but Ivy
+141072:Radiant Spincrystal 72 - Forgotten Epic
+141073:Radiant Spincrystal 73 - Beyond Klesha
+141074:Radiant Spincrystal 74 - Melody of Hidden Seeds
+141075:Radiant Spincrystal 75 - Varuna's Mercy
+141076:Radiant Spincrystal 76 - Vestige of Dahri
+141077:Radiant Spincrystal 77 - Chatter Between Roots
+141078:Radiant Spincrystal 78 - Whirling of Leaves and Petals
+141079:Radiant Spincrystal 79 - Hustle and Bustle of Ormos
+141080:Radiant Spincrystal 80 - Halcyon Times
+141081:Radiant Spincrystal 81 - A Puff of Cool Breeze
+141082:Radiant Spincrystal 82 - On the Barren Sands
+141083:Radiant Spincrystal 83 - Arid Canyon
+141084:Radiant Spincrystal 84 - Settlement for Exiles
+141085:Radiant Spincrystal 85 - Ruins of Scorching Might
+141086:Radiant Spincrystal 86 - Eye of Deshret
+141087:Radiant Spincrystal 87 - Emerald in the Desert
+141088:Radiant Spincrystal 88 - Radiant Spincrystal 88
+141089:Radiant Spincrystal 89 - Radiant Spincrystal 89
+141090:Radiant Spincrystal 90 - Radiant Spincrystal 90
+141091:Radiant Spincrystal 91 - Radiant Spincrystal 91
+141092:Radiant Spincrystal 92 - Radiant Spincrystal 92
+141093:Radiant Spincrystal 93 - Radiant Spincrystal 93
+141094:Radiant Spincrystal 94 - Radiant Spincrystal 94
+141095:Radiant Spincrystal 95 - Radiant Spincrystal 95
+141096:Radiant Spincrystal 96 - Radiant Spincrystal 96
+141097:Radiant Spincrystal 97 - Radiant Spincrystal 97
+141098:Radiant Spincrystal 98 - Radiant Spincrystal 98
+
+
+// MATERIAL_SPICE_FOOD
+141099:Fragrant Steak
+141100:Fragrant Mondstadt Grilled Fish
+141101:Fragrant Northern Smoked Chicken
+141102:Fragrant Chicken-Mushroom Skewer
+141103:Fragrant Satisfying Salad
+141104:Fragrant Crab, Ham & Veggie Bake
+141105:Fragrant Sticky Honey Roast
+141106:Fragrant Fisherman's Toast
+141107:Fragrant Fried Radish Balls
+141108:Fragrant Tea Break Pancake
+141109:Fragrant Radish Veggie Soup
+141110:Fragrant Mushroom Pizza
+141111:Fragrant Cold Cut Platter
+141112:Fragrant Calla Lily Seafood Soup
+141113:Fragrant Mint Jelly
+141114:Fragrant Sunshine Sprat
 
 
 // MATERIAL_CONSUME
@@ -1382,10 +1451,12 @@
 107018:Sumeru Shrine of Depths Key
 107020:Match Invitation Letter
 107021:Lucky Coin
+107022:Plume of Purifying Light
 111020:Small Pretty Crystal
 111021:Medium Pretty Crystal
 111022:Big Pretty Crystal
 113021:Dream Solvent
+141115:Fragrant Seasoning
 200101:Rime-Worn Fragment
 200102:Rime-Worn Crystal
 220007:Condensed Resin
@@ -1602,7 +1673,17 @@
 210148:Yaoyao: Yuegui
 210149:Celebration: Lenticular Clouds
 210150:Travel Notes: Rhythm and Rhyme
-210151:Achievement: Sandstorm
+210151:Sumeru: Sandstorm
+210152:Dehya: Purifying Flame
+210153:Mika: Index
+210154:Travel Notes: Artful Intent
+210155:Baizhu: Relief
+210156:Kaveh: Domed Court
+210157:Achievement: Infinitum
+210158:Achievement: Transient Twilight
+210159:Sumeru: The Great Dream
+210160:Sumeru: Amrita
+210161:Travel Notes: Crown of Glory
 
 
 // MATERIAL_WIDGET
@@ -1671,6 +1752,11 @@
 220073:Wisdom Orb
 220074:Cloud Retainer's Damasked Device
 220075:Wilderness Compass
+220076:Sorush
+220077:Windblume Kamera
+220078:Festive Drum
+220079:Sorush
+220080:Search Compass
 
 
 // MATERIAL_ARANARA
@@ -1734,8 +1820,14 @@
 330025:Barbara
 330026:Mirror Maiden
 330027:Jadeplume Terrorshroom
+330028:Eula
+330030:Sangonomiya Kokomi
+330031:Kamisato Ayato
 330032:Klee
 330034:Beidou
+330035:Kujou Sara
+330042:Arataki Itto
+330043:Tighnari
 330500:Undivided Heart
 330501:Cold-Blooded Strike
 330502:Steady Breathing
@@ -1763,8 +1855,14 @@
 330525:Glorious Season
 330526:Mirror Cage
 330527:Proliferating Spores
+330528:Wellspring of War-Lust
+330529:Tamanooya's Casket
 330530:Pounding Surprise
 330531:Lightning Storm
+330535:Keen Sight
+330537:Sin of Pride
+330538:Kyouka Fuushi
+330539:Arataki Ichiban
 331000:Magic Guide
 331001:Sacrificial Fragments
 331002:Skyward Atlas
@@ -1800,6 +1898,9 @@
 331032:Archaic Petra
 331033:Laurel Coronet
 331034:Deepwood Memories
+331035:Ornate Kabuto
+331036:General's Ancient Helm
+331045:Favonius Sword
 332000:Liyue Harbor Wharf
 332001:Knights of Favonius Library
 332002:Jade Chamber
@@ -1820,6 +1921,7 @@
 332017:Liu Su
 332018:Parametric Transformer
 332019:NRE
+332020:Grand Narukami Shrine
 333000:Elemental Resonance: Woven Ice
 333001:Elemental Resonance: Shattering Ice
 333002:Elemental Resonance: Woven Waters
@@ -1886,6 +1988,12 @@
 334027:Jadeplume Terrorshroom
 334028:Beidou
 334029:Klee
+334030:Eula
+334031:Sangonomiya Kokomi
+334032:Kujou Sara
+334033:Kamisato Ayato
+334034:Arataki Itto
+334035:Tighnari
 334500:Undivided Heart
 334501:Cold-Blooded Strike
 334502:Steady Breathing
@@ -1915,6 +2023,12 @@
 334527:Proliferating Spores
 334528:Lightning Storm
 334529:Pounding Surprise
+334530:Wellspring of War-Lust
+334531:Tamanooya's Casket
+334532:Sin of Pride
+334533:Kyouka Fuushi
+334534:Arataki Ichiban
+334535:Keen Sight
 335000:Magic Guide
 335001:Sacrificial Fragments
 335002:Skyward Atlas
@@ -1950,6 +2064,9 @@
 335032:Archaic Petra
 335033:Laurel Coronet
 335034:Deepwood Memories
+335035:Ornate Kabuto
+335036:General's Ancient Helm
+335037:Favonius Sword
 336000:Liyue Harbor Wharf
 336001:Knights of Favonius Library
 336002:Jade Chamber
@@ -1970,6 +2087,7 @@
 336017:Liu Su
 336018:Parametric Transformer
 336019:NRE
+336020:Grand Narukami Shrine
 337000:Elemental Resonance: Woven Ice
 337001:Elemental Resonance: Shattering Ice
 337002:Elemental Resonance: Woven Waters
@@ -2014,7 +2132,7 @@
 339004:Sumeru
 339009:Legend
 339010:Adept
-339011:Hydro Crystal Chunk
+339011:Crystal Chunk
 339012:Magical Crystal Chunk
 339013:Amethyst Lump
 339014:Flaming Flower Stamen
@@ -2024,6 +2142,7 @@
 339018:Cecilia
 339019:Glaze Lily
 339020:Dendrobium
+339021:Lazurite Swirl
 339500:Mondstadt
 339501:Liyue
 339502:Inazuma
@@ -2158,6 +2277,8 @@
 380424:Blooming Illumination
 380426:Fluttering Light
 380427:Light of Slumber
+380428:"Sweet Luster"
+380429:"Light's Constancy"
 380504:Efflorescent Illumination
 381101:Northern Birch Folding Counter
 381102:Open-Top Fir Shelf
@@ -2205,6 +2326,7 @@
 381320:Spirit of the Banquet
 381321:A Table for Two
 381322:Long Adhigama Chamfer Table
+381324:Athel Wood Compact Desk
 381401:Breeze-Blessed Bed
 381402:Cloudy Haze Bed
 381403:Yumemiru "Sakura's Rest" Bed
@@ -2262,6 +2384,10 @@
 382237:Fragrance of Low-Heat Roast
 382238:Deepwood Dweller's Aggregation
 382239:Hued Vase: Molten Sand
+382240:"Warmth and Cold Overlaid"
+382241:Hued Vase: Ajilenakh
+382242:Hued Vase: Crimson Sands
+382243:"Pure Heat"
 382301:Mondstadt Rug: Crimson Ardor
 382302:Mondstadt Rug: Tireless Search
 382303:Tavern Rug: Home Away From Home
@@ -2281,8 +2407,8 @@
 383108:Joyful Illumination
 383109:Light of the Land of Wisdom
 383110:Nightwatcher's Candlelight
-383111:Listening Candelight
-383112:Two-way Iron Lamp
+383111:Listening Candlelight
+383112:Two-Way Iron Lamp
 383201:Flower Arrangement: Baby Blue Tranquility
 383202:Potted Plant: Crystalline Breeze
 383203:Flower Arrangement: Sprawling Daybreak
@@ -2322,6 +2448,11 @@
 383340:Deepwood Dweller's Brilliance
 383341:Hued Vase: Sprout
 383342:Star-Shaped Multipurpose Bottle
+383343:Hued Vase: Eventide
+383344:"Salty and Meaty" Painted Plate
+383345:"Sweet and Fruity" Painted Plate
+383346:"In Drink's Clarity"
+383347:"The Dust Differential"
 383501:"Realizations from the Land of Wisdom"
 383502:Restorative Fragrance
 383504:The Art of Retaining Water
@@ -2399,6 +2530,8 @@
 390321:Brightwood Kebab Cart
 390322:Abundance of Crisp Air
 390323:Deliberation of Choice
+390324:Karmaphala Wood Bulk Goods Berth
+390325:Adhigama Wood Open-Air Food Stall
 390401:Hilichurl Outpost Hut
 390402:Hilichurl Chieftain Hall
 390501:"Clouds East of Bishui"
@@ -2479,6 +2612,9 @@
 390732:Errands in the City of Wisdom
 390733:Silky Queller of Sea Monsters
 390734:Night of Serenity in the Sandy Breeze
+390735:Tea Fragrance in the Tranquil Court
+390736:Singing in the Tranquil Court
+390737:"Fine Sand in Warm Weather"
 391101:Bird and Blossom Design Fountain
 391102:Hilichurl Spiral Watchtower
 391103:Hilichurl Straw Hut
@@ -2501,6 +2637,7 @@
 391125:Desert Hut: Rest
 391126:Theater's Cool Mist
 391127:Clarity from the Land of Wisdom
+391128:Floral Swing
 391129:Port Ormos GP Crane III
 391130:Composite Timber Long-Distance Hand Cart
 391131:Composite Timber In-Port Transfer Cart
@@ -2543,6 +2680,12 @@
 391240:Desert Gate: Windjammer
 391241:Domed Gate: Forest Tune
 391242:Domed Wall: The Birds Sang
+391243:Vision of the City of Wisdom
+391244:Partition of the City of Wisdom
+391245:Light Shield of the City of Wisdom
+391246:Pilaster of the City of Wisdom
+391247:Common Wooden Stairs
+391248:Textured Whitestone Stairs
 392107:Foundations of Stone: Fortunate Times
 392606:Sub-space Structure: Suspended Pathway
 392607:Sub-Space Structure: Treetop Stroll
@@ -2595,8 +2738,15 @@
 393152:Karmaphala Wood Liquid Cargo Rack
 393153:"String, Feather, Trajectory"
 393154:Ingenuity of the Forest Forager
-393155:"It just might work!"
+393155:"It Just Might Work!"
 393156:Coloration and Precipitation
+393157:Leisure Device: Bouncy Tubby
+393158:Leisure Device: Bouncy Chubby
+393159:Caravan Ribat Type III Land Transport Pallet
+393160:Plain Vase: Drinks for a Hundred
+393161:Plain Vase: Stupor for Ten
+393162:Brightwood Self-Tightening Wine Buckets
+393163:Brightwood Fabric Box Platform
 393201:Potted Plant: Verdant Vastness
 393202:Water-Retaining Flower Beds
 393203:Soil-Carrying Wooden Barrel
@@ -2663,6 +2813,19 @@
 393370:Propitious Screen: Overlapping Clouds Above Peaks
 393371:Propitious Screen: Genuine Words Travel Far
 393372:"Trumpet and Firewood"
+393374:Ersatz Balloon: Whispering Breeze
+393375:Ersatz Balloon: Spherical Squall
+393376:Ersatz Balloon: Bumper Shroom
+393377:"Petaled Shade"
+393378:"Team Spirit"
+393379:"Scent of the Blazing Sun"
+393380:Athel Wood Light Cargo Boxes
+393381:"Vahumana Flag"
+393382:"Spantamad Flag"
+393383:"Haravatat Flag"
+393384:"Amurta Flag"
+393385:"Rtawahist Flag"
+393386:"Kshahrewar Flag"
 393401:Wrought Iron Carved Street Light
 393402:Pine Street Light
 393403:Evil-Repelling Lantern: All-Around Lighting
@@ -2773,6 +2936,8 @@
 360425:Between Moonlit Hills
 360426:Fluttering Light
 360427:Light of Slumber
+360428:"Sweet Luster"
+360429:"Light's Constancy"
 360504:Efflorescent Illumination
 361101:Northern Birch Folding Counter
 361102:Open-Top Fir Shelf
@@ -2821,6 +2986,8 @@
 361320:Spirit of the Banquet
 361321:A Table for Two
 361322:Long Adhigama Chamfer Table
+361323:Million Flavors Savored
+361324:Athel Wood Compact Desk
 361401:Breeze-Blessed Bed
 361402:Cloudy Haze Bed
 361403:Yumemiru "Sakura's Rest" Bed
@@ -2882,6 +3049,11 @@
 362237:Fragrance of Low-Heat Roast
 362238:Deepwood Dweller's Aggregation
 362239:Hued Vase: Molten Sand
+362240:"Warmth and Cold Overlaid"
+362241:Hued Vase: Ajilenakh
+362242:Hued Vase: Crimson Sands
+362243:"Pure Heat"
+362244:"Still-Budding Artistry"
 362301:Mondstadt Rug: Crimson Ardor
 362302:Mondstadt Rug: Tireless Search
 362303:Tavern Rug: Home Away From Home
@@ -2902,7 +3074,7 @@
 363108:Joyful Illumination
 363109:Light of the Land of Wisdom
 363110:Nightwatcher's Candlelight
-363111:Listening Candelight
+363111:Listening Candlelight
 363112:Two-Way Iron Lamp
 363201:Flower Arrangement: Baby Blue Tranquility
 363202:Potted Plant: Crystalline Breeze
@@ -2954,6 +3126,12 @@
 363340:Deepwood Dweller's Brilliance
 363341:Hued Vase: Sprout
 363342:Star-Shaped Multipurpose Bottle
+363343:Hued Vase: Eventide
+363344:"Salty and Meaty" Painted Plate
+363345:"Sweet and Fruity" Painted Plate
+363346:"In Drink's Clarity"
+363347:"The Dust Differential"
+363348:"Omnidirector"
 363501:"Realizations from the Land of Wisdom"
 363502:Restorative Fragrance
 363504:The Art of Retaining Water
@@ -3080,6 +3258,10 @@
 368161:Faruzan
 368162:Yaoyao
 368163:Alhaitham
+368164:Dehya
+368165:Mika
+368166:Kaveh
+368167:Baizhu
 369101:Jade-Eyed Cat
 369102:Northland Hound
 369103:Forest Boar
@@ -3195,6 +3377,8 @@
 370321:Brightwood Kebab Cart
 370322:Abundance of Crisp Air
 370323:Deliberation of Choice
+370324:Karmaphala Wood Bulk Goods Berth
+370325:Adhigama Wood Open-Air Food Stall
 370401:Hilichurl Outpost Hut
 370402:Hilichurl Chieftain Hall
 370501:"Clouds East of Bishui"
@@ -3279,6 +3463,10 @@
 370732:Errands in the City of Wisdom
 370733:Silky Queller of Sea Monsters
 370734:Night of Serenity in the Sandy Breeze
+370735:Tea Fragrance in the Tranquil Court
+370736:Singing in the Tranquil Court
+370737:"Fine Sand in Warm Weather"
+370738:Akademiya Extravaganza Large Stage
 371101:Bird and Blossom Design Fountain
 371102:Hilichurl Spiral Watchtower
 371103:Hilichurl Straw Hut
@@ -3295,12 +3483,14 @@
 371118:Sub-Space Cabochon: In Soaring Flight
 371119:Stoneworks Crane: Mountain Mover
 371120:Stoneworks Crane: Hill Tamer
+371121:"The Poetry of Song and Dreams"
 371122:Desert Hut: Minutiae
 371123:Desert Hut: Questions
 371124:Desert Hut: Wilting
 371125:Desert Hut: Rest
 371126:Theater's Cool Mist
 371127:Clarity from the Land of Wisdom
+371128:Floral Swing
 371129:Port Ormos GP Crane III
 371130:Composite Timber Long-Distance Hand Cart
 371131:Composite Timber In-Port Transfer Cart
@@ -3348,6 +3538,12 @@
 371240:Desert Gate: Windjammer
 371241:Domed Gate: Forest Tune
 371242:Domed Wall: The Birds Sang
+371243:Vision of the City of Wisdom
+371244:Partition of the City of Wisdom
+371245:Light Shield of the City of Wisdom
+371246:Pilaster of the City of Wisdom
+371247:Common Wooden Stairs
+371248:Textured Whitestone Stairs
 372101:Sub-Space Boulder: Craggy Canopy
 372102:Sub-Space Boulder: Rocky Bulwark
 372103:Sub-Space Boulder: Verdant Peak
@@ -3386,6 +3582,8 @@
 372227:Hot Spring Whitestone: Secret Fire
 372228:Disk-Patterned Terracotta
 372229:Painted Oblique Stone
+372230:Broken Mossed Stone
+372231:Crumbling Mossed Stone
 372301:"The Color of the Wind"
 372302:Silversand Coconut Tree
 372303:Whitesand Coconut Tree
@@ -3428,6 +3626,7 @@
 372340:Viridite Noonwood
 372341:Viridite Dawnwood
 372342:Secluded Hibiscus Branches
+372343:Spreading Branches of the Sky
 372401:Fragrant Cedar Vegetable Rack
 372402:Blooming Hedge
 372403:Ordinary Garden Hedge
@@ -3508,6 +3707,12 @@
 372479:The Bountiful Waterside
 372480:Umbrella of Refuge
 372481:A Different Kind of Sweetness
+372482:Halted Spoondrift
+372483:Glimmering Firework
+372484:"Trail of Floral Waters"
+372485:"Steps of Floral Waters"
+372486:"Greenery of Floral Waters"
+372487:"Fruit of Floral Waters"
 372501:A Path of Value: Jade Field
 372502:A Path of Value: Luxuriant Glebe
 372503:A Path of Value: Orderly Meadow
@@ -3575,6 +3780,16 @@
 373154:Ingenuity of the Forest Forager
 373155:"It Just Might Work!"
 373156:Coloration and Precipitation
+373157:Leisure Device: Bouncy Tubby
+373158:Leisure Device: Bouncy Chubby
+373159:Caravan Ribat Type III Land Transport Pallet
+373160:Plain Vase: Drinks for a Hundred
+373161:Plain Vase: Stupor for Ten
+373162:Brightwood Self-Tightening Wine Buckets
+373163:Brightwood Fabric Box Platform
+373164:"The Arrayed Stars Mirrored"
+373165:"Spiraling Duet"
+373166:"Monthly Frustration-Be-Gone"
 373201:Potted Plant: Verdant Vastness
 373202:Water-Retaining Flower Beds
 373203:Soil-Carrying Wooden Barrel
@@ -3660,6 +3875,19 @@
 373371:Propitious Screen: Genuine Words Travel Far
 373372:"Trumpet and Firewood"
 373373:Prototype Aranara
+373374:Ersatz Balloon: Whispering Breeze
+373375:Ersatz Balloon: Spherical Squall
+373376:Ersatz Balloon: Bumper Shroom
+373377:"Petaled Shade"
+373378:"Team Spirit"
+373379:"Scent of the Blazing Sun"
+373380:Athel Wood Light Cargo Boxes
+373381:"Vahumana Flag"
+373382:"Spantamad Flag"
+373383:"Haravatat Flag"
+373384:"Amurta Flag"
+373385:"Rtawahist Flag"
+373386:"Kshahrewar Flag"
 373401:Wrought Iron Carved Street Light
 373402:Pine Street Light
 373403:Evil-Repelling Lantern: All-Around Lighting
