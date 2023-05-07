@@ -52,14 +52,21 @@ namespace GrasscutterTools.Forms
                 {
                     StartPosition = FormStartPosition.Manual;
                     Location = location;
-                    Logger.I(TAG, "Restore window location: " + Location.ToString());
+                    Logger.I(TAG, "Restore window location: " + Location);
                 }
 
                 // 还原窗体大小
                 if (Settings.Default.MainFormSize != default)
                 {
                     Size = Settings.Default.MainFormSize;
-                    Logger.I(TAG, "Restore window size: " + Size.ToString());
+                    Logger.I(TAG, "Restore window size: " + Size);
+                }
+
+                // 还原导航容器间隔位置
+                if (Settings.Default.NavContainerSplitterDistance >= NavContainer.Panel1MinSize)
+                {
+                    NavContainer.SplitterDistance = Settings.Default.NavContainerSplitterDistance;
+                    Logger.I(TAG, "Restore NavContainer SplitterDistance: " + NavContainer.SplitterDistance);
                 }
 
                 // 恢复自动复制选项状态
@@ -149,6 +156,15 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
+        /// 导航列表大小改变时触发
+        /// </summary>
+        private void ListPages_SizeChanged(object sender, EventArgs e)
+        {
+            // 立刻重绘列表项
+            ListPages.Refresh();
+        }
+
+        /// <summary>
         /// 创建指定类型页面
         /// </summary>
         /// <typeparam name="T">页面类型，必须继承BasePage</typeparam>
@@ -232,19 +248,19 @@ namespace GrasscutterTools.Forms
             {
                 // 记录界面状态
                 Settings.Default.AutoCopy = ChkAutoCopy.Checked;
+                // 记录窗口位置
                 if (WindowState == FormWindowState.Normal)
                     Settings.Default.MainFormLocation = Location;
                 // 如果命令窗口已经弹出了，则不要保存多余的高度
-                if (TxtCommandRunLog != null)
-                    Settings.Default.MainFormSize = new Size(Width, Height - TxtCommandRunLogMinHeight);
-                else
-                    Settings.Default.MainFormSize = Size;
-
+                Settings.Default.MainFormSize = TxtCommandRunLog != null ? new Size(Width, Height - TxtCommandRunLogMinHeight) : Size;
+                // 记录导航容器分隔位置
+                Settings.Default.NavContainerSplitterDistance = NavContainer.SplitterDistance;
                 // 保存设置
                 Settings.Default.Save();
             }
             catch (Exception ex)
             {
+                Logger.E(TAG, "Save settings failed.", ex);
                 MessageBox.Show(Resources.SettingSaveError + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

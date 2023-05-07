@@ -117,316 +117,313 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="CmbCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>600, 25</value>
-  </data>
-  <data name="&gt;&gt;TCMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="TCMain.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
-    <value>FlatButtons</value>
-  </data>
-  <data name="ChkAutoCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 21</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="TCMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>656, 275</value>
-  </data>
-  <data name="&gt;&gt;ChkAutoCopy.Parent" xml:space="preserve">
-    <value>GrpCommand</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>850, 400</value>
-  </data>
-  <data name="MenuSpawnEntityFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 4</value>
-  </data>
-  <data name="&gt;&gt;CmbCommand.Parent" xml:space="preserve">
-    <value>GrpCommand</value>
-  </data>
-  <data name="&gt;&gt;GrpCommand.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ListPages.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;NavContainer.Panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnCopy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListPages.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="GrpCommand.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>610, 56</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="GrpCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="CmbCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 21</value>
-  </data>
-  <data name="ListPages.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 275</value>
-  </data>
-  <data name="&gt;&gt;NavContainer.Panel2.Parent" xml:space="preserve">
-    <value>NavContainer</value>
-  </data>
-  <data name="&gt;&gt;MenuSpawnEntityFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="GrpCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 293</value>
-  </data>
-  <data name="&gt;&gt;CmbCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
-    <value>执行(F5)</value>
-  </data>
-  <data name="&gt;&gt;GrpCommand.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="NavContainer.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;NavContainer.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpCommand.Name" xml:space="preserve">
-    <value>GrpCommand</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="ChkAutoCopy.Text" xml:space="preserve">
-    <value>自动</value>
-  </data>
-  <data name="TCMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ListPages.ItemHeight" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="ChkAutoCopy.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="BtnCopy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;ChkAutoCopy.Name" xml:space="preserve">
-    <value>ChkAutoCopy</value>
-  </data>
-  <data name="ChkAutoCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="GrpCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;BtnInvokeOpenCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ChkAutoCopy.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 22</value>
-  </data>
-  <data name="TCMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="ChkAutoCopy.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;BtnCopy.Name" xml:space="preserve">
-    <value>BtnCopy</value>
-  </data>
-  <data name="&gt;&gt;BtnInvokeOpenCommand.Name" xml:space="preserve">
-    <value>BtnInvokeOpenCommand</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;NavContainer.Name" xml:space="preserve">
-    <value>NavContainer</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>GrasscutterTools</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="ListPages.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="TCMain.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>610, 275</value>
-  </data>
-  <data name="&gt;&gt;CmbCommand.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;NavContainer.Panel1.Parent" xml:space="preserve">
-    <value>NavContainer</value>
-  </data>
-  <data name="ChkAutoCopy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;TCMain.Name" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;BtnCopy.Parent" xml:space="preserve">
-    <value>GrpCommand</value>
-  </data>
   <data name="NavContainer.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
-  <data name="&gt;&gt;TCMain.Parent" xml:space="preserve">
-    <value>NavContainer.Panel2</value>
-  </data>
-  <data name="ListPages.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 10pt</value>
-  </data>
-  <data name="BtnCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="&gt;&gt;NavContainer.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;NavContainer.Panel1.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 9pt</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>834, 361</value>
-  </data>
-  <data name="&gt;&gt;ListPages.Parent" xml:space="preserve">
-    <value>NavContainer.Panel1</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;BtnCopy.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="NavContainer.SplitterDistance" type="System.Int32, mscorlib">
-    <value>150</value>
-  </data>
-  <data name="BtnCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>693, 22</value>
-  </data>
-  <data name="BtnInvokeOpenCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;ListPages.Name" xml:space="preserve">
-    <value>ListPages</value>
-  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="NavContainer.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
-  </data>
-  <data name="&gt;&gt;ListPages.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnInvokeOpenCommand.Parent" xml:space="preserve">
-    <value>GrpCommand</value>
-  </data>
-  <data name="TCMain.ItemSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 1</value>
-  </data>
-  <data name="GrpCommand.Text" xml:space="preserve">
-    <value>命令  - [Ctrl] 自动执行  - [Shift] 拼接命令  - [Alt] 仅执行  - [|] 分割多条命令</value>
-  </data>
-  <data name="&gt;&gt;TCMain.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="NavContainer.Panel2MinSize" type="System.Int32, mscorlib">
-    <value>610</value>
-  </data>
-  <data name="&gt;&gt;NavContainer.Panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NavContainer.Panel2.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormMain</value>
-  </data>
-  <data name="CmbCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
   </data>
   <data name="ListPages.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="&gt;&gt;ChkAutoCopy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ListPages.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 10pt</value>
   </data>
-  <data name="CmbCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Left, Right</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ListPages.ItemHeight" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="ListPages.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ListPages.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 275</value>
+  </data>
+  <data name="ListPages.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ListPages.Name" xml:space="preserve">
+    <value>ListPages</value>
+  </data>
+  <data name="&gt;&gt;ListPages.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListPages.Parent" xml:space="preserve">
+    <value>NavContainer.Panel1</value>
+  </data>
+  <data name="&gt;&gt;ListPages.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NavContainer.Panel1.Name" xml:space="preserve">
+    <value>NavContainer.Panel1</value>
+  </data>
+  <data name="&gt;&gt;NavContainer.Panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NavContainer.Panel1.Parent" xml:space="preserve">
+    <value>NavContainer</value>
+  </data>
+  <data name="&gt;&gt;NavContainer.Panel1.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="NavContainer.Panel1MinSize" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
-  <data name="NavContainer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>810, 275</value>
+  <data name="TCMain.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
+    <value>FlatButtons</value>
   </data>
-  <data name="&gt;&gt;MenuSpawnEntityFilter.Name" xml:space="preserve">
-    <value>MenuSpawnEntityFilter</value>
+  <data name="TCMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="ChkAutoCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>749, 24</value>
+  <data name="TCMain.ItemSize" type="System.Drawing.Size, System.Drawing">
+    <value>0, 1</value>
   </data>
-  <data name="BtnCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="TCMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="BtnCopy.Text" xml:space="preserve">
-    <value>复制</value>
+  <data name="TCMain.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>610, 275</value>
+  </data>
+  <data name="TCMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>656, 275</value>
   </data>
   <data name="TCMain.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="GrpCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>810, 56</value>
+  <data name="&gt;&gt;TCMain.Name" xml:space="preserve">
+    <value>TCMain</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
+  <data name="&gt;&gt;TCMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BtnInvokeOpenCommand.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;TCMain.Parent" xml:space="preserve">
+    <value>NavContainer.Panel2</value>
+  </data>
+  <data name="&gt;&gt;TCMain.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="&gt;&gt;NavContainer.Panel2.Name" xml:space="preserve">
     <value>NavContainer.Panel2</value>
   </data>
-  <data name="&gt;&gt;NavContainer.Panel1.Name" xml:space="preserve">
-    <value>NavContainer.Panel1</value>
+  <data name="&gt;&gt;NavContainer.Panel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitterPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NavContainer.Panel2.Parent" xml:space="preserve">
+    <value>NavContainer</value>
+  </data>
+  <data name="&gt;&gt;NavContainer.Panel2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NavContainer.Panel2MinSize" type="System.Int32, mscorlib">
+    <value>610</value>
+  </data>
+  <data name="NavContainer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>810, 275</value>
+  </data>
+  <data name="NavContainer.SplitterDistance" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="NavContainer.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;NavContainer.Name" xml:space="preserve">
+    <value>NavContainer</value>
+  </data>
+  <data name="&gt;&gt;NavContainer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SplitContainer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NavContainer.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;NavContainer.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="BtnCopy.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="CmbCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="CmbCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>87, 21</value>
+  </data>
+  <data name="CmbCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>600, 25</value>
+  </data>
+  <data name="CmbCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;CmbCommand.Name" xml:space="preserve">
     <value>CmbCommand</value>
   </data>
+  <data name="&gt;&gt;CmbCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbCommand.Parent" xml:space="preserve">
+    <value>GrpCommand</value>
+  </data>
+  <data name="&gt;&gt;CmbCommand.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="BtnCopy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="BtnCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>693, 22</value>
+  </data>
+  <data name="BtnCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="BtnCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnCopy.Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.Name" xml:space="preserve">
+    <value>BtnCopy</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.Parent" xml:space="preserve">
+    <value>GrpCommand</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChkAutoCopy.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="ChkAutoCopy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ChkAutoCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChkAutoCopy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>749, 24</value>
+  </data>
+  <data name="ChkAutoCopy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
+  </data>
+  <data name="ChkAutoCopy.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ChkAutoCopy.Text" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="&gt;&gt;ChkAutoCopy.Name" xml:space="preserve">
+    <value>ChkAutoCopy</value>
+  </data>
+  <data name="&gt;&gt;ChkAutoCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkAutoCopy.Parent" xml:space="preserve">
+    <value>GrpCommand</value>
+  </data>
+  <data name="&gt;&gt;ChkAutoCopy.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GrpCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="BtnInvokeOpenCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnInvokeOpenCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="BtnInvokeOpenCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnInvokeOpenCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
+    <value>执行(F5)</value>
+  </data>
+  <data name="&gt;&gt;BtnInvokeOpenCommand.Name" xml:space="preserve">
+    <value>BtnInvokeOpenCommand</value>
+  </data>
+  <data name="&gt;&gt;BtnInvokeOpenCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnInvokeOpenCommand.Parent" xml:space="preserve">
+    <value>GrpCommand</value>
+  </data>
+  <data name="&gt;&gt;BtnInvokeOpenCommand.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="GrpCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 293</value>
+  </data>
+  <data name="GrpCommand.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>610, 56</value>
+  </data>
+  <data name="GrpCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>810, 56</value>
+  </data>
+  <data name="GrpCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GrpCommand.Text" xml:space="preserve">
+    <value>命令  - [Ctrl] 自动执行  - [Shift] 拼接命令  - [Alt] 仅执行  - [|] 分割多条命令</value>
+  </data>
+  <data name="&gt;&gt;GrpCommand.Name" xml:space="preserve">
+    <value>GrpCommand</value>
+  </data>
+  <data name="&gt;&gt;GrpCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpCommand.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpCommand.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <metadata name="MenuSpawnEntityFilter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <data name="MenuSpawnEntityFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
+  </data>
+  <data name="&gt;&gt;MenuSpawnEntityFilter.Name" xml:space="preserve">
+    <value>MenuSpawnEntityFilter</value>
+  </data>
+  <data name="&gt;&gt;MenuSpawnEntityFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>834, 361</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>850, 400</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>GrasscutterTools</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

@@ -238,5 +238,17 @@ namespace GrasscutterTools.Properties {
                 this["IsIncludeUID"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public int NavContainerSplitterDistance {
+            get {
+                return ((int)(this["NavContainerSplitterDistance"]));
+            }
+            set {
+                this["NavContainerSplitterDistance"] = value;
+            }
+        }
     }
 }
