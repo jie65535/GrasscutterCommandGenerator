@@ -250,5 +250,17 @@ namespace GrasscutterTools.Properties {
                 this["NavContainerSplitterDistance"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ActivityConfigJsonPath {
+            get {
+                return ((string)(this["ActivityConfigJsonPath"]));
+            }
+            set {
+                this["ActivityConfigJsonPath"] = value;
+            }
+        }
     }
 }

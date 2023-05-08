@@ -117,44 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnOpenShopEditor.Text" xml:space="preserve">
-    <value>Shop Editor</value>
-  </data>
-  <data name="BtnOpenDropEditor.Text" xml:space="preserve">
-    <value>Drop Editor</value>
-  </data>
-  <data name="LblAbout.Text" xml:space="preserve">
-    <value>Have a nice time!</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="BtnOpenTextMap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 23</value>
-  </data>
-  <data name="BtnOpenTextMap.Text" xml:space="preserve">
-    <value>TextMapBrowser</value>
-  </data>
-  <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
-    <value>Gacha Editor</value>
-  </data>
-  <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 21</value>
-  </data>
-  <data name="ChkTopMost.Text" xml:space="preserve">
-    <value>Always on top</value>
-  </data>
-  <data name="ChkIncludeUID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 21</value>
-  </data>
-  <data name="ChkIncludeUID.Text" xml:space="preserve">
-    <value>Include UID</value>
-  </data>
-  <data name="GrpSettings.Text" xml:space="preserve">
-    <value>Settings</value>
-  </data>
-  <data name="BtnActivityEditor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>542, 213</value>
-  </data>
-  <data name="BtnActivityEditor.Text" xml:space="preserve">
-    <value>Activity Editor</value>
-  </data>
 </root>

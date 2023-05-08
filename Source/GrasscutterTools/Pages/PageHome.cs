@@ -153,6 +153,12 @@ namespace GrasscutterTools.Pages
             => ShowForm<FormShopEditor>("ShopEditor");
 
         /// <summary>
+        /// 点击打开活动编辑器时触发
+        /// </summary>
+        private void BtnActivityEditor_Click(object sender, EventArgs e)
+            => ShowForm<FormActivityEditor>("ActivityEditor");
+
+        /// <summary>
         /// 当选中语言改变时触发
         /// </summary>
         public Action OnLanguageChanged { get; set; }
@@ -194,5 +200,6 @@ namespace GrasscutterTools.Pages
                 LnkNewVersion.Visible = false;
             }
         }
+
     }
 }

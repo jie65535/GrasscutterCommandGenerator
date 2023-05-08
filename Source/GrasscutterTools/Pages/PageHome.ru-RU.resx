@@ -121,6 +121,10 @@
   <data name="BtnOpenShopEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 23</value>
   </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnOpenShopEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
   <data name="BtnOpenShopEditor.Text" xml:space="preserve">
     <value>Редактор магазина</value>
   </data>
@@ -129,6 +133,9 @@
   </data>
   <data name="BtnOpenDropEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 23</value>
+  </data>
+  <data name="BtnOpenDropEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
   <data name="BtnOpenDropEditor.Text" xml:space="preserve">
     <value>Редактор дропа</value>
@@ -142,14 +149,30 @@
   <data name="BtnOpenTextMap.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 23</value>
   </data>
+  <data name="BtnOpenTextMap.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
   <data name="BtnOpenTextMap.Text" xml:space="preserve">
     <value>Браузер карт</value>
   </data>
   <data name="BtnOpenGachaBannerEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 23</value>
   </data>
+  <data name="BtnOpenGachaBannerEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
   <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
     <value>Редактор баннеров</value>
+  </data>
+  <data name="GrasscutterToolsIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 146</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="GrasscutterToolsIcon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="GrpSettings.Text" xml:space="preserve">
+    <value>Настройки</value>
   </data>
   <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
     <value>140, 21</value>
@@ -163,7 +186,16 @@
   <data name="ChkIncludeUID.Text" xml:space="preserve">
     <value>Включить UID</value>
   </data>
-  <data name="GrpSettings.Text" xml:space="preserve">
-    <value>Настройки</value>
+  <data name="BtnActivityEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 155</value>
+  </data>
+  <data name="BtnActivityEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="BtnActivityEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BtnActivityEditor.Text" xml:space="preserve">
+    <value>Редактор активности</value>
   </data>
 </root>

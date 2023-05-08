@@ -26,6 +26,7 @@ namespace GrasscutterTools.Game
         public static void LoadResources()
         {
             Achievements = new ItemMap(Resources.Achievement);
+            Activity = new ItemMapGroup(Resources.Activity);
             Artifacts = new ItemMap(Resources.Artifact);
             ArtifactCats = new ItemMap(Resources.ArtifactCat);
             ArtifactMainAttribution = new ItemMap(Resources.ArtifactMainAttribution);
@@ -46,6 +47,9 @@ namespace GrasscutterTools.Game
         }
 
         public static ItemMap Achievements { get; private set; }
+
+        public static ItemMapGroup Activity { get; private set; }
+
         public static ItemMap Artifacts { get; private set; }
 
         public static ItemMap ArtifactCats { get; private set; }

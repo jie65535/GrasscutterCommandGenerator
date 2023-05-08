@@ -45,6 +45,7 @@
             this.NUDUid = new System.Windows.Forms.NumericUpDown();
             this.ChkIncludeUID = new System.Windows.Forms.CheckBox();
             this.LblDefaultUid = new System.Windows.Forms.Label();
+            this.BtnActivityEditor = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.GrasscutterToolsIcon)).BeginInit();
             this.GrpSettings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDUid)).BeginInit();
@@ -118,9 +119,9 @@
             // 
             // CmbGcVersions
             // 
+            resources.ApplyResources(this.CmbGcVersions, "CmbGcVersions");
             this.CmbGcVersions.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbGcVersions.FormattingEnabled = true;
-            resources.ApplyResources(this.CmbGcVersions, "CmbGcVersions");
             this.CmbGcVersions.Name = "CmbGcVersions";
             // 
             // ChkTopMost
@@ -131,9 +132,9 @@
             // 
             // CmbLanguage
             // 
+            resources.ApplyResources(this.CmbLanguage, "CmbLanguage");
             this.CmbLanguage.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbLanguage.FormattingEnabled = true;
-            resources.ApplyResources(this.CmbLanguage, "CmbLanguage");
             this.CmbLanguage.Name = "CmbLanguage";
             // 
             // LblLanguage
@@ -167,10 +168,18 @@
             resources.ApplyResources(this.LblDefaultUid, "LblDefaultUid");
             this.LblDefaultUid.Name = "LblDefaultUid";
             // 
+            // BtnActivityEditor
+            // 
+            resources.ApplyResources(this.BtnActivityEditor, "BtnActivityEditor");
+            this.BtnActivityEditor.Name = "BtnActivityEditor";
+            this.BtnActivityEditor.UseVisualStyleBackColor = true;
+            this.BtnActivityEditor.Click += new System.EventHandler(this.BtnActivityEditor_Click);
+            // 
             // PageHome
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.BtnActivityEditor);
             this.Controls.Add(this.LblAbout);
             this.Controls.Add(this.BtnOpenTextMap);
             this.Controls.Add(this.BtnOpenGachaBannerEditor);
@@ -207,5 +216,6 @@
         private System.Windows.Forms.NumericUpDown NUDUid;
         private System.Windows.Forms.CheckBox ChkIncludeUID;
         private System.Windows.Forms.Label LblDefaultUid;
+        private System.Windows.Forms.Button BtnActivityEditor;
     }
 }
