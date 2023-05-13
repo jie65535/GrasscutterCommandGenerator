@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblWorldLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblWorldLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 39</value>
+  </data>
+  <data name="LblWorldLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LblWorldLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblWorldLevel.Text" xml:space="preserve">
+    <value>世界等级</value>
+  </data>
+  <data name="&gt;&gt;LblWorldLevel.Name" xml:space="preserve">
+    <value>LblWorldLevel</value>
+  </data>
+  <data name="&gt;&gt;LblWorldLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblWorldLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblWorldLevel.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="NUDWorldLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 37</value>
+  </data>
+  <data name="NUDWorldLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="NUDWorldLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NUDWorldLevel.Name" xml:space="preserve">
+    <value>NUDWorldLevel</value>
+  </data>
+  <data name="&gt;&gt;NUDWorldLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDWorldLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NUDWorldLevel.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="LblBPLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblBPLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 68</value>
+  </data>
+  <data name="LblBPLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LblBPLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblBPLevel.Text" xml:space="preserve">
+    <value>深渊螺旋</value>
+  </data>
+  <data name="&gt;&gt;LblBPLevel.Name" xml:space="preserve">
+    <value>LblBPLevel</value>
+  </data>
+  <data name="&gt;&gt;LblBPLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblBPLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblBPLevel.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="NUDBPLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 66</value>
+  </data>
+  <data name="NUDBPLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="NUDBPLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NUDBPLevel.Name" xml:space="preserve">
+    <value>NUDBPLevel</value>
+  </data>
+  <data name="&gt;&gt;NUDBPLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDBPLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NUDBPLevel.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="LblTowerLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTowerLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 97</value>
+  </data>
+  <data name="LblTowerLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LblTowerLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LblTowerLevel.Text" xml:space="preserve">
+    <value>纪行等级</value>
+  </data>
+  <data name="&gt;&gt;LblTowerLevel.Name" xml:space="preserve">
+    <value>LblTowerLevel</value>
+  </data>
+  <data name="&gt;&gt;LblTowerLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTowerLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblTowerLevel.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="NUDTowerLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 95</value>
+  </data>
+  <data name="NUDTowerLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="NUDTowerLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;NUDTowerLevel.Name" xml:space="preserve">
+    <value>NUDTowerLevel</value>
+  </data>
+  <data name="&gt;&gt;NUDTowerLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDTowerLevel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NUDTowerLevel.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="LblGodMode.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblGodMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 38</value>
+  </data>
+  <data name="LblGodMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LblGodMode.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LblGodMode.Text" xml:space="preserve">
+    <value>无敌模式</value>
+  </data>
+  <data name="&gt;&gt;LblGodMode.Name" xml:space="preserve">
+    <value>LblGodMode</value>
+  </data>
+  <data name="&gt;&gt;LblGodMode.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblGodMode.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblGodMode.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="LblUnlimitedStamina.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblUnlimitedStamina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 67</value>
+  </data>
+  <data name="LblUnlimitedStamina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LblUnlimitedStamina.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblUnlimitedStamina.Text" xml:space="preserve">
+    <value>无限体力</value>
+  </data>
+  <data name="&gt;&gt;LblUnlimitedStamina.Name" xml:space="preserve">
+    <value>LblUnlimitedStamina</value>
+  </data>
+  <data name="&gt;&gt;LblUnlimitedStamina.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblUnlimitedStamina.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblUnlimitedStamina.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="LblUnlimitedEnergy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblUnlimitedEnergy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 96</value>
+  </data>
+  <data name="LblUnlimitedEnergy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LblUnlimitedEnergy.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LblUnlimitedEnergy.Text" xml:space="preserve">
+    <value>无限能量</value>
+  </data>
+  <data name="&gt;&gt;LblUnlimitedEnergy.Name" xml:space="preserve">
+    <value>LblUnlimitedEnergy</value>
+  </data>
+  <data name="&gt;&gt;LblUnlimitedEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblUnlimitedEnergy.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblUnlimitedEnergy.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="LblOpenState.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblOpenState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 127</value>
+  </data>
+  <data name="LblOpenState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
+  </data>
+  <data name="LblOpenState.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="LblOpenState.Text" xml:space="preserve">
+    <value>Open State</value>
+  </data>
+  <data name="&gt;&gt;LblOpenState.Name" xml:space="preserve">
+    <value>LblOpenState</value>
+  </data>
+  <data name="&gt;&gt;LblOpenState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblOpenState.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblOpenState.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="BtnGodModeOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 35</value>
+  </data>
+  <data name="BtnGodModeOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnGodModeOn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BtnGodModeOn.Text" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="&gt;&gt;BtnGodModeOn.Name" xml:space="preserve">
+    <value>BtnGodModeOn</value>
+  </data>
+  <data name="&gt;&gt;BtnGodModeOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnGodModeOn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnGodModeOn.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="BtnGodModeOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 35</value>
+  </data>
+  <data name="BtnGodModeOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnGodModeOff.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BtnGodModeOff.Text" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="&gt;&gt;BtnGodModeOff.Name" xml:space="preserve">
+    <value>BtnGodModeOff</value>
+  </data>
+  <data name="&gt;&gt;BtnGodModeOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnGodModeOff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnGodModeOff.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="BtnUnlimitedStaminaOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 64</value>
+  </data>
+  <data name="BtnUnlimitedStaminaOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnUnlimitedStaminaOn.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="BtnUnlimitedStaminaOn.Text" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedStaminaOn.Name" xml:space="preserve">
+    <value>BtnUnlimitedStaminaOn</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedStaminaOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedStaminaOn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedStaminaOn.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="BtnUnlimitedStaminaOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 64</value>
+  </data>
+  <data name="BtnUnlimitedStaminaOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnUnlimitedStaminaOff.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="BtnUnlimitedStaminaOff.Text" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedStaminaOff.Name" xml:space="preserve">
+    <value>BtnUnlimitedStaminaOff</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedStaminaOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedStaminaOff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedStaminaOff.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="BtnUnlimitedEnergyOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 93</value>
+  </data>
+  <data name="BtnUnlimitedEnergyOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnUnlimitedEnergyOn.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="BtnUnlimitedEnergyOn.Text" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedEnergyOn.Name" xml:space="preserve">
+    <value>BtnUnlimitedEnergyOn</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedEnergyOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedEnergyOn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedEnergyOn.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="BtnUnlimitedEnergyOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 93</value>
+  </data>
+  <data name="BtnUnlimitedEnergyOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnUnlimitedEnergyOff.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="BtnUnlimitedEnergyOff.Text" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedEnergyOff.Name" xml:space="preserve">
+    <value>BtnUnlimitedEnergyOff</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedEnergyOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedEnergyOff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlimitedEnergyOff.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="BtnSetOpenState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 124</value>
+  </data>
+  <data name="BtnSetOpenState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnSetOpenState.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="BtnSetOpenState.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="&gt;&gt;BtnSetOpenState.Name" xml:space="preserve">
+    <value>BtnSetOpenState</value>
+  </data>
+  <data name="&gt;&gt;BtnSetOpenState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSetOpenState.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnSetOpenState.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="BtnUnsetOpenState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 124</value>
+  </data>
+  <data name="BtnUnsetOpenState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnUnsetOpenState.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="BtnUnsetOpenState.Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="&gt;&gt;BtnUnsetOpenState.Name" xml:space="preserve">
+    <value>BtnUnsetOpenState</value>
+  </data>
+  <data name="&gt;&gt;BtnUnsetOpenState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnUnsetOpenState.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnUnsetOpenState.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BtnUnlockMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 122</value>
+  </data>
+  <data name="BtnUnlockMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 23</value>
+  </data>
+  <data name="BtnUnlockMap.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="BtnUnlockMap.Text" xml:space="preserve">
+    <value>点亮地图</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlockMap.Name" xml:space="preserve">
+    <value>BtnUnlockMap</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlockMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlockMap.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlockMap.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="NUDOpenStateValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 124</value>
+  </data>
+  <data name="NUDOpenStateValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="NUDOpenStateValue.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;NUDOpenStateValue.Name" xml:space="preserve">
+    <value>NUDOpenStateValue</value>
+  </data>
+  <data name="&gt;&gt;NUDOpenStateValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDOpenStateValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NUDOpenStateValue.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LblSetPropTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblSetPropTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="LblSetPropTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="LblSetPropTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblSetPropTitle.Text" xml:space="preserve">
+    <value>设置账号属性</value>
+  </data>
+  <data name="&gt;&gt;LblSetPropTitle.Name" xml:space="preserve">
+    <value>LblSetPropTitle</value>
+  </data>
+  <data name="&gt;&gt;LblSetPropTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblSetPropTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblSetPropTitle.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="LblPlayerProperty.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblPlayerProperty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 184</value>
+  </data>
+  <data name="LblPlayerProperty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="LblPlayerProperty.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="LblPlayerProperty.Text" xml:space="preserve">
+    <value>玩家属性</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerProperty.Name" xml:space="preserve">
+    <value>LblPlayerProperty</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerProperty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerProperty.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerProperty.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="CmbPlayerProperty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 181</value>
+  </data>
+  <data name="CmbPlayerProperty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>237, 25</value>
+  </data>
+  <data name="CmbPlayerProperty.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;CmbPlayerProperty.Name" xml:space="preserve">
+    <value>CmbPlayerProperty</value>
+  </data>
+  <data name="&gt;&gt;CmbPlayerProperty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbPlayerProperty.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;CmbPlayerProperty.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NUDPlayerPropertyValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 182</value>
+  </data>
+  <data name="NUDPlayerPropertyValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="NUDPlayerPropertyValue.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;NUDPlayerPropertyValue.Name" xml:space="preserve">
+    <value>NUDPlayerPropertyValue</value>
+  </data>
+  <data name="&gt;&gt;NUDPlayerPropertyValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDPlayerPropertyValue.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NUDPlayerPropertyValue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnPlayerPropertyOff.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnPlayerPropertyOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 212</value>
+  </data>
+  <data name="BtnPlayerPropertyOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnPlayerPropertyOff.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="BtnPlayerPropertyOff.Text" xml:space="preserve">
+    <value>关</value>
+  </data>
+  <data name="&gt;&gt;BtnPlayerPropertyOff.Name" xml:space="preserve">
+    <value>BtnPlayerPropertyOff</value>
+  </data>
+  <data name="&gt;&gt;BtnPlayerPropertyOff.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPlayerPropertyOff.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnPlayerPropertyOff.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="BtnPlayerPropertyOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnPlayerPropertyOn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 212</value>
+  </data>
+  <data name="BtnPlayerPropertyOn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="BtnPlayerPropertyOn.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="BtnPlayerPropertyOn.Text" xml:space="preserve">
+    <value>开</value>
+  </data>
+  <data name="&gt;&gt;BtnPlayerPropertyOn.Name" xml:space="preserve">
+    <value>BtnPlayerPropertyOn</value>
+  </data>
+  <data name="&gt;&gt;BtnPlayerPropertyOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPlayerPropertyOn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnPlayerPropertyOn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblPlayerPropertyDesc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="LblPlayerPropertyDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblPlayerPropertyDesc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 160</value>
+  </data>
+  <data name="LblPlayerPropertyDesc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>474, 21</value>
+  </data>
+  <data name="LblPlayerPropertyDesc.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerPropertyDesc.Name" xml:space="preserve">
+    <value>LblPlayerPropertyDesc</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerPropertyDesc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerPropertyDesc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblPlayerPropertyDesc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PageSetProp</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.9.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  </data>
+</root>

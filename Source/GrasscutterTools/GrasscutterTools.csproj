@@ -150,6 +150,7 @@
     <Compile Include="Game\Mail\Mail.cs" />
     <Compile Include="Game\Mail\MailItem.cs" />
     <Compile Include="Game\Player\PlayerData.cs" />
+    <Compile Include="Game\Props\PlayerProperty.cs" />
     <Compile Include="Game\SetStatsCommand.cs" />
     <Compile Include="Game\Shop\ItemParamData.cs" />
     <Compile Include="Game\Shop\ShopGoodsData.cs" />
@@ -244,6 +245,12 @@
     </Compile>
     <Compile Include="Pages\PageScene.Designer.cs">
       <DependentUpon>PageScene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSetProp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSetProp.Designer.cs">
+      <DependentUpon>PageSetProp.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\PageSpawn.cs">
       <SubType>UserControl</SubType>
@@ -454,6 +461,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageHome.en-US.resx">
       <DependentUpon>PageHome.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageHome.resx">
       <DependentUpon>PageHome.cs</DependentUpon>
@@ -523,6 +531,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageScene.zh-TW.resx">
       <DependentUpon>PageScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetProp.resx">
+      <DependentUpon>PageSetProp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetProp.zh-TW.resx">
+      <DependentUpon>PageSetProp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageSpawn.en-US.resx">
       <DependentUpon>PageSpawn.cs</DependentUpon>

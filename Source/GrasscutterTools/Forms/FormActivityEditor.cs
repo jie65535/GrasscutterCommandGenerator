@@ -245,7 +245,7 @@ namespace GrasscutterTools.Forms
             {
                 item.MeetCondList = TxtMeetCondList.Text.Split(',').Select(it => int.Parse(it.Trim())).ToList();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 item.MeetCondList = new List<int>();
             }

@@ -106,6 +106,7 @@ namespace GrasscutterTools.Forms
             CreatePage<PageQuest>();
             CreatePage<PageScene>();
             CreatePage<PageAchievement>();
+            CreatePage<PageSetProp>();
             CreatePage<PageAbout>();
             //AddPageToGui(CreatePage<PageTools>("Tools"));
             TCMain.ResumeLayout();
@@ -134,6 +135,7 @@ namespace GrasscutterTools.Forms
                 Resources.PageQuestTitle,
                 Resources.PageSceneTitle,
                 Resources.PageAchievementTitle,
+                "属性",
                 Resources.PageAboutTitle,
             });
         }
