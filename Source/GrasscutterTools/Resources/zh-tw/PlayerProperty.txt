@@ -1,0 +1,42 @@
+﻿EXP:經驗:
+BREAK_LEVEL:突破等級:
+SATIATION_VAL:飽食度值:
+SATIATION_PENALTY_TIME:飢餓懲罰時間:
+LEVEL:等級:[0, 90]
+LAST_CHANGE_AVATAR_TIME:最後更換角色的時間:
+MAX_SPRING_VOLUME:神像的最大回血量:
+CUR_SPRING_VOLUME:當前神像剩餘回血量:
+IS_SPRING_AUTO_USE:是否靠近神像自動回血:[0, 1]
+SPRING_AUTO_USE_PERCENT:自動回血百分比:[0, 100]
+IS_FLYABLE:是否能飛:是否擁有飛行能力的狀態，例如 新玩家沒風之翼不能飛行[0，1]
+IS_WEATHER_LOCKED:是否鎖定天氣:
+IS_GAME_TIME_LOCKED:是否鎖定遊戲時間:
+IS_TRANSFERABLE:是否允許傳送:
+MAX_STAMINA:最大耐力:玩家的最大耐力[0, 24000]
+CUR_PERSIST_STAMINA:當前使用的耐力:[0, 最大耐力]
+CUR_TEMPORARY_STAMINA:當前臨時耐力:
+PLAYER_LEVEL:玩家等級:[1, 60]
+PLAYER_EXP:玩家經驗值:
+PLAYER_HCOIN:原石:
+PLAYER_SCOIN:摩拉:
+PLAYER_MP_SETTING_TYPE:加入設置:允許其它玩家加入你的遊戲嗎？ [0=禁止 1=直接加入 2=需要同意]
+IS_MP_MODE_AVAILABLE:是否允許多人遊戲:0表示任務中或因某些原因禁用多人遊戲
+PLAYER_WORLD_LEVEL:玩家世界等級:[0, 8]
+PLAYER_RESIN:原始樹脂數量:[0, 2000] 注意：超過160的值需要補充
+PLAYER_WAIT_SUB_HCOIN:待結算的原石:當玩家需要在遊戲中支付虛擬貨幣以得到某些遊戲物品或服務時，在扣款之前需要等待一段時間。下面同理
+PLAYER_WAIT_SUB_SCOIN:待結算的摩拉:
+IS_ONLY_MP_WITH_PS_PLAYER:僅站內多人:是否僅與站內玩家進行多人遊戲？ [0, 1]
+PLAYER_MCOIN:創世結晶:
+PLAYER_WAIT_SUB_MCOIN:待結算創世結晶:
+PLAYER_LEGENDARY_KEY:傳送鑰匙:
+IS_HAS_FIRST_SHARE:是否進行了首次分享:抽卡出金首次分享得幾個原石那個
+PLAYER_FORGE_POINT:鍛造點數:鍛造 武器/武器升級石的上限 如果我沒記錯是每週重置 [0，300000]
+CUR_CLIMATE_METER:當前氣候值:
+CUR_CLIMATE_TYPE:當前氣候類型:
+CUR_CLIMATE_AREA_ID:當前氣候區域ID:
+CUR_CLIMATE_AREA_CLIMATE_TYPE:當前氣候區域氣候類型:
+PLAYER_WORLD_LEVEL_LIMIT:玩家世界等級限制:
+PLAYER_WORLD_LEVEL_ADJUST_CD:玩家世界等級調整CD:
+PLAYER_LEGENDARY_DAILY_TASK_NUM:玩家一天能接的傳說任務數量:
+PLAYER_HOME_COIN:塵歌壺洞天寶錢:
+PLAYER_WAIT_SUB_HOME_COIN:帶結算的塵歌壺洞天寶錢:

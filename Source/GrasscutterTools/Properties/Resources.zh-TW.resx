@@ -342,4 +342,10 @@
   <data name="PageAchievementTitle" xml:space="preserve">
     <value>成就</value>
   </data>
+  <data name="PlayerProperty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\PlayerProperty.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PageProperty" xml:space="preserve">
+    <value>屬性</value>
+  </data>
 </root>

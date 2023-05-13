@@ -117,58 +117,104 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblWorldLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 39</value>
+  </data>
+  <data name="LblWorldLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
+  </data>
   <data name="LblWorldLevel.Text" xml:space="preserve">
-    <value>世界等級</value>
+    <value>World Level</value>
+  </data>
+  <data name="LblTowerLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>78, 68</value>
+  </data>
+  <data name="LblTowerLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
   </data>
   <data name="LblTowerLevel.Text" xml:space="preserve">
-    <value>深淵螺旋</value>
+    <value>Tower Level</value>
+  </data>
+  <data name="LblBPLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 96</value>
   </data>
   <data name="LblBPLevel.Text" xml:space="preserve">
-    <value>紀行等級</value>
+    <value>BP Level</value>
+  </data>
+  <data name="LblGodMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>326, 38</value>
+  </data>
+  <data name="LblGodMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 17</value>
   </data>
   <data name="LblGodMode.Text" xml:space="preserve">
-    <value>無敵模式</value>
+    <value>God Mode</value>
+  </data>
+  <data name="LblUnlimitedStamina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 67</value>
+  </data>
+  <data name="LblUnlimitedStamina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
   </data>
   <data name="LblUnlimitedStamina.Text" xml:space="preserve">
-    <value>無限體力</value>
+    <value>Unlimited Stamina</value>
+  </data>
+  <data name="LblUnlimitedEnergy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>291, 96</value>
+  </data>
+  <data name="LblUnlimitedEnergy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
   </data>
   <data name="LblUnlimitedEnergy.Text" xml:space="preserve">
-    <value>無限能量</value>
+    <value>Unlimited Energy</value>
   </data>
   <data name="BtnGodModeOn.Text" xml:space="preserve">
-    <value>開</value>
+    <value>On</value>
   </data>
   <data name="BtnGodModeOff.Text" xml:space="preserve">
-    <value>關</value>
+    <value>Off</value>
   </data>
   <data name="BtnUnlimitedStaminaOn.Text" xml:space="preserve">
-    <value>開</value>
+    <value>On</value>
   </data>
   <data name="BtnUnlimitedStaminaOff.Text" xml:space="preserve">
-    <value>關</value>
+    <value>Off</value>
   </data>
   <data name="BtnUnlimitedEnergyOn.Text" xml:space="preserve">
-    <value>開</value>
+    <value>On</value>
   </data>
   <data name="BtnUnlimitedEnergyOff.Text" xml:space="preserve">
-    <value>關</value>
+    <value>Off</value>
   </data>
   <data name="BtnSetOpenState.Text" xml:space="preserve">
-    <value>設定</value>
+    <value>Set</value>
+  </data>
+  <data name="BtnUnsetOpenState.Text" xml:space="preserve">
+    <value>Unset</value>
   </data>
   <data name="BtnUnlockMap.Text" xml:space="preserve">
-    <value>點亮地圖</value>
+    <value>Unlock Map</value>
+  </data>
+  <data name="LblSetPropTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 17</value>
   </data>
   <data name="LblSetPropTitle.Text" xml:space="preserve">
-    <value>設定帳號屬性</value>
+    <value>Set Account Prop</value>
+  </data>
+  <data name="LblPlayerProperty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 184</value>
+  </data>
+  <data name="LblPlayerProperty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
   </data>
   <data name="LblPlayerProperty.Text" xml:space="preserve">
-    <value>玩家屬性</value>
+    <value>Player Property</value>
   </data>
   <data name="BtnPlayerPropertyOff.Text" xml:space="preserve">
-    <value>關</value>
+    <value>Off</value>
   </data>
   <data name="BtnPlayerPropertyOn.Text" xml:space="preserve">
-    <value>開</value>
+    <value>On</value>
   </data>
 </root>

@@ -1153,6 +1153,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 属性 的本地化字符串。
+        /// </summary>
+        internal static string PageProperty {
+            get {
+                return ResourceManager.GetString("PageProperty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 任务 的本地化字符串。
         /// </summary>
         internal static string PageQuestTitle {
@@ -1230,6 +1239,32 @@ namespace GrasscutterTools.Properties {
         internal static string Permissions {
             get {
                 return ResourceManager.GetString("Permissions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 EXP:经验:
+        ///BREAK_LEVEL:突破等级:
+        ///SATIATION_VAL:饱食度值:
+        ///SATIATION_PENALTY_TIME:饥饿惩罚时间:
+        ///LEVEL:等级:[0, 90]
+        ///LAST_CHANGE_AVATAR_TIME:最后更换角色的时间:
+        ///MAX_SPRING_VOLUME:神像的最大回血量:
+        ///CUR_SPRING_VOLUME:当前神像剩余回血量:
+        ///IS_SPRING_AUTO_USE:是否靠近神像自动回血:[0, 1]
+        ///SPRING_AUTO_USE_PERCENT:自动回血百分比:[0, 100]
+        ///IS_FLYABLE:是否能飞:是否拥有飞行能力的状态，例如 新玩家没风之翼不能飞行[0，1]
+        ///IS_WEATHER_LOCKED:是否锁定天气:
+        ///IS_GAME_TIME_LOCKED:是否锁定游戏时间:
+        ///IS_TRANSFERABLE:是否允许传送:
+        ///MAX_STAMINA:最大耐力:玩家的最大耐力[0, 24000]
+        ///CUR_PERSIST_STAMINA:当前使用的耐力:[0, 最大耐力]
+        ///CUR_TEMPORARY_STAMINA:当前临时耐力:
+        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string PlayerProperty {
+            get {
+                return ResourceManager.GetString("PlayerProperty", resourceCulture);
             }
         }
         

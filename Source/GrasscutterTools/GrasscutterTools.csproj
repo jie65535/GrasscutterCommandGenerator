@@ -532,7 +532,13 @@
     <EmbeddedResource Include="Pages\PageScene.zh-TW.resx">
       <DependentUpon>PageScene.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetProp.en-US.resx">
+      <DependentUpon>PageSetProp.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageSetProp.resx">
+      <DependentUpon>PageSetProp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSetProp.ru-RU.resx">
       <DependentUpon>PageSetProp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageSetProp.zh-TW.resx">
@@ -632,6 +638,7 @@
     <Content Include="Resources\en-us\Gadget.txt" />
     <Content Include="Resources\en-us\Item.txt" />
     <Content Include="Resources\en-us\Monsters.txt" />
+    <Content Include="Resources\en-us\PlayerProperty.txt" />
     <Content Include="Resources\en-us\Quest.txt" />
     <Content Include="Resources\en-us\Scene.txt" />
     <Content Include="Resources\en-us\ShopType.txt" />
@@ -651,6 +658,7 @@
     <Content Include="Resources\ru-ru\Gadget.txt" />
     <Content Include="Resources\ru-ru\Item.txt" />
     <Content Include="Resources\ru-ru\Monsters.txt" />
+    <Content Include="Resources\ru-ru\PlayerProperty.txt" />
     <Content Include="Resources\ru-ru\Quest.txt" />
     <Content Include="Resources\ru-ru\Scene.txt" />
     <Content Include="Resources\ru-ru\ShopType.txt" />
@@ -675,6 +683,7 @@
     <Content Include="Resources\zh-cn\Gadget.txt" />
     <Content Include="Resources\zh-cn\Item.txt" />
     <Content Include="Resources\zh-cn\Monsters.txt" />
+    <Content Include="Resources\zh-cn\PlayerProperty.txt" />
     <Content Include="Resources\zh-cn\Quest.txt" />
     <Content Include="Resources\zh-cn\Scene.txt" />
     <Content Include="Resources\zh-cn\ShopType.txt" />
@@ -691,6 +700,7 @@
     <Content Include="Resources\zh-tw\GachaBennerPrefab.txt" />
     <Content Include="Resources\zh-tw\Item.txt" />
     <Content Include="Resources\zh-tw\Monsters.txt" />
+    <Content Include="Resources\zh-tw\PlayerProperty.txt" />
     <Content Include="Resources\zh-tw\Quest.txt" />
     <Content Include="Resources\zh-tw\Scene.txt" />
     <Content Include="Resources\zh-tw\ShopType.txt" />

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Globalization;
+using System.Linq;
 using System.Windows.Forms;
 using GrasscutterTools.Game.Props;
+using GrasscutterTools.Properties;
 
 namespace GrasscutterTools.Pages
 {
@@ -16,8 +18,24 @@ namespace GrasscutterTools.Pages
 
         public override void OnLoad()
         {
+            foreach (var line in Resources.PlayerProperty.Split('\n'))
+            {
+                try
+                {
+                    var values = line.Split(':');
+                    var prop = PlayerProperty.Values.Find(it => it.Id == values[0]);
+                    if (prop == null) continue;
+                    prop.Name = values[1].Trim();
+                    var desc = values[2].Trim();
+                    if (!string.IsNullOrEmpty(desc))
+                        prop.Description = desc;
+                }
+                catch
+                {
+                }
+            }
             CmbPlayerProperty.DataSource = PlayerProperty.Values;
-            CmbPlayerProperty.DisplayMember = "Id";
+            CmbPlayerProperty.DisplayMember = "Name";
         }
 
         private void NUDWorldLevel_ValueChanged(object sender, EventArgs e)
@@ -27,12 +45,12 @@ namespace GrasscutterTools.Pages
 
         private void NUDBPLevel_ValueChanged(object sender, EventArgs e)
         {
-            SetCommand(SetPropPrefix, "bplevel " + NUDBPLevel.Value);
+            SetCommand(SetPropPrefix, "bplevel " + NUDTowerLevel.Value);
         }
 
         private void NUDTowerLevel_ValueChanged(object sender, EventArgs e)
         {
-            SetCommand(SetPropPrefix, "towerlevel " + NUDTowerLevel.Value);
+            SetCommand(SetPropPrefix, "towerlevel " + NUDBPLevel.Value);
         }
 
         private void BtnSetPropButton_Click(object sender, EventArgs e)
@@ -54,14 +72,16 @@ namespace GrasscutterTools.Pages
         {
             if (CmbPlayerProperty.SelectedIndex == -1)
                 return;
-            SetCommand(SetPropPrefix, CmbPlayerProperty.Text.ToLower(CultureInfo.CurrentCulture) + " " + NUDPlayerPropertyValue.Value);
+            var selectedItem = (PlayerProperty)CmbPlayerProperty.SelectedItem;
+            SetCommand(SetPropPrefix, selectedItem.Id.ToLower(CultureInfo.CurrentCulture) + " " + NUDPlayerPropertyValue.Value);
         }
 
         private void BtnPlayerPropertyButton_Click(object sender, EventArgs e)
         {
             if (CmbPlayerProperty.SelectedIndex == -1)
                 return;
-            SetCommand(SetPropPrefix, CmbPlayerProperty.Text.ToLower(CultureInfo.CurrentCulture) + " " + (sender as Button).Tag);
+            var selectedItem = (PlayerProperty)CmbPlayerProperty.SelectedItem;
+            SetCommand(SetPropPrefix, selectedItem.Id.ToLower(CultureInfo.CurrentCulture) + " " + (sender as Button).Tag);
         }
 
         private void CmbPlayerProperty_SelectedIndexChanged(object sender, EventArgs e)

@@ -117,58 +117,132 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblWorldLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 38</value>
+  </data>
+  <data name="LblWorldLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 17</value>
+  </data>
   <data name="LblWorldLevel.Text" xml:space="preserve">
-    <value>世界等級</value>
+    <value>Мировой уровень</value>
+  </data>
+  <data name="LblTowerLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>50, 68</value>
+  </data>
+  <data name="LblTowerLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
   </data>
   <data name="LblTowerLevel.Text" xml:space="preserve">
-    <value>深淵螺旋</value>
+    <value>Уровень Башни</value>
+  </data>
+  <data name="LblBPLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>76, 97</value>
+  </data>
+  <data name="LblBPLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 17</value>
   </data>
   <data name="LblBPLevel.Text" xml:space="preserve">
-    <value>紀行等級</value>
+    <value>Уровень BP</value>
+  </data>
+  <data name="LblGodMode.Location" type="System.Drawing.Point, System.Drawing">
+    <value>293, 38</value>
+  </data>
+  <data name="LblGodMode.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
   </data>
   <data name="LblGodMode.Text" xml:space="preserve">
-    <value>無敵模式</value>
+    <value>Непобедимость</value>
+  </data>
+  <data name="LblUnlimitedStamina.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 8pt</value>
+  </data>
+  <data name="LblUnlimitedStamina.Location" type="System.Drawing.Point, System.Drawing">
+    <value>298, 58</value>
+  </data>
+  <data name="LblUnlimitedStamina.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 32</value>
   </data>
   <data name="LblUnlimitedStamina.Text" xml:space="preserve">
-    <value>無限體力</value>
+    <value>Неограниченная
+выносливость</value>
+  </data>
+  <data name="LblUnlimitedEnergy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 96</value>
+  </data>
+  <data name="LblUnlimitedEnergy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
   </data>
   <data name="LblUnlimitedEnergy.Text" xml:space="preserve">
-    <value>無限能量</value>
+    <value>Бесконечная энергия</value>
   </data>
   <data name="BtnGodModeOn.Text" xml:space="preserve">
-    <value>開</value>
+    <value>Включить</value>
+  </data>
+  <data name="BtnGodModeOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
   </data>
   <data name="BtnGodModeOff.Text" xml:space="preserve">
-    <value>關</value>
+    <value>Выключить</value>
   </data>
   <data name="BtnUnlimitedStaminaOn.Text" xml:space="preserve">
-    <value>開</value>
+    <value>Включить</value>
+  </data>
+  <data name="BtnUnlimitedStaminaOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
   </data>
   <data name="BtnUnlimitedStaminaOff.Text" xml:space="preserve">
-    <value>關</value>
+    <value>Выключить</value>
   </data>
   <data name="BtnUnlimitedEnergyOn.Text" xml:space="preserve">
-    <value>開</value>
+    <value>Включить</value>
+  </data>
+  <data name="BtnUnlimitedEnergyOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
   </data>
   <data name="BtnUnlimitedEnergyOff.Text" xml:space="preserve">
-    <value>關</value>
+    <value>Выключить</value>
+  </data>
+  <data name="BtnSetOpenState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 124</value>
+  </data>
+  <data name="BtnSetOpenState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 23</value>
   </data>
   <data name="BtnSetOpenState.Text" xml:space="preserve">
-    <value>設定</value>
+    <value>Установить</value>
+  </data>
+  <data name="BtnUnsetOpenState.Text" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="BtnUnlockMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 121</value>
   </data>
   <data name="BtnUnlockMap.Text" xml:space="preserve">
-    <value>點亮地圖</value>
+    <value>Разблокировать карту</value>
+  </data>
+  <data name="LblSetPropTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>227, 17</value>
   </data>
   <data name="LblSetPropTitle.Text" xml:space="preserve">
-    <value>設定帳號屬性</value>
+    <value>Установить атрибут учетной записи</value>
+  </data>
+  <data name="LblPlayerProperty.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 184</value>
+  </data>
+  <data name="LblPlayerProperty.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 17</value>
   </data>
   <data name="LblPlayerProperty.Text" xml:space="preserve">
-    <value>玩家屬性</value>
+    <value>Свойство игрока</value>
+  </data>
+  <data name="BtnPlayerPropertyOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
   </data>
   <data name="BtnPlayerPropertyOff.Text" xml:space="preserve">
-    <value>關</value>
+    <value>Выключить</value>
   </data>
   <data name="BtnPlayerPropertyOn.Text" xml:space="preserve">
-    <value>開</value>
+    <value>Включить</value>
   </data>
 </root>

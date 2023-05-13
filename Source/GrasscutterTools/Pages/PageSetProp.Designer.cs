@@ -31,10 +31,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PageSetProp));
             this.LblWorldLevel = new System.Windows.Forms.Label();
             this.NUDWorldLevel = new System.Windows.Forms.NumericUpDown();
-            this.LblBPLevel = new System.Windows.Forms.Label();
-            this.NUDBPLevel = new System.Windows.Forms.NumericUpDown();
             this.LblTowerLevel = new System.Windows.Forms.Label();
             this.NUDTowerLevel = new System.Windows.Forms.NumericUpDown();
+            this.LblBPLevel = new System.Windows.Forms.Label();
+            this.NUDBPLevel = new System.Windows.Forms.NumericUpDown();
             this.LblGodMode = new System.Windows.Forms.Label();
             this.LblUnlimitedStamina = new System.Windows.Forms.Label();
             this.LblUnlimitedEnergy = new System.Windows.Forms.Label();
@@ -57,8 +57,8 @@
             this.BtnPlayerPropertyOn = new System.Windows.Forms.Button();
             this.LblPlayerPropertyDesc = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.NUDWorldLevel)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDBPLevel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTowerLevel)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDBPLevel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDOpenStateValue)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDPlayerPropertyValue)).BeginInit();
             this.SuspendLayout();
@@ -85,28 +85,6 @@
             this.NUDWorldLevel.ValueChanged += new System.EventHandler(this.NUDWorldLevel_ValueChanged);
             this.NUDWorldLevel.Click += new System.EventHandler(this.NUDWorldLevel_ValueChanged);
             // 
-            // LblBPLevel
-            // 
-            resources.ApplyResources(this.LblBPLevel, "LblBPLevel");
-            this.LblBPLevel.Name = "LblBPLevel";
-            // 
-            // NUDBPLevel
-            // 
-            resources.ApplyResources(this.NUDBPLevel, "NUDBPLevel");
-            this.NUDBPLevel.Maximum = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.NUDBPLevel.Name = "NUDBPLevel";
-            this.NUDBPLevel.Value = new decimal(new int[] {
-            12,
-            0,
-            0,
-            0});
-            this.NUDBPLevel.ValueChanged += new System.EventHandler(this.NUDBPLevel_ValueChanged);
-            this.NUDBPLevel.Click += new System.EventHandler(this.NUDBPLevel_ValueChanged);
-            // 
             // LblTowerLevel
             // 
             resources.ApplyResources(this.LblTowerLevel, "LblTowerLevel");
@@ -116,18 +94,40 @@
             // 
             resources.ApplyResources(this.NUDTowerLevel, "NUDTowerLevel");
             this.NUDTowerLevel.Maximum = new decimal(new int[] {
-            50,
+            12,
             0,
             0,
             0});
             this.NUDTowerLevel.Name = "NUDTowerLevel";
             this.NUDTowerLevel.Value = new decimal(new int[] {
+            12,
+            0,
+            0,
+            0});
+            this.NUDTowerLevel.ValueChanged += new System.EventHandler(this.NUDBPLevel_ValueChanged);
+            this.NUDTowerLevel.Click += new System.EventHandler(this.NUDBPLevel_ValueChanged);
+            // 
+            // LblBPLevel
+            // 
+            resources.ApplyResources(this.LblBPLevel, "LblBPLevel");
+            this.LblBPLevel.Name = "LblBPLevel";
+            // 
+            // NUDBPLevel
+            // 
+            resources.ApplyResources(this.NUDBPLevel, "NUDBPLevel");
+            this.NUDBPLevel.Maximum = new decimal(new int[] {
             50,
             0,
             0,
             0});
-            this.NUDTowerLevel.ValueChanged += new System.EventHandler(this.NUDTowerLevel_ValueChanged);
-            this.NUDTowerLevel.Click += new System.EventHandler(this.NUDTowerLevel_ValueChanged);
+            this.NUDBPLevel.Name = "NUDBPLevel";
+            this.NUDBPLevel.Value = new decimal(new int[] {
+            50,
+            0,
+            0,
+            0});
+            this.NUDBPLevel.ValueChanged += new System.EventHandler(this.NUDTowerLevel_ValueChanged);
+            this.NUDBPLevel.Click += new System.EventHandler(this.NUDTowerLevel_ValueChanged);
             // 
             // LblGodMode
             // 
@@ -241,9 +241,9 @@
             // 
             // CmbPlayerProperty
             // 
+            resources.ApplyResources(this.CmbPlayerProperty, "CmbPlayerProperty");
             this.CmbPlayerProperty.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbPlayerProperty.FormattingEnabled = true;
-            resources.ApplyResources(this.CmbPlayerProperty, "CmbPlayerProperty");
             this.CmbPlayerProperty.Name = "CmbPlayerProperty";
             this.CmbPlayerProperty.SelectedIndexChanged += new System.EventHandler(this.CmbPlayerProperty_SelectedIndexChanged);
             // 
@@ -307,16 +307,16 @@
             this.Controls.Add(this.LblUnlimitedEnergy);
             this.Controls.Add(this.LblUnlimitedStamina);
             this.Controls.Add(this.LblGodMode);
-            this.Controls.Add(this.NUDTowerLevel);
-            this.Controls.Add(this.LblTowerLevel);
             this.Controls.Add(this.NUDBPLevel);
             this.Controls.Add(this.LblBPLevel);
+            this.Controls.Add(this.NUDTowerLevel);
+            this.Controls.Add(this.LblTowerLevel);
             this.Controls.Add(this.NUDWorldLevel);
             this.Controls.Add(this.LblWorldLevel);
             this.Name = "PageSetProp";
             ((System.ComponentModel.ISupportInitialize)(this.NUDWorldLevel)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDBPLevel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTowerLevel)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.NUDBPLevel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDOpenStateValue)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDPlayerPropertyValue)).EndInit();
             this.ResumeLayout(false);
@@ -328,10 +328,10 @@
 
         private System.Windows.Forms.Label LblWorldLevel;
         private System.Windows.Forms.NumericUpDown NUDWorldLevel;
-        private System.Windows.Forms.Label LblBPLevel;
-        private System.Windows.Forms.NumericUpDown NUDBPLevel;
         private System.Windows.Forms.Label LblTowerLevel;
         private System.Windows.Forms.NumericUpDown NUDTowerLevel;
+        private System.Windows.Forms.Label LblBPLevel;
+        private System.Windows.Forms.NumericUpDown NUDBPLevel;
         private System.Windows.Forms.Label LblGodMode;
         private System.Windows.Forms.Label LblUnlimitedStamina;
         private System.Windows.Forms.Label LblUnlimitedEnergy;
