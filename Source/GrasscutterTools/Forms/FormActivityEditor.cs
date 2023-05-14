@@ -239,6 +239,7 @@ namespace GrasscutterTools.Forms
                 isNew = true;
             }
 
+            item.ActivityId = activityId;
             item.ActivityType = (int)NUDActivityType.Value;
             item.ScheduleId = (int)NUDScheduleId.Value;
             try
