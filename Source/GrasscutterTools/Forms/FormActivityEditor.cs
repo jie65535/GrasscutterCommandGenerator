@@ -36,7 +36,7 @@ namespace GrasscutterTools.Forms
     {
         #region - 成员 -
 
-        private List<ActivityConfigItem> ActivityConfigItems;
+        private List<ActivityConfigItem> ActivityConfigItems = new List<ActivityConfigItem>();
 
         #endregion - 成员 -
 
