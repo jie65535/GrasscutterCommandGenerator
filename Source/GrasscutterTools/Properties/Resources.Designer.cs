@@ -1153,15 +1153,6 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 属性 的本地化字符串。
-        /// </summary>
-        internal static string PageProperty {
-            get {
-                return ResourceManager.GetString("PageProperty", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   查找类似 任务 的本地化字符串。
         /// </summary>
         internal static string PageQuestTitle {
@@ -1176,6 +1167,15 @@ namespace GrasscutterTools.Properties {
         internal static string PageSceneTitle {
             get {
                 return ResourceManager.GetString("PageSceneTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 属性 的本地化字符串。
+        /// </summary>
+        internal static string PageSetPropTitle {
+            get {
+                return ResourceManager.GetString("PageSetPropTitle", resourceCulture);
             }
         }
         

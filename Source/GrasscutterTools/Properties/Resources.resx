@@ -366,7 +366,7 @@
   <data name="PlayerProperty" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-cn\PlayerProperty.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="PageProperty" xml:space="preserve">
+  <data name="PageSetPropTitle" xml:space="preserve">
     <value>属性</value>
   </data>
 </root>

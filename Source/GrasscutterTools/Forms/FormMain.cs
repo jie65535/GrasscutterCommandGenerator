@@ -135,7 +135,7 @@ namespace GrasscutterTools.Forms
                 Resources.PageQuestTitle,
                 Resources.PageSceneTitle,
                 Resources.PageAchievementTitle,
-                Resources.PageProperty,
+                Resources.PageSetPropTitle,
                 Resources.PageAboutTitle,
             });
         }
