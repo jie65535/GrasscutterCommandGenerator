@@ -470,11 +470,11 @@ namespace GrasscutterTools.Forms
             {
                 if (WindowState == FormWindowState.Maximized)
                     WindowState = FormWindowState.Normal;
-                TCMain.Anchor &= ~AnchorStyles.Bottom;
+                NavContainer.Anchor &= ~AnchorStyles.Bottom;
                 GrpCommand.Anchor |= AnchorStyles.Top;
                 Size = new Size(Width, Height + TxtCommandRunLogMinHeight);
                 MinimumSize = new Size(MinimumSize.Width, MinimumSize.Height + TxtCommandRunLogMinHeight);
-                TCMain.Anchor |= AnchorStyles.Bottom;
+                NavContainer.Anchor |= AnchorStyles.Bottom;
                 GrpCommand.Anchor &= ~AnchorStyles.Top;
             }
 
