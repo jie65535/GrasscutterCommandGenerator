@@ -117,4 +117,742 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;LblActivityId.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ListAllActivity.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;LblActivityConfigJsonPath.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="GrpActivityInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>278, 41</value>
+  </data>
+  <data name="LblActivityConfigJsonPath.Text" xml:space="preserve">
+    <value>ActivityConfig.json 路径：</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ColActivityEndTime.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="ListActivityConfigItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="&gt;&gt;LblActivityParmEditTip.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="&gt;&gt;LblActivityType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblActivityTitle.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NUDActivityId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblActivityParmEditTip.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="NUDActivityType.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="BtnLoad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="NUDScheduleId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 101</value>
+  </data>
+  <data name="BtnAddOrUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;NUDScheduleId.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="ListAllActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="LblScheduleId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 103</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtMeetCondList.Name" xml:space="preserve">
+    <value>TxtMeetCondList</value>
+  </data>
+  <data name="LblBeginTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="BtnLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>671, 12</value>
+  </data>
+  <data name="&gt;&gt;ColActivityEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnDelete.Name" xml:space="preserve">
+    <value>BtnDelete</value>
+  </data>
+  <data name="&gt;&gt;NUDScheduleId.Name" xml:space="preserve">
+    <value>NUDScheduleId</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="&gt;&gt;ListAllActivity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LblActivityType.Name" xml:space="preserve">
+    <value>LblActivityType</value>
+  </data>
+  <data name="LblActivityId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblActivityType.Text" xml:space="preserve">
+    <value>活动类型</value>
+  </data>
+  <data name="&gt;&gt;ListActivityConfigItems.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;GrpFileActivity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 193</value>
+  </data>
+  <data name="&gt;&gt;NUDActivityId.Name" xml:space="preserve">
+    <value>NUDActivityId</value>
+  </data>
+  <data name="LblBeginTime.Text" xml:space="preserve">
+    <value>活动开始时间</value>
+  </data>
+  <data name="LblEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;GrpAllActivity.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ColumnActivityId.Name" xml:space="preserve">
+    <value>ColumnActivityId</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Name" xml:space="preserve">
+    <value>BtnSave</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTime.Name" xml:space="preserve">
+    <value>LblBeginTime</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="&gt;&gt;GrpAllActivity.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblEndTime.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;LblScheduleId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblEndTime.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="ColActivityBeginTime.Text" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="GrpActivityInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;GrpAllActivity.Name" xml:space="preserve">
+    <value>GrpAllActivity</value>
+  </data>
+  <data name="NUDActivityId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 43</value>
+  </data>
+  <data name="LblBeginTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 164</value>
+  </data>
+  <data name="BtnSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="BtnDelete.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 271</value>
+  </data>
+  <data name="&gt;&gt;LblActivityConfigJsonPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ColActivityId.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="LblEndTime.Text" xml:space="preserve">
+    <value>活动结束时间</value>
+  </data>
+  <data name="BtnDelete.Text" xml:space="preserve">
+    <value>- 删除</value>
+  </data>
+  <data name="ActivityConfigJsonPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 12</value>
+  </data>
+  <data name="LblActivityTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 17</value>
+  </data>
+  <data name="LblActivityTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblActivityId.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TxtMeetCondList.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="ColumnActivityId.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;NUDScheduleId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblActivityConfigJsonPath.Name" xml:space="preserve">
+    <value>LblActivityConfigJsonPath</value>
+  </data>
+  <data name="&gt;&gt;ListActivityConfigItems.Name" xml:space="preserve">
+    <value>ListActivityConfigItems</value>
+  </data>
+  <data name="GrpAllActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>612, 41</value>
+  </data>
+  <data name="&gt;&gt;BtnDelete.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ColActivityId.Name" xml:space="preserve">
+    <value>ColActivityId</value>
+  </data>
+  <data name="BtnLoad.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NUDActivityType.Name" xml:space="preserve">
+    <value>NUDActivityType</value>
+  </data>
+  <data name="GrpFileActivity.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 41</value>
+  </data>
+  <data name="LblActivityType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 17</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NUDScheduleId.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="GrpAllActivity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="LblActivityParmEditTip.Text" xml:space="preserve">
+    <value>提示：通常情况下你只需要修改活动进行时间</value>
+  </data>
+  <data name="DTPBeginTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="&gt;&gt;LblActivityId.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="LblScheduleId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblActivityType.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="DTPEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 188</value>
+  </data>
+  <data name="&gt;&gt;LblActivityId.Name" xml:space="preserve">
+    <value>LblActivityId</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>900, 420</value>
+  </data>
+  <data name="GrpFileActivity.Text" xml:space="preserve">
+    <value>当前文件</value>
+  </data>
+  <data name="&gt;&gt;TxtMeetCondList.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;LblMeetCondList.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>ActivityConfig.json Editor</value>
+  </data>
+  <data name="&gt;&gt;ListActivityConfigItems.Parent" xml:space="preserve">
+    <value>GrpFileActivity</value>
+  </data>
+  <data name="DTPBeginTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 159</value>
+  </data>
+  <data name="BtnLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="&gt;&gt;ListActivityConfigItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpAllActivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 9pt</value>
+  </data>
+  <data name="ColActivityId.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="&gt;&gt;LblMeetCondList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NUDActivityType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="&gt;&gt;NUDActivityId.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="&gt;&gt;LblEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblActivityParmEditTip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NUDActivityId.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnDelete.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 30</value>
+  </data>
+  <data name="BtnDelete.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;BtnLoad.Name" xml:space="preserve">
+    <value>BtnLoad</value>
+  </data>
+  <data name="&gt;&gt;LblEndTime.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="NUDActivityType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 72</value>
+  </data>
+  <data name="&gt;&gt;LblActivityConfigJsonPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDActivityType.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="&gt;&gt;GrpActivityInfo.Name" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="&gt;&gt;ColActivityId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpFileActivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblActivityId.Text" xml:space="preserve">
+    <value>活动ID</value>
+  </data>
+  <data name="ColumnActivityId.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="LblActivityConfigJsonPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ColActivityBeginTime.Width" type="System.Int32, mscorlib">
+    <value>120</value>
+  </data>
+  <data name="GrpFileActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;LblActivityTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblActivityType.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnAddOrUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="ColActivityEndTime.Text" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="&gt;&gt;TxtMeetCondList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpFileActivity.Name" xml:space="preserve">
+    <value>GrpFileActivity</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblActivityParmEditTip.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ActivityConfigJsonPath.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ActivityConfigJsonPath.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ActivityConfigJsonPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;BtnLoad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblEndTime.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTime.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="BtnLoad.Text" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="&gt;&gt;LblActivityTitle.Name" xml:space="preserve">
+    <value>LblActivityTitle</value>
+  </data>
+  <data name="GrpAllActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.Name" xml:space="preserve">
+    <value>DTPBeginTime</value>
+  </data>
+  <data name="TxtMeetCondList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="ListActivityConfigItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 306</value>
+  </data>
+  <data name="LblActivityConfigJsonPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormActivityEditor</value>
+  </data>
+  <data name="&gt;&gt;LblScheduleId.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="LblActivityConfigJsonPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>17, 15</value>
+  </data>
+  <data name="&gt;&gt;LblActivityId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListAllActivity.Parent" xml:space="preserve">
+    <value>GrpAllActivity</value>
+  </data>
+  <data name="LblActivityType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 74</value>
+  </data>
+  <data name="ColActivityTitle.Text" xml:space="preserve">
+    <value>活动名称</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ColumnActivityName.Width" type="System.Int32, mscorlib">
+    <value>300</value>
+  </data>
+  <data name="ListActivityConfigItems.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblActivityParmEditTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>248, 17</value>
+  </data>
+  <data name="&gt;&gt;NUDActivityType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>776, 12</value>
+  </data>
+  <data name="LblMeetCondList.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblActivityTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 45</value>
+  </data>
+  <data name="ActivityConfigJsonPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>489, 23</value>
+  </data>
+  <data name="&gt;&gt;NUDActivityType.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="LblActivityConfigJsonPath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>884, 381</value>
+  </data>
+  <data name="&gt;&gt;BtnDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpAllActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 328</value>
+  </data>
+  <data name="BtnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="LblActivityId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="BtnLoad.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="GrpFileActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>260, 328</value>
+  </data>
+  <data name="BtnSave.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="DTPEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 23</value>
+  </data>
+  <data name="ColActivityTitle.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.Name" xml:space="preserve">
+    <value>DTPEndTime</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;ColumnActivityName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ListAllActivity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 306</value>
+  </data>
+  <data name="&gt;&gt;LblScheduleId.Name" xml:space="preserve">
+    <value>LblScheduleId</value>
+  </data>
+  <data name="&gt;&gt;ListAllActivity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblActivityParmEditTip.Name" xml:space="preserve">
+    <value>LblActivityParmEditTip</value>
+  </data>
+  <data name="&gt;&gt;BtnLoad.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LblBeginTime.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;GrpActivityInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;GrpActivityInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpActivityInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LblScheduleId.Text" xml:space="preserve">
+    <value>计划ID</value>
+  </data>
+  <data name="LblMeetCondList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 133</value>
+  </data>
+  <data name="GrpFileActivity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="GrpActivityInfo.Text" xml:space="preserve">
+    <value>活动信息</value>
+  </data>
+  <data name="BtnDelete.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="NUDActivityId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="&gt;&gt;LblActivityTitle.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="&gt;&gt;LblMeetCondList.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="LblActivityConfigJsonPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 17</value>
+  </data>
+  <data name="ListAllActivity.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.Name" xml:space="preserve">
+    <value>BtnAddOrUpdate</value>
+  </data>
+  <data name="GrpActivityInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 328</value>
+  </data>
+  <data name="&gt;&gt;ColumnActivityId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;BtnLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="GrpAllActivity.Text" xml:space="preserve">
+    <value>已知活动 by dplek</value>
+  </data>
+  <data name="BtnAddOrUpdate.Text" xml:space="preserve">
+    <value>√ 添加或更新</value>
+  </data>
+  <data name="ColumnActivityName.Text" xml:space="preserve">
+    <value>活动名称</value>
+  </data>
+  <data name="&gt;&gt;LblScheduleId.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="&gt;&gt;ActivityConfigJsonPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NUDScheduleId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="&gt;&gt;ColActivityEndTime.Name" xml:space="preserve">
+    <value>ColActivityEndTime</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpFileActivity.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblMeetCondList.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="TxtMeetCondList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 130</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTime.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="&gt;&gt;ColActivityTitle.Name" xml:space="preserve">
+    <value>ColActivityTitle</value>
+  </data>
+  <data name="LblActivityType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblActivityType.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnDelete.Parent" xml:space="preserve">
+    <value>GrpActivityInfo</value>
+  </data>
+  <data name="LblMeetCondList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="&gt;&gt;LblEndTime.Name" xml:space="preserve">
+    <value>LblEndTime</value>
+  </data>
+  <data name="LblActivityId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 45</value>
+  </data>
+  <data name="BtnSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DTPEndTime.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="NUDScheduleId.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;GrpActivityInfo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ColActivityTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblScheduleId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="&gt;&gt;NUDActivityId.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;LblMeetCondList.Name" xml:space="preserve">
+    <value>LblMeetCondList</value>
+  </data>
+  <data name="LblActivityTitle.Text" xml:space="preserve">
+    <value>活动名称</value>
+  </data>
+  <data name="BtnAddOrUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 271</value>
+  </data>
+  <data name="&gt;&gt;LblActivityParmEditTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColActivityBeginTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtMeetCondList.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ActivityConfigJsonPath.Name" xml:space="preserve">
+    <value>ActivityConfigJsonPath</value>
+  </data>
+  <data name="DTPBeginTime.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="LblActivityParmEditTip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 251</value>
+  </data>
+  <data name="LblBeginTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 17</value>
+  </data>
+  <data name="LblScheduleId.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ColActivityBeginTime.Name" xml:space="preserve">
+    <value>ColActivityBeginTime</value>
+  </data>
+  <data name="&gt;&gt;ColumnActivityName.Name" xml:space="preserve">
+    <value>ColumnActivityName</value>
+  </data>
+  <data name="&gt;&gt;ListAllActivity.Name" xml:space="preserve">
+    <value>ListAllActivity</value>
+  </data>
+  <data name="ListActivityConfigItems.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;ActivityConfigJsonPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LblMeetCondList.Text" xml:space="preserve">
+    <value>满足条件列表</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

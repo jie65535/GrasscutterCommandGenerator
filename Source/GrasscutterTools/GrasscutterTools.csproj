@@ -283,7 +283,16 @@
     <Compile Include="Utils\Logger.cs" />
     <Compile Include="Utils\GithubHelper.cs" />
     <Compile Include="Utils\UIUtil.cs" />
+    <EmbeddedResource Include="Forms\FormActivityEditor.en-US.resx">
+      <DependentUpon>FormActivityEditor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormActivityEditor.resx">
+      <DependentUpon>FormActivityEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormActivityEditor.ru-RU.resx">
+      <DependentUpon>FormActivityEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormActivityEditor.zh-TW.resx">
       <DependentUpon>FormActivityEditor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FormDropEditor.en-US.resx">
