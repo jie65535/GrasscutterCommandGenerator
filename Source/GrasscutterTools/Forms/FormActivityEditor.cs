@@ -231,19 +231,21 @@ namespace GrasscutterTools.Forms
         private async void BtnAddOrUpdate_Click(object sender, EventArgs e)
         {
             var activityId = (int)NUDActivityId.Value;
+            var isNew = false;
             var item = ActivityConfigItems.Find(it => it.ActivityId == activityId);
             if (item == null)
             {
                 item = new ActivityConfigItem();
-                ActivityConfigItems.Add(item);
-                ListActivityConfigItems.Items.Add(Convert(item));
+                isNew = true;
             }
 
             item.ActivityType = (int)NUDActivityType.Value;
             item.ScheduleId = (int)NUDScheduleId.Value;
             try
             {
-                item.MeetCondList = TxtMeetCondList.Text.Split(',').Select(it => int.Parse(it.Trim())).ToList();
+                item.MeetCondList = !string.IsNullOrEmpty(TxtMeetCondList.Text)
+                    ? TxtMeetCondList.Text.Split(',').Select(it => int.Parse(it.Trim())).ToList()
+                    : new List<int>();
             }
             catch (Exception)
             {
@@ -257,6 +259,12 @@ namespace GrasscutterTools.Forms
 
             item.BeginTime = DTPBeginTime.Value.Date;
             item.EndTime = DTPEndTime.Value.Date.AddDays(1).AddSeconds(-1);
+
+            if (isNew)
+            {
+                ActivityConfigItems.Add(item);
+                ListActivityConfigItems.Items.Add(Convert(item));
+            }
 
             BtnDelete.Enabled = true;
             await UIUtil.ButtonComplete(BtnAddOrUpdate);
