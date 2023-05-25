@@ -1,5 +1,123 @@
 [
 	{
+		"comment": "3.7.1 Yoimiya",
+		"gachaType": 301,
+		"scheduleId": 118,
+		"prefabPath": "GachaShowPanel_A133",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A049_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1036, 1064, 1061 ],
+		"rateUpItems5": [ 1049 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "3.7.1 Yae Miko",
+		"gachaType": 400,
+		"scheduleId": 117,
+		"prefabPath": "GachaShowPanel_A134",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A071_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1036, 1064, 1061 ],
+		"rateUpItems5": [ 1058 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "3.7.1",
+		"gachaType": 302,
+		"scheduleId": 116,
+		"prefabPath": "GachaShowPanel_A135",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 12416, 11402, 13401, 14402, 15405 ],
+		"rateUpItems5": [ 15509, 14509 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
 		"comment": "3.6.2 Baizhu",
 		"gachaType": 301,
 		"scheduleId": 115,
