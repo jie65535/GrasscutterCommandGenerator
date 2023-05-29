@@ -5,7 +5,7 @@
 [![Github All Releases](https://img.shields.io/github/downloads/jie65535/GrasscutterCommandGenerator/total.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/releases)
 [![GitHub release](https://img.shields.io/github/v/release/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/releases/latest)
 [![Build](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml/badge.svg)](https://github.com/jie65535/GrasscutterCommandGenerator/actions/workflows/build.yml)
-[![QQ Group](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=g4JFfX371L4WxykwyaFz2s5QF7bNi9IZ&authKey=huWbY77SDVWKMI24rd0YuOHGxYTxSgdGnn8HNFKnFrRvnR6UIRu7sTMyT8PBpEet&noverify=0&group_code=835489603)
+[![QQ Group](https://pub.idqqimg.com/wpa/images/group.png)](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=fBizzp6RwJsIY7gFlmd4L-WG0V3aF8X3&authKey=mTjf%2B7jCIZess1HTRi05e5yi%2FHKA1auMwE8%2FJ960PFWk8WMATST654gWPi4OTHTZ&noverify=0&group_code=835489603)
 
 English | [简体中文](README_zh-cn.md) | [繁體中文](README_zh-tw.md) | [Русский](README_ru-RU.md)
 
