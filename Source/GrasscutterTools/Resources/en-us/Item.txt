@@ -58,6 +58,7 @@
 157:Floral Coupon
 158:Gala Excitement
 159:Festive Ticket
+160:Invokation Coupons
 201:Primogem
 202:Mora
 203:Genesis Crystal
@@ -120,6 +121,7 @@
 1058:Yae Miko
 1059:Shikanoin Heizou
 1060:Yelan
+1061:Kirara
 1062:Aloy
 1063:Shenhe
 1064:Yun Jin
@@ -141,7 +143,6 @@
 1080:Mika
 1081:Kaveh
 1082:Baizhu
-1062:Kirara
 
 
 // MATERIAL_TALENT
@@ -199,6 +200,7 @@
 1158:Yae Miko's Stella Fortuna
 1159:Shikanoin Heizou's Stella Fortuna
 1160:Yelan's Stella Fortuna
+1161:Kirara's Stella Fortuna
 1162:Aloy's Stella Fortuna
 1163:Shenhe's Stella Fortuna
 1164:Yun Jin's Stella Fortuna
@@ -461,6 +463,7 @@
 108484:Scented Meat Balls
 108485:Delicious Scented Meat Balls
 108486:Ideal Circumstance
+108511:Energizing Bento
 
 
 // MATERIAL_FOOD
@@ -1259,6 +1262,7 @@
 200112:Plume of the Changing Winds
 200113:Parasol Talcum
 200114:Unfading Silky Grace
+200115:Congealed Pupa Wax
 
 
 // MATERIAL_HOME_SEED
@@ -1658,7 +1662,7 @@
 210132:Sumeru: Unsullied
 210133:Travel Notes: Returning Winds
 210134:Cyno: Silence
-210135:Candace: Grey Heron
+210135:Candace: Gray Heron
 210136:Nilou: Lotus Dance
 210137:Achievement: Seven Lights
 210138:Sumeru: Sandtreader
@@ -1685,6 +1689,8 @@
 210159:Sumeru: The Great Dream
 210160:Sumeru: Amrita
 210161:Travel Notes: Crown of Glory
+210162:Kirara: Neko Box
+210163:Travel Notes: Secrets
 
 
 // MATERIAL_WIDGET
@@ -1803,6 +1809,7 @@
 330006:Diluc
 330007:Xiangling
 330008:Bennett
+330009:Amber
 330010:Yoimiya
 330011:Fischl
 330012:Razor
@@ -1822,13 +1829,25 @@
 330026:Mirror Maiden
 330027:Jadeplume Terrorshroom
 330028:Eula
+330029:Tartaglia
 330030:Sangonomiya Kokomi
 330031:Kamisato Ayato
 330032:Klee
+330033:Hu Tao
 330034:Beidou
 330035:Kujou Sara
+330036:Raiden Shogun
+330037:Yae Miko
+330038:Venti
+330039:Xiao
+330040:Zhongli
 330042:Arataki Itto
 330043:Tighnari
+330044:Nahida
+330045:Fatui Cryo Cicin Mage
+330046:Abyss Lector: Fathomless Flames
+330047:Electro Hypostasis
+330048:Shenhe
 330500:Undivided Heart
 330501:Cold-Blooded Strike
 330502:Steady Breathing
@@ -1838,6 +1857,7 @@
 330506:Flowing Flame
 330507:Crossfire
 330508:Grand Expectation
+330509:Bunny Triggered
 330510:Naganohara Meteor Swarm
 330511:Stellar Predator
 330512:Awakening
@@ -1857,13 +1877,25 @@
 330526:Mirror Cage
 330527:Proliferating Spores
 330528:Wellspring of War-Lust
-330529:Tamanooya's Casket
+330529:Tamakushi Casket
 330530:Pounding Surprise
 330531:Lightning Storm
+330532:Embrace of Winds
+330533:Conqueror of Evil: Guardian Yaksha
+330534:Dominance of Earth
 330535:Keen Sight
+330536:Absorbing Prism
 330537:Sin of Pride
 330538:Kyouka Fuushi
 330539:Arataki Ichiban
+330540:Mystical Abandon
+330541:Abyssal Mayhem: Hydrospout
+330542:Sanguine Rouge
+330543:Wishes Unnumbered
+330544:The Shrine's Sacred Shade
+330546:The Seed of Stored Knowledge
+330547:Cicin's Cold Glare
+330548:Embers Rekindled
 331000:Magic Guide
 331001:Sacrificial Fragments
 331002:Skyward Atlas
@@ -1901,7 +1933,21 @@
 331034:Deepwood Memories
 331035:Ornate Kabuto
 331036:General's Ancient Helm
+331037:Amos' Bow
+331038:A Thousand Floating Dreams
+331039:Elegy for the End
+331040:Skyward Pride
+331041:The Bell
+331042:Vortex Vanquisher
+331043:Engulfing Lightning
+331044:Skyward Blade
 331045:Favonius Sword
+331046:Emblem of Severed Fate
+331047:Tenacity of the Millelith
+331048:Thundering Poise
+331049:Vermillion Hereafter
+331050:Capricious Visage
+331051:Shimenawa's Reminiscence
 332000:Liyue Harbor Wharf
 332001:Knights of Favonius Library
 332002:Jade Chamber
@@ -1923,6 +1969,18 @@
 332018:Parametric Transformer
 332019:NRE
 332020:Grand Narukami Shrine
+332021:Tenshukaku
+332022:Sangonomiya Shrine
+332023:Sumeru City
+332024:Vanarana
+332025:Chinju Forest
+332026:Hanachirusato
+332027:Kid Kujirai
+332028:Xudong
+332029:Dunyarzad
+332030:Rana
+332031:Red Feather Fan
+332032:Treasure-Seeking Seelie
 333000:Elemental Resonance: Woven Ice
 333001:Elemental Resonance: Shattering Ice
 333002:Elemental Resonance: Woven Waters
@@ -1960,6 +2018,19 @@
 333034:Mondstadt Hash Brown
 333035:Mushroom Pizza
 333036:Minty Meat Rolls
+333037:Wind and Freedom
+333038:Stone and Contracts
+333039:Thunder and Eternity
+333040:Nature and Wisdom
+333041:Fatui Conspiracy
+333042:Plunging Strike
+333043:Heavy Strike
+333044:The Legend of Vennessa
+333045:Friendship Eternal
+333046:Teyvat Fried Egg
+333047:Sashimi Platter
+333048:Tandoori Roast Chicken
+333049:Butter Crab
 334000:Ganyu
 334001:Kaeya
 334002:Chongyun
@@ -1969,6 +2040,7 @@
 334006:Diluc
 334007:Xiangling
 334008:Bennett
+334009:Amber
 334010:Yoimiya
 334011:Fischl
 334012:Razor
@@ -1995,6 +2067,18 @@
 334033:Kamisato Ayato
 334034:Arataki Itto
 334035:Tighnari
+334036:Tartaglia
+334037:Hu Tao
+334038:Raiden Shogun
+334039:Yae Miko
+334040:Venti
+334041:Xiao
+334042:Zhongli
+334044:Nahida
+334045:Fatui Cryo Cicin Mage
+334046:Abyss Lector: Fathomless Flames
+334047:Electro Hypostasis
+334048:Shenhe
 334500:Undivided Heart
 334501:Cold-Blooded Strike
 334502:Steady Breathing
@@ -2004,6 +2088,7 @@
 334506:Flowing Flame
 334507:Crossfire
 334508:Grand Expectation
+334509:Bunny Triggered
 334510:Naganohara Meteor Swarm
 334511:Stellar Predator
 334512:Awakening
@@ -2025,11 +2110,23 @@
 334528:Lightning Storm
 334529:Pounding Surprise
 334530:Wellspring of War-Lust
-334531:Tamanooya's Casket
+334531:Tamakushi Casket
 334532:Sin of Pride
 334533:Kyouka Fuushi
 334534:Arataki Ichiban
 334535:Keen Sight
+334536:Embrace of Winds
+334537:Conqueror of Evil: Guardian Yaksha
+334538:Dominance of Earth
+334539:Absorbing Prism
+334540:Mystical Abandon
+334541:Abyssal Mayhem: Hydrospout
+334542:Sanguine Rouge
+334543:Wishes Unnumbered
+334544:The Shrine's Sacred Shade
+334546:The Seed of Stored Knowledge
+334547:Cicin's Cold Glare
+334548:Embers Rekindled
 335000:Magic Guide
 335001:Sacrificial Fragments
 335002:Skyward Atlas
@@ -2068,6 +2165,20 @@
 335035:Ornate Kabuto
 335036:General's Ancient Helm
 335037:Favonius Sword
+335038:Amos' Bow
+335039:A Thousand Floating Dreams
+335040:Elegy for the End
+335041:Skyward Pride
+335042:The Bell
+335043:Vortex Vanquisher
+335044:Engulfing Lightning
+335045:Skyward Blade
+335046:Emblem of Severed Fate
+335047:Tenacity of the Millelith
+335048:Thundering Poise
+335049:Vermillion Hereafter
+335050:Capricious Visage
+335051:Shimenawa's Reminiscence
 336000:Liyue Harbor Wharf
 336001:Knights of Favonius Library
 336002:Jade Chamber
@@ -2089,6 +2200,18 @@
 336018:Parametric Transformer
 336019:NRE
 336020:Grand Narukami Shrine
+336021:Tenshukaku
+336022:Sangonomiya Shrine
+336023:Sumeru City
+336024:Vanarana
+336025:Chinju Forest
+336026:Hanachirusato
+336027:Kid Kujirai
+336028:Xudong
+336029:Dunyarzad
+336030:Rana
+336031:Red Feather Fan
+336032:Treasure-Seeking Seelie
 337000:Elemental Resonance: Woven Ice
 337001:Elemental Resonance: Shattering Ice
 337002:Elemental Resonance: Woven Waters
@@ -2126,6 +2249,19 @@
 337034:Mondstadt Hash Brown
 337035:Mushroom Pizza
 337036:Minty Meat Rolls
+337037:Wind and Freedom
+337038:Stone and Contracts
+337039:Thunder and Eternity
+337040:Nature and Wisdom
+337041:Fatui Conspiracy
+337042:Plunging Strike
+337043:Heavy Strike
+337044:The Legend of Vennessa
+337045:Friendship Eternal
+337046:Teyvat Fried Egg
+337047:Sashimi Platter
+337048:Tandoori Roast Chicken
+337049:Butter Crab
 339000:Origin
 339001:Mondstadt
 339002:Liyue
@@ -2144,6 +2280,7 @@
 339019:Glaze Lily
 339020:Dendrobium
 339021:Lazurite Swirl
+339022:Treasures of the Deck
 339500:Mondstadt
 339501:Liyue
 339502:Inazuma
@@ -2178,7 +2315,7 @@
 350010:Book Lover's Study
 350011:Fully Furnished Mondstadt Bedroom
 350012:Meeting Room of the "Strategic Six"
-350013:Wine o' Clock
+350013:Wine O' Clock
 350014:Merchant's Working Lunch
 350015:Parlor Cordiality
 350016:Well-Equipped Study
@@ -2306,6 +2443,7 @@
 381212:Desert Cabinet: Odds and Ends
 381213:Treasure from the Land of Wisdom
 381214:Scrolls from the Land of Wisdom
+381215:Tavern Bookcase - "Essential Knowledge"
 381301:Sturdy Library Table
 381302:Favonius Office Table
 381303:Favonius Conference Table
@@ -2328,11 +2466,13 @@
 381321:A Table for Two
 381322:Long Adhigama Chamfer Table
 381324:Athel Wood Compact Desk
+381325:Round Tavern Table - Leaps and Bounds
 381401:Breeze-Blessed Bed
 381402:Cloudy Haze Bed
 381403:Yumemiru "Sakura's Rest" Bed
 381404:Brightwood "Concord" Bed
 381405:Adhigama Wood "Comfort" Bed
+381406:Adhigama Wood "Repose" Couch
 381501:Pine Reception Counter
 381502:Teahouse Counter: "Toshimaru"
 381503:Desert Stone Platform: Sturdy
@@ -2350,6 +2490,10 @@
 382110:Karmaphala Wood "Counter-Assault" Dining Chair
 382111:Satisfaction of Sated Thirst
 382112:Adhigama Vine-Backed Chair
+382114:"Sneku's Thicket"
+382115:"Finnick's Cranberry Sea"
+382116:Tavern Dining Chair - "Flavor's Multiplicity"
+382117:Tavern Dining Chair - "Accelerated Sobriety"
 382201:Northern Stone Hearth
 382202:Pine Folding Screen: Billowing Sails
 382203:Hardwood Screen: Morning Mist in Jueyun
@@ -2389,6 +2533,11 @@
 382241:Hued Vase: Ajilenakh
 382242:Hued Vase: Crimson Sands
 382243:"Pure Heat"
+382245:"Little Rose's Mangrove House"
+382246:"Night Pilot's Watchtower"
+382247:"Baobab's Golden Cradle"
+382248:"Diona's Mini Sofa"
+382249:Tavern Dining Cart - "A Snack Between Dishes"
 382301:Mondstadt Rug: Crimson Ardor
 382302:Mondstadt Rug: Tireless Search
 382303:Tavern Rug: Home Away From Home
@@ -2399,6 +2548,8 @@
 382308:Sun-Scorched Solemnity
 382309:The Olive Grove
 382310:Pure Like Wheat Sprouts
+382311:Tavern Carpet - "Passion of Play"
+382312:Tavern Carpet - "Duelist's Wisdom"
 383101:Trusty Portable Lamp
 383102:Liuli Pavilion Sandbearer Floor Lamp
 383103:Tianyuan Lantern: Fragrant Brilliance
@@ -2454,6 +2605,9 @@
 383345:"Sweet and Fruity" Painted Plate
 383346:"In Drink's Clarity"
 383347:"The Dust Differential"
+383350:Desk Combo - Middlelake Isle
+383351:Desk Combo - Verdant Totem
+383352:"Prince's Weeping Fish"
 383501:"Realizations from the Land of Wisdom"
 383502:Restorative Fragrance
 383504:The Art of Retaining Water
@@ -2748,6 +2902,7 @@
 393161:Plain Vase: Stupor for Ten
 393162:Brightwood Self-Tightening Wine Buckets
 393163:Brightwood Fabric Box Platform
+393167:Leisure Device: Puffy Tubby
 393201:Potted Plant: Verdant Vastness
 393202:Water-Retaining Flower Beds
 393203:Soil-Carrying Wooden Barrel
@@ -2966,6 +3121,7 @@
 361212:Desert Cabinet: Odds and Ends
 361213:Treasure from the Land of Wisdom
 361214:Scrolls from the Land of Wisdom
+361215:Tavern Bookcase - "Essential Knowledge"
 361301:Sturdy Library Table
 361302:Favonius Office Table
 361303:Favonius Conference Table
@@ -2989,11 +3145,13 @@
 361322:Long Adhigama Chamfer Table
 361323:Million Flavors Savored
 361324:Athel Wood Compact Desk
+361325:Round Tavern Table - Leaps and Bounds
 361401:Breeze-Blessed Bed
 361402:Cloudy Haze Bed
 361403:Yumemiru "Sakura's Rest" Bed
 361404:Brightwood "Concord" Bed
 361405:Adhigama Wood "Comfort" Bed
+361406:Adhigama Wood "Repose" Couch
 361501:Pine Reception Counter
 361502:Teahouse Counter: "Toshimaru"
 361503:Desert Stone Platform: Sturdy
@@ -3012,6 +3170,10 @@
 362111:Satisfaction of Sated Thirst
 362112:Adhigama Vine-Backed Chair
 362113:A Seat of Sophisticated Luxury
+362114:"Sneku's Thicket"
+362115:"Finnick's Cranberry Sea"
+362116:Tavern Dining Chair - "Flavor's Multiplicity"
+362117:Tavern Dining Chair - "Accelerated Sobriety"
 362201:Northern Stone Hearth
 362202:Pine Folding Screen: Billowing Sails
 362203:Hardwood Screen: Morning Mist in Jueyun
@@ -3055,6 +3217,11 @@
 362242:Hued Vase: Crimson Sands
 362243:"Pure Heat"
 362244:"Still-Budding Artistry"
+362245:"Little Rose's Mangrove House"
+362246:"Night Pilot's Watchtower"
+362247:"Baobab's Golden Cradle"
+362248:"Diona's Mini Sofa"
+362249:Tavern Dining Cart - "A Snack Between Dishes"
 362301:Mondstadt Rug: Crimson Ardor
 362302:Mondstadt Rug: Tireless Search
 362303:Tavern Rug: Home Away From Home
@@ -3065,6 +3232,8 @@
 362308:Sun-Scorched Solemnity
 362309:The Olive Grove
 362310:Pure Like Wheat Sprouts
+362311:Tavern Carpet - "Passion of Play"
+362312:Tavern Carpet - "Duelist's Wisdom"
 363101:Trusty Portable Lamp
 363102:Liuli Pavilion Sandbearer Floor Lamp
 363103:Tianyuan Lantern: Fragrant Brilliance
@@ -3133,6 +3302,10 @@
 363346:"In Drink's Clarity"
 363347:"The Dust Differential"
 363348:"Omnidirector"
+363349:Friendly Aranara Carving
+363350:Desk Combo - Middlelake Isle
+363351:Desk Combo - Verdant Totem
+363352:"Prince's Weeping Fish"
 363501:"Realizations from the Land of Wisdom"
 363502:Restorative Fragrance
 363504:The Art of Retaining Water
@@ -3263,6 +3436,7 @@
 368165:Mika
 368166:Kaveh
 368167:Baizhu
+368168:Kirara
 369101:Jade-Eyed Cat
 369102:Northland Hound
 369103:Forest Boar
@@ -3791,6 +3965,7 @@
 373164:"The Arrayed Stars Mirrored"
 373165:"Spiraling Duet"
 373166:"Monthly Frustration-Be-Gone"
+373167:Leisure Device: Puffy Tubby
 373201:Potted Plant: Verdant Vastness
 373202:Water-Retaining Flower Beds
 373203:Soil-Carrying Wooden Barrel
@@ -3889,6 +4064,14 @@
 373384:"Amurta Flag"
 373385:"Rtawahist Flag"
 373386:"Kshahrewar Flag"
+373387:Evermotion Mechanical Painting - Knights of Favonius Library
+373388:Evermotion Mechanical Painting - Dawn Winery
+373389:Evermotion Mechanical Painting - Liyue Harbor Wharf
+373390:Evermotion Mechanical Painting - Wangshu Inn
+373391:Evermotion Mechanical Painting - Tenshukaku
+373392:Evermotion Mechanical Painting - Sangonomiya Shrine
+373393:Evermotion Mechanical Painting - Sumeru City
+373394:Evermotion Mechanical Painting - Tandoori Roast Chicken
 373401:Wrought Iron Carved Street Light
 373402:Pine Street Light
 373403:Evil-Repelling Lantern: All-Around Lighting
