@@ -172,6 +172,7 @@
             this.CmbMainAttribution.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbMainAttribution.FormattingEnabled = true;
             this.CmbMainAttribution.Name = "CmbMainAttribution";
+            this.CmbMainAttribution.SelectedIndexChanged += new System.EventHandler(this.ArtifactInputChanged);
             // 
             // LblMainAttribution
             // 
