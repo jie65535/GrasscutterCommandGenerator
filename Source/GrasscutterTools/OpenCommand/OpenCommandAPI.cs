@@ -46,15 +46,15 @@ namespace GrasscutterTools.OpenCommand
 
         public async Task<bool> Ping()
         {
-            try
-            {
+            //try
+            //{
                 var response = await DoRequest("ping");
                 return response.RetCode == 200;
-            }
-            catch (Exception)
-            {
-                return false;
-            }
+            //}
+            //catch (Exception)
+            //{
+            //    return false;
+            //}
         }
 
         public async Task SendCode(int playerId)
