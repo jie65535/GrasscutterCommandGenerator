@@ -45,6 +45,7 @@
             this.LblSceneDescription = new System.Windows.Forms.Label();
             this.ListScenes = new System.Windows.Forms.ListBox();
             this.LblTp = new System.Windows.Forms.Label();
+            this.RbListCutScene = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpZ)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpX)).BeginInit();
@@ -195,10 +196,18 @@
             resources.ApplyResources(this.LblTp, "LblTp");
             this.LblTp.Name = "LblTp";
             // 
+            // RbListCutScene
+            // 
+            resources.ApplyResources(this.RbListCutScene, "RbListCutScene");
+            this.RbListCutScene.Name = "RbListCutScene";
+            this.RbListCutScene.UseVisualStyleBackColor = true;
+            this.RbListCutScene.CheckedChanged += new System.EventHandler(this.RbListCutScene_CheckedChanged);
+            // 
             // PageScene
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.RbListCutScene);
             this.Controls.Add(this.RbListDungeons);
             this.Controls.Add(this.RbListScene);
             this.Controls.Add(this.TxtSceneFilter);
@@ -242,5 +251,6 @@
         private System.Windows.Forms.Label LblSceneDescription;
         private System.Windows.Forms.ListBox ListScenes;
         private System.Windows.Forms.Label LblTp;
+        private System.Windows.Forms.RadioButton RbListCutScene;
     }
 }

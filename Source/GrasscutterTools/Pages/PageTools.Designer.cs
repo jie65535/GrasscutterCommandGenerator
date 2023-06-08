@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.BtnUpdateResources = new System.Windows.Forms.Button();
+            this.BtnConvertCutScene = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnUpdateResources
@@ -41,10 +42,21 @@
             this.BtnUpdateResources.UseVisualStyleBackColor = true;
             this.BtnUpdateResources.Click += new System.EventHandler(this.BtnUpdateResources_Click);
             // 
+            // BtnConvertCutScene
+            // 
+            this.BtnConvertCutScene.Location = new System.Drawing.Point(109, 3);
+            this.BtnConvertCutScene.Name = "BtnConvertCutScene";
+            this.BtnConvertCutScene.Size = new System.Drawing.Size(150, 30);
+            this.BtnConvertCutScene.TabIndex = 0;
+            this.BtnConvertCutScene.Text = "Convert Cutscene";
+            this.BtnConvertCutScene.UseVisualStyleBackColor = true;
+            this.BtnConvertCutScene.Click += new System.EventHandler(this.BtnConvertCutScene_Click);
+            // 
             // PageTools
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.BtnConvertCutScene);
             this.Controls.Add(this.BtnUpdateResources);
             this.Name = "PageTools";
             this.ResumeLayout(false);
@@ -54,5 +66,6 @@
         #endregion
 
         private System.Windows.Forms.Button BtnUpdateResources;
+        private System.Windows.Forms.Button BtnConvertCutScene;
     }
 }

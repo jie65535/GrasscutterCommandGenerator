@@ -147,8 +147,17 @@ namespace GrasscutterTools.Pages
                     return;
                 }
 
-                Common.OC = new OpenCommandAPI(TxtHost.Text);
-                if (await Common.OC.Ping())
+                var isOcEnabled = false;
+                try
+                {
+                    Common.OC = new OpenCommandAPI(TxtHost.Text);
+                    isOcEnabled = await Common.OC.Ping();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                if (isOcEnabled)
                 {
                     LblOpenCommandSupport.Text = "√";
                     LblOpenCommandSupport.ForeColor = Color.Green;

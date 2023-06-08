@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Windows.Forms;
+using GrasscutterTools.Game.CutScene;
+using GrasscutterTools.Properties;
+using Newtonsoft.Json;
 
 namespace GrasscutterTools.Pages
 {
@@ -60,6 +64,29 @@ namespace GrasscutterTools.Pages
                         }
                     }
                 }
+            }
+        }
+
+        
+
+        private void BtnConvertCutScene_Click(object sender, EventArgs e)
+        {
+            var src = new OpenFileDialog
+            {
+                Title = "请选择 Json 格式的 Cutscene.txt",
+                Multiselect = false,
+            };
+            if (src.ShowDialog() != DialogResult.OK)
+                return;
+            try
+            {
+                var cutScenes = JsonConvert.DeserializeObject<List<CutSceneItem>>(File.ReadAllText(src.FileName));
+                File.WriteAllLines(src.FileName, cutScenes.Select(it => $"{it.Id}:{it.Path.Substring(it.Path.IndexOf('/') + 1)}"));
+                MessageBox.Show("OK", Resources.Tips, MessageBoxButtons.OK);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

@@ -33,6 +33,7 @@ namespace GrasscutterTools.Game
             ArtifactSubAttribution = new ItemMap(Resources.ArtifactSubAttribution);
             Avatars = new ItemMap(Resources.Avatar);
             AvatarColors = new ItemMap(Resources.AvatarColor);
+            CutScenes = new ItemMap(Resources.Cutscene);
             Items = new ItemMapGroup(Resources.Item);
             Monsters = new ItemMapGroup(Resources.Monsters);
             Gadgets = new ItemMapGroup(Resources.Gadget);
@@ -61,6 +62,8 @@ namespace GrasscutterTools.Game
         public static ItemMap Avatars { get; private set; }
 
         public static ItemMap AvatarColors { get; private set; }
+
+        public static ItemMap CutScenes { get; private set; }
 
         public static ItemMapGroup Items { get; private set; }
 

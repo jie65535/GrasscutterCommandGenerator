@@ -148,7 +148,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;RbListDungeons.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="RbListScene.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -178,7 +178,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;RbListScene.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="TxtSceneFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -202,7 +202,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TxtSceneFilter.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="ChkIncludeSceneId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -238,7 +238,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ChkIncludeSceneId.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="LblTpZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -271,7 +271,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblTpZ.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="LblTpY.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -304,7 +304,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblTpY.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="BtnTeleport.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -334,7 +334,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BtnTeleport.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="LblTpX.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -367,7 +367,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblTpX.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="NUDTpZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -391,7 +391,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NUDTpZ.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="NUDTpY.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -415,7 +415,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NUDTpY.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="NUDTpX.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -439,7 +439,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NUDTpX.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="CmbClimateType.Location" type="System.Drawing.Point, System.Drawing">
     <value>65, 29</value>
@@ -460,7 +460,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;CmbClimateType.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="LblClimateType.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -490,7 +490,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblClimateType.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="LblSceneDescription.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -520,7 +520,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblSceneDescription.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="ListScenes.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -547,7 +547,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;ListScenes.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="LblTp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -583,7 +583,37 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblTp.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
+  </data>
+  <data name="RbListCutScene.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="RbListCutScene.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="RbListCutScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>287, 57</value>
+  </data>
+  <data name="RbListCutScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 21</value>
+  </data>
+  <data name="RbListCutScene.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="RbListCutScene.Text" xml:space="preserve">
+    <value>过场</value>
+  </data>
+  <data name="&gt;&gt;RbListCutScene.Name" xml:space="preserve">
+    <value>RbListCutScene</value>
+  </data>
+  <data name="&gt;&gt;RbListCutScene.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;RbListCutScene.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;RbListCutScene.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -595,6 +625,6 @@
     <value>PageScene</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.7.4.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.9.1.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
 </root>

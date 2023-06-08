@@ -75,6 +75,16 @@ namespace GrasscutterTools.Pages
                 Scenes = GameData.Dungeons.Lines;
         }
 
+
+        /// <summary>
+        /// 选中过场时触发
+        /// </summary>
+        private void RbListCutScene_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RbListCutScene.Checked)
+                Scenes = GameData.CutScenes.Lines;
+        }
+
         /// <summary>
         /// 场景列表过滤器输入项改变时触发
         /// </summary>
@@ -112,6 +122,10 @@ namespace GrasscutterTools.Pages
             else if (RbListDungeons.Checked)
             {
                 SetCommand("/dungeon", id.ToString());
+            }
+            else if (RbListCutScene.Checked)
+            {
+                SetCommand("/cutscene", id.ToString());
             }
         }
 
