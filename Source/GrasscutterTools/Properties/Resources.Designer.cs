@@ -648,13 +648,18 @@ namespace GrasscutterTools.Properties {
         ///8:Cs_Scene_DragonNestSealGate
         ///9:Cs_MDAQ501_SwordBreak01
         ///200201:Cs_MDAQ071_DvalinCombat2
-        ///10:Cs_MDAQ501_DvalinSealOpen01
-        ///11:Cs_MDAQ501_DvalinSealOpen02
-        ///12:Cs_MDAQ501_DvalinSealOpen03
+        ///10:特瓦林秘境解锁1
+        ///11:特瓦林秘境解锁2
+        ///12:特瓦林秘境解锁3
         ///13:Cs_RecyclableDungeon_GetReward
         ///14:Cs_Scene_GoddessUpgradeDefault_SFX
         ///15:Cs_Scene_Goddess_Chord_Wind
-        ///16:Cs_Scene_Goddess_Cho [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///16:Cs_Scene_Goddess_Chord_Rock
+        ///17:忍冬之树普通
+        ///18:忍冬之树形态1
+        ///19:忍冬之树1升级2
+        ///20:忍冬之树形态2
+        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Cutscene {
             get {
