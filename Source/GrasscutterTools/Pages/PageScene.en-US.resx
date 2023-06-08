@@ -173,4 +173,13 @@ Tip: You can quickly teleport through the 'fishing hook' pin on the map in-game.
 In the command, you can use ~ to indicate the current position, and ~N to indicate the relative current N
 </value>
   </data>
+  <data name="RbListCutScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>252, 59</value>
+  </data>
+  <data name="RbListCutScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 21</value>
+  </data>
+  <data name="RbListCutScene.Text" xml:space="preserve">
+    <value>Cutscene</value>
+  </data>
 </root>

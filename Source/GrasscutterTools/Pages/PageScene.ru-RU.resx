@@ -197,4 +197,13 @@
 В команде вы можете использовать ~, чтобы указать текущую позицию, и ~N, чтобы указать смещение на N относительно текущей позиции
 </value>
   </data>
+  <data name="RbListCutScene.Location" type="System.Drawing.Point, System.Drawing">
+    <value>237, 56</value>
+  </data>
+  <data name="RbListCutScene.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 21</value>
+  </data>
+  <data name="RbListCutScene.Text" xml:space="preserve">
+    <value>Катсцена</value>
+  </data>
 </root>

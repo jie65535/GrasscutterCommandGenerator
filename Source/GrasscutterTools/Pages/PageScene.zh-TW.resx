@@ -145,4 +145,7 @@
 命令中可以用~表示當前位置，~N 表示相對當前N
 </value>
   </data>
+  <data name="RbListCutScene.Text" xml:space="preserve">
+    <value>過場</value>
+  </data>
 </root>
