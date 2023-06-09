@@ -8,7 +8,7 @@
 8:Hilichurl Small Base
 9:Hilichurl Large Base
 10:Hidden Teardrop in the Heart of the Jungle
-11:Realm Within	Realm Within
+11:Realm Within
 12:Realm of Clouds Dungeon Gameplay Test
 13:Character Combat Test
 15:Low-Temp Stage White-Box
@@ -16,8 +16,8 @@
 17:Combat Performance Test
 18:Charging Pile Power Supply White-Box
 19:Elemental Reaction Scenario White Box
-20:New Artifact Factor Test Stage 1
-21:New Artifact Factor Test Stage 2
+20:圣遗物新因子测试关卡1(test)
+21:圣遗物新因子测试关卡2(test)
 24:Night Cycling Dungeon
 25:Stage Gameplay White-Box CX
 26:Trap Gameplay White-Box
@@ -28,52 +28,54 @@
 31:Geo White-Box Test
 32:Mondstadt Artifact Challenge 1 White-Box Test
 33:Tower-Climbing Hilichurl Template
-34:Sea of Clouds White-Box Test
-35:TA Test Stage
-36:Random Orbital Spheres Test Stage 1
-37:Random Orbital Spheres Test Stage 2
-38:Challenge Factor Test 1
-39:Challenge Factor Test 2
-40:Challenge Factor Test 3
-41:Challenge Factor Test 4
-42:Challenge Factor Test 5
-43:Challenge Factor Test 6
-44:Challenge Factor Test 7
-45:Challenge Factor Test 8
-46:Challenge Factor Test 9
-47:Challenge Factor Test 10
-48:Challenge Factor Test 11
-49:Challenge Factor Test 12
-50:n/a
-55:Realm Within - Challenge Gameplay Test
-56:n/a
-57:n/a
-58:n/a
-59:n/a
-60:n/a
-61:n/a
-62:n/a
-63:n/a
-64:n/a
-65:n/a
-66:n/a
-67:n/a
-68:n/a
-69:Test Domain
-72:n/a
-73:n/a
+34:云海白盒测试(test)
+35:TA测试关卡(test)
+36:随机圈球测试关卡1(test)
+37:随机圈球测试关卡2(test)
+38:挑战因子测试1(test)
+39:挑战因子测试2(test)
+40:挑战因子测试3(test)
+41:挑战因子测试4(test)
+42:挑战因子测试5(test)
+43:挑战因子测试6(test)
+44:挑战因子测试7(test)
+45:挑战因子测试8(test)
+46:挑战因子测试9(test)
+47:3.7月度主题因子测试1(test)
+48:3.7月度主题因子测试2(test)
+49:3.7月度主题因子测试3(test)
+50:水boss测试场景(test)
+55:壶中天挑战玩法测试(test)
+56:塔防玩法测试(test)
+57:塔防玩法测试2(test)
+58:龙王BOSS测试(test)
+59:风花节活动测试关卡1(test)
+60:风花节活动测试关卡2(test)
+61:风花节活动测试关卡3(test)
+62:若陀龙王Boss战(test)
+63:1.5测试关卡(test)
+64:1.5试玩活动测试（test）
+65:2.1影深测地城（test）
+66:怪物性能测试（test）
+67:塔防V3测试(test)
+68:旋转房间白盒(test)
+70:(test)圆柱测试地城
+71:(test)3.2散兵boss地城
+72:(test)风场地城测试01
+73:(test)风场地城测试04
+74:(test)3.2散兵boss地城
 75:Test Domain I
 76:Test Domain II
 77:Test Domain III
 78:Test Domain IV
 79:Test Domain V
 80:Test Domain VI
-81:Test Domain I
-82:Test Domain II
-83:Test Domain III
-84:Test Domain IV
-85:Test Domain V
-86:Test Domain VI
+81:Test Domain VII
+88:(test)奇趣秘园白盒
+89:(test)LCM测试秘境
+90:(test)须弥单线白盒
+91:(test)吃豆人白盒
+92:(test)草龙boss白盒
 101:The Golden Shadow
 102:Jade Chamber Storyline
 103:Memories: The Golden Shadow I
@@ -106,32 +108,40 @@
 132:Memories: Guardian of Eternity II
 133:Memories: Guardian of Eternity III
 134:Memories: Guardian of Eternity IV
+135:Memories: Lucent Altar of the Everlasting I
+136:Memories: Lucent Altar of the Everlasting II
+137:Memories: Lucent Altar of the Everlasting III
+138:Memories: Lucent Altar of the Everlasting IV
+139:Memories: "They" Too Were Once Flawless I
+140:Memories: "They" Too Were Once Flawless II
+141:Memories: "They" Too Were Once Flawless III
+142:Memories: "They" Too Were Once Flawless IV
 1000:Stage Gameplay Test
 1001:Deep Within the Temple of the Falcon
 1002:Find the Stolen Book
 1003:Deep Within the Temple of the Lion
-1004:Fatui Camp	Fatui Camp
+1004:Fatui Camp
 1005:Kaeya Combat Training Quest Dungeon
 1006:Jean and Amber's Combat Training Quest Dungeon
 1007:Lisa's Resident Dungeon Bottom
 1008:Hunt Down the Abyss Mage
 1009:Retrieve the Holy Lyre der Himmel
-1010:Secret Ingredient	Secret Ingredient
+1010:Secret Ingredient
 1011:The Great Adventurer Stanley
 1012:Another Detour
 1101:Stage Gameplay Black-Box Test
 1102:Karma-Heavy Cavern
 1103:Cloud Retainer's Abode
-1104:n/a
-1105:n/a
+1104:壶中天_轻量变形1(test)
+1105:壶中天_轻量变形2(test)
 1106:The Wonderful World Of Mr. Cyclops
 1107:Of Mysteries and Salt
 1108:Cloud Retainer's Abode
-1109:n/a
+1109:云海白盒测试(test)
 1110:Enter the "border"
 1111:Deserted Ruins of Thermadon
 1112:Deserted Ruins of Eya
-1113:Abyssal Traces	Abyssal Traces
+1113:Abyssal Traces
 1114:Call of the Abyss
 1115:Call of the Abyss
 1116:Behind Enemy Lines
@@ -139,21 +149,21 @@
 1118:The Omnipresent God
 1119:Delusion Factory
 1120:Hidden Mountain Base
-1121:？？？
-1122:？？？？
+1121:雷电将军个人线千手百眼（test)
+1122:千手百眼二阶段(test)
 1123:Tenryou Commission Headquarters
-1124:n/a
+1124:小说家的冒险(test)
 1125:Crumbling Guilt
 1126:Beneath the Vortex
 1127:Sea Gazer's Abode
 1128:Secret Summoning Chamber
-1129:？？？
-1130:n/a
+1129:雷电将军第二章（test）
+1130:（test)2.6容彩祭仓库
 1131:Chamber of Twisted Cranes
 1132:City of Hidden Runes
 1133:Realm of Snaring Illusions
 1134:Qingxu Pool Underground Ruins
-1135:n/a
+1135:（test)2.7层岩入口房间测试
 1136:Occupied Hold
 1137:Blazin' Trails
 1138:As the Courtyard in Spring Once Appeared: Part II
@@ -167,18 +177,38 @@
 1146:As the Courtyard in Spring Once Appeared: Part I
 1147:Immernachtreich Apokalypse: Part I
 1148:Immernachtreich Apokalypse: Part II
-1149:？？？
+1149:须弥兰娜罗梦境地城(test)
 1150:The Contamination's Source
-1151:n/a
-1152:n/a
-1153:n/a
-1154:n/a	
-1155:？？？
-1156:？？？
-1157:？？？
+1151:(test)3.0零级WQ织梦之森一次性地城
+1152:(test)3.0零级WQ唤雨之森一次性地城
+1153:(test)3.0零级WQ失落之森一次性地城
+1154:(test)3.0零级WQ葱头地城
+1155:世界树地城(test)
+1156:Mysterious Ruins
+1157:Court of Desolation
 1158:Desert Vivarium
 1159:Behind the Illusory Curtain
 1160:Edge of the End
+1161:The Greater Lord's Remaining Consciousness
+1162:（test）图书馆地城版本
+1163:(test)3.2蕈兽活动剧情地城
+1164:Deus Foundry
+1165:That Day Under Irminsul
+1166:3.2梦境俱乐部(test)
+1167:The Shrine of Shouki no Kami
+1168:3.3间章地城01(test)
+1169:3.3间章地城02(test)
+1170:Reminiscent Drift
+1171:3.3间章地城03（test）
+1172:3.3间章地城04（test）
+1173:3.3间章地城05（test）
+1174:Secret Cavern
+1175:Unknown Sanctuary
+1176:Unknown Sanctuary
+1177:3.5双子线镜像大世界（test）
+1178:Bygone Glories Passed
+1179:Entanglement of Past Dreams
+1180:test 草龙地城剧情版
 2000:Lost Treasure of Arcadia
 2001:Storming Terror
 2002:Cleanse Stormterror
@@ -188,71 +218,85 @@
 2007:The Reward for Courage is Flight
 2008:Ascend: Clear the Ruins
 2009:New Character Pattern White-Box
-2010:Ascend: Clear the Ruins
-2011:Ascend: Clear the Ruins
+2010:突破：清扫遗迹中的魔物(test)
+2011:突破：清扫遗迹中的魔物(test)
 2012:Ascend: Clear the Ruins
-2013:Ascend: Clear the Ruins
+2013:突破：清扫遗迹中的魔物(test)
 2014:Ascend: Clear the Ruins
-2015:Ascend: Clear the Ruins
+2015:突破：清扫遗迹中的魔物(test)
 2016:Ascend: Clear the Ruins
 2020:Memories: Storming Terror I
 2021:Memories: Storming Terror II
 2022:Memories: Storming Terror III
 2023:Memories: Storming Terror IV
 2024:Memories: Storming Terror V
-2025:Memories: Storming Terror Ⅵ
+2025:Memories: Storming Terror VI
+2026:(test)3.2散兵boss地城
 2099:Stage Test
-2100:n/a
+2100:火之高兴-测试(test)
 2101:1x Stage Test
 2102:Event Stage Test
-2103:n/a
-2104:n/a
-2105:n/a
-2106:n/a
-2107:n/a
-2108:n/a
-2109:n/a
-2110:n/a
-2111:n/a
+2103:塌陷地板白盒(test)
+2104:擂台挑战白盒(test)
+2105:记忆道路白盒(test)
+2106:塌陷6x6地板白盒(test)
+2107:塌陷地板回字型白盒(test)
+2108:羽球活动联机测试(test)
+2109:BOSS挑战复刻测试(test)
+2110:Rouge地城白盒(test)
+2111:Rouge白盒yqt01(test)
 2112:Stacked Tower
 2113:Long Hallway
 2114:Back Alley
 2115:Row House
 2116:Square Arena
-2117:n/a
-2118:n/a
+2117:场景测试白盒(test)
+2118:渊下宫物件测试白盒(test)
 2119:The Exit's Up There
 2120:Flying Down the Corridor
 2121:Look Out Below
 2122:Faster, Faster!
 2123:Fastest Finger First
-2124:n/a
-2125:n/a
-2126:n/a
-2150:n/a
-2151:n/a
-2152:n/a
-2153:n/a
-2154:n/a
-2155:n/a
-2156:n/a
-2157:n/a
-2158:n/a
-2159:n/a
-2160:n/a
-2161:n/a
-2169:n/a
-2170:n/a
-2171:n/a
-2172:n/a
-2173:n/a
-2174:n/a
-2175:n/a
-2176:n/a
-2177:n/a
-2178:n/a
-2179:n/a
-2180:n/a
+2124:须弥地城白盒(test)
+2125:须弥物件白盒(test)
+2126:新人流程测试白盒(test)
+2128:3.7UGC物件测试白盒(test)
+2130:3.7UGC先行地城-塔防(test)
+2131:3.7UGC先行地城-生存(test)
+2132:3.7UGC先行地城-增幅器营地(test)
+2150:选BUFF挑战地城阶段一第1关（test）
+2151:选BUFF挑战地城阶段一第2关（test）
+2152:选BUFF挑战地城阶段一第3关（test）
+2153:选BUFF挑战地城阶段一第4关（test）
+2154:选BUFF挑战地城阶段二第1关（test）
+2155:选BUFF挑战地城阶段二第2关（test）
+2156:选BUFF挑战地城阶段二第3关（test）
+2157:选BUFF挑战地城阶段二第4关（test）
+2158:选BUFF挑战地城阶段三第1关（test）
+2159:选BUFF挑战地城阶段三第2关（test）
+2160:选BUFF挑战地城阶段三第3关（test）
+2161:选BUFF挑战地城阶段三第4关（test）
+2162:(test)卡牌测试场景
+2163:(test)卡牌录像播放场景
+2169:(test)2.8测试地城1
+2170:(test)2.8测试地城2
+2171:(test)2.8测试地城3
+2172:(test)2.8测试地城4
+2173:(test)2.8测试地城5
+2174:(test)2.8测试地城6
+2175:(test)2.8测试地城7
+2176:(test)2.8测试地城8
+2177:(test)2.8测试地城9
+2178:(test)2.8测试地城10
+2179:(test)2.8测试地城11
+2180:(test)2.8测试地城12
+2181:(test) 蕈兽活动战斗白盒
+2185:(test) 蕈兽二期活动战斗白盒
+2186:(test)迪希雅个人线白盒
+2187:(test)任务地城白盒
+2188:智慧空间1（test）
+2189:智慧空间2（test）
+2190:智慧空间3（test）
 3001:Mist Labyrinth
 3004:Explore: Fallen Fortress
 3005:Pyro Trial
@@ -260,58 +304,89 @@
 3007:Overloaded & Superconduct Trial
 3008:Swirl Trial
 3009:Burning & Melt Trial
-3010:n/a
-3011:n/a
-3012:n/a
-3013:n/a
-3014:n/a
-3015:n/a
-3016:n/a
-3017:n/a
-3018:n/a
-3019:n/a
-3020:n/a
-3021:n/a
-3022:n/a
-3023:n/a
-3024:n/a
-3025:n/a
-3026:n/a
-3027:n/a
-3028:n/a
-3029:n/a
-3030:n/a
-3031:n/a
-3032:n/a
-3033:n/a
-3034:n/a
-3035:n/a
-3036:n/a
-3037:n/a
-3038:n/a
-3040:n/a
-3041:n/a
-3042:n/a
-3043:n/a
-3044:n/a
-3045:n/a
-3100:Level_Tower_Universe_01
-3101:Level_Tower_Moon_01
-3102:Level_Tower_Universe_01
-3200:Level_Tower_Universe_01
-3201:Level_Tower_Moon_01
-3202:Level_Tower_Universe_01
-3300:Level_Tower_Universe_01
-3301:Level_Tower_Moon_01
-3302:Level_Tower_Universe_01
+3010:无相雷挑战(test)
+3011:2.1换人挑战1阶段(test)
+3012:2.1换人挑战2阶段(test)
+3013:2.1换人挑战3阶段(test)
+3014:2.1换人挑战4阶段(test)
+3015:2.1换人挑战5阶段(test)
+3016:2.1换人挑战6阶段(test)
+3017:Rogue地城01-1(test)
+3018:Rogue地城02-2(test)
+3019:Rogue地城03-2(test)
+3020:Rogue地城01-2(test)
+3021:Rogue地城02-1(test)
+3022:Rogue地城03-1(test)
+3023:Rogue地城04-1(test)
+3024:Rogue地城04-2(test)
+3025:Rogue地城05-1(test)
+3026:Rogue地城05-2(test)
+3027:2.5百人二揆关卡1(test)
+3028:2.5百人二揆关卡2(test)
+3029:2.5百人二揆关卡3(test)
+3030:2.5百人二揆关卡4(test)
+3031:2.5百人二揆关卡5(test)
+3032:2.5百人二揆关卡6(test)
+3033:3.1百人三揆关卡1(test)
+3034:3.1百人三揆关卡2(test)
+3035:3.1百人三揆关卡3(test)
+3036:3.1百人三揆关卡4(test)
+3037:3.1百人三揆关卡5(test)
+3038:3.1百人三揆关卡6(test)
+3040:2.6连线buff挑战1(test)
+3041:2.6连线buff挑战2(test)
+3042:2.6连线buff挑战3(test)
+3043:2.6连线buff挑战4(test)
+3044:2.6连线buff挑战5(test)
+3045:2.6连线buff挑战6(test)
+3050:3.3大活动打砖块特殊关1(test)
+3051:3.3大活动打砖块特殊关2(test)
+3052:3.3大活动打砖块特殊关3(test)
+3053:3.5蕈兽2期地城L1(test)
+3054:3.5蕈兽2期地城L2(test)
+3055:3.5蕈兽2期地城L3(test)
+3056:3.5蕈兽2期地城L4(test)
+3057:3.5蕈兽2期地城L5(test)
+3058:3.5蕈兽2期地城L6(test)
+3059:3.5蕈兽2期地城L7(test)
+3060:3.6大活动音L1猪(test)
+3061:3.6大活动音L2鼬(test)
+3062:3.6大活动音L3鱼(test)
+3063:3.5蕈兽2期地城-TASK(test)
+3064:3.6大活动战斗01(test)
+3065:3.6大活动战斗02(test)
+3066:3.6大活动战斗03(test)
+3067:3.6大活动音L1猪校准(test)
+3068:3.6大活动音L2鼬校准(test)
+3069:3.6大活动音L3鱼校准(test)
+3070:3.7骰子地城01(test)
+3071:3.7骰子地城02(test)
+3072:3.7骰子地城03(test)
+3073:3.7骰子地城04(test)
 3310:爬塔第一档-ZHT第1关（单路）(test)
 3311:爬塔第一档-ZHT第2关（单路）(test)
 3312:爬塔第一档-ZHT第3关（单路）(test)
 3313:爬塔第一档-ZHT第4关（单路）(test)
+3410:爬塔第二档-ZHT第1关（单路）(test)
+3411:爬塔第二档-ZHT第2关（单路）(test)
+3412:爬塔第二档-ZHT第3关（单路）(test)
+3413:爬塔第二档-ZHT第4关（单路）(test)
+3510:爬塔第三档-ZHT第1关（单路）(test)
+3511:爬塔第三档-ZHT第2关（单路）(test)
+3512:爬塔第三档-ZHT第3关（单路）(test)
+3513:爬塔第三档-ZHT第4关（单路）(test)
 3341:爬塔第一档-第五层第1关（双路）(test)
 3342:爬塔第一档-第六层第1关（双路）(test)
 3343:爬塔第一档-第七层第1关（双路）(test)
 3344:爬塔第一档-第八层第1关（双路）(test)
+3441:爬塔第二档-第五层第2关（双路）(test)
+3442:爬塔第二档-第六层第2关（双路）(test)
+3443:爬塔第二档-第七层第2关（双路）(test)
+3444:爬塔第二档-第八层第2关（双路）(test)
+3541:爬塔第三档-第五层第3关（双路）(test)
+3542:爬塔第三档-第六层第3关（双路）(test)
+3543:爬塔第三档-第七层第3关（双路）(test)
+3544:爬塔第三档-第八层第3关（双路）(test)
 3370:爬塔第一档-MC第1关（双路）(test)
 3371:爬塔第一档-MC第2关（双路）(test)
 3372:爬塔第一档-MC第3关（双路）(test)
@@ -339,27 +414,34 @@
 3394:爬塔第一档-MC第25关（双路）(test)
 3395:爬塔第一档-MC第26关（双路）(test)
 3396:爬塔第一档-MC第27关（双路）(test)
-3397:Level_Tower_Moon_01
-3398:Level_Tower_Universe_01
-3399:Level_Tower_Moon_01
-3400:Level_Tower_Universe_01
-3401:Level_Tower_Moon_01
-3402:Level_Tower_Universe_01
-3403:Level_Tower_Moon_01
-3404:Level_Tower_Universe_01
-3405:Level_Tower_Moon_01
-3406:Level_Tower_Universe_01
-3407:Level_Tower_Moon_01
-3408:Level_Tower_Moon_01
-3409:Level_Tower_Moon_01
-3410:爬塔第二档-ZHT第1关（单路）(test)
-3411:爬塔第二档-ZHT第2关（单路）(test)
-3412:爬塔第二档-ZHT第3关（单路）(test)
-3413:爬塔第二档-ZHT第4关（单路）(test)
-3441:爬塔第二档-第五层第2关（双路）(test)
-3442:爬塔第二档-第六层第2关（双路）(test)
-3443:爬塔第二档-第七层第2关（双路）(test)
-3444:爬塔第二档-第八层第2关（双路）(test)
+3397:爬塔第一档-MC第28关（双路）(test)
+3398:爬塔第一档-MC第29关（双路）(test)
+3399:爬塔第一档-MC第30关（双路）(test)
+3400:爬塔第一档-MC第31关（双路）(test)
+3401:爬塔第一档-MC第32关（双路）(test)
+3402:爬塔第一档-MC第33关（双路）(test)
+3403:爬塔第一档-MC第34关（双路）(test)
+3404:爬塔第一档-MC第35关（双路）(test)
+3405:爬塔第一档-MC第36关（双路）(test)
+3406:爬塔第一档-MC第37关（双路）(test)
+3407:爬塔第一档-MC第38关（双路）(test)
+3408:爬塔第一档-MC第39关（双路）(test)
+3409:爬塔第一档-MC第40关（双路）(test)
+3100:Tower Descent - Floor 1: Chamber 1
+3101:爬塔第一档-MC第42关（双路）(test)
+3102:爬塔第一档-MC第43关（双路）(test)
+3103:爬塔第一档-MC第44关（双路）(test)
+3104:爬塔第一档-MC第45关（双路）(test)
+3105:爬塔第一档-MC第46关（双路）(test)
+3106:爬塔第一档-MC第47关（双路）(test)
+3107:爬塔第一档-MC第48关（双路）(test)
+3108:爬塔第一档-MC第49关（双路）(test)
+3109:爬塔第一档-MC第50关（双路）(test)
+3110:爬塔第一档-MC第51关（双路）(test)
+3111:爬塔第一档-MC第52关（双路）(test)
+3112:爬塔第一档-MC第53关（双路）(test)
+3113:爬塔第一档-MC第54关（双路）(test)
+3114:爬塔第一档-MC第55关（双路）(test)
 3470:爬塔第二档-MC第1关（双路）(test)
 3471:爬塔第二档-MC第2关（双路）(test)
 3472:爬塔第二档-MC第3关（双路）(test)
@@ -387,27 +469,34 @@
 3494:爬塔第二档-MC第25关（双路）(test)
 3495:爬塔第二档-MC第26关（双路）(test)
 3496:爬塔第二档-MC第27关（双路）(test)
-3497:Level_Tower_Moon_01
-3498:Level_Tower_Universe_01
-3499:Level_Tower_Moon_01
-3500:Level_Tower_Universe_01
-3501:Level_Tower_Moon_01
-3502:Level_Tower_Universe_01
-3503:Level_Tower_Moon_01
-3504:Level_Tower_Universe_01
-3505:Level_Tower_Moon_01
-3506:Level_Tower_Universe_01
-3507:Level_Tower_Moon_01
-3508:Level_Tower_Moon_01
-3509:Level_Tower_Moon_01
-3510:爬塔第三档-ZHT第1关（单路）(test)
-3511:爬塔第三档-ZHT第2关（单路）(test)
-3512:爬塔第三档-ZHT第3关（单路）(test)
-3513:爬塔第三档-ZHT第4关（单路）(test)
-3541:爬塔第三档-第五层第3关（双路）(test)
-3542:爬塔第三档-第六层第3关（双路）(test)
-3543:爬塔第三档-第七层第3关（双路）(test)
-3544:爬塔第三档-第八层第3关（双路）(test)
+3497:爬塔第二档-MC第28关（双路）(test)
+3498:爬塔第二档-MC第29关（双路）(test)
+3499:爬塔第二档-MC第30关（双路）(test)
+3500:爬塔第二档-MC第31关（双路）(test)
+3501:爬塔第二档-MC第32关（双路）(test)
+3502:爬塔第二档-MC第33关（双路）(test)
+3503:爬塔第二档-MC第34关（双路）(test)
+3504:爬塔第二档-MC第35关（双路）(test)
+3505:爬塔第二档-MC第36关（双路）(test)
+3506:爬塔第二档-MC第37关（双路）(test)
+3507:爬塔第二档-MC第38关（双路）(test)
+3508:爬塔第二档-MC第39关（双路）(test)
+3509:爬塔第二档-MC第40关（双路）(test)
+3200:Tower Descent - Floor 11: Chamber 1
+3201:爬塔第二档-MC第42关（双路）(test)
+3202:爬塔第二档-MC第43关（双路）(test)
+3203:爬塔第二档-MC第44关（双路）(test)
+3204:爬塔第二档-MC第45关（双路）(test)
+3205:爬塔第二档-MC第46关（双路）(test)
+3206:爬塔第二档-MC第47关（双路）(test)
+3207:爬塔第二档-MC第48关（双路）(test)
+3208:爬塔第二档-MC第49关（双路）(test)
+3209:爬塔第二档-MC第50关（双路）(test)
+3210:爬塔第二档-MC第51关（双路）(test)
+3211:爬塔第二档-MC第52关（双路）(test)
+3212:爬塔第二档-MC第53关（双路）(test)
+3213:爬塔第二档-MC第54关（双路）(test)
+3214:爬塔第二档-MC第55关（双路）(test)
 3570:爬塔第三档-MC第1关（双路）(test)
 3571:爬塔第三档-MC第2关（双路）(test)
 3572:爬塔第三档-MC第3关（双路）(test)
@@ -435,19 +524,34 @@
 3594:爬塔第三档-MC第25关（双路）(test)
 3595:爬塔第三档-MC第26关（双路）(test)
 3596:爬塔第三档-MC第27关（双路）(test)
-3597:Level_Tower_Moon_01
-3598:Level_Tower_Universe_01
-3599:Level_Tower_Moon_01
-3600:Level_Tower_Universe_01
-3601:Level_Tower_Moon_01
-3602:Level_Tower_Universe_01
-3603:Level_Tower_Moon_01
-3604:Level_Tower_Universe_01
-3605:Level_Tower_Moon_01
-3606:Level_Tower_Universe_01
-3607:Level_Tower_Moon_01
-3608:Level_Tower_Moon_01
-3609:Level_Tower_Moon_01
+3597:爬塔第三档-MC第28关（双路）(test)
+3598:爬塔第三档-MC第29关（双路）(test)
+3599:爬塔第三档-MC第30关（双路）(test)
+3600:爬塔第三档-MC第31关（双路）(test)
+3601:爬塔第三档-MC第32关（双路）(test)
+3602:爬塔第三档-MC第33关（双路）(test)
+3603:爬塔第三档-MC第34关（双路）(test)
+3604:爬塔第三档-MC第35关（双路）(test)
+3605:爬塔第三档-MC第36关（双路）(test)
+3606:爬塔第三档-MC第37关（双路）(test)
+3607:爬塔第三档-MC第38关（双路）(test)
+3608:爬塔第三档-MC第39关（双路）(test)
+3609:爬塔第三档-MC第40关（双路）(test)
+3300:爬塔第三档-MC第41关（双路）(test)
+3301:爬塔第三档-MC第42关（双路）(test)
+3302:爬塔第三档-MC第43关（双路）(test)
+3303:爬塔第三档-MC第44关（双路）(test)
+3304:爬塔第三档-MC第45关（双路）(test)
+3305:爬塔第三档-MC第46关（双路）(test)
+3306:爬塔第三档-MC第47关（双路）(test)
+3307:爬塔第三档-MC第48关（双路）(test)
+3308:爬塔第三档-MC第49关（双路）(test)
+3309:爬塔第三档-MC第50关（双路）(test)
+3610:爬塔第三档-MC第51关（双路）(test)
+3611:爬塔第三档-MC第52关（双路）(test)
+3612:爬塔第三档-MC第53关（双路）(test)
+3613:爬塔第三档-MC第54关（双路）(test)
+3614:爬塔第三档-MC第55关（双路）(test)
 4001:Investigate the turmoil in the Depths of the Ruins
 4003:Explore: Ancient Township Ruins
 4005:Trial: Temporary Weekly Dungeon
@@ -459,9 +563,9 @@
 4014:Kaeya's Challenges Test
 4015:Investigate: Secret Hideout
 4016:Explore: Travels of the Moonlit Venturer
-4017:Realm Within - Challenge Test 2
+4017:壶中天挑战测试2(test)
 4018:Explore: Tarry Among the Peach Blossoms
-4019:Battle in the Clouds Challenge Gameplay Test 2
+4019:云海挑战玩法测试2(test)
 4020:Explore: Voyage to the Sanguine Sky
 4021:Explore: Lucky Encounter in the Clouds
 4022:Elemental Trial: Vaporize
@@ -476,198 +580,228 @@
 4031:Showdown: Ancient Rock Drake II
 4032:Battlesong: Ingenious Impermanence I
 4033:Battlesong: Ingenious Impermanence II
-4034:Lament: Bitter Hate I	Lament: Bitter Hate I
-4035:Lament: Bitter Hate II	Lament: Bitter Hate II
+4034:Lament: Bitter Hate I
+4035:Lament: Bitter Hate II
 4036:Wanderer's Threefold Challenge
-4037:n/a
-4038:稽古·御馆绘卷
-4039:稽古·恶王亭
-4040:稽古·千扉绘卷
-4041:稽古·御前府邸
-4042:稽古·砺伏之巢床
-4043:弃屋之底
-4044:颠倒梦想的丛林
-4045:晴雨自性
-4046:梵蕈同一
-4047:灵树之馆
-4200:精通秘境：刺骨之霜 I
-4201:精通秘境：刺骨之霜 II
-4202:精通秘境：刺骨之霜 III
-4203:精通秘境：刺骨之霜 IV
-4210:精通秘境：霜凝祭坛 I
-4211:精通秘境：霜凝祭坛 II
-4212:精通秘境：霜凝祭坛 III
-4213:精通秘境：霜凝祭坛 IV
-4220:精通秘境：冰封废渊 I
-4221:精通秘境：冰封废渊 II
-4222:精通秘境：冰封废渊 III
-4223:精通秘境：冰封废渊 IV
-4230:精通秘境：沉睡之国 I
-4231:精通秘境：沉睡之国 II
-4232:精通秘境：沉睡之国 III
-4233:精通秘境：沉睡之国 IV
-4300:炼武秘境：深瀑祭坛 I
-4301:炼武秘境：深瀑祭坛 II
-4302:炼武秘境：深瀑祭坛 III
-4303:炼武秘境：深瀑祭坛 IV
-4310:炼武秘境：水光之城 I
-4311:炼武秘境：水光之城 II
-4312:炼武秘境：水光之城 III
-4313:炼武秘境：水光之城 IV
-4320:炼武秘境：深没之谷 I
-4321:炼武秘境：深没之谷 II
-4322:炼武秘境：深没之谷 III
-4323:炼武秘境：深没之谷 IV
-4330:炼武秘境：渴水的废都 I
-4331:炼武秘境：渴水的废都 II
-4332:炼武秘境：渴水的废都 III
-4333:炼武秘境：渴水的废都 IV
-4340:炼武秘境：沉沙之渊 I
-4341:炼武秘境：沉沙之渊 II
-4342:炼武秘境：沉沙之渊 III
-4343:炼武秘境：沉沙之渊 IV
-4350:炼武秘境：砂之祭场 I
-4351:炼武秘境：砂之祭场 II
-4352:炼武秘境：砂之祭场 III
-4353:炼武秘境：砂之祭场 IV
-4360:炼武秘境：流沙之葬 I
-4361:炼武秘境：流沙之葬 II
-4362:炼武秘境：流沙之葬 III
-4363:炼武秘境：流沙之葬 IV
-4370:炼武秘境：云垢 I
-4371:炼武秘境：云垢 II
-4372:炼武秘境：云垢 III
-4373:炼武秘境：云垢 IV
-4374:炼武秘境：思惑 I
-4375:炼武秘境：思惑 II
-4376:炼武秘境：思惑 III
-4377:炼武秘境：思惑 IV
-4378:炼武秘境：引业 I
-4379:炼武秘境：引业 II
-4380:炼武秘境：引业 III
-4381:炼武秘境：引业 IV
-4400:精通秘境：菫染之国 I
-4401:精通秘境：菫染之国 II
-4402:精通秘境：菫染之国 III
-4403:精通秘境：菫染之国 IV
-4410:精通秘境：初雷幽谷 I
-4411:精通秘境：初雷幽谷 II
-4412:精通秘境：初雷幽谷 III
-4413:精通秘境：初雷幽谷 IV
-4420:精通秘境：真葛废都 I
-4421:精通秘境：真葛废都 II
-4422:精通秘境：真葛废都 III
-4423:精通秘境：真葛废都 IV
-4430:精通秘境：圆镜 I
-4431:精通秘境：圆镜 II
-4432:精通秘境：圆镜 III
-4433:精通秘境：圆镜 IV
-4440:精通秘境：妙语 I
-4441:精通秘境：妙语 II
-4442:精通秘境：妙语 III
-4443:精通秘境：妙语 IV
-4450:精通秘境：律藏 I
-4451:精通秘境：律藏 II
-4452:精通秘境：律藏 III
-4453:精通秘境：律藏 IV
+4037:BOSS挑战深测地城(test)
+4038:Tutelage: Castle of Scrolls
+4039:Tutelage: King of Thieves
+4040:Tutelage: A Thousand Scrolls
+4041:Tutelage: Umigozen's Mansion
+4042:Tutelage: Nest-Bed of Ambition
+4043:Beneath the Abandoned House
+4044:The Jungle of Inverted Dreams
+4045:The Nature of Sun and Rain
+4046:The Universal Fungus
+4047:The Spirit Tree's Hall
+4048:Sonata of the Snowy Path — Intense Scoring
+4049:Ternary of the Blazing Hearth — Intense Scoring
+4050:Scherzo of the Rippling Pool — Intense Scoring
+4051:Rondo of the Forest Corral — Intense Scoring
+4052:Sonata of the Snowy Path — Standard Scoring
+4053:Ternary of the Blazing Hearth — Standard Scoring
+4054:Scherzo of the Rippling Pool — Standard Scoring
+4055:Rondo of the Forest Corral — Standard Scoring
+4056:(test)3.4连线挑战地城1
+4057:(test)3.4连线挑战地城2
+4058:(test)3.4连线挑战地城3
+4059:(test)3.4连线挑战地城4
+4060:(test)3.4连线挑战地城5
+4061:Fading Rumination
+4062:Suspiration of the Deceased
+4063:Mare Terrae
+4064:Sanctuary of Solemnity
+4065:(test)3.7风来人1
+4066:(test)3.7风来人2
+4067:(test)3.7风来人3
+4068:(test)3.7风来人4
 4601:Not yet available
 4602:Not yet available
 4603:Not yet available
-5000:祝圣秘境：净化之炎 I(test)
-5001:祝圣秘境：净化之炎 I
-5002:祝圣秘境：净化之炎 II
-5003:祝圣秘境：净化之炎 III
-5004:祝圣秘境：净化之炎 IV
-5005:祝圣秘境：净化之炎 V
-5006:祝圣秘境：净化之炎 VI
-5007:祝圣秘境：净化之炎 VIII(test)
-5008:祝圣秘境：钢铁之舞 I
-5009:祝圣秘境：钢铁之舞 II
-5010:祝圣秘境：钢铁之舞 III
-5011:祝圣秘境：钢铁之舞 IV
-5012:祝圣秘境：钢铁之舞 V
-5013:祝圣秘境：炽炎与寒霜 VI(test)
-5014:祝圣秘境：不移 I
-5015:祝圣秘境：不移 II
-5016:祝圣秘境：不移 III
-5017:祝圣秘境：不移 IV
-5020:祝圣秘境：告死之霜 I
-5021:祝圣秘境：告死之霜 II
-5022:祝圣秘境：告死之霜 III
-5023:祝圣秘境：告死之霜 IV
-5050:祝圣秘境：七识 I
-5051:祝圣秘境：七识 II
-5052:祝圣秘境：七识 III
-5053:祝圣秘境：七识 IV
-5100:祝圣秘境：惊蛰 I
-5101:祝圣秘境：惊蛰 II
-5102:祝圣秘境：惊蛰 III
-5103:祝圣秘境：惊蛰 IV
-5104:祝圣秘境：惊蛰 V
-5105:祝圣秘境：惊蛰 VI
-5106:祝圣秘境：惊蛰的霜雷 VII(test)
-5107:祝圣秘境：寒霜 I
-5108:祝圣秘境：寒霜 II
-5109:祝圣秘境：寒霜 III
-5110:祝圣秘境：寒霜 IV
-5111:祝圣秘境：还寒的雪水 V(test)
-5112:祝圣秘境：岩牢 I
-5113:祝圣秘境：岩牢 II
-5114:祝圣秘境：岩牢 III
-5115:祝圣秘境：岩牢 IV(test)
-5116:璃月-预留(test)
-5125:祝圣秘境：机巢 I
-5126:祝圣秘境：机巢 II
-5127:祝圣秘境：机巢 III
-5128:祝圣秘境：机巢 IV
-5200:祝圣秘境：椛狩 I
-5201:祝圣秘境：椛狩 II
-5202:祝圣秘境：椛狩 III
-5203:祝圣秘境：椛狩 IV
-5204:祝圣秘境：骸馆 I
-5205:祝圣秘境：骸馆 II
-5206:祝圣秘境：骸馆 III
-5207:祝圣秘境：骸馆 IV
-5210:炼武秘境：静电场域 I
-5211:炼武秘境：静电场域 II
-5212:炼武秘境：静电场域 III
-5213:炼武秘境：静电场域 IV
-5214:炼武秘境：雷云祭坛 I
-5215:炼武秘境：雷云祭坛 II
-5216:炼武秘境：雷云祭坛 III
-5217:炼武秘境：雷云祭坛 IV
-5218:炼武秘境：鸣雷城墟 I
-5219:炼武秘境：鸣雷城墟 II
-5220:炼武秘境：鸣雷城墟 III
-5221:炼武秘境：鸣雷城墟 IV
-5222:炼武秘境：古雷试炼场 I
-5223:炼武秘境：古雷试炼场 II
-5224:炼武秘境：古雷试炼场 III
-5225:炼武秘境：古雷试炼场 IV
-5250:精通秘境：灼烬废渊 I
-5251:精通秘境：灼烬废渊 II
-5252:精通秘境：灼烬废渊 III
-5253:精通秘境：灼烬废渊 IV
-5254:精通秘境：炽炎祭场 I
-5255:精通秘境：炽炎祭场 II
-5256:精通秘境：炽炎祭场 III
-5257:精通秘境：炽炎祭场 IV
-5258:精通秘境：深炎之底 I
-5259:精通秘境：深炎之底 II
-5260:精通秘境：深炎之底 III
-5261:精通秘境：深炎之底 IV
-5262:精通秘境：焚尽之环 I
-5263:精通秘境：焚尽之环 II
-5264:精通秘境：焚尽之环 III
-5265:精通秘境：焚尽之环 IV
-5300:间奏曲·暴风之蝶 I
-5301:协奏曲·紫电之光 I
-5302:奏鸣曲·磐石之心 I
-5303:大地、风与雷的圆舞曲
-5304:间奏曲·暴风之蝶 II
-5305:协奏曲·紫电之光 II
-5306:奏鸣曲·磐石之心 II
-5310:奇趣秘园
+4200:Domain of Mastery: Biting Frost I
+4201:Domain of Mastery: Biting Frost II
+4202:Domain of Mastery: Biting Frost III
+4203:Domain of Mastery: Biting Frost IV
+4210:Domain of Mastery: Frosted Altar I
+4211:Domain of Mastery: Frosted Altar II
+4212:Domain of Mastery: Frosted Altar III
+4213:Domain of Mastery: Frosted Altar IV
+4220:Domain of Mastery: Frozen Abyss I
+4221:Domain of Mastery: Frozen Abyss II
+4222:Domain of Mastery: Frozen Abyss III
+4223:Domain of Mastery: Frozen Abyss IV
+4230:Domain of Mastery: Realm of Slumber I
+4231:Domain of Mastery: Realm of Slumber II
+4232:Domain of Mastery: Realm of Slumber III
+4233:Domain of Mastery: Realm of Slumber IV
+4300:Domain of Forgery: Altar of the Falls I
+4301:Domain of Forgery: Altar of the Falls II
+4302:Domain of Forgery: Altar of the Falls III
+4303:Domain of Forgery: Altar of the Falls IV
+4310:Domain of Forgery: City of Reflections I
+4311:Domain of Forgery: City of Reflections II
+4312:Domain of Forgery: City of Reflections III
+4313:Domain of Forgery: City of Reflections IV
+4320:Domain of Forgery: Submerged Valley I
+4321:Domain of Forgery: Submerged Valley II
+4322:Domain of Forgery: Submerged Valley III
+4323:Domain of Forgery: Submerged Valley IV
+4330:Domain of Forgery: Ruins of Thirsting Capital I
+4331:Domain of Forgery: Ruins of Thirsting Capital II
+4332:Domain of Forgery: Ruins of Thirsting Capital III
+4333:Domain of Forgery: Ruins of Thirsting Capital IV
+4340:Domain of Forgery: Sunken Sands I
+4341:Domain of Forgery: Sunken Sands II
+4342:Domain of Forgery: Sunken Sands III
+4343:Domain of Forgery: Sunken Sands IV
+4350:Domain of Forgery: Altar of Sands I
+4351:Domain of Forgery: Altar of Sands II
+4352:Domain of Forgery: Altar of Sands III
+4353:Domain of Forgery: Altar of Sands IV
+4360:Domain of Forgery: Sand Burial I
+4361:Domain of Forgery: Sand Burial II
+4362:Domain of Forgery: Sand Burial III
+4363:Domain of Forgery: Sand Burial IV
+4370:Domain of Forgery: Tainted Clouds I
+4371:Domain of Forgery: Tainted Clouds II
+4372:Domain of Forgery: Tainted Clouds III
+4373:Domain of Forgery: Tainted Clouds IV
+4374:Domain of Forgery: Obsession I
+4375:Domain of Forgery: Obsession II
+4376:Domain of Forgery: Obsession III
+4377:Domain of Forgery: Obsession IV
+4378:Domain of Forgery: Leading Karma I
+4379:Domain of Forgery: Leading Karma II
+4380:Domain of Forgery: Leading Karma III
+4381:Domain of Forgery: Leading Karma IV
+4400:Domain of Mastery: Reign of Violet I
+4401:Domain of Mastery: Reign of Violet II
+4402:Domain of Mastery: Reign of Violet III
+4403:Domain of Mastery: Reign of Violet IV
+4410:Domain of Mastery: Thundering Valley I
+4411:Domain of Mastery: Thundering Valley II
+4412:Domain of Mastery: Thundering Valley III
+4413:Domain of Mastery: Thundering Valley IV
+4420:Domain of Mastery: Vine-Infested Ruins I
+4421:Domain of Mastery: Vine-Infested Ruins II
+4422:Domain of Mastery: Vine-Infested Ruins III
+4423:Domain of Mastery: Vine-Infested Ruins IV
+4430:Domain of Mastery: Full Moon I
+4431:Domain of Mastery: Full Moon II
+4432:Domain of Mastery: Full Moon III
+4433:Domain of Mastery: Full Moon IV
+4440:Domain of Mastery: Witticism I
+4441:Domain of Mastery: Witticism II
+4442:Domain of Mastery: Witticism III
+4443:Domain of Mastery: Witticism IV
+4450:Domain of Mastery: Basket of Discipline I
+4451:Domain of Mastery: Basket of Discipline II
+4452:Domain of Mastery: Basket of Discipline III
+4453:Domain of Mastery: Basket of Discipline IV
+5000:Domain of Blessing: Fires of Purification I
+5001:Domain of Blessing: Fires of Purification I
+5002:Domain of Blessing: Fires of Purification II
+5003:Domain of Blessing: Fires of Purification III
+5004:Domain of Blessing: Fires of Purification IV
+5005:Domain of Blessing: Fires of Purification V
+5006:Domain of Blessing: Fires of Purification VI
+5007:Domain of Blessing: Fires of Purification VIII
+5008:Domain of Blessing: Dance of Steel I
+5009:Domain of Blessing: Dance of Steel II
+5010:Domain of Blessing: Dance of Steel III
+5011:Domain of Blessing: Dance of Steel IV
+5012:Domain of Blessing: Dance of Steel V
+5013:Domain of Blessing: Flames and Frost VI
+5014:Domain of Blessing: Unyielding I
+5015:Domain of Blessing: Unyielding II
+5016:Domain of Blessing: Unyielding III
+5017:Domain of Blessing: Unyielding IV
+5050:Domain of Blessing: Seven Senses I
+5051:Domain of Blessing: Seven Senses II
+5052:Domain of Blessing: Seven Senses III
+5053:Domain of Blessing: Seven Senses IV
+5060:Domain of Blessing: Desert Citadel I
+5061:Domain of Blessing: Desert Citadel II
+5062:Domain of Blessing: Desert Citadel III
+5063:Domain of Blessing: Desert Citadel IV
+5064:Domain of Blessing: Forsaken Rampart I
+5065:Domain of Blessing: Forsaken Rampart II
+5066:Domain of Blessing: Forsaken Rampart III
+5067:Domain of Blessing: Forsaken Rampart IV
+5100:Domain of Blessing: Spring I
+5101:Domain of Blessing: Spring II
+5102:Domain of Blessing: Spring III
+5103:Domain of Blessing: Spring IV
+5104:Domain of Blessing: Spring V
+5105:Domain of Blessing: Spring VI
+5106:Domain of Blessing: Spring Thunder VII
+5107:Domain of Blessing: Frost I
+5108:Domain of Blessing: Frost II
+5109:Domain of Blessing: Frost III
+5110:Domain of Blessing: Frost IV
+5111:Domain of Blessing: Frost and Lightning V
+5112:Domain of Blessing: Stone Chamber I
+5113:Domain of Blessing: Stone Chamber II
+5114:Domain of Blessing: Stone Chamber III
+5115:Domain of Blessing: Stone Prison IV
+5120:Domain of Blessing: Elegiac Rime I
+5121:Domain of Blessing: Elegiac Rime II
+5122:Domain of Blessing: Elegiac Rime III
+5123:Domain of Blessing: Elegiac Rime IV
+5125:Domain of Blessing: Machine Nest I
+5126:Domain of Blessing: Machine Nest II
+5127:Domain of Blessing: Machine Nest III
+5128:Domain of Blessing: Machine Nest IV
+5200:Domain of Blessing: Autumn Hunt I
+5201:Domain of Blessing: Autumn Hunt II
+5202:Domain of Blessing: Autumn Hunt III
+5203:Domain of Blessing: Autumn Hunt IV
+5204:Domain of Blessing: Necropolis I
+5205:Domain of Blessing: Necropolis II
+5206:Domain of Blessing: Necropolis III
+5207:Domain of Blessing: Necropolis IV
+5210:Domain of Forgery: Electrostatic Field I
+5211:Domain of Forgery: Electrostatic Field II
+5212:Domain of Forgery: Electrostatic Field III
+5213:Domain of Forgery: Electrostatic Field IV
+5214:Domain of Forgery: Thundercloud Altar I
+5215:Domain of Forgery: Thundercloud Altar II
+5216:Domain of Forgery: Thundercloud Altar III
+5217:Domain of Forgery: Thundercloud Altar IV
+5218:Domain of Forgery: Thundering Ruins I
+5219:Domain of Forgery: Thundering Ruins II
+5220:Domain of Forgery: Thundering Ruins III
+5221:Domain of Forgery: Thundering Ruins IV
+5222:Domain of Forgery: Trial Grounds of Thunder I
+5223:Domain of Forgery: Trial Grounds of Thunder II
+5224:Domain of Forgery: Trial Grounds of Thunder III
+5225:Domain of Forgery: Trial Grounds of Thunder IV
+5250:Domain of Mastery: Abyss of Embers I
+5251:Domain of Mastery: Abyss of Embers II
+5252:Domain of Mastery: Abyss of Embers III
+5253:Domain of Mastery: Abyss of Embers IV
+5254:Domain of Mastery: Altar of Flames I
+5255:Domain of Mastery: Altar of Flames II
+5256:Domain of Mastery: Altar of Flames III
+5257:Domain of Mastery: Altar of Flames IV
+5258:Domain of Mastery: Heart of the Flames I
+5259:Domain of Mastery: Heart of the Flames II
+5260:Domain of Mastery: Heart of the Flames III
+5261:Domain of Mastery: Heart of the Flames IV
+5262:Domain of Mastery: Circle of Embers I
+5263:Domain of Mastery: Circle of Embers II
+5264:Domain of Mastery: Circle of Embers III
+5265:Domain of Mastery: Circle of Embers IV
+5116:Liyue - Reserved
+5300:Storm Butterfly Intermezzo I
+5301:Violet Lightning Concerto I
+5302:Stone Heart Sonata I
+5303:Waltz of Earth, Wind, and Thunder
+5304:Storm Butterfly Intermezzo II
+5305:Violet Lightning Concerto II
+5306:Stone Heart Sonata II
+5310:Peculiar Wonderland
+5311:(test)奇趣秘园2.0
 6000:角色试玩关-温迪(test)
 6001:角色试玩关-芭芭拉(test)
 6002:角色试玩关-菲谢尔(test)
@@ -700,7 +834,7 @@
 6029:角色试玩关-刻晴(test)
 6030:角色试玩关-迪奥娜(test)
 6031:角色试玩关-芭芭拉(test)
-6032:角色试玩关-烟绯(test)	
+6032:角色试玩关-烟绯(test)
 6033:角色试玩关-优菈(test)
 6034:角色试玩关-桐生万叶(test)
 6035:角色试玩关-神里绫华(test)
@@ -725,26 +859,38 @@
 6054:角色试玩关-坎蒂丝(test)
 6055:角色试玩关-妮露(test)
 6056:角色试玩关-赛诺(test)
-7000:苇风可凋井边桐
-7001:苇风可凋井边桐：难度1
-7002:解鞍倚枕画仙桥：难度2
-7003:去年双燕来还去：难度3
-7004:三星参差争电光：难度4
-7005:春水蛾眉各分飞：难度5
-7006:霓裳一曲复登楼：难度6
-7007:金锁重门华堂空：难度7
-7008:溪山兴无尽，不见白驹来：特殊模式
-7009:解鞍倚枕画仙桥：难度3
-7010:去年双燕来还去：难度4
-7011:三星参差争电光：难度5
-7012:春水蛾眉各分飞：难度6
-7013:霓裳一曲复登楼：难度7
-7100:试玩地城-下落攻击主题
-7101:试玩地城-护盾主题
-7102:试玩地城-治疗主题
-7103:试玩地城-元素反应主题
-7104:试玩地城-近战主题
-7105:试玩地城-远程主题
+6057:角色试玩关-莱依拉(test)
+6058:角色试玩关-纳西妲(test)
+6059:角色试玩关-流浪者(test)
+6060:角色试玩关-法露珊(test)
+6061:角色试玩关-瑶瑶(test)
+6062:角色试玩关-艾尔海森(test)
+6063:角色试玩关-米卡(test)
+6064:角色试玩关-迪希雅(test)
+6065:角色试玩关-白术(test)
+6066:角色试玩关-卡维(test)
+6067:角色试玩关-绮良良(test)
+6068:角色试玩关-宵宫V2(test)
+7000:The Wind from the Reeds Topples Well-Fed Trees
+7001:The Wind from the Reeds Topples Well-Fed Trees: Difficulty 1
+7002:Stop to Rest Your Weary Head, Paint the Bridge Where Adepti Tread: Difficulty 2
+7003:In Pairs, the Swallows Come Home to Roost: Difficulty 3
+7004:Three Stars Tussle for the Spotlight: Difficulty 4
+7005:Beauty Withers Hither While Truth Dithers Thither: Difficulty 5
+7006:Rhythmic Echoes in the Pavilion: Difficulty 6
+7007:Empty Halls Behind Locked Doors: Difficulty 7
+7008:Oh, for a Steed to Traverse This Terrain: Special Mode
+7009:Stop to Rest Your Weary Head, Paint the Bridge Where Adepti Tread: Difficulty 3
+7010:In Pairs, the Swallows Come Home to Roost: Difficulty 4
+7011:Three Stars Tussle for the Spotlight: Difficulty 5
+7012:Beauty Withers Hither While Truth Dithers Thither: Difficulty 6
+7013:Rhythmic Echoes in the Pavilion: Difficulty 7
+7100:Trial Domain: Plunge Attack Theme
+7101:Trial Domain: Shield Theme
+7102:Trial Domain: Healing Theme
+7103:Trial Domain: Elemental Reaction Theme
+7104:Trial Domain: Melee Attack Theme
+7105:Trial Domain: Ranged Attack Theme
 7106:迷城战线二期-永冻主题(test)
 7107:迷城战线二期-魔王武装(test)
 7108:迷城战线二期-增幅(test)
@@ -752,52 +898,52 @@
 7110:迷城战线二期-速充(test)
 7111:迷城战线二期-扩散(test)
 7112:迷城战线二期-BOSS战(test)
-7201:龙蜥安眠之穴
-7202:暗影蠢动之地
-7203:冰蚀霜侵之处
-7204:诡爆之境
-7205:混沌之境
-7206:雷怒之境
-7207:邪从之境
-7208:诡爆之境
-7209:混沌之境
-7210:雷怒之境
-7211:邪从之境
-7212:诡爆之境
-7213:混沌之境
-7214:雷怒之境
-7215:邪从之境
-7216:诡爆之境
-7217:混沌之境
-7218:雷怒之境
-7219:邪从之境
-7221:诡境·垂罚旋舞
-7222:诡境·血狼集群
-7223:诡境·幽浮之海
-7224:诡境·垂罚旋舞
-7225:诡境·血狼集群
-7226:诡境·幽浮之海
-7227:诡境·垂罚旋舞
-7228:诡境·血狼集群
-7229:诡境·幽浮之海
-7230:诡境·垂罚旋舞
-7231:诡境·血狼集群
-7232:诡境·幽浮之海
-7301:机巧阵陔
-7302:武卫重溟
-7310:挑战·犬流之道
-7400:枕仙桥
-7401:枕仙桥
-7402:井生秋
-7403:双燕来
-7404:春几回
-7405:梦登楼
-7406:枕仙桥
-7407:井生秋
-7408:双燕来
-7409:春几回
-7410:梦登楼
-7411:梦登楼
+7201:Vishap's Rest
+7202:Where Shadows Writhe
+7203:Frost-Worn Space
+7204:Domain of Deceit
+7205:Domain of Chaos
+7206:Domain of Furious Thunder
+7207:Domain of Heresy
+7208:Domain of Deceit
+7209:Domain of Chaos
+7210:Domain of Furious Thunder
+7211:Domain of Heresy
+7212:Domain of Deceit
+7213:Domain of Chaos
+7214:Domain of Furious Thunder
+7215:Domain of Heresy
+7216:Domain of Deceit
+7217:Domain of Chaos
+7218:Domain of Furious Thunder
+7219:Domain of Heresy
+7221:Deceitful Domain: Whirling Judgment
+7222:Deceitful Domain: Where Bloodhounds Gather
+7223:Deceitful Domain: Sea of Wandering Souls
+7224:Deceitful Domain: Whirling Judgment
+7225:Deceitful Domain: Where Bloodhounds Gather
+7226:Deceitful Domain: Sea of Wandering Souls
+7227:Deceitful Domain: Whirling Judgment
+7228:Deceitful Domain: Where Bloodhounds Gather
+7229:Deceitful Domain: Sea of Wandering Souls
+7230:Deceitful Domain: Whirling Judgment
+7231:Deceitful Domain: Where Bloodhounds Gather
+7232:Deceitful Domain: Sea of Wandering Souls
+7301:Automaton Front
+7302:Oceanic Defender
+7310:Challenge: Canine Path
+7400:Slumber Spirit's Bridge
+7401:Slumber Spirit's Bridge
+7402:Autumnal Resplendence
+7403:Twin Swallows' Arrival
+7404:Springtide Advent
+7405:Dream Pavilion
+7406:Slumber Spirit's Bridge
+7407:Autumnal Resplendence
+7408:Twin Swallows' Arrival
+7409:Springtide Advent
+7410:Dream Pavilion
+7411:Dream Pavilion
 7500:塔防残局01(test)
 7501:塔防残局02(test)
 7502:塔防残局03(test)
@@ -824,14 +970,14 @@
 7616:（test)层岩地城1肉鸽高难
 7617:（test)层岩地城2肉鸽高难
 7618:（test)层岩地城3肉鸽高难
-7701:初次探索
-7702:直击强敌
-7703:初次探索守
-7704:直击强敌簇
-7705:初次探索
-7706:直击强敌
-7707:初次探索
-7708:直击强敌
+7701:Initial Exploration
+7702:Direct Strike
+7703:Initial Exploration
+7704:Direct Strike
+7705:Initial Exploration
+7706:Direct Strike
+7707:Initial Exploration
+7708:Direct Strike
 7801:test 时停挑战1
 7802:test 时停挑战2
 7803:test 时停挑战3
@@ -843,8 +989,69 @@
 7901:(test)爆炸魔药活动2
 7902:(test)爆炸魔药活动3
 7903:(test)爆炸魔药活动4
-8200:融风之境
-8201:滔风之境
-8202:熏风之境
-8203:厉风之境
-8204:巨风之境
+8001:镜像大世界测试(test)
+8101:(test) 蕈兽活动-进攻1
+8102:(test) 蕈兽活动-进攻2
+8103:(test) 蕈兽活动-进攻3
+8104:(test) 蕈兽活动-进攻4
+8105:(test) 蕈兽活动-进攻5
+8106:(test) 蕈兽活动-防守1
+8107:(test) 蕈兽活动-防守2
+8108:(test) 蕈兽活动-防守3
+8109:(test) 蕈兽活动-防守4
+8110:(test) 蕈兽活动-防守5
+8111:(test)3.2蕈兽活动剧情地城1
+8112:(test)3.2蕈兽活动剧情地城2
+8113:(test)3.2蕈兽活动剧情地城3
+8114:(test)3.2蕈兽活动剧情地城4
+8115:(test)3.2蕈兽活动剧情地城5
+8116:(test)3.2蕈兽活动剧情地城6
+8200:Realm of the Northeasterly Winds
+8201:Realm of the Easterly Winds
+8202:Realm of the Southeasterly Winds
+8203:Realm of the Northwesterly Winds
+8204:Realm of the Southerly Winds
+8301:(test)3.3迷城复刻01
+8302:(test)3.3迷城复刻02
+8303:(test)3.3迷城复刻03
+8304:(test)3.3迷城复刻04
+8305:(test)3.3迷城复刻05
+8306:(test)3.3迷城复刻06
+8307:(test)3.3迷城复刻07
+8401:(test)3.4拼刀地城01
+8402:(test)3.4拼刀地城02
+8403:(test)3.4拼刀地城03
+8404:(test)3.4拼刀地城04
+8405:(test)3.4拼刀地城05
+8406:(test)3.4拼刀地城06
+8407:(test)3.4拼刀地剧情地城
+8501:Ordered Wind
+8502:Inverted Wind
+8503:Observant Wind
+8504:Obstructing Wind
+8505:Shimmering Wind
+8506:Pursuing Wind
+8600:3.5连线buff挑战1(test)
+8601:3.5连线buff挑战2(test)
+8602:3.5连线buff挑战3(test)
+8603:3.5连线buff挑战4(test)
+8604:3.5连线buff挑战5(test)
+8605:3.5连线buff挑战6(test)
+8701:UGC游玩白盒（test）
+8801:UGC摆放白盒（test）
+8901:Divine Ingenuity: Collector's Chapter
+8902:3.7UGC编辑地城（test）
+9000:3.6大活动路桥1(test)
+9001:3.6大活动路桥2(test)
+9002:3.6大活动路桥3(test)
+9100:(test)3.6爆炸魔药活动1
+9101:(test)3.6爆炸魔药活动2
+9102:(test)3.6爆炸魔药活动3
+9103:(test)3.6爆炸魔药活动4
+9201:test 3.7时停挑战1
+9202:test 3.7时停挑战2
+9203:test 3.7时停挑战3
+9204:test 3.7时停挑战4
+9205:test 3.7时停挑战5
+9206:test 3.7时停挑战6
+9207:test 3.7时停挑战7
