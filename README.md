@@ -22,6 +22,8 @@ Support 简体中文, 繁體中文, English and Русский languages.
 ### GrasscutterTools-v1.10
 ![Cutscene](Doc/Screenshots-en/7-ChangeScene.png)
 
+![Activity Editor](Doc/Screenshots-en/20-ActivityEditor.png)
+
 ### GrasscutterTools-v1.9
 ![Achievement Page](Doc/Screenshots-en/19-AchievementPage.png)
 

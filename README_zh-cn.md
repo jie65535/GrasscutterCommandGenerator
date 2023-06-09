@@ -22,6 +22,8 @@
 ### GrasscutterTools-v1.10
 ![Cutscene](Doc/Screenshots/7-ChangeScene.png)
 
+![Activity Editor](Doc/Screenshots/20-ActivityEditor.png)
+
 ### GrasscutterTools-v1.9
 ![Achievement Page](Doc/Screenshots/19-AchievementPage.png)
 
