@@ -17,7 +17,10 @@
 
 > **Warning**: 应用程序的外观可能与截图上的不同。它也可能包含翻译错误和缺乏某些资源。**我们欢迎各位为此工具做出贡献并<a href="./Source/GrasscutterTools/Resources/zh-cn">改进</a> : )**
 
-## Update log
+## 更新概要
+
+### GrasscutterTools-v1.10
+![Cutscene](Doc/Screenshots/7-ChangeScene.png)
 
 ### GrasscutterTools-v1.9
 ![Achievement Page](Doc/Screenshots/19-AchievementPage.png)

@@ -19,6 +19,9 @@
 
 ## 更新日誌
 
+### GrasscutterTools-v1.10
+![Cutscene](Doc/Screenshots-tw/7-ChangeScene.png)
+
 ### GrasscutterTools-v1.9
 ![Achievement Page](Doc/Screenshots-tw/19-AchievementPage.png)
 

@@ -18,6 +18,9 @@ GCG поддерживает 简体中文 (китайский упр.), 繁體�
 
 ## Лог обновлений
 
+### GrasscutterTools-v1.10
+![Cutscene](Doc/Screenshots-ru/12-Scenes.png)
+
 ### GrasscutterTools-v1.9
 ![Achievement Page](Doc/Screenshots-ru/19-AchievementPage.png)
 

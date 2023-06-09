@@ -19,6 +19,9 @@ Support 简体中文, 繁體中文, English and Русский languages.
 
 ## Update log
 
+### GrasscutterTools-v1.10
+![Cutscene](Doc/Screenshots-en/7-ChangeScene.png)
+
 ### GrasscutterTools-v1.9
 ![Achievement Page](Doc/Screenshots-en/19-AchievementPage.png)
 
