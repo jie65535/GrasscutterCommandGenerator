@@ -35,6 +35,7 @@
             this.LblGcResRoot = new System.Windows.Forms.Label();
             this.TxtGcResRoot = new System.Windows.Forms.TextBox();
             this.BtnUpdateDungeon = new System.Windows.Forms.Button();
+            this.BtnUpdateActivity = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnUpdateResources
@@ -99,6 +100,16 @@
             this.BtnUpdateDungeon.UseVisualStyleBackColor = true;
             this.BtnUpdateDungeon.Click += new System.EventHandler(this.BtnUpdateDungeon_Click);
             // 
+            // BtnUpdateActivity
+            // 
+            this.BtnUpdateActivity.Location = new System.Drawing.Point(197, 100);
+            this.BtnUpdateActivity.Name = "BtnUpdateActivity";
+            this.BtnUpdateActivity.Size = new System.Drawing.Size(150, 30);
+            this.BtnUpdateActivity.TabIndex = 0;
+            this.BtnUpdateActivity.Text = "Update Activity";
+            this.BtnUpdateActivity.UseVisualStyleBackColor = true;
+            this.BtnUpdateActivity.Click += new System.EventHandler(this.BtnUpdateActivity_Click);
+            // 
             // PageTools
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -107,6 +118,7 @@
             this.Controls.Add(this.LblGcResRoot);
             this.Controls.Add(this.TxtProjectResRoot);
             this.Controls.Add(this.LblProjectResRoot);
+            this.Controls.Add(this.BtnUpdateActivity);
             this.Controls.Add(this.BtnUpdateDungeon);
             this.Controls.Add(this.BtnConvertCutScene);
             this.Controls.Add(this.BtnUpdateResources);
@@ -125,5 +137,6 @@
         private System.Windows.Forms.Label LblGcResRoot;
         private System.Windows.Forms.TextBox TxtGcResRoot;
         private System.Windows.Forms.Button BtnUpdateDungeon;
+        private System.Windows.Forms.Button BtnUpdateActivity;
     }
 }

@@ -136,6 +136,7 @@
       <DependentUpon>FormTextMapBrowser.cs</DependentUpon>
     </Compile>
     <Compile Include="Game\Activity\ActivityConfigItem.cs" />
+    <Compile Include="Game\Activity\NewActivityItem.cs" />
     <Compile Include="Game\CommandVersion.cs" />
     <Compile Include="Game\CutScene\CutSceneItem.cs" />
     <Compile Include="Game\Drop\DropData.cs" />
@@ -638,6 +639,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\en-us\Achievement.txt" />
+    <Content Include="Resources\en-us\Activity.txt" />
     <Content Include="Resources\en-us\Artifact.txt" />
     <Content Include="Resources\en-us\ArtifactCat.txt" />
     <Content Include="Resources\en-us\ArtifactMainAttribution.txt" />
@@ -659,6 +661,7 @@
     <None Include="Resources\Newtonsoft.Json.dll" />
     <Content Include="Resources\MyTools.java" />
     <Content Include="Resources\ru-ru\Achievement.txt" />
+    <Content Include="Resources\ru-ru\Activity.txt" />
     <Content Include="Resources\ru-ru\Artifact.txt" />
     <Content Include="Resources\ru-ru\ArtifactCat.txt" />
     <Content Include="Resources\ru-ru\ArtifactMainAttribution.txt" />
@@ -704,6 +707,7 @@
     <Content Include="Resources\zh-cn\ShopType.txt" />
     <Content Include="Resources\zh-cn\Weapon.txt" />
     <Content Include="Resources\zh-tw\Achievement.txt" />
+    <Content Include="Resources\zh-tw\Activity.txt" />
     <Content Include="Resources\zh-tw\ArtifactCat.txt" />
     <Content Include="Resources\zh-tw\ArtifactMainAttribution.txt" />
     <Content Include="Resources\zh-tw\Artifact.txt" />

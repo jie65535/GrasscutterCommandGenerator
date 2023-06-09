@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using GrasscutterTools.Game;
+using GrasscutterTools.Game.Activity;
 using GrasscutterTools.Game.CutScene;
 using GrasscutterTools.Game.Dungeon;
 using GrasscutterTools.Properties;
@@ -158,6 +159,59 @@ namespace GrasscutterTools.Pages
                 dungeonFilePath, 
                 dungeons.Select(it => $"{it.Id}:{TextMapData.GetText(it.NameTextMapHash)}"),
                 Encoding.UTF8);
+        }
+
+        private void BtnUpdateActivity_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!CheckInputPaths()) return;
+
+                var json = File.ReadAllText(
+                    Path.Combine(TxtGcResRoot.Text, "ExcelBinOutput", "NewActivityExcelConfigData.json"),
+                    Encoding.UTF8);
+                var activityItems = JsonConvert.DeserializeObject<List<NewActivityItem>>(json);
+
+                if (TextMapData == null)
+                    TextMapData = new TextMapData(TxtGcResRoot.Text);
+
+                UpdateActivityForLanguage(activityItems, "TextMapCHT", "zh-tw");
+                UpdateActivityForLanguage(activityItems, "TextMapEN", "en-us");
+                UpdateActivityForLanguage(activityItems, "TextMapRU", "ru-ru");
+                MessageBox.Show("OK", Resources.Tips, MessageBoxButtons.OK);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void UpdateActivityForLanguage(IReadOnlyCollection<NewActivityItem> activityItems, string textMap, string language)
+        {
+            var i = Array.IndexOf(TextMapData.TextMapFiles, textMap);
+            TextMapData.LoadTextMap(TextMapData.TextMapFilePaths[i]);
+
+            var activityMap = new Dictionary<int, string>(activityItems.Count);
+            foreach (var item in activityItems)
+                activityMap[item.ActivityId] = TextMapData.GetText(item.NameTextMapHash);
+
+            var buffer = new StringBuilder();
+            foreach (var item in GameData.Activity)
+            {
+                buffer.Append("// ").AppendLine(item.Key);
+                foreach (var id in item.Value.Ids)
+                {
+                    buffer.Append(id).Append(':');
+                    buffer.AppendLine(activityMap.TryGetValue(id, out var title) ? title : item.Value[id]);
+                }
+            }
+            var activityFilePath = Path.Combine(TxtProjectResRoot.Text, language, "Activity.txt");
+            File.WriteAllText(activityFilePath, buffer.ToString(), Encoding.UTF8);
+
+            //File.WriteAllLines(
+            //    activityFilePath,
+            //    activityItems.Select(it => $"{it.ActivityId}:{TextMapData.GetText(it.NameTextMapHash)}"),
+            //    Encoding.UTF8);
         }
     }
 }
