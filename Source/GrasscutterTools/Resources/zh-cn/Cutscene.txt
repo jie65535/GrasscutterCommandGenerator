@@ -59,11 +59,11 @@
 59:Cs_DarkTowerCombine
 60:Cs_DarkTowerCombine_2
 61:Cs_DarkTowerCombine_3
-62:Cs_LQ_Rogue_LaserFiring
-63:Cs_LQ_Rogue_RuneDisplay
-64:Cs_YelanDungeon_OrganStart_01
-65:Cs_YelanDungeon_OrganStart_02
-66:Cs_Scene_ZM_Waterdown_01
+62:2.7主活动 四个束光装置激活 BV1CF41157hX 09:38--09:48
+63:2.7主活动 单个束光装置激活 BV1CF41157hX 07:05--07:10
+64:夜兰秘境 无效
+65:夜兰秘境 无效
+66:无效 UI闪烁一下
 67:Cs_Sumeru_DreamForest_WQ_DownSurge_Convert
 68:Cs_Sumeru_DreamForest_WQ_DownSurge02_Convert
 69:Cs_Sumeru_DreamForest_WQ_RemoveSeal_Convert
@@ -72,20 +72,20 @@
 72:Cs_Sumeru_DreamForest_WQ7306620_SynthesisPanacea_Convert
 73:Cs_Sumeru_DreamForest_WQ7306640_ThegiantCupGrowup_Convert
 74:Cs_Sumeru_DreamForest_WQ7306641_RelieveDeadland.prefab_Convert
-75:Cs_Scene_Sumeru_GardenActiveFinished_01
-76:Cs_Scene_Sumeru_GardenActiveFinished_02
-77:Cs_Scene_Sumeru_GardenActiveFinished_03
-78:Cs_Scene_Sumeru_GardenActiveFinished_04
-79:Cs_Scene_Sumeru_GardenActiveFinished_05
-80:Cs_Scene_Sumeru_GardenActiveFinished_06
-81:Cs_Scene_Sumeru_GardenActiveFinished_07
-82:Cs_Scene_Sumeru_GardenActiveFinished_08
-83:Cs_Scene_Sumeru_GardenActiveFinished_09
-84:Cs_Scene_Sumeru_GardenActiveFinished_10
-85:Cs_Scene_Sumeru_GardenActiveFinished_11
-86:Cs_Scene_Sumeru_GardenActiveFinished_12
-87:Cs_Xm_TreeFirst_Convert
-88:Cs_Xm_TreeUpgrade_Convert
+75:须弥 野外的苗圃 完成后净化01
+76:须弥 野外的苗圃 完成后净化02
+77:须弥 野外的苗圃 完成后净化03
+78:须弥 野外的苗圃 完成后净化04
+79:须弥 野外的苗圃 完成后净化05
+80:须弥 野外的苗圃 完成后净化06
+81:须弥 野外的苗圃 完成后净化07
+82:须弥 野外的苗圃 完成后净化08
+83:须弥 野外的苗圃 完成后净化09
+84:须弥 野外的苗圃 完成后净化10
+85:须弥 野外的苗圃 完成后净化11
+86:须弥 野外的苗圃 完成后净化12
+87:梦之树从下往正中运镜
+88:梦之树升级
 89:[世界任务]森林树无留陀化身出现
 90:[世界任务]森林树无留陀战斗中
 91:[世界任务]森林树无留陀死亡
@@ -113,8 +113,8 @@
 113:Cs_CWL_Activate02_Convert
 114:Cs_CWL_Activate03_Convert
 115:Cs_WQ_CWUpgradeLast_Convert
-116:须弥梦之树形态1
-117:须弥梦之树形态2
+116:须弥梦之树升级 现实(绿色洋葱)
+117:须弥梦之树升级 梦境(紫色洋葱)
 118:Cs_OfferingReborLake_Up_Convert
 119:Cs_OfferingRebornLake_FullLevel_Convert
 120:Cs_Cwl_Sandworm_Convert
@@ -164,8 +164,8 @@
 144001011:Cs_Scene_PopoIslandPuzzle
 321319801:Cs_Scene_DQ_TatariSeal
 321319901:Cs_Scene_DQ_TatariCore
-500501301:Cs_Scene_DiurnalCycle_01
-500501302:Cs_Scene_DiurnalCycle_02
+500501301:渊下宫夜晚转白天cutscene
+500501302:渊下宫白天转夜晚cutscene
 500501303:Cs_WQ72177_UnlockTokoSeal
 500501304:Cs_WQ72177_GetOathOfTokoyo
 321214201:Cs_Scene_DQ_RayAmpFinish_01
