@@ -206,12 +206,6 @@
   <data name="LblSortId.Text" xml:space="preserve">
     <value>Sort</value>
   </data>
-  <data name="LblGachaTypeTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>123, 17</value>
-  </data>
-  <data name="LblGachaTypeTip.Text" xml:space="preserve">
-    <value>Increment from 400</value>
-  </data>
   <data name="LblEndTime.Size" type="System.Drawing.Size, System.Drawing">
     <value>62, 17</value>
   </data>
@@ -442,6 +436,15 @@
   </data>
   <data name="GrpBanners.Text" xml:space="preserve">
     <value>Banners</value>
+  </data>
+  <data name="LnkCheckLatestBanners.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, -1</value>
+  </data>
+  <data name="LnkCheckLatestBanners.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 17</value>
+  </data>
+  <data name="LnkCheckLatestBanners.Text" xml:space="preserve">
+    <value>Check latest Banners</value>
   </data>
   <data name="BtnDelete.Text" xml:space="preserve">
     <value>Delete</value>

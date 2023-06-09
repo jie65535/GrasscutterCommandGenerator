@@ -144,9 +144,6 @@
   <data name="LblSortId.Text" xml:space="preserve">
     <value>順序</value>
   </data>
-  <data name="LblGachaTypeTip.Text" xml:space="preserve">
-    <value>從400開始，順序遞增</value>
-  </data>
   <data name="LblEndTime.Text" xml:space="preserve">
     <value>結束時間</value>
   </data>
@@ -177,9 +174,6 @@
   </data>
   <data name="GrpBannerValues.Text" xml:space="preserve">
     <value>卡池參數</value>
-  </data>
-  <data name="GrpFallbackPool.Text" xml:space="preserve">
-    <value>基礎池</value>
   </data>
   <data name="ListFallbackItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
@@ -231,6 +225,9 @@
         dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAHR3JvdXBXMws=
 </value>
   </data>
+  <data name="GrpFallbackPool.Text" xml:space="preserve">
+    <value>基礎池</value>
+  </data>
   <data name="ListUpItems.Groups" mimetype="application/x-microsoft.net.object.binary.base64">
     <value>
         AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
@@ -271,9 +268,6 @@
         dAEAAAAHdmFsdWVfXwAIAgAAAAAAAAAKBgUAAAAJR3JvdXBVcFc0Cw==
 </value>
   </data>
-  <data name="GrpWeights.Text" xml:space="preserve">
-    <value>卡池權重與保底機制</value>
-  </data>
   <data name="LnkWeightHelp.Text" xml:space="preserve">
     <value>幫助</value>
   </data>
@@ -283,8 +277,8 @@
   <data name="LblWeight5.Text" xml:space="preserve">
     <value>5星權重</value>
   </data>
-  <data name="GrpBalance.Text" xml:space="preserve">
-    <value>角色和武器平衡機制（僅混合池有效）</value>
+  <data name="GrpWeights.Text" xml:space="preserve">
+    <value>卡池權重與保底機制</value>
   </data>
   <data name="LblPoolWeight4.Text" xml:space="preserve">
     <value>4星池權重</value>
@@ -292,11 +286,11 @@
   <data name="LblPoolWeight5.Text" xml:space="preserve">
     <value>5星池權重</value>
   </data>
+  <data name="GrpBalance.Text" xml:space="preserve">
+    <value>角色和武器平衡機制（僅混合池有效）</value>
+  </data>
   <data name="BtnDelete.Text" xml:space="preserve">
     <value>刪除</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>Banners.json 路徑：</value>
   </data>
   <data name="BtnLoad.Text" xml:space="preserve">
     <value>加載</value>

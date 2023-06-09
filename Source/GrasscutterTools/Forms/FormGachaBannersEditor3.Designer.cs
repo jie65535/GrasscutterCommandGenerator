@@ -30,10 +30,10 @@ namespace GrasscutterTools.Forms
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormGachaBannersEditor3));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend9 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series17 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series18 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.GrpBannerValues = new System.Windows.Forms.GroupBox();
             this.BtnAddOrUpdate = new System.Windows.Forms.Button();
             this.CmbTitlePath = new System.Windows.Forms.ComboBox();
@@ -59,7 +59,6 @@ namespace GrasscutterTools.Forms
             this.LblSortId = new System.Windows.Forms.Label();
             this.NUDGachaType = new System.Windows.Forms.NumericUpDown();
             this.NUDSortId = new System.Windows.Forms.NumericUpDown();
-            this.LblGachaTypeTip = new System.Windows.Forms.Label();
             this.LblEndTime = new System.Windows.Forms.Label();
             this.LblScheduleId = new System.Windows.Forms.Label();
             this.LblBeginTime = new System.Windows.Forms.Label();
@@ -93,6 +92,7 @@ namespace GrasscutterTools.Forms
             this.LblPoolWeight5 = new System.Windows.Forms.Label();
             this.ChartWeights = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.GrpBanners = new System.Windows.Forms.GroupBox();
+            this.LnkCheckLatestBanners = new System.Windows.Forms.LinkLabel();
             this.ListBanners = new System.Windows.Forms.ListBox();
             this.FLPBannersControl = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnDelete = new System.Windows.Forms.Button();
@@ -145,7 +145,6 @@ namespace GrasscutterTools.Forms
             this.GrpBannerValues.Controls.Add(this.LblSortId);
             this.GrpBannerValues.Controls.Add(this.NUDGachaType);
             this.GrpBannerValues.Controls.Add(this.NUDSortId);
-            this.GrpBannerValues.Controls.Add(this.LblGachaTypeTip);
             this.GrpBannerValues.Controls.Add(this.LblEndTime);
             this.GrpBannerValues.Controls.Add(this.LblScheduleId);
             this.GrpBannerValues.Controls.Add(this.LblBeginTime);
@@ -344,11 +343,6 @@ namespace GrasscutterTools.Forms
             0,
             0,
             0});
-            // 
-            // LblGachaTypeTip
-            // 
-            resources.ApplyResources(this.LblGachaTypeTip, "LblGachaTypeTip");
-            this.LblGachaTypeTip.Name = "LblGachaTypeTip";
             // 
             // LblEndTime
             // 
@@ -569,43 +563,51 @@ namespace GrasscutterTools.Forms
             // ChartWeights
             // 
             resources.ApplyResources(this.ChartWeights, "ChartWeights");
-            chartArea9.AxisX.Minimum = 0D;
-            chartArea9.AxisY.Maximum = 100D;
-            chartArea9.AxisY.Minimum = 0D;
-            chartArea9.AxisY.Title = "%";
-            chartArea9.Name = "ChartArea1";
-            this.ChartWeights.ChartAreas.Add(chartArea9);
-            legend9.Name = "Legend1";
-            this.ChartWeights.Legends.Add(legend9);
+            chartArea2.AxisX.Minimum = 0D;
+            chartArea2.AxisY.Maximum = 100D;
+            chartArea2.AxisY.Minimum = 0D;
+            chartArea2.AxisY.Title = "%";
+            chartArea2.Name = "ChartArea1";
+            this.ChartWeights.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.ChartWeights.Legends.Add(legend2);
             this.ChartWeights.Name = "ChartWeights";
-            series17.ChartArea = "ChartArea1";
-            series17.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series17.Color = System.Drawing.Color.OrangeRed;
-            series17.Label = "(#VALX, #VAL)";
-            series17.Legend = "Legend1";
-            series17.LegendText = "5*";
-            series17.Name = "SeriesWeight5";
-            series17.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32;
-            series17.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            series18.ChartArea = "ChartArea1";
-            series18.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series18.Color = System.Drawing.Color.Purple;
-            series18.Label = "(#VALX, #VAL)";
-            series18.Legend = "Legend1";
-            series18.LegendText = "4*";
-            series18.Name = "SeriesWeight4";
-            series18.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32;
-            series18.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
-            this.ChartWeights.Series.Add(series17);
-            this.ChartWeights.Series.Add(series18);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series3.Color = System.Drawing.Color.OrangeRed;
+            series3.Label = "(#VALX, #VAL)";
+            series3.Legend = "Legend1";
+            series3.LegendText = "5*";
+            series3.Name = "SeriesWeight5";
+            series3.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32;
+            series3.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series4.Color = System.Drawing.Color.Purple;
+            series4.Label = "(#VALX, #VAL)";
+            series4.Legend = "Legend1";
+            series4.LegendText = "4*";
+            series4.Name = "SeriesWeight4";
+            series4.XValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Int32;
+            series4.YValueType = System.Windows.Forms.DataVisualization.Charting.ChartValueType.Double;
+            this.ChartWeights.Series.Add(series3);
+            this.ChartWeights.Series.Add(series4);
             // 
             // GrpBanners
             // 
             resources.ApplyResources(this.GrpBanners, "GrpBanners");
+            this.GrpBanners.Controls.Add(this.LnkCheckLatestBanners);
             this.GrpBanners.Controls.Add(this.ListBanners);
             this.GrpBanners.Controls.Add(this.FLPBannersControl);
             this.GrpBanners.Name = "GrpBanners";
             this.GrpBanners.TabStop = false;
+            // 
+            // LnkCheckLatestBanners
+            // 
+            resources.ApplyResources(this.LnkCheckLatestBanners, "LnkCheckLatestBanners");
+            this.LnkCheckLatestBanners.Name = "LnkCheckLatestBanners";
+            this.LnkCheckLatestBanners.TabStop = true;
+            this.LnkCheckLatestBanners.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkCheckLatestBanners_LinkClicked);
             // 
             // ListBanners
             // 
@@ -693,6 +695,7 @@ namespace GrasscutterTools.Forms
             this.GrpBalance.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ChartWeights)).EndInit();
             this.GrpBanners.ResumeLayout(false);
+            this.GrpBanners.PerformLayout();
             this.FLPBannersControl.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -708,7 +711,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.Label LblSortId;
         private System.Windows.Forms.NumericUpDown NUDGachaType;
         private System.Windows.Forms.NumericUpDown NUDSortId;
-        private System.Windows.Forms.Label LblGachaTypeTip;
         private System.Windows.Forms.Label LblEndTime;
         private System.Windows.Forms.Label LblScheduleId;
         private System.Windows.Forms.Label LblBeginTime;
@@ -767,5 +769,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.ComboBox CmbTitlePath;
         private System.Windows.Forms.Label LblTitlePath;
         private System.Windows.Forms.Button BtnClear;
+        private System.Windows.Forms.LinkLabel LnkCheckLatestBanners;
     }
 }

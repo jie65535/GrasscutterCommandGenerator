@@ -28,7 +28,7 @@ using System.Windows.Forms;
 using GrasscutterTools.Game;
 using GrasscutterTools.Game.Gacha;
 using GrasscutterTools.Properties;
-
+using GrasscutterTools.Utils;
 using Newtonsoft.Json;
 
 namespace GrasscutterTools.Forms
@@ -258,6 +258,11 @@ namespace GrasscutterTools.Forms
         #endregion - 卡池列表 -
 
         #region - 卡池 -
+
+        private void LnkCheckLatestBanners_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            UIUtil.OpenURL("https://github.com/Zhaokugua/Grasscutter_Banners");
+        }
 
         private void InitCheckedListBoxs()
         {
@@ -499,5 +504,6 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 卡池参数 -
+
     }
 }
