@@ -19,14 +19,14 @@
 
 using Newtonsoft.Json;
 
-namespace GrasscutterTools.Game.CutScene
+namespace GrasscutterTools.Game.Dungeon
 {
-    internal class CutSceneItem
+    internal class DungeonItem
     {
         [JsonProperty("id")]
         public int Id { get; set; }
 
-        [JsonProperty("path")]
-        public string Path { get; set; }
+        [JsonProperty("nameTextMapHash")]
+        public string NameTextMapHash { get; set; }
     }
 }

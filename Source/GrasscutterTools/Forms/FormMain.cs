@@ -108,7 +108,9 @@ namespace GrasscutterTools.Forms
             CreatePage<PageAchievement>();
             CreatePage<PageSetProp>();
             CreatePage<PageAbout>();
-            //AddPageToGui(CreatePage<PageTools>("Tools"));
+#if DEBUG
+            CreatePage<PageTools>();
+#endif
             TCMain.ResumeLayout();
             Logger.I(TAG, "InitPages completed");
         }
@@ -137,6 +139,9 @@ namespace GrasscutterTools.Forms
                 Resources.PageAchievementTitle,
                 Resources.PageSetPropTitle,
                 Resources.PageAboutTitle,
+#if DEBUG
+                "Tools",
+#endif
             });
         }
 
@@ -186,7 +191,7 @@ namespace GrasscutterTools.Forms
             tp.Controls.Add(page);
             return page;
         }
-        
+
         private void ListPages_SelectedIndexChanged(object sender, EventArgs e)
         {
             TCMain.SelectedIndex = ListPages.SelectedIndex;

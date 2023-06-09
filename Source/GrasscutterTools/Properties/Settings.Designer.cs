@@ -262,5 +262,17 @@ namespace GrasscutterTools.Properties {
                 this["ActivityConfigJsonPath"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string ProjectResourcePath {
+            get {
+                return ((string)(this["ProjectResourcePath"]));
+            }
+            set {
+                this["ProjectResourcePath"] = value;
+            }
+        }
     }
 }

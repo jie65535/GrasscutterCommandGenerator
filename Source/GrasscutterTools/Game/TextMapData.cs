@@ -17,6 +17,7 @@
  *
  **/
 
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -31,9 +32,12 @@ namespace GrasscutterTools.Game
         {
             LoadManualTextMap(Path.Combine(resourcesDirPath, "ExcelBinOutput", "ManualTextMapConfigData.json"));
             LoadTextMaps(Path.Combine(resourcesDirPath, "TextMap"));
+            LoadTextMap(TextMapFilePaths[Array.IndexOf(TextMapFiles, "TextMapCHS")]);
+            DefaultTextMap = TextMap;
         }
 
         public Dictionary<string, string> ManualTextMap;
+        public Dictionary<string, string> DefaultTextMap;
         public Dictionary<string, string> TextMap;
         public string[] TextMapFilePaths;
         public string[] TextMapFiles;
@@ -80,6 +84,13 @@ namespace GrasscutterTools.Game
                     }
                 }
             }
+        }
+
+        public string GetText(string textMapHash)
+        {
+            return TextMap.TryGetValue(textMapHash, out var text) ? text
+                : DefaultTextMap.TryGetValue(textMapHash, out text) ? text
+                : "???";
         }
     }
 }

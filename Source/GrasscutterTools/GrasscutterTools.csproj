@@ -140,6 +140,7 @@
     <Compile Include="Game\CutScene\CutSceneItem.cs" />
     <Compile Include="Game\Drop\DropData.cs" />
     <Compile Include="Game\Drop\DropInfo.cs" />
+    <Compile Include="Game\Dungeon\DungeonItem.cs" />
     <Compile Include="Game\Gacha\GachaBanner3.cs" />
     <Compile Include="Game\Gacha\GachaBanner2.cs" />
     <Compile Include="Game\GameCommand.cs" />
