@@ -348,4 +348,7 @@
   <data name="PageSetPropTitle" xml:space="preserve">
     <value>屬性</value>
   </data>
+  <data name="Cutscene" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\Cutscene.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
 </root>
