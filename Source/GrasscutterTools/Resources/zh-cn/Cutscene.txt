@@ -1,16 +1,16 @@
-1:空画面
-2:空画面
-3:风起地七天神像激活
+1:[测试]空画面
+2:[测试]空画面
+3:[疑似剧情]风起地七天神像激活
 4:未知秘境内某门开启
 5:未知秘境内某门开启
 6:无画面(UI会闪一下)
 7:未知区域画面旋转
-8:特瓦林秘境进入时
+8:进入风龙废墟秘境
 9:达达乌帕谷剑屏障解锁
-200201:[剧情]蒙德主线特瓦林最后战斗
-10:特瓦林秘境解锁1
-11:特瓦林秘境解锁2
-12:特瓦林秘境解锁3
+200201:[剧情]蒙德主线特瓦林最后战斗  秘境ID:20018(测试)或20025(正式)
+10:风龙废墟解除三层封印1
+11:风龙废墟解除三层封印2
+12:风龙废墟解除三层封印3
 13:秘境奖励领取时
 14:未知区域画面旋转
 15:不明地下视角
@@ -56,11 +56,11 @@
 56:渊下宫狭间之街图书馆解密1
 57:渊下宫狭间之街图书馆解密2
 58:渊下宫未知地板
-59:渊下宫(三界路飨祭)塔1
-60:渊下宫(三界路飨祭)塔2
-61:渊下宫(三界路飨祭)塔3
-62:2.7主活动 四个束光装置激活 BV1CF41157hX 09:38--09:48
-63:2.7主活动 单个束光装置激活 BV1CF41157hX 07:05--07:10
+59:三界路飨祭塔1
+60:三界路飨祭塔2
+61:三界路飨祭塔3
+62:2.7主活动(荒梦藏虞渊) 四个束光装置激活 BV1CF41157hX P2 09:38--09:48
+63:2.7主活动(荒梦藏虞渊) 单个束光装置激活 BV1CF41157hX P2 07:05--07:10
 64:夜兰秘境 无效
 65:夜兰秘境 无效
 66:无效 UI闪烁一下
@@ -92,36 +92,36 @@
 92:[世界任务]森林书兰罗摩变成树
 93:未知地下视角
 94:无任何效果
-95:Cs_WQ_CWUpgrade
+95:石板升级 跟大柱子配对01
 96:Cs_XMSM_WQ_Portal
 97:Cs_XMSM_WQ_CWLUp
 98:Cs_XMSM_WQ_CWLReset
 99:Cs_XMSM_WQ_VineDoorOpen
 100:Cs_XMSM_WQ_VineDoorOpen02
 101:Cs_XMSM_WQ_VineDoorOpen03
-102:Cs_CWL_Activate_Convert
+102:沙漠书 激活小塔柱子01  大概坐标:-2430,183,4535
 103:Cs_XMSM_WaterRoom
 104:Cs_XMSM_WQ_HLSJFirst
 105:Cs_XMSM_WQ_SKFSunlocked
 106:Cs_XMSM_WQ_SKFSunlocked02
 107:Cs_XMSM_WQ_SKFSunlocked03
-108:Cs_WQ_CWUpgrade02
-109:Cs_WQ_CWUpgrade03
+108:石板升级 跟大柱子配对02
+109:石板升级 跟大柱子配对03
 110:Cs_XMSM_WQ_LianxuKaimen
 111:Cs_XMSM_WQ_SXTKaimen
 112:Cs_XMSM_WQ_SXTDianti
-113:Cs_CWL_Activate02_Convert
-114:Cs_CWL_Activate03_Convert
-115:Cs_WQ_CWUpgradeLast_Convert
+113:沙漠书 激活小塔柱子02  大概坐标:-2945,297,4735
+114:沙漠书 激活小塔柱子03  大概坐标:-1902,149,5917
+115:3.4沙漠 石板升级  坐标:-1107.2152,-32.40634,5481.1753
 116:须弥梦之树升级 现实(绿色洋葱)
 117:须弥梦之树升级 梦境(紫色洋葱)
-118:Cs_OfferingReborLake_Up_Convert
-119:Cs_OfferingRebornLake_FullLevel_Convert
-120:Cs_Cwl_Sandworm_Convert
-121:[剧情]绿洲守望者形态切换(周本版)
-122:Cs_Cwl_Sandworm02_Convert
-123:Cs_Cwl_Sandworm03_Convert
-124:[剧情]绿洲守望者形态切换(剧情版)
+118:甘露池升级 缺特效  BV1Es4y1N7UA 00:07--00:13
+119:甘露池满级 缺特效  BV1Es4y1N7UA 00:51--00:59
+120:3.6小活动(风沙轰鸣) 打沙虫动画01  BV1Da4y1P72P P3 02:13--02:23
+121:[剧情]绿洲守望者形态切换(周本版)  秘境ID:20179
+122:3.6小活动(风沙轰鸣) 打沙虫动画02  BV1Da4y1P72P P4 02:21--02:31
+123:3.6小活动(风沙轰鸣) 打沙虫动画03  BV1Da4y1P72P P5 02:54--03:04
+124:[剧情]绿洲守望者形态切换(剧情版)  秘境ID:20179
 9999:[黑屏文本]"此处有动画"
 2101401:望舒客栈远景
 133104440:未知(不明平地)
@@ -156,64 +156,64 @@
 220101003:[剧情]公子形态切换(周本版)
 300805201:龙脊雪山
 3008523:龙脊雪山壁画
-341301601:Cs_Scene_ExpendArea_TestLevelCutscene
-111001:Cs_Scene_LYLQ11113_HiddenDoor
-531001:Cs_Scene_FluerFair_DungeonGate
-531002:Cs_Scene_Activity_DungeonGate
-144001002:Cs_Scene_AlicegramophoneCoverDestroyed
-144001011:Cs_Scene_PopoIslandPuzzle
-321319801:Cs_Scene_DQ_TatariSeal
-321319901:Cs_Scene_DQ_TatariCore
-500501301:渊下宫夜晚转白天cutscene
-500501302:渊下宫白天转夜晚cutscene
-500501303:Cs_WQ72177_UnlockTokoSeal
-500501304:Cs_WQ72177_GetOathOfTokoyo
-321214201:Cs_Scene_DQ_RayAmpFinish_01
-321213501:Cs_Scene_DQ_RayAmpFinish_02
-321214601:Cs_Scene_DQ_RayAmpFinish_03
-321205201:Cs_Scene_DQ_RayAmpFinish_04
-321007401:Cs_Scene_DQ_HZD_SurfaceDown
+341301601:[测试]未知(空)
+111001:胡桃传说任务 开启隐藏门  秘境ID:1059  BV1TK4y1D7xT 45:41--45:49
+531001:1.4主活动(风花的邀约) 奇趣秘园解锁  大概坐标:2333,223,-1064
+531002:(疑)活动通用传送门解锁
+144001002:1.6海岛 某喇叭特写(Alice gramophone)  大概坐标:710,120,259  www.youtube.com/watch?v=OZEqDe061hc
+144001011:1.6 & 2.8海岛 破破岛环绕运镜 坐标:271,214,304
+321319801:踏鞴砂某个屏障破碎
+321319901:踏鞴砂从地而升的光线启动净化装置
+500501301:渊下宫 夜晚转白天cutscene
+500501302:渊下宫 白天转夜晚cutscene
+500501303:渊下宫 解锁特写
+500501304:渊下宫 深海龙蜥入口特写
+321214201:[世界任务]远吕羽氏遗事 修复镇物 01
+321213501:[世界任务]远吕羽氏遗事 修复镇物 02
+321214601:[世界任务]远吕羽氏遗事 修复镇物 03
+321205201:[世界任务]远吕羽氏遗事 修复镇物 04
+321007401:海祇岛 水月池解锁 水位下降 一阶段
 201901:[剧情]女士形态切换(剧情版)
 201902:[剧情]女士形态切换(周本版)
-321007402:Cs_Scene_DQ_HZD_SurfaceDown_02
-322203801:Cs_StormCenterWaterDown_01
-322203802:Cs_StormCenterWaterDown_02
-322203803:Cs_StormCenterWaterDown_03
-321010001:Cs_Scene_DQ_HZD_WataVesselOverflow
-321010002:Cs_Scene_DQ_HZD_OpenDoor
-322310001:Cs_CutScene_HGD_WQ_WaterDown_Cave
-322310002:Cs_CutScene_HGD_WQ_WaterDown_Cave2
-322310003:Cs_CutScene_HGD_WQ_WaterDown_Ruin
-322310004:Cs_CutScene_HGD_WQ_Mural
-321000401:Cs_Scene_DQ_HZD_WataAltarActive_01
-321029201:Cs_Scene_DQ_HZD_WataAltarActive_02
+321007402:海祇岛 水月池解锁 水位下降 二阶段
+322203801:天云峠 水位下降 一阶段
+322203802:天云峠 水位下降 二阶段
+322203803:天云峠 水位下降 三阶段
+321010001:海祇岛 解锁渊下宫
+321010002:海祇岛 开启某处的门
+322310001:鹤观 知比岛 水位下降 一阶段
+322310002:(无效)鹤观 知比岛 水位下降 二阶段
+322310003:鹤观 地下遗迹 水位下降
+322310004:鹤观 地下遗迹 三个雷种子乱窜
+321000401:海祇岛 获得键纹 01
+321029201:海祇岛 获得键纹 02
 722760501:Cs_Scene_YXGWQ72276_Puzzle
-310603001:Cs_Scene_LY_TheChasmUnlockDungeon
-790271301:Cs_DI_WQ7902713_ShipSpiritCreate
+310603001:层岩巨渊 辰砂本入口被轰开
+790271301:2.8海岛 获得船模型  BV1WB4y1L77Q 07:18--07:28
 201330101:Cs_CutScene_DI_ThronBridgeCreate01
 201330102:Cs_CutScene_DI_ThronBridgeCreate02
 201330103:Cs_CutScene_DI_ThronBridgeCreate03
-199003100:Cs_DI_GalaxyBridgeCreate01
-201330104:Cs_CutScene_DI_MusicCreate
+199003100:2.8海岛 造桥
+201330104:2.8海岛 辛焱秘境 琴被激活  BV1ZV4y1E7iH 13:26--13:42
 330125001:Cs_Scene_Sumeru_DeathAreaTimeline
-201520001:Cs_Sumeru_AQ_30280801_BF
-201520002:Cs_Sumeru_AQ_30280801_BF2
-201630001:Cs_Elevator_Disc_Convert
-331410001:Cs_XM_WQ3314012_Chiwang1
-331410002:Cs_XM_WQ3314038_Chiwang1
-331310001:Cs_XM_WQ3313025_Chiwang2
-331310002:Cs_XM_WQ3313028_Chiwang2
-331310003:Cs_XM_WQ3313029_Chiwang2
+201520001:[剧情]正机之神 进入二阶段  秘境ID:20154
+201520002:[周本]正机之神 进入二阶段  秘境ID:20154
+201630001:降神工坊 电梯上行  秘境ID:20163
+331410001:君王之殿 各个机关特写 01  大概坐标:-394,-74,5518
+331410002:君王之殿 各个机关特写 02  大概坐标:-790,-84,4854
+331310001:酣乐之殿 各个机关特写 01  大概坐标:-482,-9,5225
+331310002:酣乐之殿 各个机关特写 02  大概坐标:-394,-74,5518
+331310003:酣乐之殿 各个机关特写 03  大概坐标:-320,-59,5499
 331310004:Cs_XM_WQ3313033_Chiwang3
 331310005:Cs_XM_WQ3307012_Sand02
 331310006:Cs_XM_WQ3313033V2_Chiwang3
 331310007:Cs_XM_WQ3313153_Chiwang3
 331310008:Cs_XM_WQ3313292_Convert
-133004067:Cs_Scene_Activity_CoinCollect01
-133113007:Cs_Scene_Activity_CoinCollect02
-133304581:Cs_Scene_Activity_CoinCollect03
-133303665:Cs_Scene_Activity_CoinCollect04
-133310071:Cs_Scene_Activity_CoinCollect05
+133004067:3.3小活动(跨野寻踪) 蒙德城运镜
+133113007:3.3小活动(跨野寻踪) 死兆星号运镜
+133304581:3.3小活动(跨野寻踪) 奥摩斯港运镜
+133303665:3.3小活动(跨野寻踪) 阿如村运镜
+133310071:3.3小活动(跨野寻踪) 大赤沙海运镜
 133314560:[未知]须弥沙漠地区解密
 133314640:[未知]不明秘境内开门
 13317028:[未知]须弥地区未知水位下降
