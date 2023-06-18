@@ -18,11 +18,13 @@
  **/
 
 using System;
+using System.Linq;
 using System.Reflection;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
-
+using GrasscutterTools.OpenCommand;
 using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
 
@@ -63,8 +65,12 @@ namespace GrasscutterTools
         /// 应用程序的主入口点。
         /// </summary>
         [STAThread]
-        private static void Main()
+        private static int Main(string[] args)
         {
+            var result = HandleCommandLine(args);
+            if (result != -1)
+                return result;
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
@@ -91,7 +97,128 @@ namespace GrasscutterTools
 
             Application.Run(new Forms.FormMain());
             Logger.I(TAG, "Program end.");
+            return 0;
         }
+
+
+        #region - 命令行参数 -
+
+        /// <summary>
+        /// 处理命令行参数并返回处理结果
+        /// </summary>
+        /// <param name="args">命令行参数</param>
+        /// <returns>返回-1表示继续启动应用程序。返回其它值表示退出应用并将该值作为返回结果。</returns>
+        private static int HandleCommandLine(string[] args)
+        {
+            var parser = new ToggleParser(args);
+            if (parser.IsEmpty) return -1;
+            try
+            {
+                GuiRedirect.Redirect();
+
+                // 是否启动日志
+                if (parser.HasToggle("debug") || parser.HasToggle("log"))
+                    Logger.IsSaveLogs = true;
+
+                if (parser.HasToggle("v") || parser.HasToggle("version"))
+                {
+                    Console.WriteLine("v" + Common.AppVersion.ToString(3));
+                    return 0;
+                }
+
+                if (parser.HasToggle("h") || parser.HasToggle("help") || parser.HasToggle("?"))
+                {
+                    Console.WriteLine("Usages:");
+                    Console.WriteLine("    GcTools.exe -help");
+                    Console.WriteLine("    GcTools.exe -version");
+                    Console.WriteLine("    GcTools.exe -c \"cmd arg\"");
+                    Console.WriteLine("    GcTools.exe -c \"cmd1 arg\" && GcTools -c \"cmd2 arg1 arg2\"");
+                    Console.WriteLine("    GcTools.exe -host http://127.0.0.1:443 -token 123456 -c \"cmd1 arg1 arg2 | cmd2 | cmd3 arg\"");
+                    return 0;
+                }
+
+                // 服务器地址
+                var host = parser.GetToggleValueOrDefault("host", Settings.Default.Host);
+                // 服务器令牌
+                var token = parser.GetToggleValueOrDefault("token", Settings.Default.TokenCache);
+
+                if (Settings.Default.Host != host || Settings.Default.TokenCache != token)
+                {
+                    Settings.Default.Host = host;
+                    Settings.Default.TokenCache = token;
+                    Settings.Default.Save();
+                }
+
+#if DEBUG
+                Logger.I(TAG, $"Host: {Settings.Default.Host}  Token: {Settings.Default.TokenCache}");
+#endif
+                // UID
+                //Settings.Default.RemoteUid = decimal.Parse(parser.GetToggleValueOrDefault("uid", Settings.Default.RemoteUid.ToString()));
+
+
+                if (!string.IsNullOrEmpty(Settings.Default.Host) && !string.IsNullOrEmpty(Settings.Default.TokenCache))
+                {
+                    Common.OC = new OpenCommandAPI(Settings.Default.Host, Settings.Default.TokenCache);
+                }
+
+                // 解析并执行命令
+                var cmd = parser.GetToggleValueOrDefault("c", string.Empty);
+                if (string.IsNullOrEmpty(cmd)) cmd = parser.GetToggleValueOrDefault("command", string.Empty);
+                if (!string.IsNullOrEmpty(cmd))
+                {
+                    return RunCommand(cmd) ? 0 : 1;
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.E(TAG, "Parse command failed!", ex);
+            }
+            return -1;
+        }
+
+        /// <summary>
+        /// 执行命令
+        /// </summary>
+        /// <param name="commands">GC命令，由|分割多条命令</param>
+        /// <returns>返回是否执行成功</returns>
+        private static bool RunCommand(string commands)
+        {
+            if (Common.OC == null || !Common.OC.CanInvoke)
+            {
+                Console.WriteLine(Resources.RequireOpenCommandTip);
+                Logger.E(TAG, Resources.RequireOpenCommandTip);
+                return false;
+            }
+
+            try
+            {
+                foreach (var cmd in commands.Split('|').Select(FormatCommand))
+                {
+                    var msg = Common.OC.Invoke(cmd).Result;
+                    Console.WriteLine(string.IsNullOrEmpty(msg) ? "OK" : msg);
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                Logger.E(TAG, "RunCommand Error:", ex);
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// 格式化命令
+        /// （去除收尾空白，替换换行）
+        /// </summary>
+        /// <param name="raw">原始输入</param>
+        /// <returns>格式化后可执行命令</returns>
+        private static string FormatCommand(string raw)
+        {
+            return raw.Trim().Replace("\\r", "\r").Replace("\\n", "\n");
+        }
+
+        #endregion
 
         #region - 全局异常处理 -
 

@@ -25,16 +25,17 @@ namespace GrasscutterTools.Utils
 {
     public static class Logger
     {
+        public static bool IsSaveLogs = false;
+
         private static readonly string LogPath = Path.Combine(Path.GetDirectoryName(Application.ExecutablePath), $"GcTools-{DateTime.Now:MMdd}.log");
 
         private static void Write(string message)
         {
-#if DEBUG
-            Console.WriteLine($"{DateTime.Now:mm:ss.fff} {message}");
-#else
-            // Test log
-            //File.AppendAllText(LogPath, $"{DateTime.Now:mm:ss.fff} {message}{Environment.NewLine}");
-#endif
+            if (IsSaveLogs)
+            {
+                Console.WriteLine($"{DateTime.Now:mm:ss.fff} {message}");
+                File.AppendAllText(LogPath, $"{DateTime.Now:mm:ss.fff} {message}{Environment.NewLine}");
+            }
         }
 
         private static void Write(string level, string tag, string message) => Write($"<{level}:{tag}> {message}");
