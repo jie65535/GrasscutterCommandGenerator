@@ -280,9 +280,12 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Utils\AppHotKey.cs" />
     <Compile Include="Utils\ArtifactUtils.cs" />
     <Compile Include="Utils\Common.cs" />
     <Compile Include="Utils\GuiRedirect.cs" />
+    <Compile Include="Utils\HotKey.cs" />
+    <Compile Include="Utils\HotKeyItem.cs" />
     <Compile Include="Utils\HttpHelper.cs" />
     <Compile Include="Utils\Logger.cs" />
     <Compile Include="Utils\GithubHelper.cs" />
