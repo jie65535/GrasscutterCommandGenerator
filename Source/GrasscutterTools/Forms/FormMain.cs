@@ -378,7 +378,7 @@ namespace GrasscutterTools.Forms
             if (cmd.IndexOf('|') == -1)
                 await RunCommands(FormatCommand(cmd));
             else
-                await RunCommands(cmd.Split('|').Select(it => FormatCommand(it)).ToArray());
+                await RunCommands(cmd.Split('|').Select(FormatCommand).ToArray());
         }
 
         /// <summary>
@@ -528,6 +528,11 @@ namespace GrasscutterTools.Forms
         /// <param name="control">控件</param>
         private void ShowTip(string message, Control control)
         {
+            if (InvokeRequired)
+            {
+                BeginInvoke(new Action(() => ShowTip(message, control)));
+                return;
+            }
             TTip.Show(message, control, 0, control.Size.Height, 3000);
         }
 
