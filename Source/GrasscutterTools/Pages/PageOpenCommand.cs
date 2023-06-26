@@ -109,14 +109,9 @@ namespace GrasscutterTools.Pages
         /// <param name="host">主机地址</param>
         private async Task UpdateServerStatus(string host)
         {
-            // "http://127.0.0.1/" -> "http://127.0.0.1"
-            host = host.TrimEnd('/');
             var status = await DispatchServerAPI.QueryServerStatus(host);
             LblServerVersion.Text = status.Version;
-            if (status.MaxPlayer >= 0)
-                LblPlayerCount.Text = $"{status.PlayerCount}/{status.MaxPlayer}";
-            else
-                LblPlayerCount.Text = status.PlayerCount.ToString();
+            LblPlayerCount.Text = status.MaxPlayer > 0 ? $"{status.PlayerCount}/{status.MaxPlayer}" : status.PlayerCount.ToString();
         }
 
         /// <summary>
@@ -137,9 +132,11 @@ namespace GrasscutterTools.Pages
             btn.Cursor = Cursors.WaitCursor;
             try
             {
+                // "http://127.0.0.1/" -> "http://127.0.0.1"
+                var host = TxtHost.Text.TrimEnd('/');
                 try
                 {
-                    await UpdateServerStatus(TxtHost.Text);
+                    await UpdateServerStatus(host);
                 }
                 catch (Exception ex)
                 {
@@ -150,7 +147,7 @@ namespace GrasscutterTools.Pages
                 var isOcEnabled = false;
                 try
                 {
-                    Common.OC = new OpenCommandAPI(TxtHost.Text);
+                    Common.OC = new OpenCommandAPI(host);
                     isOcEnabled = await Common.OC.Ping();
                 }
                 catch (Exception ex)
