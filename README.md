@@ -17,7 +17,25 @@ Support 简体中文, 繁體中文, English and Русский languages.
 
 > **Warning**: app look may be different rather than on screenshots. It may also contain translation errors and a lack of certain resources. **We're welcome everyone to contribute to their [improvement](/Source/GrasscutterTools/Resources/en-us)**
 
+## Remote command
+
+The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) support
+
+![OpenCommand](Doc/Screenshots/OpenCommand.gif)
+
+> If you cannot connect to the server, please make sure the server address is correct.
+>
+> It is recommended to configure the server to HTTP mode, as shown in the figure(config.json):
+> ![ConfigHttp](Doc/Screenshots/ConfigHttp.png)
+> 
+> You can visit http://127.0.0.1/status/server with a browser to test whether the service is working properly.
+>
+> If you are not using port `80`, specify the port number to access in the url: http://127.0.0.1:443
+
 ## Update log
+
+### GrasscutterTools-v1.11
+![HotKey](Doc/Screenshots-en/21-HotKey.png)
 
 ### GrasscutterTools-v1.10
 ![Cutscene](Doc/Screenshots-en/7-ChangeScene.png)
@@ -50,21 +68,6 @@ Added [AttackModifier](https://github.com/NotThorny/AttackModifier), [AttackInfu
 ![Drop Editor](Doc/Screenshots-en/15-DropEditor.png)
 
 ![Mail Editor](Doc/Screenshots-en/16-MailEditor.png)
-
-## Remote command
-
-The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) support
-
-![OpenCommand](Doc/Screenshots/OpenCommand.gif)
-
-> If you cannot connect to the server, please make sure the server address is correct.
->
-> It is recommended to configure the server to HTTP mode, as shown in the figure(config.json):
-> ![ConfigHttp](Doc/Screenshots/ConfigHttp.png)
-> 
-> You can visit http://127.0.0.1/status/server with a browser to test whether the service is working properly.
->
-> If you are not using port `80`, specify the port number to access in the url: http://127.0.0.1:443
 
 ---
 

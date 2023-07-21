@@ -17,7 +17,25 @@
 
 > **Warning**: 程式中的實際外觀可能會與截圖中的內容不同。其中也可能包含翻譯錯誤及缺乏特定資源。**我們歡迎各位為此工具做出貢獻並[改進](/Source/GrasscutterTools/Resources/zh-tw)**
 
+## 遠端控制
+
+伺服器需要安裝 [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) 插件
+
+![OpenCommand](Doc/Screenshots-tw/OpenCommand.gif)
+
+> 如果你無法連接至伺服器，請確認輸入的伺服器位址是否正確。
+>
+> 建議將伺服器調整為HTTP模式，如下圖所示(config.json):
+> ![ConfigHttp](Doc/Screenshots-tw/ConfigHttp.png)
+> 
+> 你可藉由任何瀏覽器輸入網址 http://127.0.0.1/status/server 以測試伺服器是否正常運作。
+>
+> 如果你並非使用`80`端口, 則須在網址後輸入指定端口: http://127.0.0.1:443
+
 ## 更新日誌
+
+### GrasscutterTools-v1.11
+![HotKey](Doc/Screenshots/21-HotKey.png)
 
 ### GrasscutterTools-v1.10
 ![Cutscene](Doc/Screenshots-tw/7-ChangeScene.png)
@@ -54,21 +72,6 @@
 ![Drop Editor](Doc/Screenshots-tw/15-DropEditor.png)
 
 ![Mail Editor](Doc/Screenshots-tw/16-MailEditor.png)
-
-## 遠端控制
-
-伺服器需要安裝 [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) 插件
-
-![OpenCommand](Doc/Screenshots-tw/OpenCommand.gif)
-
-> 如果你無法連接至伺服器，請確認輸入的伺服器位址是否正確。
->
-> 建議將伺服器調整為HTTP模式，如下圖所示(config.json):
-> ![ConfigHttp](Doc/Screenshots-tw/ConfigHttp.png)
-> 
-> 你可藉由任何瀏覽器輸入網址 http://127.0.0.1/status/server 以測試伺服器是否正常運作。
->
-> 如果你並非使用`80`端口, 則須在網址後輸入指定端口: http://127.0.0.1:443
 
 ---
 

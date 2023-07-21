@@ -17,7 +17,26 @@
 
 > **Warning**: 应用程序的外观可能与截图上的不同。它也可能包含翻译错误和缺乏某些资源。**我们欢迎各位为此工具做出贡献并<a href="./Source/GrasscutterTools/Resources/zh-cn">改进</a> : )**
 
+## 远程执行
+
+服务端需要 [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) 插件支持
+
+![OpenCommand](Doc/Screenshots/OpenCommand.gif)
+
+> 如果你无法连接到服务器，请确认填写的服务器地址是否正确。
+> 
+> 建议配置服务器为HTTP模式，如图所示(config.json)：
+> ![ConfigHttp](Doc/Screenshots/ConfigHttp.png)
+> 
+> 你可以用浏览器访问 http://127.0.0.1/status/server 来测试服务是否正常工作。
+> 
+> 如果使用的不是`80`端口，则要在url中指定访问的端口号：http://127.0.0.1:443
+
+
 ## 更新概要
+
+### GrasscutterTools-v1.11
+![HotKey](Doc/Screenshots/21-HotKey.png)
 
 ### GrasscutterTools-v1.10
 ![Cutscene](Doc/Screenshots/7-ChangeScene.png)
@@ -54,21 +73,6 @@
 ![Drop Editor](Doc/Screenshots/15-DropEditor.png)
 
 ![Mail Editor](Doc/Screenshots/16-MailEditor.png)
-
-## 远程执行
-
-服务端需要 [gc-opencommand-plugin](https://github.com/jie65535/gc-opencommand-plugin) 插件支持
-
-![OpenCommand](Doc/Screenshots/OpenCommand.gif)
-
-> 如果你无法连接到服务器，请确认填写的服务器地址是否正确。
-> 
-> 建议配置服务器为HTTP模式，如图所示(config.json)：
-> ![ConfigHttp](Doc/Screenshots/ConfigHttp.png)
-> 
-> 你可以用浏览器访问 http://127.0.0.1/status/server 来测试服务是否正常工作。
-> 
-> 如果使用的不是`80`端口，则要在url中指定访问的端口号：http://127.0.0.1:443
 
 ---
 
