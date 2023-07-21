@@ -49,6 +49,19 @@ namespace GrasscutterTools.Forms
 
             try
             {
+                if (!Settings.Default.IsUpgraded)
+                {
+                    Settings.Default.Upgrade();
+                    Settings.Default.IsUpgraded = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.W(TAG, "Upgrade Settings failed.", ex);
+            }
+
+            try
+            {
                 var location = Settings.Default.MainFormLocation;
                 // 还原窗体位置
                 if (location.X > 0 && location.Y > 0)
