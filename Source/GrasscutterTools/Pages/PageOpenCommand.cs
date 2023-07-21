@@ -152,7 +152,11 @@ namespace GrasscutterTools.Pages
                 }
                 catch (Exception ex)
                 {
+#if DEBUG
                     MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+#else
+                    MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+#endif
                 }
                 if (isOcEnabled)
                 {
