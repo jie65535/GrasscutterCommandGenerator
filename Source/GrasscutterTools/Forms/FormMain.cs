@@ -44,6 +44,9 @@ namespace GrasscutterTools.Forms
 
             if (DesignMode) return;
 
+            Common.KeyGo = new KeyGo(Handle);
+            Common.KeyGo.HotKeyTriggerEvent += OnHotKeyTrigger;
+
             try
             {
                 var location = Settings.Default.MainFormLocation;
@@ -94,7 +97,21 @@ namespace GrasscutterTools.Forms
             ph.OnLanguageChanged = () => FormMain_Load(this, EventArgs.Empty);
             var poc = CreatePage<PageOpenCommand>();
             poc.ShowTipInRunButton = msg => ShowTip(msg, BtnInvokeOpenCommand);
-            CreatePage<PageCustomCommands>();
+            var pcc = CreatePage<PageCustomCommands>();
+            var phk = CreatePage<PageHotKey>();
+            pcc.OnAddHotKey = tag =>
+            {
+                phk.AddNewHotKey(tag);
+                // 跳转到快捷键界面
+                for (var i = 0; i < TCMain.Controls.Count; i++)
+                {
+                    if (TCMain.Controls[i].Controls[0] == phk)
+                    {
+                        ListPages.SelectedIndex = i;
+                        break;
+                    }
+                }
+            };
             CreatePage<PageGiveArtifact>();
             CreatePage<PageSpawn>();
             CreatePage<PageGiveItem>();
@@ -126,6 +143,7 @@ namespace GrasscutterTools.Forms
                 Resources.PageHomeTitle,
                 Resources.PageOpenCommandTitle,
                 Resources.PageCustomCommandsTitle,
+                Resources.PageHotKey,
                 Resources.PageGetArtifactTitle,
                 Resources.PageSpawnTitle,
                 Resources.PageGiveItemTitle,
@@ -274,6 +292,33 @@ namespace GrasscutterTools.Forms
 
         #endregion - 初始化 Init -
 
+
+        #region - 快捷键执行 HotKey -
+
+        /// <summary>
+        /// 快捷键触发时执行
+        /// </summary>
+        private void OnHotKeyTrigger(object sender, HotKeyTriggerEventArgs e)
+        {
+            BeginInvoke(new Func<Task>(() => RunRawCommands(e.HotKeyItem.Commands)));
+            e.Handle = true;
+        }
+
+        private const int WM_HOTKEY = 0x312;
+
+        protected override void WndProc(ref Message m)
+        {
+            base.WndProc(ref m);
+            switch (m.Msg)
+            {
+                case WM_HOTKEY:
+                    Common.KeyGo.ProcessHotKey(m.WParam.ToInt32());
+                    break;
+            }
+        }
+
+        #endregion - 快捷键执行 HotKey -
+
         #region - 命令 Command -
 
         /// <summary>
@@ -375,10 +420,20 @@ namespace GrasscutterTools.Forms
                 ShowTip(Resources.CommandContentCannotBeEmpty, CmbCommand);
                 return;
             }
-            if (cmd.IndexOf('|') == -1)
-                await RunCommands(FormatCommand(cmd));
-            else
-                await RunCommands(cmd.Split('|').Select(FormatCommand).ToArray());
+
+            await RunRawCommands(cmd);
+        }
+
+        /// <summary>
+        /// 运行原始命令
+        /// </summary>
+        /// <param name="commands">命令字符串</param>
+        /// <returns>是否执行成功</returns>
+        private async Task<bool> RunRawCommands(string commands)
+        {
+            if (commands.IndexOf('|') == -1)
+                return await RunCommands(FormatCommand(commands));
+            return await RunCommands(commands.Split('|').Select(FormatCommand).ToArray());
         }
 
         /// <summary>

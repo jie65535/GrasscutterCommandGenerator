@@ -88,7 +88,7 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 //［Activity ids-3.7 by dplek］
+        ///   查找类似 //［Activity ids-3.8 by dplek］
         ///// Activity
         ///2001:1.1未归的熄星
         ///2002:1.3海灯节
@@ -123,10 +123,7 @@ namespace GrasscutterTools.Properties {
         ///5006:佳肴尚温
         ///5007:飞行挑战
         ///5009:古闻之章（钟离传说-1）
-        ///5010:鲸天之章（公子传说-1）
-        ///// 1.2
-        ///3001:白垩与黑龙
-        ///5 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///50 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Activity {
             get {
@@ -638,28 +635,40 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
-        ///   查找类似 1:TEST_Chest_CutSence
-        ///2:TEST_GoddessLvUp_CutSence
-        ///3:Cs_Scene_GoddessUpgrade_01
-        ///4:Cs_Scene_DungeonGate_01
-        ///5:Cs_Scene_DungeonGate_02
-        ///6:Cs_Scene_GoddessActive
-        ///7:Cs_Scene_GoddessUpgradeDefault
-        ///8:Cs_Scene_DragonNestSealGate
-        ///9:Cs_MDAQ501_SwordBreak01
-        ///200201:Cs_MDAQ071_DvalinCombat2
-        ///10:特瓦林秘境解锁1
-        ///11:特瓦林秘境解锁2
-        ///12:特瓦林秘境解锁3
-        ///13:Cs_RecyclableDungeon_GetReward
-        ///14:Cs_Scene_GoddessUpgradeDefault_SFX
-        ///15:Cs_Scene_Goddess_Chord_Wind
-        ///16:Cs_Scene_Goddess_Chord_Rock
+        ///   查找类似 1:[测试]空画面
+        ///2:[测试]空画面
+        ///3:[疑似剧情]风起地七天神像激活
+        ///4:未知秘境内某门开启
+        ///5:未知秘境内某门开启
+        ///6:无画面(UI会闪一下)
+        ///7:未知区域画面旋转
+        ///8:进入风龙废墟秘境
+        ///9:达达乌帕谷剑屏障解锁
+        ///200201:[剧情]蒙德主线特瓦林最后战斗  秘境ID:20018(测试)或20025(正式)
+        ///10:风龙废墟解除三层封印1
+        ///11:风龙废墟解除三层封印2
+        ///12:风龙废墟解除三层封印3
+        ///13:秘境奖励领取时
+        ///14:未知区域画面旋转
+        ///15:不明地下视角
+        ///16:不明地下视角
         ///17:忍冬之树普通
         ///18:忍冬之树形态1
         ///19:忍冬之树1升级2
         ///20:忍冬之树形态2
-        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///21:忍冬之树2升级3
+        ///22:雪山冰本进入时
+        ///23:不明地下视角
+        ///24:不明地下视角
+        ///25:稻妻神樱树远景
+        ///26:[世界任务]神樱大祓净化进度1
+        ///27:[世界任务]神樱大祓净化进度2
+        ///28:[世界任务]神樱大祓净化进度3
+        ///29:[世界任务]神樱大祓净化进度4
+        ///30:[世界任务]神樱大祓净化进度5
+        ///31:稻妻荒海机关解锁
+        ///32:稻妻八酝岛阵代屋敷秘境解锁
+        ///33:稻妻清籁岛木 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Cutscene {
             get {
@@ -1148,6 +1157,15 @@ namespace GrasscutterTools.Properties {
         internal static string PageHomeTitle {
             get {
                 return ResourceManager.GetString("PageHomeTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 快捷键 的本地化字符串。
+        /// </summary>
+        internal static string PageHotKey {
+            get {
+                return ResourceManager.GetString("PageHotKey", resourceCulture);
             }
         }
         

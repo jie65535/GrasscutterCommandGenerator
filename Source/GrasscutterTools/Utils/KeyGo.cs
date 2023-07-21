@@ -1,82 +1,40 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
+using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
-using System.Xml.Serialization;
 
 namespace GrasscutterTools.Utils
 {
     /// <summary>
     /// KeyGo 核心功能类
     /// </summary>
-    public class KeyGo
+    internal class KeyGo
     {
+        public KeyGo(IntPtr formHandle)
+        {
+            FormHandle = formHandle;
+        }
+
         #region Member
 
-        private static int _RegMaxID;
+        private static int _regMaxId;
 
-        [XmlIgnore]
-        public IntPtr FormHandle { get; set; }
+        private readonly IntPtr FormHandle;
 
         public List<HotKeyItem> Items { get; set; } = new List<HotKeyItem>();
 
         #endregion Member
 
-        #region FILE IO
-
-        /// <summary>
-        /// Loads the XML.
-        /// </summary>
-        /// <param name="filePath">The file path.</param>
-        /// <returns></returns>
-        public static KeyGo LoadXml(string filePath)
-        {
-            KeyGo data = null;
-            if (File.Exists(filePath))
-            {
-                XmlSerializer formatter = new XmlSerializer(typeof(KeyGo));
-                using (var stream = File.OpenRead(filePath))
-                {
-                    if (stream.Length > 0)
-                    {
-                        data = formatter.Deserialize(stream) as KeyGo;
-                    }
-                }
-            }
-            return data;
-        }
-
-        /// <summary>
-        /// Saves the XML.
-        /// </summary>
-        /// <param name="filePath">The file path.</param>
-        public void SaveXml(string filePath)
-        {
-            if (!File.Exists(filePath))
-                Directory.CreateDirectory(Path.GetDirectoryName(filePath));
-
-            XmlSerializer formatter = new XmlSerializer(typeof(KeyGo));
-            using (var stream = File.Create(filePath))
-            {
-                formatter.Serialize(stream, this);
-            }
-        }
-
-        #endregion FILE IO
-
         #region HotKey Register
 
         /// <summary>
-        /// Regs all key.
+        /// 注册所有启用的快捷键
         /// </summary>
         public void RegAllKey()
         {
-            foreach (var item in Items)
+            foreach (var item in Items.Where(item => item.IsEnabled))
             {
-                if (!item.Enabled)
-                    continue;
-
                 try
                 {
                     RegKey(item);
@@ -89,7 +47,7 @@ namespace GrasscutterTools.Utils
         }
 
         /// <summary>
-        /// Uns the reg all key.
+        /// 取消所有快捷键
         /// </summary>
         public void UnRegAllKey()
         {
@@ -107,7 +65,7 @@ namespace GrasscutterTools.Utils
         }
 
         /// <summary>
-        /// 注册热键 - 成功后，会设置 HotKeyID
+        /// 注册热键 - 成功后，会设置 HotKeyId
         /// </summary>
         /// <param name="item">The item.</param>
         /// <exception cref="ArgumentNullException">
@@ -128,17 +86,17 @@ namespace GrasscutterTools.Utils
                 throw new ArgumentNullException(nameof(item.HotKey), "热键不能为空！");
 
             // 如果注册过该热键，ID不为0。卸载热键会将ID置零。
-            if (item.HotKeyID != 0)
+            if (item.HotKeyId != 0)
                 return;
 
-            int id = Interlocked.Increment(ref _RegMaxID);
+            var id = Interlocked.Increment(ref _regMaxId);
 
             var keys = item.HotKey.Split('+');
-            Keys keyCode = Keys.None;
-            AppHotKey.KeyModifiers keyModifiers = AppHotKey.KeyModifiers.None;
+            var keyCode = Keys.None;
+            var keyModifiers = AppHotKey.KeyModifiers.None;
             foreach (var key in keys)
             {
-                switch (key.ToLower())
+                switch (key.Trim().ToLower())
                 {
                     case "ctrl":
                         keyModifiers |= AppHotKey.KeyModifiers.Ctrl;
@@ -168,11 +126,11 @@ namespace GrasscutterTools.Utils
                 throw new InvalidOperationException("快捷键不能为空！");
 
             AppHotKey.RegKey(FormHandle, id, keyModifiers, keyCode);
-            item.HotKeyID = id;
+            item.HotKeyId = id;
         }
 
         /// <summary>
-        /// 注销热键 - 完成后，会清零 HotKeyID
+        /// 注销热键 - 完成后，会清零 HotKeyId
         /// </summary>
         /// <param name="item">The item.</param>
         /// <exception cref="ArgumentNullException">item</exception>
@@ -180,11 +138,11 @@ namespace GrasscutterTools.Utils
         {
             if (item is null)
                 throw new ArgumentNullException(nameof(item));
-            if (item.HotKeyID == 0)
+            if (item.HotKeyId == 0)
                 return;
 
-            AppHotKey.UnRegKey(FormHandle, item.HotKeyID);
-            item.HotKeyID = 0;
+            AppHotKey.UnRegKey(FormHandle, item.HotKeyId);
+            item.HotKeyId = 0;
         }
 
         #endregion HotKey Register
@@ -207,15 +165,15 @@ namespace GrasscutterTools.Utils
         /// Processes the hotkey.
         /// </summary>
         /// <param name="hotKey_id">The hot key identifier.</param>
-        public void ProcessHotkey(int hotKey_id)
+        public void ProcessHotKey(int hotKeyId)
         {
-            var hotkey = Items.Find(k => k.HotKeyID == hotKey_id);
-            if (hotkey != null)
+            var hotKey = Items.Find(k => k.HotKeyId == hotKeyId);
+            if (hotKey != null)
             {
-                //Console.WriteLine($"ID:{hotkey.HotKeyID} Keys:{hotkey.HotKey} ProcessName:{hotkey.ProcessName}\nStartupPath:{hotkey.StartupPath}");
-                ++hotkey.TriggerCounter;
+                //Console.WriteLine($"ID:{hotKey.HotKeyId} Keys:{hotKey.HotKey} ProcessName:{hotKey.ProcessName}\nStartupPath:{hotKey.StartupPath}");
+                //++hotKey.TriggerCounter;
                 // 触发事件，若被外部处理，则内部不再执行
-                OnHotKeyTrigger(hotkey);
+                OnHotKeyTrigger(hotKey);
             }
         }
 
@@ -242,7 +200,7 @@ namespace GrasscutterTools.Utils
             if (item is null)
                 throw new ArgumentNullException(nameof(item));
 
-            if (item.Enabled)
+            if (item.IsEnabled)
                 RegKey(item);
             Items.Add(item);
         }
@@ -256,7 +214,7 @@ namespace GrasscutterTools.Utils
             if (item is null)
                 throw new ArgumentNullException(nameof(item));
 
-            if (item.HotKeyID != 0)
+            if (item.HotKeyId != 0)
                 UnRegKey(item);
             Items.Remove(item);
         }
@@ -271,9 +229,9 @@ namespace GrasscutterTools.Utils
                 throw new ArgumentNullException(nameof(item));
 
             // 重新注册
-            if (item.HotKeyID != 0)
+            if (item.HotKeyId != 0)
                 UnRegKey(item);
-            if (item.Enabled)
+            if (item.IsEnabled)
                 RegKey(item);
         }
 

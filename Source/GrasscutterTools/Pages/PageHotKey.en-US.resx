@@ -117,19 +117,35 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnExportCustomCommands.Text" xml:space="preserve">
-    <value>導出</value>
+  <data name="ColTag.Text" xml:space="preserve">
+    <value>Tag</value>
   </data>
-  <data name="BtnLoadCustomCommands.Text" xml:space="preserve">
-    <value>載入</value>
+  <data name="ColHotKey.Text" xml:space="preserve">
+    <value>HotKey</value>
   </data>
-  <data name="LblCustomName.Text" xml:space="preserve">
-    <value>標籤</value>
+  <data name="ColCommand.Text" xml:space="preserve">
+    <value>Commands</value>
   </data>
-  <data name="BtnRemoveCustomCommand.Text" xml:space="preserve">
-    <value>× 刪除</value>
+  <data name="GrpHotKeyList.Text" xml:space="preserve">
+    <value>HotKeys</value>
   </data>
-  <data name="BtnAddHotKey.Text" xml:space="preserve">
-    <value>快捷鍵</value>
+  <data name="BtnRemove.Text" xml:space="preserve">
+    <value>- Remove</value>
+  </data>
+  <data name="BtnAddOrUpdate.Text" xml:space="preserve">
+    <value>√ AddOrUpdate</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblHotKeyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 17</value>
+  </data>
+  <data name="LblHotKeyLabel.Text" xml:space="preserve">
+    <value>HotKey</value>
+  </data>
+  <data name="LblTagLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 17</value>
+  </data>
+  <data name="LblTagLabel.Text" xml:space="preserve">
+    <value>Tag</value>
   </data>
 </root>

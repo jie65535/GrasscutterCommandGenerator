@@ -248,5 +248,18 @@ namespace GrasscutterTools.Pages
                 LoadCustomCommandControls(Resources.CustomCommands);
             }
         }
+
+        public Action<string> OnAddHotKey;
+
+        private void BtnAddHotKey_Click(object sender, EventArgs e)
+        {
+            var name = TxtCustomName.Text.Trim();
+            if (string.IsNullOrEmpty(name))
+            {
+                MessageBox.Show(Resources.CommandTagCannotBeEmpty, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            OnAddHotKey?.Invoke(name);
+        }
     }
 }

@@ -219,6 +219,12 @@
     <Compile Include="Pages\PageHome.Designer.cs">
       <DependentUpon>PageHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PageHotKey.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageHotKey.Designer.cs">
+      <DependentUpon>PageHotKey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PageMail.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -284,7 +290,7 @@
     <Compile Include="Utils\ArtifactUtils.cs" />
     <Compile Include="Utils\Common.cs" />
     <Compile Include="Utils\GuiRedirect.cs" />
-    <Compile Include="Utils\HotKey.cs" />
+    <Compile Include="Utils\KeyGo.cs" />
     <Compile Include="Utils\HotKeyItem.cs" />
     <Compile Include="Utils\HttpHelper.cs" />
     <Compile Include="Utils\Logger.cs" />
@@ -489,6 +495,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageHome.zh-TW.resx">
       <DependentUpon>PageHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageHotKey.en-US.resx">
+      <DependentUpon>PageHotKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageHotKey.resx">
+      <DependentUpon>PageHotKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageHotKey.ru-RU.resx">
+      <DependentUpon>PageHotKey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageHotKey.zh-TW.resx">
+      <DependentUpon>PageHotKey.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageMail.en-US.resx">
       <DependentUpon>PageMail.cs</DependentUpon>

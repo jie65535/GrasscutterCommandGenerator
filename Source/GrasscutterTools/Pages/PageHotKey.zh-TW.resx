@@ -117,19 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnExportCustomCommands.Text" xml:space="preserve">
-    <value>導出</value>
-  </data>
-  <data name="BtnLoadCustomCommands.Text" xml:space="preserve">
-    <value>載入</value>
-  </data>
-  <data name="LblCustomName.Text" xml:space="preserve">
+  <data name="ColTag.Text" xml:space="preserve">
     <value>標籤</value>
   </data>
-  <data name="BtnRemoveCustomCommand.Text" xml:space="preserve">
-    <value>× 刪除</value>
-  </data>
-  <data name="BtnAddHotKey.Text" xml:space="preserve">
+  <data name="ColHotKey.Text" xml:space="preserve">
     <value>快捷鍵</value>
+  </data>
+  <data name="GrpHotKeyList.Text" xml:space="preserve">
+    <value>快捷執行列表</value>
+  </data>
+  <data name="BtnRemove.Text" xml:space="preserve">
+    <value>- 刪除</value>
+  </data>
+  <data name="LblHotKeyLabel.Text" xml:space="preserve">
+    <value>快捷鍵</value>
+  </data>
+  <data name="LblTagLabel.Text" xml:space="preserve">
+    <value>標籤</value>
   </data>
 </root>

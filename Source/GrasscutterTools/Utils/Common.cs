@@ -41,5 +41,8 @@ namespace GrasscutterTools.Utils
         {
             return Path.Combine(AppDataFolder, filename);
         }
+
+
+        public static KeyGo KeyGo { get; set; }
     }
 }

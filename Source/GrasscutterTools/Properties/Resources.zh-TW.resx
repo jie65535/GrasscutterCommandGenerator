@@ -354,4 +354,7 @@
   <data name="Activity" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-tw\Activity.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="PageHotKey" xml:space="preserve">
+    <value>快捷鍵</value>
+  </data>
 </root>

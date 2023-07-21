@@ -119,19 +119,19 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>573, 209</value>
+    <value>573, 206</value>
   </data>
   <data name="BtnExportCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
+    <value>70, 30</value>
   </data>
   <data name="BtnExportCustomCommands.Text" xml:space="preserve">
     <value>Export</value>
   </data>
   <data name="BtnLoadCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>497, 209</value>
+    <value>497, 206</value>
   </data>
   <data name="BtnLoadCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
+    <value>70, 30</value>
   </data>
   <data name="BtnLoadCustomCommands.Text" xml:space="preserve">
     <value>Load</value>
@@ -155,24 +155,30 @@
     <value>Restore</value>
   </data>
   <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>421, 209</value>
+    <value>421, 206</value>
   </data>
   <data name="BtnRemoveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
+    <value>70, 30</value>
   </data>
   <data name="BtnRemoveCustomCommand.Text" xml:space="preserve">
     <value>× Delete</value>
   </data>
   <data name="BtnSaveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>345, 209</value>
+    <value>345, 206</value>
   </data>
   <data name="BtnSaveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
+    <value>70, 30</value>
   </data>
   <data name="BtnSaveCustomCommand.Text" xml:space="preserve">
     <value>√ Save</value>
   </data>
   <data name="TxtCustomName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 23</value>
+    <value>217, 23</value>
+  </data>
+  <data name="BtnAddHotKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 206</value>
+  </data>
+  <data name="BtnAddHotKey.Text" xml:space="preserve">
+    <value>HotKey</value>
   </data>
 </root>

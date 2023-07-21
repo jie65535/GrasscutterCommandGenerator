@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Xml.Serialization;
+using Newtonsoft.Json;
 
 namespace GrasscutterTools.Utils
 {
@@ -14,8 +14,8 @@ namespace GrasscutterTools.Utils
         /// <value>
         /// The hot key identifier.
         /// </value>
-        [XmlIgnore]
-        public int HotKeyID { get; set; }
+        [JsonIgnore]
+        public int HotKeyId { get; set; }
 
         /// <summary>
         /// Gets or sets the name of the Tag.
@@ -48,30 +48,6 @@ namespace GrasscutterTools.Utils
         /// <value>
         ///   <c>true</c> if enabled; otherwise, <c>false</c>.
         /// </value>
-        public bool Enabled { get; set; } = true;
-
-        /// <summary>
-        /// Gets or sets the trigger counter.
-        /// </summary>
-        /// <value>
-        /// The trigger counter.
-        /// </value>
-        public int TriggerCounter { get; set; }
-
-        /// <summary>
-        /// Gets or sets the creation time.
-        /// </summary>
-        /// <value>
-        /// The creation time.
-        /// </value>
-        public DateTime CreationTime { get; set; } = DateTime.Now;
-
-        /// <summary>
-        /// Gets or sets the last modified time.
-        /// </summary>
-        /// <value>
-        /// The last modified time.
-        /// </value>
-        public DateTime LastModifiedTime { get; set; } = DateTime.Now;
+        public bool IsEnabled { get; set; } = true;
     }
 }

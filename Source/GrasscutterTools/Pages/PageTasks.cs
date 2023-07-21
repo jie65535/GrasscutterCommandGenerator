@@ -78,7 +78,7 @@ namespace GrasscutterTools.Pages
                 try
                 {
                     Tasks = JsonConvert.DeserializeObject<List<LoopTask>>(File.ReadAllText(TasksJsonPath));
-                    ListTasks.Items.AddRange(Tasks.Select(t => TaskToViewItem(t)).ToArray());
+                    ListTasks.Items.AddRange(Tasks.Select(TaskToViewItem).ToArray());
                 }
                 catch (Exception ex)
                 {

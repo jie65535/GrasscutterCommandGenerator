@@ -119,19 +119,19 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>545, 209</value>
+    <value>548, 206</value>
   </data>
   <data name="BtnExportCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 23</value>
+    <value>95, 30</value>
   </data>
   <data name="BtnExportCustomCommands.Text" xml:space="preserve">
     <value>Экспорт</value>
   </data>
   <data name="BtnLoadCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>444, 209</value>
+    <value>447, 206</value>
   </data>
   <data name="BtnLoadCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 23</value>
+    <value>95, 30</value>
   </data>
   <data name="BtnLoadCustomCommands.Text" xml:space="preserve">
     <value>Загрузить</value>
@@ -155,24 +155,33 @@
     <value>Сбросить</value>
   </data>
   <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 209</value>
+    <value>346, 206</value>
   </data>
   <data name="BtnRemoveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 23</value>
+    <value>95, 30</value>
   </data>
   <data name="BtnRemoveCustomCommand.Text" xml:space="preserve">
     <value>x Удалить</value>
   </data>
   <data name="BtnSaveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 209</value>
+    <value>245, 206</value>
   </data>
   <data name="BtnSaveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 23</value>
+    <value>95, 30</value>
   </data>
   <data name="BtnSaveCustomCommand.Text" xml:space="preserve">
     <value>√ Сохранить</value>
   </data>
   <data name="TxtCustomName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 23</value>
+    <value>120, 23</value>
+  </data>
+  <data name="BtnAddHotKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 206</value>
+  </data>
+  <data name="BtnAddHotKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 30</value>
+  </data>
+  <data name="BtnAddHotKey.Text" xml:space="preserve">
+    <value>Горячая.</value>
   </data>
 </root>
