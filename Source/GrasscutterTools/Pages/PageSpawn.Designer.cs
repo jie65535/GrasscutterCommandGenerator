@@ -316,7 +316,7 @@
             // 
             resources.ApplyResources(this.NUDEntityLevel, "NUDEntityLevel");
             this.NUDEntityLevel.Maximum = new decimal(new int[] {
-            90,
+            200,
             0,
             0,
             0});
