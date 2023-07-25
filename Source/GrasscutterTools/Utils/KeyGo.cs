@@ -120,8 +120,9 @@ namespace GrasscutterTools.Utils
                 }
             }
 
-            if (keyModifiers == AppHotKey.KeyModifiers.None)
-                throw new InvalidOperationException("功能键不能为空！");
+            // 允许功能键为空
+            //if (keyModifiers == AppHotKey.KeyModifiers.None)
+            //    throw new InvalidOperationException("功能键不能为空！");
             if (keyCode == Keys.None)
                 throw new InvalidOperationException("快捷键不能为空！");
 

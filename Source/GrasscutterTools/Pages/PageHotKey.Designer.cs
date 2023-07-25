@@ -45,12 +45,12 @@
             // 
             // LvHotKeyList
             // 
-            resources.ApplyResources(this.LvHotKeyList, "LvHotKeyList");
             this.LvHotKeyList.CheckBoxes = true;
             this.LvHotKeyList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColTag,
             this.ColHotKey,
             this.ColCommand});
+            resources.ApplyResources(this.LvHotKeyList, "LvHotKeyList");
             this.LvHotKeyList.HideSelection = false;
             this.LvHotKeyList.Name = "LvHotKeyList";
             this.LvHotKeyList.UseCompatibleStateImageBehavior = false;

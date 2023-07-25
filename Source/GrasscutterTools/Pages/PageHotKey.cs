@@ -177,9 +177,10 @@ namespace GrasscutterTools.Pages
                 return;
             }
 
-            // 必须带功能键
-            if (e.Modifiers == Keys.None)
-                return;
+            // 可选的功能键
+            //// 必须带功能键
+            //if (e.Modifiers == Keys.None)
+            //    return;
 
             // 必须是组合键
             if (e.KeyCode == Keys.ControlKey || e.KeyCode == Keys.ShiftKey || e.KeyCode == Keys.Menu)
