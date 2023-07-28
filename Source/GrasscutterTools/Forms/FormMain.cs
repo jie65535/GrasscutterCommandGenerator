@@ -582,6 +582,13 @@ namespace GrasscutterTools.Forms
                 // F5 为执行命令
                 OnOpenCommandInvoke();
             }
+            else if (e.Alt && e.KeyCode >= Keys.D0 && e.KeyCode <= Keys.D9)
+            {
+                // Alt+数字键 = 跳转到对应页面
+                var i = e.KeyCode == Keys.D0 ? 9 : e.KeyCode - Keys.D1;
+                if (i < ListPages.Items.Count)
+                    ListPages.SelectedIndex = i;
+            }
         }
 
         /// <summary>
