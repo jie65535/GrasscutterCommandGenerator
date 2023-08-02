@@ -69,16 +69,17 @@ namespace GrasscutterTools.Pages
         }
 
         private readonly string ServerRecordsFilePath = Common.GetAppDataFile("Servers.json");
-        private List<ServerRecord> ServerRecords = new List<ServerRecord>
-        {
-            new ServerRecord
-            {
-                Host = "http://127.0.0.1:443",
-                Tag = "Localhost",
-                Token = "123456",
-                Uid = 10001,
-            }
-        };
+        private List<ServerRecord> ServerRecords = new List<ServerRecord>();
+
+        //{
+        //    new ServerRecord
+        //    {
+        //        Host = "http://127.0.0.1:443",
+        //        Tag = "Localhost",
+        //        Token = "123456",
+        //        Uid = 10001,
+        //    }
+        //};
         private void InitServerRecords()
         {
             if (!File.Exists(ServerRecordsFilePath))
@@ -109,9 +110,7 @@ namespace GrasscutterTools.Pages
             }
         }
 
-
-        #endregion
-
+        #endregion - 服务器记录 -
 
         /// <summary>
         /// 在运行按钮上显示提示，要求主窗口设置
