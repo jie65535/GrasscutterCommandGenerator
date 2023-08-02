@@ -157,6 +157,11 @@ namespace GrasscutterTools.Game
         /// </summary>
         public static readonly Version V1_6_2 = new Version(1, 6, 2);
 
+        /// <summary>
+        /// 2023/8/1
+        /// </summary>
+        public static readonly Version V1_6_3 = new Version(1, 6, 3);
+
         // More...
         /// <summary>
         /// Date
@@ -178,6 +183,7 @@ namespace GrasscutterTools.Game
             V1_6_0,
             V1_6_1,
             V1_6_2,
+            V1_6_3,
         };
 
         #endregion - 版本列表 Version List -
