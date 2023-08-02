@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
-using System.Linq;
 using System.Windows.Forms;
+
 using GrasscutterTools.Game.Props;
 using GrasscutterTools.Properties;
 

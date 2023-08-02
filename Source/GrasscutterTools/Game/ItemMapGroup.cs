@@ -71,7 +71,8 @@ namespace GrasscutterTools.Game
         {
             get
             {
-                foreach (var map in Values) {
+                foreach (var map in Values)
+                {
                     var n = map[id];
                     if (n != ItemMap.EmptyName)
                         return n;

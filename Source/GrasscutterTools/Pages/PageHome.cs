@@ -200,6 +200,5 @@ namespace GrasscutterTools.Pages
                 LnkNewVersion.Visible = false;
             }
         }
-
     }
 }

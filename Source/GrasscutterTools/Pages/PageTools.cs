@@ -4,11 +4,13 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+
 using GrasscutterTools.Game;
 using GrasscutterTools.Game.Activity;
 using GrasscutterTools.Game.CutScene;
 using GrasscutterTools.Game.Dungeon;
 using GrasscutterTools.Properties;
+
 using Newtonsoft.Json;
 
 namespace GrasscutterTools.Pages
@@ -77,8 +79,6 @@ namespace GrasscutterTools.Pages
             }
         }
 
-        
-
         private void BtnConvertCutScene_Click(object sender, EventArgs e)
         {
             var src = new OpenFileDialog
@@ -114,7 +114,7 @@ namespace GrasscutterTools.Pages
                 Settings.Default.ProjectResourcePath = TxtProjectResRoot.Text;
                 return true;
             }
-            else 
+            else
             {
                 MessageBox.Show("请填写正确的Res路径！", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return false;
@@ -156,7 +156,7 @@ namespace GrasscutterTools.Pages
 
             var dungeonFilePath = Path.Combine(TxtProjectResRoot.Text, language, "Dungeon.txt");
             File.WriteAllLines(
-                dungeonFilePath, 
+                dungeonFilePath,
                 dungeons.Select(it => $"{it.Id}:{TextMapData.GetText(it.NameTextMapHash)}"),
                 Encoding.UTF8);
         }

@@ -48,8 +48,8 @@ namespace GrasscutterTools.OpenCommand
         {
             //try
             //{
-                var response = await DoRequest("ping");
-                return response.RetCode == 200;
+            var response = await DoRequest("ping");
+            return response.RetCode == 200;
             //}
             //catch (Exception)
             //{

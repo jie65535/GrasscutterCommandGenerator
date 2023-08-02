@@ -46,7 +46,6 @@ namespace GrasscutterTools.Utils
             listBox.EndUpdate();
         }
 
-
         private static bool Contains(string source, string filter)
         {
             source = source.ToLower();

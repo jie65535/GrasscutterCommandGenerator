@@ -24,6 +24,7 @@ namespace GrasscutterTools.Utils
         public static OpenCommandAPI OC { get; set; }
 
         private static string AppDataFolder { get; } = GetAppDataFolder();
+
         private static string GetAppDataFolder()
         {
             var dir = Path.Combine(
@@ -41,7 +42,6 @@ namespace GrasscutterTools.Utils
         {
             return Path.Combine(AppDataFolder, filename);
         }
-
 
         public static KeyGo KeyGo { get; set; }
     }

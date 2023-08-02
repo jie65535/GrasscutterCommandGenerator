@@ -305,7 +305,6 @@ namespace GrasscutterTools.Forms
 
         #endregion - 初始化 Init -
 
-
         #region - 快捷键执行 HotKey -
 
         /// <summary>
@@ -612,6 +611,5 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 通用 General -
-
     }
 }

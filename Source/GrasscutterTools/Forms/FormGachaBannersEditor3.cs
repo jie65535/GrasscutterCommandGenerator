@@ -29,6 +29,7 @@ using GrasscutterTools.Game;
 using GrasscutterTools.Game.Gacha;
 using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
+
 using Newtonsoft.Json;
 
 namespace GrasscutterTools.Forms
@@ -504,6 +505,5 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 卡池参数 -
-
     }
 }

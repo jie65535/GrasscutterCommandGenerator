@@ -20,10 +20,10 @@
 using System;
 using System.Linq;
 using System.Reflection;
-using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
+
 using GrasscutterTools.OpenCommand;
 using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
@@ -100,7 +100,6 @@ namespace GrasscutterTools
             return 0;
         }
 
-
         #region - 命令行参数 -
 
         /// <summary>
@@ -154,7 +153,6 @@ namespace GrasscutterTools
 #endif
                 // UID
                 //Settings.Default.RemoteUid = decimal.Parse(parser.GetToggleValueOrDefault("uid", Settings.Default.RemoteUid.ToString()));
-
 
                 if (!string.IsNullOrEmpty(Settings.Default.Host) && !string.IsNullOrEmpty(Settings.Default.TokenCache))
                 {
@@ -218,7 +216,7 @@ namespace GrasscutterTools
             return raw.Trim().Replace("\\r", "\r").Replace("\\n", "\n");
         }
 
-        #endregion
+        #endregion - 命令行参数 -
 
         #region - 全局异常处理 -
 

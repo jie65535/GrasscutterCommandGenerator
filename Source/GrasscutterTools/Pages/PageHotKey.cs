@@ -1,4 +1,23 @@
-﻿using System;
+﻿/**
+ *  Grasscutter Tools
+ *  Copyright (C) 2023 jie65535
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as published
+ *  by the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ **/
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -6,6 +25,7 @@ using System.Windows.Forms;
 
 using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
+
 using Newtonsoft.Json;
 
 namespace GrasscutterTools.Pages
@@ -61,7 +81,7 @@ namespace GrasscutterTools.Pages
         {
             Logger.I(TAG, "Cancel all HotKeys");
             Common.KeyGo.UnRegAllKey();
-            
+
             if (!HotKeysChanged) return;
             Logger.I(TAG, "Save all HotKeys to: " + HotKeysFilePath);
             File.WriteAllText(HotKeysFilePath, JsonConvert.SerializeObject(Common.KeyGo.Items));
@@ -75,7 +95,8 @@ namespace GrasscutterTools.Pages
             item.Tag,
             item.HotKey,
             item.Commands
-        }) { Checked = item.IsEnabled };
+        })
+        { Checked = item.IsEnabled };
 
         /// <summary>
         /// 列表选中项改变时触发
@@ -225,7 +246,7 @@ namespace GrasscutterTools.Pages
             {
                 // 如果操作失败，还原选项，禁止设置
                 e.NewValue = e.CurrentValue;
-                Logger.E(TAG, (isEnable ? "Enable" : "Disable") +" HotKey failed", ex);
+                Logger.E(TAG, (isEnable ? "Enable" : "Disable") + " HotKey failed", ex);
                 MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
