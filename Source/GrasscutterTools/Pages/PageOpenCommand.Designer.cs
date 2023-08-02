@@ -57,7 +57,7 @@
             this.TxtToken = new System.Windows.Forms.TextBox();
             this.LblToken = new System.Windows.Forms.Label();
             this.LblConsoleTip = new System.Windows.Forms.Label();
-            this.TxtHost = new System.Windows.Forms.TextBox();
+            this.TxtHost = new System.Windows.Forms.ComboBox();
             this.BtnQueryServerStatus = new System.Windows.Forms.Button();
             this.LblHost = new System.Windows.Forms.Label();
             this.GrpServerStatus.SuspendLayout();
@@ -287,6 +287,7 @@
             resources.ApplyResources(this.TxtHost, "TxtHost");
             this.TxtHost.Name = "TxtHost";
             this.TxtHost.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtHost_KeyDown);
+            this.TxtHost.SelectedIndexChanged += new System.EventHandler(this.TxtHost_SelectedIndexChanged);
             // 
             // BtnQueryServerStatus
             // 
@@ -361,7 +362,7 @@
         private System.Windows.Forms.TextBox TxtToken;
         private System.Windows.Forms.Label LblToken;
         private System.Windows.Forms.Label LblConsoleTip;
-        private System.Windows.Forms.TextBox TxtHost;
+        private System.Windows.Forms.ComboBox TxtHost;
         private System.Windows.Forms.Button BtnQueryServerStatus;
         private System.Windows.Forms.Label LblHost;
     }

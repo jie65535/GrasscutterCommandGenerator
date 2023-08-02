@@ -38,10 +38,15 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageOpenCommand : BasePage
     {
+        private const string TAG = nameof(PageOpenCommand);
+
         public PageOpenCommand()
         {
             InitializeComponent();
             if (DesignMode) return;
+
+            InitServerRecords();
+            TxtHost.Items.AddRange(ServerRecords.Select(it => it.Host).ToArray());
 
             NUDRemotePlayerId.Value = Settings.Default.RemoteUid;
             TxtHost.Text = Settings.Default.Host;
@@ -52,6 +57,61 @@ namespace GrasscutterTools.Pages
                 Task.Delay(1000).ContinueWith(_ => ShowTipInRunButton?.Invoke(Resources.TokenRestoredFromCache));
             }
         }
+
+        #region - 服务器记录 -
+
+        private class ServerRecord
+        {
+            public string Tag { get; set; }
+            public string Host { get; set; }
+            public int Uid { get; set; }
+            public string Token { get; set; }
+        }
+
+        private readonly string ServerRecordsFilePath = Common.GetAppDataFile("Servers.json");
+        private List<ServerRecord> ServerRecords = new List<ServerRecord>
+        {
+            new ServerRecord
+            {
+                Host = "http://127.0.0.1:443",
+                Tag = "Localhost",
+                Token = "123456",
+                Uid = 10001,
+            }
+        };
+        private void InitServerRecords()
+        {
+            if (!File.Exists(ServerRecordsFilePath))
+                return;
+
+            try
+            {
+                Logger.I(TAG, "Loading ServerRecords json file from: " + ServerRecordsFilePath);
+                ServerRecords = JsonConvert.DeserializeObject<List<ServerRecord>>(File.ReadAllText(ServerRecordsFilePath));
+            }
+            catch (Exception ex)
+            {
+                Logger.W(TAG, "Parsing Servers.json failed.", ex);
+            }
+        }
+
+        private void SaveServerRecords()
+        {
+            try
+            {
+                if (ServerRecords.Count == 0)
+                    return;
+                File.WriteAllText(ServerRecordsFilePath, JsonConvert.SerializeObject(ServerRecords));
+            }
+            catch (Exception ex)
+            {
+                Logger.W(TAG, "Save all server records failed.", ex);
+            }
+        }
+
+
+        #endregion
+
 
         /// <summary>
         /// 在运行按钮上显示提示，要求主窗口设置
@@ -120,6 +180,20 @@ namespace GrasscutterTools.Pages
         private void TxtHost_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter) BtnQueryServerStatus_Click(BtnQueryServerStatus, e);
+        }
+
+        /// <summary>
+        /// 地址栏选中项改变时触发
+        /// </summary>
+        private void TxtHost_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (TxtHost.SelectedIndex >= 0 && TxtHost.SelectedIndex < ServerRecords.Count)
+            {
+                // 还原记录
+                var record = ServerRecords[TxtHost.SelectedIndex];
+                TxtToken.Text = record.Token;
+                NUDRemotePlayerId.Value = record.Uid;
+            }
         }
 
         /// <summary>
@@ -247,6 +321,25 @@ namespace GrasscutterTools.Pages
                 GrpRemoteCommand.Enabled = false;
                 ShowTipInRunButton?.Invoke(Resources.ConnectedTip);
                 ButtonOpenGOODImport.Enabled = true;
+
+                var r = ServerRecords.Find(it => it.Host == TxtHost.Text);
+                if (r != null)
+                {
+                    r.Token = Common.OC.Token;
+                    r.Uid = (int)NUDRemotePlayerId.Value;
+                }
+                else
+                {
+                    ServerRecords.Add(new ServerRecord
+                    {
+                        Host = Common.OC.Host,
+                        Tag = "TODO",
+                        Token = Common.OC.Token,
+                        Uid = (int)NUDRemotePlayerId.Value
+                    });
+                    TxtHost.Items.Add(Common.OC.Host);
+                }
+                SaveServerRecords();
             }
             catch (Exception ex)
             {
