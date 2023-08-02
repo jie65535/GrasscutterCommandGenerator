@@ -38,6 +38,15 @@
 ### GrasscutterTools-v1.11
 ![HotKey](Doc/Screenshots/21-HotKey.png)
 
+命令行用法:
+```bash
+GcTools.exe -help
+GcTools.exe -version
+GcTools.exe -c "cmd arg"
+GcTools.exe -c "cmd1 arg" && GcTools -c "cmd2 arg1 arg2"
+GcTools.exe -host http://127.0.0.1:443 -token 123456 -c "cmd1 arg1 arg2 | cmd2 | cmd3 arg"
+```
+
 ### GrasscutterTools-v1.10
 ![Cutscene](Doc/Screenshots/7-ChangeScene.png)
 
