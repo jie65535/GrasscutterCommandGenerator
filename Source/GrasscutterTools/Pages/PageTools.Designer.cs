@@ -34,7 +34,7 @@
             this.TxtProjectResRoot = new System.Windows.Forms.TextBox();
             this.LblGcResRoot = new System.Windows.Forms.Label();
             this.TxtGcResRoot = new System.Windows.Forms.TextBox();
-            this.BtnUpdateDungeon = new System.Windows.Forms.Button();
+            this.BtnUpdateAllResources = new System.Windows.Forms.Button();
             this.BtnUpdateActivity = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -90,15 +90,15 @@
             this.TxtGcResRoot.Size = new System.Drawing.Size(413, 23);
             this.TxtGcResRoot.TabIndex = 4;
             // 
-            // BtnUpdateDungeon
+            // BtnUpdateAllResources
             // 
-            this.BtnUpdateDungeon.Location = new System.Drawing.Point(41, 100);
-            this.BtnUpdateDungeon.Name = "BtnUpdateDungeon";
-            this.BtnUpdateDungeon.Size = new System.Drawing.Size(150, 30);
-            this.BtnUpdateDungeon.TabIndex = 0;
-            this.BtnUpdateDungeon.Text = "Update Dungeon";
-            this.BtnUpdateDungeon.UseVisualStyleBackColor = true;
-            this.BtnUpdateDungeon.Click += new System.EventHandler(this.BtnUpdateDungeon_Click);
+            this.BtnUpdateAllResources.Location = new System.Drawing.Point(41, 100);
+            this.BtnUpdateAllResources.Name = "BtnUpdateAllResources";
+            this.BtnUpdateAllResources.Size = new System.Drawing.Size(150, 30);
+            this.BtnUpdateAllResources.TabIndex = 0;
+            this.BtnUpdateAllResources.Text = "Update All Resources";
+            this.BtnUpdateAllResources.UseVisualStyleBackColor = true;
+            this.BtnUpdateAllResources.Click += new System.EventHandler(this.BtnUpdateAllResources_Click);
             // 
             // BtnUpdateActivity
             // 
@@ -119,7 +119,7 @@
             this.Controls.Add(this.TxtProjectResRoot);
             this.Controls.Add(this.LblProjectResRoot);
             this.Controls.Add(this.BtnUpdateActivity);
-            this.Controls.Add(this.BtnUpdateDungeon);
+            this.Controls.Add(this.BtnUpdateAllResources);
             this.Controls.Add(this.BtnConvertCutScene);
             this.Controls.Add(this.BtnUpdateResources);
             this.Name = "PageTools";
@@ -136,7 +136,7 @@
         private System.Windows.Forms.TextBox TxtProjectResRoot;
         private System.Windows.Forms.Label LblGcResRoot;
         private System.Windows.Forms.TextBox TxtGcResRoot;
-        private System.Windows.Forms.Button BtnUpdateDungeon;
+        private System.Windows.Forms.Button BtnUpdateAllResources;
         private System.Windows.Forms.Button BtnUpdateActivity;
     }
 }

@@ -44,6 +44,8 @@ namespace GrasscutterTools.Game
 
         private void LoadManualTextMap(string manualTextMapPath)
         {
+            if (!File.Exists(manualTextMapPath)) return;
+
             using (var fs = File.OpenRead(manualTextMapPath))
             using (var sr = new StreamReader(fs))
             using (var reader = new JsonTextReader(sr))
@@ -86,11 +88,30 @@ namespace GrasscutterTools.Game
             }
         }
 
+        public bool Contains(string textMapPath) => TextMap.ContainsKey(textMapPath) || DefaultTextMap.ContainsKey(textMapPath);
+
         public string GetText(string textMapHash)
         {
             return TextMap.TryGetValue(textMapHash, out var text) ? text
-                : DefaultTextMap.TryGetValue(textMapHash, out text) ? text
-                : "???";
+                : DefaultTextMap.TryGetValue(textMapHash, out text) ? "[CHS] - " + text
+                : "[N/A] " + textMapHash;
+        }
+
+        public bool TryGetText(string textMapHash, out string text)
+        {
+            if (TextMap.TryGetValue(textMapHash, out text))
+            {
+                return true;
+            }
+
+            if (DefaultTextMap.TryGetValue(textMapHash, out text))
+            {
+                text = "[CHS] - " + text;
+                return true;
+            }
+
+            text = "[N/A] " + textMapHash;
+            return false;
         }
     }
 }

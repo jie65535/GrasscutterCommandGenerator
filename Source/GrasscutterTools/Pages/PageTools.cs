@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using GrasscutterTools.Game;
 using GrasscutterTools.Game.Activity;
 using GrasscutterTools.Game.CutScene;
+using GrasscutterTools.Game.Data;
 using GrasscutterTools.Game.Dungeon;
 using GrasscutterTools.Properties;
 
@@ -121,26 +122,25 @@ namespace GrasscutterTools.Pages
             }
         }
 
-        private TextMapData TextMapData;
 
-        private void BtnUpdateDungeon_Click(object sender, EventArgs e)
+
+
+
+        private TextMapData TextMapData;
+        private GameResources GameResources;
+
+        private void BtnUpdateAllResources_Click(object sender, EventArgs e)
         {
             try
             {
                 if (!CheckInputPaths()) return;
-
-                var json = File.ReadAllText(
-                    Path.Combine(TxtGcResRoot.Text, "ExcelBinOutput", "DungeonExcelConfigData.json"),
-                    Encoding.UTF8);
-                var dungeons = JsonConvert.DeserializeObject<List<DungeonItem>>(json);
-
+                
                 if (TextMapData == null)
                     TextMapData = new TextMapData(TxtGcResRoot.Text);
+                if (GameResources == null)
+                    GameResources = new GameResources(TxtGcResRoot.Text, TextMapData);
 
-                UpdateDungeonsForLanguage(dungeons, "TextMapCHS", "zh-cn");
-                UpdateDungeonsForLanguage(dungeons, "TextMapCHT", "zh-tw");
-                UpdateDungeonsForLanguage(dungeons, "TextMapEN", "en-us");
-                UpdateDungeonsForLanguage(dungeons, "TextMapRU", "ru-ru");
+                GameResources.ConvertResources(TxtProjectResRoot.Text);
                 MessageBox.Show("OK", Resources.Tips, MessageBoxButtons.OK);
             }
             catch (Exception ex)
@@ -149,17 +149,12 @@ namespace GrasscutterTools.Pages
             }
         }
 
-        private void UpdateDungeonsForLanguage(IEnumerable<DungeonItem> dungeons, string textMap, string language)
-        {
-            var i = Array.IndexOf(TextMapData.TextMapFiles, textMap);
-            TextMapData.LoadTextMap(TextMapData.TextMapFilePaths[i]);
 
-            var dungeonFilePath = Path.Combine(TxtProjectResRoot.Text, language, "Dungeon.txt");
-            File.WriteAllLines(
-                dungeonFilePath,
-                dungeons.Select(it => $"{it.Id}:{TextMapData.GetText(it.NameTextMapHash)}"),
-                Encoding.UTF8);
-        }
+
+
+
+
+
 
         private void BtnUpdateActivity_Click(object sender, EventArgs e)
         {
@@ -213,5 +208,6 @@ namespace GrasscutterTools.Pages
             //    activityItems.Select(it => $"{it.ActivityId}:{TextMapData.GetText(it.NameTextMapHash)}"),
             //    Encoding.UTF8);
         }
+
     }
 }
