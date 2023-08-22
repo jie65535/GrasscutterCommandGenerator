@@ -89,7 +89,6 @@
 80089:Tatara Tales - Resolve the crisis at the Mikage Furnace.
 80090:Echo of Fury - Complete "Orobashi's Legacy."
 80091:Tales of Monstrous Madness - Collect the entire "Toki Alley Tales" series.
-80092:Illustrious in Inazuma - Reach Reputation Lv. 10 in Inazuma.
 80093:Lightning-Riding Adventurer (I) - Complete 6 Open World mechanism-activated Time Trial Challenges on Narukami Island, Kannazuka, and Yashiori Island in Inazuma.
 80094:Lightning-Riding Adventurer (I) - Complete 12 Open World mechanism-activated Time Trial Challenges on Narukami Island, Kannazuka, and Yashiori Island in Inazuma.
 80095:Lightning-Riding Adventurer (I) - Complete 24 Open World mechanism-activated Time Trial Challenges on Narukami Island, Kannazuka, and Yashiori Island in Inazuma.
@@ -103,13 +102,13 @@
 80105:Lightning-Riding Treasure Hunter (II) - Open 40 chests on Watatsumi Island and Seirai Island in Inazuma.
 80106:Lightning-Riding Treasure Hunter (II) - Open 80 chests on Watatsumi Island and Seirai Island in Inazuma.
 80107:Lightning-Riding Treasure Hunter (II) - Open 160 chests on Watatsumi Island and Seirai Island in Inazuma.
-80108:Seirai Stormchasers - Complete "Seirai Stormchasers"
-80109:The Same Moonlight - Complete "The Moon-Bathed Deep"
 80110:Lightning-Riding Adventurer (II) - Complete 6 Open World mechanism-activated Time Trial Challenges on Watatsumi Island and Seirai Island in Inazuma.
 80111:Lightning-Riding Adventurer (II) - Complete 12 Open World mechanism-activated Time Trial Challenges on Watatsumi Island and Seirai Island in Inazuma.
 80112:Lightning-Riding Adventurer (II) - Complete 24 Open World mechanism-activated Time Trial Challenges on Watatsumi Island and Seirai Island in Inazuma.
+80108:Seirai Stormchasers - Complete "Seirai Stormchasers"
+80109:The Same Moonlight - Complete "The Moon-Bathed Deep"
 80113:Continental Explorer: Tsurumi Island - Light up the Tsurumi Island map.
-80114:Fog's Edge - Unlock all Teleport Waypoints in Tsurumi Island.
+80114:Fog's Edge - Unlock all Teleport Waypoints on Tsurumi Island.
 80115:Sanctuary Pilgrim: Tsurumi Island - Unlock all the Shrines of Depths on Tsurumi Island.
 80116:Flashes in the Night - Follow 6 Electro Seelie on Tsurumi Island.
 80119:Foggy Guidance - Follow 6 Seelie on Tsurumi Island to their Seelie Courts.
@@ -157,7 +156,7 @@
 80161:Forest Roamer - Unlock all Teleport Waypoints in the following areas in Sumeru: Avidya Forest, Lokapala Jungle, Ardravi Valley, Ashavan Realm, Vissudha Field, Lost Nursery, and Vanarana.
 80162:Sanctuary Pilgrim: Sumeru Boscage - Unlock all the Shrines of Depths in the following areas in Sumeru: Avidya Forest, Lokapala Jungle, Ardravi Valley, Ashavan Realm, Vissudha Field, Lost Nursery, and Vanarana.
 80163:Fluorescent Bloom - Upgrade the Statues of The Seven in Sumeru to their maximum level.
-80164:Culmination of the Great Dream - Reach the Max Level of the Tree of Dreams in Vanarana
+80164:Culmination of the Great Dream - Reach the Max Level of the Tree of Dreams in Vanarana.
 80165:Woodland Guide - Follow a total of 10 Seelie to their Seelie Courts in Avidya Forest, Lokapala Jungle, Ardravi Valley, Ashavan Realm, Vissudha Field, Lost Nursery, and Vanarana.
 80166:Woodland Guide - Follow a total of 20 Seelie to their Seelie Courts in Avidya Forest, Lokapala Jungle, Ardravi Valley, Ashavan Realm, Vissudha Field, Lost Nursery, and Vanarana.
 80167:Woodland Guide - Follow a total of 40 Seelie to their Seelie Courts in Avidya Forest, Lokapala Jungle, Ardravi Valley, Ashavan Realm, Vissudha Field, Lost Nursery, and Vanarana.
@@ -205,16 +204,15 @@
 80215:Chaos Divided - Defeat 2 or more Character Cards from the opponent's deck in one single action a total of {param0} time(s) in victorious games.
 80216:Chaos Divided - Defeat 2 or more Character Cards from the opponent's deck in one single action a total of {param0} time(s) in victorious games.
 80217:Chaos Divided - Defeat 2 or more Character Cards from the opponent's deck in one single action a total of {param0} time(s) in victorious games.
-80218:Legendary High Roller - Obtain {param0} Lucky Coins in total
-80219:Legendary High Roller - Obtain {param0} Lucky Coins in total
-80220:Legendary High Roller - Obtain {param0} Lucky Coins in total
+80218:Legendary High Roller - Obtain {param0} Lucky Coins in total.
+80219:Legendary High Roller - Obtain {param0} Lucky Coins in total.
+80220:Legendary High Roller - Obtain {param0} Lucky Coins in total.
 80221:Miniaturized Dice-Shaker - Deal 8 or more points of damage in one single action a total of {param0} time(s) in victorious games.
 80222:Miniaturized Dice-Shaker - Deal 8 or more points of damage in one single action a total of {param0} time(s) in victorious games.
 80223:Miniaturized Dice-Shaker - Deal 8 or more points of damage in one single action a total of {param0} time(s) in victorious games.
 80224:Continental Explorer: Dune Dreams (II) - Light up the maps of the following area in Sumeru: Desert of Hadramaveth.
 80225:Over Sandstorms and Mirages (II) - Unlock all Teleport Waypoints in the following area in Sumeru: Desert of Hadramaveth.
 80226:Sanctuary Pilgrim: Dune Dreams (II) - Unlock all the Shrines of Depths in the following area in Sumeru: Desert of Hadramaveth.
-80227:The Dirge of Bilqis - Complete "The Dirge of Bilqis."
 80228:The Desert Will Guide You Home (II) - Follow {param0} Seelie in the Desert of Hadramaveth to their Seelie Courts.
 80229:The Desert Will Guide You Home (II) - Follow {param0} Seelie in the Desert of Hadramaveth to their Seelie Courts.
 80230:The Desert Will Guide You Home (II) - Follow {param0} Seelie in the Desert of Hadramaveth to their Seelie Courts.
@@ -224,6 +222,7 @@
 80234:Quicksand Adventurer (II) - Complete {param0} Open World Time Trial Challenges in the Desert of Hadramaveth.
 80235:Quicksand Adventurer (II) - Complete {param0} Open World Time Trial Challenges in the Desert of Hadramaveth.
 80236:Quicksand Adventurer (II) - Complete {param0} Open World Time Trial Challenges in the Desert of Hadramaveth.
+80227:The Dirge of Bilqis - Complete "The Dirge of Bilqis."
 80237:Continental Explorer: Blessed Hamada - Light up the maps of the following areas in Sumeru: Gavireh Lajavard and Realm of Farakhkert.
 80238:Descending Into the Depths of Desolation - Unlock all Teleport Waypoints in the following areas in Sumeru: Gavireh Lajavard and Realm of Farakhkert.
 80239:Sanctuary Pilgrim: Blessed Hamada - Unlock all the Shrines of Depths in the following areas in Sumeru: Gavireh Lajavard and Realm of Farakhkert.
@@ -236,8 +235,28 @@
 80246:Badlands Adventurer - Complete a total of {param0} Open World Time Trial Challenges in Gavireh Lajavard and Realm of Farakhkert.
 80247:Badlands Adventurer - Complete a total of {param0} Open World Time Trial Challenges in Gavireh Lajavard and Realm of Farakhkert.
 80248:Badlands Adventurer - Complete a total of {param0} Open World Time Trial Challenges in Gavireh Lajavard and Realm of Farakhkert.
-80249:Khvarena of Good and Evil - Complete "Khvarena of Good and Evil."
 80250:Alkanet Amrita - Upgrade the Amrita Pool to its maximum level.
+80249:Khvarena of Good and Evil - Complete "Khvarena of Good and Evil."
+80252:Continental Explorer: Land of Harmonious Springs (I) - Light up the maps of the following areas in Fontaine: Court of Fontaine Region, Belleau Region, and Beryl Region.
+80253:Font of All Waters (I) - Unlock all Teleport Waypoints in the following areas in Fontaine: Court of Fontaine Region, Belleau Region, and Beryl Region.
+80254:Sanctuary Pilgrim: Land of Harmonious Springs (I) - Unlock all the Shrines of Depths in the following areas in Fontaine: Court of Fontaine Region, Belleau Region, and Beryl Region.
+80255:Like Waters Clear - Upgrade the Statues of The Seven in Fontaine to their maximum level.
+80256:Dew Song - Reach the Max Level of the Fountain of Lucine in the Court of Fontaine.
+80257:Tides Will Guide You Home (I) - Follow {param0} Seelie in the Court of Fontaine Region, Belleau Region, and Beryl Region to their Seelie Courts.
+80258:Tides Will Guide You Home (I) - Follow {param0} Seelie in the Court of Fontaine Region, Belleau Region, and Beryl Region to their Seelie Courts.
+80259:Tides Will Guide You Home (I) - Follow {param0} Seelie in the Court of Fontaine Region, Belleau Region, and Beryl Region to their Seelie Courts.
+80260:Waveriding Treasure Hunter (I) - Open {param0} chests in the Court of Fontaine Region, Belleau Region, and Beryl Region.
+80261:Waveriding Treasure Hunter (I) - Open {param0} chests in the Court of Fontaine Region, Belleau Region, and Beryl Region.
+80262:Waveriding Treasure Hunter (I) - Open {param0} chests in the Court of Fontaine Region, Belleau Region, and Beryl Region.
+80263:Waveriding Adventurer (I) - Complete {param0} Open World Time Trial Challenges in the Court of Fontaine Region, Belleau Region, and Beryl Region.
+80264:Waveriding Adventurer (I) - Complete {param0} Open World Time Trial Challenges in the Court of Fontaine Region, Belleau Region, and Beryl Region.
+80265:Waveriding Adventurer (I) - Complete {param0} Open World Time Trial Challenges in the Court of Fontaine Region, Belleau Region, and Beryl Region.
+80266:Ann in Wonderland - Complete the tale of the Narzissenkreuz Adventure Team.
+80267:Limner, Dreamer, and Robotic Dog - Discover the secret to be found within Elynas.
+80268:Land of Fair Springs - Obtain the power of Hydro.
+80269:Renart the Deceiver - Collect the entire "Fables de Fontaine" series.
+80270:Robben versus Chesterton - Collect the entire "Robben versus Chesterton: Iridescent Brooch" series.
+80271:Compendium of Misery - Collect the entire "The History of the Decline and Fall of Remuria" series.
 81000:Overlooking View - Reach the very top of Qingyun Peak.
 81001:The Remains of the Gale - Reach the top of the tower in Stormterror's Lair.
 81002:"Seeds of Stories, Brought by the Wind..." - Reach the nameless island northeast of Mondstadt.
@@ -257,6 +276,7 @@
 81023:Friends the World Over - Meet all sorts of people during your adventure.
 81024:Megastar in Mondstadt - Reach Reputation Lv. 8 in Mondstadt.
 81025:Legend in Liyue - Reach Reputation Lv. 8 in Liyue.
+80092:Illustrious in Inazuma - Reach Reputation Lv. 10 in Inazuma.
 81026:QUEST CLEAR - Complete 10 Bounties.
 81027:QUEST CLEAR - Complete 20 Bounties.
 81028:QUEST CLEAR - Complete 30 Bounties.
@@ -453,7 +473,7 @@
 81238:Vamadha-Go-Round - Turn every Vamadha that holds a hidden treasure chest.
 81239:In the Name of Anfortas - Visit the place where the heroes met their end.
 81240:Call of the Nameless City - Quiet the mysterious parchment.
-81241:Walking with Water and Wind - Complete "Until Vana is Healed."
+81241:Walking with Water and Wind - Complete "Until Vana Is Healed."
 81242:...Let Me Fade With Memory - Complete "Vimana Agama."
 81243:Now Let Time Resume - Complete Aradasha's unfinished business.
 81244:Please Play Safely - Play with the Aranara in the forest.
@@ -538,6 +558,7 @@
 81327:A Fascinating Journey - Complete "An Artist Adrift."
 81328:"This Mystery Is Solved!" - Complete "Monumental Study."
 81329:Homeward-Bound Spirits - Complete "Pale Fire."
+81339:The Sea of Fertility - All the ponds in the Vourukasha Oasis are now revitalized.
 81331:The Brave Shall Not Falter - Pass all the trials set by Jarjar.
 81332:Bifröst - Complete all the "Soul Bell" challenges.
 81333:Seven Dish Dance - Complete all "Percussive Prancing Mushroom" challenges.
@@ -546,7 +567,39 @@
 81336:Soaring in the Skies of Sary-Ozek - Keep Sorush in flight for a while.
 81337:Whose Descendant Are You, and What's Your Name? - Call upon the power of Khvarena with Sorush for the first time.
 81338:Use the Force, Sorush - Launch Nirodha Fruits with Sorush's help to melt {param0} crystals condensed from Amrita.
-81339:The Sea of Fertility - All the ponds in the Vourukasha Oasis are now revitalized.
+81340:Angle Eraser - Suppress the Beastly Rift using the power of the crystals.
+81341:Core Cooling - Cause the roiling lake to become placid once more.
+81342:The White Ship - "She's sailing on the sea of dreams..."
+81344:Encyclopedia of Natural Philosophy - Use the glass wall and an indecipherable book to discover the gathering place of an old society.
+81345:A Fontainian Message - Have a friendly chat with Virgil.
+81346:Nothing but a Hound Dog... - Help Mamere fix Seymour.
+81347:It's Fish, I Added Fish - Taste the wonderful "birthday cake" with the Melusine.
+81348:Welcome to Fontaine - Complete a cruise on the aquabus.
+81349:Sogno di Volare - Complete a flight with the Antoine Roger Aircraft.
+81350:Birth of the Modern Clock - Help Puca find a way to "use" the ore.
+81351:Waterworld Future - Gaze upon the "water" beneath the "surface."
+81352:Aesthetics of Ugliness - And thus does Fontaine take two steps further toward beauty.
+81353:Like Tears in the Rain - Find the impostor amidst the Hunter's Rays.
+81355:These Are a Few of My... - ...Favorite Things.
+81356:An Eye for an Eye - Take care of those annoying Bullet Barnacles!
+81357:Do You Believe In Rapture? - Help build a Blubberbeast paradise.
+81358:Hardships Experienced... - "To obtain the holy blade that might defeat the demon king, the knight broke into the ancient city, sealed using magic..."
+81359:And After That... - "The knight defeated the demon king, saving the imprisoned princess. Light has returned to the kingdom..."
+81360:A Study in Sable - Find a more... special subject of the Institute of Natural Philosophy's study.
+81361:Twenty Thousand Leagues Under the Sea - Go with the flow...
+81362:Truly Mouthwatering! - Help Henri change his fate.
+81363:Song of the Ancients - Hear now the melody of ancient eons.
+81364:Ninianne of the Lake - Defeat the local legend, Ninianne of the Lake.
+81365:Vivianne of the Lake - Defeat the local legend, Vivianne of the Lake.
+81366:Fontaine Expects That Everyone Will Do Their Duty - An item, returned to its rightful owner...
+81367:In Search of Frittered Time - Reach Reputation Lv. 10 in Fontaine.
+81368:Blubby, Chubby, Creative Evolution - Accompany the small Blubberbeast as it grows big and strong.
+81369:Ocean Circuit Judge - Defeat the local legend, Ocean Circuit Judge.
+81370:Iron Viscount - Defeat the local legend, Iron Viscount.
+81371:Dobharcu, Lord of the Hidden - Defeat the local legend, Dobharcu, Lord of the Hidden.
+81372:Fading Veteran - Defeat the local legend, Fading Veteran.
+81373:Swords of the Gorge - Defeat the local legends, the Swords of the Gorge.
+81374:The Fairy Knight Twins - Defeat the local legends, the Fairy Knight Twins
 82001:Nothing Special, Just Practice - Hit a falcon mid-flight with your bow.
 82002:Master Sniper - Strike an opponent's weak point from afar with an Aimed Shot.
 82003:Der Freischütz - Strike an opponent's weak point from extremely far away with an Aimed Shot.
@@ -642,6 +695,7 @@
 82096:I'll Skip the Spa, Thanks - Defeat a Mirror Maiden without being trapped by its Water Prison.
 82097:It's Quiet... Too Quiet... - Defeat the Pyro Hypostasis after it enters its extinguished state only once
 82098:The Battle of Narukami Island - Defeat the Perpetual Mechanical Array in its weakened state.
+82109:The Finishing Touch - Defeat Azhdaha without ever having gained a shield.
 82099:If I Run Fast Enough... - Defeat a Maguu Kenki without being hit by its phantom's attacks.
 82100:In This Solemn Matter Let No One Interfere! - Defeat a Maguu Kenki without triggering its "Oushi no Omote" parry.
 82101:Fine, I'll Do It Myself - Defeat a Primo Geovishap without reflecting its Primordial Shower.
@@ -652,7 +706,6 @@
 82106:Fight Fire With Fire - Defeat a Kairagi: Fiery Might while their weapon is infused with Pyro.
 82107:Ride the Lightning - Defeat a Kairagi: Dancing Thunder while their weapon is infused with Electro.
 82108:I Hear Thunder... - Be struck by the lightning called down by a Crackling Axe Mitachurl...
-82109:The Finishing Touch - Defeat Azhdaha without ever having gained a shield.
 82110:Dry Clean - Defeat the Hydro Hypostasis without destroying a single one of its Water Droplets (except when it is restoring HP.)
 82111:Bio-Oceanic Weapon - Be hit by a certain animal created by the Hydro Hypostasis...
 82112:Love and Non-Communication - Defeat a Thunder Manifestation without ever being locked onto.
@@ -687,7 +740,7 @@
 82141:Daisy, Daisy - Break the Algorithm of Semi-Intransient Matrix of Overseer Network by hitting its cores with the Quicken, Aggravate, or Spread reactions.
 82142:Stop It, Mr. Robot! - Interrupt the charged attack of the Aeonblight Drake by attacking the core on its head.
 82143:Nanomachines, Son! - Defeat an activated Jadeplume Terrorshroom while it is unleashing a powerful skill...
-82144:Establishing a Beachhead - Witness the overclocking impact of the Algorithm of Semi-Intransient Matrix of Overseer Network
+82144:Establishing a Beachhead - Witness the overclocking impact of the Algorithm of Semi-Intransient Matrix of Overseer Network.
 82145:The Invisible Hand - Defeat the Primal Construct without disabling its invisible state.
 82146:Grassy Blasty, Sparks 'n' Splash - Defeat 4 opponents with Burgeon within 2s (x1).
 82147:Grassy Blasty, Sparks 'n' Splash - Defeat 4 opponents with Burgeon within 2s (x5).
@@ -710,6 +763,12 @@
 82167:Proof by Exhaustion - Defeat Iniquitous Baptists of all possible elemental combinations.
 82168:When You Say Nothing at All - Destroy all Elemental Rings to paralyze the Iniquitous Baptist when it begins to channel its attack.
 82169:Like the Sun's Passage - Defeat the Guardian of Apep's Oasis without any character being attacked by aftershocks of the apocalypse.
+82175:The White Path Between Two Rivers - Lose in the duel against the legendary Hunter's Ray...
+82176:Cell, Splinter - Use Pneuma or Ousia attacks to interrupt the Breacher Primus's stress state.
+82177:Too Hot to Handle! - Constantly attempt to freeze Tainted Hydro Phantasms...
+82178:Funerary Storm - Use a Pneuma attack to weaken the whirlwind Coppelia creates during the performance's climax.
+82179:The King Is Dead, Long Live the King! - Interrupt the Emperor of Fire and Iron's Searing Coronation.
+82180:Icebound Oath - Use an Ousia attack to remove the shield that Coppelius deploys during the performance's climax.
 84000:The End of the Beginning - Complete the Mondstadt Archon Quests.
 84001:The Outlander Who Caught the Wind - Complete "The Outlander Who Caught the Wind."
 84002:For a Tomorrow Without Tears - Complete "For a Tomorrow Without Tears."
@@ -734,10 +793,8 @@
 84021:I'll Let You Off... This Time - Defeat Childe.
 84022:Derailed - Defeat the Overlord of the Vortex.
 84023:Final Farewell - Take part in the Rite of Parting.
-84024:A New Star Approaches - Complete "A New Star Approaches".
+84024:A New Star Approaches - Complete "A New Star Approaches."
 84025:Gears of Destiny - Complete the quest "Bough Keeper: Dainsleif".
-84026:Fantastic Voyage: Prologue - Complete "Fantastic Voyage" and unlock all endings.
-84028:Behold, Mine Evil-Espying Eye! - Correctly interpret all clues.
 84029:The Bandit, the Lunatic, and the Pitch-Black Enigma - Uncover the Grand Thief's fate.
 84030:Where Fate Comes to a Crossroads - Escape the eerie ruins.
 84031:Sneering at the Power of the Gods - Learn of the "Loom of Fate"...
@@ -763,8 +820,6 @@
 84051:Their Wishes - Bring all the wishes upon the Statue of the Omnipresent God to fruition.
 84052:Omnipresence Over Mortals - Complete "Omnipresence Over Mortals."
 84053:"All Is Well" - Help Wang Ping'an renovate Pervases' temple.
-84054:Anna's Adventures - Help Anna become an adventurer.
-84055:Prelude to the Journey - A young man is about to embark on a long journey...
 84056:Rise of the Jade Chamber - Complete the reconstruction of the Jade Chamber.
 84057:Majesty of the Deep - Defeat Beisht, Avenger of the Vortex.
 84058:A Former Dream - Witness the truth of the village's history.
@@ -805,55 +860,14 @@
 84093:The Sickness Unto Near-Death - Create the medicine that will bring hope.
 84094:The Far Side of Fate - Witness the miracle granted by the "Sinner."
 84095:Caribert - Complete "Caribert."
-84100:Archaic Lord of Lightning and Blitz - Witness the awesome meteorological power of Bennett's phenomenally bad luck.
-84101:The Power of Luck - Activate the mechanisms and obtain the treasure without making any mistakes.
-84102:A Line That May Be Crossed - Complete "Wellspring of Healing" and unlock all endings.
-84103:A Maid of Strength and Virtue - Complete "Chivalric Training" and unlock all endings.
-84104:Evil Is Banished - Complete "Signs of Evil" and unlock all endings.
-84105:Mondstadt's Spiciest Surprise - Sample Barbara's Chilibrew.
-84106:"...For I Am Duty Bound" - Help Noelle discover the source of her strength.
-84107:Red Hot Chili Popsicles - Make a popsicle using the wrong recipe and provoke Chongyun's Pure-Yang Spirit.
-84108:An Idol's Last Line of Defense - Successfully persuade Albert and Barbara's other fans to leave.
-84109:A World Known Only Unto Roses - Read Noelle's study notes.
-84110:Stress Relief - Complete "Knightly Exam Prep" and unlock all endings.
-84111:Invulnerable Maid-Knight - Listen to "A Knight's Journey Through Liyue" with Noelle.
-84112:Mondstadt's Note-Taker General - Read Noelle's study notes.
-84113:Diona Special, Stirred, Not Shaken - Complete "The Cat and the Cocktail" and unlock all endings.
-84114:But There's a Catch... - Help Diona find a special base drink.
-84115:Kitten Queen - Bring all the cats back to The Cat's Tail.
-84116:Everyone's Happy - Complete "A Housekeeper's Daily Chores" and unlock all endings.
-84117:Housekeeper Extraordinaire - Complete the big cleanup within the time limit
-84118:From the Sea Never Returning - Learn of Inu Shoushou's story together with Thoma
-84119:Taller by Half - Complete "Yoohoo Art: Seichou no Jutsu" and unlock all endings.
-84120:Mujina-Class Ninja - Obtain Sayu's highest rating during agility training.
-84121:Dish Effect: Mobility Decreased - You were unable to prevent Sayu's reckless consumption...
-84122:Honorary Crux Member - Complete "When the Crux Shines Bright" and unlock all endings.
-84123:Wine Unburdens - Take part in the Qingce banquet with Beidou
-84124:Guyun Buyers' Club - Find out the truth behind the deal Beidou's making
-84125:General of Watatsumi - Complete "The Canine General's Special Operations" and unlock all endings
-84126:Changing Times - Draw all fortune slips at the Grand Narukami Shrine.
-84127:To Tell or Not to Tell, That Is the Question - Discover Ms. Hina's true identity at the Yae Publishing House.
-84128:Megrez's Companion Star - Complete "The Jade Chamber's Returning Guest" and unlock all endings.
-84129:You've Got to Have Reserves - Fish? The more the merrier, of course!
-84130:Overprotectiveness - A single stone births a thousand ripples. It seems like Ningguang's day off is not to be.
-84131:The Lingering Song - Complete "A Song That Knows Grace" and unlock all endings.
-84132:May This Moment Be Made to Last - Take a commemorative photo with Yun Jin.
-84133:A Strict Master Trains a Talented Pupil - Complete the practice session without hitting a single blue scarecrow.
-84134:Arataki Gang Chief Advisor - Complete "The Gang's Daily Deeds" and unlock all endings.
-84135:One More Look! - Gaze upon the glory that is Kuki Shinobu in a shrine maiden outfit.
-84136:"Upstairs..." - Be dissuaded before alerting Kujou Sara and Kuki Shinobu.
-84137:You Thought We Were For Real, Eh? - Complete "Trap 'Em by Storm" and unlock all endings.
-84138:An Ideal Detective Am I - Correctly analyze the motives and the truth behind the crime the first time.
-84139:Sangonomiya Supplications - Ask Gorou whether Kokomi knows about the happenings on Watatsumi Island.
-84140:Optimal Solution - Complete "A Confounding Conundrum" and unlock all endings.
-84141:To You in a Hundred Years - Read all the letters sent to Faruzan.
-84142:Mechanics: From Beginner to...? - Guess correctly the smallest number of moves it will take to solve a seven-layer Pagoda Stack.
-84143:The Name Is Layla - Complete "Ever Silent Stars" and unlock all endings.
-84144:She's Already Tense - Help Layla finish her thesis without causing her further anxiety.
-84145:Secret of Seelie and the Star-Lit Sky - Obtain the authentic letter of the Wisdom Seelie.
-84146:Art and Life - Complete "The Pendulum of Weal and Woe" and unlock all endings.
-84147:School Days - Find the annotated books in the House of Daena.
-84148:An Architect's Romanticism - Chat about the future with Kaveh in the desert.
+84096:Like Water Disappearing Into Water - Hear about the "prophecy" that has been circulating around Fontaine.
+84097:A Detective in Action - Investigate the truth of the incident as Lyney's "attorney."
+84098:A Twist of Great Magic - The Oratrice Mecanique d'Analyse Cardinale has delivered a verdict of not guilty.
+84099:Prelude of Blancheur and Noirceur - Complete "Prelude of Blancheur and Noirceur."
+84300:Lennék én folyóvíz - Hear the Oceanid's call and connect with her consciousness.
+84301:Once Upon a Time in Fleuve Cendre - Learn about Navia's father at the Spina di Rosula's stronghold.
+84302:Tragedy Repeats Itself - Reveal the truth behind the "serial disappearances case."
+84303:As Light Rain Falls Without Reason - Complete "As Light Rain Falls Without Reason."
 84501:...Odomu? - Successfully conduct cultural exchange with the hilichurls in "Language Exchange."
 84502:Yo dala? - Successfully conduct cultural exchange with the hilichurls in "Poetry Exchange."
 84503:Perfectionist - Complete all of Tsarevich's commissions flawlessly in "Reliable Helper."
@@ -894,6 +908,8 @@
 84540:Guess Who? - Find out who Zhenyu really is.
 84541:Well, At Least It Ended - Hear Junkichi out as he puts his story together.
 84542:Her and Her Cat - Follow Neko up Mt. Yougou to find "Hibiki"'s trail.
+84054:Anna's Adventures - Help Anna become an adventurer.
+84055:Prelude to the Journey - A young man is about to embark on a long journey...
 84543:Aha! What's on the Hook? - Fish some strange things up with Kayvan...
 84544:Kalimi's Fungus - Watch Hatim make a killing on the exchange!
 84545:When Wealth Comes A-Knockin' - Give Hatim some Apple Cider.
@@ -917,6 +933,11 @@
 84563:A Lingering Fragrance - Witness Nermin's tale.
 84564:Swordseeker - Witness the tale of Lan and the "Unseen Razor."
 84565:To Walk The Horizon...? - Witness Sun Yu's tale.
+84566:Office on the Avenue - Witness various miscellaneous matters in the Court of Fontaine.
+84567:Not Your Average Joe - Brew a special blend of coffee.
+84568:Aesthetic Critique - Listen to Depierris' theories regarding "aesthetics."
+84569:Second Childhood - Play with the kids, and witness their story.
+84570:A Sudden Squall - Witness Iaune's work travails.
 85000:Nothing to Lose But Time - Unlock the secrets of two sundials.
 85001:Interview With a Bygone God - Hear the story of a bygone deity.
 85002:Crouching Dragon, Hidden Chi - Learn about the tale of the Chi.
@@ -924,6 +945,60 @@
 85004:Shadow Over Luhua Pool - Help Vermeer get the scenery of his dreams.
 85005:Ready Player Zero - Play a simple game with Childish Jiang.
 85006:Trees Should Blend Their Roots and Shade, for That Is Where the Home Is Made - Witness the story of Yuan Hong's household.
+84026:Fantastic Voyage: Prologue - Complete "Fantastic Voyage" and unlock all endings.
+84100:Archaic Lord of Lightning and Blitz - Witness the awesome meteorological power of Bennett's phenomenally bad luck.
+84101:The Power of Luck - Activate the mechanisms and obtain the treasure without making any mistakes.
+84104:Evil Is Banished - Complete "Signs of Evil" and unlock all endings.
+84028:Behold, Mine Evil-Espying Eye! - Correctly interpret all clues.
+84107:Red Hot Chili Popsicles - Make a popsicle using the wrong recipe and provoke Chongyun's Pure-Yang Spirit.
+84102:A Line That May Be Crossed - Complete "Wellspring of Healing" and unlock all endings.
+84108:An Idol's Last Line of Defense - Successfully persuade Albert and Barbara's other fans to leave.
+84105:Mondstadt's Spiciest Surprise - Sample Barbara's Chilibrew.
+84103:A Maid of Strength and Virtue - Complete "Chivalric Training" and unlock all endings.
+84106:"...For I Am Duty Bound" - Help Noelle discover the source of her strength.
+84109:A World Known Only Unto Roses - Read Noelle's study notes.
+84110:Stress Relief - Complete "Knightly Exam Prep" and unlock all endings.
+84111:Invulnerable Maid-Knight - Listen to "A Knight's Journey Through Liyue" with Noelle.
+84112:Mondstadt's Note-Taker General - Read Noelle's study notes.
+84113:Diona Special, Stirred, Not Shaken - Complete "The Cat and the Cocktail" and unlock all endings.
+84114:But There's a Catch... - Help Diona find a special base drink.
+84115:Kitten Queen - Bring all the cats back to The Cat's Tail.
+84116:Everyone's Happy - Complete "A Housekeeper's Daily Chores" and unlock all endings.
+84117:Housekeeper Extraordinaire - Complete the big cleanup within the time limit
+84118:From the Sea Never Returning - Learn of Inu Shoushou's story together with Thoma
+84119:Taller by Half - Complete "Yoohoo Art: Seichou no Jutsu" and unlock all endings.
+84120:Mujina-Class Ninja - Obtain Sayu's highest rating during agility training.
+84121:Dish Effect: Mobility Decreased - You were unable to prevent Sayu's reckless consumption...
+84122:Honorary Crux Member - Complete "When the Crux Shines Bright" and unlock all endings.
+84123:Wine Unburdens - Take part in the Qingce banquet with Beidou
+84124:Guyun Buyers' Club - Find out the truth behind the deal Beidou's making
+84125:General of Watatsumi - Complete "The Canine General's Special Operations" and unlock all endings
+84126:Changing Times - Draw all fortune slips at the Grand Narukami Shrine.
+84127:To Tell or Not to Tell, That Is the Question - Discover Ms. Hina's true identity at the Yae Publishing House.
+84128:Megrez's Companion Star - Complete "The Jade Chamber's Returning Guest" and unlock all endings.
+84129:You've Got to Have Reserves - Fish? The more the merrier, of course!
+84130:Overprotectiveness - A single stone births a thousand ripples. It seems like Ningguang's day off is not to be.
+84131:The Lingering Song - Complete "A Song That Knows Grace" and unlock all endings.
+84132:May This Moment Be Made to Last - Take a commemorative photo with Yun Jin.
+84133:A Strict Master Trains a Talented Pupil - Complete the practice session without hitting a single blue scarecrow.
+84134:Arataki Gang Chief Advisor - Complete "The Gang's Daily Deeds" and unlock all endings.
+84135:One More Look! - Gaze upon the glory that is Kuki Shinobu in a shrine maiden outfit.
+84136:"Upstairs..." - Be dissuaded before alerting Kujou Sara and Kuki Shinobu.
+84137:You Thought We Were For Real, Eh? - Complete "Trap 'Em by Storm" and unlock all endings.
+84138:An Ideal Detective Am I - Correctly analyze the motives and the truth behind the crime the first time.
+84139:Sangonomiya Supplications - Ask Gorou whether Kokomi knows about the happenings on Watatsumi Island.
+84140:Optimal Solution - Complete "A Confounding Conundrum" and unlock all endings.
+84141:To You in a Hundred Years - Read all the letters sent to Faruzan.
+84142:Mechanics: From Beginner to...? - Guess correctly the smallest number of moves it will take to solve a seven-layer Pagoda Stack.
+84143:The Name Is Layla - Complete "Ever Silent Stars" and unlock all endings.
+84144:She's Already Tense - Help Layla finish her thesis without causing her further anxiety.
+84145:Secret of Seelie and the Star-Lit Sky - Obtain the authentic letter of the Wisdom Seelie.
+84146:Art and Life - Complete "The Pendulum of Weal and Woe" and unlock all endings.
+84147:School Days - Find the annotated books in the House of Daena.
+84148:An Architect's Romanticism - Chat about the future with Kaveh in the desert.
+84149:Make Merry - Complete "Shenanigans and Sweet Wine" and unlock all endings.
+84150:Lucky Coin - Participate in the wager set up by Kaeya.
+84151:Shh... Listen! - Listen to the voice coming from the confinement room.
 86001:You Came, You Saw, We Co-Oped - Complete Domains together with other players 5 times.
 86002:You Came, You Saw, We Co-Oped - Complete Domains together with other players 20 times.
 86003:You Came, You Saw, We Co-Oped - Complete Domains together with other players 100 times.
@@ -937,13 +1012,13 @@
 86011:This Is Fine - Defeat a Pyro Regisvine in Co-Op Mode.
 86012:A Fish Called Rhodeia - Defeat an Oceanid in Co-Op Mode.
 86013:Wolf Pact - Defeat the king of Wolvendom in Co-Op Mode.
+86021:A Delusion's Abilities Don't Decide a Battle's Outcome - Defeat Childe in Co-Op Mode.
 86015:Moving Mountains - Defeat a Primo Geovishap in Co-Op Mode.
 86016:Blast From the Past - Defeat Azhdaha in Co-Op Mode.
 86017:Put on Ice - Defeat a Cryo Hypostasis in Co-Op Mode.
 86018:No Strings Attached, Anymore - Defeat a Maguu Kenki in Co-Op Mode.
 86019:Operation Bonfire - Defeat a Pyro Hypostasis in Co-Op Mode.
 86020:The Not-So-Perpetual Mechanical Array - Defeat a Perpetual Mechanic Array in Co-Op Mode.
-86021:A Delusion's Abilities Don't Decide a Battle's Outcome - Defeat Childe in Co-Op Mode.
 86022:Our Hearts as One - Defeat a Thunder Manifestation in Co-Op Mode.
 86023:Water, Basically - Defeat a Hydro Hypostasis in Co-Op Mode.
 86024:Dashing Through the Snow... and the Flames - Defeat Signora in Co-Op Mode.
@@ -952,3 +1027,12 @@
 86027:Surpassing the Ancients' Wisdom - Defeat the Ruin Serpent in Co-Op Mode.
 86028:I'm a Flexitarian - Defeat a Jadeplume Terrorshroom in Co-Op Mode.
 86029:Electric Shock Hazard - Defeat an Electro Regisvine in Co-Op Mode.
+86030:End of the Eternal Return - Defeat the Aeonblight Drake in Co-Op Mode.
+86031:Ever So Slightly Inferior - Defeat the Algorithm of Semi-Intransient Matrix of Overseer Network in Co-Op Mode.
+86032:The Greenery Out of Space - Defeat a Dendro Hypostasis in Co-Op Mode.
+86033:Dance Like You Want to Win! - Defeat Shouki no Kami, the Prodigal in Co-Op Mode.
+86034:Desert-Dwellers' Rite of Passage - Defeat the Setekh Wenut in Co-Op Mode.
+86035:Presumption of Guilt - Defeat the Iniquitous Baptist in Co-Op Mode.
+86036:Proof of the Reed Sea Conqueror - Defeat the Guardian of Apep's Oasis in Co-Op Mode.
+86037:The Power of Science is Staggering! - Complete one form of the "Icewind Suite" challenge in Co-Op Mode.
+86038:A Successful Hunt - Defeat the Emperor of Fire and Iron in Co-Op Mode.

@@ -16,8 +16,8 @@
 17:Combat Performance Test
 18:Charging Pile Power Supply White-Box
 19:Elemental Reaction Scenario White Box
-20:圣遗物新因子测试关卡1(test)
-21:圣遗物新因子测试关卡2(test)
+20:[CHS] - 圣遗物新因子测试关卡1(test)
+21:[CHS] - 圣遗物新因子测试关卡2(test)
 24:Night Cycling Dungeon
 25:Stage Gameplay White-Box CX
 26:Trap Gameplay White-Box
@@ -28,42 +28,42 @@
 31:Geo White-Box Test
 32:Mondstadt Artifact Challenge 1 White-Box Test
 33:Tower-Climbing Hilichurl Template
-34:云海白盒测试(test)
-35:TA测试关卡(test)
-36:随机圈球测试关卡1(test)
-37:随机圈球测试关卡2(test)
-38:挑战因子测试1(test)
-39:挑战因子测试2(test)
-40:挑战因子测试3(test)
-41:挑战因子测试4(test)
-42:挑战因子测试5(test)
-43:挑战因子测试6(test)
-44:挑战因子测试7(test)
-45:挑战因子测试8(test)
-46:挑战因子测试9(test)
-47:4.0月度主题因子测试1(test)
-48:4.0月度主题因子测试2(test)
-49:4.0月度主题因子测试3(test)
-50:水boss测试场景(test)
-55:壶中天挑战玩法测试(test)
-56:塔防玩法测试(test)
-57:塔防玩法测试2(test)
-58:龙王BOSS测试(test)
-59:风花节活动测试关卡1(test)
-60:风花节活动测试关卡2(test)
-61:风花节活动测试关卡3(test)
-62:若陀龙王Boss战(test)
-63:1.5测试关卡(test)
-64:1.5试玩活动测试（test）
-65:2.1影深测地城（test）
-66:怪物性能测试（test）
-67:塔防V3测试(test)
-68:旋转房间白盒(test)
-70:(test)圆柱测试地城
-71:(test)3.2散兵boss地城
-72:(test)风场地城测试01
-73:(test)风场地城测试04
-74:(test)3.2散兵boss地城
+34:[CHS] - 云海白盒测试(test)
+35:[CHS] - TA测试关卡(test)
+36:[CHS] - 随机圈球测试关卡1(test)
+37:[CHS] - 随机圈球测试关卡2(test)
+38:[CHS] - 挑战因子测试1(test)
+39:[CHS] - 挑战因子测试2(test)
+40:[CHS] - 挑战因子测试3(test)
+41:[CHS] - 挑战因子测试4(test)
+42:[CHS] - 挑战因子测试5(test)
+43:[CHS] - 挑战因子测试6(test)
+44:[CHS] - 挑战因子测试7(test)
+45:[CHS] - 挑战因子测试8(test)
+46:[CHS] - 挑战因子测试9(test)
+47:[CHS] - 4.0月度主题因子测试1(test)
+48:[CHS] - 4.0月度主题因子测试2(test)
+49:[CHS] - 4.0月度主题因子测试3(test)
+50:[CHS] - 水boss测试场景(test)
+55:[CHS] - 壶中天挑战玩法测试(test)
+56:[CHS] - 塔防玩法测试(test)
+57:[CHS] - 塔防玩法测试2(test)
+58:[CHS] - 龙王BOSS测试(test)
+59:[CHS] - 风花节活动测试关卡1(test)
+60:[CHS] - 风花节活动测试关卡2(test)
+61:[CHS] - 风花节活动测试关卡3(test)
+62:[CHS] - 若陀龙王Boss战(test)
+63:[CHS] - 1.5测试关卡(test)
+64:[CHS] - 1.5试玩活动测试（test）
+65:[CHS] - 2.1影深测地城（test）
+66:[CHS] - 怪物性能测试（test）
+67:[CHS] - 塔防V3测试(test)
+68:[CHS] - 旋转房间白盒(test)
+70:[CHS] - (test)圆柱测试地城
+71:[CHS] - (test)3.2散兵boss地城
+72:[CHS] - (test)风场地城测试01
+73:[CHS] - (test)风场地城测试04
+74:[CHS] - (test)3.2散兵boss地城
 75:Test Domain I
 76:Test Domain II
 77:Test Domain III
@@ -77,12 +77,12 @@
 85:Test Domain XI
 86:Test Domain XII
 87:Test Domain XIII
-88:(test)奇趣秘园白盒
-89:(test)LCM测试秘境
-90:(test)须弥单线白盒
-91:(test)吃豆人白盒
-92:(test)草龙boss白盒
-93:3.8怪物性能测试（test）
+88:[CHS] - (test)奇趣秘园白盒
+89:[CHS] - (test)LCM测试秘境
+90:[CHS] - (test)须弥单线白盒
+91:[CHS] - (test)吃豆人白盒
+92:[CHS] - (test)草龙boss白盒
+93:[CHS] - 3.8怪物性能测试（test）
 101:The Golden Shadow
 102:Jade Chamber Storyline
 103:Memories: The Golden Shadow I
@@ -139,12 +139,12 @@
 1101:Stage Gameplay Black-Box Test
 1102:Karma-Heavy Cavern
 1103:Cloud Retainer's Abode
-1104:壶中天_轻量变形1(test)
-1105:壶中天_轻量变形2(test)
+1104:[CHS] - 壶中天_轻量变形1(test)
+1105:[CHS] - 壶中天_轻量变形2(test)
 1106:The Wonderful World Of Mr. Cyclops
 1107:Of Mysteries and Salt
 1108:Cloud Retainer's Abode
-1109:云海白盒测试(test)
+1109:[CHS] - 云海白盒测试(test)
 1110:Enter the "border"
 1111:Deserted Ruins of Thermadon
 1112:Deserted Ruins of Eya
@@ -156,21 +156,21 @@
 1118:The Omnipresent God
 1119:Delusion Factory
 1120:Hidden Mountain Base
-1121:雷电将军个人线千手百眼（test)
-1122:千手百眼二阶段(test)
+1121:[CHS] - 雷电将军个人线千手百眼（test)
+1122:[CHS] - 千手百眼二阶段(test)
 1123:Tenryou Commission Headquarters
-1124:小说家的冒险(test)
+1124:[CHS] - 小说家的冒险(test)
 1125:Crumbling Guilt
 1126:Beneath the Vortex
 1127:Sea Gazer's Abode
 1128:Secret Summoning Chamber
-1129:雷电将军第二章（test）
-1130:（test)2.6容彩祭仓库
+1129:[CHS] - 雷电将军第二章（test）
+1130:[CHS] - （test)2.6容彩祭仓库
 1131:Chamber of Twisted Cranes
 1132:City of Hidden Runes
 1133:Realm of Snaring Illusions
 1134:Qingxu Pool Underground Ruins
-1135:（test)2.7层岩入口房间测试
+1135:[CHS] - （test)2.7层岩入口房间测试
 1136:Occupied Hold
 1137:Blazin' Trails
 1138:As the Courtyard in Spring Once Appeared: Part II
@@ -184,38 +184,38 @@
 1146:As the Courtyard in Spring Once Appeared: Part I
 1147:Immernachtreich Apokalypse: Part I
 1148:Immernachtreich Apokalypse: Part II
-1149:须弥兰娜罗梦境地城(test)
+1149:[CHS] - 须弥兰娜罗梦境地城(test)
 1150:The Contamination's Source
-1151:(test)3.0零级WQ织梦之森一次性地城
-1152:(test)3.0零级WQ唤雨之森一次性地城
-1153:(test)3.0零级WQ失落之森一次性地城
-1154:(test)3.0零级WQ葱头地城
-1155:世界树地城(test)
+1151:[CHS] - (test)3.0零级WQ织梦之森一次性地城
+1152:[CHS] - (test)3.0零级WQ唤雨之森一次性地城
+1153:[CHS] - (test)3.0零级WQ失落之森一次性地城
+1154:[CHS] - (test)3.0零级WQ葱头地城
+1155:[CHS] - 世界树地城(test)
 1156:Mysterious Ruins
 1157:Court of Desolation
 1158:Desert Vivarium
 1159:Behind the Illusory Curtain
 1160:Edge of the End
 1161:The Greater Lord's Remaining Consciousness
-1162:（test）图书馆地城版本
-1163:(test)3.2蕈兽活动剧情地城
+1162:[CHS] - （test）图书馆地城版本
+1163:[CHS] - (test)3.2蕈兽活动剧情地城
 1164:Deus Foundry
 1165:That Day Under Irminsul
-1166:3.2梦境俱乐部(test)
+1166:[CHS] - 3.2梦境俱乐部(test)
 1167:The Shrine of Shouki no Kami
-1168:3.3间章地城01(test)
-1169:3.3间章地城02(test)
+1168:[CHS] - 3.3间章地城01(test)
+1169:[CHS] - 3.3间章地城02(test)
 1170:Reminiscent Drift
-1171:3.3间章地城03（test）
-1172:3.3间章地城04（test）
-1173:3.3间章地城05（test）
+1171:[CHS] - 3.3间章地城03（test）
+1172:[CHS] - 3.3间章地城04（test）
+1173:[CHS] - 3.3间章地城05（test）
 1174:Secret Cavern
 1175:Unknown Sanctuary
 1176:Unknown Sanctuary
-1177:3.5双子线镜像大世界（test）
+1177:[CHS] - 3.5双子线镜像大世界（test）
 1178:Bygone Glories Passed
 1179:Entanglement of Past Dreams
-1180:test 草龙地城剧情版
+1180:[CHS] - test 草龙地城剧情版
 1181:Aquanigma
 1182:Magic Workshop
 2000:Lost Treasure of Arcadia
@@ -227,12 +227,12 @@
 2007:The Reward for Courage is Flight
 2008:Ascend: Clear the Ruins
 2009:New Character Pattern White-Box
-2010:突破：清扫遗迹中的魔物(test)
-2011:突破：清扫遗迹中的魔物(test)
+2010:[CHS] - 突破：清扫遗迹中的魔物(test)
+2011:[CHS] - 突破：清扫遗迹中的魔物(test)
 2012:Ascend: Clear the Ruins
-2013:突破：清扫遗迹中的魔物(test)
+2013:[CHS] - 突破：清扫遗迹中的魔物(test)
 2014:Ascend: Clear the Ruins
-2015:突破：清扫遗迹中的魔物(test)
+2015:[CHS] - 突破：清扫遗迹中的魔物(test)
 2016:Ascend: Clear the Ruins
 2020:Memories: Storming Terror I
 2021:Memories: Storming Terror II
@@ -240,78 +240,78 @@
 2023:Memories: Storming Terror IV
 2024:Memories: Storming Terror V
 2025:Memories: Storming Terror VI
-2026:(test)3.2散兵boss地城
+2026:[CHS] - (test)3.2散兵boss地城
 2099:Stage Test
-2100:火之高兴-测试(test)
+2100:[CHS] - 火之高兴-测试(test)
 2101:1x Stage Test
 2102:Event Stage Test
-2103:塌陷地板白盒(test)
-2104:擂台挑战白盒(test)
-2105:记忆道路白盒(test)
-2106:塌陷6x6地板白盒(test)
-2107:塌陷地板回字型白盒(test)
-2108:羽球活动联机测试(test)
-2109:BOSS挑战复刻测试(test)
-2110:Rouge地城白盒(test)
-2111:Rouge白盒yqt01(test)
+2103:[CHS] - 塌陷地板白盒(test)
+2104:[CHS] - 擂台挑战白盒(test)
+2105:[CHS] - 记忆道路白盒(test)
+2106:[CHS] - 塌陷6x6地板白盒(test)
+2107:[CHS] - 塌陷地板回字型白盒(test)
+2108:[CHS] - 羽球活动联机测试(test)
+2109:[CHS] - BOSS挑战复刻测试(test)
+2110:[CHS] - Rouge地城白盒(test)
+2111:[CHS] - Rouge白盒yqt01(test)
 2112:Stacked Tower
 2113:Long Hallway
 2114:Back Alley
 2115:Row House
 2116:Square Arena
-2117:场景测试白盒(test)
-2118:渊下宫物件测试白盒(test)
+2117:[CHS] - 场景测试白盒(test)
+2118:[CHS] - 渊下宫物件测试白盒(test)
 2119:The Exit's Up There
 2120:Flying Down the Corridor
 2121:Look Out Below
 2122:Faster, Faster!
 2123:Fastest Finger First
-2124:须弥地城白盒(test)
-2125:须弥物件白盒(test)
-2126:新人流程测试白盒(test)
-2127:枫丹地城白盒(test)
-2128:3.7UGC物件测试白盒(test)
-2130:3.7UGC先行地城-塔防(test)
-2131:3.7UGC先行地城-生存(test)
-2132:3.7UGC先行地城-增幅器营地(test)
-2150:选BUFF挑战地城阶段一第1关（test）
-2151:选BUFF挑战地城阶段一第2关（test）
-2152:选BUFF挑战地城阶段一第3关（test）
-2153:选BUFF挑战地城阶段一第4关（test）
-2154:选BUFF挑战地城阶段二第1关（test）
-2155:选BUFF挑战地城阶段二第2关（test）
-2156:选BUFF挑战地城阶段二第3关（test）
-2157:选BUFF挑战地城阶段二第4关（test）
-2158:选BUFF挑战地城阶段三第1关（test）
-2159:选BUFF挑战地城阶段三第2关（test）
-2160:选BUFF挑战地城阶段三第3关（test）
-2161:选BUFF挑战地城阶段三第4关（test）
-2162:(test)卡牌测试场景
-2163:(test)卡牌录像播放场景
-2164:(test)卡牌观战场景
-2169:(test)2.8测试地城1
-2170:(test)2.8测试地城2
-2171:(test)2.8测试地城3
-2172:(test)2.8测试地城4
-2173:(test)2.8测试地城5
-2174:(test)2.8测试地城6
-2175:(test)2.8测试地城7
-2176:(test)2.8测试地城8
-2177:(test)2.8测试地城9
-2178:(test)2.8测试地城10
-2179:(test)2.8测试地城11
-2180:(test)2.8测试地城12
-2181:(test) 蕈兽活动战斗白盒
-2182:(test)4.0枫丹水域测试白盒-枫丹旧城
-2183:(test)4.0枫丹水域测试白盒-巨神
-2184:(test)4.0枫丹水域测试白盒-洋流
-2185:(test) 蕈兽二期活动战斗白盒
-2186:(test)迪希雅个人线白盒
-2187:(test)任务地城白盒
-2188:智慧空间1（test）
-2189:智慧空间2（test）
-2190:智慧空间3（test）
-2191:(test)3.8主线地城
+2124:[CHS] - 须弥地城白盒(test)
+2125:[CHS] - 须弥物件白盒(test)
+2126:[CHS] - 新人流程测试白盒(test)
+2127:[CHS] - 枫丹地城白盒(test)
+2128:[CHS] - 3.7UGC物件测试白盒(test)
+2130:[CHS] - 3.7UGC先行地城-塔防(test)
+2131:[CHS] - 3.7UGC先行地城-生存(test)
+2132:[CHS] - 3.7UGC先行地城-增幅器营地(test)
+2150:[CHS] - 选BUFF挑战地城阶段一第1关（test）
+2151:[CHS] - 选BUFF挑战地城阶段一第2关（test）
+2152:[CHS] - 选BUFF挑战地城阶段一第3关（test）
+2153:[CHS] - 选BUFF挑战地城阶段一第4关（test）
+2154:[CHS] - 选BUFF挑战地城阶段二第1关（test）
+2155:[CHS] - 选BUFF挑战地城阶段二第2关（test）
+2156:[CHS] - 选BUFF挑战地城阶段二第3关（test）
+2157:[CHS] - 选BUFF挑战地城阶段二第4关（test）
+2158:[CHS] - 选BUFF挑战地城阶段三第1关（test）
+2159:[CHS] - 选BUFF挑战地城阶段三第2关（test）
+2160:[CHS] - 选BUFF挑战地城阶段三第3关（test）
+2161:[CHS] - 选BUFF挑战地城阶段三第4关（test）
+2162:[CHS] - (test)卡牌测试场景
+2163:[CHS] - (test)卡牌录像播放场景
+2164:[CHS] - (test)卡牌观战场景
+2169:[CHS] - (test)2.8测试地城1
+2170:[CHS] - (test)2.8测试地城2
+2171:[CHS] - (test)2.8测试地城3
+2172:[CHS] - (test)2.8测试地城4
+2173:[CHS] - (test)2.8测试地城5
+2174:[CHS] - (test)2.8测试地城6
+2175:[CHS] - (test)2.8测试地城7
+2176:[CHS] - (test)2.8测试地城8
+2177:[CHS] - (test)2.8测试地城9
+2178:[CHS] - (test)2.8测试地城10
+2179:[CHS] - (test)2.8测试地城11
+2180:[CHS] - (test)2.8测试地城12
+2181:[CHS] - (test) 蕈兽活动战斗白盒
+2182:[CHS] - (test)4.0枫丹水域测试白盒-枫丹旧城
+2183:[CHS] - (test)4.0枫丹水域测试白盒-巨神
+2184:[CHS] - (test)4.0枫丹水域测试白盒-洋流
+2185:[CHS] - (test) 蕈兽二期活动战斗白盒
+2186:[CHS] - (test)迪希雅个人线白盒
+2187:[CHS] - (test)任务地城白盒
+2188:[CHS] - 智慧空间1（test）
+2189:[CHS] - 智慧空间2（test）
+2190:[CHS] - 智慧空间3（test）
+2191:[CHS] - (test)3.8主线地城
 3001:Mist Labyrinth
 3004:Explore: Fallen Fortress
 3005:Pyro Trial
@@ -319,292 +319,292 @@
 3007:Overloaded & Superconduct Trial
 3008:Swirl Trial
 3009:Burning & Melt Trial
-3010:无相雷挑战(test)
-3011:2.1换人挑战1阶段(test)
-3012:2.1换人挑战2阶段(test)
-3013:2.1换人挑战3阶段(test)
-3014:2.1换人挑战4阶段(test)
-3015:2.1换人挑战5阶段(test)
-3016:2.1换人挑战6阶段(test)
-3017:Rogue地城01-1(test)
-3018:Rogue地城02-2(test)
-3019:Rogue地城03-2(test)
-3020:Rogue地城01-2(test)
-3021:Rogue地城02-1(test)
-3022:Rogue地城03-1(test)
-3023:Rogue地城04-1(test)
-3024:Rogue地城04-2(test)
-3025:Rogue地城05-1(test)
-3026:Rogue地城05-2(test)
-3027:2.5百人二揆关卡1(test)
-3028:2.5百人二揆关卡2(test)
-3029:2.5百人二揆关卡3(test)
-3030:2.5百人二揆关卡4(test)
-3031:2.5百人二揆关卡5(test)
-3032:2.5百人二揆关卡6(test)
-3033:3.1百人三揆关卡1(test)
-3034:3.1百人三揆关卡2(test)
-3035:3.1百人三揆关卡3(test)
-3036:3.1百人三揆关卡4(test)
-3037:3.1百人三揆关卡5(test)
-3038:3.1百人三揆关卡6(test)
-3040:2.6连线buff挑战1(test)
-3041:2.6连线buff挑战2(test)
-3042:2.6连线buff挑战3(test)
-3043:2.6连线buff挑战4(test)
-3044:2.6连线buff挑战5(test)
-3045:2.6连线buff挑战6(test)
-3050:3.3大活动打砖块特殊关1(test)
-3051:3.3大活动打砖块特殊关2(test)
-3052:3.3大活动打砖块特殊关3(test)
-3053:3.5蕈兽2期地城L1(test)
-3054:3.5蕈兽2期地城L2(test)
-3055:3.5蕈兽2期地城L3(test)
-3056:3.5蕈兽2期地城L4(test)
-3057:3.5蕈兽2期地城L5(test)
-3058:3.5蕈兽2期地城L6(test)
-3059:3.5蕈兽2期地城L7(test)
-3060:3.6大活动音L1猪(test)
-3061:3.6大活动音L2鼬(test)
-3062:3.6大活动音L3鱼(test)
-3063:3.5蕈兽2期地城-TASK(test)
-3064:3.6大活动战斗01(test)
-3065:3.6大活动战斗02(test)
-3066:3.6大活动战斗03(test)
-3067:3.6大活动音L1猪校准(test)
-3068:3.6大活动音L2鼬校准(test)
-3069:3.6大活动音L3鱼校准(test)
-3070:3.7骰子地城01(test)
-3071:3.7骰子地城02(test)
-3072:3.7骰子地城03(test)
-3073:3.7骰子地城04(test)
-3074:3.8多角色战斗地城01难度1(test)
-3075:3.8多角色战斗地城01难度2(test)
-3076:3.8多角色战斗地城01难度3(test)
-3077:3.8多角色战斗地城01难度4(test)
-3078:3.8多角色战斗地城02难度1(test)
-3079:3.8多角色战斗地城02难度2(test)
-3080:3.8多角色战斗地城02难度3(test)
-3081:3.8多角色战斗地城02难度4(test)
-3082:3.8多角色战斗地城03难度1(test)
-3083:3.8多角色战斗地城03难度2(test)
-3084:3.8多角色战斗地城03难度3(test)
-3085:3.8多角色战斗地城03难度4(test)
-3086:3.8多角色战斗地城04难度1(test)
-3087:3.8多角色战斗地城04难度2(test)
-3088:3.8多角色战斗地城04难度3(test)
-3089:3.8多角色战斗地城04难度4(test)
-3090:3.8多角色战斗地城05难度1(test)
-3091:3.8多角色战斗地城05难度2(test)
-3092:3.8多角色战斗地城05难度3(test)
-3093:3.8多角色战斗地城05难度4(test)
-3310:爬塔第一档-ZHT第1关（单路）(test)
-3311:爬塔第一档-ZHT第2关（单路）(test)
-3312:爬塔第一档-ZHT第3关（单路）(test)
-3313:爬塔第一档-ZHT第4关（单路）(test)
-3410:爬塔第二档-ZHT第1关（单路）(test)
-3411:爬塔第二档-ZHT第2关（单路）(test)
-3412:爬塔第二档-ZHT第3关（单路）(test)
-3413:爬塔第二档-ZHT第4关（单路）(test)
-3510:爬塔第三档-ZHT第1关（单路）(test)
-3511:爬塔第三档-ZHT第2关（单路）(test)
-3512:爬塔第三档-ZHT第3关（单路）(test)
-3513:爬塔第三档-ZHT第4关（单路）(test)
-3341:爬塔第一档-第五层第1关（双路）(test)
-3342:爬塔第一档-第六层第1关（双路）(test)
-3343:爬塔第一档-第七层第1关（双路）(test)
-3344:爬塔第一档-第八层第1关（双路）(test)
-3441:爬塔第二档-第五层第2关（双路）(test)
-3442:爬塔第二档-第六层第2关（双路）(test)
-3443:爬塔第二档-第七层第2关（双路）(test)
-3444:爬塔第二档-第八层第2关（双路）(test)
-3541:爬塔第三档-第五层第3关（双路）(test)
-3542:爬塔第三档-第六层第3关（双路）(test)
-3543:爬塔第三档-第七层第3关（双路）(test)
-3544:爬塔第三档-第八层第3关（双路）(test)
-3370:爬塔第一档-MC第1关（双路）(test)
-3371:爬塔第一档-MC第2关（双路）(test)
-3372:爬塔第一档-MC第3关（双路）(test)
-3373:爬塔第一档-MC第4关（双路）(test)
-3374:爬塔第一档-MC第5关（双路）(test)
-3375:爬塔第一档-MC第6关（双路）(test)
-3376:爬塔第一档-MC第7关（双路）(test)
-3377:爬塔第一档-MC第8关（双路）(test)
-3378:爬塔第一档-MC第9关（双路）(test)
-3379:爬塔第一档-MC第10关（双路）(test)
-3380:爬塔第一档-MC第11关（双路）(test)
-3381:爬塔第一档-MC第12关（双路）(test)
-3382:爬塔第一档-MC第13关（双路）(test)
-3383:爬塔第一档-MC第14关（双路）(test)
-3384:爬塔第一档-MC第15关（双路）(test)
-3385:爬塔第一档-MC第16关（双路）(test)
-3386:爬塔第一档-MC第17关（双路）(test)
-3387:爬塔第一档-MC第18关（双路）(test)
-3388:爬塔第一档-MC第19关（双路）(test)
-3389:爬塔第一档-MC第20关（双路）(test)
-3390:爬塔第一档-MC第21关（双路）(test)
-3391:爬塔第一档-MC第22关（双路）(test)
-3392:爬塔第一档-MC第23关（双路）(test)
-3393:爬塔第一档-MC第24关（双路）(test)
-3394:爬塔第一档-MC第25关（双路）(test)
-3395:爬塔第一档-MC第26关（双路）(test)
-3396:爬塔第一档-MC第27关（双路）(test)
-3397:爬塔第一档-MC第28关（双路）(test)
-3398:爬塔第一档-MC第29关（双路）(test)
-3399:爬塔第一档-MC第30关（双路）(test)
-3400:爬塔第一档-MC第31关（双路）(test)
-3401:爬塔第一档-MC第32关（双路）(test)
-3402:爬塔第一档-MC第33关（双路）(test)
-3403:爬塔第一档-MC第34关（双路）(test)
-3404:爬塔第一档-MC第35关（双路）(test)
-3405:爬塔第一档-MC第36关（双路）(test)
-3406:爬塔第一档-MC第37关（双路）(test)
-3407:爬塔第一档-MC第38关（双路）(test)
-3408:爬塔第一档-MC第39关（双路）(test)
-3409:爬塔第一档-MC第40关（双路）(test)
+3010:[CHS] - 无相雷挑战(test)
+3011:[CHS] - 2.1换人挑战1阶段(test)
+3012:[CHS] - 2.1换人挑战2阶段(test)
+3013:[CHS] - 2.1换人挑战3阶段(test)
+3014:[CHS] - 2.1换人挑战4阶段(test)
+3015:[CHS] - 2.1换人挑战5阶段(test)
+3016:[CHS] - 2.1换人挑战6阶段(test)
+3017:[CHS] - Rogue地城01-1(test)
+3018:[CHS] - Rogue地城02-2(test)
+3019:[CHS] - Rogue地城03-2(test)
+3020:[CHS] - Rogue地城01-2(test)
+3021:[CHS] - Rogue地城02-1(test)
+3022:[CHS] - Rogue地城03-1(test)
+3023:[CHS] - Rogue地城04-1(test)
+3024:[CHS] - Rogue地城04-2(test)
+3025:[CHS] - Rogue地城05-1(test)
+3026:[CHS] - Rogue地城05-2(test)
+3027:[CHS] - 2.5百人二揆关卡1(test)
+3028:[CHS] - 2.5百人二揆关卡2(test)
+3029:[CHS] - 2.5百人二揆关卡3(test)
+3030:[CHS] - 2.5百人二揆关卡4(test)
+3031:[CHS] - 2.5百人二揆关卡5(test)
+3032:[CHS] - 2.5百人二揆关卡6(test)
+3033:[CHS] - 3.1百人三揆关卡1(test)
+3034:[CHS] - 3.1百人三揆关卡2(test)
+3035:[CHS] - 3.1百人三揆关卡3(test)
+3036:[CHS] - 3.1百人三揆关卡4(test)
+3037:[CHS] - 3.1百人三揆关卡5(test)
+3038:[CHS] - 3.1百人三揆关卡6(test)
+3040:[CHS] - 2.6连线buff挑战1(test)
+3041:[CHS] - 2.6连线buff挑战2(test)
+3042:[CHS] - 2.6连线buff挑战3(test)
+3043:[CHS] - 2.6连线buff挑战4(test)
+3044:[CHS] - 2.6连线buff挑战5(test)
+3045:[CHS] - 2.6连线buff挑战6(test)
+3050:[CHS] - 3.3大活动打砖块特殊关1(test)
+3051:[CHS] - 3.3大活动打砖块特殊关2(test)
+3052:[CHS] - 3.3大活动打砖块特殊关3(test)
+3053:[CHS] - 3.5蕈兽2期地城L1(test)
+3054:[CHS] - 3.5蕈兽2期地城L2(test)
+3055:[CHS] - 3.5蕈兽2期地城L3(test)
+3056:[CHS] - 3.5蕈兽2期地城L4(test)
+3057:[CHS] - 3.5蕈兽2期地城L5(test)
+3058:[CHS] - 3.5蕈兽2期地城L6(test)
+3059:[CHS] - 3.5蕈兽2期地城L7(test)
+3060:[CHS] - 3.6大活动音L1猪(test)
+3061:[CHS] - 3.6大活动音L2鼬(test)
+3062:[CHS] - 3.6大活动音L3鱼(test)
+3063:[CHS] - 3.5蕈兽2期地城-TASK(test)
+3064:[CHS] - 3.6大活动战斗01(test)
+3065:[CHS] - 3.6大活动战斗02(test)
+3066:[CHS] - 3.6大活动战斗03(test)
+3067:[CHS] - 3.6大活动音L1猪校准(test)
+3068:[CHS] - 3.6大活动音L2鼬校准(test)
+3069:[CHS] - 3.6大活动音L3鱼校准(test)
+3070:[CHS] - 3.7骰子地城01(test)
+3071:[CHS] - 3.7骰子地城02(test)
+3072:[CHS] - 3.7骰子地城03(test)
+3073:[CHS] - 3.7骰子地城04(test)
+3074:[CHS] - 3.8多角色战斗地城01难度1(test)
+3075:[CHS] - 3.8多角色战斗地城01难度2(test)
+3076:[CHS] - 3.8多角色战斗地城01难度3(test)
+3077:[CHS] - 3.8多角色战斗地城01难度4(test)
+3078:[CHS] - 3.8多角色战斗地城02难度1(test)
+3079:[CHS] - 3.8多角色战斗地城02难度2(test)
+3080:[CHS] - 3.8多角色战斗地城02难度3(test)
+3081:[CHS] - 3.8多角色战斗地城02难度4(test)
+3082:[CHS] - 3.8多角色战斗地城03难度1(test)
+3083:[CHS] - 3.8多角色战斗地城03难度2(test)
+3084:[CHS] - 3.8多角色战斗地城03难度3(test)
+3085:[CHS] - 3.8多角色战斗地城03难度4(test)
+3086:[CHS] - 3.8多角色战斗地城04难度1(test)
+3087:[CHS] - 3.8多角色战斗地城04难度2(test)
+3088:[CHS] - 3.8多角色战斗地城04难度3(test)
+3089:[CHS] - 3.8多角色战斗地城04难度4(test)
+3090:[CHS] - 3.8多角色战斗地城05难度1(test)
+3091:[CHS] - 3.8多角色战斗地城05难度2(test)
+3092:[CHS] - 3.8多角色战斗地城05难度3(test)
+3093:[CHS] - 3.8多角色战斗地城05难度4(test)
+3310:[CHS] - 爬塔第一档-ZHT第1关（单路）(test)
+3311:[CHS] - 爬塔第一档-ZHT第2关（单路）(test)
+3312:[CHS] - 爬塔第一档-ZHT第3关（单路）(test)
+3313:[CHS] - 爬塔第一档-ZHT第4关（单路）(test)
+3410:[CHS] - 爬塔第二档-ZHT第1关（单路）(test)
+3411:[CHS] - 爬塔第二档-ZHT第2关（单路）(test)
+3412:[CHS] - 爬塔第二档-ZHT第3关（单路）(test)
+3413:[CHS] - 爬塔第二档-ZHT第4关（单路）(test)
+3510:[CHS] - 爬塔第三档-ZHT第1关（单路）(test)
+3511:[CHS] - 爬塔第三档-ZHT第2关（单路）(test)
+3512:[CHS] - 爬塔第三档-ZHT第3关（单路）(test)
+3513:[CHS] - 爬塔第三档-ZHT第4关（单路）(test)
+3341:[CHS] - 爬塔第一档-第五层第1关（双路）(test)
+3342:[CHS] - 爬塔第一档-第六层第1关（双路）(test)
+3343:[CHS] - 爬塔第一档-第七层第1关（双路）(test)
+3344:[CHS] - 爬塔第一档-第八层第1关（双路）(test)
+3441:[CHS] - 爬塔第二档-第五层第2关（双路）(test)
+3442:[CHS] - 爬塔第二档-第六层第2关（双路）(test)
+3443:[CHS] - 爬塔第二档-第七层第2关（双路）(test)
+3444:[CHS] - 爬塔第二档-第八层第2关（双路）(test)
+3541:[CHS] - 爬塔第三档-第五层第3关（双路）(test)
+3542:[CHS] - 爬塔第三档-第六层第3关（双路）(test)
+3543:[CHS] - 爬塔第三档-第七层第3关（双路）(test)
+3544:[CHS] - 爬塔第三档-第八层第3关（双路）(test)
+3370:[CHS] - 爬塔第一档-MC第1关（双路）(test)
+3371:[CHS] - 爬塔第一档-MC第2关（双路）(test)
+3372:[CHS] - 爬塔第一档-MC第3关（双路）(test)
+3373:[CHS] - 爬塔第一档-MC第4关（双路）(test)
+3374:[CHS] - 爬塔第一档-MC第5关（双路）(test)
+3375:[CHS] - 爬塔第一档-MC第6关（双路）(test)
+3376:[CHS] - 爬塔第一档-MC第7关（双路）(test)
+3377:[CHS] - 爬塔第一档-MC第8关（双路）(test)
+3378:[CHS] - 爬塔第一档-MC第9关（双路）(test)
+3379:[CHS] - 爬塔第一档-MC第10关（双路）(test)
+3380:[CHS] - 爬塔第一档-MC第11关（双路）(test)
+3381:[CHS] - 爬塔第一档-MC第12关（双路）(test)
+3382:[CHS] - 爬塔第一档-MC第13关（双路）(test)
+3383:[CHS] - 爬塔第一档-MC第14关（双路）(test)
+3384:[CHS] - 爬塔第一档-MC第15关（双路）(test)
+3385:[CHS] - 爬塔第一档-MC第16关（双路）(test)
+3386:[CHS] - 爬塔第一档-MC第17关（双路）(test)
+3387:[CHS] - 爬塔第一档-MC第18关（双路）(test)
+3388:[CHS] - 爬塔第一档-MC第19关（双路）(test)
+3389:[CHS] - 爬塔第一档-MC第20关（双路）(test)
+3390:[CHS] - 爬塔第一档-MC第21关（双路）(test)
+3391:[CHS] - 爬塔第一档-MC第22关（双路）(test)
+3392:[CHS] - 爬塔第一档-MC第23关（双路）(test)
+3393:[CHS] - 爬塔第一档-MC第24关（双路）(test)
+3394:[CHS] - 爬塔第一档-MC第25关（双路）(test)
+3395:[CHS] - 爬塔第一档-MC第26关（双路）(test)
+3396:[CHS] - 爬塔第一档-MC第27关（双路）(test)
+3397:[CHS] - 爬塔第一档-MC第28关（双路）(test)
+3398:[CHS] - 爬塔第一档-MC第29关（双路）(test)
+3399:[CHS] - 爬塔第一档-MC第30关（双路）(test)
+3400:[CHS] - 爬塔第一档-MC第31关（双路）(test)
+3401:[CHS] - 爬塔第一档-MC第32关（双路）(test)
+3402:[CHS] - 爬塔第一档-MC第33关（双路）(test)
+3403:[CHS] - 爬塔第一档-MC第34关（双路）(test)
+3404:[CHS] - 爬塔第一档-MC第35关（双路）(test)
+3405:[CHS] - 爬塔第一档-MC第36关（双路）(test)
+3406:[CHS] - 爬塔第一档-MC第37关（双路）(test)
+3407:[CHS] - 爬塔第一档-MC第38关（双路）(test)
+3408:[CHS] - 爬塔第一档-MC第39关（双路）(test)
+3409:[CHS] - 爬塔第一档-MC第40关（双路）(test)
 3100:Tower Descent - Floor 1: Chamber 1
-3101:爬塔第一档-MC第42关（双路）(test)
-3102:爬塔第一档-MC第43关（双路）(test)
-3103:爬塔第一档-MC第44关（双路）(test)
-3104:爬塔第一档-MC第45关（双路）(test)
-3105:爬塔第一档-MC第46关（双路）(test)
-3106:爬塔第一档-MC第47关（双路）(test)
-3107:爬塔第一档-MC第48关（双路）(test)
-3108:爬塔第一档-MC第49关（双路）(test)
-3109:爬塔第一档-MC第50关（双路）(test)
-3110:爬塔第一档-MC第51关（双路）(test)
-3111:爬塔第一档-MC第52关（双路）(test)
-3112:爬塔第一档-MC第53关（双路）(test)
-3113:爬塔第一档-MC第54关（双路）(test)
-3114:爬塔第一档-MC第55关（双路）(test)
-3115:爬塔第一档-MC第56关（双路）(test)
-3116:爬塔第一档-MC第57关（双路）(test)
-3117:爬塔第一档-MC第58关（双路）(test)
-3118:爬塔第一档-MC第59关（双路）(test)
-3119:爬塔第一档-MC第60关（双路）(test)
-3120:爬塔第一档-MC第61关（双路）(test)
-3470:爬塔第二档-MC第1关（双路）(test)
-3471:爬塔第二档-MC第2关（双路）(test)
-3472:爬塔第二档-MC第3关（双路）(test)
-3473:爬塔第二档-MC第4关（双路）(test)
-3474:爬塔第二档-MC第5关（双路）(test)
-3475:爬塔第二档-MC第6关（双路）(test)
-3476:爬塔第二档-MC第7关（双路）(test)
-3477:爬塔第二档-MC第8关（双路）(test)
-3478:爬塔第二档-MC第9关（双路）(test)
-3479:爬塔第二档-MC第10关（双路）(test)
-3480:爬塔第二档-MC第11关（双路）(test)
-3481:爬塔第二档-MC第12关（双路）(test)
-3482:爬塔第二档-MC第13关（双路）(test)
-3483:爬塔第二档-MC第14关（双路）(test)
-3484:爬塔第二档-MC第15关（双路）(test)
-3485:爬塔第二档-MC第16关（双路）(test)
-3486:爬塔第二档-MC第17关（双路）(test)
-3487:爬塔第二档-MC第18关（双路）(test)
-3488:爬塔第二档-MC第19关（双路）(test)
-3489:爬塔第二档-MC第20关（双路）(test)
-3490:爬塔第二档-MC第21关（双路）(test)
-3491:爬塔第二档-MC第22关（双路）(test)
-3492:爬塔第二档-MC第23关（双路）(test)
-3493:爬塔第二档-MC第24关（双路）(test)
-3494:爬塔第二档-MC第25关（双路）(test)
-3495:爬塔第二档-MC第26关（双路）(test)
-3496:爬塔第二档-MC第27关（双路）(test)
-3497:爬塔第二档-MC第28关（双路）(test)
-3498:爬塔第二档-MC第29关（双路）(test)
-3499:爬塔第二档-MC第30关（双路）(test)
-3500:爬塔第二档-MC第31关（双路）(test)
-3501:爬塔第二档-MC第32关（双路）(test)
-3502:爬塔第二档-MC第33关（双路）(test)
-3503:爬塔第二档-MC第34关（双路）(test)
-3504:爬塔第二档-MC第35关（双路）(test)
-3505:爬塔第二档-MC第36关（双路）(test)
-3506:爬塔第二档-MC第37关（双路）(test)
-3507:爬塔第二档-MC第38关（双路）(test)
-3508:爬塔第二档-MC第39关（双路）(test)
-3509:爬塔第二档-MC第40关（双路）(test)
+3101:[CHS] - 爬塔第一档-MC第42关（双路）(test)
+3102:[CHS] - 爬塔第一档-MC第43关（双路）(test)
+3103:[CHS] - 爬塔第一档-MC第44关（双路）(test)
+3104:[CHS] - 爬塔第一档-MC第45关（双路）(test)
+3105:[CHS] - 爬塔第一档-MC第46关（双路）(test)
+3106:[CHS] - 爬塔第一档-MC第47关（双路）(test)
+3107:[CHS] - 爬塔第一档-MC第48关（双路）(test)
+3108:[CHS] - 爬塔第一档-MC第49关（双路）(test)
+3109:[CHS] - 爬塔第一档-MC第50关（双路）(test)
+3110:[CHS] - 爬塔第一档-MC第51关（双路）(test)
+3111:[CHS] - 爬塔第一档-MC第52关（双路）(test)
+3112:[CHS] - 爬塔第一档-MC第53关（双路）(test)
+3113:[CHS] - 爬塔第一档-MC第54关（双路）(test)
+3114:[CHS] - 爬塔第一档-MC第55关（双路）(test)
+3115:[CHS] - 爬塔第一档-MC第56关（双路）(test)
+3116:[CHS] - 爬塔第一档-MC第57关（双路）(test)
+3117:[CHS] - 爬塔第一档-MC第58关（双路）(test)
+3118:[CHS] - 爬塔第一档-MC第59关（双路）(test)
+3119:[CHS] - 爬塔第一档-MC第60关（双路）(test)
+3120:[CHS] - 爬塔第一档-MC第61关（双路）(test)
+3470:[CHS] - 爬塔第二档-MC第1关（双路）(test)
+3471:[CHS] - 爬塔第二档-MC第2关（双路）(test)
+3472:[CHS] - 爬塔第二档-MC第3关（双路）(test)
+3473:[CHS] - 爬塔第二档-MC第4关（双路）(test)
+3474:[CHS] - 爬塔第二档-MC第5关（双路）(test)
+3475:[CHS] - 爬塔第二档-MC第6关（双路）(test)
+3476:[CHS] - 爬塔第二档-MC第7关（双路）(test)
+3477:[CHS] - 爬塔第二档-MC第8关（双路）(test)
+3478:[CHS] - 爬塔第二档-MC第9关（双路）(test)
+3479:[CHS] - 爬塔第二档-MC第10关（双路）(test)
+3480:[CHS] - 爬塔第二档-MC第11关（双路）(test)
+3481:[CHS] - 爬塔第二档-MC第12关（双路）(test)
+3482:[CHS] - 爬塔第二档-MC第13关（双路）(test)
+3483:[CHS] - 爬塔第二档-MC第14关（双路）(test)
+3484:[CHS] - 爬塔第二档-MC第15关（双路）(test)
+3485:[CHS] - 爬塔第二档-MC第16关（双路）(test)
+3486:[CHS] - 爬塔第二档-MC第17关（双路）(test)
+3487:[CHS] - 爬塔第二档-MC第18关（双路）(test)
+3488:[CHS] - 爬塔第二档-MC第19关（双路）(test)
+3489:[CHS] - 爬塔第二档-MC第20关（双路）(test)
+3490:[CHS] - 爬塔第二档-MC第21关（双路）(test)
+3491:[CHS] - 爬塔第二档-MC第22关（双路）(test)
+3492:[CHS] - 爬塔第二档-MC第23关（双路）(test)
+3493:[CHS] - 爬塔第二档-MC第24关（双路）(test)
+3494:[CHS] - 爬塔第二档-MC第25关（双路）(test)
+3495:[CHS] - 爬塔第二档-MC第26关（双路）(test)
+3496:[CHS] - 爬塔第二档-MC第27关（双路）(test)
+3497:[CHS] - 爬塔第二档-MC第28关（双路）(test)
+3498:[CHS] - 爬塔第二档-MC第29关（双路）(test)
+3499:[CHS] - 爬塔第二档-MC第30关（双路）(test)
+3500:[CHS] - 爬塔第二档-MC第31关（双路）(test)
+3501:[CHS] - 爬塔第二档-MC第32关（双路）(test)
+3502:[CHS] - 爬塔第二档-MC第33关（双路）(test)
+3503:[CHS] - 爬塔第二档-MC第34关（双路）(test)
+3504:[CHS] - 爬塔第二档-MC第35关（双路）(test)
+3505:[CHS] - 爬塔第二档-MC第36关（双路）(test)
+3506:[CHS] - 爬塔第二档-MC第37关（双路）(test)
+3507:[CHS] - 爬塔第二档-MC第38关（双路）(test)
+3508:[CHS] - 爬塔第二档-MC第39关（双路）(test)
+3509:[CHS] - 爬塔第二档-MC第40关（双路）(test)
 3200:Tower Descent - Floor 11: Chamber 1
-3201:爬塔第二档-MC第42关（双路）(test)
-3202:爬塔第二档-MC第43关（双路）(test)
-3203:爬塔第二档-MC第44关（双路）(test)
-3204:爬塔第二档-MC第45关（双路）(test)
-3205:爬塔第二档-MC第46关（双路）(test)
-3206:爬塔第二档-MC第47关（双路）(test)
-3207:爬塔第二档-MC第48关（双路）(test)
-3208:爬塔第二档-MC第49关（双路）(test)
-3209:爬塔第二档-MC第50关（双路）(test)
-3210:爬塔第二档-MC第51关（双路）(test)
-3211:爬塔第二档-MC第52关（双路）(test)
-3212:爬塔第二档-MC第53关（双路）(test)
-3213:爬塔第二档-MC第54关（双路）(test)
-3214:爬塔第二档-MC第55关（双路）(test)
-3215:爬塔第二档-MC第56关（双路）(test)
-3216:爬塔第二档-MC第57关（双路）(test)
-3217:爬塔第二档-MC第58关（双路）(test)
-3218:爬塔第二档-MC第59关（双路）(test)
-3219:爬塔第二档-MC第60关（双路）(test)
-3220:爬塔第二档-MC第61关（双路）(test)
-3570:爬塔第三档-MC第1关（双路）(test)
-3571:爬塔第三档-MC第2关（双路）(test)
-3572:爬塔第三档-MC第3关（双路）(test)
-3573:爬塔第三档-MC第4关（双路）(test)
-3574:爬塔第三档-MC第5关（双路）(test)
-3575:爬塔第三档-MC第6关（双路）(test)
-3576:爬塔第三档-MC第7关（双路）(test)
-3577:爬塔第三档-MC第8关（双路）(test)
-3578:爬塔第三档-MC第9关（双路）(test)
-3579:爬塔第三档-MC第10关（双路）(test)
-3580:爬塔第三档-MC第11关（双路）(test)
-3581:爬塔第三档-MC第12关（双路）(test)
-3582:爬塔第三档-MC第13关（双路）(test)
-3583:爬塔第三档-MC第14关（双路）(test)
-3584:爬塔第三档-MC第15关（双路）(test)
-3585:爬塔第三档-MC第16关（双路）(test)
-3586:爬塔第三档-MC第17关（双路）(test)
-3587:爬塔第三档-MC第18关（双路）(test)
-3588:爬塔第三档-MC第19关（双路）(test)
-3589:爬塔第三档-MC第20关（双路）(test)
-3590:爬塔第三档-MC第21关（双路）(test)
-3591:爬塔第三档-MC第22关（双路）(test)
-3592:爬塔第三档-MC第23关（双路）(test)
-3593:爬塔第三档-MC第24关（双路）(test)
-3594:爬塔第三档-MC第25关（双路）(test)
-3595:爬塔第三档-MC第26关（双路）(test)
-3596:爬塔第三档-MC第27关（双路）(test)
-3597:爬塔第三档-MC第28关（双路）(test)
-3598:爬塔第三档-MC第29关（双路）(test)
-3599:爬塔第三档-MC第30关（双路）(test)
-3600:爬塔第三档-MC第31关（双路）(test)
-3601:爬塔第三档-MC第32关（双路）(test)
-3602:爬塔第三档-MC第33关（双路）(test)
-3603:爬塔第三档-MC第34关（双路）(test)
-3604:爬塔第三档-MC第35关（双路）(test)
-3605:爬塔第三档-MC第36关（双路）(test)
-3606:爬塔第三档-MC第37关（双路）(test)
-3607:爬塔第三档-MC第38关（双路）(test)
-3608:爬塔第三档-MC第39关（双路）(test)
-3609:爬塔第三档-MC第40关（双路）(test)
-3300:爬塔第三档-MC第41关（双路）(test)
-3301:爬塔第三档-MC第42关（双路）(test)
-3302:爬塔第三档-MC第43关（双路）(test)
-3303:爬塔第三档-MC第44关（双路）(test)
-3304:爬塔第三档-MC第45关（双路）(test)
-3305:爬塔第三档-MC第46关（双路）(test)
-3306:爬塔第三档-MC第47关（双路）(test)
-3307:爬塔第三档-MC第48关（双路）(test)
-3308:爬塔第三档-MC第49关（双路）(test)
-3309:爬塔第三档-MC第50关（双路）(test)
-3610:爬塔第三档-MC第51关（双路）(test)
-3611:爬塔第三档-MC第52关（双路）(test)
-3612:爬塔第三档-MC第53关（双路）(test)
-3613:爬塔第三档-MC第54关（双路）(test)
-3614:爬塔第三档-MC第55关（双路）(test)
-3615:爬塔第三档-MC第56关（双路）(test)
-3616:爬塔第三档-MC第57关（双路）(test)
-3617:爬塔第三档-MC第58关（双路）(test)
-3618:爬塔第三档-MC第59关（双路）(test)
-3619:爬塔第三档-MC第60关（双路）(test)
-3620:爬塔第三档-MC第61关（双路）(test)
+3201:[CHS] - 爬塔第二档-MC第42关（双路）(test)
+3202:[CHS] - 爬塔第二档-MC第43关（双路）(test)
+3203:[CHS] - 爬塔第二档-MC第44关（双路）(test)
+3204:[CHS] - 爬塔第二档-MC第45关（双路）(test)
+3205:[CHS] - 爬塔第二档-MC第46关（双路）(test)
+3206:[CHS] - 爬塔第二档-MC第47关（双路）(test)
+3207:[CHS] - 爬塔第二档-MC第48关（双路）(test)
+3208:[CHS] - 爬塔第二档-MC第49关（双路）(test)
+3209:[CHS] - 爬塔第二档-MC第50关（双路）(test)
+3210:[CHS] - 爬塔第二档-MC第51关（双路）(test)
+3211:[CHS] - 爬塔第二档-MC第52关（双路）(test)
+3212:[CHS] - 爬塔第二档-MC第53关（双路）(test)
+3213:[CHS] - 爬塔第二档-MC第54关（双路）(test)
+3214:[CHS] - 爬塔第二档-MC第55关（双路）(test)
+3215:[CHS] - 爬塔第二档-MC第56关（双路）(test)
+3216:[CHS] - 爬塔第二档-MC第57关（双路）(test)
+3217:[CHS] - 爬塔第二档-MC第58关（双路）(test)
+3218:[CHS] - 爬塔第二档-MC第59关（双路）(test)
+3219:[CHS] - 爬塔第二档-MC第60关（双路）(test)
+3220:[CHS] - 爬塔第二档-MC第61关（双路）(test)
+3570:[CHS] - 爬塔第三档-MC第1关（双路）(test)
+3571:[CHS] - 爬塔第三档-MC第2关（双路）(test)
+3572:[CHS] - 爬塔第三档-MC第3关（双路）(test)
+3573:[CHS] - 爬塔第三档-MC第4关（双路）(test)
+3574:[CHS] - 爬塔第三档-MC第5关（双路）(test)
+3575:[CHS] - 爬塔第三档-MC第6关（双路）(test)
+3576:[CHS] - 爬塔第三档-MC第7关（双路）(test)
+3577:[CHS] - 爬塔第三档-MC第8关（双路）(test)
+3578:[CHS] - 爬塔第三档-MC第9关（双路）(test)
+3579:[CHS] - 爬塔第三档-MC第10关（双路）(test)
+3580:[CHS] - 爬塔第三档-MC第11关（双路）(test)
+3581:[CHS] - 爬塔第三档-MC第12关（双路）(test)
+3582:[CHS] - 爬塔第三档-MC第13关（双路）(test)
+3583:[CHS] - 爬塔第三档-MC第14关（双路）(test)
+3584:[CHS] - 爬塔第三档-MC第15关（双路）(test)
+3585:[CHS] - 爬塔第三档-MC第16关（双路）(test)
+3586:[CHS] - 爬塔第三档-MC第17关（双路）(test)
+3587:[CHS] - 爬塔第三档-MC第18关（双路）(test)
+3588:[CHS] - 爬塔第三档-MC第19关（双路）(test)
+3589:[CHS] - 爬塔第三档-MC第20关（双路）(test)
+3590:[CHS] - 爬塔第三档-MC第21关（双路）(test)
+3591:[CHS] - 爬塔第三档-MC第22关（双路）(test)
+3592:[CHS] - 爬塔第三档-MC第23关（双路）(test)
+3593:[CHS] - 爬塔第三档-MC第24关（双路）(test)
+3594:[CHS] - 爬塔第三档-MC第25关（双路）(test)
+3595:[CHS] - 爬塔第三档-MC第26关（双路）(test)
+3596:[CHS] - 爬塔第三档-MC第27关（双路）(test)
+3597:[CHS] - 爬塔第三档-MC第28关（双路）(test)
+3598:[CHS] - 爬塔第三档-MC第29关（双路）(test)
+3599:[CHS] - 爬塔第三档-MC第30关（双路）(test)
+3600:[CHS] - 爬塔第三档-MC第31关（双路）(test)
+3601:[CHS] - 爬塔第三档-MC第32关（双路）(test)
+3602:[CHS] - 爬塔第三档-MC第33关（双路）(test)
+3603:[CHS] - 爬塔第三档-MC第34关（双路）(test)
+3604:[CHS] - 爬塔第三档-MC第35关（双路）(test)
+3605:[CHS] - 爬塔第三档-MC第36关（双路）(test)
+3606:[CHS] - 爬塔第三档-MC第37关（双路）(test)
+3607:[CHS] - 爬塔第三档-MC第38关（双路）(test)
+3608:[CHS] - 爬塔第三档-MC第39关（双路）(test)
+3609:[CHS] - 爬塔第三档-MC第40关（双路）(test)
+3300:[CHS] - 爬塔第三档-MC第41关（双路）(test)
+3301:[CHS] - 爬塔第三档-MC第42关（双路）(test)
+3302:[CHS] - 爬塔第三档-MC第43关（双路）(test)
+3303:[CHS] - 爬塔第三档-MC第44关（双路）(test)
+3304:[CHS] - 爬塔第三档-MC第45关（双路）(test)
+3305:[CHS] - 爬塔第三档-MC第46关（双路）(test)
+3306:[CHS] - 爬塔第三档-MC第47关（双路）(test)
+3307:[CHS] - 爬塔第三档-MC第48关（双路）(test)
+3308:[CHS] - 爬塔第三档-MC第49关（双路）(test)
+3309:[CHS] - 爬塔第三档-MC第50关（双路）(test)
+3610:[CHS] - 爬塔第三档-MC第51关（双路）(test)
+3611:[CHS] - 爬塔第三档-MC第52关（双路）(test)
+3612:[CHS] - 爬塔第三档-MC第53关（双路）(test)
+3613:[CHS] - 爬塔第三档-MC第54关（双路）(test)
+3614:[CHS] - 爬塔第三档-MC第55关（双路）(test)
+3615:[CHS] - 爬塔第三档-MC第56关（双路）(test)
+3616:[CHS] - 爬塔第三档-MC第57关（双路）(test)
+3617:[CHS] - 爬塔第三档-MC第58关（双路）(test)
+3618:[CHS] - 爬塔第三档-MC第59关（双路）(test)
+3619:[CHS] - 爬塔第三档-MC第60关（双路）(test)
+3620:[CHS] - 爬塔第三档-MC第61关（双路）(test)
 4001:Investigate the turmoil in the Depths of the Ruins
 4003:Explore: Ancient Township Ruins
 4005:Trial: Temporary Weekly Dungeon
@@ -616,9 +616,9 @@
 4014:Kaeya's Challenges Test
 4015:Investigate: Secret Hideout
 4016:Explore: Travels of the Moonlit Venturer
-4017:壶中天挑战测试2(test)
+4017:[CHS] - 壶中天挑战测试2(test)
 4018:Explore: Tarry Among the Peach Blossoms
-4019:云海挑战玩法测试2(test)
+4019:[CHS] - 云海挑战玩法测试2(test)
 4020:Explore: Voyage to the Sanguine Sky
 4021:Explore: Lucky Encounter in the Clouds
 4022:Elemental Trial: Vaporize
@@ -636,7 +636,7 @@
 4034:Lament: Bitter Hate I
 4035:Lament: Bitter Hate II
 4036:Wanderer's Threefold Challenge
-4037:BOSS挑战深测地城(test)
+4037:[CHS] - BOSS挑战深测地城(test)
 4038:Tutelage: Castle of Scrolls
 4039:Tutelage: King of Thieves
 4040:Tutelage: A Thousand Scrolls
@@ -655,19 +655,19 @@
 4053:Ternary of the Blazing Hearth — Standard Scoring
 4054:Scherzo of the Rippling Pool — Standard Scoring
 4055:Rondo of the Forest Corral — Standard Scoring
-4056:(test)3.4连线挑战地城1
-4057:(test)3.4连线挑战地城2
-4058:(test)3.4连线挑战地城3
-4059:(test)3.4连线挑战地城4
-4060:(test)3.4连线挑战地城5
+4056:[CHS] - (test)3.4连线挑战地城1
+4057:[CHS] - (test)3.4连线挑战地城2
+4058:[CHS] - (test)3.4连线挑战地城3
+4059:[CHS] - (test)3.4连线挑战地城4
+4060:[CHS] - (test)3.4连线挑战地城5
 4061:Fading Rumination
 4062:Suspiration of the Deceased
 4063:Mare Terrae
 4064:Sanctuary of Solemnity
-4065:(test)3.7风来人1
-4066:(test)3.7风来人2
-4067:(test)3.7风来人3
-4068:(test)3.7风来人4
+4065:[CHS] - (test)3.7风来人1
+4066:[CHS] - (test)3.7风来人2
+4067:[CHS] - (test)3.7风来人3
+4068:[CHS] - (test)3.7风来人4
 4601:Not yet available
 4602:Not yet available
 4603:Not yet available
@@ -882,84 +882,84 @@
 5305:Violet Lightning Concerto II
 5306:Stone Heart Sonata II
 5310:Peculiar Wonderland
-5311:(test)奇趣秘园2.0
+5311:[CHS] - (test)奇趣秘园2.0
 5312:3.8 Adventurer's Trials — Phase 2
-6000:角色试玩关-温迪(test)
-6001:角色试玩关-芭芭拉(test)
-6002:角色试玩关-菲谢尔(test)
-6003:角色试玩关-可莉(test)
-6004:角色试玩关-行秋(test)
-6005:角色试玩关-砂糖(test)
-6006:角色试玩关-公子(test)
-6007:角色试玩关-辛焱(test)
-6008:角色试玩关-北斗(test)
-6009:角色试玩关-重云(test)
-6010:角色试玩关-钟离(test)
-6011:角色试玩关-迪奥娜(test)
-6012:角色试玩关-凝光(test)
-6013:角色试玩关-雷泽(test)
-6014:角色试玩关-甘雨(test)
-6015:角色试玩关-阿贝多(test)
-6016:角色试玩关-行秋(test)
-6017:角色试玩关-菲谢尔(test)
-6018:角色试玩关-砂糖(test)
-6019:角色试玩关-班尼特(test)
-6020:角色试玩关-胡桃(test)
-6021:角色试玩关-魈(test)
-6022:角色试玩关-凝光(test)
-6023:角色试玩关-北斗(test)
-6024:角色试玩关-辛焱(test)
-6025:角色试玩关-班尼特(test)
-6026:角色试玩关-行秋(test)
-6027:角色试玩关-重云(test)
-6028:角色试玩关-罗莎莉亚(test)
-6029:角色试玩关-刻晴(test)
-6030:角色试玩关-迪奥娜(test)
-6031:角色试玩关-芭芭拉(test)
-6032:角色试玩关-烟绯(test)
-6033:角色试玩关-优菈(test)
-6034:角色试玩关-桐生万叶(test)
-6035:角色试玩关-神里绫华(test)
-6036:角色试玩关-宵宫(test)
-6037:角色试玩关-早柚(test)
-6038:角色试玩关-雷电将军(test)
-6039:角色试玩关-珊瑚宫心海(test)
-6040:角色试玩关-九条裟罗(test)
-6041:角色试玩关-托马(test)
-6042:角色试玩关-荒泷一斗(test)
-6043:角色试玩关-五郎(test)
-6044:角色试玩关-申鹤(test)
-6045:角色试玩关-云堇(test)
-6046:角色试玩关-八重神子(test)
-6047:角色试玩关-神里绫人(test)
-6048:角色试玩关-久岐忍(test)
-6049:角色试玩关-夜兰(test)
-6050:角色试玩关-鹿野院平藏(test)
-6051:角色试玩关-多莉(test)
-6052:角色试玩关-柯莱(test)
-6053:角色试玩关-提纳里(test)
-6054:角色试玩关-坎蒂丝(test)
-6055:角色试玩关-妮露(test)
-6056:角色试玩关-赛诺(test)
-6057:角色试玩关-莱依拉(test)
-6058:角色试玩关-纳西妲(test)
-6059:角色试玩关-流浪者(test)
-6060:角色试玩关-法露珊(test)
-6061:角色试玩关-瑶瑶(test)
-6062:角色试玩关-艾尔海森(test)
-6063:角色试玩关-米卡(test)
-6064:角色试玩关-迪希雅(test)
-6065:角色试玩关-白术(test)
-6066:角色试玩关-卡维(test)
-6067:角色试玩关-绮良良(test)
-6068:角色试玩关-宵宫V2(test)
-6069:角色试玩关-烟绯V2(test)
-6070:角色试玩关-？？？(test)
-6071:角色试玩关-？？？(test)
-6072:角色试玩关-？？？(test)
-6073:角色试玩关-？？？(test)
-6074:角色试玩关-？？？(test)
-6075:角色试玩关-？？？(test)
+6000:[CHS] - 角色试玩关-温迪(test)
+6001:[CHS] - 角色试玩关-芭芭拉(test)
+6002:[CHS] - 角色试玩关-菲谢尔(test)
+6003:[CHS] - 角色试玩关-可莉(test)
+6004:[CHS] - 角色试玩关-行秋(test)
+6005:[CHS] - 角色试玩关-砂糖(test)
+6006:[CHS] - 角色试玩关-公子(test)
+6007:[CHS] - 角色试玩关-辛焱(test)
+6008:[CHS] - 角色试玩关-北斗(test)
+6009:[CHS] - 角色试玩关-重云(test)
+6010:[CHS] - 角色试玩关-钟离(test)
+6011:[CHS] - 角色试玩关-迪奥娜(test)
+6012:[CHS] - 角色试玩关-凝光(test)
+6013:[CHS] - 角色试玩关-雷泽(test)
+6014:[CHS] - 角色试玩关-甘雨(test)
+6015:[CHS] - 角色试玩关-阿贝多(test)
+6016:[CHS] - 角色试玩关-行秋(test)
+6017:[CHS] - 角色试玩关-菲谢尔(test)
+6018:[CHS] - 角色试玩关-砂糖(test)
+6019:[CHS] - 角色试玩关-班尼特(test)
+6020:[CHS] - 角色试玩关-胡桃(test)
+6021:[CHS] - 角色试玩关-魈(test)
+6022:[CHS] - 角色试玩关-凝光(test)
+6023:[CHS] - 角色试玩关-北斗(test)
+6024:[CHS] - 角色试玩关-辛焱(test)
+6025:[CHS] - 角色试玩关-班尼特(test)
+6026:[CHS] - 角色试玩关-行秋(test)
+6027:[CHS] - 角色试玩关-重云(test)
+6028:[CHS] - 角色试玩关-罗莎莉亚(test)
+6029:[CHS] - 角色试玩关-刻晴(test)
+6030:[CHS] - 角色试玩关-迪奥娜(test)
+6031:[CHS] - 角色试玩关-芭芭拉(test)
+6032:[CHS] - 角色试玩关-烟绯(test)
+6033:[CHS] - 角色试玩关-优菈(test)
+6034:[CHS] - 角色试玩关-桐生万叶(test)
+6035:[CHS] - 角色试玩关-神里绫华(test)
+6036:[CHS] - 角色试玩关-宵宫(test)
+6037:[CHS] - 角色试玩关-早柚(test)
+6038:[CHS] - 角色试玩关-雷电将军(test)
+6039:[CHS] - 角色试玩关-珊瑚宫心海(test)
+6040:[CHS] - 角色试玩关-九条裟罗(test)
+6041:[CHS] - 角色试玩关-托马(test)
+6042:[CHS] - 角色试玩关-荒泷一斗(test)
+6043:[CHS] - 角色试玩关-五郎(test)
+6044:[CHS] - 角色试玩关-申鹤(test)
+6045:[CHS] - 角色试玩关-云堇(test)
+6046:[CHS] - 角色试玩关-八重神子(test)
+6047:[CHS] - 角色试玩关-神里绫人(test)
+6048:[CHS] - 角色试玩关-久岐忍(test)
+6049:[CHS] - 角色试玩关-夜兰(test)
+6050:[CHS] - 角色试玩关-鹿野院平藏(test)
+6051:[CHS] - 角色试玩关-多莉(test)
+6052:[CHS] - 角色试玩关-柯莱(test)
+6053:[CHS] - 角色试玩关-提纳里(test)
+6054:[CHS] - 角色试玩关-坎蒂丝(test)
+6055:[CHS] - 角色试玩关-妮露(test)
+6056:[CHS] - 角色试玩关-赛诺(test)
+6057:[CHS] - 角色试玩关-莱依拉(test)
+6058:[CHS] - 角色试玩关-纳西妲(test)
+6059:[CHS] - 角色试玩关-流浪者(test)
+6060:[CHS] - 角色试玩关-法露珊(test)
+6061:[CHS] - 角色试玩关-瑶瑶(test)
+6062:[CHS] - 角色试玩关-艾尔海森(test)
+6063:[CHS] - 角色试玩关-米卡(test)
+6064:[CHS] - 角色试玩关-迪希雅(test)
+6065:[CHS] - 角色试玩关-白术(test)
+6066:[CHS] - 角色试玩关-卡维(test)
+6067:[CHS] - 角色试玩关-绮良良(test)
+6068:[CHS] - 角色试玩关-宵宫V2(test)
+6069:[CHS] - 角色试玩关-烟绯V2(test)
+6070:[CHS] - 角色试玩关-？？？(test)
+6071:[CHS] - 角色试玩关-？？？(test)
+6072:[CHS] - 角色试玩关-？？？(test)
+6073:[CHS] - 角色试玩关-？？？(test)
+6074:[CHS] - 角色试玩关-？？？(test)
+6075:[CHS] - 角色试玩关-？？？(test)
 7000:The Wind from the Reeds Topples Well-Fed Trees
 7001:The Wind from the Reeds Topples Well-Fed Trees: Difficulty 1
 7002:Stop to Rest Your Weary Head, Paint the Bridge Where Adepti Tread: Difficulty 2
@@ -980,13 +980,13 @@
 7103:Trial Domain: Elemental Reaction Theme
 7104:Trial Domain: Melee Attack Theme
 7105:Trial Domain: Ranged Attack Theme
-7106:迷城战线二期-永冻主题(test)
-7107:迷城战线二期-魔王武装(test)
-7108:迷城战线二期-增幅(test)
-7109:迷城战线二期-剧变(test)
-7110:迷城战线二期-速充(test)
-7111:迷城战线二期-扩散(test)
-7112:迷城战线二期-BOSS战(test)
+7106:[CHS] - 迷城战线二期-永冻主题(test)
+7107:[CHS] - 迷城战线二期-魔王武装(test)
+7108:[CHS] - 迷城战线二期-增幅(test)
+7109:[CHS] - 迷城战线二期-剧变(test)
+7110:[CHS] - 迷城战线二期-速充(test)
+7111:[CHS] - 迷城战线二期-扩散(test)
+7112:[CHS] - 迷城战线二期-BOSS战(test)
 7201:Vishap's Rest
 7202:Where Shadows Writhe
 7203:Frost-Worn Space
@@ -1033,32 +1033,32 @@
 7409:Springtide Advent
 7410:Dream Pavilion
 7411:Dream Pavilion
-7500:塔防残局01(test)
-7501:塔防残局02(test)
-7502:塔防残局03(test)
-7503:塔防残局04(test)
-7504:塔防残局01(test)困难
-7505:塔防残局02(test)困难
-7506:塔防残局03(test)困难
-7507:塔防残局04(test)困难
-7601:（test)层岩地城1肉鸽简单
-7602:（test)层岩地城2肉鸽简单
-7603:（test)层岩地城3肉鸽简单
-7604:（test)层岩地城1肉鸽困难
-7605:（test)层岩地城2肉鸽困难
-7606:（test)层岩地城3肉鸽困难
-7607:（test)层岩地城1大肉鸽简单
-7608:（test)层岩地城2大肉鸽简单
-7609:（test)层岩地城3大肉鸽简单
-7610:（test)层岩地城1大肉鸽困难
-7611:（test)层岩地城2大肉鸽困难
-7612:（test)层岩地城3大肉鸽困难
-7613:（test)层岩地城1大肉鸽高难
-7614:（test)层岩地城2大肉鸽高难
-7615:（test)层岩地城3大肉鸽高难
-7616:（test)层岩地城1肉鸽高难
-7617:（test)层岩地城2肉鸽高难
-7618:（test)层岩地城3肉鸽高难
+7500:[CHS] - 塔防残局01(test)
+7501:[CHS] - 塔防残局02(test)
+7502:[CHS] - 塔防残局03(test)
+7503:[CHS] - 塔防残局04(test)
+7504:[CHS] - 塔防残局01(test)困难
+7505:[CHS] - 塔防残局02(test)困难
+7506:[CHS] - 塔防残局03(test)困难
+7507:[CHS] - 塔防残局04(test)困难
+7601:[CHS] - （test)层岩地城1肉鸽简单
+7602:[CHS] - （test)层岩地城2肉鸽简单
+7603:[CHS] - （test)层岩地城3肉鸽简单
+7604:[CHS] - （test)层岩地城1肉鸽困难
+7605:[CHS] - （test)层岩地城2肉鸽困难
+7606:[CHS] - （test)层岩地城3肉鸽困难
+7607:[CHS] - （test)层岩地城1大肉鸽简单
+7608:[CHS] - （test)层岩地城2大肉鸽简单
+7609:[CHS] - （test)层岩地城3大肉鸽简单
+7610:[CHS] - （test)层岩地城1大肉鸽困难
+7611:[CHS] - （test)层岩地城2大肉鸽困难
+7612:[CHS] - （test)层岩地城3大肉鸽困难
+7613:[CHS] - （test)层岩地城1大肉鸽高难
+7614:[CHS] - （test)层岩地城2大肉鸽高难
+7615:[CHS] - （test)层岩地城3大肉鸽高难
+7616:[CHS] - （test)层岩地城1肉鸽高难
+7617:[CHS] - （test)层岩地城2肉鸽高难
+7618:[CHS] - （test)层岩地城3肉鸽高难
 7701:Initial Exploration
 7702:Direct Strike
 7703:Initial Exploration
@@ -1067,84 +1067,84 @@
 7706:Direct Strike
 7707:Initial Exploration
 7708:Direct Strike
-7801:test 时停挑战1
-7802:test 时停挑战2
-7803:test 时停挑战3
-7804:test 时停挑战4
-7805:test 时停挑战5
-7806:test 时停挑战6
-7807:test 时停挑战7
-7900:(test)爆炸魔药活动1
-7901:(test)爆炸魔药活动2
-7902:(test)爆炸魔药活动3
-7903:(test)爆炸魔药活动4
-8001:镜像大世界测试(test)
-8101:(test) 蕈兽活动-进攻1
-8102:(test) 蕈兽活动-进攻2
-8103:(test) 蕈兽活动-进攻3
-8104:(test) 蕈兽活动-进攻4
-8105:(test) 蕈兽活动-进攻5
-8106:(test) 蕈兽活动-防守1
-8107:(test) 蕈兽活动-防守2
-8108:(test) 蕈兽活动-防守3
-8109:(test) 蕈兽活动-防守4
-8110:(test) 蕈兽活动-防守5
-8111:(test)3.2蕈兽活动剧情地城1
-8112:(test)3.2蕈兽活动剧情地城2
-8113:(test)3.2蕈兽活动剧情地城3
-8114:(test)3.2蕈兽活动剧情地城4
-8115:(test)3.2蕈兽活动剧情地城5
-8116:(test)3.2蕈兽活动剧情地城6
+7801:[CHS] - test 时停挑战1
+7802:[CHS] - test 时停挑战2
+7803:[CHS] - test 时停挑战3
+7804:[CHS] - test 时停挑战4
+7805:[CHS] - test 时停挑战5
+7806:[CHS] - test 时停挑战6
+7807:[CHS] - test 时停挑战7
+7900:[CHS] - (test)爆炸魔药活动1
+7901:[CHS] - (test)爆炸魔药活动2
+7902:[CHS] - (test)爆炸魔药活动3
+7903:[CHS] - (test)爆炸魔药活动4
+8001:[CHS] - 镜像大世界测试(test)
+8101:[CHS] - (test) 蕈兽活动-进攻1
+8102:[CHS] - (test) 蕈兽活动-进攻2
+8103:[CHS] - (test) 蕈兽活动-进攻3
+8104:[CHS] - (test) 蕈兽活动-进攻4
+8105:[CHS] - (test) 蕈兽活动-进攻5
+8106:[CHS] - (test) 蕈兽活动-防守1
+8107:[CHS] - (test) 蕈兽活动-防守2
+8108:[CHS] - (test) 蕈兽活动-防守3
+8109:[CHS] - (test) 蕈兽活动-防守4
+8110:[CHS] - (test) 蕈兽活动-防守5
+8111:[CHS] - (test)3.2蕈兽活动剧情地城1
+8112:[CHS] - (test)3.2蕈兽活动剧情地城2
+8113:[CHS] - (test)3.2蕈兽活动剧情地城3
+8114:[CHS] - (test)3.2蕈兽活动剧情地城4
+8115:[CHS] - (test)3.2蕈兽活动剧情地城5
+8116:[CHS] - (test)3.2蕈兽活动剧情地城6
 8200:Realm of the Northeasterly Winds
 8201:Realm of the Easterly Winds
 8202:Realm of the Southeasterly Winds
 8203:Realm of the Northwesterly Winds
 8204:Realm of the Southerly Winds
-8301:(test)3.3迷城复刻01
-8302:(test)3.3迷城复刻02
-8303:(test)3.3迷城复刻03
-8304:(test)3.3迷城复刻04
-8305:(test)3.3迷城复刻05
-8306:(test)3.3迷城复刻06
-8307:(test)3.3迷城复刻07
-8401:(test)3.4拼刀地城01
-8402:(test)3.4拼刀地城02
-8403:(test)3.4拼刀地城03
-8404:(test)3.4拼刀地城04
-8405:(test)3.4拼刀地城05
-8406:(test)3.4拼刀地城06
-8407:(test)3.4拼刀地剧情地城
+8301:[CHS] - (test)3.3迷城复刻01
+8302:[CHS] - (test)3.3迷城复刻02
+8303:[CHS] - (test)3.3迷城复刻03
+8304:[CHS] - (test)3.3迷城复刻04
+8305:[CHS] - (test)3.3迷城复刻05
+8306:[CHS] - (test)3.3迷城复刻06
+8307:[CHS] - (test)3.3迷城复刻07
+8401:[CHS] - (test)3.4拼刀地城01
+8402:[CHS] - (test)3.4拼刀地城02
+8403:[CHS] - (test)3.4拼刀地城03
+8404:[CHS] - (test)3.4拼刀地城04
+8405:[CHS] - (test)3.4拼刀地城05
+8406:[CHS] - (test)3.4拼刀地城06
+8407:[CHS] - (test)3.4拼刀地剧情地城
 8501:Ordered Wind
 8502:Inverted Wind
 8503:Observant Wind
 8504:Obstructing Wind
 8505:Shimmering Wind
 8506:Pursuing Wind
-8600:3.5连线buff挑战1(test)
-8601:3.5连线buff挑战2(test)
-8602:3.5连线buff挑战3(test)
-8603:3.5连线buff挑战4(test)
-8604:3.5连线buff挑战5(test)
-8605:3.5连线buff挑战6(test)
-8701:UGC游玩白盒（test）
-8801:UGC摆放白盒（test）
+8600:[CHS] - 3.5连线buff挑战1(test)
+8601:[CHS] - 3.5连线buff挑战2(test)
+8602:[CHS] - 3.5连线buff挑战3(test)
+8603:[CHS] - 3.5连线buff挑战4(test)
+8604:[CHS] - 3.5连线buff挑战5(test)
+8605:[CHS] - 3.5连线buff挑战6(test)
+8701:[CHS] - UGC游玩白盒（test）
+8801:[CHS] - UGC摆放白盒（test）
 8901:Divine Ingenuity: Collector's Chapter
-8902:3.7UGC编辑地城（test）
-9000:3.6大活动路桥1(test)
-9001:3.6大活动路桥2(test)
-9002:3.6大活动路桥3(test)
-9100:(test)3.6爆炸魔药活动1
-9101:(test)3.6爆炸魔药活动2
-9102:(test)3.6爆炸魔药活动3
-9103:(test)3.6爆炸魔药活动4
-9201:test 3.7时停挑战1
-9202:test 3.7时停挑战2
-9203:test 3.7时停挑战3
-9204:test 3.7时停挑战4
-9205:test 3.7时停挑战5
-9206:test 3.7时停挑战6
-9207:test 3.7时停挑战7
-9301:(test)3.8大活动战斗地城1
-9302:(test)3.8大活动战斗地城2
-9303:(test)3.8大活动战斗地城3
-9304:(test)3.8大活动战斗地城4
+8902:[CHS] - 3.7UGC编辑地城（test）
+9000:[CHS] - 3.6大活动路桥1(test)
+9001:[CHS] - 3.6大活动路桥2(test)
+9002:[CHS] - 3.6大活动路桥3(test)
+9100:[CHS] - (test)3.6爆炸魔药活动1
+9101:[CHS] - (test)3.6爆炸魔药活动2
+9102:[CHS] - (test)3.6爆炸魔药活动3
+9103:[CHS] - (test)3.6爆炸魔药活动4
+9201:[CHS] - test 3.7时停挑战1
+9202:[CHS] - test 3.7时停挑战2
+9203:[CHS] - test 3.7时停挑战3
+9204:[CHS] - test 3.7时停挑战4
+9205:[CHS] - test 3.7时停挑战5
+9206:[CHS] - test 3.7时停挑战6
+9207:[CHS] - test 3.7时停挑战7
+9301:[CHS] - (test)3.8大活动战斗地城1
+9302:[CHS] - (test)3.8大活动战斗地城2
+9303:[CHS] - (test)3.8大活动战斗地城3
+9304:[CHS] - (test)3.8大活动战斗地城4

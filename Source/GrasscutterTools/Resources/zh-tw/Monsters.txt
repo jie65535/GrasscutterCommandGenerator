@@ -1,4 +1,4 @@
-// 普通怪物
+﻿// 普通怪物
 20010101:草史萊姆
 20010201:大型草史萊姆
 20010202:大型草史萊姆
@@ -42,11 +42,13 @@
 20011202:火史萊姆
 20011203:火史萊姆（塔防）
 20011204:Slime_Fire_02_SimpleStick - [N/A] 1669508241
+20011205:Slime_Fire_02_SimpleStick - [N/A] 453720297
 20011281:Slime_Fire_02 - [N/A] 1865400017
 20011301:大型火史萊姆
 20011302:大型火史萊姆（塔防）
 20011304:大型火史萊姆
 20011305:Slime_Fire_03_SimpleStick - [N/A] 771419505
+20011306:Slime_Fire_03_SimpleStick - [N/A] 1702242889
 20011381:Slime_Fire_03 - [N/A] 1103669321
 20011401:岩史萊姆
 20011402:岩史萊姆（塔防）
@@ -89,6 +91,14 @@
 20050802:純水之蛙
 20050881:Monster_Oceanid_Frog - [N/A] 997874817
 20050901:純水之鷹
+20051001:Monster_Necalevia_Normal_01 - [N/A] 475805785
+20051002:Monster_Necalevia_Normal_02 - [N/A] 4086773105
+20051003:Monster_Necalevia_Normal_02 - [N/A] 1899285153
+20051101:Monster_Necalevia_Big_01 - [N/A] 2594738809
+20051102:Monster_Necalevia_Big_02 - [N/A] 2300719865
+20051103:Monster_Necalevia_Big_02 - [N/A] 924289801
+20051401:Monster_Necalevia_Normal_02 - [N/A] 621722777
+20051501:Monster_Necalevia_Big_02 - [N/A] 2397412625
 20060101:水飄浮靈
 20060181:Sylph_Water_01 - [N/A] 196449073
 20060201:岩飄浮靈
@@ -263,19 +273,27 @@
 22080101:黑蛇騎士·斬風之劍
 22080201:Darkwraith_Fat_Rock_01 - [N/A] 2678091353
 22090101:你猜你猜你猜猜猜
+22110101:Ovacua_Order_01 - [N/A] 1252604081
+22110102:Ovacua_Order_01 - [N/A] 2493579697
+22110201:Ovacua_Order_02 - [N/A] 2921661969
+22110202:Ovacua_Order_02 - [N/A] 2349852985
+22110301:Ovacua_Chaos_01 - [N/A] 2702476945
+22110302:Ovacua_Chaos_01 - [N/A] 419859353
+22110402:Ovacua_Chaos_02 - [N/A] 2896689337
+22110403:Ovacua_Chaos_02 - [N/A] 3670051857
 23010101:愚人眾先遣隊·冰銃重衛士
 23010201:愚人眾先遣隊·水銃重衛士
 23010301:愚人眾先遣隊·雷錘前鋒軍
 23010401:愚人眾先遣隊·岩使游擊兵
 23010501:愚人眾先遣隊·風拳前鋒軍
 23010601:愚人眾先遣隊·火銃游擊兵
-23020101:愚人眾·火之債務處理人
+23020101:愚人眾 債務處理人
 23020102:愚人眾·火之債務處理人
-23030101:愚人眾·雷螢術士
+23030101:愚人眾 雷螢術士
 23030102:愚人眾·雷螢術士
-23040101:愚人眾·冰螢術士
+23040101:愚人眾 冰螢術士
 23040102:愚人眾 冰螢術士-強攻強化
-23050101:愚人眾·藏鏡仕女
+23050101:愚人眾 藏鏡仕女
 24010101:遺蹟守衛
 24010102:遺蹟守衛（塔防）
 24010108:遺蹟守衛
@@ -289,6 +307,7 @@
 24010302:遺蹟重機（塔防）
 24010303:遺蹟重機（挖礦版）
 24010304:Konungmathr_None_WQ - [N/A] 4152683505
+24010305:Konungmathr_None_WQ - [N/A] 2174470953
 24010381:Konungmathr_None - [N/A] 2454183009
 24010382:Konungmathr_None - [N/A] 3236356593
 24020101:遺蹟巡弋者
@@ -318,6 +337,69 @@
 24040281:Monolith_Ordinator_02 - [N/A] 2184426881
 24040301:Monolith_Ordinator_03 - [N/A] 3626535649
 24040381:Monolith_Ordinator_03 - [N/A] 677608993
+24060101:MachinaIustitia_Sentry_01 - [N/A] 708762481
+24060102:MachinaIustitia_Sentry_02 - [N/A] 3600905057
+24060201:MachinaIustitia_Pylon_01 - [N/A] 2089011409
+24060202:MachinaIustitia_Pylon_02 - [N/A] 3126989841
+24060301:MachinaIustitia_Recon_01 - [N/A] 3244219657
+24060302:MachinaIustitia_Recon_02 - [N/A] 4239297001
+24060401:MachinaIustitia_Probe_01 - [N/A] 2291885849
+24060402:MachinaIustitia_Probe_02 - [N/A] 48274745
+24060501:MachinaIustitia_Nautilus_01 - [N/A] 1930913
+24060502:MachinaIustitia_Nautilus_02 - [N/A] 3479492521
+24060701:MachinaIustitia_Assimilator_01 - [N/A] 3111157737
+24060702:MachinaIustitia_Assimilator_02 - [N/A] 4267548865
+24060801:MachinaIustitia_Ruggiero_01 - [N/A] 3121825273
+24060802:MachinaIustitia_Ruggiero_02 - [N/A] 1759986009
+24060901:MachinaIustitia_Ruggiero_01 - [N/A] 2598421161
+24060902:MachinaIustitia_Ruggiero_02 - [N/A] 1178238353
+24061001:MachinaIustitia_Bradamante_01 - [N/A] 3820417257
+24061002:MachinaIustitia_Bradamante_02 - [N/A] 2286290561
+24061101:MachinaIustitia_LengthShifter_01 - [N/A] 3147408705
+24061102:MachinaIustitia_LengthShifter_02 - [N/A] 3867980777
+24061105:MachinaIustitia_LengthShifter_05 - [N/A] 915515889
+24061106:MachinaIustitia_LengthShifter_06 - [N/A] 2928960729
+24061109:MachinaIustitia_LengthShifter_01 - [N/A] 237632505
+24061110:MachinaIustitia_LengthShifter_02 - [N/A] 3685622641
+24061201:MachinaIustitia_Excavator_01 - [N/A] 3577968961
+24061202:MachinaIustitia_Excavator_02 - [N/A] 2060258017
+24065101:MachinaIustitia_Sentry_03 - [N/A] 481005705
+24065102:MachinaIustitia_Sentry_04 - [N/A] 3868865777
+24065201:MachinaIustitia_Pylon_03 - [N/A] 1560844217
+24065202:MachinaIustitia_Pylon_04 - [N/A] 2830294113
+24065301:MachinaIustitia_Recon_03 - [N/A] 8473497
+24065302:MachinaIustitia_Recon_04 - [N/A] 2184517033
+24065401:MachinaIustitia_Probe_03 - [N/A] 4058203913
+24065402:MachinaIustitia_Probe_04 - [N/A] 1955113697
+24065501:MachinaIustitia_Nautilus_03 - [N/A] 3210758873
+24065502:MachinaIustitia_Nautilus_04 - [N/A] 2422088281
+24065701:MachinaIustitia_Assimilator_03 - [N/A] 4222863585
+24065702:MachinaIustitia_Assimilator_04 - [N/A] 3834516417
+24065801:MachinaIustitia_Ruggiero_03 - [N/A] 3392589561
+24065802:MachinaIustitia_Ruggiero_04 - [N/A] 2337120689
+24065901:MachinaIustitia_Ruggiero_03 - [N/A] 2376534777
+24065902:MachinaIustitia_Ruggiero_04 - [N/A] 2785484857
+24066001:MachinaIustitia_Bradamante_03 - [N/A] 2343603225
+24066002:MachinaIustitia_Bradamante_04 - [N/A] 1982914297
+24066101:MachinaIustitia_LengthShifter_03 - [N/A] 1778888473
+24066102:MachinaIustitia_LengthShifter_04 - [N/A] 1067721993
+24066105:MachinaIustitia_LengthShifter_07 - [N/A] 967884097
+24066106:MachinaIustitia_LengthShifter_08 - [N/A] 1489908689
+24066109:MachinaIustitia_LengthShifter_03 - [N/A] 2508476721
+24066110:MachinaIustitia_LengthShifter_04 - [N/A] 1620691137
+24066201:MachinaIustitia_Excavator_03 - [N/A] 1958356305
+24066202:MachinaIustitia_Excavator_04 - [N/A] 3649928537
+24068101:MachinaIustitia_Sentry_Cdoex - [N/A] 3649322889
+24068201:MachinaIustitia_Pylon_Codex - [N/A] 3696136553
+24068301:MachinaIustitia_Recon_Codex - [N/A] 4010320977
+24068401:MachinaIustitia_Probe_Codex - [N/A] 3381364785
+24068501:MachinaIustitia_Nautilus_Codex - [N/A] 3733677609
+24068701:MachinaIustitia_Assimilator_Codex - [N/A] 2476841433
+24068801:MachinaIustitia_Ruggiero_Codex - [N/A] 1199875393
+24068901:MachinaIustitia_Ruggiero_Codex - [N/A] 3591177545
+24069001:MachinaIustitia_Bradamante_Codex - [N/A] 1728886753
+24069101:MachinaIustitia_LengthShifter_Codex - [N/A] 306536801
+24069201:MachinaIustitia_Excavator_Codex - [N/A] 4236769177
 24810101:FungusFighterV2_TowerFire_01 - [N/A] 1459265257
 24810201:FungusFighterV2_TowerFire_02 - [N/A] 1199053881
 24810301:FungusFighterV2_TowerElectric_01 - [N/A] 2345069921
@@ -339,7 +421,7 @@
 25010104:盜寶團·「溜溜」
 25010105:盜寶團·「溜溜」
 25010106:盜寶團·「溜溜」
-25010201:盜寶團·斥候
+25010201:盜寶團斥侯
 25010203:盜寶團·斥候
 25010204:盜寶團·斥候
 25010205:盜寶團·斥候
@@ -353,6 +435,13 @@
 25010213:Thoarder_Male_Standard_NoWeapon_02_13 - [N/A] 2736902129
 25010214:NPC_Quest_Male_Standard_Pabag_30363 - [N/A] 535032049
 25010215:NPC_Quest_Male_Standard_Papak_30364 - [N/A] 818234145
+25010216:NPC_Quest_Male_Standard_MafiaA_13441 - [N/A] 325561641
+25010217:NPC_Quest_Male_Standard_MafiaB_13442 - [N/A] 79698665
+25010218:NPC_Quest_Male_Standard_MafiaC_13457 - [N/A] 3443963161
+25010219:NPC_Quest_Male_Standard_MafiaD_13393 - [N/A] 1977600865
+25010220:NPC_Quest_Male_Standard_Thug01_13332 - [N/A] 681925409
+25010221:NPC_Quest_Male_Standard_Thug02_13333 - [N/A] 2769497953
+25010222:NPC_Quest_Male_Standard_Thug03_13334 - [N/A] 3404017033
 25010281:Thoarder_Male_Standard_NoWeapon_02 - [N/A] 2390798289
 25010301:盜寶團·火之藥劑師
 25010302:盜寶團·火之藥劑師
@@ -365,19 +454,21 @@
 25010681:Thoarder_Male_Standard_NoWeapon_Ice_01 - [N/A] 3749122441
 25010701:盜寶團·雜工
 25010781:Thoarder_Male_Fat_NoWeapon_01 - [N/A] 2772499633
-25020101:盜寶團·「怪鳥」
+25020101:「怪鳥」
 25020102:盜寶團·「怪鳥」
-25020201:盜寶團·神射手
+25020103:NPC_Quest_Male_Standard_Virgil_21027 - [N/A] 2865050201
+25020104:NPC_Quest_Male_Standard_Truand_13335 - [N/A] 2313699185
+25020201:盜寶團神射手
 25020204:盜寶團·神射手
 25020281:Thoarder_Male_Standard_Crossbow_02 - [N/A] 2419510921
-25030101:盜寶團·「卡門」
+25030101:「卡門」
 25030102:盜寶團·「卡門」
 25030103:盜寶團·「卡門」
-25030201:盜寶團·掘墓者
+25030201:盜寶團掘墓者
 25030281:Thoarder_Male_Fat_Shovel_03 - [N/A] 364826113
-25030301:盜寶團·海上男兒
+25030301:盜寶團船橹
 25030381:Thoarder_Male_Fat_Shovel_02 - [N/A] 1622930025
-25040101:盜寶團·「大姐頭」
+25040101:「大姐頭」
 25040102:盜寶團·「大姐頭」
 25040103:盜寶團·「大姐頭」
 25040104:Thoarder_Female_Hatchet_03 - [N/A] 2648340049
@@ -397,31 +488,31 @@
 25070181:Thoarder_MuscleMan_Hammer_01 - [N/A] 963333825
 25070201:盜寶團·「瓦倫斯坦」
 25070202:盜寶團·「瓦倫斯坦」
-25080101:野伏·陣刀番
+25080101:浪人
 25080181:Samurai_Ronin_01 - [N/A] 199101633
-25080201:野伏·火付番
+25080201:浪人·山賊
 25080202:野伏·火付番
 25080281:Samurai_Ronin_02 - [N/A] 4200211249
-25080301:野伏·機巧番
+25080301:浪人·暗部
 25080381:Samurai_Ronin_03 - [N/A] 2465854769
-25080401:寄騎武士
+25080401:幕府武士
 25080402:寄騎武士
 25080403:Samurai_Hatamoto_03 - [N/A] 1581579825
 25080404:Samurai_Hatamoto_03 - [N/A] 400320561
 25080405:Samurai_Hatamoto_04 - [N/A] 400320561
-25100101:海亂鬼·雷騰
+25100101:海亂鬼-雷
 25100102:海亂鬼·雷騰
 25100181:Samurai_Kairagi_01 - [N/A] 77071577
 25100182:Samurai_Kairagi_01 - [N/A] 391115545
 25100183:Samurai_Kairagi_01 - [N/A] 222568409
-25100201:海亂鬼·炎威
+25100201:海亂鬼-火
 25100202:Samurai_Kairagi_07 - 海亂鬼-火
 25100281:Samurai_Kairagi_02 - [N/A] 3882445073
 25100282:Samurai_Kairagi_02 - [N/A] 753240097
 25100283:Samurai_Kairagi_02 - [N/A] 3828251937
-25100301:落武者·咒雷
+25100301:海亂鬼-雷幽靈
 25100302:落武者·咒雷
-25100401:落武者·祟炎
+25100401:海亂鬼-火幽靈
 25110101:Gator_Eremite_Rock_01 - [N/A] 1820584137
 25110102:Gator_Eremite_Rock_02 - [N/A] 2361510321
 25110201:Vulture_Eremite_Wind_01 - [N/A] 3397827697
@@ -461,6 +552,7 @@
 25210307:Eremite_Male_Standard_Pole_01 - [N/A] 2671081977
 25210308:NPC_Sumeru_Male_Standard_Warden03_4298 - [N/A] 2403836809
 25210309:NPC_Sumeru_Male_Standard_Warden04_4299 - [N/A] 191969201
+25210310:NPC_Quest_Male_Standard_Eremite_13190 - [N/A] 3872072593
 25210381:Eremite_Male_Standard_Pole_03 - [N/A] 1975195153
 25210401:鍍金旅團·破陣者
 25210402:Eremite_MuscleMan_Gloves_02 - [N/A] 839477089
@@ -511,17 +603,17 @@
 25410382:Eremite_Female_Standard_Oracle_01 - [N/A] 1241360601
 25410401:Monster_Eremite_Female_Standard_Dancer_01 - [N/A] 1223193297
 25410481:Eremite_Female_Standard_Dancer_01 - [N/A] 548583769
-26010101:冰霜騙騙花
-26010102:冰霜騙騙花（雪山活動）
-26010201:熾熱騙騙花
-26010301:電氣騙騙花
+26010101:冰騙騙花
+26010102:冰騙騙花（雪山活動）
+26010201:火騙騙花
+26010301:雷騙騙花
 26030101:幼岩龍蜥
 26030181:Wyrm_Rock - [N/A] 3059435841
-26040101:岩龍蜥（水）
-26040102:岩龍蜥（火）
-26040103:岩龍蜥（冰）
-26040104:岩龍蜥（雷）
-26040105:岩龍蜥（水）
+26040101:岩龍蜥-水
+26040102:岩龍蜥-火
+26040103:岩龍蜥-冰
+26040104:岩龍蜥-電
+26040105:岩龍蜥-水（塔防）
 26040181:Drake_Rock_01_Water - [N/A] 1019450705
 26040182:Drake_Rock_01_Fire - [N/A] 652536593
 26040183:Drake_Rock_01_Ice - [N/A] 4162533241
@@ -601,6 +693,38 @@
 26120401:Fungus_Amanita_Du_Udatta_Rock_01 - [N/A] 4098645257
 26120481:Fungus_Amanita_Du_Udatta_Rock_01 - [N/A] 2570825833
 26120482:Fungus_Amanita_Du_Udatta_Rock_01 - [N/A] 1761054305
+26151001:MantaRay_Larva_01 - [N/A] 886787041
+26151002:MantaRay_Larva_01_Large - [N/A] 3329871401
+26151101:MantaRay_Larva_02 - [N/A] 2512505185
+26151102:MantaRay_Larva_02_Large - [N/A] 1603392545
+26152101:HermitCrab_Larva_01_Sea - [N/A] 1727738657
+26152102:HermitCrab_Larva_01_Land - [N/A] 888764273
+26152201:HermitCrab_Larva_02_Sea - [N/A] 2773435393
+26152202:HermitCrab_Larva_02_Land - [N/A] 986179241
+26153101:Seal_Larva_01_Sea - [N/A] 469144625
+26153102:Seal_Larva_01_Small_Sea - [N/A] 1911475201
+26153103:Seal_Larva_01_Land - [N/A] 3096896289
+26153104:Seal_Larva_01_Small_Land - [N/A] 2585696649
+26154101:JellyFish_Larva_01 - [N/A] 1183938865
+26154102:JellyFish_Larva_01_Large - [N/A] 4068180873
+26154201:JellyFish_Larva_02 - [N/A] 3165428353
+26154202:JellyFish_Larva_02_Large - [N/A] 1257022089
+26155101:SeaHorse_Larva_01 - [N/A] 246606169
+26155201:SeaHorse_Larva_02 - [N/A] 3886177537
+26155301:SeaHorse_Larva_03 - [N/A] 2469638769
+26156101:Octopus_Larva_01 - [N/A] 2168918249
+26156201:Octopus_Larva_02 - [N/A] 4019452305
+26157101:Aplysia_Larva_01 - [N/A] 2579843705
+26157201:Aplysia_Larva_02 - [N/A] 2494691033
+26160101:HermitCrab_Mature_01_Sea - [N/A] 3328562481
+26160102:HermitCrab_Mature_01_Land - [N/A] 555743185
+26160201:Aplysia_Mature_01_Sea - [N/A] 1713831289
+26160202:Aplysia_Mature_01_Land - [N/A] 2244040649
+26160301:SeaHorse_Mature_01_Sea - [N/A] 1544112625
+26160302:SeaHorse_Mature_01_Land - [N/A] 3992435993
+26162101:HermitCrab_Mature_02 - [N/A] 3832936073
+26162201:MantaRay_Larva_03 - [N/A] 1943296953
+26162301:Seal_Larva_02 - [N/A] 1874832521
 28020101:雪狐
 28020102:紅狐
 28020103:送禮雪狐
@@ -610,6 +734,7 @@
 28020107:Fox_02 - [N/A] 378885401
 28020108:Fox_01_03 - [N/A] 2121972905
 28020109:Fox_02 - [N/A] 1783205937
+28020110:Fox_01_03 - [N/A] 3203279313
 28020201:松鼠
 28020202:Squirrel_01 - [N/A] 3448996649
 28020301:野林豬
@@ -639,6 +764,9 @@
 28020408:巡林犬
 28020409:柴犬
 28020410:黑背獵犬
+28020411:Dog_DropEar_01 - [N/A] 1209328049
+28020412:Dog_DropEar_02 - [N/A] 596890433
+28020413:Dog_DropEar_03 - [N/A] 1574397881
 28020501:藍寶石
 28020502:翠目貓
 28020503:灰雪貓
@@ -667,11 +795,17 @@
 28020903:太郎丸
 28020904:Inu_Shihandai_04 - [N/A] 467002241
 28021001:Tortoise_01 - [N/A] 2426305833
+28021101:FontainePoddle_Lady_01 - [N/A] 1928519985
+28021102:FontainePoddle_Guard_01 - [N/A] 4014017785
+28021103:FontainePoddle_Gentleman_01 - [N/A] 1944228985
+28021201:Beaver_01 - [N/A] 4060704689
 28030101:藍翎鷺
 28030102:菫䴉
 28030103:Crane_01 - [N/A] 434877481
 28030104:Crane_01_Lbis - [N/A] 3431473329
 28030105:Crane_01 - [N/A] 1385718609
+28030106:Crane_01_Lbis - [N/A] 437569649
+28030107:Crane_01 - [N/A] 1942384953
 28030201:茶羽鷹
 28030202:棕翎鷹
 28030203:石鳶
@@ -691,6 +825,7 @@
 28030313:暝彩鸟
 28030314:Crow_01 - [N/A] 3254419441
 28030315:Pigeon_Beak_01 - [N/A] 2439436721
+28030316:Pigeon_Beak_01 - [N/A] 3616974953
 28030401:赤團雀
 28030402:金團雀
 28030403:雪團雀
@@ -705,6 +840,30 @@
 28030502:翠冠鴨
 28030504:赤喙鴨
 28030505:Wigeon_01 - [N/A] 3375863305
+28030601:Swan_01 - [N/A] 3491540457
+28030602:Swan_02 - [N/A] 238992257
+28030604:Swan_01 - [N/A] 168793633
+28030605:Swan_02 - [N/A] 3591430145
+28030607:Swan_01 - [N/A] 580304393
+28030608:Swan_02 - [N/A] 198599401
+28030610:Swan_01 - [N/A] 3544945681
+28030611:Swan_02 - [N/A] 2176173945
+28030701:Albatross_01 - [N/A] 3205413873
+28030702:Seagull_01 - [N/A] 3113758617
+28030703:Eggplant_01 - [N/A] 3523257489
+28030704:Eggplant_02 - [N/A] 1203927001
+28030705:Fantail_01 - [N/A] 2526594793
+28030706:Fantail_02 - [N/A] 2557894321
+28030707:Larvivora_01 - [N/A] 4176701537
+28030708:Larvivora_02 - [N/A] 1539717873
+28030709:Seagull_01 - [N/A] 1259194857
+28030710:Albatross_01 - [N/A] 1078657537
+28030711:Eggplant_01 - [N/A] 1385879337
+28030712:Eggplant_02 - [N/A] 1092573705
+28030713:Fantail_01 - [N/A] 4020170881
+28030714:Fantail_02 - [N/A] 2291093785
+28030715:Larvivora_01 - [N/A] 1136808009
+28030716:Larvivora_02 - [N/A] 2105318465
 28040703:幽浮鰩
 28050201:新手盜寶鼬
 28050202:藏金盜寶鼬
@@ -767,6 +926,11 @@
 28061402:Megamoth_Jungle_08 - [N/A] 3443985385
 28061501:Chrysopelea_01 - [N/A] 447726457
 28061502:Chrysopelea_01 - [N/A] 3984456185
+28070101:MantaRay_Special_01 - [N/A] 637353865
+28070102:MantaRay_Enormous_01 - [N/A] 2355850937
+28070201:HermitCrab_Special_01 - [N/A] 2106971761
+28070301:Seal_Special_01 - [N/A] 2797350257
+28070302:Seal_Enormous_01 - [N/A] 2165959249
 28210101:塵歌壺：黃金蟹
 28210102:塵歌壺：太陽蟹
 28210103:塵歌壺：海藍蟹
@@ -792,20 +956,23 @@
 28220102:塵歌壺：紅狐
 28220108:Homeworld_Fox_03 - [N/A] 3596224209
 28220201:塵歌壺：松鼠
-28220301:塵歌壺：野林豬
+28220301:家園野林豬
 28220303:塵歌壺：雪豬
 28220313:Homeworld_Boar_Grass - [N/A] 2460569713
 28220314:Homeworld_Boar_Grass_Small - [N/A] 3974077529
-28220401:塵歌壺：北地犬
-28220402:塵歌壺：巡林犬
-28220403:塵歌壺：柴犬
-28220404:塵歌壺：黑背獵犬
-28220501:塵歌壺：藍寶石
-28220502:塵歌壺：翠目貓
+28220401:家園北地犬
+28220402:家園巡林犬
+28220403:家園柴犬
+28220404:家園黑背獵犬
+28220405:Homeworld_Dog_DropEar_01 - [N/A] 135493873
+28220406:Homeworld_Dog_DropEar_02 - [N/A] 595398081
+28220407:Homeworld_Dog_DropEar_03 - [N/A] 806537953
+28220501:家園藍寶石
+28220502:家園翠目貓
 28220503:塵歌壺：灰雪貓
-28220504:塵歌壺：北地貓
-28220505:塵歌壺：虎紋貓
-28220506:塵歌壺：警長貓
+28220504:家園北地貓
+28220505:家園虎紋貓
+28220506:家園警長貓
 28220601:塵歌壺：雪隱鼬
 28220602:塵歌壺：紅尾鼬
 28220603:塵歌壺：靴子鼬
@@ -813,7 +980,7 @@
 28220605:塵歌壺：青雷鼬
 28220701:塵歌壺：狐
 28220901:塵歌壺：影狼丸
-28230101:塵歌壺：藍翎鷺
+28230101:家園藍翎鷺
 28230102:塵歌壺：菫䴉
 28230104:Homeworld_Crane_01_Lbis - [N/A] 811422561
 28230301:塵歌壺：白鴿
@@ -827,27 +994,37 @@
 28230402:塵歌壺：金團雀
 28230403:塵歌壺：雪團雀
 28230404:塵歌壺：碧團雀
-28240201:塵歌壺：花鱂
-28240202:塵歌壺：琉璃花鱂
-28240203:塵歌壺：甜甜花鱂
-28240204:塵歌壺：藍染花鱂
-28240205:塵歌壺：擒霞客
-28240206:塵歌壺：水晶宴
-28240301:塵歌壺：肺棘魚
-28240302:塵歌壺：鬥棘魚
-28240303:塵歌壺：鴆棘魚
-28240304:塵歌壺：赤魔王
-28240305:塵歌壺：雪中君
-28240401:塵歌壺：金赤假龍
-28240402:塵歌壺：錆假龍
-28240501:塵歌壺：流紋褐蝶魚
-28240502:塵歌壺：流紋京紫蝶魚
-28240503:塵歌壺：流紋茶蝶魚
-28240504:塵歌壺：長生仙
-28240505:塵歌壺：雷鳴仙
-28240506:塵歌壺：月光鰭
-28240601:塵歌壺：炮魨
-28240602:塵歌壺：苦炮魨
+28230601:Homeworld_Swan_01 - [N/A] 4095581529
+28230602:Homeworld_Swan_02 - [N/A] 3242561737
+28230701:Homeworld_Albatross_01 - [N/A] 3606718625
+28230702:Homeworld_Seagull_01 - [N/A] 3266811433
+28230703:Homeworld_Eggplant_01 - [N/A] 2079096809
+28230704:Homeworld_Eggplant_02 - [N/A] 3717998017
+28230705:Homeworld_Fantail_01 - [N/A] 1197931617
+28230706:Homeworld_Fantail_02 - [N/A] 2725864497
+28230707:Homeworld_Larvivora_01 - [N/A] 4241780953
+28230708:Homeworld_Larvivora_02 - [N/A] 1236262377
+28240201:家園花鱂
+28240202:家園琉璃花鱂
+28240203:家園甜甜花鱂
+28240204:家園藍染花鱂
+28240205:家園擒霞客
+28240206:家園水晶宴
+28240301:家園肺棘魚
+28240302:家園鬥棘魚
+28240303:家園鴆棘魚
+28240304:家園赤魔王
+28240305:家園雪中君
+28240401:家園金赤假龍
+28240402:家園錆假龍
+28240501:家園流紋褐蝶魚
+28240502:家園流紋京紫蝶魚
+28240503:家園流紋茶蝶魚
+28240504:家園長生仙
+28240505:家園雷鳴仙
+28240506:家園月光鰭
+28240601:家園炮魨
+28240602:家園苦炮魨
 28240701:塵歌壺：迪芙妲鰩
 28240702:塵歌壺：佛瑪洛鰩
 28240801:Homeworld_Fishable_Maritime_Batdiodan_01 - [N/A] 2213501889
@@ -856,12 +1033,20 @@
 28240804:Homeworld_Fishable_Maritime_Batdiodan_04 - [N/A] 2847515857
 28240901:Homeworld_Fishable_Maritime_Apsva_01 - [N/A] 4288334729
 28240902:Homeworld_Fishable_Maritime_Apsva_02 - [N/A] 2843011617
+28240903:Homeworld_Fishable_Maritime_Apsva_03 - [N/A] 3949860665
+28241001:Homeworld_Fishable_Maritime_Coeur_01 - [N/A] 1813361345
+28241002:Homeworld_Fishable_Maritime_Coeur_02 - [N/A] 843892465
+28241101:Homeworld_Fishable_Maritime_MachinaIustitia_01 - [N/A] 1467226337
+28241102:Homeworld_Fishable_Maritime_MachinaIustitia_02 - [N/A] 3637371825
+28241103:Homeworld_Fishable_Maritime_MachinaIustitia_03 - [N/A] 647304481
+28241104:Homeworld_Fishable_Maritime_MachinaIustitia_04 - [N/A] 4114419433
 28250101:塵歌壺：風晶蝶
 28250102:塵歌壺：岩晶蝶
 28250103:塵歌壺：冰晶蝶
 28250104:塵歌壺：雷晶蝶
 28250105:塵歌壺：珊瑚蝶
 28250106:Homeworld_Wisp_Grass_01 - [N/A] 3343647737
+28250107:Homeworld_Wisp_Water_01 - [N/A] 3644197849
 28250301:塵歌壺：吉光蟲
 28250401:Homeworld_Boltbug_Scarab_01 - [N/A] 741074761
 29080201:Monster_Apep_Underling_SeedOfKarna - [N/A] 2429980313
@@ -873,7 +1058,6 @@
 29080601:Monster_Apep_Underling_SeedOfShiva - [N/A] 1939696969
 29080701:Monster_Apep_Underling_SeedOfVishnu - [N/A] 2463107697
 29080702:Monster_Apep_Underling_SeedOfVishnu - [N/A] 592533721
-
 
 // BOSS
 20040101:無相之雷 阿萊夫
@@ -893,11 +1077,13 @@
 20040702:Effigy_Grass_02 - [N/A] 2410347593
 20050101:純水精靈
 20050102:純水精靈（本體）
+20050103:Monster_Oceanid_03 - [N/A] 3873933801
 20070101:雷音權現
 20070102:Monster_Raijin_02 - [N/A] 1966945681
 22060101:黃金王獸
 22100101:Invoker_Archdeacon_01 - 丘丘人
 22100201:Invoker_Archdeacon_01 - [N/A] 3911558993
+22100202:Invoker_Archdeacon_01 - [N/A] 2729274273
 22100301:Invoker_Archdeacon_01 - [N/A] 1787276377
 22100401:Invoker_Archdeacon_01 - [N/A] 4124092009
 22100501:Invoker_Archdeacon_01 - [N/A] 1090413241
@@ -910,10 +1096,15 @@
 24030381:Gargoyle_Fafnir_01 - [N/A] 3485966721
 24050101:Monolith_Starchild - [N/A] 2629579681
 24050181:Monolith_Starchild - [N/A] 3697902081
-25090101:魔偶劍鬼
-25090102:魔偶劍鬼（風分身）
-25090103:魔偶劍鬼（冰分身）
-25090104:魔偶劍鬼（面具分身）
+24070101:Monster_MachinaIustitia_Nutcracker - [N/A] 811916665
+24070102:Monster_MachinaIustitia_Nutcracker - [N/A] 3142349473
+24070201:Monster_MachinaIustitia_Nutcracker - [N/A] 110280721
+24070202:Monster_MachinaIustitia_Nutcracker - [N/A] 211382793
+24070301:Monster_MachinaIustitia_Nutcracker - [N/A] 2077707385
+25090101:傀儡將軍
+25090102:傀儡將軍-風分身
+25090103:傀儡將軍-冰分身
+25090104:傀儡將軍-面具分身
 25090105:Samurai_Ningyo_05 - 傀儡將軍-面具分身
 25090201:魔偶劍鬼·孤風
 25090301:魔偶劍鬼·霜馳
@@ -927,11 +1118,11 @@
 26020281:Regisvine_Fire - [N/A] 3851885521
 26020301:掣電樹
 26020381:Regisvine_Electric - [N/A] 850975377
-26050101:古岩龍蜥（水）
-26050201:古岩龍蜥（火）
-26050301:古岩龍蜥（冰）
-26050401:古岩龍蜥（雷）
-26050501:古岩龍蜥
+26050101:古岩龍蜥-水
+26050201:古岩龍蜥-火
+26050301:古岩龍蜥-冰
+26050401:古岩龍蜥-電
+26050501:古岩龍蜥-活動
 26050701:深海龍蜥·囓冰
 26050702:深海龍蜥·囓冰
 26050703:Drake_Deepsea_Ice_04 - [N/A] 2859472313
@@ -942,27 +1133,28 @@
 26110101:翠翎恐蕈
 26110181:Fungus_Raptor - [N/A] 2953348961
 26130101:Sandworm_01 - [N/A] 4098645257
-29010101:裂空的魔龍
-29010102:裂空的魔龍
-29010103:裂空的魔龍
-29010104:裂空的魔龍
+26170101:HermitCrab_Primo_01 - [N/A] 3278035969
+29010101:風魔龍 特瓦林
+29010102:風魔龍 特瓦林
+29010103:風魔龍
+29010104:風魔龍 特瓦林
 29020101:北風的王狼 玻瑞亞斯
-29020102:北風的王狼，奔狼的領主
-29030101:「公子」愚人眾執行官末席
-29030102:「公子」邪眼解放
+29020102:奔狼的領主 安德留斯
+29030101:愚人眾執行官末席 「公子」
+29030102:邪眼解放 「公子」
 29030103:「公子」
-29030104:「公子」愚人眾執行官末席
-29030105:「公子」邪眼解放
+29030104:愚人眾執行官末席 「公子」
+29030105:邪眼解放 「公子」
 29030106:「公子」
-29040101:若陀龍王（火雷）
-29040102:若陀龍王（水雷）
-29040103:若陀龍王（火冰）
-29040104:若陀龍王（水冰）
+29040101:若陀龍王
+29040102:若陀龍王
+29040103:若陀龍王
+29040104:若陀龍王
 29040111:若陀龍王
-29050101:「女士」
-29050102:「女士」焚盡的熾炎魔女
-29050103:「女士」
-29050104:「女士」焚盡的熾炎魔女
+29050101:女士
+29050102:焚盡的熾炎魔女
+29050103:女士
+29050104:焚盡的熾炎魔女
 29060101:雷電將軍
 29060102:雷電影
 29060201:禍津御建鳴神命
@@ -979,8 +1171,7 @@
 29080103:Monster_Apep_Stage1 - [N/A] 3025909673
 29080104:Monster_Apep_Stage3 - [N/A] 3638995681
 
-
-// 動物
+// 动物
 28010101:黃金蟹
 28010102:太陽蟹
 28010103:海藍蟹
@@ -1017,11 +1208,12 @@
 28050104:雷晶蝶
 28050105:珊瑚蝶
 28050106:草晶蝶
+28050107:Wisp_Water_01 - [N/A] 691634849
+28050108:Wisp_Water_01 - [N/A] 2357352425
 28050301:吉光蟲
 28050401:Boltbug_Scarab_01 - [N/A] 2466918521
 
-
-// 魚
+// 鱼
 28040201:花鱂
 28040202:琉璃花鱂
 28040203:甜甜花鱂
@@ -1051,24 +1243,60 @@
 28040804:暮云角鲀
 28040901:青金斧枪鱼
 28040902:翡玉斧枪鱼
+28040903:Fishable_Maritime_Apsva_03 - [N/A] 2146784313
+28041001:Fishable_Maritime_Coeur_01 - [N/A] 3332452601
+28041002:Fishable_Maritime_Coeur_02 - [N/A] 4048384681
+28041101:Fishable_Maritime_MachinaIustitia_01 - [N/A] 1537801009
+28041102:Fishable_Maritime_MachinaIustitia_02 - [N/A] 1071548801
+28041103:Fishable_Maritime_MachinaIustitia_03 - [N/A] 208026121
+28041104:Fishable_Maritime_MachinaIustitia_04 - [N/A] 3329877657
 
-// 友軍
+// 友军
+30050501:Partner_Oceanid_Tit - [N/A] 2294162793
+30050601:Partner_Oceanid_Wigeon_02 - [N/A] 903450313
+30050701:Partner_Oceanid_Squirrel - [N/A] 2642015873
+32110201:Ovacua_Order_02 - [N/A] 569946161
+34060101:Partner_MachinaIustitia_Sentry_01 - [N/A] 68219401
+34060102:Partner_MachinaIustitia_Sentry_01 - [N/A] 1581798833
+35010201:NPC_Fontaine_Male_Standard_Sonny_5132 - [N/A] 2270561153
+35060101:NPC_Fontaine_MuscleMan_Standard_Luca_5131 - [N/A] 3377359249
 35210101:鍍金旅團-單手斧(森林書)
+35210102:叢林豹
+35210103:NPC_Quest_Female_Standard_Eremite_02 - [N/A] 3895331681
+35210201:NPC_Quest_Male_Standard_Idrisi_13065 - [N/A] 3141766329
+35210202:NPC_Quest_Male_Standard_Badawi_13277 - [N/A] 972480577
+35210203:NPC_Quest_Male_Standard_Eremite_01 - [N/A] 1914914665
 35210301:鍍金NPC - 3.2駐守士兵A
 35210302:鍍金NPC - 3.2駐守士兵B
 35210303:鍍金NPC - 3.2駐守士兵C
+35210304:NPC_Quest_Male_Standard_Eremite_13190 - [N/A] 2982791577
 35210401:鍍金NPC - 盧森巴博
+35210402:NPC_Quest_MuscleMan_Standard_Tikriti_13108 - [N/A] 4048624945
 35210501:NPC - Habachi哈巴奇
+35210502:NPC_Quest_MuscleMan_Standard_Bashar_13107 - [N/A] 4266344825
 35310101:鍍金旅團·沙中淨水（黃金夢鄉）
 35310301:鍍金旅團·白日鳴雷（黃金夢鄉）
-35210102:叢林豹
+35410101:Partner_Eremite_Male_Strong_Katar_01 - [N/A] 843060329
+35410201:Partner_Eremite_Female_Standard_Longbow_01 - [N/A] 2996340361
 36090190:活動-友方飛行水
+36090191:Partner_Fumgus_Un_Gamma_Water - [N/A] 3593336553
 36090290:活動-友方飛行草
+36090291:Partner_Fumgus_Un_Delta_Grass - [N/A] 1407448081
 36090390:活動-友方飛行風
+36090391:Partner_Fumgus_Un_Delta_Wind - [N/A] 637837089
 36090490:活動-友方旋轉雷
+36090491:Partner_Fumgus_Trois_Epsilon_Electric - [N/A] 4089561145
 36090590:活動-友方旋轉冰
+36090591:Partner_Fumgus_Trois_Alpha_Ice - [N/A] 3589860209
 36090690:活動-友方旋轉火
+36090691:Partner_Fumgus_Trois_Gamma_Fire - [N/A] 2953105185
 36090790:活動-友方伸展火
+36090791:Partner_Fumgus_Deux_Alpha_Fire - [N/A] 1931919705
 36090890:活動-友方伸展風
+36090891:Partner_Fumgus_Deux_Epsilon_Wind - [N/A] 3224728457
 36090990:活動-友方伸展岩
+36090991:Partner_Fumgus_Deux_Beta_Rock - [N/A] 4125292585
 36091090:活動-友方伸展雷
+36091091:Partner_Fumgus_Deux_Delta_Electric - [N/A] 2177474001
+38050590:Partner_Animal_Electrohercules_01 - [N/A] 2442210649
+
