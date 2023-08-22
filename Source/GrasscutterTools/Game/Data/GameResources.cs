@@ -9,6 +9,7 @@ using System.Threading;
 using GrasscutterTools.Game.Data.Excels;
 using GrasscutterTools.Game.Inventory;
 using GrasscutterTools.Game.Props;
+using GrasscutterTools.GOOD;
 using GrasscutterTools.Utils;
 
 using Newtonsoft.Json;
@@ -229,16 +230,35 @@ namespace GrasscutterTools.Game.Data
                         QuestData.Values.OrderBy(it => it.Id).Select(it => $"{it.Id}:{TextMapData.GetText(MainQuestData[it.MainId].TitleTextMapHash)} - {TextMapData.GetText(it.DescTextMapHash.ToString())}"),
                         Encoding.UTF8);
 
-                    //File.WriteAllLines(
-                    //    Path.Combine(dir, "Scene.txt"),
-                    //    SceneData.Values.Select(it => $"{it.Id}:{it.ScriptData}"),
-                    //    Encoding.UTF8);
+
+                    sb.Clear();
+                    foreach (var it in SceneData.Values.OrderBy(it => it.Id))
+                    {
+                        var name = GameData.Scenes[it.Id];
+                        sb.AppendLine($"{it.Id}:{(name == ItemMap.EmptyName ? it.ScriptData : name)}");
+                    }
+                    File.WriteAllText(
+                        Path.Combine(dir, "Scene.txt"),
+                        sb.ToString(),
+                        Encoding.UTF8);
 
                     File.WriteAllLines(
                         Path.Combine(dir, "Weapon.txt"),
                         WeaponData.Values.Select(it => $"{it.Id}:{TextMapData.GetText(it.NameTextMapHash.ToString())}"),
                         Encoding.UTF8);
                 }
+
+
+                File.WriteAllLines(
+                    Path.Combine(projectResourcesDir, "AvatarColor.txt"),
+                    AvatarData.Values.Select(it => $"{it.Id % 1000 + 1000}:{(int)it.QualityType}"),
+                    Encoding.UTF8);
+
+                File.WriteAllLines(
+                    Path.Combine(projectResourcesDir, "WeaponColor.txt"),
+                    WeaponData.Values.Select(it => $"{it.Id}:{(it.RankLevel >= 5 ? "yellow" : it.RankLevel >= 4 ? "purple" : "blue")}"),
+                    Encoding.UTF8);
+
             }
             finally
             {
