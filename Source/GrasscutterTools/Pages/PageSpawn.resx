@@ -1594,10 +1594,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="TxtEntityFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 3</value>
+    <value>103, 3</value>
   </data>
   <data name="TxtEntityFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>242, 23</value>
+    <value>168, 23</value>
   </data>
   <data name="TxtEntityFilter.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1614,23 +1614,20 @@
   <data name="&gt;&gt;TxtEntityFilter.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="BtnFilterEntity.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
   <data name="BtnFilterEntity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="BtnFilterEntity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 3</value>
+    <value>0, 2</value>
   </data>
   <data name="BtnFilterEntity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>26, 24</value>
+    <value>100, 25</value>
   </data>
   <data name="BtnFilterEntity.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="BtnFilterEntity.Text" xml:space="preserve">
-    <value>三</value>
+    <value>全部</value>
   </data>
   <data name="&gt;&gt;BtnFilterEntity.Name" xml:space="preserve">
     <value>BtnFilterEntity</value>
@@ -1909,6 +1906,6 @@
     <value>PageSpawn</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.10.1.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.12.1.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
 </root>

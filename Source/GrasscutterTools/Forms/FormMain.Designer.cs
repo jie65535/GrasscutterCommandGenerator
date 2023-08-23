@@ -53,19 +53,17 @@ namespace GrasscutterTools.Forms
             // 
             // NavContainer.Panel1
             // 
-            resources.ApplyResources(this.NavContainer.Panel1, "NavContainer.Panel1");
             this.NavContainer.Panel1.Controls.Add(this.ListPages);
             // 
             // NavContainer.Panel2
             // 
-            resources.ApplyResources(this.NavContainer.Panel2, "NavContainer.Panel2");
             this.NavContainer.Panel2.Controls.Add(this.TCMain);
             // 
             // ListPages
             // 
-            resources.ApplyResources(this.ListPages, "ListPages");
             this.ListPages.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ListPages.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            resources.ApplyResources(this.ListPages, "ListPages");
             this.ListPages.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
             this.ListPages.FormattingEnabled = true;
             this.ListPages.Name = "ListPages";
@@ -121,8 +119,8 @@ namespace GrasscutterTools.Forms
             // 
             // MenuSpawnEntityFilter
             // 
-            resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
             this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
+            resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
             // 
             // FormMain
             // 

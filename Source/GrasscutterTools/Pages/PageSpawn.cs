@@ -60,6 +60,7 @@ namespace GrasscutterTools.Pages
             // 初始化列表类型过滤器
             MenuSpawnEntityFilter.SuspendLayout();
             MenuSpawnEntityFilter.Items.Clear();
+            BtnFilterEntity.Text = Resources.All;
             // 默认显示所有
             SelectedEntityTypeLines = GameData.Monsters.AllLines.Concat(GameData.Gadgets.AllLines).ToArray();
             var all = new ToolStripMenuItem
@@ -103,6 +104,7 @@ namespace GrasscutterTools.Pages
         private void OnEntityTypeFilterClick(object sender, EventArgs e)
         {
             var btn = sender as ToolStripMenuItem;
+            BtnFilterEntity.Text = btn.Text;
             SelectedEntityTypeLines = btn.Tag as string[];
             LoadEntityList();
         }

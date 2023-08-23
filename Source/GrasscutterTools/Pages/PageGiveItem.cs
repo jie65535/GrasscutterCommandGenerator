@@ -49,6 +49,7 @@ namespace GrasscutterTools.Pages
             MenuItemFilter.SuspendLayout();
             MenuItemFilter.Items.Clear();
             SelectedItemTypeLines = GameData.Items.Lines;
+            BtnFilterItem.Text = Resources.All;
             var all = new ToolStripMenuItem
             {
                 Text = Resources.All,
@@ -82,6 +83,7 @@ namespace GrasscutterTools.Pages
         private void OnItemFilterClick(object sender, EventArgs e)
         {
             var btn = sender as ToolStripMenuItem;
+            BtnFilterItem.Text = btn.Text;
             SelectedItemTypeLines = btn.Tag as string[];
             LoadItemList();
         }
@@ -155,7 +157,7 @@ namespace GrasscutterTools.Pages
         /// </summary>
         private void BtnFilterItem_Click(object sender, EventArgs e)
         {
-            MenuItemFilter.Show(BtnFilterItem, 0, BtnFilterItem.Height);
+            MenuItemFilter.Show(BtnFilterItem, BtnFilterItem.Width, BtnFilterItem.Height);
         }
 
         #region -- 物品记录 --
