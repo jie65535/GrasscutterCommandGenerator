@@ -26,6 +26,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using GrasscutterTools.DispatchServer;
+using GrasscutterTools.DispatchServer.Model;
 using GrasscutterTools.Game;
 using GrasscutterTools.GOOD;
 using GrasscutterTools.OpenCommand;
@@ -125,7 +126,7 @@ namespace GrasscutterTools.Pages
                 // 自动尝试查询本地服务端地址，降低使用门槛
                 Task.Run(async () =>
                 {
-                    var localhosts = new string[] {
+                    var localhostList = new[] {
                         "http://127.0.0.1:443",
                         "https://127.0.0.1",
                         "http://127.0.0.1",
@@ -133,13 +134,13 @@ namespace GrasscutterTools.Pages
                         "http://127.0.0.1:8080",
                         "https://127.0.0.1:8080",
                     };
-                    foreach (var host in localhosts)
+                    foreach (var host in localhostList)
                     {
                         try
                         {
                             await UpdateServerStatus(host);
                             // 自动填写本地服务端地址
-                            TxtHost.Text = host;
+                            BeginInvoke(new Action(() => TxtHost.Text = host));
                             break;
                         }
                         catch (Exception)
@@ -169,6 +170,14 @@ namespace GrasscutterTools.Pages
         private async Task UpdateServerStatus(string host)
         {
             var status = await DispatchServerAPI.QueryServerStatus(host);
+            if (InvokeRequired)
+                BeginInvoke(new Action<ServerStatus>(ShowServerStatus), status);
+            else
+                ShowServerStatus(status);
+        }
+
+        private void ShowServerStatus(ServerStatus status)
+        {
             LblServerVersion.Text = status.Version;
             LblPlayerCount.Text = status.MaxPlayer > 0 ? $"{status.PlayerCount}/{status.MaxPlayer}" : status.PlayerCount.ToString();
         }

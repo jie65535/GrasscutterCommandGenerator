@@ -21,7 +21,7 @@
       <Value Profile="(Default)">10001</Value>
     </Setting>
     <Setting Name="Host" Type="System.String" Scope="User">
-      <Value Profile="(Default)">https://127.0.0.1</Value>
+      <Value Profile="(Default)">http://127.0.0.1:443</Value>
     </Setting>
     <Setting Name="CheckedLastVersion" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
