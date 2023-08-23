@@ -225,9 +225,26 @@ namespace GrasscutterTools.Game.Data
                         sb.ToString(),
                         Encoding.UTF8);
 
-                    File.WriteAllLines(
+                    sb.Clear();
+                    foreach (var it in QuestData.Values.OrderBy(it => it.Id))
+                    {
+                        var name = GameData.Quests[it.Id];
+                        if (name == ItemMap.EmptyName)
+                        {
+                            sb.AppendFormat("{0}:{1} - {2}",
+                                it.Id,
+                                TextMapData.GetText(MainQuestData[it.MainId].TitleTextMapHash),
+                                TextMapData.GetText(it.DescTextMapHash.ToString()));
+                        }
+                        else
+                        {
+                            sb.AppendFormat("{0}:{1}", it.Id, name);
+                        }
+                        sb.AppendLine();
+                    }
+                    File.WriteAllText(
                         Path.Combine(dir, "Quest.txt"),
-                        QuestData.Values.OrderBy(it => it.Id).Select(it => $"{it.Id}:{TextMapData.GetText(MainQuestData[it.MainId].TitleTextMapHash)} - {TextMapData.GetText(it.DescTextMapHash.ToString())}"),
+                        sb.ToString(),
                         Encoding.UTF8);
 
 
