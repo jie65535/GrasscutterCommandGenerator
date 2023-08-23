@@ -119,22 +119,22 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="CmbCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>132, 21</value>
+    <value>155, 21</value>
   </data>
   <data name="CmbCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>513, 25</value>
+    <value>523, 25</value>
   </data>
   <data name="BtnCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>651, 21</value>
+    <value>57, 21</value>
   </data>
   <data name="BtnCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 23</value>
+    <value>92, 25</value>
   </data>
   <data name="BtnCopy.Text" xml:space="preserve">
     <value>Копировать</value>
   </data>
   <data name="ChkAutoCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>749, 23</value>
+    <value>6, 24</value>
   </data>
   <data name="ChkAutoCopy.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 21</value>
@@ -145,14 +145,17 @@
   <data name="GrpCommand.Text" xml:space="preserve">
     <value>Команды - [Ctrl] Запуск и замена - [Shift] Добавить  - [Alt] Только запустить  - [|] Разделитель</value>
   </data>
+  <data name="BtnInvokeOpenCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>684, 21</value>
+  </data>
   <data name="BtnInvokeOpenCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 23</value>
+    <value>120, 25</value>
   </data>
   <data name="BtnInvokeOpenCommand.Text" xml:space="preserve">
     <value>Выполнить (F5)</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>Inherit</value>
+    <value>NoControl</value>
   </data>
 </root>
