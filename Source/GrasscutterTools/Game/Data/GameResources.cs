@@ -249,10 +249,20 @@ namespace GrasscutterTools.Game.Data
 
 
                     sb.Clear();
+                    foreach (var it in DungeonData.Values)
+                    {
+                        var scene = SceneData[it.SceneId];
+                        scene.NameTextMapHash = it.NameTextMapHash;
+                    }
                     foreach (var it in SceneData.Values.OrderBy(it => it.Id))
                     {
-                        var name = GameData.Scenes[it.Id];
-                        sb.AppendLine($"{it.Id}:{(name == ItemMap.EmptyName ? it.ScriptData : name)}");
+                        if (it.NameTextMapHash == 0 || !TextMapData.TryGetText(it.NameTextMapHash.ToString(), out var name))
+                        {
+                            name = GameData.Scenes[it.Id];
+                            if (name == ItemMap.EmptyName)
+                                name = it.ScriptData;
+                        }
+                        sb.AppendLine($"{it.Id}:{name}");
                     }
                     File.WriteAllText(
                         Path.Combine(dir, "Scene.txt"),
