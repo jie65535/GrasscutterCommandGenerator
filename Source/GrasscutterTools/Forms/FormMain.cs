@@ -380,10 +380,9 @@ namespace GrasscutterTools.Forms
         /// <param name="args">参数</param>
         private void SetCommand(string command, string args)
         {
-            if (Settings.Default.IsIncludeUID)
-                SetCommand($"{command} @{Settings.Default.Uid} {args.Trim()}");
-            else
-                SetCommand($"{command} {args.Trim()}");
+            SetCommand(Settings.Default.IsIncludeUID
+                ? $"{command} {args.Trim()} @{Settings.Default.Uid}"
+                : $"{command} {args.Trim()}");
         }
 
         /// <summary>
