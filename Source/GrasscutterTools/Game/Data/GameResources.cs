@@ -66,7 +66,7 @@ namespace GrasscutterTools.Game.Data
 
             var illegalWeaponIds = new SparseSet(
                 "10000-10008, 11411, 11506-11508, 12505, 12506, 12508, 12509," +
-                "13503, 13506, 14411, 14503, 14505, 14508, 15504-15506, 20001");
+                "13503, 13506, 14411, 14503, 14508, 15504-15506, 20001");
             foreach (var id in WeaponData.Keys.Where(id => illegalWeaponIds.Contains(id)).ToList())
                 WeaponData.Remove(id);
 
