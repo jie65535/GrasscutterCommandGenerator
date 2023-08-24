@@ -43,7 +43,7 @@
             this.NUDGameItemAmout = new System.Windows.Forms.NumericUpDown();
             this.NUDGameItemLevel = new System.Windows.Forms.NumericUpDown();
             this.LblGiveCommandDescription = new System.Windows.Forms.Label();
-            this.BtnFilterItem = new System.Windows.Forms.Button();
+            this.CmbFilterItem = new System.Windows.Forms.ComboBox();
             this.MenuItemFilter = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.GrpGiveItemRecord.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDGameItemAmout)).BeginInit();
@@ -162,12 +162,12 @@
             resources.ApplyResources(this.LblGiveCommandDescription, "LblGiveCommandDescription");
             this.LblGiveCommandDescription.Name = "LblGiveCommandDescription";
             // 
-            // BtnFilterItem
+            // CmbFilterItem
             // 
-            resources.ApplyResources(this.BtnFilterItem, "BtnFilterItem");
-            this.BtnFilterItem.Name = "BtnFilterItem";
-            this.BtnFilterItem.UseVisualStyleBackColor = true;
-            this.BtnFilterItem.Click += new System.EventHandler(this.BtnFilterItem_Click);
+            this.CmbFilterItem.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.CmbFilterItem, "CmbFilterItem");
+            this.CmbFilterItem.Name = "CmbFilterItem";
+            this.CmbFilterItem.SelectedIndexChanged += new System.EventHandler(this.CmbFilterItem_SelectedIndexChanged);
             // 
             // MenuItemFilter
             // 
@@ -178,7 +178,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.BtnFilterItem);
+            this.Controls.Add(this.CmbFilterItem);
             this.Controls.Add(this.LblClearGiveItemLogs);
             this.Controls.Add(this.BtnSaveGiveItemLog);
             this.Controls.Add(this.BtnRemoveGiveItemLog);
@@ -215,7 +215,7 @@
         private System.Windows.Forms.NumericUpDown NUDGameItemAmout;
         private System.Windows.Forms.NumericUpDown NUDGameItemLevel;
         private System.Windows.Forms.Label LblGiveCommandDescription;
-        private System.Windows.Forms.Button BtnFilterItem;
+        private System.Windows.Forms.ComboBox CmbFilterItem;
         private System.Windows.Forms.ContextMenuStrip MenuItemFilter;
     }
 }

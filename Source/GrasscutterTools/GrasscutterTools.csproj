@@ -489,6 +489,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageGiveItem.resx">
       <DependentUpon>PageGiveItem.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageGiveItem.ru-RU.resx">
       <DependentUpon>PageGiveItem.cs</DependentUpon>

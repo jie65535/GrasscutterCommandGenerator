@@ -301,10 +301,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="TxtGameItemFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>448, 3</value>
+    <value>498, 3</value>
   </data>
   <data name="TxtGameItemFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>195, 23</value>
+    <value>145, 23</value>
   </data>
   <data name="TxtGameItemFilter.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -493,32 +493,29 @@
   <data name="&gt;&gt;LblGiveCommandDescription.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
-  <data name="BtnFilterItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="CmbFilterItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="BtnFilterItem.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="CmbFilterItem.Location" type="System.Drawing.Point, System.Drawing">
     <value>342, 2</value>
   </data>
-  <data name="BtnFilterItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
+  <data name="CmbFilterItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
   </data>
-  <data name="BtnFilterItem.TabIndex" type="System.Int32, mscorlib">
+  <data name="CmbFilterItem.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
-  <data name="BtnFilterItem.Text" xml:space="preserve">
-    <value>全部</value>
+  <data name="&gt;&gt;CmbFilterItem.Name" xml:space="preserve">
+    <value>CmbFilterItem</value>
   </data>
-  <data name="&gt;&gt;BtnFilterItem.Name" xml:space="preserve">
-    <value>BtnFilterItem</value>
+  <data name="&gt;&gt;CmbFilterItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BtnFilterItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnFilterItem.Parent" xml:space="preserve">
+  <data name="&gt;&gt;CmbFilterItem.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;BtnFilterItem.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;CmbFilterItem.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="MenuItemFilter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

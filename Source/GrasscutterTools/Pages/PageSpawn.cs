@@ -73,40 +73,7 @@ namespace GrasscutterTools.Pages
 
             CmbFilterEntity.DataSource = types;
             EntityList = entityList;
-
-            //// 初始化列表类型过滤器
-            //MenuSpawnEntityFilter.SuspendLayout();
-            //MenuSpawnEntityFilter.Items.Clear();
-            //CmbFilterEntity.Text = Resources.All;
-            //// 默认显示所有
-            //SelectedEntityTypeLines = GameData.Monsters.AllLines.Concat(GameData.Gadgets.AllLines).ToArray();
-            //var all = new ToolStripMenuItem
-            //{
-            //    Text = Resources.All,
-            //    Tag = SelectedEntityTypeLines,
-            //};
-            //all.Click += OnEntityTypeFilterClick;
-            //MenuSpawnEntityFilter.Items.Add(all);
-
-            //void AddTypes(ItemMapGroup group)
-            //{
-            //    foreach (var kv in group)
-            //    {
-            //        var item = new ToolStripMenuItem
-            //        {
-            //            Text = kv.Key,
-            //            Tag = kv.Value.Lines,
-            //        };
-            //        item.Click += OnEntityTypeFilterClick;
-            //        MenuSpawnEntityFilter.Items.Add(item);
-            //    }
-            //}
-            ////MenuSpawnEntityFilter.Items.Add(new ToolStripLabel("Monsters"));
-            //AddTypes(GameData.Monsters);
-            //MenuSpawnEntityFilter.Items.Add(new ToolStripSeparator());
-            ////MenuSpawnEntityFilter.Items.Add(new ToolStripLabel("Gadgets"));
-            //AddTypes(GameData.Gadgets);
-            //MenuSpawnEntityFilter.ResumeLayout();
+            
 
             //Console.WriteLine(string.Join("\n", GameData.Gadgets.Keys));
             
@@ -118,16 +85,6 @@ namespace GrasscutterTools.Pages
         /// </summary>
         private string[] SelectedEntityTypeLines;
 
-        ///// <summary>
-        ///// 实体类型过滤器类型选中时触发
-        ///// </summary>
-        //private void OnEntityTypeFilterClick(object sender, EventArgs e)
-        //{
-        //    var btn = sender as ToolStripMenuItem;
-        //    CmbFilterEntity.Text = btn.Text;
-        //    SelectedEntityTypeLines = btn.Tag as string[];
-        //    LoadEntityList();
-        //}
         
         /// <summary>
         /// 类别选中时触发
@@ -156,14 +113,7 @@ namespace GrasscutterTools.Pages
         {
             LoadEntityList();
         }
-
-        /// <summary>
-        /// 实体列表类型过滤按钮点击时触发
-        /// </summary>
-        private void BtnFilterEntity_Click(object sender, EventArgs e)
-        {
-            MenuSpawnEntityFilter.Show(CmbFilterEntity, CmbFilterEntity.Width, CmbFilterEntity.Height);
-        }
+        
 
         /// <summary>
         /// 实体列表选中项改变时触发

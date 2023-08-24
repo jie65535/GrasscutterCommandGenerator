@@ -41,34 +41,28 @@ namespace GrasscutterTools.Pages
             InitGiveItemRecord();
         }
 
+        private List<string[]> ItemList;
+
         /// <summary>
         /// 初始化游戏物品列表
         /// </summary>
         public override void OnLoad()
         {
-            MenuItemFilter.SuspendLayout();
-            MenuItemFilter.Items.Clear();
+            var types = new List<string>();
+            var itemList = new List<string[]>();
+
+            types.Add(Resources.All);
             SelectedItemTypeLines = GameData.Items.Lines;
-            BtnFilterItem.Text = Resources.All;
-            var all = new ToolStripMenuItem
-            {
-                Text = Resources.All,
-                Tag = SelectedItemTypeLines,
-            };
-            all.Click += OnItemFilterClick;
-            MenuItemFilter.Items.Add(all);
+            itemList.Add(SelectedItemTypeLines);
             foreach (var kv in GameData.Items)
             {
-                var item = new ToolStripMenuItem
-                {
-                    Text = kv.Key,
-                    Tag = kv.Value.Lines,
-                };
-                item.Click += OnItemFilterClick;
-                MenuItemFilter.Items.Add(item);
+                types.Add(kv.Key);
+                itemList.Add(kv.Value.Lines);
             }
-            MenuItemFilter.ResumeLayout();
 
+            CmbFilterItem.DataSource = types;
+            ItemList = itemList;
+            
             LoadItemList();
         }
 
@@ -78,13 +72,14 @@ namespace GrasscutterTools.Pages
         private string[] SelectedItemTypeLines;
 
         /// <summary>
-        /// 物品类型过滤器类型选中时触发
+        /// 点击过滤物品按钮时触发
         /// </summary>
-        private void OnItemFilterClick(object sender, EventArgs e)
+        private void CmbFilterItem_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var btn = sender as ToolStripMenuItem;
-            BtnFilterItem.Text = btn.Text;
-            SelectedItemTypeLines = btn.Tag as string[];
+            if (CmbFilterItem.SelectedIndex < 0 || ItemList == null) return;
+            var lines = ItemList[CmbFilterItem.SelectedIndex];
+            if (SelectedItemTypeLines == lines) return;
+            SelectedItemTypeLines = lines;
             LoadItemList();
         }
 
@@ -152,13 +147,6 @@ namespace GrasscutterTools.Pages
             GenGiveItemCommand();
         }
 
-        /// <summary>
-        /// 点击过滤物品按钮时触发
-        /// </summary>
-        private void BtnFilterItem_Click(object sender, EventArgs e)
-        {
-            MenuItemFilter.Show(BtnFilterItem, BtnFilterItem.Width, BtnFilterItem.Height);
-        }
 
         #region -- 物品记录 --
 
