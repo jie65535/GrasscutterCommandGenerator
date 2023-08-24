@@ -1,4 +1,22 @@
-﻿
+﻿/**
+ *  Grasscutter Tools
+ *  Copyright (C) 2023 jie65535
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as published
+ *  by the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ **/
+
 // ReSharper disable InconsistentNaming
 
 using System.Collections.Generic;
@@ -19,7 +37,6 @@ namespace GrasscutterTools.Game.Props
         MONSTER_PARTNER = 6,
     }
 
-
     internal static class ItemTypeExtension
     {
         private static readonly Dictionary<MonsterType, string> TextMapCHS = new Dictionary<MonsterType, string>
@@ -32,6 +49,7 @@ namespace GrasscutterTools.Game.Props
             [MonsterType.MONSTER_FISH] = "鱼",
             [MonsterType.MONSTER_PARTNER] = "友军",
         };
+
         private static readonly Dictionary<MonsterType, string> TextMapEN = new Dictionary<MonsterType, string>
         {
             [MonsterType.MONSTER_NONE] = "None",

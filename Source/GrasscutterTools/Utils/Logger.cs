@@ -23,7 +23,7 @@ using System.Windows.Forms;
 
 namespace GrasscutterTools.Utils
 {
-    public static class Logger
+    internal static class Logger
     {
         public static bool IsSaveLogs = false;
 

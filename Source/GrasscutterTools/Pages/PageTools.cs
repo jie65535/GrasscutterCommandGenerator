@@ -1,4 +1,23 @@
-﻿using System;
+﻿/**
+ *  Grasscutter Tools
+ *  Copyright (C) 2023 jie65535
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as published
+ *  by the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ **/
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -9,7 +28,6 @@ using GrasscutterTools.Game;
 using GrasscutterTools.Game.Activity;
 using GrasscutterTools.Game.CutScene;
 using GrasscutterTools.Game.Data;
-using GrasscutterTools.Game.Dungeon;
 using GrasscutterTools.Properties;
 
 using Newtonsoft.Json;
@@ -122,10 +140,6 @@ namespace GrasscutterTools.Pages
             }
         }
 
-
-
-
-
         private TextMapData TextMapData;
         private GameResources GameResources;
 
@@ -134,7 +148,7 @@ namespace GrasscutterTools.Pages
             try
             {
                 if (!CheckInputPaths()) return;
-                
+
                 if (TextMapData == null)
                     TextMapData = new TextMapData(TxtGcResRoot.Text);
                 if (GameResources == null)
@@ -148,13 +162,6 @@ namespace GrasscutterTools.Pages
                 MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-
-
-
-
-
-
 
         private void BtnUpdateActivity_Click(object sender, EventArgs e)
         {
@@ -208,6 +215,5 @@ namespace GrasscutterTools.Pages
             //    activityItems.Select(it => $"{it.ActivityId}:{TextMapData.GetText(it.NameTextMapHash)}"),
             //    Encoding.UTF8);
         }
-
     }
 }

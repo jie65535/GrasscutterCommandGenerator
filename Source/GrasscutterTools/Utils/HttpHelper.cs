@@ -27,7 +27,7 @@ using Newtonsoft.Json;
 
 namespace GrasscutterTools.Utils
 {
-    public static class HttpHelper
+    internal static class HttpHelper
     {
         public static readonly HttpClient HttpClient = new HttpClient
         {

@@ -261,7 +261,7 @@ namespace GrasscutterTools.Utils
     /// <summary>
     /// 热键触发事件参数
     /// </summary>
-    public class HotKeyTriggerEventArgs
+    internal class HotKeyTriggerEventArgs
     {
         public HotKeyItem HotKeyItem { get; set; }
 

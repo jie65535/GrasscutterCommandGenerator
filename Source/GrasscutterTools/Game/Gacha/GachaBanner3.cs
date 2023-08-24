@@ -28,7 +28,7 @@ namespace GrasscutterTools.Game.Gacha
     /// <summary>
     /// https://github.com/Grasscutters/Grasscutter/pull/639
     /// </summary>
-    public class GachaBanner3
+    internal class GachaBanner3
     {
         /// <summary>
         /// 备注

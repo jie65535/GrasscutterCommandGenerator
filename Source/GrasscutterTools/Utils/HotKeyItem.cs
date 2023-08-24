@@ -24,7 +24,7 @@ namespace GrasscutterTools.Utils
     /// <summary>
     /// 热键项
     /// </summary>
-    public class HotKeyItem
+    internal class HotKeyItem
     {
         /// <summary>
         /// Gets or sets the hot key identifier.

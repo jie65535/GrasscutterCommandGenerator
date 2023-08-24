@@ -25,7 +25,7 @@ namespace GrasscutterTools.Game
     /// <summary>
     /// ID映射组，Key为分类，双斜杠构造
     /// </summary>
-    public class ItemMapGroup : Dictionary<string, ItemMap>
+    internal class ItemMapGroup : Dictionary<string, ItemMap>
     {
         public ItemMapGroup(string idNamePairs)
         {

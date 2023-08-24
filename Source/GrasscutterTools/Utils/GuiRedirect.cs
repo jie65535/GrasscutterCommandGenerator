@@ -25,7 +25,7 @@ namespace GrasscutterTools.Utils
     /// <summary>
     /// <see cref="https://stackoverflow.com/a/17534263"/>
     /// </summary>
-    public class GuiRedirect
+    internal class GuiRedirect
     {
         [DllImport("kernel32.dll", SetLastError = true)]
         private static extern bool AttachConsole(int dwProcessId);

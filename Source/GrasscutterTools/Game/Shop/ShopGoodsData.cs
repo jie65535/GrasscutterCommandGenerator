@@ -25,7 +25,7 @@ using Newtonsoft.Json.Converters;
 
 namespace GrasscutterTools.Game.Shop
 {
-    public class ShopGoodsData
+    internal class ShopGoodsData
     {
         [JsonProperty("goodsId")]
         public int GoodsId { get; set; }

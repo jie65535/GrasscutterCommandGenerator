@@ -24,7 +24,7 @@ using GrasscutterTools.Utils;
 
 namespace GrasscutterTools.DispatchServer
 {
-    public static class DispatchServerAPI
+    internal static class DispatchServerAPI
     {
         public static async Task<ServerStatus> QueryServerStatus(string host)
         {

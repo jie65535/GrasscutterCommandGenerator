@@ -24,7 +24,7 @@ using Newtonsoft.Json;
 
 namespace GrasscutterTools.Game.Activity
 {
-    public class ActivityConfigItem
+    internal class ActivityConfigItem
     {
         /// <summary>
         /// 活动ID

@@ -26,7 +26,7 @@ using Newtonsoft.Json.Converters;
 
 namespace GrasscutterTools.Game.Shop
 {
-    public class ShopInfo
+    internal class ShopInfo
     {
         public ShopInfo()
         {

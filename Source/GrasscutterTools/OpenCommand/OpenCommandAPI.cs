@@ -26,7 +26,7 @@ using Newtonsoft.Json;
 
 namespace GrasscutterTools.OpenCommand
 {
-    public class OpenCommandAPI
+    internal class OpenCommandAPI
     {
         public OpenCommandAPI(string host, string token = "")
         {

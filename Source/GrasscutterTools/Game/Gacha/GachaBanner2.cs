@@ -25,7 +25,7 @@ namespace GrasscutterTools.Game.Gacha
     /// <summary>
     /// https://github.com/Grasscutters/Grasscutter/pull/639
     /// </summary>
-    public class GachaBanner2
+    internal class GachaBanner2
     {
         /// <summary>
         /// 添加卡池请从400开始增加id数值进行添加，这个id需要每个池子不一样，

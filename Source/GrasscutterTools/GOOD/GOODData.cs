@@ -26,7 +26,7 @@ using GrasscutterTools.Properties;
 
 namespace GrasscutterTools.GOOD
 {
-    public static class GOODData
+    internal static class GOODData
     {
         static GOODData()
         {

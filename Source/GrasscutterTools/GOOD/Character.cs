@@ -26,7 +26,7 @@ namespace GrasscutterTools.GOOD
     /// Doc: https://frzyc.github.io/genshin-optimizer/#/doc
     /// Modified from https://github.com/Andrewthe13th/Inventory_Kamera/blob/master/InventoryKamera/game/Character.cs
     /// </summary>
-    public class Character
+    internal class Character
     {
         /// <summary>
         /// e.g. "Rosaria"

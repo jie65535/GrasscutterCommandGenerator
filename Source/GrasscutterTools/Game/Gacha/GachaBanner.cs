@@ -28,7 +28,7 @@ namespace GrasscutterTools.Game.Gacha
     /// 使用这个只需替换掉你原来的的data/banner.json文件，
     /// 然后重启服务器和客户端，即可享受全卡池抽卡，卡池的选择方式是点击左右箭头进行切换
     /// </summary>
-    public class GachaBanner
+    internal class GachaBanner
     {
         /// <summary>
         /// 添加卡池请从400开始增加id数值进行添加，这个id需要每个池子不一样，

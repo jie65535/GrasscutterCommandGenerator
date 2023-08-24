@@ -22,7 +22,7 @@ using System.Text;
 
 namespace GrasscutterTools.Game
 {
-    public class GameCommand
+    internal class GameCommand
     {
         public GameCommand(string name, string command)
         {

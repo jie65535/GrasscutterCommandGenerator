@@ -22,7 +22,7 @@ using System.Collections.Generic;
 
 namespace GrasscutterTools.Game
 {
-    public class ItemMap
+    internal class ItemMap
     {
         public ItemMap(string idNamePairs)
         {

@@ -8,7 +8,7 @@ using GrasscutterTools.Properties;
 
 namespace GrasscutterTools.Utils
 {
-    public static class UIUtil
+    internal static class UIUtil
     {
         /// <summary>
         /// 播放按钮完成动画

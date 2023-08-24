@@ -1,4 +1,5 @@
-﻿/**
+﻿extensions: .cs
+/**
  *  Grasscutter Tools
  *  Copyright (C) 2023 jie65535
  *
@@ -16,11 +17,3 @@
  *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  **/
-
-namespace GrasscutterTools.Game.Data.Excels
-{
-    [ResourceType("GadgetExcelConfigData.json")]
-    internal class GadgetData
-    {
-    }
-}

@@ -24,7 +24,7 @@ using System.Windows.Forms;
 
 namespace GrasscutterTools.Utils
 {
-    public static class AppHotKey
+    internal static class AppHotKey
     {
         /// <summary>
         /// 注册热键

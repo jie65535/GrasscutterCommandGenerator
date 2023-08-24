@@ -28,7 +28,7 @@ namespace GrasscutterTools.GOOD
     /// Doc: https://frzyc.github.io/genshin-optimizer/#/doc
     /// Modified from https://github.com/Andrewthe13th/Inventory_Kamera/blob/master/InventoryKamera/game/Weapon.cs
     /// </summary>
-    public class Weapon
+    internal class Weapon
     {
         /// <summary>
         /// e.g. "CrescentPike"

@@ -21,7 +21,7 @@ using Newtonsoft.Json;
 
 namespace GrasscutterTools.DispatchServer.Model
 {
-    public class ServerStatus
+    internal class ServerStatus
     {
         [JsonProperty("playerCount")]
         public int PlayerCount { get; set; }
@@ -33,7 +33,7 @@ namespace GrasscutterTools.DispatchServer.Model
         public string Version { get; set; }
     }
 
-    public class ServerStatusResponse
+    internal class ServerStatusResponse
     {
         [JsonProperty("retcode")]
         public int RetCode { get; set; }

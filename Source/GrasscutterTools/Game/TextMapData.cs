@@ -26,7 +26,7 @@ using Newtonsoft.Json;
 
 namespace GrasscutterTools.Game
 {
-    public class TextMapData
+    internal class TextMapData
     {
         public TextMapData(string resourcesDirPath)
         {

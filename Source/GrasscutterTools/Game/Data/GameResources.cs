@@ -1,4 +1,23 @@
-﻿using System;
+﻿/**
+ *  Grasscutter Tools
+ *  Copyright (C) 2023 jie65535
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as published
+ *  by the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ **/
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
@@ -6,10 +25,10 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
+
 using GrasscutterTools.Game.Data.Excels;
 using GrasscutterTools.Game.Inventory;
 using GrasscutterTools.Game.Props;
-using GrasscutterTools.GOOD;
 using GrasscutterTools.Utils;
 
 using Newtonsoft.Json;
@@ -27,7 +46,7 @@ namespace GrasscutterTools.Game.Data
         public Dictionary<int, DungeonData> DungeonData { get; set; }
 
         public Dictionary<int, HomeWorldFurnitureData> HomeWorldFurnitureData { get; set; }
-        
+
         public Dictionary<int, MainQuestData> MainQuestData { get; set; }
 
         public Dictionary<int, QuestData> QuestData { get; set; }
@@ -37,14 +56,12 @@ namespace GrasscutterTools.Game.Data
         public Dictionary<int, MonsterData> MonsterData { get; set; }
 
         public Dictionary<int, ReliquaryData> ReliquaryData { get; set; }
-        
+
         public Dictionary<int, SceneData> SceneData { get; set; }
 
         public Dictionary<int, WeaponData> WeaponData { get; set; }
 
         public TextMapData TextMapData { get; set; }
-
-
 
         public GameResources(string resourcesDirPath, TextMapData textMapData)
         {
@@ -62,7 +79,6 @@ namespace GrasscutterTools.Game.Data
                 var data = LoadDataFile(gameResourceType, dataFile);
                 property.SetValue(this, data, null);
             }
-
 
             var illegalWeaponIds = new SparseSet(
                 "10000-10008, 11411, 11506-11508, 12505, 12506, 12508, 12509," +
@@ -110,8 +126,8 @@ namespace GrasscutterTools.Game.Data
         {
             ["zh-cn"] = "TextMapCHS",
             ["zh-tw"] = "TextMapCHT",
-            ["en-us"] =  "TextMapEN",
-            ["ru-ru"] =  "TextMapRU",
+            ["en-us"] = "TextMapEN",
+            ["ru-ru"] = "TextMapRU",
         };
 
         public void ConvertResources(string projectResourcesDir)
@@ -195,7 +211,6 @@ namespace GrasscutterTools.Game.Data
 
                     File.WriteAllText(Path.Combine(dir, "Item.txt"), sb.ToString(), Encoding.UTF8);
 
-
                     sb.Clear();
                     foreach (var monsterType in MonsterData.Values.OrderBy(it => it.Id)
                                  .GroupBy(it => it.Type)
@@ -247,7 +262,6 @@ namespace GrasscutterTools.Game.Data
                         sb.ToString(),
                         Encoding.UTF8);
 
-
                     sb.Clear();
                     foreach (var it in DungeonData.Values)
                     {
@@ -275,7 +289,6 @@ namespace GrasscutterTools.Game.Data
                         Encoding.UTF8);
                 }
 
-
                 File.WriteAllLines(
                     Path.Combine(projectResourcesDir, "AvatarColor.txt"),
                     AvatarData.Values.Select(it => $"{it.Id % 1000 + 1000}:{(int)it.QualityType}"),
@@ -285,7 +298,6 @@ namespace GrasscutterTools.Game.Data
                     Path.Combine(projectResourcesDir, "WeaponColor.txt"),
                     WeaponData.Values.Select(it => $"{it.Id}:{(it.RankLevel >= 5 ? "yellow" : it.RankLevel >= 4 ? "purple" : "blue")}"),
                     Encoding.UTF8);
-
             }
             finally
             {

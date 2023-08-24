@@ -27,7 +27,7 @@ namespace GrasscutterTools.Game.Mail
     /// <summary>
     /// 邮件
     /// </summary>
-    public class Mail
+    internal class Mail
     {
         /// <summary>
         /// 发件人

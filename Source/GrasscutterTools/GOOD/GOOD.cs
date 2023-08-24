@@ -38,7 +38,7 @@ namespace GrasscutterTools.GOOD
     /// https://genshin.mingyulab.com/
     /// https://genshin-center.com/
     /// </summary>
-    public class GOOD
+    internal class GOOD
     {
         [JsonProperty("format")]
         public string Format { get; set; }

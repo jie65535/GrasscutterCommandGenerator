@@ -23,7 +23,7 @@ using Newtonsoft.Json;
 
 namespace GrasscutterTools.Game.Shop
 {
-    public class ShopTable
+    internal class ShopTable
     {
         [JsonProperty("shopId")]
         public int ShopType { get; set; }
