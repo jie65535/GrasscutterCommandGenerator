@@ -52,44 +52,64 @@ namespace GrasscutterTools.Pages
 
         #region -- 实体列表 --
 
+        private List<string[]> EntityList;
+
         /// <summary>
         /// 初始化实体列表
         /// </summary>
         private void InitEntityList()
         {
-            // 初始化列表类型过滤器
-            MenuSpawnEntityFilter.SuspendLayout();
-            MenuSpawnEntityFilter.Items.Clear();
-            BtnFilterEntity.Text = Resources.All;
+            var types = new List<string>();
+            var entityList = new List<string[]>();
+
+            types.Add(Resources.All);
             // 默认显示所有
             SelectedEntityTypeLines = GameData.Monsters.AllLines.Concat(GameData.Gadgets.AllLines).ToArray();
-            var all = new ToolStripMenuItem
-            {
-                Text = Resources.All,
-                Tag = SelectedEntityTypeLines,
-            };
-            all.Click += OnEntityTypeFilterClick;
-            MenuSpawnEntityFilter.Items.Add(all);
-            void AddTypes(ItemMapGroup group)
-            {
-                foreach (var kv in group)
-                {
-                    var item = new ToolStripMenuItem
-                    {
-                        Text = kv.Key,
-                        Tag = kv.Value.Lines,
-                    };
-                    item.Click += OnEntityTypeFilterClick;
-                    MenuSpawnEntityFilter.Items.Add(item);
-                }
-            }
-            //MenuSpawnEntityFilter.Items.Add(new ToolStripLabel("Monsters"));
-            AddTypes(GameData.Monsters);
-            MenuSpawnEntityFilter.Items.Add(new ToolStripSeparator());
-            //MenuSpawnEntityFilter.Items.Add(new ToolStripLabel("Gadgets"));
-            AddTypes(GameData.Gadgets);
-            MenuSpawnEntityFilter.ResumeLayout();
+            entityList.Add(SelectedEntityTypeLines);
+            types.AddRange(GameData.Monsters.Select(it => it.Key));
+            entityList.AddRange(GameData.Monsters.Select(it => it.Value.Lines));
+            types.AddRange(GameData.Gadgets.Select(it => it.Key));
+            entityList.AddRange(GameData.Gadgets.Select(it => it.Value.Lines));
 
+            CmbFilterEntity.DataSource = types;
+            EntityList = entityList;
+
+            //// 初始化列表类型过滤器
+            //MenuSpawnEntityFilter.SuspendLayout();
+            //MenuSpawnEntityFilter.Items.Clear();
+            //CmbFilterEntity.Text = Resources.All;
+            //// 默认显示所有
+            //SelectedEntityTypeLines = GameData.Monsters.AllLines.Concat(GameData.Gadgets.AllLines).ToArray();
+            //var all = new ToolStripMenuItem
+            //{
+            //    Text = Resources.All,
+            //    Tag = SelectedEntityTypeLines,
+            //};
+            //all.Click += OnEntityTypeFilterClick;
+            //MenuSpawnEntityFilter.Items.Add(all);
+
+            //void AddTypes(ItemMapGroup group)
+            //{
+            //    foreach (var kv in group)
+            //    {
+            //        var item = new ToolStripMenuItem
+            //        {
+            //            Text = kv.Key,
+            //            Tag = kv.Value.Lines,
+            //        };
+            //        item.Click += OnEntityTypeFilterClick;
+            //        MenuSpawnEntityFilter.Items.Add(item);
+            //    }
+            //}
+            ////MenuSpawnEntityFilter.Items.Add(new ToolStripLabel("Monsters"));
+            //AddTypes(GameData.Monsters);
+            //MenuSpawnEntityFilter.Items.Add(new ToolStripSeparator());
+            ////MenuSpawnEntityFilter.Items.Add(new ToolStripLabel("Gadgets"));
+            //AddTypes(GameData.Gadgets);
+            //MenuSpawnEntityFilter.ResumeLayout();
+
+            //Console.WriteLine(string.Join("\n", GameData.Gadgets.Keys));
+            
             LoadEntityList();
         }
 
@@ -98,14 +118,26 @@ namespace GrasscutterTools.Pages
         /// </summary>
         private string[] SelectedEntityTypeLines;
 
+        ///// <summary>
+        ///// 实体类型过滤器类型选中时触发
+        ///// </summary>
+        //private void OnEntityTypeFilterClick(object sender, EventArgs e)
+        //{
+        //    var btn = sender as ToolStripMenuItem;
+        //    CmbFilterEntity.Text = btn.Text;
+        //    SelectedEntityTypeLines = btn.Tag as string[];
+        //    LoadEntityList();
+        //}
+        
         /// <summary>
-        /// 实体类型过滤器类型选中时触发
+        /// 类别选中时触发
         /// </summary>
-        private void OnEntityTypeFilterClick(object sender, EventArgs e)
+        private void CmbFilterEntity_SelectedIndexChanged(object sender, EventArgs e)
         {
-            var btn = sender as ToolStripMenuItem;
-            BtnFilterEntity.Text = btn.Text;
-            SelectedEntityTypeLines = btn.Tag as string[];
+            if (CmbFilterEntity.SelectedIndex < 0 || EntityList == null) return;
+            var lines = EntityList[CmbFilterEntity.SelectedIndex];
+            if (SelectedEntityTypeLines == lines) return;
+            SelectedEntityTypeLines = lines;
             LoadEntityList();
         }
 
@@ -130,7 +162,7 @@ namespace GrasscutterTools.Pages
         /// </summary>
         private void BtnFilterEntity_Click(object sender, EventArgs e)
         {
-            MenuSpawnEntityFilter.Show(BtnFilterEntity, 0, BtnFilterEntity.Height);
+            MenuSpawnEntityFilter.Show(CmbFilterEntity, CmbFilterEntity.Width, CmbFilterEntity.Height);
         }
 
         /// <summary>
@@ -389,5 +421,6 @@ namespace GrasscutterTools.Pages
         }
 
         #endregion -- 攻击注入参数 --
+
     }
 }

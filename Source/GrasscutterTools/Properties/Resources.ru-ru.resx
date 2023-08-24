@@ -351,4 +351,7 @@
   <data name="PageHotKey" xml:space="preserve">
     <value>Горячая клавиша</value>
   </data>
+  <data name="Gadget" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ru-ru\Gadget.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
 </root>

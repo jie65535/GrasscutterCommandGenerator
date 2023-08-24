@@ -45,6 +45,10 @@ namespace GrasscutterTools.Game.Data
 
         public Dictionary<int, DungeonData> DungeonData { get; set; }
 
+        public Dictionary<int, GadgetData> GadgetData { get; set; }
+
+        public List<GatherData> GatherData { get; set; }
+
         public Dictionary<int, HomeWorldFurnitureData> HomeWorldFurnitureData { get; set; }
 
         public Dictionary<int, MainQuestData> MainQuestData { get; set; }
@@ -72,11 +76,18 @@ namespace GrasscutterTools.Game.Data
             {
                 var type = property.PropertyType;
                 if (!type.IsGenericType) continue;
-                var gameResourceType = type.GetGenericArguments()[1];
-                var attributes = (ResourceTypeAttribute[])gameResourceType.GetCustomAttributes(typeof(ResourceTypeAttribute), true);
-                if (attributes.Length < 1) continue;
-                var dataFile = Path.Combine(resourcesDirPath, "ExcelBinOutput", attributes[0].Name);
-                var data = LoadDataFile(gameResourceType, dataFile);
+                var genericArguments = type.GetGenericArguments();
+                ResourceTypeAttribute attribute = null;
+                foreach (var it in genericArguments)
+                {
+                    var attributes = it.GetCustomAttributes(typeof(ResourceTypeAttribute), true);
+                    if (attributes.Length == 0) continue;
+                    attribute = (ResourceTypeAttribute)attributes[0];
+                    type = it;
+                }
+                if (attribute == null) continue;
+                var dataFile = Path.Combine(resourcesDirPath, "ExcelBinOutput", attribute.Name);
+                var data = LoadDataFile(type, dataFile);
                 property.SetValue(this, data, null);
             }
 
@@ -115,6 +126,8 @@ namespace GrasscutterTools.Game.Data
             var list = (IList)JsonConvert.DeserializeObject(File.ReadAllText(path), typeof(List<>).MakeGenericType(type));
             if (list == null) return null;
 
+            if (!type.IsSubclassOf(typeof(GameResource))) return list;
+
             var dicType = typeof(Dictionary<,>).MakeGenericType(typeof(int), type);
             var dic = (IDictionary)Activator.CreateInstance(dicType);
             foreach (GameResource gameResource in list)
@@ -144,17 +157,30 @@ namespace GrasscutterTools.Game.Data
                     Thread.CurrentThread.CurrentUICulture = new CultureInfo(language.Key);
                     GameData.LoadResources();
 
+                    #region Achievement
+
+                    // Achievement
                     File.WriteAllLines(
                         Path.Combine(dir, "Achievement.txt"),
                         AchievementData.Values.Where(it => it.IsUsed)
                             .Select(it => $"{it.Id}:{TextMapData.GetText(it.TitleTextMapHash.ToString())} - {TextMapData.GetText(it.DescTextMapHash.ToString())}"),
                         Encoding.UTF8);
 
+                    #endregion Achievement
+
+                    #region Artifact
+
+                    // Artifact
                     File.WriteAllLines(
                         Path.Combine(dir, "Artifact.txt"),
                         ReliquaryData.Values.OrderBy(it => it.Id).Select(it => $"{it.Id}:{TextMapData.GetText(it.NameTextMapHash.ToString())}"),
                         Encoding.UTF8);
 
+                    #endregion Artifact
+
+                    #region Avatar
+
+                    // Avatar
                     File.WriteAllLines(
                         Path.Combine(dir, "Avatar.txt"),
                         MaterialData.Values
@@ -162,11 +188,88 @@ namespace GrasscutterTools.Game.Data
                             .Select(it => $"{it.Id}:{TextMapData.GetText(it.NameTextMapHash.ToString())}"),
                         Encoding.UTF8);
 
+                    #endregion Avatar
+
+                    #region Dungeon
+
+                    // Dungeon
                     File.WriteAllLines(
                         Path.Combine(dir, "Dungeon.txt"),
                         DungeonData.Values.Select(it => $"{it.Id}:{TextMapData.GetText(it.NameTextMapHash.ToString())}"),
                         Encoding.UTF8);
 
+                    #endregion Dungeon
+
+                    #region Gadget
+
+                    // Gadget
+                    sb.Clear();
+                    var gatherMap = new Dictionary<int, int>(GatherData.Count);
+                    foreach (var it in GatherData.Where(it => !gatherMap.ContainsKey(it.GadgetId)))
+                        gatherMap.Add(it.GadgetId, it.ItemId);
+                    var furnitureMap = new Dictionary<int, long>(HomeWorldFurnitureData.Count);
+                    foreach (var it in HomeWorldFurnitureData.Values.Where(it => it.FurnitureGadgetId != null))
+                        foreach (var gadgetId in it.FurnitureGadgetId.Where(id => id > 0 && !furnitureMap.ContainsKey(id)))
+                            furnitureMap.Add(gadgetId, it.NameTextMapHash);
+                    var oldFirst = language.Key.StartsWith("zh");
+                    foreach (var gadgetTypes in GadgetData.Values.OrderBy(it => it.Id).GroupBy(it => it.Type))
+                    {
+                        sb.Append("// ").AppendLine(GadgetType.ToTranslatedString(gadgetTypes.Key, language.Key));
+                        foreach (var it in gadgetTypes)
+                        {
+                            var name = oldFirst ? GameData.Gadgets[it.Id] : ItemMap.EmptyName;
+
+                            if (name == ItemMap.EmptyName)
+                            {
+                                if (!TextMapData.TryGetText(it.NameTextMapHash.ToString(), out name)
+                                    && !TextMapData.TryGetText(it.InteractNameTextMapHash.ToString(), out name))
+                                {
+                                    if (gatherMap.TryGetValue(it.Id, out var itemId)
+                                        && MaterialData.TryGetValue(itemId, out var item))
+                                    {
+                                        name = TextMapData.GetText(item.NameTextMapHash.ToString());
+                                    }
+                                    else if (furnitureMap.TryGetValue(it.Id, out var hash))
+                                    {
+                                        name = TextMapData.GetText(hash.ToString());
+                                    }
+                                    else if (!string.IsNullOrEmpty(it.JsonName))
+                                    {
+                                        name = it.JsonName;
+                                    }
+                                    else if (!oldFirst)
+                                    {
+                                        var temp = GameData.Gadgets[it.Id];
+                                        if (temp != ItemMap.EmptyName)
+                                            name = temp;
+                                    }
+                                }
+                            }
+
+                            sb.AppendFormat("{0}:{1}", it.Id, name).AppendLine();
+                        }
+                        sb.AppendLine();
+                    }
+
+                    // 旧的数据
+                    //var old = GameData.Gadgets.AllIds.Where(it => !GadgetData.ContainsKey(it));
+                    //if (old.Any())
+                    //{
+                    //    sb.AppendLine("// Old lines");
+                    //    foreach (var it in old)
+                    //        sb.AppendFormat("{0}:{1}", it, GameData.Gadgets[it]).AppendLine();
+                    //}
+
+                    File.WriteAllText(
+                        Path.Combine(dir, "Gadget.txt"),
+                        sb.ToString(),
+                        Encoding.UTF8);
+
+                    #endregion Gadget
+
+                    #region Item
+
+                    // Item
                     sb.Clear();
                     foreach (var itemTypes in MaterialData.Values.GroupBy(it => it.ItemType))
                     {
@@ -211,6 +314,11 @@ namespace GrasscutterTools.Game.Data
 
                     File.WriteAllText(Path.Combine(dir, "Item.txt"), sb.ToString(), Encoding.UTF8);
 
+                    #endregion Item
+
+                    #region Monsters
+
+                    // Monsters
                     sb.Clear();
                     foreach (var monsterType in MonsterData.Values.OrderBy(it => it.Id)
                                  .GroupBy(it => it.Type)
@@ -240,6 +348,11 @@ namespace GrasscutterTools.Game.Data
                         sb.ToString(),
                         Encoding.UTF8);
 
+                    #endregion Monsters
+
+                    #region Quest
+
+                    // Quest
                     sb.Clear();
                     foreach (var it in QuestData.Values.OrderBy(it => it.Id))
                     {
@@ -248,7 +361,7 @@ namespace GrasscutterTools.Game.Data
                         {
                             sb.AppendFormat("{0}:{1} - {2}",
                                 it.Id,
-                                TextMapData.GetText(MainQuestData[it.MainId].TitleTextMapHash),
+                                TextMapData.GetText(MainQuestData[it.MainId].TitleTextMapHash.ToString()),
                                 TextMapData.GetText(it.DescTextMapHash.ToString()));
                         }
                         else
@@ -262,6 +375,11 @@ namespace GrasscutterTools.Game.Data
                         sb.ToString(),
                         Encoding.UTF8);
 
+                    #endregion Quest
+
+                    #region Scene
+
+                    // Scene
                     sb.Clear();
                     foreach (var it in DungeonData.Values)
                     {
@@ -283,10 +401,17 @@ namespace GrasscutterTools.Game.Data
                         sb.ToString(),
                         Encoding.UTF8);
 
+                    #endregion Scene
+
+                    #region Weapon
+
+                    // Weapon
                     File.WriteAllLines(
                         Path.Combine(dir, "Weapon.txt"),
                         WeaponData.Values.Select(it => $"{it.Id}:{TextMapData.GetText(it.NameTextMapHash.ToString())}"),
                         Encoding.UTF8);
+
+                    #endregion Weapon
                 }
 
                 File.WriteAllLines(

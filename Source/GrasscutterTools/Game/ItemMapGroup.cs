@@ -64,6 +64,11 @@ namespace GrasscutterTools.Game
         /// </summary>
         public IEnumerable<string> AllLines => Values.SelectMany(it => it.Lines);
 
+        /// <summary>
+        /// 获取所有ID
+        /// </summary>
+        public IEnumerable<int> AllIds => Values.SelectMany(it => it.Ids);
+
         private string[] lines;
         public string[] Lines => lines ?? (lines = AllLines.ToArray());
 

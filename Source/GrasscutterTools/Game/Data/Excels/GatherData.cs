@@ -19,20 +19,15 @@
 
 using Newtonsoft.Json;
 
-namespace GrasscutterTools.Game.Data
+namespace GrasscutterTools.Game.Data.Excels
 {
-    internal abstract class GameResource
+    [ResourceType("GatherExcelConfigData.json")]
+    internal class GatherData
     {
-        [JsonProperty("id")]
-        public virtual int Id { get; set; }
+        [JsonProperty("gadgetId")]
+        public int GadgetId { get; set; }
 
-        [JsonProperty("nameTextMapHash")]
-        public long NameTextMapHash { get; set; }
-
-        [JsonProperty("titleTextMapHash")]
-        public long TitleTextMapHash { get; set; }
-
-        [JsonProperty("descTextMapHash")]
-        public long DescTextMapHash { get; set; }
+        [JsonProperty("itemId")]
+        public int ItemId { get; set; }
     }
 }

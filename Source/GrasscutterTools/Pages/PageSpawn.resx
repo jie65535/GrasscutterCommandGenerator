@@ -1594,10 +1594,10 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="TxtEntityFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>103, 3</value>
+    <value>153, 3</value>
   </data>
   <data name="TxtEntityFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>168, 23</value>
+    <value>118, 23</value>
   </data>
   <data name="TxtEntityFilter.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -1614,31 +1614,28 @@
   <data name="&gt;&gt;TxtEntityFilter.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="BtnFilterEntity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="CmbFilterEntity.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="BtnFilterEntity.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="CmbFilterEntity.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 2</value>
   </data>
-  <data name="BtnFilterEntity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
+  <data name="CmbFilterEntity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
   </data>
-  <data name="BtnFilterEntity.TabIndex" type="System.Int32, mscorlib">
+  <data name="CmbFilterEntity.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="BtnFilterEntity.Text" xml:space="preserve">
-    <value>全部</value>
+  <data name="&gt;&gt;CmbFilterEntity.Name" xml:space="preserve">
+    <value>CmbFilterEntity</value>
   </data>
-  <data name="&gt;&gt;BtnFilterEntity.Name" xml:space="preserve">
-    <value>BtnFilterEntity</value>
+  <data name="&gt;&gt;CmbFilterEntity.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BtnFilterEntity.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnFilterEntity.Parent" xml:space="preserve">
+  <data name="&gt;&gt;CmbFilterEntity.Parent" xml:space="preserve">
     <value>PanelEntityFilterBar</value>
   </data>
-  <data name="&gt;&gt;BtnFilterEntity.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;CmbFilterEntity.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <data name="PanelEntityFilterBar.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">

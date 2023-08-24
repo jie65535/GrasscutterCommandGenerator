@@ -17,10 +17,14 @@
  *
  **/
 
+using Newtonsoft.Json;
+
 namespace GrasscutterTools.Game.Data.Excels
 {
     [ResourceType("HomeWorldFurnitureExcelConfigData.json")]
     internal class HomeWorldFurnitureData : GameResource
     {
+        [JsonProperty("furnitureGadgetID")]
+        public int[] FurnitureGadgetId { get; set; }
     }
 }

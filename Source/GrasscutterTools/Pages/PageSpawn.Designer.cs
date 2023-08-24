@@ -90,7 +90,7 @@
             this.ListEntity = new System.Windows.Forms.ListBox();
             this.PanelEntityFilterBar = new System.Windows.Forms.Panel();
             this.TxtEntityFilter = new System.Windows.Forms.TextBox();
-            this.BtnFilterEntity = new System.Windows.Forms.Button();
+            this.CmbFilterEntity = new System.Windows.Forms.ComboBox();
             this.TPSpawnRecords = new System.Windows.Forms.TabPage();
             this.ListSpawnLogs = new System.Windows.Forms.ListBox();
             this.FLPSpawnRecordControls = new System.Windows.Forms.FlowLayoutPanel();
@@ -707,7 +707,7 @@
             // PanelEntityFilterBar
             // 
             this.PanelEntityFilterBar.Controls.Add(this.TxtEntityFilter);
-            this.PanelEntityFilterBar.Controls.Add(this.BtnFilterEntity);
+            this.PanelEntityFilterBar.Controls.Add(this.CmbFilterEntity);
             resources.ApplyResources(this.PanelEntityFilterBar, "PanelEntityFilterBar");
             this.PanelEntityFilterBar.Name = "PanelEntityFilterBar";
             // 
@@ -717,12 +717,12 @@
             this.TxtEntityFilter.Name = "TxtEntityFilter";
             this.TxtEntityFilter.TextChanged += new System.EventHandler(this.TxtEntityFilter_TextChanged);
             // 
-            // BtnFilterEntity
+            // CmbFilterEntity
             // 
-            resources.ApplyResources(this.BtnFilterEntity, "BtnFilterEntity");
-            this.BtnFilterEntity.Name = "BtnFilterEntity";
-            this.BtnFilterEntity.UseVisualStyleBackColor = true;
-            this.BtnFilterEntity.Click += new System.EventHandler(this.BtnFilterEntity_Click);
+            this.CmbFilterEntity.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            resources.ApplyResources(this.CmbFilterEntity, "CmbFilterEntity");
+            this.CmbFilterEntity.Name = "CmbFilterEntity";
+            this.CmbFilterEntity.SelectedIndexChanged += new System.EventHandler(this.CmbFilterEntity_SelectedIndexChanged);
             // 
             // TPSpawnRecords
             // 
@@ -879,7 +879,7 @@
         private System.Windows.Forms.ListBox ListEntity;
         private System.Windows.Forms.Panel PanelEntityFilterBar;
         private System.Windows.Forms.TextBox TxtEntityFilter;
-        private System.Windows.Forms.Button BtnFilterEntity;
+        private System.Windows.Forms.ComboBox CmbFilterEntity;
         private System.Windows.Forms.TabPage TPSpawnRecords;
         private System.Windows.Forms.ListBox ListSpawnLogs;
         private System.Windows.Forms.FlowLayoutPanel FLPSpawnRecordControls;

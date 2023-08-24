@@ -143,6 +143,7 @@
     <Compile Include="Game\Data\Excels\AchievementData.cs" />
     <Compile Include="Game\Data\Excels\DungeonData.cs" />
     <Compile Include="Game\Data\Excels\GadgetData.cs" />
+    <Compile Include="Game\Data\Excels\GatherData.cs" />
     <Compile Include="Game\Data\Excels\HomeWorldBgmData.cs" />
     <Compile Include="Game\Data\Excels\HomeWorldFurnitureData.cs" />
     <Compile Include="Game\Data\Excels\MaterialData.cs" />
@@ -171,6 +172,7 @@
     <Compile Include="Game\Mail\Mail.cs" />
     <Compile Include="Game\Mail\MailItem.cs" />
     <Compile Include="Game\Player\PlayerData.cs" />
+    <Compile Include="Game\Props\GadgetType.cs" />
     <Compile Include="Game\Props\ItemUseData.cs" />
     <Compile Include="Game\Props\MonsterType.cs" />
     <Compile Include="Game\Props\PlayerProperty.cs" />
@@ -608,6 +610,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageSpawn.resx">
       <DependentUpon>PageSpawn.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageSpawn.ru-RU.resx">
       <DependentUpon>PageSpawn.cs</DependentUpon>
@@ -765,6 +768,7 @@
     <Content Include="Resources\zh-tw\Cutscene.txt" />
     <Content Include="Resources\zh-tw\GachaBennerTitle.txt" />
     <Content Include="Resources\zh-tw\GachaBennerPrefab.txt" />
+    <None Include="Resources\zh-tw\Gadget.txt" />
     <Content Include="Resources\zh-tw\Item.txt" />
     <Content Include="Resources\zh-tw\Monsters.txt" />
     <Content Include="Resources\zh-tw\PlayerProperty.txt" />
