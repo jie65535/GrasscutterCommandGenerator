@@ -117,310 +117,313 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="&gt;&gt;BtnExportCustomCommands.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="BtnAddHotKey.Text" xml:space="preserve">
-    <value>快捷键</value>
-  </data>
-  <data name="LnkResetCustomCommands.Text" xml:space="preserve">
-    <value>重置</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveCustomCommand.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.11.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
-  </data>
-  <data name="&gt;&gt;TxtCustomName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="BtnSaveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>405, 206</value>
-  </data>
-  <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>471, 206</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BtnLoadCustomCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="BtnExportCustomCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
-  </data>
-  <data name="LnkResetCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
-  <data name="&gt;&gt;BtnExportCustomCommands.Name" xml:space="preserve">
-    <value>BtnExportCustomCommands</value>
-  </data>
-  <data name="BtnLoadCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>537, 206</value>
-  </data>
-  <data name="LnkResetCustomCommands.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="GrpCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="BtnRemoveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 30</value>
-  </data>
-  <data name="TxtCustomName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 210</value>
-  </data>
-  <data name="&gt;&gt;FLPCustomCommands.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LnkResetCustomCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;BtnExportCustomCommands.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BtnExportCustomCommands.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;BtnLoadCustomCommands.Name" xml:space="preserve">
-    <value>BtnLoadCustomCommands</value>
-  </data>
-  <data name="BtnRemoveCustomCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="FLPCustomCommands.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="LblCustomName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;LnkResetCustomCommands.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BtnAddHotKey.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;BtnLoadCustomCommands.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblCustomName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="TxtCustomName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="BtnExportCustomCommands.Text" xml:space="preserve">
-    <value>导出</value>
-  </data>
-  <data name="&gt;&gt;LnkResetCustomCommands.Name" xml:space="preserve">
-    <value>LnkResetCustomCommands</value>
-  </data>
-  <data name="LblCustomName.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LnkResetCustomCommands.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveCustomCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblCustomName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
-  </data>
-  <data name="BtnLoadCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 30</value>
-  </data>
-  <data name="&gt;&gt;BtnLoadCustomCommands.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="BtnLoadCustomCommands.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="LblCustomName.Text" xml:space="preserve">
-    <value>标签</value>
-  </data>
-  <data name="&gt;&gt;TxtCustomName.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="BtnSaveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 30</value>
-  </data>
-  <data name="&gt;&gt;GrpCustomCommands.Name" xml:space="preserve">
-    <value>GrpCustomCommands</value>
-  </data>
-  <data name="&gt;&gt;BtnAddHotKey.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveCustomCommand.Name" xml:space="preserve">
-    <value>BtnRemoveCustomCommand</value>
-  </data>
-  <data name="BtnAddHotKey.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="&gt;&gt;GrpCustomCommands.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>593, 206</value>
   </data>
   <data name="BtnExportCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 30</value>
   </data>
-  <data name="&gt;&gt;FLPCustomCommands.Name" xml:space="preserve">
-    <value>FLPCustomCommands</value>
-  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="BtnExportCustomCommands.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="BtnExportCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>593, 206</value>
+  <data name="BtnExportCustomCommands.Text" xml:space="preserve">
+    <value>导出</value>
   </data>
-  <data name="&gt;&gt;BtnLoadCustomCommands.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;BtnExportCustomCommands.Name" xml:space="preserve">
+    <value>BtnExportCustomCommands</value>
   </data>
-  <data name="&gt;&gt;GrpCustomCommands.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="FLPCustomCommands.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveCustomCommand.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="LblCustomName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveCustomCommand.Type" xml:space="preserve">
+  <data name="&gt;&gt;BtnExportCustomCommands.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="FLPCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
-  </data>
-  <data name="TxtCustomName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>277, 23</value>
-  </data>
-  <data name="LnkResetCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>602, -1</value>
-  </data>
-  <data name="GrpCustomCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="BtnSaveCustomCommand.Text" xml:space="preserve">
-    <value>√ 保存</value>
-  </data>
-  <data name="&gt;&gt;LnkResetCustomCommands.Parent" xml:space="preserve">
-    <value>GrpCustomCommands</value>
-  </data>
-  <data name="&gt;&gt;FLPCustomCommands.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
-  </data>
-  <data name="BtnAddHotKey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 30</value>
-  </data>
-  <data name="&gt;&gt;LblCustomName.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;TxtCustomName.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;BtnRemoveCustomCommand.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BtnExportCustomCommands.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveCustomCommand.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="BtnAddHotKey.Location" type="System.Drawing.Point, System.Drawing">
-    <value>324, 206</value>
-  </data>
-  <data name="&gt;&gt;FLPCustomCommands.Parent" xml:space="preserve">
-    <value>GrpCustomCommands</value>
-  </data>
-  <data name="&gt;&gt;LnkResetCustomCommands.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LnkResetCustomCommands.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="BtnExportCustomCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="FLPCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 178</value>
-  </data>
-  <data name="GrpCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>640, 200</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>PageCustomCommands</value>
-  </data>
-  <data name="GrpCustomCommands.Text" xml:space="preserve">
-    <value>列表</value>
-  </data>
-  <data name="BtnRemoveCustomCommand.Text" xml:space="preserve">
-    <value>× 删除</value>
-  </data>
-  <data name="&gt;&gt;LblCustomName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BtnExportCustomCommands.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;TxtCustomName.Name" xml:space="preserve">
-    <value>TxtCustomName</value>
-  </data>
-  <data name="TxtCustomName.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="FLPCustomCommands.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;GrpCustomCommands.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BtnSaveCustomCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="BtnSaveCustomCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="BtnLoadCustomCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Right</value>
-  </data>
-  <data name="BtnRemoveCustomCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="&gt;&gt;BtnAddHotKey.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblCustomName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 213</value>
-  </data>
-  <data name="&gt;&gt;BtnAddHotKey.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveCustomCommand.Name" xml:space="preserve">
-    <value>BtnSaveCustomCommand</value>
-  </data>
-  <data name="BtnRemoveCustomCommand.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="BtnLoadCustomCommands.Text" xml:space="preserve">
-    <value>载入</value>
-  </data>
-  <data name="GrpCustomCommands.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="BtnSaveCustomCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblCustomName.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
   </data>
   <data name="BtnLoadCustomCommands.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="BtnLoadCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>537, 206</value>
+  </data>
+  <data name="BtnLoadCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="BtnLoadCustomCommands.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="BtnLoadCustomCommands.Text" xml:space="preserve">
+    <value>载入</value>
+  </data>
+  <data name="&gt;&gt;BtnLoadCustomCommands.Name" xml:space="preserve">
+    <value>BtnLoadCustomCommands</value>
+  </data>
+  <data name="&gt;&gt;BtnLoadCustomCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnLoadCustomCommands.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnLoadCustomCommands.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblCustomName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="LblCustomName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCustomName.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblCustomName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 213</value>
+  </data>
+  <data name="LblCustomName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LblCustomName.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="LblCustomName.Text" xml:space="preserve">
+    <value>标签</value>
+  </data>
   <data name="&gt;&gt;LblCustomName.Name" xml:space="preserve">
     <value>LblCustomName</value>
+  </data>
+  <data name="&gt;&gt;LblCustomName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCustomName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblCustomName.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="GrpCustomCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="LnkResetCustomCommands.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LnkResetCustomCommands.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkResetCustomCommands.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LnkResetCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>602, -1</value>
+  </data>
+  <data name="LnkResetCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="LnkResetCustomCommands.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LnkResetCustomCommands.Text" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="&gt;&gt;LnkResetCustomCommands.Name" xml:space="preserve">
+    <value>LnkResetCustomCommands</value>
+  </data>
+  <data name="&gt;&gt;LnkResetCustomCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkResetCustomCommands.Parent" xml:space="preserve">
+    <value>GrpCustomCommands</value>
+  </data>
+  <data name="&gt;&gt;LnkResetCustomCommands.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FLPCustomCommands.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="FLPCustomCommands.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="FLPCustomCommands.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 11pt</value>
+  </data>
+  <data name="FLPCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="FLPCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 178</value>
+  </data>
+  <data name="FLPCustomCommands.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;FLPCustomCommands.Name" xml:space="preserve">
+    <value>FLPCustomCommands</value>
+  </data>
+  <data name="&gt;&gt;FLPCustomCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FLPCustomCommands.Parent" xml:space="preserve">
+    <value>GrpCustomCommands</value>
+  </data>
+  <data name="&gt;&gt;FLPCustomCommands.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpCustomCommands.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="GrpCustomCommands.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 200</value>
+  </data>
+  <data name="GrpCustomCommands.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="GrpCustomCommands.Text" xml:space="preserve">
+    <value>列表</value>
+  </data>
+  <data name="&gt;&gt;GrpCustomCommands.Name" xml:space="preserve">
+    <value>GrpCustomCommands</value>
+  </data>
+  <data name="&gt;&gt;GrpCustomCommands.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpCustomCommands.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpCustomCommands.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnRemoveCustomCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="BtnRemoveCustomCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnRemoveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>471, 206</value>
+  </data>
+  <data name="BtnRemoveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="BtnRemoveCustomCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="BtnRemoveCustomCommand.Text" xml:space="preserve">
+    <value>× 删除</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveCustomCommand.Name" xml:space="preserve">
+    <value>BtnRemoveCustomCommand</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveCustomCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveCustomCommand.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnRemoveCustomCommand.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="BtnSaveCustomCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="BtnSaveCustomCommand.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnSaveCustomCommand.Location" type="System.Drawing.Point, System.Drawing">
+    <value>405, 206</value>
+  </data>
+  <data name="BtnSaveCustomCommand.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 30</value>
+  </data>
+  <data name="BtnSaveCustomCommand.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="BtnSaveCustomCommand.Text" xml:space="preserve">
+    <value>√ 保存</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCustomCommand.Name" xml:space="preserve">
+    <value>BtnSaveCustomCommand</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCustomCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCustomCommand.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveCustomCommand.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="TxtCustomName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="TxtCustomName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 210</value>
+  </data>
+  <data name="TxtCustomName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>277, 23</value>
+  </data>
+  <data name="TxtCustomName.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;TxtCustomName.Name" xml:space="preserve">
+    <value>TxtCustomName</value>
+  </data>
+  <data name="&gt;&gt;TxtCustomName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtCustomName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TxtCustomName.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="BtnAddHotKey.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="BtnAddHotKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 206</value>
+  </data>
+  <data name="BtnAddHotKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 30</value>
+  </data>
+  <data name="BtnAddHotKey.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="BtnAddHotKey.Text" xml:space="preserve">
+    <value>快捷键</value>
   </data>
   <data name="&gt;&gt;BtnAddHotKey.Name" xml:space="preserve">
     <value>BtnAddHotKey</value>
   </data>
+  <data name="&gt;&gt;BtnAddHotKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAddHotKey.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnAddHotKey.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PageCustomCommands</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.12.2.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  </data>
 </root>
