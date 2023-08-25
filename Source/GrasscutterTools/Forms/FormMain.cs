@@ -126,17 +126,17 @@ namespace GrasscutterTools.Forms
                 }
             };
             CreatePage<PageGiveArtifact>();
+            CreatePage<PageSetProp>();
             CreatePage<PageSpawn>();
             CreatePage<PageGiveItem>();
             CreatePage<PageAvatar>();
             CreatePage<PageGiveWeapon>();
+            CreatePage<PageScene>();
+            CreatePage<PageTasks>();
             CreatePage<PageManagement>();
             CreatePage<PageMail>();
-            CreatePage<PageTasks>();
             CreatePage<PageQuest>();
-            CreatePage<PageScene>();
             CreatePage<PageAchievement>();
-            CreatePage<PageSetProp>();
             CreatePage<PageAbout>();
 #if DEBUG
             CreatePage<PageTools>();
@@ -158,17 +158,17 @@ namespace GrasscutterTools.Forms
                 Resources.PageCustomCommandsTitle,
                 Resources.PageHotKey,
                 Resources.PageGetArtifactTitle,
+                Resources.PageSetPropTitle,
                 Resources.PageSpawnTitle,
                 Resources.PageGiveItemTitle,
                 Resources.PageAvatarTitle,
                 Resources.PageGiveWeaponTitle,
+                Resources.PageSceneTitle,
+                Resources.PageTasksTitle,
                 Resources.PageManagementTitle,
                 Resources.PageMailTitle,
-                Resources.PageTasksTitle,
                 Resources.PageQuestTitle,
-                Resources.PageSceneTitle,
                 Resources.PageAchievementTitle,
-                Resources.PageSetPropTitle,
                 Resources.PageAboutTitle,
 #if DEBUG
                 "Tools",
