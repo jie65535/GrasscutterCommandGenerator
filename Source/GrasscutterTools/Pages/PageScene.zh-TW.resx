@@ -148,4 +148,10 @@
   <data name="RbListCutScene.Text" xml:space="preserve">
     <value>過場</value>
   </data>
+  <data name="ChkLockClimate.Text" xml:space="preserve">
+    <value>鎖定</value>
+  </data>
+  <data name="BtnFreezeTime.Text" xml:space="preserve">
+    <value>凍結時間</value>
+  </data>
 </root>

@@ -182,4 +182,13 @@ In the command, you can use ~ to indicate the current position, and ~N to indica
   <data name="RbListCutScene.Text" xml:space="preserve">
     <value>Cutscene</value>
   </data>
+  <data name="ChkLockClimate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 21</value>
+  </data>
+  <data name="ChkLockClimate.Text" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="BtnFreezeTime.Text" xml:space="preserve">
+    <value>Freeze Time</value>
+  </data>
 </root>

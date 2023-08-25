@@ -46,6 +46,8 @@
             this.ListScenes = new System.Windows.Forms.ListBox();
             this.LblTp = new System.Windows.Forms.Label();
             this.RbListCutScene = new System.Windows.Forms.RadioButton();
+            this.ChkLockClimate = new System.Windows.Forms.CheckBox();
+            this.BtnFreezeTime = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpZ)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpX)).BeginInit();
@@ -203,10 +205,26 @@
             this.RbListCutScene.UseVisualStyleBackColor = true;
             this.RbListCutScene.CheckedChanged += new System.EventHandler(this.RbListCutScene_CheckedChanged);
             // 
+            // ChkLockClimate
+            // 
+            resources.ApplyResources(this.ChkLockClimate, "ChkLockClimate");
+            this.ChkLockClimate.Name = "ChkLockClimate";
+            this.ChkLockClimate.UseVisualStyleBackColor = true;
+            this.ChkLockClimate.CheckedChanged += new System.EventHandler(this.ChkLockClimate_CheckedChanged);
+            // 
+            // BtnFreezeTime
+            // 
+            resources.ApplyResources(this.BtnFreezeTime, "BtnFreezeTime");
+            this.BtnFreezeTime.Name = "BtnFreezeTime";
+            this.BtnFreezeTime.UseVisualStyleBackColor = true;
+            this.BtnFreezeTime.Click += new System.EventHandler(this.BtnFreezeTime_Click);
+            // 
             // PageScene
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.BtnFreezeTime);
+            this.Controls.Add(this.ChkLockClimate);
             this.Controls.Add(this.RbListCutScene);
             this.Controls.Add(this.RbListDungeons);
             this.Controls.Add(this.RbListScene);
@@ -252,5 +270,7 @@
         private System.Windows.Forms.ListBox ListScenes;
         private System.Windows.Forms.Label LblTp;
         private System.Windows.Forms.RadioButton RbListCutScene;
+        private System.Windows.Forms.CheckBox ChkLockClimate;
+        private System.Windows.Forms.Button BtnFreezeTime;
     }
 }

@@ -140,10 +140,10 @@
     <value>84, 215</value>
   </data>
   <data name="ChkIncludeSceneId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 21</value>
+    <value>126, 21</value>
   </data>
   <data name="ChkIncludeSceneId.Text" xml:space="preserve">
-    <value>Включить идентификатор сцены</value>
+    <value>Включить сцену</value>
   </data>
   <data name="LblTpZ.Location" type="System.Drawing.Point, System.Drawing">
     <value>212, 186</value>
@@ -168,6 +168,9 @@
   </data>
   <data name="NUDTpX.Location" type="System.Drawing.Point, System.Drawing">
     <value>20, 184</value>
+  </data>
+  <data name="CmbClimateType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
   </data>
   <data name="LblClimateType.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 17</value>
@@ -205,5 +208,23 @@
   </data>
   <data name="RbListCutScene.Text" xml:space="preserve">
     <value>Катсцена</value>
+  </data>
+  <data name="ChkLockClimate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 30</value>
+  </data>
+  <data name="ChkLockClimate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 21</value>
+  </data>
+  <data name="ChkLockClimate.Text" xml:space="preserve">
+    <value>Замок</value>
+  </data>
+  <data name="BtnFreezeTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 211</value>
+  </data>
+  <data name="BtnFreezeTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 25</value>
+  </data>
+  <data name="BtnFreezeTime.Text" xml:space="preserve">
+    <value>Время заморозки</value>
   </data>
 </root>

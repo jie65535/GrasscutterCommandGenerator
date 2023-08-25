@@ -129,7 +129,7 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="BtnTeleport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 25</value>
   </data>
   <data name="&gt;&gt;TxtSceneFilter.Name" xml:space="preserve">
     <value>TxtSceneFilter</value>
@@ -145,7 +145,7 @@
     <value>14, 17</value>
   </data>
   <data name="&gt;&gt;RbListCutScene.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;LblTpY.Parent" xml:space="preserve">
     <value>$this</value>
@@ -163,19 +163,22 @@
     <value>343, 28</value>
   </data>
   <data name="&gt;&gt;CmbClimateType.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>14</value>
   </data>
   <data name="&gt;&gt;LblSceneDescription.Name" xml:space="preserve">
     <value>LblSceneDescription</value>
   </data>
-  <data name="&gt;&gt;BtnTeleport.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="NUDTpZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="ChkLockClimate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>192, 31</value>
   </data>
   <data name="LblTp.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;NUDTpZ.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="LblTpZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
   <data name="&gt;&gt;LblSceneDescription.Parent" xml:space="preserve">
     <value>$this</value>
@@ -189,11 +192,11 @@
   <data name="&gt;&gt;ChkIncludeSceneId.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;CmbClimateType.Name" xml:space="preserve">
-    <value>CmbClimateType</value>
+  <data name="&gt;&gt;BtnTeleport.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="&gt;&gt;ChkIncludeSceneId.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;NUDTpY.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -208,10 +211,10 @@
     <value>14, 17</value>
   </data>
   <data name="&gt;&gt;RbListScene.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
-  <data name="NUDTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 156</value>
+  <data name="&gt;&gt;BtnFreezeTime.Name" xml:space="preserve">
+    <value>BtnFreezeTime</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>7, 17</value>
@@ -243,14 +246,11 @@
   <data name="&gt;&gt;ListScenes.Name" xml:space="preserve">
     <value>ListScenes</value>
   </data>
-  <data name="&gt;&gt;LblTpZ.Name" xml:space="preserve">
-    <value>LblTpZ</value>
-  </data>
   <data name="ChkIncludeSceneId.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="&gt;&gt;NUDTpX.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>13</value>
   </data>
   <data name="RbListScene.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -258,8 +258,11 @@
   <data name="ChkIncludeSceneId.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
+  <data name="NUDTpY.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
   <data name="&gt;&gt;LblTpZ.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;LblTpZ.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -267,17 +270,20 @@
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PageScene</value>
   </data>
-  <data name="&gt;&gt;NUDTpY.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;ChkLockClimate.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="&gt;&gt;LblTp.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;NUDTpY.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
   <data name="&gt;&gt;LblTpY.Name" xml:space="preserve">
     <value>LblTpY</value>
   </data>
-  <data name="NUDTpZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+  <data name="LblTpY.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;LblTpY.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="&gt;&gt;NUDTpX.Parent" xml:space="preserve">
     <value>$this</value>
@@ -292,7 +298,7 @@
     <value>RbListCutScene</value>
   </data>
   <data name="&gt;&gt;NUDTpZ.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="LblTpY.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -309,6 +315,9 @@
   <data name="NUDTpZ.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 23</value>
   </data>
+  <data name="ChkLockClimate.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
   <data name="&gt;&gt;NUDTpX.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -324,9 +333,6 @@
   <data name="LblTpY.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;BtnTeleport.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
   <data name="&gt;&gt;NUDTpZ.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -338,6 +344,9 @@
   </data>
   <data name="RbListDungeons.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="BtnFreezeTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>215, 184</value>
   </data>
   <data name="LblTpY.Location" type="System.Drawing.Point, System.Drawing">
     <value>109, 158</value>
@@ -366,11 +375,14 @@
   <data name="LblClimateType.Text" xml:space="preserve">
     <value>设置天气</value>
   </data>
-  <data name="&gt;&gt;LblClimateType.Type" xml:space="preserve">
+  <data name="BtnFreezeTime.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;LblTp.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LblTpY.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;ChkLockClimate.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="NUDTpZ.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -381,20 +393,35 @@
   <data name="CmbClimateType.Size" type="System.Drawing.Size, System.Drawing">
     <value>121, 25</value>
   </data>
+  <data name="&gt;&gt;BtnFreezeTime.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="LblTpX.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 158</value>
   </data>
   <data name="LblClimateType.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;LblClimateType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="ChkIncludeSceneId.Text" xml:space="preserve">
     <value>含场景ID</value>
+  </data>
+  <data name="BtnFreezeTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;LblTpZ.Name" xml:space="preserve">
+    <value>LblTpZ</value>
   </data>
   <data name="&gt;&gt;CmbClimateType.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="LblTpZ.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;BtnFreezeTime.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;RbListDungeons.Name" xml:space="preserve">
     <value>RbListDungeons</value>
@@ -405,11 +432,11 @@
   <data name="RbListDungeons.Location" type="System.Drawing.Point, System.Drawing">
     <value>287, 30</value>
   </data>
-  <data name="&gt;&gt;LblTpY.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="BtnFreezeTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 25</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.10.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.12.2.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
   <data name="LblTp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -423,8 +450,8 @@
   <data name="&gt;&gt;ListScenes.Type" xml:space="preserve">
     <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BtnTeleport.Name" xml:space="preserve">
-    <value>BtnTeleport</value>
+  <data name="NUDTpX.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
   </data>
   <data name="NUDTpY.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -438,8 +465,11 @@
   <data name="ListScenes.Size" type="System.Drawing.Size, System.Drawing">
     <value>300, 208</value>
   </data>
-  <data name="&gt;&gt;LblTp.Parent" xml:space="preserve">
+  <data name="&gt;&gt;NUDTpZ.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ChkLockClimate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BtnTeleport.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -448,16 +478,19 @@
     <value>4</value>
   </data>
   <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 187</value>
+    <value>87, 188</value>
+  </data>
+  <data name="&gt;&gt;BtnFreezeTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTp.Name" xml:space="preserve">
+    <value>LblTp</value>
   </data>
   <data name="LblTpY.Text" xml:space="preserve">
     <value>y</value>
   </data>
-  <data name="LblSceneDescription.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
   <data name="&gt;&gt;LblSceneDescription.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>16</value>
   </data>
   <data name="RbListScene.Size" type="System.Drawing.Size, System.Drawing">
     <value>50, 21</value>
@@ -465,11 +498,17 @@
   <data name="LblTp.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="LblTpZ.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+  <data name="LblSceneDescription.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="LblClimateType.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
+  </data>
+  <data name="ChkLockClimate.Text" xml:space="preserve">
+    <value>锁定</value>
+  </data>
+  <data name="ChkLockClimate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="RbListCutScene.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -481,7 +520,7 @@
     <value>8</value>
   </data>
   <data name="&gt;&gt;RbListDungeons.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="LblSceneDescription.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -495,8 +534,8 @@
   <data name="ChkIncludeSceneId.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 21</value>
   </data>
-  <data name="TxtSceneFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 23</value>
+  <data name="&gt;&gt;BtnTeleport.Name" xml:space="preserve">
+    <value>BtnTeleport</value>
   </data>
   <data name="LblTpZ.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -507,17 +546,20 @@
   <data name="&gt;&gt;NUDTpY.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="TxtSceneFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="&gt;&gt;ChkLockClimate.Name" xml:space="preserve">
+    <value>ChkLockClimate</value>
   </data>
   <data name="&gt;&gt;LblClimateType.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>15</value>
   </data>
   <data name="&gt;&gt;CmbClimateType.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;RbListCutScene.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="BtnFreezeTime.Text" xml:space="preserve">
+    <value>冻结时间</value>
   </data>
   <data name="&gt;&gt;TxtSceneFilter.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -526,16 +568,22 @@
     <value>场景控制</value>
   </data>
   <data name="&gt;&gt;LblTpX.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
-  <data name="NUDTpX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
+  <data name="TxtSceneFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 23</value>
+  </data>
+  <data name="&gt;&gt;CmbClimateType.Name" xml:space="preserve">
+    <value>CmbClimateType</value>
   </data>
   <data name="&gt;&gt;RbListDungeons.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LblTp.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;LblTp.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;NUDTpY.Name" xml:space="preserve">
     <value>NUDTpY</value>
@@ -551,6 +599,9 @@
   </data>
   <data name="RbListScene.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="ChkLockClimate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 21</value>
   </data>
   <data name="LblTpX.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -570,17 +621,17 @@
   <data name="BtnTeleport.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 185</value>
   </data>
-  <data name="&gt;&gt;LblTp.Name" xml:space="preserve">
-    <value>LblTp</value>
+  <data name="TxtSceneFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
   </data>
   <data name="&gt;&gt;TxtSceneFilter.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;LblClimateType.Name" xml:space="preserve">
     <value>LblClimateType</value>
   </data>
   <data name="&gt;&gt;ListScenes.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>17</value>
   </data>
   <data name="TxtSceneFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -603,6 +654,9 @@
   <data name="&gt;&gt;ListScenes.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="&gt;&gt;BtnTeleport.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="&gt;&gt;LblSceneDescription.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -618,8 +672,8 @@
   <data name="&gt;&gt;LblClimateType.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="NUDTpY.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="NUDTpY.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 156</value>
   </data>
   <data name="LblTp.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>

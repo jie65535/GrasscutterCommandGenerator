@@ -156,5 +156,21 @@ namespace GrasscutterTools.Pages
                 args += $" {GameData.Scenes.Ids[ListScenes.SelectedIndex]}";
             SetCommand("/tp", args);
         }
+
+        /// <summary>
+        /// 锁定天气
+        /// </summary>
+        private void ChkLockClimate_CheckedChanged(object sender, EventArgs e)
+        {
+            SetCommand("/prop", $"is_weather_locked {(ChkLockClimate.Checked ? "on" : "off")}");
+        }
+
+        /// <summary>
+        /// 冻结游戏时间
+        /// </summary>
+        private void BtnFreezeTime_Click(object sender, EventArgs e)
+        {
+            SetCommand("/prop", "is_game_time_locked  on");
+        }
     }
 }
