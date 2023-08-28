@@ -145,11 +145,8 @@
   <data name="LblBPLevel.Text" xml:space="preserve">
     <value>Уровень BP</value>
   </data>
-  <data name="LblGodMode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>293, 38</value>
-  </data>
   <data name="LblGodMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 17</value>
+    <value>124, 21</value>
   </data>
   <data name="LblGodMode.Text" xml:space="preserve">
     <value>Непобедимость</value>
@@ -158,56 +155,35 @@
     <value>Microsoft YaHei UI, 8pt</value>
   </data>
   <data name="LblUnlimitedStamina.Location" type="System.Drawing.Point, System.Drawing">
-    <value>298, 58</value>
+    <value>242, 60</value>
   </data>
   <data name="LblUnlimitedStamina.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 32</value>
+    <value>119, 36</value>
   </data>
   <data name="LblUnlimitedStamina.Text" xml:space="preserve">
     <value>Неограниченная
 выносливость</value>
   </data>
-  <data name="LblUnlimitedEnergy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>257, 96</value>
-  </data>
   <data name="LblUnlimitedEnergy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 17</value>
+    <value>160, 21</value>
   </data>
   <data name="LblUnlimitedEnergy.Text" xml:space="preserve">
     <value>Бесконечная энергия</value>
   </data>
-  <data name="BtnGodModeOn.Text" xml:space="preserve">
-    <value>Включить</value>
+  <data name="LblOpenState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 126</value>
   </data>
-  <data name="BtnGodModeOff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
+  <data name="LblOpenState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 17</value>
   </data>
-  <data name="BtnGodModeOff.Text" xml:space="preserve">
-    <value>Выключить</value>
-  </data>
-  <data name="BtnUnlimitedStaminaOn.Text" xml:space="preserve">
-    <value>Включить</value>
-  </data>
-  <data name="BtnUnlimitedStaminaOff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
-  </data>
-  <data name="BtnUnlimitedStaminaOff.Text" xml:space="preserve">
-    <value>Выключить</value>
-  </data>
-  <data name="BtnUnlimitedEnergyOn.Text" xml:space="preserve">
-    <value>Включить</value>
-  </data>
-  <data name="BtnUnlimitedEnergyOff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
-  </data>
-  <data name="BtnUnlimitedEnergyOff.Text" xml:space="preserve">
-    <value>Выключить</value>
+  <data name="LblOpenState.Text" xml:space="preserve">
+    <value>Открытое состояние</value>
   </data>
   <data name="BtnSetOpenState.Location" type="System.Drawing.Point, System.Drawing">
-    <value>237, 124</value>
+    <value>237, 122</value>
   </data>
   <data name="BtnSetOpenState.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 23</value>
+    <value>85, 25</value>
   </data>
   <data name="BtnSetOpenState.Text" xml:space="preserve">
     <value>Установить</value>
@@ -216,7 +192,10 @@
     <value>Отменить</value>
   </data>
   <data name="BtnUnlockMap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>409, 121</value>
+    <value>488, 3</value>
+  </data>
+  <data name="BtnUnlockMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 25</value>
   </data>
   <data name="BtnUnlockMap.Text" xml:space="preserve">
     <value>Разблокировать карту</value>
@@ -244,5 +223,47 @@
   </data>
   <data name="BtnPlayerPropertyOn.Text" xml:space="preserve">
     <value>Включить</value>
+  </data>
+  <data name="ChkFly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 38</value>
+  </data>
+  <data name="ChkFly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 21</value>
+  </data>
+  <data name="ChkFly.Text" xml:space="preserve">
+    <value>Летающий</value>
+  </data>
+  <data name="ChkDive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 67</value>
+  </data>
+  <data name="ChkDive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>117, 21</value>
+  </data>
+  <data name="ChkDive.Text" xml:space="preserve">
+    <value>Может нырять</value>
+  </data>
+  <data name="ChkTimeFreeze.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 96</value>
+  </data>
+  <data name="ChkTimeFreeze.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 21</value>
+  </data>
+  <data name="ChkTimeFreeze.Text" xml:space="preserve">
+    <value>Заморозка времени</value>
+  </data>
+  <data name="BtnUnlockAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 25</value>
+  </data>
+  <data name="BtnUnlockAll.Text" xml:space="preserve">
+    <value>Разблокировать все</value>
+  </data>
+  <data name="BtnUnlockMapBarrier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 3</value>
+  </data>
+  <data name="BtnUnlockMapBarrier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 25</value>
+  </data>
+  <data name="BtnUnlockMapBarrier.Text" xml:space="preserve">
+    <value>Разблокировать Барьер</value>
   </data>
 </root>

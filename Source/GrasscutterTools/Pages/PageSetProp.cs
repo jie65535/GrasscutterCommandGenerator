@@ -1,4 +1,23 @@
-﻿using System;
+﻿/**
+ *  Grasscutter Tools
+ *  Copyright (C) 2023 jie65535
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU Affero General Public License as published
+ *  by the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU Affero General Public License for more details.
+ *
+ *  You should have received a copy of the GNU Affero General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ *
+ **/
+
+using System;
 using System.Globalization;
 using System.Windows.Forms;
 
@@ -9,7 +28,7 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageSetProp : BasePage
     {
-        private const string SetPropPrefix = "/setProp";
+        private const string SetPropPrefix = "/prop";
 
         public PageSetProp()
         {
@@ -60,12 +79,12 @@ namespace GrasscutterTools.Pages
 
         private void BtnSetOpenState_Click(object sender, EventArgs e)
         {
-            SetCommand(SetPropPrefix, "setopenstate " + NUDOpenStateValue.Value);
+            SetCommand(SetPropPrefix, "SetOpenState " + NUDOpenStateValue.Value);
         }
 
         private void BtnUnsetOpenState_Click(object sender, EventArgs e)
         {
-            SetCommand(SetPropPrefix, "unsetopenstate " + NUDOpenStateValue.Value);
+            SetCommand(SetPropPrefix, "UnsetOpenState " + NUDOpenStateValue.Value);
         }
 
         private void NUDPlayerPropertyValue_ValueChanged(object sender, EventArgs e)
@@ -92,6 +111,23 @@ namespace GrasscutterTools.Pages
             NUDPlayerPropertyValue.Maximum = selectedItem.Max;
             NUDPlayerPropertyValue.Minimum = selectedItem.Min;
             LblPlayerPropertyDesc.Text = selectedItem.Description;
+        }
+
+        private void PropCheckedChanged(object sender, EventArgs e)
+        {
+            var chk = sender as CheckBox;
+            var prop = chk.Tag as string;
+            SetCommand(SetPropPrefix, prop + ' ' + (chk.Checked ? "on" : "off"));
+        }
+
+        private void BtnUnlockMapBarrier_Click(object sender, EventArgs e)
+        {
+            SetCommand($"{SetPropPrefix} SetOpenState 47 | {SetPropPrefix} SetOpenState 48");
+        }
+
+        private void BtnUnlockAll_Click(object sender, EventArgs e)
+        {
+            SetCommand("/unlockall");
         }
     }
 }

@@ -135,24 +135,6 @@
   <data name="LblUnlimitedEnergy.Text" xml:space="preserve">
     <value>無限能量</value>
   </data>
-  <data name="BtnGodModeOn.Text" xml:space="preserve">
-    <value>開</value>
-  </data>
-  <data name="BtnGodModeOff.Text" xml:space="preserve">
-    <value>關</value>
-  </data>
-  <data name="BtnUnlimitedStaminaOn.Text" xml:space="preserve">
-    <value>開</value>
-  </data>
-  <data name="BtnUnlimitedStaminaOff.Text" xml:space="preserve">
-    <value>關</value>
-  </data>
-  <data name="BtnUnlimitedEnergyOn.Text" xml:space="preserve">
-    <value>開</value>
-  </data>
-  <data name="BtnUnlimitedEnergyOff.Text" xml:space="preserve">
-    <value>關</value>
-  </data>
   <data name="BtnSetOpenState.Text" xml:space="preserve">
     <value>設定</value>
   </data>
@@ -170,5 +152,24 @@
   </data>
   <data name="BtnPlayerPropertyOn.Text" xml:space="preserve">
     <value>開</value>
+  </data>
+  <data name="ChkFly.Text" xml:space="preserve">
+    <value>飛行能力</value>
+  </data>
+  <data name="ChkDive.Text" xml:space="preserve">
+    <value>潛水能力</value>
+  </data>
+  <data name="ChkTimeFreeze.Text" xml:space="preserve">
+    <value>時間凍結</value>
+  </data>
+  <data name="BtnUnlockAll.Text" xml:space="preserve">
+    <value>解鎖全部</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnUnlockMapBarrier.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnUnlockMapBarrier.Text" xml:space="preserve">
+    <value>解鎖邊界</value>
   </data>
 </root>

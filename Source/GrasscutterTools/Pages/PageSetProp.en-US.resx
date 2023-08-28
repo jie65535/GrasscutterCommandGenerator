@@ -142,56 +142,48 @@
   <data name="LblBPLevel.Text" xml:space="preserve">
     <value>BP Level</value>
   </data>
-  <data name="LblGodMode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>326, 38</value>
-  </data>
   <data name="LblGodMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>72, 17</value>
+    <value>91, 21</value>
   </data>
   <data name="LblGodMode.Text" xml:space="preserve">
     <value>God Mode</value>
   </data>
-  <data name="LblUnlimitedStamina.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 67</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblUnlimitedStamina.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="LblUnlimitedStamina.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 17</value>
+    <value>132, 21</value>
   </data>
   <data name="LblUnlimitedStamina.Text" xml:space="preserve">
     <value>Unlimited Stamina</value>
   </data>
   <data name="LblUnlimitedEnergy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>291, 96</value>
+    <value>242, 95</value>
   </data>
   <data name="LblUnlimitedEnergy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 17</value>
+    <value>126, 21</value>
   </data>
   <data name="LblUnlimitedEnergy.Text" xml:space="preserve">
     <value>Unlimited Energy</value>
   </data>
-  <data name="BtnGodModeOn.Text" xml:space="preserve">
-    <value>On</value>
+  <data name="LblOpenState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 126</value>
   </data>
-  <data name="BtnGodModeOff.Text" xml:space="preserve">
-    <value>Off</value>
+  <data name="LblOpenState.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 17</value>
   </data>
-  <data name="BtnUnlimitedStaminaOn.Text" xml:space="preserve">
-    <value>On</value>
-  </data>
-  <data name="BtnUnlimitedStaminaOff.Text" xml:space="preserve">
-    <value>Off</value>
-  </data>
-  <data name="BtnUnlimitedEnergyOn.Text" xml:space="preserve">
-    <value>On</value>
-  </data>
-  <data name="BtnUnlimitedEnergyOff.Text" xml:space="preserve">
-    <value>Off</value>
+  <data name="LblOpenState.Text" xml:space="preserve">
+    <value>Open State</value>
   </data>
   <data name="BtnSetOpenState.Text" xml:space="preserve">
     <value>Set</value>
   </data>
   <data name="BtnUnsetOpenState.Text" xml:space="preserve">
     <value>Unset</value>
+  </data>
+  <data name="BtnUnlockMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 35</value>
   </data>
   <data name="BtnUnlockMap.Text" xml:space="preserve">
     <value>Unlock Map</value>
@@ -216,5 +208,41 @@
   </data>
   <data name="BtnPlayerPropertyOn.Text" xml:space="preserve">
     <value>On</value>
+  </data>
+  <data name="ChkFly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 38</value>
+  </data>
+  <data name="ChkFly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 21</value>
+  </data>
+  <data name="ChkFly.Text" xml:space="preserve">
+    <value>Flyable</value>
+  </data>
+  <data name="ChkDive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 67</value>
+  </data>
+  <data name="ChkDive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 21</value>
+  </data>
+  <data name="ChkDive.Text" xml:space="preserve">
+    <value>CanDive</value>
+  </data>
+  <data name="ChkTimeFreeze.Location" type="System.Drawing.Point, System.Drawing">
+    <value>380, 96</value>
+  </data>
+  <data name="ChkTimeFreeze.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 21</value>
+  </data>
+  <data name="ChkTimeFreeze.Text" xml:space="preserve">
+    <value>TimeFreeze</value>
+  </data>
+  <data name="BtnUnlockAll.Text" xml:space="preserve">
+    <value>Unlock All</value>
+  </data>
+  <data name="BtnUnlockMapBarrier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>475, 63</value>
+  </data>
+  <data name="BtnUnlockMapBarrier.Text" xml:space="preserve">
+    <value>Unlock Barrier</value>
   </data>
 </root>

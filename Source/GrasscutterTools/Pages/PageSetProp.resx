@@ -121,9 +121,6 @@
   <data name="LblPlayerPropertyDesc.Size" type="System.Drawing.Size, System.Drawing">
     <value>474, 21</value>
   </data>
-  <data name="&gt;&gt;LblSetPropTitle.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
   <data name="BtnPlayerPropertyOn.Location" type="System.Drawing.Point, System.Drawing">
     <value>161, 212</value>
   </data>
@@ -132,25 +129,22 @@
     <value>True</value>
   </data>
   <data name="LblGodMode.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
+    <value>75, 21</value>
   </data>
-  <data name="&gt;&gt;BtnPlayerPropertyOn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BtnUnlimitedEnergyOn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 93</value>
-  </data>
-  <data name="NUDBPLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
+  <data name="&gt;&gt;CmbPlayerProperty.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;LblPlayerProperty.Name" xml:space="preserve">
     <value>LblPlayerProperty</value>
   </data>
-  <data name="&gt;&gt;LblOpenState.ZOrder" xml:space="preserve">
-    <value>17</value>
+  <data name="&gt;&gt;BtnUnlockMapBarrier.Name" xml:space="preserve">
+    <value>BtnUnlockMapBarrier</value>
   </data>
-  <data name="&gt;&gt;BtnGodModeOn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;LblOpenState.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="LblTowerLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;LblWorldLevel.Name" xml:space="preserve">
     <value>LblWorldLevel</value>
@@ -158,38 +152,32 @@
   <data name="NUDOpenStateValue.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 23</value>
   </data>
+  <data name="NUDTowerLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
   <data name="&gt;&gt;NUDWorldLevel.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BtnSetOpenState.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>15</value>
   </data>
-  <data name="&gt;&gt;BtnUnlimitedStaminaOff.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;ChkTimeFreeze.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="BtnUnlimitedStaminaOff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="&gt;&gt;BtnUnlockAll.Name" xml:space="preserve">
+    <value>BtnUnlockAll</value>
   </data>
   <data name="&gt;&gt;NUDOpenStateValue.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>11</value>
   </data>
-  <data name="BtnGodModeOn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;BtnPlayerPropertyOn.Name" xml:space="preserve">
-    <value>BtnPlayerPropertyOn</value>
+  <data name="&gt;&gt;LblSetPropTitle.Name" xml:space="preserve">
+    <value>LblSetPropTitle</value>
   </data>
   <data name="&gt;&gt;LblUnlimitedEnergy.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="NUDPlayerPropertyValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 182</value>
+    <value>17</value>
   </data>
   <data name="LblUnlimitedStamina.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
-  </data>
-  <data name="&gt;&gt;BtnGodModeOff.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>75, 21</value>
   </data>
   <data name="&gt;&gt;LblBPLevel.Name" xml:space="preserve">
     <value>LblBPLevel</value>
@@ -198,7 +186,7 @@
     <value>70, 23</value>
   </data>
   <data name="LblOpenState.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 17</value>
+    <value>56, 17</value>
   </data>
   <data name="&gt;&gt;LblPlayerProperty.Parent" xml:space="preserve">
     <value>$this</value>
@@ -212,14 +200,20 @@
   <data name="CmbPlayerProperty.Location" type="System.Drawing.Point, System.Drawing">
     <value>161, 181</value>
   </data>
+  <data name="ChkTimeFreeze.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
   <data name="&gt;&gt;BtnUnsetOpenState.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>14</value>
   </data>
-  <data name="BtnUnlimitedEnergyOff.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="&gt;&gt;NUDPlayerPropertyValue.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
-  <data name="&gt;&gt;BtnGodModeOn.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;ChkTimeFreeze.Name" xml:space="preserve">
+    <value>ChkTimeFreeze</value>
+  </data>
+  <data name="BtnUnlockMapBarrier.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
   </data>
   <data name="&gt;&gt;LblTowerLevel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -233,78 +227,87 @@
   <data name="&gt;&gt;LblTowerLevel.Name" xml:space="preserve">
     <value>LblTowerLevel</value>
   </data>
-  <data name="BtnUnlimitedEnergyOn.Text" xml:space="preserve">
-    <value>开</value>
+  <data name="BtnPlayerPropertyOff.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 212</value>
+  </data>
+  <data name="&gt;&gt;ChkTimeFreeze.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="LblSetPropTitle.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
+  <data name="&gt;&gt;ChkDive.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;NUDPlayerPropertyValue.Name" xml:space="preserve">
+    <value>NUDPlayerPropertyValue</value>
+  </data>
   <data name="&gt;&gt;LblOpenState.Name" xml:space="preserve">
     <value>LblOpenState</value>
-  </data>
-  <data name="&gt;&gt;BtnUnlimitedStaminaOn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BtnPlayerPropertyOn.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
   </data>
+  <data name="NUDPlayerPropertyValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
   <data name="BtnUnsetOpenState.Location" type="System.Drawing.Point, System.Drawing">
-    <value>323, 124</value>
+    <value>323, 122</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlockAll.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;LblTowerLevel.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="BtnUnlimitedStaminaOn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 64</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PageSetProp</value>
   </data>
   <data name="&gt;&gt;LblPlayerProperty.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>9</value>
   </data>
-  <data name="BtnGodModeOn.Text" xml:space="preserve">
-    <value>开</value>
+  <data name="ChkFly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 39</value>
   </data>
-  <data name="&gt;&gt;BtnUnlimitedEnergyOff.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ChkTimeFreeze.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 97</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="BtnPlayerPropertyOn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;NUDTowerLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="BtnUnlockAll.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="ChkFly.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="ChkDive.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="LblUnlimitedEnergy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
+    <value>75, 21</value>
   </data>
   <data name="&gt;&gt;LblUnlimitedEnergy.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LblOpenState.Text" xml:space="preserve">
-    <value>Open State</value>
+    <value>开放状态</value>
   </data>
   <data name="&gt;&gt;LblUnlimitedStamina.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>18</value>
   </data>
-  <data name="BtnUnlimitedEnergyOff.Text" xml:space="preserve">
-    <value>关</value>
+  <data name="&gt;&gt;BtnUnlockMapBarrier.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;NUDWorldLevel.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;BtnUnlimitedEnergyOn.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>24</value>
   </data>
   <data name="LblSetPropTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 17</value>
   </data>
   <data name="&gt;&gt;LblGodMode.Name" xml:space="preserve">
     <value>LblGodMode</value>
-  </data>
-  <data name="NUDBPLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
   </data>
   <data name="&gt;&gt;BtnUnlockMap.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -316,25 +319,22 @@
     <value>深渊螺旋</value>
   </data>
   <data name="&gt;&gt;LblUnlimitedStamina.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LblGodMode.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>19</value>
   </data>
-  <data name="&gt;&gt;LblPlayerProperty.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="BtnUnlockMapBarrier.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 64</value>
+  </data>
+  <data name="BtnPlayerPropertyOff.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 25</value>
   </data>
   <data name="&gt;&gt;BtnPlayerPropertyOn.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="BtnUnlimitedStaminaOff.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>6</value>
   </data>
   <data name="BtnUnlockMap.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
-  </data>
-  <data name="&gt;&gt;BtnGodModeOn.Name" xml:space="preserve">
-    <value>BtnGodModeOn</value>
   </data>
   <data name="LblBPLevel.Text" xml:space="preserve">
     <value>纪行等级</value>
@@ -348,35 +348,32 @@
   <data name="&gt;&gt;LblUnlimitedEnergy.Name" xml:space="preserve">
     <value>LblUnlimitedEnergy</value>
   </data>
-  <data name="BtnPlayerPropertyOn.Text" xml:space="preserve">
-    <value>开</value>
+  <data name="BtnUnlockAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 25</value>
   </data>
-  <data name="&gt;&gt;LblBPLevel.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="LblTowerLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblSetPropTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;NUDBPLevel.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;NUDTowerLevel.Name" xml:space="preserve">
-    <value>NUDTowerLevel</value>
-  </data>
-  <data name="BtnUnlimitedStaminaOn.Text" xml:space="preserve">
-    <value>开</value>
+  <data name="BtnUnlockMap.Text" xml:space="preserve">
+    <value>点亮地图</value>
   </data>
   <data name="CmbPlayerProperty.Size" type="System.Drawing.Size, System.Drawing">
     <value>237, 25</value>
   </data>
-  <data name="&gt;&gt;BtnUnlimitedStaminaOn.Name" xml:space="preserve">
-    <value>BtnUnlimitedStaminaOn</value>
+  <data name="LblWorldLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;NUDPlayerPropertyValue.Name" xml:space="preserve">
-    <value>NUDPlayerPropertyValue</value>
+  <data name="ChkTimeFreeze.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
   </data>
   <data name="&gt;&gt;LblGodMode.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BtnUnlockMap.ZOrder" xml:space="preserve">
-    <value>8</value>
   </data>
   <data name="LblGodMode.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -387,28 +384,25 @@
   <data name="LblTowerLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>99, 68</value>
   </data>
-  <data name="&gt;&gt;BtnPlayerPropertyOn.Parent" xml:space="preserve">
+  <data name="&gt;&gt;ChkDive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChkDive.Parent" xml:space="preserve">
     <value>$this</value>
-  </data>
-  <data name="&gt;&gt;NUDPlayerPropertyValue.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="BtnUnlimitedStaminaOn.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="BtnGodModeOff.Location" type="System.Drawing.Point, System.Drawing">
-    <value>485, 35</value>
   </data>
   <data name="LblOpenState.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;LblSetPropTitle.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ChkTimeFreeze.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;NUDTowerLevel.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>22</value>
   </data>
-  <data name="&gt;&gt;BtnUnlimitedEnergyOn.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BtnUnsetOpenState.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;BtnPlayerPropertyOff.Type" xml:space="preserve">
@@ -421,22 +415,28 @@
     <value>取消</value>
   </data>
   <data name="&gt;&gt;BtnPlayerPropertyOff.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="LblOpenState.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
-  <data name="NUDTowerLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>161, 66</value>
+  <data name="&gt;&gt;LblOpenState.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlockAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NUDBPLevel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblGodMode.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LblSetPropTitle.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="BtnUnlockAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;NUDTowerLevel.Name" xml:space="preserve">
+    <value>NUDTowerLevel</value>
   </data>
   <data name="LblPlayerProperty.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -447,32 +447,29 @@
   <data name="&gt;&gt;LblUnlimitedStamina.Name" xml:space="preserve">
     <value>LblUnlimitedStamina</value>
   </data>
-  <data name="BtnPlayerPropertyOff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
   <data name="&gt;&gt;LblWorldLevel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NUDPlayerPropertyValue.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="BtnUnlimitedStaminaOn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="&gt;&gt;LblOpenState.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="NUDTowerLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;BtnUnlimitedStaminaOn.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;BtnUnlimitedEnergyOn.Name" xml:space="preserve">
-    <value>BtnUnlimitedEnergyOn</value>
-  </data>
-  <data name="&gt;&gt;BtnGodModeOn.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;LblOpenState.Parent" xml:space="preserve">
+  <data name="&gt;&gt;LblBPLevel.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="ChkTimeFreeze.Text" xml:space="preserve">
+    <value>时间冻结</value>
+  </data>
+  <data name="&gt;&gt;LblWorldLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnUnlockAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ChkDive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 68</value>
   </data>
   <data name="&gt;&gt;BtnUnlockMap.Name" xml:space="preserve">
     <value>BtnUnlockMap</value>
@@ -480,23 +477,20 @@
   <data name="&gt;&gt;LblPlayerPropertyDesc.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
+  <data name="ChkFly.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="NUDPlayerPropertyValue.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
   </data>
   <data name="LblWorldLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>99, 39</value>
   </data>
-  <data name="LblTowerLevel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;BtnUnlimitedEnergyOff.Parent" xml:space="preserve">
+  <data name="&gt;&gt;ChkFly.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="LblUnlimitedStamina.Text" xml:space="preserve">
     <value>无限体力</value>
-  </data>
-  <data name="LblWorldLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
   </data>
   <data name="LblSetPropTitle.Text" xml:space="preserve">
     <value>设置账号属性</value>
@@ -505,10 +499,16 @@
     <value>CmbPlayerProperty</value>
   </data>
   <data name="&gt;&gt;LblWorldLevel.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;NUDTowerLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="NUDWorldLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>70, 23</value>
+  </data>
+  <data name="ChkDive.Text" xml:space="preserve">
+    <value>潜水能力</value>
   </data>
   <data name="&gt;&gt;NUDOpenStateValue.Name" xml:space="preserve">
     <value>NUDOpenStateValue</value>
@@ -528,32 +528,26 @@
   <data name="&gt;&gt;LblUnlimitedStamina.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="LblBPLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="ChkTimeFreeze.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;NUDTowerLevel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="BtnUnlockMap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 122</value>
+  <data name="&gt;&gt;ChkDive.Name" xml:space="preserve">
+    <value>ChkDive</value>
+  </data>
+  <data name="LblOpenState.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 126</value>
   </data>
   <data name="LblBPLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
   </data>
-  <data name="&gt;&gt;BtnUnlimitedStaminaOff.Name" xml:space="preserve">
-    <value>BtnUnlimitedStaminaOff</value>
-  </data>
-  <data name="BtnUnlimitedEnergyOff.Location" type="System.Drawing.Point, System.Drawing">
-    <value>485, 93</value>
-  </data>
   <data name="&gt;&gt;LblBPLevel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;BtnUnlimitedEnergyOff.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
   <data name="BtnSetOpenState.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 25</value>
   </data>
   <data name="LblPlayerProperty.Location" type="System.Drawing.Point, System.Drawing">
     <value>99, 184</value>
@@ -561,20 +555,17 @@
   <data name="&gt;&gt;NUDWorldLevel.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="NUDWorldLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;ChkFly.Name" xml:space="preserve">
+    <value>ChkFly</value>
+  </data>
+  <data name="LblBPLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="LblGodMode.Location" type="System.Drawing.Point, System.Drawing">
-    <value>342, 38</value>
-  </data>
-  <data name="LblPlayerPropertyDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+    <value>242, 38</value>
   </data>
   <data name="LblGodMode.Text" xml:space="preserve">
     <value>无敌模式</value>
-  </data>
-  <data name="BtnGodModeOff.Text" xml:space="preserve">
-    <value>关</value>
   </data>
   <data name="LblBPLevel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -582,44 +573,38 @@
   <data name="&gt;&gt;BtnUnlockMap.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;LblSetPropTitle.Name" xml:space="preserve">
-    <value>LblSetPropTitle</value>
+  <data name="&gt;&gt;ChkFly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="NUDPlayerPropertyValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 23</value>
+  <data name="BtnPlayerPropertyOn.Text" xml:space="preserve">
+    <value>开</value>
   </data>
-  <data name="BtnPlayerPropertyOff.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 212</value>
+  <data name="&gt;&gt;BtnUnlockMap.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
-  <data name="BtnGodModeOff.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="LblUnlimitedEnergy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>242, 96</value>
   </data>
   <data name="LblUnlimitedStamina.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;BtnGodModeOff.Name" xml:space="preserve">
-    <value>BtnGodModeOff</value>
-  </data>
   <data name="NUDOpenStateValue.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
-  <data name="LblTowerLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="&gt;&gt;LblSetPropTitle.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="BtnGodModeOn.Location" type="System.Drawing.Point, System.Drawing">
-    <value>404, 35</value>
-  </data>
-  <data name="&gt;&gt;BtnUnlimitedStaminaOff.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LblPlayerProperty.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="NUDWorldLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>161, 37</value>
   </data>
-  <data name="&gt;&gt;BtnUnlimitedStaminaOn.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="ChkDive.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
   </data>
   <data name="BtnPlayerPropertyOn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 25</value>
   </data>
   <data name="LblPlayerPropertyDesc.TabIndex" type="System.Int32, mscorlib">
     <value>25</value>
@@ -627,14 +612,17 @@
   <data name="&gt;&gt;NUDBPLevel.Name" xml:space="preserve">
     <value>NUDBPLevel</value>
   </data>
-  <data name="LblUnlimitedEnergy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>342, 96</value>
+  <data name="&gt;&gt;LblPlayerProperty.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LblWorldLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
   </data>
+  <data name="&gt;&gt;BtnUnlockMapBarrier.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
   <data name="&gt;&gt;CmbPlayerProperty.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>8</value>
   </data>
   <data name="LblUnlimitedStamina.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -645,11 +633,14 @@
   <data name="&gt;&gt;NUDWorldLevel.Name" xml:space="preserve">
     <value>NUDWorldLevel</value>
   </data>
+  <data name="&gt;&gt;BtnPlayerPropertyOn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
   <data name="LblPlayerProperty.Text" xml:space="preserve">
     <value>玩家属性</value>
   </data>
   <data name="BtnSetOpenState.Location" type="System.Drawing.Point, System.Drawing">
-    <value>242, 124</value>
+    <value>242, 122</value>
   </data>
   <data name="BtnUnsetOpenState.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
@@ -657,20 +648,26 @@
   <data name="&gt;&gt;BtnSetOpenState.Name" xml:space="preserve">
     <value>BtnSetOpenState</value>
   </data>
-  <data name="&gt;&gt;BtnUnlimitedEnergyOn.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="NUDPlayerPropertyValue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 182</value>
   </data>
-  <data name="&gt;&gt;LblWorldLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="ChkFly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
   </data>
-  <data name="BtnUnlimitedEnergyOff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+  <data name="NUDBPLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
   </data>
-  <data name="&gt;&gt;BtnGodModeOff.Parent" xml:space="preserve">
+  <data name="&gt;&gt;LblUnlimitedEnergy.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="ChkDive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 21</value>
   </data>
   <data name="LblWorldLevel.Text" xml:space="preserve">
     <value>世界等级</value>
+  </data>
+  <data name="ChkFly.Text" xml:space="preserve">
+    <value>飞行能力</value>
   </data>
   <data name="NUDOpenStateValue.Location" type="System.Drawing.Point, System.Drawing">
     <value>161, 124</value>
@@ -684,32 +681,29 @@
   <data name="&gt;&gt;BtnPlayerPropertyOff.Name" xml:space="preserve">
     <value>BtnPlayerPropertyOff</value>
   </data>
-  <data name="&gt;&gt;LblUnlimitedEnergy.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;BtnPlayerPropertyOn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LblTowerLevel.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>23</value>
   </data>
   <data name="LblUnlimitedStamina.Location" type="System.Drawing.Point, System.Drawing">
-    <value>342, 67</value>
-  </data>
-  <data name="BtnUnlimitedStaminaOff.Text" xml:space="preserve">
-    <value>关</value>
+    <value>242, 67</value>
   </data>
   <data name="&gt;&gt;NUDOpenStateValue.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.9.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.12.2.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  </data>
+  <data name="BtnUnlockMapBarrier.Text" xml:space="preserve">
+    <value>解锁边界</value>
   </data>
   <data name="LblPlayerPropertyDesc.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
   </data>
-  <data name="&gt;&gt;BtnGodModeOff.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="BtnUnlockMap.Text" xml:space="preserve">
-    <value>点亮地图</value>
+  <data name="BtnUnlockMapBarrier.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
   </data>
   <data name="&gt;&gt;CmbPlayerProperty.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -717,56 +711,53 @@
   <data name="&gt;&gt;BtnUnsetOpenState.Name" xml:space="preserve">
     <value>BtnUnsetOpenState</value>
   </data>
-  <data name="&gt;&gt;BtnUnlimitedEnergyOff.Name" xml:space="preserve">
-    <value>BtnUnlimitedEnergyOff</value>
-  </data>
   <data name="&gt;&gt;BtnSetOpenState.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="BtnUnlockMap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>156, 23</value>
+    <value>120, 25</value>
   </data>
   <data name="LblTowerLevel.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
   </data>
   <data name="&gt;&gt;LblPlayerPropertyDesc.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;BtnPlayerPropertyOff.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;BtnSetOpenState.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;LblBPLevel.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>21</value>
   </data>
-  <data name="BtnGodModeOn.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="BtnUnlockAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 122</value>
   </data>
-  <data name="BtnGodModeOff.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;BtnPlayerPropertyOff.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="BtnUnlockMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>404, 36</value>
   </data>
   <data name="BtnSetOpenState.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
   <data name="&gt;&gt;NUDBPLevel.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>20</value>
   </data>
-  <data name="BtnUnlimitedStaminaOff.Location" type="System.Drawing.Point, System.Drawing">
-    <value>485, 64</value>
+  <data name="NUDBPLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="LblPlayerProperty.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="NUDTowerLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>161, 66</value>
   </data>
-  <data name="&gt;&gt;CmbPlayerProperty.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;BtnUnlockMapBarrier.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="BtnUnsetOpenState.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>75, 25</value>
   </data>
-  <data name="&gt;&gt;BtnUnsetOpenState.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;BtnPlayerPropertyOn.Name" xml:space="preserve">
+    <value>BtnPlayerPropertyOn</value>
   </data>
   <data name="LblBPLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>99, 97</value>
@@ -774,26 +765,23 @@
   <data name="LblUnlimitedEnergy.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
-  <data name="LblOpenState.Location" type="System.Drawing.Point, System.Drawing">
-    <value>82, 127</value>
+  <data name="LblPlayerPropertyDesc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="BtnUnlimitedEnergyOn.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
-  </data>
-  <data name="&gt;&gt;LblOpenState.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnUnlimitedStaminaOff.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="&gt;&gt;ChkFly.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="NUDBPLevel.Location" type="System.Drawing.Point, System.Drawing">
     <value>161, 95</value>
   </data>
-  <data name="BtnUnlimitedEnergyOn.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="BtnUnlockAll.Text" xml:space="preserve">
+    <value>解锁全部</value>
   </data>
   <data name="LblPlayerProperty.Size" type="System.Drawing.Size, System.Drawing">
     <value>56, 17</value>
+  </data>
+  <data name="NUDWorldLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

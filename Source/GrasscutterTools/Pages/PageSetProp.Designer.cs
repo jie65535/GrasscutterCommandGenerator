@@ -35,16 +35,10 @@
             this.NUDTowerLevel = new System.Windows.Forms.NumericUpDown();
             this.LblBPLevel = new System.Windows.Forms.Label();
             this.NUDBPLevel = new System.Windows.Forms.NumericUpDown();
-            this.LblGodMode = new System.Windows.Forms.Label();
-            this.LblUnlimitedStamina = new System.Windows.Forms.Label();
-            this.LblUnlimitedEnergy = new System.Windows.Forms.Label();
+            this.LblGodMode = new System.Windows.Forms.CheckBox();
+            this.LblUnlimitedStamina = new System.Windows.Forms.CheckBox();
+            this.LblUnlimitedEnergy = new System.Windows.Forms.CheckBox();
             this.LblOpenState = new System.Windows.Forms.Label();
-            this.BtnGodModeOn = new System.Windows.Forms.Button();
-            this.BtnGodModeOff = new System.Windows.Forms.Button();
-            this.BtnUnlimitedStaminaOn = new System.Windows.Forms.Button();
-            this.BtnUnlimitedStaminaOff = new System.Windows.Forms.Button();
-            this.BtnUnlimitedEnergyOn = new System.Windows.Forms.Button();
-            this.BtnUnlimitedEnergyOff = new System.Windows.Forms.Button();
             this.BtnSetOpenState = new System.Windows.Forms.Button();
             this.BtnUnsetOpenState = new System.Windows.Forms.Button();
             this.BtnUnlockMap = new System.Windows.Forms.Button();
@@ -56,6 +50,11 @@
             this.BtnPlayerPropertyOff = new System.Windows.Forms.Button();
             this.BtnPlayerPropertyOn = new System.Windows.Forms.Button();
             this.LblPlayerPropertyDesc = new System.Windows.Forms.Label();
+            this.ChkFly = new System.Windows.Forms.CheckBox();
+            this.ChkDive = new System.Windows.Forms.CheckBox();
+            this.ChkTimeFreeze = new System.Windows.Forms.CheckBox();
+            this.BtnUnlockAll = new System.Windows.Forms.Button();
+            this.BtnUnlockMapBarrier = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.NUDWorldLevel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTowerLevel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDBPLevel)).BeginInit();
@@ -133,69 +132,27 @@
             // 
             resources.ApplyResources(this.LblGodMode, "LblGodMode");
             this.LblGodMode.Name = "LblGodMode";
+            this.LblGodMode.Tag = "godmode";
+            this.LblGodMode.CheckedChanged += new System.EventHandler(this.PropCheckedChanged);
             // 
             // LblUnlimitedStamina
             // 
             resources.ApplyResources(this.LblUnlimitedStamina, "LblUnlimitedStamina");
             this.LblUnlimitedStamina.Name = "LblUnlimitedStamina";
+            this.LblUnlimitedStamina.Tag = "unlimitedstamina";
+            this.LblUnlimitedStamina.CheckedChanged += new System.EventHandler(this.PropCheckedChanged);
             // 
             // LblUnlimitedEnergy
             // 
             resources.ApplyResources(this.LblUnlimitedEnergy, "LblUnlimitedEnergy");
             this.LblUnlimitedEnergy.Name = "LblUnlimitedEnergy";
+            this.LblUnlimitedEnergy.Tag = "unlimitedenergy";
+            this.LblUnlimitedEnergy.CheckedChanged += new System.EventHandler(this.PropCheckedChanged);
             // 
             // LblOpenState
             // 
             resources.ApplyResources(this.LblOpenState, "LblOpenState");
             this.LblOpenState.Name = "LblOpenState";
-            // 
-            // BtnGodModeOn
-            // 
-            resources.ApplyResources(this.BtnGodModeOn, "BtnGodModeOn");
-            this.BtnGodModeOn.Name = "BtnGodModeOn";
-            this.BtnGodModeOn.Tag = "godmode on";
-            this.BtnGodModeOn.UseVisualStyleBackColor = true;
-            this.BtnGodModeOn.Click += new System.EventHandler(this.BtnSetPropButton_Click);
-            // 
-            // BtnGodModeOff
-            // 
-            resources.ApplyResources(this.BtnGodModeOff, "BtnGodModeOff");
-            this.BtnGodModeOff.Name = "BtnGodModeOff";
-            this.BtnGodModeOff.Tag = "godmode off";
-            this.BtnGodModeOff.UseVisualStyleBackColor = true;
-            this.BtnGodModeOff.Click += new System.EventHandler(this.BtnSetPropButton_Click);
-            // 
-            // BtnUnlimitedStaminaOn
-            // 
-            resources.ApplyResources(this.BtnUnlimitedStaminaOn, "BtnUnlimitedStaminaOn");
-            this.BtnUnlimitedStaminaOn.Name = "BtnUnlimitedStaminaOn";
-            this.BtnUnlimitedStaminaOn.Tag = "unlimitedstamina on";
-            this.BtnUnlimitedStaminaOn.UseVisualStyleBackColor = true;
-            this.BtnUnlimitedStaminaOn.Click += new System.EventHandler(this.BtnSetPropButton_Click);
-            // 
-            // BtnUnlimitedStaminaOff
-            // 
-            resources.ApplyResources(this.BtnUnlimitedStaminaOff, "BtnUnlimitedStaminaOff");
-            this.BtnUnlimitedStaminaOff.Name = "BtnUnlimitedStaminaOff";
-            this.BtnUnlimitedStaminaOff.Tag = "unlimitedstamina off";
-            this.BtnUnlimitedStaminaOff.UseVisualStyleBackColor = true;
-            this.BtnUnlimitedStaminaOff.Click += new System.EventHandler(this.BtnSetPropButton_Click);
-            // 
-            // BtnUnlimitedEnergyOn
-            // 
-            resources.ApplyResources(this.BtnUnlimitedEnergyOn, "BtnUnlimitedEnergyOn");
-            this.BtnUnlimitedEnergyOn.Name = "BtnUnlimitedEnergyOn";
-            this.BtnUnlimitedEnergyOn.Tag = "unlimitedenergy on";
-            this.BtnUnlimitedEnergyOn.UseVisualStyleBackColor = true;
-            this.BtnUnlimitedEnergyOn.Click += new System.EventHandler(this.BtnSetPropButton_Click);
-            // 
-            // BtnUnlimitedEnergyOff
-            // 
-            resources.ApplyResources(this.BtnUnlimitedEnergyOff, "BtnUnlimitedEnergyOff");
-            this.BtnUnlimitedEnergyOff.Name = "BtnUnlimitedEnergyOff";
-            this.BtnUnlimitedEnergyOff.Tag = "unlimitedenergy off";
-            this.BtnUnlimitedEnergyOff.UseVisualStyleBackColor = true;
-            this.BtnUnlimitedEnergyOff.Click += new System.EventHandler(this.BtnSetPropButton_Click);
             // 
             // BtnSetOpenState
             // 
@@ -215,7 +172,7 @@
             // 
             resources.ApplyResources(this.BtnUnlockMap, "BtnUnlockMap");
             this.BtnUnlockMap.Name = "BtnUnlockMap";
-            this.BtnUnlockMap.Tag = "unlockmap on";
+            this.BtnUnlockMap.Tag = "UnlockMap on";
             this.BtnUnlockMap.UseVisualStyleBackColor = true;
             this.BtnUnlockMap.Click += new System.EventHandler(this.BtnSetPropButton_Click);
             // 
@@ -282,10 +239,54 @@
             this.LblPlayerPropertyDesc.ForeColor = System.Drawing.SystemColors.GrayText;
             this.LblPlayerPropertyDesc.Name = "LblPlayerPropertyDesc";
             // 
+            // ChkFly
+            // 
+            resources.ApplyResources(this.ChkFly, "ChkFly");
+            this.ChkFly.Name = "ChkFly";
+            this.ChkFly.Tag = "fly";
+            this.ChkFly.UseVisualStyleBackColor = true;
+            this.ChkFly.CheckedChanged += new System.EventHandler(this.PropCheckedChanged);
+            // 
+            // ChkDive
+            // 
+            resources.ApplyResources(this.ChkDive, "ChkDive");
+            this.ChkDive.Name = "ChkDive";
+            this.ChkDive.Tag = "dive";
+            this.ChkDive.UseVisualStyleBackColor = true;
+            this.ChkDive.CheckedChanged += new System.EventHandler(this.PropCheckedChanged);
+            // 
+            // ChkTimeFreeze
+            // 
+            resources.ApplyResources(this.ChkTimeFreeze, "ChkTimeFreeze");
+            this.ChkTimeFreeze.Name = "ChkTimeFreeze";
+            this.ChkTimeFreeze.Tag = "IS_GAME_TIME_LOCKED";
+            this.ChkTimeFreeze.UseVisualStyleBackColor = true;
+            this.ChkTimeFreeze.CheckedChanged += new System.EventHandler(this.PropCheckedChanged);
+            // 
+            // BtnUnlockAll
+            // 
+            resources.ApplyResources(this.BtnUnlockAll, "BtnUnlockAll");
+            this.BtnUnlockAll.Name = "BtnUnlockAll";
+            this.BtnUnlockAll.Tag = "unlockall";
+            this.BtnUnlockAll.UseVisualStyleBackColor = true;
+            this.BtnUnlockAll.Click += new System.EventHandler(this.BtnUnlockAll_Click);
+            // 
+            // BtnUnlockMapBarrier
+            // 
+            resources.ApplyResources(this.BtnUnlockMapBarrier, "BtnUnlockMapBarrier");
+            this.BtnUnlockMapBarrier.Name = "BtnUnlockMapBarrier";
+            this.BtnUnlockMapBarrier.Tag = "";
+            this.BtnUnlockMapBarrier.UseVisualStyleBackColor = true;
+            this.BtnUnlockMapBarrier.Click += new System.EventHandler(this.BtnUnlockMapBarrier_Click);
+            // 
             // PageSetProp
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.BtnUnlockAll);
+            this.Controls.Add(this.ChkTimeFreeze);
+            this.Controls.Add(this.ChkDive);
+            this.Controls.Add(this.ChkFly);
             this.Controls.Add(this.LblPlayerPropertyDesc);
             this.Controls.Add(this.BtnPlayerPropertyOff);
             this.Controls.Add(this.BtnPlayerPropertyOn);
@@ -294,15 +295,10 @@
             this.Controls.Add(this.LblPlayerProperty);
             this.Controls.Add(this.LblSetPropTitle);
             this.Controls.Add(this.NUDOpenStateValue);
+            this.Controls.Add(this.BtnUnlockMapBarrier);
             this.Controls.Add(this.BtnUnlockMap);
             this.Controls.Add(this.BtnUnsetOpenState);
             this.Controls.Add(this.BtnSetOpenState);
-            this.Controls.Add(this.BtnUnlimitedEnergyOff);
-            this.Controls.Add(this.BtnUnlimitedEnergyOn);
-            this.Controls.Add(this.BtnUnlimitedStaminaOff);
-            this.Controls.Add(this.BtnUnlimitedStaminaOn);
-            this.Controls.Add(this.BtnGodModeOff);
-            this.Controls.Add(this.BtnGodModeOn);
             this.Controls.Add(this.LblOpenState);
             this.Controls.Add(this.LblUnlimitedEnergy);
             this.Controls.Add(this.LblUnlimitedStamina);
@@ -332,16 +328,10 @@
         private System.Windows.Forms.NumericUpDown NUDTowerLevel;
         private System.Windows.Forms.Label LblBPLevel;
         private System.Windows.Forms.NumericUpDown NUDBPLevel;
-        private System.Windows.Forms.Label LblGodMode;
-        private System.Windows.Forms.Label LblUnlimitedStamina;
-        private System.Windows.Forms.Label LblUnlimitedEnergy;
+        private System.Windows.Forms.CheckBox LblGodMode;
+        private System.Windows.Forms.CheckBox LblUnlimitedStamina;
+        private System.Windows.Forms.CheckBox LblUnlimitedEnergy;
         private System.Windows.Forms.Label LblOpenState;
-        private System.Windows.Forms.Button BtnGodModeOn;
-        private System.Windows.Forms.Button BtnGodModeOff;
-        private System.Windows.Forms.Button BtnUnlimitedStaminaOn;
-        private System.Windows.Forms.Button BtnUnlimitedStaminaOff;
-        private System.Windows.Forms.Button BtnUnlimitedEnergyOn;
-        private System.Windows.Forms.Button BtnUnlimitedEnergyOff;
         private System.Windows.Forms.Button BtnSetOpenState;
         private System.Windows.Forms.Button BtnUnsetOpenState;
         private System.Windows.Forms.Button BtnUnlockMap;
@@ -353,5 +343,10 @@
         private System.Windows.Forms.Button BtnPlayerPropertyOff;
         private System.Windows.Forms.Button BtnPlayerPropertyOn;
         private System.Windows.Forms.Label LblPlayerPropertyDesc;
+        private System.Windows.Forms.CheckBox ChkFly;
+        private System.Windows.Forms.CheckBox ChkDive;
+        private System.Windows.Forms.CheckBox ChkTimeFreeze;
+        private System.Windows.Forms.Button BtnUnlockAll;
+        private System.Windows.Forms.Button BtnUnlockMapBarrier;
     }
 }
