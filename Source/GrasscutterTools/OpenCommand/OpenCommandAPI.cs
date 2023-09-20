@@ -44,11 +44,28 @@ namespace GrasscutterTools.OpenCommand
 
         public bool CanInvoke { get; private set; }
 
+        private Version version = new Version(1, 6, 1);
+
+        public Version Version
+        {
+            get => version;
+            private set
+            {
+                version = value;
+                CanInvokeMultipleCmd = version >= new Version(1, 7);
+            }
+        }
+
+        public bool CanInvokeMultipleCmd { get; private set; }
+
         public async Task<bool> Ping()
         {
             //try
             //{
             var response = await DoRequest("ping");
+            if (response.Data is string str && Version.TryParse(str, out var version))
+                Version = version;
+            
             return response.RetCode == 200;
             //}
             //catch (Exception)

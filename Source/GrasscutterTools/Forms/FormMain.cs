@@ -442,7 +442,7 @@ namespace GrasscutterTools.Forms
         /// <returns>是否执行成功</returns>
         private async Task<bool> RunRawCommands(string commands)
         {
-            if (commands.IndexOf('|') == -1)
+            if (commands.IndexOf('|') == -1 || Common.OC?.CanInvokeMultipleCmd == true)
                 return await RunCommands(FormatCommand(commands));
             return await RunCommands(commands.Split('|').Select(FormatCommand).ToArray());
         }

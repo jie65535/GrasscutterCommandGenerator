@@ -190,10 +190,20 @@ namespace GrasscutterTools
 
             try
             {
-                foreach (var cmd in commands.Split('|').Select(FormatCommand))
+                Common.OC.Ping().Wait(1000);
+
+                if (Common.OC.CanInvokeMultipleCmd)
                 {
-                    var msg = Common.OC.Invoke(cmd).Result;
+                    var msg = Common.OC.Invoke(FormatCommand(commands)).Result;
                     Console.WriteLine(string.IsNullOrEmpty(msg) ? "OK" : msg);
+                }
+                else
+                {
+                    foreach (var cmd in commands.Split('|').Select(FormatCommand))
+                    {
+                        var msg = Common.OC.Invoke(cmd).Result;
+                        Console.WriteLine(string.IsNullOrEmpty(msg) ? "OK" : msg);
+                    }
                 }
                 return true;
             }
