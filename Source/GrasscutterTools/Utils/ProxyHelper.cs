@@ -84,7 +84,25 @@ namespace GrasscutterTools.Utils
 
         #region - GS Proxy Server -
 
-        private const string ProxyOverrides = "localhost;127.*;10.*;172.16.*;172.17.*;172.18.*;172.19.*;172.20.*;172.21.*;172.22.*;172.23.*;172.24.*;172.25.*;172.26.*;172.27.*;172.28.*;172.29.*;172.30.*;172.31.*;192.168.*;*ttvnw*;*edge*;*microsoft*;*bing*;*google*;*discordapp*;*gstatic.com;*imgur.com;*github.com;*googleapis.com;*facebook.com;*cloudfront.net;*gvt1.com;*jquery.com;*akamai.net;*ultra-rv.com;*youtube*;*ytimg*;*ggpht*";
+        private const string ProxyOverrides =
+            "localhost;1*;" + //" 127.*;10.*;192.168.*;" +
+            "*0;*1;*2;*3;*4;*5;*6;*7;*8;*9;" +
+            "*a;*b;*c;*d;*e;*f;*g;*h;*i;*j;*k;*l;*n;*o;*p;*q;*r;*s;*t;*u;*v;*w;*x;*y;*z" +
+            "*a.com;*b.com;*c.com;*d.com;*f.com;*g.com;*h.com;*i.com;*j.com;*k.com;*l.com;*m.com;*p.com;*q.com;*r.com;*s.com;*t.com;*u.com;*v.com;*w.com;*x.com;*y.com;*z.com;" +
+            "*ae.com;*be.com;*ce.com;*de.com;*fe.com;*ge.com;*pe.com;*te.com;*me.com;*le.com;*ve.com;" +
+            "*ao.com;*bo.com;*eo.com;*go.com;*ke.com;*oo.com;*so.com;*io.com" +
+            "*an.com;*cn.com;*dn.com;*en.com;*gn.com;*wn.com;*dn.com;*sn.com;*un.com;*in.com";
+        //"*bing*;*google*;*live.com;*office.com;*weibo*;*yahoo*;*taobao*;*go.com;*csdn.com;*msn.com;*aliyun.com;*cdn.com;";
+        //"*ttvnw*;*edge*;*microsoft*;*bing*;*google*;*discordapp*;*gstatic.com;*imgur.com;*hub.*;*gitlab.com;*googleapis.com;*facebook.com;*cloudfront.net;*gvt1.com;*jquery.com;*akamai.net;*ultra-rv.com;*youtube*;*ytimg*;*ggpht*;" +
+        //"*baidu*;*qq*;*sohu*;*weibo*;*163*;*360*;*iqiyi*;*youku*;*bilibili*;*sogou*;*taobao*;*jd*;*zhihu*;*steam*;*ea.com;*csdn*;*.msn.*;*aliyun*;*cdn*;" +
+        //"*twitter.com;*instagram.com;*wikipedia.org;*yahoo*;*xvideos.com;*whatsapp.com;*live.com;*netflix.com;*office.com;*tiktok.com;*reddit.com;*discord*;*twitch*;*duckduckgo.com";
+
+        private static string[] urls =
+        {
+            "hoyoverse.com",
+            "mihoyo.com",
+            "yuanshen.com",
+        };
 
         private static void StartGsProxyServer(int port)
         {
@@ -94,13 +112,6 @@ namespace GrasscutterTools.Utils
             Eavesdropper.RequestInterceptedAsync += EavesdropperOnRequestInterceptedAsync;
             Eavesdropper.Initiate(port);
         }
-
-        private static string[] urls =
-        {
-            "hoyoverse.com",
-            "mihoyo.com",
-            "yuanshen.com",
-        };
 
         private static Task EavesdropperOnRequestInterceptedAsync(object sender, RequestInterceptedEventArgs e)
         {
@@ -113,8 +124,11 @@ namespace GrasscutterTools.Utils
                 var target = p >= 0 ? _gcDispatch + url.Substring(p) : _gcDispatch;
                 e.Request = RedirectRequest(e.Request as HttpWebRequest, new Uri(target));
                 Logger.I(TAG, $"Redirect to {e.Request.RequestUri}");
-                break;
+                return Task.CompletedTask;
             }
+
+            Logger.I(TAG, "Direct " + e.Request.RequestUri);
+
             return Task.CompletedTask;
         }
 
@@ -165,7 +179,7 @@ namespace GrasscutterTools.Utils
 
         public static void StopProxy()
         {
-            Logger.I(TAG, "Start Proxy");
+            Logger.I(TAG, "Stop Proxy");
             //CloseSystemProxy();
             StopGsProxyServer();
         }
