@@ -366,4 +366,10 @@ Improvement suggestions have been submitted, please use caution to send emails t
   <data name="Gadget" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Gadget.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="StartProxy" xml:space="preserve">
+    <value>Start Proxy</value>
+  </data>
+  <data name="StopProxy" xml:space="preserve">
+    <value>Stop Proxy</value>
+  </data>
 </root>

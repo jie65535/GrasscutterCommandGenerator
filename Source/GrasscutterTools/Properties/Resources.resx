@@ -375,4 +375,10 @@
   <data name="PageHotKey" xml:space="preserve">
     <value>快捷键</value>
   </data>
+  <data name="StartProxy" xml:space="preserve">
+    <value>启动代理</value>
+  </data>
+  <data name="StopProxy" xml:space="preserve">
+    <value>关闭代理</value>
+  </data>
 </root>
