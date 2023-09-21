@@ -131,14 +131,14 @@ namespace GrasscutterTools.Utils
             {
                 switch (name.ToLower())
                 {
-                    case "host"        : newRequest.Host = request.Host; break;
-                    case "accept"      : newRequest.Accept = request.Accept; break;
-                    case "referer"     : newRequest.Referer = request.Referer; break;
-                    case "user-agent"  : newRequest.UserAgent = request.UserAgent; break;
-                    case "content-type": newRequest.ContentType = request.ContentType; break;
-                    case "content-length": newRequest.ContentLength = request.ContentLength; break;
+                    case "host"             : newRequest.Host            = request.Host;            break;
+                    case "accept"           : newRequest.Accept          = request.Accept;          break;
+                    case "referer"          : newRequest.Referer         = request.Referer;         break;
+                    case "user-agent"       : newRequest.UserAgent       = request.UserAgent;       break;
+                    case "content-type"     : newRequest.ContentType     = request.ContentType;     break;
+                    case "content-length"   : newRequest.ContentLength   = request.ContentLength;   break;
                     case "if-modified-since": newRequest.IfModifiedSince = request.IfModifiedSince; break;
-                    case "date": newRequest.Date = request.Date; break;
+                    case "date"             : newRequest.Date            = request.Date;            break;
                     default: newRequest.Headers[name] = request.Headers[name]; break;
                 }
             }

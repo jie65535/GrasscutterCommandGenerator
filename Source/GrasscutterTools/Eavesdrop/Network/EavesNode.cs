@@ -325,18 +325,18 @@ namespace Eavesdrop.Network
             }
 
             Stream input = response.GetResponseStream();
-            if (response is HttpWebResponse httpResponse && !string.IsNullOrWhiteSpace(httpResponse.ContentEncoding))
-            {
-                switch (httpResponse.ContentEncoding)
-                {
-                    //case "br": input = new BrotliStream(input, CompressionMode.Decompress); break;
-                    case "gzip": input = new GZipStream(input, CompressionMode.Decompress); break;
-                    case "deflate": input = new DeflateStream(input, CompressionMode.Decompress); break;
-                }
-                response.Headers.Remove(HttpResponseHeader.ContentLength);
-                response.Headers.Remove(HttpResponseHeader.ContentEncoding);
-                response.Headers.Add(HttpResponseHeader.TransferEncoding, "chunked");
-            }
+            //if (response is HttpWebResponse httpResponse && !string.IsNullOrWhiteSpace(httpResponse.ContentEncoding))
+            //{
+            //    switch (httpResponse.ContentEncoding)
+            //    {
+            //        //case "br": input = new BrotliStream(input, CompressionMode.Decompress); break;
+            //        case "gzip": input = new GZipStream(input, CompressionMode.Decompress); break;
+            //        case "deflate": input = new DeflateStream(input, CompressionMode.Decompress); break;
+            //    }
+            //    response.Headers.Remove(HttpResponseHeader.ContentLength);
+            //    response.Headers.Remove(HttpResponseHeader.ContentEncoding);
+            //    response.Headers.Add(HttpResponseHeader.TransferEncoding, "chunked");
+            //}
             return new StreamContent(input, response.ContentLength > 0 ? (int)response.ContentLength : 4096);
         }
         public static async Task<byte[]> GetPayload(Stream input, long length)

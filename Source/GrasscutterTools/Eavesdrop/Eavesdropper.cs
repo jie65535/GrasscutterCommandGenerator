@@ -122,7 +122,7 @@ namespace Eavesdrop
                 if (requestArgs.Cancel) return;
 
                 request = requestArgs.Request;
-                if (requestArgs.Content != null)
+                if (requestArgs.Content != null && requestArgs.Content != requestContent)
                 {
                     await local.WriteRequestContentAsync(request, requestArgs.Content).ConfigureAwait(false);
                 }
