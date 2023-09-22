@@ -91,7 +91,7 @@ namespace GrasscutterTools.Utils
             "*a.com;*b.com;*c.com;*d.com;*f.com;*g.com;*h.com;*i.com;*j.com;*k.com;*l.com;*m.com;*p.com;*q.com;*r.com;*s.com;*t.com;*u.com;*v.com;*w.com;*x.com;*y.com;*z.com;" +
             "*ae.com;*be.com;*ce.com;*de.com;*fe.com;*ge.com;*pe.com;*te.com;*me.com;*le.com;*ve.com;" +
             "*ao.com;*bo.com;*eo.com;*go.com;*ke.com;*oo.com;*so.com;*io.com" +
-            "*an.com;*cn.com;*dn.com;*en.com;*gn.com;*wn.com;*dn.com;*sn.com;*un.com;*in.com";
+            "*an.com;*cn.com;*dn.com;*gn.com;*wn.com;*dn.com;*sn.com;*un.com;*in.com";
         //"*bing*;*google*;*live.com;*office.com;*weibo*;*yahoo*;*taobao*;*go.com;*csdn.com;*msn.com;*aliyun.com;*cdn.com;";
         //"*ttvnw*;*edge*;*microsoft*;*bing*;*google*;*discordapp*;*gstatic.com;*imgur.com;*hub.*;*gitlab.com;*googleapis.com;*facebook.com;*cloudfront.net;*gvt1.com;*jquery.com;*akamai.net;*ultra-rv.com;*youtube*;*ytimg*;*ggpht*;" +
         //"*baidu*;*qq*;*sohu*;*weibo*;*163*;*360*;*iqiyi*;*youku*;*bilibili*;*sogou*;*taobao*;*jd*;*zhihu*;*steam*;*ea.com;*csdn*;*.msn.*;*aliyun*;*cdn*;" +
