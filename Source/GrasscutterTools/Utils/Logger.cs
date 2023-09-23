@@ -31,14 +31,25 @@ namespace GrasscutterTools.Utils
 
         private static void Write(string message)
         {
+#if DEBUG
+            Console.WriteLine($"{DateTime.Now:mm:ss.fff} {message}");
+#else
             if (IsSaveLogs)
             {
                 Console.WriteLine($"{DateTime.Now:mm:ss.fff} {message}");
                 File.AppendAllText(LogPath, $"{DateTime.Now:mm:ss.fff} {message}{Environment.NewLine}");
             }
+#endif
         }
 
         private static void Write(string level, string tag, string message) => Write($"<{level}:{tag}> {message}");
+
+        //public static void Debug(string message) => Write("DEBUG", "Proxy", message);
+
+        //public static void Info(string info) => Write("INFO", "Proxy", info);
+
+        //public static void Error(Exception ex) => Write("ERROR", "Proxy", ex.ToString());
+
 
         public static void I(string tag, string info) => Write("INFO", tag, info);
 

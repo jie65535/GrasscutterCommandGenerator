@@ -40,6 +40,8 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>11</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,6 +51,8 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>11</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>Resources\IconGrasscutter.ico</ApplicationIcon>
@@ -87,6 +91,14 @@
   <ItemGroup>
     <Compile Include="DispatchServer\DispatchServerAPI.cs" />
     <Compile Include="DispatchServer\Model\ServerStatus.cs" />
+    <Compile Include="Eavesdrop\Certifier.cs" />
+    <Compile Include="Eavesdrop\Eavesdropper.cs" />
+    <Compile Include="Eavesdrop\Event Args\RequestInterceptedEventArgs.cs" />
+    <Compile Include="Eavesdrop\Event Args\ResponseInterceptedEventArgs.cs" />
+    <Compile Include="Eavesdrop\Interceptors.cs" />
+    <Compile Include="Eavesdrop\Internals\INETOptions.cs" />
+    <Compile Include="Eavesdrop\Internals\NativeMethods.cs" />
+    <Compile Include="Eavesdrop\Network\EavesNode.cs" />
     <Compile Include="Forms\FormActivityEditor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -319,6 +331,7 @@
     <Compile Include="Utils\HttpHelper.cs" />
     <Compile Include="Utils\Logger.cs" />
     <Compile Include="Utils\GithubHelper.cs" />
+    <Compile Include="Utils\ProxyHelper.cs" />
     <Compile Include="Utils\SparseSet.cs" />
     <Compile Include="Utils\ToggleParser.cs" />
     <Compile Include="Utils\UIUtil.cs" />
@@ -669,6 +682,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Eavesdrop\LICENSE.md" />
     <None Include="GrasscutterTools.licenseheader" />
     <None Include="GrasscutterTools.snk" />
     <None Include="Properties\Settings.settings">

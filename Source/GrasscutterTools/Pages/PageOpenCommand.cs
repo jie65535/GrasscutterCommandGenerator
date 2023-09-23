@@ -25,6 +25,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using Eavesdrop;
+
 using GrasscutterTools.DispatchServer;
 using GrasscutterTools.DispatchServer.Model;
 using GrasscutterTools.Game;
@@ -47,6 +49,8 @@ namespace GrasscutterTools.Pages
             if (DesignMode) return;
 
             InitServerRecords();
+            if (!string.IsNullOrEmpty(Settings.Default.Host))
+                TxtHost.Items.Add(Settings.Default.Host);
             TxtHost.Items.AddRange(ServerRecords.Select(it => it.Host).ToArray());
 
             NUDRemotePlayerId.Value = Settings.Default.RemoteUid;
@@ -57,6 +61,14 @@ namespace GrasscutterTools.Pages
                 TxtToken.Text = Settings.Default.TokenCache;
                 Task.Delay(1000).ContinueWith(_ => ShowTipInRunButton?.Invoke(Resources.TokenRestoredFromCache));
             }
+
+            if (string.IsNullOrEmpty(TxtHost.Text))
+            {
+                TxtHost.Items.Add("http://127.0.0.1:443");
+                TxtHost.SelectedIndex = 0;
+            }
+
+            BtnProxy.Text = Resources.StartProxy;
         }
 
         #region - 服务器记录 -
@@ -161,6 +173,19 @@ namespace GrasscutterTools.Pages
             Settings.Default.RemoteUid = NUDRemotePlayerId.Value;
             Settings.Default.Host = TxtHost.Text;
             Settings.Default.TokenCache = Common.OC?.Token;
+
+            try
+            {
+                Logger.I(TAG, "Stop Proxy");
+                ProxyHelper.StopProxy();
+            }
+            catch (Exception ex)
+            {
+#if DEBUG
+                MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+#endif
+                Logger.E(TAG, "Stop Proxy Failed.", ex);
+            }
         }
 
         /// <summary>
@@ -240,6 +265,7 @@ namespace GrasscutterTools.Pages
                     MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
 #endif
                 }
+
                 if (isOcEnabled)
                 {
                     LblOpenCommandSupport.Text = "√";
@@ -252,6 +278,8 @@ namespace GrasscutterTools.Pages
                     LblOpenCommandSupport.ForeColor = Color.Red;
                     GrpRemoteCommand.Enabled = false;
                 }
+
+                BtnProxy.Enabled = true;
             }
             catch (Exception ex)
             {
@@ -583,5 +611,44 @@ namespace GrasscutterTools.Pages
         }
 
         #endregion - 导入存档 GOOD -
+
+
+        #region - 代理 Porxy -
+
+        /// <summary>
+        /// 点击代理按钮时触发
+        /// </summary>
+        private void BtnProxy_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                // 正在运行则关闭
+                if (ProxyHelper.IsRunning)
+                {
+                    ProxyHelper.StopProxy();
+                    BtnProxy.Text = Resources.StartProxy;
+                }
+                else
+                {
+                    // 创建根证书并检查信任
+                    if (!ProxyHelper.CheckAndCreateCertifier())
+                    {
+                        MessageBox.Show("必须先信任根证书才能继续", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                    }
+
+                    // 启动代理
+                    ProxyHelper.StartProxy(Common.OC.Host);
+                    BtnProxy.Text = Resources.StopProxy;
+                }
+            }
+            catch (Exception ex)
+            {
+                Logger.E(TAG, "Start Proxy failed.", ex);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+        
+        #endregion
     }
 }
