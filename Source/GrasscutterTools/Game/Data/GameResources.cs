@@ -286,11 +286,16 @@ namespace GrasscutterTools.Game.Data
                                 if (m.Key == MaterialType.MATERIAL_BGM)
                                 {
                                     foreach (var materialData in m)
+                                    {
+                                        var param = int.Parse(materialData.ItemUse[0].UseParam[0]);
+                                        var name = HomeWorldBgmData.ContainsKey(param) ? TextMapData.GetText(
+                                            HomeWorldBgmData[param].BgmNameTextMapHash.ToString()) : string.Empty;
                                         sb.AppendFormat("{0}:{1} - {2}",
                                             materialData.Id,
                                             TextMapData.GetText(materialData.NameTextMapHash.ToString()),
-                                            TextMapData.GetText(HomeWorldBgmData[int.Parse(materialData.ItemUse[0].UseParam[0])].BgmNameTextMapHash.ToString())
-                                        ).AppendLine();
+                                            name);
+                                        sb.AppendLine();
+                                    }
                                 }
                                 else
                                 {

@@ -59,6 +59,8 @@
 161:Joyeux Voucher
 162:Fascinating Phenocryst
 163:Enigmatic Copper Mainspring
+164:Poetry Gala Fervor
+165:[CHS] - （test）勤务点
 201:Primogem
 202:Mora
 203:Genesis Crystal
@@ -144,6 +146,8 @@
 1083:Lynette
 1084:Lyney
 1085:Freminet
+1086:Wriothesley
+1087:Neuvillette
 
 // Talent
 911:Memory of Eternal Flames
@@ -225,6 +229,8 @@
 1183:Lynette's Stella Fortuna
 1184:Lyney's Stella Fortuna
 1185:Freminet's Stella Fortuna
+1186:Wriothesley's Stella Fortuna
+1187:Neuvillette's Stella Fortuna
 
 // Rename_item
 1301:An Appellative Stroke
@@ -294,6 +300,7 @@
 115037:Yashiro Commission Gift
 115038:Exquisite Gift (Furnishing)
 115039:Amazing Gift (Furnishing)
+115041:Resounding Melodies
 117001:Domain Reliquary: Tier III
 117002:Domain Reliquary: Tier II
 117003:Domain Reliquary: Tier I
@@ -313,6 +320,8 @@
 118003:Cake for Traveler
 118005:Cake for Traveler
 118007:Cake for Traveler
+120403:Welfare Meal
+120450:Paimon's "Food Fund"
 
 // Cricket
 100121:Cricket (White)
@@ -417,6 +426,194 @@
 
 // Gcg_exchange_item
 107019:Blank Dynamic Card
+
+// Notice_add_hp
+100001:Apple
+100002:Sunsettia
+101212:Starshroom
+101226:Activated Starshroom
+101227:Scorched Starshroom
+101230:Bulle Fruit
+108011:Suspicious Chicken-Mushroom Skewer
+108012:Chicken-Mushroom Skewer
+108013:Delicious Chicken-Mushroom Skewer
+108014:Fruity Skewers
+108015:Suspicious Flaming Red Bolognese
+108016:Flaming Red Bolognese
+108017:Delicious Flaming Red Bolognese
+108018:Mysterious Bolognese
+108019:Suspicious Radish Veggie Soup
+108020:Radish Veggie Soup
+108021:Delicious Radish Veggie Soup
+108031:Suspicious Sweet Madame
+108032:Sweet Madame
+108033:Delicious Sweet Madame
+108041:Suspicious Mushroom Pizza
+108042:Mushroom Pizza
+108043:Delicious Mushroom Pizza
+108044:Invigorating Pizza
+108045:Suspicious Mondstadt Hash Brown
+108046:Mondstadt Hash Brown
+108047:Delicious Mondstadt Hash Brown
+108048:Puppy-Paw Hash Brown
+108074:Suspicious Black-Back Perch Stew
+108075:Black-Back Perch Stew
+108076:Delicious Black-Back Perch Stew
+108077:Suspicious Squirrel Fish
+108078:Squirrel Fish
+108079:Delicious Squirrel Fish
+108089:Suspicious Matsutake Meat Rolls
+108090:Matsutake Meat Rolls
+108091:Delicious Matsutake Meat Rolls
+108104:Suspicious Crystal Shrimp
+108105:Crystal Shrimp
+108106:Delicious Crystal Shrimp
+108107:Suspicious Grilled Tiger Fish
+108108:Grilled Tiger Fish
+108109:Delicious Grilled Tiger Fish
+108135:Wanmin Restaurant's Boiled Fish
+108136:All-Delicacy Parcels
+108145:Survival Grilled Fish
+108148:Pop's Teas
+108151:Apple Cider
+108152:Suspicious Bamboo Shoot Soup
+108153:Bamboo Shoot Soup
+108154:Delicious Bamboo Shoot Soup
+108170:Suspicious Northern Apple Stew
+108171:Northern Apple Stew
+108172:Delicious Northern Apple Stew
+108173:Slow-Cooked Bamboo Shoot Soup
+108185:Suspicious Stir-Fried Fish Noodles
+108186:Stir-Fried Fish Noodles
+108187:Delicious Stir-Fried Fish Noodles
+108197:Suspicious Rice Buns
+108198:Rice Buns
+108199:Delicious Rice Buns
+108201:Suspicious Universal Peace
+108202:Universal Peace
+108203:Delicious Universal Peace
+108213:Prosperous Peace
+108215:Lantern Rite Special Grilled Tiger Fish
+108222:Suspicious Crispy Potato Shrimp Platter
+108223:Crispy Potato Shrimp Platter
+108224:Delicious Crispy Potato Shrimp Platter
+108225:Suspicious Mint Jelly
+108226:Mint Jelly
+108227:Delicious Mint Jelly
+108234:Dinner of Judgment
+108238:Suspicious Golden Chicken Burger
+108239:Golden Chicken Burger
+108240:Delicious Golden Chicken Burger
+108249:Suspicious Tuna Sushi
+108250:Tuna Sushi
+108251:Delicious Tuna Sushi
+108252:Suspicious Tricolor Dango
+108253:Tricolor Dango
+108254:Delicious Tricolor Dango
+108255:Suspicious Onigiri
+108256:Onigiri
+108257:Delicious Onigiri
+108261:Suspicious Tonkotsu Ramen
+108262:Tonkotsu Ramen
+108263:Delicious Tonkotsu Ramen
+108267:Suspicious Dry-Braised Salted Fish
+108268:Dry-Braised Salted Fish
+108269:Delicious Dry-Braised Salted Fish
+108276:Suspicious Miso Soup
+108277:Miso Soup
+108278:Delicious Miso Soup
+108301:All-Weather Beauty
+108302:Summer Festival Fish
+108303:Dizziness-Be-Gone no Jutsu Version 2.0
+108304:Special Mushroom Pizza
+108305:Dango Milk
+108318:Suspicious Invigorating Kitty Meal
+108319:Invigorating Kitty Meal
+108320:Delicious Invigorating Kitty Meal
+108324:Suspicious Bird Egg Sushi
+108325:Bird Egg Sushi
+108326:Delicious Bird Egg Sushi
+108330:Suspicious Taiyaki
+108331:Taiyaki
+108332:Delicious Taiyaki
+108336:Suspicious Grilled Unagi Fillet
+108337:Grilled Unagi Fillet
+108338:Delicious Grilled Unagi Fillet
+108339:Satiety Gel
+108340:A Stunning Stratagem
+108348:Suspicious Berry Mizu Manjuu
+108349:Berry Mizu Manjuu
+108350:Delicious Berry Mizu Manjuu
+108351:Suspicious Soba Noodles
+108352:Soba Noodles
+108353:Delicious Soba Noodles
+108354:"Warmth"
+108365:Victorious Legend
+108406:Suspicious Pita Pocket
+108407:Pita Pocket
+108408:Delicious Pita Pocket
+108418:Suspicious Tahchin
+108419:Tahchin
+108420:Delicious Tahchin
+108421:Suspicious Lambad Fish Roll
+108422:Lambad Fish Roll
+108423:Delicious Lambad Fish Roll
+108424:Suspicious Curry Shrimp
+108425:Curry Shrimp
+108426:Delicious Curry Shrimp
+108433:Suspicious Fish With Cream Sauce
+108434:Fish With Cream Sauce
+108435:Delicious Fish With Cream Sauce
+108437:Yearning
+108445:Suspicious Milky Mushroom Crisp Tower
+108446:Milky Mushroom Crisp Tower
+108447:Delicious Milky Mushroom Crisp Tower
+108467:Duel Soul
+108470:Suspicious Rose Custard
+108471:Rose Custard
+108472:Delicious Rose Custard
+108473:Extravagant Slumber
+108475:Suspicious Samosa
+108476:Samosa
+108477:Delicious Samosa
+108480:Suspicious Sabz Meat Stew
+108481:Sabz Meat Stew
+108482:Delicious Sabz Meat Stew
+108483:Suspicious Scented Meat Balls
+108484:Scented Meat Balls
+108485:Delicious Scented Meat Balls
+108486:Ideal Circumstance
+108511:Energizing Bento
+108512:Suspicious Duck Confit
+108513:Duck Confit
+108514:Delicious Duck Confit
+108527:Suspicious Lasagna
+108528:Lasagna
+108529:Delicious Lasagna
+108536:Suspicious Tasses Ragout
+108537:Tasses Ragout
+108538:Delicious Tasses Ragout
+108539:Suspicious Steak Tartare
+108540:Steak Tartare
+108541:Delicious Steak Tartare
+108548:Suspicious Ile flottante
+108549:Ile flottante
+108550:Delicious Ile flottante
+108551:Suspicious Poisson Seafood Soup
+108552:Poisson Seafood Soup
+108553:Delicious Poisson Seafood Soup
+108563:"Seabird's Sojourn"
+108566:Fonta
+108573:Suspicious Trout Amandine
+108574:Trout Amandine
+108575:Delicious Trout Amandine
+108576:Suspicious Barbeque Ribs
+108577:Barbeque Ribs
+108578:Delicious Barbeque Ribs
+108579:Suspicious Coffee Bavarois
+108580:Coffee Bavarois
+108581:Delicious Coffee Bavarois
+108604:Secret Sauce BBQ Ribs
 
 // Quest
 100003:A Piece of Paper
@@ -1979,6 +2176,7 @@
 120320:Familiar-Looking Candy Box
 120321:Travel Lamp
 120322:Box of Special Potions
+120323:Gear Drivetrain
 120324:Someone's Journal
 120325:Someone's Memo
 120326:[CHS] - （test)乐园信件
@@ -2054,6 +2252,9 @@
 120397:Vacher's Experiment Report
 120398:Letters Related to Callas' Case
 120399:Vigneire's Notebook
+120400:Credit Coupons
+120401:"The Art of Negotiation"
+120402:[CHS] - (test)排队送信纸条
 100584:Tainted Blood
 100585:Monolith Fragment
 100957:Funerary Mask
@@ -2078,11 +2279,26 @@
 120435:[CHS] - （test）阅读物 玛丽安和莉利丝的故事
 120436:Green Feather Accessory
 120437:Typewriter Keycap
+120438:"Beautifully-Written Letter"
 120439:"Marcotte"
 120440:"Lakelight"
 120441:"Tidalga"
 120442:Fry
 120443:Heavy Box
+120446:Pure Pinecone
+120447:Empty Bottle
+120448:"Key"
+120449:[CHS] - (test)纯洁露珠
+120451:[CHS] - (test)后山洞天植物样本
+120452:[CHS] - (test)缠藤之渊植物样本
+120453:[CHS] - (test)海马Boss洞植物样本
+120454:Experimental Crystal Light Path Component
+120455:Punched Tape
+120456:Punched Tape
+120457:Punched Tape
+120458:Mysterious Ore
+120459:Arkhium Stock
+120460:Arkhium Lumenite
 120461:Jabberwock's Holy Sword
 120462:Absolution-Seeker's Testament
 120463:Enigmatic Page (IV)
@@ -2111,11 +2327,69 @@
 120486:Coffee Brewing Ingredients
 120487:Specially Cooked Fish
 120488:Enhanced "Truesight Potion"
+120489:Credit Coupons (For Use During Investigation)
 120490:Bait
+120491:Fortune Slip
+120492:Fortune Slip
+120493:Fortune Slip
+120494:Fortune Slip
+120495:Fortune Slip
+120496:Fortune Slip
+120497:Fortune Slip
+120498:Fortune Slip
+120499:Fortune Slip
+120500:Fortune Slip
+120501:Fortune Slip
+120502:Fortune Slip
+120503:Fortune Slip
+120504:Fortune Slip
+120505:Fortune Slip
+120506:Fortune Slip
+120507:Fortune Slip
+120508:Fortune Slip
+120509:Fortune Slip
+120510:Fortune Slip
+120511:Fortune Slip
+120512:Fortune Slip
+120513:Fortune Slip
+120514:Fortune Slip
+120515:Fortune Slip
+120516:Fortune Slip
+120517:Fortune Slip
+120518:Fortune Slip
+120519:Fortune Slip
+120520:Fortune Slip
 120521:Mysterious Core
 120522:Drained Conch Cup
+120523:Unprocessed Widget
+120524:Processed Widget
+120525:[CHS] - (test)训练器材大礼包
+120526:Pankration Fonta Cup
+120527:Soaked Punched Tape
+120528:Spur Gear C
+120529:Spur Gear C
+120530:Spur Gear T
 120531:Navigation Log Fragment
 120532:Damaged Diary
+120552:[CHS] - (test)锻造流程及问题自检
+120553:[CHS] - (test)设施控制台使用手册
+120554:Disclaimer
+120555:Mora Candy
+120556:Quality Wooden Board
+120557:The Boar Princess (VIII)
+120558:Casket of Tomes (Secondhand)
+120559:Idol Poster
+120560:Cute Doll
+120561:Beast Trap
+120562:Marvelous Bird Egg
+120563:Delicious Tea Leaves
+120564:"Pure Water" (Case)
+120565:Fonta: Sweet Sakura
+120566:Fonta: Red Berry Blast
+120567:Haggis
+120568:Coffee Bavarois
+120569:Barbeque Ribs
+120570:Trout Amandine
 120571:Suspicious Fowl
 120572:Fibery Romaritime Flowers
 120573:Childe's Vision
@@ -2137,190 +2411,86 @@
 120589:Enigmatic Page (XIII)
 120590:Scattered Page
 120592:A Story
+120593:Handwheel
+120594:Handwheel
+120595:Handwheel
+120598:Punched Tape
+120599:Punched Tape
+120600:Energy Concentrating Component
+120601:34th Independent Investigative Squad Deployment in Mont Esus (Eastern Quadrant) Deployment Plan
+120602:Skirmisher's Notes
+120603:34th Independent Investigative Squad Deployment in Mont Esus (Eastern Quadrant) Displinary Procedures
+120605:Poem on Fallen Leaf
+120606:Response Poem on a Leaf
+120607:Poem on a Fallen Leaf
+120608:Poetry Riddle on a Lantern
+120609:Poetry Riddle on a Lantern
+120610:Poem Placed by Unknown Person
+120611:Arkhium Inhibitor Condenser Component
+120612:"Special Report"
+120613:Special Report
+120620:Notice
+120638:Left-Side Table File Box
+120639:Right-Side Table File Box
+120640:Mutual Aid Network Advertisement
+120641:Fresh Jueyun Chili
+120642:Fresh Berries
+120643:Full Pankration Fonta Cup
+120644:Experimental Drink No. 1
+120645:Experimental Drink No. 2
+120646:Experimental Drink No. 3
+120647:Experimental Drink No. 4
+120648:Experimental Drink No. 5
+120649:Experimental Drink No. 6
+120650:Experimental Drink No. 7
+120651:Experimental Drink No. 8
+120657:"Academic Assembly Hall" Picture
+120658:Dodoco's Bomb-Tastic Adventure
+120659:Dodoco's Bomb-Tastic Adventure
+120660:Hat
+120661:Messily-Written Note
+120662:Tattered Dialogue
+120663:A Letter Left Behind
+120664:Dry Firewood
+120669:Fontaine Research Institute of Kinetic Energy Engineering Certificate
+120670:Fontaine Research Institute of Kinetic Energy Engineering Certificate
+120672:Training Log
+120673:Memo
+120674:New Tide Anthology: Part I
+120675:New Tide Anthology: Part II
+120676:New Tide Anthology: Part III
+120677:[CHS] - (test)滨海废墟阅读物1
+120678:[CHS] - (test)滨海废墟阅读物2
+120679:[CHS] - (test)行政院阅读物1
+120680:[CHS] - (test)行政院阅读物2
+120681:[CHS] - (test)图书馆阅读物1
+120682:[CHS] - (test)新枫科院阅读物1
+120683:[CHS] - (test)新枫科院阅读物2
+120684:[CHS] - (test)宿舍阅读物1
+120685:[CHS] - (test)宿舍阅读物2
+120686:[CHS] - (test)发条研究所阅读物1
+120687:[CHS] - (test)发条研究所阅读物2
+120688:[CHS] - (test)发条研究所阅读物3
+120689:[CHS] - (test)富哥宝库阅读物1
+120690:[CHS] - (test)富哥宝库阅读物2
+120691:[CHS] - (test)富哥宝库阅读物3
+120692:[CHS] - (test)丘丘科学广场阅读物1
+120693:[CHS] - (test)丘丘科学广场阅读物2
+120694:[CHS] - (test)丘丘科学广场阅读物3
+120695:[CHS] - (test)后山洞天阅读物1
+120696:[CHS] - (test)后山洞天阅读物2
+120697:[CHS] - (test)新枫科院捐赠目录1
+120698:[CHS] - (test)新枫科院捐赠目录2
+120699:Blanche's Letter
+120702:Location No. 1 Materials
+120703:Location No. 2 Materials
+120704:Location No. 3 Materials
 220068:[CHS] - (test)赤沙石板
 339901:Beginner Player Badge
 339902:Advanced Player Badge
 339903:Expert Player Badge
 339904:Master Player Badge
 339905:Legend Player Badge
-
-// Notice_add_hp
-100001:Apple
-100002:Sunsettia
-101212:Starshroom
-101226:Activated Starshroom
-101227:Scorched Starshroom
-101230:Bulle Fruit
-108011:Suspicious Chicken-Mushroom Skewer
-108012:Chicken-Mushroom Skewer
-108013:Delicious Chicken-Mushroom Skewer
-108014:Fruity Skewers
-108015:Suspicious Flaming Red Bolognese
-108016:Flaming Red Bolognese
-108017:Delicious Flaming Red Bolognese
-108018:Mysterious Bolognese
-108019:Suspicious Radish Veggie Soup
-108020:Radish Veggie Soup
-108021:Delicious Radish Veggie Soup
-108031:Suspicious Sweet Madame
-108032:Sweet Madame
-108033:Delicious Sweet Madame
-108041:Suspicious Mushroom Pizza
-108042:Mushroom Pizza
-108043:Delicious Mushroom Pizza
-108044:Invigorating Pizza
-108045:Suspicious Mondstadt Hash Brown
-108046:Mondstadt Hash Brown
-108047:Delicious Mondstadt Hash Brown
-108048:Puppy-Paw Hash Brown
-108074:Suspicious Black-Back Perch Stew
-108075:Black-Back Perch Stew
-108076:Delicious Black-Back Perch Stew
-108077:Suspicious Squirrel Fish
-108078:Squirrel Fish
-108079:Delicious Squirrel Fish
-108089:Suspicious Matsutake Meat Rolls
-108090:Matsutake Meat Rolls
-108091:Delicious Matsutake Meat Rolls
-108104:Suspicious Crystal Shrimp
-108105:Crystal Shrimp
-108106:Delicious Crystal Shrimp
-108107:Suspicious Grilled Tiger Fish
-108108:Grilled Tiger Fish
-108109:Delicious Grilled Tiger Fish
-108135:Wanmin Restaurant's Boiled Fish
-108136:All-Delicacy Parcels
-108145:Survival Grilled Fish
-108148:Pop's Teas
-108151:Apple Cider
-108152:Suspicious Bamboo Shoot Soup
-108153:Bamboo Shoot Soup
-108154:Delicious Bamboo Shoot Soup
-108170:Suspicious Northern Apple Stew
-108171:Northern Apple Stew
-108172:Delicious Northern Apple Stew
-108173:Slow-Cooked Bamboo Shoot Soup
-108185:Suspicious Stir-Fried Fish Noodles
-108186:Stir-Fried Fish Noodles
-108187:Delicious Stir-Fried Fish Noodles
-108197:Suspicious Rice Buns
-108198:Rice Buns
-108199:Delicious Rice Buns
-108201:Suspicious Universal Peace
-108202:Universal Peace
-108203:Delicious Universal Peace
-108213:Prosperous Peace
-108215:Lantern Rite Special Grilled Tiger Fish
-108222:Suspicious Crispy Potato Shrimp Platter
-108223:Crispy Potato Shrimp Platter
-108224:Delicious Crispy Potato Shrimp Platter
-108225:Suspicious Mint Jelly
-108226:Mint Jelly
-108227:Delicious Mint Jelly
-108234:Dinner of Judgment
-108238:Suspicious Golden Chicken Burger
-108239:Golden Chicken Burger
-108240:Delicious Golden Chicken Burger
-108249:Suspicious Tuna Sushi
-108250:Tuna Sushi
-108251:Delicious Tuna Sushi
-108252:Suspicious Tricolor Dango
-108253:Tricolor Dango
-108254:Delicious Tricolor Dango
-108255:Suspicious Onigiri
-108256:Onigiri
-108257:Delicious Onigiri
-108261:Suspicious Tonkotsu Ramen
-108262:Tonkotsu Ramen
-108263:Delicious Tonkotsu Ramen
-108267:Suspicious Dry-Braised Salted Fish
-108268:Dry-Braised Salted Fish
-108269:Delicious Dry-Braised Salted Fish
-108276:Suspicious Miso Soup
-108277:Miso Soup
-108278:Delicious Miso Soup
-108301:All-Weather Beauty
-108302:Summer Festival Fish
-108303:Dizziness-Be-Gone no Jutsu Version 2.0
-108304:Special Mushroom Pizza
-108305:Dango Milk
-108318:Suspicious Invigorating Kitty Meal
-108319:Invigorating Kitty Meal
-108320:Delicious Invigorating Kitty Meal
-108324:Suspicious Bird Egg Sushi
-108325:Bird Egg Sushi
-108326:Delicious Bird Egg Sushi
-108330:Suspicious Taiyaki
-108331:Taiyaki
-108332:Delicious Taiyaki
-108336:Suspicious Grilled Unagi Fillet
-108337:Grilled Unagi Fillet
-108338:Delicious Grilled Unagi Fillet
-108339:Satiety Gel
-108340:A Stunning Stratagem
-108348:Suspicious Berry Mizu Manjuu
-108349:Berry Mizu Manjuu
-108350:Delicious Berry Mizu Manjuu
-108351:Suspicious Soba Noodles
-108352:Soba Noodles
-108353:Delicious Soba Noodles
-108354:"Warmth"
-108365:Victorious Legend
-108406:Suspicious Pita Pocket
-108407:Pita Pocket
-108408:Delicious Pita Pocket
-108418:Suspicious Tahchin
-108419:Tahchin
-108420:Delicious Tahchin
-108421:Suspicious Lambad Fish Roll
-108422:Lambad Fish Roll
-108423:Delicious Lambad Fish Roll
-108424:Suspicious Curry Shrimp
-108425:Curry Shrimp
-108426:Delicious Curry Shrimp
-108433:Suspicious Fish With Cream Sauce
-108434:Fish With Cream Sauce
-108435:Delicious Fish With Cream Sauce
-108437:Yearning
-108445:Suspicious Milky Mushroom Crisp Tower
-108446:Milky Mushroom Crisp Tower
-108447:Delicious Milky Mushroom Crisp Tower
-108467:Duel Soul
-108470:Suspicious Rose Custard
-108471:Rose Custard
-108472:Delicious Rose Custard
-108473:Extravagant Slumber
-108475:Suspicious Samosa
-108476:Samosa
-108477:Delicious Samosa
-108480:Suspicious Sabz Meat Stew
-108481:Sabz Meat Stew
-108482:Delicious Sabz Meat Stew
-108483:Suspicious Scented Meat Balls
-108484:Scented Meat Balls
-108485:Delicious Scented Meat Balls
-108486:Ideal Circumstance
-108511:Energizing Bento
-108512:Suspicious Duck Confit
-108513:Duck Confit
-108514:Delicious Duck Confit
-108527:Suspicious Lasagna
-108528:Lasagna
-108529:Delicious Lasagna
-108536:Suspicious Tasses Ragout
-108537:Tasses Ragout
-108538:Delicious Tasses Ragout
-108539:Suspicious Steak Tartare
-108540:Steak Tartare
-108541:Delicious Steak Tartare
-108548:Suspicious Ile flottante
-108549:Ile flottante
-108550:Delicious Ile flottante
-108551:Suspicious Poisson Seafood Soup
-108552:Poisson Seafood Soup
-108553:Delicious Poisson Seafood Soup
-108563:"Seabird's Sojourn"
-108566:Fonta
 
 // Food
 102001:Pyro Shard
@@ -2742,6 +2912,28 @@
 108570:Suspicious Fruity Smoothie
 108571:Fruity Smoothie
 108572:Delicious Fruity Smoothie
+108582:Suspicious Haggis
+108583:Haggis
+108584:Delicious Haggis
+108585:Suspicious Tripes du Port
+108586:Tripes du Port
+108587:Delicious Tripes du Port
+108588:Suspicious Tomates Narbonnaises
+108589:Tomates Narbonnaises
+108590:Delicious Tomates Narbonnaises
+108591:Suspicious Consomme
+108592:Consomme
+108593:Delicious Consomme
+108594:Suspicious Boudin Noir aux Pommes
+108595:Boudin Noir aux Pommes
+108596:Delicious Boudin Noir aux Pommes
+108597:Suspicious Cassoulet
+108598:Cassoulet
+108599:Delicious Cassoulet
+108600:Suspicious Crepes Suzette
+108601:Crepes Suzette
+108602:Delicious Crepes Suzette
+108603:"Consomme Purete"
 111006:Heatshield Potion
 111007:Desiccant Potion
 111008:Frostshield Potion
@@ -2756,6 +2948,7 @@
 111017:Shocking Essential Oil
 111018:Unmoving Essential Oil
 111019:Forest Essential Oil
+111029:"Pure Water"
 
 // Exchange
 100011:Mushroom
@@ -2871,6 +3064,8 @@
 101234:Tidalga
 101235:Lumidouce Bell
 101236:Rainbow Rose
+101237:Lumitoile
+101239:Subdetection Unit
 101401:Fabric
 101402:Red Dye
 101403:Yellow Dye
@@ -3110,6 +3305,9 @@
 112089:Rift Core
 112090:Foreign Synapse
 112091:Alien Life Core
+112092:Old Operative's Pocket Watch
+112093:Operative's Standard Pocket Watch
+112094:Operative's Constancy
 113001:Hurricane Seed
 113002:Lightning Prism
 113003:Dvalin's Plume
@@ -3160,6 +3358,8 @@
 113049:Artificed Spare Clockwork Component — Coppelia
 113050:Artificed Spare Clockwork Component — Coppelius
 113051:Emperor's Resolution
+113052:"Tourbillon Device"
+113053:Fontemer Unihorn
 114001:Tile of Decarabian's Tower
 114002:Debris of Decarabian's City
 114003:Fragment of Decarabian's Epic
@@ -3234,6 +3434,7 @@
 200114:Unfading Silky Grace
 200115:Congealed Pupa Wax
 200116:Martens' Omni-Fix
+200117:Dandelion Bookmark
 
 // Chest_batch_use
 115013:Exotic Share Bundle
@@ -3307,6 +3508,7 @@
 // Quest_event_book
 120444:"Opera House Switcheroo" Case Record
 120445:"Water and Missing Person" Case Record
+120614:Clue Book (Fortress of Meropide)
 
 // Consume
 210:Original Essence (Invalidated)
@@ -3514,6 +3716,16 @@
 109543:Recipe: Conch Madeleine
 109544:Recipe: Fruity Duet
 109545:Recipe: Fruity Smoothie
+109546:Recipe: Trout Amandine
+109547:Recipe: Barbeque Ribs
+109548:Recipe: Coffee Bavarois
+109549:Recipe: Haggis
+109550:Recipe: Tripes du Port
+109551:Recipe: Tomates Narbonnaises
+109552:Recipe: Consomme
+109553:Recipe: Boudin Noir aux Pommes
+109554:Recipe: Cassoulet
+109555:Recipe: Crepes Suzette
 111020:Small Pretty Crystal
 111021:Medium Pretty Crystal
 111022:Big Pretty Crystal
@@ -3551,6 +3763,7 @@
 221058:Diagram: Dendro Treasure Compass
 221059:Instructions: Hydroculus Resonance Stone
 221060:Diagram: Hydro Treasure Compass
+221061:Formula: "Pure Water"
 221010:Memory of the Entombed City
 221011:Memory of the Frostbearing Tree
 221012:Diagram: Dragonspine Spear
@@ -3618,6 +3831,7 @@
 140010:Wings of the Forest
 140011:Wings of the Starlit Feast
 140012:Wings of Merciful, Wrathful Waters
+140013:Wings of Transient Dreams
 
 // Bgm
 141001:Radiant Spincrystal 1 - Dawn Winery Theme
@@ -3727,6 +3941,13 @@
 141205:Radiant Spincrystal 105 - Radiant Spincrystal 105
 141206:Radiant Spincrystal 106 - Radiant Spincrystal 106
 141207:Radiant Spincrystal 107 - Radiant Spincrystal 107
+141208:Radiant Spincrystal 108 - 
+141209:Radiant Spincrystal 109 - 
+141210:Radiant Spincrystal 110 - 
+141211:Radiant Spincrystal 111 - 
+141212:Radiant Spincrystal 112 - 
+141213:Radiant Spincrystal 113 - 
+141214:Radiant Spincrystal 114 - 
 
 // Sea_lamp
 200004:Xiao Lantern
@@ -3974,6 +4195,12 @@
 210171:Fontaine: Wondrous Machine
 210172:Fontaine: Big News
 210173:Travel Notes: Primordial Waters
+210174:Neuvillette: Surge
+210175:Wriothesley: Detention
+210176:Travel Notes: Falling Star
+210177:Celebration: Euphonia
+210178:Achievement: Perpetual
+210179:Fontaine: Redemption
 
 // Widget
 101516:[CHS] - （test）暂借的留影机
@@ -4052,12 +4279,14 @@
 220081:[CHS] - （test）光酒WQ小道具
 220082:Flowing Joyspar
 220083:Felicitous Joyspar
+220084:Itty Bitty Octobaby
 220085:Inscribed Mirror
 220086:Hydroculus Resonance Stone
 220087:Hydro Treasure Compass
 220088:Crystalfly Trap
 220089:Wind-Powered Wind Generator
 220090:Bresson's Special Kamera
+220091:Portable Aerodynamic Gelatinous Bubble Generator
 
 // Aranara
 220055:Aranyaka
@@ -4084,6 +4313,9 @@
 223016:That Fairly Effectual "Advice" Against Wine
 223017:Rainforest-Born Fungi
 223018:Obliging Little Yuegui
+
+// 50
+320001:[CHS] - (test)头像道具-测试用
 
 // Gcg_card
 330000:Ganyu
@@ -4140,6 +4372,9 @@
 330051:Kaedehara Kazuha
 330052:Qiqi
 330053:Lisa
+330054:Wanderer
+330055:Dehya
+330056:Yaoyao
 330500:Undivided Heart
 330501:Cold-Blooded Strike
 330502:Steady Breathing
@@ -4194,6 +4429,9 @@
 330551:Poetics of Fuubutsu
 330552:Rite of Resurrection
 330553:Pulsating Witch
+330554:Stalwart and True
+330555:Gales of Reverie
+330556:Beneficent
 331000:Magic Guide
 331001:Sacrificial Fragments
 331002:Skyward Atlas
@@ -4248,6 +4486,8 @@
 331051:Shimenawa's Reminiscence
 331052:Fruit of Fulfillment
 331053:King's Squire
+331054:Moonpiercer
+331055:Crown of Watatsumi
 332000:Liyue Harbor Wharf
 332001:Knights of Favonius Library
 332002:Jade Chamber
@@ -4284,6 +4524,8 @@
 332033:Master Zhang
 332034:Golden House
 332035:Setaria
+332036:Gandharva Ville
+332037:Yayoi Nanatsuki
 333000:Elemental Resonance: Woven Ice
 333001:Elemental Resonance: Shattering Ice
 333002:Elemental Resonance: Woven Waters
@@ -4339,6 +4581,8 @@
 333052:Rhythm of the Great Dream
 333053:Joyous Celebration
 333054:Where Is the Unseen Razor?
+333055:Fresh Wind of Freedom
+333056:Pankration!
 
 // Gcg_card_face
 334000:Ganyu
@@ -4395,6 +4639,9 @@
 334051:Kaedehara Kazuha
 334052:Qiqi
 334053:Lisa
+334054:Dehya
+334055:Wanderer
+334056:Yaoyao
 334500:Undivided Heart
 334501:Cold-Blooded Strike
 334502:Steady Breathing
@@ -4449,6 +4696,9 @@
 334551:Poetics of Fuubutsu
 334552:Rite of Resurrection
 334553:Pulsating Witch
+334554:Stalwart and True
+334555:Gales of Reverie
+334556:Beneficent
 335000:Magic Guide
 335001:Sacrificial Fragments
 335002:Skyward Atlas
@@ -4503,6 +4753,8 @@
 335051:Shimenawa's Reminiscence
 335052:Fruit of Fulfillment
 335053:King's Squire
+335054:Moonpiercer
+335055:Crown of Watatsumi
 336000:Liyue Harbor Wharf
 336001:Knights of Favonius Library
 336002:Jade Chamber
@@ -4539,6 +4791,8 @@
 336033:Master Zhang
 336034:Golden House
 336035:Setaria
+336036:Gandharva Ville
+336037:Yayoi Nanatsuki
 337000:Elemental Resonance: Woven Ice
 337001:Elemental Resonance: Shattering Ice
 337002:Elemental Resonance: Woven Waters
@@ -4594,6 +4848,8 @@
 337052:Rhythm of the Great Dream
 337053:Joyous Celebration
 337054:Where Is the Unseen Razor?
+337055:Fresh Wind of Freedom
+337056:Pankration!
 
 // Gcg_card_back
 339000:Origin
@@ -4616,6 +4872,9 @@
 339021:Lazurite Swirl
 339022:Treasures of the Deck
 339023:Fontaine
+339024:The Fortress of Meropide
+339025:Dragonspine: Traces
+339026:Dragonspine: Crown
 
 // Gcg_field
 339500:Mondstadt
@@ -5424,6 +5683,42 @@
 380434:Meka Luminaire: Radiant Grounds
 380435:Meka Luminaire: Radiant Countryside
 393172:Maintenance Mek: Technical Demo Type
+381326:"Study of the Forbidden Fortress"
+381327:"Everyday Life in the Forbidden Fortress"
+381328:"Contented Elegance"
+381329:"Steady Stately Stability"
+381330:"Maison Cardinalice's Focus"
+382251:"Wisdom of the Forbidden Fortress"
+382252:"Chill Afternoon Tea Time"
+383505:Floral Arrangement: "Nearly Aquamarine"
+383506:Floral Arrangement: "Blooming Purity"
+383507:Floral Arrangement: "Art of Contrast"
+382253:"Maison Cardinalice's Punctuality"
+383356:"Maison Cardinalice's Musical Tone"
+383357:"Maison Cardinalice's Clerk"
+382254:"Maison Cardinalice's Lockbox"
+382255:"Maison Cardinalice's Stores"
+382256:Mallow Wood "Enhanced" Platform Ladder
+382257:Mallow Wood "Sturdy" Cargo Container
+382118:"Conversation of the Forbidden Fortress"
+382119:"Comfort of a Home Away From Home"
+382120:"Witness to Great Focus"
+382121:"Elation of Social Drinking"
+381407:Linden Wood "Sturdy" Bunk
+382258:"Burden of the Forbidden Fortress"
+381216:"Maison Cardinalice's Cabinet"
+381217:"Maison Cardinalice's High Shelf"
+381218:"Maison Cardinalice's Winged Shelf"
+381219:"Maison Cardinalice's Little Helper"
+382313:Restaurant Rug: "Equal Dialogue"
+382314:Restaurant Rug: "Bathing in the Breeze"
+391135:"Immaculate Judgment"
+391136:"A Thousand Ephemeral Visions of Dew"
+393214:"Royal Purple"
+380436:Splendrous Night: Overflowing Light
+380437:Meka Luminaire: Shining Sea
+393176:"Majesty of the Forbidden Fortress"
+394506:Tearstone Tile: Perspective Theory
 
 // Furniture
 369101:Jade-Eyed Cat

@@ -2,7 +2,6 @@
 // ReSharper disable InconsistentNaming
 // ReSharper disable IdentifierTypo
 
-using System;
 using System.Collections.Generic;
 
 namespace GrasscutterTools.Game.Inventory
@@ -169,6 +168,8 @@ namespace GrasscutterTools.Game.Inventory
 
         public static string ToTranslatedString(this MaterialType materialType, string language)
         {
+            if (!TextMapCHS.ContainsKey(materialType))
+                return materialType.ToString();
             return language.StartsWith("zh") ? TextMapCHS[materialType] : TextMapEN[materialType];
         }
     }
