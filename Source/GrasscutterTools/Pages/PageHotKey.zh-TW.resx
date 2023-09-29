@@ -123,6 +123,9 @@
   <data name="ColHotKey.Text" xml:space="preserve">
     <value>快捷鍵</value>
   </data>
+  <data name="ChkEnableGlobal.Text" xml:space="preserve">
+    <value>全域快速鍵</value>
+  </data>
   <data name="GrpHotKeyList.Text" xml:space="preserve">
     <value>快捷執行列表</value>
   </data>

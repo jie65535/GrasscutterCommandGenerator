@@ -26,6 +26,18 @@ namespace GrasscutterTools.Utils
     /// </summary>
     internal class HotKeyItem
     {
+        public HotKeyItem()
+        {
+        }
+
+        public HotKeyItem(string tag, string commands, string hotKey, bool isEnabled = true)
+        {
+            Tag = tag;
+            Commands = commands;
+            HotKey = hotKey;
+            IsEnabled = isEnabled;
+        }
+
         /// <summary>
         /// Gets or sets the hot key identifier.
         /// </summary>

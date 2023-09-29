@@ -36,12 +36,28 @@ namespace GrasscutterTools.Utils
         }
 
         #region Member
-
+        
         private static int _regMaxId;
 
         private readonly IntPtr FormHandle;
 
-        public List<HotKeyItem> Items { get; set; } = new List<HotKeyItem>();
+        private bool _isEnabled;
+
+        public List<HotKeyItem> Items { get; set; } = new();
+
+        /// <summary>
+        /// 全局热键是否启用
+        /// </summary>
+        public bool IsEnabled
+        {
+            get => _isEnabled;
+            set
+            {
+                _isEnabled = value;
+                if (value) RegAllKey();
+                else UnRegAllKey();
+            }
+        }
 
         #endregion Member
 
@@ -220,7 +236,7 @@ namespace GrasscutterTools.Utils
             if (item is null)
                 throw new ArgumentNullException(nameof(item));
 
-            if (item.IsEnabled)
+            if (_isEnabled && item.IsEnabled)
                 RegKey(item);
             Items.Add(item);
         }
@@ -251,7 +267,7 @@ namespace GrasscutterTools.Utils
             // 重新注册
             if (item.HotKeyId != 0)
                 UnRegKey(item);
-            if (item.IsEnabled)
+            if (_isEnabled && item.IsEnabled)
                 RegKey(item);
         }
 

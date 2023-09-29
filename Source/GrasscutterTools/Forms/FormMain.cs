@@ -587,6 +587,30 @@ namespace GrasscutterTools.Forms
                 if (i < ListPages.Items.Count)
                     ListPages.SelectedIndex = i;
             }
+            else if (Common.KeyGo.IsEnabled == false)
+            {
+                foreach (var hotkeyItem in Common.KeyGo.Items)
+                {
+                    if (!hotkeyItem.IsEnabled) continue;
+
+                    var t = hotkeyItem.HotKey.LastIndexOf('+');
+                    var key = (t >= 0) ? hotkeyItem.HotKey.Substring(t+1) : hotkeyItem.HotKey;
+                    if (e.KeyCode != (Keys)Enum.Parse(typeof(Keys), key.Trim()))
+                        continue;
+
+                    if (t >= 0)
+                    {
+                        if (hotkeyItem.HotKey.Contains("Ctrl") && !e.Control)
+                            continue;
+                        if (hotkeyItem.HotKey.Contains("Shift") && !e.Shift)
+                            continue;
+                        if (hotkeyItem.HotKey.Contains("Alt") && !e.Alt)
+                            continue;
+                    }
+                    BeginInvoke(new Func<Task>(() => RunRawCommands(hotkeyItem.Commands)));
+                    break;
+                }
+            }
         }
 
         /// <summary>

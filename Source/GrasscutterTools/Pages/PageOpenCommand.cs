@@ -24,9 +24,6 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
-using Eavesdrop;
-
 using GrasscutterTools.DispatchServer;
 using GrasscutterTools.DispatchServer.Model;
 using GrasscutterTools.Game;

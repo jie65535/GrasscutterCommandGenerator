@@ -117,215 +117,92 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="ColTag.Text" xml:space="preserve">
-    <value>标签</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ColTag.Width" type="System.Int32, mscorlib">
-    <value>150</value>
-  </data>
-  <data name="ColHotKey.Text" xml:space="preserve">
-    <value>快捷键</value>
-  </data>
-  <data name="ColHotKey.Width" type="System.Int32, mscorlib">
-    <value>100</value>
-  </data>
-  <data name="ColCommand.Text" xml:space="preserve">
-    <value>命令</value>
-  </data>
-  <data name="ColCommand.Width" type="System.Int32, mscorlib">
-    <value>350</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LvHotKeyList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;BtnRemove.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LvHotKeyList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
+  <data name="BtnRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 30</value>
   </data>
-  <data name="LvHotKeyList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>634, 178</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TxtHotKey.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="LvHotKeyList.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="ChkEnableGlobal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;LvHotKeyList.Name" xml:space="preserve">
-    <value>LvHotKeyList</value>
-  </data>
-  <data name="&gt;&gt;LvHotKeyList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LvHotKeyList.Parent" xml:space="preserve">
-    <value>GrpHotKeyList</value>
-  </data>
-  <data name="&gt;&gt;LvHotKeyList.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="GrpHotKeyList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="GrpHotKeyList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.13.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
   <data name="GrpHotKeyList.Size" type="System.Drawing.Size, System.Drawing">
     <value>640, 200</value>
   </data>
-  <data name="GrpHotKeyList.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="GrpHotKeyList.Text" xml:space="preserve">
-    <value>快捷执行列表</value>
-  </data>
-  <data name="&gt;&gt;GrpHotKeyList.Name" xml:space="preserve">
-    <value>GrpHotKeyList</value>
-  </data>
-  <data name="&gt;&gt;GrpHotKeyList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpHotKeyList.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GrpHotKeyList.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="BtnRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="BtnRemove.Location" type="System.Drawing.Point, System.Drawing">
-    <value>543, 206</value>
-  </data>
-  <data name="BtnRemove.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 30</value>
-  </data>
-  <data name="BtnRemove.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="BtnRemove.Text" xml:space="preserve">
-    <value>- 删除</value>
-  </data>
-  <data name="&gt;&gt;BtnRemove.Name" xml:space="preserve">
-    <value>BtnRemove</value>
-  </data>
-  <data name="&gt;&gt;BtnRemove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnRemove.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BtnRemove.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="BtnAddOrUpdate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Right</value>
-  </data>
-  <data name="BtnAddOrUpdate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>387, 206</value>
-  </data>
-  <data name="BtnAddOrUpdate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 30</value>
-  </data>
-  <data name="BtnAddOrUpdate.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="BtnAddOrUpdate.Text" xml:space="preserve">
-    <value>√ 添加或更新</value>
+  <data name="LblHotKeyLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>212, 213</value>
   </data>
   <data name="&gt;&gt;BtnAddOrUpdate.Name" xml:space="preserve">
     <value>BtnAddOrUpdate</value>
   </data>
-  <data name="&gt;&gt;BtnAddOrUpdate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnAddOrUpdate.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BtnAddOrUpdate.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="TxtHotKey.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="TxtHotKey.Location" type="System.Drawing.Point, System.Drawing">
-    <value>262, 210</value>
-  </data>
-  <data name="TxtHotKey.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 23</value>
-  </data>
-  <data name="TxtHotKey.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="TxtHotKey.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Center</value>
-  </data>
-  <data name="&gt;&gt;TxtHotKey.Name" xml:space="preserve">
-    <value>TxtHotKey</value>
-  </data>
-  <data name="&gt;&gt;TxtHotKey.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtHotKey.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TxtHotKey.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="LblHotKeyLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="LblHotKeyLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblHotKeyLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>212, 213</value>
-  </data>
-  <data name="LblHotKeyLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="LblHotKeyLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="LblHotKeyLabel.Text" xml:space="preserve">
-    <value>快捷键</value>
-  </data>
-  <data name="&gt;&gt;LblHotKeyLabel.Name" xml:space="preserve">
-    <value>LblHotKeyLabel</value>
-  </data>
-  <data name="&gt;&gt;LblHotKeyLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblHotKeyLabel.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;LblHotKeyLabel.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="TxtTag.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
-  </data>
-  <data name="TxtTag.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 210</value>
-  </data>
-  <data name="TxtTag.Size" type="System.Drawing.Size, System.Drawing">
-    <value>165, 23</value>
+  <data name="BtnRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 206</value>
   </data>
   <data name="TxtTag.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;TxtTag.Name" xml:space="preserve">
-    <value>TxtTag</value>
-  </data>
-  <data name="&gt;&gt;TxtTag.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtTag.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BtnRemove.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LvHotKeyList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnAddOrUpdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 206</value>
+  </data>
+  <data name="TxtTag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 23</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ChkEnableGlobal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>547, -2</value>
+  </data>
+  <data name="LblHotKeyLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="GrpHotKeyList.Text" xml:space="preserve">
+    <value>快捷执行列表</value>
+  </data>
+  <data name="ColHotKey.Width" type="System.Int32, mscorlib">
+    <value>100</value>
   </data>
   <data name="&gt;&gt;TxtTag.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="LblTagLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+  <data name="&gt;&gt;LblTagLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TxtHotKey.Name" xml:space="preserve">
+    <value>TxtHotKey</value>
+  </data>
+  <data name="&gt;&gt;LblHotKeyLabel.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;ColCommand.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="TxtTag.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;ColTag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColHotKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtHotKey.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="LblTagLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -333,55 +210,208 @@
   <data name="LblTagLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 213</value>
   </data>
-  <data name="LblTagLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
+  <data name="BtnAddOrUpdate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
   </data>
-  <data name="LblTagLabel.TabIndex" type="System.Int32, mscorlib">
+  <data name="LblHotKeyLabel.Text" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="LvHotKeyList.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="LblTagLabel.Text" xml:space="preserve">
-    <value>标签</value>
+  <data name="LblTagLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="&gt;&gt;LblTagLabel.Name" xml:space="preserve">
-    <value>LblTagLabel</value>
-  </data>
-  <data name="&gt;&gt;LblTagLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblTagLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;LblHotKeyLabel.Parent" xml:space="preserve">
     <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TxtTag.Name" xml:space="preserve">
+    <value>TxtTag</value>
+  </data>
+  <data name="&gt;&gt;GrpHotKeyList.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LvHotKeyList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 178</value>
   </data>
   <data name="&gt;&gt;LblTagLabel.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
+  <data name="&gt;&gt;LvHotKeyList.Name" xml:space="preserve">
+    <value>LvHotKeyList</value>
+  </data>
+  <data name="&gt;&gt;ChkEnableGlobal.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;ColTag.Name" xml:space="preserve">
     <value>ColTag</value>
   </data>
-  <data name="&gt;&gt;ColTag.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TxtHotKey.Location" type="System.Drawing.Point, System.Drawing">
+    <value>262, 210</value>
   </data>
-  <data name="&gt;&gt;ColHotKey.Name" xml:space="preserve">
-    <value>ColHotKey</value>
+  <data name="ColCommand.Text" xml:space="preserve">
+    <value>命令</value>
   </data>
-  <data name="&gt;&gt;ColHotKey.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="TxtHotKey.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 23</value>
   </data>
-  <data name="&gt;&gt;ColCommand.Name" xml:space="preserve">
-    <value>ColCommand</value>
+  <data name="&gt;&gt;BtnRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ColCommand.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;LvHotKeyList.Parent" xml:space="preserve">
+    <value>GrpHotKeyList</value>
+  </data>
+  <data name="&gt;&gt;ChkEnableGlobal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BtnRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LvHotKeyList.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;GrpHotKeyList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpHotKeyList.Name" xml:space="preserve">
+    <value>GrpHotKeyList</value>
+  </data>
+  <data name="ColHotKey.Text" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="&gt;&gt;LblTagLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtTag.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnRemove.Name" xml:space="preserve">
+    <value>BtnRemove</value>
+  </data>
+  <data name="&gt;&gt;TxtHotKey.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="LblTagLabel.Text" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="ChkEnableGlobal.Text" xml:space="preserve">
+    <value>全局快捷键</value>
+  </data>
+  <data name="BtnAddOrUpdate.Text" xml:space="preserve">
+    <value>√ 添加或更新</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="ColTag.Width" type="System.Int32, mscorlib">
+    <value>150</value>
+  </data>
+  <data name="&gt;&gt;LblTagLabel.Name" xml:space="preserve">
+    <value>LblTagLabel</value>
+  </data>
+  <data name="&gt;&gt;TxtHotKey.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="LvHotKeyList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="LblHotKeyLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblHotKeyLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ChkEnableGlobal.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LblTagLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 17</value>
+  </data>
+  <data name="&gt;&gt;ChkEnableGlobal.Name" xml:space="preserve">
+    <value>ChkEnableGlobal</value>
+  </data>
+  <data name="BtnAddOrUpdate.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;LblHotKeyLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PageHotKey</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.11.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  <data name="LblHotKeyLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
   </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpHotKeyList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;ColHotKey.Name" xml:space="preserve">
+    <value>ColHotKey</value>
+  </data>
+  <data name="&gt;&gt;LblHotKeyLabel.Name" xml:space="preserve">
+    <value>LblHotKeyLabel</value>
+  </data>
+  <data name="ColTag.Text" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="&gt;&gt;ColCommand.Name" xml:space="preserve">
+    <value>ColCommand</value>
+  </data>
+  <data name="&gt;&gt;LvHotKeyList.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ChkEnableGlobal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 21</value>
+  </data>
+  <data name="&gt;&gt;TxtTag.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnRemove.Text" xml:space="preserve">
+    <value>- 删除</value>
+  </data>
+  <data name="BtnRemove.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="BtnAddOrUpdate.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="ColCommand.Width" type="System.Int32, mscorlib">
+    <value>350</value>
+  </data>
+  <data name="TxtTag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>41, 210</value>
+  </data>
+  <data name="TxtHotKey.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="LblTagLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;ChkEnableGlobal.Parent" xml:space="preserve">
+    <value>GrpHotKeyList</value>
+  </data>
+  <data name="GrpHotKeyList.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="GrpHotKeyList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="TxtHotKey.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;GrpHotKeyList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ChkEnableGlobal.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
 </root>

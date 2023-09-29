@@ -54,6 +54,38 @@ namespace GrasscutterTools.Pages
         private bool HotKeysChanged;
 
         /// <summary>
+        /// 加载用户热键列表
+        /// </summary>
+        private List<HotKeyItem> LoadKeyItems()
+        {
+            List<HotKeyItem> list = null;
+            try
+            {
+                Logger.I(TAG, "Loading HotKey json file from: " + HotKeysFilePath);
+                list = JsonConvert.DeserializeObject<List<HotKeyItem>>(File.ReadAllText(HotKeysFilePath));
+            }
+            catch (Exception ex)
+            {
+                Logger.E(TAG, "Parsing HotKeys.json failed", ex);
+            }
+
+            if (list == null || list.Count == 0)
+            {
+                // 默认把移动命令加到列表
+                list = new List<HotKeyItem>
+                {
+                    new("↑", "/tp ^ ^ ^10", "NumPad8", false),
+                    new("↓", "/tp ^ ^ ^-10", "NumPad5", false),
+                    new("←", "/tp ^-10 ^ ^", "NumPad4", false),
+                    new("→", "/tp ^10 ^ ^", "NumPad6", false),
+                    new("↑^↑", "/tp ~ ~10 ~", "NumPad0", false),
+                };
+            }
+
+            return list;
+        }
+
+        /// <summary>
         /// 初始化快捷键
         /// </summary>
         private void InitHotKeys()
@@ -62,15 +94,16 @@ namespace GrasscutterTools.Pages
                 return;
             try
             {
-                Logger.I(TAG, "Loading HotKey json file from: " + HotKeysFilePath);
-                Common.KeyGo.Items = JsonConvert.DeserializeObject<List<HotKeyItem>>(File.ReadAllText(HotKeysFilePath));
+                // 还原设置
+                Common.KeyGo.IsEnabled = ChkEnableGlobal.Checked = Settings.Default.IsHotkeyEenabled;
+                Common.KeyGo.Items = LoadKeyItems();
                 LvHotKeyList.Items.AddRange(Common.KeyGo.Items.Select(HotKeyItemToViewItem).ToArray());
                 Logger.I(TAG, "Start Register All HotKeys");
                 Common.KeyGo.RegAllKey();
             }
             catch (Exception ex)
             {
-                Logger.W(TAG, "Parsing HotKeys.json failed.", ex);
+                Logger.W(TAG, "Failed to InitHotKeys", ex);
             }
         }
 
@@ -79,6 +112,8 @@ namespace GrasscutterTools.Pages
         /// </summary>
         public override void OnClosed()
         {
+            Settings.Default.IsHotkeyEenabled = Common.KeyGo.IsEnabled;
+
             Logger.I(TAG, "Cancel all HotKeys");
             Common.KeyGo.UnRegAllKey();
 
@@ -90,7 +125,7 @@ namespace GrasscutterTools.Pages
         /// <summary>
         /// 将实体转为视图对象
         /// </summary>
-        private static ListViewItem HotKeyItemToViewItem(HotKeyItem item) => new ListViewItem(new[]
+        private static ListViewItem HotKeyItemToViewItem(HotKeyItem item) => new(new[]
         {
             item.Tag,
             item.HotKey,
@@ -130,12 +165,7 @@ namespace GrasscutterTools.Pages
                 var i = Common.KeyGo.Items.FindIndex(it => it.Tag == tag);
                 if (i == -1)
                 {
-                    var item = new HotKeyItem
-                    {
-                        Tag = tag,
-                        Commands = commands,
-                        HotKey = hotKey
-                    };
+                    var item = new HotKeyItem(tag, commands, hotKey);
                     Logger.I(TAG, $"New HotKey item [{hotKey}]");
                     Common.KeyGo.AddHotKey(item);
                     LvHotKeyList.Items.Add(HotKeyItemToViewItem(item));
@@ -259,6 +289,23 @@ namespace GrasscutterTools.Pages
         {
             TxtHotKey.Tag = "";
             TxtTag.Text = tag;
+        }
+
+        /// <summary>
+        /// 切换启用全局快捷键时触发
+        /// </summary>
+        private void ChkEnableGlobal_CheckedChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                Common.KeyGo.IsEnabled = ChkEnableGlobal.Checked;
+            }
+            catch (Exception ex)
+            {
+                Logger.E(TAG, "Failed to switch global hotkeys", ex);
+                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+
         }
     }
 }

@@ -286,5 +286,17 @@ namespace GrasscutterTools.Properties {
                 this["IsUpgraded"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool IsHotkeyEenabled {
+            get {
+                return ((bool)(this["IsHotkeyEenabled"]));
+            }
+            set {
+                this["IsHotkeyEenabled"] = value;
+            }
+        }
     }
 }

@@ -34,6 +34,7 @@
             this.ColHotKey = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ColCommand = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.GrpHotKeyList = new System.Windows.Forms.GroupBox();
+            this.ChkEnableGlobal = new System.Windows.Forms.CheckBox();
             this.BtnRemove = new System.Windows.Forms.Button();
             this.BtnAddOrUpdate = new System.Windows.Forms.Button();
             this.TxtHotKey = new System.Windows.Forms.TextBox();
@@ -45,12 +46,12 @@
             // 
             // LvHotKeyList
             // 
+            resources.ApplyResources(this.LvHotKeyList, "LvHotKeyList");
             this.LvHotKeyList.CheckBoxes = true;
             this.LvHotKeyList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColTag,
             this.ColHotKey,
             this.ColCommand});
-            resources.ApplyResources(this.LvHotKeyList, "LvHotKeyList");
             this.LvHotKeyList.HideSelection = false;
             this.LvHotKeyList.Name = "LvHotKeyList";
             this.LvHotKeyList.UseCompatibleStateImageBehavior = false;
@@ -73,9 +74,19 @@
             // GrpHotKeyList
             // 
             resources.ApplyResources(this.GrpHotKeyList, "GrpHotKeyList");
+            this.GrpHotKeyList.Controls.Add(this.ChkEnableGlobal);
             this.GrpHotKeyList.Controls.Add(this.LvHotKeyList);
             this.GrpHotKeyList.Name = "GrpHotKeyList";
             this.GrpHotKeyList.TabStop = false;
+            // 
+            // ChkEnableGlobal
+            // 
+            resources.ApplyResources(this.ChkEnableGlobal, "ChkEnableGlobal");
+            this.ChkEnableGlobal.Checked = true;
+            this.ChkEnableGlobal.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.ChkEnableGlobal.Name = "ChkEnableGlobal";
+            this.ChkEnableGlobal.UseVisualStyleBackColor = true;
+            this.ChkEnableGlobal.CheckedChanged += new System.EventHandler(this.ChkEnableGlobal_CheckedChanged);
             // 
             // BtnRemove
             // 
@@ -127,6 +138,7 @@
             this.Controls.Add(this.LblTagLabel);
             this.Name = "PageHotKey";
             this.GrpHotKeyList.ResumeLayout(false);
+            this.GrpHotKeyList.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -145,5 +157,6 @@
         private System.Windows.Forms.Label LblHotKeyLabel;
         private System.Windows.Forms.TextBox TxtTag;
         private System.Windows.Forms.Label LblTagLabel;
+        private System.Windows.Forms.CheckBox ChkEnableGlobal;
     }
 }
