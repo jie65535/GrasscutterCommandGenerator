@@ -168,19 +168,6 @@ namespace GrasscutterTools.Pages
             Settings.Default.RemoteUid = NUDRemotePlayerId.Value;
             Settings.Default.Host = TxtHost.Text;
             Settings.Default.TokenCache = Common.OC?.Token;
-
-            try
-            {
-                Logger.I(TAG, "Stop Proxy");
-                ProxyHelper.StopProxy();
-            }
-            catch (Exception ex)
-            {
-#if DEBUG
-                MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-#endif
-                Logger.E(TAG, "Stop Proxy Failed.", ex);
-            }
         }
 
         /// <summary>

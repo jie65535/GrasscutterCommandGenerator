@@ -46,6 +46,22 @@ namespace GrasscutterTools.Pages
             }
         }
 
+        public override void OnClosed()
+        {
+            try
+            {
+                Logger.I(TAG, "Stop Proxy");
+                ProxyHelper.StopProxy();
+            }
+            catch (Exception ex)
+            {
+#if DEBUG
+                MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+#endif
+                Logger.E(TAG, "Stop Proxy Failed.", ex);
+            }
+        }
+
         /// <summary>
         /// 点击启动GC服务器时触发
         /// </summary>
