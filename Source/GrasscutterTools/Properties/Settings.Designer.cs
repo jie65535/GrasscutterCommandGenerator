@@ -298,5 +298,17 @@ namespace GrasscutterTools.Properties {
                 this["IsHotkeyEenabled"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool AutoStartProxy {
+            get {
+                return ((bool)(this["AutoStartProxy"]));
+            }
+            set {
+                this["AutoStartProxy"] = value;
+            }
+        }
     }
 }

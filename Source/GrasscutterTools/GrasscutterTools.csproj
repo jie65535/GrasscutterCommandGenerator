@@ -280,6 +280,12 @@
     <Compile Include="Pages\PageOpenCommand.Designer.cs">
       <DependentUpon>PageOpenCommand.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PageProxy.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageProxy.Designer.cs">
+      <DependentUpon>PageProxy.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PageQuest.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -589,6 +595,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageOpenCommand.zh-TW.resx">
       <DependentUpon>PageOpenCommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageProxy.resx">
+      <DependentUpon>PageProxy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageQuest.en-US.resx">
       <DependentUpon>PageQuest.cs</DependentUpon>

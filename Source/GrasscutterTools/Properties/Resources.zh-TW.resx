@@ -369,4 +369,10 @@
   <data name="PageSceneTagTitle" xml:space="preserve">
     <value>場景項</value>
   </data>
+  <data name="TrustedBeforeContinuing" xml:space="preserve">
+    <value>必須先信任根憑證才能繼續！</value>
+  </data>
+  <data name="PageProxyTitle" xml:space="preserve">
+    <value>代理</value>
+  </data>
 </root>

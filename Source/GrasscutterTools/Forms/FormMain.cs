@@ -30,15 +30,20 @@ using GrasscutterTools.Utils;
 
 namespace GrasscutterTools.Forms
 {
-    public partial class FormMain : Form
+    internal partial class FormMain : Form
     {
-        #region - 初始化 Init -
+        private const string TAG = nameof(FormMain);
 
-        private const string TAG = "FormMain";
+        public static FormMain Instance { get; private set; }
+
+        #region - 初始化 Init -
 
         public FormMain()
         {
             Logger.I(TAG, "FormMain ctor enter");
+
+            Instance = this;
+
             InitializeComponent();
             Icon = Resources.IconGrasscutter;
 
@@ -110,21 +115,9 @@ namespace GrasscutterTools.Forms
             ph.OnLanguageChanged = () => FormMain_Load(this, EventArgs.Empty);
             var poc = CreatePage<PageOpenCommand>();
             poc.ShowTipInRunButton = msg => ShowTip(msg, BtnInvokeOpenCommand);
-            var pcc = CreatePage<PageCustomCommands>();
-            var phk = CreatePage<PageHotKey>();
-            pcc.OnAddHotKey = tag =>
-            {
-                phk.AddNewHotKey(tag);
-                // 跳转到快捷键界面
-                for (var i = 0; i < TCMain.Controls.Count; i++)
-                {
-                    if (TCMain.Controls[i].Controls[0] == phk)
-                    {
-                        ListPages.SelectedIndex = i;
-                        break;
-                    }
-                }
-            };
+            CreatePage<PageProxy>();
+            CreatePage<PageCustomCommands>();
+            CreatePage<PageHotKey>();
             CreatePage<PageGiveArtifact>();
             CreatePage<PageSetProp>();
             CreatePage<PageSpawn>();
@@ -156,6 +149,7 @@ namespace GrasscutterTools.Forms
             {
                 Resources.PageHomeTitle,
                 Resources.PageOpenCommandTitle,
+                Resources.PageProxyTitle,
                 Resources.PageCustomCommandsTitle,
                 Resources.PageHotKey,
                 Resources.PageGetArtifactTitle,
@@ -472,16 +466,7 @@ namespace GrasscutterTools.Forms
             if (Common.OC == null || !Common.OC.CanInvoke)
             {
                 ShowTip(Resources.RequireOpenCommandTip, BtnInvokeOpenCommand);
-                //TCMain.SelectedTab = TPRemoteCall;
-                for (var i = 0; i < TCMain.Controls.Count; i++)
-                {
-                    if (TCMain.Controls[i].Controls[0] is PageOpenCommand)
-                    {
-                        ListPages.SelectedIndex = i;
-                        break;
-                    }
-                }
-
+                NavigateTo<PageOpenCommand>();
                 return false;
             }
 
@@ -635,6 +620,25 @@ namespace GrasscutterTools.Forms
                 return;
             }
             TTip.Show(message, control, 0, control.Size.Height, 3000);
+        }
+
+        /// <summary>
+        /// 导航到目标页面并返回该页面实例
+        /// </summary>
+        /// <typeparam name="TPage">页面类型</typeparam>
+        /// <returns>如果导航到了则返回页面实例，否则返回空</returns>
+        public TPage NavigateTo<TPage>() where TPage : BasePage
+        {
+            for (var i = 0; i < TCMain.Controls.Count; i++)
+            {
+                if (TCMain.Controls[i].Controls[0] is TPage page)
+                {
+                    ListPages.SelectedIndex = i; 
+                    return page;
+                }
+            }
+
+            return null;
         }
 
         #endregion - 通用 General -

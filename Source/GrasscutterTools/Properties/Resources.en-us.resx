@@ -375,4 +375,10 @@ Improvement suggestions have been submitted, please use caution to send emails t
   <data name="PageSceneTagTitle" xml:space="preserve">
     <value>SceneTag</value>
   </data>
+  <data name="TrustedBeforeContinuing" xml:space="preserve">
+    <value>The root certificate must be trusted before continuing!</value>
+  </data>
+  <data name="PageProxyTitle" xml:space="preserve">
+    <value>Proxy</value>
+  </data>
 </root>

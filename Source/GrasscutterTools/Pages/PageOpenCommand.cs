@@ -64,8 +64,6 @@ namespace GrasscutterTools.Pages
                 TxtHost.Items.Add("http://127.0.0.1:443");
                 TxtHost.SelectedIndex = 0;
             }
-
-            BtnProxy.Text = Resources.StartProxy;
         }
 
         #region - 服务器记录 -
@@ -248,6 +246,8 @@ namespace GrasscutterTools.Pages
                     return;
                 }
 
+                Settings.Default.Host = host;
+
                 var isOcEnabled = false;
                 try
                 {
@@ -275,8 +275,6 @@ namespace GrasscutterTools.Pages
                     LblOpenCommandSupport.ForeColor = Color.Red;
                     GrpRemoteCommand.Enabled = false;
                 }
-
-                BtnProxy.Enabled = true;
             }
             catch (Exception ex)
             {
@@ -608,44 +606,5 @@ namespace GrasscutterTools.Pages
         }
 
         #endregion - 导入存档 GOOD -
-
-
-        #region - 代理 Porxy -
-
-        /// <summary>
-        /// 点击代理按钮时触发
-        /// </summary>
-        private void BtnProxy_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                // 正在运行则关闭
-                if (ProxyHelper.IsRunning)
-                {
-                    ProxyHelper.StopProxy();
-                    BtnProxy.Text = Resources.StartProxy;
-                }
-                else
-                {
-                    // 创建根证书并检查信任
-                    if (!ProxyHelper.CheckAndCreateCertifier())
-                    {
-                        MessageBox.Show("必须先信任根证书才能继续", Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                        return;
-                    }
-
-                    // 启动代理
-                    ProxyHelper.StartProxy(Common.OC.Host);
-                    BtnProxy.Text = Resources.StopProxy;
-                }
-            }
-            catch (Exception ex)
-            {
-                Logger.E(TAG, "Start Proxy failed.", ex);
-                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-        
-        #endregion
     }
 }

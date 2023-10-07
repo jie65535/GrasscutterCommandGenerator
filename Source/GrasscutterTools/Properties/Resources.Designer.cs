@@ -1195,6 +1195,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 代理 的本地化字符串。
+        /// </summary>
+        internal static string PageProxyTitle {
+            get {
+                return ResourceManager.GetString("PageProxyTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 任务 的本地化字符串。
         /// </summary>
         internal static string PageQuestTitle {
@@ -1585,6 +1594,15 @@ namespace GrasscutterTools.Properties {
         internal static string TokenRestoredFromCache {
             get {
                 return ResourceManager.GetString("TokenRestoredFromCache", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 必须先信任根证书才能继续！ 的本地化字符串。
+        /// </summary>
+        internal static string TrustedBeforeContinuing {
+            get {
+                return ResourceManager.GetString("TrustedBeforeContinuing", resourceCulture);
             }
         }
         

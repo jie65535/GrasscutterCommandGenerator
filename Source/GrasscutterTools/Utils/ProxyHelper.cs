@@ -30,6 +30,11 @@ namespace GrasscutterTools.Utils
     {
         private const string TAG = "Proxy";
 
+        static ProxyHelper()
+        {
+            Eavesdropper.Certifier = new Certifier("jie65535", "GrasscutterTools Root Certificate Authority");
+        }
+
         #region - Windows API -
 
         [DllImport("wininet.dll")]
@@ -171,6 +176,8 @@ namespace GrasscutterTools.Utils
         private static string _gcDispatch;
         public static void StartProxy(string gcDispatch)
         {
+            // Check Url format
+            var _ = new Uri(gcDispatch);
             _gcDispatch = gcDispatch.TrimEnd('/');
             Logger.I(TAG, "Start Proxy, redirect to " + _gcDispatch);
             StartGsProxyServer(ProxyServerPort);
@@ -184,10 +191,14 @@ namespace GrasscutterTools.Utils
             StopGsProxyServer();
         }
 
-        public static bool CheckAndCreateCertifier()
+        public static bool CheckAndCreateCertificate()
         {
-            Eavesdropper.Certifier = new Certifier("jie65535", "GrasscutterTools Root Certificate Authority");
             return Eavesdropper.Certifier.CreateTrustedRootCertificate();
+        }
+
+        public static bool DestroyCertificate()
+        {
+            return Eavesdropper.Certifier.DestroyTrustedRootCertificate();
         }
 
         public static bool IsRunning => Eavesdropper.IsRunning;

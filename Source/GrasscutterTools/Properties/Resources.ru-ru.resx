@@ -363,4 +363,10 @@
   <data name="PageSceneTagTitle" xml:space="preserve">
     <value>Тег сцены</value>
   </data>
+  <data name="TrustedBeforeContinuing" xml:space="preserve">
+    <value>Прежде чем продолжить, необходимо доверять корневому сертификату!</value>
+  </data>
+  <data name="PageProxyTitle" xml:space="preserve">
+    <value>Прокси</value>
+  </data>
 </root>

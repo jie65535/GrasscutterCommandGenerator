@@ -60,7 +60,6 @@
             this.TxtHost = new System.Windows.Forms.ComboBox();
             this.BtnQueryServerStatus = new System.Windows.Forms.Button();
             this.LblHost = new System.Windows.Forms.Label();
-            this.BtnProxy = new System.Windows.Forms.Button();
             this.GrpServerStatus.SuspendLayout();
             this.GrpRemoteCommand.SuspendLayout();
             this.TPOpenCommandCheck.SuspendLayout();
@@ -302,18 +301,10 @@
             resources.ApplyResources(this.LblHost, "LblHost");
             this.LblHost.Name = "LblHost";
             // 
-            // BtnProxy
-            // 
-            resources.ApplyResources(this.BtnProxy, "BtnProxy");
-            this.BtnProxy.Name = "BtnProxy";
-            this.BtnProxy.UseVisualStyleBackColor = true;
-            this.BtnProxy.Click += new System.EventHandler(this.BtnProxy_Click);
-            // 
             // PageOpenCommand
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.BtnProxy);
             this.Controls.Add(this.LnkLinks);
             this.Controls.Add(this.LnkGOODHelp);
             this.Controls.Add(this.LnkInventoryKamera);
@@ -374,6 +365,5 @@
         private System.Windows.Forms.ComboBox TxtHost;
         private System.Windows.Forms.Button BtnQueryServerStatus;
         private System.Windows.Forms.Label LblHost;
-        private System.Windows.Forms.Button BtnProxy;
     }
 }
