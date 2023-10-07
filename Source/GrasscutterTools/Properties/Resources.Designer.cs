@@ -1204,6 +1204,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 场景项 的本地化字符串。
+        /// </summary>
+        internal static string PageSceneTagTitle {
+            get {
+                return ResourceManager.GetString("PageSceneTagTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 场景 的本地化字符串。
         /// </summary>
         internal static string PageSceneTitle {
@@ -1393,6 +1402,44 @@ namespace GrasscutterTools.Properties {
         internal static string Scene {
             get {
                 return ResourceManager.GetString("Scene", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 // 3
+        ///101:Hdj
+        ///102:JadeChamber (Default)
+        ///103:JadeChamber
+        ///104:Hdj
+        ///105:Fhj
+        ///107:KlinSeal (Default)
+        ///111:Ruinup
+        ///112:QLFightPlatform
+        ///113:Lmboss_01 (Default)
+        ///114:FlowerZone_01
+        ///115:FlowerZone_02
+        ///116:Lmboss_02
+        ///117:LYDS_01 (Default)
+        ///118:LYDS_02
+        ///119:Zyj
+        ///124:WinterCamp
+        ///125:Hguan01 (Default)
+        ///126:Hguan02
+        ///127:Hguan03
+        ///128:RBQyg_01
+        ///129:RBQyg_02
+        ///130:RBQyg_03
+        ///131:RBQyg_04
+        ///133:RBQyg_Stage
+        ///134:TongqueTemple_Old (Default)
+        ///135:TongqueTemple_New
+        ///139:HZD01 (Default)
+        ///140:HZD02
+        ///141:CYJY_Phase1_ON (Default)        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string SceneTag {
+            get {
+                return ResourceManager.GetString("SceneTag", resourceCulture);
             }
         }
         
@@ -1592,6 +1639,7 @@ namespace GrasscutterTools.Properties {
         ///11424:狼牙
         ///11425:海渊终曲
         ///11426:灰河渡手
+        ///11427:船坞长剑
         ///11501:风鹰剑
         ///11502:天空之刃
         ///11503:苍古自由之誓
@@ -1601,8 +1649,7 @@ namespace GrasscutterTools.Properties {
         ///11510:波乱月白经津
         ///11511:圣显之钥
         ///11512:裁叶萃光
-        ///12101:训练大剑
-        ///12201: [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///12101: [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string Weapon {
             get {
@@ -1643,12 +1690,12 @@ namespace GrasscutterTools.Properties {
         ///11424:purple
         ///11425:purple
         ///11426:purple
+        ///11427:purple
         ///11501:yellow
         ///11502:yellow
         ///11503:yellow
         ///11504:yellow
-        ///11505:yellow
-        ///11509:yell [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///11505:yell [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         internal static string WeaponColor {
             get {

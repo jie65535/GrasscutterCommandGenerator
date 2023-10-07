@@ -1,0 +1,446 @@
+﻿// 3
+101:Hdj
+102:JadeChamber (Default)
+103:JadeChamber
+104:Hdj
+105:Fhj
+107:KlinSeal (Default)
+111:Ruinup
+112:QLFightPlatform
+113:Lmboss_01 (Default)
+114:FlowerZone_01
+115:FlowerZone_02
+116:Lmboss_02
+117:LYDS_01 (Default)
+118:LYDS_02
+119:Zyj
+124:WinterCamp
+125:Hguan01 (Default)
+126:Hguan02
+127:Hguan03
+128:RBQyg_01
+129:RBQyg_02
+130:RBQyg_03
+131:RBQyg_04
+133:RBQyg_Stage
+134:TongqueTemple_Old (Default)
+135:TongqueTemple_New
+139:HZD01 (Default)
+140:HZD02
+141:CYJY_Phase1_ON (Default)
+142:CYJY_Phase1_OFF
+147:Irodori
+149:SHOPYamashiroKenta
+152:Vintage
+153:Vintage_Md
+154:FungusFighter
+155:BrickBreaker01
+156:BrickBreaker02
+157:BrickBreaker03
+158:Hdj01
+159:Hdj02
+160:Hdj_Alcor
+164:FleurFairV2
+165:FFV2_MNCH
+170:AkaFes
+171:Journey01
+172:Journey02
+173:Journey03
+174:Journey04
+1001:Combine_Lyg
+1002:Combine_Mdc
+1011:Combine_RBQyg
+1027:Combine_Irodori
+1030:Combine_QldFight
+1068:Combine_SHOPYamashiroKenta
+1091:XMSM_LSK_01 (Default)
+1092:XMSM_LSK_02
+1093:Vana_real
+1094:Vana_dream (Default)
+1095:Vana_first (Default)
+1096:Vana_festival
+1097:Onion_real
+1098:Onion_dream
+1099:Temple_before (Default)
+1100:Temple_after
+1101:Forest_before (Default)
+1102:Forest_after
+1103:Oasis_before (Default)
+1104:Oasis_after
+1105:Final_before (Default)
+1106:Final_after
+1107:Vintage_BaseGrass
+1108:Final_BaseGrass
+1109:Combine_Forest_after
+1110:Mdg_real (Default)
+1111:Mdg_dream
+1112:HuaShen01
+1114:HuaShen02
+1116:HuaShen03
+1117:Combine_HuaShen03
+1118:VarunaCo_Af
+1119:VarunaDe_Af
+1120:CaveForest_No (Default)
+1121:CaveForest_Dr
+1122:WaterDR_Be (Default)
+1123:WaterDR_Af
+1124:Oasis_BaseGrass
+1125:VarunaCo_Be (Default)
+1126:Vintage_BaseTerrain
+1127:WaterPour_be (Default)
+1128:WaterPour_af
+1129:DoorOpen_be (Default)
+1130:DoorOpen_af
+1131:CupGrow_before (Default)
+1132:CupGrow_after
+1133:Clear_before (Default)
+1134:Clear_after
+1135:STemple_be (Default)
+1136:STemple_af
+1137:XMSM_XST_01 (Default)
+1138:XMSM_YHYD1_01 (Default)
+1139:XMSM_YHYD1_02
+1140:XMSM_YHYD2_01 (Default)
+1141:XMSM_YHYD2_02
+1142:Combine_Vintage
+1143:Titan_before (Default)
+1144:Titan_after
+1145:Combine_TitanO_after
+1146:VarunaDe_Be (Default)
+1149:CupGrow_0_2_BaseGrass
+1162:TitanO_after
+1164:XMSM_CWLTop
+1165:CWL_Trans_01 (Default)
+1166:CWL_Trans_02
+1168:Xmsm_AfCs (Default)
+1169:XMSM_CWLBlock
+1170:XMSM_XST_02
+1183:XMSM_YHYD1_03
+1184:XMSM_YHYD2_03
+1187:Sprite_Before (Default)
+1188:Sprite_After
+1189:Sprite_BaseGrass
+1190:XM_RobotA1 (Default)
+1191:XM_RobotA2
+1192:XM_RobotAC
+1193:XM_RobotB1
+1194:XM_RobotB2 (Default)
+1195:XM_RobotC1
+1196:XM_RobotD1 (Default)
+1197:XM_RobotD2
+1198:XM_RobotD2C
+1199:XM_LSYJ_01 (Default)
+1200:XM_DJLT_01 (Default)
+1203:CycleDungeon01
+1204:DreamClub01
+1205:Combine_FungusFighter
+1208:Combine_BrickBreaker01
+1219:XM_RobotB3
+1220:XM_RobotBake
+1221:Combine_DreamClub01
+1222:XM_LSYJ_-2_5_BaseGrass
+1223:SCSK_01 (Default)
+1224:SCSK_02
+1225:SCSK_SK1_01 (Default)
+1226:SCSK_SK1_02
+1227:SCSK_SK2_01 (Default)
+1228:SCSK_SK2_02
+1229:SCSK_SK3_01 (Default)
+1230:SCSK_SK3_02
+1231:SCSK_SK4_01 (Default)
+1232:SCSK_SK4_02
+1233:SCSK_SK5_01 (Default)
+1234:SCSK_SK5_02
+1235:JJZZ_01 (Default)
+1236:JJZZ_02
+1237:JJZZ_03 (Default)
+1238:JJZZ_04
+1239:SCCX_01 (Default)
+1240:SCCX_02
+1241:GLHH_01 (Default)
+1242:GLHH_02
+1243:SSL_01
+1244:JSJS_01 (Default)
+1245:JSJS_02
+1246:SCSK_BaseTerrain
+1247:SCSK_BaseGrass
+1248:Combine_Hdj_Alcor
+1249:SKYJ_01
+1250:NLZS_01
+1251:CJC_01 (Default)
+1252:LIFT_HIGH_Bake
+1253:LIFT_MID_Bake
+1254:LIFT_DOWN_Bake
+1255:CJC_02
+1257:Onion_real_ex
+1258:Onion_real_mx
+1259:Onion_dream_ex (Default)
+1260:Onion_dream_mx
+1275:Combine_AkaFes
+1276:FD_KZST_P1 (Default)
+1281:FD_BoilLake_Be (Default)
+1282:FD_BoilLake_Af
+1291:FD_LS_Be (Default)
+1292:FD_LS_Af
+1293:FD_SMF_Be (Default)
+1294:FD_SMF_Af
+1295:FD_HEART_Be (Default)
+1296:FD_HEART_Af
+1301:Combine_Journey01
+1302:Combine_Journey02
+1303:Combine_Journey04
+1306:FD_LS_MLAHua
+1307:FD_LS_CKShi (Default)
+1320:FD_Tower_Bf (Default)
+1322:FD_DPQS_Before (Default)
+1328:FD_HEARTIN_Be (Default)
+1329:FD_HEARTIN_Af
+1330:FD_SpaceR_Be (Default)
+1331:FD_SpaceR_Af
+1332:FD_HEART_BaseGrass
+1336:WishPond_mx
+1341:FD_Fish_Be (Default)
+1342:FD_Fish_Af
+1346:FD_PoissonFlod
+// 4
+106:SummerTime
+108:SummerTime_High
+109:SummerTime_Low
+// 5
+120:AbyssalNight
+121:AbyssalIsle
+122:AbyssalEvent
+123:AbyssalEventNight
+1003:Aby_LightOFF
+1004:Aby_LightON
+1005:AbyIsle_Const
+1006:AbyIsle_LightON
+1007:AbyIsle_LightOFF
+1009:AbyIsle_NotEvent
+1010:AbyIsle_NotEventLightOFF
+1028:Aby_NotEvent
+1029:Aby_NotEventLightOFF
+1031:MichiaeMatsuri_WQ_Default5 (Default)
+// 7
+136:Aby_LightOFF (Default)
+137:AbyIsle_Const (Default)
+138:AbyIsle_LightOFF (Default)
+148:Aby_Event (Default)
+1032:MichiaeMatsuri_WQ_Default7
+1033:MichiaeMatsuri_WQ_SideA
+1034:MichiaeMatsuri_WQ_SideB
+// 6
+143:CYJY_Phase2_ON (Default)
+144:CYJY_Phase2_OFF
+145:CYJY_Phase3_ON (Default)
+146:CYJY_Phase3_OFF
+150:CYJY_Phase4ON
+151:CYJY_Phase4OFF
+1061:CYJY_Twins2_Block_ON (Default)
+1062:CYJY_Twins2_Block_OFF
+1063:CYJY_Twins1_OFF (Default)
+1064:CYJY_Twins1_ON
+// 20176
+161:Wisdom03_Norm (Default)
+162:Wisdom03_Inver
+163:Wisdom03_Inver_Routine
+// 47401
+166:PacMan_Day (Default)
+// 47403
+167:PacMan_Day (Default)
+// 47405
+168:PacMan_Night (Default)
+// 47406
+169:PacMan_Night (Default)
+// 9
+1012:DI_WW01 (Default)
+1013:DI_WW02
+1014:DI_PP01 (Default)
+1015:DI_PP02
+1016:DI_PP03
+1017:DI_SS01 (Default)
+1018:DI_SS02
+1019:DI_SS03
+1020:DI_BD01 (Default)
+1021:DI_BDLM
+1022:DI_BDRM
+1023:DI_BDLI
+1024:DI_BDRI
+1025:DI_BDLL
+1026:DI_BDRL
+1035:DreamIsland_All_WithoutAnyChange
+1036:DreamIsland_-1_-1_BaseTerrain
+1037:DreamIsland_0_-1_BaseTerrain
+1038:DreamIsland_0_0_BaseTerrain
+1039:DreamIsland_-1_0_BaseTerrain
+1040:DreamIsland_-1_-1_BaseGrass
+1041:DreamIsland_0_-1_BaseGrass
+1042:DreamIsland_0_0_BaseGrass
+1043:DreamIsland_-1_0_BaseGrass
+1060:DI_SS04
+1076:DI_SkiffWQ
+1077:DI_BDMM
+1078:DI_BDII
+1079:DI_BDIM
+1080:DI_BDMI
+1081:DI_BDYY
+1082:DI_BDMY
+1083:DI_BDYM
+1084:DI_BDIY
+1085:DI_BDYI
+// 20139
+1046:DI_Fischl01 (Default)
+1047:DI_Fischl02
+// 20133
+1048:DI_Xinyan01 (Default)
+1049:DI_Xinyan02
+// 20142
+1050:DI_Kazuha01 (Default)
+1051:DI_Kazuha02 (Default)
+1052:DI_Kazuha03
+1053:DI_Kazuha04
+1054:DI_Kazuha05
+1055:DI_Kazuha06
+1056:DI_Kazuha07
+1057:DI_Kazuha08
+1058:DI_Kazuha09
+1059:DI_Kazuha10
+// 20136
+1065:DI_Mona01 (Default)
+1066:DI_Mona02
+1067:DI_Mona03
+1074:DI_Mona04
+1075:DI_Mona05
+// 20140
+1069:DI_Kazuha31 (Default)
+1070:DI_Kazuha32
+1071:DI_Kazuha33
+1086:DI_Kazuha35
+// 20135
+1072:DI_Kazuha21 (Default)
+1073:DI_Kazuha22 (Default)
+// 20132
+1087:BigTree01
+1088:BigTree02
+1089:BigTree03 (Default)
+1090:BigTree04 (Default)
+// 20160
+1147:BigTree04 (Default)
+// 20161
+1148:BigTree04 (Default)
+// 46300
+1150:BigTree01
+1151:BigTree02
+1152:BigTree03 (Default)
+1153:BigTree04 (Default)
+// 46302
+1154:BigTree01
+1155:BigTree02
+1156:BigTree03 (Default)
+1157:BigTree04 (Default)
+// 46303
+1158:BigTree01
+1159:BigTree02
+1160:BigTree03 (Default)
+1161:BigTree04 (Default)
+// 20150
+1167:WorldTree01
+// 35860
+1171:BigTree03 (Default)
+1172:BigTree04 (Default)
+// 35861
+1173:BigTree03 (Default)
+1174:BigTree04 (Default)
+// 35862
+1175:BigTree03 (Default)
+1176:BigTree04 (Default)
+// 35863
+1177:BigTree03 (Default)
+1178:BigTree04 (Default)
+// 20154
+1179:ScarBoss01 (Default)
+1180:ScarBoss02
+// 20153
+1181:ScarBoss01 (Default)
+1182:ScarBoss02
+// 20164
+1185:WorldTree01 (Default)
+// 20148
+1186:Onion_after
+// 20168
+1201:ScarBoss01 (Default)
+1202:ScarBoss02
+// 20171
+1206:ScarBoss01 (Default)
+1207:ScarBoss02
+// 1075
+1209:JSG_State1 (Default)
+1210:JSG_State2
+1211:JSG_State3
+// 1073
+1213:L_AkashaOpen (Default)
+1214:L_AkashaClose
+// 20158
+1215:BoatTurn
+1216:Boat_BaseTerrain (Default)
+1217:Boat_BaseGrass (Default)
+1218:Combine_BoatTurn (Default)
+// 20178
+1256:Hang_01 (Default)
+// 10
+1261:PN_Cinema_Bf (Default)
+1262:PN_Cinema_Af
+1263:PN_Vine_Bf (Default)
+1264:PN_Vine_Af
+1265:PN_Circus_Bf (Default)
+1266:PN_Circus_Af
+1267:PN_Ferris_Bf (Default)
+1268:PN_Ferris_Af
+// 35903
+1269:BigTree03 (Default)
+1270:BigTree04 (Default)
+// 35904
+1271:BigTree03 (Default)
+1272:BigTree04 (Default)
+// 35905
+1273:BigTree03 (Default)
+1274:BigTree04 (Default)
+// 35910
+1283:BigTree03 (Default)
+1284:BigTree04 (Default)
+// 35911
+1285:BigTree03 (Default)
+1286:BigTree04 (Default)
+// 35912
+1287:BigTree03 (Default)
+1288:BigTree04 (Default)
+// 35913
+1289:BigTree03 (Default)
+1290:BigTree04 (Default)
+// 40066
+1297:BigTree01
+1298:BigTree02
+1299:BigTree03 (Default)
+1300:BigTree04 (Default)
+// 51031
+1308:BigTree03 (Default)
+1309:BigTree04 (Default)
+// 35918
+1310:BigTree03 (Default)
+1311:BigTree04 (Default)
+// 35919
+1312:BigTree03 (Default)
+1313:BigTree04 (Default)
+// 35920
+1314:BigTree03 (Default)
+1315:BigTree04 (Default)
+// 35921
+1316:BigTree03 (Default)
+1317:BigTree04 (Default)
+// 35922
+1318:BigTree03 (Default)
+1319:BigTree04 (Default)
+// 20186
+1333:FD_Gear_01 (Default)
+1334:FD_Gear_02
+1335:FD_Gear_03

@@ -63,6 +63,8 @@ namespace GrasscutterTools.Game.Data
 
         public Dictionary<int, SceneData> SceneData { get; set; }
 
+        public List<SceneTagData> SceneTagData { get; set; }
+
         public Dictionary<int, WeaponData> WeaponData { get; set; }
 
         public TextMapData TextMapData { get; set; }
@@ -418,6 +420,31 @@ namespace GrasscutterTools.Game.Data
 
                     #endregion Weapon
                 }
+
+                #region SceneTag
+
+                // SceneTag
+
+                sb.Clear();
+
+                foreach (var scene in SceneTagData
+                             .GroupBy(it => it.SceneId))
+                {
+                    sb.Append("// ").AppendLine(scene.Key.ToString());
+                    foreach (var sceneTag in scene)
+                    {
+                        sb.Append($"{sceneTag.Id}:{sceneTag.SceneTagName}");
+                        if (sceneTag.IsDefaultValid)
+                            sb.Append(" (Default)");
+                        sb.AppendLine();
+                    }
+                }
+                File.WriteAllText(
+                    Path.Combine(projectResourcesDir, "SceneTag.txt"),
+                    sb.ToString(),
+                    Encoding.UTF8);
+
+                #endregion
 
                 File.WriteAllLines(
                     Path.Combine(projectResourcesDir, "AvatarColor.txt"),

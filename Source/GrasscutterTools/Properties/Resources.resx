@@ -381,4 +381,10 @@
   <data name="StopProxy" xml:space="preserve">
     <value>关闭代理</value>
   </data>
+  <data name="SceneTag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SceneTag.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PageSceneTagTitle" xml:space="preserve">
+    <value>场景项</value>
+  </data>
 </root>

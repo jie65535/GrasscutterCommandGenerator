@@ -164,6 +164,7 @@
     <Compile Include="Game\Data\Excels\ReliquaryData.cs" />
     <Compile Include="Game\Data\Excels\MonsterData.cs" />
     <Compile Include="Game\Data\Excels\SceneData.cs" />
+    <Compile Include="Game\Data\Excels\SceneTagData.cs" />
     <Compile Include="Game\Data\GameResource.cs" />
     <Compile Include="Game\Data\GameResources.cs" />
     <Compile Include="Game\Data\ResourceTypeAttribute.cs" />
@@ -290,6 +291,12 @@
     </Compile>
     <Compile Include="Pages\PageScene.Designer.cs">
       <DependentUpon>PageScene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageSceneTag.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSceneTag.Designer.cs">
+      <DependentUpon>PageSceneTag.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\PageSetProp.cs">
       <SubType>UserControl</SubType>
@@ -607,6 +614,18 @@
     <EmbeddedResource Include="Pages\PageScene.zh-TW.resx">
       <DependentUpon>PageScene.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSceneTag.en-US.resx">
+      <DependentUpon>PageSceneTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSceneTag.resx">
+      <DependentUpon>PageSceneTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSceneTag.ru-RU.resx">
+      <DependentUpon>PageSceneTag.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSceneTag.zh-TW.resx">
+      <DependentUpon>PageSceneTag.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageSetProp.en-US.resx">
       <DependentUpon>PageSetProp.cs</DependentUpon>
     </EmbeddedResource>
@@ -749,6 +768,7 @@
     <Content Include="Resources\IconGrasscutter.png" />
     <None Include="Resources\ImgSupport.png" />
     <Content Include="Resources\Permissions.txt" />
+    <Content Include="Resources\SceneTag.txt" />
     <Content Include="Resources\WeaponColor.txt" />
     <Content Include="Resources\zh-cn\Achievement.txt" />
     <Content Include="Resources\zh-cn\Activity.txt" />

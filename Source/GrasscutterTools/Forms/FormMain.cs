@@ -132,6 +132,7 @@ namespace GrasscutterTools.Forms
             CreatePage<PageAvatar>();
             CreatePage<PageGiveWeapon>();
             CreatePage<PageScene>();
+            CreatePage<PageSceneTag>();
             CreatePage<PageTasks>();
             CreatePage<PageManagement>();
             CreatePage<PageMail>();
@@ -164,6 +165,7 @@ namespace GrasscutterTools.Forms
                 Resources.PageAvatarTitle,
                 Resources.PageGiveWeaponTitle,
                 Resources.PageSceneTitle,
+                Resources.PageSceneTagTitle,
                 Resources.PageTasksTitle,
                 Resources.PageManagementTitle,
                 Resources.PageMailTitle,
