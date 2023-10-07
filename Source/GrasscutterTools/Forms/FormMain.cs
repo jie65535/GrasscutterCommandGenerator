@@ -382,7 +382,9 @@ namespace GrasscutterTools.Forms
         {
             if (!string.IsNullOrEmpty(args))
                 command = command + ' ' + args;
-            SetCommand(command.Trim() + ' ' + Settings.Default.Uid);
+            SetCommand(Settings.Default.IsIncludeUID
+                ? $"{command} @{Settings.Default.Uid}"
+                : command);
         }
 
         /// <summary>
