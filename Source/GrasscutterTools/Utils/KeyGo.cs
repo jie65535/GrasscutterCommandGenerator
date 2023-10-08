@@ -68,6 +68,7 @@ namespace GrasscutterTools.Utils
         /// </summary>
         public void RegAllKey()
         {
+            if (!_isEnabled) return;
             foreach (var item in Items.Where(item => item.IsEnabled))
             {
                 try
