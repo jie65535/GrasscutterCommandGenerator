@@ -18,6 +18,8 @@
  **/
 
 using System;
+using System.Collections.Generic;
+using System.Collections.Specialized;
 using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
@@ -90,6 +92,13 @@ namespace GrasscutterTools.Forms
                     Logger.I(TAG, "Restore NavContainer SplitterDistance: " + NavContainer.SplitterDistance);
                 }
 
+                // 还原窗口的不透明度
+                if (Settings.Default.WindowOpacity < 100)
+                {
+                    Opacity = Settings.Default.WindowOpacity / 100.0;
+                    Logger.I(TAG, "Restore window opacity: " + Opacity);
+                }
+
                 // 恢复自动复制选项状态
                 ChkAutoCopy.Checked = Settings.Default.AutoCopy;
 
@@ -104,15 +113,102 @@ namespace GrasscutterTools.Forms
             Logger.I(TAG, "FormMain ctor completed");
         }
 
+
+        /// <summary>
+        /// 重载界面
+        /// </summary>
+        public void Reload()
+        {
+            FormMain_Load(this, null);
+        }
+
+        /// <summary>
+        /// 窗体载入时触发（切换语言时会重新载入）
+        /// </summary>
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+            Logger.I(TAG, "FormMain_Load enter");
+            Text += "  - by jie65535  - v" + Common.AppVersion.ToString(3);
+#if DEBUG
+            Text += "-debug";
+#endif
+            if (DesignMode) return;
+
+            // 加载页面导航
+            UpdatePagesNav();
+
+            // 加载游戏ID资源
+            GameData.LoadResources();
+
+            // 遍历每一个页面重新加载
+            foreach (var page in Pages.Values)
+            {
+                Logger.I(TAG, $"{page.Name} OnLoad enter");
+                page.OnLoad();
+                Logger.I(TAG, $"{page.Name} OnLoad completed");
+            }
+
+            Logger.I(TAG, "FormMain_Load completed");
+        }
+
+        /// <summary>
+        /// 窗口关闭后触发
+        /// </summary>
+        private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Logger.I(TAG, "FormMain FormClosed enter");
+            // 遍历每一个页面，通知关闭
+            foreach (var page in Pages.Values)
+            {
+                page.OnClosed();
+            }
+
+            // 保存当前设置
+            SaveSettings();
+            Logger.I(TAG, "FormMain FormClosed completed");
+        }
+
+        /// <summary>
+        /// 保存设置
+        /// </summary>
+        private void SaveSettings()
+        {
+            try
+            {
+                // 记录界面状态
+                Settings.Default.AutoCopy = ChkAutoCopy.Checked;
+                // 记录窗口位置
+                if (WindowState == FormWindowState.Normal)
+                    Settings.Default.MainFormLocation = Location;
+                // 如果命令窗口已经弹出了，则不要保存多余的高度
+                Settings.Default.MainFormSize = TxtCommandRunLog != null ? new Size(Width, Height - TxtCommandRunLogMinHeight) : Size;
+                // 记录导航容器分隔位置
+                Settings.Default.NavContainerSplitterDistance = NavContainer.SplitterDistance;
+                // 保存设置
+                Settings.Default.Save();
+            }
+            catch (Exception ex)
+            {
+                Logger.E(TAG, "Save settings failed.", ex);
+                MessageBox.Show(Resources.SettingSaveError + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        #endregion - 初始化 Init -
+
+        #region - 页面导航 Nav -
+
+        public Dictionary<string, BasePage> Pages { get; private set; }
+
         /// <summary>
         /// 初始化并创建所有页面
         /// </summary>
         private void InitPages()
         {
             Logger.I(TAG, "InitPages enter");
+            Pages = new Dictionary<string, BasePage>(32);
             TCMain.SuspendLayout();
-            var ph = CreatePage<PageHome>();
-            ph.OnLanguageChanged = () => FormMain_Load(this, EventArgs.Empty);
+            CreatePage<PageHome>();
             var poc = CreatePage<PageOpenCommand>();
             poc.ShowTipInRunButton = msg => ShowTip(msg, BtnInvokeOpenCommand);
             CreatePage<PageProxy>();
@@ -131,6 +227,7 @@ namespace GrasscutterTools.Forms
             CreatePage<PageMail>();
             CreatePage<PageQuest>();
             CreatePage<PageAchievement>();
+            CreatePage<PageSettings>();
             CreatePage<PageAbout>();
 #if DEBUG
             CreatePage<PageTools>();
@@ -140,36 +237,143 @@ namespace GrasscutterTools.Forms
         }
 
         /// <summary>
+        /// 当前的页面选项卡顺序
+        /// string Item1 = Page Name(Key)
+        /// bool Item2 = IsVisible
+        /// </summary>
+        public List<Tuple<string, bool>> PageTabOrders { get; set; }
+
+        /// <summary>
+        /// 加载页面选项卡顺序
+        /// </summary>
+        private List<Tuple<string, bool>> LoadPageTabOrders()
+        {
+            if (PageTabOrders != null) return PageTabOrders;
+            List<Tuple<string, bool>> tabOrders;
+            if (!(Settings.Default.PageOrders?.Count > 0))
+            {
+                tabOrders = new List<Tuple<string, bool>>(Pages.Count);
+                // 默认状态
+                foreach (var tab in Pages)
+                    tabOrders.Add(new Tuple<string, bool>(tab.Key, true));
+            }
+            else
+            {
+                tabOrders = new List<Tuple<string, bool>>(Settings.Default.PageOrders.Count);
+                // 从设置中读取
+                foreach (var item in Settings.Default.PageOrders)
+                {
+                    // 冒号分隔的项   "PageHome:1"  0=隐藏 1=显示
+                    var sp = item.IndexOf(':');
+                    if (sp == -1 || !int.TryParse(item.Substring(sp + 1), out var isVisible)) continue;
+                    tabOrders.Add(new Tuple<string, bool>(item.Substring(0, sp), isVisible != 0));
+                }
+            }
+
+            return tabOrders;
+        }
+
+        /// <summary>
+        /// 重置页面选项卡顺序
+        /// </summary>
+        public void ResetPageTabOrders()
+        {
+            PageTabOrders = new List<Tuple<string, bool>>(Pages.Count);
+            // 默认状态
+            foreach (var tab in Pages)
+                PageTabOrders.Add(new Tuple<string, bool>(tab.Key, true));
+        }
+
+        /// <summary>
+        /// 保存页面选项卡顺序
+        /// </summary>
+        public void SavePageTabOrders()
+        {
+            if (PageTabOrders == null || PageTabOrders.Count == 0)
+            {
+                Settings.Default.PageOrders = null;
+                return;
+            }
+
+            var setting = new StringCollection();
+            // 冒号分隔的项   "PageHome:1"  0=隐藏 1=显示
+            foreach (var pageOrder in PageTabOrders)
+                setting.Add($"{pageOrder.Item1}:{(pageOrder.Item2?'1':'0')}");
+            Settings.Default.PageOrders = setting;
+        }
+
+        /// <summary>
         /// 初始化页面导航
         /// </summary>
-        private void InitPagesNav()
+        public void UpdatePagesNav()
         {
+            ListPages.BeginUpdate();
             ListPages.Items.Clear();
-            ListPages.Items.AddRange(new object[]
+
+            // 以下代码主要是为了加载用户自定义顺序的选项卡
+            var tabOrders = LoadPageTabOrders();
+            // 程序更新后增加或减少了界面的情况
+            if (tabOrders.Count != Pages.Count)
             {
-                Resources.PageHomeTitle,
-                Resources.PageOpenCommandTitle,
-                Resources.PageProxyTitle,
-                Resources.PageCustomCommandsTitle,
-                Resources.PageHotKey,
-                Resources.PageGetArtifactTitle,
-                Resources.PageSetPropTitle,
-                Resources.PageSpawnTitle,
-                Resources.PageGiveItemTitle,
-                Resources.PageAvatarTitle,
-                Resources.PageGiveWeaponTitle,
-                Resources.PageSceneTitle,
-                Resources.PageSceneTagTitle,
-                Resources.PageTasksTitle,
-                Resources.PageManagementTitle,
-                Resources.PageMailTitle,
-                Resources.PageQuestTitle,
-                Resources.PageAchievementTitle,
-                Resources.PageAboutTitle,
-#if DEBUG
-                "Tools",
-#endif
-            });
+                PageTabOrders = new List<Tuple<string, bool>>(Pages.Count);
+                var i = 0;
+                var pageKeys = Pages.Keys.ToList();
+                foreach (var pageOrder in tabOrders)
+                {
+                    // 新增页面优先显示
+                    if (tabOrders.All(it => it.Item1 != pageKeys[i]))
+                    {
+                        PageTabOrders.Add(new Tuple<string, bool>(pageKeys[i], true));
+                        ListPages.Items.Add(Pages[pageKeys[i]].Text);
+                    }
+                    // 尝试获取页面标题
+                    if (Pages.TryGetValue(pageOrder.Item1, out var page))
+                    {
+                        // 仅设置为可见时添加
+                        if (pageOrder.Item2)
+                            ListPages.Items.Add(page.Text);
+                        PageTabOrders.Add(new Tuple<string, bool>(pageOrder.Item1, pageOrder.Item2));
+                    }
+                    // 如果获取不到页面标题，说明在本次更新中这个页面被删掉了，因此设置项也随之更新
+                    i++;
+                }
+                // 加上新增在最后的页面
+                while (i < Pages.Count)
+                {
+                    PageTabOrders.Add(new Tuple<string, bool>(pageKeys[i], true));
+                    ListPages.Items.Add(Pages[pageKeys[i]].Text);
+                    i++;
+                }
+                // 保存页面顺序
+                SavePageTabOrders();
+            }
+            else
+            {
+                // 按照设定顺序显示
+                foreach (var pageOrder in tabOrders)
+                {
+                    if (pageOrder.Item2)
+                        ListPages.Items.Add(Pages[pageOrder.Item1].Text);
+                }
+
+                PageTabOrders = tabOrders;
+            }
+
+            ListPages.EndUpdate();
+        }
+
+        /// <summary>
+        /// 导航列表选中项改变时触发
+        /// </summary>
+        private void ListPages_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (ListPages.SelectedIndex == -1) return;
+            // 根据选中索引反查选中页面Key
+            var key = PageTabOrders.Where(it => it.Item2)
+                .ElementAt(ListPages.SelectedIndex)
+                .Item1;
+            // 通过Key找到页面的父节点也就是TabPage，设置为选中项
+            TCMain.SelectedTab = Pages[key].Parent as TabPage;
         }
 
         /// <summary>
@@ -213,93 +417,14 @@ namespace GrasscutterTools.Forms
                 Dock = DockStyle.Fill,
                 Name = typeof(T).Name,
             };
+            Pages.Add(page.Name, page);
             var tp = new TabPage();
             TCMain.TabPages.Add(tp);
             tp.Controls.Add(page);
             return page;
         }
 
-        private void ListPages_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            TCMain.SelectedIndex = ListPages.SelectedIndex;
-        }
-
-        /// <summary>
-        /// 窗体载入时触发（切换语言时会重新载入）
-        /// </summary>
-        private void FormMain_Load(object sender, EventArgs e)
-        {
-            Logger.I(TAG, "FormMain_Load enter");
-            Text += "  - by jie65535  - v" + Common.AppVersion.ToString(3);
-#if DEBUG
-            Text += "-debug";
-#endif
-            if (DesignMode) return;
-
-            // 加载页面导航
-            InitPagesNav();
-
-            // 加载游戏ID资源
-            GameData.LoadResources();
-
-            // 遍历每一个页面重新加载
-            foreach (TabPage tp in TCMain.Controls)
-            {
-                if (tp.Controls.Count > 0 && tp.Controls[0] is BasePage page)
-                {
-                    Logger.I(TAG, $"{page.Name} OnLoad enter");
-                    page.OnLoad();
-                    Logger.I(TAG, $"{page.Name} OnLoad completed");
-                }
-            }
-            Logger.I(TAG, "FormMain_Load completed");
-        }
-
-        /// <summary>
-        /// 窗口关闭后触发
-        /// </summary>
-        private void FormMain_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            Logger.I(TAG, "FormMain FormClosed enter");
-            // 遍历每一个页面，通知关闭
-            foreach (TabPage tp in TCMain.Controls)
-            {
-                if (tp.Controls.Count > 0 && tp.Controls[0] is BasePage page)
-                    page.OnClosed();
-            }
-
-            // 保存当前设置
-            SaveSettings();
-            Logger.I(TAG, "FormMain FormClosed completed");
-        }
-
-        /// <summary>
-        /// 保存设置
-        /// </summary>
-        private void SaveSettings()
-        {
-            try
-            {
-                // 记录界面状态
-                Settings.Default.AutoCopy = ChkAutoCopy.Checked;
-                // 记录窗口位置
-                if (WindowState == FormWindowState.Normal)
-                    Settings.Default.MainFormLocation = Location;
-                // 如果命令窗口已经弹出了，则不要保存多余的高度
-                Settings.Default.MainFormSize = TxtCommandRunLog != null ? new Size(Width, Height - TxtCommandRunLogMinHeight) : Size;
-                // 记录导航容器分隔位置
-                Settings.Default.NavContainerSplitterDistance = NavContainer.SplitterDistance;
-                // 保存设置
-                Settings.Default.Save();
-            }
-            catch (Exception ex)
-            {
-                Logger.E(TAG, "Save settings failed.", ex);
-                MessageBox.Show(Resources.SettingSaveError + ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        #endregion - 初始化 Init -
+        #endregion
 
         #region - 快捷键执行 HotKey -
 
@@ -629,9 +754,9 @@ namespace GrasscutterTools.Forms
         /// <returns>如果导航到了则返回页面实例，否则返回空</returns>
         public TPage NavigateTo<TPage>() where TPage : BasePage
         {
-            for (var i = 0; i < TCMain.Controls.Count; i++)
+            for (var i = 0; i < TCMain.TabPages.Count; i++)
             {
-                if (TCMain.Controls[i].Controls[0] is TPage page)
+                if (TCMain.TabPages[i].Controls[0] is TPage page)
                 {
                     ListPages.SelectedIndex = i; 
                     return page;

@@ -10,6 +10,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageAchievement : BasePage
     {
+        public override string Text => Resources.PageAchievementTitle;
+
         public PageAchievement()
         {
             InitializeComponent();

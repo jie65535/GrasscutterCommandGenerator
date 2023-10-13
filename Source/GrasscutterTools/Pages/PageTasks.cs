@@ -16,7 +16,7 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageTasks : BasePage
     {
-        private const string TAG = nameof(PageTasks);
+        public override string Text => Resources.PageTasksTitle;
 
         public PageTasks()
         {
@@ -83,7 +83,7 @@ namespace GrasscutterTools.Pages
                 catch (Exception ex)
                 {
                     Tasks = new List<LoopTask>();
-                    Logger.W(TAG, "Parsing Tasks json failed", ex);
+                    Logger.W(Name, "Parsing Tasks json failed", ex);
                 }
             }
             else
@@ -228,7 +228,7 @@ namespace GrasscutterTools.Pages
                     {
                         try
                         {
-                            Logger.I(TAG, $"Task \"{task.Tag}\" started");
+                            Logger.I(Name, $"Task \"{task.Tag}\" started");
                             // 循环执行命令
                             for (int c = 0;
                                 !token.IsCancellationRequested
@@ -250,14 +250,14 @@ namespace GrasscutterTools.Pages
                         {
                             // 任务结束后取消勾选状态
                             BeginInvoke(new Action(() => item.Checked = false));
-                            Logger.I(TAG, $"Task \"{task.Tag}\" stoped");
+                            Logger.I(Name, $"Task \"{task.Tag}\" stoped");
                         }
                     }, token);
                 }
             }
             catch (Exception ex)
             {
-                Logger.E(TAG, "Start or Stop Task failed.", ex);
+                Logger.E(Name, "Start or Stop Task failed.", ex);
                 MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

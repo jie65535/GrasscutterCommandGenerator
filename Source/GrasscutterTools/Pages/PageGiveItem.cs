@@ -33,6 +33,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageGiveItem : BasePage
     {
+        public override string Text => Resources.PageGiveItemTitle;
+
         public PageGiveItem()
         {
             InitializeComponent();

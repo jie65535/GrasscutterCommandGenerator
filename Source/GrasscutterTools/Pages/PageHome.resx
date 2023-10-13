@@ -117,508 +117,475 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnOpenShopEditor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="BtnOpenShopEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+  <data name="BtnOpenShopEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 118</value>
   </data>
-  <data name="&gt;&gt;ChkTopMost.Name" xml:space="preserve">
-    <value>ChkTopMost</value>
-  </data>
-  <data name="&gt;&gt;GrasscutterToolsIcon.Name" xml:space="preserve">
-    <value>GrasscutterToolsIcon</value>
+  <data name="BtnOpenShopEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LblLanguage.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="BtnOpenTextMap.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="&gt;&gt;LnkNewVersion.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="LblGCVersion.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;LblGCVersion.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="&gt;&gt;NUDUid.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenGachaBannerEditor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblDefaultUid.Text" xml:space="preserve">
-    <value>UID</value>
-  </data>
-  <data name="LblGCVersion.Text" xml:space="preserve">
-    <value>GC</value>
-  </data>
-  <data name="LblLanguage.Text" xml:space="preserve">
-    <value>语言/Language/язык</value>
-  </data>
-  <data name="ChkIncludeUID.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="BtnOpenGachaBannerEditor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 213</value>
-  </data>
-  <data name="&gt;&gt;CmbLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblLanguage.TabIndex" type="System.Int32, mscorlib">
+  <data name="BtnOpenShopEditor.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="&gt;&gt;LblLanguage.Name" xml:space="preserve">
-    <value>LblLanguage</value>
-  </data>
-  <data name="GrasscutterToolsIcon.Size" type="System.Drawing.Size, System.Drawing">
-    <value>333, 175</value>
-  </data>
-  <data name="&gt;&gt;ChkIncludeUID.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="BtnOpenTextMap.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="CmbGcVersions.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="LblAbout.Text" xml:space="preserve">
-    <value>祝你玩得愉快！</value>
-  </data>
-  <data name="&gt;&gt;LblDefaultUid.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="BtnActivityEditor.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BtnOpenDropEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>320, 102</value>
-  </data>
-  <data name="GrpSettings.Size" type="System.Drawing.Size, System.Drawing">
-    <value>301, 111</value>
-  </data>
-  <data name="LblDefaultUid.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;GrasscutterToolsIcon.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblAbout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="GrpSettings.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenShopEditor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblDefaultUid.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="GrasscutterToolsIcon.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 3</value>
-  </data>
-  <data name="ChkIncludeUID.Text" xml:space="preserve">
-    <value>生成的命令包含UID</value>
-  </data>
-  <data name="LnkNewVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>PageHome</value>
-  </data>
-  <data name="ChkIncludeUID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>147, 23</value>
-  </data>
-  <data name="BtnOpenDropEditor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="BtnOpenGachaBannerEditor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="LblDefaultUid.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ChkIncludeUID.Name" xml:space="preserve">
-    <value>ChkIncludeUID</value>
-  </data>
-  <data name="GrasscutterToolsIcon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
+  <data name="BtnOpenShopEditor.Text" xml:space="preserve">
+    <value>商店编辑器</value>
   </data>
   <data name="&gt;&gt;BtnOpenShopEditor.Name" xml:space="preserve">
     <value>BtnOpenShopEditor</value>
   </data>
-  <data name="CmbLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="BtnOpenTextMap.Location" type="System.Drawing.Point, System.Drawing">
-    <value>416, 213</value>
-  </data>
-  <data name="&gt;&gt;LblAbout.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblAbout.Name" xml:space="preserve">
-    <value>LblAbout</value>
-  </data>
-  <data name="BtnOpenShopEditor.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblGCVersion.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;GrpSettings.Name" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="&gt;&gt;CmbGcVersions.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblLanguage.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="BtnOpenGachaBannerEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenDropEditor.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenDropEditor.Name" xml:space="preserve">
-    <value>BtnOpenDropEditor</value>
-  </data>
-  <data name="BtnOpenShopEditor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="ChkTopMost.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblDefaultUid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="BtnOpenDropEditor.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenGachaBannerEditor.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="LblAbout.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft YaHei UI, 13pt</value>
-  </data>
-  <data name="&gt;&gt;LblLanguage.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="ChkTopMost.Text" xml:space="preserve">
-    <value>窗口置顶</value>
-  </data>
-  <data name="GrpSettings.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 125</value>
+  <data name="&gt;&gt;BtnOpenShopEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BtnOpenShopEditor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="BtnOpenGachaBannerEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="&gt;&gt;BtnOpenShopEditor.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
-  </data>
-  <data name="NUDUid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="GrpSettings.Text" xml:space="preserve">
-    <value>设置</value>
-  </data>
-  <data name="BtnOpenTextMap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;GrasscutterToolsIcon.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="ChkIncludeUID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>133, 21</value>
-  </data>
-  <data name="BtnOpenTextMap.Text" xml:space="preserve">
-    <value>文本浏览器</value>
-  </data>
-  <data name="LnkNewVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="BtnOpenDropEditor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="&gt;&gt;GrpSettings.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="NUDUid.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="LblDefaultUid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>30, 17</value>
-  </data>
-  <data name="&gt;&gt;LblDefaultUid.Name" xml:space="preserve">
-    <value>LblDefaultUid</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenTextMap.Name" xml:space="preserve">
-    <value>BtnOpenTextMap</value>
-  </data>
-  <data name="LblAbout.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.9.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
-  </data>
-  <data name="LnkNewVersion.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="LnkNewVersion.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ChkTopMost.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="BtnOpenDropEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="BtnActivityEditor.Text" xml:space="preserve">
-    <value>活动编辑器</value>
+  <data name="BtnOpenDropEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 149</value>
   </data>
-  <data name="&gt;&gt;LblGCVersion.Name" xml:space="preserve">
-    <value>LblGCVersion</value>
+  <data name="BtnOpenDropEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
   </data>
-  <data name="&gt;&gt;ChkIncludeUID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDUid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="BtnOpenDropEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="BtnOpenDropEditor.Text" xml:space="preserve">
     <value>掉落物编辑器</value>
   </data>
-  <data name="&gt;&gt;ChkTopMost.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
+  <data name="&gt;&gt;BtnOpenDropEditor.Name" xml:space="preserve">
+    <value>BtnOpenDropEditor</value>
   </data>
-  <data name="&gt;&gt;LblAbout.Parent" xml:space="preserve">
+  <data name="&gt;&gt;BtnOpenDropEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnOpenDropEditor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;LnkNewVersion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;BtnOpenDropEditor.ZOrder" xml:space="preserve">
+    <value>11</value>
   </data>
-  <data name="LblAbout.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="LnkNewVersion.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="LblGCVersion.AutoSize" type="System.Boolean, mscorlib">
+  <data name="LnkNewVersion.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;ChkTopMost.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblDefaultUid.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbLanguage.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="LblGCVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 17</value>
-  </data>
-  <data name="LblGCVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="LnkNewVersion.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="CmbGcVersions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 80</value>
+  <data name="LnkNewVersion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
   </data>
-  <data name="CmbGcVersions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
+  <data name="LnkNewVersion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 17</value>
   </data>
-  <data name="&gt;&gt;GrpSettings.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="CmbLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 51</value>
-  </data>
-  <data name="&gt;&gt;CmbGcVersions.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="NUDUid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>41, 22</value>
-  </data>
-  <data name="&gt;&gt;CmbLanguage.Name" xml:space="preserve">
-    <value>CmbLanguage</value>
-  </data>
-  <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
-  </data>
-  <data name="&gt;&gt;CmbGcVersions.Name" xml:space="preserve">
-    <value>CmbGcVersions</value>
-  </data>
-  <data name="&gt;&gt;ChkTopMost.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="LnkNewVersion.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="LnkNewVersion.Text" xml:space="preserve">
     <value>New Version Tip</value>
   </data>
+  <data name="LnkNewVersion.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LnkNewVersion.Name" xml:space="preserve">
+    <value>LnkNewVersion</value>
+  </data>
+  <data name="&gt;&gt;LnkNewVersion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkNewVersion.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LnkNewVersion.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="LblAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="LblAbout.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei UI, 13pt</value>
+  </data>
+  <data name="LblAbout.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblAbout.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="LblAbout.Size" type="System.Drawing.Size, System.Drawing">
+    <value>320, 102</value>
+  </data>
+  <data name="LblAbout.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblAbout.Text" xml:space="preserve">
+    <value>祝你玩得愉快！</value>
+  </data>
+  <data name="LblAbout.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;LblAbout.Name" xml:space="preserve">
+    <value>LblAbout</value>
+  </data>
+  <data name="&gt;&gt;LblAbout.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblAbout.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblAbout.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="BtnOpenTextMap.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="BtnOpenTextMap.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnOpenTextMap.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 211</value>
+  </data>
+  <data name="BtnOpenTextMap.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="BtnOpenTextMap.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="BtnOpenTextMap.Text" xml:space="preserve">
+    <value>文本浏览器</value>
+  </data>
+  <data name="&gt;&gt;BtnOpenTextMap.Name" xml:space="preserve">
+    <value>BtnOpenTextMap</value>
+  </data>
+  <data name="&gt;&gt;BtnOpenTextMap.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnOpenTextMap.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnOpenTextMap.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="BtnOpenGachaBannerEditor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="BtnOpenGachaBannerEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnOpenGachaBannerEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 90</value>
+  </data>
+  <data name="BtnOpenGachaBannerEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="BtnOpenGachaBannerEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
+    <value>奖池编辑器</value>
+  </data>
   <data name="&gt;&gt;BtnOpenGachaBannerEditor.Name" xml:space="preserve">
     <value>BtnOpenGachaBannerEditor</value>
   </data>
-  <data name="GrpSettings.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="LblLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>147, 54</value>
-  </data>
-  <data name="BtnOpenShopEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="GrasscutterToolsIcon.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;ChkIncludeUID.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;LnkNewVersion.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="LblLanguage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="BtnOpenDropEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+  <data name="&gt;&gt;BtnOpenGachaBannerEditor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BtnOpenGachaBannerEditor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;BtnOpenDropEditor.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;BtnOpenGachaBannerEditor.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
-  <data name="&gt;&gt;BtnOpenTextMap.Type" xml:space="preserve">
+  <data name="GrasscutterToolsIcon.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="GrasscutterToolsIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GrasscutterToolsIcon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 3</value>
+  </data>
+  <data name="GrasscutterToolsIcon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 202</value>
+  </data>
+  <data name="GrasscutterToolsIcon.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="GrasscutterToolsIcon.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;GrasscutterToolsIcon.Name" xml:space="preserve">
+    <value>GrasscutterToolsIcon</value>
+  </data>
+  <data name="&gt;&gt;GrasscutterToolsIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrasscutterToolsIcon.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrasscutterToolsIcon.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="BtnActivityEditor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="BtnActivityEditor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 180</value>
+  </data>
+  <data name="BtnActivityEditor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
+  </data>
+  <data name="BtnActivityEditor.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="BtnActivityEditor.Text" xml:space="preserve">
+    <value>活动编辑器</value>
+  </data>
+  <data name="&gt;&gt;BtnActivityEditor.Name" xml:space="preserve">
+    <value>BtnActivityEditor</value>
+  </data>
+  <data name="&gt;&gt;BtnActivityEditor.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;BtnActivityEditor.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="BtnOpenGachaBannerEditor.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="&gt;&gt;BtnActivityEditor.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
-  <data name="ChkIncludeUID.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="LblTip1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
-  <data name="BtnActivityEditor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>522, 213</value>
+  <data name="LblTip1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="BtnActivityEditor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+  <data name="LblTip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 94</value>
   </data>
-  <data name="BtnOpenDropEditor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>416, 184</value>
+  <data name="LblTip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 17</value>
   </data>
-  <data name="ChkTopMost.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="LblTip1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;NUDUid.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="LblTip1.Text" xml:space="preserve">
+    <value>/data/Banners.json</value>
   </data>
-  <data name="&gt;&gt;BtnOpenTextMap.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;LblTip1.Name" xml:space="preserve">
+    <value>LblTip1</value>
   </data>
-  <data name="&gt;&gt;NUDUid.Name" xml:space="preserve">
-    <value>NUDUid</value>
+  <data name="&gt;&gt;LblTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LnkNewVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 17</value>
-  </data>
-  <data name="LblLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>128, 17</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenTextMap.Parent" xml:space="preserve">
+  <data name="&gt;&gt;LblTip1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="BtnOpenShopEditor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="BtnActivityEditor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;CmbLanguage.Parent" xml:space="preserve">
-    <value>GrpSettings</value>
-  </data>
-  <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
-    <value>奖池编辑器</value>
-  </data>
-  <data name="LblAbout.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;GrasscutterToolsIcon.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;LblTip1.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="&gt;&gt;LblAbout.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LnkNewVersion.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BtnOpenDropEditor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BtnOpenTextMap.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="LblTip2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
-  <data name="ChkIncludeUID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="LblTip2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;LnkNewVersion.Name" xml:space="preserve">
-    <value>LnkNewVersion</value>
+  <data name="LblTip2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 122</value>
+  </data>
+  <data name="LblTip2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="LblTip2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="LblTip2.Text" xml:space="preserve">
+    <value>/data/Shop.json</value>
+  </data>
+  <data name="&gt;&gt;LblTip2.Name" xml:space="preserve">
+    <value>LblTip2</value>
+  </data>
+  <data name="&gt;&gt;LblTip2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTip2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblTip2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="LblTip3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="LblTip3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTip3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 153</value>
+  </data>
+  <data name="LblTip3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 17</value>
+  </data>
+  <data name="LblTip3.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblTip3.Text" xml:space="preserve">
+    <value>/data/Drop.json</value>
+  </data>
+  <data name="&gt;&gt;LblTip3.Name" xml:space="preserve">
+    <value>LblTip3</value>
+  </data>
+  <data name="&gt;&gt;LblTip3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTip3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblTip3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="LblTip4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="LblTip4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTip4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 184</value>
+  </data>
+  <data name="LblTip4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 17</value>
+  </data>
+  <data name="LblTip4.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="LblTip4.Text" xml:space="preserve">
+    <value>/data/ActivityConfig.json</value>
+  </data>
+  <data name="&gt;&gt;LblTip4.Name" xml:space="preserve">
+    <value>LblTip4</value>
+  </data>
+  <data name="&gt;&gt;LblTip4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTip4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblTip4.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblTip5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="LblTip5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblTip5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 215</value>
+  </data>
+  <data name="LblTip5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="LblTip5.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="LblTip5.Text" xml:space="preserve">
+    <value>/Res/TextMaps</value>
+  </data>
+  <data name="&gt;&gt;LblTip5.Name" xml:space="preserve">
+    <value>LblTip5</value>
+  </data>
+  <data name="&gt;&gt;LblTip5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTip5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblTip5.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="CmbLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="CmbLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 211</value>
   </data>
   <data name="CmbLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 25</value>
   </data>
-  <data name="BtnOpenShopEditor.Text" xml:space="preserve">
-    <value>商店编辑器</value>
+  <data name="CmbLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
   </data>
-  <data name="ChkTopMost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>147, 82</value>
+  <data name="&gt;&gt;CmbLanguage.Name" xml:space="preserve">
+    <value>CmbLanguage</value>
   </data>
-  <data name="&gt;&gt;BtnOpenShopEditor.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;CmbLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LblGCVersion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;CmbLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="GrasscutterToolsIcon.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;BtnActivityEditor.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;CmbLanguage.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="BtnOpenShopEditor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>310, 184</value>
+  <data name="LblLanguage.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
   </data>
-  <data name="&gt;&gt;GrpSettings.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="LblLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="&gt;&gt;CmbGcVersions.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;BtnActivityEditor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;BtnActivityEditor.Name" xml:space="preserve">
-    <value>BtnActivityEditor</value>
-  </data>
-  <data name="LblGCVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 83</value>
-  </data>
-  <data name="LnkNewVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 105</value>
-  </data>
-  <data name="LblDefaultUid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>7, 24</value>
-  </data>
-  <data name="GrasscutterToolsIcon.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="LblLanguage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="LblLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 215</value>
+  </data>
+  <data name="LblLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 17</value>
+  </data>
+  <data name="LblLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="LblLanguage.Text" xml:space="preserve">
+    <value>语言/Language/язык</value>
+  </data>
+  <data name="&gt;&gt;LblLanguage.Name" xml:space="preserve">
+    <value>LblLanguage</value>
+  </data>
+  <data name="&gt;&gt;LblLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblLanguage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblLanguage.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PageHome</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.13.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  </data>
 </root>

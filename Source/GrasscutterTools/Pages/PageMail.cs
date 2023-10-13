@@ -34,6 +34,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageMail : BasePage
     {
+        public override string Text => Resources.PageMailTitle;
+
         public PageMail()
         {
             InitializeComponent();

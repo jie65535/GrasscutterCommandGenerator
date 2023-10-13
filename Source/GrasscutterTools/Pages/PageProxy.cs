@@ -27,7 +27,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageProxy : BasePage
     {
-        private const string TAG = nameof(PageProxy);
+        public override string Text => Resources.PageProxyTitle;
+
         public PageProxy()
         {
             InitializeComponent();
@@ -41,7 +42,7 @@ namespace GrasscutterTools.Pages
 
             if (Settings.Default.AutoStartProxy && !ProxyHelper.IsRunning)
             {
-                Logger.I(TAG, "Auto start proxy!");
+                Logger.I(Name, "Auto start proxy!");
                 BtnStartProxy_Click(BtnStartProxy, EventArgs.Empty);
             }
         }
@@ -50,7 +51,7 @@ namespace GrasscutterTools.Pages
         {
             try
             {
-                Logger.I(TAG, "Stop Proxy");
+                Logger.I(Name, "Stop Proxy");
                 ProxyHelper.StopProxy();
             }
             catch (Exception ex)
@@ -58,7 +59,7 @@ namespace GrasscutterTools.Pages
 #if DEBUG
                 MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
 #endif
-                Logger.E(TAG, "Stop Proxy Failed.", ex);
+                Logger.E(Name, "Stop Proxy Failed.", ex);
             }
         }
 
@@ -101,7 +102,7 @@ namespace GrasscutterTools.Pages
             }
             catch (Exception ex)
             {
-                Logger.E(TAG, "Start Proxy failed.", ex);
+                Logger.E(Name, "Start Proxy failed.", ex);
                 MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
@@ -127,7 +128,7 @@ namespace GrasscutterTools.Pages
         /// </summary>
         private void BtnDestroyCert_Click(object sender, EventArgs e)
         {
-            Logger.I(TAG, "DestroyCertificate");
+            Logger.I(Name, "DestroyCertificate");
             ProxyHelper.DestroyCertificate();
             MessageBox.Show("OK", Resources.Tips);
         }

@@ -28,6 +28,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageManagement : BasePage
     {
+        public override string Text => Resources.PageManagementTitle;
+
         public PageManagement()
         {
             InitializeComponent();

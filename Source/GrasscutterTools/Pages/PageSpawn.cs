@@ -33,10 +33,12 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageSpawn : BasePage
     {
+        public override string Text => Resources.PageSpawnTitle;
+
         public PageSpawn()
         {
             InitializeComponent();
-
+            if (DesignMode) return;
             InitSpawnRecord();
         }
 

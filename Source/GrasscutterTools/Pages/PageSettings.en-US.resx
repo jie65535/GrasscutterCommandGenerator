@@ -117,19 +117,41 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnOpenShopEditor.Text" xml:space="preserve">
-    <value>商店編輯器</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="LblPageTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 17</value>
   </data>
-  <data name="BtnOpenDropEditor.Text" xml:space="preserve">
-    <value>掉落物編輯器</value>
+  <data name="LblPageTitle.Text" xml:space="preserve">
+    <value>Settings</value>
   </data>
-  <data name="BtnOpenTextMap.Text" xml:space="preserve">
-    <value>文本瀏覽器</value>
+  <data name="LblIncludeUidTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 17</value>
   </data>
-  <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
-    <value>獎池編輯器</value>
+  <data name="LblIncludeUidTip.Text" xml:space="preserve">
+    <value>Console mode only checked</value>
   </data>
-  <data name="BtnActivityEditor.Text" xml:space="preserve">
-    <value>活動編輯器</value>
+  <data name="GrpPageList.Text" xml:space="preserve">
+    <value>Page list</value>
+  </data>
+  <data name="BtnResetPageList.Text" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="LblGcVersionTip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 17</value>
+  </data>
+  <data name="LblGcVersionTip.Text" xml:space="preserve">
+    <value>Used to distinguish command versions</value>
+  </data>
+  <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 21</value>
+  </data>
+  <data name="ChkTopMost.Text" xml:space="preserve">
+    <value>Always on top</value>
+  </data>
+  <data name="LblWindowOpacity.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="LblWindowOpacity.Text" xml:space="preserve">
+    <value>Opacity</value>
   </data>
 </root>

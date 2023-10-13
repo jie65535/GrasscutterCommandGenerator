@@ -117,19 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="BtnOpenShopEditor.Text" xml:space="preserve">
-    <value>商店編輯器</value>
+  <data name="LblPageTitle.Text" xml:space="preserve">
+    <value>程式設定</value>
   </data>
-  <data name="BtnOpenDropEditor.Text" xml:space="preserve">
-    <value>掉落物編輯器</value>
+  <data name="LblIncludeUidTip.Text" xml:space="preserve">
+    <value>僅控制台模式勾選</value>
   </data>
-  <data name="BtnOpenTextMap.Text" xml:space="preserve">
-    <value>文本瀏覽器</value>
+  <data name="GrpPageList.Text" xml:space="preserve">
+    <value>頁面清單</value>
   </data>
-  <data name="BtnOpenGachaBannerEditor.Text" xml:space="preserve">
-    <value>獎池編輯器</value>
+  <data name="BtnResetPageList.Text" xml:space="preserve">
+    <value>恢復預設值</value>
   </data>
-  <data name="BtnActivityEditor.Text" xml:space="preserve">
-    <value>活動編輯器</value>
+  <data name="LblGcVersionTip.Text" xml:space="preserve">
+    <value>用於區分命令版本</value>
+  </data>
+  <data name="ChkTopMost.Text" xml:space="preserve">
+    <value>窗口置頂</value>
   </data>
 </root>

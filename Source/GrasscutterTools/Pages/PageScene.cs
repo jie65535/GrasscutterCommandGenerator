@@ -27,6 +27,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageScene : BasePage
     {
+        public override string Text => Resources.PageSceneTitle;
+
         public PageScene()
         {
             InitializeComponent();

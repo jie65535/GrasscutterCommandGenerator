@@ -310,6 +310,12 @@
     <Compile Include="Pages\PageSetProp.Designer.cs">
       <DependentUpon>PageSetProp.cs</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PageSettings.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageSettings.Designer.cs">
+      <DependentUpon>PageSettings.cs</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PageSpawn.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -646,6 +652,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageSetProp.zh-TW.resx">
       <DependentUpon>PageSetProp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSettings.en-US.resx">
+      <DependentUpon>PageSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSettings.resx">
+      <DependentUpon>PageSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSettings.ru-RU.resx">
+      <DependentUpon>PageSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageSettings.zh-TW.resx">
+      <DependentUpon>PageSettings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageSpawn.en-US.resx">
       <DependentUpon>PageSpawn.cs</DependentUpon>

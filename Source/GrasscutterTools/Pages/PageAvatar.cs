@@ -22,12 +22,15 @@ using System.Linq;
 using System.Windows.Forms;
 
 using GrasscutterTools.Game;
+using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
 
 namespace GrasscutterTools.Pages
 {
     internal partial class PageAvatar : BasePage
     {
+        public override string Text => Resources.PageAvatarTitle;
+
         public PageAvatar()
         {
             InitializeComponent();

@@ -310,5 +310,28 @@ namespace GrasscutterTools.Properties {
                 this["AutoStartProxy"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        public global::System.Collections.Specialized.StringCollection PageOrders {
+            get {
+                return ((global::System.Collections.Specialized.StringCollection)(this["PageOrders"]));
+            }
+            set {
+                this["PageOrders"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("100")]
+        public int WindowOpacity {
+            get {
+                return ((int)(this["WindowOpacity"]));
+            }
+            set {
+                this["WindowOpacity"] = value;
+            }
+        }
     }
 }

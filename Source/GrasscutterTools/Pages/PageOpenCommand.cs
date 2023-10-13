@@ -38,6 +38,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageOpenCommand : BasePage
     {
+        public override string Text => Resources.PageOpenCommandTitle;
+
         private const string TAG = nameof(PageOpenCommand);
 
         public PageOpenCommand()

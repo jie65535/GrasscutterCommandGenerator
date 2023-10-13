@@ -20,11 +20,14 @@
 using System;
 using System.Windows.Forms;
 using GrasscutterTools.Game;
+using GrasscutterTools.Properties;
 
 namespace GrasscutterTools.Pages
 {
     internal partial class PageSceneTag : BasePage
     {
+        public override string Text => Resources.PageSceneTagTitle;
+
         public PageSceneTag()
         {
             InitializeComponent();

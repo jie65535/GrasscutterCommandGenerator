@@ -36,19 +36,15 @@
             this.BtnOpenTextMap = new System.Windows.Forms.Button();
             this.BtnOpenGachaBannerEditor = new System.Windows.Forms.Button();
             this.GrasscutterToolsIcon = new System.Windows.Forms.PictureBox();
-            this.GrpSettings = new System.Windows.Forms.GroupBox();
-            this.LblGCVersion = new System.Windows.Forms.Label();
-            this.CmbGcVersions = new System.Windows.Forms.ComboBox();
-            this.ChkTopMost = new System.Windows.Forms.CheckBox();
+            this.BtnActivityEditor = new System.Windows.Forms.Button();
+            this.LblTip1 = new System.Windows.Forms.Label();
+            this.LblTip2 = new System.Windows.Forms.Label();
+            this.LblTip3 = new System.Windows.Forms.Label();
+            this.LblTip4 = new System.Windows.Forms.Label();
+            this.LblTip5 = new System.Windows.Forms.Label();
             this.CmbLanguage = new System.Windows.Forms.ComboBox();
             this.LblLanguage = new System.Windows.Forms.Label();
-            this.NUDUid = new System.Windows.Forms.NumericUpDown();
-            this.ChkIncludeUID = new System.Windows.Forms.CheckBox();
-            this.LblDefaultUid = new System.Windows.Forms.Label();
-            this.BtnActivityEditor = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.GrasscutterToolsIcon)).BeginInit();
-            this.GrpSettings.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDUid)).BeginInit();
             this.SuspendLayout();
             // 
             // BtnOpenShopEditor
@@ -98,37 +94,42 @@
             this.GrasscutterToolsIcon.Name = "GrasscutterToolsIcon";
             this.GrasscutterToolsIcon.TabStop = false;
             // 
-            // GrpSettings
+            // BtnActivityEditor
             // 
-            resources.ApplyResources(this.GrpSettings, "GrpSettings");
-            this.GrpSettings.Controls.Add(this.LblGCVersion);
-            this.GrpSettings.Controls.Add(this.CmbGcVersions);
-            this.GrpSettings.Controls.Add(this.ChkTopMost);
-            this.GrpSettings.Controls.Add(this.CmbLanguage);
-            this.GrpSettings.Controls.Add(this.LblLanguage);
-            this.GrpSettings.Controls.Add(this.NUDUid);
-            this.GrpSettings.Controls.Add(this.ChkIncludeUID);
-            this.GrpSettings.Controls.Add(this.LblDefaultUid);
-            this.GrpSettings.Name = "GrpSettings";
-            this.GrpSettings.TabStop = false;
+            resources.ApplyResources(this.BtnActivityEditor, "BtnActivityEditor");
+            this.BtnActivityEditor.Name = "BtnActivityEditor";
+            this.BtnActivityEditor.UseVisualStyleBackColor = true;
+            this.BtnActivityEditor.Click += new System.EventHandler(this.BtnActivityEditor_Click);
             // 
-            // LblGCVersion
+            // LblTip1
             // 
-            resources.ApplyResources(this.LblGCVersion, "LblGCVersion");
-            this.LblGCVersion.Name = "LblGCVersion";
+            resources.ApplyResources(this.LblTip1, "LblTip1");
+            this.LblTip1.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.LblTip1.Name = "LblTip1";
             // 
-            // CmbGcVersions
+            // LblTip2
             // 
-            resources.ApplyResources(this.CmbGcVersions, "CmbGcVersions");
-            this.CmbGcVersions.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.CmbGcVersions.FormattingEnabled = true;
-            this.CmbGcVersions.Name = "CmbGcVersions";
+            resources.ApplyResources(this.LblTip2, "LblTip2");
+            this.LblTip2.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.LblTip2.Name = "LblTip2";
             // 
-            // ChkTopMost
+            // LblTip3
             // 
-            resources.ApplyResources(this.ChkTopMost, "ChkTopMost");
-            this.ChkTopMost.Name = "ChkTopMost";
-            this.ChkTopMost.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.LblTip3, "LblTip3");
+            this.LblTip3.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.LblTip3.Name = "LblTip3";
+            // 
+            // LblTip4
+            // 
+            resources.ApplyResources(this.LblTip4, "LblTip4");
+            this.LblTip4.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.LblTip4.Name = "LblTip4";
+            // 
+            // LblTip5
+            // 
+            resources.ApplyResources(this.LblTip5, "LblTip5");
+            this.LblTip5.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.LblTip5.Name = "LblTip5";
             // 
             // CmbLanguage
             // 
@@ -140,59 +141,30 @@
             // LblLanguage
             // 
             resources.ApplyResources(this.LblLanguage, "LblLanguage");
+            this.LblLanguage.ForeColor = System.Drawing.SystemColors.GrayText;
             this.LblLanguage.Name = "LblLanguage";
-            // 
-            // NUDUid
-            // 
-            resources.ApplyResources(this.NUDUid, "NUDUid");
-            this.NUDUid.Maximum = new decimal(new int[] {
-            2147483647,
-            0,
-            0,
-            0});
-            this.NUDUid.Name = "NUDUid";
-            this.NUDUid.Value = new decimal(new int[] {
-            10001,
-            0,
-            0,
-            0});
-            // 
-            // ChkIncludeUID
-            // 
-            resources.ApplyResources(this.ChkIncludeUID, "ChkIncludeUID");
-            this.ChkIncludeUID.Name = "ChkIncludeUID";
-            this.ChkIncludeUID.UseVisualStyleBackColor = true;
-            // 
-            // LblDefaultUid
-            // 
-            resources.ApplyResources(this.LblDefaultUid, "LblDefaultUid");
-            this.LblDefaultUid.Name = "LblDefaultUid";
-            // 
-            // BtnActivityEditor
-            // 
-            resources.ApplyResources(this.BtnActivityEditor, "BtnActivityEditor");
-            this.BtnActivityEditor.Name = "BtnActivityEditor";
-            this.BtnActivityEditor.UseVisualStyleBackColor = true;
-            this.BtnActivityEditor.Click += new System.EventHandler(this.BtnActivityEditor_Click);
             // 
             // PageHome
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.CmbLanguage);
+            this.Controls.Add(this.LblLanguage);
+            this.Controls.Add(this.LblTip5);
+            this.Controls.Add(this.LblTip4);
+            this.Controls.Add(this.LblTip3);
+            this.Controls.Add(this.LblTip2);
+            this.Controls.Add(this.LblTip1);
+            this.Controls.Add(this.LnkNewVersion);
             this.Controls.Add(this.BtnActivityEditor);
-            this.Controls.Add(this.LblAbout);
             this.Controls.Add(this.BtnOpenTextMap);
             this.Controls.Add(this.BtnOpenGachaBannerEditor);
             this.Controls.Add(this.BtnOpenDropEditor);
             this.Controls.Add(this.BtnOpenShopEditor);
             this.Controls.Add(this.GrasscutterToolsIcon);
-            this.Controls.Add(this.GrpSettings);
-            this.Controls.Add(this.LnkNewVersion);
+            this.Controls.Add(this.LblAbout);
             this.Name = "PageHome";
             ((System.ComponentModel.ISupportInitialize)(this.GrasscutterToolsIcon)).EndInit();
-            this.GrpSettings.ResumeLayout(false);
-            this.GrpSettings.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.NUDUid)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -207,15 +179,13 @@
         private System.Windows.Forms.Button BtnOpenTextMap;
         private System.Windows.Forms.Button BtnOpenGachaBannerEditor;
         private System.Windows.Forms.PictureBox GrasscutterToolsIcon;
-        private System.Windows.Forms.GroupBox GrpSettings;
-        private System.Windows.Forms.Label LblGCVersion;
-        private System.Windows.Forms.ComboBox CmbGcVersions;
-        private System.Windows.Forms.CheckBox ChkTopMost;
+        private System.Windows.Forms.Button BtnActivityEditor;
+        private System.Windows.Forms.Label LblTip1;
+        private System.Windows.Forms.Label LblTip2;
+        private System.Windows.Forms.Label LblTip3;
+        private System.Windows.Forms.Label LblTip4;
+        private System.Windows.Forms.Label LblTip5;
         private System.Windows.Forms.ComboBox CmbLanguage;
         private System.Windows.Forms.Label LblLanguage;
-        private System.Windows.Forms.NumericUpDown NUDUid;
-        private System.Windows.Forms.CheckBox ChkIncludeUID;
-        private System.Windows.Forms.Label LblDefaultUid;
-        private System.Windows.Forms.Button BtnActivityEditor;
     }
 }

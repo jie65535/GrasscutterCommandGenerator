@@ -1240,6 +1240,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 设置 的本地化字符串。
+        /// </summary>
+        internal static string PageSettingsTitle {
+            get {
+                return ResourceManager.GetString("PageSettingsTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 生成 的本地化字符串。
         /// </summary>
         internal static string PageSpawnTitle {

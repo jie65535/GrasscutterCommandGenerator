@@ -30,6 +30,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageCustomCommands : BasePage
     {
+        public override string Text => Resources.PageCustomCommandsTitle;
+
         public PageCustomCommands()
         {
             InitializeComponent();

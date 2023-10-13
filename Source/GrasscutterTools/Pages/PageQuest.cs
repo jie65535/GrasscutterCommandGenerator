@@ -22,11 +22,14 @@ using System.Linq;
 using System.Windows.Forms;
 
 using GrasscutterTools.Game;
+using GrasscutterTools.Properties;
 
 namespace GrasscutterTools.Pages
 {
     internal partial class PageQuest : BasePage
     {
+        public override string Text => Resources.PageQuestTitle;
+
         public PageQuest()
         {
             InitializeComponent();

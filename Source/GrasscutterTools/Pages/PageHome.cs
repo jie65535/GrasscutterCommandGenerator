@@ -19,14 +19,11 @@
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using GrasscutterTools.Forms;
-using GrasscutterTools.Game;
-
 using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
 
@@ -34,6 +31,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageHome : BasePage
     {
+        public override string Text => Resources.PageHomeTitle;
+
         /// <summary>
         /// 初始化首页设置
         /// </summary>
@@ -41,26 +40,6 @@ namespace GrasscutterTools.Pages
         {
             InitializeComponent();
             if (DesignMode) return;
-
-            // 玩家UID
-            NUDUid.Value = Settings.Default.Uid;
-            NUDUid.ValueChanged += (o, e) => Settings.Default.Uid = NUDUid.Value;
-
-            // 是否包含UID
-            ChkIncludeUID.Checked = Settings.Default.IsIncludeUID;
-            ChkIncludeUID.CheckedChanged += (o, e) => Settings.Default.IsIncludeUID = ChkIncludeUID.Checked;
-
-            // 置顶
-            ChkTopMost.Checked = Settings.Default.IsTopMost;
-            ChkTopMost.CheckedChanged += (o, e) => Settings.Default.IsTopMost = ParentForm.TopMost = ChkTopMost.Checked;
-
-            // 命令版本初始化
-            if (Version.TryParse(Settings.Default.CommandVersion, out Version current))
-                CommandVersion.Current = current;
-            CmbGcVersions.DataSource = CommandVersion.List.Select(it => it.ToString(3)).ToList();
-            CmbGcVersions.SelectedIndex = Array.IndexOf(CommandVersion.List, CommandVersion.Current);
-            CmbGcVersions.SelectedIndexChanged += (o, e) => CommandVersion.Current = CommandVersion.List[CmbGcVersions.SelectedIndex];
-            CommandVersion.VersionChanged += (o, e) => Settings.Default.CommandVersion = CommandVersion.Current.ToString(3);
 
             // 初始化多语言
             CmbLanguage.DataSource = MultiLanguage.LanguageNames;
@@ -76,7 +55,6 @@ namespace GrasscutterTools.Pages
                 CmbLanguage.SelectedIndex = Array.IndexOf(MultiLanguage.Languages, Settings.Default.DefaultLanguage);
             }
             CmbLanguage.SelectedIndexChanged += CmbLanguage_SelectedIndexChanged;
-
 #if !DEBUG  // 仅正式版
             // 检查更新，但不要弹窗
             Task.Run(async () => { try { await LoadUpdate(); } catch { /* 启动时检查更新，忽略异常 */ }});
@@ -115,7 +93,7 @@ namespace GrasscutterTools.Pages
             form.TopMost = false;
         }
 
-        private readonly Dictionary<string, Form> MyForms = new Dictionary<string, Form>();
+        private readonly Dictionary<string, Form> MyForms = new();
 
         private void ShowForm<T>(string tag) where T : Form, new()
         {
@@ -157,12 +135,7 @@ namespace GrasscutterTools.Pages
         /// </summary>
         private void BtnActivityEditor_Click(object sender, EventArgs e)
             => ShowForm<FormActivityEditor>("ActivityEditor");
-
-        /// <summary>
-        /// 当选中语言改变时触发
-        /// </summary>
-        public Action OnLanguageChanged { get; set; }
-
+        
         /// <summary>
         /// 语言选中项改变时触发
         /// </summary>
@@ -173,8 +146,8 @@ namespace GrasscutterTools.Pages
             MultiLanguage.SetDefaultLanguage(MultiLanguage.Languages[CmbLanguage.SelectedIndex]);
             // 动态更改语言
             MultiLanguage.LoadLanguage(ParentForm, ParentForm.GetType());
-            // 通知语言改变
-            OnLanguageChanged?.Invoke();
+            // 重载界面
+            FormMain.Instance.Reload();
         }
 
         /// <summary>

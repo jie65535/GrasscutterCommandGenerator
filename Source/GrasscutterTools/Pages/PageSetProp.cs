@@ -28,6 +28,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageSetProp : BasePage
     {
+        public override string Text => Resources.PageSetPropTitle;
+
         private const string SetPropPrefix = "/prop";
 
         public PageSetProp()

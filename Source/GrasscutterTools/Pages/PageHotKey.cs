@@ -32,6 +32,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageHotKey : BasePage
     {
+        public override string Text => Resources.PageHotKey;
+
         private const string TAG = nameof(PageHotKey);
 
         public PageHotKey()

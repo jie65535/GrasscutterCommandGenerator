@@ -20,12 +20,15 @@
 using System;
 
 using GrasscutterTools.Game;
+using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
 
 namespace GrasscutterTools.Pages
 {
     internal partial class PageGiveWeapon : BasePage
     {
+        public override string Text => Resources.PageGiveWeaponTitle;
+
         public PageGiveWeapon()
         {
             InitializeComponent();

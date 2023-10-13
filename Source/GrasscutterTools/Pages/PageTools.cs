@@ -36,6 +36,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageTools : BasePage
     {
+        public override string Text => "Tools";
+
         public PageTools()
         {
             InitializeComponent();

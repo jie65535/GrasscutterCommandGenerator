@@ -30,6 +30,8 @@ namespace GrasscutterTools.Pages
 {
     internal partial class PageGiveArtifact : BasePage
     {
+        public override string Text => Resources.PageGetArtifactTitle;
+
         public PageGiveArtifact()
         {
             InitializeComponent();

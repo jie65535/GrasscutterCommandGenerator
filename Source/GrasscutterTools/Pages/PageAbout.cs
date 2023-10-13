@@ -18,13 +18,15 @@
  **/
 
 using System.Windows.Forms;
-
+using GrasscutterTools.Properties;
 using GrasscutterTools.Utils;
 
 namespace GrasscutterTools.Pages
 {
     internal partial class PageAbout : BasePage
     {
+        public override string Text => Resources.PageAboutTitle;
+
         public PageAbout()
         {
             InitializeComponent();
