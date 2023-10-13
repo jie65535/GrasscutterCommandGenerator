@@ -754,16 +754,10 @@ namespace GrasscutterTools.Forms
         /// <returns>如果导航到了则返回页面实例，否则返回空</returns>
         public TPage NavigateTo<TPage>() where TPage : BasePage
         {
-            for (var i = 0; i < TCMain.TabPages.Count; i++)
-            {
-                if (TCMain.TabPages[i].Controls[0] is TPage page)
-                {
-                    ListPages.SelectedIndex = i; 
-                    return page;
-                }
-            }
-
-            return null;
+            ListPages.SelectedIndex = -1;
+            var page = Pages[typeof(TPage).Name];
+            TCMain.SelectedTab = page.Parent as TabPage;
+            return page as TPage;
         }
 
         #endregion - 通用 General -
