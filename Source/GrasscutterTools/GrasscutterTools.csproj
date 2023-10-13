@@ -602,7 +602,16 @@
     <EmbeddedResource Include="Pages\PageOpenCommand.zh-TW.resx">
       <DependentUpon>PageOpenCommand.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageProxy.en-US.resx">
+      <DependentUpon>PageProxy.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageProxy.resx">
+      <DependentUpon>PageProxy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageProxy.ru-RU.resx">
+      <DependentUpon>PageProxy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageProxy.zh-TW.resx">
       <DependentUpon>PageProxy.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageQuest.en-US.resx">
