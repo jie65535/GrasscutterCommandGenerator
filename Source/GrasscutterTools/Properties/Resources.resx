@@ -396,4 +396,10 @@
   <data name="PageSettingsTitle" xml:space="preserve">
     <value>设置</value>
   </data>
+  <data name="Weather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-cn\Weather.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="PageWeatherTitle" xml:space="preserve">
+    <value>天气</value>
+  </data>
 </root>

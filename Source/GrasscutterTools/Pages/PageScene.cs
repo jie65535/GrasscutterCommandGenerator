@@ -55,8 +55,6 @@ namespace GrasscutterTools.Pages
         public override void OnLoad()
         {
             Scenes = GameData.Scenes.Lines;
-            CmbClimateType.Items.Clear();
-            CmbClimateType.Items.AddRange(Resources.ClimateType.Split(','));
         }
 
         /// <summary>
@@ -131,24 +129,6 @@ namespace GrasscutterTools.Pages
         }
 
         /// <summary>
-        /// 气候类型列表
-        /// </summary>
-        private static readonly string[] climateTypes = { "none", "sunny", "cloudy", "rain", "thunderstorm", "snow", "mist" };
-
-        /// <summary>
-        /// 气候类型下拉框选中项改变时触发
-        /// </summary>
-        private void CmbClimateType_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (CmbClimateType.SelectedIndex < 0)
-                return;
-            if (CommandVersion.Check(CommandVersion.V1_2_2))
-                SetCommand("/weather", CmbClimateType.SelectedIndex < climateTypes.Length ? climateTypes[CmbClimateType.SelectedIndex] : "none");
-            else
-                SetCommand("/weather", $"0 {CmbClimateType.SelectedIndex}");
-        }
-
-        /// <summary>
         /// 点击传送按钮时触发
         /// </summary>
         private void BtnTeleport_Click(object sender, EventArgs e)
@@ -157,14 +137,6 @@ namespace GrasscutterTools.Pages
             if (ChkIncludeSceneId.Checked && RbListScene.Checked && ListScenes.SelectedIndex != -1)
                 args += $" {GameData.Scenes.Ids[ListScenes.SelectedIndex]}";
             SetCommand("/tp", args);
-        }
-
-        /// <summary>
-        /// 锁定天气
-        /// </summary>
-        private void ChkLockClimate_CheckedChanged(object sender, EventArgs e)
-        {
-            SetCommand("/prop", $"is_weather_locked {(ChkLockClimate.Checked ? "on" : "off")}");
         }
 
         /// <summary>

@@ -165,6 +165,7 @@
     <Compile Include="Game\Data\Excels\MonsterData.cs" />
     <Compile Include="Game\Data\Excels\SceneData.cs" />
     <Compile Include="Game\Data\Excels\SceneTagData.cs" />
+    <Compile Include="Game\Data\Excels\WeatherData.cs" />
     <Compile Include="Game\Data\GameResource.cs" />
     <Compile Include="Game\Data\GameResources.cs" />
     <Compile Include="Game\Data\ResourceTypeAttribute.cs" />
@@ -333,6 +334,12 @@
     </Compile>
     <Compile Include="Pages\PageTools.Designer.cs">
       <DependentUpon>PageTools.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageWeather.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\PageWeather.Designer.cs">
+      <DependentUpon>PageWeather.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -702,6 +709,9 @@
     <EmbeddedResource Include="Pages\PageTools.resx">
       <DependentUpon>PageTools.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageWeather.resx">
+      <DependentUpon>PageWeather.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.zh-TW.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.zh-TW.Designer.cs</LastGenOutput>
@@ -806,6 +816,7 @@
     <Content Include="Resources\Permissions.txt" />
     <Content Include="Resources\SceneTag.txt" />
     <Content Include="Resources\WeaponColor.txt" />
+    <Content Include="Resources\zh-cn\Weather.txt" />
     <Content Include="Resources\zh-cn\Achievement.txt" />
     <Content Include="Resources\zh-cn\Activity.txt" />
     <Content Include="Resources\zh-cn\ArtifactCat.txt" />

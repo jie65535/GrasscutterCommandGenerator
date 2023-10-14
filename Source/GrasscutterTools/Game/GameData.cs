@@ -46,6 +46,7 @@ namespace GrasscutterTools.Game
             GachaBannerTitles = new ItemMap(Resources.GachaBannerTitle);
             Quests = new ItemMap(Resources.Quest);
             ShopType = new ItemMap(Resources.ShopType);
+            Weathers = new ItemMapGroup(Resources.Weather);
         }
 
         public static ItemMap Achievements { get; private set; }
@@ -89,5 +90,7 @@ namespace GrasscutterTools.Game
         public static ItemMap Quests { get; private set; }
 
         public static ItemMap ShopType { get; private set; }
+
+        public static ItemMapGroup Weathers { get; private set; }
     }
 }

@@ -222,6 +222,7 @@ namespace GrasscutterTools.Forms
             CreatePage<PageGiveWeapon>();
             CreatePage<PageScene>();
             CreatePage<PageSceneTag>();
+            CreatePage<PageWeather>();
             CreatePage<PageTasks>();
             CreatePage<PageManagement>();
             CreatePage<PageMail>();
@@ -338,11 +339,14 @@ namespace GrasscutterTools.Forms
                     i++;
                 }
                 // 加上新增在最后的页面
-                while (i < Pages.Count)
+                if (ListPages.Items.Count == i)
                 {
-                    PageTabOrders.Add(new Tuple<string, bool>(pageKeys[i], true));
-                    ListPages.Items.Add(Pages[pageKeys[i]].Text);
-                    i++;
+                    while (i < Pages.Count)
+                    {
+                        PageTabOrders.Add(new Tuple<string, bool>(pageKeys[i], true));
+                        ListPages.Items.Add(Pages[pageKeys[i]].Text);
+                        i++;
+                    }
                 }
                 // 保存页面顺序
                 SavePageTabOrders();

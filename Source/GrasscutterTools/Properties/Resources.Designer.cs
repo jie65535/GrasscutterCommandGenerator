@@ -1267,6 +1267,15 @@ namespace GrasscutterTools.Properties {
         }
         
         /// <summary>
+        ///   查找类似 天气 的本地化字符串。
+        /// </summary>
+        internal static string PageWeatherTitle {
+            get {
+                return ResourceManager.GetString("PageWeatherTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 要设置的权限不能为空！ 的本地化字符串。
         /// </summary>
         internal static string PermissionCannotBeEmpty {
@@ -1727,6 +1736,42 @@ namespace GrasscutterTools.Properties {
         internal static string WeaponColor {
             get {
                 return ResourceManager.GetString("WeaponColor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 // 1
+        ///2139:LP_Fog_Light
+        ///2140:LP_Fog_Heavy
+        ///2141:LP_Fog_Light
+        ///2142:LP_Fog_Light
+        ///2143:LP_Fog_Light
+        ///4206:Dq_HeGuan_Doom
+        ///4207:Dq_HeGuan_DoomHeavy
+        ///4208:Dq_HeGuan_DoomHeavyest
+        ///// 3
+        ///1:Md_General
+        ///2:Md_WindDragon
+        ///3:Md_City_Storm
+        ///4:Monster_LupiBoreas
+        ///1000:Md_General
+        ///1001:Md_General
+        ///1002:Md_General
+        ///1003:Md_General
+        ///1004:Md_General
+        ///1005:Md_General
+        ///1006:Md_City_General
+        ///1007:Md_WindDragon
+        ///1008:Md_City_Fenghuajie
+        ///1009:Md_General
+        ///1010:ActivityArena_Fire
+        ///1011:ActivityArena_Sunny
+        ///1012:Md_General
+        ///1013: [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string Weather {
+            get {
+                return ResourceManager.GetString("Weather", resourceCulture);
             }
         }
     }

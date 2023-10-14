@@ -70,7 +70,7 @@ namespace GrasscutterTools.Game
         public IEnumerable<int> AllIds => Values.SelectMany(it => it.Ids);
 
         private string[] lines;
-        public string[] Lines => lines ?? (lines = AllLines.ToArray());
+        public string[] Lines => lines ??= AllLines.ToArray();
 
         public string this[int id]
         {

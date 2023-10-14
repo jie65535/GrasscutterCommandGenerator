@@ -69,6 +69,8 @@ namespace GrasscutterTools.Game.Data
 
         public TextMapData TextMapData { get; set; }
 
+        public List<WeatherData> WeatherData { get; set; }
+
         public GameResources(string resourcesDirPath, TextMapData textMapData)
         {
             TextMapData = textMapData;
@@ -441,6 +443,31 @@ namespace GrasscutterTools.Game.Data
                 }
                 File.WriteAllText(
                     Path.Combine(projectResourcesDir, "SceneTag.txt"),
+                    sb.ToString(),
+                    Encoding.UTF8);
+
+                #endregion
+
+                #region Weather
+
+                // Weather
+
+                sb.Clear();
+
+                foreach (var scene in WeatherData
+                             .GroupBy(it => it.SceneId)
+                             .OrderBy(it => it.Key))
+                {
+                    sb.Append("// ").AppendLine(scene.Key.ToString());
+                    foreach (var weather in scene)
+                    {
+                        var profileName = weather.ProfileName.Substring(weather.ProfileName.LastIndexOf('/') + 1)
+                                                                    .Replace("ESP_", "");
+                        sb.AppendLine($"{weather.AreaId}:{profileName}");
+                    }
+                }
+                File.WriteAllText(
+                    Path.Combine(projectResourcesDir, "Weather.txt"),
                     sb.ToString(),
                     Encoding.UTF8);
 
