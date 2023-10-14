@@ -124,6 +124,8 @@ namespace GrasscutterTools.Utils
             // 如果注册过该热键，ID不为0。卸载热键会将ID置零。
             if (item.HotKeyId != 0)
                 return;
+            if (!IsEnabled)
+                return;
 
             var id = Interlocked.Increment(ref _regMaxId);
 
