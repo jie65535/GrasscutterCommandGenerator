@@ -765,5 +765,22 @@ namespace GrasscutterTools.Forms
         }
 
         #endregion - 通用 General -
+
+
+        /// <summary>
+        /// 命令栏文本改变时触发
+        /// </summary>
+        private void CmbCommand_TextChanged(object sender, EventArgs e)
+        {
+            LblClearFilter.Visible = CmbCommand.Text.Length > 0;
+        }
+
+        /// <summary>
+        /// 点击清空命令栏标签时触发
+        /// </summary>
+        private void LblClearFilter_Click(object sender, EventArgs e)
+        {
+            CmbCommand.Text = "";
+        }
     }
 }

@@ -262,7 +262,7 @@
     <value>GrpCommand</value>
   </data>
   <data name="&gt;&gt;CmbCommand.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="BtnCopy.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -289,7 +289,7 @@
     <value>GrpCommand</value>
   </data>
   <data name="&gt;&gt;BtnCopy.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="ChkAutoCopy.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -319,10 +319,46 @@
     <value>GrpCommand</value>
   </data>
   <data name="&gt;&gt;ChkAutoCopy.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="GrpCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left, Right</value>
+  </data>
+  <data name="LblClearFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LblClearFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblClearFilter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblClearFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>680, 26</value>
+  </data>
+  <data name="LblClearFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="LblClearFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="LblClearFilter.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="LblClearFilter.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblClearFilter.Name" xml:space="preserve">
+    <value>LblClearFilter</value>
+  </data>
+  <data name="&gt;&gt;LblClearFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblClearFilter.Parent" xml:space="preserve">
+    <value>GrpCommand</value>
+  </data>
+  <data name="&gt;&gt;LblClearFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="BtnInvokeOpenCommand.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -352,7 +388,7 @@
     <value>GrpCommand</value>
   </data>
   <data name="&gt;&gt;BtnInvokeOpenCommand.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="GrpCommand.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 293</value>

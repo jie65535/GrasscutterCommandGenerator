@@ -39,6 +39,7 @@ namespace GrasscutterTools.Forms
             this.GrpCommand = new System.Windows.Forms.GroupBox();
             this.BtnInvokeOpenCommand = new System.Windows.Forms.Button();
             this.MenuSpawnEntityFilter = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.LblClearFilter = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.NavContainer)).BeginInit();
             this.NavContainer.Panel1.SuspendLayout();
             this.NavContainer.Panel2.SuspendLayout();
@@ -85,6 +86,7 @@ namespace GrasscutterTools.Forms
             this.CmbCommand.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
             this.CmbCommand.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
             this.CmbCommand.Name = "CmbCommand";
+            this.CmbCommand.TextChanged += new System.EventHandler(this.CmbCommand_TextChanged);
             this.CmbCommand.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtCommand_KeyDown);
             // 
             // BtnCopy
@@ -103,6 +105,7 @@ namespace GrasscutterTools.Forms
             // GrpCommand
             // 
             resources.ApplyResources(this.GrpCommand, "GrpCommand");
+            this.GrpCommand.Controls.Add(this.LblClearFilter);
             this.GrpCommand.Controls.Add(this.BtnInvokeOpenCommand);
             this.GrpCommand.Controls.Add(this.BtnCopy);
             this.GrpCommand.Controls.Add(this.ChkAutoCopy);
@@ -121,6 +124,14 @@ namespace GrasscutterTools.Forms
             // 
             this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
+            // 
+            // LblClearFilter
+            // 
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
+            this.LblClearFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearFilter.Name = "LblClearFilter";
+            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
             // 
             // FormMain
             // 
@@ -154,5 +165,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.ContextMenuStrip MenuSpawnEntityFilter;
         private System.Windows.Forms.ListBox ListPages;
         private System.Windows.Forms.SplitContainer NavContainer;
+        private System.Windows.Forms.Label LblClearFilter;
     }
 }
