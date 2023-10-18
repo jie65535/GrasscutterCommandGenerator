@@ -197,5 +197,13 @@ namespace GrasscutterTools.Pages
             // 生成命令
             SetCommand("/weather", item.Substring(0, item.IndexOf(':')).Trim());
         }
+
+        /// <summary>
+        /// 点击获取当前天气命令时触发
+        /// </summary>
+        private void LnkCheckWeather_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            SetCommand("/weather");
+        }
     }
 }

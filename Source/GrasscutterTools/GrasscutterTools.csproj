@@ -709,7 +709,16 @@
     <EmbeddedResource Include="Pages\PageTools.resx">
       <DependentUpon>PageTools.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageWeather.en-US.resx">
+      <DependentUpon>PageWeather.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Pages\PageWeather.resx">
+      <DependentUpon>PageWeather.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageWeather.ru-RU.resx">
+      <DependentUpon>PageWeather.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PageWeather.zh-TW.resx">
       <DependentUpon>PageWeather.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.zh-TW.resx">

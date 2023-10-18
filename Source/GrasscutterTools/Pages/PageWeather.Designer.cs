@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PageWeather));
             this.TvSceneWeathers = new System.Windows.Forms.TreeView();
             this.LblPageTitle = new System.Windows.Forms.Label();
             this.CmbClimateType = new System.Windows.Forms.ComboBox();
@@ -43,175 +44,122 @@
             this.TxtWeatherFilter = new System.Windows.Forms.TextBox();
             this.ListFilteredWeathers = new System.Windows.Forms.ListBox();
             this.LblClearFilter = new System.Windows.Forms.Label();
+            this.LnkCheckWeather = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // TvSceneWeathers
             // 
-            this.TvSceneWeathers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.TvSceneWeathers, "TvSceneWeathers");
             this.TvSceneWeathers.FullRowSelect = true;
-            this.TvSceneWeathers.Location = new System.Drawing.Point(343, 32);
             this.TvSceneWeathers.Name = "TvSceneWeathers";
             this.TvSceneWeathers.ShowLines = false;
-            this.TvSceneWeathers.Size = new System.Drawing.Size(300, 204);
-            this.TvSceneWeathers.TabIndex = 102;
             this.TvSceneWeathers.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.TvSceneWeathers_AfterSelect);
             // 
             // LblPageTitle
             // 
-            this.LblPageTitle.AutoSize = true;
-            this.LblPageTitle.Location = new System.Drawing.Point(3, 3);
+            resources.ApplyResources(this.LblPageTitle, "LblPageTitle");
             this.LblPageTitle.Name = "LblPageTitle";
-            this.LblPageTitle.Size = new System.Drawing.Size(56, 17);
-            this.LblPageTitle.TabIndex = 0;
-            this.LblPageTitle.Text = "场景天气";
             // 
             // CmbClimateType
             // 
+            resources.ApplyResources(this.CmbClimateType, "CmbClimateType");
             this.CmbClimateType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbClimateType.FormattingEnabled = true;
-            this.CmbClimateType.Location = new System.Drawing.Point(81, 33);
             this.CmbClimateType.Name = "CmbClimateType";
-            this.CmbClimateType.Size = new System.Drawing.Size(121, 25);
-            this.CmbClimateType.TabIndex = 2;
             this.CmbClimateType.SelectedIndexChanged += new System.EventHandler(this.CmbClimateType_SelectedIndexChanged);
             // 
             // LblClimateType
             // 
-            this.LblClimateType.AutoSize = true;
-            this.LblClimateType.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.LblClimateType.Location = new System.Drawing.Point(19, 36);
+            resources.ApplyResources(this.LblClimateType, "LblClimateType");
             this.LblClimateType.Name = "LblClimateType";
-            this.LblClimateType.Size = new System.Drawing.Size(56, 17);
-            this.LblClimateType.TabIndex = 1;
-            this.LblClimateType.Text = "设置气候";
             // 
             // BtnLockWeather
             // 
-            this.BtnLockWeather.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnLockWeather.Location = new System.Drawing.Point(6, 211);
+            resources.ApplyResources(this.BtnLockWeather, "BtnLockWeather");
             this.BtnLockWeather.Name = "BtnLockWeather";
-            this.BtnLockWeather.Size = new System.Drawing.Size(150, 25);
-            this.BtnLockWeather.TabIndex = 10;
             this.BtnLockWeather.Tag = "on";
-            this.BtnLockWeather.Text = "锁定天气";
             this.BtnLockWeather.UseVisualStyleBackColor = true;
             this.BtnLockWeather.Click += new System.EventHandler(this.BtnLockWeather_Click);
             // 
             // BtnUnlockWeather
             // 
-            this.BtnUnlockWeather.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.BtnUnlockWeather.Location = new System.Drawing.Point(162, 211);
+            resources.ApplyResources(this.BtnUnlockWeather, "BtnUnlockWeather");
             this.BtnUnlockWeather.Name = "BtnUnlockWeather";
-            this.BtnUnlockWeather.Size = new System.Drawing.Size(150, 25);
-            this.BtnUnlockWeather.TabIndex = 11;
             this.BtnUnlockWeather.Tag = "off";
-            this.BtnUnlockWeather.Text = "解锁天气";
             this.BtnUnlockWeather.UseVisualStyleBackColor = true;
             this.BtnUnlockWeather.Click += new System.EventHandler(this.BtnLockWeather_Click);
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(3, 78);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(334, 55);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "天气数据目前暂未翻译，在此邀请你参与天气数据翻译，导出天气原始数据，在游戏内测试天气效果，修改数据文件通过提交更改按钮在 Github 创建 Pull Reque" +
-    "st，即可参与贡献！";
             // 
             // BtnExportWeather
             // 
-            this.BtnExportWeather.Location = new System.Drawing.Point(3, 136);
+            resources.ApplyResources(this.BtnExportWeather, "BtnExportWeather");
             this.BtnExportWeather.Name = "BtnExportWeather";
-            this.BtnExportWeather.Size = new System.Drawing.Size(150, 25);
-            this.BtnExportWeather.TabIndex = 5;
-            this.BtnExportWeather.Text = "导出原始天气";
             this.BtnExportWeather.UseVisualStyleBackColor = true;
             this.BtnExportWeather.Click += new System.EventHandler(this.BtnExportWeather_Click);
             // 
             // BtnImportWeather
             // 
-            this.BtnImportWeather.Location = new System.Drawing.Point(159, 136);
+            resources.ApplyResources(this.BtnImportWeather, "BtnImportWeather");
             this.BtnImportWeather.Name = "BtnImportWeather";
-            this.BtnImportWeather.Size = new System.Drawing.Size(150, 25);
-            this.BtnImportWeather.TabIndex = 6;
-            this.BtnImportWeather.Text = "导入天气";
             this.BtnImportWeather.UseVisualStyleBackColor = true;
             this.BtnImportWeather.Click += new System.EventHandler(this.BtnImportWeather_Click);
             // 
             // BtnCreatePullRequest
             // 
-            this.BtnCreatePullRequest.Location = new System.Drawing.Point(3, 167);
+            resources.ApplyResources(this.BtnCreatePullRequest, "BtnCreatePullRequest");
             this.BtnCreatePullRequest.Name = "BtnCreatePullRequest";
-            this.BtnCreatePullRequest.Size = new System.Drawing.Size(150, 25);
-            this.BtnCreatePullRequest.TabIndex = 7;
-            this.BtnCreatePullRequest.Text = "提交修改 (Github)";
             this.BtnCreatePullRequest.UseVisualStyleBackColor = true;
             this.BtnCreatePullRequest.Click += new System.EventHandler(this.BtnCreatePullRequest_Click);
             // 
             // LblPullRequestTip
             // 
-            this.LblPullRequestTip.AutoSize = true;
+            resources.ApplyResources(this.LblPullRequestTip, "LblPullRequestTip");
             this.LblPullRequestTip.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.LblPullRequestTip.Location = new System.Drawing.Point(156, 171);
             this.LblPullRequestTip.Name = "LblPullRequestTip";
-            this.LblPullRequestTip.Size = new System.Drawing.Size(128, 17);
-            this.LblPullRequestTip.TabIndex = 8;
-            this.LblPullRequestTip.Text = "你也可以提交到群文件";
             // 
             // LblClimateTip
             // 
-            this.LblClimateTip.AutoSize = true;
+            resources.ApplyResources(this.LblClimateTip, "LblClimateTip");
             this.LblClimateTip.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.LblClimateTip.Location = new System.Drawing.Point(208, 36);
             this.LblClimateTip.Name = "LblClimateTip";
-            this.LblClimateTip.Size = new System.Drawing.Size(104, 17);
-            this.LblClimateTip.TabIndex = 3;
-            this.LblClimateTip.Text = "天气包含默认气候";
             // 
             // TxtWeatherFilter
             // 
-            this.TxtWeatherFilter.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtWeatherFilter.Location = new System.Drawing.Point(343, 3);
+            resources.ApplyResources(this.TxtWeatherFilter, "TxtWeatherFilter");
             this.TxtWeatherFilter.Name = "TxtWeatherFilter";
-            this.TxtWeatherFilter.Size = new System.Drawing.Size(300, 23);
-            this.TxtWeatherFilter.TabIndex = 100;
             this.TxtWeatherFilter.TextChanged += new System.EventHandler(this.TxtWeatherFilter_TextChanged);
             // 
             // ListFilteredWeathers
             // 
-            this.ListFilteredWeathers.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.ListFilteredWeathers, "ListFilteredWeathers");
             this.ListFilteredWeathers.FormattingEnabled = true;
-            this.ListFilteredWeathers.ItemHeight = 17;
-            this.ListFilteredWeathers.Location = new System.Drawing.Point(343, 26);
             this.ListFilteredWeathers.Name = "ListFilteredWeathers";
-            this.ListFilteredWeathers.Size = new System.Drawing.Size(300, 191);
-            this.ListFilteredWeathers.TabIndex = 101;
-            this.ListFilteredWeathers.Visible = false;
             this.ListFilteredWeathers.SelectedIndexChanged += new System.EventHandler(this.ListFilteredWeathers_SelectedIndexChanged);
             // 
             // LblClearFilter
             // 
-            this.LblClearFilter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.LblClearFilter.AutoSize = true;
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
             this.LblClearFilter.BackColor = System.Drawing.Color.White;
             this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LblClearFilter.Location = new System.Drawing.Point(626, 6);
             this.LblClearFilter.Name = "LblClearFilter";
-            this.LblClearFilter.Size = new System.Drawing.Size(16, 17);
-            this.LblClearFilter.TabIndex = 103;
-            this.LblClearFilter.Text = "X";
-            this.LblClearFilter.Visible = false;
             this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
+            // 
+            // LnkCheckWeather
+            // 
+            resources.ApplyResources(this.LnkCheckWeather, "LnkCheckWeather");
+            this.LnkCheckWeather.Name = "LnkCheckWeather";
+            this.LnkCheckWeather.TabStop = true;
+            this.LnkCheckWeather.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LnkCheckWeather_LinkClicked);
             // 
             // PageWeather
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.LnkCheckWeather);
             this.Controls.Add(this.LblClearFilter);
             this.Controls.Add(this.ListFilteredWeathers);
             this.Controls.Add(this.TxtWeatherFilter);
@@ -250,5 +198,6 @@
         private System.Windows.Forms.TextBox TxtWeatherFilter;
         private System.Windows.Forms.ListBox ListFilteredWeathers;
         private System.Windows.Forms.Label LblClearFilter;
+        private System.Windows.Forms.LinkLabel LnkCheckWeather;
     }
 }
