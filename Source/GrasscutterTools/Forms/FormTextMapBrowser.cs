@@ -119,13 +119,12 @@ namespace GrasscutterTools.Forms
 
         private void GenLines()
         {
-            List<ListViewItem> items = new List<ListViewItem>(data.TextMap.Count);
+            var items = new List<ListViewItem>(data.TextMap.Count);
             foreach (var kv in data.TextMap)
             {
-                if (data.ManualTextMap.TryGetValue(kv.Key, out string id))
-                    items.Add(new ListViewItem(new string[] { kv.Key, id, kv.Value }));
-                else
-                    items.Add(new ListViewItem(new string[] { kv.Key, "", kv.Value }));
+                items.Add(data.ManualTextMap?.TryGetValue(kv.Key, out var id) == true
+                    ? new ListViewItem(new[] { kv.Key, id, kv.Value })
+                    : new ListViewItem(new[] { kv.Key, "", kv.Value }));
             }
             Items = items;
         }
@@ -161,26 +160,25 @@ namespace GrasscutterTools.Forms
                 Cursor = Cursors.WaitCursor;
                 Application.DoEvents();
 
-                var result = data.ManualTextMap.Where(kv => r.Match(kv.Value).Success)
-                    .Select(kv => new { Hash = kv.Key, Id = kv.Value, Text = data.TextMap[kv.Key] })
-                    .Concat(
-                        data.TextMap.Where(kv => r.Match(kv.Key).Success || r.Match(kv.Value).Success)
-                            .Select(kv => new
-                            {
-                                Hash = kv.Key,
-                                Id = data.ManualTextMap.TryGetValue(kv.Key, out string id) ? id : "",
-                                Text = kv.Value
-                            })
-                        ).ToList();
+                var manualResult = data.ManualTextMap?.Where(kv => r.Match(kv.Value).Success)
+                    .Select(kv => new { Hash = kv.Key, Text = data.TextMap[kv.Key], Id = kv.Value, });
+                var textMapResult = data.TextMap.Where(kv => r.Match(kv.Key).Success || r.Match(kv.Value).Success)
+                    .Select(kv => new
+                    {
+                        Hash = kv.Key,
+                        Text = kv.Value,
+                        Id = data.ManualTextMap?.TryGetValue(kv.Key, out var id) == true ? id : "",
+                    });
+                var result = manualResult == null ? textMapResult.ToList() : textMapResult.Concat(manualResult).ToList();
 
                 DGVTextMap.SuspendLayout();
                 DGVTextMap.Rows.Clear();
-                for (int i = 0; i < result.Count; i++)
+                for (var i = 0; i < result.Count; i++)
                 {
                     DGVTextMap.Rows.Add();
                     DGVTextMap.Rows[i].Cells[0].Value = result[i].Hash;
-                    DGVTextMap.Rows[i].Cells[1].Value = result[i].Id;
-                    DGVTextMap.Rows[i].Cells[2].Value = result[i].Text;
+                    DGVTextMap.Rows[i].Cells[1].Value = result[i].Text;
+                    DGVTextMap.Rows[i].Cells[2].Value = result[i].Id;
                 }
                 DGVTextMap.ResumeLayout();
             }

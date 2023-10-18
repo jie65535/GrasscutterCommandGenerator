@@ -181,6 +181,7 @@ namespace GrasscutterTools.Pages
             FormMain.Instance.ResetPageTabOrders();
             FormMain.Instance.UpdatePagesNav();
             InitPageList();
+            isChanged = true;
         }
     }
 }

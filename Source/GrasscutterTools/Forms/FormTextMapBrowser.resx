@@ -315,15 +315,6 @@
   <data name="ColumnHash.Width" type="System.Int32, mscorlib">
     <value>80</value>
   </data>
-  <metadata name="ColumnID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="ColumnID.HeaderText" xml:space="preserve">
-    <value>ID</value>
-  </data>
-  <data name="ColumnID.Width" type="System.Int32, mscorlib">
-    <value>240</value>
-  </data>
   <metadata name="ColumnText.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -332,6 +323,15 @@
   </data>
   <data name="ColumnText.Width" type="System.Int32, mscorlib">
     <value>250</value>
+  </data>
+  <metadata name="ColumnID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="ColumnID.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ColumnID.Width" type="System.Int32, mscorlib">
+    <value>240</value>
   </data>
   <data name="DGVTextMap.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 70</value>
@@ -420,16 +420,16 @@
   <data name="&gt;&gt;ColumnHash.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ColumnID.Name" xml:space="preserve">
-    <value>ColumnID</value>
-  </data>
-  <data name="&gt;&gt;ColumnID.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;ColumnText.Name" xml:space="preserve">
     <value>ColumnText</value>
   </data>
   <data name="&gt;&gt;ColumnText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ColumnID.Name" xml:space="preserve">
+    <value>ColumnID</value>
+  </data>
+  <data name="&gt;&gt;ColumnID.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">

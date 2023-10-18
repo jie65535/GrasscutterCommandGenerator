@@ -37,10 +37,10 @@
             this.LblResourcesPath = new System.Windows.Forms.Label();
             this.BtnSearch = new System.Windows.Forms.Button();
             this.DGVTextMap = new System.Windows.Forms.DataGridView();
-            this.ColumnHash = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ColumnText = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.LblClearFilter = new System.Windows.Forms.Label();
+            this.ColumnHash = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnText = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ColumnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.DGVTextMap)).BeginInit();
             this.SuspendLayout();
             // 
@@ -100,29 +100,11 @@
             this.DGVTextMap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVTextMap.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColumnHash,
-            this.ColumnID,
-            this.ColumnText});
+            this.ColumnText,
+            this.ColumnID});
             this.DGVTextMap.Name = "DGVTextMap";
             this.DGVTextMap.ReadOnly = true;
             this.DGVTextMap.RowTemplate.Height = 23;
-            // 
-            // ColumnHash
-            // 
-            resources.ApplyResources(this.ColumnHash, "ColumnHash");
-            this.ColumnHash.Name = "ColumnHash";
-            this.ColumnHash.ReadOnly = true;
-            // 
-            // ColumnID
-            // 
-            resources.ApplyResources(this.ColumnID, "ColumnID");
-            this.ColumnID.Name = "ColumnID";
-            this.ColumnID.ReadOnly = true;
-            // 
-            // ColumnText
-            // 
-            resources.ApplyResources(this.ColumnText, "ColumnText");
-            this.ColumnText.Name = "ColumnText";
-            this.ColumnText.ReadOnly = true;
             // 
             // LblClearFilter
             // 
@@ -131,6 +113,24 @@
             this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.LblClearFilter.Name = "LblClearFilter";
             this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
+            // 
+            // ColumnHash
+            // 
+            resources.ApplyResources(this.ColumnHash, "ColumnHash");
+            this.ColumnHash.Name = "ColumnHash";
+            this.ColumnHash.ReadOnly = true;
+            // 
+            // ColumnText
+            // 
+            resources.ApplyResources(this.ColumnText, "ColumnText");
+            this.ColumnText.Name = "ColumnText";
+            this.ColumnText.ReadOnly = true;
+            // 
+            // ColumnID
+            // 
+            resources.ApplyResources(this.ColumnID, "ColumnID");
+            this.ColumnID.Name = "ColumnID";
+            this.ColumnID.ReadOnly = true;
             // 
             // FormTextMapBrowser
             // 
@@ -162,9 +162,9 @@
         private System.Windows.Forms.Label LblResourcesPath;
         private System.Windows.Forms.Button BtnSearch;
         private System.Windows.Forms.DataGridView DGVTextMap;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnHash;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnText;
         private System.Windows.Forms.Label LblClearFilter;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnHash;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnText;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ColumnID;
     }
 }

@@ -274,7 +274,7 @@
     <value>2</value>
   </data>
   <data name="TxtHotKey.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+    <value>Bottom, Right</value>
   </data>
   <data name="TxtHotKey.Location" type="System.Drawing.Point, System.Drawing">
     <value>262, 210</value>
@@ -301,7 +301,7 @@
     <value>4</value>
   </data>
   <data name="LblHotKeyLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left, Right</value>
+    <value>Bottom, Right</value>
   </data>
   <data name="LblHotKeyLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>

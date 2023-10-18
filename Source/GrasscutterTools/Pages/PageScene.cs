@@ -90,7 +90,7 @@ namespace GrasscutterTools.Pages
         private void TxtSceneFilter_TextChanged(object sender, EventArgs e)
         {
             UIUtil.ListBoxFilter(ListScenes, Scenes, TxtSceneFilter.Text);
-            TxtSceneFilter.Visible = TxtSceneFilter.Text.Length > 0;
+            LblClearFilter.Visible = TxtSceneFilter.Text.Length > 0;
         }
 
         /// <summary>
