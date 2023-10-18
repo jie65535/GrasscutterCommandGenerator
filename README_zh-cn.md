@@ -35,6 +35,15 @@
 
 ## 更新概要
 
+### GrasscutterTools-v1.13
+![Proxy](Doc/Screenshots/22-Proxy.png)
+
+![SceneTag](Doc/Screenshots/23-SceneTag.png)
+
+![Weather](Doc/Screenshots/24-Weather.png)
+
+![Settings](Doc/Screenshots/25-Settings.png)
+
 ### GrasscutterTools-v1.11
 ![HotKey](Doc/Screenshots/21-HotKey.png)
 

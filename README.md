@@ -34,6 +34,15 @@ The server require [gc-opencommand-plugin](https://github.com/jie65535/gc-openco
 
 ## Update log
 
+### GrasscutterTools-v1.13
+![Proxy](Doc/Screenshots-en/22-Proxy.png)
+
+![SceneTag](Doc/Screenshots-en/23-SceneTag.png)
+
+![Weather](Doc/Screenshots-en/24-Weather.png)
+
+![Settings](Doc/Screenshots-en/25-Settings.png)
+
 ### GrasscutterTools-v1.11
 ![HotKey](Doc/Screenshots-en/21-HotKey.png)
 
