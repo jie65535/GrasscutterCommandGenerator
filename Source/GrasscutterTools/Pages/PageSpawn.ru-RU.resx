@@ -127,11 +127,17 @@
     <value>Элем. инфузия</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LblSpawnVersionRequireTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 17</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 17</value>
   </data>
-  <data name="LblSpawnVersionRequireTip.Text" xml:space="preserve">
-    <value>Требуется GC &gt;= v1.3.1</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>AI</value>
+  </data>
+  <data name="ChkNoAggressiveness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 21</value>
+  </data>
+  <data name="ChkNoAggressiveness.Text" xml:space="preserve">
+    <value>Без атаки</value>
   </data>
   <data name="LblInfiniteHpTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>157, 17</value>

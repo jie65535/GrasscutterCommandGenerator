@@ -127,11 +127,17 @@
     <value>AttackInfused</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LblSpawnVersionRequireTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 17</value>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 17</value>
   </data>
-  <data name="LblSpawnVersionRequireTip.Text" xml:space="preserve">
-    <value>v Require GC &gt; v1.3.1 v</value>
+  <data name="label1.Text" xml:space="preserve">
+    <value>AI:</value>
+  </data>
+  <data name="ChkNoAggressiveness.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 21</value>
+  </data>
+  <data name="ChkNoAggressiveness.Text" xml:space="preserve">
+    <value>No aggressiveness</value>
   </data>
   <data name="LblInfiniteHpTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>98, 17</value>
@@ -158,7 +164,7 @@
     <value>HP</value>
   </data>
   <data name="LblEntityMaxHp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>182, 82</value>
+    <value>181, 56</value>
   </data>
   <data name="LblEntityMaxHp.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 17</value>

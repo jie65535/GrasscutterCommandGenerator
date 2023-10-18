@@ -117,8 +117,20 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="LblSpawnVersionRequireTip.Text" xml:space="preserve">
-    <value>以下參數至少要求 GC v1.3.1</value>
+  <data name="TPSpawnArgs.Text" xml:space="preserve">
+    <value>生成參數</value>
+  </data>
+  <data name="TPAttackModArgs.Text" xml:space="preserve">
+    <value>攻擊修改參數</value>
+  </data>
+  <data name="TPAttackInfusedArgs.Text" xml:space="preserve">
+    <value>攻擊注入參數</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>特性:</value>
+  </data>
+  <data name="ChkNoAggressiveness.Text" xml:space="preserve">
+    <value>無攻擊性</value>
   </data>
   <data name="LblInfiniteHpTip.Text" xml:space="preserve">
     <value>血量為 0 表示無限</value>
@@ -134,9 +146,6 @@
   </data>
   <data name="LblEntityAmount.Text" xml:space="preserve">
     <value>數量：</value>
-  </data>
-  <data name="TPSpawnArgs.Text" xml:space="preserve">
-    <value>生成參數</value>
   </data>
   <data name="LblAMPluginTip.Text" xml:space="preserve">
     <value>見識一下真正的雷神吧！</value>
@@ -159,9 +168,6 @@
   <data name="GrpAMSkills.Text" xml:space="preserve">
     <value>替換技能</value>
   </data>
-  <data name="TPAttackModArgs.Text" xml:space="preserve">
-    <value>攻擊修改參數</value>
-  </data>
   <data name="LblAiwiRotate.Text" xml:space="preserve">
     <value>旋轉： x:                    y:                    z:</value>
   </data>
@@ -183,23 +189,16 @@
   <data name="BtnAiwiClear.Text" xml:space="preserve">
     <value>清空實體</value>
   </data>
-  <data name="TPAttackInfusedArgs.Text" xml:space="preserve">
-    <value>攻擊注入參數</value>
-  </data>
   <data name="TPSpawnItems.Text" xml:space="preserve">
     <value>實體列表</value>
+  </data>
+  <data name="TPSpawnRecords.Text" xml:space="preserve">
+    <value>生成記錄本</value>
   </data>
   <data name="BtnSaveSpawnLog.Text" xml:space="preserve">
     <value>√ 記錄</value>
   </data>
   <data name="BtnRemoveSpawnLog.Text" xml:space="preserve">
     <value>× 刪除</value>
-  </data>
-  <data name="TPSpawnRecords.Text" xml:space="preserve">
-    <value>生成記錄本</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="MenuSpawnEntityFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 4</value>
   </data>
 </root>

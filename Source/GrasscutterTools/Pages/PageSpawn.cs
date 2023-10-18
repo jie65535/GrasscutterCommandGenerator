@@ -114,8 +114,17 @@ namespace GrasscutterTools.Pages
         private void TxtEntityFilter_TextChanged(object sender, EventArgs e)
         {
             LoadEntityList();
+            LblClearFilter.Visible = TxtEntityFilter.Text.Length > 0;
         }
-        
+
+        /// <summary>
+        /// 点击清空过滤栏标签时触发
+        /// </summary>
+        private void LblClearFilter_Click(object sender, EventArgs e)
+        {
+            TxtEntityFilter.Clear();
+        }
+
 
         /// <summary>
         /// 实体列表选中项改变时触发
@@ -267,6 +276,8 @@ namespace GrasscutterTools.Pages
                 CheckAndConnect(NUDEntityDef, -1, " def");
                 if (NUDEntityPosX.Value != 0 || NUDEntityPosY.Value != 0 || NUDEntityPosZ.Value != 0)
                     args += $" {NUDEntityPosX.Value} {NUDEntityPosY.Value} {NUDEntityPosZ.Value}";
+                if (ChkNoAggressiveness.Checked)
+                    args += " ai12001001";
                 SetCommand("/spawn", args);
             }
             else
@@ -373,6 +384,5 @@ namespace GrasscutterTools.Pages
         }
 
         #endregion -- 攻击注入参数 --
-
     }
 }
