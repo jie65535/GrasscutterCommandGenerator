@@ -117,9 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="GrpOnSelectedCheck.Text" xml:space="preserve">
-    <value>Clicking on Tag:</value>
-  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="RbOnSelectedUncheck.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 21</value>
@@ -133,8 +130,8 @@
   <data name="RbOnSelectedCheck.Text" xml:space="preserve">
     <value>Add Tag</value>
   </data>
-  <data name="GrpOnDefaultSelectedCheck.Text" xml:space="preserve">
-    <value>Clicking on (Default) Tag:</value>
+  <data name="GrpOnSelectedCheck.Text" xml:space="preserve">
+    <value>Clicking on Tag:</value>
   </data>
   <data name="RbOnDefaultSelectedCheck.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 21</value>
@@ -147,6 +144,9 @@
   </data>
   <data name="RbOnDefaultSelectedUncheck.Text" xml:space="preserve">
     <value>Remove Tag</value>
+  </data>
+  <data name="GrpOnDefaultSelectedCheck.Text" xml:space="preserve">
+    <value>Clicking on (Default) Tag:</value>
   </data>
   <data name="LblTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>167, 17</value>
@@ -164,15 +164,18 @@
     <value>Unlock All</value>
   </data>
   <data name="ChkOnSceneSelectedEnter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 21</value>
+    <value>234, 21</value>
   </data>
   <data name="ChkOnSceneSelectedEnter.Text" xml:space="preserve">
-    <value>Click scene enter</value>
+    <value>Transfer when clicking on the scene</value>
   </data>
   <data name="LblRightButtonClickTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 17</value>
   </data>
   <data name="LblRightButtonClickTip.Text" xml:space="preserve">
     <value>Right click reverse</value>
+  </data>
+  <data name="BtnResetAll.Text" xml:space="preserve">
+    <value>Reset All</value>
   </data>
 </root>

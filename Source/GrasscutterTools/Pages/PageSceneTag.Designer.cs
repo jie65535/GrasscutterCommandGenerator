@@ -41,6 +41,7 @@
             this.BtnUnlockAll = new System.Windows.Forms.Button();
             this.ChkOnSceneSelectedEnter = new System.Windows.Forms.CheckBox();
             this.LblRightButtonClickTip = new System.Windows.Forms.Label();
+            this.BtnResetAll = new System.Windows.Forms.Button();
             this.GrpOnSelectedCheck.SuspendLayout();
             this.GrpOnDefaultSelectedCheck.SuspendLayout();
             this.SuspendLayout();
@@ -129,12 +130,20 @@
             this.LblRightButtonClickTip.ForeColor = System.Drawing.SystemColors.GrayText;
             this.LblRightButtonClickTip.Name = "LblRightButtonClickTip";
             // 
+            // BtnResetAll
+            // 
+            resources.ApplyResources(this.BtnResetAll, "BtnResetAll");
+            this.BtnResetAll.Name = "BtnResetAll";
+            this.BtnResetAll.UseVisualStyleBackColor = true;
+            this.BtnResetAll.Click += new System.EventHandler(this.BtnResetAll_Click);
+            // 
             // PageSceneTag
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.LblRightButtonClickTip);
             this.Controls.Add(this.ChkOnSceneSelectedEnter);
+            this.Controls.Add(this.BtnResetAll);
             this.Controls.Add(this.BtnUnlockAll);
             this.Controls.Add(this.LblDefaultTagTip);
             this.Controls.Add(this.LblTitle);
@@ -165,5 +174,6 @@
         private System.Windows.Forms.Button BtnUnlockAll;
         private System.Windows.Forms.CheckBox ChkOnSceneSelectedEnter;
         private System.Windows.Forms.Label LblRightButtonClickTip;
+        private System.Windows.Forms.Button BtnResetAll;
     }
 }

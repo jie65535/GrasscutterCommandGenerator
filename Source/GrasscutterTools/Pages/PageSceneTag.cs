@@ -99,6 +99,14 @@ namespace GrasscutterTools.Pages
         }
 
         /// <summary>
+        /// 点击还原预设时触发
+        /// </summary>
+        private void BtnResetAll_Click(object sender, EventArgs e)
+        {
+            SetCommand("/tag", "reset");
+        }
+
+        /// <summary>
         /// 场景标签节点点击时触发
         /// </summary>
         private void TvSceneTags_NodeMouseClick(object sender, TreeNodeMouseClickEventArgs e)

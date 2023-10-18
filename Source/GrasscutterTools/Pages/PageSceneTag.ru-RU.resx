@@ -149,10 +149,10 @@
     <value>Удалить тег</value>
   </data>
   <data name="LblTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>201, 17</value>
+    <value>168, 17</value>
   </data>
   <data name="LblTitle.Text" xml:space="preserve">
-    <value>Тег сцены (начиная с GC v1.7.2)</value>
+    <value>Тег сцены (since GC v1.7.2)</value>
   </data>
   <data name="LblDefaultTagTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>329, 17</value>
@@ -164,15 +164,18 @@
     <value>Разблокировать все</value>
   </data>
   <data name="ChkOnSceneSelectedEnter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 21</value>
+    <value>229, 21</value>
   </data>
   <data name="ChkOnSceneSelectedEnter.Text" xml:space="preserve">
-    <value>Click scene enter</value>
+    <value>Передача при нажатии на сцену</value>
   </data>
   <data name="LblRightButtonClickTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 17</value>
   </data>
   <data name="LblRightButtonClickTip.Text" xml:space="preserve">
     <value>Right click reverse</value>
+  </data>
+  <data name="BtnResetAll.Text" xml:space="preserve">
+    <value>Восстановление</value>
   </data>
 </root>

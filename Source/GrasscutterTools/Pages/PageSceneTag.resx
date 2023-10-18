@@ -120,11 +120,12 @@
   <data name="&gt;&gt;TvSceneTags.Type" xml:space="preserve">
     <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LblTitle.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ChkOnSceneSelectedEnter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 21</value>
   </data>
-  <data name="&gt;&gt;LblRightButtonClickTip.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;LblTitle.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LblTitle.AutoSize" type="System.Boolean, mscorlib">
@@ -139,8 +140,8 @@
   <data name="&gt;&gt;GrpOnDefaultSelectedCheck.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;LblDefaultTagTip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;RbOnDefaultSelectedUncheck.Name" xml:space="preserve">
+    <value>RbOnDefaultSelectedUncheck</value>
   </data>
   <data name="&gt;&gt;RbOnSelectedCheck.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -149,7 +150,7 @@
     <value>RbOnSelectedUncheck</value>
   </data>
   <data name="&gt;&gt;TvSceneTags.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="&gt;&gt;TvSceneTags.Parent" xml:space="preserve">
     <value>$this</value>
@@ -160,15 +161,20 @@
   <data name="RbOnSelectedUncheck.Text" xml:space="preserve">
     <value>移除标签</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="ChkOnSceneSelectedEnter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 21</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="&gt;&gt;BtnResetAll.Name" xml:space="preserve">
+    <value>BtnResetAll</value>
+  </data>
+  <data name="BtnResetAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 25</value>
   </data>
   <data name="LblDefaultTagTip.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="&gt;&gt;GrpOnDefaultSelectedCheck.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;BtnUnlockAll.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -176,17 +182,21 @@
   <data name="&gt;&gt;RbOnDefaultSelectedCheck.Parent" xml:space="preserve">
     <value>GrpOnDefaultSelectedCheck</value>
   </data>
-  <data name="LblRightButtonClickTip.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="BtnResetAll.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;RbOnSelectedCheck.Parent" xml:space="preserve">
-    <value>GrpOnSelectedCheck</value>
+  <data name="&gt;&gt;LblDefaultTagTip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnResetAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="LblRightButtonClickTip.Size" type="System.Drawing.Size, System.Drawing">
     <value>80, 17</value>
   </data>
   <data name="&gt;&gt;BtnUnlockAll.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="RbOnSelectedCheck.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -195,7 +205,7 @@
     <value>TvSceneTags</value>
   </data>
   <data name="GrpOnSelectedCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 80</value>
+    <value>180, 80</value>
   </data>
   <data name="&gt;&gt;BtnUnlockAll.Name" xml:space="preserve">
     <value>BtnUnlockAll</value>
@@ -215,8 +225,8 @@
   <data name="&gt;&gt;LblTitle.Name" xml:space="preserve">
     <value>LblTitle</value>
   </data>
-  <data name="&gt;&gt;RbOnDefaultSelectedUncheck.Parent" xml:space="preserve">
-    <value>GrpOnDefaultSelectedCheck</value>
+  <data name="&gt;&gt;RbOnDefaultSelectedUncheck.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="&gt;&gt;LblDefaultTagTip.Parent" xml:space="preserve">
     <value>$this</value>
@@ -230,17 +240,20 @@
   <data name="RbOnDefaultSelectedCheck.Location" type="System.Drawing.Point, System.Drawing">
     <value>13, 22</value>
   </data>
+  <data name="&gt;&gt;RbOnSelectedCheck.Parent" xml:space="preserve">
+    <value>GrpOnSelectedCheck</value>
+  </data>
   <data name="LblDefaultTagTip.Text" xml:space="preserve">
     <value>预设(Default)标签通常是锁定或者之前的状态</value>
   </data>
   <data name="LblRightButtonClickTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>209, 23</value>
+    <value>189, 96</value>
   </data>
   <data name="&gt;&gt;LblTitle.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="BtnUnlockAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>187, 211</value>
+  <data name="LblRightButtonClickTip.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;GrpOnSelectedCheck.Name" xml:space="preserve">
     <value>GrpOnSelectedCheck</value>
@@ -257,8 +270,8 @@
   <data name="RbOnDefaultSelectedCheck.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;LblDefaultTagTip.Name" xml:space="preserve">
-    <value>LblDefaultTagTip</value>
+  <data name="&gt;&gt;LblRightButtonClickTip.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;RbOnSelectedCheck.Name" xml:space="preserve">
     <value>RbOnSelectedCheck</value>
@@ -267,13 +280,16 @@
     <value>点击标签时</value>
   </data>
   <data name="&gt;&gt;LblDefaultTagTip.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;GrpOnSelectedCheck.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>PageSceneTag</value>
+  <data name="&gt;&gt;BtnResetAll.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="BtnResetAll.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="RbOnSelectedCheck.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 21</value>
@@ -281,8 +297,8 @@
   <data name="LblRightButtonClickTip.Text" xml:space="preserve">
     <value>右键点击相反</value>
   </data>
-  <data name="&gt;&gt;RbOnDefaultSelectedUncheck.Name" xml:space="preserve">
-    <value>RbOnDefaultSelectedUncheck</value>
+  <data name="BtnResetAll.Text" xml:space="preserve">
+    <value>还原预设</value>
   </data>
   <data name="LblTitle.Text" xml:space="preserve">
     <value>场景标签管理 (GC v1.7.2 起)</value>
@@ -302,18 +318,23 @@
   <data name="&gt;&gt;ChkOnSceneSelectedEnter.Type" xml:space="preserve">
     <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="BtnResetAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 34</value>
+  </data>
+  <data name="ChkOnSceneSelectedEnter.Text" xml:space="preserve">
+    <value>点击场景时进入</value>
+  </data>
   <data name="LblDefaultTagTip.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
+  <data name="&gt;&gt;LblDefaultTagTip.Name" xml:space="preserve">
+    <value>LblDefaultTagTip</value>
   </data>
   <data name="GrpOnDefaultSelectedCheck.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 109</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="BtnUnlockAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+  <data name="BtnUnlockAll.Location" type="System.Drawing.Point, System.Drawing">
+    <value>189, 3</value>
   </data>
   <data name="BtnUnlockAll.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -345,14 +366,17 @@
   <data name="RbOnDefaultSelectedUncheck.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;BtnResetAll.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;LblRightButtonClickTip.Name" xml:space="preserve">
     <value>LblRightButtonClickTip</value>
   </data>
   <data name="&gt;&gt;RbOnSelectedUncheck.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;BtnUnlockAll.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PageSceneTag</value>
   </data>
   <data name="&gt;&gt;RbOnSelectedUncheck.Parent" xml:space="preserve">
     <value>GrpOnSelectedCheck</value>
@@ -373,10 +397,10 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="GrpOnDefaultSelectedCheck.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 80</value>
+    <value>180, 80</value>
   </data>
-  <data name="ChkOnSceneSelectedEnter.Text" xml:space="preserve">
-    <value>点击场景时进入</value>
+  <data name="&gt;&gt;GrpOnDefaultSelectedCheck.Name" xml:space="preserve">
+    <value>GrpOnDefaultSelectedCheck</value>
   </data>
   <data name="LblRightButtonClickTip.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -408,8 +432,8 @@
   <data name="&gt;&gt;RbOnSelectedUncheck.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;GrpOnDefaultSelectedCheck.Name" xml:space="preserve">
-    <value>GrpOnDefaultSelectedCheck</value>
+  <data name="&gt;&gt;BtnUnlockAll.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="RbOnDefaultSelectedCheck.Text" xml:space="preserve">
     <value>添加标签</value>
@@ -417,8 +441,8 @@
   <data name="TvSceneTags.Location" type="System.Drawing.Point, System.Drawing">
     <value>343, 3</value>
   </data>
-  <data name="&gt;&gt;RbOnDefaultSelectedUncheck.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;RbOnDefaultSelectedUncheck.Parent" xml:space="preserve">
+    <value>GrpOnDefaultSelectedCheck</value>
   </data>
   <data name="&gt;&gt;RbOnDefaultSelectedUncheck.Type" xml:space="preserve">
     <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -439,7 +463,7 @@
     <value>True</value>
   </data>
   <data name="&gt;&gt;GrpOnSelectedCheck.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="&gt;&gt;ChkOnSceneSelectedEnter.ZOrder" xml:space="preserve">
     <value>1</value>
