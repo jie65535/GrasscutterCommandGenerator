@@ -39,6 +39,7 @@
             this.BtnProgress = new System.Windows.Forms.Button();
             this.BtnRevoke = new System.Windows.Forms.Button();
             this.BtnGrant = new System.Windows.Forms.Button();
+            this.LblClearFilter = new System.Windows.Forms.Label();
             this.GrpAchievements.SuspendLayout();
             this.GrpAchievementCommands.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDProgress)).BeginInit();
@@ -54,6 +55,7 @@
             // GrpAchievements
             // 
             resources.ApplyResources(this.GrpAchievements, "GrpAchievements");
+            this.GrpAchievements.Controls.Add(this.LblClearFilter);
             this.GrpAchievements.Controls.Add(this.TxtAchievementFilter);
             this.GrpAchievements.Controls.Add(this.LnkRevokeAll);
             this.GrpAchievements.Controls.Add(this.ListAchievements);
@@ -127,6 +129,14 @@
             this.BtnGrant.UseVisualStyleBackColor = true;
             this.BtnGrant.Click += new System.EventHandler(this.BtnGrant_Click);
             // 
+            // LblClearFilter
+            // 
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
+            this.LblClearFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearFilter.Name = "LblClearFilter";
+            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
+            // 
             // PageAchievement
             // 
             resources.ApplyResources(this, "$this");
@@ -154,5 +164,6 @@
         private System.Windows.Forms.TextBox TxtAchievementFilter;
         private System.Windows.Forms.LinkLabel LnkRevokeAll;
         private System.Windows.Forms.LinkLabel LnkGrantAll;
+        private System.Windows.Forms.Label LblClearFilter;
     }
 }

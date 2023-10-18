@@ -48,6 +48,15 @@ namespace GrasscutterTools.Pages
         private void TxtWeaponFilter_TextChanged(object sender, EventArgs e)
         {
             UIUtil.ListBoxFilter(ListWeapons, GameData.Weapons.Lines, TxtWeaponFilter.Text);
+            LblClearFilter.Visible = TxtWeaponFilter.Text.Length > 0;
+        }
+
+        /// <summary>
+        /// 点击清空过滤器标签时触发
+        /// </summary>
+        private void LblClearFilter_Click(object sender, EventArgs e)
+        {
+            TxtWeaponFilter.Clear();
         }
 
         /// <summary>

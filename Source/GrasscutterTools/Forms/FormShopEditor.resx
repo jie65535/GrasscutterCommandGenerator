@@ -117,671 +117,866 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LblCostItem1Label.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem1.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LblCostScoinLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 269</value>
-  </data>
-  <data name="NUDCostItem4.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ListShop.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
-  <data name="label11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ListShop.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
-  <data name="LblGoodsIdLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ListShop.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
   </data>
-  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 124</value>
+  <data name="ListShop.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 178</value>
   </data>
-  <data name="&gt;&gt;DTPEndTime.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
+  <data name="ListShop.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="LblBuyLevelLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;ListShop.Name" xml:space="preserve">
+    <value>ListShop</value>
   </data>
-  <data name="&gt;&gt;LblCostItem4Label.Name" xml:space="preserve">
-    <value>LblCostItem4Label</value>
+  <data name="&gt;&gt;ListShop.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label18.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="&gt;&gt;ListShop.Parent" xml:space="preserve">
+    <value>GrpShopList</value>
   </data>
-  <data name="&gt;&gt;GrpGoodsList.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;ListShop.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="LblShopPathLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>105, 17</value>
+  <data name="ListGoods.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ListGoods.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ListGoods.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 19</value>
+  </data>
+  <data name="ListGoods.Size" type="System.Drawing.Size, System.Drawing">
+    <value>244, 242</value>
+  </data>
+  <data name="ListGoods.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;ListGoods.Name" xml:space="preserve">
+    <value>ListGoods</value>
+  </data>
+  <data name="&gt;&gt;ListGoods.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListGoods.Parent" xml:space="preserve">
+    <value>GrpGoodsList</value>
+  </data>
+  <data name="&gt;&gt;ListGoods.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ListItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ListItems.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ListItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 51</value>
+  </data>
+  <data name="ListItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 446</value>
+  </data>
+  <data name="ListItems.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ListItems.Name" xml:space="preserve">
+    <value>ListItems</value>
+  </data>
+  <data name="&gt;&gt;ListItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListItems.Parent" xml:space="preserve">
+    <value>GrpItems</value>
+  </data>
+  <data name="&gt;&gt;ListItems.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="GrpShopList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 41</value>
+  </data>
+  <data name="GrpShopList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 200</value>
+  </data>
+  <data name="GrpShopList.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="GrpShopList.Text" xml:space="preserve">
+    <value>商店列表</value>
+  </data>
+  <data name="&gt;&gt;GrpShopList.Name" xml:space="preserve">
+    <value>GrpShopList</value>
+  </data>
+  <data name="&gt;&gt;GrpShopList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpShopList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpShopList.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="GrpGoodsList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;BtnClearGoods.Name" xml:space="preserve">
+    <value>BtnClearGoods</value>
   </data>
   <data name="&gt;&gt;BtnClearGoods.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LblCostMcoinLabel.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
+  <data name="&gt;&gt;BtnClearGoods.Parent" xml:space="preserve">
+    <value>GrpGoodsList</value>
   </data>
-  <data name="GrpGoodsInfo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>348, 508</value>
-  </data>
-  <data name="NUDCostScoin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 267</value>
-  </data>
-  <data name="BtnSaveGoods.Location" type="System.Drawing.Point, System.Drawing">
-    <value>99, 472</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem3Label.ZOrder" xml:space="preserve">
-    <value>27</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem4.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveGoods.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;BtnClearGoods.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="CmbRefreshType.Items" xml:space="preserve">
-    <value>无</value>
+  <data name="&gt;&gt;BtnDeleteGoods.Name" xml:space="preserve">
+    <value>BtnDeleteGoods</value>
   </data>
-  <data name="GrpItems.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+  <data name="&gt;&gt;BtnDeleteGoods.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;NUDCostScoin.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="&gt;&gt;BtnDeleteGoods.Parent" xml:space="preserve">
+    <value>GrpGoodsList</value>
   </data>
-  <data name="label12.Text" xml:space="preserve">
-    <value>x</value>
+  <data name="&gt;&gt;BtnDeleteGoods.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpGoodsList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 247</value>
+  </data>
+  <data name="GrpGoodsList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 302</value>
+  </data>
+  <data name="GrpGoodsList.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="GrpGoodsList.Text" xml:space="preserve">
+    <value>商品列表</value>
+  </data>
+  <data name="&gt;&gt;GrpGoodsList.Name" xml:space="preserve">
+    <value>GrpGoodsList</value>
   </data>
   <data name="&gt;&gt;GrpGoodsList.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="NUDCostHcoin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;GrpGoodsList.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="LblRefreshModeLabel.Text" xml:space="preserve">
-    <value>刷新方式：</value>
+  <data name="&gt;&gt;GrpGoodsList.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
-  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+  <data name="BtnClearGoods.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="BtnClearGoods.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 273</value>
+  </data>
+  <data name="BtnClearGoods.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnClearGoods.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="BtnClearGoods.Text" xml:space="preserve">
+    <value>× 清空</value>
+  </data>
+  <data name="&gt;&gt;BtnClearGoods.Name" xml:space="preserve">
+    <value>BtnClearGoods</value>
+  </data>
+  <data name="&gt;&gt;BtnClearGoods.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnClearGoods.Parent" xml:space="preserve">
+    <value>GrpGoodsList</value>
+  </data>
+  <data name="&gt;&gt;BtnClearGoods.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnDeleteGoods.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="BtnDeleteGoods.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 273</value>
+  </data>
+  <data name="BtnDeleteGoods.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnDeleteGoods.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnDeleteGoods.Text" xml:space="preserve">
+    <value>- 删除</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteGoods.Name" xml:space="preserve">
+    <value>BtnDeleteGoods</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteGoods.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteGoods.Parent" xml:space="preserve">
+    <value>GrpGoodsList</value>
+  </data>
+  <data name="&gt;&gt;BtnDeleteGoods.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Right</value>
+  </data>
+  <data name="&gt;&gt;LblClearItemFilter.Name" xml:space="preserve">
+    <value>LblClearItemFilter</value>
+  </data>
+  <data name="&gt;&gt;LblClearItemFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblClearItemFilter.Parent" xml:space="preserve">
+    <value>GrpItems</value>
+  </data>
+  <data name="&gt;&gt;LblClearItemFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TxtItemFilter.Name" xml:space="preserve">
+    <value>TxtItemFilter</value>
+  </data>
+  <data name="&gt;&gt;TxtItemFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtItemFilter.Parent" xml:space="preserve">
+    <value>GrpItems</value>
+  </data>
+  <data name="&gt;&gt;TxtItemFilter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>622, 41</value>
+  </data>
+  <data name="GrpItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 508</value>
+  </data>
+  <data name="GrpItems.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="GrpItems.Text" xml:space="preserve">
+    <value>物品列表</value>
+  </data>
+  <data name="&gt;&gt;GrpItems.Name" xml:space="preserve">
+    <value>GrpItems</value>
+  </data>
+  <data name="&gt;&gt;GrpItems.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpItems.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpItems.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="TxtItemFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="TxtItemFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>238, 23</value>
+  </data>
+  <data name="TxtItemFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TxtItemFilter.Name" xml:space="preserve">
+    <value>TxtItemFilter</value>
+  </data>
+  <data name="&gt;&gt;TxtItemFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtItemFilter.Parent" xml:space="preserve">
+    <value>GrpItems</value>
+  </data>
+  <data name="&gt;&gt;TxtItemFilter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GrpGoodsInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveGoods.Name" xml:space="preserve">
+    <value>BtnSaveGoods</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveGoods.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveGoods.Parent" xml:space="preserve">
     <value>GrpGoodsInfo</value>
   </data>
-  <data name="LblCostItem3Label.Text" xml:space="preserve">
-    <value>消耗物品3：</value>
+  <data name="&gt;&gt;BtnSaveGoods.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
-  <data name="&gt;&gt;NUDCostItem4Count.ZOrder" xml:space="preserve">
-    <value>16</value>
+  <data name="&gt;&gt;CmbRefreshType.Name" xml:space="preserve">
+    <value>CmbRefreshType</value>
   </data>
-  <data name="LblGoodsIdLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>57, 17</value>
+  <data name="&gt;&gt;CmbRefreshType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;CmbRefreshType.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;CmbRefreshType.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;NUDRefreshParm.Name" xml:space="preserve">
+    <value>NUDRefreshParm</value>
+  </data>
+  <data name="&gt;&gt;NUDRefreshParm.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDRefreshParm.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDRefreshParm.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.Name" xml:space="preserve">
+    <value>DTPEndTime</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.Name" xml:space="preserve">
+    <value>DTPBeginTime</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;NUDGoodsId.Name" xml:space="preserve">
+    <value>NUDGoodsId</value>
+  </data>
+  <data name="&gt;&gt;NUDGoodsId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDGoodsId.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDGoodsId.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxLevel.Name" xml:space="preserve">
+    <value>NUDMaxLevel</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxLevel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxLevel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;NUDMinLevel.Name" xml:space="preserve">
+    <value>NUDMinLevel</value>
+  </data>
+  <data name="&gt;&gt;NUDMinLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMinLevel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDMinLevel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4.Name" xml:space="preserve">
+    <value>NUDCostItem4</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3.Name" xml:space="preserve">
+    <value>NUDCostItem3</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem2.Name" xml:space="preserve">
+    <value>NUDCostItem2</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem2.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
   </data>
   <data name="&gt;&gt;NUDCostItem2.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <data name="&gt;&gt;NUDCostItem1.Name" xml:space="preserve">
+    <value>NUDCostItem1</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem1.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;NUDCostMcoin.Name" xml:space="preserve">
+    <value>NUDCostMcoin</value>
+  </data>
+  <data name="&gt;&gt;NUDCostMcoin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostMcoin.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostMcoin.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;NUDCostScoin.Name" xml:space="preserve">
+    <value>NUDCostScoin</value>
+  </data>
+  <data name="&gt;&gt;NUDCostScoin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostScoin.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostScoin.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;NUDCostHcoin.Name" xml:space="preserve">
+    <value>NUDCostHcoin</value>
+  </data>
+  <data name="&gt;&gt;NUDCostHcoin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostHcoin.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
   <data name="&gt;&gt;NUDCostHcoin.ZOrder" xml:space="preserve">
     <value>14</value>
   </data>
-  <data name="TxtGoodsItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="&gt;&gt;NUDBuyLimit.Name" xml:space="preserve">
+    <value>NUDBuyLimit</value>
   </data>
-  <data name="LblCostHcoinLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;NUDBuyLimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDBuyLimit.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDBuyLimit.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4Count.Name" xml:space="preserve">
+    <value>NUDCostItem4Count</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NUDCostItem4Count.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4Count.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3Count.Name" xml:space="preserve">
+    <value>NUDCostItem3Count</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3Count.Parent" xml:space="preserve">
     <value>GrpGoodsInfo</value>
   </data>
   <data name="&gt;&gt;NUDCostItem3Count.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
-  <data name="LblRefreshModeLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;NUDCostItem2Count.Name" xml:space="preserve">
+    <value>NUDCostItem2Count</value>
   </data>
-  <data name="NUDMaxLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>198, 122</value>
-  </data>
-  <data name="&gt;&gt;NUDGoodsId.Name" xml:space="preserve">
-    <value>NUDGoodsId</value>
-  </data>
-  <data name="&gt;&gt;ListShop.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="NUDMinLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 122</value>
-  </data>
-  <data name="NUDCostItem2Count.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 23</value>
-  </data>
-  <data name="&gt;&gt;ListItems.Name" xml:space="preserve">
-    <value>ListItems</value>
-  </data>
-  <data name="NUDCostItem4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 412</value>
-  </data>
-  <data name="&gt;&gt;ListGoods.Parent" xml:space="preserve">
-    <value>GrpGoodsList</value>
-  </data>
-  <data name="NUDCostScoin.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="label12.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label1.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 328</value>
-  </data>
-  <data name="&gt;&gt;LblCostHcoinLabel.ZOrder" xml:space="preserve">
-    <value>32</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>884, 561</value>
-  </data>
-  <data name="LblGoodsIdLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="BtnSave.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="LblGoodsItemLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblCostItem3Label.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="DTPEndTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 23</value>
-  </data>
-  <data name="&gt;&gt;LblEndTimeLabel.ZOrder" xml:space="preserve">
-    <value>24</value>
-  </data>
-  <data name="LblCostItem4Label.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ListGoods.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem2Label.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="TxtItemFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 22</value>
-  </data>
-  <data name="&gt;&gt;TxtGoodsItem.Name" xml:space="preserve">
-    <value>TxtGoodsItem</value>
-  </data>
-  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="NUDCostMcoin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 296</value>
-  </data>
-  <data name="&gt;&gt;ListItems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblCostHcoinLabel.Text" xml:space="preserve">
-    <value>消耗原石：</value>
-  </data>
-  <data name="NUDCostItem1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;LblShopPathLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LnkGenGoodsId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;BtnSave.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblCostHcoinLabel.Name" xml:space="preserve">
-    <value>LblCostHcoinLabel</value>
-  </data>
-  <data name="LblBuyLimitLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblBeginTimeLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="ListShop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
-  </data>
-  <data name="NUDCostMcoin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="NUDCostItem2Count.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;LblBeginTimeLabel.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="NUDRefreshParm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="LblCostMcoinLabel.Text" xml:space="preserve">
-    <value>消耗创世结晶：</value>
-  </data>
-  <data name="NUDCostScoin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem1.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;TxtItemFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem1Label.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="BtnSaveGoods.TabIndex" type="System.Int32, mscorlib">
-    <value>30</value>
-  </data>
-  <data name="LblBuyLevelLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem4.Type" xml:space="preserve">
+  <data name="&gt;&gt;NUDCostItem2Count.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DTPBeginTime.Name" xml:space="preserve">
-    <value>DTPBeginTime</value>
-  </data>
-  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
-    <value>39</value>
-  </data>
-  <data name="BtnSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem1Label.Name" xml:space="preserve">
-    <value>LblCostItem1Label</value>
-  </data>
-  <data name="&gt;&gt;LblRefreshModeLabel.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="LblCostMcoinLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="BtnLoad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>666, 12</value>
-  </data>
-  <data name="&gt;&gt;LblGoodsIdLabel.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="NUDCostItem3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;NUDRefreshParm.Name" xml:space="preserve">
-    <value>NUDRefreshParm</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem4.Name" xml:space="preserve">
-    <value>NUDCostItem4</value>
-  </data>
-  <data name="&gt;&gt;label18.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblCostItem4Label.Text" xml:space="preserve">
-    <value>消耗物品4：</value>
-  </data>
-  <data name="GrpShopList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 200</value>
-  </data>
-  <data name="NUDMaxLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="LnkGenGoodsId.Text" xml:space="preserve">
-    <value>生成ID</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteGoods.Name" xml:space="preserve">
-    <value>BtnDeleteGoods</value>
-  </data>
-  <data name="&gt;&gt;NUDCostMcoin.Name" xml:space="preserve">
-    <value>NUDCostMcoin</value>
-  </data>
-  <data name="LblGoodsItemLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="&gt;&gt;GrpItems.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="LblShopPathLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;GrpItems.Name" xml:space="preserve">
-    <value>GrpItems</value>
-  </data>
-  <data name="NUDCostItem2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem4.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="&gt;&gt;BtnSave.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;NUDGoodsItemCount.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="LblBeginTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 156</value>
-  </data>
-  <data name="GrpItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Right</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem4Label.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveGoods.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="ListGoods.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="&gt;&gt;LnkGenGoodsId.Type" xml:space="preserve">
-    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDCostMcoin.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="LnkGenGoodsId.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="&gt;&gt;BtnLoad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BtnSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>772, 12</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem1Count.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="LblCostScoinLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;GrpGoodsInfo.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;NUDCostHcoin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DTPEndTime.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblBuyLevelLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label13.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="ListItems.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>245, 64</value>
-  </data>
-  <data name="GrpShopList.Text" xml:space="preserve">
-    <value>商店列表</value>
-  </data>
-  <data name="label14.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
-  <data name="LblCostItem2Label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>38, 356</value>
-  </data>
-  <data name="label14.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;label14.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NUDCostItem3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 383</value>
-  </data>
-  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="TxtGoodsItem.Location" type="System.Drawing.Point, System.Drawing">
-    <value>95, 61</value>
-  </data>
-  <data name="NUDGoodsItemCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="NUDRefreshParm.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="label1.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
-  <data name="LblGoodsItemLabel.Text" xml:space="preserve">
-    <value>商品：</value>
-  </data>
-  <data name="LblRefreshModeLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;LblBuyLimitLabel.ZOrder" xml:space="preserve">
-    <value>33</value>
-  </data>
-  <data name="&gt;&gt;DTPBeginTime.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;NUDGoodsId.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblCostHcoinLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblGoodsItemLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LblCostItem2Label.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;NUDRefreshParm.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="LblCostItem1Label.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblCostHcoinLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
-    <value>17, 17</value>
-  </data>
-  <data name="GrpItems.Text" xml:space="preserve">
-    <value>物品列表</value>
-  </data>
-  <data name="NUDMaxLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="&gt;&gt;NUDMaxLevel.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem2Label.Name" xml:space="preserve">
-    <value>LblCostItem2Label</value>
-  </data>
-  <data name="TxtGoodsItem.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;TxtGoodsItem.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="NUDCostItem3Count.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;GrpShopList.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="GrpGoodsInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="GrpGoodsList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 247</value>
-  </data>
-  <data name="&gt;&gt;LnkGenGoodsId.Name" xml:space="preserve">
-    <value>LnkGenGoodsId</value>
-  </data>
-  <data name="&gt;&gt;LblCostHcoinLabel.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="NUDCostItem2.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="NUDCostItem2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem3Count.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblCostScoinLabel.ZOrder" xml:space="preserve">
-    <value>31</value>
-  </data>
-  <data name="NUDCostScoin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 23</value>
-  </data>
-  <data name="&gt;&gt;LblBuyLimitLabel.Name" xml:space="preserve">
-    <value>LblBuyLimitLabel</value>
-  </data>
-  <data name="NUDGoodsItemCount.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblGoodsIdLabel.Name" xml:space="preserve">
-    <value>LblGoodsIdLabel</value>
-  </data>
-  <data name="&gt;&gt;ListShop.Parent" xml:space="preserve">
-    <value>GrpShopList</value>
-  </data>
-  <data name="BtnDeleteGoods.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="label18.Text" xml:space="preserve">
-    <value>~</value>
-  </data>
-  <data name="LblCostScoinLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;TxtGoodsItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblBuyLevelLabel.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="ListShop.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="NUDBuyLimit.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="LblBeginTimeLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>38</value>
-  </data>
-  <data name="TxtShopJsonPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>122, 12</value>
-  </data>
-  <data name="LblCostMcoinLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>21, 298</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem2Label.ZOrder" xml:space="preserve">
-    <value>28</value>
-  </data>
-  <data name="&gt;&gt;LblGoodsIdLabel.ZOrder" xml:space="preserve">
-    <value>34</value>
-  </data>
-  <data name="DTPEndTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblBuyLevelLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="TxtShopJsonPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>538, 23</value>
-  </data>
-  <data name="BtnDeleteGoods.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="DTPBeginTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblCostItem1Label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>38, 327</value>
-  </data>
-  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 415</value>
-  </data>
-  <data name="&gt;&gt;LblBuyLevelLabel.Name" xml:space="preserve">
-    <value>LblBuyLevelLabel</value>
-  </data>
-  <data name="LblCostItem1Label.Text" xml:space="preserve">
-    <value>消耗物品1：</value>
-  </data>
-  <data name="&gt;&gt;GrpGoodsInfo.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="DTPBeginTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 151</value>
-  </data>
-  <data name="&gt;&gt;ListItems.Parent" xml:space="preserve">
-    <value>GrpItems</value>
-  </data>
-  <data name="LblBuyLimitLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem1.Name" xml:space="preserve">
-    <value>NUDCostItem1</value>
-  </data>
-  <data name="LblBuyLimitLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
-  </data>
-  <data name="&gt;&gt;NUDRefreshParm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NUDGoodsItemCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 23</value>
   </data>
   <data name="&gt;&gt;NUDCostItem2Count.Parent" xml:space="preserve">
     <value>GrpGoodsInfo</value>
   </data>
-  <data name="GrpGoodsList.Text" xml:space="preserve">
-    <value>商品列表</value>
+  <data name="&gt;&gt;NUDCostItem2Count.ZOrder" xml:space="preserve">
+    <value>18</value>
   </data>
-  <data name="LblCostScoinLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
+  <data name="&gt;&gt;NUDCostItem1Count.Name" xml:space="preserve">
+    <value>NUDCostItem1Count</value>
   </data>
-  <data name="&gt;&gt;NUDCostItem3.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;NUDCostItem1Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;DTPBeginTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;NUDCostItem1Count.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
   </data>
-  <data name="GrpGoodsList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left</value>
+  <data name="&gt;&gt;NUDCostItem1Count.ZOrder" xml:space="preserve">
+    <value>19</value>
   </data>
-  <data name="LblBuyLevelLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
+  <data name="&gt;&gt;NUDGoodsItemCount.Name" xml:space="preserve">
+    <value>NUDGoodsItemCount</value>
   </data>
-  <data name="LnkGenGoodsId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>45, 17</value>
+  <data name="&gt;&gt;NUDGoodsItemCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LblCostMcoinLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 17</value>
+  <data name="&gt;&gt;NUDGoodsItemCount.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
   </data>
-  <data name="&gt;&gt;LblShopPathLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;NUDGoodsItemCount.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;TxtGoodsItem.Name" xml:space="preserve">
+    <value>TxtGoodsItem</value>
+  </data>
+  <data name="&gt;&gt;TxtGoodsItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtGoodsItem.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;TxtGoodsItem.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;LblRefreshModeLabel.Name" xml:space="preserve">
+    <value>LblRefreshModeLabel</value>
+  </data>
+  <data name="&gt;&gt;LblRefreshModeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblRefreshModeLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblRefreshModeLabel.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLevelLabel.Name" xml:space="preserve">
+    <value>LblBuyLevelLabel</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLevelLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLevelLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLevelLabel.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;LblEndTimeLabel.Name" xml:space="preserve">
+    <value>LblEndTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;LblEndTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblEndTimeLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblEndTimeLabel.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTimeLabel.Name" xml:space="preserve">
+    <value>LblBeginTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTimeLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTimeLabel.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem4Label.Name" xml:space="preserve">
+    <value>LblCostItem4Label</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem4Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem4Label.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem4Label.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem3Label.Name" xml:space="preserve">
+    <value>LblCostItem3Label</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem3Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem3Label.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem3Label.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem2Label.Name" xml:space="preserve">
+    <value>LblCostItem2Label</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem2Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem2Label.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem2Label.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem1Label.Name" xml:space="preserve">
+    <value>LblCostItem1Label</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem1Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem1Label.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem1Label.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;LblCostMcoinLabel.Name" xml:space="preserve">
+    <value>LblCostMcoinLabel</value>
+  </data>
+  <data name="&gt;&gt;LblCostMcoinLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostMcoinLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostMcoinLabel.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;LblCostScoinLabel.Name" xml:space="preserve">
+    <value>LblCostScoinLabel</value>
+  </data>
+  <data name="&gt;&gt;LblCostScoinLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostScoinLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostScoinLabel.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;LblCostHcoinLabel.Name" xml:space="preserve">
+    <value>LblCostHcoinLabel</value>
+  </data>
+  <data name="&gt;&gt;LblCostHcoinLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostHcoinLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostHcoinLabel.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLimitLabel.Name" xml:space="preserve">
+    <value>LblBuyLimitLabel</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLimitLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLimitLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLimitLabel.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsIdLabel.Name" xml:space="preserve">
+    <value>LblGoodsIdLabel</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsIdLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsIdLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsIdLabel.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsItemLabel.Name" xml:space="preserve">
+    <value>LblGoodsItemLabel</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsItemLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsItemLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsItemLabel.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;LnkGenGoodsId.Name" xml:space="preserve">
+    <value>LnkGenGoodsId</value>
+  </data>
+  <data name="&gt;&gt;LnkGenGoodsId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkGenGoodsId.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LnkGenGoodsId.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="GrpGoodsInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 41</value>
+  </data>
+  <data name="GrpGoodsInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>348, 508</value>
+  </data>
+  <data name="GrpGoodsInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="GrpGoodsInfo.Text" xml:space="preserve">
+    <value>商品信息</value>
+  </data>
+  <data name="&gt;&gt;GrpGoodsInfo.Name" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;GrpGoodsInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpGoodsInfo.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;BtnLoad.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;GrpGoodsInfo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="BtnSaveGoods.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="BtnSaveGoods.Location" type="System.Drawing.Point, System.Drawing">
+    <value>99, 472</value>
+  </data>
+  <data name="BtnSaveGoods.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 30</value>
+  </data>
+  <data name="BtnSaveGoods.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="BtnSaveGoods.Text" xml:space="preserve">
+    <value>√ 添加或更新</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveGoods.Name" xml:space="preserve">
+    <value>BtnSaveGoods</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveGoods.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveGoods.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;BtnSaveGoods.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="CmbRefreshType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="CmbRefreshType.Items" xml:space="preserve">
+    <value>无</value>
   </data>
   <data name="CmbRefreshType.Items1" xml:space="preserve">
     <value>天</value>
@@ -792,907 +987,1312 @@
   <data name="CmbRefreshType.Items3" xml:space="preserve">
     <value>月</value>
   </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>37</value>
-  </data>
-  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 17</value>
-  </data>
-  <data name="&gt;&gt;BtnLoad.Name" xml:space="preserve">
-    <value>BtnLoad</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem2Count.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;GrpGoodsInfo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbRefreshType.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="&gt;&gt;label11.Name" xml:space="preserve">
-    <value>label11</value>
-  </data>
-  <data name="BtnClearGoods.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="ListItems.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 51</value>
-  </data>
-  <data name="&gt;&gt;BtnSave.Name" xml:space="preserve">
-    <value>BtnSave</value>
-  </data>
-  <data name="LblRefreshModeLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 211</value>
-  </data>
-  <data name="&gt;&gt;CmbRefreshType.Name" xml:space="preserve">
-    <value>CmbRefreshType</value>
-  </data>
-  <data name="NUDCostItem1Count.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 325</value>
-  </data>
-  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
-    <value>36</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem1Count.Name" xml:space="preserve">
-    <value>NUDCostItem1Count</value>
-  </data>
-  <data name="NUDCostItem4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
-  </data>
-  <data name="ListGoods.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 242</value>
-  </data>
-  <data name="&gt;&gt;NUDGoodsId.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;LblBuyLimitLabel.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="&gt;&gt;TxtShopJsonPath.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TxtItemFilter.Name" xml:space="preserve">
-    <value>TxtItemFilter</value>
-  </data>
-  <data name="NUDCostItem1Count.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteGoods.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblCostScoinLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="LblEndTimeLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="LblCostHcoinLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 240</value>
-  </data>
-  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 17</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem3Label.Name" xml:space="preserve">
-    <value>LblCostItem3Label</value>
-  </data>
-  <data name="LblBuyLimitLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 92</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem1Count.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="&gt;&gt;NUDCostScoin.Name" xml:space="preserve">
-    <value>NUDCostScoin</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem1Label.ZOrder" xml:space="preserve">
-    <value>29</value>
-  </data>
-  <data name="&gt;&gt;NUDCostScoin.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="DTPBeginTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 23</value>
-  </data>
-  <data name="GrpShopList.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="NUDMinLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblCostItem2Label.Text" xml:space="preserve">
-    <value>消耗物品2：</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteGoods.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="ListItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>238, 446</value>
-  </data>
-  <data name="&gt;&gt;NUDMinLevel.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;NUDCostHcoin.Name" xml:space="preserve">
-    <value>NUDCostHcoin</value>
-  </data>
-  <data name="LblGoodsIdLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="NUDCostItem3Count.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 23</value>
-  </data>
-  <data name="NUDRefreshParm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 209</value>
-  </data>
-  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;NUDCostHcoin.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="NUDCostItem1Count.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="NUDGoodsItemCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>257, 61</value>
-  </data>
-  <data name="LblShopPathLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 15</value>
-  </data>
-  <data name="&gt;&gt;NUDMaxLevel.Name" xml:space="preserve">
-    <value>NUDMaxLevel</value>
-  </data>
-  <data name="GrpGoodsList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 302</value>
-  </data>
-  <data name="&gt;&gt;LblBeginTimeLabel.Name" xml:space="preserve">
-    <value>LblBeginTimeLabel</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem4Label.ZOrder" xml:space="preserve">
-    <value>26</value>
-  </data>
-  <data name="&gt;&gt;TxtShopJsonPath.Name" xml:space="preserve">
-    <value>TxtShopJsonPath</value>
-  </data>
-  <data name="&gt;&gt;BtnSave.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="ListItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Bottom, Left, Right</value>
-  </data>
-  <data name="NUDRefreshParm.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="NUDGoodsId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 32</value>
-  </data>
-  <data name="LblShopPathLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;TxtShopJsonPath.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDMinLevel.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="&gt;&gt;TxtShopJsonPath.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;TxtGoodsItem.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="LblCostScoinLabel.Text" xml:space="preserve">
-    <value>消耗摩拉：</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>42</value>
-  </data>
-  <data name="CmbRefreshType.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="BtnLoad.Text" xml:space="preserve">
-    <value>加载</value>
-  </data>
-  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 17</value>
-  </data>
-  <data name="GrpGoodsInfo.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="NUDMinLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="NUDCostItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
-  </data>
-  <data name="LblBuyLimitLabel.Text" xml:space="preserve">
-    <value>限购数量：</value>
-  </data>
-  <data name="&gt;&gt;TxtItemFilter.Parent" xml:space="preserve">
-    <value>GrpItems</value>
-  </data>
-  <data name="LblCostItem3Label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>38, 383</value>
-  </data>
-  <data name="&gt;&gt;NUDMaxLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem4Count.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NUDCostHcoin.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="&gt;&gt;LblEndTimeLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label11.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="LblEndTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
-  </data>
-  <data name="&gt;&gt;LblCostScoinLabel.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="NUDCostItem4Count.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="label13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="NUDCostItem3.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;label13.Name" xml:space="preserve">
-    <value>label13</value>
-  </data>
-  <data name="GrpGoodsInfo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>268, 41</value>
-  </data>
   <data name="CmbRefreshType.Location" type="System.Drawing.Point, System.Drawing">
     <value>175, 207</value>
-  </data>
-  <data name="BtnClearGoods.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
-  </data>
-  <data name="&gt;&gt;LblBeginTimeLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NUDCostItem3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
-  </data>
-  <data name="BtnClearGoods.Text" xml:space="preserve">
-    <value>× 清空</value>
-  </data>
-  <data name="LnkGenGoodsId.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="BtnClearGoods.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 273</value>
-  </data>
-  <data name="NUDCostItem4Count.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 23</value>
-  </data>
-  <data name="&gt;&gt;NUDMaxLevel.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormShopEditor</value>
-  </data>
-  <data name="&gt;&gt;LblRefreshModeLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblGoodsItemLabel.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="BtnDeleteGoods.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 273</value>
-  </data>
-  <data name="&gt;&gt;GrpShopList.Name" xml:space="preserve">
-    <value>GrpShopList</value>
-  </data>
-  <data name="&gt;&gt;DTPEndTime.Name" xml:space="preserve">
-    <value>DTPEndTime</value>
-  </data>
-  <data name="&gt;&gt;LblShopPathLabel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;LblRefreshModeLabel.Name" xml:space="preserve">
-    <value>LblRefreshModeLabel</value>
-  </data>
-  <data name="&gt;&gt;label14.Name" xml:space="preserve">
-    <value>label14</value>
-  </data>
-  <data name="BtnSaveGoods.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;LblBuyLimitLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpGoodsList.Name" xml:space="preserve">
-    <value>GrpGoodsList</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem3Count.Name" xml:space="preserve">
-    <value>NUDCostItem3Count</value>
-  </data>
-  <data name="LblCostItem2Label.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem1Label.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DTPEndTime.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblCostMcoinLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblGoodsIdLabel.Text" xml:space="preserve">
-    <value>商品ID：</value>
-  </data>
-  <data name="TxtGoodsItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 23</value>
-  </data>
-  <data name="&gt;&gt;CmbRefreshType.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblShopPathLabel.Text" xml:space="preserve">
-    <value>Shop.json 路径：</value>
-  </data>
-  <data name="label14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;label18.Name" xml:space="preserve">
-    <value>label18</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem3Count.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="LblCostItem4Label.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="NUDBuyLimit.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 90</value>
-  </data>
-  <data name="&gt;&gt;LblGoodsIdLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="GrpGoodsInfo.Text" xml:space="preserve">
-    <value>商品信息</value>
-  </data>
-  <data name="&gt;&gt;GrpGoodsInfo.Name" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="LblCostItem4Label.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblBeginTimeLabel.Text" xml:space="preserve">
-    <value>上架时间：</value>
-  </data>
-  <data name="TxtItemFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>238, 23</value>
-  </data>
-  <data name="&gt;&gt;GrpItems.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="NUDGoodsId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 23</value>
-  </data>
-  <data name="&gt;&gt;GrpGoodsList.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GrpItems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblEndTimeLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="ListGoods.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 19</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem2Count.Name" xml:space="preserve">
-    <value>NUDCostItem2Count</value>
-  </data>
-  <data name="NUDCostHcoin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 23</value>
-  </data>
-  <data name="BtnLoad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="BtnDeleteGoods.Text" xml:space="preserve">
-    <value>- 删除</value>
-  </data>
-  <data name="BtnSave.Text" xml:space="preserve">
-    <value>保存</value>
-  </data>
-  <data name="LblCostItem1Label.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;BtnClearGoods.Name" xml:space="preserve">
-    <value>BtnClearGoods</value>
-  </data>
-  <data name="GrpShopList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 41</value>
-  </data>
-  <data name="&gt;&gt;LblBuyLevelLabel.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="BtnSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
-  </data>
-  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 357</value>
-  </data>
-  <data name="DTPEndTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 180</value>
-  </data>
-  <data name="&gt;&gt;label12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 9pt</value>
-  </data>
-  <data name="&gt;&gt;LblCostScoinLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDMinLevel.Name" xml:space="preserve">
-    <value>NUDMinLevel</value>
-  </data>
-  <data name="&gt;&gt;NUDGoodsId.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="&gt;&gt;BtnLoad.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;TxtItemFilter.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="BtnLoad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;NUDBuyLimit.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;DTPBeginTime.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="BtnClearGoods.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="NUDMaxLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveGoods.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblEndTimeLabel.Name" xml:space="preserve">
-    <value>LblEndTimeLabel</value>
-  </data>
-  <data name="TxtShopJsonPath.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem2.Name" xml:space="preserve">
-    <value>NUDCostItem2</value>
-  </data>
-  <data name="NUDCostItem3Count.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;ListGoods.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="NUDCostItem2Count.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblBeginTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
-  </data>
-  <data name="LblBuyLevelLabel.Text" xml:space="preserve">
-    <value>限购等级：</value>
-  </data>
-  <data name="LblCostItem2Label.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="LblGoodsItemLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="NUDGoodsId.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;label13.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListGoods.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListGoods.Name" xml:space="preserve">
-    <value>ListGoods</value>
-  </data>
-  <data name="&gt;&gt;ListShop.Name" xml:space="preserve">
-    <value>ListShop</value>
-  </data>
-  <data name="LblCostItem2Label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 17</value>
-  </data>
-  <data name="DTPEndTime.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Shop.json Editor</value>
-  </data>
-  <data name="&gt;&gt;LblCostMcoinLabel.Name" xml:space="preserve">
-    <value>LblCostMcoinLabel</value>
-  </data>
-  <data name="GrpItems.Location" type="System.Drawing.Point, System.Drawing">
-    <value>622, 41</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem1Count.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblRefreshModeLabel.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;NUDRefreshParm.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="label13.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
-  <data name="&gt;&gt;LblCostHcoinLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem3Label.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NUDCostMcoin.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="ListShop.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="NUDCostItem4Count.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 412</value>
-  </data>
-  <data name="&gt;&gt;NUDGoodsItemCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblRefreshModeLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;LblCostMcoinLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;CmbRefreshType.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="NUDCostItem1Count.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 23</value>
-  </data>
-  <data name="LblCostItem3Label.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;ListItems.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;ListShop.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NUDBuyLimit.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 23</value>
-  </data>
-  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
-    <value>207, 386</value>
-  </data>
-  <data name="NUDCostItem2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 354</value>
-  </data>
-  <data name="NUDBuyLimit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;LblEndTimeLabel.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="label11.Text" xml:space="preserve">
-    <value>x</value>
-  </data>
-  <data name="LnkGenGoodsId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>247, 34</value>
-  </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
-  <data name="LblGoodsItemLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 64</value>
-  </data>
-  <data name="TxtItemFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem2.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem3.Name" xml:space="preserve">
-    <value>NUDCostItem3</value>
-  </data>
-  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 17</value>
-  </data>
-  <data name="NUDCostItem1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 325</value>
-  </data>
-  <data name="LblEndTimeLabel.Text" xml:space="preserve">
-    <value>下架时间：</value>
-  </data>
-  <data name="BtnLoad.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 17</value>
-  </data>
-  <data name="&gt;&gt;LnkGenGoodsId.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="GrpGoodsList.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="LblBeginTimeLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;LnkGenGoodsId.ZOrder" xml:space="preserve">
-    <value>40</value>
-  </data>
-  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
-    <value>41</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem2Count.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblEndTimeLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;NUDBuyLimit.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="label12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="CmbRefreshType.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="&gt;&gt;label11.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="LblCostItem1Label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 17</value>
-  </data>
-  <data name="ListGoods.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
-  </data>
-  <data name="LblShopPathLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;label12.Name" xml:space="preserve">
-    <value>label12</value>
-  </data>
-  <data name="&gt;&gt;BtnSaveGoods.Name" xml:space="preserve">
-    <value>BtnSaveGoods</value>
-  </data>
-  <data name="NUDCostHcoin.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 238</value>
-  </data>
-  <data name="&gt;&gt;BtnDeleteGoods.Parent" xml:space="preserve">
-    <value>GrpGoodsList</value>
-  </data>
-  <data name="&gt;&gt;LblCostItem2Label.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="ListShop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>244, 178</value>
-  </data>
-  <data name="&gt;&gt;label1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="BtnSaveGoods.Text" xml:space="preserve">
-    <value>√ 添加或更新</value>
-  </data>
-  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>900, 600</value>
-  </data>
-  <data name="ListItems.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="DTPBeginTime.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;NUDCostScoin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="NUDMinLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CmbRefreshType.Size" type="System.Drawing.Size, System.Drawing">
     <value>104, 25</value>
   </data>
-  <data name="&gt;&gt;LblGoodsItemLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="CmbRefreshType.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
-  <data name="LblCostItem3Label.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="&gt;&gt;CmbRefreshType.Name" xml:space="preserve">
+    <value>CmbRefreshType</value>
   </data>
-  <data name="&gt;&gt;NUDMinLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;CmbRefreshType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="LblCostItem4Label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>38, 412</value>
-  </data>
-  <data name="&gt;&gt;NUDCostMcoin.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblGoodsItemLabel.Name" xml:space="preserve">
-    <value>LblGoodsItemLabel</value>
-  </data>
-  <data name="&gt;&gt;NUDBuyLimit.Parent" xml:space="preserve">
+  <data name="&gt;&gt;CmbRefreshType.Parent" xml:space="preserve">
     <value>GrpGoodsInfo</value>
   </data>
-  <data name="NUDCostItem1.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="&gt;&gt;CmbRefreshType.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
-  <data name="BtnSaveGoods.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 30</value>
-  </data>
-  <data name="LblBuyLevelLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 125</value>
-  </data>
-  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
-    <value>GrpGoodsInfo</value>
-  </data>
-  <data name="NUDCostItem4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="NUDRefreshParm.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="&gt;&gt;LblCostMcoinLabel.ZOrder" xml:space="preserve">
-    <value>30</value>
+  <data name="NUDRefreshParm.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 209</value>
   </data>
-  <data name="NUDGoodsId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top</value>
+  <data name="NUDRefreshParm.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
   </data>
-  <data name="GrpItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 508</value>
+  <data name="NUDRefreshParm.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
-  <data name="&gt;&gt;GrpShopList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;NUDRefreshParm.Name" xml:space="preserve">
+    <value>NUDRefreshParm</value>
   </data>
-  <data name="&gt;&gt;LblBeginTimeLabel.ZOrder" xml:space="preserve">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;NUDGoodsItemCount.Name" xml:space="preserve">
-    <value>NUDGoodsItemCount</value>
-  </data>
-  <data name="&gt;&gt;BtnClearGoods.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;BtnClearGoods.Parent" xml:space="preserve">
-    <value>GrpGoodsList</value>
-  </data>
-  <data name="NUDCostMcoin.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 23</value>
-  </data>
-  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem2.Type" xml:space="preserve">
+  <data name="&gt;&gt;NUDRefreshParm.Type" xml:space="preserve">
     <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;LblCostItem4Label.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDCostItem3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;NUDRefreshParm.Parent" xml:space="preserve">
     <value>GrpGoodsInfo</value>
   </data>
-  <data name="label18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="&gt;&gt;NUDRefreshParm.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="DTPEndTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="&gt;&gt;NUDBuyLimit.Name" xml:space="preserve">
-    <value>NUDBuyLimit</value>
+  <data name="DTPEndTime.CustomFormat" xml:space="preserve">
+    <value>yyyy'/'MM'/'dd HH':'mm':'ss</value>
   </data>
-  <data name="&gt;&gt;LblCostItem3Label.Parent" xml:space="preserve">
+  <data name="DTPEndTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 180</value>
+  </data>
+  <data name="DTPEndTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 23</value>
+  </data>
+  <data name="DTPEndTime.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.Name" xml:space="preserve">
+    <value>DTPEndTime</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DTPEndTime.Parent" xml:space="preserve">
     <value>GrpGoodsInfo</value>
   </data>
-  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="&gt;&gt;DTPEndTime.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DTPBeginTime.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="DTPBeginTime.CustomFormat" xml:space="preserve">
     <value>yyyy'/'MM'/'dd HH':'mm':'ss</value>
   </data>
-  <data name="LblGoodsIdLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>56, 34</value>
+  <data name="DTPBeginTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 151</value>
   </data>
-  <data name="LblCostItem4Label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 17</value>
+  <data name="DTPBeginTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>160, 23</value>
   </data>
-  <data name="LblBuyLimitLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="DTPBeginTime.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.Name" xml:space="preserve">
+    <value>DTPBeginTime</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;DTPBeginTime.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="NUDGoodsId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
-  <data name="LblCostHcoinLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
+  <data name="NUDGoodsId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 32</value>
+  </data>
+  <data name="NUDGoodsId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="NUDGoodsId.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;NUDGoodsId.Name" xml:space="preserve">
+    <value>NUDGoodsId</value>
+  </data>
+  <data name="&gt;&gt;NUDGoodsId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDGoodsId.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDGoodsId.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="NUDMaxLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDMaxLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>198, 122</value>
+  </data>
+  <data name="NUDMaxLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="NUDMaxLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxLevel.Name" xml:space="preserve">
+    <value>NUDMaxLevel</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxLevel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxLevel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="NUDMinLevel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDMinLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 122</value>
+  </data>
+  <data name="NUDMinLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="NUDMinLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;NUDMinLevel.Name" xml:space="preserve">
+    <value>NUDMinLevel</value>
+  </data>
+  <data name="&gt;&gt;NUDMinLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMinLevel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDMinLevel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="NUDCostItem4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDCostItem4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 412</value>
+  </data>
+  <data name="NUDCostItem4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="NUDCostItem4.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4.Name" xml:space="preserve">
+    <value>NUDCostItem4</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="NUDCostItem3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDCostItem3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 383</value>
+  </data>
+  <data name="NUDCostItem3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="NUDCostItem3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3.Name" xml:space="preserve">
+    <value>NUDCostItem3</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="NUDCostItem2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDCostItem2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 354</value>
+  </data>
+  <data name="NUDCostItem2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="NUDCostItem2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem2.Name" xml:space="preserve">
+    <value>NUDCostItem2</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem2.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem2.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="NUDCostItem1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDCostItem1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 325</value>
+  </data>
+  <data name="NUDCostItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="NUDCostItem1.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem1.Name" xml:space="preserve">
+    <value>NUDCostItem1</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem1.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="NUDCostMcoin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDCostMcoin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 296</value>
+  </data>
+  <data name="NUDCostMcoin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="NUDCostMcoin.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;NUDCostMcoin.Name" xml:space="preserve">
+    <value>NUDCostMcoin</value>
+  </data>
+  <data name="&gt;&gt;NUDCostMcoin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;NUDCostMcoin.Parent" xml:space="preserve">
     <value>GrpGoodsInfo</value>
   </data>
-  <data name="LblRefreshModeLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 17</value>
+  <data name="&gt;&gt;NUDCostMcoin.ZOrder" xml:space="preserve">
+    <value>12</value>
   </data>
-  <data name="&gt;&gt;LblGoodsItemLabel.ZOrder" xml:space="preserve">
-    <value>35</value>
+  <data name="NUDCostScoin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="&gt;&gt;LblShopPathLabel.Name" xml:space="preserve">
-    <value>LblShopPathLabel</value>
+  <data name="NUDCostScoin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 267</value>
   </data>
-  <data name="LblCostMcoinLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+  <data name="NUDCostScoin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="NUDCostScoin.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;NUDCostScoin.Name" xml:space="preserve">
+    <value>NUDCostScoin</value>
+  </data>
+  <data name="&gt;&gt;NUDCostScoin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostScoin.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostScoin.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="NUDCostHcoin.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDCostHcoin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 238</value>
+  </data>
+  <data name="NUDCostHcoin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="NUDCostHcoin.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;NUDCostHcoin.Name" xml:space="preserve">
+    <value>NUDCostHcoin</value>
+  </data>
+  <data name="&gt;&gt;NUDCostHcoin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostHcoin.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostHcoin.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="NUDBuyLimit.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDBuyLimit.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 90</value>
+  </data>
+  <data name="NUDBuyLimit.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="NUDBuyLimit.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;NUDBuyLimit.Name" xml:space="preserve">
+    <value>NUDBuyLimit</value>
+  </data>
+  <data name="&gt;&gt;NUDBuyLimit.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDBuyLimit.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDBuyLimit.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="NUDCostItem4Count.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDCostItem4Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 412</value>
+  </data>
+  <data name="NUDCostItem4Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="NUDCostItem4Count.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4Count.Name" xml:space="preserve">
+    <value>NUDCostItem4Count</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4Count.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem4Count.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="NUDCostItem3Count.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDCostItem3Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 383</value>
+  </data>
+  <data name="NUDCostItem3Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="NUDCostItem3Count.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3Count.Name" xml:space="preserve">
+    <value>NUDCostItem3Count</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3Count.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem3Count.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="NUDCostItem2Count.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top</value>
   </data>
   <data name="NUDCostItem2Count.Location" type="System.Drawing.Point, System.Drawing">
     <value>219, 354</value>
   </data>
+  <data name="NUDCostItem2Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="NUDCostItem2Count.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem2Count.Name" xml:space="preserve">
+    <value>NUDCostItem2Count</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem2Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem2Count.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem2Count.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="NUDCostItem1Count.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDCostItem1Count.Location" type="System.Drawing.Point, System.Drawing">
+    <value>219, 325</value>
+  </data>
+  <data name="NUDCostItem1Count.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="NUDCostItem1Count.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem1Count.Name" xml:space="preserve">
+    <value>NUDCostItem1Count</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem1Count.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem1Count.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;NUDCostItem1Count.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="NUDGoodsItemCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="NUDGoodsItemCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 61</value>
+  </data>
+  <data name="NUDGoodsItemCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 23</value>
+  </data>
+  <data name="NUDGoodsItemCount.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NUDGoodsItemCount.Name" xml:space="preserve">
+    <value>NUDGoodsItemCount</value>
+  </data>
+  <data name="&gt;&gt;NUDGoodsItemCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDGoodsItemCount.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
   <data name="&gt;&gt;NUDGoodsItemCount.ZOrder" xml:space="preserve">
     <value>20</value>
   </data>
-  <data name="&gt;&gt;NUDCostItem4Count.Name" xml:space="preserve">
-    <value>NUDCostItem4Count</value>
+  <data name="TxtGoodsItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="&gt;&gt;GrpShopList.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="TxtGoodsItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 61</value>
   </data>
-  <data name="NUDCostItem4Count.TabIndex" type="System.Int32, mscorlib">
+  <data name="TxtGoodsItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 23</value>
+  </data>
+  <data name="TxtGoodsItem.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;TxtGoodsItem.Name" xml:space="preserve">
+    <value>TxtGoodsItem</value>
+  </data>
+  <data name="&gt;&gt;TxtGoodsItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtGoodsItem.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;TxtGoodsItem.ZOrder" xml:space="preserve">
     <value>21</value>
   </data>
-  <data name="LblCostItem3Label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 17</value>
+  <data name="LblRefreshModeLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
   </data>
-  <data name="&gt;&gt;LblCostScoinLabel.Name" xml:space="preserve">
-    <value>LblCostScoinLabel</value>
+  <data name="LblRefreshModeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
-  <data name="BtnDeleteGoods.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+  <data name="LblRefreshModeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 211</value>
   </data>
-  <data name="DTPEndTime.CustomFormat" xml:space="preserve">
-    <value>yyyy'/'MM'/'dd HH':'mm':'ss</value>
+  <data name="LblRefreshModeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
   </data>
-  <data name="NUDCostItem3Count.Location" type="System.Drawing.Point, System.Drawing">
-    <value>219, 383</value>
+  <data name="LblRefreshModeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="LblRefreshModeLabel.Text" xml:space="preserve">
+    <value>刷新方式：</value>
+  </data>
+  <data name="&gt;&gt;LblRefreshModeLabel.Name" xml:space="preserve">
+    <value>LblRefreshModeLabel</value>
+  </data>
+  <data name="&gt;&gt;LblRefreshModeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblRefreshModeLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblRefreshModeLabel.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="LblBuyLevelLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblBuyLevelLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblBuyLevelLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 125</value>
+  </data>
+  <data name="LblBuyLevelLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="LblBuyLevelLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="LblBuyLevelLabel.Text" xml:space="preserve">
+    <value>限购等级：</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLevelLabel.Name" xml:space="preserve">
+    <value>LblBuyLevelLabel</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLevelLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLevelLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLevelLabel.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="LblEndTimeLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblEndTimeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="LblEndTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>45, 185</value>
   </data>
+  <data name="LblEndTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="LblEndTimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="LblEndTimeLabel.Text" xml:space="preserve">
+    <value>下架时间：</value>
+  </data>
+  <data name="&gt;&gt;LblEndTimeLabel.Name" xml:space="preserve">
+    <value>LblEndTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;LblEndTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblEndTimeLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblEndTimeLabel.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="LblBeginTimeLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblBeginTimeLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblBeginTimeLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 156</value>
+  </data>
+  <data name="LblBeginTimeLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="LblBeginTimeLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="LblBeginTimeLabel.Text" xml:space="preserve">
+    <value>上架时间：</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTimeLabel.Name" xml:space="preserve">
+    <value>LblBeginTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTimeLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTimeLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblBeginTimeLabel.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="LblCostItem4Label.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblCostItem4Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCostItem4Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 412</value>
+  </data>
+  <data name="LblCostItem4Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="LblCostItem4Label.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblCostItem4Label.Text" xml:space="preserve">
+    <value>消耗物品4：</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem4Label.Name" xml:space="preserve">
+    <value>LblCostItem4Label</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem4Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem4Label.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem4Label.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="LblCostItem3Label.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblCostItem3Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCostItem3Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 383</value>
+  </data>
+  <data name="LblCostItem3Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="LblCostItem3Label.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblCostItem3Label.Text" xml:space="preserve">
+    <value>消耗物品3：</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem3Label.Name" xml:space="preserve">
+    <value>LblCostItem3Label</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem3Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem3Label.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem3Label.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="LblCostItem2Label.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblCostItem2Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCostItem2Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 356</value>
+  </data>
+  <data name="LblCostItem2Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="LblCostItem2Label.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblCostItem2Label.Text" xml:space="preserve">
+    <value>消耗物品2：</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem2Label.Name" xml:space="preserve">
+    <value>LblCostItem2Label</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem2Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem2Label.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem2Label.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="LblCostItem1Label.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblCostItem1Label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCostItem1Label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>38, 327</value>
+  </data>
+  <data name="LblCostItem1Label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 17</value>
+  </data>
+  <data name="LblCostItem1Label.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblCostItem1Label.Text" xml:space="preserve">
+    <value>消耗物品1：</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem1Label.Name" xml:space="preserve">
+    <value>LblCostItem1Label</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem1Label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem1Label.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostItem1Label.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="LblCostMcoinLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblCostMcoinLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCostMcoinLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 298</value>
+  </data>
+  <data name="LblCostMcoinLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 17</value>
+  </data>
+  <data name="LblCostMcoinLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblCostMcoinLabel.Text" xml:space="preserve">
+    <value>消耗创世结晶：</value>
+  </data>
+  <data name="&gt;&gt;LblCostMcoinLabel.Name" xml:space="preserve">
+    <value>LblCostMcoinLabel</value>
+  </data>
+  <data name="&gt;&gt;LblCostMcoinLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostMcoinLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostMcoinLabel.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="LblCostScoinLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblCostScoinLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCostScoinLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 269</value>
+  </data>
+  <data name="LblCostScoinLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="LblCostScoinLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblCostScoinLabel.Text" xml:space="preserve">
+    <value>消耗摩拉：</value>
+  </data>
+  <data name="&gt;&gt;LblCostScoinLabel.Name" xml:space="preserve">
+    <value>LblCostScoinLabel</value>
+  </data>
+  <data name="&gt;&gt;LblCostScoinLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostScoinLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostScoinLabel.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="LblCostHcoinLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblCostHcoinLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblCostHcoinLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 240</value>
+  </data>
+  <data name="LblCostHcoinLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="LblCostHcoinLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblCostHcoinLabel.Text" xml:space="preserve">
+    <value>消耗原石：</value>
+  </data>
+  <data name="&gt;&gt;LblCostHcoinLabel.Name" xml:space="preserve">
+    <value>LblCostHcoinLabel</value>
+  </data>
+  <data name="&gt;&gt;LblCostHcoinLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCostHcoinLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblCostHcoinLabel.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="LblBuyLimitLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblBuyLimitLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblBuyLimitLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 92</value>
+  </data>
+  <data name="LblBuyLimitLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 17</value>
+  </data>
+  <data name="LblBuyLimitLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="LblBuyLimitLabel.Text" xml:space="preserve">
+    <value>限购数量：</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLimitLabel.Name" xml:space="preserve">
+    <value>LblBuyLimitLabel</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLimitLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLimitLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblBuyLimitLabel.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="LblGoodsIdLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblGoodsIdLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblGoodsIdLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 34</value>
+  </data>
+  <data name="LblGoodsIdLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 17</value>
+  </data>
+  <data name="LblGoodsIdLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="LblGoodsIdLabel.Text" xml:space="preserve">
+    <value>商品ID：</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsIdLabel.Name" xml:space="preserve">
+    <value>LblGoodsIdLabel</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsIdLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsIdLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsIdLabel.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="LblGoodsItemLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LblGoodsItemLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblGoodsItemLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 64</value>
+  </data>
+  <data name="LblGoodsItemLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblGoodsItemLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblGoodsItemLabel.Text" xml:space="preserve">
+    <value>商品：</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsItemLabel.Name" xml:space="preserve">
+    <value>LblGoodsItemLabel</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsItemLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsItemLabel.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LblGoodsItemLabel.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="label13.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 386</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 17</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="label12.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 357</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 17</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="label11.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 328</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 17</value>
+  </data>
+  <data name="label11.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;label11.Name" xml:space="preserve">
+    <value>label11</value>
+  </data>
+  <data name="&gt;&gt;label11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label11.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="label14.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>207, 415</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 17</value>
+  </data>
+  <data name="label14.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;label14.Name" xml:space="preserve">
+    <value>label14</value>
+  </data>
+  <data name="&gt;&gt;label14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label14.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;label14.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="LnkGenGoodsId.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="LnkGenGoodsId.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LnkGenGoodsId.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 34</value>
+  </data>
+  <data name="LnkGenGoodsId.Size" type="System.Drawing.Size, System.Drawing">
+    <value>45, 17</value>
+  </data>
+  <data name="LnkGenGoodsId.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="LnkGenGoodsId.Text" xml:space="preserve">
+    <value>生成ID</value>
+  </data>
+  <data name="&gt;&gt;LnkGenGoodsId.Name" xml:space="preserve">
+    <value>LnkGenGoodsId</value>
+  </data>
+  <data name="&gt;&gt;LnkGenGoodsId.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LnkGenGoodsId.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;LnkGenGoodsId.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="label18.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 124</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 17</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>~</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>245, 64</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 17</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>x</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>GrpGoodsInfo</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="BtnSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>772, 12</value>
+  </data>
+  <data name="BtnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="BtnSave.Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Name" xml:space="preserve">
+    <value>BtnSave</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnSave.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="BtnLoad.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="BtnLoad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 12</value>
+  </data>
+  <data name="BtnLoad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 23</value>
+  </data>
+  <data name="BtnLoad.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="BtnLoad.Text" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="&gt;&gt;BtnLoad.Name" xml:space="preserve">
+    <value>BtnLoad</value>
+  </data>
+  <data name="&gt;&gt;BtnLoad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnLoad.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;BtnLoad.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TxtShopJsonPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 12</value>
+  </data>
+  <data name="TxtShopJsonPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>538, 23</value>
+  </data>
+  <data name="TxtShopJsonPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;TxtShopJsonPath.Name" xml:space="preserve">
+    <value>TxtShopJsonPath</value>
+  </data>
+  <data name="&gt;&gt;TxtShopJsonPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtShopJsonPath.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TxtShopJsonPath.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblShopPathLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblShopPathLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblShopPathLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 15</value>
+  </data>
+  <data name="LblShopPathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 17</value>
+  </data>
+  <data name="LblShopPathLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="LblShopPathLabel.Text" xml:space="preserve">
+    <value>Shop.json 路径：</value>
+  </data>
+  <data name="&gt;&gt;LblShopPathLabel.Name" xml:space="preserve">
+    <value>LblShopPathLabel</value>
+  </data>
+  <data name="&gt;&gt;LblShopPathLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblShopPathLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LblShopPathLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LblClearItemFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LblClearItemFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblClearItemFilter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblClearItemFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 25</value>
+  </data>
+  <data name="LblClearItemFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="LblClearItemFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="LblClearItemFilter.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="LblClearItemFilter.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblClearItemFilter.Name" xml:space="preserve">
+    <value>LblClearItemFilter</value>
+  </data>
+  <data name="&gt;&gt;LblClearItemFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblClearItemFilter.Parent" xml:space="preserve">
+    <value>GrpItems</value>
+  </data>
+  <data name="&gt;&gt;LblClearItemFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>884, 561</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>微软雅黑, 9pt</value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>900, 600</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Shop.json Editor (Support load from Resources/ShopGoodsExcelConfigData.json)</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormShopEditor</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

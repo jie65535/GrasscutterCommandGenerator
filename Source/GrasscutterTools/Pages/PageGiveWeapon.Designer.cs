@@ -39,6 +39,7 @@
             this.NUDWeaponAmout = new System.Windows.Forms.NumericUpDown();
             this.NUDWeaponLevel = new System.Windows.Forms.NumericUpDown();
             this.ListWeapons = new System.Windows.Forms.ListBox();
+            this.LblClearFilter = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.NUDWeaponRefinement)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDWeaponAmout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDWeaponLevel)).BeginInit();
@@ -142,10 +143,19 @@
             this.ListWeapons.Name = "ListWeapons";
             this.ListWeapons.SelectedIndexChanged += new System.EventHandler(this.WeaponValueChanged);
             // 
+            // LblClearFilter
+            // 
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
+            this.LblClearFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearFilter.Name = "LblClearFilter";
+            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
+            // 
             // PageGiveWeapon
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.LblClearFilter);
             this.Controls.Add(this.ListWeapons);
             this.Controls.Add(this.TxtWeaponFilter);
             this.Controls.Add(this.NUDWeaponRefinement);
@@ -177,5 +187,6 @@
         private System.Windows.Forms.NumericUpDown NUDWeaponAmout;
         private System.Windows.Forms.NumericUpDown NUDWeaponLevel;
         private System.Windows.Forms.ListBox ListWeapons;
+        private System.Windows.Forms.Label LblClearFilter;
     }
 }

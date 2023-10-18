@@ -41,17 +41,18 @@
             this.LblHotKeyLabel = new System.Windows.Forms.Label();
             this.TxtTag = new System.Windows.Forms.TextBox();
             this.LblTagLabel = new System.Windows.Forms.Label();
+            this.LblClearFilter = new System.Windows.Forms.Label();
             this.GrpHotKeyList.SuspendLayout();
             this.SuspendLayout();
             // 
             // LvHotKeyList
             // 
-            resources.ApplyResources(this.LvHotKeyList, "LvHotKeyList");
             this.LvHotKeyList.CheckBoxes = true;
             this.LvHotKeyList.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.ColTag,
             this.ColHotKey,
             this.ColCommand});
+            resources.ApplyResources(this.LvHotKeyList, "LvHotKeyList");
             this.LvHotKeyList.HideSelection = false;
             this.LvHotKeyList.Name = "LvHotKeyList";
             this.LvHotKeyList.UseCompatibleStateImageBehavior = false;
@@ -119,16 +120,26 @@
             // 
             resources.ApplyResources(this.TxtTag, "TxtTag");
             this.TxtTag.Name = "TxtTag";
+            this.TxtTag.TextChanged += new System.EventHandler(this.TxtTag_TextChanged);
             // 
             // LblTagLabel
             // 
             resources.ApplyResources(this.LblTagLabel, "LblTagLabel");
             this.LblTagLabel.Name = "LblTagLabel";
             // 
+            // LblClearFilter
+            // 
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
+            this.LblClearFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearFilter.Name = "LblClearFilter";
+            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
+            // 
             // PageHotKey
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.LblClearFilter);
             this.Controls.Add(this.BtnRemove);
             this.Controls.Add(this.BtnAddOrUpdate);
             this.Controls.Add(this.GrpHotKeyList);
@@ -158,5 +169,6 @@
         private System.Windows.Forms.TextBox TxtTag;
         private System.Windows.Forms.Label LblTagLabel;
         private System.Windows.Forms.CheckBox ChkEnableGlobal;
+        private System.Windows.Forms.Label LblClearFilter;
     }
 }

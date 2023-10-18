@@ -213,6 +213,60 @@
   <data name="TCMailRight.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
+  <data name="LblClearFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LblClearFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblClearFilter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblClearFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 6</value>
+  </data>
+  <data name="LblClearFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="LblClearFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="LblClearFilter.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="LblClearFilter.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblClearFilter.Name" xml:space="preserve">
+    <value>LblClearFilter</value>
+  </data>
+  <data name="&gt;&gt;LblClearFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblClearFilter.Parent" xml:space="preserve">
+    <value>TPMailSelectableItemList</value>
+  </data>
+  <data name="&gt;&gt;LblClearFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ListMailSelectableItems.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="ListMailSelectableItems.ItemHeight" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="ListMailSelectableItems.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 26</value>
+  </data>
+  <data name="ListMailSelectableItems.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ListMailSelectableItems.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 141</value>
+  </data>
+  <data name="ListMailSelectableItems.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;ListMailSelectableItems.Name" xml:space="preserve">
     <value>ListMailSelectableItems</value>
   </data>
@@ -223,6 +277,18 @@
     <value>TPMailSelectableItemList</value>
   </data>
   <data name="&gt;&gt;ListMailSelectableItems.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="TxtMailSelectableItemFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="TxtMailSelectableItemFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="TxtMailSelectableItemFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 23</value>
+  </data>
+  <data name="TxtMailSelectableItemFilter.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="&gt;&gt;TxtMailSelectableItemFilter.Name" xml:space="preserve">
@@ -235,7 +301,121 @@
     <value>TPMailSelectableItemList</value>
   </data>
   <data name="&gt;&gt;TxtMailSelectableItemFilter.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="NUDMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>171, 5</value>
+  </data>
+  <data name="NUDMailItemLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 23</value>
+  </data>
+  <data name="NUDMailItemLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemLevel.Name" xml:space="preserve">
+    <value>NUDMailItemLevel</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemLevel.Parent" xml:space="preserve">
+    <value>PanelMailItemArgs</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemLevel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="NUDMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>47, 5</value>
+  </data>
+  <data name="NUDMailItemCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 23</value>
+  </data>
+  <data name="NUDMailItemCount.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemCount.Name" xml:space="preserve">
+    <value>NUDMailItemCount</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemCount.Parent" xml:space="preserve">
+    <value>PanelMailItemArgs</value>
+  </data>
+  <data name="&gt;&gt;NUDMailItemCount.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="LblMailItemCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblMailItemCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-3, 7</value>
+  </data>
+  <data name="LblMailItemCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblMailItemCount.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LblMailItemCount.Text" xml:space="preserve">
+    <value>数量：</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemCount.Name" xml:space="preserve">
+    <value>LblMailItemCount</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemCount.Parent" xml:space="preserve">
+    <value>PanelMailItemArgs</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemCount.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LblMailItemLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblMailItemLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 7</value>
+  </data>
+  <data name="LblMailItemLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 17</value>
+  </data>
+  <data name="LblMailItemLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="LblMailItemLevel.Text" xml:space="preserve">
+    <value>等级：</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemLevel.Name" xml:space="preserve">
+    <value>LblMailItemLevel</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemLevel.Parent" xml:space="preserve">
+    <value>PanelMailItemArgs</value>
+  </data>
+  <data name="&gt;&gt;LblMailItemLevel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="PanelMailItemArgs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="PanelMailItemArgs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 167</value>
+  </data>
+  <data name="PanelMailItemArgs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>222, 30</value>
+  </data>
+  <data name="PanelMailItemArgs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;PanelMailItemArgs.Name" xml:space="preserve">
     <value>PanelMailItemArgs</value>
@@ -247,7 +427,7 @@
     <value>TPMailSelectableItemList</value>
   </data>
   <data name="&gt;&gt;PanelMailItemArgs.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="TPMailSelectableItemList.Location" type="System.Drawing.Point, System.Drawing">
     <value>4, 26</value>
@@ -430,234 +610,6 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;TCMailRight.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="ListMailSelectableItems.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="ListMailSelectableItems.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="ListMailSelectableItems.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 26</value>
-  </data>
-  <data name="ListMailSelectableItems.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="ListMailSelectableItems.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 141</value>
-  </data>
-  <data name="ListMailSelectableItems.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;ListMailSelectableItems.Name" xml:space="preserve">
-    <value>ListMailSelectableItems</value>
-  </data>
-  <data name="&gt;&gt;ListMailSelectableItems.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ListMailSelectableItems.Parent" xml:space="preserve">
-    <value>TPMailSelectableItemList</value>
-  </data>
-  <data name="&gt;&gt;ListMailSelectableItems.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="TxtMailSelectableItemFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="TxtMailSelectableItemFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <data name="TxtMailSelectableItemFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 23</value>
-  </data>
-  <data name="TxtMailSelectableItemFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;TxtMailSelectableItemFilter.Name" xml:space="preserve">
-    <value>TxtMailSelectableItemFilter</value>
-  </data>
-  <data name="&gt;&gt;TxtMailSelectableItemFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TxtMailSelectableItemFilter.Parent" xml:space="preserve">
-    <value>TPMailSelectableItemList</value>
-  </data>
-  <data name="&gt;&gt;TxtMailSelectableItemFilter.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemLevel.Name" xml:space="preserve">
-    <value>NUDMailItemLevel</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemLevel.Parent" xml:space="preserve">
-    <value>PanelMailItemArgs</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemLevel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemCount.Name" xml:space="preserve">
-    <value>NUDMailItemCount</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemCount.Parent" xml:space="preserve">
-    <value>PanelMailItemArgs</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemCount.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemCount.Name" xml:space="preserve">
-    <value>LblMailItemCount</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemCount.Parent" xml:space="preserve">
-    <value>PanelMailItemArgs</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemCount.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemLevel.Name" xml:space="preserve">
-    <value>LblMailItemLevel</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemLevel.Parent" xml:space="preserve">
-    <value>PanelMailItemArgs</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemLevel.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="PanelMailItemArgs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="PanelMailItemArgs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 167</value>
-  </data>
-  <data name="PanelMailItemArgs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>222, 30</value>
-  </data>
-  <data name="PanelMailItemArgs.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;PanelMailItemArgs.Name" xml:space="preserve">
-    <value>PanelMailItemArgs</value>
-  </data>
-  <data name="&gt;&gt;PanelMailItemArgs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PanelMailItemArgs.Parent" xml:space="preserve">
-    <value>TPMailSelectableItemList</value>
-  </data>
-  <data name="&gt;&gt;PanelMailItemArgs.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="NUDMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>171, 5</value>
-  </data>
-  <data name="NUDMailItemLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
-  </data>
-  <data name="NUDMailItemLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemLevel.Name" xml:space="preserve">
-    <value>NUDMailItemLevel</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemLevel.Parent" xml:space="preserve">
-    <value>PanelMailItemArgs</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemLevel.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="NUDMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>47, 5</value>
-  </data>
-  <data name="NUDMailItemCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>60, 23</value>
-  </data>
-  <data name="NUDMailItemCount.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemCount.Name" xml:space="preserve">
-    <value>NUDMailItemCount</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemCount.Parent" xml:space="preserve">
-    <value>PanelMailItemArgs</value>
-  </data>
-  <data name="&gt;&gt;NUDMailItemCount.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="LblMailItemCount.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblMailItemCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblMailItemCount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-3, 7</value>
-  </data>
-  <data name="LblMailItemCount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="LblMailItemCount.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="LblMailItemCount.Text" xml:space="preserve">
-    <value>数量：</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemCount.Name" xml:space="preserve">
-    <value>LblMailItemCount</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemCount.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemCount.Parent" xml:space="preserve">
-    <value>PanelMailItemArgs</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemCount.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="LblMailItemLevel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="LblMailItemLevel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="LblMailItemLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 7</value>
-  </data>
-  <data name="LblMailItemLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
-  </data>
-  <data name="LblMailItemLevel.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="LblMailItemLevel.Text" xml:space="preserve">
-    <value>等级：</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemLevel.Name" xml:space="preserve">
-    <value>LblMailItemLevel</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemLevel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemLevel.Parent" xml:space="preserve">
-    <value>PanelMailItemArgs</value>
-  </data>
-  <data name="&gt;&gt;LblMailItemLevel.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
   <data name="BtnSendMail.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -1033,6 +985,6 @@
     <value>PageMail</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.7.4.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.13.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
 </root>

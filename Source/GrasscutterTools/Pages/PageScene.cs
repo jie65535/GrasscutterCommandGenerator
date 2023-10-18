@@ -90,6 +90,15 @@ namespace GrasscutterTools.Pages
         private void TxtSceneFilter_TextChanged(object sender, EventArgs e)
         {
             UIUtil.ListBoxFilter(ListScenes, Scenes, TxtSceneFilter.Text);
+            TxtSceneFilter.Visible = TxtSceneFilter.Text.Length > 0;
+        }
+
+        /// <summary>
+        /// 点击清空过滤栏标签时触发
+        /// </summary>
+        private void LblClearFilter_Click(object sender, EventArgs e)
+        {
+            TxtSceneFilter.Clear();
         }
 
         /// <summary>

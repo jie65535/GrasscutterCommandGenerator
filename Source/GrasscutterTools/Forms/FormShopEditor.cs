@@ -529,6 +529,15 @@ namespace GrasscutterTools.Forms
         private void TxtItemFilter_TextChanged(object sender, EventArgs e)
         {
             UIUtil.ListBoxFilter(ListItems, GameData.Items.Lines, TxtItemFilter.Text);
+            LblClearItemFilter.Visible = TxtItemFilter.Text.Length > 0;
+        }
+
+        /// <summary>
+        /// 点击清空物品列表过滤器标签时触发
+        /// </summary>
+        private void LblClearItemFilter_Click(object sender, EventArgs e)
+        {
+            TxtItemFilter.Clear();
         }
 
         /// <summary>

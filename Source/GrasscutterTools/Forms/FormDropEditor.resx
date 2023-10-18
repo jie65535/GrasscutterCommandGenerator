@@ -241,7 +241,7 @@
     <value>GrpMonsterList</value>
   </data>
   <data name="&gt;&gt;ListMonsters.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="TxtMonsterFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -265,7 +265,7 @@
     <value>GrpMonsterList</value>
   </data>
   <data name="&gt;&gt;TxtMonsterFilter.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="TxtItemFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Left, Right</value>
@@ -289,7 +289,7 @@
     <value>GrpItemList</value>
   </data>
   <data name="&gt;&gt;TxtItemFilter.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="ListDropData.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
@@ -320,6 +320,222 @@
   </data>
   <data name="GrpDropList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;BtnCopyAll.Name" xml:space="preserve">
+    <value>BtnCopyAll</value>
+  </data>
+  <data name="&gt;&gt;BtnCopyAll.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCopyAll.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;BtnCopyAll.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;BtnClear.Name" xml:space="preserve">
+    <value>BtnClear</value>
+  </data>
+  <data name="&gt;&gt;BtnClear.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnClear.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;BtnClear.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;BtnPaste.Name" xml:space="preserve">
+    <value>BtnPaste</value>
+  </data>
+  <data name="&gt;&gt;BtnPaste.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnPaste.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;BtnPaste.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.Name" xml:space="preserve">
+    <value>BtnCopy</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;BtnCopy.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;TxtItem.Name" xml:space="preserve">
+    <value>TxtItem</value>
+  </data>
+  <data name="&gt;&gt;TxtItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TxtItem.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;TxtItem.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;BtnDelete.Name" xml:space="preserve">
+    <value>BtnDelete</value>
+  </data>
+  <data name="&gt;&gt;BtnDelete.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnDelete.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;BtnDelete.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.Name" xml:space="preserve">
+    <value>BtnAddOrUpdate</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;BtnAddOrUpdate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;LblItemLabel.Name" xml:space="preserve">
+    <value>LblItemLabel</value>
+  </data>
+  <data name="&gt;&gt;LblItemLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblItemLabel.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;LblItemLabel.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;LblTilde2.Name" xml:space="preserve">
+    <value>LblTilde2</value>
+  </data>
+  <data name="&gt;&gt;LblTilde2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTilde2.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;LblTilde2.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;LblTilde1.Name" xml:space="preserve">
+    <value>LblTilde1</value>
+  </data>
+  <data name="&gt;&gt;LblTilde1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblTilde1.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;LblTilde1.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxWeight.Name" xml:space="preserve">
+    <value>NUDMaxWeight</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxWeight.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxWeight.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;NUDMinWeight.Name" xml:space="preserve">
+    <value>NUDMinWeight</value>
+  </data>
+  <data name="&gt;&gt;NUDMinWeight.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMinWeight.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;NUDMinWeight.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxCount.Name" xml:space="preserve">
+    <value>NUDMaxCount</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxCount.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;NUDMaxCount.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;NUDMinCount.Name" xml:space="preserve">
+    <value>NUDMinCount</value>
+  </data>
+  <data name="&gt;&gt;NUDMinCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NUDMinCount.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;NUDMinCount.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;LblWeightLabel.Name" xml:space="preserve">
+    <value>LblWeightLabel</value>
+  </data>
+  <data name="&gt;&gt;LblWeightLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblWeightLabel.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;LblWeightLabel.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;LblCountLabel.Name" xml:space="preserve">
+    <value>LblCountLabel</value>
+  </data>
+  <data name="&gt;&gt;LblCountLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblCountLabel.Parent" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;LblCountLabel.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="GrpDropList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>270, 41</value>
+  </data>
+  <data name="GrpDropList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 400</value>
+  </data>
+  <data name="GrpDropList.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="GrpDropList.Text" xml:space="preserve">
+    <value>掉落列表</value>
+  </data>
+  <data name="&gt;&gt;GrpDropList.Name" xml:space="preserve">
+    <value>GrpDropList</value>
+  </data>
+  <data name="&gt;&gt;GrpDropList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GrpDropList.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;GrpDropList.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="BtnCopyAll.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
@@ -753,30 +969,6 @@
   <data name="&gt;&gt;LblCountLabel.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
-  <data name="GrpDropList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 41</value>
-  </data>
-  <data name="GrpDropList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 400</value>
-  </data>
-  <data name="GrpDropList.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="GrpDropList.Text" xml:space="preserve">
-    <value>掉落列表</value>
-  </data>
-  <data name="&gt;&gt;GrpDropList.Name" xml:space="preserve">
-    <value>GrpDropList</value>
-  </data>
-  <data name="&gt;&gt;GrpDropList.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;GrpDropList.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;GrpDropList.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="ListItems.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left, Right</value>
   </data>
@@ -802,10 +994,22 @@
     <value>GrpItemList</value>
   </data>
   <data name="&gt;&gt;ListItems.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="GrpMonsterList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Left</value>
+  </data>
+  <data name="&gt;&gt;LblClearMonsterFilter.Name" xml:space="preserve">
+    <value>LblClearMonsterFilter</value>
+  </data>
+  <data name="&gt;&gt;LblClearMonsterFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblClearMonsterFilter.Parent" xml:space="preserve">
+    <value>GrpMonsterList</value>
+  </data>
+  <data name="&gt;&gt;LblClearMonsterFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="GrpMonsterList.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 41</value>
@@ -834,6 +1038,42 @@
   <data name="GrpItemList.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Bottom, Right</value>
   </data>
+  <data name="LblClearItemFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LblClearItemFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblClearItemFilter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblClearItemFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 25</value>
+  </data>
+  <data name="LblClearItemFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="LblClearItemFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="LblClearItemFilter.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="LblClearItemFilter.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblClearItemFilter.Name" xml:space="preserve">
+    <value>LblClearItemFilter</value>
+  </data>
+  <data name="&gt;&gt;LblClearItemFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblClearItemFilter.Parent" xml:space="preserve">
+    <value>GrpItemList</value>
+  </data>
+  <data name="&gt;&gt;LblClearItemFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="GrpItemList.Location" type="System.Drawing.Point, System.Drawing">
     <value>576, 41</value>
   </data>
@@ -856,6 +1096,42 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;GrpItemList.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LblClearMonsterFilter.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="LblClearMonsterFilter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LblClearMonsterFilter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="LblClearMonsterFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>228, 25</value>
+  </data>
+  <data name="LblClearMonsterFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="LblClearMonsterFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="LblClearMonsterFilter.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="LblClearMonsterFilter.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;LblClearMonsterFilter.Name" xml:space="preserve">
+    <value>LblClearMonsterFilter</value>
+  </data>
+  <data name="&gt;&gt;LblClearMonsterFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LblClearMonsterFilter.Parent" xml:space="preserve">
+    <value>GrpMonsterList</value>
+  </data>
+  <data name="&gt;&gt;LblClearMonsterFilter.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">

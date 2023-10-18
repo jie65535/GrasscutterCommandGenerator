@@ -63,6 +63,16 @@ namespace GrasscutterTools.Pages
                 return true;
             }).ToArray());
             ListQuest.EndUpdate();
+
+            LblClearFilter.Visible = TxtQuestFilter.Text.Length > 0;
+        }
+
+        /// <summary>
+        /// 点击清空过滤栏标签时触发
+        /// </summary>
+        private void LblClearFilter_Click(object sender, EventArgs e)
+        {
+            TxtQuestFilter.Clear();
         }
 
         /// <summary>

@@ -99,6 +99,15 @@ namespace GrasscutterTools.Pages
         private void TxtGameItemFilter_TextChanged(object sender, EventArgs e)
         {
             LoadItemList();
+            LblClearFilter.Visible = TxtGameItemFilter.Text.Length > 0;
+        }
+
+        /// <summary>
+        /// 点击清空过滤器标签时触发
+        /// </summary>
+        private void LblClearFilter_Click(object sender, EventArgs e)
+        {
+            TxtGameItemFilter.Clear();
         }
 
         /// <summary>
@@ -240,5 +249,6 @@ namespace GrasscutterTools.Pages
         }
 
         #endregion -- 物品记录 --
+        
     }
 }

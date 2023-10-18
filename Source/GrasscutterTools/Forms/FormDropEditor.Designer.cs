@@ -57,6 +57,8 @@
             this.ListItems = new System.Windows.Forms.ListBox();
             this.GrpMonsterList = new System.Windows.Forms.GroupBox();
             this.GrpItemList = new System.Windows.Forms.GroupBox();
+            this.LblClearMonsterFilter = new System.Windows.Forms.Label();
+            this.LblClearItemFilter = new System.Windows.Forms.Label();
             this.GrpDropList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDMaxWeight)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDMinWeight)).BeginInit();
@@ -292,6 +294,7 @@
             // GrpMonsterList
             // 
             resources.ApplyResources(this.GrpMonsterList, "GrpMonsterList");
+            this.GrpMonsterList.Controls.Add(this.LblClearMonsterFilter);
             this.GrpMonsterList.Controls.Add(this.ListMonsters);
             this.GrpMonsterList.Controls.Add(this.TxtMonsterFilter);
             this.GrpMonsterList.Name = "GrpMonsterList";
@@ -300,10 +303,27 @@
             // GrpItemList
             // 
             resources.ApplyResources(this.GrpItemList, "GrpItemList");
+            this.GrpItemList.Controls.Add(this.LblClearItemFilter);
             this.GrpItemList.Controls.Add(this.TxtItemFilter);
             this.GrpItemList.Controls.Add(this.ListItems);
             this.GrpItemList.Name = "GrpItemList";
             this.GrpItemList.TabStop = false;
+            // 
+            // LblClearMonsterFilter
+            // 
+            resources.ApplyResources(this.LblClearMonsterFilter, "LblClearMonsterFilter");
+            this.LblClearMonsterFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearMonsterFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearMonsterFilter.Name = "LblClearMonsterFilter";
+            this.LblClearMonsterFilter.Click += new System.EventHandler(this.LblClearMonsterFilter_Click);
+            // 
+            // LblClearItemFilter
+            // 
+            resources.ApplyResources(this.LblClearItemFilter, "LblClearItemFilter");
+            this.LblClearItemFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearItemFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearItemFilter.Name = "LblClearItemFilter";
+            this.LblClearItemFilter.Click += new System.EventHandler(this.LblClearItemFilter_Click);
             // 
             // FormDropEditor
             // 
@@ -362,5 +382,7 @@
         private System.Windows.Forms.Button BtnPaste;
         private System.Windows.Forms.Button BtnClear;
         private System.Windows.Forms.Button BtnCopyAll;
+        private System.Windows.Forms.Label LblClearMonsterFilter;
+        private System.Windows.Forms.Label LblClearItemFilter;
     }
 }

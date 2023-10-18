@@ -45,6 +45,7 @@
             this.LblGiveCommandDescription = new System.Windows.Forms.Label();
             this.CmbFilterItem = new System.Windows.Forms.ComboBox();
             this.MenuItemFilter = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.LblClearFilter = new System.Windows.Forms.Label();
             this.GrpGiveItemRecord.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDGameItemAmout)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDGameItemLevel)).BeginInit();
@@ -174,10 +175,19 @@
             this.MenuItemFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuItemFilter, "MenuItemFilter");
             // 
+            // LblClearFilter
+            // 
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
+            this.LblClearFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearFilter.Name = "LblClearFilter";
+            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
+            // 
             // PageGiveItem
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.LblClearFilter);
             this.Controls.Add(this.CmbFilterItem);
             this.Controls.Add(this.LblClearGiveItemLogs);
             this.Controls.Add(this.BtnSaveGiveItemLog);
@@ -217,5 +227,6 @@
         private System.Windows.Forms.Label LblGiveCommandDescription;
         private System.Windows.Forms.ComboBox CmbFilterItem;
         private System.Windows.Forms.ContextMenuStrip MenuItemFilter;
+        private System.Windows.Forms.Label LblClearFilter;
     }
 }

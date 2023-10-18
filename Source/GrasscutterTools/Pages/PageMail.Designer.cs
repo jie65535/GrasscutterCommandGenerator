@@ -59,6 +59,7 @@
             this.LblMailTitleLabel = new System.Windows.Forms.Label();
             this.TxtMailSender = new System.Windows.Forms.TextBox();
             this.LblMailSenderLabel = new System.Windows.Forms.Label();
+            this.LblClearFilter = new System.Windows.Forms.Label();
             this.TCMailRight.SuspendLayout();
             this.TPMailSelectableItemList.SuspendLayout();
             this.PanelMailItemArgs.SuspendLayout();
@@ -100,6 +101,7 @@
             // 
             // TPMailSelectableItemList
             // 
+            this.TPMailSelectableItemList.Controls.Add(this.LblClearFilter);
             this.TPMailSelectableItemList.Controls.Add(this.ListMailSelectableItems);
             this.TPMailSelectableItemList.Controls.Add(this.TxtMailSelectableItemFilter);
             this.TPMailSelectableItemList.Controls.Add(this.PanelMailItemArgs);
@@ -296,6 +298,14 @@
             resources.ApplyResources(this.LblMailSenderLabel, "LblMailSenderLabel");
             this.LblMailSenderLabel.Name = "LblMailSenderLabel";
             // 
+            // LblClearFilter
+            // 
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
+            this.LblClearFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearFilter.Name = "LblClearFilter";
+            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
+            // 
             // PageMail
             // 
             resources.ApplyResources(this, "$this");
@@ -365,5 +375,6 @@
         private System.Windows.Forms.Label LblMailTitleLabel;
         private System.Windows.Forms.TextBox TxtMailSender;
         private System.Windows.Forms.Label LblMailSenderLabel;
+        private System.Windows.Forms.Label LblClearFilter;
     }
 }

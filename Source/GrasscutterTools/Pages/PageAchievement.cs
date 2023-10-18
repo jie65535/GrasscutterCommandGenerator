@@ -54,6 +54,15 @@ namespace GrasscutterTools.Pages
         private void TxtAchievementFilter_TextChanged(object sender, EventArgs e)
         {
             UpdateList();
+            LblClearFilter.Visible = TxtAchievementFilter.Text.Length > 0;
+        }
+
+        /// <summary>
+        /// 点击清空过滤器标签时触发
+        /// </summary>
+        private void LblClearFilter_Click(object sender, EventArgs e)
+        {
+            TxtAchievementFilter.Clear();
         }
 
         /// <summary>
@@ -100,5 +109,6 @@ namespace GrasscutterTools.Pages
         {
             GenSelected("/achievement progress", NUDProgress.Text);
         }
+
     }
 }

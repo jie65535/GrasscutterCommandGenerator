@@ -86,6 +86,7 @@
             this.BtnLoad = new System.Windows.Forms.Button();
             this.TxtShopJsonPath = new System.Windows.Forms.TextBox();
             this.LblShopPathLabel = new System.Windows.Forms.Label();
+            this.LblClearItemFilter = new System.Windows.Forms.Label();
             this.GrpShopList.SuspendLayout();
             this.GrpGoodsList.SuspendLayout();
             this.GrpItems.SuspendLayout();
@@ -132,8 +133,8 @@
             // 
             // GrpShopList
             // 
-            resources.ApplyResources(this.GrpShopList, "GrpShopList");
             this.GrpShopList.Controls.Add(this.ListShop);
+            resources.ApplyResources(this.GrpShopList, "GrpShopList");
             this.GrpShopList.Name = "GrpShopList";
             this.GrpShopList.TabStop = false;
             // 
@@ -163,6 +164,7 @@
             // GrpItems
             // 
             resources.ApplyResources(this.GrpItems, "GrpItems");
+            this.GrpItems.Controls.Add(this.LblClearItemFilter);
             this.GrpItems.Controls.Add(this.TxtItemFilter);
             this.GrpItems.Controls.Add(this.ListItems);
             this.GrpItems.Name = "GrpItems";
@@ -598,6 +600,14 @@
             resources.ApplyResources(this.LblShopPathLabel, "LblShopPathLabel");
             this.LblShopPathLabel.Name = "LblShopPathLabel";
             // 
+            // LblClearItemFilter
+            // 
+            resources.ApplyResources(this.LblClearItemFilter, "LblClearItemFilter");
+            this.LblClearItemFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearItemFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearItemFilter.Name = "LblClearItemFilter";
+            this.LblClearItemFilter.Click += new System.EventHandler(this.LblClearItemFilter_Click);
+            // 
             // FormShopEditor
             // 
             resources.ApplyResources(this, "$this");
@@ -698,5 +708,6 @@
         private System.Windows.Forms.TextBox TxtItemFilter;
         private System.Windows.Forms.Button BtnClearGoods;
         private System.Windows.Forms.Button BtnDeleteGoods;
+        private System.Windows.Forms.Label LblClearItemFilter;
     }
 }

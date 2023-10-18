@@ -195,5 +195,15 @@ namespace GrasscutterTools.Forms
             if (e.KeyCode == Keys.Enter)
                 BtnSearch_Click(sender, e);
         }
+
+        private void TxtTextMapFilter_TextChanged(object sender, EventArgs e)
+        {
+            LblClearFilter.Visible = TxtTextMapFilter.Text.Length > 0;
+        }
+
+        private void LblClearFilter_Click(object sender, EventArgs e)
+        {
+            TxtTextMapFilter.Clear();
+        }
     }
 }

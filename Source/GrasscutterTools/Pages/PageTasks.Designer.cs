@@ -36,6 +36,7 @@
             this.ColDelay = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.ColCount = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.GrpTask = new System.Windows.Forms.GroupBox();
+            this.LblClearFilter = new System.Windows.Forms.Label();
             this.BtnRemove = new System.Windows.Forms.Button();
             this.BtnAccept = new System.Windows.Forms.Button();
             this.NUDTriggerCount = new System.Windows.Forms.NumericUpDown();
@@ -58,7 +59,6 @@
             // 
             // ListTasks
             // 
-            resources.ApplyResources(this.ListTasks, "ListTasks");
             this.ListTasks.AllowColumnReorder = true;
             this.ListTasks.CheckBoxes = true;
             this.ListTasks.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -66,6 +66,7 @@
             this.ColContent,
             this.ColDelay,
             this.ColCount});
+            resources.ApplyResources(this.ListTasks, "ListTasks");
             this.ListTasks.HideSelection = false;
             this.ListTasks.MultiSelect = false;
             this.ListTasks.Name = "ListTasks";
@@ -93,6 +94,7 @@
             // GrpTask
             // 
             resources.ApplyResources(this.GrpTask, "GrpTask");
+            this.GrpTask.Controls.Add(this.LblClearFilter);
             this.GrpTask.Controls.Add(this.BtnRemove);
             this.GrpTask.Controls.Add(this.BtnAccept);
             this.GrpTask.Controls.Add(this.NUDTriggerCount);
@@ -103,6 +105,14 @@
             this.GrpTask.Controls.Add(this.LblTag);
             this.GrpTask.Name = "GrpTask";
             this.GrpTask.TabStop = false;
+            // 
+            // LblClearFilter
+            // 
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
+            this.LblClearFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearFilter.Name = "LblClearFilter";
+            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
             // 
             // BtnRemove
             // 
@@ -160,6 +170,7 @@
             // 
             resources.ApplyResources(this.TxtTag, "TxtTag");
             this.TxtTag.Name = "TxtTag";
+            this.TxtTag.TextChanged += new System.EventHandler(this.TxtTag_TextChanged);
             // 
             // LblTag
             // 
@@ -198,5 +209,6 @@
         private System.Windows.Forms.ColumnHeader ColContent;
         private System.Windows.Forms.ColumnHeader ColDelay;
         private System.Windows.Forms.ColumnHeader ColCount;
+        private System.Windows.Forms.Label LblClearFilter;
     }
 }

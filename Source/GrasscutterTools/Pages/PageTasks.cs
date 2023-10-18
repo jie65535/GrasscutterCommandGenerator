@@ -261,5 +261,21 @@ namespace GrasscutterTools.Pages
                 MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        /// <summary>
+        /// 任务标签输入栏改变时触发
+        /// </summary>
+        private void TxtTag_TextChanged(object sender, EventArgs e)
+        {
+            LblClearFilter.Visible = TxtTag.Text.Length > 0;
+        }
+
+        /// <summary>
+        /// 点击清空任务标签输入栏标签时触发
+        /// </summary>
+        private void LblClearFilter_Click(object sender, EventArgs e)
+        {
+            TxtTag.Clear();
+        }
     }
 }

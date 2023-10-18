@@ -267,5 +267,22 @@ namespace GrasscutterTools.Pages
             FormMain.Instance.NavigateTo<PageHotKey>()?
                 .AddNewHotKey(name); // 设置标签
         }
+
+        /// <summary>
+        /// 标签栏文本改变时触发
+        /// </summary>
+        private void TxtCustomName_TextChanged(object sender, EventArgs e)
+        {
+            LblClearFilter.Visible = TxtCustomName.Text.Length > 0;
+        }
+
+        /// <summary>
+        /// 点击清空标签栏标签时触发
+        /// </summary>
+        private void LblClearFilter_Click(object sender, EventArgs e)
+        {
+            TxtCustomName.Clear();
+        }
+
     }
 }

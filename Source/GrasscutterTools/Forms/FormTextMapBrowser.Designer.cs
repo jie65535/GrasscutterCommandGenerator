@@ -40,6 +40,7 @@
             this.ColumnHash = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColumnText = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.LblClearFilter = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.DGVTextMap)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,6 +48,7 @@
             // 
             resources.ApplyResources(this.TxtTextMapFilter, "TxtTextMapFilter");
             this.TxtTextMapFilter.Name = "TxtTextMapFilter";
+            this.TxtTextMapFilter.TextChanged += new System.EventHandler(this.TxtTextMapFilter_TextChanged);
             this.TxtTextMapFilter.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtTextMapFilter_KeyDown);
             // 
             // BtnSelectRecoursePath
@@ -90,10 +92,10 @@
             // 
             // DGVTextMap
             // 
-            resources.ApplyResources(this.DGVTextMap, "DGVTextMap");
             this.DGVTextMap.AllowUserToAddRows = false;
             this.DGVTextMap.AllowUserToDeleteRows = false;
             this.DGVTextMap.AllowUserToResizeRows = false;
+            resources.ApplyResources(this.DGVTextMap, "DGVTextMap");
             this.DGVTextMap.BackgroundColor = System.Drawing.Color.White;
             this.DGVTextMap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DGVTextMap.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -122,10 +124,19 @@
             this.ColumnText.Name = "ColumnText";
             this.ColumnText.ReadOnly = true;
             // 
+            // LblClearFilter
+            // 
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
+            this.LblClearFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearFilter.Name = "LblClearFilter";
+            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
+            // 
             // FormTextMapBrowser
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.LblClearFilter);
             this.Controls.Add(this.DGVTextMap);
             this.Controls.Add(this.BtnSearch);
             this.Controls.Add(this.ChkTopMost);
@@ -154,5 +165,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnHash;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnID;
         private System.Windows.Forms.DataGridViewTextBoxColumn ColumnText;
+        private System.Windows.Forms.Label LblClearFilter;
     }
 }

@@ -201,6 +201,15 @@ namespace GrasscutterTools.Pages
         private void TxtMailSelectableItemFilter_TextChanged(object sender, EventArgs e)
         {
             UIUtil.ListBoxFilter(ListMailSelectableItems, MailSelectableItems, TxtMailSelectableItemFilter.Text);
+            LblClearFilter.Visible = TxtMailSelectableItemFilter.Text.Length > 0;
+        }
+
+        /// <summary>
+        /// 点击清空过滤栏标签时触发
+        /// </summary>
+        private void LblClearFilter_Click(object sender, EventArgs e)
+        {
+            TxtMailSelectableItemFilter.Clear();
         }
 
         #endregion -- 邮件附件可选列表 Mail item selectable list --
@@ -289,5 +298,6 @@ namespace GrasscutterTools.Pages
         }
 
         #endregion -- 邮件列表 Mail list --
+
     }
 }

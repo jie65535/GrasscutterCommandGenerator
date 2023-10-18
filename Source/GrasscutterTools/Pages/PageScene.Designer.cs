@@ -45,6 +45,7 @@
             this.LblTp = new System.Windows.Forms.Label();
             this.RbListCutScene = new System.Windows.Forms.RadioButton();
             this.BtnFreezeTime = new System.Windows.Forms.Button();
+            this.LblClearFilter = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpZ)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpY)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUDTpX)).BeginInit();
@@ -196,10 +197,19 @@
             this.BtnFreezeTime.UseVisualStyleBackColor = true;
             this.BtnFreezeTime.Click += new System.EventHandler(this.BtnFreezeTime_Click);
             // 
+            // LblClearFilter
+            // 
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
+            this.LblClearFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearFilter.Name = "LblClearFilter";
+            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
+            // 
             // PageScene
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.LblClearFilter);
             this.Controls.Add(this.BtnFreezeTime);
             this.Controls.Add(this.RbListCutScene);
             this.Controls.Add(this.RbListDungeons);
@@ -243,5 +253,6 @@
         private System.Windows.Forms.Label LblTp;
         private System.Windows.Forms.RadioButton RbListCutScene;
         private System.Windows.Forms.Button BtnFreezeTime;
+        private System.Windows.Forms.Label LblClearFilter;
     }
 }

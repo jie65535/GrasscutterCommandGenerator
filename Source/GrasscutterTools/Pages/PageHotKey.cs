@@ -309,5 +309,21 @@ namespace GrasscutterTools.Pages
             }
 
         }
+        
+        /// <summary>
+        /// 标签输入栏改变时触发
+        /// </summary>
+        private void TxtTag_TextChanged(object sender, EventArgs e)
+        {
+            LblClearFilter.Visible = TxtTag.Text.Length > 0;
+        }
+
+        /// <summary>
+        /// 点击清空标签输入栏标签时触发
+        /// </summary>
+        private void LblClearFilter_Click(object sender, EventArgs e)
+        {
+            TxtTag.Clear();
+        }
     }
 }
