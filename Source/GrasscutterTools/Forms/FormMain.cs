@@ -617,7 +617,7 @@ namespace GrasscutterTools.Forms
                     {
                         Logger.I(TAG, "RunCommand:" + cmd);
                         var msg = await Common.OC.Invoke(cmd);
-                        TxtCommandRunLog.AppendText(string.IsNullOrEmpty(msg) ? "OK" : msg);
+                        TxtCommandRunLog.AppendText(string.IsNullOrEmpty(msg) ? "OK" : msg.Replace("\n", "\r\n"));
                         TxtCommandRunLog.AppendText(Environment.NewLine);
                     }
                     catch (Exception ex)
