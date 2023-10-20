@@ -56,8 +56,8 @@
             this.LblCountLabel = new System.Windows.Forms.Label();
             this.ListItems = new System.Windows.Forms.ListBox();
             this.GrpMonsterList = new System.Windows.Forms.GroupBox();
-            this.GrpItemList = new System.Windows.Forms.GroupBox();
             this.LblClearMonsterFilter = new System.Windows.Forms.Label();
+            this.GrpItemList = new System.Windows.Forms.GroupBox();
             this.LblClearItemFilter = new System.Windows.Forms.Label();
             this.GrpDropList.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDMaxWeight)).BeginInit();
@@ -300,6 +300,14 @@
             this.GrpMonsterList.Name = "GrpMonsterList";
             this.GrpMonsterList.TabStop = false;
             // 
+            // LblClearMonsterFilter
+            // 
+            resources.ApplyResources(this.LblClearMonsterFilter, "LblClearMonsterFilter");
+            this.LblClearMonsterFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearMonsterFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearMonsterFilter.Name = "LblClearMonsterFilter";
+            this.LblClearMonsterFilter.Click += new System.EventHandler(this.LblClearMonsterFilter_Click);
+            // 
             // GrpItemList
             // 
             resources.ApplyResources(this.GrpItemList, "GrpItemList");
@@ -308,14 +316,6 @@
             this.GrpItemList.Controls.Add(this.ListItems);
             this.GrpItemList.Name = "GrpItemList";
             this.GrpItemList.TabStop = false;
-            // 
-            // LblClearMonsterFilter
-            // 
-            resources.ApplyResources(this.LblClearMonsterFilter, "LblClearMonsterFilter");
-            this.LblClearMonsterFilter.BackColor = System.Drawing.Color.White;
-            this.LblClearMonsterFilter.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LblClearMonsterFilter.Name = "LblClearMonsterFilter";
-            this.LblClearMonsterFilter.Click += new System.EventHandler(this.LblClearMonsterFilter_Click);
             // 
             // LblClearItemFilter
             // 

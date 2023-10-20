@@ -98,53 +98,6 @@ namespace GrasscutterTools.Pages
         }
 
         /// <summary>
-        /// 导出原始天气数据
-        /// </summary>
-        private void BtnExportWeather_Click(object sender, EventArgs e)
-        {
-            var dialog = new SaveFileDialog
-            {
-                FileName = "Weather.txt",
-                Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*"
-            };
-            if (dialog.ShowDialog() != DialogResult.OK) return;
-            using var stream = dialog.OpenFile();
-            using var writer = new StreamWriter(stream);
-            writer.Write(Resources.Weather);
-        }
-
-        /// <summary>
-        /// 导入天气数据
-        /// </summary>
-        private void BtnImportWeather_Click(object sender, EventArgs e)
-        {
-            var dialog = new OpenFileDialog
-            {
-                Filter = "txt files (*.txt)|*.txt|All files (*.*)|*.*"
-            };
-            if (dialog.ShowDialog() != DialogResult.OK) return;
-            using var stream = dialog.OpenFile();
-            using var reader = new StreamReader(stream);
-            try
-            {
-                var editedWeather = new ItemMapGroup(reader.ReadToEnd());
-                LoadWeathers(editedWeather);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
-        /// <summary>
-        /// 在 Github 上创建提交天气更改
-        /// </summary>
-        private void BtnCreatePullRequest_Click(object sender, EventArgs e)
-        {
-            UIUtil.OpenURL("https://github.com/jie65535/GrasscutterCommandGenerator/edit/main/Source/GrasscutterTools/Resources/zh-cn/Weather.txt");
-        }
-
-        /// <summary>
         /// 选中项改变时触发
         /// </summary>
         private void TvSceneWeathers_AfterSelect(object sender, TreeViewEventArgs e)

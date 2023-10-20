@@ -126,10 +126,10 @@
   <data name="&gt;&gt;LblSupportDescription.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LnkGithub.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Bottom, Left</value>
+  <data name="&gt;&gt;LblSupportDescription.Name" xml:space="preserve">
+    <value>LblSupportDescription</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="LnkOpenChat.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom</value>
   </data>
@@ -149,16 +149,10 @@
   <data name="&gt;&gt;LnkGithub.Type" xml:space="preserve">
     <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="LnkOpenChat.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleCenter</value>
-  </data>
   <data name="LblSupportDescription.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
-  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="GrasscutterToolsSupport.Location" type="System.Drawing.Point, System.Drawing">
     <value>498, 86</value>
   </data>
@@ -194,13 +188,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.8.1.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.13.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+  </data>
+  <data name="GrasscutterToolsSupport.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>280, 280</value>
   </data>
   <data name="&gt;&gt;LnkOpenChat.Name" xml:space="preserve">
     <value>LnkOpenChat</value>
   </data>
-  <data name="&gt;&gt;LblSupportDescription.Name" xml:space="preserve">
-    <value>LblSupportDescription</value>
+  <data name="GrasscutterToolsSupport.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 140</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 17</value>
   </data>
   <data name="&gt;&gt;LnkGithub.Name" xml:space="preserve">
     <value>LnkGithub</value>
@@ -217,8 +217,8 @@
   <data name="LnkOpenChat.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
-  <data name="GrasscutterToolsSupport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>140, 140</value>
+  <data name="LnkGithub.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
   </data>
   <data name="GrasscutterToolsSupport.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -226,8 +226,8 @@
   <data name="&gt;&gt;GrasscutterToolsSupport.Type" xml:space="preserve">
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="GrasscutterToolsSupport.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>280, 280</value>
+  <data name="LnkOpenChat.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
   </data>
   <data name="LnkGithub.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -264,8 +264,5 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ru-RU</value>
   </metadata>
 </root>

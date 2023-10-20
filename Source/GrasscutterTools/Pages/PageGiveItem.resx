@@ -539,7 +539,7 @@
     <value>NoControl</value>
   </data>
   <data name="LblClearFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>627, 6</value>
+    <value>626, 6</value>
   </data>
   <data name="LblClearFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>16, 17</value>
@@ -563,7 +563,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LblClearFilter.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

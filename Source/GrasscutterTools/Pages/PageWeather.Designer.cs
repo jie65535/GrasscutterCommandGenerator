@@ -35,11 +35,6 @@
             this.LblClimateType = new System.Windows.Forms.Label();
             this.BtnLockWeather = new System.Windows.Forms.Button();
             this.BtnUnlockWeather = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.BtnExportWeather = new System.Windows.Forms.Button();
-            this.BtnImportWeather = new System.Windows.Forms.Button();
-            this.BtnCreatePullRequest = new System.Windows.Forms.Button();
-            this.LblPullRequestTip = new System.Windows.Forms.Label();
             this.LblClimateTip = new System.Windows.Forms.Label();
             this.TxtWeatherFilter = new System.Windows.Forms.TextBox();
             this.ListFilteredWeathers = new System.Windows.Forms.ListBox();
@@ -62,9 +57,9 @@
             // 
             // CmbClimateType
             // 
-            resources.ApplyResources(this.CmbClimateType, "CmbClimateType");
             this.CmbClimateType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbClimateType.FormattingEnabled = true;
+            resources.ApplyResources(this.CmbClimateType, "CmbClimateType");
             this.CmbClimateType.Name = "CmbClimateType";
             this.CmbClimateType.SelectedIndexChanged += new System.EventHandler(this.CmbClimateType_SelectedIndexChanged);
             // 
@@ -88,38 +83,6 @@
             this.BtnUnlockWeather.Tag = "off";
             this.BtnUnlockWeather.UseVisualStyleBackColor = true;
             this.BtnUnlockWeather.Click += new System.EventHandler(this.BtnLockWeather_Click);
-            // 
-            // label1
-            // 
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.Name = "label1";
-            // 
-            // BtnExportWeather
-            // 
-            resources.ApplyResources(this.BtnExportWeather, "BtnExportWeather");
-            this.BtnExportWeather.Name = "BtnExportWeather";
-            this.BtnExportWeather.UseVisualStyleBackColor = true;
-            this.BtnExportWeather.Click += new System.EventHandler(this.BtnExportWeather_Click);
-            // 
-            // BtnImportWeather
-            // 
-            resources.ApplyResources(this.BtnImportWeather, "BtnImportWeather");
-            this.BtnImportWeather.Name = "BtnImportWeather";
-            this.BtnImportWeather.UseVisualStyleBackColor = true;
-            this.BtnImportWeather.Click += new System.EventHandler(this.BtnImportWeather_Click);
-            // 
-            // BtnCreatePullRequest
-            // 
-            resources.ApplyResources(this.BtnCreatePullRequest, "BtnCreatePullRequest");
-            this.BtnCreatePullRequest.Name = "BtnCreatePullRequest";
-            this.BtnCreatePullRequest.UseVisualStyleBackColor = true;
-            this.BtnCreatePullRequest.Click += new System.EventHandler(this.BtnCreatePullRequest_Click);
-            // 
-            // LblPullRequestTip
-            // 
-            resources.ApplyResources(this.LblPullRequestTip, "LblPullRequestTip");
-            this.LblPullRequestTip.ForeColor = System.Drawing.SystemColors.GrayText;
-            this.LblPullRequestTip.Name = "LblPullRequestTip";
             // 
             // LblClimateTip
             // 
@@ -164,11 +127,6 @@
             this.Controls.Add(this.ListFilteredWeathers);
             this.Controls.Add(this.TxtWeatherFilter);
             this.Controls.Add(this.LblClimateTip);
-            this.Controls.Add(this.LblPullRequestTip);
-            this.Controls.Add(this.BtnCreatePullRequest);
-            this.Controls.Add(this.BtnImportWeather);
-            this.Controls.Add(this.BtnExportWeather);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.BtnUnlockWeather);
             this.Controls.Add(this.BtnLockWeather);
             this.Controls.Add(this.CmbClimateType);
@@ -189,11 +147,6 @@
         private System.Windows.Forms.Label LblClimateType;
         private System.Windows.Forms.Button BtnLockWeather;
         private System.Windows.Forms.Button BtnUnlockWeather;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button BtnExportWeather;
-        private System.Windows.Forms.Button BtnImportWeather;
-        private System.Windows.Forms.Button BtnCreatePullRequest;
-        private System.Windows.Forms.Label LblPullRequestTip;
         private System.Windows.Forms.Label LblClimateTip;
         private System.Windows.Forms.TextBox TxtWeatherFilter;
         private System.Windows.Forms.ListBox ListFilteredWeathers;

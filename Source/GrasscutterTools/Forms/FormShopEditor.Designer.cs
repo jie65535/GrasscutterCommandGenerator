@@ -37,6 +37,7 @@
             this.BtnClearGoods = new System.Windows.Forms.Button();
             this.BtnDeleteGoods = new System.Windows.Forms.Button();
             this.GrpItems = new System.Windows.Forms.GroupBox();
+            this.LblClearItemFilter = new System.Windows.Forms.Label();
             this.TxtItemFilter = new System.Windows.Forms.TextBox();
             this.GrpGoodsInfo = new System.Windows.Forms.GroupBox();
             this.BtnSaveGoods = new System.Windows.Forms.Button();
@@ -86,7 +87,6 @@
             this.BtnLoad = new System.Windows.Forms.Button();
             this.TxtShopJsonPath = new System.Windows.Forms.TextBox();
             this.LblShopPathLabel = new System.Windows.Forms.Label();
-            this.LblClearItemFilter = new System.Windows.Forms.Label();
             this.GrpShopList.SuspendLayout();
             this.GrpGoodsList.SuspendLayout();
             this.GrpItems.SuspendLayout();
@@ -169,6 +169,14 @@
             this.GrpItems.Controls.Add(this.ListItems);
             this.GrpItems.Name = "GrpItems";
             this.GrpItems.TabStop = false;
+            // 
+            // LblClearItemFilter
+            // 
+            resources.ApplyResources(this.LblClearItemFilter, "LblClearItemFilter");
+            this.LblClearItemFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearItemFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearItemFilter.Name = "LblClearItemFilter";
+            this.LblClearItemFilter.Click += new System.EventHandler(this.LblClearItemFilter_Click);
             // 
             // TxtItemFilter
             // 
@@ -599,14 +607,6 @@
             // 
             resources.ApplyResources(this.LblShopPathLabel, "LblShopPathLabel");
             this.LblShopPathLabel.Name = "LblShopPathLabel";
-            // 
-            // LblClearItemFilter
-            // 
-            resources.ApplyResources(this.LblClearItemFilter, "LblClearItemFilter");
-            this.LblClearItemFilter.BackColor = System.Drawing.Color.White;
-            this.LblClearItemFilter.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LblClearItemFilter.Name = "LblClearItemFilter";
-            this.LblClearItemFilter.Click += new System.EventHandler(this.LblClearItemFilter_Click);
             // 
             // FormShopEditor
             // 

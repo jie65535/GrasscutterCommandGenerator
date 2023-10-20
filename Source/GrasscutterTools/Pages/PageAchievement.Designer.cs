@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PageAchievement));
             this.ListAchievements = new System.Windows.Forms.ListBox();
             this.GrpAchievements = new System.Windows.Forms.GroupBox();
+            this.LblClearFilter = new System.Windows.Forms.Label();
             this.TxtAchievementFilter = new System.Windows.Forms.TextBox();
             this.LnkRevokeAll = new System.Windows.Forms.LinkLabel();
             this.LnkGrantAll = new System.Windows.Forms.LinkLabel();
@@ -39,7 +40,6 @@
             this.BtnProgress = new System.Windows.Forms.Button();
             this.BtnRevoke = new System.Windows.Forms.Button();
             this.BtnGrant = new System.Windows.Forms.Button();
-            this.LblClearFilter = new System.Windows.Forms.Label();
             this.GrpAchievements.SuspendLayout();
             this.GrpAchievementCommands.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.NUDProgress)).BeginInit();
@@ -62,6 +62,14 @@
             this.GrpAchievements.Controls.Add(this.LnkGrantAll);
             this.GrpAchievements.Name = "GrpAchievements";
             this.GrpAchievements.TabStop = false;
+            // 
+            // LblClearFilter
+            // 
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
+            this.LblClearFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearFilter.Name = "LblClearFilter";
+            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
             // 
             // TxtAchievementFilter
             // 
@@ -128,14 +136,6 @@
             this.BtnGrant.Name = "BtnGrant";
             this.BtnGrant.UseVisualStyleBackColor = true;
             this.BtnGrant.Click += new System.EventHandler(this.BtnGrant_Click);
-            // 
-            // LblClearFilter
-            // 
-            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
-            this.LblClearFilter.BackColor = System.Drawing.Color.White;
-            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LblClearFilter.Name = "LblClearFilter";
-            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
             // 
             // PageAchievement
             // 
