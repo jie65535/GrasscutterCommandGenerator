@@ -133,7 +133,7 @@
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ListPages.ItemHeight" type="System.Int32, mscorlib">
-    <value>22</value>
+    <value>25</value>
   </data>
   <data name="ListPages.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -170,39 +170,6 @@
   </data>
   <data name="NavContainer.Panel1MinSize" type="System.Int32, mscorlib">
     <value>80</value>
-  </data>
-  <data name="TCMain.Appearance" type="System.Windows.Forms.TabAppearance, System.Windows.Forms">
-    <value>FlatButtons</value>
-  </data>
-  <data name="TCMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="TCMain.ItemSize" type="System.Drawing.Size, System.Drawing">
-    <value>0, 1</value>
-  </data>
-  <data name="TCMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="TCMain.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>610, 275</value>
-  </data>
-  <data name="TCMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>656, 275</value>
-  </data>
-  <data name="TCMain.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;TCMain.Name" xml:space="preserve">
-    <value>TCMain</value>
-  </data>
-  <data name="&gt;&gt;TCMain.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TCMain.Parent" xml:space="preserve">
-    <value>NavContainer.Panel2</value>
-  </data>
-  <data name="&gt;&gt;TCMain.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <data name="&gt;&gt;NavContainer.Panel2.Name" xml:space="preserve">
     <value>NavContainer.Panel2</value>

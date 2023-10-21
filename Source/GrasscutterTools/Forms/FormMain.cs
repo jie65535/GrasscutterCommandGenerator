@@ -148,6 +148,10 @@ namespace GrasscutterTools.Forms
                 Logger.I(TAG, $"{page.Name} OnLoad completed");
             }
 
+            // 默认选中首页
+            if (ListPages.SelectedIndex == -1)
+                ListPages.SelectedIndex = 0;
+
             Logger.I(TAG, "FormMain_Load completed");
         }
 
@@ -207,7 +211,6 @@ namespace GrasscutterTools.Forms
         {
             Logger.I(TAG, "InitPages enter");
             Pages = new Dictionary<string, BasePage>(32);
-            TCMain.SuspendLayout();
             CreatePage<PageHome>();
             var poc = CreatePage<PageOpenCommand>();
             poc.ShowTipInRunButton = msg => ShowTip(msg, BtnInvokeOpenCommand);
@@ -233,7 +236,6 @@ namespace GrasscutterTools.Forms
 #if DEBUG
             CreatePage<PageTools>();
 #endif
-            TCMain.ResumeLayout();
             Logger.I(TAG, "InitPages completed");
         }
 
@@ -377,7 +379,19 @@ namespace GrasscutterTools.Forms
                 .ElementAt(ListPages.SelectedIndex)
                 .Item1;
             // 通过Key找到页面的父节点也就是TabPage，设置为选中项
-            TCMain.SelectedTab = Pages[key].Parent as TabPage;
+            ShowPage(Pages[key]);
+        }
+
+        /// <summary>
+        /// 展示页面
+        /// </summary>
+        /// <param name="page">页面实例</param>
+        private void ShowPage(BasePage page)
+        {
+            NavContainer.Panel2.SuspendLayout();
+            NavContainer.Panel2.Controls.Clear();
+            NavContainer.Panel2.Controls.Add(page);
+            NavContainer.Panel2.ResumeLayout();
         }
 
         /// <summary>
@@ -422,9 +436,6 @@ namespace GrasscutterTools.Forms
                 Name = typeof(T).Name,
             };
             Pages.Add(page.Name, page);
-            var tp = new TabPage();
-            TCMain.TabPages.Add(tp);
-            tp.Controls.Add(page);
             return page;
         }
 
@@ -698,12 +709,17 @@ namespace GrasscutterTools.Forms
                 // F5 为执行命令
                 OnOpenCommandInvoke();
             }
-            else if (e.Alt && e.KeyCode >= Keys.D0 && e.KeyCode <= Keys.D9)
+            else if ((e.Alt || e.Control) && e.KeyCode >= Keys.D0 && e.KeyCode <= Keys.D9)
             {
-                // Alt+数字键 = 跳转到对应页面
+                // Alt|Ctrl+数字键 = 跳转到对应页面
                 var i = e.KeyCode == Keys.D0 ? 9 : e.KeyCode - Keys.D1;
                 if (i < ListPages.Items.Count)
                     ListPages.SelectedIndex = i;
+            }
+            else if (e.Control && e.KeyCode == Keys.Tab)
+            {
+                // 切换到下一个页面
+                ListPages.SelectedIndex = (ListPages.SelectedIndex + 1) % ListPages.Items.Count;
             }
             else if (Common.KeyGo.IsEnabled == false)
             {
@@ -755,13 +771,23 @@ namespace GrasscutterTools.Forms
         /// 导航到目标页面并返回该页面实例
         /// </summary>
         /// <typeparam name="TPage">页面类型</typeparam>
-        /// <returns>如果导航到了则返回页面实例，否则返回空</returns>
         public TPage NavigateTo<TPage>() where TPage : BasePage
         {
-            ListPages.SelectedIndex = -1;
-            var page = Pages[typeof(TPage).Name];
-            TCMain.SelectedTab = page.Parent as TabPage;
-            return page as TPage;
+            var key = typeof(TPage).Name;
+            var page = Pages[key] as TPage;
+            var i = 0;
+            foreach (var it in PageTabOrders.Where(it => it.Item2))
+            {
+                if (it.Item1 == key)
+                {
+                    ListPages.SelectedIndex = i;
+                    return page;
+                }
+                i++;
+            }
+
+            ShowPage(page);
+            return page;
         }
 
         #endregion - 通用 General -

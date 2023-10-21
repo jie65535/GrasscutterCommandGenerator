@@ -32,17 +32,15 @@ namespace GrasscutterTools.Forms
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             this.NavContainer = new System.Windows.Forms.SplitContainer();
             this.ListPages = new System.Windows.Forms.ListBox();
-            this.TCMain = new System.Windows.Forms.TabControl();
             this.CmbCommand = new System.Windows.Forms.ComboBox();
             this.BtnCopy = new System.Windows.Forms.Button();
             this.ChkAutoCopy = new System.Windows.Forms.CheckBox();
             this.GrpCommand = new System.Windows.Forms.GroupBox();
+            this.LblClearFilter = new System.Windows.Forms.Label();
             this.BtnInvokeOpenCommand = new System.Windows.Forms.Button();
             this.MenuSpawnEntityFilter = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.LblClearFilter = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.NavContainer)).BeginInit();
             this.NavContainer.Panel1.SuspendLayout();
-            this.NavContainer.Panel2.SuspendLayout();
             this.NavContainer.SuspendLayout();
             this.GrpCommand.SuspendLayout();
             this.SuspendLayout();
@@ -56,10 +54,6 @@ namespace GrasscutterTools.Forms
             // 
             this.NavContainer.Panel1.Controls.Add(this.ListPages);
             // 
-            // NavContainer.Panel2
-            // 
-            this.NavContainer.Panel2.Controls.Add(this.TCMain);
-            // 
             // ListPages
             // 
             this.ListPages.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -71,14 +65,6 @@ namespace GrasscutterTools.Forms
             this.ListPages.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.ListPages_DrawItem);
             this.ListPages.SelectedIndexChanged += new System.EventHandler(this.ListPages_SelectedIndexChanged);
             this.ListPages.SizeChanged += new System.EventHandler(this.ListPages_SizeChanged);
-            // 
-            // TCMain
-            // 
-            resources.ApplyResources(this.TCMain, "TCMain");
-            this.TCMain.Multiline = true;
-            this.TCMain.Name = "TCMain";
-            this.TCMain.SelectedIndex = 0;
-            this.TCMain.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             // 
             // CmbCommand
             // 
@@ -113,6 +99,14 @@ namespace GrasscutterTools.Forms
             this.GrpCommand.Name = "GrpCommand";
             this.GrpCommand.TabStop = false;
             // 
+            // LblClearFilter
+            // 
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
+            this.LblClearFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearFilter.Name = "LblClearFilter";
+            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
+            // 
             // BtnInvokeOpenCommand
             // 
             resources.ApplyResources(this.BtnInvokeOpenCommand, "BtnInvokeOpenCommand");
@@ -124,14 +118,6 @@ namespace GrasscutterTools.Forms
             // 
             this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
-            // 
-            // LblClearFilter
-            // 
-            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
-            this.LblClearFilter.BackColor = System.Drawing.Color.White;
-            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LblClearFilter.Name = "LblClearFilter";
-            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
             // 
             // FormMain
             // 
@@ -145,7 +131,6 @@ namespace GrasscutterTools.Forms
             this.Load += new System.EventHandler(this.FormMain_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.FormMain_KeyDown);
             this.NavContainer.Panel1.ResumeLayout(false);
-            this.NavContainer.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.NavContainer)).EndInit();
             this.NavContainer.ResumeLayout(false);
             this.GrpCommand.ResumeLayout(false);
@@ -161,7 +146,6 @@ namespace GrasscutterTools.Forms
         private System.Windows.Forms.CheckBox ChkAutoCopy;
         private System.Windows.Forms.GroupBox GrpCommand;
         private System.Windows.Forms.Button BtnInvokeOpenCommand;
-        private System.Windows.Forms.TabControl TCMain;
         private System.Windows.Forms.ContextMenuStrip MenuSpawnEntityFilter;
         private System.Windows.Forms.ListBox ListPages;
         private System.Windows.Forms.SplitContainer NavContainer;
