@@ -517,10 +517,11 @@ namespace GrasscutterTools.Forms
         private void SetCommand(string command, string args)
         {
             if (!string.IsNullOrEmpty(args))
-                command = command + ' ' + args;
-            SetCommand(Settings.Default.IsIncludeUID
-                ? $"{command} @{Settings.Default.Uid}"
-                : command);
+                command = $"{command} {args}";
+            command = command.Trim();
+            if (Settings.Default.IsIncludeUID)
+                command = $"{command} @{Settings.Default.Uid}";
+            SetCommand(command);
         }
 
         /// <summary>
