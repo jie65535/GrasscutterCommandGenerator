@@ -3,6 +3,10 @@
 70220032:风车机关
 70220033:风车机关02-永动风车机关
 70290584:升降铁栅栏0.8倍版-升降铁栅栏
+70292148:SceneObj_Gear_Operator_RockTablet_FollowMove
+70292149:SceneObj_Gear_Operator_FireTablet_FollowMove
+70292150:SceneObj_Gear_Operator_IceTablet_FollowMove
+70292156:SceneObj_Gear_Operator_WaterTablet_FollowMove
 70310300:风元素交互 水方碑
 70310301:火元素交互 水方碑
 70320001:旋转喷火机关
@@ -125,7 +129,6 @@
 70900221:固定镭射机关
 70900223:镭射开门机关
 70900224:电桩开关-镭射开门机关
-70900232:电源有时限-电源
 70900248:电源地城用-电源
 70900249:电桩单次版地城用-电桩
 70900281:固定镭射机关打人-固定镭射机关
@@ -168,6 +171,7 @@
 40020009:武器掉落精通球2号-拾取后加精通的球
 40020010:武器掉落加攻击力的球-拾取后加攻击力的球
 40034111:Absorb_Aim_Driver_CrabShield
+40034114:Absorb_Aim_Driver_Octopus
 41002002:绫华-冰华阵
 41002003:绫华-冰蝶之径（旧）
 41002004:绫华-冰蝶之径-特效（旧）
@@ -369,6 +373,7 @@
 40034102:Absorb_SwordFishSlash_Bullet
 40034103:Absorb_TrackingMissile_Bullet
 40034105:Absorb_CrabShield_Back_Bullet_01
+40034108:Absorb_JellyfishBomb_Hold
 40034109:Absorb_Echo_Bullet_01
 40034110:Absorb_CrabShield_Back_Bullet_02
 40034112:Absorb_Echo_Bullet_02
@@ -733,6 +738,60 @@
 41084012:Liney_FissionAgent_EndBoom
 41084013:Liney_FissionAgent_EndBoom_Constellation_6
 41084015:Liney_AimingArrow_BeforeFission_Sub
+41086001:Wriothesley_ElementalBurst_Bullet
+41087001:Neuvillette_ExtraAttack_Tornado
+41087002:Neuvillette_Core_Gadget
+41087003:Neuvillette_Core_Bullet
+41087004:Neuvillette_Constellation_Bullet
+41087005:Neuvillette_ExtraAttack_Absorb
+41088001:SkillObj_Charlotte_NormalAttack_03
+41089015:Furina_Octopus_EnergyLaser
+41089016:Furina_SeaHorse_WaterBullet
+41089017:Furina_HermitCrab_WaterBubble
+41089018:Furina_Octopus_EnergyLaser_NoTarget
+41089019:Furina_SeaHorse_WaterBullet_NoTarget
+41090001:Chevreuse_ExtraAttack_Bullet
+41090010:Chevreuse_ElementalArt_Bullet
+41090011:Chevreuse_ElementalArt_Bullet1
+41090012:Chevreuse_ElementalArt_Bullet2
+41090013:Chevreuse_ElementalArt_Bullet3
+41090015:Chevreuse_ElementalArt_Bullet4
+41090016:Chevreuse_ElementalArt_Bullet5
+41090020:Chevreuse_ElementalBurst_Bullet
+41091001:Bullet_Navia_ElementArt_Shotgun
+41091002:Bullet_Navia_ElementArt_Shotgun_01
+41091003:Bullet_Navia_ElementArt_Shotgun_02
+41091004:Bullet_Navia_ElementArt_Shotgun_03
+41091005:Navia_Burst_Bullet_Upon
+41091006:Navia_Burst_Follow_Gadget
+41091007:Navia_NormalAttack_3_Claymore
+41092001:Gaming_ElementalArt_Leap_Collider
+41092002:Gaming_ElementalBurst_Bullet_1
+41092003:Gaming_ElementalBurst_Bullet_2
+41092004:Gaming_ElementalBurst_Bullet_3
+41092005:Gaming_ElementalArt_Leap_Collider_2
+41093001:Liuyun_NormalAttack_Bullet_01
+41093002:Liuyun_NormalAttack_Bullet_02
+41093003:Liuyun_NormalAttack_Bullet_03
+41093004:Liuyun_NormalAttack_Bullet_04
+41093005:Liuyun_NormalAttack_Bullet_05
+41093006:Liuyun_ElementalArt_Move_Collider_01
+41093007:Liuyun_ElementalArt_Move_Collider_02
+41093008:Liuyun_ElementalArt_Move_Collider_03
+41093009:Liuyun_ElementalArt_WindHole
+41093010:Liuyun_ElementalArt_Crane_Collider
+41093011:Liuyun_ElementalArt_Crane_Collider_02
+41093021:Liuyun_ElementalBurst_BigWindHole
+41093022:Liuyun_ElementalBurst_Crane
+41093023:Liuyun_ElementalBurst_SmallWindHole
+41094004:Bullet_Chiori_ElementalArt_Rush_Detect
+41094006:SkillObj_Chiori_ElementalBurst_RockBomb
+42000003:Activity_Pitch_Pot_Throw_Bullet
+42000004:Activity_Pitch_Pot_Throw_Bullet_02
+42000005:BossNarzissenkreuzBattle_PlayerSkill_Bullet_1
+42000006:BossNarzissenkreuzBattle_PlayerSkill_Bullet_2
+42000007:Activity_GoalChallenge_Level03_WindZone
+42000008:Activity_GoalChallenge_Level04_RainZone
 42001002:史莱姆岩锥
 42001003:史莱姆气泡-弹道
 42001004:史莱姆-冰锥
@@ -864,6 +923,18 @@
 42005101:Necalevia_RangeBullet
 42005102:Necalevia_AOERangeMulti
 42005103:Necalevia_Small_RangeBullet
+42005120:Narcissusborn_SwordRain_Bullet
+42005121:Narcissusborn_SwordRain_SwordBullet
+42005122:Narcissusborn_SwordRain_HugeSwordBullet
+42005123:Narcissusborn_DartAttack_Bullet
+42005124:Narcissusborn_SingleWaterBullet
+42005125:Narcissusborn_EnhancedDartAttack_Bullet
+42005126:Narcissusborn_EnhancedSwordRain_Bullet
+42005127:Narzissenkreuz_DartAttack_Bullet
+42005128:Narzissenkreuz_EnhancedDartAttack_Bullet
+42005134:Narcissusborn_SwordRain_SwordTrueBullet
+42005135:Narcissusborn_DartAttack_Bullet_ClearGadget
+42005136:Narcissusborn_DartAttack_Bullet_ClearGadget
 42006101:飘浮灵-水-子弹
 42006102:飘浮灵-水-元素微粒
 42006105:飘浮灵-水-激活亡语子弹
@@ -908,6 +979,7 @@
 42101024:大伟丘丘人丢的大物件02
 42101025:大伟丘丘人丢的大物件03
 42101026:雷弹丘丘扔的雷史莱姆
+42101027:Monster_Arrow_ShootingActivity
 42102001:火斧暴徒-横波
 42102002:火斧暴徒-纵波
 42102003:火斧暴徒-火史莱姆-着
@@ -932,6 +1004,15 @@
 42102025:雷兜王-雷史莱姆-黄色-子母弹
 42103005:丘丘萨满-环绕子弹测试
 42103013:丘丘萨满-二阶段旋风
+42103021:Shaman_Fruit_Bullet
+42103023:Shaman_Fruit_Kicked_Bullet
+42103026:Shaman_None_RangeAttack02_Bullet
+42103027:Shaman_CabbageBullet_Gadget
+42103028:Shaman_Cabbage_Bullet_Large
+42103029:Shaman_Cabbage_Gadget_Large
+42103030:Shaman_Cabbage_KickedBullet_Large
+42103034:Shaman_FloorAttack01_Bullet
+42103038:Shaman_Note_Bullet
 42104001:Hilistray_Wind_SpecialAtk_Slime
 42104002:Hilistray_Wind_SpecialAtk_WindBlade_01
 42104003:Hilistray_Wind_SpecialAtk_WindBlade_02
@@ -1033,6 +1114,12 @@
 42303007:债务处理人残像发射的子弹
 42303010:债务处理人—残像跟随空物件
 42303012:债务处理人-环绕子弹
+42303013:Escadron_Wind_NormalAtkBullet
+42303016:Escadron_MustKill_FollowWarning
+42303017:Escadron_Ice_RushAtk
+42303018:Escadron_Ice_MustKill_SecondRushAtk
+42303019:Escadron_Ice_StickAttack
+42303020:Escadron_Wind_NormalAtkBulletBig
 42304001:遗迹守卫-激光
 42304004:遗迹猎者追踪弹01
 42304005:遗迹猎者追踪弹02
@@ -1132,12 +1219,17 @@
 42405037:元能构装体精英长枪元件B
 42406001:MachinaIustitia_Recon_RushAtk_FollowBullet
 42406002:MachinaIustitia_Recon_Shoot_Bullet
+42406003:MachinaIustitia_Pylon_Gravitas_ImpactAttack_Bullet
+42406004:MachinaIustitia_Pylon_Gravitas_RangeAttack_RockBullet
+42406005:MachinaIustitia_Pylon_Gravitas_RockWaveAttack
 42406011:MachinaIustitia_Sentry_EMP_Pneuma_Bullet
 42406013:MachinaIustitia_Sentry_EMP_Ousia_Bullet
 42406015:MachinaIustitia_Sentry_RushAtk_FollowBullet
 42406021:MachinaIustitia_Probe_RangeAttack_Ousia_Bullet
 42406031:Nautilus_Attack01_Bullet
 42406032:Nautilus_Attack02_Bullet
+42406033:Frigate_Attack01_Bullet
+42406034:Frigate_Attack02_Bullet
 42406041:MachinaIustitia_Assimilator_NormalAttack01_Bullet
 42406042:MachinaIustitia_Assimilator_MeleeAttack01_Bullet
 42406043:MachinaIustitia_Assimilator_RangeAttack01_Bullet
@@ -1178,6 +1270,15 @@
 42408002:MachinaIustitia_Excavator_Grab_RockSlime_01
 42408003:MachinaIustitia_Excavator_RangeAttack_Bullet
 42408021:MachinaIustitia_Excavator_Pneuma_RangeAttack_Bullet
+42409001:MachinaIustitia_Gravitas_MissilesAttack01_Bullet_01
+42409002:MachinaIustitia_Gravitas_MeleeAttack01_Engine_01
+42409003:MachinaIustitia_Gravitas_MeleeAttack01_Engine_02
+42409004:MachinaIustitia_Gravitas_NormalAttack01_Engine_L
+42409005:MachinaIustitia_Gravitas_NormalAttack01_Engine_R
+42409006:MachinaIustitia_Gravitas_NormalAttack01_Bullet
+42409012:MachinaIustitia_Gravitas_ZeroGravitasZone_RockWave_01
+42409013:MachinaIustitia_Gravitas_RockBullet_01
+42409015:MachinaIustitia_Gravitas_ImpactWave_Bullet_01
 42481001:FungusFighterV2_TowerFire_FireBullet
 42481002:FungusFighterV2_TowerWaterBullet
 42481003:FungusFighterV2_TowerIceBullet
@@ -1187,6 +1288,7 @@
 42481009:FungusFighterV2_TowerPhysics_SkillBullet
 42481010:FungusFighterV2_TowerElectric_LockTarget
 42481011:FungusFighterV2_TowerWind_LockTarget
+42499001:Bullet_Alternate_01
 42501001:盗宝团投掷的飞刀
 42501002:盗宝团投掷的炸弹
 42501003:盗宝团投掷的燃烧弹
@@ -1198,11 +1300,19 @@
 42501009:盗宝团冰弹后效
 42501010:盗宝团雷弹后效
 42501011:Thoarder_Slippie_Fire_Arrow-溜溜射出的子弹
+42501013:BoxMatch_Assistant_IceBomb_Lv1
+42501014:BoxMatch_Assistant_IceBomb_Lv2
+42501016:BoxMatch_Hatchet_FireWork_Lv2
+42501018:Thoarder_Rocky_Guitar_FireBottle
+42501020:Thoarder_Rocky_Guitar_ElectricBottle
+42501024:Thoarder_Rocky_Guitar_ElectricBomb_Bullet
+42501026:Thoarder_ThrowingKnife_ShootingActivity
 42503001:盗宝团铲子产出的泥巴
 42503002:卡门铲子铲出的泥巴
 42504001:盗宝团投出的手斧
 42504002:盗宝团大姐头投出的手斧
 42504003:Thoarder_HatchetThrow_New
+42506021:Thoarder_MuscleMan_Zeppeli_ShockWave
 42507001:怪鸟投出的锤子
 42508001:浪人手弩发射子弹
 42508002:武士冲刺攻击摧毁创生物
@@ -1213,6 +1323,7 @@
 42509008:傀儡将军后撤攻击发射影子
 42509018:傀儡将军面具空锁定目标
 42509019:Samurai_Ningyo_WindBladeAir_BladeMaster
+42509020:Samurai_Ningyo_LockTarget_FunFightV3
 42510002:海乱鬼冲刺攻击
 42510003:海乱鬼冲刺攻击雷
 42510004:海乱鬼冲刺攻击火
@@ -1278,6 +1389,10 @@
 42601110:FauneAbyssale_SeaHorse_Mature_ElectronicLazer
 42601111:FauneAbyssale_SeaHorse_Mature_ElectronicCone
 42601114:FauneAbyssale_Aplysia_Larva_Frolic_Bubble
+42601117:FauneAbyssale_SeaHorse_Primo_FishBarrage
+42601122:FauneAbyssale_SeaHorse_Primo_ElectronCharge_Electric
+42601123:FauneAbyssale_SeaHorse_Primo_ElectronCharge_Physic
+42601125:FauneAbyssale_SeaHorse_Primo_RockGadget_Crasher
 42602004:急冻树-扫射子弹
 42602005:急冻树-小导弹
 42602006:急冻树-大导弹
@@ -1315,6 +1430,11 @@
 42604016:岩龙蜥水元素追踪傀儡gadget（弃用）
 42604017:岩龙蜥滚动时攻击盒
 42604019:岩龙蜥-弹跳电球
+42604022:Drake_Rock_IceEnhance_ScaleShot_Bullet_SP
+42604024:Drake_Rock_IceEnhance_SlapGround_DamageWave_SP
+42604025:Drake_Rock_IceEnhance_SlapGroundFinal_DamageWave_SP
+42604026:Drake_Rock_Gadget_ClearGound_SP
+42604029:Drake_Rock_FollowHitBox_Roll_SP
 42605001:古岩龙蜥飞射电子弹
 42605002:古岩龙蜥飞射火子弹
 42605003:古岩龙蜥飞射冰子弹
@@ -1357,6 +1477,7 @@
 42607010:武士狗远程剑气攻击
 42607011:武士狗冲锋子弹
 42607012:武士狗Boss飞刀攻击
+42607015:Inu_Shihandai_RangeBlade_FunFightV3
 42608001:迷你奥赛尔-喷射水流实际攻击的子弹
 42608003:迷你奥赛尔-水弹第一轮的子弹
 42608004:迷你奥赛尔-水弹第二轮的子弹
@@ -1464,12 +1585,27 @@
 42615019:FauneAbyssale_HermitCrab_Mature_WilloWisp
 42615020:FauneAbyssale_HermitCrab_Mature_RushBullet
 42615021:Monster_FauneAbyssale_Seal_EnhanceBullet
+42615026:FauneAbyssale_Aplysia_Mature_EnhancedWaterBullet
+42615027:FauneAbyssale_Aplysia_Mature_SingleWaterBullet
+42615028:Monster_FauneAbyssale_JellyFish_MagicWaterBall
+42615030:Monster_FauneAbyssale_JellyFish_MagicWaterBall02
+42615032:Monster_FauneAbyssale_Jelly_ControlledMagicBall_Liner
+42615033:Monster_FauneAbyssale_Jelly_ControlledMagicBall_Track
+42619001:Striped_Attack04_WindBlade
+42619002:Striped_Attack05_WaterBall
+42619011:Hermit_WindShieldBall01_Gather
+42619012:Hermit_WindShieldBall02_Gather
+42619013:Hermit_WindShieldBall03_Gather
+42619021:Hermit_WaterAttack_Blade
+42619022:Hermit_WindAttack_WindBall
+42619024:Hermit_WindShieldBall_WindZone
 42690001:城市声望词缀 - 草龙卷风
 42802001:野猪-冲撞子弹
 42802002:远古野猪王扔的大雪球
 42802003:远古野猪王小弟扔的小雪球
 42802004:远古野猪王雪崩
 42802005:野猪王冲锋子弹
+42802008:Boar_03_RushAtk_FunFightV3
 42806001:Chrysopelea_Attack01_Bullet
 42901012:风龙S02机炮
 42901050:风龙S01风能量球
@@ -1615,6 +1751,30 @@
 42908306:Apep_Stage3_UltAttack_FieldBullet01
 42908307:Apep_Stage3_UltAttack_FieldBullet02
 42908308:Apep_Stage3_UltAttack_FieldBullet03
+42909002:Bullet_Ptahur_Phantom_01_ThrowBlade_Bullet
+42909003:Bullet_Ptahur_JellyFish_ShootAttack_Bullet
+42909008:Ptahur_Devourer_DimensionGate_PhaseIn
+42909009:Ptahur_Devourer_DimensionGate_PhaseOut
+42909012:Ptahur_Underlings_DrakeAttack
+42909013:Ptahur_Underlings_DrakeAttack_Vertex
+42909014:Ptahur_Phantom_PantherAttack
+42909015:Ptahur_Phantom_PantherAttack_Vertex
+42909016:Ptahur_Phantom_JellyFishAttack
+42909017:Ptahur_Phantom_JellyFishAttack_Vertex
+42909019:Ptahur_Devourer_BackFire_Multibullet
+42909020:Ptahur_Devourer_BackFire_Bullet
+42909021:Ptahur_Devourer_WideRangeAttack_Multibullet
+42909022:Ptahur_Devourer_WideRangeAttack_Bullet
+42909023:Ptahur_Devourer_Rise_Multibullet
+42909024:Ptahur_Devourer_Fall_Multibullet
+42909025:Ptahur_Devourer_WideRangeAttack_Bullet_Damage
+42909026:Ptahur_Devourer_Phantom_BladeSlash01_AfterStrike
+42909027:Ptahur_Devourer_Phantom_BladeSlash02_AfterStrike
+42909028:Ptahur_Devourer_Phantom_BladeSlash03_AfterStrike
+42909030:Ptahur_Devourer_Phantom_EnvironmentAttack
+42909031:Ptahur_Phantom_VertexBreakingBuffAttack
+42909032:Ptahur_Devourer_RockBreaker_01
+42909033:Ptahur_Devourer_RockBreaker_02
 43805001:Partner_Animal_Electrohercules_JumpAttack
 43805002:Partner_Animal_Electrohercules_JumpAttack_CriticalTrigger
 43805003:Animal_Electrohercules_RangedAttack01_Attack
@@ -1623,6 +1783,11 @@
 43805007:Animal_Electrohercules_MeleeAttack01_Attack
 43805008:Animal_Electrohercules_06_CameraTarget
 43805009:Partner_Animal_Electrohercules_JumpBack
+43805010:Animal_Electrohercules_ElectricBall01
+43805011:Animal_Electrohercules_ElectricBall02
+43805012:Animal_Electrohercules_ElectricBall03
+43805013:Partner_Animal_Electrohercules_ReboundBullet
+43805015:Partner_Animal_Electrohercules_LaserBullet
 44000101:吐泡泡子弹（远）
 44000102:吐泡泡子弹（近）
 44000103:备用02
@@ -1657,6 +1822,9 @@
 44000544:SceneObj_Area_Dq_Property_Ani_Prop_Firecrackers_Bullet_01
 44000545:SceneObj_Area_Dq_Property_Ani_Prop_Electrohercules_Bullet_01
 44000546:SceneObj_Area_Dq_Property_Ani_Prop_Electrohercules_Bullet_02
+44000555:SkillObj_EnergyCaster_Bullet
+44000556:SkillObj_SearchLight_Bullet
+44000557:SkillObj_ChasingPhantom_Bullet
 44000562:Activity_Gadget_Muqadas_PotionV2_Day_1_Normal
 44000563:Activity_Gadget_Muqadas_PotionV2_Day_1_Enhanced
 44000564:Activity_Gadget_Muqadas_PotionV2_Day_2_Normal
@@ -1688,6 +1856,12 @@
 70220120:草元素爆炸子弹-吊灯子弹
 70220147:Bullet_Sorush_Bomb
 70220151:Bullet_Sorush_Hitman_FireBomb
+70220153:SceneObj_Area_Fd_Property_Ani_Prop_TrapBubble_01
+70220159:Bullet_BubbleGun_01
+70220160:Bullet_BubbleGun_02
+70220161:Bullet_BubbleGun_03
+70220162:Bullet_BubbleGun_04
+70220168:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Coin_02
 70290048:天空岛小碎片核心子弹
 70290068:雷樱瘤子弹
 70290097:雷炮子弹
@@ -1713,6 +1887,20 @@
 70291138:SceneObj_Area_Common_Property_Ani_Prop_Jamballoon_Bullet_01
 70291151:Penumbra_CannonBall_01
 70291152:Penumbra_CannonBall_02
+70291440:SceneObj_Activity_Common_Property_Ani_Prop_AutoTimeStop_Barrage_Bullet_03
+70291441:SceneObj_Activity_Common_Property_Ani_Prop_AutoTimeStop_Barrage_Bullet_02
+70291442:SceneObj_Activity_Common_Property_Ani_Prop_AutoTimeStop_Barrage_Bullet_01
+70291486:SceneObj_Area_Fd_Property_Ani_Prop_AbilityFishCannon_Bullet2
+70291488:SceneObj_Area_Fd_Property_Ani_Prop_AbilityFishCannon_Bullet
+70292008:Bullet_SpectacleBuild
+70292009:Bullet_Candle
+70292015:Bullet_HornlessDragon
+70292019:Bullet_SpectacleBuild_Show
+70292036:Bullet_WstWaterWave
+70292084:Bullet_SpectacleBuild_Show
+70292085:Bullet_SpectacleBuild_Show
+70292086:Bullet_SpectacleBuild_Show
+70292132:SceneObj_SunsetFruit_Bullet_LostSamachurl
 70300036:潜入诱饵
 70300080:捕捉陷阱
 70300124:一斗任务线的豆子
@@ -1757,6 +1945,8 @@
 70330545:SceneObj_UnderSea_Line_Bullet
 70330584:SceneObj_Area_Fd_Property_Ani_Prop_UnderSeaFishSpeedUp_02
 70330614:SceneObj_Gear_Combat_TracingEnergyBall_Grass
+70331002:SceneObj_Activity_Common_Property_Ani_Prop_SnipperBullet_01
+70331029:SceneObj_Area_Fd_Property_Prop_SeelieChallangePointBullet_Fontaine_01
 70350021:坠落冰锥bullet
 70350059:螺旋深渊 冰锥
 70350060:元素地城 冰锥
@@ -1929,6 +2119,12 @@
 70900421:SceneObj_MudAbyss_TrackingLaserBullet
 70900422:SceneObj_MudAbyss_LaserDamageBullet
 70900442:异化草原核种子-异化草原核生成器
+70900515:SceneObj_Area_Common_Property_Ani_SeahorseWaterSpray_Bullet_01
+70900516:SceneObj_Area_Common_Property_Ani_SeahorseWaterSpray_Ball_01
+70900533:SceneObj_Area_Common_Property_Ani_FoulCore_BulletA
+70900534:SceneObj_Area_Common_Property_Ani_FoulCore_BulletB
+70900604:SceneObj_Area_Common_Property_Ani_WaveConch_Bullet_01
+70900605:SceneObj_Area_Common_Property_Ani_WaveConch_Bullet_02
 70950002:吊灯bullet-吊灯子弹
 70950003:吊灯bullet02-吊灯子弹02
 70950005:测试光锁子弹01
@@ -1957,6 +2153,8 @@
 420000028:ActivityAbility_Avatar_Blocking_Blade_V2
 420000029:ActivityAbility_Avatar_Blocking_Blade_Burst
 420000030:SkillObj_Skiff_SprintTrigger_LanV3
+420000031:Activity_GoalChallenge_Level03_WindZone
+420000032:Activity_GoalChallenge_Level04_RainZone
 420001001:吐泡泡子弹（远）
 420001002:吐泡泡子弹（近）
 420001003:备用02
@@ -1965,6 +2163,7 @@
 40000007:岩属性创生物超限替换物
 40034104:Absorb_CrabShield_Hitbox
 40034106:Absorb_CrabShield_Hitbox_Long
+40034107:Absorb_JellyfishBomb_Short
 40100200:房间测试门
 40100201:房间测试门
 40210006:龙卷风发射器
@@ -2064,6 +2263,23 @@
 41085007:Freminet_Additional_03_Big
 41085008:Freminet_Additional_04_Big
 41085011:Freminet_ElementalArt_SecondAttack
+41088002:SkillObj_Charlotte_ExtraAttack_Gadget
+41088004:SkillObj_Charlotte_ElementalBurst_Stage
+41088005:SkillObj_Charlotte_Constellation_ExtraCamera
+41089001:Furina_Attack04
+41089002:Furina_Attack04_WaterEnhanced
+41089010:Furina_OrderController
+41089011:Furina_Octopus
+41089012:Furina_SeaHorse
+41089013:Furina_HermitCrab
+41089014:Furina_GoddessStatue
+41090014:Chevreuse_ElementalArt_Gadget
+41090021:Chevreuse_ElementalBurst_Gadget1
+41090022:Chevreuse_ElementalBurst_Gadget2
+41094001:SkillObj_Chiori_ElementalArt_Turret
+41094003:SkillObj_Chiori_ElementalArt_RockGadget_Turret
+41094005:Chiori_NormalAttack_04
+41094007:SkillObj_Chiori_Turret_Constellation
 42001001:史莱姆-冰锥-目标点
 42001005:史莱姆-冰雾
 42001010:史莱姆-风场虚拟体
@@ -2143,6 +2359,11 @@
 42005019:纯水精灵平台伤害
 42005023:纯水必杀空阻碍物
 42005025:纯水挑战爆裂机霸弹
+42005129:Narcissusborn_DartAttack_InitialPos
+42005130:Narcissusborn_EnhancedDartDartAttack_InitialPos
+42005131:Narzissenkreuz_DartAttack_InitialPos
+42005132:Narzissenkreuz_EnhancedDartDartAttack_InitialPos
+42005133:ActivityAbility_WQ_BossNarzissenkreuzBattle_EnergyBar
 42006103:飘浮灵-水-治疗区域
 42006104:飘浮灵-水-激活亡语位置
 42006106:飘浮灵-水-亡语位置
@@ -2203,6 +2424,16 @@
 42103014:丘丘冰萨满减速区域
 42103015:丘丘冰萨满柱子
 42103016:丘丘雷萨满-图腾柱
+42103020:Shaman_None_RangeAttack01_Gadget
+42103022:Shaman_Fruit_Gadget
+42103024:Shaman_Accact_Floor
+42103025:Shaman_None_RangeAttack02_Gadget
+42103031:Shaman_Accact_Floor_06
+42103032:Shaman_MidPillar_01
+42103033:Shaman_FloorAttack01_Pos
+42103035:Shaman_FloorAttack01_Gadget
+42103036:Shaman_SuperJump_Area
+42103037:Shaman_Note_Buff_Gadget
 42201003:深渊巫师-火焰能量环绕
 42201007:深渊巫师-地火
 42201011:深渊巫师-冰锥区域
@@ -2256,6 +2487,8 @@
 42303008:债务处理人—火焰镜像
 42303009:债务处理人—火焰镜像
 42303011:债务处理人—重生火焰镜像
+42303014:Monster_Escadron_Wind_EarthAtk
+42303015:Escadron_Wind_MustKill_Gadget
 42304013:遗迹猎者激光蓄力逻辑物件
 42304021:遗迹重机-能量球残留
 42304022:遗迹重机-小能量球实际追踪位置1
@@ -2318,8 +2551,18 @@
 42407021:MachinaIustitia_Nutcracker_Stage2_WindAreaBase
 42408011:MachinaIustitia_Excavator_Ousia_Saw_Bullet
 42408022:MachinaIustitia_Excavator_Pneuma_ShockWave_Bullet
+42409011:MachinaIustitia_Gravitas_ZeroGravitasZone_01
+42409014:MachinaIustitia_Gravitas_ImpactWave_01
 42481006:FungusFighterV2_TowerFire_SkillAOE
 42481008:FungusFighterV2_TowerIceWall
+42501012:BoxMatch_Assistant_IceBomb_TargetPoint
+42501015:BoxMatch_Hatchet_FireWork_Lv1
+42501017:BoxMatch_Hatchet_FireWork_Lv2_Attack
+42501019:Thoarder_Rocky_Guitar_FireBottle_Decal
+42501021:Thoarder_Rocky_Guitar_ElectricBottle_Decal
+42501022:Thoarder_Rocky_Guitar_FireBomb_LogicGadget
+42501023:Thoarder_Rocky_Guitar_ElectricBomb_TargetPoint
+42501025:Thoarder_Rocky_Guitar_ElectricBomb_LogicGadget
 42508003:浪人火药粉攻击
 42508005:妖刀幕府风属性领域
 42509001:傀儡将军头顶丝线发射器
@@ -2354,6 +2597,13 @@
 42601106:FauneAbyssale_Aplysia_Mature_Jelly
 42601112:FauneAbyssale_SeaHorse_Mature_ElectronicLazer_TargetPoint
 42601113:FauneAbyssale_SeaHorse_Mature_Pearl
+42601115:FauneAbyssale_SeaHorse_Primo_Pearl
+42601116:FauneAbyssale_SeaHorse_Primo_CoralGadget
+42601118:FauneAbyssale_SeaHorse_Primo_Annihilation_Thunder
+42601119:FauneAbyssale_SeaHorse_Primo_Annihilation_Decoration_DummyGadget
+42601120:FauneAbyssale_SeaHorse_Primo_Annihilation_Thunder_Attack
+42601121:FauneAbyssale_SeaHorse_Primo_ThunderStrike_Point
+42601124:FauneAbyssale_SeaHorse_Primo_AirWall
 42602001:急冻树-底座控制物件
 42602002:急冻树-果实
 42602003:急冻树-核心
@@ -2380,6 +2630,9 @@
 42604018:岩龙蜥—水伤害区域
 42604020:岩龙蜥-弹跳电球中心点
 42604021:岩龙蜥-火属性延迟伤害
+42604023:Drake_Rock_IceEnhance_Gadget_SP
+42604027:Drake_Rock_Gadget_Field_ListenEnter
+42604028:Drake_Rock_Gadget_Field_ListenExit
 42605009:古岩龙蜥电鳞片
 42605010:古岩龙蜥火鳞片
 42605011:古岩龙蜥冰鳞片
@@ -2409,6 +2662,7 @@
 42607008:武士狗boss战防御buff
 42607009:武士狗boss战移速buff
 42607013:武士狗空气墙
+42607014:Inu_Shihandai_StoneDog_FunFightV3
 42608002:迷你奥赛尔-水流冲击定位gagdet
 42608006:迷你奥赛尔-平台中心gadget
 42608007:迷你奥赛尔-水流喷射风场
@@ -2432,6 +2686,18 @@
 42615012:FauneAbyssale_HermitCrab_Primo_InitialPos
 42615013:FauneAbyssale_HermitCrab_Primo_AnotherInitialPos
 42615018:Monster_FauneAbyssale_MantaRay_SlashPoint
+42615029:Monster_FauneAbyssale_Jelly_MagicWaterBall_ExplodeArea
+42615031:Monster_FauneAbyssale_Jelly_ControlledMagicBallEmitter
+42619014:Hermit_WindShield_Shoot
+42619015:Hermit_UltAttack_DamageGadget
+42619016:Hermit_WindShieldBall_Base
+42619019:Hermit_FastAttack_Water_DamageGadget
+42619020:Hermit_UltAttack_DamageGadget_FinalHit
+42619023:Hermit_WindShieldBall_NoMove
+42619025:Hermit_GasWaterBall_Point
+42802006:Animal_Boar_02_DieShieldDrop
+42802007:Oceanid_Animal_WaterDropAttack
+42802009:Boar_SnowDrop_FunFightV3
 42805001:圣金虫的球
 42901001:风龙阶段触发器
 42901002:风龙全局风场
@@ -2661,7 +2927,17 @@
 42908309:Apep_Stage3_UltAttack_FieldGadget01
 42908310:Apep_Stage3_UltAttack_FieldGadget02
 42908311:Apep_Stage3_UltAttack_FieldGadget03
+42909001:Ptahur_StateController
+42909004:Ptahur_Devourer_Summon_Gadget_Phantom_OnGround
+42909005:Ptahur_Devourer_Summon_Gadget_Drake_OnGround
+42909006:Ptahur_Devourer_Summon_Gadget_Panther_OnGround
+42909007:Ptahur_Devourer_Summon_Gadget_JellyFish_OnGround
+42909010:Ptahur_Devourer_DimensionGate_PhaseIn_Static
+42909011:Ptahur_Devourer_DimensionGate_PhaseOut_Static
+42909018:Ptahur_Vertex_Attack01
+42909029:Ptahur_Devourer_DimensionGate_PhaseOut_Static_Big
 43805005:Bullet_Animal_Electrohercules_ElectricBall_OnGround
+43805014:Animal_Electrohercules_Defend_Turorial
 44000002:飞行挑战玩法：空中冲刺 前冲
 44000003:飞行挑战玩法：空中冲刺 上冲1
 44000004:飞行挑战玩法：空中冲刺 上冲2
@@ -2826,6 +3102,10 @@
 44000561:SceneObj_MonsterKillSelf_V3_5
 44000576:Activity_Gadget_Muqadas_PotionV2_Water_Attacker
 44000577:Activity_Gadget_Muqadas_PotionV2_Water_Attacker_Enhanced
+44000580:Activity_LanternRite_V4_Slime
+44000581:Activity_LanternRite_V4_Slime_02
+44000582:Activity_LanternRite_V4_Slime_03
+44000583:Activity_LanternRite_V4_Slime_FollowBullet
 49001001:$GeneralSkill_IceDamage_Prison_Center-冰牢
 49001002:$GeneralSkill_WindDamage_Vortex_Center-旋涡
 49001003:地波发射器
@@ -2838,6 +3118,7 @@
 49001015:亡语流血逻辑gadget
 49001020:东风快递触发区域强化版
 49001024:MonsterAffix_Activity_AkaFes_RockDamage_LowWave_Emitter
+49001028:MonsterAffix_Monster_Yunqi_Die_BroadCast
 70000012:测试用阔叶
 70020001:蒙德城天气
 70020002:风魔龙天气
@@ -2994,10 +3275,59 @@
 70220148:SceneObj_Area_Xm_Property_Ani_Prop_SlushaInteract_01
 70220149:SceneObj_Area_Xm_Property_Ani_Prop_SlushaFruit_01
 70220150:SceneObj_Area_Xm_Property_Ani_Prop_GiantCoreLine_01
+70220152:SceneObj_Area_Fd_Property_Ani_Prop_HitBubble_01
 70220154:SceneObj_Level_Xm_Property_Ani_Prop_SlushaMovingHook_01_EmptyGadget
 70220157:SceneObj_Level_Xm_Property_Ani_Prop_SlushaMovingHook_01_Creator
+70220163:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Coin_01
+70220164:[N/A] 139115590
+70220165:[N/A] 3156252622
 70220166:SceneObj_Area_Xm_Property_Prop_GrassEnergyShieldInteract_01
 70220167:SceneObj_Gear_Windmill03
+70220169:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Coin_03
+70220170:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Floor_01
+70220171:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_SafeArea_01
+70220172:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Buff_03
+70220173:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Coin_05
+70220174:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Crown_01
+70220175:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Balloon_01
+70220176:[N/A] 2549805446
+70220177:[N/A] 3556759702
+70220180:SceneObj_Area_Common_Property_Ani_Prop_CarpJumpRunner_Explode_01
+70220182:SceneObj_Area_Common_Property_Ani_Prop_CarpJumpRunner_Buff_01
+70220183:SceneObj_Area_Common_Property_Ani_Prop_CarpJumpRunner_Buff_02
+70220184:SceneObj_Area_Common_Property_Ani_Prop_CarpJumpRunner_Buff_03
+70220185:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Coin_04
+70220186:SceneObj_CarpJump_Point_Activity
+70220187:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Indicator_01
+70220188:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Camera_01
+70220189:SceneObj_Area_Common_Property_Ani_Prop_CookingGame_01
+70220190:SceneObj_Area_Common_Property_Ani_Prop_CookingGame_02
+70220191:SceneObj_Area_Common_Property_Ani_Prop_CookingGame_03
+70220192:SceneObj_Area_Common_Property_Ani_Prop_CookingGame_04
+70220193:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_SafeArea_02
+70220194:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_SafeArea_03
+70220195:SceneObj_Area_Common_Property_Ani_Prop_CarpJumpRunner_StaminaBall_01
+70220196:SceneObj_Environment_Rock_StonePileWorld
+70220197:SceneObj_Area_Common_Property_Ani_Prop_CarpJumpRunner_Operator_01
+70220198:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Explode_01
+70220199:[N/A] 4159295174
+70220200:[N/A] 1092498014
+70220201:[N/A] 77153894
+70220202:[N/A] 3079822190
+70220203:[N/A] 2161559798
+70220204:[N/A] 439091046
+70220205:[N/A] 3763839390
+70220206:[N/A] 946435550
+70220207:[N/A] 3901901062
+70220208:[N/A] 3060973782
+70220209:[N/A] 461971670
+70220210:[N/A] 1845553278
+70220211:[N/A] 3019765686
+70220212:[N/A] 762218382
+70220213:[N/A] 719519294
+70220214:[N/A] 1149899046
+70220215:[N/A] 3498988270
+70220216:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_AirWall_01
 70220649:3.2蕈兽大活动-增幅球
 70230001:符文刻印0
 70230002:符文刻印1
@@ -3852,6 +4182,14 @@
 70290907:SceneObj_Area_Xm_Property_Ani_Prop_Monitor_Laser_03
 70290908:SceneObj_Area_Common_Property_Prop_LaserWall_03
 70290909:SceneObj_Indoor_Common_Property_Ani_Prop_Teathingsindoor_03
+70290910:SceneObj_Area_Fd_Property_Ani_Prop_SearchLamp_01
+70290912:SceneObj_Area_Fd_Property_Ani_Prop_SearchLamp_02
+70290915:SceneObj_Area_Fd_Property_Ani_Prop_VugBarrier_01
+70290916:[N/A] 2111931502
+70290917:SceneObj_Area_Fd_Property_Ani_Prop_BoxMatch_Lamp_01
+70290918:SceneObj_Area_Fd_Property_Ani_Prop_StealthObject_01
+70290919:SceneObj_Area_Fd_Property_Ani_Prop_SearchLamp_03
+70290920:SceneObj_Area_Fd_Property_Ani_Prop_ChasingPhantom_01
 70290921:SceneObj_Area_Xm_Property_Prop_PariSoul_01
 70290922:SceneObj_Area_Xm_Property_Prop_LaserGear_04
 70290924:SceneObj_Area_Xm_Property_Ani_Prop_ChargingStation_Sand_02
@@ -3922,6 +4260,28 @@
 70291003:SceneObj_Area_Xm_Property_Prop_CenterTorAirWall
 70291004:[N/A] 158472022
 70291005:SceneObj_Area_Xm_Property_Prop_SandwormChallengeAirwall
+70291012:SceneObj_Area_Fd_Property_Ani_Prop_PrismRay_01
+70291013:SceneObj_Area_Fd_Property_Ani_Prop_PrismRay_02
+70291014:SceneObj_Area_Fd_Property_Ani_Prop_PrismLight_01
+70291015:[N/A] 2539618710
+70291016:SceneObj_Area_Fd_Property_Ani_Prop_FurnaceCover_01
+70291017:SceneObj_Area_Fd_Property_Ani_Prop_JczxShitou_01
+70291018:SceneObj_Area_Fd_Property_Ani_Prop_PrimalKey_02
+70291019:SceneObj_Area_Fd_Property_Ani_Prop_AbandonHammer_01
+70291020:SceneObj_Area_Fd_Property_Ani_Prop_PrimalKey_01
+70291021:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_CenterGear_01
+70291023:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_Wall_01
+70291024:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_Wall_02
+70291025:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_AroundGear_01
+70291026:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_CameraBox_01
+70291027:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_Axis_01
+70291028:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_Axis_03
+70291029:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_Axis_02
+70291030:SceneObj_Area_Fd_Property_Ani_Prop_QZJCZXShitou_01
+70291036:放置齿轮
+70291037:SceneObj_Area_Fd_Property_Ani_Prop_PrismObject_05
+70291038:SceneObj_Area_Fd_Property_Ani_Prop_PrismObject_04
+70291040:SceneObj_Area_Fd_Property_Ani_Prop_HSDT_Camera_01
 70291041:SceneObj_Area_Xm_Property_Prop_PariFlower_01
 70291042:SceneObj_Area_Xm_Property_Prop_PariFlower_01
 70291043:SceneObj_Area_Xm_Property_Prop_GateOfWisdom_01
@@ -3986,6 +4346,16 @@
 70291107:SceneObj_Area_Dq_Property_Ani_Build_CommonRockGate_02_Twinline
 70291108:SceneObj_Area_Common_Property_Ani_Prop_SorushTrailPhotoMatchPoint_01
 70291109:SceneObj_Area_Common_Property_Prop_SorushTrialOperator_02
+70291110:[N/A] 363689454
+70291111:[N/A] 1838274326
+70291112:SceneObj_Area_Fd_Property_Ani_Prop_SeaVine_01
+70291113:SceneObj_Area_Fd_Property_Ani_Prop_SeaVine_02
+70291114:SceneObj_Area_Fd_Property_Ani_Prop_SeaVine_03
+70291115:SceneObj_Area_Fd_Property_Ani_Prop_SeaVineCore_01
+70291116:SceneObj_Area_Fd_Property_Ani_Prop_FDHintLineSpec_01
+70291117:SceneObj_Area_Fd_Property_Ani_Prop_FDHintLineSpec_02
+70291118:[N/A] 3882548686
+70291119:[N/A] 3022696430
 70291120:SceneObj_Area_Xm_Property_Ani_Prop_AkaFesGrapplingHookPoint_03
 70291121:SceneObj_Gear_Combat_MonseterPowerUp_CoolDown_Increase_AkaFes
 70291122:SceneObj_Level_Xm_Property_Ani_Prop_AkaFesArcStartUI_01
@@ -4022,6 +4392,174 @@
 70291166:SceneObj_Penumbra_Common_Property_Ani_Prop_BladeDanceCam_01
 70291167:SceneObj_Area_Common_Property_Ani_Prop_Jamballoon_02
 70291168:SceneObj_Penumbra_Common_Property_Ani_Prop_BladeDanceGate_01
+70291169:[N/A] 2187650446
+70291296:SceneObj_Area_Fd_ChioriDungeon_SoundController_01
+70291297:SceneObj_Area_Common_Property_Prop_DelucChallengeAirwall_02
+70291301:SceneObj_Area_Common_Property_Prop_Catcafe_FollowmoveInteract_01
+70291302:SceneObj_Area_Fd_Property_Ani_Prop_FdCommonGate_01
+70291303:SceneObj_Area_Fd_Property_Ani_Prop_FdCommonGate_02
+70291304:SceneObj_Area_Fd_Property_Ani_Prop_FdCommonGate_01
+70291305:[N/A] 3717396054
+70291306:[N/A] 711620190
+70291307:[N/A] 1971216398
+70291308:[N/A] 2090516862
+70291309:[N/A] 1915588182
+70291310:[N/A] 1893440366
+70291311:SceneObj_Level_Fd_Property_Ani_Prop_BarrierGate_02
+70291312:SceneObj_Level_Fd_Property_Ani_Prop_BarrierGate_02
+70291313:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimCrowd_01
+70291314:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimCrowd_02
+70291315:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimCrowd_03
+70291316:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimCrowd_04
+70291317:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimCrowd_05
+70291318:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimCrowd_06
+70291319:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimCrowd_07
+70291320:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimCrowd_08
+70291321:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimCrowd_09
+70291322:[N/A] 3735840142
+70291323:[N/A] 452136134
+70291324:[N/A] 4196712414
+70291325:[N/A] 1600603110
+70291326:[N/A] 1799420038
+70291327:[N/A] 226054198
+70291328:[N/A] 60835606
+70291329:[N/A] 219103990
+70291330:[N/A] 2497666390
+70291331:[N/A] 3062034486
+70291332:[N/A] 1523235134
+70291333:[N/A] 2067141270
+70291334:[N/A] 767331686
+70291335:[N/A] 2247542526
+70291336:[N/A] 1059451926
+70291337:[N/A] 3171283910
+70291338:[N/A] 1280432054
+70291339:[N/A] 3121920534
+70291340:[N/A] 3717727630
+70291341:[N/A] 675138310
+70291342:[N/A] 1477823558
+70291343:[N/A] 1333517966
+70291344:[N/A] 1103330414
+70291345:[N/A] 3288868510
+70291346:[N/A] 374482150
+70291347:[N/A] 2050785846
+70291348:[N/A] 3236382166
+70291349:[N/A] 3723121022
+70291350:[N/A] 395811086
+70291351:[N/A] 2138344182
+70291352:[N/A] 782194966
+70291353:[N/A] 4241637894
+70291354:[N/A] 2851039222
+70291355:[N/A] 1201449430
+70291356:[N/A] 2112172574
+70291357:[N/A] 2484321462
+70291358:[N/A] 3586591198
+70291359:[N/A] 2727321694
+70291360:[N/A] 3889898838
+70291361:[N/A] 1578180542
+70291362:[N/A] 4019124446
+70291363:[N/A] 3713870902
+70291364:[N/A] 4231977742
+70291365:[N/A] 1437026806
+70291366:[N/A] 3860554910
+70291367:[N/A] 3576695462
+70291368:[N/A] 1734766510
+70291369:[N/A] 778374894
+70291370:[N/A] 894661374
+70291371:[N/A] 2992057774
+70291372:[N/A] 685516438
+70291373:[N/A] 2973364758
+70291374:[N/A] 2780427790
+70291375:[N/A] 258341998
+70291376:[N/A] 2567874398
+70291377:[N/A] 614214206
+70291378:[N/A] 2157138558
+70291379:[N/A] 1414645630
+70291380:[N/A] 846349574
+70291381:[N/A] 2961815462
+70291382:[N/A] 3000635990
+70291383:[N/A] 1863160430
+70291384:[N/A] 3116356838
+70291385:[N/A] 1768159278
+70291386:[N/A] 3818678542
+70291387:[N/A] 1334764014
+70291388:[N/A] 3666858966
+70291389:[N/A] 3053553822
+70291390:[N/A] 2166621382
+70291391:[N/A] 2638116982
+70291392:[N/A] 151651198
+70291393:[N/A] 95111726
+70291400:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimChair_01
+70291401:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimCauldron_01
+70291402:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimLand_01
+70291404:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimRefine_01
+70291405:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimLandInteract_01
+70291406:[N/A] 262066062
+70291407:[N/A] 2432934070
+70291408:[N/A] 2666647094
+70291409:阅读
+70291410:[N/A] 1784784974
+70291417:[N/A] 4038794998
+70291418:[N/A] 2725827078
+70291419:[N/A] 2327654342
+70291420:[N/A] 3937950494
+70291421:[N/A] 3404291070
+70291422:[N/A] 1194763942
+70291423:SceneObj_Area_Fd_Property_Ani_Prop_RandNumIndicator_02
+70291425:SceneObj_Area_Fd_Property_Ani_Prop_IronMachine_01
+70291426:SceneObj_Area_Fd_ChioriClothesHangerPieces_01
+70291427:SceneObj_Area_Fd_ChioriClothesHangerPieces_01
+70291430:SceneObj_Area_Fd_ChioriClothesHangerPieces_01
+70291431:SceneObj_Area_Fd_ChioriClothesHangerPieces_01
+70291432:SceneObj_Area_Fd_ChioriClothesHanger_03
+70291433:SceneObj_Area_Fd_ChioriClothesHanger_02
+70291435:SceneObj_Area_Fd_Property_Ani_Prop_SteamSpout_01
+70291436:SceneObj_Area_Fd_Property_Ani_Prop_IronMachine_01
+70291437:SceneObj_Area_Fd_Build_SXGC_Chuansongdai_B_ForceFieldB_01
+70291438:SceneObj_Area_Fd_Build_SXGC_Chuansongdai_B_ForceFieldA_01
+70291439:SceneObj_Area_Fd_Build_SXGC_Chuansongdai_B_01
+70291443:SceneObj_Activity_Common_Property_Ani_Prop_AutoTimeStop_Barrage_Launcher_01
+70291444:SceneObj_Area_Fd_OceanCurrent_Entrance_Custom_01
+70291445:SceneObj_Area_Common_Property_Ani_Narzissenkreuz_MusicCtrl
+70291446:SceneObj_Area_Fd_Property_Ani_Prop_SummonCircle_02
+70291447:SceneObj_Area_Fd_Decoration_Prop_MlxPic_01
+70291448:SceneObj_Area_Fd_Decoration_Prop_MlxPic_01
+70291449:SceneObj_Area_Fd_Foulness_Disappear_01
+70291450:SceneObj_Area_Fd_Foulness_Disappear_02
+70291451:SceneObj_Area_Fd_SeaProof42Boss_WaterMask_01
+70291452:SceneObj_Area_Fd_LevelCameraShaker_01
+70291453:SceneObj_Area_Fd_LevelHPBar_01
+70291454:SceneObj_Area_Fd_Property_Ani_Build_MLAGlass_HitBox_01
+70291455:SceneObj_Area_Fd_FoulnessWater_01
+70291456:SceneObj_Area_Fd_FoulnessWater_02
+70291457:SceneObj_Area_Fd_FoulnessWater_01
+70291458:SceneObj_Area_Fd_FoulnessWater_02
+70291459:SceneObj_Area_Fd_FoulnessWater_01
+70291460:SceneObj_Area_Fd_FoulnessWater_02
+70291461:[N/A] 283044518
+70291463:SceneObj_Area_Fd_FoulCarpet_UndiveableWaterArea_01
+70291464:[N/A] 483021782
+70291465:SceneObj_Area_Common_Property_Ani_Narzissenkreuz_SpacialSlash_01
+70291466:[N/A] 321642398
+70291467:SceneObj_Area_Fd_Property_Ani_Prop_BreakableShitoudui_01
+70291468:SceneObj_Area_Fd_Property_Ani_Prop_BreakableShitoudui_01
+70291469:[N/A] 1693131334
+70291470:[N/A] 2114555822
+70291471:[N/A] 3160252942
+70291472:[N/A] 3042095174
+70291473:[N/A] 59871062
+70291474:[N/A] 3890716462
+70291475:[N/A] 1270809526
+70291476:SceneObj_Area_Fd_Property_Ani_Prop_FdFenchGateBig_01
+70291479:SceneObj_Area_Fd_Property_Ani_Build_Antihydro_01
+70291480:SceneObj_Area_Fd_Property_Ani_Prop_DynamicUndivableWater_State
+70291482:SceneObj_Area_Fd_Property_Ani_Prop_fishEffect_02
+70291483:SceneObj_Area_Fd_Property_Ani_Prop_catapultJellyfish_clearZone
+70291484:SceneObj_Area_Fd_Property_Ani_Prop_catapultJellyfish_04
+70291485:SceneObj_Area_Fd_Property_Ani_Prop_catapultJellyfish_05
+70291487:SceneObj_Area_Fd_Property_Ani_Prop_TransparentFloor_03
+70291491:[N/A] 116198190
+70291493:SceneObj_Area_Fd_Property_Ani_Prop_TransparentFloor_01
+70291494:SceneObj_Area_Fd_Property_Ani_Prop_DynamicUndivableWater_Wheel
 70291495:（test）邀请角色
 70291496:[N/A] 452502462
 70291497:[N/A] 3353301982
@@ -4029,9 +4567,22 @@
 70291499:[N/A] 1211496790
 70291500:盖章
 70291510:SceneObj_Area_Common_Property_Ani_Prop_TurquoiseStarEff_01
+70291511:SceneObj_Area_Fd_Property_Ani_Prop_catapultJellyfishField_01
 70291512:（test）邀请角色
+70291515:SceneObj_Area_Fd_Property_Ani_Prop_AbilityFishCannon_01
+70291516:[N/A] 2387781526
+70291517:SceneObj_Area_Fd_Property_Ani_Prop_DynamicUndivableWater_Wheel
 70291518:SceneObj_Area_Common_Property_Ani_Prop_TurquoiseStar_02
 70291519:[N/A] 3407346398
+70291522:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaBac_01
+70291523:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaBac_02
+70291524:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaBacDoor_01
+70291525:SceneObj_Area_Fd_Property_Ani_Prop_ScoutRobot_01
+70291526:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaBacRes_01
+70291527:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaBacDoor_02
+70291528:[N/A] 792790094
+70291529:[N/A] 1964481166
+70291530:[N/A] 731777934
 70291531:SceneObj_Area_Xm_Property_Prop_Ani_FlowerPortal_01
 70291532:SceneObj_Area_Xm_Property_Prop_PariTombBush_01
 70291533:SceneObj_Area_Xm_Property_Prop_PariTombBush_01
@@ -4049,13 +4600,250 @@
 70291549:[N/A] 1687945158
 70291550:SceneObj_Area_Common_Property_Ani_Prop_ToyBattleChargeWarning_01
 70291551:[N/A] 3113983190
+70291552:SceneObj_Area_Fd_Property_Ani_Prop_FDPipeDoorLarge_01
+70291553:SceneObj_Area_Fd_Property_Ani_Prop_FDPipeDoorSmall_01
+70291555:[N/A] 4260345830
+70291556:SceneObj_Area_Common_Property_Ani_Prop_LandGas_01
+70291557:SceneObj_Area_Fd_Property_Ani_Water_PotPurling_01
+70291558:SceneObj_Area_Common_Property_Ani_Prop_UnderseaGas_01
+70291560:[N/A] 754103926
+70291561:SceneObj_Area_Fd_Property_Ani_Prop_FDStabilizers_01
+70291562:SceneObj_Area_Fd_Property_Ani_Prop_HiliFirework_01
+70291563:SceneObj_Area_Fd_Property_Ani_Ajar_SciTowerBarrier_01
+70291564:SceneObj_Area_Fd_Property_Ani_Prop_FDOreLab_01
+70291566:[N/A] 1632393590
+70291567:SceneObj_Area_Fd_Property_Ani_Prop_FontaineSciTank_01
+70291568:[N/A] 394180646
+70291569:[N/A] 815977830
+70291570:SceneObj_Area_Fd_Property_Ani_Prop_FactoryBlower_01
+70291571:SceneObj_Area_Fd_Property_Ani_Prop_FactoryBlower_01
+70291572:SceneObj_Area_Fd_Property_Ani_Prop_FactoryBlower_03
+70291573:SceneObj_Area_Fd_Property_Ani_Prop_FactoryBlower_01
+70291574:SceneObj_Area_Fd_Property_Ani_Prop_FDPipeDoorLarge_02
+70291576:SceneObj_Area_Fd_Property_Ani_Tree_EnergyTerminal_01
+70291577:SceneObj_Area_Fd_Property_Ani_Tree_EnergyTerminal_02
+70291581:SceneObj_Level_Fd_Property_Ani_Prop_SealValve_01
+70291583:SceneObj_Indoor_Fd_Property_Ani_Prop_PrisonSecretGate_01
+70291584:SceneObj_Area_Fd_Property_Ani_Ajar_TrainingJar_01
+70291585:[N/A] 1852448622
+70291586:SceneObj_Area_Common_Property_Ani_Prop_CookingSmoke_01
+70291587:SceneObj_Indoor_Fd_Property_Ani_Prop_PrisonOfficeFrostedGlass_01
+70291588:SceneObj_Indoor_Fd_Property_Ani_Prop_PrisonOfficeFrostedGlass_02
+70291589:SceneObj_Level_Fd_Property_Ani_Prop_EnergyOverlookCamera_01
 70291590:[N/A] 525231526
 70291591:[N/A] 171198478
 70291592:[N/A] 1150513454
+70291593:SceneObj_Area_Fd_Property_Ani_Prop_FactoryBlower_02
+70291594:[N/A] 4237024830
+70291595:SceneObj_Area_Md_Property_Ani_Prop_FishblasterZhuo_01
+70291596:[N/A] 3745482486
+70291597:[N/A] 4063124158
+70291598:[N/A] 2050461870
+70291599:[N/A] 1324832502
+70291600:[N/A] 2714040734
+70291601:[N/A] 2389065830
+70291602:[N/A] 1017700398
+70291603:[N/A] 3656935550
+70291604:[N/A] 4245095534
+70291605:[N/A] 2609224542
+70291606:SceneObj_Area_Fd_Property_Ani_Prop_FDPipeDoorSmall_02
+70291607:SceneObj_Level_Fd_Property_Ani_Prop_BarrierGate_01
+70291609:SceneObj_Level_Common_Property_Ani_Prop_FDPipeDoorLargeWriothesley_01
+70291610:SceneObj_Level_Common_Property_Ani_Prop_FDPipeDoorSmallWriothesley_01
+70291611:SceneObj_Area_Fd_Property_Ani_Prop_FdCommonGate_01
+70291613:SceneObj_Area_Md_Property_Ani_Prop_FishblasterZhuoKong_01
+70291614:[N/A] 2667764174
+70291615:SceneObj_Level_Fd_Property_Ani_Prop_BarrierGate_02
+70291616:SceneObj_Area_Fd_Property_Ani_Prop_IronFenceUW_01
+70291618:SceneObj_Area_Fd_Property_Ani_Prop_PotHitbox_01
+70291620:SceneObj_Area_Fd_Property_Ani_Prop_DirtyWTShield_01
+70291621:SceneObj_Area_Fd_Property_Ani_Prop_DirtyWTShield_02
+70291622:SceneObj_Area_Fd_Property_Ani_Prop_DirtyWTShield_03
+70291623:SceneObj_Area_Fd_Property_Ani_Prop_DirtyWTShield_04
+70291624:SceneObj_Area_Fd_Property_Ani_Prop_FdHiliSeaLookout_01
+70291625:SceneObj_Area_Fd_Property_Ani_Prop_FdSeaobstacles_01
+70291626:[N/A] 1580904702
+70291627:[N/A] 2466564494
+70291628:SceneObj_Area_Fd_Property_Ani_Prop_FactoryBlower_01
+70291629:SceneObj_Area_Fd_Property_Ani_Prop_FactoryBlower_01
+70291630:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaBacDoor_03
+70291632:SceneObj_Area_Common_Property_WQ_BossNarzissenkreuzBattle_Ball_Heal
+70291634:SceneObj_Area_Common_Property_Ani_Decal_Quest_Stain_01
+70291635:喂食
+70292001:SceneObj_Area_LY_Property_Ani_Prop_ControlPlatformTarget_01
+70292002:SceneObj_CarpJump_Point
+70292010:SceneObj_Candle_Base
+70292011:SceneObj_Candle
+70292013:SceneObj_Lotus_CheckPoint
+70292014:SceneObj_HornlessDragon
+70292016:SceneObj_HornlessDragonBubble
+70292022:SceneObj_Prop_TortoiseCol
+70292024:SceneObj_Area_Common_Property_Prop_TalkTest_01_WhiteBox
+70292025:SceneObj_SpectacleBuild_Base
+70292026:SceneObj_GasWaterBall_Point_WithWave
+70292027:SceneObj_GasWaterBall_Point_WithoutWave
+70292028:SceneObj_CarpJump_Point
+70292029:SceneObj_Hairpin
+70292030:[N/A] 1666160350
+70292034:SceneObj_Area_Cyg_Property_Ani_Prop_ImmortalSeal_02
+70292035:SceneObj_Area_Cyg_Property_Ani_Prop_ImmortalSeal_01
+70292037:SceneObj_Area_Cyg_Property_Ani_Prop_TempleOfEarth_01
+70292038:SceneObj_Area_Cyg_Property_Ani_Prop_GrainsOfGemstone_01
+70292040:SceneObj_Area_Cyg_Property_Ani_Prop_Silong_01
+70292042:SceneObj_LXSJadeCore
+70292043:SceneObj_Area_Cyg_Property_Ani_Prop_WaterfallDoor_01
+70292044:SceneObj_Area_Cyg_Property_Ani_Prop_CupElemTablet_Fire_01
+70292045:SceneObj_Area_Cyg_Property_Ani_Prop_CupElemTablet_Water_01
+70292046:SceneObj_Area_Cyg_Property_Ani_Prop_CupElemTablet_Wind_01
+70292047:SceneObj_Area_Cyg_Property_Ani_Prop_CoverOfWallPainting_01
+70292048:SceneObj_Cyg_RunBirdRun
+70292049:古剑士铭文·其一
+70292050:古剑士铭文·其二
+70292051:古剑士铭文·其三
+70292052:古剑士铭文·其四
+70292053:古老的木料
+70292054:[N/A] 2730544038
+70292055:[N/A] 646109046
+70292056:[N/A] 773074062
+70292057:[N/A] 1970551238
+70292058:[N/A] 2191408598
+70292059:SceneObj_Area_Cyg_Property_Ani_Prop_CarpPortal_01
+70292060:[N/A] 3004659758
+70292061:[N/A] 2606652558
+70292062:[N/A] 1606258494
+70292063:[N/A] 4042193030
+70292064:[N/A] 3306534286
+70292065:SceneObj_Wstgate_01
+70292066:SceneObj_Area_Cyg_Property_Ani_Prop_BambooSlips_01
+70292067:SceneObj_Area_Cyg_Property_Ani_Prop_BookcaseShell_01
+70292068:SceneObj_Area_Cyg_Property_Ani_Prop_BookcaseShell_02
+70292069:SceneObj_Area_Cyg_Property_Ani_Prop_BookcaseShell_03
+70292070:SceneObj_Area_Cyg_Property_Ani_Prop_BookcaseShell_04
+70292071:[N/A] 2073859854
+70292072:SceneObj_Area_Cyg_Property_Ani_Prop_Scarecrow_Red_01
+70292075:SceneObj_Area_Cyg_Property_Ani_Prop_CarpGemstone_01
+70292076:SceneObj_Area_Cyg_Property_Ani_Prop_CygTeaSet_01
+70292078:[N/A] 1755733662
+70292079:[N/A] 62325694
+70292080:[N/A] 799372950
+70292081:SceneObj_Area_Cyg_Property_Ani_Prop_YdgTree_01
+70292082:SceneObj_Area_Cyg_Property_Ani_Prop_YdgBranch_01
+70292083:SceneObj_Area_Cyg_Property_Ani_Prop_GoldenFairySpirit_01
+70292087:[N/A] 578853302
+70292088:SceneObj_Lotus_CheckPoint_FollowMove
+70292090:[N/A] 3697015662
+70292091:SceneObj_Area_Cyg_Property_Ani_Prop_GasColorGrading_01
+70292092:[N/A] 4098699806
+70292093:[N/A] 3891438814
+70292094:SceneObj_LXSJadeCore_Side
+70292095:SceneObj_LXSJadeCore_Side
+70292096:[N/A] 1049345790
+70292097:[N/A] 1894278182
+70292098:[N/A] 219587718
+70292099:SceneObj_Area_Cyg_Property_Ani_Prop_KoiLantern_01
+70292100:SceneObj_Area_Cyg_Property_Ani_Prop_YunqiRoot_01
+70292101:SceneObj_Area_Cyg_Property_Ani_Prop_Scarecrow_Blue_01
+70292102:SceneObj_Area_Cyg_Property_Ani_Prop_CygTeacupMountain_01
+70292103:[N/A] 896291766
+70292109:SceneObj_CombatInteraction_BombBox_FollowMove
+70292110:SceneObj_Area_Cyjy_Property_Ani_Prop_GeoGlideChampOrb_01_FollowMove
+70292113:SceneObj_Environment_FireMaterial_ImmortalFire_FollowMove
+70292114:[N/A] 4042527318
+70292115:SceneObj_Candle_Base_FollowMove
+70292116:SceneObj_Candle_FollowMove
+70292122:SceneObj_Area_Cyg_Property_Ani_Prop_GasColorGrading_01
+70292123:SceneObj_Area_Cyg_Property_Ani_Prop_GasColorGrading_01
+70292124:SceneObj_Area_Cyg_Property_Ani_Prop_GasColorGrading_01
+70292125:SceneObj_Area_Cyg_Property_Ani_Prop_GasColorGrading_01
+70292126:SceneObj_Area_Cyg_Property_Ani_Prop_GasColorGrading_01
+70292127:SceneObj_Area_Cyg_Property_Ani_Prop_GasColorGrading_01
+70292128:SceneObj_Amber_WaterAmber_LostSamachurl
+70292129:SceneObj_Environment_FireMaterial_Bornfires_LostSamachurl
+70292130:SceneObj_Area_Dq_Property_Prop_SmokeDevice_01_LostSamachurl
+70292131:SceneObj_SunsetFruit_LostSamachurl
+70292133:SceneObj_LostSamachurl_Target
+70292136:SceneObj_Area_Cyg_Property_Ani_Prop_GoldenFairySpirit_02
+70292137:SceneObj_FengfuWave
+70292138:SceneObj_Area_Cyg_Property_Ani_Prop_WstWaterWave_01
+70292139:SceneObj_Hairpin_FollowMove
+70292142:SceneObj_HairpinBase_FollowMove
+70292143:SceneObj_Cyg_TalkStatueVirtualization
+70292147:[N/A] 16970102
+70292151:SceneObj_Area_Cyg_Property_Ani_Prop_BiHua_01
+70292152:[N/A] 2708807718
+70292154:查看
+70292155:SceneObj_Xmincenseburner_01
+70292157:SceneObj_Area_Cyg_Property_Ani_Prop_Silong_02
+70292158:SceneObj_Cyg_RunBirdRun_FollowMove
+70292160:[N/A] 1275398326
+70292161:[N/A] 118941766
+70292162:SceneObj_Cyg_YDG_Tree_01
+70292164:SceneObj_Area_Cyg_Property_Ani_Prop_YunqiRoot_02
+70292165:[N/A] 198977110
+70292167:查看
+70292168:查看
+70292169:查看
+70292171:SceneObj_Area_Cyg_Property_Ani_Prop_Empty_T_01
+70292172:SceneObj_Area_Cyg_Property_Ani_Prop_CoverOfWallPainting_02
+70292173:SceneObj_Area_Cyg_Property_Ani_Prop_CoverOfWallPainting_03
+70292174:[N/A] 4175888862
+70292176:SceneObj_HornlessDragon_02
+70292177:SceneObj_Area_Cyg_Property_Ani_Prop_QingTongGuan_Small_01
+70292178:SceneObj_Area_Cyg_Property_Ani_Prop_QingTongGuan_Big_01
+70292180:[N/A] 2338130118
+70292181:SceneObj_Cyg_TalkStatueBigger
+70292182:SceneObj_Environment_GrassMaterial_LeaveStacks
+70292183:SceneObj_Area_Cyg_Property_Ani_Prop_Empty_T_02
+70292185:SceneObj_LXSJadeCore_02
+70292186:[N/A] 2224953886
+70292187:SceneObj_YdgCaveButterfly_Switch
+70292190:[N/A] 3228884582
+70292191:[N/A] 1831735686
+70292192:[N/A] 2790568230
+70292193:开启「探幽之行」
+70292194:SceneObj_Area_Cyg_Property_Ani_Prop_Silong_02
+70292197:SceneObj_Hairpin_FollowMove_02
+70292198:SceneObj_WQ_BackBoardPicture_01
+70292199:SceneObj_SiLong_Effect
+70292200:SceneObj_Area_Cyg_Property_Ani_Prop_CygTeacupMountain_01
+70292201:SceneObj_Area_Cyg_Property_Ani_Prop_CygTeacupMountain_01
+70292202:SceneObj_Area_Cyg_Property_Ani_Prop_GasColorGrading_02
+70292203:SceneObj_TalkStatue_Statue_Base_Follow
+70292205:SceneObj_Area_Common_Property_Ani_Prop_SpiderWeb_01
+70292206:[N/A] 1311158166
+70292207:SceneObj_Area_Cyg_Property_Ani_Prop_GasShockwave_01
+70292208:SceneObj_Area_Cyg_Property_Ani_Prop_WstPlatform_02
+70292209:SceneObj_Area_Cyg_Property_Ani_Prop_Silong_Small_01
+70292210:[N/A] 3871807966
+70292211:[N/A] 3110223638
+70292212:SceneObj_LostSamachurl_Target_Effect
+70292213:SceneObj_Area_Cyjy_Property_Ani_Prop_GeoGlideChampOrb_3R
+70292216:调查药罐
+70292219:SceneObj_Cyg_TalkStatueBaseBig
+70292220:SceneObj_SpectacleBuild1_WatchOnly
+70292221:SceneObj_SpectacleBuild3_WatchOnly
+70292222:SceneObj_CarpJump_Point2
+70292223:SceneObj_Area_Cyg_Property_Ani_Prop_Ydgjar_Base
+70292224:SceneObj_Area_Cyg_Property_Ani_Prop_Ydgjar_Base
+70292299:SceneObj_ObserverEye
+70292300:[N/A] 2863926278
 70292301:SceneObj_Level_Common_Property_Prop_ActivityGather_01
 70292302:[N/A] 1370873430
 70292400:[N/A] 590608350
 70292401:[N/A] 3117904734
+70292402:SceneObj_FocusingPrism_Light_01
+70292403:SceneObj_FocusingPrism_Light_02
+70292404:SceneObj_FocusingPrism_Light_03
+70292405:SceneObj_FocusingPrism_Light_04
+70292406:SceneObj_FocusingPrism_Light_05
+70292407:SceneObj_FocusingPrism_Light_06
+70292408:[N/A] 2767622918
+70292409:SceneObj_Area_Fd_Property_Ani_Prop_HSDTGuard_01
+70292410:SceneObj_Area_Fd_Property_Ani_Prop_HSDTGuard_01
+70292411:SceneObj_Area_Cyg_Property_Ani_Prop_WaterWave_01
+70292412:[N/A] 2746991030
+70294000:SceneObj_Area_Xm_Property_Ani_Prop_FDBubble_01
+70294001:SceneObj_Area_Xm_Property_Ani_Prop_GrapplingHookPoint_SanBin01
 70300003:飞行中吃的金币
 70300004:飞行终点的花环
 70300005:飞行终点的花环消失的特效
@@ -4595,6 +5383,14 @@
 70310530:SceneObj_Area_Xm_Property_Ani_Prop_CrystalMonsterDisplay_04
 70310531:SceneObj_Area_Xm_Property_Ani_Prop_CrystalMonsterSync_01
 70310534:查看鼓谱
+70310535:SceneObj_Area_Fd_Property_Ani_Prop_PrisonFistTarget_01
+70310536:SceneObj_Area_Fd_Property_Ani_Prop_PrisonWorkerMachine_01
+70310537:SceneObj_Area_Fd_Property_Ani_Prop_TransferStationDoor_01
+70310539:SceneObj_Area_Fd_Property_Ani_Build_DYZHiddenDoor_01
+70310540:SceneObj_Area_Fd_Property_Ani_Prop_DadaliyaVision_01
+70310541:SceneObj_Area_Fd_Property_Ani_Prop_PrisonWorkerMachine_02
+70310542:SceneObj_Area_Fd_Property_Ani_Prop_PrisonWorkerMachine_03
+70310543:[N/A] 3040687622
 70320004:透明植物操作台-须弥_透明化物件(非操作台自带交互)
 70320005:透明不灭火盆-须弥_透明化物件
 70320006:消消乐砖墙-奇趣秘园 砖块消消乐
@@ -4667,6 +5463,22 @@
 70320084:隐形史莱姆球门2-奇趣秘园 史莱姆足球
 70320085:SceneObj_Area_Common_Property_Prop_CharAmusementAirWall_04
 70320086:SceneObj_Area_Common_Property_Prop_CharAmusementAirWall_05
+70320087:[N/A] 1122283110
+70320088:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCaster_Caster_01
+70320090:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCaster_Caster_02
+70320091:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCaster_NormalCell_01
+70320093:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCaster_CellComponent_01
+70320094:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCaster_QRCode_01
+70320096:SceneObj_Area_Fd_Property_Ani_Prop_FactoryBoxingMachine_01
+70320097:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCaster_Receiver_01
+70320098:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCaster_Receiver_01
+70320099:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCaster_Receiver_01
+70320101:[N/A] 2196028318
+70320106:SceneObj_Area_Fd_Property_Ani_Prop_GearPipe_Camera_01
+70320107:SceneObj_Area_Fd_Property_Ani_Prop_GearPipe_Camera_02
+70320108:SceneObj_Area_Fd_Property_Ani_Prop_GearPipe_Camera_03
+70320109:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCaster_Receiver_01
+70320110:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCaster_Receiver_01
 70320111:SceneObj_Level_Common_Property_Ani_Prop_CharAmuseFloor_01
 70320112:SceneObj_Level_Common_Property_Ani_Prop_CharAmuseCoin_01
 70320113:SceneObj_Level_Common_Property_Ani_Prop_CharAmuseCoinBig_01
@@ -4686,6 +5498,9 @@
 70320133:SceneObj_Penumbra_Common_Property_Ani_Prop_Audio_03
 70320134:SceneObj_Area_Common_Property_Prop_CharAmusementAirWall_06
 70320135:SceneObj_Area_Common_Property_Prop_CharAmusementAirWall_07
+70320136:SceneObj_Area_Common_Property_Prop_CharAmusementAirWall_08
+70320137:SceneObj_Area_Common_Property_Prop_CharAmusementAirWall_09
+70330002:炼金炉领奖台
 70330003:炼金火 小
 70330004:要打的搬运元素之火-搬运元素之火
 70330011:雷元素场
@@ -5211,9 +6026,80 @@
 70330762:SceneObj_Area_Fd_Property_Ani_Prop_PubBGMGadget
 70330766:SceneObj_Area_Fd_Property_Ani_Prop_HydroDetector_04
 70330767:SceneObj_Area_Fd_Property_Ani_Prop_GearSoundGadget
+70330768:进入
 70330769:SceneObj_Area_Ljxs_Property_Ani_Prop_OreDulinsBlood_01_FD
 70330770:SceneObj_Area_Cyjy_Property_Prop_AbyssCoreLvOne_01_FD
 70330771:SceneObj_Area_Cyjy_Property_Prop_AbyssEnergyNozzle_01_FD
+70330773:SceneObj_Area_Fd_Property_Ani_Prop_TheatreCrowd_01
+70331001:SceneObj_Activity_Common_Property_Ani_Prop_Snipper_01
+70331003:SceneObj_Level_Fd_Property_Ani_Prop_FilmfestSniper_BombBox_01
+70331004:SceneObj_Level_Fd_Property_Ani_Prop_FilmfestSniper_Blindage_01
+70331006:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestBallGame_01
+70331007:[N/A] 1582640126
+70331008:[N/A] 2448004950
+70331010:[N/A] 793912406
+70331011:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestBallGameCam_01
+70331012:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestBallGame_01
+70331013:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestBallGame_01
+70331014:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestSniperCamera_01
+70331015:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestSniperCamera_02
+70331016:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestSniperCamera_03
+70331017:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestSniperCamera_04
+70331023:SceneObj_Area_Fd_Property_Ani_Prop_Indicator_01
+70331024:SceneObj_Area_Fd_Property_Ani_Prop_SeelieEnergyBall_Fontaine_01
+70331025:SceneObj_Area_Fd_Property_Ani_Prop_SeelieEnergyShard_Fontaine_01
+70331026:SceneObj_Area_Fd_Property_Ani_Prop_SeelieEnergyShard_Fontaine_Generator_01
+70331027:SceneObj_Area_Fd_Property_Ani_Prop_SeelieEnergyShard_Fontaine_OnGround_01
+70331030:SceneObj_Area_Fd_Property_Prop_SeelieDigPointRing_Fontaine_01
+70331032:SceneObj_Level_Fd_Property_Ani_Prop_FilmfestSniper_Blindage_01
+70331034:[N/A] 1636597190
+70331035:[N/A] 1772716926
+70331036:[N/A] 2189004718
+70331037:SceneObj_Area_Fd_Property_Prop_TreasureSeekingSeelieTask_Fontaine_01
+70331040:SceneObj_Area_Dq_Property_Prop_ElectroherculesBattlefield_01
+70331041:[N/A] 3515711166
+70331042:SceneObj_Level_Common_Property_Ani_Light_GoalFollowSpot_01
+70331043:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestQQTarget_01
+70331044:SceneObj_Level_Activity_FilmfestShooting_GuidePoint_01
+70331045:SceneObj_Level_Activity_FilmfestShooting_GuidePoint_02
+70331046:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestBallGame_01
+70331047:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestBallGame_01
+70331048:[N/A] 4215298046
+70331049:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestWoodenObject_01
+70331050:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestBallGameIndicator_01
+70331054:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestSniperCamera_05
+70331151:SceneObj_Level_Fd_Property_Ani_Prop_FilmfestSniper_GateForbidArea_01
+70331152:[N/A] 2778848702
+70331153:SceneObj_Gear_Common_Property_Prop_JumpUp_03
+70331154:[N/A] 2771604526
+70331155:SceneObj_Activity_Common_Property_Ani_Prop_FilmFestBallGameCam_02
+70331156:SceneObj_Level_Activity_FilmfestShooting_GuidePoint_03
+70331157:SceneObj_Level_Activity_FilmfestBattle_GuidePoint_01
+70331158:SceneObj_Area_Common_Property_Prop_QTEAirWall_01
+70331160:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_Cannon_01
+70331161:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_KillAllBall_01
+70331162:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_ShootBall_01
+70331163:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_TransfuseCircle_01
+70331164:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_KillCircle_01
+70331165:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_KillLine_01
+70331167:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_Bullet_01
+70331168:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_Bullet_02
+70331169:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_Bullet_03
+70331170:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_Bullet_04
+70331171:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_Bullet_05
+70331172:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_Bullet_06
+70331173:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_Bullet_07
+70331174:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_Bullet_08
+70331175:[N/A] 573373054
+70331176:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_KillCircle_02
+70331177:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_KillAllBall_05
+70331178:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_PartController_01
+70331179:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_KillField_01
+70331180:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_FollowPet_01
+70331181:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_KillAllBall_02
+70331182:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_KillAllBall_03
+70331183:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_KillAllBall_04
+70331260:[N/A] 3661427382
 70350015:地城雾控制器
 70350017:冰墙-冰墙大
 70350018:冰墙-冰墙小
@@ -5545,6 +6431,7 @@
 70350499:SceneObj_Area_Xm_Property_Ani_Prop_ElecTrailBulletGen_02
 70350500:Activity_Gadget_AkaFesPotion_Fire_Debuff_Driver
 70350501:SceneObj_Area_Xm_Property_Ani_Prop_FloatFarr_02
+70350512:SceneObj_Level_Common_Property_Ani_Bridge_LyFloatingBridge_01
 70360011:膨膨果终点-气球终点(1.1markflag版本）
 70360012:膨膨果终点2-气球终点
 70360013:膨膨果终点3-气球终点
@@ -5738,6 +6625,7 @@
 70360406:归位
 70360407:装载
 70360408:放置
+70360409:提交
 70370001:大陨石playentity-大陨石playentity 简单
 70370002:大陨石playentity-大陨石playentity 普通
 70370003:大陨石playentity-大陨石playentity 困难
@@ -5918,6 +6806,7 @@
 70390171:SceneObj_Gear_TowerDefenceV2_FireMissileCreator_UGC
 70400001:璃月千米特效
 70400002:璃月船加载器
+70400004:[N/A] 1330530510
 70500003:制作料理-随身烹饪锅
 70500004:随身锚点
 70500006:岩神瞳探测器-岩神瞳探测器 成功
@@ -5967,6 +6856,7 @@
 70500057:SceneObj_Toys_SeekerTreasureBox_FD
 70500058:SceneObj_Toys_SeekerWaterCrystal_Fail
 70500059:SceneObj_Area_Common_Property_Ani_Prop_WispCage_02
+70500060:SceneObj_Area_Fd_Property_Ani_Prop_RandNumIndicator_01
 70520032:珊瑚真珠底座
 70520036:天云草实底座
 70590011:摩拉
@@ -5998,6 +6888,7 @@
 70590068:梦形 鸦-动物仙灵
 70590069:梦形 雀-动物仙灵
 70590075:SceneObj_Gather_WaterCrystal_Fly_Gather
+70590085:SceneObj_Gather_CygMemories_Fly_Gather
 70600001:璀璨原钻碎屑
 70600002:璀璨原钻断片
 70600003:璀璨原钻块
@@ -6051,6 +6942,7 @@
 70700018:丽莎线—丽莎技能感电特效
 70710001:性能优化机关
 70710007:仙灵脚印
+70710008:拾取-任务用拾取点（采集物逻辑）
 70710011:肥美的蘑菇-肥美的蘑菇（香菱线废弃）
 70710012:新鲜的胡萝卜-新鲜的胡萝卜（香菱线废弃）
 70710013:饱满的卷心菜-饱满的卷心菜（香菱线废弃）
@@ -6066,6 +6958,9 @@
 70710037:酒杯-用于调查的酒杯（模型）
 70710038:乱石堆-可莉埋宝坑乱石堆
 70710039:木牌-可莉埋宝坑木牌
+70710045:（test）赌石的石头（差）-（test）赌石的石头低奖励
+70710046:（test）赌石的石头（中）-（test）赌石的石头中奖励
+70710047:（test）赌石的石头（好）-（test）赌石的石头高奖励
 70710051:视觉解谜石头1-璃月主线用石头
 70710052:视觉解谜石头2-璃月主线用石头
 70710053:视觉解谜石头3-璃月主线用石头
@@ -6129,6 +7024,7 @@
 70710146:璃月_送仙仪式_橱柜上的风筝-璃月送仙仪式氛围物件
 70710147:璃月_送仙仪式_地毯-璃月送仙仪式氛围物件
 70710150:七七脚印-温迪脚印
+70710152:饱满的日落果-或许是受到特殊的生长环境的影响，这种日落果看上去更加饱满一些，但除此之外并没有发现其他的特殊之处。
 70710153:璃月小告示牌
 70710154:被风吹走的告示牌
 70710155:琉璃亭中式餐具
@@ -6153,6 +7049,7 @@
 70710192:黄金屋地板（空气墙）
 70710193:入口迷雾_公子线入口-公子线地城迷雾（已废弃，并未在游戏中使用）
 70710194:七七脚印-七七线冰元素脚印
+70710196:看起来很普通的甜甜花-(test)陨石轻量活动任务的采集物
 70710205:陨石核心
 70710206:黄金屋地板（破碎）
 70710210:放置信件-盗宝团的放置信件地点
@@ -6163,6 +7060,7 @@
 70710228:水青色瓷玉瓶-凝光室内装饰_水青色瓷玉瓶
 70710233:（test）花卉盒子-鲜花盒子
 70710242:射击点-魈任务射击点
+70710243:调查-双子线预热任务调查点
 70710244:调查-双子线预热任务调查点（特效）
 70710248:（test）观察蒲公英-双子线预热任务蒲公英
 70710249:（test）遗迹怪脚印-双子线任务遗迹守卫脚印
@@ -6835,6 +7733,12 @@
 70711198:[N/A] 706438024
 70711199:[N/A] 503807048
 70711200:[N/A] 2342309280
+70711201:[N/A] 4075240728
+70711202:[N/A] 2255775224
+70711203:[N/A] 2488404336
+70711204:[N/A] 3691194824
+70711205:[N/A] 624640928
+70711206:[N/A] 2299648296
 70711207:[N/A] 670824576
 70711208:[N/A] 1244217480
 70711209:[N/A] 2429581224
@@ -6846,10 +7750,282 @@
 70711215:SceneObj_Area_Fd_Property_Ani_Prop_FontaineBox_03
 70711216:[N/A] 2026626880
 70711217:[N/A] 1450678552
+70711218:「关于莱欧斯利…」
+70711219:「关于刺玫会…」
 70711220:SceneObj_Indoor_Fd_Property_Ani_Prop_CouncilDoor_02
+70711221:[N/A] 3952190680
+70711222:[N/A] 871898472
+70711223:[N/A] 3066482152
 70711224:[N/A] 901189272
 70711225:[N/A] 1976521848
+70711226:[N/A] 245682720
+70711227:[N/A] 1479894296
+70711228:[N/A] 3778991504
+70711229:[N/A] 75603296
+70711230:[N/A] 1622373088
+70711231:[N/A] 954628304
+70711232:[N/A] 3046872072
+70711233:[N/A] 370348832
+70711234:[N/A] 1352317128
+70711235:[N/A] 3183639136
+70711236:[N/A] 2934555568
+70711237:[N/A] 773626616
+70711238:[N/A] 2675117192
+70711239:[N/A] 1932420352
+70711240:[N/A] 274956152
+70711241:[N/A] 835562472
+70711242:[N/A] 1072106688
+70711243:[N/A] 2202918648
+70711244:[N/A] 766687144
+70711245:[N/A] 3315078488
+70711246:[N/A] 265777936
+70711247:[N/A] 3061116528
+70711248:[N/A] 2130724296
+70711249:[N/A] 3731729216
+70711250:[N/A] 3055916952
+70711251:[N/A] 3563399792
+70711252:SceneObj_Event_Stain_NoticeGroup
 70711253:SceneObj_Area_Ly_Property_Prop_EntryMistUnderSea_01
+70711254:[N/A] 2720988792
+70711255:[N/A] 923585304
+70711256:[N/A] 1690208344
+70711257:[N/A] 138096928
+70711258:[N/A] 2101359840
+70711259:[N/A] 1114241632
+70711260:[N/A] 2210360744
+70711261:SceneObj_Indoor_Fd_Property_Ani_Prop_JusticeMachineBalanceMirror_01
+70711262:SceneObj_Indoor_Fd_Property_Ani_Prop_JusticeMachineBalanceMirror_02
+70711263:SceneObj_Indoor_Fd_Property_Ani_Prop_JusticeMachineBalanceMirror_01
+70711264:[N/A] 2308678232
+70711265:[N/A] 2718290760
+70711266:[N/A] 275282472
+70711267:[N/A] 3938200584
+70711268:[N/A] 1926584744
+70711269:[N/A] 3521680304
+70711270:[N/A] 4162761544
+70711271:[N/A] 1614283888
+70711272:[N/A] 1825703952
+70711273:[N/A] 2039083776
+70711274:[N/A] 1981863224
+70711275:[N/A] 82807048
+70711276:[N/A] 1362195776
+70711277:[N/A] 2158511752
+70711278:「关于走私案…」
+70711279:「关于受贿事件…」
+70711280:「关于代议会的提案…」
+70711282:[N/A] 2039836536
+70711283:[N/A] 1253742856
+70711284:[N/A] 3399083464
+70711285:[N/A] 3123994136
+70711286:[N/A] 1351227576
+70711287:[N/A] 2744333464
+70711288:[N/A] 3515108232
+70711289:[N/A] 2032470296
+70711290:[N/A] 2870365824
+70711291:[N/A] 4084497312
+70711292:[N/A] 566252656
+70711293:[N/A] 1094136112
+70711294:[N/A] 453740224
+70711295:[N/A] 3289654968
+70711296:[N/A] 2180848904
+70711297:[N/A] 1620045944
+70711298:[N/A] 3504142200
+70711299:[N/A] 2089754632
+70711300:[N/A] 1926733824
+70711301:[N/A] 3471638168
+70711302:[N/A] 282772512
+70711303:[N/A] 2996788200
+70711304:[N/A] 577089984
+70711305:[N/A] 710959952
+70711306:[N/A] 3645838480
+70711307:[N/A] 2895109992
+70711308:SceneObj_Eff_Quest_StainnoInter_01
+70711309:SceneObj_Indoor_Fd_Property_Ani_Prop_PoissonHouse_01
+70711310:[N/A] 249915024
+70711311:SceneObj_Area_Fd_Property_Ani_Prop_PubBGMGadget
+70711312:查看
+70711313:[N/A] 3442905344
+70711314:[N/A] 3521456256
+70711315:[N/A] 640165176
+70711316:[N/A] 2838395024
+70711317:[N/A] 1122622264
+70711318:[N/A] 748692640
+70711323:[N/A] 1297353216
+70711324:[N/A] 1026248696
+70711325:[N/A] 3261334960
+70711326:[N/A] 3760682312
+70711327:[N/A] 219480576
+70711328:SceneObj_Quest_Interact_Point_01_NoInteractionIgnoreDist
+70711329:[N/A] 451652704
+70711330:[N/A] 1412351200
+70711331:[N/A] 1012956736
+70711332:SceneObj_Quest_Phonograph_Music_01
+70711333:[N/A] 243486520
+70711334:[N/A] 3450696840
+70711335:SceneObj_Area_Fd_Property_Ani_Prop_NVFamilyDesign_01
+70711336:[N/A] 1148699936
+70711337:[N/A] 1060822520
+70711338:[N/A] 2794629712
+70711339:SceneObj_Eff_SceneObj_StageSpotLight_01
+70711340:SceneObj_Area_Fd_Property_Ani_Prop_PoissonAirwall_01
+70711341:被揉皱的账单
+70711342:破碎的纸条
+70711343:被丢弃的账单
+70711344:污损的新闻剪报
+70711348:[N/A] 2115058496
+70711349:[N/A] 2460801344
+70711351:[N/A] 166400384
+70711352:[N/A] 2914525512
+70711353:SceneObj_Eff_SceneObj_StageSpotLight_02
+70711354:SceneObj_Area_Fd_Property_Ani_Prop_Twins2_AirWall_01
+70711355:[N/A] 2252046440
+70711356:SceneObj_Eff_Monster_Ptahur_Devourer_DimensionGate_01
+70711357:[N/A] 3215090680
+70711358:SceneObj_Area_Fd_Property_Ani_Prop_OPBoomController_01
+70711359:SceneObj_Area_Fd_Property_Ani_Prop_OPBoomController_02
+70711360:[N/A] 2996612688
+70711361:[N/A] 2725718280
+70711362:[N/A] 512593552
+70711363:[N/A] 411531080
+70711364:[N/A] 3717093072
+70711365:[N/A] 1741893048
+70711366:[N/A] 531672384
+70711367:[N/A] 3505951400
+70711368:[N/A] 1775851248
+70711369:[N/A] 4151408464
+70711370:[N/A] 3526746368
+70711371:[N/A] 3736651464
+70711372:[N/A] 1064112016
+70711373:[N/A] 1050946200
+70711374:[N/A] 3114835080
+70711375:[N/A] 1523163336
+70711376:[N/A] 8154152
+70711377:[N/A] 3516667224
+70711378:[N/A] 652308360
+70711379:[N/A] 3335620272
+70711380:[N/A] 2110871448
+70711381:[N/A] 3638196960
+70711382:[N/A] 3227106360
+70711383:[N/A] 1152856568
+70711384:SceneObj_Area_Fd_Property_Ani_Prop_FilmFesSlate_01
+70711385:SceneObj_Area_Fd_Property_Ani_Prop_FilmFesSlate_01
+70711386:[N/A] 2085127016
+70711387:[N/A] 2154526080
+70711388:[N/A] 3522833208
+70711389:[N/A] 4182504136
+70711390:[N/A] 3871660848
+70711391:[N/A] 307839576
+70711392:[N/A] 4233393400
+70711393:[N/A] 2795498920
+70711394:[N/A] 837483960
+70711395:[N/A] 126061448
+70711396:[N/A] 3585990384
+70711397:[N/A] 4203249856
+70711398:操作
+70711399:[N/A] 2663887992
+70711400:[N/A] 2066160656
+70711401:[N/A] 2100172816
+70711402:[N/A] 2632847856
+70711403:[N/A] 2359271256
+70711405:[N/A] 1119152744
+70711406:[N/A] 1328696680
+70711407:[N/A] 535270056
+70711408:[N/A] 4234390280
+70711409:[N/A] 3181728560
+70711410:[N/A] 3630771240
+70711411:[N/A] 287188904
+70711412:[N/A] 3476475296
+70711413:[N/A] 2780900984
+70711414:[N/A] 3153987800
+70711415:SceneObj_Area_Common_Property_Prop_ContestAirwall_01
+70711416:[N/A] 3001172992
+70711417:[N/A] 3524469032
+70711418:[N/A] 3624810304
+70711419:[N/A] 3249718872
+70711420:[N/A] 3863562016
+70711421:[N/A] 3686552688
+70711422:SceneObj_Area_Ly_Property_Ani_Prop_TheDreamMachine_01
+70711423:[N/A] 4057451464
+70711424:[N/A] 1594978528
+70711425:[N/A] 1270846184
+70711426:[N/A] 3458324232
+70711427:[N/A] 2628012536
+70711428:[N/A] 3115201976
+70711429:[N/A] 4128835720
+70711430:[N/A] 4041874888
+70711431:[N/A] 1194862520
+70711432:[N/A] 1711202480
+70711433:[N/A] 1195638168
+70711434:残破的笔记
+70711435:谁人的笔记
+70711436:关于驮兽的说明
+70711437:货仓通知
+70711438:谁人的笔记
+70711439:谁人的笔记
+70711440:[N/A] 133068344
+70711441:[N/A] 1665501384
+70711442:[N/A] 4175220848
+70711443:[N/A] 2330713248
+70711444:[N/A] 3788311568
+70711445:[N/A] 2430966752
+70711446:[N/A] 3076172296
+70711447:[N/A] 880860184
+70711448:[N/A] 1572132408
+70711449:[N/A] 2021910696
+70711450:[N/A] 3280834000
+70711451:[N/A] 1628235736
+70711452:[N/A] 2234996216
+70711453:[N/A] 719457816
+70711454:[N/A] 1230118528
+70711455:[N/A] 1148673560
+70711456:SceneObj_Area_Ly_Property_Ani_Prop_PavilionKite_01
+70711457:[N/A] 1112846960
+70711458:SceneObj_Area_Fd_Property_Ani_Prop_FilmFesSlate_01
+70711459:SceneObj_Area_Fd_Property_Ani_Prop_FilmFesSlate_01
+70711460:SceneObj_Area_Fd_Property_Ani_Prop_FilmFesSlate_01
+70711461:[N/A] 1906855632
+70711463:[N/A] 1308541152
+70711464:SceneObj_Area_Fd_Property_Ani_Prop_FilmFesSlate_01
+70711465:[N/A] 2497923056
+70711466:(test)古华遗剑
+70711467:(test)古华遗剑
+70711468:(test)古华遗剑
+70711469:(test)古华遗剑
+70711470:(test)古华遗剑
+70711472:[N/A] 1771707064
+70711473:[N/A] 931368768
+70711474:[N/A] 3977061296
+70711475:[N/A] 1118192056
+70711476:SceneObj_Area_Common_Property_Ani_Prop_LanternRite_Light_01
+70711477:[N/A] 3130058872
+70711478:[N/A] 3697458456
+70711479:[N/A] 1945922272
+70711480:[N/A] 2547326280
+70711481:[N/A] 1887041648
+70711482:风化模糊的铭文
+70711483:[N/A] 3405807976
+70711484:[N/A] 3962664056
+70711485:[N/A] 4271433600
+70711486:[N/A] 1375146496
+70711487:[N/A] 1269661552
+70711488:[N/A] 3937815624
+70711489:[N/A] 2887192288
+70711490:[N/A] 2677515184
+70711491:调查
+70711492:[N/A] 3841880192
+70711493:[N/A] 1299849008
+70711494:[N/A] 1130721848
+70711495:[N/A] 2735899096
+70711496:[N/A] 454832160
+70711501:[N/A] 245820744
+70711507:[N/A] 3323283392
+70711510:[N/A] 2767925080
+70711511:SceneObj_Quest_Interact_Point_01_NoInteractionIgnoreDist_UW
+70711515:[N/A] 2847003216
+70711516:[N/A] 1955076408
+70711517:[N/A] 2273211672
+70711518:[N/A] 2253302248
+70711519:[N/A] 2953437496
 70720216:火仙灵脚印-仙灵脚印
 70720219:发光仙灵脚印
 70800002:MsgBoard
@@ -7279,7 +8455,51 @@
 70800810:SceneObj_FungusFighterV2_ExtraEnergyBall
 70800811:SceneObj_Level_Common_Property_Ani_Prop_MuqadasPotionV2_01
 70800812:[N/A] 2866214838
+70800813:SceneObj_Area_Fd_Property_Ani_Prop_LucineImage_01
+70800900:SceneObj_Indoor_Fd_Property_Ani_Prop_JusticeMachineBalanceV2_01
+70800901:SceneObj_Level_Fd_Property_Ani_Prop_RainbowPrince_01
+70800902:SceneObj_Area_Fd_Property_Ani_Build_RainbowPrinceCamp_02
+70800903:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Coin_01
+70800905:SceneObj_Area_Common_Property_Ani_Prop_MistTrialV4Operator_01
+70800906:SceneObj_Area_Common_Property_Ani_Prop_MistTrialV4Floor_01
+70800908:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Coin_01
+70800909:SceneObj_Gear_ElementDungeon_Operator_NoBase_V4_2_Activity
+70800910:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Coin_01
+70800911:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Coin_01
+70800912:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Coin_01
+70800913:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Coin_01
 70800914:SceneObj_Area_Fd_Property_Ani_Prop_SealHorn_Activity
+70800915:主板调试
+70800916:主板调试
+70800917:SceneObj_Level_Fd_Property_Ani_Prop_RainbowPrince_Dungeon_01
+70800918:SceneObj_Level_Fd_Property_Ani_Prop_RainbowPrince_Dungeon_02
+70800919:SceneObj_Level_Fd_Property_Ani_Prop_RainbowPrince_Dungeon_03
+70800920:SceneObj_Level_Fd_Property_Ani_Prop_RainbowPrince_Dungeon_04
+70800921:SceneObj_Level_Fd_Property_Ani_Prop_RainbowPrince_Dungeon_05
+70800922:SceneObj_Level_Fd_Property_Ani_Prop_RainbowPrince_Dungeon_06
+70800923:SceneObj_Level_Fd_Property_Ani_Prop_RainbowPrince_Dungeon_07
+70800925:SceneObj_Level_Fd_Property_Ani_Prop_RainbowPrince_RainbowPrinceCamp_01
+70800926:[N/A] 2309657254
+70800927:SceneObj_Level_Fd_Property_Ani_Prop_FungiV3_CampDesk_01
+70800929:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_RuinFloor_01
+70800930:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_Trans_Trigger_01
+70800932:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_FdShakyStair_01_02
+70800934:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_FdShakyStair_02_02
+70800936:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_FdShakyStair_02_03
+70800939:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_Rock_01
+70800940:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_Gate_01
+70800941:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_CameraController_01
+70800942:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_Woodenframe_01
+70800943:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_Woodenframe_02
+70800944:SceneObj_Level_Fd_Property_Ani_Prop_MushRoomV3Desk_01
+70800945:SceneObj_Area_Fd_Property_Ani_Prop_QueenMirror_01
+70800946:SceneObj_Stages_Property_Ani_Prop_Damocles_01
+70800947:SceneObj_Indoor_Fd_Property_Ani_Prop_Basin_01
+70800949:SceneObj_Area_Fd_Property_Ani_Light_StudioLED_01
+70800950:SceneObj_Area_Fd_Property_Ani_Broken_Mirror_CameraEff_01
+70800952:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Coin_01
+70800953:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Coin_01
+70800999:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Coin_01
 70900002:trigger中心点-正式版不可见，暂时可见测试
 70900003:调查线索-封印线索
 70900023:尖刺墙壁01-尖刺墙壁1块
@@ -7300,6 +8520,7 @@
 70900205:地城地板测试-纯粹用来堵地面
 70900216:可破坏地板
 70900220:温暖区域
+70900232:电源有时限-电源
 70900233:烈焰花树-烈焰花元素版
 70900236:含羞草
 70900238:元素方块
@@ -7423,6 +8644,141 @@
 70900440:SceneObj_MudAbyss_Miasm_WB_01
 70900441:SceneObj_MudAbyss_RocketJump_WB_01
 70900443:异化草原核
+70900500:SceneObj_Area_Common_Property_Ani_WaterWheel_01
+70900502:SceneObj_Area_Common_Property_Ani_WheelDriveDoor_01
+70900503:SceneObj_Area_Common_Property_Ani_WheelDriveGear_01
+70900504:SceneObj_Area_Common_Property_Ani_WheelDriveGear_01
+70900505:SceneObj_Area_Common_Property_Ani_WaterWheel_Base_01
+70900506:SceneObj_Area_Common_Property_Ani_WaterWheel_01
+70900507:SceneObj_Area_Common_Property_Ani_WaterWheel_Pullback_01
+70900508:SceneObj_Area_Common_Property_Ani_WaterWheel_Adjust_01
+70900509:SceneObj_Area_Common_Property_Ani_WaterWheel_01
+70900510:SceneObj_Area_Common_Property_Ani_WaterWheel_01
+70900511:SceneObj_Area_Common_Property_Ani_WaterWheel_01
+70900512:SceneObj_Area_Common_Property_Ani_WaterWheel_01
+70900513:SceneObj_Area_Common_Property_Ani_WheelDriveForkedLaser_01
+70900514:SceneObj_Area_Common_Property_Ani_WheelDriveWaterDiversion_01
+70900520:SceneObj_Area_Common_Property_Ani_WaterBubble_2D_01
+70900521:SceneObj_Area_Common_Property_Ani_WaterBubble_3D_01
+70900522:SceneObj_Area_Common_Property_Ani_WaterBubble_Big_01
+70900523:SceneObj_Area_Common_Property_Ani_BubbleGenerator_01
+70900524:SceneObj_Area_Common_Property_Ani_Common_Base_01
+70900525:SceneObj_Area_Common_Property_Ani_Golf_2D_01
+70900526:SceneObj_Area_Common_Property_Ani_Golf_3D_01
+70900529:SceneObj_Area_Common_Property_Ani_GolfBase_01
+70900535:SceneObj_Area_Common_Property_Ani_FoulCarpet_01
+70900536:SceneObj_Area_Common_Property_Ani_WaterWheel_WindmillWheel_01
+70900537:SceneObj_Area_Common_Property_Ani_WaterWheel_WindmillWheel_01
+70900540:SceneObj_Area_Common_Property_Ani_SealTowerWaterway_01
+70900541:SceneObj_Area_Common_Property_Ani_SealTowerWaterway_02
+70900542:SceneObj_Area_Common_Property_Ani_RotateWaterway_01
+70900552:SceneObj_Area_Common_Property_Ani_SealedTower_Worktop_01
+70900553:SceneObj_Area_Common_Property_Ani_SealedTower_LaserReceiver_Point_01
+70900554:SceneObj_Area_Common_Property_Ani_SealedTower_LaserReceiver_Point_02
+70900555:SceneObj_Area_Common_Property_Ani_SealedTower_LaserReceiver_Point_03
+70900556:SceneObj_Area_Common_Property_Ani_SealedTower_LaserReceiver_Line_01
+70900557:SceneObj_Area_Common_Property_Ani_SealedTower_LaserReceiver_Line_02
+70900558:SceneObj_Area_Common_Property_Ani_SealedTower_LaserReceiver_Line_03
+70900559:SceneObj_Area_Common_Property_Ani_SealedTower_LaserReceiver_Line_Point_01
+70900560:SceneObj_Area_Common_Property_Ani_SealedTower_LaserReceiver_Line_Point_02
+70900561:SceneObj_Area_Common_Property_Ani_SealedTower_LaserReceiver_Line_Point_03
+70900562:SceneObj_Area_Fd_Property_Ani_Prop_DirtCover_01
+70900563:SceneObj_Area_Fd_Property_Ani_Prop_DirtCover_02
+70900564:SceneObj_Property_Ani_Stone_Dudong_01
+70900565:SceneObj_Property_Ani_Stone_Dudong_02
+70900566:SceneObj_Property_Ani_Stone_Dudong_01
+70900567:SceneObj_Property_Ani_Stone_Dudong_02
+70900570:SceneObj_Area_Common_Property_Ani_MovingPillar_Static_01
+70900571:SceneObj_Area_Common_Property_Ani_MovingPillar_Basic_01
+70900572:SceneObj_Area_Common_Property_Ani_MovingPillar_ThroughWall_01
+70900573:SceneObj_Area_Common_Property_Ani_MovingPillar_EmptyBase_01
+70900574:SceneObj_Area_Common_Property_Ani_MovingPillar_PullbackBase_01
+70900575:SceneObj_Area_Common_Property_Ani_MovingPillar_AdjustBase_01
+70900576:SceneObj_Area_Common_Property_Ani_UniversalReceiver_01
+70900577:SceneObj_Area_Common_Property_Ani_ConcaveLens_01
+70900578:SceneObj_Area_Common_Property_Ani_ConvexLens_01
+70900579:SceneObj_Area_Common_Property_Ani_LaserAdapter_01
+70900581:SceneObj_Area_Common_Property_Ani_MovingPillar_PullbackBase_01
+70900582:SceneObj_Area_Common_Property_Ani_MovingPillar_AdjustBase_01
+70900583:SceneObj_Area_Common_Property_Ani_WaterWheel_WindmillWheel_03
+70900584:SceneObj_Area_Common_Property_Ani_WaterWheel_WindmillWheel_03
+70900590:SceneObj_Area_Common_Property_Ani_WheelAlignTarget_01
+70900591:SceneObj_Area_Common_Property_Ani_PointerWheel_01
+70900592:SceneObj_Area_Common_Property_Ani_FDBigShell_01
+70900593:SceneObj_Area_Common_Property_Ani_FDBigShell_02
+70900594:SceneObj_Area_Common_Property_Ani_PointerWheel_Shooter_01
+70900600:SceneObj_Area_Common_Property_Ani_WaveConch_01
+70900601:SceneObj_Area_Common_Property_Ani_WaveConch_Controller_01
+70900602:SceneObj_Area_Common_Property_Ani_WaterBubble_Big_01
+70900606:SceneObj_Area_Common_Property_Ani_WaveConch_02
+70900607:SceneObj_Area_Common_Property_Ani_BubbleGenerator_01
+70900610:SceneObj_Area_Common_Property_Ani_SliderRail_01
+70900611:SceneObj_Area_Common_Property_Ani_Slider_01
+70900612:SceneObj_Area_Common_Property_Ani_SliderBase_01
+70900613:SceneObj_Area_Common_Property_Ani_SliderObstacle_01
+70900614:SceneObj_Area_Common_Property_Ani_LaserSlider_01
+70900615:SceneObj_Area_Common_Property_Ani_Prop_PitchPotNormalpot_01
+70900617:SceneObj_Area_Common_Property_Ani_Prop_PitchPotChainpot_01
+70900618:SceneObj_Area_Common_Property_Ani_Prop_PitchPotBoompot_01
+70900619:SceneObj_Area_Common_Property_Ani_Prop_PitchPotPredictablepot_01
+70900620:SceneObj_Area_Common_Property_Ani_Prop_PitchPotScoreRing_01
+70900621:SceneObj_Area_Common_Property_Ani_Prop_PitchPotBoard_01
+70900622:SceneObj_Area_Common_Property_Ani_Prop_PitchPotAirwall_01
+70900623:SceneObj_Area_Common_Property_Ani_Prop_PitchPotNormalpot_03
+70900627:SceneObj_Level_WhiteBox_Property_Prop_JarsNormalMoveable_02
+70900628:[N/A] 695116734
+70900629:[N/A] 1917331918
+70900630:[N/A] 3254323590
+70900631:SceneObj_Area_Fd_Property_Ani_Prop_LuminousBoostRing_01
+70900632:SceneObj_Area_Fd_Property_Ani_Prop_LuminousJellyfish_02
+70900633:SceneObj_Area_Fd_Property_Ani_Prop_LuminousJellyfish_01
+70900635:SceneObj_Area_Common_Property_Ani_Prop_Leaves_01
+70900636:[N/A] 3597842614
+70900637:SceneObj_Area_Fd_Property_Ani_Prop_LuminousMark_01
+70900638:SceneObj_Area_Common_Property_Ani_Prop_PitchPotHugepotMark_01
+70900639:SceneObj_Area_Common_Property_Prop_QTEAirWall_01
+70900700:SceneObj_Area_Common_Property_Ani_V4_2WQWindArea_01
+70900710:SceneObj_Area_Common_Property_Ani_SliderRail_01
+70900711:SceneObj_Area_Common_Property_Ani_SliderRail_01
+70900712:SceneObj_Area_Common_Property_Ani_LaserSlider_Refractor_01
+70900713:SceneObj_Area_Fd_BWLJ_Pqc_WaterPolo_01
+70900714:SceneObj_Area_Fd_BWLJ_Pqc_WaterPolo_02
+70900715:SceneObj_Area_Fd_BWLJ_Pqc_WaterPolo_03
+70900716:SceneObj_Level_Stage_Ptahur_TSKJ
+70900720:SceneObj_Area_Fd_Property_Ani_Prop_Mantra_01
+70900721:SceneObj_Area_Fd_Property_Ani_Prop_Mantra_01
+70900722:SceneObj_Area_Fd_Property_Ani_Prop_Mantra_01
+70900723:SceneObj_Area_Fd_Property_Ani_Prop_RotateCannon_01
+70900724:SceneObj_Area_Fd_Property_Ani_Prop_IronCage_01
+70900725:SceneObj_Area_Fd_Property_Ani_Prop_HydroDetector_FollowMove_01
+70900726:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaSpout_03
+70900727:SceneObj_Area_Fd_Property_Ani_Prop_FYTRay_01
+70900730:SceneObj_Area_Common_Property_Ani_WaterWheel_Pullback_01
+70900731:SceneObj_Area_Common_Property_Ani_WaterWheel_Adjust_01
+70900732:SceneObj_Area_Common_Property_Ani_PointerWheel_01
+70900733:SceneObj_Area_Common_Property_Ani_FeedingBowl_01
+70900734:SceneObj_Area_Fd_Property_Ani_Prop_SeaProof9M19M_01
+70900735:SceneObj_Area_Fd_Property_Ani_Prop_BubbleDetector_01
+70900736:SceneObj_Area_Fd_Property_Ani_Prop_HitDetector_01
+70900737:SceneObj_Area_Common_Property_Ani_HiddenConcaveLens_01
+70900738:SceneObj_Area_Common_Property_Ani_HiddenConvexLens_01
+70900739:SceneObj_Area_Fd_Property_Ani_Ajar_SciTowerBarrier_02
+70900740:SceneObj_Area_Fd_Property_Ani_Prop_FYD_TrackEnd_01
+70900741:SceneObj_Area_Common_Property_Ani_FenceGate_WaterWheel_01
+70900742:SceneObj_Area_Common_Property_Ani_FenceGate_WaterWheel_02
+70900743:SceneObj_Area_Common_Property_Ani_FenceGate_WaterWheel_03
+70900744:SceneObj_Area_Common_Property_Ani_V4_2ColorGradingVolume_01
+70900745:SceneObj_Area_Fd_Property_Ani_Prop_FYTFenchGate_01
+70900746:SceneObj_Area_Fd_Property_Ani_Prop_GolfDestroyField_01
+70900747:[N/A] 2207383302
+70900749:[N/A] 1134983070
+70900750:[N/A] 2828693374
+70900751:SceneObj_Gear_Platform_WaterPlatform_Static
+70900753:[N/A] 1333284590
+70900754:SceneObj_Level_Decal_Ptahur_TSKJ
+70900756:SceneObj_Area_Common_Property_Ani_UWEntrance_01
+70900757:SceneObj_Area_Common_Property_Ani_V4_4ColorGradingVolumeFaster_01
+70900800:SceneObj_Area_Common_Property_Ani_V4_2WQWindArea_01
 70950006:测试光锁光柱
 70950007:测试光锁逻辑体
 70950009:测试特效圈
@@ -7548,7 +8904,15 @@
 70950197:[N/A] 101951598
 70950198:SceneObj_Gather_Fake_Ticket_Box_3_8
 70950199:[N/A] 417319814
+70950200:阅读
+70950201:安装
+70950202:安装
+70950203:安装
 70950204:[N/A] 1203099334
+70950205:放入胚料
+70950206:开启
+70950207:解锁
+70950208:组装
 71000004:岩琥珀
 71000005:射击点-射击点状态1
 71000006:射击点-射击点状态2
@@ -7569,6 +8933,7 @@
 71700225:(test)寻人启事-绀田村找儿子线
 71700226:(test)人类货物堆-(test)人类货物堆 纯场景氛围物件
 71700287:附有记忆的面具-狐仙面具
+71700289:锈蚀的钥匙
 71700320:无主神之眼-无主神之眼-无浮动动画
 71700321:货运热气球-没有json版本
 71700322:（test）烟花爆炸特效-任务用天气落雷特效
@@ -7855,7 +9220,42 @@
 71700698:SceneObj_Area_Fd_Property_Ani_Build_Perpetuum_01
 71700699:[N/A] 3657135816
 71700700:[N/A] 2114041584
+71700701:（test）威胁信一
+71700702:（test）威胁信二
+71700703:凯万的信
+71700704:字迹歪歪扭扭的信
+71700705:字迹潦草的指令
+71700706:(test)锈舵酒吧菜单
+71700707:（test）研究基地文件5
+71700708:（test）研究基地文件6
+71700709:声明
 71700710:[N/A] 2907617176
+71700713:[N/A] 854137440
+71700714:[N/A] 887642760
+71700715:SceneObj_Environment_Bulletin92
+71700716:SceneObj_Environment_Bulletin92
+71700717:SceneObj_Environment_Bulletin93
+71700718:告示
+71700719:[N/A] 1918406824
+71700720:SceneObj_Item_Default_Item
+71700721:训练日志
+71700722:备忘
+71700724:SceneObj_Quest_Interact_Point_01_NoInteraction
+71700731:[N/A] 2051030024
+71700732:[N/A] 2932228112
+71700733:[N/A] 310056624
+71700734:[N/A] 384393728
+71700735:[N/A] 1446042488
+71700736:[N/A] 1359299520
+71700737:[N/A] 3178978864
+71700738:[N/A] 4198947416
+71700739:[N/A] 1778916616
+71700741:[N/A] 96822128
+71700742:[N/A] 3001670216
+71700743:粗犷的信笺
+71700744:[N/A] 3243337896
+71700745:[N/A] 1908891344
+71700746:[N/A] 4088381512
 72000001:群玉阁-海底古神-PA
 72000002:群玉阁-海底古神-PB
 72000003:群玉阁-海底古神-PC
@@ -7897,6 +9297,10 @@
 77002016:须弥木桥其二-木桥浮空石2
 77002017:闲趣机关-「弹弹圆圆」
 77002018:闲趣机关-「弹弹嘟嘟」
+77002019:「开心时光」
+77002020:「高高石台」
+77002021:外景磐石-「惟慎」
+77002022:外景磐石-「峣柱」
 77015001:常驻壶灵Lv1
 77015002:常驻壶灵Lv2
 77015003:常驻壶灵Lv3
@@ -8147,6 +9551,63 @@
 77101233:须弥专用B房间稻妻风格天花板-家园物件
 77101234:须弥专用B房间璃月风格天花板-家园物件
 77101235:须弥专用B房间蒙德风格天花板-家园物件
+77101236:[N/A] 1472439262
+77101237:[N/A] 3872924342
+77101238:[N/A] 2865911134
+77101239:[N/A] 4215436014
+77101240:[N/A] 4284754262
+77101241:[N/A] 1517015014
+77101242:[N/A] 1078988646
+77101243:[N/A] 487116806
+77101244:[N/A] 604843214
+77101245:[N/A] 3876773862
+77101246:[N/A] 4197993606
+77101247:[N/A] 3979763118
+77101248:[N/A] 2656052814
+77101249:[N/A] 3697810230
+77101250:[N/A] 2131924270
+77101251:[N/A] 3497852102
+77101252:[N/A] 3445580278
+77101253:[N/A] 2560613374
+77101254:[N/A] 2227582526
+77101255:[N/A] 2998228718
+77101256:[N/A] 941221630
+77101257:[N/A] 2174795382
+77101258:[N/A] 4018054694
+77101259:[N/A] 3619902406
+77101260:[N/A] 2333000510
+77101261:[N/A] 2130447606
+77101262:[N/A] 590888934
+77101263:[N/A] 3109024294
+77101264:[N/A] 1717931726
+77101265:[N/A] 2049033998
+77101266:[N/A] 456918134
+77101267:[N/A] 715774766
+77101268:[N/A] 219763358
+77101269:[N/A] 2321386774
+77101270:[N/A] 1048319918
+77101271:[N/A] 659918270
+77101272:[N/A] 245331678
+77101273:[N/A] 1642416182
+77101274:[N/A] 1843472110
+77101275:[N/A] 888656078
+77101276:[N/A] 2231811038
+77101277:[N/A] 272262462
+77101278:[N/A] 1510798710
+77101279:[N/A] 4024002686
+77101280:[N/A] 3630480278
+77101281:[N/A] 128810790
+77101282:[N/A] 2258095454
+77101283:[N/A] 821932230
+77101284:[N/A] 2129215158
+77101285:[N/A] 3140360678
+77101286:[N/A] 3353757894
+77101287:SceneObj_Homeworld_Standard_Door
+77101288:SceneObj_Homeworld_Standard_Door
+77101289:[N/A] 3284943694
+77101290:[N/A] 3599657382
+77101291:[N/A] 2703372966
+77101292:[N/A] 3710925422
 77103001:欧式木质桌子-家园物件
 77103002:骑士团的长桌子-家园物件
 77103003:骑士团的长桌子-家园物件
@@ -8173,6 +9634,16 @@
 77103024:「百味醇韵」
 77103025:柽木紧凑桌案
 77103026:酒馆圆桌-「万千跃动」
+77103027:「禁限之堡的钻研」
+77103028:「禁限之堡的日常」
+77103029:「怡然自得的优雅」
+77103030:「四平八稳的庄严」
+77103031:「枢律之宫的专注」
+77103032:「中枢的安稳工位」
+77103033:「中枢的小憩时光」
+77103034:「日常聚会的闲适」
+77103035:茶坊长桌-「简具忆旧」
+77103036:茶坊用具-「审质度叶」
 77104001:欧式的火炉-家园物件
 77104002:竖琴-家园物件
 77104003:餐厅招牌-家园物件
@@ -8248,6 +9719,35 @@
 77104073:「小王子的大哭鱼」
 77104074:「若荒漠化为林野」
 77104075:「冥冥缘分的神秘壶灯」
+77104076:查看
+77104077:瓶中瑰景-「幸运荧光」
+77104078:「禁限之堡的智识」
+77104079:「清凉午后的茶歇」
+77104080:瓶栽插花-「咫尺海色」
+77104081:瓶栽插花-「纯白盛放」
+77104082:瓶栽插花-「反衬艺术」
+77104083:「枢律之宫的守时」
+77104084:「枢律之宫的乐音」
+77104085:「枢律之宫的文员」
+77104086:「枢律之宫的铁箱」
+77104087:「枢律之宫的储备」
+77104088:悬铃木「增效」平台梯
+77104089:悬铃木「强固」货箱
+77104090:紧凑型送风装置
+77104091:「回廊的稳便贮藏」
+77104092:机关模型-「似理转圜」
+77104093:通用型便签架
+77104094:标准谱架-「准确调律」
+77104095:映影海报-「两个铳枪手」
+77104096:模拟装置-「理想准度」
+77104097:「悠悠海兽之勺」
+77104098:「汲来山水煮新芽」
+77104099:茶坊用具-「重于毫厘」
+77104100:「赤泥壶中泛醇茶」
+77104101:茶坊用具-「储晒良方」
+77104102:茶坊用具-「览示有道」
+77104103:「咪呜呜宝座」
+77104104:手制胸针-「织梦」
 77105001:唯一一个沙发-家园物件
 77105002:蓝色的欧洲椅子-家园物件
 77105003:骑士团铁椅-家园物件
@@ -8264,6 +9764,14 @@
 77105014:「芬尼克的红莓海」
 77105015:酒馆餐椅-「味觉倍增」
 77105016:酒馆餐椅-「快快清醒」
+77105017:「禁限之堡的沟通」
+77105018:「宾至如归的舒适」
+77105019:「专注之事的证人」
+77105020:「欢聚畅饮的快意」
+77105021:悬铃木「观赏礼仪」座椅
+77105022:椴木「危坐」靠背椅
+77105023:「中枢的片刻安闲」
+77105024:茶坊条凳-「朴练长座」
 77108001:满是蜡烛的吊灯-家园物件
 77108002:南瓜灯-家园物件
 77108003:发光的烛灯-家园物件
@@ -8293,12 +9801,16 @@
 77108027:「更巡的烛火」
 77108028:「谛听的烛火」
 77108029:铸铁双用摆灯
+77108030:「别宫的旋流垂光」
+77108031:[N/A] 4274850718
 77109001:欧洲风格的床-家园物件
 77109002:中式床-家园物件
 77109003:稻妻床-家园物件
 77109004:须弥室内床1--BP-家园物件
 77109005:须弥卧室床-家园物件
 77109006:证悟木「招宴」坐榻
+77109007:椴木「强硕」床铺
+77109008:椴木「舒眠」床铺
 77110001:放着瓶瓶罐罐的梳妆台-家园物件
 77110002:放着很多书的书架-家园物件
 77110003:书有点少的书架-家园物件
@@ -8331,6 +9843,13 @@
 77110030:柽木三重屉柜
 77110031:柽木陶器置物柜
 77110032:酒馆书柜-「必备知识」
+77110033:「禁限之堡的负载」
+77110034:「枢律之宫的矩柜」
+77110035:「枢律之宫的高阁」
+77110036:「枢律之宫的翼架」
+77110037:「枢律之宫的帮箱」
+77110038:「中枢的浩繁卷宗」
+77110039:悬铃木「多重版型」衣柜
 77111001:骑士团样子的地毯-家园物件
 77111002:欧式地毯-家园物件
 77111003:圆形蓝色地毯-家园物件
@@ -8343,6 +9862,8 @@
 77111010:「麦苗般纯净之纹」
 77111011:酒馆地毯-「热情牌局」
 77111012:酒馆地毯-「理智牌局」
+77111013:饭店地毯-「平等对谈」
+77111014:饭店地毯-「如沐风中」
 77112001:圆形的木质盾牌-家园物件
 77112002:有棱角的木质盾牌-家园物件
 77112003:特制的宝剑-家园物件
@@ -8374,6 +9895,10 @@
 77112029:提纳里标本架-家园物件
 77112030:柽木坚铁攻盾
 77112031:玛梅赫的画作
+77112032:「清泉之心」
+77112033:室内挂灯-「昏黄海景」
+77112034:「铳枪影业获奖留念」
+77112035:「铳枪影业获奖留念」
 77115001:一堆书-家园物件
 77115002:一摞书-家园物件
 77115003:文房四宝-家园物件
@@ -8416,6 +9941,9 @@
 77115040:「积蓄净水的艺术」
 77115041:「纯粹的热烈」
 77115042:「不成熟的画作」
+77115043:「即兴表演的欢庆时光」
+77115044:茶坊炉灶-「妙火烈烹」
+77115045:茶坊炉灶-「细蒸缓焙」
 77190001:画架白盒（正式勿用此id）-家园物件
 77200001:红顶的杂货摊位-家园物件
 77200002:蓝顶的水果摊位-家园物件
@@ -8634,6 +10162,52 @@
 77200216:「秋分之地的炊烟」
 77200217:分布式前进补给站
 77200218:「秋分之地的陈酿」
+77200219:枫丹院墅-「幻景别宫」
+77200220:院墅凉亭-「万水丛中」
+77200221:院墅廊道-「摩拉分割」
+77200222:院墅廊道-「流形转角」
+77200223:院墅拱门-「荣光时刻」
+77200224:院墅围墙-「一角风光」
+77200225:柔灯港五型复合起重机关
+77200226:标准护栏-「有序对称」
+77200227:标准护栏-「错落结构」
+77200228:「正义之廷的本真」
+77200229:「正义之廷的敬畏」
+77200230:「滑滑小屋」
+77200231:「闹闹卧室」
+77200232:「小小石蟹」
+77200233:「擂台拳力复现之地」
+77200234:「白淞街镇的智慧」
+77200235:「白淞街镇的简居」
+77200236:「快速临时工棚」
+77200237:秀谷商肆-「茶引闲邃」
+77200238:秀谷戏台-「云海兴波」
+77200239:秀谷游廊-「远始为容」
+77200240:秀谷游廊-「本固枝荣」
+77200241:秀谷芳榭-「明煦天光」
+77200242:秀谷石坊-「丰兆往返」
+77200243:秀谷凉亭-「晴雨皆宜」
+77200244:秀谷望楼-「候望谨守」
+77200245:秀谷院门-「若市门庭」
+77200246:秀谷院门-「过门见山」
+77200247:秀谷月洞-「通幽纨扇」
+77200248:镇宅鼓石-「肃音震响」
+77200249:秀谷墙隅-「如聚波澜」
+77200250:秀谷石壁-「玉带悬江」
+77200251:秀谷石壁-「柳暗花遮」
+77200252:秀谷石壁-「鲤贯鸢羽」
+77200253:秀谷良居-「巍巍若山」
+77200254:秀谷良居-「深谷静暇」
+77200255:秀谷良居-「繁简由心」
+77200256:秀谷良居-「专于一心」
+77200257:秀谷良居-「茗乡田舍」
+77200258:秀谷良居-「寸尺之楼」
+77200259:秀谷山墙-「折风阻火」
+77200260:秀谷山墙-「辟雨留光」
+77200261:秀谷石阶-「础石之功」
+77200262:「巧策升炼之所」
+77200263:秀谷良居-「目别汇分」
+77200264:「商埠的烟炊百味」
 77203001:收纳着碗的桌子-家园物件
 77203002:放着一些工具的锻造桌-家园物件
 77203003:木头方桌-家园物件
@@ -8648,6 +10222,11 @@
 77203012:璃月室外八仙桌椅组合-家园物件
 77203013:业果木陈列桌
 77203014:「回廊的无垢圆桌」
+77203015:生产用货架-「基础型」
+77203016:生产用货架-「改造型」
+77203017:香茗方桌-「四方迎客」
+77203018:巧炼阔柜-「规研整序」
+77203019:茶庄石桌-「悠雅闲趣」
 77204001:木头架子-家园物件
 77204002:有盾牌和宝剑的武器堆-家园物件
 77204003:零散几把武器的武器架-家园物件
@@ -8720,6 +10299,7 @@
 77204070:海灯节礼物堆-家园物件
 77204071:缎带立柱-家园物件
 77204072:海灯节路旗-家园物件
+77204073:「鹤羽华弦」
 77204074:雷电将军Q版玩偶摆件-家园物件
 77204075:容彩祭狐狸玩偶-家园物件
 77204076:稻妻烟花发射器-家园物件
@@ -8815,6 +10395,55 @@
 77204166:「回廊的本价丰甘」
 77204167:「回廊的守时准则」
 77204168:「正义之廷的队列」
+77204169:「宏亮无垢的裁决」
+77204170:「露水的千般愿景」
+77204171:「贵重的靛紫」
+77204172:留给你的画
+77204173:留给你的画
+77204174:通用型液货输运单元
+77204175:标准运输货盘
+77204176:大型运输货盘
+77204177:椴木半金属告示牌
+77204178:泛用型烹饪装置
+77204179:「又一份雄辩」
+77204180:「正义之廷的趣闻」
+77204181:「决斗的徽记」
+77204182:「义愤之炬」
+77204183:「柔和的水声」
+77204184:「一起来玩吧！」
+77204185:「好东西就要分享！」
+77204186:「满足的重量」
+77204187:「姐姐的义务」
+77204188:书报架-「自由取阅」
+77204189:书报架-「快速浏览」
+77204190:书报架-「聚焦效应」
+77204191:「禁限之堡的重载」
+77204192:区域标识—「上行」
+77204193:区域标识—「下行」
+77204194:「白淞街镇的时鲜」
+77204195:「白淞街镇的门架」
+77204196:「白淞镇触发式传动鱼竿」
+77204197:神神秘秘丘丘萨满大大像
+77204198:舞兽戏服-「嗷嗷威猊」
+77204199:舞兽玩偶-「懒懒困猊」
+77204200:芳宴锦扆-「蝶飞鱼跃」
+77204201:芳宴锦扆-「鸢噰雀啭」
+77204202:「冠军是我的！」
+77204203:「救命啊！」
+77204204:「才…才不是呢！」
+77204205:吉庆纸鸢-「连年有余」
+77204206:吉庆纸鸢-「诸事顺遂」
+77204207:吉庆纸鸢-「翾翾蝶舞」
+77204208:吉庆纸鸢-「亨通财运」
+77204209:垂香木雨檐告示牌
+77204210:巧炼陈架-「热销策略」
+77204211:巧炼瓮釜-「万策制剂」
+77204212:巧炼秘具-「诞于清苦」
+77204213:「茗获的积存输运」
+77204214:「茗获的渔采再用」
+77204215:「茗获的百利良具」
+77204216:「茗获的馥郁之法」
+77204217:「茗获的日晒着香」
 77205001:木质长椅-家园物件
 77205002:石质的长椅-家园物件
 77205003:谷歌椅子-家园物件
@@ -8825,6 +10454,8 @@
 77205008:悠悠哉哉不知死线之椅
 77205009:「回廊的悠然时光」
 77205010:「回廊的晚风合奏」
+77205011:香茗座椅-「清风蘧蘧」
+77205012:茶庄石凳-「宽安敦实」
 77206001:室外茶桌-家园物件
 77206002:室外木质饮茶桌-家园物件
 77206003:璃月戏台道具桌帷-家园物件
@@ -8879,6 +10510,20 @@
 77208034:机枢灯具-「综亮步道」
 77208035:机枢灯具-「崭亮近景」
 77208036:机枢灯具-「旷亮郊野」
+77208037:辉烛溢彩-「盈盈流光」
+77208038:机枢灯具-「阔亮海浪」
+77208039:「你好！欢迎！」
+77208040:「亮亮贝壳」
+77208041:禁限地灯—「铁锤」
+77208042:禁限地灯—「暗光」
+77208043:「无非一怒为苍生」
+77208044:缛彩华灯-「太平清乐」
+77208045:工巧鱼灯-「无往不鲤」
+77208046:工巧鱼灯-「利是闹春」
+77208047:商埠地灯-「一缕幽香」
+77208048:商埠路灯-「好事成双」
+77208049:秀谷石灯-「常亮烛火」
+77208050:「果酒湖光」
 77210001:菜架子-家园物件
 77213001:带花的草丛-家园物件
 77213002:空空的草丛-家园物件
@@ -9022,6 +10667,15 @@
 77213140:「桔梗轻烟」
 77213141:「向阳水彩」
 77213142:「海色蝶群」
+77213143:观赏灌木-「露景水色」
+77213144:补花灌木-「海港雾中」
+77213145:「安闲的紫梦」
+77213146:悬练凝剑骨
+77213147:秋月红霜花
+77213148:「仙茗本根」
+77213149:蒙珑清阴雪
+77213150:屏扇点苍翠
+77213151:绕岩盘伏树
 77214001:小型石堆-家园物件
 77214002:中型石堆-家园物件
 77214003:大块石头-家园物件
@@ -9115,6 +10769,18 @@
 77215087:「清露酪香一席间」
 77215088:维护机关·技术演示型
 77215089:冒险家玩具-「跃动节拍」
+77215090:「特别蹦蹦嘟嘟可」
+77215091:「机动自律型枫达专卖机·改」
+77215092:「禁限之堡的威仪」
+77215093:泪斑岩砖-「透视理论」
+77215094:「水妖王子」
+77215095:机关模型-「修修补补」
+77215096:机关模型-「裂岩固锚」
+77215097:「禁限之堡的拳靶」
+77215098:稳像机关-「哭哭球球」
+77215099:奇景铜像-「悠古金面」
+77215100:好梦留影神机
+77215101:慢悠悠仙像
 77216001:家园路面01-家园物件
 77216002:家园路面02-家园物件
 77216003:家园路面03-家园物件
@@ -9201,6 +10867,11 @@
 77303081:青冠雀
 77303082:雪翅雁
 77303083:乌翅雁
+77303084:子探测单元
+77303085:朱喙鹈鹕
+77303086:珉光虫
+77303087:柔柔羊
+77303088:「大桔骑士」
 77305001:霓裳花Bundle-2.0 家园采集物Bundle
 77305002:落落莓Bundle-2.0 家园采集物Bundle
 77305003:绝云椒椒Bundle-2.0 家园采集物Bundle
@@ -9342,6 +11013,11 @@
 77310001:电梯 底座-家园物件，编辑界面用
 77311001:须弥鱼池交互点
 77311002:须弥生长桥装饰
+77311003:[N/A] 3003298094
+77311004:[N/A] 1260005318
+77311005:[N/A] 3320579382
+77311006:[N/A] 1895114854
+77311007:SceneObj_Homeworld_Exterior_Common_Thing_Fishpond_03
 77320001:2.7扭蛋机器人_模型A_动作1
 77320002:2.7扭蛋机器人_模型A_动作2
 77320003:2.7扭蛋机器人_模型A_动作3
@@ -9433,6 +11109,8 @@
 707111154:[N/A] 695377336
 707111155:[N/A] 3294479600
 707111156:[N/A] 658193776
+707111157:[N/A] 2154923240
+707111158:[N/A] 3788877088
 707111159:[N/A] 3657436320
 707111160:[N/A] 493981376
 707111161:[N/A] 2446474160
@@ -9542,6 +11220,16 @@
 70290305:流明石自然版
 70290306:流明石人文版采集物
 70290499:甜甜花-苗圃玩法专用
+70291039:拾取
+70292018:清水玉
+70292118:清水玉
+70292119:清水玉
+70292120:清水玉
+70292121:清水玉
+70292159:清水玉
+70292166:清水玉
+70292179:清水玉
+70292184:清水玉
 70300001:被劫掠的货物
 70300002:掉落物-红球
 70300006:拓下来-印在建筑上的古文诗
@@ -9692,6 +11380,11 @@
 70540058:柔灯铃
 70540059:[N/A] 952092582
 70540060:虹彩蔷薇
+70540061:幽光星星
+70540062:纯洁松果
+70540063:拾取
+70540064:拾取
+70540065:4.1采集物占位
 70540066:萃凝晶
 70540067:[N/A] 539030726
 70540068:海露花
@@ -9742,6 +11435,13 @@
 70590074:散失的水神瞳
 70590076:净光翎
 70590077:SceneObj_Gather_RadarHint
+70590078:拾取
+70590079:拾取
+70590080:拾取
+70590081:[N/A] 376864662
+70590082:湖光铃兰
+70590083:初露之源
+70590084:苍灵鲤
 70600064:昔日的记忆碎片
 70710020:漂流瓶-(TEST) 来自稻妻的漂流瓶用于璃月大世界任务
 70710068:被风史莱姆吹拂的风车菊-安东尼治病事件
@@ -9771,6 +11471,14 @@
 70710944:新鲜的苹果
 70710945:干燥的木柴
 70711189:可疑的禽肉
+70711319:特殊的钥匙
+70711320:特殊的钥匙
+70711321:特殊的钥匙
+70711322:特殊的钥匙
+70711345:根源之轮
+70711346:根源之轮
+70711347:根源之轮
+70711350:遗落的花束
 70900001:临时资源（采集物）
 70900234:残破的烈焰花-烈焰花元素版
 70900235:地城-烈焰花元素版
@@ -10105,6 +11813,26 @@
 71700677:怪盗与名侦探：虹彩胸针之谜·卷一
 71700678:怪盗与名侦探：虹彩胸针之谜·卷二
 71700679:怪盗与名侦探：虹彩胸针之谜·卷三
+71700680:褪色古堡的崩塌·卷一
+71700681:褪色古堡的崩塌·卷二
+71700682:褪色古堡的崩塌·卷三
+71700683:伊黎耶之歌·上本
+71700684:伊黎耶之歌·中本
+71700685:伊黎耶之歌·下本
+71700686:雪翅雁童话集·卷一
+71700687:雪翅雁童话集·卷二
+71700688:雪翅雁童话集·卷三
+71700689:两个铳枪手·卷一
+71700690:两个铳枪手·卷二
+71700691:两个铳枪手·卷三
+71700692:旅时者·第一卷
+71700693:旅时者·第二卷
+71700694:旅时者·第三卷
+71700711:新鲜的绝云椒椒
+71700712:新鲜的树莓
+71700723:布兰奇的信
+71700725:裴伦埃里·卷一
+71700726:裴伦埃里·卷二
 77304001:霓裳花-2.0 家园采集物
 77304002:甜甜花-2.0 家园采集物
 77304003:塞西莉亚花-2.0 家园采集物
@@ -10167,6 +11895,12 @@
 70220113:莫娜地城移动水片-dungeon地城
 70220121:跑酷移动金币
 70220139:SceneObj_Area_Xm_Property_Ani_Prop_GiantCoreLink_01
+70220155:SceneObj_Area_Fd_Property_Ani_Prop_PneumaSpirit_01
+70220156:SceneObj_Area_Fd_Property_Ani_Prop_OusiaSpirit_01
+70220158:SceneObj_Area_Fd_Property_Ani_Prop_TrapBubble_02
+70220178:SceneObj_Area_Common_Property_Ani_Prop_CarpJumpRunner_Point_01
+70220179:SceneObj_Area_Common_Property_Ani_Prop_CarpJumpRunner_Chaos_01
+70220181:SceneObj_Area_Common_Property_Ani_Prop_CarpJumpRunner_Explode_02
 70290034:天空岛大碎片02
 70290035:天空岛大碎片03
 70290036:天空岛大碎片04
@@ -10229,6 +11963,8 @@
 70290880:SceneObj_Area_Xm_Property_Prop_GrassGodGuard_01
 70290883:SceneObj_Area_Xm_Property_Water_TrialWater_01
 70290906:SceneObj_Area_Xm_Property_Prop_MoveSand_03
+70290911:SceneObj_Area_Fd_Property_Ani_Prop_ChasingPhantom_LookAt_01
+70290913:SceneObj_Area_Fd_Property_Ani_Prop_ChasingPhantom_01
 70290988:SceneObj_PacMan_Beans_High_Tick
 70290989:SceneObj_PacMan_Big_Beans_High_Tick
 70291053:SceneObj_Area_Xm_Property_Prop_PariFirefly_01
@@ -10242,8 +11978,65 @@
 70291148:SceneObj_Penumbra_Common_Property_Ani_Prop_CannonTarget_05
 70291149:SceneObj_Penumbra_Common_Property_Ani_Prop_CannonTarget_06
 70291150:SceneObj_Penumbra_Common_Property_Ani_Prop_BossTarget_01
+70291428:SceneObj_Area_Fd_Property_Ani_Prop_ShopRobot_01
+70291429:SceneObj_Area_Fd_Property_Ani_Prop_TrapFittingRoom_01
+70291477:SceneObj_Area_Common_Property_Ani_SpriteEffect_01
+70291478:SceneObj_Area_Fd_Property_Ani_Prop_InvisibleSeelie_01
+70291481:SceneObj_Area_Fd_Property_Ani_Prop_fishEffect_01
+70291489:SceneObj_Area_Fd_Property_Ani_Prop_catapultJellyfish_06
+70291490:SceneObj_Area_Fd_Property_Ani_Prop_TransparentFloor_02
+70291492:SceneObj_Area_Fd_Property_Ani_Prop_catapultJellyfish_03
+70291513:SceneObj_Area_Fd_Property_Ani_Prop_catapultJellyfish_01
+70291514:SceneObj_Area_Fd_Property_Ani_Prop_catapultJellyfish_02
 70291520:SceneObj_Area_Common_Property_Ani_Prop_TurquoiseStar_01
+70291521:SceneObj_Area_Fd_Property_Ani_Prop_TransparentEel_01
 70291535:SceneObj_Area_Xm_Property_Prop_GrassEnergyFeatherChaser_01
+70291554:SceneObj_Area_Fd_Property_Ani_Prop_ScoutRobot_01
+70291578:SceneObj_Gear_Platform_WaterPlatform
+70291579:SceneObj_Area_Fd_Property_Ani_Tree_FactoryElevator_02
+70291582:SceneObj_Level_Fd_Property_Ani_Prop_GearTurntable_01
+70291617:SceneObj_Gear_Platform_WaterPlatform
+70292000:SceneObj_Area_LY_Property_Ani_Prop_ControlPlatform_01
+70292003:SceneObj_SpectacleBuild1
+70292004:SceneObj_SpectacleBuild2
+70292005:SceneObj_SpectacleBuild3
+70292006:SceneObj_SpectacleBuild4
+70292007:SceneObj_SpectacleBuild5
+70292012:SceneObj_Lotus_Main
+70292017:SceneObj_JarChallenge_Butterfly
+70292020:SceneObj_AwningBoat
+70292021:SceneObj_Prop_Tortoise
+70292023:仙像
+70292031:SceneObj_Area_Cyg_Property_Ani_Prop_Herbpot_01
+70292032:SceneObj_Area_Cyg_Property_Ani_Prop_YdgHangingJar_01
+70292033:SceneObj_Area_Cyg_Property_Ani_Prop_YdgJar_01
+70292039:SceneObj_Area_Cyg_Property_Ani_Prop_ImmortalizationalAquaticAnimals_01
+70292041:SceneObj_Area_Cyg_Property_Ani_Prop_EscapePower_01
+70292073:SceneObj_Area_Cyg_Property_Ani_Prop_WstPlatform_01
+70292074:SceneObj_CarpStatue_FollowMove
+70292077:SceneObj_Area_Cyg_Property_Ani_Prop_CygTeaPot_01
+70292089:SceneObj_Gear_Platform_Seelie_CygLotusLightSmall
+70292104:SceneObj_Area_Cyg_Property_Ani_Prop_HerbpotSeal_01
+70292105:SceneObj_JarChallenge_Butterfly
+70292106:SceneObj_Area_Cyg_Property_Ani_Prop_YdgCaveButterfly_01
+70292107:SceneObj_Lotus_CheckPoint_PlatformMove
+70292117:SceneObj_Area_Cyg_Property_Ani_Prop_HerbpotSeal_02
+70292134:SceneObj_LostSamachurl_Floor
+70292135:SceneObj_LostSamachurl_WindSlime
+70292140:SceneObj_Area_Cyg_Property_Ani_Prop_ImmortalHairpinRock_01
+70292141:仙像
+70292144:SceneObj_Area_LY_Property_Ani_Prop_ControlPlatform_OpenWaterFall
+70292146:SceneObj_Area_LY_Property_Ani_Prop_ControlPlatform_01_Indoor
+70292153:SceneObj_Gear_Platform_Elevator
+70292170:SceneObj_Area_Cyg_Property_Ani_Prop_BambooRaft_MusicPlayer_FollowMove_01
+70292175:SceneObj_HornlessDragon_03
+70292188:SceneObj_AwningBoat
+70292189:SceneObj_AwningBoat
+70292204:[N/A] 2300585726
+70292214:SceneObj_Prop_Tortoise
+70292215:SceneObj_AwningBoat
+70292217:SceneObj_Area_Cyg_Property_Ani_Decal_ImmortalHairpin_FollowMove_01
+70292218:SceneObj_Area_Cyg_Property_Ani_Prop_BambooRaft_MusicPlayer_FollowMove_02
 70300056:可移动暴风结晶-移动平台
 70310020:岩浮板-岩浮板（移动平台）
 70310080:仙人的炉子
@@ -10274,12 +12067,16 @@
 70310417:小号滑轨转折组-C地城 H控制物
 70310437:夜鸦雕像洋葱哥无交互1.7倍-C岛 F雕像无交互
 70310438:夜鸦雕像洋葱哥无交互0.53倍-C岛 F雕像无交互
+70310538:SceneObj_Area_Fd_Property_Ani_Prop_TransferStationShip_01
 70320016:奇趣秘园_水片白盒-奇趣秘园_水片
 70320017:奇趣秘园_脏脏果弹球白盒-奇趣秘园_弹球
 70320018:奇趣秘园_膨膨果弹球白盒-奇趣秘园_膨膨果弹球
 70320019:奇趣秘园_移动墙白盒
 70320021:史莱姆足球移动墙-奇趣秘园 史莱姆足球
 70320026:机关电梯-大慈树王幻境地城 机关电梯
+70320102:SceneObj_Area_Fd_Property_Ani_Prop_GearPipe_Gear_01
+70320103:SceneObj_Area_Fd_Property_Ani_Prop_GearPipe_Gear_02
+70320104:SceneObj_Area_Fd_Property_Ani_Prop_GearPipe_Gear_03
 70320117:SceneObj_Level_Common_Property_Ani_Prop_CharAmuseBasket_01
 70320118:SceneObj_Level_Common_Property_Ani_Prop_CharAmuseBasket_02
 70330081:雷导立方
@@ -10345,6 +12142,17 @@
 70330725:SceneObj_Gear_Platform_MovingTarget_Indicator
 70330741:SceneObj_Gear_Platform_Seelie_UW
 70330746:SceneObj_Area_Fd_Property_Ani_Prop_OceanCurrentBubble_03
+70330772:SceneObj_Area_FD_Property_Ani_Build_PortElevator_01
+70331005:SceneObj_Level_Fd_Property_Ani_Prop_FilmfestSniper_BalloonCart_01
+70331009:SceneObj_Level_Fd_Property_Ani_Prop_FilmfestSniper_BalloonCart_01
+70331019:SceneObj_Area_Fd_Property_Ani_Prop_BalloonFruit_UnderWater_01
+70331020:SceneObj_Area_Fd_Property_Ani_Prop_ToughBalloonFruit_UnderWater_01
+70331021:SceneObj_Area_Fd_Property_Ani_Prop_DirtyBalloonFruit_UnderWater_01
+70331031:SceneObj_Area_Fd_Property_Prop_TreasureSeekingSeelieFarAway_Fontaine_01
+70331033:SceneObj_Level_Fd_Property_Ani_Prop_FilmfestSniper_BalloonBomb_01
+70331038:SceneObj_Area_Fd_Property_Ani_Prop_BalloonFruit_UnderWater_02
+70331039:SceneObj_Area_Fd_Property_Ani_Prop_DirtyBalloonFruit_UnderWater_02
+70331166:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_Obstacle_01
 70350090:火仙灵-火仙灵 螺旋
 70350138:风花节 泡泡移动平台
 70350152:胡桃线造假平台
@@ -10479,6 +12287,11 @@
 70380350:SceneObj_Area_Xm_Property_Ani_Prop_Sorush_01
 70380351:SceneObj_Area_Xm_Property_Ani_Prop_Sorush_02
 70380353:SceneObj_Area_Xm_Property_Ani_Prop_Sorush_01
+70380356:SceneObj_Area_Cyg_Property_Ani_Water_BJCave_Waterplatform_01
+70380357:SceneObj_Gear_Platform_WaterPlatform
+70380358:SceneObj_Gear_Platform_WaterPlatform
+70380359:SceneObj_Gear_Platform_WaterPlatform
+70380360:SceneObj_Gear_Platform_WaterPlatform
 70590060:City旋转轴物件（和室）-City旋转轴物件
 70590071:City旋转轴物件（塔）-City旋转轴物件
 70590072:Mixin版 City旋转轴
@@ -10501,6 +12314,7 @@
 70711027:SceneObj_Penumbra_Common_Property_Ani_Prop_Teshequ_B_01
 70711088:SceneObj_Penumbra_Common_Property_Ani_Prop_Teshequ_B_01
 70711089:SceneObj_Penumbra_Common_Property_Ani_Prop_Teshequ_B_01
+70711462:SceneObj_Area_Ly_Property_Ani_Prop_LuggageofLiyue_01
 70720214:火仙灵
 70720217:发光仙灵
 70800110:2.7肉鸽地城移动平台_白盒
@@ -10565,6 +12379,12 @@
 70800777:SceneObj_Penumbra_Common_Property_Ani_Prop_OceanidTrans_Eff_02
 70800780:SceneObj_Area_Xm_Property_Ani_Prop_LightPlay_LightNew_G
 70800784:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Specter_01
+70800931:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_FdShakyStair_01_01
+70800933:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_FdShakyStair_02_01
+70800935:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_Elevator_01
+70800937:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_Qiao_01
+70800938:SceneObj_Level_Fd_Property_Ani_Prop_FdRuins_Qiao_02
+70800948:SceneObj_Area_Fd_Property_Ani_Prop_SealHorn_UnderSeaExplore_Activity_3
 70900210:电元素精灵-电桩
 70900211:冰元素精灵
 70900212:火元素精灵-冰元素精灵
@@ -10582,6 +12402,30 @@
 70900312:拼图03
 70900316:货运热气球-事件-移动小车
 70900444:SceneObj_Area_FD_Property_Ani_Prop_HyperVessel_WhiteBox
+70900527:SceneObj_Area_Common_Property_Ani_GolfReceiver_01
+70900528:SceneObj_Area_Common_Property_Ani_GolfReceiver_02
+70900530:SceneObj_Area_Common_Property_Ani_FoulCore_01
+70900531:SceneObj_Area_Common_Property_Ani_FoulCore_02
+70900532:SceneObj_Area_Common_Property_Ani_FoulCore_03
+70900538:SceneObj_Area_Common_Property_Ani_WaterWheel_WindmillWheel_02
+70900539:SceneObj_Area_Common_Property_Ani_WaterWheel_WindmillWheel_02
+70900546:SceneObj_Area_Common_Property_Ani_FoulCore_04
+70900547:SceneObj_Area_Common_Property_Ani_FoulCore_05
+70900550:SceneObj_Area_Common_Property_Ani_SealedTower_Gear_01
+70900551:SceneObj_Area_Common_Property_Ani_SealedTower_Gear_02
+70900580:SceneObj_Area_Common_Property_Ani_RayReceiver_01
+70900585:SceneObj_Area_Common_Property_Ani_WaterWheel_WindmillWheel_04
+70900616:SceneObj_Area_Common_Property_Ani_Prop_PitchPotNormalpot_02
+70900624:SceneObj_Area_Common_Property_Ani_Prop_PitchPotBoompot_02
+70900625:SceneObj_Area_Common_Property_Ani_Prop_PitchPotNormalpot_04
+70900626:SceneObj_Area_Common_Property_Ani_Prop_PitchPotHugepot_01
+70900717:SceneObj_Area_Common_Property_Ani_GolfReceiver_FollowMove_01
+70900718:SceneObj_Area_Common_Property_Ani_GolfReceiver_FollowMove_02
+70900719:SceneObj_Area_Common_Property_Ani_GolfReceiver_03
+70900728:SceneObj_Area_Fd_Property_Ani_Prop_FYTElevator_01
+70900729:SceneObj_Area_Common_Property_Ani_Prop_SXFY_Chilun_01
+70900748:SceneObj_Item_Moving_Gardencart
+70900755:SceneObj_Test_World_WaterPlane_Fd_Radius30
 70950022:雪山守卫白盒
 70950023:天空岛碎片白盒01
 70950024:天空岛碎片白盒02
@@ -10737,6 +12581,11 @@
 50004097:Monster_Ovacua_Common_OuterRing
 50004098:Monster_Ovacua_Common_OuterRing
 50004099:Monster_Ovacua_Common_OuterRing
+50004100:MonEquip_AntiRiotFork_01
+50004101:MonEquip_Wand_None_01
+50004102:MonEquip_Axe_Electric_02
+50004103:MonEquip_Crossbow_01
+50004104:MonEquip_Thoarder_Rocky_Guitar
 
 // 装备
 50010002:(test)穿模测试-Equip_Sword_Template
@@ -10779,6 +12628,9 @@
 50011424:Weapon_Sword_Metal
 50011425:Weapon_Sword_Metal
 50011426:Weapon_Sword_Metal
+50011427:Weapon_Sword_Metal
+50011428:Weapon_Sword_Metal
+50011429:Weapon_Sword_Metal
 50011501:风鹰剑-Equip_Sword_Falcon
 50011502:天空之刃-Equip_Sword_Dvalin
 50011503:苍古自由之誓-Equip_Sword_Widsith
@@ -10791,6 +12643,8 @@
 50011510:波乱月白经津-Equip_Sword_Amenoma
 50011511:圣显之钥-Equip_Sword_Deshret
 50011512:Weapon_Sword_Metal
+50011513:Weapon_Sword_Metal
+50011514:Weapon_Sword_Metal
 50012101:训练大剑-Equip_Claymore_Aniki
 50012201:佣兵重剑-Equip_Claymore_Oyaji
 50012301:铁影阔剑-Equip_Claymore_Glaive
@@ -10818,6 +12672,8 @@
 50012418:Weapon_Claymore_Metal
 50012424:Weapon_Claymore_Metal
 50012425:Weapon_Claymore_Metal
+50012426:Weapon_Claymore_Metal
+50012427:Weapon_Claymore_Metal
 50012501:天空之傲-Equip_Claymore_Dvalin
 50012502:狼的末路-Equip_Claymore_Wolfmound
 50012503:松籁响起之时-Equip_Claymore_Widsith
@@ -10828,6 +12684,7 @@
 50012509:(test)鸣神系列-Equip_Claymore_Narukami
 50012510:赤角石溃杵-Equip_Claymore_Itadorimaru
 50012511:Weapon_Claymore_Metal
+50012512:Weapon_Claymore_Metal
 50013101:新手长枪-Equip_Pole_Gewalt
 50013201:铁尖枪-Equip_Pole_Rod
 50013301:白缨枪-Equip_Pole_Ruby
@@ -10850,6 +12707,8 @@
 50013419:风信之锋-Equip_Pole_Windvane
 50013424:Weapon_Pole_Metal
 50013425:Weapon_Pole_Metal
+50013426:Weapon_Pole_Metal
+50013427:Weapon_Pole_Metal
 50013501:护摩之杖-Equip_Pole_Homa
 50013502:天空之脊-Equip_Pole_Dvalin
 50013503:歌中刻印之事-Equip_Pole_Widsith
@@ -10886,6 +12745,7 @@
 50014417:盈满之实-Equip_Catalyst_Arakalari
 50014424:Catalyst_Ball
 50014425:Catalyst_Book
+50014426:Catalyst_Book
 50014501:天空之卷-Equip_Catalyst_Dvalin
 50014502:四风原典-Equip_Catalyst_Fourwinds
 50014503:黎明破晓之史-Equip_Catalyst_Widsith
@@ -10896,6 +12756,9 @@
 50014509:神乐之真意-Equip_Catalyst_Narukami
 50014511:草神法器-Equip_Catalyst_Ayus
 50014512:Catalyst_Ball
+50014513:Catalyst_Ball
+50014514:Catalyst_Book
+50014515:Catalyst_Ball
 50015101:猎弓-Equip_Bow_Hunters
 50015201:历练的猎弓-Equip_Bow_Old
 50015301:鸦羽弓-Equip_Bow_Crowfeather
@@ -10925,6 +12788,7 @@
 50015419:Weapon_Bow_Metal
 50015424:Weapon_Bow_Metal
 50015425:Weapon_Bow_Metal
+50015427:Weapon_Bow_Metal
 50015501:天空之翼-Equip_Bow_Dvalin
 50015502:阿莫斯之弓-Equip_Bow_Amos
 50015503:终末嗟叹之诗-Equip_Bow_Widsith
@@ -11011,10 +12875,12 @@
 70120011:SceneObj_Resident_DungeonEntry_Desert01
 70120012:SceneObj_Resident_DungeonEntry_MengDe01_UW
 70120013:SceneObj_Resident_DungeonEntry_MengDe02_UW
+70291612:SceneObj_Gear_Property_Prop_MirrorTeleport_01
 70330338:沙漠 蒙德地城入口01-蒙德常规地城
 70330339:沙漠 蒙德地城入口02-蒙德隐藏地城
 70330448:沙漠-传送石碑
 70800184:2.7层岩地城入口木板
+70800907:SceneObj_Area_Common_Property_Ani_Build_ChallengeEntry_02
 70950059:挑战活动大门
 
 // 宝箱
@@ -11070,6 +12936,15 @@
 70210124:无完成度的珍贵宝箱(锁)-无完成度高级宝箱Lock
 70210125:无完成度的华丽宝箱(普)-无完成度超级宝箱Default
 70210126:无完成度的华丽宝箱(锁)-无完成度超级宝箱Lock
+70210127:普通的宝箱
+70210128:普通的宝箱
+70210129:精致的宝箱
+70210130:精致的宝箱
+70210131:珍贵的宝箱
+70210132:珍贵的宝箱
+70210133:华丽的宝箱
+70210134:华丽的宝箱
+70210135:沉玉仙茗
 70211001:普通的宝箱-低级战斗宝箱Default
 70211002:普通的宝箱-低级战斗宝箱Lock
 70211011:精致的宝箱-中级战斗宝箱Default
@@ -11148,6 +13023,7 @@
 70211201:普通的宝箱
 70211202:普通的宝箱
 70211203:调查
+70211204:调查
 70216666:曲线测试-宝箱掉落曲线测试
 70217001:飞天大御剑-石中剑宝箱
 70217002:黑缨枪-石中剑宝箱
@@ -11175,10 +13051,16 @@
 70217025:拾取
 70217026:调查
 70217027:调查
+70217028:黄金飞鸟的落羽
+70217029:水仙的时时刻刻
 70290082:海神神龛宝箱
 70290629:获取
 70290633:获取
 70290634:获取
+70292108:精致的宝箱
+70292111:普通的宝箱
+70292112:珍贵的宝箱
+70292145:敲击
 70310146:肉鸽 代币 调查点
 70310234:倒影宝箱-普通-Ddungeon 倒影玩法
 70310235:倒影宝箱-精致-Ddungeon 倒影玩法
@@ -11213,6 +13095,7 @@
 70360047:开启-英雄王的宝藏
 70710296:播撒（用于关卡lua，便于播放reminder）-播撒点
 70710913:调查-3.2 主线新增透明调查宝箱
+70711404:寻找
 70800453:开启
 70800641:SceneObj_Penumbra_Common_Property_Ani_Prop_RollerChest_01
 70800654:SceneObj_Area_Common_Property_Ani_Prop_MuralCloud_01
@@ -11220,10 +13103,13 @@
 70800656:SceneObj_Area_Common_Property_Ani_Prop_MuralCastle_01
 70800657:SceneObj_Area_Common_Property_Ani_Prop_MuralFlower_01
 70800676:SceneObj_Area_Common_Property_Ani_Prop_Chest2D_01
+70800928:SceneObj_Area_Fd_Property_Ani_Prop_SealHorn_UnderSeaExplore_Activity_2
+70800951:调查
 70900048:流星宝箱
 70900273:空模型宝箱
 70900288:小灯草-小灯草（Test）
 70900386:书页点
+70900752:拾取
 71700522:调查（检查）-任务用调查
 71700523:调查（拾取）-任务用调查
 71700524:调查（搬运）-任务用调查
@@ -11238,6 +13124,7 @@
 70330041:领取奖励-大陨石领奖台
 70360150:纯水精灵挑战隐藏领奖台-1.4纯水精灵挑战活动用
 70360163:地脉之果-1.5导能圆盘活动，通用领奖点
+70800924:SceneObj_Area_Fd_Property_Ani_Prop_SealHorn_UnderSeaExplore_Activity
 70950021:领取奖励-中陨石领奖台
 
 // 祭品Gadget
@@ -11245,6 +13132,7 @@
 70290094:神樱 交互空物件
 70290511:洋葱树交互物件-洋葱树
 70290803:SceneObj_Area_Xm_Property_Prop_RebornLake_Interact_01
+70292163:SceneObj_Area_Cyg_Property_Ani_Prop_Silong_03
 70330164:千灯供奉
 70330637:SceneObj_Area_Fd_Property_Prop_WishingPond_01
 
@@ -11303,12 +13191,34 @@
 70290875:SceneObj_Dehya_LaserStoneBlocker
 70290879:SceneObj_Area_Xm_Property_Prop_GrassGodGiftsBase_01
 70290901:SceneObj_Area_Xm_Property_Ani_Prop_CWHX_02
+70290914:SceneObj_Area_Fd_Property_Ani_Prop_ChasingPhantom_PortableCell_01
 70290923:SceneObj_Area_Xm_Property_Ani_Prop_ChargingStation_Sand_01
 70290925:SceneObj_Area_Xm_Property_Ani_Prop_WormCannon_Sand_01
 70290926:SceneObj_Area_Xm_Property_Ani_Prop_WormCannon_Sand_02
 70291001:SceneObj_Area_Desert_Property_Ani_Prop_PipeConnector_TypeL_03
+70291010:SceneObj_Area_Fd_Property_Ani_Prop_PrismObject_01
+70291011:SceneObj_Area_Fd_Property_Ani_Prop_PrismObject_02
+70291022:安装器件
+70291031:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_GearGiving_04
+70291032:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_GearGiving_05
+70291033:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_GearGiving_06
+70291034:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_GearGiving_07
+70291035:SceneObj_Area_Fd_Property_Ani_Prop_UnderseaFactory_GearGiving_08
 70291154:SceneObj_Area_Common_Property_Ani_Prop_NoticeBoard_05
 70291155:SceneObj_Area_Common_Property_Ani_Prop_AnimalViewOperation_01
+70291399:SceneObj_Indoor_Md_Build_CatCafe_Lmt_A_01
+70291434:SceneObj_Area_Fd_ChioriClothesHanger_01
+70291462:SceneObj_Area_Common_Property_Ani_SpraySeed_01
+70291559:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCage_01
+70291565:SceneObj_Area_Fd_Property_Ani_Prop_FDLabSuppressor_01
+70291575:SceneObj_Area_Fd_Property_Ani_Tree_EnergyStation_01
+70291580:SceneObj_Level_Fd_Property_Ani_Prop_SealValveSwitch_01
+70291608:SceneObj_Level_Fd_Property_Ani_Prop_SealValveSwitch_02
+70291619:SceneObj_Area_Fd_Property_Ani_Prop_FDFacPipeValve_02
+70291631:SceneObj_Area_Common_Property_Ani_Prop_ColFixedOperator_01
+70291633:SceneObj_Level_Fd_Property_Ani_Prop_SealValveSwitch_03
+70292195:SceneObj_Cyg_RunBirdRun_Challenge
+70292196:SceneObj_Cyg_RunBirdRun_FollowMove_ChallengeEffect
 70310070:状态切换开关红
 70310071:状态切换开关黄
 70310072:状态切换开关蓝
@@ -11332,8 +13242,12 @@
 70310498:拾取
 70310532:拾取
 70310533:拾取
+70320089:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCaster_Operator_01
+70320092:SceneObj_Area_Fd_Property_Ani_Prop_EnergyCaster_PortableCell_01
+70320095:SceneObj_Area_Fd_Property_Ani_Prop_FactoryJukebox_01
+70320100:SceneObj_Area_Fd_Property_Ani_Prop_ResearchConsole_01
+70320105:SceneObj_Area_Fd_Property_Ani_Prop_FDFacPipeValve_01
 70330001:炼金初始化
-70330002:炼金炉领奖台
 70330019:岩片吸收器
 70330024:炼金炉-搬运元素之力地基
 70330043:鬼火吸收器
@@ -11408,6 +13322,9 @@
 70330763:SceneObj_Property_Stages_Prop_ChallengestarterUnderWater_04
 70330764:SceneObj_Property_Stages_Prop_ChallengestarterUnderWater_05
 70330765:SceneObj_Property_Stages_Prop_ChallengestarterUnderWater_06
+70331018:SceneObj_Area_Fd_Property_Ani_Prop_BubbleCage_01
+70331022:SceneObj_Area_Fd_Property_Ani_Prop_SeelieDigPoint_Fontaine_01
+70331028:SceneObj_Area_Fd_Property_Prop_SeelieChallangePoint_Fontaine_01
 70350016:followmove机关操作台
 70350023:守护玩法
 70350081:通用交互机关
@@ -11584,6 +13501,7 @@
 70800247:3.1迷宫_风场开关操作台
 70800248:3.1迷宫_风场强化操作台
 70800637:SceneObj_Penumbra_Common_Property_Ani_Prop_WorldPlantOperator_01
+70800904:SceneObj_Area_Common_Property_Ani_Prop_MistTrialV4Portal_01
 70900100:位运算测试机关
 70900209:元素技能充能机关
 70900262:鼹鼠洞
@@ -11599,6 +13517,15 @@
 70900427:SceneObj_MudAbyss_FlowerCannon
 70900431:SceneObj_MudAbyss_ElementDrum
 70900432:SceneObj_MudAbyss_ElementDrumRegexp
+70900501:SceneObj_Area_Common_Property_Ani_WaterShooter_01
+70900517:SceneObj_Area_Common_Property_Ani_SpraySeed_01
+70900518:SceneObj_Area_Common_Property_Ani_SpraySeed_01
+70900519:SceneObj_Area_Common_Property_Ani_WaterWheel_ConnectNode_01
+70900543:SceneObj_Area_Common_Property_Ani_Prop_SXFYReservoir_01
+70900544:SceneObj_Area_Common_Property_Ani_Prop_SXFYReservoir_02
+70900545:SceneObj_Area_Common_Property_Ani_Prop_SXFYReservoir_03
+70900603:SceneObj_Area_Common_Property_Ani_WatchTower_01
+70900634:寻找缺失景物
 70950037:天空岛小碎片核心白盒
 70950054:风花节射靶演出控制器（Test）
 70950067:雷仙灵底座(test)
@@ -11631,6 +13558,18 @@
 70290432:木刻台地插槽04
 70290433:木刻台地插槽05
 70290434:木刻台地插槽06
+70291394:SceneObj_Area_Common_Property_Prop_Catcafe_Slot_01
+70291395:SceneObj_Area_Common_Property_Prop_Catcafe_Slot_02
+70291396:SceneObj_Area_Common_Property_Prop_Catcafe_Slot_03
+70291397:SceneObj_Area_Common_Property_Prop_Catcafe_Slot_04
+70291398:SceneObj_Area_Common_Property_Prop_Catcafe_Slot_05
+70291403:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimShelf_01
+70291411:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimBottle_01
+70291412:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimBottle_01
+70291413:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimBottle_01
+70291414:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimBottle_01
+70291415:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimBottle_01
+70291416:SceneObj_Area_Common_Property_Ani_Prop_AlchemySimBottle_01
 70800253:3.1活动摊位_主角摊位_完整
 70800254:3.1活动摊位_顶棚_初始[废弃]-3.1活动摊位_顶棚_初始
 70800255:3.1活动摊位_顶棚_红[废弃]-3.1活动摊位_顶棚_红
@@ -11744,7 +13683,6 @@
 70700015:提瓦特游览指南
 70700016:天空之琴-被夺走的天空之琴
 70700019:调查-狩猎复用-一般交互线索
-70710008:拾取-任务用拾取点（采集物逻辑）
 70710009:播撒-任务用播撒交互（采集物逻辑）
 70710015:调好的酒-（TEST）调好的酒，现在只有一种酒杯
 70710021:拾取
@@ -11763,9 +13701,6 @@
 70710042:调查-2020海灯节任务调查点B
 70710043:调查-2020海灯节任务调查点C
 70710044:香炉-进香的香炉。
-70710045:（test）赌石的石头（差）-（test）赌石的石头低奖励
-70710046:（test）赌石的石头（中）-（test）赌石的石头中奖励
-70710047:（test）赌石的石头（好）-（test）赌石的石头高奖励
 70710048:（test）赌石的石头底座（差）-（test）赌石的石头底座生成差石头
 70710049:（test）赌石的石头底座（中）-（test）赌石的石头底座生成中等石头
 70710050:（test）赌石的石头底座（好）-（test）赌石的石头底座生成好石头
@@ -11792,7 +13727,6 @@
 70710148:七七药材1-七七线用琉璃百合1
 70710149:七七药材2-七七线用琉璃百合2
 70710151:调查-七七线调查线索
-70710152:饱满的日落果-或许是受到特殊的生长环境的影响，这种日落果看上去更加饱满一些，但除此之外并没有发现其他的特殊之处。
 70710156:涤尘铃-仙人物件「涤尘铃」——不可交互型
 70710157:香膏（红）-香膏（红）——不可交互型
 70710158:香膏（蓝）-香膏（蓝）——不可交互型
@@ -11811,7 +13745,6 @@
 70710190:调查-陨石与冒险任务调查点
 70710191:通用帐篷-陨石线用通用帐篷
 70710195:纸片-璃月三阶段通告悬赏物
-70710196:看起来很普通的甜甜花-(test)陨石轻量活动任务的采集物
 70710198:损坏的遗迹守卫A-公子线配合CS，已损坏的遗迹守卫
 70710199:损坏的遗迹守卫B-公子线配合CS，已损坏的遗迹守卫
 70710200:损坏的遗迹守卫C-公子线配合CS，已损坏的遗迹守卫
@@ -11842,7 +13775,6 @@
 70710239:掩埋-神像_放置芙萝拉的鲜花盒子
 70710240:掩埋-水池_放置芙萝拉的鲜花盒子
 70710241:乱七八糟的脚印-神像_失败芙萝拉的鲜花盒子
-70710243:调查-双子线预热任务调查点
 70710245:调查-双子线预热任务调查点
 70710246:丘丘人武器-魈任务丘丘人武器
 70710247:丘丘人盾牌-魈任务丘丘人盾牌
@@ -12002,6 +13934,7 @@
 70711066:[N/A] 3042357264
 70711067:[N/A] 4135733856
 70711069:[N/A] 1412464568
+70711520:[N/A] 2566197016
 70800030:调查-狩猎 调查
 71700047:夜泊石小车
 71700053:夜泊石小车特效
@@ -12033,7 +13966,6 @@
 71700199:(test)新鲜的莲蓬-（test）海灯节主支线交互一
 71700283:（test）稻妻主线 挖掘
 71700288:调查（无按钮）-调查光效无按钮
-71700289:锈蚀的钥匙
 71700316:燃放烟花-调查光效有箭头有按钮
 71700317:（test）寝子信件 交互
 71700318:取水-（test）托马coop取水
@@ -12052,6 +13984,7 @@
 71700414:(test)万叶假山-双蒙德-2.8万叶主线假山
 71700415:(test)万叶假山-双稻妻-2.8万叶主线假山
 71700454:一张纸条-写满歪斜笔迹皱巴巴的纸条
+71700740:调查
 
 // 肉鸽 操作台
 70310118:肉鸽 操作台 普通战斗
@@ -12070,6 +14003,7 @@
 // 曲线移动Gadget
 70330500:SceneObj_Area_Fd_Property_Ani_Prop_Waterwayship_01
 70330536:SceneObj_UnderSea_FishShip
+70711281:SceneObj_Area_Fd_Property_Ani_Prop_PrivateShip_01
 707111116:SceneObj_Area_Fd_Property_Ani_Prop_Waterwayship_02
 
 // 地城奖励树

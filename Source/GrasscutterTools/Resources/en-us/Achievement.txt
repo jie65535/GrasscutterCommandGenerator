@@ -41,18 +41,18 @@
 80041:Wind-Chasing Adventurer - Complete 10 Open World mechanism-activated Time Trial Challenges in Mondstadt (excludes the Dragonspine area).
 80042:Wind-Chasing Adventurer - Complete 15 Open World mechanism-activated Time Trial Challenges in Mondstadt (excludes the Dragonspine area).
 80043:Continental Explorer: Liyue - Light up the map in the following zones: Bishui Plain, Qiongji Estuary, Minlin, Lisha, Sea of Clouds.
-80044:Surveyor of Stone - Unlock all Teleport Waypoints in Liyue (The Chasm is counted separately).
+80044:Surveyor of Stone - Unlock all Teleport Waypoints in Liyue (The Chasm and Chenyu Vale are counted separately).
 80045:Unmovable Mountain - Upgrade the Statues of The Seven in Liyue to their maximum level.
 80046:Sanctuary Pilgrim: Liyue - Unlock all the Shrines of Depths in Liyue.
-80047:Lithic Guide - Follow 20 Seelie in Liyue to their Seelie Courts (The Chasm is counted separately).
-80048:Lithic Guide - Follow 40 Seelie in Liyue to their Seelie Courts (The Chasm is counted separately).
-80049:Lithic Guide - Follow 60 Seelie in Liyue to their Seelie Courts (The Chasm is counted separately).
-80050:Rock-Steady Treasure Hunter - Open 200 chests in Liyue (The Chasm is counted separately).
-80051:Rock-Steady Treasure Hunter - Open 400 chests in Liyue (The Chasm is counted separately).
-80052:Rock-Steady Treasure Hunter - Open 800 chests in Liyue (The Chasm is counted separately).
-80053:Rock-Steady Adventurer - Complete 10 Open World mechanism-activated Time Trial Challenges in Liyue (The Chasm is counted separately).
-80054:Rock-Steady Adventurer - Complete 20 Open World mechanism-activated Time Trial Challenges in Liyue (The Chasm is counted separately).
-80055:Rock-Steady Adventurer - Complete 40 Open World mechanism-activated Time Trial Challenges in Liyue (The Chasm is counted separately).
+80047:Lithic Guide - Follow 20 Seelie in Liyue to their Seelie Courts (The Chasm and Chenyu Vale are counted separately).
+80048:Lithic Guide - Follow 40 Seelie in Liyue to their Seelie Courts (The Chasm and Chenyu Vale are counted separately).
+80049:Lithic Guide - Follow 60 Seelie in Liyue to their Seelie Courts (The Chasm and Chenyu Vale are counted separately).
+80050:Rock-Steady Treasure Hunter - Open 200 chests in Liyue (The Chasm and Chenyu Vale are counted separately).
+80051:Rock-Steady Treasure Hunter - Open 400 chests in Liyue (The Chasm and Chenyu Vale are counted separately).
+80052:Rock-Steady Treasure Hunter - Open 800 chests in Liyue (The Chasm and Chenyu Vale are counted separately).
+80053:Rock-Steady Adventurer - Complete 10 Open World mechanism-activated Time Trial Challenges in Liyue (The Chasm and Chenyu Vale are counted separately).
+80054:Rock-Steady Adventurer - Complete 20 Open World mechanism-activated Time Trial Challenges in Liyue (The Chasm and Chenyu Vale are counted separately).
+80055:Rock-Steady Adventurer - Complete 40 Open World mechanism-activated Time Trial Challenges in Liyue (The Chasm and Chenyu Vale are counted separately).
 80056:Continental Explorer: Dragonspine - Light up the Dragonspine map.
 80057:Peak Hopper - Unlock all Teleport Waypoints in Dragonspine.
 80058:Seelie in the Snow - Follow 5 Warming Seelie in Dragonspine to their Seelie Courts.
@@ -257,6 +257,47 @@
 80269:Renart the Deceiver - Collect the entire "Fables de Fontaine" series.
 80270:Robben versus Chesterton - Collect the entire "Robben versus Chesterton: Iridescent Brooch" series.
 80271:Compendium of Misery - Collect the entire "The History of the Decline and Fall of Remuria" series.
+80272:Continental Explorer: Land of Harmonious Springs (II) - Light up the maps in the following areas of Fontaine: Liffey Region and the Fontaine Research Institute of Kinetic Energy Engineering Region.
+80273:Font of All Waters (II) - Unlock all Teleport Waypoints in the following areas in Fontaine: Liffey Region and the Fontaine Research Institute of Kinetic Energy Engineering Region
+80274:Sanctuary Pilgrim: Land of Harmonious Springs (II) - Unlock all the Shrines of Depths in the following areas in Fontaine: Liffey Region and the Fontaine Research Institute of Kinetic Energy Engineering Region.
+80275:Tidal Guide (II) - Follow {param0} Seelie in Liffey Region and Fontaine Research Institute of Kinetic Energy Engineering Region to their Seelie Courts.
+80276:Tidal Guide (II) - Follow {param0} Seelie in Liffey Region and Fontaine Research Institute of Kinetic Energy Engineering Region to their Seelie Courts.
+80277:Tidal Guide (II) - Follow {param0} Seelie in Liffey Region and Fontaine Research Institute of Kinetic Energy Engineering Region to their Seelie Courts.
+80278:Waveriding Treasure Hunter (II) - Open {param0} treasure chests in the Liffey Region and the Fontaine Research Institute of Kinetic Energy Engineering Region.
+80279:Waveriding Treasure Hunter (II) - Open {param0} treasure chests in the Liffey Region and the Fontaine Research Institute of Kinetic Energy Engineering Region.
+80280:Waveriding Treasure Hunter (II) - Open {param0} treasure chests in the Liffey Region and the Fontaine Research Institute of Kinetic Energy Engineering Region.
+80281:Waveriding Adventurer (II) - Complete {param0} Open World Time Trial Challenges in the Liffey Region and the Fontaine Research Institute of Kinetic Energy Engineering Region.
+80282:Waveriding Adventurer (II) - Complete {param0} Open World Time Trial Challenges in the Liffey Region and the Fontaine Research Institute of Kinetic Energy Engineering Region.
+80283:Waveriding Adventurer (II) - Complete {param0} Open World Time Trial Challenges in the Liffey Region and the Fontaine Research Institute of Kinetic Energy Engineering Region.
+80284:There Is One Spectacle Grander Than the Sea, That Is the Sky - Get Lanoire out of the Fortress of Meropide.
+80285:This Ends Here - Bear witness to the story of the Fontaine Research Institute of Kinetic Energy Engineering.
+80286:Continental Explorer: Land of Harmonious Springs (III) - Light up the maps of the following areas in Fontaine: Morte Region and Erinnyes Forest.
+80287:Font of All Waters (III) - Unlock all Teleport Waypoints in the following areas in Fontaine: Morte Region and Erinnyes Forest.
+80288:Sanctuary Pilgrim: Land of Harmonious Springs (III) - Unlock all the Shrines of Depths in the following areas in Fontaine: Morte Region and Erinnyes Forest.
+80289:Tidal Guide (III) - Follow {param0} Seelie to their Seelie Courts in the Morte Region and Erinnyes Forest.
+80290:Tidal Guide (III) - Follow {param0} Seelie to their Seelie Courts in the Morte Region and Erinnyes Forest.
+80291:Tidal Guide (III) - Follow {param0} Seelie to their Seelie Courts in the Morte Region and Erinnyes Forest.
+80292:Waveriding Treasure Hunter (III) - Open {param0} treasure chests in the Morte Region and Erinnyes Forest.
+80293:Waveriding Treasure Hunter (III) - Open {param0} treasure chests in the Morte Region and Erinnyes Forest.
+80294:Waveriding Treasure Hunter (III) - Open {param0} treasure chests in the Morte Region and Erinnyes Forest.
+80295:Waveriding Adventurer (III) - Complete a total of {param0} Open World Time Trial Challenges in the Morte Region and Erinnyes Forest.
+80296:Waveriding Adventurer (III) - Complete a total of {param0} Open World Time Trial Challenges in the Morte Region and Erinnyes Forest.
+80297:Waveriding Adventurer (III) - Complete a total of {param0} Open World Time Trial Challenges in the Morte Region and Erinnyes Forest.
+80298:Semnai Sans Shadow - Meet a mysterious fairy on Erinnyes.
+80299:Narzissenkreuz Notes - What left its name behind? What lies spread all over the valley? What reflects itself in the mirror-water? What symbolizes the lonely, world-saving sacrifice?
+80300:Continental Explorer: Where the Bishui Lingers - Light up the Chenyu Vale map in the Liyue region.
+80301:Chenyu's Measure - Unlock all Teleport Waypoints in Chenyu Vale within the Liyue region.
+80302:Jadehall Guide - Follow {param0} Seelie in Chenyu Vale to their Seelie Courts.
+80303:Jadehall Guide - Follow {param0} Seelie in Chenyu Vale to their Seelie Courts.
+80304:Jadehall Guide - Follow {param0} Seelie in Chenyu Vale to their Seelie Courts.
+80305:Jademound Treasure Hunter - Open {param0} chests in Chenyu Vale.
+80306:Jademound Treasure Hunter - Open {param0} chests in Chenyu Vale.
+80307:Jademound Treasure Hunter - Open {param0} chests in Chenyu Vale.
+80308:Jademound Adventurer - Complete {param0} Open World mechanism-activated Time Trial Challenges in Chenyu Vale.
+80309:Jademound Adventurer - Complete {param0} Open World mechanism-activated Time Trial Challenges in Chenyu Vale.
+80310:Jademound Adventurer - Complete {param0} Open World mechanism-activated Time Trial Challenges in Chenyu Vale.
+80311:One Ring for the Rite of All - Upgrade the Votive Rainjade in Carp's Rest to its maximum level.
+80312:Chenyu's Blessings of Sunken Jade - Complete "Chenyu's Blessings of Sunken Jade."
 81000:Overlooking View - Reach the very top of Qingyun Peak.
 81001:The Remains of the Gale - Reach the top of the tower in Stormterror's Lair.
 81002:"Seeds of Stories, Brought by the Wind..." - Reach the nameless island northeast of Mondstadt.
@@ -600,6 +641,88 @@
 81372:Fading Veteran - Defeat the local legend, Fading Veteran.
 81373:Swords of the Gorge - Defeat the local legends, the Swords of the Gorge.
 81374:The Fairy Knight Twins - Defeat the local legends, the Fairy Knight Twins
+81375:Consumer Society - Buy as much as you like at the Rag and Bone Shop.
+81376:When the Clock Strikes Midnight - Discover Caterpillar's true identity.
+81377:Non-Zero-Sum Game - Complete the Coupon Cafeteria satisfaction survey.
+81378:The Superfluous Man's Account - Listen to Clynes's story.
+81379:Les Quatre Coups - Complete the "Fruity Order" and Blanche's story.
+81380:What Lies at the End of the Rainbow...? - Follow the light to where it ultimately leads.
+81381:Come on out, Mystery Ore! Grant my wish! - Gather all seven mysterious yellow-green ores.
+81382:Not So Strait Is the Gate - Opened the door to a certain secret study.
+81383:The Remains of the Day - Spent a lot of time cultivating aesthetics.
+81384:The Calendar of the Future Is Longer Than the Diary of the Past - We all have a bright future ahead of us...
+81385:Break the Time Zone - Pop the Thorny Cyst and purify the waters.
+81386:The Forgotten Ream - Help Broglie retrieve and organize all the hydrological monitoring data.
+81387:While Motors Sleep... - Discover the secret hidden within "Kuisel's Clockwork Workshop."
+81388:The Worst! Fontaine's Eight Evil Clockwork Knights! - Obtained the legacy of the "imperfect" clockwork meka.
+81389:"Automated Supercomputing Field Generator" - Defeat Local Legend: Automated Supercomputing Field Generator.
+81390:Slam-Bang No-Holds Barred Meropide-Style Pankration - Guide Poiret and Genevieve to victory in the recreational Pankration tournament.
+81391:Undocumented Feature - Trigger the hidden property of the machine when repairing the Initial Skill Sample No. 2.
+81392:Le Scaphandre et le Pufferfruit - Complete the advanced underwater training.
+81393:"Luachra the Brilliant" - Defeat the local legend, Luachra the Brilliant.
+81395:Mired in Red Tape - Complete the Fontaine Research Institute's "final review."
+81396:Solitary Report - Obtain Chronie's personally printed "special report."
+81398:The Red Meanies' Revenge - Removed all the Red Meanies and Mini Meanies from Bravais's Press Works.
+81399:The Final Fonta Sea - ...a Font of Refreshment!
+81400:"...What New Tide?" - Read all the fashion reading materials.
+81401:A Perfect Yesterday - The day that has passed cannot stay...
+81402:Thanks For Your Patronage! - Obtained a twice-lucky fortune slip.
+81403:The Final Fonta Sea - ...a Font of Refreshment!
+81404:The Final Fonta Sea - ...a Font of Refreshment!
+81405:"Yseut" - Defeat Local Legend: Yseut.
+81406:Tomorrow, and Tomorrow, and Tomorrow - Teach Pahsiv how to say goodbye.
+81407:Narzissenkreuz Notes: The Labyrinth - "What do you think of this world I have drawn for you?"
+81408:One Involved in the Matter - Learn the secrets of the Narzissenkreuz Ordo and defeat Jakob.
+81409:An Immortal Emperor in a Mundane Universe - Defeat Narzissenkreuz.
+81411:Farewell, Mr. Eliphas - Defeat Eliphas.
+81414:Satisfactory Naval Force - Obtain treasure through a fierce hail of naval cannonry.
+81415:Space Force Cadet - Hit every shot!
+81417:The Story Is Over, But... - "The adventure they call life still goes on."
+81419:I Fear'd the Fury of My Wind - ...Would Blight All Blossoms Fair and True.
+81422:A Predictable Ending - You help the Fontaine Research Institute get back on track...?
+81423:A World Yet to Be Disenchanted - Give Mysterious Xenochromatic Crystals to the helmsman of the "Rusty Rudder" 3 times.
+81424:À la volonté du peuple - Obtain the promise of the Rainbow Rose.
+81425:Crow or Blackbird? - It's a Pelican!
+81427:I Do Believe in Fairies - Help Penny resolve her inner turmoil.
+81428:In the Language of Flowers, the Lumidouce Bell Means...? - You discover a flower in a corner that no one has paid any mind.
+81430:Hope Is a Nice Word - Witness new life spring forth in a certain ruin.
+81431:Even Caesar Could Not Buy This From Me - Obtain the greatest artwork in this world.
+81432:Chassanion - Defeat Local Legend: Chassanion
+81433:Mageblade Corrouge - Defeat Local Legend: Mageblade Corrouge
+81434:Rocky Avildsen - Defeat Local Legend: Rocky Avildsen
+81435:Liam - Defeat Local Legend: Liam
+81436:Deianeira of Snezhevna - Defeat Local Legend: Deianeira of Snezhevna
+81437:A Human Drama - Witness the story of the Leroy family.
+81438:"Rulers of the Chizhang Mountains" - Defeat Local Legend, Rulers of the Chizhang Mountains.
+81439:The Supreme Secret - Find the Guhua treasure.
+81440:True Mastery of Spear and Sword - Complete all the trials in Wangshan Hall.
+81441:A Ruined Tale - Solve the mystery left behind by the ancestors.
+81442:Good as New - Complete the restoration and reconstruction of six ruined areas.
+81443:Break the Benighting - Destroy the seven sources of the miasma.
+81444:To Touch the Face of Heaven - Use adeptal energy to temporarily break free from the earth's shackles.
+81445:A Mere Rock... - ...Should nonetheless be placed with care.
+81446:Tea I Am, Tea in a Cauldron - Help Uncle Luo repair the tea cauldron in Qiaoying Village.
+81447:When Comes Spring or Autumn? - Behold the ancient tree, returned to life.
+81448:"What About Sliced Meat Now?" - Find the habitat of the Venerable Jadestone Turtle.
+81449:Long Days in the Realm Within - Fill all the ancient teacups between Chenyu Vale's mountains and rivers.
+81450:Cloud-Parting Carpfall - Enter the long-sealed Carp's Rest with Lingyuan.
+81452:Five Blades Return to Wangshan - Find all five "lost swords of Guhua."
+81454:"Wanna Learn? I'll Teach You!" - Defeat a special unofficial Guhua Clan disciple 3 times.
+81455:The Mural Veil - Witness four murals.
+81457:Breaking Iron and Stone - Help the Millelith investigate the Iron and Salt Gang's illegal trade activities.
+81458:Chenyu Vale Sights - Obtain a limited-edition "Our Chenyu Vale Trek" commemorative photo album.
+81459:Xiangjun's Dreams - Discover the secret behind the Spiritscent Flower.
+81460:Swift Acceptance - You've learned quite a bit about raising Sumpter Beasts... But is this really useful?
+81461:Non-Hidden Backup Energy Source - Restart the ruin machine in Chenyu Vale.
+81462:At the Construction of the Endless Wall - Find the items left behind by the Millelith.
+81463:Up the Bishui - Hear of the beauty of the Bishui River from boat-songs.
+81465:The Carp Leaps, Heaven's Gates Open - Witness the Golden Carp leap into the valley.
+81466:Spirits Adrift, Alas, in Water - Discover the secret of the Jademouth.
+81467:"Jade, O Jade, Grant Me My Wish..." - Retrieve the final Votive Rainjade.
+81468:As If Seen From Afar - Ascend to the heavens with the dreams of the past.
+81469:Ancient Shaman-Song - Witness the completion of the Rainjade Rite.
+81470:The Secluded Path - Return to Carp's Rest.
+81471:Secret Miracle - Discover the secret of the jade in Mt. Laixin.
 82001:Nothing Special, Just Practice - Hit a falcon mid-flight with your bow.
 82002:Master Sniper - Strike an opponent's weak point from afar with an Aimed Shot.
 82003:Der Freischütz - Strike an opponent's weak point from extremely far away with an Aimed Shot.
@@ -769,6 +892,15 @@
 82178:Funerary Storm - Use a Pneuma attack to weaken the whirlwind Coppelia creates during the performance's climax.
 82179:The King Is Dead, Long Live the King! - Interrupt the Emperor of Fire and Iron's Searing Coronation.
 82180:Icebound Oath - Use an Ousia attack to remove the shield that Coppelius deploys during the performance's climax.
+82181:The Distance of the Moon - Complete 11 Plunging Attacks in a single Gravity Reduction Field, hitting an Experimental Field Generator.
+82182:Gravity Front - Defeat an Experimental Field Generator without being hit by a "Gravity Ripple."
+82183:Shackle Me, That I Might Willingly Be Destroyed - During the climax of "Icewind Suite: Dirge of Coppelia," use Coppelius's attack to make all the Dirge's whirlwinds undergo Elemental Conversion.
+82184:Crabs for the Crab Throne - Defeat the Emperor of Fire and Iron while weakened.
+82185:Collezione di Sabbia - Break the Xenomare Pearl directly without destroying the Resonant Coral Orb while the Millennial Pearl Seahorse is guiding Hoarthunder.
+82186:Fulgura Frango - Defeat the Millennial Pearl Seahorse while it is attempting to re-construct a Xenomare Pearl.
+82187:Many-as-One - Stop the Hydro Tulpa from absorbing Half-Tulpas twice in one challenge.
+82188:The Hitchhiker's Guide to the Galaxy - Enter the belly of the beast twice during a single challenge.
+82189:A Pulse of Ice and Wind - Search for the connection between Solitary Suanni and Cryo.
 84000:The End of the Beginning - Complete the Mondstadt Archon Quests.
 84001:The Outlander Who Caught the Wind - Complete "The Outlander Who Caught the Wind."
 84002:For a Tomorrow Without Tears - Complete "For a Tomorrow Without Tears."
@@ -868,6 +1000,19 @@
 84301:Once Upon a Time in Fleuve Cendre - Learn about Navia's father at the Spina di Rosula's stronghold.
 84302:Tragedy Repeats Itself - Reveal the truth behind the "serial disappearances case."
 84303:As Light Rain Falls Without Reason - Complete "As Light Rain Falls Without Reason."
+84304:Visitor to the "Aquarium" - After completing all of the paperwork, go to the Fortress of Meropide.
+84305:A Vision in a Dream - See what Childe experienced from his perspective in a dream.
+84306:Fortress Corner Society's Rules - Investigated two of the "hidden rules" in the prison.
+84307:To the Stars Shining in the Depths - Complete "To the Stars Shining in the Depths."
+84308:Le Déluge - Freminet recalls what happened to him...
+84309:The Secret of Blue Water - Learn the history and secrets of the Fortress of Meropide.
+84310:Out of the Aeons - Learn of Neuvillette's true identity.
+84311:Cataclysm's Quickening - Complete "Cataclysm's Quickening."
+84312:The Gulls Once Wept - Witness the Poisson disaster.
+84313:Love is Destructive - Navia survives her encounter with Primordial Seawater.
+84314:The Stage of Fate - Lay a trap with your companions that will allow you to "judge a god."
+84315:For a Better Tomorrow - People rebuild their home.
+84316:Masquerade of the Guilty - Complete "Masquerade of the Guilty."
 84501:...Odomu? - Successfully conduct cultural exchange with the hilichurls in "Language Exchange."
 84502:Yo dala? - Successfully conduct cultural exchange with the hilichurls in "Poetry Exchange."
 84503:Perfectionist - Complete all of Tsarevich's commissions flawlessly in "Reliable Helper."
@@ -938,6 +1083,9 @@
 84568:Aesthetic Critique - Listen to Depierris' theories regarding "aesthetics."
 84569:Second Childhood - Play with the kids, and witness their story.
 84570:A Sudden Squall - Witness Iaune's work travails.
+84571:New Inspiration! New Products! - Help Heinry develop 3 new types of Fonta and try the "experimental drink" once.
+84572:Who Tells You the Truth? - Help Guijarro find new inspiration...?
+84573:The Conformist - Witness a certain story regarding light, shadow and hydrology...
 85000:Nothing to Lose But Time - Unlock the secrets of two sundials.
 85001:Interview With a Bygone God - Hear the story of a bygone deity.
 85002:Crouching Dragon, Hidden Chi - Learn about the tale of the Chi.
@@ -999,6 +1147,9 @@
 84149:Make Merry - Complete "Shenanigans and Sweet Wine" and unlock all endings.
 84150:Lucky Coin - Participate in the wager set up by Kaeya.
 84151:Shh... Listen! - Listen to the voice coming from the confinement room.
+84152:Indicators of Fate - Complete "Checks & Cats" and unlock all endings.
+84153:Speedrun - Persuade Lynette to spend a leisurely, peaceful day with you.
+84154:Decks & Detectives - Have a peaceful tea party with Lynette after solving the smuggling case.
 86001:You Came, You Saw, We Co-Oped - Complete Domains together with other players 5 times.
 86002:You Came, You Saw, We Co-Oped - Complete Domains together with other players 20 times.
 86003:You Came, You Saw, We Co-Oped - Complete Domains together with other players 100 times.

@@ -198,12 +198,28 @@ namespace GrasscutterTools.Game.Data
                     #endregion Avatar
 
                     #region Dungeon
-
+                    
                     // Dungeon
-                    File.WriteAllLines(
+                    sb.Clear();
+                    foreach (var it in DungeonData.Values)
+                    {
+                        if (!TextMapData.TryGetText(it.NameTextMapHash.ToString(), out var name))
+                        {
+                            var temp = GameData.Dungeons[it.Id];
+                            if (temp != ItemMap.EmptyName)
+                                name = temp;
+                        }
+
+                        sb.AppendFormat("{0}:{1}", it.Id, name).AppendLine();
+                    }
+                    File.WriteAllText(
                         Path.Combine(dir, "Dungeon.txt"),
-                        DungeonData.Values.Select(it => $"{it.Id}:{TextMapData.GetText(it.NameTextMapHash.ToString())}"),
+                        sb.ToString(),
                         Encoding.UTF8);
+                    //File.WriteAllLines(
+                    //    Path.Combine(dir, "Dungeon.txt"),
+                    //    DungeonData.Values.Select(it => $"{it.Id}:{TextMapData.GetText(it.NameTextMapHash.ToString())}"),
+                    //    Encoding.UTF8);
 
                     #endregion Dungeon
 

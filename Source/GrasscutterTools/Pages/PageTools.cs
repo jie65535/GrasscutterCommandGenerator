@@ -179,6 +179,7 @@ namespace GrasscutterTools.Pages
                 if (TextMapData == null)
                     TextMapData = new TextMapData(TxtGcResRoot.Text);
 
+                //UpdateActivityForLanguage(activityItems, "TextMapCHS", "zh-cn");
                 UpdateActivityForLanguage(activityItems, "TextMapCHT", "zh-tw");
                 UpdateActivityForLanguage(activityItems, "TextMapEN", "en-us");
                 UpdateActivityForLanguage(activityItems, "TextMapRU", "ru-ru");

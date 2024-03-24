@@ -59,6 +59,9 @@ namespace GrasscutterTools.Game.Inventory
         MATERIAL_RENAME_ITEM = 47,
         MATERIAL_GCG_EXCHANGE_ITEM = 48,
         MATERIAL_QUEST_EVENT_BOOK = 49,
+        MATERIAL_PROFILE_PICTURE = 50,
+        MATERIAL_RAINBOW_PRINCE_HAND_BOOK = 51,
+        MATERIAL_PHOTO_DISPLAY_BOOK = 52,
     }
 
     internal static class MaterialTypeExtension
@@ -113,6 +116,9 @@ namespace GrasscutterTools.Game.Inventory
             [MaterialType.MATERIAL_RENAME_ITEM] = "改名卡",
             [MaterialType.MATERIAL_GCG_EXCHANGE_ITEM] = "七圣召唤-特殊卡",
             [MaterialType.MATERIAL_QUEST_EVENT_BOOK] = "案件记录册",
+            [MaterialType.MATERIAL_PROFILE_PICTURE] = "头像道具",
+            [MaterialType.MATERIAL_RAINBOW_PRINCE_HAND_BOOK] = "特尔克西的奇幻历险",
+            [MaterialType.MATERIAL_PHOTO_DISPLAY_BOOK] = "纪念册",
         };
         private static readonly Dictionary<MaterialType, string> TextMapEN = new Dictionary<MaterialType, string>
         {
@@ -164,6 +170,9 @@ namespace GrasscutterTools.Game.Inventory
             [MaterialType.MATERIAL_RENAME_ITEM]             = "Rename_item",
             [MaterialType.MATERIAL_GCG_EXCHANGE_ITEM]       = "Gcg_exchange_item",
             [MaterialType.MATERIAL_QUEST_EVENT_BOOK]        = "Quest_event_book",
+            [MaterialType.MATERIAL_PROFILE_PICTURE]         = "Profile_picture",
+            [MaterialType.MATERIAL_RAINBOW_PRINCE_HAND_BOOK] = "Thelxie's Fantastic Adventures",
+            [MaterialType.MATERIAL_PHOTO_DISPLAY_BOOK]      = "Album",
         };
 
         public static string ToTranslatedString(this MaterialType materialType, string language)
