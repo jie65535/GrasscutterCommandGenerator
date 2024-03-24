@@ -164,7 +164,9 @@ namespace GrasscutterTools.Forms
             // 遍历每一个页面，通知关闭
             foreach (var page in Pages.Values)
             {
+                Logger.I(TAG, $"{page.Name} OnClosed enter");
                 page.OnClosed();
+                Logger.I(TAG, $"{page.Name} OnClosed completed");
             }
 
             // 保存当前设置

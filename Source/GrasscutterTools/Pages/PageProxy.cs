@@ -40,6 +40,8 @@ namespace GrasscutterTools.Pages
                 TxtHost.Text = Settings.Default.Host;
             ChkAutoStart.Checked = Settings.Default.AutoStartProxy;
 
+            Application.ApplicationExit += OnApplicationExit;
+
             if (Settings.Default.AutoStartProxy && !ProxyHelper.IsRunning)
             {
                 Logger.I(Name, "Auto start proxy!");
@@ -47,11 +49,36 @@ namespace GrasscutterTools.Pages
             }
         }
 
+        /// <summary>
+        /// 当应用程序退出时触发
+        /// </summary>
+        private void OnApplicationExit(object sender, EventArgs e)
+        {
+            if (!ProxyHelper.IsRunning) return;
+            Logger.I(Name, "OnApplicationExit: StopProxy...");
+            // 停止代理
+            StopProxy();
+        }
+
+        /// <summary>
+        /// 当页面被关闭时触发
+        /// </summary>
         public override void OnClosed()
+        {
+            if (!ProxyHelper.IsRunning) return;
+            Logger.I(Name, "OnPageClosed: StopProxy...");
+            // 停止代理
+            StopProxy();
+        }
+
+        /// <summary>
+        /// 停止代理
+        /// </summary>
+        private static void StopProxy()
         {
             try
             {
-                Logger.I(Name, "Stop Proxy");
+                Logger.I("PageProxy", "Stop Proxy");
                 ProxyHelper.StopProxy();
             }
             catch (Exception ex)
@@ -59,7 +86,7 @@ namespace GrasscutterTools.Pages
 #if DEBUG
                 MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
 #endif
-                Logger.E(Name, "Stop Proxy Failed.", ex);
+                Logger.E("PageProxy", "Stop Proxy Failed.", ex);
             }
         }
 
