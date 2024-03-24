@@ -135,7 +135,10 @@ namespace GrasscutterTools.Game.Data
             var dicType = typeof(Dictionary<,>).MakeGenericType(typeof(int), type);
             var dic = (IDictionary)Activator.CreateInstance(dicType);
             foreach (GameResource gameResource in list)
+            {
+                if (gameResource.Id == 0) continue;
                 dic.Add(gameResource.Id, gameResource);
+            }
             return dic;
         }
 
