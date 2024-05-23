@@ -311,6 +311,10 @@
 44000457:HideType_InvisibleBait
 44000560:Activity_Gadget_AkaFesPotion_WindZone
 44000578:Activity_Gadget_UGC_Buff_WindZone
+44000590:Activity_HideSeekV4_Skill_SuperPrison
+44000591:Activity_HideSeekV4_Execution_Target
+44000592:Activity_HideSeekV4_Property_Prop_SeekerBattery_01
+44000593:Activity_HideSeekV4_HideType_InvisibleBait
 70010006:LocalTrigger
 70300017:Dummy_Safe
 70320128:SceneObj_Level_Common_Property_Ani_Prop_CharAmuseCoinChecker_01
@@ -786,6 +790,7 @@
 41093023:Liuyun_ElementalBurst_SmallWindHole
 41094004:Bullet_Chiori_ElementalArt_Rush_Detect
 41094006:SkillObj_Chiori_ElementalBurst_RockBomb
+41096003:Arlecchino_ExtraAttack_Bullet
 42000003:Activity_Pitch_Pot_Throw_Bullet
 42000004:Activity_Pitch_Pot_Throw_Bullet_02
 42000005:BossNarzissenkreuzBattle_PlayerSkill_Bullet_1
@@ -1393,6 +1398,7 @@
 42601122:FauneAbyssale_SeaHorse_Primo_ElectronCharge_Electric
 42601123:FauneAbyssale_SeaHorse_Primo_ElectronCharge_Physic
 42601125:FauneAbyssale_SeaHorse_Primo_RockGadget_Crasher
+42601128:FauneAbyssale_SeaHorse_Primo_ShuttleAttack_Bullet
 42602004:Regisvine_RangedAttack01_Bullet
 42602005:Regisvine_RangedAttack02_MinorMissile
 42602006:Regisvine_MissileAttack_LargeMissile
@@ -1420,6 +1426,8 @@
 42602043:Regisvine_Electric_CathodeRings
 42602044:Regisvine_Electric_CollapseBullet_Anode
 42602045:Regisvine_Electric_CollapseBullet_Cathode
+42602051:Regisvine_Fire_BossEvent_RapidFire_Bullet
+42602052:Regisvine_Fire_BossEvent_LavaBlast_MultiBullet_Logic
 42603012:Wyrm_Rock_CrystalSeed_Trigger
 42603014:Wyrm_Rock_FollowHitBox_Roll
 42603015:Wyrm_Rock_FollowHitBox_CrushAtk
@@ -1467,6 +1475,11 @@
 42605045:Drake_DeepSea_WaterSpear_Earth
 42605046:Drake_DeepSea_MagicWaterBall_Small
 42605049:Drake_DeepSea_Laser_HitWall
+42605053:Drake_DeepSea_MagicWaterBall_Small_SP
+42605056:Drake_Primo_Rock_BossEvent_ScaleBurst_Bullet_Ice
+42605057:Drake_Primo_Rock_BossEvent_ScaleBurst_Bullet_Water
+42605059:Drake_Primo_Rock_BossEvent_ScaleGadget_Water_AttackBullet
+42605060:Drake_DeepSea_MagicWaterBall_Big_SP
 42606001:Cicin_ElectricBall
 42606003:Cicin_ThunderEnergy
 42606004:Cicin_WaterBall
@@ -1559,6 +1572,9 @@
 42611016:Fungus_Amanita_Du_Anudatta_Water_HeavyShootBulletDecay
 42611017:Fungus_Raptor_01_SummonAttackBullet_OnGround
 42611018:Fungus_Un_Delta_Grass_BulletDecayedRaptorSummon
+42611019:Fungus_Raptor_BossEvent_PumpkinBombCreator
+42611021:Fungus_Raptor_BossEvent_PumpkinBomb_Bullet
+42611022:Fungus_Raptor_BossEvent_DecayMultiBullet
 42613001:Bullet_Sandworm_Stage01_ShootAttackBullet
 42613002:Bullet_Sandworm_Stage02_TailVerticalShootAttack_BulletOnGround
 42613003:Monster_Sandworm_Stage02_FlyingAttackBall
@@ -1570,6 +1586,13 @@
 42613009:Monster_Sandworm_Stage02_FlyingAttackBall04
 42613010:Monster_Sandworm_Stage02_FlyingAttackBall05
 42613011:Monster_Sandworm_Stage02_FlyingAttackBall06
+42614003:Golem_Centaur_FireBlade
+42614004:Golem_Centaur_FireNote_Near1
+42614005:Golem_Centaur_FireNote_Near2
+42614006:Golem_Centaur_FireNote_Far
+42614007:Golem_Centaur_FireBall_MosterWave
+42614008:Golem_Centaur_FireBall_GadgetWave
+42614101:Golem_Legion_FireBlade
 42615001:FauneAbyssale_HermitCrab_Mature_FireBullet
 42615003:Monster_FauneAbyssale_MantaRay_Bullet
 42615004:Monster_FauneAbyssale_Seal_Bullet
@@ -1775,6 +1798,23 @@
 42909031:Ptahur_Phantom_VertexBreakingBuffAttack
 42909032:Ptahur_Devourer_RockBreaker_01
 42909033:Ptahur_Devourer_RockBreaker_02
+42910002:Nihil_RushAtk_Bullet
+42910003:Nihil_ThrowAtk_Bullet
+42910004:Nihil_DonimatAttack_Dam1
+42910005:Nihil_DonimatAttack_Dam2
+42910006:Nihil_MustKill_ThrowSpearNormal
+42910007:Nihil_MustKill_FinalSpear
+42910008:Nihil_WalkSilk_ShadowBullet1
+42910009:Nihil_WalkSilk_ShadowBullet2
+42910020:Nihil_Harbinger_MustKill_MultiBulletAppear
+42910021:Nihil_Harbinger_MustKill_MultiBulletGround
+42910023:Nihil_FollowWarning
+42910025:Nihil_Story_HelpSkill_Arrow
+42910027:Nihil_Harbinger_MustKill_MultiBulletFinal
+42910028:Nihil_Harbinger_MustKill_MultiBulletFinal2
+42910029:Nihil_Harbinger_MustKill_MultiBulletFinal3
+42910030:Nihil_MustKill_ThrowSpearNormal_Around
+42910031:Nihil_SnapWave_SoundBullet
 43805001:Partner_Animal_Electrohercules_JumpAttack
 43805002:Partner_Animal_Electrohercules_JumpAttack_CriticalTrigger
 43805003:Animal_Electrohercules_RangedAttack01_Attack
@@ -1945,6 +1985,28 @@
 70330545:SceneObj_UnderSea_Line_Bullet
 70330584:SceneObj_Area_Fd_Property_Ani_Prop_UnderSeaFishSpeedUp_02
 70330614:SceneObj_Gear_Combat_TracingEnergyBall_Grass
+70330801:SceneObj_Dragon_Theatre_Drum_Impact_Player_01
+70330802:SceneObj_Dragon_Theatre_Drum_Impact_Monster_01
+70330807:SceneObj_Dragon_Theatre_Drum_Laser_01
+70330808:SceneObj_Dragon_Theatre_Drum_Laser_02
+70330809:SceneObj_Dragon_Theatre_Drum_Laser_03
+70330821:SceneObj_Whale_Cannon_Bullet
+70330829:SceneObj_HaiGou_Whale_DangerBulletLauncher
+70330841:SceneObj_Whale_Hook_Bullet
+70330845:SceneObj_HaiGou_Whale_CastAttackBullet
+70330884:SceneObj_Whale_Fear_Fish_Bullet
+70330911:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_Bounce_01
+70330912:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_Tornado_01
+70330913:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_Tornado_02
+70330914:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_Tornado_03
+70330915:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_Rolldown_01
+70330916:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_Tornado_04
+70330917:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_Tornado_05
+70330918:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_Tornado_06
+70330919:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_Track_01
+70330920:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_03
+70330921:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_Linear_01
+70330933:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_Rolldown_02
 70331002:SceneObj_Activity_Common_Property_Ani_Prop_SnipperBullet_01
 70331029:SceneObj_Area_Fd_Property_Prop_SeelieChallangePointBullet_Fontaine_01
 70350021:SceneObj_Gear_Combat_DropIce_Bullet
@@ -2280,6 +2342,8 @@
 41094003:SkillObj_Chiori_ElementalArt_RockGadget_Turret
 41094005:Chiori_NormalAttack_04
 41094007:SkillObj_Chiori_Turret_Constellation
+41096001:Arlecchino_ElementalBurst_Gadget
+41096002:Arlecchino_ElementalArt_ShadowAvatar
 42001001:Slime_IceCone_AimPoint
 42001005:Slime_IceFog
 42001010:Slime_WindZone_02
@@ -2604,6 +2668,13 @@
 42601120:FauneAbyssale_SeaHorse_Primo_Annihilation_Thunder_Attack
 42601121:FauneAbyssale_SeaHorse_Primo_ThunderStrike_Point
 42601124:FauneAbyssale_SeaHorse_Primo_AirWall
+42601126:FauneAbyssale_SeaHorse_Primo_ThunderStrikeTrap
+42601127:FauneAbyssale_SeaHorse_Primo_ShuttleAttack_DummyPoint
+42601129:FauneAbyssale_SeaHorse_Primo_BossEvent_CoralGadget_Pos1
+42601130:FauneAbyssale_SeaHorse_Primo_BossEvent_CoralGadget_Pos2
+42601131:FauneAbyssale_SeaHorse_Primo_BossEvent_CoralGadget_Pos3
+42601132:FauneAbyssale_SeaHorse_Primo_BossEvent_Pearl
+42601133:FauneAbyssale_SeaHorse_Primo_BossEvent_CoralGadget_Pos4
 42602001:Regisvine_PartControlTarget
 42602002:Regisvine_FruitGadget
 42602003:Regisvine_CoreGadget
@@ -2624,6 +2695,8 @@
 42602046:Regisvine_Electric_Collapse_Gadget
 42602047:Regisvine_Electric_Swtich_SenceDamageGadget_Anode
 42602048:Regisvine_Electric_Swtich_SenceDamageGadget_Cathode
+42602049:Regisvine_Fire_BossEvent_HeadCore
+42602050:Regisvine_Fire_BossEvent_FireStorm_LogicPoint
 42603011:Wyrm_Rock_Roll_NextGadget
 42603013:Wyrm_Rock_CrystalSeed
 42604013:Drake_Rock_IceEnhance_Gadget
@@ -2653,6 +2726,9 @@
 42605050:Drake_DeepSea_IcePillar
 42605051:Drake_DeepSea_ElectricArea
 42605052:Drake_DeepSea_IceArea
+42605054:Drake_Primo_Rock_BossEvent_ScaleGadget_Ice
+42605055:Drake_Primo_Rock_BossEvent_ScaleGadget_Water
+42605058:Drake_Primo_Rock_BossEvent_ElementExplode_Gadget
 42606002:Cicin_BlinkPoint
 42607001:Inu_Shihandai_GrassWall
 42607002:Inu_Shihandai_Invisible_Wave
@@ -2681,6 +2757,10 @@
 42610029:Chrysopelea_Sacred_Attack04_WindZone
 42610039:Panther_Sacred_SacredEnergy_Gadget
 42610043:Panther_Sacred_Attack05_Explode
+42611020:Fungus_Raptor_BossEvent_PumpkinBomb
+42614001:Golem_Centaur_FireBall1
+42614002:Golem_Centaur_FireBall2
+42614102:Golem_Legion_FireArea
 42615002:FauneAbyssale_HermitCrab_Mature_Core
 42615005:FauneAbyssale_HermitCrab_Primo_Core
 42615012:FauneAbyssale_HermitCrab_Primo_InitialPos
@@ -2936,6 +3016,21 @@
 42909011:Ptahur_Devourer_DimensionGate_PhaseOut_Static
 42909018:Ptahur_Vertex_Attack01
 42909029:Ptahur_Devourer_DimensionGate_PhaseOut_Static_Big
+42910001:Nihil_Born_Gadget
+42910010:Nihil_Harbinger_MustKill_Pos
+42910011:Nihil_Harbinger_MustKill_Pos
+42910012:Nihil_Harbinger_MustKill_Pos
+42910013:Nihil_Harbinger_MustKill_Pos
+42910014:Nihil_Harbinger_MustKill_Pos
+42910015:Nihil_Harbinger_MustKill_Pos
+42910016:Nihil_GoodKid_BeforeBattle
+42910017:Nihil_GoodKid_BeforeBattle2
+42910018:Nihil_GoodKid_BeforeBattle3
+42910019:Nihil_GoodKid_Standby
+42910022:Nihil_BadKid_Standby
+42910024:Nihil_Story_HelpSkillHandler
+42910026:Nihil_Story_HelpSkill_RushAtk
+42910032:Nihil_Story_HelpSkill_Bomb
 43805005:Bullet_Animal_Electrohercules_ElectricBall_OnGround
 43805014:Animal_Electrohercules_Defend_Turorial
 44000002:SkillObj_GlidingChallenge_AirDash_Forward
@@ -3106,6 +3201,15 @@
 44000581:Activity_LanternRite_V4_Slime_02
 44000582:Activity_LanternRite_V4_Slime_03
 44000583:Activity_LanternRite_V4_Slime_FollowBullet
+44000584:SkillObj_Activity_HideSeekV4_WardHere_01
+44000585:SkillObj_Activity_HideSeekV4_HuntRadarMark_01
+44000586:SkillObj_Activity_HideSeekV2_Type_01
+44000587:SkillObj_Activity_HideSeekV2_Type_02
+44000588:SkillObj_Activity_HideSeekV2_Type_01
+44000589:SkillObj_Activity_HideSeekV4_WardHereMark_01
+44000594:HideType_A_Style_InvisibleBait_Target
+44000595:HideType_A_Style_InvisibleBait_Target
+44000596:HideType_A_Style_InvisibleBait_Target
 49001001:GeneralSkill_IceDamage_Prison_Center
 49001002:GeneralSkill_WindDamage_Vortex_Center
 49001003:GeneralSkill_RockDamage_LowWave_Emitter
@@ -4842,6 +4946,8 @@
 70292410:SceneObj_Area_Fd_Property_Ani_Prop_HSDTGuard_01
 70292411:SceneObj_Area_Cyg_Property_Ani_Prop_WaterWave_01
 70292412:[N/A] 2746991030
+70292413:SceneObj_Level_Common_Property_Ani_Prop_EffigyChallenge_V5_Cannon_01
+70292414:Camera_Scene_Look_Fov_Override
 70294000:SceneObj_Area_Xm_Property_Ani_Prop_FDBubble_01
 70294001:SceneObj_Area_Xm_Property_Ani_Prop_GrapplingHookPoint_SanBin01
 70300003:SceneObj_Quest_Flying_Get_Coin_Effect
@@ -5391,6 +5497,12 @@
 70310541:SceneObj_Area_Fd_Property_Ani_Prop_PrisonWorkerMachine_02
 70310542:SceneObj_Area_Fd_Property_Ani_Prop_PrisonWorkerMachine_03
 70310543:[N/A] 3040687622
+70310544:SceneObj_Level_Common_Property_Ani_Prop_EffigyChallenge_V5_AirWallR25_01
+70310545:SceneObj_Area_Dq_Property_Ani_Prop_GreatFestivalV2Spotlight_01
+70310546:SceneObj_Area_Dq_Property_Ani_Prop_GreatFestivalV2SpotlightControl_01
+70310547:SceneObj_Area_Dq_Property_Ani_Prop_GreatFestivalV2Spotlight_WatchPoint_01
+70310548:SceneObj_Area_Dq_Property_Ani_Prop_GreatFestivalV2Spotlight_02
+70310551:SceneObj_Area_Dq_Property_Ani_Prop_GreatFestivalV2SpotlightControl_EventGuide
 70320004:Activate
 70320005:SceneObj_Area_Xm_Property_Ani_Prop_InivisbleImmortalFire_01
 70320006:SceneObj_Area_Common_Property_Prop_BrickWall_01
@@ -6031,6 +6143,140 @@
 70330770:SceneObj_Area_Cyjy_Property_Prop_AbyssCoreLvOne_01_FD
 70330771:SceneObj_Area_Cyjy_Property_Prop_AbyssEnergyNozzle_01_FD
 70330773:SceneObj_Area_Fd_Property_Ani_Prop_TheatreCrowd_01
+70330800:[N/A] 866130086
+70330803:SceneObj_Dragon_Theatre_Drum_01
+70330810:SceneObj_GoldenHall_Stop_Point
+70330813:SceneObj_GoldenHall_QTE_Goal
+70330814:SceneObj_WhaleSwim_Timeline_Cam_Control
+70330815:SceneObj_WhaleSwim_Chord
+70330822:SceneObj_GoldenHall_Jump_Water
+70330823:SceneObj_Test_Caster_01
+70330824:SceneObj_Test_Receiver_01
+70330825:SceneObj_Test_Receiver_02
+70330826:SceneObj_WhaleSwim_QTE_Magic_Chord
+70330827:SceneObj_Whale_Trench_Gate
+70330828:SceneObj_HaiGou_Whale_DangerBullet
+70330831:[N/A] 2757369406
+70330835:SceneObj_GoldenHall_Boat
+70330836:SceneObj_GoldenHall_Harp_White
+70330837:SceneObj_Whale_Cannon_Scan_Route_Hint
+70330838:SceneObj_GoldenHall_Harp_Red
+70330840:SceneObj_KPM_OceanCurrent_SpeedUp_12
+70330842:SceneObj_KPM_OceanCurrent_SpeedUp_TPL_01
+70330843:SceneObj_KPM_OceanCurrent_SpeedUp_TPL_02
+70330844:SceneObj_KPM_OceanCurrent_SpeedUp_TPL_03
+70330846:[N/A] 1299227934
+70330850:SceneObj_RemusChains_Main
+70330851:SceneObj_RemusChains_01
+70330852:SceneObj_RemusChains_02
+70330853:SceneObj_RemusChains_03
+70330854:SceneObj_GoldenHall_Stage2_Activate
+70330857:SceneObj_CamLook_Check_4_6
+70330859:SceneObj_Whale_Ripple_Eff
+70330862:[N/A] 4203974998
+70330863:[N/A] 3907418854
+70330864:[N/A] 2364937318
+70330865:[N/A] 2611589734
+70330866:[N/A] 1630862718
+70330867:[N/A] 532731182
+70330868:[N/A] 2520816894
+70330869:[N/A] 228392166
+70330870:[N/A] 2444320734
+70330871:[N/A] 3999121750
+70330872:[N/A] 3966899270
+70330873:[N/A] 740484942
+70330874:[N/A] 1389670158
+70330875:[N/A] 2078612958
+70330876:[N/A] 3109877030
+70330877:[N/A] 2549402118
+70330878:[N/A] 2555344334
+70330879:[N/A] 946998278
+70330880:[N/A] 4157351182
+70330881:SceneObj_KMP_Chord_Eff
+70330885:SceneObj_RemusChains_Sub_02
+70330886:SceneObj_RemusChains_Sub_03
+70330887:SceneObj_WhaleTrenchPlay_FallingStone_01
+70330888:SceneObj_WhaleTrenchPlay_FallingStone_02
+70330889:SceneObj_WhaleTrenchPlay_BigWater_01
+70330891:SceneObj_GoldenHall_Splash_01
+70330894:SceneObj_DragonTheatre_Talk_Gadget_01
+70330898:SceneObj_DeepSea_TunnelStream_Entrance_01
+70330899:SceneObj_Invisible_Water_Current_Entrance_35
+70330900:[N/A] 451034654
+70330901:SceneObj_Area_Fd_Property_Ani_Prop_RemusTuner_01
+70330902:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageMural_01
+70330903:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageMural_02
+70330904:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageMural_03
+70330905:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageMural_04
+70330907:[N/A] 1182894030
+70330908:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageLauncher_01
+70330909:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageLauncher_02
+70330910:SceneObj_Area_Fd_Property_Ani_Prop_RemusBullet_TrackTarget_01
+70330922:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageMural_Thunder_01
+70330924:SceneObj_Area_Fd_Property_Ani_Prop_RemusBookshelf_01
+70330926:SceneObj_Area_Fd_Property_Ani_Prop_RhythmAnemone_01
+70330927:SceneObj_Area_Fd_Property_Ani_Prop_GhostMural_Observer_01
+70330931:SceneObj_Area_Fd_Property_Ani_Prop_RemusEel_01
+70330932:SceneObj_Area_Fd_Property_Ani_Prop_RemusEelCoralReefs_01
+70330934:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageMural_Thunder_02
+70330935:SceneObj_Area_Fd_Property_Ani_Prop_RemusTheaterGate_01
+70330936:SceneObj_Area_Fd_Property_Ani_Prop_RemusBell_01
+70330937:SceneObj_Area_Fd_Property_Ani_Prop_RemusChainPillar_01
+70330938:SceneObj_Area_Fd_Property_Ani_Prop_RemusBook_02
+70330939:SceneObj_Area_Fd_Property_Ani_Prop_GhostMural_Horn_01
+70330940:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageMural_Caster_01
+70330941:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageMural_Receiver_01
+70330942:SceneObj_Area_Fd_Property_Ani_Prop_RemusEel_Caster_01
+70330943:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageMuralWind_Caster_01
+70330944:SceneObj_Area_Fd_Property_Ani_Prop_RemusOccupyChair_01
+70330945:SceneObj_Area_Fd_Property_Ani_Prop_RemusMicrophoneFlower_02
+70330946:SceneObj_Area_Fd_Property_Ani_Prop_RemusFansPlant_01
+70330947:SceneObj_Area_Fd_Property_Ani_Prop_RemusMicrophoneFlower_01
+70330948:SceneObj_Area_Fd_Property_Ani_Prop_RemusFansPlant_02
+70330949:SceneObj_Area_Fd_Property_Ani_Prop_RemusTuner_02
+70330950:SceneObj_Area_Fd_Property_Ani_Prop_RhythmVineLockLarge_01
+70330951:SceneObj_Area_Fd_Property_Ani_Prop_RemusVineCage_01
+70330952:SceneObj_Area_Fd_Property_Ani_Prop_RemusRune_01
+70330953:SceneObj_Area_Fd_Property_Ani_Prop_RemusTownSeal_01
+70330955:SceneObj_Area_Fd_Property_Ani_Prop_RhythmAnemoneRing_01
+70330957:SceneObj_Area_Fd_Property_Ani_Prop_RemusDeepSeaPortal_01
+70330958:SceneObj_Area_Fd_Property_Ani_Prop_SeaProof18M18M_01
+70330959:[N/A] 2506678270
+70330962:SceneObj_Area_Fd_Property_Ani_Prop_RemusDecal_01
+70330963:SceneObj_Area_Fd_Property_Ani_Prop_RemusDecal_02
+70330966:SceneObj_Area_Fd_Property_Ani_Prop_Remus_TeleportPillar_01
+70330967:SceneObj_Area_Fd_Property_Ani_Prop_RemusMusicPlayer_02
+70330970:SceneObj_Area_Fd_Property_Ani_Prop_RemusMagicBooks_02
+70330971:SceneObj_Area_Fd_Property_Ani_Prop_GhostMural_Observer_02
+70330972:SceneObj_Area_Fd_Property_Ani_Prop_RemusMusicBox_01
+70330973:SceneObj_Area_Fd_Property_Ani_Prop_GhostMural_Horn_02
+70330974:SceneObj_Area_Fd_Property_Ani_Prop_RemusDecal_03
+70330975:SceneObj_Area_Fd_Property_Ani_Prop_RemusCat_01
+70330976:SceneObj_Area_Fd_Property_Ani_Prop_RemusOctopusEmoji_01
+70330977:SceneObj_Area_Fd_Property_Ani_Prop_RemusEelCoralReefs_01
+70330978:SceneObj_Area_Fd_Property_Ani_Prop_RemusEelCoralReefs_01
+70330979:Submit
+70330980:SceneObj_Area_Fd_Property_Ani_Prop_RemusChainPillar_02
+70330981:[N/A] 230480094
+70330982:SceneObj_Area_Fd_Property_Ani_Prop_GoldenHall_Elevator_01
+70330983:SceneObj_Area_Fd_Property_Ani_Prop_RemusSwordStatue_01
+70330984:SceneObj_Area_Fd_Property_Ani_Prop_RockDestory_Floor_01
+70330985:SceneObj_Area_Fd_Property_Ani_Prop_RemusSoldierStatue_01
+70330986:SceneObj_Area_Fd_Property_Ani_Prop_RemusSoldierStatue_02
+70330987:SceneObj_Area_Fd_Property_Ani_Prop_RemusStoneBox_01
+70330988:SceneObj_Area_Fd_Property_Ani_Prop_RemusCatEffect_01
+70330989:SceneObj_Area_Fd_Property_Ani_Prop_RemusMagicBooks_01
+70330990:[N/A] 118042670
+70330991:SceneObj_Area_Fd_Property_Ani_Prop_RemusCat_02
+70330992:SceneObj_Area_Fd_Property_Ani_Prop_Remus_PTLK_Twig_01
+70330993:SceneObj_GoldenHall_SmallStage_Bee_Group_01
+70330994:SceneObj_Gear_Other_DungeonAirWall
+70330995:SceneObj_Area_Common_Property_Prop_SnowDungeonAirWall
+70330996:SceneObj_Stages_Fd_JSDT_BigWahle_Splash_01
+70330997:SceneObj_Area_Fd_Property_Ani_Prop_RemusCat_03
+70330998:SceneObj_Area_Fd_Property_Ani_Prop_RemusCat_04
+70330999:SceneObj_Area_Fd_Property_Ani_Prop_RhythmAnemoneRing_02
+70331000:[N/A] 1813507966
 70331001:SceneObj_Activity_Common_Property_Ani_Prop_Snipper_01
 70331003:SceneObj_Level_Fd_Property_Ani_Prop_FilmfestSniper_BombBox_01
 70331004:SceneObj_Level_Fd_Property_Ani_Prop_FilmfestSniper_Blindage_01
@@ -6100,6 +6346,36 @@
 70331182:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_KillAllBall_03
 70331183:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_KillAllBall_04
 70331260:[N/A] 3661427382
+70331401:SceneObj_Level_Common_Property_Ani_Prop_EffigyChallenge_V5_AirWall_02
+70331411:SceneObj_Level_Common_Property_Ani_Prop_EffigyChallenge_V5_AirWall_03
+70331501:[N/A] 3082672286
+70331502:[N/A] 1653534614
+70331503:SceneObj_Area_Fd_Property_Ani_Prop_GiganticStream_01
+70331504:SceneObj_Whale_Scan_Col_GoldenHall
+70331505:SceneObj_Whale_Scan_Col_GoldenHall_Repair
+70331506:SceneObj_Whale_Scan_Col_Mural_Entry
+70331507:SceneObj_Whale_Scan_Col_Mural
+70331508:SceneObj_KPM_Play_BGM
+70331509:SceneObj_Trench_Play_BGM
+70331510:SceneObj_Area_Common_Property_Ani_Prop_HideAndSeekV4_EnterTable_01
+70331512:SceneObj_Area_Fd_Property_Ani_Prop_LanternFishPacman_WaterGlideChampOrb_01
+70331513:SceneObj_Area_Fd_Property_Ani_Prop_WoodenFish_GamePlayController_01
+70331514:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageLightning_01
+70331515:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageLightning_02
+70331516:SceneObj_Area_Fd_Property_Ani_Prop_RemusStageLightning_03
+70331517:SceneObj_Area_Fd_Property_Ani_Prop_RemusCatswitchicon_01
+70331518:SceneObj_Area_Fd_Property_Ani_Prop_RemusCatrandomact_01
+70331519:SceneObj_Area_Fd_Property_Ani_Prop_RemusCatstableact_01
+70331520:SceneObj_Area_Fd_Property_Ani_Prop_RemusMuralAirwall_02
+70331521:SceneObj_Area_Fd_Property_Ani_Prop_RemusBookshelf_01
+70331523:SceneObj_Area_Fd_Property_Ani_Prop_RemusFansPlant_03
+70331524:SceneObj_Area_Fd_Property_Ani_Prop_RemusCatAirWall_01
+70331525:[N/A] 1846601542
+70331526:SceneObj_DragonTheatre_Talk_Gadget_02
+70331527:SceneObj_Area_Fd_Property_Ani_Prop_NihilBGM_01
+70331528:[N/A] 2517842934
+70331529:SceneObj_Area_Common_Property_Prop_DungeonAirWallGate_01
+70331530:[N/A] 3561235286
 70350015:SceneObj_Gear_Other_DungeonFog
 70350017:SceneObj_Environment_Collision_IceWall
 70350018:SceneObj_Environment_Collision_IceWall02
@@ -6432,6 +6708,8 @@
 70350500:Activity_Gadget_AkaFesPotion_Fire_Debuff_Driver
 70350501:SceneObj_Area_Xm_Property_Ani_Prop_FloatFarr_02
 70350512:SceneObj_Level_Common_Property_Ani_Bridge_LyFloatingBridge_01
+70350528:SceneObj_Area_Ly_Property_Ani_Prop_GreatFestivalV2_GuidePoint_01
+70350529:SceneObj_Area_Ly_Property_Ani_Prop_GreatFestivalV2_GuidePoint_02
 70360011:SceneObj_Gear_Other_Balloon_Destination
 70360012:SceneObj_Gear_Other_Balloon_Destination2
 70360013:SceneObj_Gear_Other_Balloon_Destination3
@@ -6913,6 +7191,7 @@
 70600053:三阶怪物掉落
 70600054:四阶怪物掉落
 70600055:五阶怪物掉落
+70600065:[N/A] 3689051134
 70610018:SceneObj_Area_Common_Property_Ani_Prop_LuminousEnergy_01
 70620001:SceneObj_Environment_WindField_PushField01
 70620002:SceneObj_Environment_WindField_PushField02
@@ -7992,6 +8271,7 @@
 70711468:[CHS] - (test)古华遗剑
 70711469:[CHS] - (test)古华遗剑
 70711470:[CHS] - (test)古华遗剑
+70711471:Search
 70711472:[N/A] 1771707064
 70711473:[N/A] 931368768
 70711474:[N/A] 3977061296
@@ -8017,15 +8297,33 @@
 70711494:[N/A] 1130721848
 70711495:[N/A] 2735899096
 70711496:[N/A] 454832160
+70711499:[N/A] 894963696
+70711500:[N/A] 230712120
 70711501:[N/A] 245820744
+70711502:[N/A] 2830209992
+70711503:SceneObj_Area_Xm_Prop_Common_Cyno2_TempleOfSilence_02
+70711504:SceneObj_Quest_MosterObj_RockGadget_Summon_Detect
+70711505:SceneObj_Area_Xm_Prop_Common_Cyno2_TempleOfSilence_01
+70711506:[N/A] 2766250448
 70711507:[N/A] 3323283392
+70711508:[N/A] 1305459072
+70711509:[N/A] 919828696
 70711510:[N/A] 2767925080
 70711511:SceneObj_Quest_Interact_Point_01_NoInteractionIgnoreDist_UW
+70711512:SceneObj_Area_XM_Property_Prop_SilenceTempleAirWall_01
+70711513:[N/A] 818251824
+70711514:[N/A] 3280748904
 70711515:[N/A] 2847003216
 70711516:[N/A] 1955076408
 70711517:[N/A] 2273211672
 70711518:[N/A] 2253302248
 70711519:[N/A] 2953437496
+70711521:[N/A] 3889181896
+70711525:[N/A] 3664702656
+70711532:[N/A] 3770495576
+70711534:[N/A] 1937340752
+70711535:[N/A] 3566751808
+70711568:[CHS] - (test)巴慕恩的日记
 70720216:FireElfTrack
 70720219:SceneObj_Area_Cyjy_Property_Ani_Prop_LitSeelieFootprint_01
 70800002:MsgBoard
@@ -8500,6 +8798,12 @@
 70800952:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Coin_01
 70800953:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Coin_01
 70800999:SceneObj_Area_Common_Property_Ani_Prop_WhiteBox_Coin_01
+70801200:[N/A] 1236371998
+70801201:[N/A] 3185920518
+70801202:[N/A] 2833113806
+70801203:[N/A] 611047574
+70801204:[N/A] 1344702414
+70801205:[N/A] 1394331910
 70900002:trigger中心点-正式版不可见，暂时可见测试
 70900003:SceneObj_Gather_Gather_Clue
 70900023:尖刺墙壁01-尖刺墙壁1块
@@ -9256,6 +9560,11 @@
 71700744:[N/A] 3243337896
 71700745:[N/A] 1908891344
 71700746:[N/A] 4088381512
+71700749:[N/A] 1971570872
+71700750:[N/A] 3486857088
+71700751:[N/A] 233005080
+71700752:[N/A] 3608415800
+71700753:[N/A] 946830120
 72000001:SceneObj_Monster_Eldritch_Tentacle_PA
 72000002:SceneObj_Monster_Eldritch_Tentacle_PB
 72000003:SceneObj_Monster_Eldritch_Tentacle_PC
@@ -9748,6 +10057,9 @@
 77104102:Teahouse Tool: Clear View
 77104103:Throne of Meower
 77104104:Handmade Brooch: "Woven Dreams"
+77104105:Wall-Hearth: "The Firewood that Banishes the Dark"
+77104106:Hotel Railing: "Fresh Mint Leaves"
+77104107:Hotel Railing: "Perfect Viewing Arc"
 77105001:Soft Lounge Sofa
 77105002:"Clear Blue Afternoon"
 77105003:"Unwavering Determination"
@@ -9803,6 +10115,7 @@
 77108029:Two-Way Iron Lamp
 77108030:Annex's Swirling Light
 77108031:[N/A] 4274850718
+77108032:Simple Lighting: "Locally Sourced Materials"
 77109001:Breeze-Blessed Bed
 77109002:Cloudy Haze Bed
 77109003:Yumemiru "Sakura's Rest" Bed
@@ -9864,6 +10177,7 @@
 77111012:Tavern Carpet - "Duelist's Wisdom"
 77111013:Restaurant Rug: "Equal Dialogue"
 77111014:Restaurant Rug: "Bathing in the Breeze"
+77111015:Fontainian Carpet: "Fair and Square"
 77112001:Well-Worn Buckler
 77112002:Well-Worn Shield
 77112003:Well-Worn Sword
@@ -9899,6 +10213,7 @@
 77112033:Indoor Lamp: The Twilight Sea
 77112034:"Musketeer Pictures Prize Commemoration"
 77112035:"Musketeer Pictures Prize Commemoration"
+77112036:Meka Luminaire: "Silent Night's Contemplation"
 77115001:Neat Stack of Books
 77115002:"Scholar's Weariness"
 77115003:"Etiquette of Correspondence"
@@ -10208,6 +10523,12 @@
 77200262:"Site of Artful Ascension"
 77200263:Valley Residence: It's Classified
 77200264:"Port's Fabulous Flavors"
+77200265:Model Meka: "Age of Progress"
+77200266:"Tolling of the Musicmaking Town"
+77200267:"Peaceful Residence in the Musicmaking Town"
+77200268:"Workshop in the Musicmaking Town"
+77200269:"Resourceful Residence in the Musicmaking Town"
+77200270:Music Town's Hut: "Mardouce Harmony"
 77203001:Doorless Pine Cupboard
 77203002:Heavy Fir Forging Table
 77203003:Long Pine Table
@@ -10227,6 +10548,8 @@
 77203017:Square Tea Table: Friendly Welcome
 77203018:Cleverly Crafted Cabinet: Regular Organization
 77203019:Tea Village Stone Table: Cultured Leisure
+77203020:Mallow Wood Long Table: "Engraved Memories"
+77203021:Mallow Wood Round Table: "A Shared Drink"
 77204001:Fir Shelves
 77204002:Fir Weapon Rack
 77204003:Hardwood Weapon Rack
@@ -10444,6 +10767,17 @@
 77204215:"Tea Harvest's Multifunction Rack"
 77204216:"Tea Harvest's Formula for Fragrance"
 77204217:"Tea Harvest's Sun-Dried Fragrance"
+77204218:Sword-Bearing Statue: "Eternal Watch"
+77204219:Mallow Wood Mailbox: "Storage"
+77204220:Mallow Wood Doorframe: "Gentle Melody"
+77204221:Mallow Wood Fence: "Tides"
+77204222:"Origin of Music"
+77204223:"Legion's Furious Horns"
+77204224:"Hidden Serpent"
+77204225:"Mirror-Reflection Lyre"
+77204226:"Crystalline Glory"
+77204227:"Inspiration's Pure White Blossoms"
+77204228:"Salubrious Fragrance"
 77205001:Smooth Wooden Bench
 77205002:Smooth Stone Bench
 77205003:Googol Chair
@@ -10456,6 +10790,8 @@
 77205010:Passage's Evening Ensemble
 77205011:Tea Chair: Cool Breeze
 77205012:"Tea Village Stone Bench: Safe, Spacious, Sturdy"
+77205013:Mallow Wood Bench: "Hidden Melody"
+77205014:Mallow Wood Chair: "E-Z Fold"
 77206001:Bamboo Outdoor Tea Table
 77206002:Wooden Outdoor Tea Table
 77206003:Pear Orchard Accessory: Attend and Listen
@@ -10524,6 +10860,7 @@
 77208048:Port Street Light: Good Things Come in Pairs
 77208049:Valley Stone Lamp: Everbright Light
 77208050:"Cider Lakelight"
+77208051:Music Town's Streetlamp: "Safety Lighting"
 77210001:Fragrant Cedar Vegetable Rack
 77213001:Blooming Hedge
 77213002:Ordinary Garden Hedge
@@ -10676,6 +11013,8 @@
 77213149:Snow-Blanketed Shade
 77213150:Verdant Screen
 77213151:Stoneshrouding Salutation
+77213152:"Blancdouce Bell"
+77213153:"Blue Dewdrop"
 77214001:Hiding Grazestone
 77214002:Recreation Stone
 77214003:Unmoving Kingstone
@@ -11833,6 +12172,11 @@
 71700723:Blanche's Letter
 71700725:Perinheri (I)
 71700726:Perinheri (II)
+71700727:Anecdota Septentrionalis (I)
+71700728:Anecdota Septentrionalis (II)
+71700729:Anecdota Septentrionalis (III)
+71700747:Shikanoin Heizou's Message
+71700748:Puppy Union Admission Details
 77304001:Silk Flower
 77304002:Sweet Flower
 77304003:Cecilia
@@ -12143,6 +12487,30 @@
 70330741:SceneObj_Gear_Platform_Seelie_UW
 70330746:SceneObj_Area_Fd_Property_Ani_Prop_OceanCurrentBubble_03
 70330772:SceneObj_Area_FD_Property_Ani_Build_PortElevator_01
+70330804:SceneObj_Dragon_Theatre_Pile_Driver_01
+70330805:SceneObj_Dragon_Theatre_Pile_Driver_Controller
+70330806:SceneObj_Dragon_Theatre_Laser_Machine
+70330818:SceneObj_HaiGou_Whale_Rock_Big
+70330832:SceneObj_FlashBack_GoldenHall_Elevator
+70330833:SceneObj_HaiGou_Whale_Rock
+70330847:SceneObj_GoldenHall_Pigeon_Avatar_Follow
+70330848:SceneObj_FlashBack_Cam_Follow
+70330855:SceneObj_Bee_Ghost_Platform_01
+70330890:SceneObj_WhaleTrenchPlay_Player_Protect_Shield
+70330895:SceneObj_UnderSea_WaterGlideChampOrb_MovePlatform
+70330897:SceneObj_DeepSea_Fish_01
+70330906:SceneObj_Area_Fd_Property_Ani_Prop_RemusMuralBoat_01
+70330923:SceneObj_Area_Fd_Property_Ani_Prop_RemusBook_01
+70330925:SceneObj_Area_Fd_Property_Ani_Prop_RemusOctopus_01
+70330928:SceneObj_Area_Fd_Property_Ani_Prop_PigeonGhost_02
+70330929:SceneObj_Area_Fd_Property_Ani_Prop_PigeonGhost_01
+70330930:SceneObj_Area_Fd_Property_Ani_Prop_RemusLanternFish_01
+70330954:SceneObj_Area_Fd_Property_Ani_Prop_RemusOctopus_02
+70330960:SceneObj_Area_Fd_Property_Ani_Prop_RemusOctopus_03
+70330961:SceneObj_Area_Fd_Property_Ani_Prop_RemusOctopus_04
+70330964:SceneObj_Area_Fd_Property_Ani_Prop_OceanidPlate_12
+70330965:SceneObj_Area_Fd_Property_Ani_Prop_OceanidPlate_13
+70330969:SceneObj_Area_Fd_Property_Ani_Prop_PigeonGhost_03
 70331005:SceneObj_Level_Fd_Property_Ani_Prop_FilmfestSniper_BalloonCart_01
 70331009:SceneObj_Level_Fd_Property_Ani_Prop_FilmfestSniper_BalloonCart_01
 70331019:SceneObj_Area_Fd_Property_Ani_Prop_BalloonFruit_UnderWater_01
@@ -12153,6 +12521,8 @@
 70331038:SceneObj_Area_Fd_Property_Ani_Prop_BalloonFruit_UnderWater_02
 70331039:SceneObj_Area_Fd_Property_Ani_Prop_DirtyBalloonFruit_UnderWater_02
 70331166:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannon_Obstacle_01
+70331500:SceneObj_LMS_Whale_Howl_Follow
+70331511:SceneObj_Area_Fd_Property_Ani_Prop_LanternFishPacman_RemusLanternFish_01
 70350090:SceneObj_Gear_Spiral_Abyss_FireSeelie
 70350138:SceneObj_WindFlower_WindFlora_BubblePlatform
 70350152:SceneObj_Level_Common_Property_Prop_HtutaoPlatform_01
@@ -12718,6 +13088,7 @@
 50013507:Weapon_Pole_Metal
 50013509:Weapon_Pole_Metal
 50013511:Weapon_Pole_Metal
+50013512:Weapon_Pole_Metal
 50014101:Catalyst_Book
 50014201:Catalyst_Book
 50014301:Catalyst_Book
@@ -12875,6 +13246,7 @@
 70120011:SceneObj_Resident_DungeonEntry_Desert01
 70120012:SceneObj_Resident_DungeonEntry_MengDe01_UW
 70120013:SceneObj_Resident_DungeonEntry_MengDe02_UW
+70120014:SceneObj_Area_Fd_Property_Ani_Prop_PrEntry_01
 70291612:SceneObj_Gear_Property_Prop_MirrorTeleport_01
 70330338:SceneObj_Resident_DungeonEntry_MengDe01
 70330339:SceneObj_Resident_DungeonEntry_MengDe02
@@ -12945,6 +13317,7 @@
 70210133:Luxurious Chest
 70210134:Luxurious Chest
 70210135:Chenyu Adeptea
+70210136:Exquisite Chest
 70211001:Common Chest
 70211002:Common Chest
 70211011:Exquisite Chest
@@ -13322,6 +13695,15 @@
 70330763:SceneObj_Property_Stages_Prop_ChallengestarterUnderWater_04
 70330764:SceneObj_Property_Stages_Prop_ChallengestarterUnderWater_05
 70330765:SceneObj_Property_Stages_Prop_ChallengestarterUnderWater_06
+70330811:SceneObj_GoldenHall_Interact_Desk
+70330820:SceneObj_BigWhale_Summon_Desk
+70330834:SceneObj_GoldenHall_Gate
+70330839:SceneObj_GoldenWay_Starter
+70330860:SceneObj_Area_Common_Property_Ani_Prop_HideAndSeekV4_Codemachine_01
+70330861:SceneObj_Area_Common_Property_Prop_HideAndSeekV4_Prison_01
+70330896:SceneObj_Ani_Prop_RemusBookPickup_01
+70330956:SceneObj_Area_Fd_Property_Ani_Prop_RemusMusicPlayer_01
+70330968:SceneObj_Area_Fd_Property_Ani_Prop_RemusMusicPlayer_03
 70331018:SceneObj_Area_Fd_Property_Ani_Prop_BubbleCage_01
 70331022:SceneObj_Area_Fd_Property_Ani_Prop_SeelieDigPoint_Fontaine_01
 70331028:SceneObj_Area_Fd_Property_Prop_SeelieChallangePoint_Fontaine_01
@@ -13461,6 +13843,8 @@
 70710713:Observe
 70710714:Observe
 70710719:Observe
+70711522:SceneObj_Gear_Operator_Invisible_Operator_04
+70711523:SceneObj_Gear_Operator_Invisible_Operator_02
 70720215:SceneObj_Area_Common_Property_Prop_FireSeeliaLamp_01
 70720218:SceneObj_Area_Cyjy_Property_Ani_Prop_LitSeelieBase_01
 70800042:SceneObj_Area_Common_Property_Ani_Prop_Ayesha_01
@@ -14003,6 +14387,19 @@
 // CurveMoveGadget
 70330500:SceneObj_Area_Fd_Property_Ani_Prop_Waterwayship_01
 70330536:SceneObj_UnderSea_FishShip
+70330812:SceneObj_GoldenHall_QTE_Fly_Point
+70330816:SceneObj_Fish_Group_01
+70330817:SceneObj_Area_BigWhale_Trench_Play
+70330819:SceneObj_Area_BigWhale_Interact
+70330830:SceneObj_Cat_Whale_Trench
+70330849:SceneObj_GoldenHall_Bee_Group_01
+70330856:SceneObj_Area_BigWhale_Ghost
+70330858:SceneObj_KPM_Chord_Bee_Ghost_Group
+70330882:SceneObj_KPM_Along_Bee_Ghost_Group
+70330883:SceneObj_Area_SuperBigWhale_GoldenHall
+70330892:SceneObj_GoldenHall_Bee_Group_02
+70330893:SceneObj_GoldenHall_Bee_Group_03
+70400003:SceneObj_Area_BigWahle_Fly_Play_Test
 70711281:SceneObj_Area_Fd_Property_Ani_Prop_PrivateShip_01
 707111116:SceneObj_Area_Fd_Property_Ani_Prop_Waterwayship_02
 
@@ -14027,6 +14424,12 @@
 
 // CoinCollectLevelGadget
 70360391:[CHS] - (Test)短距寻物看板
+
+// UIInteractGadget
+70360411:SceneObj_Level_Common_Property_Ani_Prop_EffigyChallengeV5_Worktop_01
+77307012:SceneObj_Homeworld_Exterior_Common_Thing_Prop_BalloonBoard_01
+77307018:SceneObj_Homeworld_Exterior_Common_Thing_Prop_FindTubby_Board_01
+77307020:SceneObj_Homeworld_BombPlay_Board
 
 // EchoShell
 70380274:Echoing Conch
@@ -14125,11 +14528,6 @@
 70900332:SceneObj_Gear_GrassWind
 70900336:SceneObj_Gear_GrassWind_Fake
 70900349:SceneObj_Gear_Test_Chemistry_Seed
-
-// UIInteractGadget
-77307012:SceneObj_Homeworld_Exterior_Common_Thing_Prop_BalloonBoard_01
-77307018:SceneObj_Homeworld_Exterior_Common_Thing_Prop_FindTubby_Board_01
-77307020:SceneObj_Homeworld_BombPlay_Board
 
 // Camera
 90000001:Camera

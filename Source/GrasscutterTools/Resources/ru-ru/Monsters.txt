@@ -487,6 +487,7 @@
 25010228:NPC_Quest_Male_Standard_Oppo_13776 - [N/A] 4113952409
 25010229:NPC_Quest_Male_Standard_Oppo_13710 - [N/A] 3792896521
 25010230:NPC_Quest_Male_Standard_Thug_21412 - [N/A] 3475275465
+25010231:NPC_Fontaine_Male_Standard_RobberC_21419 - [N/A] 1092171937
 25010281:Thoarder_Male_Standard_NoWeapon_02 - [N/A] 2390798289
 25010301:Похитители сокровищ: Пиро химик
 25010302:Похитители сокровищ: Пиро химик
@@ -507,6 +508,7 @@
 25010602:Thoarder_Male_Standard_NoWeapon_Ice_02 - [N/A] 726418097
 25010603:Thoarder_Male_Standard_NoWeapon_Ice_03 - [N/A] 2398565441
 25010604:NPC_Quest_Male_Standard_Oppo_13714 - [N/A] 50560321
+25010605:NPC_Fontaine_Male_Standard_RobberB_21418 - [N/A] 859928713
 25010681:Thoarder_Male_Standard_NoWeapon_Ice_01 - [N/A] 3749122441
 25010701:Похитители сокровищ: Разнорабочий
 25010702:NPC_Quest_Male_Fat_Oppo_13873 - [N/A] 2169448041
@@ -517,6 +519,7 @@
 25020103:NPC_Quest_Male_Standard_Virgil_21027 - [N/A] 2865050201
 25020104:NPC_Quest_Male_Standard_Truand_13335 - [N/A] 2313699185
 25020105:Thoarder_Male_Crossbow_01_05 - [N/A] 2794240153
+25020106:NPC_Fontaine_Male_Standard_RobberLeader_21417 - [N/A] 3178123705
 25020201:Стрелок Похитителей сокровищ
 25020204:Похитители сокровищ: Стрелок
 25020205:Thoarder_Male_Standard_Crossbow_02_04 - [N/A] 763791561
@@ -728,6 +731,8 @@
 26051101:Молодой вишап глубин: Громоглот
 26051181:Drake_Deepsea_Electric_02 - [N/A] 4102073641
 26051182:Drake_Deepsea_Electric_02 - [N/A] 3361856489
+26051201:Drake_DeepSea_Water_03 - [N/A] 1100113145
+26051202:Drake_DeepSea_Water_04 - [N/A] 1628565665
 26060101:Электро цицин
 26060201:Гидро цицин
 26060301:Крио цицин
@@ -787,6 +792,7 @@
 26120401:Fungus_Amanita_Du_Udatta_Rock_01 - [N/A] 4098645257
 26120481:Fungus_Amanita_Du_Udatta_Rock_01 - [N/A] 2570825833
 26120482:Fungus_Amanita_Du_Udatta_Rock_01 - [N/A] 1761054305
+26140201:Golem_Legion - [N/A] 3875455425
 26151001:MantaRay_Larva_01 - [N/A] 886787041
 26151002:MantaRay_Larva_01_Large - [N/A] 3329871401
 26151101:MantaRay_Larva_02 - [N/A] 2512505185
@@ -886,6 +892,8 @@
 28020523:Zhimahu_01 - [N/A] 2855484721
 28020524:Pipi_01 - [N/A] 3421069465
 28020525:BulleKnight_01 - [N/A] 3067796769
+28020526:Cassiodo_01 - [N/A] 2612751153
+28020527:Cassiodo_02 - [N/A] 2944438673
 28020601:Снежный хорёк
 28020602:Краснохвостый хорёк
 28020603:Сапожный хорёк
@@ -1263,6 +1271,7 @@
 26020102:Крио папоротник - Событие снежной горы
 26020181:Regisvine_Ice - [N/A] 853193593
 26020201:Пиро орхидея
+26020202:Regisvine_Fire_BossEvent - [N/A] 2183506769
 26020281:Regisvine_Fire - [N/A] 3851885521
 26020301:Regisvine_Electric - [N/A] 67218681
 26020381:Regisvine_Electric - [N/A] 850975377
@@ -1271,6 +1280,7 @@
 26050301:Древний геовишап - Крио
 26050401:Древний геовишап - Электро
 26050501:Древний геовишап (Событие)
+26050502:Drake_Primo_Rock_BossEvent - [N/A] 2752944401
 26050701:Вишап глубин: Ледогрыз
 26050702:Вишап глубин: Ледогрыз
 26050703:Drake_Deepsea_Ice_04 - [N/A] 2859472313
@@ -1279,10 +1289,16 @@
 26050803:Drake_Deepsea_Electric_04 - [N/A] 2259206761
 26080101:Бешт
 26110101:Fungus_Raptor - [N/A] 4290207929
+26110102:Fungus_Raptor_BossEvent - [N/A] 3744825385
 26110181:Fungus_Raptor - [N/A] 2953348961
 26130101:Sandworm_01 - [N/A] 4098645257
+26140101:Golem_Centaur - [N/A] 2147468169
+26140102:Golem_Centaur-WQP1 - [N/A] 3705343377
+26140103:Golem_Centaur-WQP2 - [N/A] 3168183625
+26140104:Golem_Centaur-WQP3 - [N/A] 1988620825
 26170101:HermitCrab_Primo_01 - [N/A] 3278035969
 26180101:SeaHorse_Primo_Electric_01 - [N/A] 2457009441
+26180102:SeaHorse_Primo_Electric_01_BossEvent - [N/A] 586958361
 26190101:Hermit_Normal_01 - [N/A] 368496321
 26190102:Hermit_WQ_01 - [N/A] 4169316993
 26190103:Hermit_Normal_02 - [N/A] 472788273
@@ -1324,6 +1340,10 @@
 29080104:Monster_Apep_Stage3 - [N/A] 3638995681
 29090101:Monster_Ptahur_Devourer - [N/A] 2874735545
 29090102:Monster_Ptahur_Devourer - [N/A] 3470901945
+29100101:Monster_Nihil_01 - [N/A] 1272857369
+29100102:Monster_Nihil_01 - [N/A] 1348084513
+29100103:Monster_Nihil_Harbinger_01 - [N/A] 3248033297
+29100104:Monster_Nihil_Harbinger_01 - [N/A] 777388681
 
 // Env_animal
 28010101:Золотистый краб

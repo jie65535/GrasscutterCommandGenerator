@@ -64,11 +64,12 @@
 73:[CHS] - (test)风场地城测试04
 74:[CHS] - (test)3.2散兵boss地城
 75:Test Domain I
-76:Test Domain II
 77:Test Domain III
 78:Test Domain IV
 79:Test Domain V
 80:Test Domain VI
+81:[N/A] 2802463128
+82:[N/A] 1729431808
 83:Test Domain IX
 84:Test Domain X
 85:Test Domain XI
@@ -83,6 +84,7 @@
 94:[N/A] 2139109760
 95:[N/A] 39763648
 96:[N/A] 898913000
+99:[N/A] 2536168056
 101:The Golden Shadow
 102:Jade Chamber Storyline
 103:Memories: The Golden Shadow I
@@ -129,6 +131,11 @@
 146:Memories: The Titan Amidst the Stars II
 147:Memories: The Titan Amidst the Stars III
 148:Memories: The Titan Amidst the Stars IV
+152:Memories: Parting of Light and Shadow I
+153:Memories: Parting of Light and Shadow II
+154:Memories: Parting of Light and Shadow III
+155:Memories: Parting of Light and Shadow IV
+157:[CHS] - (test)？？？
 1000:Stage Gameplay Test
 1001:Deep Within the Temple of the Falcon
 1002:Find the Stolen Book
@@ -237,7 +244,12 @@
 1193:[CHS] - (test)4.2鲸鱼对话地城
 1194:Chiwang Terrace
 1195:[CHS] - 4.4留云借风真君个人线（test）
+1196:[CHS] - 4.6镜像大世界闪回一（test）
+1197:[CHS] - 4.6镜像大世界闪回二（test）
 1198:Uther's Clothing Factory
+1200:[CHS] - 4.6赛诺2个人线（test）
+1201:[CHS] - 4.6镜像大世界闪回三（test）
+1202:[CHS] - 4.6镜像大世界闪回四（test）
 2000:Lost Treasure of Arcadia
 2001:Storming Terror
 2002:Cleanse Stormterror
@@ -537,6 +549,8 @@
 3128:[CHS] - 爬塔第一档-MC第69关（双路）(test)
 3129:[CHS] - 爬塔第一档-MC第70关（双路）(test)
 3130:[CHS] - 爬塔第一档-MC第71关（双路）(test)
+3131:[CHS] - 爬塔第一档-MC第72关（双路）(test)
+3132:[CHS] - 爬塔第一档-MC第73关（双路）(test)
 3470:[CHS] - 爬塔第二档-MC第1关（双路）(test)
 3471:[CHS] - 爬塔第二档-MC第2关（双路）(test)
 3472:[CHS] - 爬塔第二档-MC第3关（双路）(test)
@@ -608,6 +622,8 @@
 3228:[CHS] - 爬塔第二档-MC第69关（双路）(test)
 3229:[CHS] - 爬塔第二档-MC第70关（双路）(test)
 3230:[CHS] - 爬塔第二档-MC第71关（双路）(test)
+3231:[CHS] - 爬塔第二档-MC第72关（双路）(test)
+3232:[CHS] - 爬塔第二档-MC第73关（双路）(test)
 3570:[CHS] - 爬塔第三档-MC第1关（双路）(test)
 3571:[CHS] - 爬塔第三档-MC第2关（双路）(test)
 3572:[CHS] - 爬塔第三档-MC第3关（双路）(test)
@@ -679,6 +695,8 @@
 3628:[CHS] - 爬塔第三档-MC第69关（双路）(test)
 3629:[CHS] - 爬塔第三档-MC第70关（双路）(test)
 3630:[CHS] - 爬塔第三档-MC第71关（双路）(test)
+3631:[CHS] - 爬塔第三档-MC第72关（双路）(test)
+3632:[CHS] - 爬塔第三档-MC第73关（双路）(test)
 4001:Investigate the turmoil in the Depths of the Ruins
 4003:Explore: Ancient Township Ruins
 4005:Trial: Temporary Weekly Dungeon
@@ -862,6 +880,10 @@
 4505:Domain of Forgery: Curious Contraptions II
 4506:Domain of Forgery: Curious Contraptions III
 4507:Domain of Forgery: Curious Contraptions IV
+4510:Domain of Blessing: Variation I
+4511:Domain of Blessing: Variation II
+4512:Domain of Blessing: Variation III
+4513:Domain of Blessing: Variation IV
 5000:Domain of Blessing: Fires of Purification I
 5001:Domain of Blessing: Fires of Purification I
 5002:Domain of Blessing: Fires of Purification II
@@ -1075,6 +1097,7 @@
 6100:[CHS] - 角色试玩关-？？？(test)
 6101:[CHS] - 角色试玩关-？？？(test)
 6102:[CHS] - 角色试玩关-？？？(test)
+6103:[CHS] - 角色试玩关-？？？(test)
 7000:The Wind from the Reeds Topples Well-Fed Trees
 7001:The Wind from the Reeds Topples Well-Fed Trees: Difficulty 1
 7002:Stop to Rest Your Weary Head, Paint the Bridge Where Adepti Tread: Difficulty 2
@@ -1242,6 +1265,12 @@
 8603:[CHS] - 3.5连线buff挑战4(test)
 8604:[CHS] - 3.5连线buff挑战5(test)
 8605:[CHS] - 3.5连线buff挑战6(test)
+8606:Gaseous Flow Deflection
+8607:Fertile Growth Activation Research
+8608:Effect of Ecological Fluctuations
+8609:Probability of Wound Healing
+8610:Enhancing the Photothermal Effect
+8611:Resonance Vibration Attribution
 8701:[CHS] - UGC游玩白盒（test）
 8801:[CHS] - UGC摆放白盒（test）
 8901:Divine Ingenuity: Collector's Chapter
@@ -1316,3 +1345,11 @@
 9721:[CHS] - (test)4.4海灯节派对玩法01
 9722:[CHS] - (test)4.4海灯节派对玩法02
 9723:[CHS] - (test)4.4海灯节派对玩法03
+9800:[N/A] 1311755008
+9801:[N/A] 2888622040
+9802:[N/A] 3144740912
+9803:[N/A] 2604048472
+9811:[CHS] - (test)4.6躲猫猫01达达帕乌
+9812:[CHS] - (test)4.6躲猫猫02蒙德酒庄
+9813:[CHS] - (test)4.6躲猫猫03璃月遗迹
+9814:[CHS] - (test)4.6躲猫猫04稻妻离岛
