@@ -61,10 +61,10 @@ namespace GrasscutterTools.Forms
 
         private void InitBannerPrefab()
         {
-            CmbPrefab.Items.Clear();
-            CmbPrefab.Items.AddRange(GameData.GachaBannerPrefabs.Names);
-            CmbTitlePath.Items.Clear();
-            CmbTitlePath.Items.AddRange(GameData.GachaBannerTitles.Names);
+            CmbPrefab.DisplayMember = "Value";
+            CmbPrefab.DataSource = GameData.GachaBannerPrefabs;
+            CmbTitlePath.DisplayMember = "Value";
+            CmbTitlePath.DataSource = GameData.GachaBannerTitles;
         }
 
         protected override void OnLoad(EventArgs e)
@@ -405,6 +405,12 @@ namespace GrasscutterTools.Forms
 
         #region - 卡池参数 -
 
+        private static string TrimPrefixAndSuffix(string text, int prefixLength, int suffixLength)
+        {
+            return text.Substring(prefixLength, text.Length - prefixLength - suffixLength);
+        }
+
+
         /// <summary>
         /// 显示指定卡池参数
         /// </summary>
@@ -416,14 +422,28 @@ namespace GrasscutterTools.Forms
                 NUDGachaType.Value = banner.GachaType;
                 NUDScheduleId.Value = banner.ScheduleId;
                 CmbBannerType.SelectedIndex = (int)banner.BannerType;
-                if (string.IsNullOrEmpty(banner.PrefabPath) || !int.TryParse(banner.PrefabPath.Substring("GachaShowPanel_A".Length, 3), out int prefabId))
+                const string prefabPrefix = "GachaShowPanel_";
+                if (string.IsNullOrEmpty(banner.PrefabPath) || banner.PrefabPath.Length <= prefabPrefix.Length)
+                {
                     CmbPrefab.SelectedIndex = -1;
+                }
                 else
-                    CmbPrefab.SelectedIndex = Array.IndexOf(GameData.GachaBannerPrefabs.Ids, prefabId);
-                if (string.IsNullOrEmpty(banner.TitlePath) || !int.TryParse(banner.TitlePath.Substring("UI_GACHA_SHOW_PANEL_A".Length, 3), out int titleId))
+                {
+                    var prefabKey = banner.PrefabPath.Substring(prefabPrefix.Length);
+                    CmbPrefab.SelectedIndex = GameData.GachaBannerPrefabs.FindIndex(it => it.Key == prefabKey);
+                }
+
+                const string titlePrefix = "UI_GACHA_SHOW_PANEL_";
+                const string suffix = "_TITLE";
+                if (string.IsNullOrEmpty(banner.TitlePath) || banner.TitlePath.Length <= titlePrefix.Length + suffix.Length)
+                {
                     CmbTitlePath.SelectedIndex = -1;
+                }
                 else
-                    CmbTitlePath.SelectedIndex = Array.IndexOf(GameData.GachaBannerTitles.Ids, titleId);
+                {
+                    var titleKey = TrimPrefixAndSuffix(banner.TitlePath, titlePrefix.Length, suffix.Length);
+                    CmbTitlePath.SelectedIndex = GameData.GachaBannerTitles.FindIndex(it => it.Key == titleKey);
+                }
                 RbCostItem224.Checked = banner.CostItemId == 224;
                 RbCostItem223.Checked = banner.CostItemId == 223;
                 NUDCostItemAmount1.Value = banner.CoseItemAmount;
@@ -458,16 +478,16 @@ namespace GrasscutterTools.Forms
                 return null;
             }
 
-            var prefabId = GameData.GachaBannerPrefabs.Ids[CmbPrefab.SelectedIndex];
-            var titleId = GameData.GachaBannerTitles.Ids[CmbTitlePath.SelectedIndex];
+            var prefabId = GameData.GachaBannerPrefabs[CmbPrefab.SelectedIndex].Key;
+            var titleId = GameData.GachaBannerTitles[CmbTitlePath.SelectedIndex].Key;
             var banner = new GachaBanner3
             {
                 GachaType = (int)NUDGachaType.Value,
                 ScheduleId = (int)NUDScheduleId.Value,
                 BannerType = (BannerType)CmbBannerType.SelectedIndex,
-                PrefabPath = $"GachaShowPanel_A{prefabId:000}",
-                PreviewPrefabPath = $"UI_Tab_GachaShowPanel_A{prefabId:000}",
-                TitlePath = $"UI_GACHA_SHOW_PANEL_A{titleId:000}_TITLE",
+                PrefabPath = $"GachaShowPanel_{prefabId}",
+                PreviewPrefabPath = $"UI_Tab_GachaShowPanel_{prefabId}",
+                TitlePath = $"UI_GACHA_SHOW_PANEL_{titleId}_TITLE",
                 CostItemId = RbCostItem224.Checked ? 224 : 223,
                 CoseItemAmount = (int)NUDCostItemAmount1.Value,
                 CostItemId10 = RbCostItem224.Checked ? 224 : 223,

@@ -181,8 +181,8 @@
   <data name="Error" xml:space="preserve">
     <value>Error</value>
   </data>
-  <data name="GachaBennerPrefab" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\en-us\GachaBennerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="GachaBannerPrefab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\en-us\GachaBannerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="Help" xml:space="preserve">
     <value>Help</value>
@@ -285,8 +285,8 @@ Improvement suggestions have been submitted, please use caution to send emails t
   <data name="ShopJsonOverrideWarning" xml:space="preserve">
     <value>Only allowed to save in Shop.json format! Are you sure you want to overwrite the currently specified file?</value>
   </data>
-  <data name="GachaBennerTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\en-us\GachaBennerTitle.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
+  <data name="GachaBannerTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\en-us\GachaBannerTitle.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
   </data>
   <data name="Dungeon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\en-us\Dungeon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>

@@ -787,8 +787,8 @@
     <Content Include="Resources\en-us\CustomCommands.txt" />
     <None Include="Resources\en-us\Dungeon.txt" />
     <Content Include="Resources\en-us\Cutscene.txt" />
-    <Content Include="Resources\en-us\GachaBennerTitle.txt" />
-    <Content Include="Resources\en-us\GachaBennerPrefab.txt" />
+    <Content Include="Resources\en-us\GachaBannerTitle.txt" />
+    <Content Include="Resources\en-us\GachaBannerPrefab.txt" />
     <Content Include="Resources\en-us\Gadget.txt" />
     <Content Include="Resources\en-us\Item.txt" />
     <Content Include="Resources\en-us\Monsters.txt" />
@@ -810,8 +810,8 @@
     <Content Include="Resources\ru-ru\CustomCommands.txt" />
     <None Include="Resources\ru-ru\Dungeon.txt" />
     <Content Include="Resources\ru-ru\Cutscene.txt" />
-    <Content Include="Resources\ru-ru\GachaBennerTitle.txt" />
-    <Content Include="Resources\ru-ru\GachaBennerPrefab.txt" />
+    <Content Include="Resources\ru-ru\GachaBannerTitle.txt" />
+    <Content Include="Resources\ru-ru\GachaBannerPrefab.txt" />
     <Content Include="Resources\ru-ru\Gadget.txt" />
     <Content Include="Resources\ru-ru\Item.txt" />
     <Content Include="Resources\ru-ru\Monsters.txt" />
@@ -839,7 +839,7 @@
     <None Include="Resources\zh-cn\Dungeon.txt" />
     <Content Include="Resources\zh-cn\Cutscene.txt" />
     <Content Include="Resources\zh-cn\GachaBannerTitle.txt" />
-    <Content Include="Resources\zh-cn\GachaBennerPrefab.txt" />
+    <Content Include="Resources\zh-cn\GachaBannerPrefab.txt" />
     <Content Include="Resources\zh-cn\Gadget.txt" />
     <Content Include="Resources\zh-cn\Item.txt" />
     <Content Include="Resources\zh-cn\Monsters.txt" />
@@ -858,8 +858,8 @@
     <Content Include="Resources\zh-tw\CustomCommands.txt" />
     <None Include="Resources\zh-tw\Dungeon.txt" />
     <Content Include="Resources\zh-tw\Cutscene.txt" />
-    <Content Include="Resources\zh-tw\GachaBennerTitle.txt" />
-    <Content Include="Resources\zh-tw\GachaBennerPrefab.txt" />
+    <Content Include="Resources\zh-tw\GachaBannerTitle.txt" />
+    <Content Include="Resources\zh-tw\GachaBannerPrefab.txt" />
     <None Include="Resources\zh-tw\Gadget.txt" />
     <Content Include="Resources\zh-tw\Item.txt" />
     <Content Include="Resources\zh-tw\Monsters.txt" />

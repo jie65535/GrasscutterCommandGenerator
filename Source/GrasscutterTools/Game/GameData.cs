@@ -17,6 +17,7 @@
  *
  **/
 
+using System.Collections.Generic;
 using GrasscutterTools.Properties;
 
 namespace GrasscutterTools.Game
@@ -42,11 +43,26 @@ namespace GrasscutterTools.Game
             Dungeons = new ItemMap(Resources.Dungeon);
             Weapons = new ItemMap(Resources.Weapon);
             WeaponColors = new ItemMap(Resources.WeaponColor);
-            GachaBannerPrefabs = new ItemMap(Resources.GachaBennerPrefab);
-            GachaBannerTitles = new ItemMap(Resources.GachaBannerTitle);
+            GachaBannerPrefabs = ToDictionary(Resources.GachaBannerPrefab);
+            GachaBannerTitles = ToDictionary(Resources.GachaBannerTitle);
             Quests = new ItemMap(Resources.Quest);
             ShopType = new ItemMap(Resources.ShopType);
             Weathers = new ItemMapGroup(Resources.Weather);
+        }
+
+        private static List<KeyValuePair<string, string>> ToDictionary(string file)
+        {
+            var lines = file.Split('\n');
+            var dic = new List<KeyValuePair<string, string>>(lines.Length);
+            foreach (var line in lines)
+            {
+                var i = line.IndexOf(':');
+                if (i <= 0) continue;
+                var key = line.Substring(0, i).Trim();
+                var value = line.Substring(i + 1).Trim();
+                dic.Add(new KeyValuePair<string, string>(key, value));
+            }
+            return dic;
         }
 
         public static ItemMap Achievements { get; private set; }
@@ -83,9 +99,9 @@ namespace GrasscutterTools.Game
 
         public static ItemMap WeaponColors { get; private set; }
 
-        public static ItemMap GachaBannerPrefabs { get; private set; }
+        public static List<KeyValuePair<string, string>> GachaBannerPrefabs { get; private set; }
 
-        public static ItemMap GachaBannerTitles { get; private set; }
+        public static List<KeyValuePair<string, string>> GachaBannerTitles { get; private set; }
 
         public static ItemMap Quests { get; private set; }
 

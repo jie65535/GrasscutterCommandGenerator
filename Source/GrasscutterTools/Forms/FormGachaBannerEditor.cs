@@ -50,8 +50,10 @@ namespace GrasscutterTools.Forms
 
         private void InitBannerPrefab()
         {
-            CmbPrefab.Items.Clear();
-            CmbPrefab.Items.AddRange(GameData.GachaBannerPrefabs.Names);
+            CmbPrefab.DisplayMember = "Value";
+            CmbPrefab.DataSource = GameData.GachaBannerPrefabs;
+            //CmbPrefab.Items.Clear();
+            //CmbPrefab.Items.AddRange(GameData.GachaBannerPrefabs.Names);
         }
 
         private void InitCheckedListBoxs()
@@ -96,6 +98,11 @@ namespace GrasscutterTools.Forms
 
         #region - UI -
 
+        private static string TrimPrefixAndSuffix(string text, int prefixLength, int suffixLength)
+        {
+            return text.Substring(prefixLength, text.Length - prefixLength - suffixLength);
+        }
+
         private void ShowBanner(GachaBanner banner)
         {
             try
@@ -103,10 +110,17 @@ namespace GrasscutterTools.Forms
                 NUDGachaType.Value = banner.GachaType;
                 NUDScheduleId.Value = banner.ScheduleId;
                 CmbBannerType.SelectedIndex = (int)banner.BannerType;
-                if (string.IsNullOrEmpty(banner.TitlePath) || !int.TryParse(banner.TitlePath.Substring("UI_GACHA_SHOW_PANEL_A".Length, 3), out int prefabId))
+                const string titlePrefix = "UI_GACHA_SHOW_PANEL_";
+                const string suffix = "_TITLE";
+                if (string.IsNullOrEmpty(banner.TitlePath) || banner.TitlePath.Length <= titlePrefix.Length + suffix.Length)
+                {
                     CmbPrefab.SelectedIndex = -1;
+                }
                 else
-                    CmbPrefab.SelectedIndex = Array.IndexOf(GameData.GachaBannerPrefabs.Ids, prefabId);
+                {
+                    var titleKey = TrimPrefixAndSuffix(banner.TitlePath, titlePrefix.Length, suffix.Length);
+                    CmbPrefab.SelectedIndex = GameData.GachaBannerTitles.FindIndex(it => it.Key == titleKey);
+                }
                 RbCostItem224.Checked = banner.CostItem == 224;
                 RbCostItem223.Checked = banner.CostItem == 223;
                 NUDBeginTime.Value = banner.BeginTime;
@@ -153,15 +167,15 @@ namespace GrasscutterTools.Forms
             else
                 purpleIds = TxtRateUpItems2.Text.Split(',').Select(s => int.Parse(s.Trim())).ToArray();
 
-            var prefabId = GameData.GachaBannerPrefabs.Ids[CmbPrefab.SelectedIndex];
+            var prefabId = GameData.GachaBannerPrefabs[CmbPrefab.SelectedIndex].Key;
             GachaBanner banner = new GachaBanner
             {
                 GachaType = (int)NUDGachaType.Value,
                 ScheduleId = (int)NUDScheduleId.Value,
                 BannerType = (BannerType)CmbBannerType.SelectedIndex,
-                PrefabPath = $"GachaShowPanel_A{prefabId:000}",
-                PreviewPrefabPath = $"UI_Tab_GachaShowPanel_A{prefabId:000}",
-                TitlePath = $"UI_GACHA_SHOW_PANEL_A{prefabId:000}_TITLE",
+                PrefabPath = $"GachaShowPanel_{prefabId}",
+                PreviewPrefabPath = $"UI_Tab_GachaShowPanel_{prefabId}",
+                TitlePath = $"UI_GACHA_SHOW_PANEL_{prefabId}_TITLE",
                 CostItem = RbCostItem224.Checked ? 224 : 223,
                 BeginTime = (int)NUDBeginTime.Value,
                 EndTime = (int)NUDEndTime.Value,

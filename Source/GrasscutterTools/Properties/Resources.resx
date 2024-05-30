@@ -178,8 +178,8 @@
   <data name="Error" xml:space="preserve">
     <value>错误</value>
   </data>
-  <data name="GachaBennerPrefab" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-cn\GachaBennerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="GachaBannerPrefab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-cn\GachaBannerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="SettingSaveError" xml:space="preserve">
     <value>保存设置时异常：</value>

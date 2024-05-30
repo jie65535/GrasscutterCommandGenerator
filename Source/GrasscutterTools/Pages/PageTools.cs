@@ -22,6 +22,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
 using GrasscutterTools.Game;
@@ -151,10 +152,8 @@ namespace GrasscutterTools.Pages
             {
                 if (!CheckInputPaths()) return;
 
-                if (TextMapData == null)
-                    TextMapData = new TextMapData(TxtGcResRoot.Text);
-                if (GameResources == null)
-                    GameResources = new GameResources(TxtGcResRoot.Text, TextMapData);
+                TextMapData ??= new TextMapData(TxtGcResRoot.Text);
+                GameResources ??= new GameResources(TxtGcResRoot.Text, TextMapData);
 
                 GameResources.ConvertResources(TxtProjectResRoot.Text);
                 MessageBox.Show("OK", Resources.Tips, MessageBoxButtons.OK);
@@ -176,8 +175,7 @@ namespace GrasscutterTools.Pages
                     Encoding.UTF8);
                 var activityItems = JsonConvert.DeserializeObject<List<NewActivityItem>>(json);
 
-                if (TextMapData == null)
-                    TextMapData = new TextMapData(TxtGcResRoot.Text);
+                TextMapData ??= new TextMapData(TxtGcResRoot.Text);
 
                 UpdateActivityForLanguage(activityItems, "TextMapCHS", "zh-cn");
                 UpdateActivityForLanguage(activityItems, "TextMapCHT", "zh-tw");
@@ -217,6 +215,52 @@ namespace GrasscutterTools.Pages
             //    activityFilePath,
             //    activityItems.Select(it => $"{it.ActivityId}:{TextMapData.GetText(it.NameTextMapHash)}"),
             //    Encoding.UTF8);
+        }
+
+
+
+        private void UpdateGachaResourceForLanguage(string textMap, string language)
+        {
+            var i = Array.IndexOf(TextMapData.TextMapFiles, textMap);
+            TextMapData.LoadTextMap(TextMapData.TextMapFilePaths[i]);
+
+            var titleBuffer = new StringBuilder();
+            const string titlePattern = "UI_GACHA_SHOW_PANEL_([^_]+?)_TITLE";
+            const string markPattern = "<[^>]+>";
+
+            foreach (var kv in TextMapData.ManualTextMap)
+            {
+                var titleId = Regex.Match(kv.Value, titlePattern);
+                if (!titleId.Success) continue;
+                var text = TextMapData.TextMap[kv.Key];
+                titleBuffer.Append(titleId.Groups[1].Captures[0].Value)
+                    .Append(":")
+                    .AppendLine(Regex.Replace(text, markPattern, ""));
+            }
+
+            var titleFilePath = Path.Combine(TxtProjectResRoot.Text, language, "GachaBannerTitle.txt");
+            File.WriteAllText(titleFilePath, titleBuffer.ToString(), Encoding.UTF8);
+
+        }
+
+        private void BtnUpdateBannerTitles_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!CheckInputPaths()) return;
+
+                TextMapData ??= new TextMapData(TxtGcResRoot.Text);
+
+                UpdateGachaResourceForLanguage("TextMapCHS", "zh-cn");
+                UpdateGachaResourceForLanguage("TextMapCHT", "zh-tw");
+                UpdateGachaResourceForLanguage("TextMapEN", "en-us");
+                UpdateGachaResourceForLanguage("TextMapRU", "ru-ru");
+                MessageBox.Show("OK", Resources.Tips, MessageBoxButtons.OK);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

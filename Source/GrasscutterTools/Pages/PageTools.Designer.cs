@@ -36,6 +36,7 @@
             this.TxtGcResRoot = new System.Windows.Forms.TextBox();
             this.BtnUpdateAllResources = new System.Windows.Forms.Button();
             this.BtnUpdateActivity = new System.Windows.Forms.Button();
+            this.BtnUpdateBannerTitles = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnUpdateResources
@@ -110,6 +111,16 @@
             this.BtnUpdateActivity.UseVisualStyleBackColor = true;
             this.BtnUpdateActivity.Click += new System.EventHandler(this.BtnUpdateActivity_Click);
             // 
+            // BtnUpdateBannerTitles
+            // 
+            this.BtnUpdateBannerTitles.Location = new System.Drawing.Point(353, 100);
+            this.BtnUpdateBannerTitles.Name = "BtnUpdateBannerTitles";
+            this.BtnUpdateBannerTitles.Size = new System.Drawing.Size(150, 30);
+            this.BtnUpdateBannerTitles.TabIndex = 0;
+            this.BtnUpdateBannerTitles.Text = "Update Banner Titles";
+            this.BtnUpdateBannerTitles.UseVisualStyleBackColor = true;
+            this.BtnUpdateBannerTitles.Click += new System.EventHandler(this.BtnUpdateBannerTitles_Click);
+            // 
             // PageTools
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
@@ -118,6 +129,7 @@
             this.Controls.Add(this.LblGcResRoot);
             this.Controls.Add(this.TxtProjectResRoot);
             this.Controls.Add(this.LblProjectResRoot);
+            this.Controls.Add(this.BtnUpdateBannerTitles);
             this.Controls.Add(this.BtnUpdateActivity);
             this.Controls.Add(this.BtnUpdateAllResources);
             this.Controls.Add(this.BtnConvertCutScene);
@@ -138,5 +150,6 @@
         private System.Windows.Forms.TextBox TxtGcResRoot;
         private System.Windows.Forms.Button BtnUpdateAllResources;
         private System.Windows.Forms.Button BtnUpdateActivity;
+        private System.Windows.Forms.Button BtnUpdateBannerTitles;
     }
 }

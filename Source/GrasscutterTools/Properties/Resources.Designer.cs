@@ -837,9 +837,9 @@ namespace GrasscutterTools.Properties {
         ///103:月草的赐慧-纳西妲
         ///104 [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
-        internal static string GachaBennerPrefab {
+        internal static string GachaBannerPrefab {
             get {
-                return ResourceManager.GetString("GachaBennerPrefab", resourceCulture);
+                return ResourceManager.GetString("GachaBannerPrefab", resourceCulture);
             }
         }
         

@@ -178,8 +178,8 @@
   <data name="Error" xml:space="preserve">
     <value>錯誤</value>
   </data>
-  <data name="GachaBennerPrefab" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-tw\GachaBennerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="GachaBannerPrefab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\GachaBannerPrefab.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="Help" xml:space="preserve">
     <value>幫助</value>
@@ -279,8 +279,8 @@
   <data name="ShopJsonOverrideWarning" xml:space="preserve">
     <value>僅允許以 Shop.json 格式保存！確定要覆蓋當前指定文件嗎？</value>
   </data>
-  <data name="GachaBennerTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\zh-tw\GachaBennerTitle.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  <data name="GachaBannerTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\zh-tw\GachaBannerTitle.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="Dungeon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\zh-tw\Dungeon.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
