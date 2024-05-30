@@ -1,8 +1,1542 @@
 [
 	{
+		"comment": "4.6.2 Wanderer",
+		"gachaType": 301,
+		"scheduleId": 169,
+		"prefabPath": "GachaShowPanel_A184",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0109_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1074, 1076, 1024 ],
+		"rateUpItems5": [ 1075 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.6.2 Baizhu",
+		"gachaType": 400,
+		"scheduleId": 168,
+		"prefabPath": "GachaShowPanel_A185",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0130_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1074, 1076, 1024 ],
+		"rateUpItems5": [ 1082 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.6.2",
+		"gachaType": 302,
+		"scheduleId": 167,
+		"prefabPath": "GachaShowPanel_A186",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 13427, 15427, 11401, 12405, 14403 ],
+		"rateUpItems5": [ 14512, 14505 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
+		"comment": "4.6.1 Arlecchino",
+		"gachaType": 301,
+		"scheduleId": 166,
+		"prefabPath": "GachaShowPanel_A181",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0181_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1083, 1085, 1023 ],
+		"rateUpItems5": [ 1096 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.6.1 Lyney",
+		"gachaType": 400,
+		"scheduleId": 165,
+		"prefabPath": "GachaShowPanel_A182",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0145_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1083, 1085, 1023 ],
+		"rateUpItems5": [ 1084 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.6.1",
+		"gachaType": 302,
+		"scheduleId": 164,
+		"prefabPath": "GachaShowPanel_A183",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 11427, 12427, 13401, 14409, 15401 ],
+		"rateUpItems5": [ 13512, 15512 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
+		"comment": "4.5.2 Neuvllette",
+		"gachaType": 301,
+		"scheduleId": 163,
+		"prefabPath": "GachaShowPanel_A178",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0151_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1014, 1025, 1048 ],
+		"rateUpItems5": [ 1087 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.5.2 Kaedehara Kazuha",
+		"gachaType": 400,
+		"scheduleId": 162,
+		"prefabPath": "GachaShowPanel_A179",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A045_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1014, 1025, 1048 ],
+		"rateUpItems5": [ 1047 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.5.2",
+		"gachaType": 302,
+		"scheduleId": 161,
+		"prefabPath": "GachaShowPanel_A180",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 14410, 15412, 11402, 12401, 13407 ],
+		"rateUpItems5": [ 14514, 11503 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
+		"comment": "4.5.1 Chiori",
+		"gachaType": 301,
+		"scheduleId": 160,
+		"prefabPath": "GachaShowPanel_A175",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0175_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1064, 1055, 1068 ],
+		"rateUpItems5": [ 1094 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.5.1 Arataki Itto",
+		"gachaType": 400,
+		"scheduleId": 159,
+		"prefabPath": "GachaShowPanel_A176",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A061_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1064, 1055, 1068 ],
+		"rateUpItems5": [ 1057 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.5.1",
+		"gachaType": 302,
+		"scheduleId": 158,
+		"prefabPath": "GachaShowPanel_A177",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 11410, 15410, 12402, 13401, 14401 ],
+		"rateUpItems5": [ 11514, 12510 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
+		"comment": "4.4.2 Xiao",
+		"gachaType": 301,
+		"scheduleId": 157,
+		"prefabPath": "GachaShowPanel_A172",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A031_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1077, 1044, 1027 ],
+		"rateUpItems5": [ 1026 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.4.2 Yae Miko",
+		"gachaType": 400,
+		"scheduleId": 156,
+		"prefabPath": "GachaShowPanel_A173",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A071_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1077, 1044, 1027 ],
+		"rateUpItems5": [ 1058 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.4.2",
+		"gachaType": 302,
+		"scheduleId": 155,
+		"prefabPath": "GachaShowPanel_A174",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 12410, 11405, 13407, 14402, 15402 ],
+		"rateUpItems5": [ 13505, 14509 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
+		"comment": "4.4.1 Xianyun",
+		"gachaType": 301,
+		"scheduleId": 154,
+		"prefabPath": "GachaShowPanel_A169",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0169_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1092, 1076, 1034 ],
+		"rateUpItems5": [ 1093 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.4.1 Nahida",
+		"gachaType": 400,
+		"scheduleId": 153,
+		"prefabPath": "GachaShowPanel_A170",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0103_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1092, 1076, 1034 ],
+		"rateUpItems5": [ 1073 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.4.1",
+		"gachaType": 302,
+		"scheduleId": 152,
+		"prefabPath": "GachaShowPanel_A171",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 13406, 11403, 12403, 14403, 15403 ],
+		"rateUpItems5": [ 14515, 14511 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
+		"comment": "4.3.2 Raiden Shogun",
+		"gachaType": 301,
+		"scheduleId": 151,
+		"prefabPath": "GachaShowPanel_A166",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A052_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1056, 1032, 1090 ],
+		"rateUpItems5": [ 1052 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.3.2 Yoimiya",
+		"gachaType": 400,
+		"scheduleId": 150,
+		"prefabPath": "GachaShowPanel_A167",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A049_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1056, 1032, 1090 ],
+		"rateUpItems5": [ 1049 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.3.2",
+		"gachaType": 302,
+		"scheduleId": 149,
+		"prefabPath": "GachaShowPanel_A168",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 15405, 14409, 11401, 12405, 13416 ],
+		"rateUpItems5": [ 15509, 13509 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
+		"comment": "4.3.1 Navia",
+		"gachaType": 301,
+		"scheduleId": 148,
+		"prefabPath": "GachaShowPanel_A163",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0163_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1043, 1045, 1072 ],
+		"rateUpItems5": [ 1091 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.3.1 Kamizato Ayaka",
+		"gachaType": 400,
+		"scheduleId": 147,
+		"prefabPath": "GachaShowPanel_A164",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A048_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1043, 1045, 1072 ],
+		"rateUpItems5": [ 1002 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.3.1",
+		"gachaType": 302,
+		"scheduleId": 146,
+		"prefabPath": "GachaShowPanel_A165",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 12416, 15416, 11402, 13401, 14401 ],
+		"rateUpItems5": [ 12512, 11509 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
+		"comment": "4.2.2 Cyno",
+		"gachaType": 301,
+		"scheduleId": 145,
+		"prefabPath": "GachaShowPanel_A160",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A097_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1061, 1065, 1023 ],
+		"rateUpItems5": [ 1071 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.2.2 Kamisato Ayato",
+		"gachaType": 400,
+		"scheduleId": 144,
+		"prefabPath": "GachaShowPanel_A161",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A076_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1061, 1065, 1023 ],
+		"rateUpItems5": [ 1066 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.2.2",
+		"gachaType": 302,
+		"scheduleId": 143,
+		"prefabPath": "GachaShowPanel_A162",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 11405, 12401, 13407, 14402, 15401 ],
+		"rateUpItems5": [ 13511, 11510 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
+		"comment": "4.2.1 Furina",
+		"gachaType": 301,
+		"scheduleId": 142,
+		"prefabPath": "GachaShowPanel_A157",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0157_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1088, 1067, 1024 ],
+		"rateUpItems5": [ 1089 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.2.1 Baizhu",
+		"gachaType": 400,
+		"scheduleId": 141,
+		"prefabPath": "GachaShowPanel_A158",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0130_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1088, 1067, 1024 ],
+		"rateUpItems5": [ 1082 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.2.1",
+		"gachaType": 302,
+		"scheduleId": 140,
+		"prefabPath": "GachaShowPanel_A159",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 11403, 12402, 13401, 14403, 15402 ],
+		"rateUpItems5": [ 11513, 14505 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
+		"comment": "4.1.2 Wriothesley",
+		"gachaType": 301,
+		"scheduleId": 139,
+		"prefabPath": "GachaShowPanel_A154",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0154_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1068, 1036, 1050 ],
+		"rateUpItems5": [ 1086 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.1.2 Venti",
+		"gachaType": 400,
+		"scheduleId": 138,
+		"prefabPath": "GachaShowPanel_A155",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A019_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1068, 1036, 1050 ],
+		"rateUpItems5": [ 1022 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.1.2",
+		"gachaType": 302,
+		"scheduleId": 137,
+		"prefabPath": "GachaShowPanel_A156",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 15427, 13427, 11401, 12405, 14409 ],
+		"rateUpItems5": [ 14513, 15503 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
+		"comment": "4.1.1 Neuvllette",
+		"gachaType": 301,
+		"scheduleId": 136,
+		"prefabPath": "GachaShowPanel_A151",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A0151_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1025, 1031, 1039 ],
+		"rateUpItems5": [ 1087 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.1.1 Hu Tao",
+		"gachaType": 400,
+		"scheduleId": 135,
+		"prefabPath": "GachaShowPanel_A152",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A033_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1025, 1031, 1039 ],
+		"rateUpItems5": [ 1046 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.1.1",
+		"gachaType": 302,
+		"scheduleId": 134,
+		"prefabPath": "GachaShowPanel_A153",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 11427, 12427, 15412, 13407, 14401 ],
+		"rateUpItems5": [ 14514, 13501 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
+		"comment": "4.0.2 Zhongli",
+		"gachaType": 301,
+		"scheduleId": 133,
+		"prefabPath": "GachaShowPanel_A148",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A024_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1053, 1034, 1085 ],
+		"rateUpItems5": [ 1030 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.0.2 Tartaglia",
+		"gachaType": 400,
+		"scheduleId": 132,
+		"prefabPath": "GachaShowPanel_A149",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A023_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 982,
+		"rateUpItems4": [ 1053, 1034, 1085 ],
+		"rateUpItems5": [ 1033 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 1014, 1020, 1023, 1024, 1025, 1027, 1031, 1032, 1034, 1036, 1039, 1043, 1044, 1045, 1048, 1053, 1055, 1056, 1064 ],
+		"fallbackItems4Pool2": [ 11401, 11402, 11403, 11405, 12401, 12402, 12403, 12405, 13401, 13407, 14401, 14402, 14403, 14409, 15401, 15402, 15403, 15405 ],
+		"fallbackItems5Pool1": [ 1003, 1016, 1042, 1035, 1041 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 510 ],
+			[ 8, 510 ],
+			[ 10, 10000 ]
+		],
+		"weights5": [
+			[ 1, 80 ],
+			[ 73, 80 ],
+			[ 90, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"bannerType": "EVENT"
+	},
+	{
+		"comment": "4.0.2",
+		"gachaType": 302,
+		"scheduleId": 131,
+		"prefabPath": "GachaShowPanel_A150",
+		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
+		"costItemId": 223,
+		"endTime": 1924992000,
+		"sortId": 2,
+		"rateUpItems4": [ 11402, 12413, 13401, 14402, 15405 ],
+		"rateUpItems5": [ 13504, 15507 ],
+		"fallbackItems3": [ 11301, 11302, 11306, 12301, 12302, 12305, 13303, 14301, 14302, 14304, 15301, 15302, 15304 ],
+		"fallbackItems4Pool1": [ 13401, 14401, 12401, 11402, 15402 ],
+		"fallbackItems4Pool2": [],
+		"fallbackItems5Pool1": [ 11509, 13507 ],
+		"fallbackItems5Pool2": [],
+		"weights4": [
+			[ 1, 600 ],
+			[ 7, 600 ],
+			[ 8, 6600 ],
+			[ 10, 12600 ]
+		],
+		"weights5": [
+			[ 1, 100 ],
+			[ 62, 100 ],
+			[ 73, 7800 ],
+			[ 80, 10000 ]
+		],
+		"poolBalanceWeights4": [
+			[ 1, 255 ],
+			[ 17, 255 ],
+			[ 21, 10455 ]
+		],
+		"poolBalanceWeights5": [
+			[ 1, 30 ],
+			[ 147, 150 ],
+			[ 181, 10230 ]
+		],
+		"eventChance4": 75,
+		"eventChance5": 75,
+		"bannerType": "WEAPON"
+	},
+	{
 		"comment": "4.0.1 Lyney",
 		"gachaType": 301,
-		"scheduleId": 4,
+		"scheduleId": 130,
 		"prefabPath": "GachaShowPanel_A145",
 		"titlePath": "UI_GACHA_SHOW_PANEL_A0145_TITLE",
 		"costItemId": 223,
@@ -40,7 +1574,7 @@
 	{
 		"comment": "4.0.1 Yelan",
 		"gachaType": 400,
-		"scheduleId": 3,
+		"scheduleId": 129,
 		"prefabPath": "GachaShowPanel_A146",
 		"titlePath": "UI_GACHA_SHOW_PANEL_A081_TITLE",
 		"costItemId": 223,
@@ -78,7 +1612,7 @@
 	{
 		"comment": "4.0.1",
 		"gachaType": 302,
-		"scheduleId": 2,
+		"scheduleId": 128,
 		"prefabPath": "GachaShowPanel_A147",
 		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
 		"costItemId": 223,
@@ -120,7 +1654,7 @@
 	{
 		"comment": "3.8.2 Sangonomiya Kokomi",
 		"gachaType": 301,
-		"scheduleId": 4,
+		"scheduleId": 127,
 		"prefabPath": "GachaShowPanel_A142",
 		"titlePath": "UI_GACHA_SHOW_PANEL_A053_TITLE",
 		"costItemId": 223,
@@ -158,7 +1692,7 @@
 	{
 		"comment": "3.8.2 Wanderer",
 		"gachaType": 400,
-		"scheduleId": 3,
+		"scheduleId": 126,
 		"prefabPath": "GachaShowPanel_A143",
 		"titlePath": "UI_GACHA_SHOW_PANEL_A0109_TITLE",
 		"costItemId": 223,
@@ -196,7 +1730,7 @@
 	{
 		"comment": "3.8.2",
 		"gachaType": 302,
-		"scheduleId": 2,
+		"scheduleId": 125,
 		"prefabPath": "GachaShowPanel_A144",
 		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
 		"costItemId": 223,
@@ -238,7 +1772,7 @@
 	{
 		"comment": "3.8.1 Eula",
 		"gachaType": 301,
-		"scheduleId": 4,
+		"scheduleId": 124,
 		"prefabPath": "GachaShowPanel_A139",
 		"titlePath": "UI_GACHA_SHOW_PANEL_A041_TITLE",
 		"costItemId": 223,
@@ -276,7 +1810,7 @@
 	{
 		"comment": "3.8.1 Klee",
 		"gachaType": 400,
-		"scheduleId": 3,
+		"scheduleId": 123,
 		"prefabPath": "GachaShowPanel_A140",
 		"titlePath": "UI_GACHA_SHOW_PANEL_A018_TITLE",
 		"costItemId": 223,
@@ -314,7 +1848,7 @@
 	{
 		"comment": "3.8.1",
 		"gachaType": 302,
-		"scheduleId": 2,
+		"scheduleId": 122,
 		"prefabPath": "GachaShowPanel_A141",
 		"titlePath": "UI_GACHA_SHOW_PANEL_A020_TITLE",
 		"costItemId": 223,
