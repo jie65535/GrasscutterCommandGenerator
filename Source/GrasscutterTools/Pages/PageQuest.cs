@@ -84,7 +84,19 @@ namespace GrasscutterTools.Pages
                 return;
             var item = ListQuest.SelectedItem as string;
             var id = ItemMap.ToId(item);
-            SetCommand("/quest", $"{(sender as Button).Tag} {id}");
+            SetCommand("/quest", $"{(sender == BtnAddQuest ? "add" : "finish")} {id}");
+        }
+
+        /// <summary>
+        /// 列表选中项改变时触发
+        /// </summary>
+        private void ListQuest_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (!ChkAddAndFinishQuest.Checked || ListQuest.SelectedIndex == -1) return;
+
+            var item = ListQuest.SelectedItem as string;
+            var id = ItemMap.ToId(item);
+            SetCommand($"/quest add {id} | /quest finish {id}");
         }
     }
 }

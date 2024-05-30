@@ -151,4 +151,10 @@
 Поэтому квест может быть добавлен или отозван через консоль, но завершён игроком - вряд ли.
 </value>
   </data>
+  <data name="ChkAddAndFinishQuest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 21</value>
+  </data>
+  <data name="ChkAddAndFinishQuest.Text" xml:space="preserve">
+    <value>Добавить и завершить</value>
+  </data>
 </root>

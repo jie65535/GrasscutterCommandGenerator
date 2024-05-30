@@ -39,6 +39,7 @@
             this.TxtQuestFilter = new System.Windows.Forms.TextBox();
             this.ListQuest = new System.Windows.Forms.ListBox();
             this.LblClearFilter = new System.Windows.Forms.Label();
+            this.ChkAddAndFinishQuest = new System.Windows.Forms.CheckBox();
             this.GrpQuestFilters.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -107,6 +108,7 @@
             resources.ApplyResources(this.ListQuest, "ListQuest");
             this.ListQuest.FormattingEnabled = true;
             this.ListQuest.Name = "ListQuest";
+            this.ListQuest.SelectedIndexChanged += new System.EventHandler(this.ListQuest_SelectedIndexChanged);
             // 
             // LblClearFilter
             // 
@@ -116,10 +118,17 @@
             this.LblClearFilter.Name = "LblClearFilter";
             this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
             // 
+            // ChkAddAndFinishQuest
+            // 
+            resources.ApplyResources(this.ChkAddAndFinishQuest, "ChkAddAndFinishQuest");
+            this.ChkAddAndFinishQuest.Name = "ChkAddAndFinishQuest";
+            this.ChkAddAndFinishQuest.UseVisualStyleBackColor = true;
+            // 
             // PageQuest
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.ChkAddAndFinishQuest);
             this.Controls.Add(this.LblClearFilter);
             this.Controls.Add(this.GrpQuestFilters);
             this.Controls.Add(this.BtnFinishQuest);
@@ -147,5 +156,6 @@
         private System.Windows.Forms.TextBox TxtQuestFilter;
         private System.Windows.Forms.ListBox ListQuest;
         private System.Windows.Forms.Label LblClearFilter;
+        private System.Windows.Forms.CheckBox ChkAddAndFinishQuest;
     }
 }

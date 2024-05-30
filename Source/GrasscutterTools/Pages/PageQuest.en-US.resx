@@ -151,4 +151,10 @@ Tip: Many quest require server-side scripting support
 Therefore, the quest can be added and finished, but not necessarily work.
 </value>
   </data>
+  <data name="ChkAddAndFinishQuest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 21</value>
+  </data>
+  <data name="ChkAddAndFinishQuest.Text" xml:space="preserve">
+    <value>Add &amp;&amp; Finish when selected</value>
+  </data>
 </root>
