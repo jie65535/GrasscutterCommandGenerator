@@ -64,6 +64,7 @@ namespace GrasscutterTools.Game.Inventory
         MATERIAL_PHOTO_DISPLAY_BOOK = 52,
         MATERIAL_REMUS_MUSIC_BOX = 53,
         MATERIAL_GREATEFESTIVALV2_INVITE = 54,
+        MATERIAL_PHOTOGRAPH_POSE = 55,
     }
 
     internal static class MaterialTypeExtension
@@ -123,6 +124,7 @@ namespace GrasscutterTools.Game.Inventory
             [MaterialType.MATERIAL_PHOTO_DISPLAY_BOOK] = "纪念册",
             [MaterialType.MATERIAL_REMUS_MUSIC_BOX] = "音乐盒",
             [MaterialType.MATERIAL_GREATEFESTIVALV2_INVITE] = "邀请函",
+            [MaterialType.MATERIAL_PHOTOGRAPH_POSE] = "照相姿势",
         };
         private static readonly Dictionary<MaterialType, string> TextMapEN = new Dictionary<MaterialType, string>
         {
@@ -179,6 +181,7 @@ namespace GrasscutterTools.Game.Inventory
             [MaterialType.MATERIAL_PHOTO_DISPLAY_BOOK]      = "Album",
             [MaterialType.MATERIAL_REMUS_MUSIC_BOX]         = "MusicBox",
             [MaterialType.MATERIAL_GREATEFESTIVALV2_INVITE] = "Invitation",
+            [MaterialType.MATERIAL_PHOTOGRAPH_POSE]         = "Photograph_pose",
         };
 
         public static string ToTranslatedString(this MaterialType materialType, string language)

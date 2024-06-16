@@ -587,6 +587,7 @@
 5058:Fd_General
 5059:Fd_General
 5060:Fd_General
+5061:Fd_General
 5100:Fd41_PSHA_1st
 5101:Fd41_PSHA_2nd
 5102:Fd41_YBDT_1st
@@ -607,6 +608,7 @@
 5117:Fd41_Level_BoxMatch
 5118:Fd41_PSHA_1st_Rain
 5119:Fd41_PSHA_1st_Rain
+5120:Fd47_Cave
 5200:Fd42_LSSG_Before
 5201:Fd42_LSSG_After
 5202:Fd42_PQS_Before
@@ -1042,6 +1044,12 @@
 10267:Fd46_Kpm_GlodenLobby_After
 // 20216
 10268:Fd46_Kpm_GlodenLobby_After
+// 20217
+10274:Fd47_Md_General
+// 20219
+10275:Fd47_Md_General
+// 20225
+10276:Fd47_Md_General
 // 35800
 10009:CycleDungeon_WindFlower
 10010:CycleDungeon_WindFlower_Outdoor

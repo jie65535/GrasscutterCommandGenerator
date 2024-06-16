@@ -271,6 +271,7 @@
 41076011:Faruzan_WindBlackHole
 41076015:Faruzan_SkillObj_WindZone_Hit
 41083009:Linette_Constellation_WindZone
+41098006:Clorinde_Constellation_1_Gadget
 42000001:Fishing_Aim_Bullet
 42000002:Fishing_Cork
 42103002:Shaman_HealRain_Field
@@ -790,13 +791,43 @@
 41093023:Liuyun_ElementalBurst_SmallWindHole
 41094004:Bullet_Chiori_ElementalArt_Rush_Detect
 41094006:SkillObj_Chiori_ElementalBurst_RockBomb
+41095001:Sigewinne_Extra_Bubble_Bullet
+41095002:Sigewinne_EArt_Bullet_Normal
+41095003:Sigewinne_EArt_Bullet_No_Enemy
+41095004:Sigewinne_EArt_Bullet_One_Enemy
+41095005:Sigewinne_EArt_Bullet_Normal_Shoot_NoTarget
+41095006:Sigewinne_ElementalArt_Core
+41095007:Sigewinne_Arrow_01
+41095008:Sigewinne_Arrow_02
+41095009:Sigewinne_Arrow_03
+41095010:Sigewinne_AimingArrow_WithoutWater
+41095011:Sigewinne_AimingArrow_Water
+41095012:Sigewinne_EArt_Bullet_Normal_New
+41095013:Sigewinne_Burst_Attacker
 41096003:Arlecchino_ExtraAttack_Bullet
+41097001:Sethos_Arrow_01
+41097002:Sethos_Arrow_02
+41097003:Sethos_Arrow_03
+41097004:Sethos_Arrow_04
+41097005:Sethos_AimingArrow_WithoutElec
+41097006:Sethos_AimingArrow_WithElec
+41097007:Sethos_AimingArrow_Lightning
+41097008:Sethos_AimingArrow_Lightning_Burst_01
+41097009:Sethos_AimingArrow_Lightning_Burst_02
+41097010:Sethos_AimingArrow_Lightning_Burst_03
+41097011:Sethos_AimingArrow_Lightning_Burst_04
+41098001:Clorinde_DodgeAttack_Small
+41098002:Clorinde_DodgeAttack_Medium
+41098003:Clorinde_DodgeAttack_Large
+41098004:Clorinde_ElementArt_Attack_Bullet_Penetrating
+41098005:Clorinde_ElementArt_Attack_Bullet_Standard
 42000003:Activity_Pitch_Pot_Throw_Bullet
 42000004:Activity_Pitch_Pot_Throw_Bullet_02
 42000005:BossNarzissenkreuzBattle_PlayerSkill_Bullet_1
 42000006:BossNarzissenkreuzBattle_PlayerSkill_Bullet_2
 42000007:Activity_GoalChallenge_Level03_WindZone
 42000008:Activity_GoalChallenge_Level04_RainZone
+42000010:Bullet_ActivityAbility_MVM_AvatarSkill_Asist
 42001002:Slime_RockThrow
 42001003:Slime_Bubble
 42001004:Slime_IceCone
@@ -925,6 +956,7 @@
 42005021:Oceanid_DelayWaterBall_Trigger
 42005022:Oceanid_Squirrel_WaterWave
 42005024:Oceanid_WaterLaser_LockTarget
+42005026:MvM_Frog_WaterWave
 42005101:Necalevia_RangeBullet
 42005102:Necalevia_AOERangeMulti
 42005103:Necalevia_Small_RangeBullet
@@ -954,8 +986,10 @@
 42006401:Sylph_Ice_IceBullet_01
 42006402:Sylph_Ice_ElementBullet
 42006403:Sylph_Ice_Activated_AirGun
+42006407:Sylph_Ice_IceBullet_02
 42006501:Sylph_Electric_FlyHor_FollowBullet
 42006601:Sylph_Fire_FireBullet
+42006605:MvM_Sylph_Fire_FireBullet
 42006701:Sylph_Grass_GrassBullet
 42006702:Sylph_Grass_HealArea_Bullet
 42006705:Sylph_Grass_Activated_DeathBullet
@@ -985,6 +1019,8 @@
 42101025:Hili_Wei_NoWeapon_ThrowBomb_Bullet03
 42101026:Hili_Electric_SlimeThrow
 42101027:Monster_Arrow_ShootingActivity
+42101028:MvM_Hili_Electric_Arrow
+42101029:MvM_Hili_Ice_Arrow
 42102001:Brute_Axe_FireWave01
 42102002:Brute_Axe_FireWave02
 42102003:Brute_Axe_FireSlime_Fire
@@ -1254,6 +1290,10 @@
 42406057:MachinaIustitia_Bradamante_Summon_Bullet
 42406059:MachinaIustitia_Bradamante_Attack02_FollowBullet2
 42406060:MachinaIustitia_Bradamante_Attack02_FollowBullet3
+42406061:MvM_MachinaIustitia_Ruggiero02_Attack02_Bullet
+42406062:MvM_MachinaIustitia_Ruggiero02_Attack02_Bullet2
+42406063:MvM_MachinaIustitia_Assimilator_NormalAttack01_Bullet
+42406064:MvM_MachinaIustitia_Assimilator_MeleeAttack01_Bullet
 42407002:MachinaIustitia_Nutcracker_Stage1_WindBullet1
 42407003:MachinaIustitia_Nutcracker_Stage1_WindBullet2
 42407004:MachinaIustitia_Nutcracker_Stage1_IceBullet
@@ -1293,6 +1333,9 @@
 42481009:FungusFighterV2_TowerPhysics_SkillBullet
 42481010:FungusFighterV2_TowerElectric_LockTarget
 42481011:FungusFighterV2_TowerWind_LockTarget
+42481012:MvM_TowerFire_FireBullet
+42481013:MvM_TowerIce_IceBullet
+42481014:MvM_TowerWindBullet
 42499001:Bullet_Alternate_01
 42501001:Thoarder_ThrowingKnife
 42501002:Thoarder_Bomb
@@ -1312,6 +1355,8 @@
 42501020:Thoarder_Rocky_Guitar_ElectricBottle
 42501024:Thoarder_Rocky_Guitar_ElectricBomb_Bullet
 42501026:Thoarder_ThrowingKnife_ShootingActivity
+42501027:MvM_Thoarder_MolotovCocktail
+42501028:MvM_Thoarder_Bomb_ElementalEffect_Fire
 42503001:Thoarder_Shovel_MuddyBullet
 42503002:Thoarder_Fat_Shovel_MuddyBullet
 42504001:Thoarder_HatchetThrow
@@ -1322,6 +1367,8 @@
 42508001:Samurai_Ronin_ShootBullet
 42508002:Samurai_RushAtk_Scene
 42508004:Samurai_RushAtk_Bullet
+42508006:MvM_Samurai_Ronin_ShootBullet
+42508007:MvM_Samurai_RushAtk_Bullet
 42509002:Samurai_Ningyo_WindBladeAir1
 42509003:Samurai_Ningyo_WindBladeAir2
 42509006:Samurai_Ningyo_WindGhost_BladeAir
@@ -1399,6 +1446,8 @@
 42601123:FauneAbyssale_SeaHorse_Primo_ElectronCharge_Physic
 42601125:FauneAbyssale_SeaHorse_Primo_RockGadget_Crasher
 42601128:FauneAbyssale_SeaHorse_Primo_ShuttleAttack_Bullet
+42601134:MvM_FauneAbyssale_SeaHorse_Mature_BallLightning
+42601135:MvM_FauneAbyssale_SeaHorse_Mature_WaterBullet
 42602004:Regisvine_RangedAttack01_Bullet
 42602005:Regisvine_RangedAttack02_MinorMissile
 42602006:Regisvine_MissileAttack_LargeMissile
@@ -1485,6 +1534,8 @@
 42606004:Cicin_WaterBall
 42606005:Cicin_IceSpear
 42606006:Cicin_IceShieldEnergy
+42606007:MvM_Cicin_WaterBall
+42606008:MvM_Cicin_ElectricBall
 42607003:Inu_Shihandai_Blink_Hat
 42607006:Inu_Shihandai_CounterAttackBlade
 42607010:Inu_Shihandai_RangeBlade
@@ -1518,6 +1569,7 @@
 42609027:Fungus_Un_Water_SuperWaterBullet
 42609028:Fungus_Trois_Ice_BlizzardPoint
 42609029:Fungus_Deux_Wind_HealingWavePoint
+42609030:MvM_Fungus_Un_Delta_Wind_BulletDecayed
 42610001:Scorpion_Sacred_SacredAttack03_Bullet
 42610002:Scorpion_Sacred_SacredAttack05_Bullet
 42610004:Scorpion_Sacred_SacredEnergy_Bullet
@@ -1890,6 +1942,12 @@
 49001023:MonsterAffix_Activity_Deathrattle_Gadget_DoomLogic
 49001025:MonsterAffix_Activity_AkaFes_RockDamage_LowWave_SingleBullet
 49001027:Activity_MultiCharacter_BulletToGround
+49001034:Gadget_RoleCombat_TracingEnergyBall
+49001036:Gadget_RoleCombat_TracingEnergyBall_Grass
+49001042:MonsterAffix_RoleCombat_DeathMatch_FieldBullet
+49001049:MonsterAffix_RoleCombat_Haunted_Bullet
+49001051:MonsterAffix_RoleCombat_Haunted_TrackGhostBullet
+49001052:MonsterAffix_RoleCombat_Backer_FieldBullet
 70220037:SceneObj_Environment_CobWeb_Bullet
 70220053:Bullet_IceSentryTurrets_Ice_Bullet
 70220073:Bullet_IceSentryTurrets_Thunder_Bullet
@@ -1927,6 +1985,12 @@
 70291138:SceneObj_Area_Common_Property_Ani_Prop_Jamballoon_Bullet_01
 70291151:Penumbra_CannonBall_01
 70291152:Penumbra_CannonBall_02
+70291180:Penumbra_CannonBallV2_01
+70291181:Penumbra_CannonBallV2_02
+70291182:Penumbra_CannonBallV2_03
+70291185:Penumbra_CannonBallV2_04
+70291294:SceneObj_Activity_Common_Property_Ani_Prop_BulletHell_Barrage_Bullet_02
+70291295:SceneObj_Activity_Common_Property_Ani_Prop_BulletHell_Barrage_Bullet_01
 70291440:SceneObj_Activity_Common_Property_Ani_Prop_AutoTimeStop_Barrage_Bullet_03
 70291441:SceneObj_Activity_Common_Property_Ani_Prop_AutoTimeStop_Barrage_Bullet_02
 70291442:SceneObj_Activity_Common_Property_Ani_Prop_AutoTimeStop_Barrage_Bullet_01
@@ -2344,6 +2408,9 @@
 41094007:SkillObj_Chiori_Turret_Constellation
 41096001:Arlecchino_ElementalBurst_Gadget
 41096002:Arlecchino_ElementalArt_ShadowAvatar
+41098007:Clorinde_Constellation_6_Gadget
+42000011:ActivityAbility_MVM_AvatarSkill_Asist_02
+42000012:ActivityAbility_MVM_AvatarSkill_Asist_03
 42001001:Slime_IceCone_AimPoint
 42001005:Slime_IceFog
 42001010:Slime_WindZone_02
@@ -2423,6 +2490,7 @@
 42005019:Oceanid_PlatformDamage
 42005023:Oceanid_MustKill_Empty
 42005025:Oceanid_Affix_DeathExplode
+42005027:MvM_Frog_DeathExplode
 42005129:Narcissusborn_DartAttack_InitialPos
 42005130:Narcissusborn_EnhancedDartDartAttack_InitialPos
 42005131:Narzissenkreuz_DartAttack_InitialPos
@@ -2498,6 +2566,7 @@
 42103035:Shaman_FloorAttack01_Gadget
 42103036:Shaman_SuperJump_Area
 42103037:Shaman_Note_Buff_Gadget
+42103039:MvM_Shaman_Torrent_Area
 42201003:Abyss_FireEnergy_Surround
 42201007:Abyss_Impulse
 42201011:Abyss_IceCone_Area
@@ -2619,6 +2688,7 @@
 42409014:MachinaIustitia_Gravitas_ImpactWave_01
 42481006:FungusFighterV2_TowerFire_SkillAOE
 42481008:FungusFighterV2_TowerIceWall
+42481015:MvM_TowerWater_Torrent_Area
 42501012:BoxMatch_Assistant_IceBomb_TargetPoint
 42501015:BoxMatch_Hatchet_FireWork_Lv1
 42501017:BoxMatch_Hatchet_FireWork_Lv2_Attack
@@ -3031,6 +3101,7 @@
 42910024:Nihil_Story_HelpSkillHandler
 42910026:Nihil_Story_HelpSkill_RushAtk
 42910032:Nihil_Story_HelpSkill_Bomb
+42910033:Nihil_DonimatAttack_Control
 43805005:Bullet_Animal_Electrohercules_ElectricBall_OnGround
 43805014:Animal_Electrohercules_Defend_Turorial
 44000002:SkillObj_GlidingChallenge_AirDash_Forward
@@ -3210,6 +3281,12 @@
 44000594:HideType_A_Style_InvisibleBait_Target
 44000595:HideType_A_Style_InvisibleBait_Target
 44000596:HideType_A_Style_InvisibleBait_Target
+44000597:SkillObj_Activity_AcrobaticsBattle_Lv1
+44000598:SkillObj_Activity_AcrobaticsBattle_Lv3
+44000599:SkillObj_Activity_AcrobaticsBattle_Lv4
+44000600:SkillObj_Activity_AcrobaticsBattle_Lv7
+44000601:SkillObj_Activity_AcrobaticsBattle_Lv0
+44000602:SkillObj_Activity_AcrobaticsBattle_KillCall
 49001001:GeneralSkill_IceDamage_Prison_Center
 49001002:GeneralSkill_WindDamage_Vortex_Center
 49001003:GeneralSkill_RockDamage_LowWave_Emitter
@@ -3223,6 +3300,23 @@
 49001020:MonsterAffix_Drop_Rock_CenterGadget
 49001024:MonsterAffix_Activity_AkaFes_RockDamage_LowWave_Emitter
 49001028:MonsterAffix_Monster_Yunqi_Die_BroadCast
+49001029:Gadget_RoleCombat_ThunderArea
+49001030:Gadget_RoleCombat_ThunderArea_Stage1
+49001031:Gadget_RoleCombat_ThunderArea_Stage2
+49001032:Gadget_RoleCombat_ThunderArea_Stage3
+49001033:Gadget_RoleCombat_TracingEnergyBall_CreatorGadget
+49001035:Gadget_RoleCombat_TracingEnergyBall_Grass_CreatorGadget
+49001038:Gadget_RoleCombat_BulletToGround
+49001039:MonsterAffix_RoleCombat_DeathRattleCrystal_DamageGadget
+49001040:MonsterAffix_RoleCombat_BoomTime_LogicGadget
+49001041:MonsterAffix_RoleCombat_Yunqi_Die_BroadCast
+49001043:Gadget_RoleCombat_Bonus_FungusRaptor_Weak_Kill
+49001044:Gadget_RoleCombat_Bonus_MonolithStarchild_Weak_Kill
+49001045:Gadget_RoleCombat_Bonus_DrakeDeepSea_No_Revive
+49001046:Gadget_RoleCombat_Bonus_DrakeDeepSea_MagicBall_NoHit
+49001047:Gadget_RoleCombat_Bonus_HermitCrabPrimo_Weak_Kill
+49001048:Gadget_RoleCombat_Bonus_SeaHorsePrimo_Recover_Break
+49001050:MonsterAffix_RoleCombat_Haunted_FreeGhost
 70000012:BroadLeaf01
 70020001:Enviro01
 70020002:Enviro02
@@ -3559,6 +3653,8 @@
 70230124:SceneObj_Area_Xm_Property_Ani_Decal_CrystalWall_01
 70230125:SceneObj_Area_Xm_Property_Ani_Decal_CrystalWall_01
 70230126:SceneObj_Area_Xm_Property_Ani_Decal_CrystalWall_01
+70230127:SceneObj_Area_Common_Property_Ani_Prop_MvM_SandTable_01
+70230128:[N/A] 3947176030
 70240001:SceneObj_LostParadise_Common_Property_Prop_RainCol_01
 70240002:SceneObj_LostParadise_Common_Property_Prop_RainCol_01
 70240003:SceneObj_LostParadise_Common_Property_Prop_RainCol_01
@@ -4497,8 +4593,30 @@
 70291167:SceneObj_Area_Common_Property_Ani_Prop_Jamballoon_02
 70291168:SceneObj_Penumbra_Common_Property_Ani_Prop_BladeDanceGate_01
 70291169:[N/A] 2187650446
+70291170:SceneObj_Area_Common_Property_Prop_FlightgearOperator_01
+70291171:SceneObj_Penumbra_Common_Property_Ani_Prop_CannonV2_01
+70291172:SceneObj_Penumbra_Common_Property_Ani_Prop_CannonV2_02
+70291186:SceneObj_Penumbra_Common_Property_Ani_Prop_BossTargetBall_01
+70291187:SceneObj_Area_Common_Property_Prop_FlightgearOperator_01
+70291188:SceneObj_Area_Common_Property_Prop_FlightgearOperator_01
+70291189:SceneObj_Area_Common_Property_Prop_FlightgearOperator_01
+70291190:SceneObj_Area_Common_Property_Prop_FlightgearOperator_01
+70291282:SceneObj_Quest_DimensionalCollapse_01
+70291283:SceneObj_Level_Common_AvatarObj_Ani_Quest_SgwMixtureBottle_01
+70291284:[N/A] 4156213838
+70291285:[N/A] 4072703862
+70291286:SceneObj_Level_Common_Property_Ani_Prop_CharAmuseBarrier_01
+70291287:SceneObj_Level_Common_Property_Ani_Prop_CharMasterEntrance_01
+70291288:SceneObj_Level_Common_Property_Ani_Prop_MarechausseeGate_01
+70291289:SceneObj_Area_Fd_TreasureEntry_Door_01
+70291290:SceneObj_Level_Common_Property_Ani_Build_Hiddendoor_01
+70291292:SceneObj_Level_Common_Property_Ani_Prop_CoinDummy_02
+70291293:SceneObj_Level_Common_Property_Ani_Prop_CoinDummy_01
 70291296:SceneObj_Area_Fd_ChioriDungeon_SoundController_01
 70291297:SceneObj_Area_Common_Property_Prop_DelucChallengeAirwall_02
+70291298:SceneObj_Level_Common_Property_Ani_Prop_LeaserWall_01
+70291299:SceneObj_Level_Common_Property_Ani_Prop_BulletHellCoin_01
+70291300:SceneObj_Level_Common_Property_Ani_Prop_BulletHellCoin_02
 70291301:SceneObj_Area_Common_Property_Prop_Catcafe_FollowmoveInteract_01
 70291302:SceneObj_Area_Fd_Property_Ani_Prop_FdCommonGate_01
 70291303:SceneObj_Area_Fd_Property_Ani_Prop_FdCommonGate_02
@@ -5612,6 +5730,16 @@
 70320135:SceneObj_Area_Common_Property_Prop_CharAmusementAirWall_07
 70320136:SceneObj_Area_Common_Property_Prop_CharAmusementAirWall_08
 70320137:SceneObj_Area_Common_Property_Prop_CharAmusementAirWall_09
+70320138:SceneObj_Area_Common_Property_Prop_MonsterVsMonster_Flag_01
+70320139:SceneObj_Area_Common_Property_Prop_MonsterVsMonster_Flag_02
+70320140:[N/A] 882392350
+70320141:SceneObj_Area_Common_Property_Prop_MonsterVsMonster_DropCard_01
+70320142:SceneObj_Area_Common_Property_Prop_MonsterVsMonster_DropCard_02
+70320143:SceneObj_Level_Common_Property_Ani_Prop_SgwTrackGate_01
+70320150:[N/A] 4078867398
+70320151:SceneObj_Level_Common_Property_Ani_Prop_SgwTrackGate_02
+70320152:SceneObj_Level_Common_Property_Ani_Prop_SgwTrackLight_01
+70320153:[N/A] 2891105062
 70330002:SceneObj_Gear_ElemForce_Operator
 70330003:SceneObj_Gear_ElemForce_Fire
 70330004:SceneObj_Gear_ElemForce_Fire_Hit
@@ -6707,9 +6835,41 @@
 70350499:SceneObj_Area_Xm_Property_Ani_Prop_ElecTrailBulletGen_02
 70350500:Activity_Gadget_AkaFesPotion_Fire_Debuff_Driver
 70350501:SceneObj_Area_Xm_Property_Ani_Prop_FloatFarr_02
+70350503:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_Podium_01
+70350504:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_Phonograph_01
+70350505:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_Divination_01
+70350506:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_MagicBook_01
+70350507:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_TeamEditor_01
+70350508:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_GuardEntity_01
+70350509:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_CityAxis_01
+70350510:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_Entry_01
+70350511:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_LoopElevator_01
 70350512:SceneObj_Level_Common_Property_Ani_Bridge_LyFloatingBridge_01
+70350513:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_TeamEditor_02
+70350514:[N/A] 3284301342
+70350515:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_RageController_01
+70350516:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_RestQuitPoint_01
+70350517:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_CamearAdjust_01
+70350518:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_ESPManager_01
+70350520:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_AirwallAuditorium
+70350521:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_SitPointController_01
+70350522:SceneObj_Level_Common_Property_Ani_Prop_TurntableGearGate_01
+70350523:SceneObj_Level_Common_Property_Ani_Prop_TurntableGearGate_02
+70350525:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_AuditoriumEnd_01
+70350526:SceneObj_Level_Common_Property_Ani_Prop_TurntableGearGate_03
+70350527:SceneObj_Level_Common_Property_Ani_Prop_TurntableGearGate_01
 70350528:SceneObj_Area_Ly_Property_Ani_Prop_GreatFestivalV2_GuidePoint_01
 70350529:SceneObj_Area_Ly_Property_Ani_Prop_GreatFestivalV2_GuidePoint_02
+70350530:SceneObj_Level_Common_Property_Ani_Prop_LightGuideGear_01
+70350531:SceneObj_Level_Common_Property_Ani_Prop_FloorGateGear_01
+70350532:SceneObj_Level_Common_Property_Ani_Prop_TurntableGearGate_04
+70350533:SceneObj_Level_Common_Property_Ani_Prop_TurntableGearDoor_01
+70350534:SceneObj_Gear_MvM_Trap
+70350535:SceneObj_Level_Common_Property_Prop_TowerRepelV3
+70350536:SceneObj_Gear_MvM_Mine
+70350537:SceneObj_Gear_Operator_MvM_Mamolu
+70350538:SceneObj_Level_Common_Property_Ani_Prop_RoleCombat_AuditorSound
+70350539:SceneObj_Gear_Operator_MvM_Mamolu_02
 70360011:SceneObj_Gear_Other_Balloon_Destination
 70360012:SceneObj_Gear_Other_Balloon_Destination2
 70360013:SceneObj_Gear_Other_Balloon_Destination3
@@ -8297,6 +8457,8 @@
 70711494:[N/A] 1130721848
 70711495:[N/A] 2735899096
 70711496:[N/A] 454832160
+70711497:[N/A] 2950885832
+70711498:[N/A] 505742752
 70711499:[N/A] 894963696
 70711500:[N/A] 230712120
 70711501:[N/A] 245820744
@@ -8319,11 +8481,66 @@
 70711518:[N/A] 2253302248
 70711519:[N/A] 2953437496
 70711521:[N/A] 3889181896
+70711524:[N/A] 505671616
 70711525:[N/A] 3664702656
+70711526:SceneObj_Eff_Quest_FdHotelTea_02
 70711532:[N/A] 3770495576
 70711534:[N/A] 1937340752
 70711535:[N/A] 3566751808
-70711568:[CHS] - (test)巴慕恩的日记
+70711536:[N/A] 1559943344
+70711537:[N/A] 4005836184
+70711538:[N/A] 1443263448
+70711539:[N/A] 3264946752
+70711540:[N/A] 2774305888
+70711541:[N/A] 467487816
+70711542:[N/A] 191718648
+70711543:[N/A] 379289088
+70711544:[N/A] 3265146368
+70711545:[N/A] 3112380536
+70711546:[N/A] 3293241152
+70711547:[N/A] 1649036848
+70711548:[N/A] 3579505024
+70711549:[N/A] 137682824
+70711550:[N/A] 574660032
+70711551:[N/A] 3832895152
+70711552:[N/A] 4137990640
+70711553:[N/A] 92502520
+70711554:[N/A] 1521413072
+70711555:[N/A] 1463601392
+70711556:[N/A] 3383584096
+70711557:[N/A] 205557824
+70711558:[N/A] 1171982400
+70711560:[N/A] 2051742328
+70711561:SceneObj_Item_Default_Item
+70711563:[N/A] 451175824
+70711564:[N/A] 154356784
+70711565:[N/A] 1820895784
+70711566:[N/A] 4209996104
+70711567:[N/A] 3336031008
+70711568:SceneObj_Quest_SimpleGadgetTalk03
+70711569:SceneObj_Area_Fd_Property_Prop_XgwRoom
+70711570:SceneObj_Quest_SimpleGadgetTalk
+70711571:[N/A] 2286571232
+70711572:[N/A] 79054456
+70711573:SceneObj_Quest_SimpleGadgetTalk05
+70711574:SceneObj_Item_Default_Item
+70711575:SceneObj_Item_Default_Item
+70711576:[N/A] 94595696
+70711577:[N/A] 2592892600
+70711578:[N/A] 3616900488
+70711579:SceneObj_Quest_Property_Ani_Prop_EnergyCaster_Operator_05
+70711580:[N/A] 2097752928
+70711581:SceneObj_Item_Default_Item
+70711582:[N/A] 2478379936
+70711583:[N/A] 2035742872
+70711584:[N/A] 2758548224
+70711585:SceneObj_Item_Default_Item
+70711592:SceneObj_Area_Fd_Property_Ani_Prop_ElderQuilt_02
+70711593:[N/A] 2996193296
+70711594:[N/A] 22295480
+70711595:SceneObj_SigewinneSmoke_01
+70711597:[N/A] 362532096
+70711598:[N/A] 2140889768
 70720216:FireElfTrack
 70720219:SceneObj_Area_Cyjy_Property_Ani_Prop_LitSeelieFootprint_01
 70800002:MsgBoard
@@ -9217,6 +9434,7 @@
 70950206:Activate
 70950207:Unlock
 70950208:Assemble
+70950214:[N/A] 1320639990
 71000004:SceneObj_Amber_RockAmber
 71000005:SceneObj_Task_Rock_Pierce
 71000006:SceneObj_Task_Rock_Pierce
@@ -9565,6 +9783,14 @@
 71700751:[N/A] 233005080
 71700752:[N/A] 3608415800
 71700753:[N/A] 946830120
+71700754:SceneObj_Area_Common_Prop_Common_Twins_Dungeonportal_01
+71700755:SceneObj_Area_Common_Prop_Common_Twins_Butterfly_01
+71700756:[N/A] 1320471632
+71700757:[N/A] 3261253664
+71700758:[N/A] 3555596624
+71700759:[N/A] 1521717744
+71700760:SceneObj_Environment_Bulletin94
+71700761:SceneObj_Environment_Bulletin95
 72000001:SceneObj_Monster_Eldritch_Tentacle_PA
 72000002:SceneObj_Monster_Eldritch_Tentacle_PB
 72000003:SceneObj_Monster_Eldritch_Tentacle_PC
@@ -10178,6 +10404,7 @@
 77111013:Restaurant Rug: "Equal Dialogue"
 77111014:Restaurant Rug: "Bathing in the Breeze"
 77111015:Fontainian Carpet: "Fair and Square"
+77111016:[N/A] 3138406544
 77112001:Well-Worn Buckler
 77112002:Well-Worn Shield
 77112003:Well-Worn Sword
@@ -10778,6 +11005,8 @@
 77204226:"Crystalline Glory"
 77204227:"Inspiration's Pure White Blossoms"
 77204228:"Salubrious Fragrance"
+77204229:[N/A] 3763891128
+77204230:[N/A] 2588701016
 77205001:Smooth Wooden Bench
 77205002:Smooth Stone Bench
 77205003:Googol Chair
@@ -11120,6 +11349,8 @@
 77215099:Bronze Curio: Ancient Golden Visage
 77215100:Suspensus Somnium Mechanism
 77215101:Carefree Simulacrum
+77215102:[N/A] 950928056
+77215103:[N/A] 2479535064
 77216001:Foundations of Stone: Path of Cultivation
 77216002:Foundations of Stone: Timely Arrival
 77216003:Foundations of Stone: Double-Time
@@ -12177,6 +12408,21 @@
 71700729:Anecdota Septentrionalis (III)
 71700747:Shikanoin Heizou's Message
 71700748:Puppy Union Admission Details
+71700762:[N/A] 976481484
+71700763:[N/A] 1459849724
+71700764:[N/A] 524159380
+71700765:[N/A] 1496186356
+71700766:[N/A] 1649628252
+71700767:[N/A] 3370696724
+71700768:[N/A] 2053389412
+71700769:[N/A] 3448013372
+71700770:[N/A] 3218519604
+71700771:[N/A] 4203305580
+71700772:[N/A] 2790292388
+71700773:[N/A] 969093148
+71700774:[N/A] 1702828196
+71700775:[N/A] 476652700
+71700776:[N/A] 1144681508
 77304001:Silk Flower
 77304002:Sweet Flower
 77304003:Cecilia
@@ -12234,6 +12480,7 @@
 49001017:Activity_ChannellerSlab_DangerArea
 49001019:Activity_ChannellerSlab_DangerArea_Enhanced
 49001026:Activity_MultiCharacter_DangerArea
+49001037:Gadget_RoleCombat_DangerArea
 70220054:SceneObj_Gear_Combat_Shooter_Laser
 70220074:SceneObj_Gear_Combat_Shooter_Laser_Elec_01
 70220113:SceneObj_Area_Common_Property_Water_Waterplatform_01
@@ -12322,6 +12569,16 @@
 70291148:SceneObj_Penumbra_Common_Property_Ani_Prop_CannonTarget_05
 70291149:SceneObj_Penumbra_Common_Property_Ani_Prop_CannonTarget_06
 70291150:SceneObj_Penumbra_Common_Property_Ani_Prop_BossTarget_01
+70291173:SceneObj_Penumbra_Common_Property_Ani_Prop_CannonTargetV2_01
+70291174:SceneObj_Penumbra_Common_Property_Ani_Prop_CannonTargetV2_02
+70291175:SceneObj_Penumbra_Common_Property_Ani_Prop_CannonTargetV2_03
+70291176:SceneObj_Penumbra_Common_Property_Ani_Prop_CannonTargetV2_04
+70291177:SceneObj_Penumbra_Common_Property_Ani_Prop_CannonTargetV2_05
+70291178:SceneObj_Penumbra_Common_Property_Ani_Prop_CannonTargetV2_06
+70291179:SceneObj_Penumbra_Common_Property_Ani_Prop_BossTarget_02
+70291183:SceneObj_Penumbra_Common_Property_Ani_Prop_BossTargetWeak_01
+70291184:SceneObj_Penumbra_Common_Property_Ani_Prop_BossTargetBall_02
+70291291:SceneObj_Level_Common_Property_Ani_Prop_BulletHell_StaticBullet_01
 70291428:SceneObj_Area_Fd_Property_Ani_Prop_ShopRobot_01
 70291429:SceneObj_Area_Fd_Property_Ani_Prop_TrapFittingRoom_01
 70291477:SceneObj_Area_Common_Property_Ani_SpriteEffect_01
@@ -12423,6 +12680,9 @@
 70320104:SceneObj_Area_Fd_Property_Ani_Prop_GearPipe_Gear_03
 70320117:SceneObj_Level_Common_Property_Ani_Prop_CharAmuseBasket_01
 70320118:SceneObj_Level_Common_Property_Ani_Prop_CharAmuseBasket_02
+70320146:SceneObj_Level_Common_Property_Ani_Prop_SgwDungeonTruck_01
+70320147:SceneObj_Level_Common_Property_Ani_Prop_SgwDungeonTruck_02
+70320148:SceneObj_Level_Common_Property_Ani_Prop_SgwTrackSwitcher_02
 70330081:SceneObj_Area_Common_Property_Ani_Rock_RotatableCube_01
 70330083:SceneObj_Area_Common_Property_Ani_Rock_RotatableCube_04
 70330118:SceneObj_Area_Common_Property_Ani_Rock_RotatableCubeShader_04
@@ -12956,6 +13216,8 @@
 50004102:MonEquip_Axe_Electric_02
 50004103:MonEquip_Crossbow_01
 50004104:MonEquip_Thoarder_Rocky_Guitar
+50004105:MonEquip_Axe_01
+50004111:MonEquip_WoodenClub_01
 
 // Equip
 50010002:Weapon_Sword_Metal
@@ -13015,6 +13277,7 @@
 50011512:Weapon_Sword_Metal
 50011513:Weapon_Sword_Metal
 50011514:Weapon_Sword_Metal
+50011515:Weapon_Sword_Metal
 50012101:Weapon_Claymore_Metal
 50012201:Weapon_Claymore_Metal
 50012301:Weapon_Claymore_Metal
@@ -13159,6 +13422,7 @@
 50015419:Weapon_Bow_Metal
 50015424:Weapon_Bow_Metal
 50015425:Weapon_Bow_Metal
+50015426:Weapon_Bow_Metal
 50015427:Weapon_Bow_Metal
 50015501:Weapon_Bow_Metal
 50015502:Weapon_Bow_Metal
@@ -13171,6 +13435,7 @@
 50015509:Weapon_Bow_Metal
 50015511:Weapon_Bow_Metal
 50015512:Weapon_Bow_Metal
+50015513:Weapon_Bow_Metal
 50100001:SubEquip_Feiyan_Steelyard
 
 // SubEquip
@@ -13620,6 +13885,8 @@
 70320095:SceneObj_Area_Fd_Property_Ani_Prop_FactoryJukebox_01
 70320100:SceneObj_Area_Fd_Property_Ani_Prop_ResearchConsole_01
 70320105:SceneObj_Area_Fd_Property_Ani_Prop_FDFacPipeValve_01
+70320144:SceneObj_Level_Common_Property_Ani_Prop_SgwTrackSwitcher_01
+70320145:SceneObj_Level_Common_Property_Ani_Prop_SgwDungeonTruck_03
 70330001:SceneObj_Gear_ElemForce_Initial
 70330019:SceneObj_Gear_ElemForce_Base_Rock
 70330024:SceneObj_Gear_ElemForce_Base
@@ -13734,6 +14001,8 @@
 70350486:SceneObj_Area_Xm_Property_Prop_CipherSwitch_04
 70350493:SceneObj_Level_Xm_Property_Ani_Prop_SlushaShellOperator_01
 70350502:SceneObj_Area_Xm_Property_Prop_CipherSwitch_05
+70350519:SceneObj_Gear_Operator_Mamolu_RoleCombat
+70350524:SceneObj_Level_Common_Property_Ani_Prop_TurntableOperator_01
 70360001:SceneObj_Gear_Operator_Invisible_Operator
 70360002:SceneObj_Gear_Operator_Normal_Operator
 70360003:SceneObj_Quest_Clue01
