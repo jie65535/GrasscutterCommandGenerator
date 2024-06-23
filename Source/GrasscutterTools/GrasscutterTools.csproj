@@ -352,6 +352,7 @@
     <Compile Include="Utils\ArtifactUtils.cs" />
     <Compile Include="Utils\Common.cs" />
     <Compile Include="Utils\GuiRedirect.cs" />
+    <Compile Include="Utils\HighDPIUtil.cs" />
     <Compile Include="Utils\KeyGo.cs" />
     <Compile Include="Utils\HotKeyItem.cs" />
     <Compile Include="Utils\HttpHelper.cs" />
