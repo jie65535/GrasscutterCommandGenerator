@@ -65,6 +65,9 @@ namespace GrasscutterTools.Game.Inventory
         MATERIAL_REMUS_MUSIC_BOX = 53,
         MATERIAL_GREATEFESTIVALV2_INVITE = 54,
         MATERIAL_PHOTOGRAPH_POSE = 55,
+        MATERIAL_FIRE_MASTER_AVATAR_TALENT_ITEM = 56,
+        MATERIAL_PHOTOV5_HAND_BOOK = 57,
+        MATERIAL_AVATAR_TRACE = 58,
     }
 
     internal static class MaterialTypeExtension
@@ -125,6 +128,9 @@ namespace GrasscutterTools.Game.Inventory
             [MaterialType.MATERIAL_REMUS_MUSIC_BOX] = "音乐盒",
             [MaterialType.MATERIAL_GREATEFESTIVALV2_INVITE] = "邀请函",
             [MaterialType.MATERIAL_PHOTOGRAPH_POSE] = "照相姿势",
+            [MaterialType.MATERIAL_FIRE_MASTER_AVATAR_TALENT_ITEM] = "燧原矿",
+            [MaterialType.MATERIAL_PHOTOV5_HAND_BOOK] = "回忆相册",
+            [MaterialType.MATERIAL_AVATAR_TRACE] = "游迹",
         };
         private static readonly Dictionary<MaterialType, string> TextMapEN = new Dictionary<MaterialType, string>
         {
@@ -182,6 +188,9 @@ namespace GrasscutterTools.Game.Inventory
             [MaterialType.MATERIAL_REMUS_MUSIC_BOX]         = "MusicBox",
             [MaterialType.MATERIAL_GREATEFESTIVALV2_INVITE] = "Invitation",
             [MaterialType.MATERIAL_PHOTOGRAPH_POSE]         = "Photograph_pose",
+            [MaterialType.MATERIAL_FIRE_MASTER_AVATAR_TALENT_ITEM] = "Fire_master_avatar_talent_item",
+            [MaterialType.MATERIAL_PHOTOV5_HAND_BOOK] = "Photov5_hand_book",
+            [MaterialType.MATERIAL_AVATAR_TRACE] = "Avatar_trace",
         };
 
         public static string ToTranslatedString(this MaterialType materialType, string language)

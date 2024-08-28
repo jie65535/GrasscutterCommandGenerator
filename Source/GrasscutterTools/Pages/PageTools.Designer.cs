@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.BtnUpdateResources = new System.Windows.Forms.Button();
-            this.BtnConvertCutScene = new System.Windows.Forms.Button();
             this.LblProjectResRoot = new System.Windows.Forms.Label();
             this.TxtProjectResRoot = new System.Windows.Forms.TextBox();
             this.LblGcResRoot = new System.Windows.Forms.Label();
@@ -48,16 +47,6 @@
             this.BtnUpdateResources.Text = "Update res";
             this.BtnUpdateResources.UseVisualStyleBackColor = true;
             this.BtnUpdateResources.Click += new System.EventHandler(this.BtnUpdateResources_Click);
-            // 
-            // BtnConvertCutScene
-            // 
-            this.BtnConvertCutScene.Location = new System.Drawing.Point(147, 195);
-            this.BtnConvertCutScene.Name = "BtnConvertCutScene";
-            this.BtnConvertCutScene.Size = new System.Drawing.Size(150, 30);
-            this.BtnConvertCutScene.TabIndex = 0;
-            this.BtnConvertCutScene.Text = "Convert Cutscene";
-            this.BtnConvertCutScene.UseVisualStyleBackColor = true;
-            this.BtnConvertCutScene.Click += new System.EventHandler(this.BtnConvertCutScene_Click);
             // 
             // LblProjectResRoot
             // 
@@ -132,7 +121,6 @@
             this.Controls.Add(this.BtnUpdateBannerTitles);
             this.Controls.Add(this.BtnUpdateActivity);
             this.Controls.Add(this.BtnUpdateAllResources);
-            this.Controls.Add(this.BtnConvertCutScene);
             this.Controls.Add(this.BtnUpdateResources);
             this.Name = "PageTools";
             this.ResumeLayout(false);
@@ -143,7 +131,6 @@
         #endregion
 
         private System.Windows.Forms.Button BtnUpdateResources;
-        private System.Windows.Forms.Button BtnConvertCutScene;
         private System.Windows.Forms.Label LblProjectResRoot;
         private System.Windows.Forms.TextBox TxtProjectResRoot;
         private System.Windows.Forms.Label LblGcResRoot;

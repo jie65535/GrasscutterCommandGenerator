@@ -27,7 +27,6 @@ using System.Windows.Forms;
 
 using GrasscutterTools.Game;
 using GrasscutterTools.Game.Activity;
-using GrasscutterTools.Game.CutScene;
 using GrasscutterTools.Game.Data;
 using GrasscutterTools.Properties;
 
@@ -101,27 +100,6 @@ namespace GrasscutterTools.Pages
             }
         }
 
-        private void BtnConvertCutScene_Click(object sender, EventArgs e)
-        {
-            var src = new OpenFileDialog
-            {
-                Title = "请选择 Json 格式的 Cutscene.txt",
-                Multiselect = false,
-            };
-            if (src.ShowDialog() != DialogResult.OK)
-                return;
-            try
-            {
-                var cutScenes = JsonConvert.DeserializeObject<List<CutSceneItem>>(File.ReadAllText(src.FileName));
-                File.WriteAllLines(src.FileName, cutScenes.Select(it => $"{it.Id}:{it.Path.Substring(it.Path.IndexOf('/') + 1)}"));
-                MessageBox.Show("OK", Resources.Tips, MessageBoxButtons.OK);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString(), Resources.Error, MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
-
         private bool CheckInputPaths()
         {
             if (string.IsNullOrEmpty(TxtProjectResRoot.Text) || string.IsNullOrEmpty(TxtGcResRoot.Text))
@@ -177,7 +155,7 @@ namespace GrasscutterTools.Pages
 
                 TextMapData ??= new TextMapData(TxtGcResRoot.Text);
 
-                UpdateActivityForLanguage(activityItems, "TextMapCHS", "zh-cn");
+                // UpdateActivityForLanguage(activityItems, "TextMapCHS", "zh-cn");
                 UpdateActivityForLanguage(activityItems, "TextMapCHT", "zh-tw");
                 UpdateActivityForLanguage(activityItems, "TextMapEN", "en-us");
                 UpdateActivityForLanguage(activityItems, "TextMapRU", "ru-ru");

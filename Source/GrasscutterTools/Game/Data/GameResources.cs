@@ -25,7 +25,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading;
-
+using GrasscutterTools.Game.CutScene;
 using GrasscutterTools.Game.Data.Excels;
 using GrasscutterTools.Game.Inventory;
 using GrasscutterTools.Game.Props;
@@ -70,6 +70,7 @@ namespace GrasscutterTools.Game.Data
         public TextMapData TextMapData { get; set; }
 
         public List<WeatherData> WeatherData { get; set; }
+        public List<CutSceneItem> CutSceneData { get; set; }
 
         public GameResources(string resourcesDirPath, TextMapData textMapData)
         {
@@ -430,6 +431,21 @@ namespace GrasscutterTools.Game.Data
                         Encoding.UTF8);
 
                     #endregion Scene
+
+                    #region CutScene
+
+                    // CutScene
+                    File.WriteAllLines(
+                        Path.Combine(dir, "Cutscene.txt"),
+                        CutSceneData.Select(it =>
+                        {
+                            var text = GameData.CutScenes[it.Id];
+                            return text == ItemMap.EmptyName
+                                ? $"{it.Id}:{it.Path.Substring(it.Path.IndexOf('/') + 1)}"
+                                : $"{it.Id}:{text}";
+                        }), Encoding.UTF8);
+
+                    #endregion CutScene
 
                     #region Weapon
 

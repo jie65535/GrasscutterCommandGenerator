@@ -89,6 +89,7 @@
 2038:Md_SnowMountain_Cave
 2138:Md_SnowMountain_PeacePeak
 2039:Md_SnowMountain_GeneralTransition
+10283:Ly_General
 2152:Ly_DakahaEntrance
 2252:Ly_StoneNeedles
 3002:Dq_General
@@ -653,8 +654,36 @@
 5410:Xm_General
 5411:Fd46_Town_Boundry
 5413:Xm33_StormDesert_General
-6000:Ly_General
-6001:Ly_General
+6000:Nt_General
+6001:Nt_General_High
+6002:Nt_DGUnderground
+6003:Nt_JYSM_General
+6004:Nt_JJC_General
+6005:Nt_YLLBL
+6006:Nt_LCGY
+6007:Nt_GZLBL_General
+6008:Nt_MSTJ_General
+6009:Nt_GZLBoss
+6010:Nt_General
+6011:Nt_YSLBoss
+6012:Nt_Green_40Boss
+6013:Nt_YSKJ
+6014:Nt_JBZD_1st
+6015:Nt_JBZD_2nd
+6016:Nt_JBZD_3rd
+6017:Nt_ZZRW
+6018:Nt_LZTZD
+6019:Nt_YSKJ_Clean
+6020:Nt_MoShenQuest
+6021:Nt_XKLYD01
+6022:Nt_JJC_Center
+6023:Nt_General_Transition
+6024:Nt_YSJJC
+6025:Nt_LCGY
+6026:Nt_JBZD_2nd_Down
+6027:Nt_MoShenQuest_JJC
+6028:Nt_MSTJ_General
+6029:Nt_XKLYD02
 7000:Ly_General
 7001:Ly_General
 9031:Xm36_Sandworm
@@ -852,6 +881,21 @@
 5407:Fd46_Kpm_GlodenLobby_After
 5408:Fd46_Kpm_General_Before
 5412:Fd46_Kpm_GlodenLobby_After_Tour
+// 100
+9043:Fd48_General
+9044:Fd48_ZZSL
+9045:Fd48_NWJG_Before
+9046:Fd48_NWJG_After
+9047:Fd48_QWCT
+9048:Fd48_FSSL
+9049:Fd48_XG
+9050:Fd48_City
+9051:Fd48_XCGT
+9052:Fd48_General
+9053:Fd48_JMKS_General
+9054:Fd48_JMKS_Mists
+9061:Fd48_ToyTrainGame
+9060:Fd48_JMKS_General_02
 // 1059
 10003:FCdungeon_Hutao_01
 10004:FCdungeon_Hutao_02
@@ -1048,8 +1092,19 @@
 10274:Fd47_Md_General
 // 20219
 10275:Fd47_Md_General
+// 20223
+9068:Du48_FB_MineDragon02
+9069:DreamIsland_Mona_StarrySky_02
 // 20225
 10276:Fd47_Md_General
+// 20227
+10280:Nt_General
+10281:Nt_JJC_Center
+10282:Nt_MoShenQuest
+10302:Nt_JJC_General
+// 20230
+9071:Nt_General
+9072:Nt_GZLBoss
 // 35800
 10009:CycleDungeon_WindFlower
 10010:CycleDungeon_WindFlower_Outdoor
@@ -1196,6 +1251,13 @@
 10262:Du45_SlimeCannon01
 // 35954
 10263:Du45_SlimeCannon01
+// 41107
+9076:Nt_LCGY
+// 41109
+9074:Nt_General
+9075:Nt_General_High
+// 41110
+9073:Nt_GZLBoss
 // 43001
 10017:FCdungeon_MistTrial_Bottom
 10018:FCdungeon_MistTrial
@@ -1258,6 +1320,18 @@
 // 47816
 10247:Du41_FDBattle_01B
 10248:Du41_FDBattle_01B2
+// 47817
+9058:Du48_Activity_Tale01_On
+9059:Du48_Activity_Tale01_off
+// 47818
+9066:Du48_Activity_Tale01_On
+9067:Du48_Activity_Tale01_off
+// 47819
+9062:Du48_Activity_Tale01_On
+9063:Du48_Activity_Tale01_off
+// 47820
+9064:Du48_Activity_Tale01_On
+9065:Du48_Activity_Tale01_off
 // 47901
 10215:Du42_MistTrial_Indoor
 // 47902

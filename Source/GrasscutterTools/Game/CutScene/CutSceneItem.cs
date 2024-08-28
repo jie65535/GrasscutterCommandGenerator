@@ -17,10 +17,12 @@
  *
  **/
 
+using GrasscutterTools.Game.Data;
 using Newtonsoft.Json;
 
 namespace GrasscutterTools.Game.CutScene
 {
+    [ResourceType("CutsceneExcelConfigData.json")]
     internal class CutSceneItem
     {
         [JsonProperty("id")]
