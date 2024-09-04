@@ -130,10 +130,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LnkCharacterBuilder.Location" type="System.Drawing.Point, System.Drawing">
-    <value>534, 214</value>
+    <value>839, 302</value>
+  </data>
+  <data name="LnkCharacterBuilder.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LnkCharacterBuilder.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 17</value>
+    <value>159, 24</value>
   </data>
   <data name="LnkCharacterBuilder.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -163,10 +166,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblArtifactLevelTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 37</value>
+    <value>343, 52</value>
+  </data>
+  <data name="LblArtifactLevelTip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblArtifactLevelTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 17</value>
+    <value>63, 24</value>
   </data>
   <data name="LblArtifactLevelTip.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -193,10 +199,13 @@
     <value>NoControl</value>
   </data>
   <data name="BtnAddSubAttr.Location" type="System.Drawing.Point, System.Drawing">
-    <value>460, 125</value>
+    <value>723, 176</value>
+  </data>
+  <data name="BtnAddSubAttr.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnAddSubAttr.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 23</value>
+    <value>118, 32</value>
   </data>
   <data name="BtnAddSubAttr.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -226,10 +235,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblArtifactName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>457, 7</value>
+    <value>718, 10</value>
+  </data>
+  <data name="LblArtifactName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblArtifactName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>0, 17</value>
+    <value>0, 24</value>
   </data>
   <data name="LblArtifactName.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -256,10 +268,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblArtifactPart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>293, 7</value>
+    <value>460, 10</value>
+  </data>
+  <data name="LblArtifactPart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
+    <value>46, 24</value>
   </data>
   <data name="LblArtifactPart.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -283,10 +298,13 @@
     <value>Top</value>
   </data>
   <data name="CmbArtifactPart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 4</value>
+    <value>520, 6</value>
+  </data>
+  <data name="CmbArtifactPart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="CmbArtifactPart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 25</value>
+    <value>186, 32</value>
   </data>
   <data name="CmbArtifactPart.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -307,10 +325,13 @@
     <value>Top</value>
   </data>
   <data name="CmbArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 4</value>
+    <value>255, 6</value>
+  </data>
+  <data name="CmbArtifactSet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="CmbArtifactSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 25</value>
+    <value>194, 32</value>
   </data>
   <data name="CmbArtifactSet.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -337,10 +358,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblArtifactSet.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 7</value>
+    <value>195, 10</value>
+  </data>
+  <data name="LblArtifactSet.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblArtifactSet.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
+    <value>46, 24</value>
   </data>
   <data name="LblArtifactSet.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -364,10 +388,13 @@
     <value>Top</value>
   </data>
   <data name="NUDSubAttributionTimes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>460, 96</value>
+    <value>723, 136</value>
+  </data>
+  <data name="NUDSubAttributionTimes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="NUDSubAttributionTimes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 23</value>
+    <value>80, 30</value>
   </data>
   <data name="NUDSubAttributionTimes.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -388,10 +415,13 @@
     <value>Top</value>
   </data>
   <data name="CmbSubAttributionValue.Location" type="System.Drawing.Point, System.Drawing">
-    <value>331, 94</value>
+    <value>520, 133</value>
+  </data>
+  <data name="CmbSubAttributionValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="CmbSubAttributionValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 25</value>
+    <value>186, 32</value>
   </data>
   <data name="CmbSubAttributionValue.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -412,10 +442,13 @@
     <value>Top</value>
   </data>
   <data name="CmbSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 95</value>
+    <value>255, 134</value>
+  </data>
+  <data name="CmbSubAttribution.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="CmbSubAttribution.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 25</value>
+    <value>254, 32</value>
   </data>
   <data name="CmbSubAttribution.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -442,10 +475,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblClearSubAttrCheckedList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>457, 214</value>
+    <value>718, 302</value>
+  </data>
+  <data name="LblClearSubAttrCheckedList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblClearSubAttrCheckedList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
+    <value>63, 24</value>
   </data>
   <data name="LblClearSubAttrCheckedList.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -469,13 +505,16 @@
     <value>Top, Bottom</value>
   </data>
   <data name="ListSubAttributionChecked.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
+    <value>24</value>
   </data>
   <data name="ListSubAttributionChecked.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 125</value>
+    <value>255, 176</value>
+  </data>
+  <data name="ListSubAttributionChecked.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ListSubAttributionChecked.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 106</value>
+    <value>452, 148</value>
   </data>
   <data name="ListSubAttributionChecked.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -502,10 +541,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>124, 37</value>
+    <value>195, 52</value>
+  </data>
+  <data name="LblArtifactLevel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblArtifactLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
+    <value>46, 24</value>
   </data>
   <data name="LblArtifactLevel.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -535,10 +577,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblSubAttribution.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 98</value>
+    <value>176, 138</value>
+  </data>
+  <data name="LblSubAttribution.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblSubAttribution.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
+    <value>64, 24</value>
   </data>
   <data name="LblSubAttribution.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -562,10 +607,13 @@
     <value>Top</value>
   </data>
   <data name="CmbMainAttribution.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 64</value>
+    <value>255, 90</value>
+  </data>
+  <data name="CmbMainAttribution.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="CmbMainAttribution.Size" type="System.Drawing.Size, System.Drawing">
-    <value>289, 25</value>
+    <value>452, 32</value>
   </data>
   <data name="CmbMainAttribution.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -592,10 +640,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblMainAttribution.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 67</value>
+    <value>176, 95</value>
+  </data>
+  <data name="LblMainAttribution.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblMainAttribution.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 17</value>
+    <value>64, 24</value>
   </data>
   <data name="LblMainAttribution.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -619,10 +670,13 @@
     <value>Top</value>
   </data>
   <data name="NUDArtifactLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>162, 35</value>
+    <value>255, 49</value>
+  </data>
+  <data name="NUDArtifactLevel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="NUDArtifactLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
+    <value>79, 30</value>
   </data>
   <data name="NUDArtifactLevel.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -649,10 +703,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
-    <value>348, 37</value>
+    <value>547, 52</value>
+  </data>
+  <data name="LblArtifactStars.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblArtifactStars.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
+    <value>46, 24</value>
   </data>
   <data name="LblArtifactStars.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -676,10 +733,13 @@
     <value>Top</value>
   </data>
   <data name="NUDArtifactStars.Location" type="System.Drawing.Point, System.Drawing">
-    <value>386, 35</value>
+    <value>607, 49</value>
+  </data>
+  <data name="NUDArtifactStars.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="NUDArtifactStars.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 23</value>
+    <value>102, 30</value>
   </data>
   <data name="NUDArtifactStars.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -700,12 +760,15 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
+    <value>11, 24</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 337</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PageGiveArtifact</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.9.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.15.2.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
 </root>

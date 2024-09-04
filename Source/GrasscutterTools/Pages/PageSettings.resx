@@ -123,10 +123,14 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="LblPageTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>5, 4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LblPageTitle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblPageTitle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
+    <value>82, 24</value>
   </data>
   <data name="LblPageTitle.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -147,10 +151,13 @@
     <value>10</value>
   </data>
   <data name="NUDUid.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 39</value>
+    <value>137, 55</value>
+  </data>
+  <data name="NUDUid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="NUDUid.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>157, 30</value>
   </data>
   <data name="NUDUid.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -170,15 +177,17 @@
   <data name="ChkIncludeUID.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ChkIncludeUID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="ChkIncludeUID.Location" type="System.Drawing.Point, System.Drawing">
-    <value>28, 40</value>
+    <value>44, 56</value>
+  </data>
+  <data name="ChkIncludeUID.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ChkIncludeUID.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 21</value>
+    <value>92, 28</value>
   </data>
   <data name="ChkIncludeUID.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -202,10 +211,13 @@
     <value>True</value>
   </data>
   <data name="LblIncludeUidTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 41</value>
+    <value>303, 58</value>
+  </data>
+  <data name="LblIncludeUidTip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblIncludeUidTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 17</value>
+    <value>154, 24</value>
   </data>
   <data name="LblIncludeUidTip.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -232,10 +244,13 @@
     <value>Bottom, Left</value>
   </data>
   <data name="BtnResetPageList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 202</value>
+    <value>9, 285</value>
+  </data>
+  <data name="BtnResetPageList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnResetPageList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 25</value>
+    <value>244, 35</value>
   </data>
   <data name="BtnResetPageList.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -259,10 +274,13 @@
     <value>Bottom, Left</value>
   </data>
   <data name="BtnMoveDown.Location" type="System.Drawing.Point, System.Drawing">
-    <value>86, 171</value>
+    <value>135, 241</value>
+  </data>
+  <data name="BtnMoveDown.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnMoveDown.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
+    <value>118, 35</value>
   </data>
   <data name="BtnMoveDown.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -286,10 +304,13 @@
     <value>Bottom, Left</value>
   </data>
   <data name="BtnMoveUp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>5, 171</value>
+    <value>8, 241</value>
+  </data>
+  <data name="BtnMoveUp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnMoveUp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
+    <value>118, 35</value>
   </data>
   <data name="BtnMoveUp.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -313,10 +334,13 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="ChkListPages.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 22</value>
+    <value>9, 31</value>
+  </data>
+  <data name="ChkListPages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ChkListPages.Size" type="System.Drawing.Size, System.Drawing">
-    <value>155, 148</value>
+    <value>241, 193</value>
   </data>
   <data name="ChkListPages.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -334,10 +358,16 @@
     <value>3</value>
   </data>
   <data name="GrpPageList.Location" type="System.Drawing.Point, System.Drawing">
-    <value>476, 3</value>
+    <value>748, 4</value>
+  </data>
+  <data name="GrpPageList.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="GrpPageList.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="GrpPageList.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 233</value>
+    <value>262, 329</value>
   </data>
   <data name="GrpPageList.TabIndex" type="System.Int32, mscorlib">
     <value>100</value>
@@ -364,10 +394,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblGCVersion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>53, 70</value>
+    <value>83, 99</value>
+  </data>
+  <data name="LblGCVersion.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblGCVersion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>25, 17</value>
+    <value>35, 24</value>
   </data>
   <data name="LblGCVersion.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -388,10 +421,13 @@
     <value>4</value>
   </data>
   <data name="CmbGcVersions.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 67</value>
+    <value>137, 95</value>
+  </data>
+  <data name="CmbGcVersions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="CmbGcVersions.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
+    <value>155, 32</value>
   </data>
   <data name="CmbGcVersions.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -412,10 +448,13 @@
     <value>True</value>
   </data>
   <data name="LblGcVersionTip.Location" type="System.Drawing.Point, System.Drawing">
-    <value>193, 70</value>
+    <value>303, 99</value>
+  </data>
+  <data name="LblGcVersionTip.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblGcVersionTip.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 17</value>
+    <value>154, 24</value>
   </data>
   <data name="LblGcVersionTip.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -442,10 +481,13 @@
     <value>NoControl</value>
   </data>
   <data name="ChkTopMost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>197, 98</value>
+    <value>310, 138</value>
+  </data>
+  <data name="ChkTopMost.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ChkTopMost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
+    <value>108, 28</value>
   </data>
   <data name="ChkTopMost.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -469,10 +511,13 @@
     <value>True</value>
   </data>
   <data name="LblWindowOpacity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>25, 99</value>
+    <value>39, 140</value>
+  </data>
+  <data name="LblWindowOpacity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblWindowOpacity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
+    <value>82, 24</value>
   </data>
   <data name="LblWindowOpacity.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -493,10 +538,13 @@
     <value>1</value>
   </data>
   <data name="TbWindowOpacity.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 98</value>
+    <value>137, 138</value>
+  </data>
+  <data name="TbWindowOpacity.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="TbWindowOpacity.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 45</value>
+    <value>163, 69</value>
   </data>
   <data name="TbWindowOpacity.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -517,12 +565,15 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
+    <value>11, 24</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 337</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PageSettings</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.13.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.15.2.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
 </root>

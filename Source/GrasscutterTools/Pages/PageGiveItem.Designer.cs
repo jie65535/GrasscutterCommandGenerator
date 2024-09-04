@@ -172,6 +172,7 @@
             // 
             // MenuItemFilter
             // 
+            this.MenuItemFilter.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.MenuItemFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuItemFilter, "MenuItemFilter");
             // 

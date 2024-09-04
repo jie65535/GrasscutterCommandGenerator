@@ -123,10 +123,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="TxtHost.Location" type="System.Drawing.Point, System.Drawing">
-    <value>227, 40</value>
+    <value>357, 56</value>
+  </data>
+  <data name="TxtHost.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="TxtHost.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 23</value>
+    <value>249, 30</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TxtHost.TabIndex" type="System.Int32, mscorlib">
@@ -151,10 +154,13 @@
     <value>True</value>
   </data>
   <data name="LblServerAddress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>84, 43</value>
+    <value>132, 61</value>
+  </data>
+  <data name="LblServerAddress.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblServerAddress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 17</value>
+    <value>203, 24</value>
   </data>
   <data name="LblServerAddress.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -178,10 +184,13 @@
     <value>Top, Right</value>
   </data>
   <data name="BtnStartProxy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>393, 40</value>
+    <value>618, 56</value>
+  </data>
+  <data name="BtnStartProxy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnStartProxy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 25</value>
+    <value>189, 35</value>
   </data>
   <data name="BtnStartProxy.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -208,10 +217,13 @@
     <value>True</value>
   </data>
   <data name="ChkAutoStart.Location" type="System.Drawing.Point, System.Drawing">
-    <value>519, 42</value>
+    <value>826, 59</value>
+  </data>
+  <data name="ChkAutoStart.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ChkAutoStart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 21</value>
+    <value>108, 28</value>
   </data>
   <data name="ChkAutoStart.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -235,7 +247,10 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="LblProxyIntroduction.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 72</value>
+    <value>75, 102</value>
+  </data>
+  <data name="LblProxyIntroduction.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="LblProxyIntroduction.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -244,7 +259,7 @@
     <value>Vertical</value>
   </data>
   <data name="LblProxyIntroduction.Size" type="System.Drawing.Size, System.Drawing">
-    <value>550, 120</value>
+    <value>862, 182</value>
   </data>
   <data name="LblProxyIntroduction.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -271,10 +286,13 @@
     <value>Bottom, Right</value>
   </data>
   <data name="BtnDestroyCert.Location" type="System.Drawing.Point, System.Drawing">
-    <value>529, 207</value>
+    <value>831, 292</value>
+  </data>
+  <data name="BtnDestroyCert.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnDestroyCert.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
+    <value>157, 35</value>
   </data>
   <data name="BtnDestroyCert.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -301,10 +319,13 @@
     <value>True</value>
   </data>
   <data name="LnkEavesdrop.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 211</value>
+    <value>24, 298</value>
+  </data>
+  <data name="LnkEavesdrop.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LnkEavesdrop.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 17</value>
+    <value>99, 24</value>
   </data>
   <data name="LnkEavesdrop.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -331,10 +352,13 @@
     <value>True</value>
   </data>
   <data name="LnkAbout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>482, 211</value>
+    <value>757, 298</value>
+  </data>
+  <data name="LnkAbout.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LnkAbout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
+    <value>46, 24</value>
   </data>
   <data name="LnkAbout.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -358,10 +382,13 @@
     <value>True</value>
   </data>
   <data name="LblGcJarPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>102, 14</value>
+    <value>160, 20</value>
+  </data>
+  <data name="LblGcJarPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblGcJarPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 17</value>
+    <value>172, 24</value>
   </data>
   <data name="LblGcJarPath.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -388,10 +415,13 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="TxtGcJarPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>227, 11</value>
+    <value>357, 16</value>
+  </data>
+  <data name="TxtGcJarPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="TxtGcJarPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>160, 23</value>
+    <value>249, 30</value>
   </data>
   <data name="TxtGcJarPath.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -415,10 +445,13 @@
     <value>Top, Right</value>
   </data>
   <data name="BtnStartGc.Location" type="System.Drawing.Point, System.Drawing">
-    <value>393, 11</value>
+    <value>618, 16</value>
+  </data>
+  <data name="BtnStartGc.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnStartGc.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 25</value>
+    <value>189, 35</value>
   </data>
   <data name="BtnStartGc.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -445,15 +478,18 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
+    <value>11, 24</value>
   </data>
   <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 337</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PageProxy</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.13.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.15.2.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
 </root>

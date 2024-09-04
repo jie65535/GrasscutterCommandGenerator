@@ -34,6 +34,7 @@
             this.BtnDeleteMailItem = new System.Windows.Forms.Button();
             this.TCMailRight = new System.Windows.Forms.TabControl();
             this.TPMailSelectableItemList = new System.Windows.Forms.TabPage();
+            this.LblClearFilter = new System.Windows.Forms.Label();
             this.ListMailSelectableItems = new System.Windows.Forms.ListBox();
             this.TxtMailSelectableItemFilter = new System.Windows.Forms.TextBox();
             this.PanelMailItemArgs = new System.Windows.Forms.Panel();
@@ -59,7 +60,6 @@
             this.LblMailTitleLabel = new System.Windows.Forms.Label();
             this.TxtMailSender = new System.Windows.Forms.TextBox();
             this.LblMailSenderLabel = new System.Windows.Forms.Label();
-            this.LblClearFilter = new System.Windows.Forms.Label();
             this.TCMailRight.SuspendLayout();
             this.TPMailSelectableItemList.SuspendLayout();
             this.PanelMailItemArgs.SuspendLayout();
@@ -108,6 +108,14 @@
             resources.ApplyResources(this.TPMailSelectableItemList, "TPMailSelectableItemList");
             this.TPMailSelectableItemList.Name = "TPMailSelectableItemList";
             this.TPMailSelectableItemList.UseVisualStyleBackColor = true;
+            // 
+            // LblClearFilter
+            // 
+            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
+            this.LblClearFilter.BackColor = System.Drawing.Color.White;
+            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.LblClearFilter.Name = "LblClearFilter";
+            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
             // 
             // ListMailSelectableItems
             // 
@@ -297,14 +305,6 @@
             // 
             resources.ApplyResources(this.LblMailSenderLabel, "LblMailSenderLabel");
             this.LblMailSenderLabel.Name = "LblMailSenderLabel";
-            // 
-            // LblClearFilter
-            // 
-            resources.ApplyResources(this.LblClearFilter, "LblClearFilter");
-            this.LblClearFilter.BackColor = System.Drawing.Color.White;
-            this.LblClearFilter.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.LblClearFilter.Name = "LblClearFilter";
-            this.LblClearFilter.Click += new System.EventHandler(this.LblClearFilter_Click);
             // 
             // PageMail
             // 

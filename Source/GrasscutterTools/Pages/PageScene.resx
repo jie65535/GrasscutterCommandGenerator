@@ -127,10 +127,13 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="RbListDungeons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 30</value>
+    <value>451, 42</value>
+  </data>
+  <data name="RbListDungeons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="RbListDungeons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 21</value>
+    <value>71, 28</value>
   </data>
   <data name="RbListDungeons.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -157,10 +160,13 @@
     <value>NoControl</value>
   </data>
   <data name="RbListScene.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 3</value>
+    <value>451, 4</value>
+  </data>
+  <data name="RbListScene.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="RbListScene.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 21</value>
+    <value>71, 28</value>
   </data>
   <data name="RbListScene.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -184,10 +190,13 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="TxtSceneFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 2</value>
+    <value>539, 3</value>
+  </data>
+  <data name="TxtSceneFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="TxtSceneFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 23</value>
+    <value>469, 30</value>
   </data>
   <data name="TxtSceneFilter.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -217,10 +226,13 @@
     <value>NoControl</value>
   </data>
   <data name="ChkIncludeSceneId.Location" type="System.Drawing.Point, System.Drawing">
-    <value>87, 188</value>
+    <value>137, 267</value>
+  </data>
+  <data name="ChkIncludeSceneId.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ChkIncludeSceneId.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 21</value>
+    <value>109, 28</value>
   </data>
   <data name="ChkIncludeSceneId.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -250,10 +262,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblTpZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 158</value>
+    <value>338, 223</value>
+  </data>
+  <data name="LblTpZ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblTpZ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 17</value>
+    <value>19, 24</value>
   </data>
   <data name="LblTpZ.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -283,10 +298,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>109, 158</value>
+    <value>171, 223</value>
+  </data>
+  <data name="LblTpY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblTpY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 17</value>
+    <value>20, 24</value>
   </data>
   <data name="LblTpY.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -313,10 +331,13 @@
     <value>NoControl</value>
   </data>
   <data name="BtnTeleport.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 185</value>
+    <value>9, 261</value>
+  </data>
+  <data name="BtnTeleport.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnTeleport.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
+    <value>118, 35</value>
   </data>
   <data name="BtnTeleport.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -346,10 +367,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblTpX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 158</value>
+    <value>5, 223</value>
+  </data>
+  <data name="LblTpX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblTpX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 17</value>
+    <value>19, 24</value>
   </data>
   <data name="LblTpX.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -373,10 +397,13 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDTpZ.Location" type="System.Drawing.Point, System.Drawing">
-    <value>235, 156</value>
+    <value>369, 220</value>
+  </data>
+  <data name="NUDTpZ.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="NUDTpZ.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
+    <value>126, 30</value>
   </data>
   <data name="NUDTpZ.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -397,10 +424,13 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDTpY.Location" type="System.Drawing.Point, System.Drawing">
-    <value>129, 156</value>
+    <value>203, 220</value>
+  </data>
+  <data name="NUDTpY.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="NUDTpY.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
+    <value>126, 30</value>
   </data>
   <data name="NUDTpY.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -421,10 +451,13 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDTpX.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 156</value>
+    <value>36, 220</value>
+  </data>
+  <data name="NUDTpX.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="NUDTpX.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 23</value>
+    <value>126, 30</value>
   </data>
   <data name="NUDTpX.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -448,10 +481,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblSceneDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>5, 4</value>
+  </data>
+  <data name="LblSceneDescription.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblSceneDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
+    <value>82, 24</value>
   </data>
   <data name="LblSceneDescription.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -475,13 +511,16 @@
     <value>Top, Bottom, Left, Right</value>
   </data>
   <data name="ListScenes.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
+    <value>24</value>
   </data>
   <data name="ListScenes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>343, 28</value>
+    <value>539, 40</value>
+  </data>
+  <data name="ListScenes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ListScenes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>300, 208</value>
+    <value>469, 268</value>
   </data>
   <data name="ListScenes.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -508,10 +547,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblTp.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 102</value>
+    <value>5, 144</value>
+  </data>
+  <data name="LblTp.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblTp.Size" type="System.Drawing.Size, System.Drawing">
-    <value>296, 51</value>
+    <value>444, 72</value>
   </data>
   <data name="LblTp.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -541,10 +583,13 @@
     <value>NoControl</value>
   </data>
   <data name="RbListCutScene.Location" type="System.Drawing.Point, System.Drawing">
-    <value>287, 57</value>
+    <value>451, 80</value>
+  </data>
+  <data name="RbListCutScene.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="RbListCutScene.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 21</value>
+    <value>71, 28</value>
   </data>
   <data name="RbListCutScene.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -571,10 +616,13 @@
     <value>NoControl</value>
   </data>
   <data name="BtnFreezeTime.Location" type="System.Drawing.Point, System.Drawing">
-    <value>215, 184</value>
+    <value>338, 260</value>
+  </data>
+  <data name="BtnFreezeTime.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnFreezeTime.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 25</value>
+    <value>157, 35</value>
   </data>
   <data name="BtnFreezeTime.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -604,10 +652,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblClearFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>626, 5</value>
+    <value>984, 7</value>
+  </data>
+  <data name="LblClearFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblClearFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 17</value>
+    <value>22, 24</value>
   </data>
   <data name="LblClearFilter.TabIndex" type="System.Int32, mscorlib">
     <value>23</value>
@@ -634,12 +685,15 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
+    <value>11, 24</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 337</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PageScene</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.13.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.15.2.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
 </root>

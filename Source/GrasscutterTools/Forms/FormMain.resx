@@ -123,7 +123,10 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="NavContainer.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
+    <value>19, 17</value>
+  </data>
+  <data name="NavContainer.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ListPages.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
@@ -138,8 +141,11 @@
   <data name="ListPages.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="ListPages.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
   <data name="ListPages.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 275</value>
+    <value>235, 388</value>
   </data>
   <data name="ListPages.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -187,10 +193,13 @@
     <value>610</value>
   </data>
   <data name="NavContainer.Size" type="System.Drawing.Size, System.Drawing">
-    <value>810, 275</value>
+    <value>1273, 388</value>
   </data>
   <data name="NavContainer.SplitterDistance" type="System.Int32, mscorlib">
-    <value>150</value>
+    <value>235</value>
+  </data>
+  <data name="NavContainer.SplitterWidth" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="NavContainer.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -211,10 +220,13 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="CmbCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>115, 22</value>
+    <value>181, 31</value>
+  </data>
+  <data name="CmbCommand.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="CmbCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>600, 25</value>
+    <value>941, 32</value>
   </data>
   <data name="CmbCommand.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -235,10 +247,13 @@
     <value>NoControl</value>
   </data>
   <data name="BtnCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>59, 22</value>
+    <value>93, 31</value>
+  </data>
+  <data name="BtnCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 25</value>
+    <value>79, 35</value>
   </data>
   <data name="BtnCopy.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -265,10 +280,13 @@
     <value>NoControl</value>
   </data>
   <data name="ChkAutoCopy.Location" type="System.Drawing.Point, System.Drawing">
-    <value>10, 24</value>
+    <value>16, 34</value>
+  </data>
+  <data name="ChkAutoCopy.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ChkAutoCopy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 21</value>
+    <value>72, 28</value>
   </data>
   <data name="ChkAutoCopy.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -301,10 +319,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblClearFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>680, 26</value>
+    <value>1069, 37</value>
+  </data>
+  <data name="LblClearFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblClearFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 17</value>
+    <value>22, 24</value>
   </data>
   <data name="LblClearFilter.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -334,10 +355,13 @@
     <value>NoControl</value>
   </data>
   <data name="BtnInvokeOpenCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>721, 22</value>
+    <value>1133, 31</value>
+  </data>
+  <data name="BtnInvokeOpenCommand.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnInvokeOpenCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>75, 25</value>
+    <value>118, 35</value>
   </data>
   <data name="BtnInvokeOpenCommand.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -358,13 +382,19 @@
     <value>1</value>
   </data>
   <data name="GrpCommand.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 293</value>
+    <value>19, 414</value>
+  </data>
+  <data name="GrpCommand.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="GrpCommand.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>610, 56</value>
+    <value>959, 79</value>
+  </data>
+  <data name="GrpCommand.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="GrpCommand.Size" type="System.Drawing.Size, System.Drawing">
-    <value>810, 56</value>
+    <value>1273, 79</value>
   </data>
   <data name="GrpCommand.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -399,20 +429,17 @@
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
-  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>834, 361</value>
+    <value>1311, 510</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei UI, 9pt</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>5, 6, 5, 6</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>850, 400</value>
+    <value>1323, 542</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

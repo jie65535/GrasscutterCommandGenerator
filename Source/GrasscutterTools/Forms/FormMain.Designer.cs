@@ -116,13 +116,14 @@ namespace GrasscutterTools.Forms
             // 
             // MenuSpawnEntityFilter
             // 
+            this.MenuSpawnEntityFilter.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
             // 
             // FormMain
             // 
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             resources.ApplyResources(this, "$this");
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.NavContainer);
             this.Controls.Add(this.GrpCommand);
             this.KeyPreview = true;

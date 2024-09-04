@@ -129,10 +129,13 @@
     <value>NoControl</value>
   </data>
   <data name="BtnGiveAllWeapons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 173</value>
+    <value>14, 244</value>
+  </data>
+  <data name="BtnGiveAllWeapons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnGiveAllWeapons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>150, 35</value>
+    <value>236, 49</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="BtnGiveAllWeapons.TabIndex" type="System.Int32, mscorlib">
@@ -157,10 +160,13 @@
     <value>Top, Right</value>
   </data>
   <data name="TxtWeaponFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>443, 3</value>
+    <value>696, 4</value>
+  </data>
+  <data name="TxtWeaponFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="TxtWeaponFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 23</value>
+    <value>312, 30</value>
   </data>
   <data name="TxtWeaponFilter.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -187,10 +193,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblWeaponDescription.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 8</value>
+    <value>9, 11</value>
+  </data>
+  <data name="LblWeaponDescription.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblWeaponDescription.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 153</value>
+    <value>298, 216</value>
   </data>
   <data name="LblWeaponDescription.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -228,10 +237,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblWeaponRefinement.Location" type="System.Drawing.Point, System.Drawing">
-    <value>194, 216</value>
+    <value>305, 305</value>
+  </data>
+  <data name="LblWeaponRefinement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblWeaponRefinement.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
+    <value>82, 24</value>
   </data>
   <data name="LblWeaponRefinement.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -261,10 +273,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblWeaponAmount.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 216</value>
+    <value>9, 305</value>
+  </data>
+  <data name="LblWeaponAmount.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblWeaponAmount.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
+    <value>46, 24</value>
   </data>
   <data name="LblWeaponAmount.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -294,10 +309,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblWeaponLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>100, 216</value>
+    <value>157, 305</value>
+  </data>
+  <data name="LblWeaponLevel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblWeaponLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 17</value>
+    <value>46, 24</value>
   </data>
   <data name="LblWeaponLevel.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -321,10 +339,13 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDWeaponRefinement.Location" type="System.Drawing.Point, System.Drawing">
-    <value>256, 214</value>
+    <value>402, 302</value>
+  </data>
+  <data name="NUDWeaponRefinement.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="NUDWeaponRefinement.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
+    <value>79, 30</value>
   </data>
   <data name="NUDWeaponRefinement.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -345,10 +366,13 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDWeaponAmout.Location" type="System.Drawing.Point, System.Drawing">
-    <value>44, 214</value>
+    <value>69, 302</value>
+  </data>
+  <data name="NUDWeaponAmout.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="NUDWeaponAmout.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
+    <value>79, 30</value>
   </data>
   <data name="NUDWeaponAmout.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -369,10 +393,13 @@
     <value>Bottom, Left</value>
   </data>
   <data name="NUDWeaponLevel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>138, 214</value>
+    <value>217, 302</value>
+  </data>
+  <data name="NUDWeaponLevel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="NUDWeaponLevel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>50, 23</value>
+    <value>79, 30</value>
   </data>
   <data name="NUDWeaponLevel.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -393,13 +420,16 @@
     <value>Top, Bottom, Right</value>
   </data>
   <data name="ListWeapons.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
+    <value>24</value>
   </data>
   <data name="ListWeapons.Location" type="System.Drawing.Point, System.Drawing">
-    <value>443, 29</value>
+    <value>696, 41</value>
+  </data>
+  <data name="ListWeapons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ListWeapons.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 208</value>
+    <value>312, 292</value>
   </data>
   <data name="ListWeapons.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -426,10 +456,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblClearFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>626, 6</value>
+    <value>984, 8</value>
+  </data>
+  <data name="LblClearFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblClearFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 17</value>
+    <value>22, 24</value>
   </data>
   <data name="LblClearFilter.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
@@ -456,12 +489,15 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
+    <value>11, 24</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 337</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PageGiveWeapon</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.13.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.15.2.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
 </root>

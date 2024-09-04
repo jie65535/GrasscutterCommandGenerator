@@ -123,14 +123,17 @@
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="ListAchievements.ItemHeight" type="System.Int32, mscorlib">
-    <value>17</value>
+    <value>24</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="ListAchievements.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 51</value>
+    <value>9, 72</value>
+  </data>
+  <data name="ListAchievements.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="ListAchievements.Size" type="System.Drawing.Size, System.Drawing">
-    <value>628, 106</value>
+    <value>985, 148</value>
   </data>
   <data name="ListAchievements.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -160,10 +163,13 @@
     <value>NoControl</value>
   </data>
   <data name="LblClearFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>617, 25</value>
+    <value>970, 35</value>
+  </data>
+  <data name="LblClearFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LblClearFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>16, 17</value>
+    <value>22, 24</value>
   </data>
   <data name="LblClearFilter.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -190,10 +196,13 @@
     <value>Top, Left, Right</value>
   </data>
   <data name="TxtAchievementFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 22</value>
+    <value>9, 31</value>
+  </data>
+  <data name="TxtAchievementFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="TxtAchievementFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>628, 23</value>
+    <value>985, 30</value>
   </data>
   <data name="TxtAchievementFilter.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -217,10 +226,13 @@
     <value>True</value>
   </data>
   <data name="LnkRevokeAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>578, 0</value>
+    <value>908, 0</value>
+  </data>
+  <data name="LnkRevokeAll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LnkRevokeAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
+    <value>82, 24</value>
   </data>
   <data name="LnkRevokeAll.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -247,10 +259,13 @@
     <value>True</value>
   </data>
   <data name="LnkGrantAll.Location" type="System.Drawing.Point, System.Drawing">
-    <value>516, 0</value>
+    <value>811, 0</value>
+  </data>
+  <data name="LnkGrantAll.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="LnkGrantAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>56, 17</value>
+    <value>82, 24</value>
   </data>
   <data name="LnkGrantAll.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -271,10 +286,16 @@
     <value>4</value>
   </data>
   <data name="GrpAchievements.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>5, 4</value>
+  </data>
+  <data name="GrpAchievements.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="GrpAchievements.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="GrpAchievements.Size" type="System.Drawing.Size, System.Drawing">
-    <value>640, 167</value>
+    <value>1006, 236</value>
   </data>
   <data name="GrpAchievements.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -301,10 +322,13 @@
     <value>Top, Right</value>
   </data>
   <data name="NUDProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>579, 25</value>
+    <value>910, 35</value>
+  </data>
+  <data name="NUDProgress.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="NUDProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 23</value>
+    <value>86, 30</value>
   </data>
   <data name="NUDProgress.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -325,10 +349,13 @@
     <value>Top, Right</value>
   </data>
   <data name="BtnProgress.Location" type="System.Drawing.Point, System.Drawing">
-    <value>473, 25</value>
+    <value>743, 35</value>
+  </data>
+  <data name="BtnProgress.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnProgress.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>157, 32</value>
   </data>
   <data name="BtnProgress.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -349,10 +376,13 @@
     <value>1</value>
   </data>
   <data name="BtnRevoke.Location" type="System.Drawing.Point, System.Drawing">
-    <value>112, 25</value>
+    <value>176, 35</value>
+  </data>
+  <data name="BtnRevoke.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnRevoke.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>157, 32</value>
   </data>
   <data name="BtnRevoke.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -373,10 +403,13 @@
     <value>2</value>
   </data>
   <data name="BtnGrant.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 25</value>
+    <value>9, 35</value>
+  </data>
+  <data name="BtnGrant.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="BtnGrant.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 23</value>
+    <value>157, 32</value>
   </data>
   <data name="BtnGrant.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -397,10 +430,16 @@
     <value>3</value>
   </data>
   <data name="GrpAchievementCommands.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 176</value>
+    <value>5, 248</value>
+  </data>
+  <data name="GrpAchievementCommands.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
+  </data>
+  <data name="GrpAchievementCommands.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="GrpAchievementCommands.Size" type="System.Drawing.Size, System.Drawing">
-    <value>640, 60</value>
+    <value>1006, 85</value>
   </data>
   <data name="GrpAchievementCommands.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -424,12 +463,15 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 17</value>
+    <value>11, 24</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 337</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>PageAchievement</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.13.0.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
+    <value>GrasscutterTools.Pages.BasePage, GrasscutterTools, Version=1.15.2.0, Culture=neutral, PublicKeyToken=de2b1c089621e923</value>
   </data>
 </root>

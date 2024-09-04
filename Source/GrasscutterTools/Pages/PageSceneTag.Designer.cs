@@ -56,9 +56,9 @@
             // 
             // GrpOnSelectedCheck
             // 
-            resources.ApplyResources(this.GrpOnSelectedCheck, "GrpOnSelectedCheck");
             this.GrpOnSelectedCheck.Controls.Add(this.RbOnSelectedUncheck);
             this.GrpOnSelectedCheck.Controls.Add(this.RbOnSelectedCheck);
+            resources.ApplyResources(this.GrpOnSelectedCheck, "GrpOnSelectedCheck");
             this.GrpOnSelectedCheck.Name = "GrpOnSelectedCheck";
             this.GrpOnSelectedCheck.TabStop = false;
             // 
@@ -79,9 +79,9 @@
             // 
             // GrpOnDefaultSelectedCheck
             // 
-            resources.ApplyResources(this.GrpOnDefaultSelectedCheck, "GrpOnDefaultSelectedCheck");
             this.GrpOnDefaultSelectedCheck.Controls.Add(this.RbOnDefaultSelectedCheck);
             this.GrpOnDefaultSelectedCheck.Controls.Add(this.RbOnDefaultSelectedUncheck);
+            resources.ApplyResources(this.GrpOnDefaultSelectedCheck, "GrpOnDefaultSelectedCheck");
             this.GrpOnDefaultSelectedCheck.Name = "GrpOnDefaultSelectedCheck";
             this.GrpOnDefaultSelectedCheck.TabStop = false;
             // 
