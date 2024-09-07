@@ -818,10 +818,5 @@ namespace GrasscutterTools.Forms
         {
             CmbCommand.Text = "";
         }
-
-        private void ListPages_MeasureItem(object sender, MeasureItemEventArgs e)
-        {
-            e.ItemHeight = ListPages.Font.Height * 3 / 2;
-        }
     }
 }
