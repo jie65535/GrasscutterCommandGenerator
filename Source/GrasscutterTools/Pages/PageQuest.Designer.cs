@@ -108,6 +108,7 @@
             resources.ApplyResources(this.ListQuest, "ListQuest");
             this.ListQuest.FormattingEnabled = true;
             this.ListQuest.Name = "ListQuest";
+            this.ListQuest.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.ListQuest_MeasureItem);
             this.ListQuest.SelectedIndexChanged += new System.EventHandler(this.ListQuest_SelectedIndexChanged);
             // 
             // LblClearFilter

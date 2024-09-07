@@ -104,6 +104,7 @@
             resources.ApplyResources(this.ListGameItems, "ListGameItems");
             this.ListGameItems.FormattingEnabled = true;
             this.ListGameItems.Name = "ListGameItems";
+            this.ListGameItems.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.ListGameItems_MeasureItem);
             this.ListGameItems.SelectedIndexChanged += new System.EventHandler(this.GiveItemsInputChanged);
             // 
             // LblGameItemAmount
@@ -172,6 +173,7 @@
             // 
             // MenuItemFilter
             // 
+            this.MenuItemFilter.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.MenuItemFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuItemFilter, "MenuItemFilter");
             // 

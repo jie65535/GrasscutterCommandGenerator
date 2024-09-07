@@ -98,5 +98,10 @@ namespace GrasscutterTools.Pages
             var id = ItemMap.ToId(item);
             SetCommand($"/quest add {id} | /quest finish {id}");
         }
+
+        private void ListQuest_MeasureItem(object sender, MeasureItemEventArgs e)
+        {
+            e.ItemHeight = ListQuest.Font.Height * 3 / 2;
+        }
     }
 }

@@ -110,5 +110,9 @@ namespace GrasscutterTools.Pages
             GenSelected("/achievement progress", NUDProgress.Text);
         }
 
+        private void ListAchievements_MeasureItem(object sender, MeasureItemEventArgs e)
+        {
+            e.ItemHeight = ListAchievements.Font.Height * 3 / 2;
+        }
     }
 }

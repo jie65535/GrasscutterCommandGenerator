@@ -176,6 +176,7 @@
             resources.ApplyResources(this.ListScenes, "ListScenes");
             this.ListScenes.FormattingEnabled = true;
             this.ListScenes.Name = "ListScenes";
+            this.ListScenes.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.ListScenes_MeasureItem);
             this.ListScenes.SelectedIndexChanged += new System.EventHandler(this.ListScenes_SelectedIndexChanged);
             // 
             // LblTp

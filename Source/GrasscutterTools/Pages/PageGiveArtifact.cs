@@ -265,5 +265,10 @@ namespace GrasscutterTools.Pages
         {
             UIUtil.OpenURL("https://github.com/Penelopeep/CharacterBuilder");
         }
+
+        private void ListSubAttributionChecked_MeasureItem(object sender, MeasureItemEventArgs e)
+        {
+            e.ItemHeight = ListSubAttributionChecked.Font.Height * 3 / 2;
+        }
     }
 }

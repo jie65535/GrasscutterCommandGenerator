@@ -249,6 +249,10 @@ namespace GrasscutterTools.Pages
         }
 
         #endregion -- 物品记录 --
-        
+
+        private void ListGameItems_MeasureItem(object sender, MeasureItemEventArgs e)
+        {
+            e.ItemHeight = ListGameItems.Font.Height * 3 / 2;
+        }
     }
 }

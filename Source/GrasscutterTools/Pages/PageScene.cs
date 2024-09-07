@@ -155,5 +155,10 @@ namespace GrasscutterTools.Pages
         {
             SetCommand("/prop", "is_game_time_locked  on");
         }
+
+        private void ListScenes_MeasureItem(object sender, System.Windows.Forms.MeasureItemEventArgs e)
+        {
+            e.ItemHeight = ListScenes.Font.Height * 3 / 2;
+        }
     }
 }

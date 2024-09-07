@@ -63,6 +63,7 @@ namespace GrasscutterTools.Forms
             this.ListPages.FormattingEnabled = true;
             this.ListPages.Name = "ListPages";
             this.ListPages.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.ListPages_DrawItem);
+            this.ListPages.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.ListPages_MeasureItem);
             this.ListPages.SelectedIndexChanged += new System.EventHandler(this.ListPages_SelectedIndexChanged);
             this.ListPages.SizeChanged += new System.EventHandler(this.ListPages_SizeChanged);
             // 
@@ -116,6 +117,7 @@ namespace GrasscutterTools.Forms
             // 
             // MenuSpawnEntityFilter
             // 
+            this.MenuSpawnEntityFilter.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
             // 

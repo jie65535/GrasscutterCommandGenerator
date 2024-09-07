@@ -299,5 +299,9 @@ namespace GrasscutterTools.Pages
 
         #endregion -- 邮件列表 Mail list --
 
+        private void ListMailItems_MeasureItem(object sender, MeasureItemEventArgs e)
+        {
+            e.ItemHeight = ListMailItems.Font.Height * 3 / 2;
+        }
     }
 }

@@ -59,6 +59,7 @@ namespace GrasscutterTools.Pages
             CmbGcVersions.SelectedIndexChanged += (o, e) => CommandVersion.Current = CommandVersion.List[CmbGcVersions.SelectedIndex];
             CommandVersion.VersionChanged += (o, e) => Settings.Default.CommandVersion = CommandVersion.Current.ToString(3);
 
+            ChkListPages.ItemHeight = ChkListPages.Font.Height * 3 / 2;
         }
 
         /// <summary>
