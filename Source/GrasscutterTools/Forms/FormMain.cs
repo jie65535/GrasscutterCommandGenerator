@@ -399,8 +399,6 @@ namespace GrasscutterTools.Forms
         /// <summary>
         /// 导航列表项居中绘制
         /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
         private void ListPages_DrawItem(object sender, DrawItemEventArgs e)
         {
             e.DrawBackground();
@@ -411,6 +409,15 @@ namespace GrasscutterTools.Forms
                 LineAlignment = StringAlignment.Center //文本水平居中
             };
             e.Graphics.DrawString(ListPages.Items[e.Index].ToString(), e.Font, new SolidBrush(e.ForeColor), e.Bounds, strFmt);
+        }
+
+        /// <summary>
+        /// 导航列表高度测量
+        /// </summary>
+        private void ListPages_MeasureItem(object sender, MeasureItemEventArgs e)
+        {
+            // 列表项高度为字体高度1.5倍
+            e.ItemHeight = ListPages.Font.Height * 3 / 2;
         }
 
         /// <summary>
