@@ -154,6 +154,7 @@
             resources.ApplyResources(this.ListSubAttributionChecked, "ListSubAttributionChecked");
             this.ListSubAttributionChecked.FormattingEnabled = true;
             this.ListSubAttributionChecked.Name = "ListSubAttributionChecked";
+            this.ListSubAttributionChecked.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.ListSubAttributionChecked_MeasureItem);
             this.ListSubAttributionChecked.SelectedIndexChanged += new System.EventHandler(this.ListSubAttributionChecked_SelectedIndexChanged);
             // 
             // LblArtifactLevel

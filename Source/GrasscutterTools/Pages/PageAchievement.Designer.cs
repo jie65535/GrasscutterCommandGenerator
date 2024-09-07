@@ -51,6 +51,7 @@
             this.ListAchievements.FormattingEnabled = true;
             this.ListAchievements.Name = "ListAchievements";
             this.ListAchievements.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended;
+            this.ListAchievements.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.ListAchievements_MeasureItem);
             // 
             // GrpAchievements
             // 

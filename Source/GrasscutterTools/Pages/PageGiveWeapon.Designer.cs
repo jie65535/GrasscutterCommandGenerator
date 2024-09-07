@@ -141,6 +141,7 @@
             resources.ApplyResources(this.ListWeapons, "ListWeapons");
             this.ListWeapons.FormattingEnabled = true;
             this.ListWeapons.Name = "ListWeapons";
+            this.ListWeapons.MeasureItem += new System.Windows.Forms.MeasureItemEventHandler(this.ListWeapons_MeasureItem);
             this.ListWeapons.SelectedIndexChanged += new System.EventHandler(this.WeaponValueChanged);
             // 
             // LblClearFilter

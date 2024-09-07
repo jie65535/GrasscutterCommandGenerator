@@ -117,6 +117,7 @@ namespace GrasscutterTools.Forms
             // 
             // MenuSpawnEntityFilter
             // 
+            this.MenuSpawnEntityFilter.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.MenuSpawnEntityFilter.Name = "MenuSpawnEntityFilter";
             resources.ApplyResources(this.MenuSpawnEntityFilter, "MenuSpawnEntityFilter");
             // 

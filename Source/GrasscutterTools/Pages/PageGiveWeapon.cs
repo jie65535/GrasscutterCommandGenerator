@@ -82,5 +82,10 @@ namespace GrasscutterTools.Pages
         {
             SetCommand("/give", $"weapons x{NUDWeaponAmout.Value} lv{NUDWeaponLevel.Value} r{NUDWeaponRefinement.Value}");
         }
+
+        private void ListWeapons_MeasureItem(object sender, System.Windows.Forms.MeasureItemEventArgs e)
+        {
+            e.ItemHeight = ListWeapons.Font.Height * 3 / 2;
+        }
     }
 }
