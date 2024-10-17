@@ -1,4 +1,4 @@
-# Grasscutter Tools
+# Grasscutter Tools ۱
 
 [![GitHub license](https://img.shields.io/github/license/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/jie65535/GrasscutterCommandGenerator)](https://github.com/jie65535/GrasscutterCommandGenerator/stargazers)
