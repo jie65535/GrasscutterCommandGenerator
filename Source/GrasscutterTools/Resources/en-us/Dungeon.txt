@@ -61,13 +61,6 @@
 72:[CHS] - (test)风场地城测试01
 73:[CHS] - (test)风场地城测试04
 74:[CHS] - (test)3.2散兵boss地城
-75:Test Domain I
-76:[N/A] 4213410376
-77:Test Domain III
-78:Test Domain IV
-79:Test Domain V
-80:Test Domain VI
-81:[N/A] 2802463128
 82:[N/A] 1729431808
 83:Test Domain IX
 84:Test Domain X
@@ -75,6 +68,13 @@
 86:Test Domain XII
 87:Test Domain XIII
 88:[CHS] - (test)奇趣秘园白盒
+75:Test Domain I
+76:[N/A] 4213410376
+77:Test Domain III
+78:Test Domain IV
+79:Test Domain V
+80:Test Domain VI
+81:[N/A] 2802463128
 89:[CHS] - (test)LCM测试秘境
 90:[CHS] - (test)须弥单线白盒
 91:[CHS] - (test)吃豆人白盒
@@ -140,6 +140,11 @@
 155:Memories: Parting of Light and Shadow IV
 156:[N/A] 2390263288
 157:[CHS] - (test)？？？
+158:[CHS] - (test)？？？
+159:Reflection: The Deep, Transient Void I
+160:Reflection: The Deep, Transient Void II
+161:Reflection: The Deep, Transient Void III
+162:Reflection: The Deep, Transient Void IV
 1000:Stage Gameplay Test
 1001:Deep Within the Temple of the Falcon
 1002:Find the Stolen Book
@@ -272,6 +277,20 @@
 1217:The Secret Garden of "Auguste"
 1218:[CHS] - ？？？（test)
 1219:???
+1220:Tlazolli's Forge
+1221:Remnants of the Secret Source
+1222:[CHS] - 5.1主线战争镜像大世界（test)
+1223:[CHS] - 5.1主线火神梦境（test)
+1224:Tepal's "Airborne Workshop"
+1225:Remnants of the Secret Source
+1226:Seven-Hued Ruins
+1227:On the Path to War
+1228:[CHS] - 5.3Boss前置地城白盒（test)
+1229:[CHS] - 5.3火神线镜像大世界（test）
+1230:[CHS] - 5.3火神线空间（test）
+1231:Enter the "border"
+1232:[CHS] - 5.3主线灰烬城镜像大世界（test）
+1234:???
 2000:Lost Treasure of Arcadia
 2001:Storming Terror
 2002:Cleanse Stormterror
@@ -336,6 +355,10 @@
 2136:[N/A] 1830473344
 2137:[N/A] 3147740744
 2138:[N/A] 630558920
+2139:[N/A] 2754525632
+2140:Journey of Stars and Flames
+2141:[N/A] 3735188464
+2142:[N/A] 993587440
 2150:[CHS] - 选BUFF挑战地城阶段一第1关（test）
 2151:[CHS] - 选BUFF挑战地城阶段一第2关（test）
 2152:[CHS] - 选BUFF挑战地城阶段一第3关（test）
@@ -381,6 +404,8 @@
 2196:[CHS] - 4.1黑拳地城03(test)
 2197:[CHS] - 4.1黑拳地城04(test)
 2198:[CHS] - 4.1黑拳地城05(test)
+2199:[N/A] 2364653008
+2200:[CHS] - 5.2灵视龙声望线室内地城(test)
 3001:Mist Labyrinth
 3004:Explore: Fallen Fortress
 3005:Pyro Trial
@@ -602,6 +627,14 @@
 3138:[CHS] - 爬塔第一档-MC第79关（双路）(test)
 3139:[CHS] - 爬塔第一档-MC第80关（双路）(test)
 3140:[CHS] - 爬塔第一档-MC第81关（双路）(test)
+3141:[CHS] - 爬塔第一档-MC第82关（双路）(test)
+3142:[CHS] - 爬塔第一档-MC第83关（双路）(test)
+3143:[CHS] - 爬塔第一档-MC第84关（双路）(test)
+3144:[CHS] - 爬塔第一档-MC第85关（双路）(test)
+3145:[CHS] - 爬塔第一档-MC第86关（双路）(test)
+3146:[CHS] - 爬塔第一档-MC第87关（双路）(test)
+3147:[CHS] - 爬塔第一档-MC第88关（双路）(test)
+3148:[CHS] - 爬塔第一档-MC第89关（双路）(test)
 3470:[CHS] - 爬塔第二档-MC第1关（双路）(test)
 3471:[CHS] - 爬塔第二档-MC第2关（双路）(test)
 3472:[CHS] - 爬塔第二档-MC第3关（双路）(test)
@@ -683,6 +716,14 @@
 3238:[CHS] - 爬塔第二档-MC第79关（双路）(test)
 3239:[CHS] - 爬塔第二档-MC第80关（双路）(test)
 3240:[CHS] - 爬塔第二档-MC第81关（双路）(test)
+3241:[CHS] - 爬塔第二档-MC第82关（双路）(test)
+3242:[CHS] - 爬塔第二档-MC第83关（双路）(test)
+3243:[CHS] - 爬塔第二档-MC第84关（双路）(test)
+3244:[CHS] - 爬塔第二档-MC第85关（双路）(test)
+3245:[CHS] - 爬塔第二档-MC第86关（双路）(test)
+3246:[CHS] - 爬塔第二档-MC第87关（双路）(test)
+3247:[CHS] - 爬塔第二档-MC第88关（双路）(test)
+3248:[CHS] - 爬塔第二档-MC第89关（双路）(test)
 3570:[CHS] - 爬塔第三档-MC第1关（双路）(test)
 3571:[CHS] - 爬塔第三档-MC第2关（双路）(test)
 3572:[CHS] - 爬塔第三档-MC第3关（双路）(test)
@@ -764,6 +805,14 @@
 3638:[CHS] - 爬塔第三档-MC第79关（双路）(test)
 3639:[CHS] - 爬塔第三档-MC第80关（双路）(test)
 3640:[CHS] - 爬塔第三档-MC第81关（双路）(test)
+3641:[CHS] - 爬塔第三档-MC第82关（双路）(test)
+3642:[CHS] - 爬塔第三档-MC第83关（双路）(test)
+3643:[CHS] - 爬塔第三档-MC第84关（双路）(test)
+3644:[CHS] - 爬塔第三档-MC第85关（双路）(test)
+3645:[CHS] - 爬塔第三档-MC第86关（双路）(test)
+3646:[CHS] - 爬塔第三档-MC第87关（双路）(test)
+3647:[CHS] - 爬塔第三档-MC第88关（双路）(test)
+3648:[CHS] - 爬塔第三档-MC第89关（双路）(test)
 4001:Investigate the turmoil in the Depths of the Ruins
 4003:Explore: Ancient Township Ruins
 4005:Trial: Temporary Weekly Dungeon
@@ -1084,6 +1133,7 @@
 5310:Peculiar Wonderland
 5311:[CHS] - (test)奇趣秘园2.0
 5312:3.8 Adventurer's Trials — Phase 2
+5313:5.2 Adventurer's Trials — Phase 3
 5321:4.3 Film Festival Mechanical Ball Gameplay 1
 5322:4.3 Film Festival Mechanical Ball Gameplay 2
 5323:4.3 Film Festival Mechanical Ball Gameplay 3
@@ -1200,6 +1250,12 @@
 6108:[N/A] 3167662488
 6109:[N/A] 1854089744
 6110:[N/A] 294247976
+6111:[N/A] 3922111344
+6112:[N/A] 1378595536
+6113:[N/A] 3820383912
+6114:[N/A] 1591834592
+6115:[N/A] 345486648
+6116:[N/A] 1089144696
 7000:The Wind from the Reeds Topples Well-Fed Trees
 7001:The Wind from the Reeds Topples Well-Fed Trees: Difficulty 1
 7002:Stop to Rest Your Weary Head, Paint the Bridge Where Adepti Tread: Difficulty 2
@@ -1356,6 +1412,12 @@
 8313:[CHS] - (test)4.7花式击杀挑战6
 8314:[CHS] - (test)4.7花式击杀挑战7
 8315:[CHS] - (test)4.7花式击杀挑战8
+8316:[N/A] 458688808
+8317:[N/A] 2748322776
+8318:[N/A] 2429051760
+8319:[N/A] 1008639920
+8320:[N/A] 4211267920
+8321:[N/A] 1124484416
 8401:[CHS] - (test)3.4拼刀地城01
 8402:[CHS] - (test)3.4拼刀地城02
 8403:[CHS] - (test)3.4拼刀地城03
@@ -1422,6 +1484,12 @@
 9135:[CHS] - （test）5.0炸弹人5
 9136:[CHS] - （test）5.0炸弹人6
 9137:[CHS] - （test）5.0炸弹人7
+9138:[N/A] 1418878424
+9139:[N/A] 1085312936
+9140:[N/A] 3244857368
+9141:[N/A] 2792169312
+9142:[N/A] 246734464
+9150:[CHS] - (test)5.1擂台挑战
 9201:[CHS] - test 3.7时停挑战1
 9202:[CHS] - test 3.7时停挑战2
 9203:[CHS] - test 3.7时停挑战3
@@ -1450,6 +1518,11 @@
 9236:[CHS] - (test)4.7大炮活动镜像大世界6
 9237:[CHS] - (test)4.7大炮活动镜像大世界7
 9238:[CHS] - (test)4.7大炮活动镜像大世界8
+9241:[CHS] - (test)5.1梦境探索01酒馆
+9242:[CHS] - (test)5.1梦境探索02无望坡
+9243:[CHS] - (test)5.1梦境探索03绀田村
+9244:[CHS] - (test)5.1梦境探索04科学院
+9245:[CHS] - (test)5.1梦境探索05禅那园
 9250:[CHS] - 4.7弹幕地城01(test)
 9251:[CHS] - 4.7弹幕地城02(test)
 9252:[CHS] - 4.7弹幕地城03(test)
@@ -1501,6 +1574,10 @@
 9801:[N/A] 2888622040
 9802:[N/A] 3144740912
 9803:[N/A] 2604048472
+9804:[N/A] 2849943872
+9805:[N/A] 294043712
+9806:[N/A] 3379419672
+9807:[N/A] 2958557656
 9811:[CHS] - (test)4.6躲猫猫01达达帕乌
 9812:[CHS] - (test)4.6躲猫猫02蒙德酒庄
 9813:[CHS] - (test)4.6躲猫猫03璃月遗迹
@@ -1510,8 +1587,28 @@
 10003:[CHS] - 角色专精挑战-凝光(test)
 10004:[CHS] - 角色专精挑战-绮良良(test)
 10005:[CHS] - 角色专精挑战-迪卢克(test)
+10006:[CHS] - 角色专精挑战-钟离(test)
+10007:[CHS] - 角色专精挑战-刻晴(test)
+10008:[CHS] - 角色专精挑战-甘雨(test)
+10009:[CHS] - 角色专精挑战-万叶(test)
 10101:[CHS] - (test)5.0战斗活动1
 10102:[CHS] - (test)5.0战斗活动2
 10103:[CHS] - (test)5.0战斗活动3
 10104:[CHS] - (test)5.0战斗活动4
 10105:[CHS] - (test)5.0战斗活动5
+10201:[CHS] - (test)5.1联机挑战活动
+10301:[CHS] - (test)5.2自走棋大赛
+10401:[CHS] - (test)5.3海灯节活动方块玩法
+10501:[CHS] - (test)5.2幽灵球(机械球V2)活动1
+10502:[CHS] - (test)5.2幽灵球(机械球V2)活动2
+10503:[CHS] - (test)5.2幽灵球(机械球V2)活动3
+10504:[CHS] - (test)5.2幽灵球(机械球V2)活动4
+10511:[CHS] - (test)5.2墨水战斗活动地城
+10512:[CHS] - (test)5.2墨水战斗活动地城
+10513:[CHS] - (test)5.2墨水战斗活动地城
+10514:[CHS] - (test)5.2墨水战斗活动地城
+10515:[CHS] - (test)5.2墨水战斗活动地城01_动态难度
+10516:[CHS] - (test)5.2墨水战斗活动地城02_动态难度
+10517:[CHS] - (test)5.2墨水战斗活动地城03_动态难度
+10518:[CHS] - (test)5.2墨水战斗活动地城04_动态难度
+10530:[CHS] - (test)5.3斗虫活动地城V3

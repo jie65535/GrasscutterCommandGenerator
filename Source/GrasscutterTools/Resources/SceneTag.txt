@@ -55,6 +55,9 @@
 180:AlchemySim01
 181:GreatFesV2
 182:XM_TomatoFarm
+183:SumeruBirth
+184:SumeruBirth_NL
+185:CeremonyEvent
 1001:Combine_Lyg
 1002:Combine_Mdc
 1011:Combine_RBQyg
@@ -327,11 +330,34 @@
 1516:NT_OfferingTemple_max
 1517:NT_TKC_Fd (Default)
 1520:Mihai_P4
-1525:NT_HJCSX_01 (Default)
-1526:NT_HJCSX_02
-1527:NT_HJJSY_01 (Default)
-1528:NT_HJJSY_02
+1525:NT_DPSDT_P1 (Default)
+1526:NT_DPSDT_P2
+1527:NT_HJJ_P1 (Default)
+1528:NT_HJJ_P2
+1554:Combine_WarBroken04 (Default)
+1555:Combine_WarBroken01 (Default)
+1556:Combine_WarBroken02 (Default)
+1557:Combine_WarBroken03 (Default)
+1522:Nt_Xilonen0
+1523:Nt_Xilonen1
+1558:Combine_NT_Xilonen
 1559:NT_AQ_ANH
+1565:Combine_NT_AbyssWar (Default)
+1567:NT_SkyPlanet
+1568:SkirmDG
+1569:Combine_SkirmDG (Default)
+1570:SkirmDG02
+1576:NT_GLYQ_In
+1577:NT_GLYQ_Out (Default)
+1580:HdjV5
+1582:Combine_CeremonyEvent
+1585:Combine_SumeruBirth
+1589:NT_AQWZ_BF (Default)
+1590:NT_AQWZ_AF
+1596:Combine_TournamentFes
+1601:TournamentFes
+1607:NT_AQJNB_BF
+1608:NT_AQJNB_AF
 // 4
 106:SummerTime
 108:SummerTime_High
@@ -678,3 +704,34 @@
 1514:Nyx_Light_BF
 1518:Nyx_Light_Dark
 1521:Nyx_TalkLight
+// 20238
+1519:NT_AbyssWar
+1524:WarBroken04
+1551:WarBroken01
+1552:WarBroken02
+1553:WarBroken03
+1561:Combine_WarBroken04 (Default)
+1562:Combine_WarBroken01 (Default)
+1563:Combine_WarBroken02 (Default)
+1564:Combine_WarBroken03 (Default)
+1566:Combine_NT_AbyssWar (Default)
+1571:Combine_NT_AQ_HDD_AF (Default)
+1572:NT_AQ_HDD_AF
+// 20234
+1560:Nt_XLN_CS (Default)
+// 20235
+1578:Gy01
+1579:Gy02 (Default)
+// 20248
+1581:HDJHutaoBF
+1586:HDJHutaoAF (Default)
+// 20240
+1583:Chasca_Dg01 (Default)
+1584:Chasca_Dg02
+// 20243
+1591:NT_AQZFZL_AF
+1597:Combine_NT_JJC
+// 20250
+1605:NT_AQWZ_NAQ
+// 36001
+1609:MVM_DEF_03 (Default)

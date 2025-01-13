@@ -128,19 +128,35 @@ namespace GrasscutterTools.Game.Data
 
         private static object LoadDataFile(Type type, string path)
         {
-            var list = (IList)JsonConvert.DeserializeObject(File.ReadAllText(path), typeof(List<>).MakeGenericType(type));
-            if (list == null) return null;
-
-            if (!type.IsSubclassOf(typeof(GameResource))) return list;
-
-            var dicType = typeof(Dictionary<,>).MakeGenericType(typeof(int), type);
-            var dic = (IDictionary)Activator.CreateInstance(dicType);
-            foreach (GameResource gameResource in list)
+            IList list = null;
+            try
             {
-                if (gameResource.Id == 0) continue;
-                dic.Add(gameResource.Id, gameResource);
+                list = (IList)JsonConvert.DeserializeObject(File.ReadAllText(path), typeof(List<>).MakeGenericType(type));
             }
-            return dic;
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Failed to load \"{path}\", Exception={ex}");
+            }
+            if (type.IsSubclassOf(typeof(GameResource)))
+            {
+                var dicType = typeof(Dictionary<,>).MakeGenericType(typeof(int), type);
+                var dic = (IDictionary)Activator.CreateInstance(dicType);
+                if (list != null)
+                {
+                    foreach (GameResource gameResource in list)
+                    {
+                        if (gameResource.Id == 0) continue;
+                        dic.Add(gameResource.Id, gameResource);
+                    }
+                }
+                return dic;
+            }
+            else
+            {
+                if (list == null)
+                    list = (IList)Activator.CreateInstance(typeof(List<>).MakeGenericType(type));
+                return list;
+            }
         }
 
         private Dictionary<string, string> Languages = new Dictionary<string, string>

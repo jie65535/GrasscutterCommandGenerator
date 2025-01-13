@@ -25,6 +25,7 @@ namespace GrasscutterTools.Game.Props
     {
         private static readonly Dictionary<string, string> TextMapCHS = new Dictionary<string, string>
         {
+            ["Avatar"] = "角色",
             ["Gear"] = "机关装置",
             ["Field"] = "领域",
             ["Bullet"] = "技能/飞弹",

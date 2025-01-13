@@ -81,17 +81,22 @@
 1097:IndoorScene_Xm_THX1
 1098:IndoorScene_Xm_THX2
 1099:IndoorScene_Nt_Hotel
+1100:IndoorScene_Nt_TLZL
+1200:IndoorScene_Nt_Msl
+1201:IndoorScene_Nt_XTLLHome
 2001:Homeworld_Exterior_Above
 2002:Homeworld_Exterior_Karst
 2003:Homeworld_Exterior_Uncharted
 2004:Homeworld_Exterior_Ukiyo
 2005:Homeworld_Exterior_Sumeru
 2006:Homeworld_Exterior_Theater
+2007:Homeworld_Exterior_Natlan
 2201:Homeworld_Interior_Md_Apartment_01
 2202:Homeworld_Interior_Ly_Apartment_01
 2203:Homeworld_Interior_Dq_Apartment_01
 2204:Homeworld_Interior_Xm_Apt_01
 2205:Homeworld_Interior_Fd_Apt_01
+2206:Homeworld_Interior_Nt_Apt_01
 20000:关卡玩法测试
 20005:Недостающий ингредиент
 20006:Большая база хиличурлов
@@ -256,6 +261,23 @@
 20231:Тайный сад Августов
 20232:[CHS] - ？？？（test)
 20233:???
+20234:Мастерская Тласоли
+20235:[CHS] - (test)？？？
+20236:Воспоминания: Глубокий пространственный разрыв IV
+20237:Руины таинственного источника
+20238:[CHS] - 5.1主线战争镜像大世界（test)
+20239:[CHS] - 5.1主线火神梦境（test)
+20240:Воздушная мастерская Тепала
+20241:Руины таинственного источника
+20242:Руины семи цветов
+20243:На тропе войны
+20244:[CHS] - 5.3Boss前置地城白盒（test)
+20245:[CHS] - 5.3火神线镜像大世界（test）
+20246:[CHS] - 5.3火神线空间（test）
+20247:[CHS] - 5.2灵视龙声望线室内地城(test)
+20248:Зайдите за «грань»
+20249:???
+20250:[CHS] - 5.3主线灰烬城镜像大世界（test）
 30001:Туманный Лабиринт
 30100:Level_Tower_Morning_01
 30101:Level_Tower_Morning_01
@@ -456,6 +478,14 @@
 33778:[CHS] - 爬塔第一档-MC第79关（双路）(test)
 33779:[CHS] - 爬塔第一档-MC第80关（双路）(test)
 33780:[CHS] - 爬塔第一档-MC第81关（双路）(test)
+33781:[CHS] - 爬塔第一档-MC第82关（双路）(test)
+33782:[CHS] - 爬塔第一档-MC第83关（双路）(test)
+33783:[CHS] - 爬塔第一档-MC第84关（双路）(test)
+33784:[CHS] - 爬塔第一档-MC第85关（双路）(test)
+33785:[CHS] - 爬塔第一档-MC第86关（双路）(test)
+33786:[CHS] - 爬塔第一档-MC第87关（双路）(test)
+33787:[CHS] - 爬塔第一档-MC第88关（双路）(test)
+33788:[CHS] - 爬塔第一档-MC第89关（双路）(test)
 34100:[CHS] - 爬塔第二档-ZHT第1关（单路）(test)
 34101:[CHS] - 爬塔第二档-ZHT第2关（单路）(test)
 34102:[CHS] - 爬塔第二档-ZHT第3关（单路）(test)
@@ -545,6 +575,14 @@
 34778:[CHS] - 爬塔第二档-MC第79关（双路）(test)
 34779:[CHS] - 爬塔第二档-MC第80关（双路）(test)
 34780:[CHS] - 爬塔第二档-MC第81关（双路）(test)
+34781:[CHS] - 爬塔第二档-MC第82关（双路）(test)
+34782:[CHS] - 爬塔第二档-MC第83关（双路）(test)
+34783:[CHS] - 爬塔第二档-MC第84关（双路）(test)
+34784:[CHS] - 爬塔第二档-MC第85关（双路）(test)
+34785:[CHS] - 爬塔第二档-MC第86关（双路）(test)
+34786:[CHS] - 爬塔第二档-MC第87关（双路）(test)
+34787:[CHS] - 爬塔第二档-MC第88关（双路）(test)
+34788:[CHS] - 爬塔第二档-MC第89关（双路）(test)
 35100:[CHS] - 爬塔第三档-ZHT第1关（单路）(test)
 35101:[CHS] - 爬塔第三档-ZHT第2关（单路）(test)
 35102:[CHS] - 爬塔第三档-ZHT第3关（单路）(test)
@@ -634,6 +672,14 @@
 35778:[CHS] - 爬塔第三档-MC第79关（双路）(test)
 35779:[CHS] - 爬塔第三档-MC第80关（双路）(test)
 35780:[CHS] - 爬塔第三档-MC第81关（双路）(test)
+35781:[CHS] - 爬塔第三档-MC第82关（双路）(test)
+35782:[CHS] - 爬塔第三档-MC第83关（双路）(test)
+35783:[CHS] - 爬塔第三档-MC第84关（双路）(test)
+35784:[CHS] - 爬塔第三档-MC第85关（双路）(test)
+35785:[CHS] - 爬塔第三档-MC第86关（双路）(test)
+35786:[CHS] - 爬塔第三档-MC第87关（双路）(test)
+35787:[CHS] - 爬塔第三档-MC第88关（双路）(test)
+35788:[CHS] - 爬塔第三档-MC第89关（双路）(test)
 35800:Увлекательная страна чудес
 35801:2.1换人挑战1阶段(test)
 35802:2.1换人挑战2阶段(test)
@@ -784,6 +830,27 @@
 35985:[CHS] - 4.7怪物对推防守L5(test)
 35986:[CHS] - 4.7怪物对推防守L6(test)
 35987:[CHS] - 4.7怪物对推防守L7(test)
+35991:[CHS] - (test)5.1梦境探索01酒馆
+35992:[CHS] - (test)5.1梦境探索02无望坡
+35993:[CHS] - (test)5.1梦境探索03绀田村
+35994:[CHS] - (test)5.1梦境探索04科学院
+35995:[CHS] - (test)5.1梦境探索05禅那园
+35996:Level_Tower_Moon_01
+35997:Level_Tower_Moon_01
+35998:Level_Tower_Moon_01
+35999:Level_Tower_Moon_01
+36000:Level_Tower_Moon_01
+36001:[CHS] - (test)5.2自走棋大赛
+36010:[CHS] - (test)5.3海灯节活动方块玩法
+36021:[CHS] - (test)5.2墨水战斗活动地城
+36022:[CHS] - (test)5.2墨水战斗活动地城
+36023:[CHS] - (test)5.2墨水战斗活动地城
+36024:[CHS] - (test)5.2墨水战斗活动地城
+36026:[CHS] - (test)5.3斗虫活动地城V3
+36041:[CHS] - (test)5.2墨水战斗活动地城01_动态难度
+36042:[CHS] - (test)5.2墨水战斗活动地城02_动态难度
+36043:[CHS] - (test)5.2墨水战斗活动地城03_动态难度
+36044:[CHS] - (test)5.2墨水战斗活动地城04_动态难度
 40001:Расследовать: Волнения в Глубине Руин
 40002:Level_UCDungeon01
 40003:Level_UCDungeon01
@@ -1102,6 +1169,12 @@
 41108:Level_Tower_01_Open
 41109:BigWorld_LevelStreaming
 41110:BigWorld_LevelStreaming
+41111:BigWorld_LevelStreaming
+41112:BigWorld_LevelStreaming
+41113:BigWorld_LevelStreaming
+41114:BigWorld_LevelStreaming
+41115:BigWorld_LevelStreaming
+41116:Level_Tower_01_Open
 42001:Ласточки парами возвращаются в свои гнёзда: Сложность 3
 42002:Преклоните уставшую голову и пройдите по мосту Адептов: Сложность 2
 42003:Красота увядает здесь, а истина - там: Сложность 5
@@ -1249,6 +1322,7 @@
 47606:[CHS] - test 3.7时停挑战6
 47607:[CHS] - test 3.7时停挑战7
 47608:Испытание для искателей приключений версии 3.8 - Вторая фаза
+47609:Испытание для искателей приключений версии 5.2 - Третья фаза
 47610:[CHS] - test 4.5自动时停教学关
 47611:[CHS] - test 4.5自动时停6
 47612:[CHS] - test 4.5自动时停5
@@ -1288,6 +1362,7 @@
 47744:[CHS] - (test)4.8导能原盘4
 47745:[CHS] - (test)4.8导能原盘5
 47746:[CHS] - (test)4.8导能原盘6
+47750:[CHS] - (test)5.1擂台挑战
 47801:[CHS] - 4.2大活动剧情地城1（test）
 47802:[CHS] - 4.2大活动剧情地城2（test）
 47803:[CHS] - (test)4.2战斗活动1
@@ -1330,6 +1405,10 @@
 48011:BigWorld_LevelStreaming
 48012:BigWorld_LevelStreaming
 48013:BigWorld_LevelStreaming
+48014:BigWorld_LevelStreaming
+48015:BigWorld_LevelStreaming
+48016:BigWorld_LevelStreaming
+48017:BigWorld_LevelStreaming
 48020:[CHS] - 4.8雀雀球地城(test)
 48030:[CHS] - (test)5.0战斗活动1
 48031:[CHS] - (test)5.0战斗活动2
@@ -1337,11 +1416,26 @@
 48033:[CHS] - (test)5.0战斗活动4
 48034:[CHS] - (test)5.0战斗活动5
 48040:[CHS] - （test）5.0炸弹人7
+48041:Level_Act_Lantern01
+48042:Level_Act_Lantern01
+48043:Level_Act_Lantern01
+48044:Level_Act_Lantern01
+48045:Level_Act_Lantern01
+48046:Level_Act_Lantern01
+48050:[CHS] - (test)5.1联机挑战活动
+48060:[CHS] - (test)5.2幽灵球(机械球V2)活动1
+48061:[CHS] - (test)5.2幽灵球(机械球V2)活动2
+48062:[CHS] - (test)5.2幽灵球(机械球V2)活动3
+48063:[CHS] - (test)5.2幽灵球(机械球V2)活动4
 49001:[CHS] - 角色专精挑战-琴(test)
 49002:[CHS] - 角色专精挑战-七七(test)
 49003:[CHS] - 角色专精挑战-凝光(test)
 49004:[CHS] - 角色专精挑战-绮良良(test)
 49005:[CHS] - 角色专精挑战-迪卢克(test)
+49006:[CHS] - 角色专精挑战-钟离(test)
+49007:[CHS] - 角色专精挑战-刻晴(test)
+49008:[CHS] - 角色专精挑战-甘雨(test)
+49009:[CHS] - 角色专精挑战-万叶(test)
 50002:Low-Temp Stage White-Box
 50003:Тест Производительности Бой
 50004:Charging Pile Power Supply White-Box
@@ -1488,6 +1582,13 @@
 51051:ClimbTestStage_AvatarTest
 51053:Level_Carnival02
 51054:QA_3DTest_New
+51055:TestLevel_WhiteBox_5.3BOSS
+51056:Level_Tower_Moon_01
+51060:TestLevel_Shuochen_01
+51061:Путешествие звёзд и огней
+51062:TestLevel_WhiteBox_RC_Ganyu_GQQ
+51063:TestLevel_WhiteBox_RC_Wanye_GQQ
 51064:Level_Tower_Moon_01
 51065:Level_Tower_Moon_01
+51066:Level_Tower_Moon_01
 79999:[CHS] - (test)卡牌观战场景

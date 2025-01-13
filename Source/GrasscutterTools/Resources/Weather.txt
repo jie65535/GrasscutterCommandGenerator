@@ -29,6 +29,7 @@
 1014:Md_General_FHJ
 1015:Md_General
 1016:Md_General
+1017:Md_General
 2000:Ly_General
 2001:Ly_QingCeVilla
 2002:Ly_General
@@ -89,7 +90,10 @@
 2038:Md_SnowMountain_Cave
 2138:Md_SnowMountain_PeacePeak
 2039:Md_SnowMountain_GeneralTransition
+2041:Ly_BlackFroest_HuTao
 10283:Ly_General
+10348:Nt52_HJC_Rain
+10349:Nt52_HJJ
 2152:Ly_DakahaEntrance
 2252:Ly_StoneNeedles
 3002:Dq_General
@@ -421,6 +425,7 @@
 4096:Xm_General
 4097:Xm_General
 4098:Xm_General
+4099:Xm_Huayuan
 4100:Xm31_CWSM_General
 4101:Xm31_JZT_SandStorm
 4102:Xm31_MYSD_General
@@ -684,6 +689,7 @@
 6027:Nt_MoShenQuest_JJC
 6028:Nt_MSTJ_General
 6029:Nt_XKLYD02
+6030:Nt_LCGY
 7000:Ly_General
 7001:Ly_General
 9031:Xm36_Sandworm
@@ -728,6 +734,40 @@
 2238:Ly44_BJK
 2239:Ly44_WST
 2250:Ly44_CookGame
+6100:Nt52_General
+6101:Nt52_JJMH_HeavyFog
+6102:Nt52_HJC_Rain
+6103:Nt52_HJJ
+6104:Nt52_SkyCity_1st
+6105:Nt52_YSKJ
+6106:Nt52_JJMH_Shore_1st
+6107:Nt52_NHWQ_Fog
+6108:Nt52_NHWQ_Fog
+6109:Nt52_NHWQ_Fog
+6110:Nt52_NHWQ_Fog_High
+6111:Nt52_Snake_Down
+6112:Nt52_NHWQ
+6113:Nt52_NHWQ_Bottom
+6114:Nt52_NHWQ_Valley
+6115:Nt52_HJC
+6116:Nt52_QTRS_NHWQ
+9077:Ly_StoneNeedles
+9078:Ly44_XLS
+9079:Md_General
+9080:Md_General
+9081:Xm_HYZS_Before_ClearSky
+6142:Nt52_SkyCity_2nd
+6143:Nt52_HJJ_Chase
+6144:Nt52_QTRS_HJC_Before
+6145:Nt52_QTRS_HJC
+6152:Nt52_HJJ_Abyss
+6153:Nt52_HJJ
+6154:Nt52_JJMH_Shore_2nd
+6155:Nt_General
+6156:Nt53_YSDream
+6164:Nt52_NHWQ
+6165:Nt52_HJJ_SkyCity_2nd
+6166:Nt52_HJC_SkyCity_2nd
 // 4
 2144:LP_General
 2145:LP_Fog_Heavy
@@ -903,6 +943,8 @@
 10225:Fd42_Dyz
 // 1091
 10272:Du46_SilenceTemple_Inside
+// 1201
+10351:Nt_XTLL_TL
 // 2004
 10065:HomeExterior_Ukiyo
 10066:HomeExterior_Ukiyo
@@ -1105,6 +1147,52 @@
 // 20230
 9071:Nt_General
 9072:Nt_GZLBoss
+// 20234
+10285:Du51_NTDungeon_Xilonen
+// 20235
+10284:Du53_RedDragonBoss01_ZD
+10288:Du53_RedDragonBoss01_PK
+10305:Du53_RedDragonBoss01_ZD_BossJN
+10308:Du53_NT_FireDream
+10309:Du53_NT_FireDream_Foggy
+10314:Du53_NT_FireDream_Path
+10333:Du53_NT_FireDream_Inside
+// 20237
+10286:Du51_NTDungeon_Skirm_Final_Before
+10287:Du51_NTDungeon_Skirm_Final_After
+// 20238
+10277:Nt_General
+10278:Nt51_ABYSS_WAR01
+10279:Nt51_ABYSS_WAR02
+10289:Nt_JJC_General
+10290:Nt_General_High
+10303:Nt_JJC_Center
+10307:Nt51_AbyssWar_Cloudy
+10315:Nt51_ABYSS_WAR02_JJC
+// 20241
+10304:Du51_NTDungeon_Skirm_Final_After
+// 20242
+10330:Du53_NT_Citlali_Cave
+10331:Du53_NT_Citlali
+10332:Du53_NT_Citlali_Room
+// 20243
+10316:Nt_JJC_Center
+// 20245
+10322:Nt_DGUnderground
+10323:Nt_YLLBL
+10324:Nt_LCGY
+10325:Nt_General
+10326:Nt_JJC_Center
+10327:Nt_JJC_General
+10328:Nt52_HJC_Rain
+10329:Nt_GZLBL_General
+// 20248
+10317:Du53_Hutao_Part01_Tree
+10318:Du53_Hutao_Part02
+10319:Du53_Hutao_Part02_Tree
+// 20250
+10344:Nt53_AQWZ_Ronova
+10350:Nt52_HJJ
 // 35800
 10009:CycleDungeon_WindFlower
 10010:CycleDungeon_WindFlower_Outdoor
@@ -1251,6 +1339,14 @@
 10262:Du45_SlimeCannon01
 // 35954
 10263:Du45_SlimeCannon01
+// 35992
+10310:Ly_BlackFroest
+// 35993
+10311:Dq_General
+// 35994
+10312:Fd41_PSHA_1st
+// 35995
+10313:Xm_Huayuan
 // 41107
 9076:Nt_LCGY
 // 41109
@@ -1258,6 +1354,19 @@
 9075:Nt_General_High
 // 41110
 9073:Nt_GZLBoss
+// 41111
+9082:Nt_General
+9083:Nt_General_High
+// 41112
+9088:Nt52_General
+// 41113
+9089:Nt52_General
+// 41114
+9090:Nt52_NHWQ
+// 41115
+9091:Nt_General
+9092:Nt_General_High
+9093:Nt_JJC_General
 // 43001
 10017:FCdungeon_MistTrial_Bottom
 10018:FCdungeon_MistTrial
@@ -1305,6 +1414,20 @@
 10207:UGCDungeon_CustomLevel_A_05
 10208:UGCDungeon_CustomLevel_A_06
 10209:Du38_UGCDungeon_CustomLevel_G
+// 47609
+10291:UGCDungeon_CustomLevel_A_01
+10292:UGCDungeon_CustomLevel_A_02
+10293:UGCDungeon_CustomLevel_A_03
+10294:UGCDungeon_CustomLevel_A_04
+10295:UGCDungeon_CustomLevel_A_05
+10296:Du38_UGCDungeon_CustomLevel_G
+10297:Du52_Carnival03_J
+10298:Du52_Carnival03_I
+10299:UGCDungeon_CustomLevel_A_06
+10300:Du52_Carnival03_H
+10301:Du38_UGCDungeon_CustomLevel_G
+// 47750
+10306:Nt_LCGY
 // 47812
 10235:Du41_FDBattle_01B
 10236:Du41_FDBattle_01B2
@@ -1351,6 +1474,14 @@
 9056:LiyueAreaDefault02
 // 48011
 9057:Monster_Drake_Primo_Rock_01
+// 48014
+9084:Nt_Green_40Boss
+// 48015
+9085:Fd46_Institute
+// 48016
+9086:Fd42_LSD_Boss
+// 48017
+9087:Fd_40BossCrab
 // 51008
 10144:UGCDungeon_CustomLevel_A_01
 10145:UGCDungeon_CustomLevel_A_02
@@ -1358,3 +1489,6 @@
 10147:UGCDungeon_CustomLevel_A_04
 10148:UGCDungeon_CustomLevel_A_05
 10149:UGCDungeon_CustomLevel_A_06
+// 51061
+10320:NT_PreDragon_01
+10321:NT_PreDragon_LatterHalf

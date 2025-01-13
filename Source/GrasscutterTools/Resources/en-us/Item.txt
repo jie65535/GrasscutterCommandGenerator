@@ -73,12 +73,16 @@
 175:Key of Echoes
 176:Starsail Coin
 177:Colorful Contemplation
+178:Festive Fervor
+179:Incense Ashcrystals
+180:Festive Fever
 201:Primogem
 202:Mora
 203:Genesis Crystal
 204:Realm Currency
 205:[CHS] - 幸运牌币（废弃）
 206:Toy Medal
+207:Repertoire Coins
 315:Mondstadt Reputation EXP
 317:Liyue Reputation EXP
 314:Inazuma Reputation EXP
@@ -87,10 +91,16 @@
 319:"Scions of the Canopy" Reputation EXP
 320:"People of the Springs" Reputation EXP
 321:"Children of Echoes" Reputation EXP
+322:Flower-Feather Clan Reputation EXP
+323:Masters of the Night-Wind Reputation EXP
 
 // Material
 // Fire_master_avatar_talent_item
 918:Blazing Flint Ore
+
+// Rename_item
+1301:An Appellative Stroke
+1302:Reaffirmed Accord of Appellation
 
 // Avatar
 1002:Kamisato Ayaka
@@ -182,6 +192,12 @@
 4100:Kachina
 4101:Kinich
 4102:Mualani
+4103:Xilonen
+4104:Chasca
+4105:Ororon
+4106:Mavuika
+4107:Citlali
+4108:Lan Yan
 
 // Talent
 911:Memory of Eternal Flames
@@ -280,10 +296,12 @@
 5100:Kachina's Stella Fortuna
 5101:Kinich's Stella Fortuna
 5102:Mualani's Stella Fortuna
-
-// Rename_item
-1301:An Appellative Stroke
-1302:Reaffirmed Accord of Appellation
+5103:Xilonen's Stella Fortuna
+5104:Chasca's Stella Fortuna
+5105:Ororon's Stella Fortuna
+5106:Mavuika's Stella Fortuna
+5107:Citlali's Stella Fortuna
+5108:Lan Yan's Stella Fortuna
 
 // Adsorbate
 2001:Energy Orb (Pyro)
@@ -354,27 +372,6 @@
 115039:Amazing Gift (Furnishing)
 115041:Resounding Melodies
 115044:Talent Share Bundle
-117001:Domain Reliquary: Tier III
-117002:Domain Reliquary: Tier II
-117003:Domain Reliquary: Tier I
-117004:Reliquary: Wanderer's Troupe and Gladiator
-117005:Grand Reliquary: Wanderer's Troupe and Gladiator
-117006:Domain Reliquary: Tier II
-117007:Domain Reliquary: Tier I
-117008:Domain Reliquary: Tier II
-117009:Domain Reliquary: Tier I
-117010:Domain Reliquary: Tier II
-117011:Domain Reliquary: Tier I
-117012:Domain Reliquary: Tier II
-117013:Domain Reliquary: Tier I
-117014:Domain Reliquary: Tier II
-117015:Domain Reliquary: Tier I
-117016:Domain Reliquary: Tier II
-117017:Domain Reliquary: Tier I
-117018:Domain Reliquary: Tier II
-117019:Domain Reliquary: Tier I
-117020:Domain Reliquary: Tier II
-117021:Domain Reliquary: Tier I
 118001:Cake for Traveler
 118003:Cake for Traveler
 118005:Cake for Traveler
@@ -487,10 +484,6 @@
 107023:Hydroculus
 107026:Spirit Carp
 107028:Pyroculus
-
-// Consume_batch_use
-107009:Fragile Resin
-107012:Transient Resin
 
 // Gcg_exchange_item
 107019:Blank Dynamic Card
@@ -740,6 +733,12 @@
 108751:Suspicious Delights of Wondrous Wanderings
 108752:Delights of Wondrous Wanderings
 108753:Delicious Delights of Wondrous Wanderings
+108770:Suspicious Mystique Soup
+108771:Mystique Soup
+108772:Delicious Mystique Soup
+108773:Suspicious Sing Your Heart Out
+108774:Sing Your Heart Out
+108775:Delicious Sing Your Heart Out
 
 // Food
 102001:Pyro Shard
@@ -1255,9 +1254,9 @@
 108718:Suspicious Tatacos
 108719:Tatacos
 108720:Delicious Tatacos
-108721:Suspicious Sour Sauce Kipper
-108722:Sour Sauce Kipper
-108723:Delicious Sour Sauce Kipper
+108721:Suspicious Sour Sauce Ceviche
+108722:Sour Sauce Ceviche
+108723:Delicious Sour Sauce Ceviche
 108724:Suspicious Chocolate
 108725:Chocolate
 108726:Delicious Chocolate
@@ -1272,6 +1271,36 @@
 108748:Suspicious Golden Apple Pastry
 108749:Golden Apple Pastry
 108750:Delicious Golden Apple Pastry
+108754:Suspicious BBQ Beef Heart Skewers
+108755:BBQ Beef Heart Skewers
+108756:Delicious BBQ Beef Heart Skewers
+108757:Suspicious Xocoatl
+108758:Xocoatl
+108759:Delicious Xocoatl
+108760:Fruit-Flavored Milk Candies
+108761:Suspicious Surf, Turf, and Perch
+108762:Surf, Turf, and Perch
+108763:Delicious Surf, Turf, and Perch
+108764:Suspicious Volcano Cake
+108765:Volcano Cake
+108766:Delicious Volcano Cake
+108767:Suspicious Grainfruit Wrap
+108768:Grainfruit Wrap
+108769:Delicious Grainfruit Wrap
+108776:Honey-Glazed Ceviche
+108777:Moment of Respite
+108778:Suspicious Magmic Ode
+108779:Magmic Ode
+108780:Delicious Magmic Ode
+108781:Suspicious Qingxin Flower Cake
+108782:Qingxin Flower Cake
+108783:Delicious Qingxin Flower Cake
+108784:Suspicious Drunken Plums in Snow
+108785:Drunken Plums in Snow
+108786:Delicious Drunken Plums in Snow
+108787:Hymn of Gathered Flame
+108788:Jade-Cut Flowers
+108789:Secret Art
 111006:Heatshield Potion
 111007:Desiccant Potion
 111008:Frostshield Potion
@@ -1422,6 +1451,8 @@
 101249:Quenepa Berry
 101250:Saurian Claw Succulent
 101251:Embercore Flower
+101252:Glowing Hornshroom
+101253:Withering Purpurbloom
 101401:Fabric
 101402:Red Dye
 101403:Yellow Dye
@@ -1479,6 +1510,13 @@
 131035:Maintenance Mek: Platinum Collection
 131036:Maintenance Mek: Gold Leader
 131037:Jade Heartfeather Bass
+131038:Floral Rapidfighting Fish
+131039:Diving Rapidfighting Fish
+131040:Magma Rapidfighting Fish
+131041:Greenwave Sunfish
+131042:Dusk Sunfish
+131043:Phony Phlogiston Unihornfish
+131044:Pseudoshark Unihornfish
 200001:Lantern Fiber
 200002:Wick Material
 200003:Plaustrite Shard
@@ -3459,6 +3497,7 @@
 100957:Funerary Mask
 120127:Silver Twig
 129001:Tears Among the Stars
+129002:Obsidian Ancient Name
 120752:[CHS] - （test）锈舵酒吧菜单
 120753:Strange Message
 120754:Wangshan Hall Backup Key
@@ -3566,6 +3605,21 @@
 120892:Rawat's Notes
 120893:Scattered Star
 120894:Group Photo From an Unknown Time
+120895:Artisan's Memo (II)
+120896:Holy Sovereign's Notes (I)
+120897:Holy Sovereign's Notes (II)
+120898:Holy Sovereign's Notes (III)
+120899:Holy Sovereign's Notes (V)
+120900:Holy Sovereign's Notes (VI)
+120901:Nameless Artisan's Memo
+120902:[CHS] - (test)养育间阅读物8
+120903:[CHS] - (test)养育间阅读物9
+120904:[CHS] - (test)养育间阅读物10
+120905:[CHS] - (test)养育间阅读物11
+120906:[CHS] - (test)养育间阅读物12
+120907:[CHS] - (test)养育间阅读物13
+120908:[CHS] - (test)养育间阅读物14
+120909:[CHS] - (test)养育间阅读物15
 120910:Restored Score
 120911:Ruggiero's Notes (II)
 120916:Night Jade
@@ -3603,9 +3657,12 @@
 120948:Ancient Piece of Paper
 120949:Ancient Piece of Paper
 120950:Ancient Piece of Paper
+120951:Water-Rusted Key
+120952:Ancient Jadestone Fragment
+120953:Perfect Heart of the Sacred Dragon
 120954:Production Log
 120955:Experiment Log
-120956:Fresh Sour Sauce Kipper
+120956:Fresh Sour Sauce Ceviche
 120957:A Gem Meant as a Gift
 120958:Jewel Artisan's Toolbox
 120959:Jewel Artisan's Box of Parts
@@ -3624,6 +3681,12 @@
 120975:"Marechaussee Hunter: Judgment Day" Character Album
 120976:"Marechaussee Hunter: Judgment Day" Character Album
 120977:"Marechaussee Hunter: Judgment Day" Character Album
+120978:[CHS] - (test)老大终点阅读物1
+120979:[CHS] - (test)老大终点阅读物2
+120980:[CHS] - (test)老二终点阅读物1
+120981:[CHS] - (test)老二终点阅读物2
+120982:[CHS] - (test)老三终点阅读物1
+120983:[CHS] - (test)老三终点阅读物2
 120984:"Uthabiti"
 120985:[CHS] - （test）卡齐娜送你的小石头
 120986:Purpose-Built Grappling Hook
@@ -3645,6 +3708,7 @@
 121002:The Feline Firm (VIII)
 121003:Broken, Graffiti-Marked Stone
 121004:Shattered Night Jade
+121005:Ancient Flint Key
 121006:Contending Spark
 121007:"A Setting Sun That Never Sets"
 121008:"A Dragon That Cannot Fly"
@@ -3654,6 +3718,7 @@
 121012:Pampa's Testimony
 121013:The Locusts' Purchase Invoice
 121014:Anela's Testimony
+121015:Key From a Balloon Platform
 121016:Fell Dragon's Picturebook
 121017:Dreams of the Ancient Capital
 121018:An Incomplete Manuscript
@@ -3702,11 +3767,91 @@
 121063:Records of Hanan Pacha (III)
 121064:The Tale of Qoyllor and Ukuku
 121065:The Volcano Lord and the Shadow Pins
+121066:[CHS] - (test)天空城火种
+121067:Rust-Spotted Key
+121070:Somewhat Aged Copy of "Tequil the Brave"
+121071:Spanking New Copy of "Tequil the Brave"
+121072:Pyrophosphorite
+121073:Dye Samples
 121074:Picturesque Records
 121075:Inspection and Maintenance Records
 121076:Diary of a Soldier Abroad
 121077:Unfinished Musical Score
 121078:Note Left at the Camp
+121079:A Nameless Adventurer's Notes
+121080:A Nameless Adventurer's Notes
+121081:A Nameless Adventurer's Notes
+121082:[CHS] - (test) 染血的羽毛
+121083:Medicine of Greater Efficacy
+121084:Medicine of Superior Taste
+121085:Scarlet Phlogiston Honey Pearl
+121086:Ancient Diary
+121087:Magnifico's "Masterpiece"
+121088:Fires of Autumn Twilight (I)
+121089:Fires of Autumn Twilight (II)
+121090:Fires of Autumn Twilight (III)
+121091:Springs of Hidden Jade (I)
+121092:Springs of Hidden Jade (II)
+121093:Mt. Lingmeng Gossip (I)
+121094:Mt. Lingmeng Gossip (II)
+121095:Mt. Lingmeng Gossip (III)
+121096:The Tale of Kuntur
+121097:Mysterious Weapon Fragment: Arrow Rest
+121098:Iktomi Scroll: Map
+121099:Tepal's Tattered Notes
+121100:[CHS] - (test)热气球靶标告示牌
+121101:Key Found by the "Painted Stone Challenge" Podium
+121102:Secret Art Grilled Fish in Mint Sauce
+121115:Notice
+121116:Pakpaka Flying School Flying Tournament Invitation Letter
+121117:[N/A] 1806952292
+121119:Captured Photos
+121120:Nearby Flammabomb Wood
+121121:Nearby Ashen Aratiku Wood
+121122:A Nameless Adventurer's Notes
+121123:Smooth-Bitted Key
+121124:Straight-Bitted Key
+121125:Messily-Bitted Key
+121126:Citlali's Handkerchief
+121127:Legend-Inscribed Woven Scroll
+121128:"Shogun Almighty: Reborn as Raiden With Unlimited Power," First Edition
+121129:"Pretty Please, Kitsune Guuji?" Limited Deluxe Edition
+121130:Citlali's Handkerchief and Key
+121131:Spiritcaller's Notes (I)
+121132:Mountain Ranger's Notes
+121133:Nameless Priest's Notes
+121134:Traveling Scholar's Notes
+121135:Holy Sovereign's Notes (VII)
+121136:Someone's Notes
+121137:Holy Sovereign's Notes (VIII)
+121138:Holy Sovereign's Notes (IX)
+121139:Spiritcaller's Notes (II)
+121140:Notes Someone Left Behind (I)
+121141:Notes Someone Left Behind (II)
+121142:Notes Someone Left Behind (III)
+121143:Notes Someone Left Behind (IV)
+121144:Notes Someone Left Behind (V)
+121145:Golden Entreaty
+121146:Helka's Notes
+121152:Unfinished Musical Score
+121153:Recordkeeping Secret Source Sentinel
+121154:Nameless Traveler's Notes (I)
+121155:Nameless Traveler's Notes (II)
+121156:Nameless Traveler's Notes (III)
+121157:Nameless Traveler's Notes (IV)
+121158:Nameless Traveler's Notes (V)
+121162:Place of the Trial of Disembodiment Message
+121166:Rattan Toy
+121163:Rattan Toy: Hu Tao
+121164:Hu Tao: Plum Branch
+121165:Zhongli: Rex Coin
+121167:A Nameless Adventurer's Notes
+121168:Saurus Crackers: Tatankasaurus
+121169:Saurus Crackers: Qucusaurus
+121170:Saurus Crackers: Yumkasaurus
+121171:Saurus Crackers: Iktomisaurus
+121172:Saurus Crackers: Koholasaurus
+121173:Saurus Crackers: Tepetlisaurus
 220068:[CHS] - (test)赤沙石板
 339901:Beginner Player Badge
 339902:Advanced Player Badge
@@ -3723,16 +3868,20 @@
 111028:Sugardew Bait
 111030:Sour Bait
 111031:Flashing Maintenance Mek Bait
+111033:Spinelgrain Bait
+111034:Emberglow Bait
+
+// Chest_batch_use_with_group
+115016:Pack of Virtuous Teachings
+115017:Virtuous Share Bundle
+115024:Material Share Bundle
+115025:Eminent Share Bundle
 
 // Chest_batch_use
 115013:Exotic Share Bundle
 115014:Character Ascension Bundle (High)
 115015:Character Ascension Bundle (Very High)
-115016:Pack of Virtuous Teachings
-115017:Virtuous Share Bundle
 115018:Talent Materials Bundle (High)
-115024:Material Share Bundle
-115025:Eminent Share Bundle
 115026:Weapon Ascension Bundle (High)
 115027:Weapon Ascension Bundle (Very High)
 115031:Northlander Billet Trove
@@ -3944,6 +4093,9 @@
 112113:Axis of the Secret Source
 112114:Sheath of the Secret Source
 112115:Heart of the Secret Source
+112116:Refractive Bud
+112117:Bewildering Broadleaf
+112118:Illusory Leafcoil
 113001:Hurricane Seed
 113002:Lightning Prism
 113003:Dvalin's Plume
@@ -4008,6 +4160,12 @@
 113063:The Cornerstone of Stars and Flames
 113064:Mark of the Binding Blessing
 113065:Overripe Flamegranate
+113066:Gold-Inscribed Secret Source Core
+113067:Ensnaring Gaze
+113068:Eroded Horn
+113069:Eroded Sunfire
+113070:Eroded Scale-Feather
+113071:Talisman of the Enigmatic Land
 114001:Tile of Decarabian's Tower
 114002:Debris of Decarabian's City
 114003:Fragment of Decarabian's Epic
@@ -4100,6 +4258,7 @@
 200120:"Exalted Earth"
 200121:Cam and Cables of Law
 200122:"The Sea's Silent Shade"
+200123:Shuttle of Odara
 
 // Selectable_chest
 116002:BP Bounty
@@ -4118,6 +4277,31 @@
 116015:Philosophies of the Original Current
 116016:Guides of a Journey
 116017:Philosophies of a Journey
+
+// Consume_batch_use
+107009:Fragile Resin
+107012:Transient Resin
+117001:Domain Reliquary: Tier III
+117002:Domain Reliquary: Tier II
+117003:Domain Reliquary: Tier I
+117004:Reliquary: Wanderer's Troupe and Gladiator
+117005:Grand Reliquary: Wanderer's Troupe and Gladiator
+117006:Domain Reliquary: Tier II
+117007:Domain Reliquary: Tier I
+117008:Domain Reliquary: Tier II
+117009:Domain Reliquary: Tier I
+117010:Domain Reliquary: Tier II
+117011:Domain Reliquary: Tier I
+117012:Domain Reliquary: Tier II
+117013:Domain Reliquary: Tier I
+117014:Domain Reliquary: Tier II
+117015:Domain Reliquary: Tier I
+117016:Domain Reliquary: Tier II
+117017:Domain Reliquary: Tier I
+117018:Domain Reliquary: Tier II
+117019:Domain Reliquary: Tier I
+117020:Domain Reliquary: Tier II
+117021:Domain Reliquary: Tier I
 
 // Spice_food
 101715:Fragrant Vegetarian Abalone
@@ -4179,6 +4363,23 @@
 // Photov5_hand_book
 121036:Mementos of Teyvat Album
 
+// Natlan_relation_a
+121068:Pilgrim's Chronicle
+
+// Natlan_relation_b
+121069:Pilgrim's Chronicle
+
+// Lanv5_paimon_greeting_card
+121147:A "Gift Envelope" From Paimon
+
+// Natlan_race_album
+121148:Emblem of Valor
+121150:Emblem of Valor
+
+// Natlan_race_envelope
+121149:Special Commemorative Letter
+121151:Special Commemorative Letter
+
 // Consume
 210:Original Essence (Invalidated)
 211:Original Resin (Invalidated)
@@ -4216,6 +4417,10 @@
 120913:Green Obsidian Ring
 120914:Azure Obsidian Fragment
 120915:Azure Obsidian Ring
+121103:Purple Obsidian Fragment
+121104:Purple Obsidian Ring
+121105:Crimson Obsidian Fragment
+121106:Crimson Obsidian Ring
 106000:Test Stamina Growth Item
 106001:Test Temporary stamina Growth Item
 107002:Elemental Dust
@@ -4437,7 +4642,7 @@
 109587:Recipe: Forest of Color
 109588:Recipe: Grilled Fish in Mint Sauce
 109589:Recipe: Tatacos
-109590:Recipe: Sour Sauce Kipper
+109590:Recipe: Sour Sauce Ceviche
 109591:Recipe: Chocolate
 109592:Recipe: Stuffed N' Mashed Potatoes
 109593:Recipe: Cup O' Grainfruit
@@ -4447,6 +4652,16 @@
 109597:Recipe: Blazed Meat Stew
 109598:Recipe: Golden Apple Pastry
 109599:Recipe: Delights of Wondrous Wanderings
+109600:Recipe: BBQ Beef Heart Skewers
+109601:Recipe: Xocoatl
+109602:Recipe: Surf, Turf, and Perch
+109603:Recipe: Volcano Cake
+109604:Recipe: Grainfruit Wrap
+109605:Recipe: Mystique Soup
+109606:Recipe: Sing Your Heart Out
+109607:Recipe: Magmic Ode
+109608:Recipe: Qingxin Flower Cake
+109609:Recipe: Drunken Plums in Snow
 111020:Small Pretty Crystal
 111021:Medium Pretty Crystal
 111022:Big Pretty Crystal
@@ -4518,6 +4733,8 @@
 221062:Recipe: Strength Tonic
 221063:Instructions: Pyroculus Resonance Stone
 221064:Diagram: Pyro Treasure Compass
+221065:Formula: Spinelgrain Bait
+221066:Recipe: Emberglow Bait
 221010:Memory of the Entombed City
 221011:Memory of the Frostbearing Tree
 221012:Diagram: Dragonspine Spear
@@ -4544,6 +4761,7 @@
 222001:Silken Print
 222002:Nature's True Fruit
 222003:"Swirling Scene in a Bottle"
+222004:Scroll of the Fiery Firmament
 
 // Home_seed
 130001:Silk Flower Seed
@@ -4583,6 +4801,7 @@
 130035:Quenepa Berry Seed
 130036:Brilliant Chrysanthemum Seed
 130037:Sprayfeather Gill Seed
+130038:Glowing Hornshroom Spore
 
 // Flycloak
 140001:Wings of First Flight
@@ -4600,115 +4819,116 @@
 140013:Wings of Transient Dreams
 140014:Wings of Delicacies
 140015:Wings of Soaring Flame
+140016:Wings of Fate's Course Intertwined
 
 // Bgm
-141001:Radiant Spincrystal 1 - Dawn Winery Theme
-141002:Radiant Spincrystal 2 - A Sweet Smile
-141003:Radiant Spincrystal 3 - Lone Sojourner
-141004:Radiant Spincrystal 4 - A Day in Mondstadt
-141005:Radiant Spincrystal 5 - The Edge of the Prairie
-141006:Radiant Spincrystal 6 - A Tale of Two Dragons
-141007:Radiant Spincrystal 7 - Happy Journey
-141008:Radiant Spincrystal 8 - Legend of the Wind
-141009:Radiant Spincrystal 9 - Bustling Afternoon in Mondstadt
-141010:Radiant Spincrystal 10 - Dusk in Mondstadt
-141011:Radiant Spincrystal 11 - Mondstadt Starlit
-141012:Radiant Spincrystal 12 - Moonlight in Mondstadt
-141013:Radiant Spincrystal 13 - Another Day in Mondstadt
-141014:Radiant Spincrystal 14 - Windborne Hymn
-141015:Radiant Spincrystal 15 - Knights of Favonius
-141016:Radiant Spincrystal 16 - Angel's Share
-141017:Radiant Spincrystal 17 - A Happy Day
-141018:Radiant Spincrystal 18 - Tender Strength
-141019:Radiant Spincrystal 19 - Before Dawn, at the Winery
-141020:Radiant Spincrystal 20 - Whispering Plain
-141021:Radiant Spincrystal 21 - A New Day With Hope
-141022:Radiant Spincrystal 22 - Eternal Anamnesis
-141023:Radiant Spincrystal 23 - Journey of Hope
-141024:Radiant Spincrystal 24 - Sun Rises in Liyue
-141025:Radiant Spincrystal 25 - Good Night, Liyue
-141026:Radiant Spincrystal 26 - Call It a Day in Liyue
-141027:Radiant Spincrystal 27 - Clear Sky Over Liyue
-141028:Radiant Spincrystal 28 - Cozy Leisure Time
-141029:Radiant Spincrystal 29 - Winding River
-141030:Radiant Spincrystal 30 - Mild Waves
-141031:Radiant Spincrystal 31 - Rhythm Amidst the Reeds
-141032:Radiant Spincrystal 32 - Flows of Jade-Like Water
-141033:Radiant Spincrystal 33 - Flow of Mildness
-141034:Radiant Spincrystal 34 - Vague Whispers
-141035:Radiant Spincrystal 35 - Legends Swept Away
-141036:Radiant Spincrystal 36 - Plain of Nostalgia
-141037:Radiant Spincrystal 37 - Rhythms From the Conch
-141038:Radiant Spincrystal 38 - Peaceful Hike
-141039:Radiant Spincrystal 39 - The Fading Stories
-141040:Radiant Spincrystal 40 - Above the Sea of Clouds
-141041:Radiant Spincrystal 41 - Rainbow at Summit
-141042:Radiant Spincrystal 42 - Red Leaf on the Chessboard
-141043:Radiant Spincrystal 43 - Slumbering Lore
-141044:Radiant Spincrystal 44 - Lost Expectation
-141045:Radiant Spincrystal 45 - The Realm Within
-141046:Radiant Spincrystal 46 - Sojourner's Sweet Dream
-141047:Radiant Spincrystal 47 - Miko's Night
-141048:Radiant Spincrystal 48 - Streets of Elegance
-141049:Radiant Spincrystal 49 - The Land of Her Serenity
-141050:Radiant Spincrystal 50 - The Mysterious Islands
-141051:Radiant Spincrystal 51 - Everlasting Devotion
-141052:Radiant Spincrystal 52 - Kitsune's Mask
-141053:Radiant Spincrystal 53 - Hanachirusato
-141054:Radiant Spincrystal 54 - Time to Say Farewell
-141055:Radiant Spincrystal 55 - Flickering Sakura
-141056:Radiant Spincrystal 56 - Murmuring Creek
-141057:Radiant Spincrystal 57 - Scarred Island
-141058:Radiant Spincrystal 58 - Silent Testimony
-141059:Radiant Spincrystal 59 - Island of Hanabi
-141060:Radiant Spincrystal 60 - Preparation of Matsuri
-141061:Radiant Spincrystal 61 - Illuminated Coral Palace
-141062:Radiant Spincrystal 62 - A Tranquil Town
-141063:Radiant Spincrystal 63 - In a Harmonious Atmosphere
-141064:Radiant Spincrystal 64 - Island of Crystal and Pearl
-141065:Radiant Spincrystal 65 - Misty Truth
-141066:Radiant Spincrystal 66 - Sorrows of Strays
-141067:Radiant Spincrystal 67 - Ruu's Melody
-141068:Radiant Spincrystal 68 - Roaming in Silence
-141069:Radiant Spincrystal 69 - Echoes of Solitude
-141070:Radiant Spincrystal 70 - Dirge of the Soundless
-141071:Radiant Spincrystal 71 - Nothing but Ivy
-141072:Radiant Spincrystal 72 - Forgotten Epic
-141073:Radiant Spincrystal 73 - Beyond Klesha
-141074:Radiant Spincrystal 74 - Melody of Hidden Seeds
-141075:Radiant Spincrystal 75 - Varuna's Mercy
-141076:Radiant Spincrystal 76 - Vestige of Dahri
-141077:Radiant Spincrystal 77 - Chatter Between Roots
-141078:Radiant Spincrystal 78 - Whirling of Leaves and Petals
-141079:Radiant Spincrystal 79 - Hustle and Bustle of Ormos
-141080:Radiant Spincrystal 80 - Halcyon Times
-141081:Radiant Spincrystal 81 - A Puff of Cool Breeze
-141082:Radiant Spincrystal 82 - On the Barren Sands
-141083:Radiant Spincrystal 83 - Arid Canyon
-141084:Radiant Spincrystal 84 - Settlement for Exiles
-141085:Radiant Spincrystal 85 - Ruins of Scorching Might
-141086:Radiant Spincrystal 86 - Eye of Deshret
-141087:Radiant Spincrystal 87 - Emerald in the Desert
-141088:Radiant Spincrystal 88 - Kingdom of Dust
-141089:Radiant Spincrystal 89 - Gold Cup of Oases
-141090:Radiant Spincrystal 90 - Where She Will Return
-141091:Radiant Spincrystal 91 - Desert Lullaby
-141092:Radiant Spincrystal 92 - Once-Joyful Dream
-141093:Radiant Spincrystal 93 - Her Wishes
-141094:Radiant Spincrystal 94 - A Pearl Amongst Legends
-141095:Radiant Spincrystal 95 - Maidens of Sanctity
-141096:Radiant Spincrystal 96 - Simurgh's Dream
-141097:Radiant Spincrystal 97 - Where Simurgh Rests
-141098:Radiant Spincrystal 98 - Sorush's Purity
-141199:Radiant Spincrystal 99 - Ballad of Many Waters
-141200:Radiant Spincrystal 100 - Coruscating Street
-141201:Radiant Spincrystal 101 - Throughout the Flow of Years
-141202:Radiant Spincrystal 102 - Miraculous Whisper
-141203:Radiant Spincrystal 103 - Surging Reminiscence
-141204:Radiant Spincrystal 104 - Ann's Quiescent Residence
-141205:Radiant Spincrystal 105 - Limpide est le sanglot d'eau
-141206:Radiant Spincrystal 106 - Que le vent soit doux
-141207:Radiant Spincrystal 107 - Demain, des l'aube
+141001:Radiant Spincrystal 1 - 
+141002:Radiant Spincrystal 2 - 
+141003:Radiant Spincrystal 3 - 
+141004:Radiant Spincrystal 4 - 
+141005:Radiant Spincrystal 5 - 
+141006:Radiant Spincrystal 6 - 
+141007:Radiant Spincrystal 7 - 
+141008:Radiant Spincrystal 8 - 
+141009:Radiant Spincrystal 9 - 
+141010:Radiant Spincrystal 10 - 
+141011:Radiant Spincrystal 11 - 
+141012:Radiant Spincrystal 12 - 
+141013:Radiant Spincrystal 13 - 
+141014:Radiant Spincrystal 14 - 
+141015:Radiant Spincrystal 15 - 
+141016:Radiant Spincrystal 16 - 
+141017:Radiant Spincrystal 17 - 
+141018:Radiant Spincrystal 18 - 
+141019:Radiant Spincrystal 19 - 
+141020:Radiant Spincrystal 20 - 
+141021:Radiant Spincrystal 21 - 
+141022:Radiant Spincrystal 22 - 
+141023:Radiant Spincrystal 23 - 
+141024:Radiant Spincrystal 24 - 
+141025:Radiant Spincrystal 25 - 
+141026:Radiant Spincrystal 26 - 
+141027:Radiant Spincrystal 27 - 
+141028:Radiant Spincrystal 28 - 
+141029:Radiant Spincrystal 29 - 
+141030:Radiant Spincrystal 30 - 
+141031:Radiant Spincrystal 31 - 
+141032:Radiant Spincrystal 32 - 
+141033:Radiant Spincrystal 33 - 
+141034:Radiant Spincrystal 34 - 
+141035:Radiant Spincrystal 35 - 
+141036:Radiant Spincrystal 36 - 
+141037:Radiant Spincrystal 37 - 
+141038:Radiant Spincrystal 38 - 
+141039:Radiant Spincrystal 39 - 
+141040:Radiant Spincrystal 40 - 
+141041:Radiant Spincrystal 41 - 
+141042:Radiant Spincrystal 42 - 
+141043:Radiant Spincrystal 43 - 
+141044:Radiant Spincrystal 44 - 
+141045:Radiant Spincrystal 45 - 
+141046:Radiant Spincrystal 46 - 
+141047:Radiant Spincrystal 47 - 
+141048:Radiant Spincrystal 48 - 
+141049:Radiant Spincrystal 49 - 
+141050:Radiant Spincrystal 50 - 
+141051:Radiant Spincrystal 51 - 
+141052:Radiant Spincrystal 52 - 
+141053:Radiant Spincrystal 53 - 
+141054:Radiant Spincrystal 54 - 
+141055:Radiant Spincrystal 55 - 
+141056:Radiant Spincrystal 56 - 
+141057:Radiant Spincrystal 57 - 
+141058:Radiant Spincrystal 58 - 
+141059:Radiant Spincrystal 59 - 
+141060:Radiant Spincrystal 60 - 
+141061:Radiant Spincrystal 61 - 
+141062:Radiant Spincrystal 62 - 
+141063:Radiant Spincrystal 63 - 
+141064:Radiant Spincrystal 64 - 
+141065:Radiant Spincrystal 65 - 
+141066:Radiant Spincrystal 66 - 
+141067:Radiant Spincrystal 67 - 
+141068:Radiant Spincrystal 68 - 
+141069:Radiant Spincrystal 69 - 
+141070:Radiant Spincrystal 70 - 
+141071:Radiant Spincrystal 71 - 
+141072:Radiant Spincrystal 72 - 
+141073:Radiant Spincrystal 73 - 
+141074:Radiant Spincrystal 74 - 
+141075:Radiant Spincrystal 75 - 
+141076:Radiant Spincrystal 76 - 
+141077:Radiant Spincrystal 77 - 
+141078:Radiant Spincrystal 78 - 
+141079:Radiant Spincrystal 79 - 
+141080:Radiant Spincrystal 80 - 
+141081:Radiant Spincrystal 81 - 
+141082:Radiant Spincrystal 82 - 
+141083:Radiant Spincrystal 83 - 
+141084:Radiant Spincrystal 84 - 
+141085:Radiant Spincrystal 85 - 
+141086:Radiant Spincrystal 86 - 
+141087:Radiant Spincrystal 87 - 
+141088:Radiant Spincrystal 88 - 
+141089:Radiant Spincrystal 89 - 
+141090:Radiant Spincrystal 90 - 
+141091:Radiant Spincrystal 91 - 
+141092:Radiant Spincrystal 92 - 
+141093:Radiant Spincrystal 93 - 
+141094:Radiant Spincrystal 94 - 
+141095:Radiant Spincrystal 95 - 
+141096:Radiant Spincrystal 96 - 
+141097:Radiant Spincrystal 97 - 
+141098:Radiant Spincrystal 98 - 
+141199:Radiant Spincrystal 99 - 
+141200:Radiant Spincrystal 100 - 
+141201:Radiant Spincrystal 101 - 
+141202:Radiant Spincrystal 102 - 
+141203:Radiant Spincrystal 103 - 
+141204:Radiant Spincrystal 104 - 
+141205:Radiant Spincrystal 105 - 
+141206:Radiant Spincrystal 106 - 
+141207:Radiant Spincrystal 107 - 
 141208:Radiant Spincrystal 108 - 
 141209:Radiant Spincrystal 109 - 
 141210:Radiant Spincrystal 110 - 
@@ -4742,6 +4962,13 @@
 141238:Radiant Spincrystal 138 - 
 141239:Radiant Spincrystal 139 - 
 141240:Radiant Spincrystal 140 - 
+141241:Radiant Spincrystal 141 - 
+141242:Radiant Spincrystal 142 - 
+141243:Radiant Spincrystal 143 - 
+141244:Radiant Spincrystal 144 - 
+141245:Radiant Spincrystal 145 - 
+141246:Radiant Spincrystal 146 - 
+141247:Radiant Spincrystal 147 - 
 
 // Sea_lamp
 200004:Xiao Lantern
@@ -4818,6 +5045,7 @@
 200904:Moonstringer
 200905:Serendipity
 200906:Wavepiercer
+200907:Flowhorn Flounderfinder
 
 // Namecard
 210001:Genshin Impact: A New World
@@ -5034,6 +5262,20 @@
 210216:Achievement: Lord of the Night
 210217:Travel Notes: Primal Fire
 210218:Celebration: Crispy and Sweet
+210219:Xilonen: Cue Point
+210220:Travel Notes: Sabzeruz
+210221:Chasca: Fully Loaded
+210222:Ororon: Nightshade
+210223:Natlan: Fleeting Dreams
+210224:Achievement: Fighting Spirit
+210225:Travel Notes: Spiritweaver
+210226:Mavuika: Sun-Crowned
+210227:Citlali: Opalstar
+210228:Lan Yan: Silver Swallow
+210229:Achievement: All-Seeing
+210230:Achievement: Blaze
+210231:Achievement: Repertoire
+210232:Travel Notes: The Flame Renewed
 
 // Avatar_trace
 215001:Echo: Dandelion Knight
@@ -5041,6 +5283,10 @@
 215003:Echo: Eclipsing Star
 215004:Echo: Cat Upon the Eaves
 215005:Echo: Dark Side of Dawn
+215006:Echo: Vago Mundo
+215007:Echo: Driving Thunder
+215008:Echo: Plenilune Gaze
+215009:Echo: Scarlet Leaves Pursue Wild Waves
 
 // Widget
 101516:[CHS] - （test）暂借的留影机
@@ -5145,6 +5391,10 @@
 220107:Graffiti Kamera
 220108:Paimon's Kamera
 220109:Artifact Transmuter
+220110:Repertoire of Myriad Melodies
+220111:Djem Djem Drum
+220112:Ukulele
+220113:Inscribed Mirror
 
 // Aranara
 220055:Aranyaka
@@ -5191,6 +5441,36 @@
 318024:Leisure Time
 318025:Striving to Negotiate
 318026:Elegant Countenance
+318027:Virtuoso Performance
+318028:Elegant Countenance
+318029:All Green and Good to Go
+318030:Ready for Battle
+318031:Refined Countenance
+318032:Leisure Time
+318033:Noise Filtering
+318034:Perfect Partner
+318035:Happy Times
+318036:Solemn Countenance
+318037:Deep Contemplation
+318038:Thesis Progression
+318039:Upbeat Encouragement
+318040:All Green and Good to Go
+318041:Prayer Time
+318042:Elegant Greeting
+
+// Music_game_book_theme
+319001:Fantastical Marvel
+319002:Meditation on Floating Dreams
+319003:Hidden Jade Star
+319004:Dappled Shadows Reflecting Red
+319005:Oracle of Reason
+319006:Lingering Feast
+319007:Azure Icefang
+319008:Wind and Freedom
+319009:Stone and Contracts
+319010:Thunder and Eternity
+319011:Nature and Wisdom
+319012:Water and Justice
 
 // Profile_picture
 320001:[CHS] - (test)头像道具-测试用
@@ -5294,6 +5574,14 @@
 330095:Freminet
 330096:Xianyun
 330097:Hydro Hilichurl Rogue
+330098:Chiori
+330099:Abyss Lector: Violet Lightning
+330100:Eremite Floral Ring-Dancer
+330101:Rosaria
+330102:Sigewinne
+330103:Golden Wolflord
+330104:Mualani
+330105:Clorinde
 330500:Undivided Heart
 330501:Cold-Blooded Strike
 330502:Steady Breathing
@@ -5392,6 +5680,14 @@
 330595:Moment of Waking and Resolve
 330596:They Call Her Cloud Retainer
 330597:Hydrodart Slime
+330598:In Five Colors Dyed
+330599:Chain Lightning Cascade
+330600:Spirit Serpent's Swirl
+330601:Divine Retribution
+330602:Requires Appropriate Rest
+330603:Beastly Corrosion
+330604:Night Realm's Gift: Crests and Troughs
+330605:Dark-Shattering Flame
 331000:Magic Guide
 331001:Sacrificial Fragments
 331002:Skyward Atlas
@@ -5479,6 +5775,14 @@
 331084:Xenochromatic Hunter's Ray
 331085:Yumkasaurus
 331086:Koholasaurus
+331087:Portable Power Saw
+331088:Conductor's Top Hat
+331089:Tepetlisaurus
+331090:Flowing Purity
+331091:Maiden's Fading Beauty
+331092:Iktomisaurus
+331093:Demon-Warrior's Feather Mask
+331094:Qucusaurus
 332000:Liyue Harbor Wharf
 332001:Knights of Favonius Library
 332002:Jade Chamber
@@ -5537,6 +5841,9 @@
 332055:Serene
 332056:Stadium of the Sacred Flame
 332057:Atea
+332058:Stage Tepetl
+332059:"Scions of the Canopy"
+332060:"People of the Springs"
 333000:Elemental Resonance: Woven Ice
 333001:Elemental Resonance: Shattering Ice
 333002:Elemental Resonance: Woven Waters
@@ -5615,6 +5922,13 @@
 333075:Tada!
 333076:Saurian Dining Buddies
 333077:Edict of Absolution
+333078:Eremite Teatime
+333079:Saurus Crackers
+333080:Ultimate Surfing Buddy!
+333081:Glittering Gemstones
+333082:Pilgrimage of the Return of the Sacred Flame
+333083:Abundant Phlogiston
+333084:Puff Pops
 
 // Gcg_card_face
 334000:Ganyu
@@ -5715,6 +6029,14 @@
 334095:Freminet
 334096:Xianyun
 334097:Hydro Hilichurl Rogue
+334098:Chiori
+334099:Abyss Lector: Violet Lightning
+334100:Eremite Floral Ring-Dancer
+334101:Rosaria
+334102:Sigewinne
+334103:Golden Wolflord
+334104:Mualani
+334105:Clorinde
 334500:Undivided Heart
 334501:Cold-Blooded Strike
 334502:Steady Breathing
@@ -5813,6 +6135,14 @@
 334595:Moment of Waking and Resolve
 334596:They Call Her Cloud Retainer
 334597:Hydrodart Slime
+334598:In Five Colors Dyed
+334599:Chain Lightning Cascade
+334600:Spirit Serpent's Swirl
+334601:Divine Retribution
+334602:Requires Appropriate Rest
+334603:Beastly Corrosion
+334604:Night Realm's Gift: Crests and Troughs
+334605:Dark-Shattering Flame
 335000:Magic Guide
 335001:Sacrificial Fragments
 335002:Skyward Atlas
@@ -5900,6 +6230,14 @@
 335084:Xenochromatic Hunter's Ray
 335085:Yumkasaurus
 335086:Koholasaurus
+335087:Portable Power Saw
+335088:Conductor's Top Hat
+335089:Tepetlisaurus
+335090:Flowing Purity
+335091:Maiden's Fading Beauty
+335092:Iktomisaurus
+335093:Demon-Warrior's Feather Mask
+335094:Qucusaurus
 336000:Liyue Harbor Wharf
 336001:Knights of Favonius Library
 336002:Jade Chamber
@@ -5958,6 +6296,9 @@
 336055:Serene
 336056:Stadium of the Sacred Flame
 336057:Atea
+336058:Stage Tepetl
+336059:"Scions of the Canopy"
+336060:"People of the Springs"
 337000:Elemental Resonance: Woven Ice
 337001:Elemental Resonance: Shattering Ice
 337002:Elemental Resonance: Woven Waters
@@ -6036,6 +6377,13 @@
 337075:Tada!
 337076:Saurian Dining Buddies
 337077:Edict of Absolution
+337078:Eremite Teatime
+337079:Saurus Crackers
+337080:Ultimate Surfing Buddy!
+337081:Glittering Gemstones
+337082:Pilgrimage of the Return of the Sacred Flame
+337083:Abundant Phlogiston
+337084:Puff Pops
 
 // Gcg_card_back
 339000:Origin
@@ -6066,6 +6414,9 @@
 339029:Fonta
 339030:The Chasm: Crown
 339031:Natlan
+339032:Enkanomiya: Evernight
+339033:Enkanomiya: Crown
+339034:Fonta: Sweet Sakura
 
 // Gcg_field
 339500:Mondstadt
@@ -6073,6 +6424,7 @@
 339502:Inazuma
 339503:Sumeru
 339504:Fontaine
+339505:Natlan
 
 // Costume
 340000:Summertime Sparkle
@@ -6094,6 +6446,8 @@
 340016:Bamboo Rain
 340017:Breeze of Sabaa
 340018:Phantom in Boots
+340019:Cherries Snow-Laden
+340020:New Year's Cheer
 
 // Furniture_suite_formula
 350001:Adventurer Camp
@@ -6180,6 +6534,17 @@
 350084:Undersea Merusea's Luster
 350085:Full Force Forward in the Forbidden Fortress
 350086:The Nation of Hydro's Mottled Colors
+350087:Carefully Considered Words
+350088:Arena's Toast to Triumph
+350089:Sleep Now, Rest Your Weary Head
+350090:Fomenting Fashion at the Fair
+350091:Born Among Searing Flames
+350092:Treading the Untrodden Path
+350093:Children of Echoes' Passion
+350094:People of the Springs' Relaxation
+350095:Scions of the Canopy's Duty
+350096:Flower-Feather Clan's Conquest
+350097:Masters of the Night-Wind's Tranquility
 
 // Furniture_formula
 380101:Timber Wall With Jade Eaves
@@ -7156,6 +7521,113 @@
 380453:Ashen Aratiku Wood "Nifty" Street Lamp
 380454:White Chestnut Oak Wood "Harpoon" Street Lamp
 380455:White Chestnut Oak Wood "Twilight" Floor Lamp
+381336:"One-Legged Round Shield"
+381337:Four-Legged Tower Shield
+381338:Nameless and Silent
+381339:Countless Services
+383508:Echoes of the Shore
+383509:Unbeaten Hero
+383510:Mountain Fireworks
+382401:Vibrant Pot: Born in Flames
+382268:Fair's Fresh Vegetables
+383403:Model Dish: Not to Be Missed
+383404:Model Dish: The Usual Selection
+383405:Fair's Feasting and Drinking
+383406:Windtracker
+383407:Javelin Imminent
+383408:Towards Greater Heights
+383409:Riding the Tranquil Waters
+382402:Bipedal Puppet: Shaky-Quaky
+382403:Quadripedal Puppet: Ready-Steady
+382126:Stadium's "Spicy Feast" Backed Chair
+382127:Stadium "Round Seating" Bench
+382128:Stadium "Speedy Snack" Round Stool
+383114:Phlogiston Desk Lamp: Sufficiently Weighty
+383115:Phlogiston Floor Lamp: Cost-Effective Convenience
+381114:Fair's Distribution
+381115:Fair's Splendid Textiles
+381116:Peach Palm Wood "Fulcrum" Container
+382269:Traveler on the Road
+382318:Weary Rug: Lay Down Your Burden
+384220:Phlogiston Hanging Lamp: Road Guide
+382270:The Distance Between It and the Flames
+390919:Night-Wind Architecture: Needs of Exchange
+390920:Night-Wind Architecture: Arcane Foundation
+390921:Night-Wind Architecture: Mundane Way
+394610:Tezcatepetonco Fence: Sun's Journey
+394611:Tezcatepetonco Fence: Path of Discovery
+391147:"Dawn of Flight"
+391148:Flower-Feather Clan "Warning" Balloon
+390922:Flower-Feather Residence: Chasing Triviality
+390923:Flower-Feather Residence: Logic of Flight
+390924:Simple Flower-Feather House: Fallback Measures
+390925:Flower-Feather Stable: Saurian's Repose
+391273:Ashen Aratiku Wood "Minimalist" Staircase
+390926:Ashen Aratiku Wood "Giant Claw" Platform
+394124:"Tether at the Summit of Quahuacan Cliff"
+393918:Clairvoyance Model: Spiritloom
+393919:Clairvoyance Model: Projection Censer
+393920:"The Silent Meditator"
+393921:Rope-Bound Multi-Purpose Barrel
+393922:"Vessel of Purification and Calm"
+393923:"Spirituality and Sealing"
+393924:"Our Path"
+393925:"Famished Thoughts"
+394612:Wooden Target: Training Regimen
+393472:"Tail Pouch of the Mountain Wind"
+393473:"Endless Aspiration"
+393474:"Tlalocan's Drawing"
+393219:"Solid Roots"
+380456:Phlogiston Street Lamp: The Road Ahead
+380457:Phlogiston Street Lamp: Threefold
+380458:Phlogiston Floor Lamp: Homecoming
+393926:Fixed Torch: Pursuit of Victory
+393603:"Molten Lava Pool"
+394613:"The Embers of Cinder City"
+380106:Lofty Tower's Fashionable Canvas
+380306:Lofty Tower's Radiant Ceiling
+380206:Lofty Tower's Floor of Trials
+380506:Lofty Tower's Flaming Brazier
+391263:Dwelling Portal: Sacred Duty
+391264:Dwelling Wall: Journey Through Art
+391265:Dwelling Wall: Guiding Lines
+391266:Dwelling Wall: Warped Perspective
+391267:Dwelling Wall: Graffiti Panel
+393217:Ageless Agave
+393218:Sweet Down
+391268:Stadium's "Tempered" Steps
+391269:Guardian Pillar: Myriad Warriors
+391270:Guardian Pillar: Abundant Shamans
+391271:Guardian Pillar: Innumerable Sparks
+391272:Guardian Pillar: Exalted Heroes
+381340:Fair's Simple Sales Strategy
+383116:Phlogiston Lamp: Rain Cover
+381409:Stone Bed: Peaceful Sleep
+381117:Fair's Thoughts in Order
+382319:Fair Carpet: Warmth and Passion
+382271:Portable All-Purpose Grill
+390336:Woven Hut: Serene Indigo
+390337:Woven Hut: Rhythmic Stripes
+390338:Glorious Hues of the Sacred Flame
+390339:Curious Countenances of the Sacred Flame
+390340:Alluring Flavors of the Sacred Flame
+394614:Our Destination
+390927:Pilgrimage of Flame
+394328:Fair Table: Uncut Original
+394615:Forever in Arms
+394616:Bear Witness
+393475:Wooden Signboard: Enchanting Experience
+394617:Fair's Treasures and Trinkets
+393927:Black Gold of the Blazing Realm
+393928:Pilgrimage by the Hammer's Blow
+393929:Climax of Colors and Hues
+393930:Spattered Colors and Hues
+393931:Musings on Colors and Hues
+394618:Secrets of Good Health
+394619:Promise of Abundance
+393476:Springtime Folding Screen: A Touch of Red
+393477:Springtime Folding Screen: Fragrance Fills the Air
+394620:By Cinder City's Glowing Light
 
 // Furniture
 369101:Jade-Eyed Cat
@@ -7255,6 +7727,12 @@
 368186:Kachina
 368187:Kinich
 368188:Mualani
+368189:Xilonen
+368190:Chasca
+368191:Ororon
+368192:Mavuika
+368193:Citlali
+368194:Lan Yan
 360101:Timber Wall With Jade Eaves
 360102:Dark Wood Arch Wall
 360201:Traditional Cedar Flooring
@@ -7610,6 +8088,13 @@
 379036:Maintenance Mek: Platinum Collection
 379037:Maintenance Mek: Gold Leader
 379038:Jade Heartfeather Bass
+379039:Floral Rapidfighting Fish
+379040:Diving Rapidfighting Fish
+379041:Magma Rapidfighting Fish
+379042:Greenwave Sunfish
+379043:Dusk Sunfish
+379044:Phony Phlogiston Unihornfish
+379045:Pseudoshark Unihornfish
 372601:Sub-Space Boulder: Sky Range
 372602:Sub-Space Boulder: Solitude
 372603:Sub-Space Boulder: Seat of Mist
@@ -7952,6 +8437,7 @@
 369200:Flowcurrent Bird
 369201:Flying Squirrel
 369202:Brown Deer
+369203:Cacaua Goat
 376111:Speedy Rhythm: Verdance
 376112:Scoreboard: Verdance
 376113:Flash Step: Verdance
@@ -8943,6 +9429,176 @@
 360453:Ashen Aratiku Wood "Nifty" Street Lamp
 360454:White Chestnut Oak Wood "Harpoon" Street Lamp
 360455:White Chestnut Oak Wood "Twilight" Floor Lamp
+361336:"One-Legged Round Shield"
+361337:Four-Legged Tower Shield
+361338:Nameless and Silent
+361339:Countless Services
+363508:Echoes of the Shore
+363509:Unbeaten Hero
+363510:Mountain Fireworks
+362401:Vibrant Pot: Born in Flames
+362268:Fair's Fresh Vegetables
+363403:Model Dish: Not to Be Missed
+363404:Model Dish: The Usual Selection
+363405:Fair's Feasting and Drinking
+363406:Windtracker
+363407:Javelin Imminent
+363408:Towards Greater Heights
+363409:Riding the Tranquil Waters
+362402:Bipedal Puppet: Shaky-Quaky
+362403:Quadripedal Puppet: Ready-Steady
+362126:Stadium's "Spicy Feast" Backed Chair
+362127:Stadium "Round Seating" Bench
+362128:Stadium "Speedy Snack" Round Stool
+363114:Phlogiston Desk Lamp: Sufficiently Weighty
+363115:Phlogiston Floor Lamp: Cost-Effective Convenience
+361114:Fair's Distribution
+361115:Fair's Splendid Textiles
+361116:Peach Palm Wood "Fulcrum" Container
+362269:Traveler on the Road
+362318:Weary Rug: Lay Down Your Burden
+364511:May This Moment Last Forever
+364512:May This Moment Last Forever
+364220:Phlogiston Hanging Lamp: Road Guide
+362270:The Distance Between It and the Flames
+373190:"Sorry to Keep You Waiting, Dear Archon"
+374720:Easel of Wonders
+374721:"Well, in That Case..."
+374722:"Is That All?"
+374723:"Come Now, Little One..."
+374724:"Be Quick, Would You?"
+374725:"My, That's Delicious!"
+374726:"Really Now?"
+363366:Companion Gift - "Playful and Lively"
+363367:Companion Gift - "Aesthetic Inspiration"
+363368:Companion Gift - "Freedom of Rock 'n' Roll"
+363369:Companion Gift - "Joyful Tales"
+363370:Companion Gift - "Resolve to Protect"
+363371:Companion Gift - "Essential Skill"
+364513:"What the Little Ones Teach Us"
+364514:"What the Little Ones Teach Us"
+370919:Night-Wind Architecture: Needs of Exchange
+370920:Night-Wind Architecture: Arcane Foundation
+370921:Night-Wind Architecture: Mundane Way
+374610:Tezcatepetonco Fence: Sun's Journey
+374611:Tezcatepetonco Fence: Path of Discovery
+371147:"Dawn of Flight"
+371148:Flower-Feather Clan "Warning" Balloon
+370922:Flower-Feather Residence: Chasing Triviality
+370923:Flower-Feather Residence: Logic of Flight
+370924:Simple Flower-Feather House: Fallback Measures
+370925:Flower-Feather Stable: Saurian's Repose
+371273:Ashen Aratiku Wood "Minimalist" Staircase
+370926:Ashen Aratiku Wood "Giant Claw" Platform
+374124:"Tether at the Summit of Quahuacan Cliff"
+373464:"Banner of Clairvoyance: Citlali"
+373465:"Banner of Clairvoyance: Ororon"
+373466:"Banner of Clairvoyance: Menilek"
+373467:"Banner of Clairvoyance: Sanhaj"
+373468:"Banner of Clairvoyance: Sundjatta"
+373469:"Banner of Clairvoyance: Wanjiru"
+373470:"Banner of Clairvoyance: Tupac"
+373471:"Banner of Clairvoyance: Burkina"
+373918:Clairvoyance Model: Spiritloom
+373919:Clairvoyance Model: Projection Censer
+373191:"Quick, Wake Up!"
+373192:"Little One, Great Hero!"
+373193:"Little One, Great Hero!"
+373920:"The Silent Meditator"
+373921:Rope-Bound Multi-Purpose Barrel
+373922:"Vessel of Purification and Calm"
+373923:"Spirituality and Sealing"
+373924:"Our Path"
+373925:"Famished Thoughts"
+374612:Wooden Target: Training Regimen
+373472:"Tail Pouch of the Mountain Wind"
+373473:"Endless Aspiration"
+373474:"Tlalocan's Drawing"
+373219:"Solid Roots"
+360456:Phlogiston Street Lamp: The Road Ahead
+360457:Phlogiston Street Lamp: Threefold
+360458:Phlogiston Floor Lamp: Homecoming
+373926:Fixed Torch: Pursuit of Victory
+373603:"Molten Lava Pool"
+374613:"The Embers of Cinder City"
+360106:Lofty Tower's Fashionable Canvas
+360306:Lofty Tower's Radiant Ceiling
+360206:Lofty Tower's Floor of Trials
+360506:Lofty Tower's Flaming Brazier
+364306:Lofty Tower's Sturdy Door
+364406:Lofty Tower's Textured Stairs
+375106:Natlan Dwelling: "Lofty Tower"
+371263:Dwelling Portal: Sacred Duty
+371264:Dwelling Wall: Journey Through Art
+371265:Dwelling Wall: Guiding Lines
+371266:Dwelling Wall: Warped Perspective
+371267:Dwelling Wall: Graffiti Panel
+373217:Ageless Agave
+373218:Sweet Down
+371268:Stadium's "Tempered" Steps
+371269:Guardian Pillar: Myriad Warriors
+371270:Guardian Pillar: Abundant Shamans
+371271:Guardian Pillar: Innumerable Sparks
+371272:Guardian Pillar: Exalted Heroes
+361340:Fair's Simple Sales Strategy
+363372:Plum Branch Arrangement: "Boundless Spring"
+363373:Eight Adepts Mask: "Lone Butterfly of the Crimson Flame"
+363374:Eight Adepts Mask: "Jade-Plumed Silverwing"
+363375:Eight Adepts Mask: "Gold-Eyed Celadon Mare"
+363376:Eight Adepts Mask: "Yunlai Angler"
+363377:Eight Adepts Mask: "Sage Hu"
+363378:Eight Adepts Mask: "Sage Jian"
+363379:Eight Adepts Mask: "Wuwang Kid"
+363380:Eight Adepts Mask: "Wind Reader"
+363116:Phlogiston Lamp: Rain Cover
+361409:Stone Bed: Peaceful Sleep
+361117:Fair's Thoughts in Order
+362319:Fair Carpet: Warmth and Passion
+362271:Portable All-Purpose Grill
+370336:Woven Hut: Serene Indigo
+370337:Woven Hut: Rhythmic Stripes
+370338:Glorious Hues of the Sacred Flame
+370339:Curious Countenances of the Sacred Flame
+370340:Alluring Flavors of the Sacred Flame
+374614:Our Destination
+370927:Pilgrimage of Flame
+374328:Fair Table: Uncut Original
+374615:Forever in Arms
+374616:Bear Witness
+373475:Wooden Signboard: Enchanting Experience
+374617:Fair's Treasures and Trinkets
+373927:Black Gold of the Blazing Realm
+373928:Pilgrimage by the Hammer's Blow
+373929:Climax of Colors and Hues
+373930:Spattered Colors and Hues
+373931:Musings on Colors and Hues
+374618:Secrets of Good Health
+374619:Promise of Abundance
+373194:Auspicious Mora: "Splendid Bounty"
+373195:Auspicious Mora: "Flowing Fortune"
+373476:Springtime Folding Screen: A Touch of Red
+373477:Springtime Folding Screen: Fragrance Fills the Air
+373478:Fairest of Scenes
+360459:Divine Remains, Left to Pacify the Nether
+372351:Warbow's Strongarm
+372352:Fragrant Firewood
+372353:Javelin's Shaft
+372704:Sated Flare
+372705:Wave's Wisp
+372706:Last Resort
+372707:Gloomglow Fungi
+372708:Ore's Abundance
+372513:Foe's Trace
+372354:Initiate's War Club
+372232:May They Not Get Lost
+372233:May They Find Respite
+372234:May They Not Fall
+374620:By Cinder City's Glowing Light
+376201:Heron-Spiral Downlight: "A Thousand Wondrous Vistas"
+376202:Heron-Spiral Lighting: Beauty Gazed Afar
+376203:Heron-Spiral Lighting: Triumphant Beginning
+376204:Heron-Spiral Lighting: Vernal Birdsong
+376205:Heron-Spiral Lamp: Launch Tube
 360001:Wall 1
 360002:Wall 2
 360003:Floor 1
