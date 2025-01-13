@@ -326,7 +326,7 @@ namespace GrasscutterTools.Forms
                 foreach (var pageOrder in tabOrders)
                 {
                     // 新增页面优先显示
-                    if (tabOrders.All(it => it.Item1 != pageKeys[i]))
+                    if (i < pageKeys.Count && tabOrders.All(it => it.Item1 != pageKeys[i]))
                     {
                         PageTabOrders.Add(new Tuple<string, bool>(pageKeys[i], true));
                         ListPages.Items.Add(Pages[pageKeys[i]].Text);
