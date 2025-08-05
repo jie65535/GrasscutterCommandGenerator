@@ -26,7 +26,7 @@ jobs:
       run: msbuild Source/GrasscutterTools.sln /p:Configuration=Release /t:build /restore
 
     - name: Upload build artifacts
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: GrasscutterTools
         path: Source/GrasscutterTools/bin/Release/GrasscutterTools.exe
