@@ -70,6 +70,7 @@
 90001:Md_General
 9999:Md_General
 2027:Md_SnowMountain_DunlinsHeart
+2033:Md_SnowMountain_DunlinsHeart_02
 2127:Md_SnowMountain_General
 2028:Md_SnowMountain_South
 2029:Md_SnowMountain_EastCoast
@@ -94,6 +95,13 @@
 10283:Ly_General
 10348:Nt52_HJC_Rain
 10349:Nt52_HJJ
+10360:Dq_General
+10365:Dq_General
+10366:Dq_General
+10367:Dq_General
+10368:Dq_General
+10391:Ly_TheChasm_Skirk_Copy
+10401:Du58_NTDungeon_HWYSKJ
 2152:Ly_DakahaEntrance
 2252:Ly_StoneNeedles
 3002:Dq_General
@@ -317,6 +325,7 @@
 3507:Ly44_LiuYun
 3508:Ly_General
 3600:Dq_LiDao_General
+3601:Dq54_MikawaGameJam
 2165:Ly_TheChasm
 2166:Ly_TheChasm_AboveGround_Cave
 2167:Ly_TheChasm_AboveGround_Central
@@ -594,6 +603,7 @@
 5059:Fd_General
 5060:Fd_General
 5061:Fd_General
+5062:Fd_Theater
 5100:Fd41_PSHA_1st
 5101:Fd41_PSHA_2nd
 5102:Fd41_YBDT_1st
@@ -690,6 +700,9 @@
 6028:Nt_MSTJ_General
 6029:Nt_XKLYD02
 6030:Nt_LCGY
+6031:Dq54_HailuanGuiBattle
+6032:Fd_General
+6033:Ly44_YLB
 7000:Ly_General
 7001:Ly_General
 9031:Xm36_Sandworm
@@ -756,18 +769,50 @@
 9079:Md_General
 9080:Md_General
 9081:Xm_HYZS_Before_ClearSky
+6117:Nt55_General
+6118:Nt55_TJLBL
+6119:Nt55_General_Inside
+6120:Nt55_Boss
+6121:Nt55_SZH
+6122:Nt55_WJC
+6141:Nt55_General
 6142:Nt52_SkyCity_2nd
 6143:Nt52_HJJ_Chase
 6144:Nt52_QTRS_HJC_Before
 6145:Nt52_QTRS_HJC
+6148:Nt55_XHS
+6150:Nt55_General_250
+6151:Nt55_VolcanicEruption
 6152:Nt52_HJJ_Abyss
 6153:Nt52_HJJ
 6154:Nt52_JJMH_Shore_2nd
 6155:Nt_General
 6156:Nt53_YSDream
+6157:Nt55_MXD
+6158:Nt56_40Boss
 6164:Nt52_NHWQ
 6165:Nt52_HJJ_SkyCity_2nd
 6166:Nt52_HJC_SkyCity_2nd
+6167:Nt55_General_Inside
+6168:Nt55_VolcanicEruption_TJLBL
+6169:Nt55_General
+6170:Nt55_VolcanicEruption
+6171:Fd_General
+6173:Nt55_General
+6200:Nt58_General
+6201:Nt58_JJH_BeforeRoom
+6202:Nt58_JJH_LastRoom
+6203:Nt58_KHD
+6204:Nt58_MXD_Cave
+6205:Nt58_MXD_LastRoom_After
+6206:Nt58_SYJ
+6207:Nt58_WaterPark
+6208:Nt58_General_Beach
+6209:Nt58_JJH_OldSix_Cave
+6210:Nt58_General_Island
+6211:Nt58_MXD_LastRoom_Before_Night
+6212:Nt58_General_Transition
+6213:Nt58_General_Beach
 // 4
 2144:LP_General
 2145:LP_Fog_Heavy
@@ -936,6 +981,31 @@
 9054:Fd48_JMKS_Mists
 9061:Fd48_ToyTrainGame
 9060:Fd48_JMKS_General_02
+// 101
+6123:Nt55_HAZD
+6124:Nt55_LC_1
+6125:Nt55_LC_GLJT
+6126:Nt55_LC_ZSK
+6127:Nt55_LC_2
+6128:Nt55_LC_CS
+6129:Nt55_LC_GC
+6130:Nt55_LC_YST_1
+6131:Nt55_LC_YST_2
+6132:Nt55_LC_2_PSGF
+6133:Nt55_LC_2_TTH
+6134:Nt55_LC_2_JSZ
+6135:Nt55_LC_2_SYLX
+6136:Nt55_LC_2_TYGD
+6137:Nt55_LC_3
+6138:Nt55_LC_YZTD_Outside
+6139:Nt55_LC_YZTD_Internal
+6140:Nt55_LC_YZTD_Boss_Before
+6159:Nt55_LC_1_View
+6160:Nt55_HAZD_Dark
+6161:Nt55_LC_2_Up
+6162:Nt55_LC_2_Up
+6163:Nt55_LC_YZTD_Boss_After
+6172:Nt55_LC_2_TTH_Down
 // 1059
 10003:FCdungeon_Hutao_01
 10004:FCdungeon_Hutao_02
@@ -945,6 +1015,8 @@
 10272:Du46_SilenceTemple_Inside
 // 1201
 10351:Nt_XTLL_TL
+// 1202
+10358:Dq_YuShi_DH
 // 2004
 10065:HomeExterior_Ukiyo
 10066:HomeExterior_Ukiyo
@@ -1193,6 +1265,51 @@
 // 20250
 10344:Nt53_AQWZ_Ronova
 10350:Nt52_HJJ
+// 20251
+10345:Du54_DqDungeon_Mizuki_01
+10346:Du54_DqDungeon_Mizuki_02
+10347:Du54_DqDungeon_Mizuki_03
+10359:Du54_DqDungeon_Mizuki_03_Boss
+10361:Du54_DqDungeon_Mizuki_03_Dark
+// 20254
+10362:Du55_NT_Varesa_Prat01
+10363:Du55_NT_Varesa_Prat02_1
+10364:Du55_NT_Varesa_Prat03
+// 20256
+10357:Dq_Void02
+// 20257
+9094:Du56_ChessboardBoss01
+9095:Du56_ChessboardBoss02
+// 20258
+9104:Du56_ChessboardBoss01
+9105:Du56_ChessboardBoss02
+// 20260
+10371:Md_General_FHJ_PHB
+// 20262
+10369:Md_SWT_A
+10370:Md_SWT_B
+// 20267
+10394:Nt58_WaterPark
+10395:Nt58_General_Beach
+// 20268
+10378:Du56_FD_Escoffier_01
+// 20269
+10392:Nt58_JJH_ERR
+// 20271
+10380:Du57_Dungeon_Skirk_01_Prat1
+10381:Du57_Dungeon_Skirk_01_Prat2
+// 20272
+10382:Du57_Dungeon_Skirk_02_Rrat1
+10383:Du57_Dungeon_Skirk_02_Rrat3
+10384:Du57_Dungeon_Skirk_02_BossMist
+10385:Du57_Dungeon_Skirk_02_Boss
+10386:Du57_Dungeon_Skirk_02_Mist1
+10387:Du57_Dungeon_Skirk_02_Mist2
+10393:Du57_Dungeon_Skirk_02_Mist3
+// 20274
+10396:Du58_NTDungeon_YNF
+10397:Du58_NTDungeon_YNF_Down
+10398:Du58_NTDungeon_YNF_Down
 // 35800
 10009:CycleDungeon_WindFlower
 10010:CycleDungeon_WindFlower_Outdoor
@@ -1347,6 +1464,30 @@
 10312:Fd41_PSHA_1st
 // 35995
 10313:Xm_Huayuan
+// 36025
+9098:Nt_LCGY
+// 36051
+10352:Du54_DqBadminton_01
+// 36052
+10353:Du54_DqBadminton_01
+// 36053
+10354:Du54_DqBadminton_01
+// 36054
+10355:Du54_DqBadminton_01
+// 36055
+10356:Du54_DqBadminton_01
+// 36056
+9099:Nt_General_High
+// 36057
+9100:Nt52_HJC_Rain
+// 36058
+9101:Nt_General_High
+// 36059
+9102:Nt52_General
+// 36060
+9103:Nt55_General
+// 36061
+10377:Nt_YLLBL
 // 41107
 9076:Nt_LCGY
 // 41109
@@ -1367,6 +1508,10 @@
 9091:Nt_General
 9092:Nt_General_High
 9093:Nt_JJC_General
+// 41118
+9096:Nt55_General
+// 41119
+9097:Nt55_General_Inside
 // 43001
 10017:FCdungeon_MistTrial_Bottom
 10018:FCdungeon_MistTrial
@@ -1482,6 +1627,29 @@
 9086:Fd42_LSD_Boss
 // 48017
 9087:Fd_40BossCrab
+// 48070
+10334:Du54_NT_Combat_02_Before
+10335:Du54_NT_Combat_02_After
+// 48071
+10336:Du54_NT_Combat_02_Before
+10337:Du54_NT_Combat_02_After
+// 48072
+10338:Du54_NT_Combat_02_Before
+10339:Du54_NT_Combat_02_After
+// 48073
+10340:Du54_NT_Combat_02_Before
+10341:Du54_NT_Combat_02_After
+// 48074
+10342:Du54_NT_Combat_02_Before
+10343:Du54_NT_Combat_02_After
+// 48081
+6214:Nt58_KHD
+// 48082
+6215:Nt58_KHD
+// 48083
+6216:Nt58_KHD
+// 48084
+6217:Nt58_KHD
 // 51008
 10144:UGCDungeon_CustomLevel_A_01
 10145:UGCDungeon_CustomLevel_A_02
@@ -1492,3 +1660,18 @@
 // 51061
 10320:NT_PreDragon_01
 10321:NT_PreDragon_LatterHalf
+// 51068
+10372:Du56_Saurus1V3_01
+// 51069
+10373:Du56_Saurus1V3_01
+// 51070
+10375:Du56_Saurus1V3_02
+// 51076
+10374:Du56_Saurus1V3_01
+// 51077
+10376:Du56_Saurus1V3_02
+// 51085
+10379:Du56_Sim_Parkour_01
+// 51114
+6401:Du57_AutoChessRogue01_Rainforest
+6402:Du57_AutoChessRogue01_Rainforest

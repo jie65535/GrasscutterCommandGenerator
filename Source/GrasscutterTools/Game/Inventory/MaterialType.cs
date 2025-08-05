@@ -75,6 +75,12 @@ namespace GrasscutterTools.Game.Inventory
         MATERIAL_NATLAN_RACE_ALBUM,
         MATERIAL_NATLAN_RACE_ENVELOPE,
         MATERIAL_MUSIC_GAME_BOOK_THEME,
+        MATERIAL_MIKAWA_FLOWER_INVITE,
+        MATERIAL_QUEST_ALBUM,
+        MATERIAL_HOLIDAY_MEMORY_BOOK,
+        MATERIAL_HOLIDAY_RESORT_INVITE,
+        MATERIAL_PHOTOV6_HAND_BOOK,
+        MATERIAL_WEAPON_SKIN,
     }
 
     internal static class MaterialTypeExtension
@@ -145,6 +151,12 @@ namespace GrasscutterTools.Game.Inventory
             [MaterialType.MATERIAL_NATLAN_RACE_ALBUM] = "砥砺之证",
             [MaterialType.MATERIAL_NATLAN_RACE_ENVELOPE] = "纪念信件",
             [MaterialType.MATERIAL_MUSIC_GAME_BOOK_THEME] = "音乐游戏书主题",
+            [MaterialType.MATERIAL_MIKAWA_FLOWER_INVITE] = "神子邀请函",
+            [MaterialType.MATERIAL_QUEST_ALBUM] = "任务相册",
+            [MaterialType.MATERIAL_HOLIDAY_MEMORY_BOOK] = "悠悠纪念册",
+            [MaterialType.MATERIAL_HOLIDAY_RESORT_INVITE] = "悠悠度假村邀请函",
+            [MaterialType.MATERIAL_PHOTOV6_HAND_BOOK] = "提瓦特影册",
+            [MaterialType.MATERIAL_WEAPON_SKIN] = "武器皮肤",
         };
         private static readonly Dictionary<MaterialType, string> TextMapEN = new Dictionary<MaterialType, string>
         {
@@ -212,6 +224,12 @@ namespace GrasscutterTools.Game.Inventory
             [MaterialType.MATERIAL_NATLAN_RACE_ALBUM] = "Natlan_race_album",
             [MaterialType.MATERIAL_NATLAN_RACE_ENVELOPE] = "Natlan_race_envelope",
             [MaterialType.MATERIAL_MUSIC_GAME_BOOK_THEME] = "Music_game_book_theme",
+            [MaterialType.MATERIAL_MIKAWA_FLOWER_INVITE] = "Mikawa_flower_invite",
+            [MaterialType.MATERIAL_QUEST_ALBUM] = "Quest_album",
+            [MaterialType.MATERIAL_HOLIDAY_MEMORY_BOOK] = "Holiday_memory_book",
+            [MaterialType.MATERIAL_HOLIDAY_RESORT_INVITE] = "Holiday_resort_invite",
+            [MaterialType.MATERIAL_PHOTOV6_HAND_BOOK] = "Photov6_hand_book",
+            [MaterialType.MATERIAL_WEAPON_SKIN] = "Material_weapon_skin",
         };
 
         public static string ToTranslatedString(this MaterialType materialType, string language)

@@ -58,6 +58,13 @@
 183:SumeruBirth
 184:SumeruBirth_NL
 185:CeremonyEvent
+186:ThemeParkSim01
+187:ThemeParkSim02
+188:ThemeParkSim03
+189:ThemeParkSim04
+190:MD_MNCHV2
+191:ThemeParkSim05
+192:AutoChess
 1001:Combine_Lyg
 1002:Combine_Mdc
 1011:Combine_RBQyg
@@ -334,6 +341,10 @@
 1526:NT_DPSDT_P2
 1527:NT_HJJ_P1 (Default)
 1528:NT_HJJ_P2
+1529:Penfa_before (Default)
+1530:Penfa_after
+1531:NT_HSTD_AF
+1550:Penfa_end
 1554:Combine_WarBroken04 (Default)
 1555:Combine_WarBroken01 (Default)
 1556:Combine_WarBroken02 (Default)
@@ -352,12 +363,73 @@
 1580:HdjV5
 1582:Combine_CeremonyEvent
 1585:Combine_SumeruBirth
+1587:Combine_DQ_Mizuki
+1588:DQ_Mizuki
 1589:NT_AQWZ_BF (Default)
 1590:NT_AQWZ_AF
+1594:Combine_DQ_MizukiTree
+1595:DQ_MizukiTree
 1596:Combine_TournamentFes
+1598:Mikawa01
+1599:Mikawa02
+1600:Combine_Mikawa
 1601:TournamentFes
+1606:NT_HSTD_BF (Default)
 1607:NT_AQJNB_BF
 1608:NT_AQJNB_AF
+1610:NTDrillCamp
+1617:Combine_NTDrill (Default)
+1624:Combine_NTDrill
+1625:Mkw_BaseGrass
+1626:BrickBreakerV2
+1627:NtVolcano_Safe (Default)
+1634:NTEQ_Match_01
+1635:Combine_NTEQ_Match_01
+1636:NTEQ_Match_02
+1637:Combine_NTEQ_Match_02
+1638:NtVolcano_SfLt
+1639:NT1_BaseGrass
+1640:NT2_BaseGrass
+1671:NT_RQQHH_BF (Default)
+1672:NT_RQQHH_AF
+1674:NT_XHS_BF (Default)
+1675:NT_XHS_AF
+1678:NT_DJC_AF
+1679:NT_DJC_BF (Default)
+1680:Combine_NTDrillCamp
+1681:NT_BDWT_BF (Default)
+1682:NT_BDWT_AF
+1683:NT_JBS_BF (Default)
+1684:NT_JBS_AF
+1685:Combine_NT_JJH_ERR
+1686:NT_JJH_ERR
+1690:NT2_2_BaseGrass
+1691:NT_MXQ_QD
+1692:NT_BDWT_P1
+1693:NT_BDWT_P2
+1694:NT_CWT_P1 (Default)
+1695:NT_CWT_P2
+1699:Combine_ThemeParkSim
+1700:LLC_LYCamp
+1709:NT_BDWT_ACT (Default)
+1710:Combine_LLC
+1711:BigWorld_0_-1_Grass_LLC_LYCamp
+1714:Bugfix_56
+1715:NT_YNF
+1716:Combine_NT_YNF
+1726:AgentRecon_P3
+1727:AgentRecon_P4
+1729:NT_DJCBrush_BF (Default)
+1730:NT_DJCBrush_AF
+1732:NT_YDQ_BF (Default)
+1733:NT_YDQ_AF
+1734:NT_YGZD_1
+1735:NT_YGZD_2
+1736:NT_YNF_MT
+1737:Combine_NT_YNF_MT
+1762:YNF_MT_BaseGrass
+1766:NT_BDWT_QTE
+1767:AgentRecon_P2
 // 4
 106:SummerTime
 108:SummerTime_High
@@ -717,6 +789,34 @@
 1566:Combine_NT_AbyssWar (Default)
 1571:Combine_NT_AQ_HDD_AF (Default)
 1572:NT_AQ_HDD_AF
+// 101
+1532:NTLC_Dark (Default)
+1533:NTLC_Light
+1534:NTLC_ZSK_Low (Default)
+1535:NTLC_ZSK_High
+1536:NTLC_TTH_BF (Default)
+1537:NTLC_TTH_AF
+1538:NTLC_YST_D (Default)
+1539:NTLC_YST_L
+1540:NTLC_SYLX_BF (Default)
+1541:NTLC_SYLX_AF
+1542:NTLC_YZTDW_BF (Default)
+1543:NTLC_YZTDW_AF
+1544:NTLC_TYGD_BF (Default)
+1545:NTLC_TYGD_AF
+1546:NTLC_JSZ_BF (Default)
+1547:NTLC_JSZ_AF
+1548:NTLC_PSGF_BF (Default)
+1549:NTLC_PSGF_AF
+1573:NTLC_ZSK_End
+1574:NTLC_YSTGC_BF (Default)
+1575:NTLC_YSTGC_AF
+1592:NTLC_BOSS_BF (Default)
+1593:NTLC_BOSS_AF
+1602:NTLC_ZSKTTH_AF
+1603:Volcano_0_0_BaseGrass
+1604:Volcano_-1_0_BaseGrass
+1633:NTLC_YST_Lava
 // 20234
 1560:Nt_XLN_CS (Default)
 // 20235
@@ -735,3 +835,66 @@
 1605:NT_AQWZ_NAQ
 // 36001
 1609:MVM_DEF_03 (Default)
+// 36025
+1611:NTDrillAttack
+1612:Combine_NTDrill
+// 36056
+1613:NTDrillAttack
+1614:Combine_NTDrill
+// 36057
+1615:NTDrillAttack
+1616:Combine_NTDrill
+// 36058
+1618:NTDrillDefend
+1619:Combine_NTDrill
+1641:NTDrillDefend_BaseGrass
+// 36059
+1620:NTDrillDefend
+1621:Combine_NTDrill
+1642:NTDrillDefend_BaseGrass
+// 36060
+1622:NTDrillDefend
+1623:Combine_NTDrill
+1643:NTDrillDefend_BaseGrass
+// 36031
+1628:Level_Doppel01 (Default)
+// 36032
+1629:Level_Doppel02 (Default)
+// 36033
+1630:Level_Doppel03 (Default)
+// 36034
+1631:Level_Doppel04 (Default)
+// 36035
+1632:Level_Doppel05 (Default)
+// 20260
+1676:Fhj_MDAQ_AF
+1677:Combine_Mdc
+// 20262
+1696:MD_SWT_00
+1697:MD_SWT_01 (Default)
+// 20268
+1698:FD_Escoffier_LastDialogue
+// 48081
+1701:NT_BDWT_PT (Default)
+1705:NT_BDWT_AF (Default)
+// 48082
+1702:NT_BDWT_PT (Default)
+1706:NT_BDWT_AF (Default)
+// 48083
+1703:NT_BDWT_PT (Default)
+1707:NT_BDWT_AF (Default)
+// 48084
+1704:NT_BDWT_PT (Default)
+1708:NT_BDWT_AF (Default)
+// 20271
+1717:NT_LQXXFJ_BF (Default)
+1718:NT_LQXXFJ_AF
+// 20272
+1720:Skirk_Boss_01
+1722:Skirk_Boss_02 (Default)
+1725:Skirk_Rest_01
+// 1203
+1728:YLYZ_Auction (Default)
+1774:Combine_YLYZ_Auction
+// 1084
+1778:Combine_YLYZ_Auction

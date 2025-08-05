@@ -51,13 +51,26 @@ namespace GrasscutterTools.Game
             using (var reader = new JsonTextReader(sr))
             {
                 ManualTextMap = new Dictionary<string, string>();
+                string textMapId = null, textMapContextHash = null;
                 while (reader.Read())
                 {
-                    if (reader.TokenType == JsonToken.PropertyName && ((string)reader.Value == "TextMapId" || (string)reader.Value == "textMapId"))
+
+
+                    if (reader.TokenType == JsonToken.PropertyName && ((string)reader.Value == "textMapId" || (string)reader.Value == "TextMapId"))
                     {
-                        var textMapId = reader.ReadAsString();
-                        reader.Read();
-                        ManualTextMap.Add(reader.ReadAsString(), textMapId);
+                        textMapId = reader.ReadAsString();
+                    }
+
+                    if (reader.TokenType == JsonToken.PropertyName && ((string)reader.Value == "textMapContentTextMapHash" || (string)reader.Value == "TextMapContentTextMapHash"))
+                    {
+                        textMapContextHash = reader.ReadAsString();
+                    }
+
+                    if (textMapId != null && textMapContextHash != null)
+                    {
+                        ManualTextMap.Add(textMapContextHash, textMapId);
+                        textMapId = null;
+                        textMapContextHash = null;
                     }
                 }
             }
