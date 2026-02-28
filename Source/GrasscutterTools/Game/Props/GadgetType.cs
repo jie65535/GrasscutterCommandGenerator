@@ -88,7 +88,9 @@ namespace GrasscutterTools.Game.Props
         public static string ToTranslatedString(string gadgetType, string language)
         {
             if (string.IsNullOrEmpty(gadgetType)) gadgetType = "Deprecated";
-            return language.StartsWith("zh") ? TextMapCHS[gadgetType] : gadgetType;
+            if (language.StartsWith("zh") && TextMapCHS.TryGetValue(gadgetType, out var t))
+                return t;
+            return gadgetType;
         }
     }
 }

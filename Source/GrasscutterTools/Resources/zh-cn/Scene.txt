@@ -87,6 +87,8 @@
 1151:IndoorScene_Ndkl_Ino
 1152:IndoorScene_Ndkl_SYR
 1153:IndoorScene_Ndkl_Mmjd
+1154:ChurchLobby
+1155:ChurchSteal02
 1200:IndoorScene_Nt_Msl
 1201:IndoorScene_Nt_XTLLHome
 1202:IndoorScene_Dq_Yushi
@@ -100,26 +102,31 @@
 2005:Homeworld_Exterior_Sumeru
 2006:Homeworld_Exterior_Theater
 2007:Homeworld_Exterior_Natlan
+2008:Homeworld_Exterior_NodKrai
 2201:尘歌壶室内_蒙德
 2202:尘歌壶室内_璃月
 2203:尘歌壶室内_稻妻
 2204:Homeworld_Interior_Xm_Apt_01
 2205:Homeworld_Interior_Fd_Apt_01
 2206:Homeworld_Interior_Nt_Apt_01
+2207:Homeworld_Interior_Ndkl_01
 2400:Hall_World_Facility_Group
 2401:Hall_Private_Witch
 2402:Hall_Private_World_Park
 2411:Hall_Private_Wsqh
 2412:Hall_Private_Drxg
 2413:Hall_Private_Wxyc
+2414:Hall_Private_Ydsd
 2601:Hall_Private_Witch
 2602:Hall_Private_World_Park
 2611:Hall_Private_Wsqh
 2612:Hall_Private_Drxg
 2613:Hall_Private_Wxyc
+2614:Hall_Private_Ydsd
 2811:Hall_Public_Wsqh
 2812:Hall_Public_Drxg
 2813:Hall_Public_Wxyc
+2814:Hall_Public_Ydsd
 20000:关卡玩法测试(test)
 20005:一锤定音的食材
 20006:丘丘人大据点(test)
@@ -366,7 +373,17 @@
 20325:6.3少女花田（test）
 20326:BigWorld_LevelStreaming
 20327:BigWorld_LevelStreaming
+20328:BigWorld_LevelStreaming
+20329:Level_MDEQ_01
+20330:BigWorld_LevelStreaming
+20331:Level_DvalinBoss
+20332:BigWorld_LevelStreaming
+20333:BigWorld_LevelStreaming
+20334:BigWorldCommanderWar_LevelStreaming
 20335:追忆：异端者的黄昏 IV
+20336:6.4法尔伽个人线地城（test）
+20337:(test)？？？
+20347:(test)？？？
 30001:迷雾迷宫(test)
 30002:幽境危战·普通
 30003:幽境危战·进阶
@@ -640,6 +657,12 @@
 33848:爬塔（双路）(test)
 33849:爬塔（双路）(test)
 33850:爬塔（双路）(test)
+33851:爬塔（双路）(test)
+33852:爬塔（双路）(test)
+33853:爬塔（双路）(test)
+33854:爬塔（双路）(test)
+33855:爬塔（双路）(test)
+33856:爬塔（双路）(test)
 34100:爬塔第二档-ZHT第1关（单路）(test)
 34101:爬塔第二档-ZHT第2关（单路）(test)
 34102:爬塔第二档-ZHT第3关（单路）(test)
@@ -1440,6 +1463,7 @@
 41132:Level_Tower_01_Open
 41133:Level_Tower_01_Open
 41134:Level_Tower_01_Open
+41135:Level_Tower_01_Open
 42001:去年双燕来还去：难度3
 42002:解鞍倚枕画仙桥：难度2
 42003:春水蛾眉各分飞：难度5
@@ -1736,6 +1760,12 @@
 48102:(test)5.8狙击活动2
 48103:(test)5.8狙击活动3
 48104:(test)5.8狙击活动4
+48105:Level_Act_Blade01
+48106:Level_Act_Blade01
+48107:Level_Act_Blade01
+48108:Level_Act_Blade01
+48109:Level_Act_Blade01
+48110:Level_Act_Blade01
 49001:角色专精挑战-琴(test)
 49002:角色专精挑战-七七(test)
 49003:角色专精挑战-凝光(test)
@@ -1753,6 +1783,8 @@
 49015:角色专精挑战-纳西妲(test)
 49016:角色专精挑战-阿贝多(test)
 49017:角色专精挑战-可莉(test)
+49018:角色专精挑战-神里绫华(test)
+49019:角色专精挑战-神里绫人(test)
 50002:低温关卡白盒(test)
 50003:战斗性能测试(test)
 50004:电桩电源白盒(test)
@@ -2000,12 +2032,15 @@
 51156:(test)6.2龙pvp关卡02
 51157:(test)6.2龙pvp关卡03
 51158:(test)6.2龙pvp关卡04
+51159:(test)6.4随乐拍 关卡test
 51160:Level_Tower_Moon_01
 51161:Level_Tower_Moon_01
 51162:Level_Tower_Moon_01
 51163:Level_Tower_Moon_01
 51164:Level_Tower_Moon_01
 51165:Level_Tower_Moon_01
+51167:(test)6.4随乐拍 关卡test
+51168:(test)6.4随乐拍 关卡test
 51169:Level_Tower_Moon_01
 51170:6.2雀雀弹球活动地城
 51171:6.2雀雀弹球剧情地城
@@ -2023,7 +2058,28 @@
 51184:Level_LY_Parkour_04
 51185:Level_LY_Parkour_05
 51186:(test)6.3怪物自走棋场地
+51187:(test)6.4飞行射击_赛道1
+51193:(test)6.4飞行射击_赛道3
 51194:TestLevel_WhiteBox_Practice_LJW
+51196:TestLevel_WhiteBox_RC_Ayaka_GQQ
+51197:法尔伽个人线地城（test）
+51198:(test)6.4塔防活动地城_教学关
+51199:(test)6.4飞行射击_赛道4
+51200:6.4拍照找茬活动 关卡1 星落湖
+51201:6.4拍照找茬活动 关卡2 蒙德城
+51202:6.4拍照找茬活动 关卡3 晨曦酒庄
+51203:(test)6.4厨力特饮 关卡1
+51204:(test)6.4厨力特饮 关卡2
+51205:(test)6.4厨力特饮 关卡3
+51206:(test)6.4厨力特饮 关卡4
+51207:(test)6.4厨力特饮 关卡5
+51208:(test)6.4厨力特饮 关卡6
+51212:(test)6.4飞行射击_赛道2
+51218:(test)6.4塔防活动地城1
+51219:(test)6.4塔防活动地城2
+51220:(test)6.4塔防活动地城3
+51221:(test)6.4塔防活动地城4
+51222:(test)6.4塔防活动地城5
 79999:(test)卡牌观战场景
 90001:UGC_LiHui_01
 90002:UGC功耗测试地城
