@@ -90,6 +90,7 @@
 1153:IndoorScene_Ndkl_Mmjd
 1154:ChurchLobby
 1155:ChurchSteal02
+1156:IndoorScene_Ndkl_NK
 1200:IndoorScene_Nt_Msl
 1201:IndoorScene_Nt_XTLLHome
 1202:IndoorScene_Dq_Yushi
@@ -119,6 +120,7 @@
 2413:Hall_Private_Wxyc
 2414:Hall_Private_Ydsd
 2415:Hall_Private_Lqzc
+2416:Hall_Private_Ywhy
 2601:Hall_Private_Witch
 2602:Hall_Private_World_Park
 2611:Hall_Private_Wsqh
@@ -126,11 +128,13 @@
 2613:Hall_Private_Wxyc
 2614:Hall_Private_Ydsd
 2615:Hall_Private_Lqzc
+2616:Hall_Private_Ywhy
 2811:Hall_Public_Wsqh
 2812:Hall_Public_Drxg
 2813:Hall_Public_Wxyc
 2814:Hall_Public_Ydsd
 2815:Hall_Public_Lqzc
+2816:Hall_Public_Ywhy
 20000:关卡玩法测试(test)
 20005:一锤定音的食材
 20006:丘丘人大据点(test)
@@ -390,9 +394,24 @@
 20338:(test)6.5植物大战僵尸测试
 20339:（test）6.5莉奈娅个人线地城01
 20340:（test）6.5莉奈娅个人线地城02
+20341:Level_Weekly_Drdata
+20342:追忆：阴妄一念 IV
+20343:BigWorld_LevelStreaming
+20344:IndoorScene_XM_SilenceTemple
+20345:IndoorScene_Xm_Csd
+20346:Level_WeekDungeon_Apep
 20347:(test)？？？
 20348:（test）6.5蒙德疗养院镜像大世界
+20349:（test）6.6尼可人文巨大化地城
+20350:6.6大活动稻妻镜像大世界
+20351:（test）6.6洛恩个人线暗杀玩法镜像大世界
+20354:（test）6.6尼可强化镜像大世界
+20355:（test）6.6布伦妮强化任务-歌剧院
+20356:6.6洛恩个人线地城（test）
+20360:（test）6.6尼可人文画框地城
 20361:（test）6.5空之神殿沙漏区下层镜像大世界
+20362:Level_Ndcl_Rerir_01
+20369:6.6洛恩强化雪山镜像大世界（test）
 30001:迷雾迷宫(test)
 30002:幽境危战·普通
 30003:幽境危战·进阶
@@ -684,6 +703,12 @@
 33866:爬塔（双路）(test)
 33867:爬塔（双路）(test)
 33868:爬塔（双路）(test)
+33869:爬塔（双路）(test)
+33870:爬塔（双路）(test)
+33871:爬塔（双路）(test)
+33872:爬塔（双路）(test)
+33873:爬塔（双路）(test)
+33874:爬塔（双路）(test)
 34100:爬塔第二档-ZHT第1关（单路）(test)
 34101:爬塔第二档-ZHT第2关（单路）(test)
 34102:爬塔第二档-ZHT第3关（单路）(test)
@@ -1348,6 +1373,10 @@
 40821:祝圣秘境：圣库 II
 40822:祝圣秘境：圣库 III
 40823:祝圣秘境：圣库 IV
+40824:祝圣秘境：花筵 I
+40825:祝圣秘境：花筵 II
+40826:祝圣秘境：花筵 III
+40827:祝圣秘境：花筵 IV
 40900:炼武秘境：流沙之葬 I
 40901:炼武秘境：流沙之葬 II
 40902:炼武秘境：流沙之葬 III
@@ -1493,6 +1522,9 @@
 41134:Level_Tower_01_Open
 41135:Level_Tower_01_Open
 41136:Level_Tower_01_Open
+41137:Level_Tower_01_Open
+41138:Level_Tower_01_Open
+41139:Level_Tower_01_Open
 42001:去年双燕来还去：难度3
 42002:解鞍倚枕画仙桥：难度2
 42003:春水蛾眉各分飞：难度5
@@ -1800,6 +1832,16 @@
 48113:Level_Ndkl_Combat01
 48114:Level_Ndkl_Combat01
 48115:Level_Ndkl_Combat01
+48116:(test)6.6拼刀活动关卡1
+48117:(test)6.6拼刀活动关卡1
+48118:(test)6.6拼刀活动关卡1
+48119:(test)6.6拼刀活动关卡1
+48120:(test)6.6拼刀活动关卡1
+48121:(test)6.6拼刀活动关卡1
+48122:Level_Activity_Tale01
+48123:Level_Activity_Tale01
+48124:Level_Activity_Tale01
+48125:Level_Activity_Tale01
 49001:角色专精挑战-琴(test)
 49002:角色专精挑战-七七(test)
 49003:角色专精挑战-凝光(test)
@@ -1819,6 +1861,8 @@
 49017:角色专精挑战-可莉(test)
 49018:角色专精挑战-神里绫华(test)
 49019:角色专精挑战-神里绫人(test)
+49020:角色专精挑战-流浪者(test)
+49021:角色专精挑战-娜维娅(test)
 50002:低温关卡白盒(test)
 50003:战斗性能测试(test)
 50004:电桩电源白盒(test)
@@ -2132,6 +2176,17 @@
 51226:(test)6.5塔防活动地城关卡3
 51227:(test)6.5塔防活动地城关卡4
 51228:(test)6.5塔防活动地城关卡5
+51229:TestLevel_WhiteBox_InvadedIrminsul_GQQ
+51230:6.6大活动早柚跑酷地城
+51231:6.6大活动-高尔夫-须弥镜像大世界
+51232:6.6大活动-高尔夫-璃月镜像大世界
+51233:6.6大活动-高尔夫-纳塔镜像大世界
+51234:6.6大活动-高尔夫-稻妻镜像大世界
+51235:(test)6.6机械球3期关卡1
+51236:(test)6.6机械球3期关卡1
+51237:(test)6.6机械球3期关卡1
+51238:(test)6.6机械球3期关卡1
+51239:(test)6.6机械球3期关卡1
 79999:(test)卡牌观战场景
 90001:UGC_LiHui_01
 90002:UGC功耗测试地城

@@ -90,6 +90,7 @@
 192:Sightseeing Experience
 193:Treasured Insights
 194:Joint Exhibition Popularity
+195:Pals Synergy
 201:Primogem
 202:Mora
 203:Genesis Crystal
@@ -243,7 +244,10 @@
 4126:Zibai
 4127:Illuga
 4128:Varka
+4129:Lohen
 4130:Linnea
+4131:Nicole
+4132:Prune
 
 // Adsorbate
 2001:Energy Orb (Pyro)
@@ -395,7 +399,10 @@
 5126:Zibai's Stella Fortuna
 5127:Illuga's Stella Fortuna
 5128:Varka's Stella Fortuna
+5129:Lohen's Stella Fortuna
 5130:Linnea's Stella Fortuna
+5131:Nicole's Stella Fortuna
+5132:Prune's Stella Fortuna
 
 // Avatar Talent Material
 6002:Kamisato Ayaka's Stella Fortuna
@@ -511,7 +518,10 @@
 6126:Zibai's Stella Fortuna
 6127:Illuga's Stella Fortuna
 6128:Varka's Stella Fortuna
+6129:Lohen's Stella Fortuna
 6130:Linnea's Stella Fortuna
+6131:Nicole's Stella Fortuna
+6132:Prune's Stella Fortuna
 
 // Cricket
 100121:Cricket (White)
@@ -678,6 +688,7 @@
 121459:Special Sugar Sculpture Box
 121522:Varka's Secret Stash of Cash
 121549:Special Sugar Sculpture Box
+121555:Lohen's "Friendship Fee"
 200008:Moon Lights the Sky, Spring Blossoms High
 
 // Exp Fruit
@@ -1696,6 +1707,15 @@
 108963:Millhaven's Morning Plate
 108964:Delicious Millhaven's Morning Plate
 108965:Iridescence Under the Tree's Shade
+108967:Suspicious Stuffed Tofu with Minced Meat
+108968:Stuffed Tofu with Minced Meat
+108969:Delicious Stuffed Tofu with Minced Meat
+108970:Suspicious Mint Bubblegum
+108971:Mint Bubblegum
+108972:Delicious Mint Bubblegum
+108973:Spinning Special
+108974:Gilded Chest
+108975:Boredom-Busting Bubblegum
 111006:Heatshield Potion
 111007:Desiccant Potion
 111008:Frostshield Potion
@@ -2081,6 +2101,9 @@
 100245:"Of Mountains and Seas"
 100246:Draft Manuscript of "Hyakunin Ikki: The Greatest Battle"
 100247:Fischl Dictionary: Die Neuauflage der Prinzessin
+100248:The Origins of the Experiment
+100249:Notes on the Experimental Subjects
+100250:Scribbled Notes
 100233:Hearty Mushrooms
 100234:Crunchy Carrots
 100235:A Plump Cabbage
@@ -4587,14 +4610,26 @@
 121547:Frostlamp Flower
 121548:Winter Icelea
 121552:Lohen's Work Report
+121556:Lohen's "Friendship Fee"
 121557:Arcadia, the Entombed Capital
 121558:A Corner of Valivija
 121559:Vera's Melancholy: Final Volume (Version II)
 121560:Vera's Melancholy: Final Volume (Version I)
-121561:The Dream of Rhonabwy
+121561:The Dream of Rhonabouillet
 121562:The Song of Ay-Khanoum
-121563:The Canon of Love, Divine Inspiration, and Virtue
+121563:Revelations of Divine Love
 121564:Note
+121565:Photo With the Little Witches and Their Imaginary Friends
+121566:Photo With the Little Witches and Their Imaginary Friends
+121574:Anomalous Tree Marrow I
+121575:Anomalous Tree Marrow II
+121576:Anomalous Tree Marrow III
+121577:[CHS] - (test)6.6周本特殊掉落物4 废弃
+121578:[CHS] - (test)6.6周本特殊掉落物5 废弃
+121579:[CHS] - (test)6.6周本特殊掉落物6 废弃
+121580:Anomalous Tree Marrow
+121581:Dango Milk "Infused With Magic"
+121582:Primal Construct Component
 220068:[CHS] - (test)赤沙石板
 339901:Beginner Player Badge
 339902:Advanced Player Badge
@@ -4968,6 +5003,9 @@
 113084:Remnant of the Dreadwing
 113085:Prismatic Severed Tail
 113086:Plume of the Fallen Watcher
+113087:Counterfeit Resin
+113088:Twisted Withered Branch
+113089:Profaned Sprout
 114001:Tile of Decarabian's Tower
 114002:Debris of Decarabian's City
 114003:Fragment of Decarabian's Epic
@@ -5109,6 +5147,8 @@
 117025:Domain Reliquary: Tier I
 117026:Domain Reliquary: Tier II
 117027:Domain Reliquary: Tier I
+117028:Domain Reliquary: Tier II
+117029:Domain Reliquary: Tier I
 
 // Spice Food
 101715:Fragrant Vegetarian Abalone
@@ -5572,6 +5612,8 @@
 109648:Recipe: Golden-Tempered Jade
 109649:Recipe: Harbor Fish Burger
 109650:Recipe: Millhaven's Morning Plate
+109651:Recipe: Stuffed Tofu with Minced Meat
+109652:Recipe: Mint Bubblegum
 111020:Small Pretty Crystal
 111021:Medium Pretty Crystal
 111022:Big Pretty Crystal
@@ -6292,6 +6334,10 @@
 210276:Mondstadt: Watchtower
 210277:Empty Temple: Overflowing Memories
 210278:Travel Notes: Homecoming
+210279:Nicole: Heavenly Stairway
+210280:Lohen: Benevolence
+210281:Prune: Judgment
+210283:Travel Notes: Gift of Splendor
 
 // Avatar Trace
 215001:Echo: Dandelion Knight
@@ -6313,6 +6359,8 @@
 215017:Echo: Fleeing Sunlight
 215018:Echo: Frostflake Heron
 215019:Echo: Pillar of Fortitude
+215020:Echo: Eons Adrift
+215021:Echo: Helm of the Radiant Rose
 
 // Profile Frame
 216001:Faint Glow
@@ -6647,6 +6695,14 @@
 318178:Sumptuous Feast
 318179:Vanquishing Evil
 318180:Meditative Reading
+318181:Patrol Break
+318182:Masterpiece Complete
+318183:Ready to Sprint
+318184:Interlude Rest
+318185:Harness the Blaze
+318186:Perfect Rating
+318187:Rhythm Moment
+318188:Share With You
 
 // Music Game Book Theme
 319001:Fantastical Marvel
@@ -6671,6 +6727,8 @@
 319020:Elysium and the Moon
 319021:Frostmoon Prayers
 319022:Mysterious White Star
+319023:Eclipsing Flame
+319024:Demon-Slaying Gale
 
 // Profile Picture
 320001:[CHS] - (test)头像道具-测试用
@@ -6814,6 +6872,9 @@
 326133:Dahlia
 326134:Aino
 326135:Consecrated Fanged Beast
+326136:Flins
+326137:Lauma
+326138:Experimental Field Generator
 326500:Undivided Heart
 326501:Cold-Blooded Strike
 326502:Steady Breathing
@@ -6950,6 +7011,9 @@
 326633:You Shall Go Out With Joy
 326634:The Burden of Creative Genius
 326635:Withered Reeds Eclipse the Sun
+326636:Part the Veil of Snow
+326637:"O Lips, Weave Me Songs and Psalms"
+326638:Gravity Field
 327000:Magic Guide
 327001:Sacrificial Fragments
 327002:Skyward Atlas
@@ -7066,6 +7130,7 @@
 327113:Dyed Tassel
 327114:Snare Hook
 327115:Blubberbeast
+327116:Gladiator's Finale
 328000:Liyue Harbor Wharf
 328001:Knights of Favonius Library
 328002:Jade Chamber
@@ -7147,6 +7212,9 @@
 328078:Lepine-Pauline
 328079:Elemental Transfiguration: Bloom Blessing
 328080:Elemental Transfiguration: Lava Blessing
+328081:Netochka
+328082:Elemental Transfiguration: Rimegrass Blessing
+328083:Elemental Transfiguration: Stormgale Blessing
 329000:Elemental Resonance: Woven Ice
 329001:Elemental Resonance: Shattering Ice
 329002:Elemental Resonance: Woven Waters
@@ -7261,6 +7329,8 @@
 329111:Moonsign: Ascendant Gleam
 329112:Moon and Homeland
 329113:Cleaning Time
+329114:The Other Side of the Frostmoon
+329115:Roulette Special
 334000:Ganyu
 334001:Kaeya
 334002:Chongyun
@@ -7397,6 +7467,9 @@
 334133:Dahlia
 334134:Aino
 334135:Consecrated Fanged Beast
+334136:Flins
+334137:Lauma
+334138:Experimental Field Generator
 334500:Undivided Heart
 334501:Cold-Blooded Strike
 334502:Steady Breathing
@@ -7533,6 +7606,9 @@
 334633:You Shall Go Out With Joy
 334634:The Burden of Creative Genius
 334635:Withered Reeds Eclipse the Sun
+334636:Part the Veil of Snow
+334637:"O Lips, Weave Me Songs and Psalms"
+334638:Gravity Field
 335000:Magic Guide
 335001:Sacrificial Fragments
 335002:Skyward Atlas
@@ -7649,6 +7725,7 @@
 335113:Dyed Tassel
 335114:Snare Hook
 335115:Blubberbeast
+335116:Gladiator's Finale
 336000:Liyue Harbor Wharf
 336001:Knights of Favonius Library
 336002:Jade Chamber
@@ -7730,6 +7807,9 @@
 336078:Lepine-Pauline
 336079:Elemental Transfiguration: Bloom Blessing
 336080:Elemental Transfiguration: Lava Blessing
+336081:Netochka
+336082:Elemental Transfiguration: Rimegrass Blessing
+336083:Elemental Transfiguration: Stormgale Blessing
 337000:Elemental Resonance: Woven Ice
 337001:Elemental Resonance: Shattering Ice
 337002:Elemental Resonance: Woven Waters
@@ -7844,6 +7924,8 @@
 337111:Moonsign: Ascendant Gleam
 337112:Moon and Homeland
 337113:Cleaning Time
+337114:The Other Side of the Frostmoon
+337115:Roulette Special
 
 // Gcg Card
 330000:Ganyu
@@ -7982,6 +8064,9 @@
 330133:Dahlia
 330134:Aino
 330135:Consecrated Fanged Beast
+330136:Flins
+330137:Lauma
+330138:Experimental Field Generator
 330500:Undivided Heart
 330501:Cold-Blooded Strike
 330502:Steady Breathing
@@ -8118,6 +8203,9 @@
 330633:You Shall Go Out With Joy
 330634:The Burden of Creative Genius
 330635:Withered Reeds Eclipse the Sun
+330636:Part the Veil of Snow
+330637:"O Lips, Weave Me Songs and Psalms"
+330638:Gravity Field
 331000:Magic Guide
 331001:Sacrificial Fragments
 331002:Skyward Atlas
@@ -8234,6 +8322,7 @@
 331113:Dyed Tassel
 331114:Snare Hook
 331115:Blubberbeast
+331116:Gladiator's Finale
 332000:Liyue Harbor Wharf
 332001:Knights of Favonius Library
 332002:Jade Chamber
@@ -8315,6 +8404,9 @@
 332078:Lepine-Pauline
 332079:Elemental Transfiguration: Bloom Blessing
 332080:Elemental Transfiguration: Lava Blessing
+332081:Netochka
+332082:Elemental Transfiguration: Rimegrass Blessing
+332083:Elemental Transfiguration: Stormgale Blessing
 333000:Elemental Resonance: Woven Ice
 333001:Elemental Resonance: Shattering Ice
 333002:Elemental Resonance: Woven Waters
@@ -8429,6 +8521,8 @@
 333111:Moonsign: Ascendant Gleam
 333112:Moon and Homeland
 333113:Cleaning Time
+333114:The Other Side of the Frostmoon
+333115:Roulette Special
 
 // Gcg Card Back
 339000:Origin
@@ -8524,6 +8618,7 @@
 341001:Radiant Phantasm
 341002:Radiant Phantasm: Sublimation
 341801:Phantasmal Gift: Star Omen
+341802:Super Awesome Magic Key
 341901:Unbreakable: Durandarte
 
 // Furniture Suite Formula
@@ -9937,6 +10032,7 @@
 393228:"As Rainfall Cascades"
 380480:"Shimmering Luster"
 380481:City Street Lamp: "Low Lanternlight"
+394837:"Miniature Stonecraft"
 
 // Furniture
 369101:Jade-Eyed Cat
@@ -10061,6 +10157,9 @@
 368211:Illuga
 368212:Varka
 368213:Linnea
+368214:Lohen
+368215:Nicole
+368216:Prune
 360101:Timber Wall With Jade Eaves
 360102:Dark Wood Arch Wall
 360201:Traditional Cedar Flooring
@@ -12278,6 +12377,12 @@
 373228:"As Rainfall Cascades"
 360480:"Shimmering Luster"
 360481:City Street Lamp: "Low Lanternlight"
+374832:Imaginary Friend: Gena
+374833:Imaginary Friend: Dodoco
+374834:Imaginary Friend: Descartes
+374835:Imaginary Friend: Yuegui
+374836:Imaginary Friend: Tuantuan
+374837:"Miniature Stonecraft"
 360001:Wall 1
 360002:Wall 2
 360003:Floor 1

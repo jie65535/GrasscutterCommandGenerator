@@ -90,6 +90,7 @@
 1153:IndoorScene_Ndkl_Mmjd
 1154:ChurchLobby
 1155:ChurchSteal02
+1156:IndoorScene_Ndkl_NK
 1200:IndoorScene_Nt_Msl
 1201:IndoorScene_Nt_XTLLHome
 1202:IndoorScene_Dq_Yushi
@@ -119,6 +120,7 @@
 2413:Hall_Private_Wxyc
 2414:Hall_Private_Ydsd
 2415:Hall_Private_Lqzc
+2416:Hall_Private_Ywhy
 2601:Hall_Private_Witch
 2602:Hall_Private_World_Park
 2611:Hall_Private_Wsqh
@@ -126,11 +128,13 @@
 2613:Hall_Private_Wxyc
 2614:Hall_Private_Ydsd
 2615:Hall_Private_Lqzc
+2616:Hall_Private_Ywhy
 2811:Hall_Public_Wsqh
 2812:Hall_Public_Drxg
 2813:Hall_Public_Wxyc
 2814:Hall_Public_Ydsd
 2815:Hall_Public_Lqzc
+2816:Hall_Public_Ywhy
 20000:關卡玩法測試
 20005:一錘定音的食材
 20006:丘丘人大據點
@@ -390,9 +394,24 @@
 20338:[CHS] - (test)6.5植物大战僵尸测试
 20339:[CHS] - （test）6.5莉奈娅个人线地城01
 20340:[CHS] - （test）6.5莉奈娅个人线地城02
+20341:Level_Weekly_Drdata
+20342:追憶：陰妄一念 IV
+20343:BigWorld_LevelStreaming
+20344:IndoorScene_XM_SilenceTemple
+20345:IndoorScene_Xm_Csd
+20346:Level_WeekDungeon_Apep
 20347:[CHS] - (test)？？？
 20348:[CHS] - （test）6.5蒙德疗养院镜像大世界
+20349:[CHS] - （test）6.6尼可人文巨大化地城
+20350:6.6大活動稻妻映象大世界
+20351:[CHS] - （test）6.6洛恩个人线暗杀玩法镜像大世界
+20354:[CHS] - （test）6.6尼可强化镜像大世界
+20355:[CHS] - （test）6.6布伦妮强化任务-歌剧院
+20356:[CHS] - 6.6洛恩个人线地城（test）
+20360:[CHS] - （test）6.6尼可人文画框地城
 20361:[CHS] - （test）6.5空之神殿沙漏区下层镜像大世界
+20362:Level_Ndcl_Rerir_01
+20369:[CHS] - 6.6洛恩强化雪山镜像大世界（test）
 30001:迷霧迷宮
 30002:幽境危戰·普通
 30003:幽境危戰·進階
@@ -684,6 +703,12 @@
 33866:[CHS] - 爬塔（双路）(test)
 33867:[CHS] - 爬塔（双路）(test)
 33868:[CHS] - 爬塔（双路）(test)
+33869:[CHS] - 爬塔（双路）(test)
+33870:[CHS] - 爬塔（双路）(test)
+33871:[CHS] - 爬塔（双路）(test)
+33872:[CHS] - 爬塔（双路）(test)
+33873:[CHS] - 爬塔（双路）(test)
+33874:[CHS] - 爬塔（双路）(test)
 34100:[CHS] - 爬塔第二档-ZHT第1关（单路）(test)
 34101:[CHS] - 爬塔第二档-ZHT第2关（单路）(test)
 34102:[CHS] - 爬塔第二档-ZHT第3关（单路）(test)
@@ -1348,6 +1373,10 @@
 40821:祝聖秘境：聖庫 II
 40822:祝聖秘境：聖庫 III
 40823:祝聖秘境：聖庫 IV
+40824:祝聖秘境：花筵 I
+40825:祝聖秘境：花筵 II
+40826:祝聖秘境：花筵 III
+40827:祝聖秘境：花筵 IV
 40900:煉武秘境：流沙之葬 I
 40901:煉武秘境：流沙之葬 II
 40902:煉武秘境：流沙之葬 III
@@ -1493,6 +1522,9 @@
 41134:Level_Tower_01_Open
 41135:Level_Tower_01_Open
 41136:Level_Tower_01_Open
+41137:Level_Tower_01_Open
+41138:Level_Tower_01_Open
+41139:Level_Tower_01_Open
 42001:去年雙燕來還去：難度3
 42002:解鞍倚枕畫仙橋：難度2
 42003:春水蛾眉各分飛：難度5
@@ -1800,6 +1832,16 @@
 48113:Level_Ndkl_Combat01
 48114:Level_Ndkl_Combat01
 48115:Level_Ndkl_Combat01
+48116:[CHS] - (test)6.6拼刀活动关卡1
+48117:[CHS] - (test)6.6拼刀活动关卡1
+48118:[CHS] - (test)6.6拼刀活动关卡1
+48119:[CHS] - (test)6.6拼刀活动关卡1
+48120:[CHS] - (test)6.6拼刀活动关卡1
+48121:[CHS] - (test)6.6拼刀活动关卡1
+48122:Level_Activity_Tale01
+48123:Level_Activity_Tale01
+48124:Level_Activity_Tale01
+48125:Level_Activity_Tale01
 49001:[CHS] - 角色专精挑战-琴(test)
 49002:[CHS] - 角色专精挑战-七七(test)
 49003:[CHS] - 角色专精挑战-凝光(test)
@@ -1819,6 +1861,8 @@
 49017:[CHS] - 角色专精挑战-可莉(test)
 49018:[CHS] - 角色专精挑战-神里绫华(test)
 49019:[CHS] - 角色专精挑战-神里绫人(test)
+49020:[CHS] - 角色专精挑战-流浪者(test)
+49021:[CHS] - 角色专精挑战-娜维娅(test)
 50002:低溫關卡白盒
 50003:戰鬥性能測試
 50004:電樁電源白盒
@@ -2132,6 +2176,17 @@
 51226:[CHS] - (test)6.5塔防活动地城关卡3
 51227:[CHS] - (test)6.5塔防活动地城关卡4
 51228:[CHS] - (test)6.5塔防活动地城关卡5
+51229:TestLevel_WhiteBox_InvadedIrminsul_GQQ
+51230:6.6大活動早柚跑酷地城
+51231:6.6大活動-高爾夫-須彌映象大世界
+51232:6.6大活動-高爾夫-璃月映象大世界
+51233:6.6大活動-高爾夫-納塔映象大世界
+51234:6.6大活動-高爾夫-稻妻映象大世界
+51235:[CHS] - (test)6.6机械球3期关卡1
+51236:[CHS] - (test)6.6机械球3期关卡1
+51237:[CHS] - (test)6.6机械球3期关卡1
+51238:[CHS] - (test)6.6机械球3期关卡1
+51239:[CHS] - (test)6.6机械球3期关卡1
 79999:[CHS] - (test)卡牌观战场景
 90001:UGC_LiHui_01
 90002:UGC消耗功率測試地城
