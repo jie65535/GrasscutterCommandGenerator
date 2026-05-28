@@ -155,6 +155,12 @@ namespace GrasscutterTools.Pages
 
                 TextMapData ??= new TextMapData(TxtGcResRoot.Text);
 
+                // 确保使用中文UI文化加载GameData，防止ConvertResources留下的ru-ru状态
+                var savedCulture = System.Threading.Thread.CurrentThread.CurrentUICulture;
+                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("zh-cn");
+                GameData.LoadResources();
+                System.Threading.Thread.CurrentThread.CurrentUICulture = savedCulture;
+
                 UpdateActivityForLanguage(activityItems, "zh-cn");
                 UpdateActivityForLanguage(activityItems, "zh-tw");
                 UpdateActivityForLanguage(activityItems, "en-us");
@@ -180,8 +186,15 @@ namespace GrasscutterTools.Pages
             var processedIds = new HashSet<int>();
 
             // 保持原有的分组结构（从 GameData.Activity 读取），保留人工整理的内容
+            // 旧的 // New 分组跳过，统一在末尾合并输出
             foreach (var group in GameData.Activity)
             {
+                if (group.Key == "New")
+                {
+                    foreach (var id in group.Value.Ids)
+                        processedIds.Add(id);
+                    continue;
+                }
                 buffer.Append("// ").AppendLine(group.Key);
                 foreach (var id in group.Value.Ids)
                 {
@@ -195,14 +208,23 @@ namespace GrasscutterTools.Pages
                 }
             }
 
-            // 添加 JSON 中存在但旧文件中不存在的新活动
-            var newActivities = activityItems.Where(item => !processedIds.Contains(item.ActivityId)).OrderBy(item => item.ActivityId);
-            if (newActivities.Any())
+            // 合并旧的 // New 和 JSON 中新增的活动
+            var newIds = activityItems
+                .Where(item => !processedIds.Contains(item.ActivityId))
+                .Select(item => item.ActivityId)
+                .Concat(GameData.Activity.TryGetValue("New", out var oldNewGroup)
+                    ? oldNewGroup.Ids : Enumerable.Empty<int>())
+                .Distinct()
+                .OrderBy(id => id)
+                .ToList();
+            if (newIds.Count > 0)
             {
                 buffer.AppendLine("// New");
-                foreach (var item in newActivities)
+                foreach (var id in newIds)
                 {
-                    buffer.Append(item.ActivityId).Append(':').AppendLine(activityMap[item.ActivityId]);
+                    var name = activityMap.TryGetValue(id, out var title) ? title :
+                        GameData.Activity.TryGetValue("New", out var ng) && ng[id] != ItemMap.EmptyName ? ng[id] : title;
+                    buffer.Append(id).Append(':').AppendLine(name);
                 }
             }
 
