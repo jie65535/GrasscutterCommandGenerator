@@ -61,6 +61,10 @@ namespace GrasscutterTools.Game.Data
 
         public Dictionary<int, ReliquaryData> ReliquaryData { get; set; }
 
+        public List<ReliquarySetData> ReliquarySetData { get; set; }
+
+        public List<EquipAffixData> EquipAffixData { get; set; }
+
         public Dictionary<int, SceneData> SceneData { get; set; }
 
         public List<SceneTagData> SceneTagData { get; set; }
@@ -199,6 +203,25 @@ namespace GrasscutterTools.Game.Data
                         Path.Combine(dir, "Artifact.txt"),
                         ReliquaryData.Values.OrderBy(it => it.Id).Select(it => $"{it.Id}:{TextMapData.GetText(it.NameTextMapHash.ToString())}"),
                         Encoding.UTF8);
+
+                    // ArtifactCat (套装)
+                    var affixNameMap = EquipAffixData
+                        .Where(a => a.Level == 0 && a.NameTextMapHash != 0)
+                        .ToDictionary(a => a.Id, a => a.NameTextMapHash);
+                    sb.Clear();
+                    foreach (var set in ReliquarySetData.Where(s => s.ContainsList != null && s.ContainsList.Count > 0))
+                    {
+                        var derivedId = set.ContainsList[0] / 1000;
+                        string name = null;
+                        if (set.EquipAffixId != 0 && affixNameMap.TryGetValue(set.EquipAffixId, out var nameHash))
+                            name = TextMapData.GetText(nameHash.ToString());
+                        if (name == null || name.StartsWith("[N/A]"))
+                            name = GameData.ArtifactCats[derivedId];
+                        if (name == ItemMap.EmptyName)
+                            continue;
+                        sb.AppendFormat("{0}:{1}", derivedId, name).AppendLine();
+                    }
+                    File.WriteAllText(Path.Combine(dir, "ArtifactCat.txt"), sb.ToString(), Encoding.UTF8);
 
                     #endregion Artifact
 

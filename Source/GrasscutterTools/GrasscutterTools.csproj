@@ -162,6 +162,8 @@
     <Compile Include="Game\Data\Excels\MainQuestData.cs" />
     <Compile Include="Game\Data\Excels\QuestData.cs" />
     <Compile Include="Game\Data\Excels\ReliquaryData.cs" />
+    <Compile Include="Game\Data\Excels\ReliquarySetData.cs" />
+    <Compile Include="Game\Data\Excels\EquipAffixData.cs" />
     <Compile Include="Game\Data\Excels\MonsterData.cs" />
     <Compile Include="Game\Data\Excels\SceneData.cs" />
     <Compile Include="Game\Data\Excels\SceneTagData.cs" />
