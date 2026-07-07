@@ -91,6 +91,7 @@
 193:Treasured Insights
 194:Joint Exhibition Popularity
 195:Pals Synergy
+196:Venue Popularity
 201:Primogem
 202:Mora
 203:Genesis Crystal
@@ -248,6 +249,7 @@
 4130:Linnea
 4131:Nicole
 4132:Prune
+4133:Sandrone
 
 // Adsorbate
 2001:Energy Orb (Pyro)
@@ -403,6 +405,7 @@
 5130:Linnea's Stella Fortuna
 5131:Nicole's Stella Fortuna
 5132:Prune's Stella Fortuna
+5133:Sandrone's Stella Fortuna
 
 // Avatar Talent Material
 6002:Kamisato Ayaka's Stella Fortuna
@@ -522,6 +525,7 @@
 6130:Linnea's Stella Fortuna
 6131:Nicole's Stella Fortuna
 6132:Prune's Stella Fortuna
+6133:Sandrone's Stella Fortuna
 
 // Cricket
 100121:Cricket (White)
@@ -1045,6 +1049,8 @@
 108956:Golden-Tempered Jade
 108957:Delicious Golden-Tempered Jade
 108966:Sugar Sculpture: Linnea
+108983:Tea Party Prelude: Herbal Tea
+108984:Tea Party Prelude: Artful Latte
 121374:Apple Cider
 
 // Food
@@ -1716,6 +1722,13 @@
 108973:Spinning Special
 108974:Gilded Chest
 108975:Boredom-Busting Bubblegum
+108976:Tea Party Polyphony
+108977:Suspicious Birch-Steamed Pork Ribs
+108978:Birch-Steamed Pork Ribs
+108979:Delicious Birch-Steamed Pork Ribs
+108980:Suspicious Meat-Filled Rye Bun
+108981:Meat-Filled Rye Bun
+108982:Delicious Meat-Filled Rye Bun
 111006:Heatshield Potion
 111007:Desiccant Potion
 111008:Frostshield Potion
@@ -1882,6 +1895,7 @@
 101265:Midsommar Berry
 101268:Winter Icelea
 101269:Pine Amber
+101270:Teardrop of the Moon
 101271:Windrest Flower
 101272:Etherwing Moth
 101401:Fabric
@@ -4590,13 +4604,16 @@
 121515:Ancient Handwriting
 121516:Ancient Handwriting
 121517:Ancient Handwriting
+121518:Secret Source: Ancient Moon's Fount
 121519:A Letter Carried by the Wind
 121520:Varka's Invitation Ticket
 121521:Varka's Invitation Ticket
 121523:Varka's Secret Stash of Cash
+121524:Paimon's Notes
 121525:"On Fungi Communities" Draft Manuscript
 121526:Letter From Yae Publishing House
 121527:Letter From The Akademiya
+121534:[N/A] 3683200356
 121535:Spirit Envoy Championship Champion Medal
 121536:Special Perfume: Wind's Breath
 121537:Reassembled Note
@@ -4630,6 +4647,13 @@
 121580:Anomalous Tree Marrow
 121581:Dango Milk "Infused With Magic"
 121582:Primal Construct Component
+121583:Witness of the Moon
+121588:Lost Flower of Ancient Times
+121595:[CHS] - test古月力频谱分析仪
+121606:"Family Portrait" by Mamere
+121609:Alain Guillotin's Epitaph
+121625:Moongazer's Engraving (I)
+121626:Moongazer's Engraving (II)
 220068:[CHS] - (test)赤沙石板
 339901:Beginner Player Badge
 339902:Advanced Player Badge
@@ -4918,6 +4942,9 @@
 112140:Faded Flaming Hilt
 112141:Fractured Flaming Hilt
 112142:Jeweled Flaming Hilt
+112143:Fractured Lunar Iron
+112144:Depleted Lunar Iron
+112145:Unblemished Lunar Iron
 113001:Hurricane Seed
 113002:Lightning Prism
 113003:Dvalin's Plume
@@ -5272,6 +5299,9 @@
 121532:Companion: Exclusive
 121533:Companion: Shared
 
+// Marionette Tea Time Invite
+121596:Sandrone's Tea Party Invitation Letter
+
 // Consume
 210:Original Essence (Invalidated)
 211:Original Resin (Invalidated)
@@ -5327,6 +5357,8 @@
 121452:Irismoon Seal
 121601:Ancient Mondstadt Royal Seal
 121602:Segment-Domain Control Module: Zero Particle
+121603:Frost Moon Seal
+121604:Frost Moon Seal
 106000:Test Stamina Growth Item
 106001:Test Temporary stamina Growth Item
 107002:Elemental Dust
@@ -5343,6 +5375,7 @@
 107027:Natlan Shrine of Depths Key
 107029:Jubilant Feather
 107031:Borderland Shrine of Depths Key
+107032:Frost Moon Shrine of Depths Key
 107033:Mnemonic Cluster
 107034:Memory Factor
 109000:Recipe Item
@@ -5614,6 +5647,8 @@
 109650:Recipe: Millhaven's Morning Plate
 109651:Recipe: Stuffed Tofu with Minced Meat
 109652:Recipe: Mint Bubblegum
+109653:Recipe: Birch-Steamed Pork Ribs
+109654:Recipe: Meat-Filled Rye Bun
 111020:Small Pretty Crystal
 111021:Medium Pretty Crystal
 111022:Big Pretty Crystal
@@ -5980,6 +6015,12 @@
 141282:Radiant Spincrystal 180 - 
 141283:Radiant Spincrystal 181 - 
 141284:Radiant Spincrystal 182 - 
+141285:Radiant Spincrystal 183 - 
+141286:Radiant Spincrystal 184 - 
+141287:Radiant Spincrystal 185 - 
+141288:Radiant Spincrystal 186 - 
+141289:Radiant Spincrystal 187 - 
+141290:Radiant Spincrystal 188 - 
 
 // Sea Lamp
 200004:Xiao Lantern
@@ -6338,6 +6379,9 @@
 210280:Lohen: Benevolence
 210281:Prune: Judgment
 210283:Travel Notes: Gift of Splendor
+210284:Sandrone: Tea Break
+210285:Nod-Krai: Moonbright
+210286:Travel Notes: Sunny Summer
 
 // Avatar Trace
 215001:Echo: Dandelion Knight
@@ -6495,6 +6539,8 @@
 220129:Harmonic Keys
 220130:Segment-Domain Treasure Compass
 220131:Linnea's Naturalist Archive
+220132:Sandrone's Portable Tea Table
+220134:Witch's Revelation Case
 
 // Aranara
 220055:Aranyaka
@@ -6703,6 +6749,14 @@
 318186:Perfect Rating
 318187:Rhythm Moment
 318188:Share With You
+318189:Healing Treats
+318190:Relaxed Readiness
+318191:Graceful Dance
+318192:Commanding Stance
+318193:Gentle Elegance
+318194:Poised to Strike
+318195:Share With You
+318196:Majestic Bearing
 
 // Music Game Book Theme
 319001:Fantastical Marvel
@@ -6729,6 +6783,7 @@
 319022:Mysterious White Star
 319023:Eclipsing Flame
 319024:Demon-Slaying Gale
+319025:Dovefeather Moondew
 
 // Profile Picture
 320001:[CHS] - (test)头像道具-测试用
@@ -6875,6 +6930,9 @@
 326136:Flins
 326137:Lauma
 326138:Experimental Field Generator
+326139:Nefer
+326140:Wayward Hermetic Spiritspeaker
+326141:Black Serpent Knight: Windcutter
 326500:Undivided Heart
 326501:Cold-Blooded Strike
 326502:Steady Breathing
@@ -7014,6 +7072,9 @@
 326636:Part the Veil of Snow
 326637:"O Lips, Weave Me Songs and Psalms"
 326638:Gravity Field
+326639:Victory Flows from the Turning of Tides
+326640:Flow of Forms
+326641:"Once, the Lone Wind That Kept the Dark Calamity at Bay..."
 327000:Magic Guide
 327001:Sacrificial Fragments
 327002:Skyward Atlas
@@ -7215,6 +7276,9 @@
 328081:Netochka
 328082:Elemental Transfiguration: Rimegrass Blessing
 328083:Elemental Transfiguration: Stormgale Blessing
+328084:Nightmare Omen
+328085:Elemental Transfiguration: Aquabreeze Blessing
+328086:Elemental Transfiguration: Thunderbloom Blessing
 329000:Elemental Resonance: Woven Ice
 329001:Elemental Resonance: Shattering Ice
 329002:Elemental Resonance: Woven Waters
@@ -7331,6 +7395,9 @@
 329113:Cleaning Time
 329114:The Other Side of the Frostmoon
 329115:Roulette Special
+329116:Lil' Fungi's Fun-Tastic Fiesta
+329117:The Power of Research
+329118:Lakkaberry Pie
 334000:Ganyu
 334001:Kaeya
 334002:Chongyun
@@ -7470,6 +7537,9 @@
 334136:Flins
 334137:Lauma
 334138:Experimental Field Generator
+334139:Nefer
+334140:Wayward Hermetic Spiritspeaker
+334141:Black Serpent Knight: Windcutter
 334500:Undivided Heart
 334501:Cold-Blooded Strike
 334502:Steady Breathing
@@ -7609,6 +7679,9 @@
 334636:Part the Veil of Snow
 334637:"O Lips, Weave Me Songs and Psalms"
 334638:Gravity Field
+334639:Victory Flows from the Turning of Tides
+334640:Flow of Forms
+334641:"Once, the Lone Wind That Kept the Dark Calamity at Bay..."
 335000:Magic Guide
 335001:Sacrificial Fragments
 335002:Skyward Atlas
@@ -7810,6 +7883,9 @@
 336081:Netochka
 336082:Elemental Transfiguration: Rimegrass Blessing
 336083:Elemental Transfiguration: Stormgale Blessing
+336084:Nightmare Omen
+336085:Elemental Transfiguration: Aquabreeze Blessing
+336086:Elemental Transfiguration: Thunderbloom Blessing
 337000:Elemental Resonance: Woven Ice
 337001:Elemental Resonance: Shattering Ice
 337002:Elemental Resonance: Woven Waters
@@ -7926,6 +8002,9 @@
 337113:Cleaning Time
 337114:The Other Side of the Frostmoon
 337115:Roulette Special
+337116:Lil' Fungi's Fun-Tastic Fiesta
+337117:The Power of Research
+337118:Lakkaberry Pie
 
 // Gcg Card
 330000:Ganyu
@@ -8067,6 +8146,9 @@
 330136:Flins
 330137:Lauma
 330138:Experimental Field Generator
+330139:Nefer
+330140:Wayward Hermetic Spiritspeaker
+330141:Black Serpent Knight: Windcutter
 330500:Undivided Heart
 330501:Cold-Blooded Strike
 330502:Steady Breathing
@@ -8206,6 +8288,9 @@
 330636:Part the Veil of Snow
 330637:"O Lips, Weave Me Songs and Psalms"
 330638:Gravity Field
+330639:Victory Flows from the Turning of Tides
+330640:Flow of Forms
+330641:"Once, the Lone Wind That Kept the Dark Calamity at Bay..."
 331000:Magic Guide
 331001:Sacrificial Fragments
 331002:Skyward Atlas
@@ -8407,6 +8492,9 @@
 332081:Netochka
 332082:Elemental Transfiguration: Rimegrass Blessing
 332083:Elemental Transfiguration: Stormgale Blessing
+332084:Nightmare Omen
+332085:Elemental Transfiguration: Aquabreeze Blessing
+332086:Elemental Transfiguration: Thunderbloom Blessing
 333000:Elemental Resonance: Woven Ice
 333001:Elemental Resonance: Shattering Ice
 333002:Elemental Resonance: Woven Waters
@@ -8523,6 +8611,9 @@
 333113:Cleaning Time
 333114:The Other Side of the Frostmoon
 333115:Roulette Special
+333116:Lil' Fungi's Fun-Tastic Fiesta
+333117:The Power of Research
+333118:Lakkaberry Pie
 
 // Gcg Card Back
 339000:Origin
@@ -8603,6 +8694,8 @@
 340025:Toward the Distant Horizon
 340026:Melusent Gift
 340027:Rainlit Bamboo Reverie
+340028:Whispers of Stars and Smoke
+340029:Hurlock Variations
 
 // Weapon Skin
 341101:Serpent Devourer
@@ -8724,6 +8817,7 @@
 350102:The Orderly Grid of Secrets
 350103:The Bestest and Warmest Home
 350104:Pre-Battle Respite
+350105:A Tea Party at Leisure
 350106:Wilderness of the Far North
 350107:Bustling Border Town
 350108:Tranquil Prayer Under the Moon
@@ -10033,6 +10127,23 @@
 380480:"Shimmering Luster"
 380481:City Street Lamp: "Low Lanternlight"
 394837:"Miniature Stonecraft"
+383397:Tea Party Cart: Dessert Time
+383416:Tea Party Cup: Refreshing Flavor
+382135:Tea Party Chair: Crimson and Gold
+382324:Tea Party Carpet: Soft to the Touch
+393495:Camp Barrier: Treatment Area
+394655:Nasha Stall: Deep-Rooted Traditions
+393941:Unusable Legacy
+394656:Vessel of the Past
+394657:Large Cargo Crate: Reliable Support
+394658:Medium Cargo Crate: Basic Supplies
+394659:Medium Metal Scrap Barrel
+394660:Signalless Tower
+394842:Infinite Recursion Formula
+380482:Movable Small Spotlight
+380483:Standing Street Lamp: Beacon in the Misty Night
+381348:Tea Party Dining Table: The Perfect Gathering
+394843:Moon Envoy of Silver Radiance
 
 // Furniture
 369101:Jade-Eyed Cat
@@ -10160,6 +10271,7 @@
 368214:Lohen
 368215:Nicole
 368216:Prune
+368217:Sandrone
 360101:Timber Wall With Jade Eaves
 360102:Dark Wood Arch Wall
 360201:Traditional Cedar Flooring
@@ -10532,6 +10644,7 @@
 379053:Azuregaze Crystal-Eye
 379054:Nightgaze Crystal-Eye
 379055:Cerulean Doppeldrake
+379056:Prismatic Bejeweled Unihornfish
 372601:Sub-Space Boulder: Sky Range
 372602:Sub-Space Boulder: Solitude
 372603:Sub-Space Boulder: Seat of Mist
@@ -12383,6 +12496,35 @@
 374835:Imaginary Friend: Yuegui
 374836:Imaginary Friend: Tuantuan
 374837:"Miniature Stonecraft"
+361348:Tea Party Dining Table: The Perfect Gathering
+361349:Tea-Time Respite
+363394:The Rationale Behind the Grenade
+363396:Wingalet Rules of Conduct
+363397:Tea Party Cart: Dessert Time
+363398:Keys of Ingenuity
+363416:Tea Party Cup: Refreshing Flavor
+362135:Tea Party Chair: Crimson and Gold
+362324:Tea Party Carpet: Soft to the Touch
+364521:Memento of Musketeer Pictures' Latest Release
+364522:Memento of Musketeer Pictures' Latest Release
+364523:Banner of the Wingalet
+373604:Ripples in Miniature
+374838:Party Standee: "Shining Gem"
+374839:Party Standee: "Popular Idol"
+374840:Film Poster: A Homecoming
+374841:Film Poster: Great Detective Hurlock
+373495:Camp Barrier: Treatment Area
+374655:Nasha Stall: Deep-Rooted Traditions
+373941:Unusable Legacy
+374656:Vessel of the Past
+374657:Large Cargo Crate: Reliable Support
+374658:Medium Cargo Crate: Basic Supplies
+374659:Medium Metal Scrap Barrel
+374660:Signalless Tower
+374842:Infinite Recursion Formula
+374843:Moon Envoy of Silver Radiance
+360482:Movable Small Spotlight
+360483:Standing Street Lamp: Beacon in the Misty Night
 360001:Wall 1
 360002:Wall 2
 360003:Floor 1

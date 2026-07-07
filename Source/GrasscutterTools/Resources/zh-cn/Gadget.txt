@@ -175,6 +175,8 @@
 40020010:武器掉落加攻击力的球-拾取后加攻击力的球
 40034111:Absorb_Aim_Driver_CrabShield
 40034114:Absorb_Aim_Driver_Octopus
+40034309:Absorb_V6_7_Aim_Driver_CrabShield
+40034313:Absorb_V6_7_Aim_Driver_Octopus
 40035002:ActivityAbility_5_6_Mosasaurus_Attack
 40035102:ActivityAbility_5_6_Drillhead_Attack
 40035200:ActivityAbility_5_6_Flamingo_Attack
@@ -427,6 +429,21 @@
 40034113:Absorb_Echo_Bullet_01
 40034201:Absorb_SprayGun_Bullet
 40034202:Absorb_SprayGun_Click_Bullet
+40034300:ActivityAbility_V6_7_Dive_Avatar_Gadget
+40034301:ActivityAbility_V6_7_Absorb_Bullet
+40034302:Absorb_V6_7_SprayGun_Bullet
+40034303:Absorb_V6_7_SwordFishSlash_Bullet
+40034304:Absorb_V6_7_TrackingMissile_Bullet
+40034307:Absorb_V6_7_CrabShield_Back_Bullet_01
+40034308:Absorb_V6_7_CrabShield_Back_Bullet_02
+40034310:Absorb_V6_7_Echo_Bullet_02
+40034311:Absorb_V6_7_Echo_Bullet_01
+40034312:Absorb_V6_7_Echo_Bullet_01
+40034315:Absorb_V6_7_JellyfishBomb_Hold
+40034316:Activity_CrabShield_WindZone
+40034317:Absorb_V6_7_Echo_Bullet_Super
+40034318:Absorb_V6_7_JellyfishBomb_Little
+40034319:Absorb_V6_7_SwordFishSlash_Bullet_2
 40035000:Natsaurus_Mosasaurus_DashAttack_Bullet
 40035001:Natsaurus_Mosasaurus_DashAttack_Bullet_Activity
 40035100:Natsaurus_Drillhead_BackToWall_Bullet
@@ -516,6 +533,8 @@
 41022013:温迪普攻箭
 41022016:迪奥娜冰属性蓄力箭
 41022017:迪奥娜无属性蓄力箭
+41022019:Diona_NekoShoot_02_New
+41022020:Diona_NekoShoot_01_New
 41022030:Venti_HexenzirkelArrow_Burst_01
 41022031:Venti_HexenzirkelArrow_Burst_02
 41022032:Venti_HexenzirkelArrow_Burst_03
@@ -1074,6 +1093,14 @@
 41130019:Linnea_Partner_BurstEffGadget
 41131001:Nicole_AngelAttack_Klee_Bomb
 41132004:Prune_ElementalArt_Hammer
+41133001:Avatar_Marionette_ExtraAttackBullet_01
+41133002:Avatar_Marionette_ExtraAttackBullet_02
+41133003:Avatar_Marionette_ExtraAttackBullet_01_Notarget
+41133004:Avatar_Marionette_ExtraAttackBullet_02_Notarget
+41133005:Avatar_MarionetteNew_Funnel_Bullet
+41133007:Avatar_MarionetteNew_Funnel_Bullet_Enhanced
+41133008:Avatar_Marionette_ExtraAttackBullet_Loop
+41133010:Avatar_Marionette_ExtraAttackBullet_Loop_HitScene
 42000003:Activity_Pitch_Pot_Throw_Bullet
 42000004:Activity_Pitch_Pot_Throw_Bullet_02
 42000005:BossNarzissenkreuzBattle_PlayerSkill_Bullet_1
@@ -1115,6 +1142,21 @@
 42001038:Slime_Bubble_Bounce_AC_Partner
 42001039:Slime_Bubble_Float_AC_Partner
 42001041:Slime_Grass_Large_Beyd_Seed
+42001050:Slime_Moon_Fire_FireBall
+42001051:Slime_Moon_Water_Bubble
+42001052:Slime_Moon_Water_Bubble_Bounce
+42001053:Slime_Moon_Water_Bubble_Float
+42001055:Slime_Moon_Grass_SeedAtk
+42001056:Slime_Moon_Grass_SeedFloat
+42001057:Slime_Moon_Rock_Stone
+42001058:Slime_Moon_SlimeBullet_Fire
+42001059:Slime_Moon_SlimeBullet_Rock
+42001060:Slime_Moon_SlimeBullet_Grass
+42001061:Slime_Moon_SlimeBullet_Ice
+42001062:Slime_Moon_SlimeBullet_Water
+42001063:Slime_Moon_SlimeBullet_Electric
+42001064:Slime_Moon_SlimeBullet_Wind
+42001065:Slime_Moon_Slime_AbsorbDetect
 42003001:雷莹—电球
 42003003:雷莹—雷盾能量球
 42003004:水莹—水球
@@ -1836,6 +1878,29 @@
 42409061:DragonStatueClawMix_Armcannon_Bullet
 42409062:DragonStatueClawMix_OpenFire_Bullet
 42409063:DragonStatueClawMix_Prison_Laser
+42409071:Monitor_WaterCannon_Bullet_01
+42409072:Monitor_WaterCannon_Bullet_02
+42409073:Monitor_FloatStateWaterBall_Bullet
+42409074:Monitor_BombAttack_BulletPre
+42409075:Monitor_BombAttack_Bullet
+42409076:Monitor_Core_UnderlingPre
+42409077:Monitor_Core_UnderlingEnd
+42409079:Monitor_Dash_Bullet
+42409080:Monitor_Dash_Check_01
+42409081:Monitor_Dash_End
+42409083:Monitor_WaterCannon_Bullet_01_Legend
+42409084:Monitor_WaterCannon_Bullet_02_Legend
+42409085:Monitor_FloatStateWaterBall_Bullet_Legend
+42409086:Monitor_BombAttack_Bullet_Legend
+42409087:Monitor_Dash_Bullet_Legend
+42409088:Monitor_Dash_Check_01_Legend
+42409089:Monitor_MonitorUnderling_Laser
+42409090:Monitor_BombAttack_BulletSingle
+42409091:Monitor_BombAttack_BulletSingle_Legend
+42409092:Monitor_FloatStateWaterBall_Bullet_Near
+42409093:Monitor_FloatStateWaterBall_Bullet_Legend_Near
+42409094:Monitor_GravityArea
+42409095:Monitor_WaterCannon_Bullet_02_Legend_NoTurn
 42410002:Gastrobot_DestroyBullet
 42410003:Gastrobot_RushAtk_FollowBullet
 42410005:Gastrobot_WheelbarrowAtk_FollowBullet
@@ -3361,6 +3426,10 @@
 73059059:Bullet_OverlayMonsters_01
 73059060:Bullet_OverlayMonsters_01
 73059061:SceneObj_Natsaurus_PaintSeelie_NormalAttack_Bullet_1
+73064028:Bullet_NodKrai_Property_Ani_Prop_GravityBomb_01
+73064049:Bullet_NodKrai_Property_Ani_Prop_GravityDash_01
+73064126:Bullet_NodKrai_Property_Ani_Prop_FollowDamage_01
+73064152:Bullet_NodKrai_Property_Ani_Prop_GravityBomb_01
 73065002:SceneObj_Property_Ani_Prop_MagnetPowerBullet_01
 73068013:Bullet_Layla_CannonGuardDrone
 73070021:SceneObj_Area_Pohjola_Property_Ani_Prop_LunarisCutWave_01
@@ -3463,6 +3532,7 @@
 73136031:SceneObj_SwitchColor_ParentBullet_Pneuma_Tri
 73136032:SceneObj_SwitchColor_ParentBullet_Ousia_Tri
 73136033:SceneObj_SwitchColor_PropVision_Bullet
+73137018:SceneObj_Area_NK_Property_Ani_Prop_SearchlightComponent_Bullet_01
 73139002:SceneObj_Ani_Prop_V6_6_GolfBall_01
 73139003:SceneObj_Ani_Prop_V6_6_GolfBall_02
 73139004:SceneObj_Ani_Prop_V6_6_GolfBall_03
@@ -3473,8 +3543,17 @@
 73148004:SceneObj_Level_Common_Property_Ani_Prop_TradeShowShooting_Linnea_Shoot_Bullet_01
 73149004:SceneObj_Level_Common_Property_Ani_Prop_Musket_Bullet_01
 73149006:SceneObj_Level_Common_Property_Ani_Prop_Musket_Bullet_01_NPC
+73150015:SceneObj_Level_Fd_FishingJoyV2_Bullet_01
+73157001:SceneObj_Activity_OneLineShoot_Bullet_01
 73160029:V6_6_MainQuest_TracingEnergyBall_Grass
 73164014:SceneObj_Level_Common_Property_Ani_Prop_IrminsulDocVirusWave_01
+73165014:SceneObj_Activity_AquariumDiving_Catapult_Bullet
+73165015:SceneObj_Activity_AquariumDiving_Catapult_Hook_Bullet
+73165042:SceneObj_Area_Fd_Property_Ani_Prop_AbilityFishCannon_Bullet
+73165043:SceneObj_Activity_Aquarium_AbilityFishCannon_Bullet_Player
+73177036:Bullet_SceneObj_Area_NK_Property_Ani_Prop_CometMoonSpirit_EnemyBullet_01
+73177037:Bullet_SceneObj_Area_NK_Property_Ani_Prop_CometMoonSpirit_EnemyBullet_02
+73177039:SceneObj_Area_NK_Property_Ani_Prop_MoonCoreDefender_Shockwave
 74033002:Quest_Klee_JumpBomb_02
 74039027:SceneObj_Level_Common_Property_Ani_Prop_NRBigCup_03
 77401320:SceneObject_Hallworld_Drxg_Shooting_Snowball_Bullet_01
@@ -3483,6 +3562,8 @@
 77401503:SceneObject_Hallworld_Ydsd_Shooting_ClayPot_Bullet_01
 77401621:SceneObject_Hallworld_Lqzc_Shooting_DragonFire_Bullet_01
 77401721:SceneObject_Hallworld_Ywhy_Shooting_Bullet_01
+77401821:SceneObject_Hallworld_Xrht_Shooting_WaterBall_Bullet_01
+77401822:SceneObject_Hallworld_Xrht_IceCream_Bullet_01
 400335201:Natsaurus_PaintSeelie_NormalAttack_Bullet_1
 400335202:Natsaurus_PaintSeelie_NormalAttack_Bullet_2
 420000009:小动物捕捉器（近）
@@ -3515,6 +3596,7 @@
 420003001:Activity_FishingJoy_Bullet_Middle
 420003002:Activity_FishingJoy_Bullet_Big
 420003003:Activity_FishingJoy_Bullet_Throw
+420003004:Activity_FishingJoy_Bullet_Big_Plus
 420004000:Activity_Natlan_Atk_3_WindZone
 420004001:Activity_Natlan_Def_1_TimePause
 420004002:Activity_5_6_Level_1_WindZone
@@ -3526,6 +3608,9 @@
 40034104:Absorb_CrabShield_Hitbox
 40034106:Absorb_CrabShield_Hitbox_Long
 40034107:Absorb_JellyfishBomb_Short
+40034305:Absorb_V6_7_CrabShield_Hitbox
+40034306:Absorb_V6_7_CrabShield_Hitbox_Long
+40034314:Absorb_V6_7_JellyfishBomb_Short
 40100200:房间测试门
 40100201:房间测试门
 40210006:龙卷风发射器
@@ -3690,6 +3775,7 @@
 41132001:Prune_ElementalBurst_OrderController
 41132002:Prune_ElementalBurst_Bell_FollowAvatar
 41132003:Prune_ElementalBurst_Bell_Attacker
+41133006:Avatar_MarionetteNew_Robot
 42000011:ActivityAbility_MVM_AvatarSkill_Asist_02
 42000012:ActivityAbility_MVM_AvatarSkill_Asist_03
 42000013:Activity_RechargeDisk_Purple_WindZone
@@ -3708,6 +3794,7 @@
 42001025:火球击中后重生刚体
 42001040:SkillObj_Monster_Slime_Fire_02_DummyHitBox
 42001042:Slime_Grass_Large_Beyd_SeedGrow
+42001054:Slime_Moon_Ice_Fog
 42002001:风元素球气流场虚拟体
 42002002:风元素球气流屏障
 42002101:雷元素复活碎片
@@ -4061,6 +4148,8 @@
 42409065:Natsaurus_Drillhead_Normal_01_WQ_Shield
 42409066:Natsaurus_Drillhead_Normal_01_WQ_Shield02
 42409067:DragonStatueClawMix_InitialDirGadget
+42409078:Monitor_Core_Wall
+42409082:Monitor_Core_Wall
 42410001:Gastrobot_InitialPos
 42410004:Gastrobot_JumpAtk_TargetPos
 42411002:Watcher_Primo_UltimateAttack_Gadget
@@ -4319,6 +4408,7 @@
 42626035:Wayob_Shamansaurus_EX_RangeAtk2_PlusLaser
 42626037:Wayob_Thunder_FieldAttack_Control
 42626040:Wayob_Thunder_MagicBall
+42627200:AksinyaBoss_Scene_Gadget
 42628001:Limacidae_State1_TransPortPoint
 42628007:Limacidae_EatAttackCrystle
 42628009:Limacidae_State2Laser_LockPos
@@ -5206,6 +5296,37 @@
 70220249:SceneObj_Area_Ly_Property_Prop_AirWallMapMark_EffHandler
 70220250:SceneObj_Area_Ly_Property_Prop_AirWallMapMark_EffHandler
 70220251:SceneObj_Area_Ly_Property_Prop_AirWallMapMark_EffHandler
+70220252:[N/A] 2509633966
+70220253:[N/A] 1149996406
+70220254:[N/A] 3610900758
+70220255:[N/A] 2496984070
+70220256:[N/A] 2115694998
+70220257:[N/A] 1439818022
+70220258:[N/A] 3123475606
+70220259:[N/A] 3570457782
+70220260:[N/A] 2056737902
+70220261:[N/A] 4205970790
+70220262:[N/A] 1441145318
+70220263:[N/A] 573690030
+70220264:[N/A] 1745733966
+70220265:[N/A] 1568242982
+70220266:[N/A] 1900264694
+70220267:[N/A] 2978138390
+70220268:[N/A] 2162872670
+70220269:[N/A] 475072950
+70220270:[N/A] 1935310310
+70220271:[N/A] 3847578926
+70220272:[N/A] 1165861270
+70220273:[N/A] 1493067174
+70220274:[N/A] 337245598
+70220275:[N/A] 3717047534
+70220276:[N/A] 687567966
+70220277:[N/A] 3126762566
+70220278:[N/A] 2800767070
+70220279:[N/A] 1728598526
+70220280:[N/A] 2662275286
+70220281:[N/A] 2739042470
+70220282:[N/A] 3976370598
 70220649:3.2蕈兽大活动-增幅球
 70230001:符文刻印0
 70230002:符文刻印1
@@ -6634,6 +6755,7 @@
 70291635:喂食
 70291636:[N/A] 4280538726
 70291637:SceneObj_Level_Nt_Property_Ani_Prop_Drillhead_PhlogistonSpike_Breakable_6M_NoDamage
+70291661:SceneObj_Area_Fd_LevelHPBar_01
 70292001:SceneObj_Area_LY_Property_Ani_Prop_ControlPlatformTarget_01
 70292002:SceneObj_CarpJump_Point
 70292010:SceneObj_Candle_Base
@@ -12355,6 +12477,8 @@
 70950233:Element_MoonCrystallize_Water_Bullet
 70950234:Element_MoonCrystallize_Water_Totem_Moon
 70950235:Element_MoonCrystallize_Water_Bullet_MoonMode
+70950236:Element_StarSuperconductor_Field
+70950239:Element_StarSuperconductor_Field_Dungeon
 71000004:岩琥珀
 71000005:射击点-射击点状态1
 71000006:射击点-射击点状态2
@@ -14680,6 +14804,7 @@
 73049007:SceneObj_Area_Common_Property_Ani_Prop_BattleFire_01
 73049008:[N/A] 638137726
 73049009:[N/A] 1227317398
+73050086:[N/A] 3266530798
 73051005:SceneObj_Level_Nt_Property_Ani_Prop_ABCObstacle_01
 73051006:SceneObj_Level_Nt_Property_Ani_Prop_ABCWitheringNode_01
 73051007:SceneObj_Level_Nt_Property_Ani_Prop_ABCProtectedGoods_01
@@ -14857,6 +14982,126 @@
 73063010:SceneObj_Area_Nt_Property_Ani_AgentRecon_Momeny_01_Gadget
 73063011:SceneObj_Area_Nt_Property_Ani_AgentRecon_Momeny_01_Gadget
 73063012:[N/A] 2268393358
+73064001:SceneObj_Area_NodKrai_Property_Ani_Prop_GravityBomb_Absorb_01
+73064002:SceneObj_Area_NodKrai_Property_Ani_Prop_GravityBomb_Absorb_01
+73064009:[N/A] 2987237822
+73064010:SceneObj_Area_NK_Property_Ani_Prop_MoveableEnergyBall_01
+73064011:SceneObj_Area_NK_Property_Ani_Prop_MoveableEnergyBall_02
+73064012:[N/A] 2898065446
+73064013:[N/A] 1466150094
+73064015:[N/A] 3990292622
+73064016:[N/A] 2227563614
+73064017:[N/A] 1100850510
+73064018:[N/A] 3550820790
+73064019:SceneObj_Area_NK_Property_Ani_Prop_Moon_EnergyBallReceiver_01
+73064024:SceneObj_Gear_Gate_NKMoonTemple
+73064025:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_SearchlightComponent_01
+73064026:SceneObj_Area_NK_Property_Ani_Prop_PeittaaBarrier_01
+73064027:SceneObj_Environment_WoodenMaterial_WoodenObject
+73064029:SceneObj_Area_NK_Property_Ani_Prop_PeittaaBarrier_02
+73064030:SceneObj_Area_Moon_Property_Ani_Prop_GravityBomb_ShootingGadget_01
+73064031:SceneObj_Area_NodKrai_Property_Ani_Prop_GravityDash_Repeater_01
+73064032:SceneObj_Area_Nt_Property_Ani_Prop_Common_SyncAnimator
+73064033:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_01
+73064034:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_02
+73064035:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_03
+73064036:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_04
+73064037:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_05
+73064038:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_06
+73064039:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_07
+73064040:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_08
+73064041:SceneObj_Area_NodKrai_Property_Ani_Prop_GravityBomb_HitDetect_01
+73064042:SceneObj_Area_NK_Property_Ani_Prop_DishWasher_ConstantDir_01
+73064043:[N/A] 1449095518
+73064044:SceneObj_Area_NK_Property_Ani_Prop_LoadingCheck_01
+73064045:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_Origin_01
+73064047:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_Origin_03
+73064048:戳破
+73064050:SceneObj_Level_NK_Property_Ani_Prop_MonsterDeathZone_01
+73064051:SceneObj_Level_NK_Property_Ani_Prop_PeittaaVine_01
+73064052:SceneObj_Level_NK_Property_Ani_Prop_PeittaaVine_01
+73064053:SceneObj_Level_NK_Property_Ani_Prop_PeittaaVine_01
+73064054:SceneObj_UnderSea_DynamicWater
+73064055:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_Bomb_01
+73064056:SceneObj_Area_NK_Property_Ani_Prop_CameraDistanceAdjust_01
+73064058:SceneObj_Area_NK_Property_Ani_Prop_MoonKineticChest_01
+73064063:Bullet_NodKrai_Property_Ani_Prop_GiantRoratePlatform_01
+73064064:SceneObj_Area_NK_Property_Ani_Prop_Moon_Ruin_Door_01
+73064065:SceneObj_Area_NK_Property_Ani_Prop_Moon_Ruin_Door_01
+73064066:SceneObj_Area_NK_Property_Ani_Prop_CometMoonSpirit_EnemyBullet_01
+73064067:SceneObj_Level_NK_Property_Ani_Prop_WhiteBox_MoonGolem_02
+73064069:SceneObj_Level_NK_Property_Ani_Prop_PeittaaSIOM_01
+73064070:SceneObj_Area_NodKrai_DataSnake_Starter_01
+73064072:SceneObj_Area_NK_Property_Ani_Prop_EnergyBallLauncher_01
+73064073:V6_7_FairyBook_Common_Emote_Gadget
+73064075:SceneObj_Area_NodKrai_Property_Ani_Prop_PeittaaVent_01
+73064076:SceneObj_Area_NK_Property_Ani_Prop_PeittaaSensor_01
+73064079:SceneObj_Area_NK_Property_Ani_Prop_Moon_Ruin_Door_03
+73064080:[N/A] 2380236814
+73064081:Bullet_NodKrai_Property_Ani_Prop_GravityBomb_02
+73064083:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_09
+73064084:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_10
+73064085:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_11
+73064086:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_12
+73064087:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_13
+73064088:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_14
+73064089:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_15
+73064090:SceneObj_Area_NK_Property_Ani_Prop_CometMoonSpirit_EnemyBullet_02
+73064091:SceneObj_Level_NK_Property_Ani_Prop_PeittaaVine_02
+73064092:SceneObj_Level_NK_Property_Ani_Prop_PeittaaVine_01
+73064093:SceneObj_Level_NK_Property_Ani_Prop_PeittaaVine_01
+73064094:SceneObj_Level_NK_Property_Ani_Prop_PeittaaVine_01
+73064095:SceneObj_Level_NK_Property_Ani_Prop_PeittaaVine_01
+73064096:SceneObj_Area_NK_Property_Ani_Prop_PeittaaBarrier_03
+73064097:SceneObj_Area_NK_Property_Ani_Prop_PeittaaBarrier_04
+73064098:SceneObj_Area_NK_Property_Ani_Prop_PeittaaBarrier_05
+73064100:SceneObj_Area_NK_Property_Ani_Prop_CometMoonSpirit_EnemyBullet_03
+73064101:SceneObj_Area_NK_Property_Ani_Prop_CometMoonSpirit_EnemyBullet_01_02
+73064102:SceneObj_Area_NK_Property_Ani_Prop_CometMoonSpirit_Portal_01
+73064104:[N/A] 3457672478
+73064106:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_18
+73064107:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_19
+73064108:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_20
+73064109:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_21
+73064110:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_22
+73064111:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_23
+73064112:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_24
+73064113:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_25
+73064114:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_26
+73064115:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_27
+73064116:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_28
+73064117:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_29
+73064118:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_30
+73064119:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_31
+73064120:SceneObj_NK_Moon_Physics_Common_PurePhysics_02
+73064121:SceneObj_Area_NK_Property_Ani_Prop_MoonBridge_01
+73064122:SceneObj_Area_NK_Property_Ani_Prop_MoonBridge_02
+73064123:SceneObj_Area_NK_Property_Ani_Prop_MoonBridge_03
+73064124:SceneObj_Area_Nt_Property_Ani_Prop_Common_SyncAnimator
+73064127:SceneObj_NK_Moon_Physics_Common_PurePhysics_02
+73064128:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_33
+73064129:SceneObj_Level_NK_Property_Ani_Prop_PeittaaVine_01
+73064130:SceneObj_Level_NK_Property_Ani_Prop_PeittaaVine_01
+73064131:SceneObj_Level_NK_Property_Ani_Prop_PeittaaVine_01
+73064132:SceneObj_Level_NK_Property_Ani_Prop_PeittaaVine_01
+73064133:SceneObj_Area_NK_Property_Ani_Prop_MoonBridge_04
+73064134:SceneObj_Area_NK_Property_Ani_Prop_MoonBridge_05
+73064135:SceneObj_NK_Moon_Physics_Common_PurePhysics_01
+73064136:SceneObj_NK_Moon_Physics_Common_PurePhysics_01
+73064137:[N/A] 1676457326
+73064138:[N/A] 688525390
+73064139:[N/A] 1825758614
+73064140:[N/A] 1989697574
+73064141:[N/A] 2767569342
+73064142:[N/A] 160732382
+73064143:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_02
+73064144:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_02
+73064145:SceneObj_NK_Moon_Physics_Common_PurePhysics_01
+73064148:SceneObj_Level_Nt_Property_Ani_Prop_Drillhead_UniversalPit_Create_03
+73064149:SceneObj_Area_NK_Property_Ani_PropTerminalCountdown_01
+73064150:SceneObj_Area_NK_Property_Ani_Prop_NordOfferingMoonSea_01
+73064151:SceneObj_Area_Nt_Property_Prop_ShooterLaserLowE_03
+73064153:Bullet_NodKrai_Property_Ani_Prop_GravityBomb_Static_01
 73065003:SceneObj_Property_Ani_Prop_MagnetPowerGenerator_01
 73065004:SceneObj_Property_Ani_Prop_MagnetPowerGenerator_02
 73067002:SceneObj_Area_Nt_Property_Ani_Prop_Chameleon_ArcLight
@@ -16462,6 +16707,108 @@
 73136017:SceneObj_SwitchColor_GadgetMonster_Target
 73136018:SceneObj_SwitchColor_GadgetMonster_PropPoint
 73136022:SceneObj_Level_Property_Ani_Prop_SwitchColor_Player
+73137004:SceneObj_Area_NK_Property_Ani_Prop_PeittaaSprite_03
+73137005:SceneObj_Area_NK_Property_Ani_Prop_PeittaaSprite_04
+73137008:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_TransportComponent_02
+73137009:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_SafetyComponent_12
+73137011:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_InfoDisplayComponent_04
+73137012:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_SafetyComponent_03
+73137013:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_SafetyComponent_20
+73137014:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_Origin_04
+73137015:SceneObj_Area_NK_Property_Ani_Prop_Moon_MoonSpirit_Hat_01
+73137016:SceneObj_Area_NK_Property_Ani_Prop_DoorDragonMoon_01
+73137017:SceneObj_Area_NK_Property_Ani_Prop_PeittaaCurtainDoor_01
+73137019:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_SearchlightComponent_03
+73137020:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_SearchlightComponent_04
+73137021:SceneObj_Area_NK_Property_Ani_Prop_DoorDragonMoon_01
+73137023:SceneObj_Area_NK_Property_Ani_Prop_MoonKineticChest_03
+73137024:[N/A] 2764990470
+73137025:SceneObj_Area_NK_Property_Ani_Prop_FishMoonSpirit_01
+73137027:SceneObj_Area_NK_Property_Ani_Prop_PeittaaCanel_01
+73137028:SceneObj_Area_NK_Property_Ani_Prop_PeittaaCanel_02
+73137030:SceneObj_Area_NK_Property_Ani_Prop_PeittaaSprite_Swim
+73137031:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_SafetyComponent_20_Platform
+73137032:SceneObj_Area_Common_Property_Ani_Prop_InvisibleHitBox_01
+73137033:SceneObj_Area_NK_Property_Ani_Prop_MoveableEnergyBall_FollowMove
+73137034:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_Origin_FollowMove
+73137035:SceneObj_Area_NK_Property_Ani_Prop_FollowMove_01
+73137036:SceneObj_Area_NK_Property_Ani_Prop_FollowMove_01
+73137037:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_08
+73137038:SceneObj_Area_NK_Property_Ani_Prop_EnvPhysics_08
+73137039:SceneObj_Area_NK_Property_Ani_Prop_UnintelligentRobot_Logic_01
+73137040:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_Bomb_OceanCurrent
+73137041:SceneObj_Area_NK_Property_Ani_Prop_MoveableEnergyBall_Frame
+73137042:SceneObj_Area_NK_Property_Ani_Prop_PeittaaSprite_Distance
+73137045:SceneObj_Area_NK_Property_Ani_Prop_PeittaaSprite_Invisible
+73137046:SceneObj_Area_NK_Property_Ani_Prop_FishMoonSpirit_03
+73137048:SceneObj_Area_NK_Property_Ani_Prop_WindZone_01
+73137049:[N/A] 146569446
+73137050:SceneObj_Area_NK_Property_Ani_Prop_PeittaaSprite_FollowMove_Black
+73137051:SceneObj_Area_NK_Property_Ani_Prop_FishMoonSpirit_JellyFish
+73137052:SceneObj_Area_NK_Property_Ani_Prop_FishMoonSpirit_Whale
+73137057:SceneObj_Area_NK_Property_Ani_Prop_EmptyLogicGadget_01
+73137058:SceneObj_Area_NK_Property_Ani_Prop_Boar_01
+73137060:SceneObj_Area_NK_Property_Ani_Prop_PeittaaSprite_FollowMove_Blue
+73137065:阅读
+73137067:SceneObj_Area_NK_Property_Ani_Prop_WitchTime_01
+73137068:SceneObj_Area_NK_Property_Ani_Prop_QTEJump_01
+73138002:Moon_V67_TalkBubble_01
+73138003:Moon_SpaceStation_BreakSimulation_01
+73138005:SceneObj_Area_NK_Property_Ani_Prop_GravitySwap_02
+73138006:SceneObj_Area_NodKrai_Property_Ani_Prop_MoonPlayer_01
+73138007:SceneObj_Area_NodKrai_Property_Ani_Prop_MoonGirl_01
+73138009:SceneObj_Area_NodKrai_Property_Ani_Prop_FlyTogetherGadget_01
+73138011:SceneObj_Area_NodKrai_Property_Ani_Prop_FlyTogetherGadget_01
+73138012:[N/A] 773712246
+73138013:SceneObj_Area_NK_Property_Ani_Prop_MoveableEnergyBall_03
+73138014:SceneObj_Area_NK_Property_Ani_Prop_MoonCoreDefender_01
+73138015:SceneObj_Area_NK_Property_Ani_Prop_MoonHologram_01
+73138016:SceneObj_Area_NK_Property_Ani_Prop_GCurrentLauncher_01
+73138017:SceneObj_Area_NK_Property_Ani_Prop_LargeTurbo_01
+73138020:SceneObj_Area_NK_Property_Ani_Prop_GravitySwap_01
+73138022:SceneObj_Area_NK_Property_Ani_Prop_HangarDoor_01
+73138023:SceneObj_Area_NK_Property_Ani_Prop_DragonRocketDoor_01
+73138025:SceneObj_Peittaa_Property_Ani_Prop_AbyssField_LogicEmpty_01
+73138026:SceneObj_Area_NK_Property_Ani_Prop_MoonCoreDefender_02
+73138027:SceneObj_Area_NK_Property_Ani_Prop_MoonCoreDefender_04
+73138028:SceneObj_Area_NK_Property_Ani_Prop_MoonCoreDefender_05
+73138029:SceneObj_Area_NK_Property_Ani_Prop_EscapeBeacon_01
+73138038:SceneObj_Area_NK_Property_Ani_Prop_SpaceElevatorCabin_01
+73138039:SceneObj_Area_NodKrai_Property_Ani_Prop_RealMoon_MoonSpirit_01
+73138040:SceneObj_Area_NK_Property_Ani_PeittaaPipe_01
+73138042:SceneObj_Area_NK_Property_Ani_Prop_MoonCoreDefender_03
+73138043:SceneObj_Area_NK_Property_Ani_Prop_MoonCoreDefender_06
+73138044:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_LevelScale_01
+73138045:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_LevelScale_01
+73138046:SceneObj_Area_NK_Property_Prop_CometMoonSpirit_Static_01
+73138047:[N/A] 1096129854
+73138048:[N/A] 406045014
+73138049:SceneObj_Area_NK_Property_Ani_Prop_CometMoonSpirit_QTE_01
+73138050:SceneObj_Area_NK_Property_Ani_Prop_CentralMoonSea_01
+73138051:[N/A] 918828486
+73138052:SceneObj_Level_Nk_Property_Ani_Prop_Common_OceanCurrent_01
+73138058:Moon_V67_TalkBubble_02
+73138059:SceneObj_Area_Nt_Property_Ani_Prop_Common_SyncAnimator
+73138060:[N/A] 2999396542
+73138062:一些零食
+73138063:SceneObj_Area_NK_Property_Ani_Prop_NordOfferingMoonStone_01
+73138065:[N/A] 1505424638
+73138071:[N/A] 1004935214
+73138072:[N/A] 3905180950
+73138073:[N/A] 2112514158
+73138074:[N/A] 1999785254
+73138075:[N/A] 2365578518
+73138076:[N/A] 1921035678
+73138077:SceneObj_Area_NodKrai_Property_Ani_Prop_MoonPlayer_02
+73138078:[N/A] 1686232350
+73138079:[N/A] 1944229070
+73138080:[N/A] 3624361030
+73138081:[N/A] 1339417862
+73138082:SceneObj_Area_Moon_Property_Ani_Prop_GravityCurrent_AimGadget_01
+73138084:[N/A] 325592270
+73138085:读取信息
+73138086:[N/A] 3949101286
+73138088:[N/A] 557291870
 73139001:SceneObj_Ani_Prop_V6_6_GolfLauncher_01
 73139006:SceneObj_Activity_Ani_Prop_V6_6_GolfHole_01
 73139007:SceneObj_Ani_Prop_V6_6_GolfLauncher_Test_01
@@ -16598,6 +16945,7 @@
 73149005:SceneObj_Level_Common_Property_MusketChallenge_NPC
 73149007:SceneObj_Level_Common_Property_MusketChallenge_SniperCamera_01
 73149008:SceneObj_Level_Common_Property_MusketChallenge_BombBarrel_01
+73150014:SceneObj_Level_Fd_FishingJoyV2_FishingJoyPlatform_01
 73152001:[N/A] 4229259446
 73152002:[N/A] 107932878
 73152003:[N/A] 2279697918
@@ -16625,6 +16973,16 @@
 73153009:SceneObj_Activity_Common_Property_Ani_Prop_ColorBall_Trampoline_Orange
 73153010:SceneObj_Activity_Common_Property_Ani_Prop_ColorBall_Trampoline_Blue
 73153012:SceneObj_Level_Common_Property_Ani_Prop_ColorBallCam_01
+73157002:SceneObj_Activity_OneLineShoot_Camera_Pivot_01
+73157003:SceneObj_Activity_OneLineShoot_Ring_01
+73157004:SceneObj_Activity_OneLineShoot_Start_Point_Mark_01
+73157005:SceneObj_Activity_OneLineShoot_Start_Point_Operator_01
+73157006:SceneObj_Activity_Common_StageReady_Notify_Handler_01
+73157007:SceneObj_Activity_OneLineShoot_Bullet_01
+73157008:SceneObj_Activity_OneLineShoot_Bullet_01
+73157009:SceneObj_Activity_OneLineShoot_AimingGadget_01
+73157010:[N/A] 90413118
+73157011:SceneObj_Activity_OneLineShoot_GameOperator_01
 73160001:[N/A] 1304852582
 73160002:[N/A] 889288814
 73160003:SceneObj_Area_Xm_Property_Ani_Prop_AruCore_01
@@ -16659,6 +17017,27 @@
 73160034:[N/A] 2819478702
 73160035:[N/A] 1977386230
 73160036:[N/A] 4209830214
+73161001:SceneObj_Level_Common_Property_Ani_Prop_Natsaurus_Dancer
+73161002:SceneObj_Level_Common_Property_Ani_Prop_Natlan_Female_Dancer
+73161003:SceneObj_Level_Common_Property_Ani_Prop_Natlan_Female_Dancer
+73161004:SceneObj_Level_Common_Property_Ani_Prop_Natlan_Female_Dancer
+73161005:SceneObj_Level_Common_Property_Melusine_Land_Dancer
+73161006:SceneObj_Level_Common_Property_Melusine_Land_Dancer
+73161007:SceneObj_Level_Common_Property_Melusine_Land_Dancer
+73161008:SceneObj_Level_Common_Property_Melusine_Land_Dancer
+73161009:SceneObj_Level_Common_Property_Ani_Prop_Natsaurus_Flamingo_Small_Dancer
+73161010:SceneObj_Level_Common_Property_Ani_Prop_PaintSeelie_Dancer
+73161011:SceneObj_Level_Common_Property_Ani_Prop_PaintSeelie_Dancer
+73161012:SceneObj_Level_Common_Property_Ani_Prop_PaintSeelie_Dancer
+73161013:SceneObj_Level_Common_Property_Ani_Prop_PaintSeelie_Dancer
+73161014:SceneObj_Activity_MusicParty_V2_SpotLight01
+73161015:SceneObj_Activity_MusicParty_V2_SpotLight02
+73161016:SceneObj_Activity_MusicParty_V2_SpotLight03
+73161017:SceneObj_Activity_MusicParty_V2_FireWork01
+73161018:SceneObj_Activity_MusicParty_V2_SpotLight01
+73161019:SceneObj_Level_Common_Property_Ani_Prop_Natlan_Female_Dancer
+73161020:[N/A] 1010823254
+73161021:[N/A] 11144550
 73162001:[N/A] 3837634782
 73162002:[N/A] 2182344774
 73162003:[N/A] 3859311662
@@ -16767,6 +17146,200 @@
 73164039:SceneObj_Level_Common_Property_Ani_Prop_PollutionLeyLineBlossom_01_03
 73164040:[N/A] 1855238286
 73164041:SceneObj_Level_Common_Property_Ani_Prop_EnergySparkKiller_01
+73165001:SceneObj_Activity_AquariumUnderWater_EvacuatePoint
+73165002:6.7 水下捕鱼 宝箱Lv1
+73165003:6.7 水下捕鱼 宝箱Lv2
+73165004:6.7 水下捕鱼 宝箱Lv3
+73165005:6.7 水下捕鱼 宝箱Lv4
+73165006:6.7 水下捕鱼 宝箱Lv5
+73165007:6.7 水下捕鱼 Monster鱼 拾取交互Dummy
+73165009:6.7 水下捕鱼 撤离点激活机关
+73165010:SceneObj_Activity_AquariumUnderWater_LootChest_PlayerNearbyTrigger
+73165011:6.7 水下捕鱼 水下发射台
+73165013:6.7 水下捕鱼 掉落物 通用
+73165016:6.7 水下捕鱼 掉落物 鱼
+73165017:6.7 水下捕鱼 关卡收藏品01 齿轮
+73165018:6.7 水下捕鱼 收藏品 钢琴部件01 琴架
+73165019:6.7 水下捕鱼 收藏品 钢琴部件02 琴键
+73165020:6.7 水下捕鱼 收藏品 钢琴部件03 主构
+73165021:6.7 水下捕鱼 收藏品 钢琴部件04 琴凳
+73165022:6.7 水下捕鱼 收藏品 钢琴部件05 盖板
+73165023:6.7 水下捕鱼 关卡收藏品02 机器人制造器
+73165024:6.7 水下捕鱼 关卡收藏品03_PrefabReuse
+73165025:6.7 水下捕鱼 关卡收藏品04
+73165026:6.7 水下捕鱼 关卡收藏品05
+73165027:6.7 水下捕鱼 关卡收藏品06_PrefabReuse
+73165028:6.7 水下捕鱼 关卡收藏品07
+73165029:6.7 水下捕鱼 关卡收藏品08_PrefabReuse
+73165030:6.7 水下捕鱼 关卡收藏品09_PrefabReuse
+73165031:6.7 水下捕鱼 关卡收藏品10_PrefabReuse
+73165032:6.7 水下捕鱼 海露花
+73165033:6.7 水下捕鱼 苍晶螺
+73165034:6.7 水下捕鱼 幽光星星
+73165035:6.7 水下捕鱼 初露之源
+73165036:6.7 水下捕鱼 翠凝晶
+73165037:SceneObj_Activity_AquariumDiving_Piano_01
+73165038:6.7 水下捕鱼 汐藻
+73165041:6.7 水下捕鱼 沉船元素炮
+73165044:SceneObj_Activity_Aquarium_FDBombbarrel_03
+73165047:[N/A] 3493908958
+73167001:[N/A] 3300619294
+73167002:[N/A] 2136015102
+73167003:[N/A] 327337086
+73167004:[N/A] 2280493550
+73167005:[N/A] 1301101766
+73167006:[N/A] 2581637438
+73167007:[N/A] 492765478
+73167008:SceneObj_Indoor_Fd_Build_Xgw_Wall_05
+73167009:SceneObj_Property_Ani_Prop_MentalSpace_Glass_01
+73167010:SceneObj_Property_Ani_Prop_WaterGate_01
+73167011:[N/A] 2220972406
+73167012:[N/A] 2973684854
+73167013:SceneObj_Property_Ani_Fd_Light_FDC_Filmfest_Lightrigged_05
+73167014:[N/A] 901472758
+73167015:[N/A] 717303214
+73167016:[N/A] 2477333750
+73167017:[N/A] 77368326
+73167018:[N/A] 1917045086
+73167019:[N/A] 1553129558
+73167020:[N/A] 668625238
+73167021:[N/A] 2308701214
+73167022:[N/A] 4157693278
+73167023:[N/A] 2319367662
+73167024:SceneObj_Property_Ani_Prop_SXGC_Xiangzi_02
+73167025:[N/A] 3955633446
+73167026:[N/A] 2844127558
+73167027:[N/A] 3820740622
+73167028:[N/A] 3453003790
+73167029:[N/A] 2253373678
+73167030:[N/A] 3889373558
+73167031:[N/A] 1954179414
+73167032:[N/A] 549262518
+73167033:[N/A] 480664782
+73167034:[N/A] 1685253374
+73167035:[N/A] 3844339094
+73167036:[N/A] 1223771518
+73167037:[N/A] 369796102
+73167038:[N/A] 898744422
+73167039:[N/A] 2824784078
+73167040:[N/A] 2478926142
+73167041:[N/A] 1739529230
+73167042:[N/A] 3923428486
+73167043:[N/A] 4080199078
+73167044:[N/A] 3898483886
+73167045:[N/A] 46267582
+73167046:[N/A] 3798792350
+73167047:[N/A] 2676495678
+73167048:[N/A] 708478102
+73167049:[N/A] 532142590
+73167050:[N/A] 1648616838
+73167051:[N/A] 433425838
+73167052:[N/A] 3160850678
+73167053:[N/A] 2676553774
+73167054:[N/A] 3066404886
+73167055:SceneObj_Property_Ani_Prop_DYJHB_04
+73167056:SceneObj_Property_Ani_Prop_DYJHB_04
+73167057:SceneObj_Property_Ani_Prop_DYJHB_04
+73167058:SceneObj_Property_Ani_Prop_DYJHB_04
+73167059:[N/A] 3855621414
+73167060:[N/A] 194109798
+73167061:齿轮堆栈塔
+73167062:阿兰·吉约丹的墓志铭
+73167063:查看木偶的画片
+73167064:查看水仙十字的画片
+73167065:弹奏钢琴
+73167066:[N/A] 3085798742
+73167067:[N/A] 2126534038
+73167068:[N/A] 796113950
+73167069:SceneObj_Property_Ani_Fd_Light_FDC_Filmfest_Lightrigged_04
+73167070:SceneObj_Property_Ani_Fd_Light_FDC_Filmfest_Lightrigged_04
+73167071:SceneObj_Property_Ani_Fd_Light_FDC_Filmfest_Lightrigged_05
+73167072:[N/A] 2424282518
+73167073:[N/A] 2982972702
+73167074:[N/A] 3342847446
+73167075:[N/A] 2576711758
+73167076:SceneObj_Property_Ani_Prop_DYJHB_04
+73167077:[N/A] 1119919366
+73167078:[N/A] 1525457174
+73170001:SceneObj_Activity_Common_Property_Ani_Prop_SnowballLauncher_01
+73170002:SceneObj_Activity_Common_Property_Ani_Prop_SnowBallJumpPannel_01
+73170003:SceneObj_Activity_Common_Property_Ani_Prop_SnowballLauncher_EmptyGadget_01
+73173002:[N/A] 2959335606
+73173003:SceneObj_Area_Ndkl_Property_Ani_Prop_MagicTarot_06
+73173004:SceneObj_Area_Ndkl_Property_Ani_Prop_MagicTarot_06
+73173005:SceneObj_Area_Ndkl_Property_Ani_Prop_MagicTarot_06
+73173006:SceneObj_Area_Ndkl_Property_Ani_Prop_MagicTarot_06
+73173007:SceneObj_Area_Ndkl_Property_Ani_Prop_MagicTarot_06
+73173008:SceneObj_Area_Ndkl_Property_Ani_Prop_MagicTarot_06
+73173009:SceneObj_Area_Ndkl_Property_Ani_Prop_MagicTarot_06
+73177002:SceneObj_Area_Fd_Property_Ani_Prop_TowerOfHanoi_Manager
+73177003:SceneObj_Area_Fd_Property_Ani_Prop_TowerOfHanoi_Model
+73177004:SceneObj_Area_Fd_Property_Ani_Prop_TowerOfHanoi_Tower
+73177005:SceneObj_Area_Fd_Property_Ani_Prop_TowerOfHanoi_Tower
+73177006:SceneObj_Area_Fd_Property_Ani_Prop_TowerOfHanoi_Tower
+73177007:SceneObj_Area_Common_Property_Ani_Prop_Toys_Marionette
+73177009:SceneObj_Area_Fd_Property_Ani_Prop_AquariumDoor
+73177010:[N/A] 260962438
+73177011:[N/A] 3730428078
+73177012:[N/A] 3879355774
+73177013:[N/A] 809134414
+73177014:[N/A] 3400520822
+73177015:[N/A] 1792448678
+73177016:[N/A] 949891278
+73177017:[N/A] 4176707854
+73177018:[N/A] 2151554286
+73177019:[N/A] 1844007182
+73177020:[N/A] 454039934
+73177021:[N/A] 303616206
+73177022:[N/A] 3707088366
+73177023:[N/A] 75294110
+73177024:[N/A] 3870625262
+73177025:[N/A] 3005593790
+73177026:[N/A] 874704926
+73177027:[N/A] 2978484630
+73177028:[N/A] 1031971070
+73177029:[N/A] 136921174
+73177030:[N/A] 638875798
+73177031:[N/A] 2811921622
+73177032:[N/A] 3119417790
+73177033:[N/A] 1882615142
+73177034:[N/A] 301921334
+73177035:[N/A] 1690044526
+73177038:SceneObj_Area_NK_Property_Ani_Prop_PartnerPeittaaSpriteHpBar_01
+73177041:[N/A] 392042822
+73177042:SceneObj_Property_Ani_Prop_CometMoonSpirit_AvatartAnchor
+73177043:SceneObj_Activity_AquariumDiving_Piano_02
+73177044:SceneObj_Activity_AquariumDiving_Piano_02
+73177045:SceneObj_Activity_AquariumDiving_Piano_04
+73177046:[N/A] 1964033214
+73180001:[N/A] 2000058390
+73180002:[N/A] 3397775854
+73180003:[N/A] 2609267854
+73180004:[N/A] 506787150
+73180005:[N/A] 359710750
+73180006:[N/A] 4131897582
+73180007:[N/A] 2654663742
+73180008:[N/A] 1212542166
+73181001:SceneObj_Area_NK_Property_Ani_Prop_FloatFragment_PartOsc_01
+73181002:SceneObj_Area_NK_Property_Ani_Prop_FloatFragment_PartOsc_01
+73181003:SceneObj_Area_NK_Property_Ani_Prop_TowerEnergyCore_Rescaled
+73181004:SceneObj_Area_NK_Property_Ani_Prop_PartnerPeittaaSprite_Disappear
+73181007:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_FollowMonster_FollowMove
+73181008:SceneObj_Area_NK_Property_Ani_Prop_FloatFragment_PartOsc_01
+73181009:SceneObj_Area_NK_Property_Ani_Prop_MoveableEnergyBall_CanAddFrame_FollowMove
+73181011:SceneObj_Area_NK_Property_Ani_Prop_Moon_MoonSpirit_Hat_QuestUse_01
+73181013:[N/A] 919328206
+73181014:[N/A] 3234554126
+73181015:[N/A] 3865109830
+73181016:[N/A] 3340752950
+73181017:[N/A] 507850150
+73181018:[N/A] 3407155678
+73181019:SceneObj_Area_NK_Property_Ani_Prop_FishMoonSpirit_UIInteract_01
+73181020:SceneObj_Area_NK_Property_Ani_Prop_Blackmud
+73181021:[N/A] 3589320726
+73181022:SceneObj_Area_NK_Property_Ani_Prop_FishMoonSpirit_JellyFish_Stand
+73181023:SceneObj_Area_NK_Property_Ani_Prop_WindZone_02
+73181024:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_Bomb_01
 74001001:SceneObj_Area_Nt_Prop_AncientNameCollecter_03
 74001002:[N/A] 3639112446
 74001003:[N/A] 2911007494
@@ -17451,6 +18024,7 @@
 74042037:[N/A] 1878395926
 74042038:[N/A] 2059596278
 74042040:[N/A] 1706833142
+74042041:[N/A] 3495894030
 74043001:[N/A] 2236163238
 77002001:乐高1
 77002002:乐高2
@@ -17943,6 +18517,8 @@
 77103045:「圆圆饼干」
 77103046:「叮铃哐啷收纳屋」
 77103047:霜月圆桌-「柔软天蓝」
+77103048:茶会餐桌-「完美聚会」
+77103049:「暇间茶叙」
 77104001:欧式的火炉-家园物件
 77104002:竖琴-家园物件
 77104003:餐厅招牌-家园物件
@@ -18106,6 +18682,11 @@
 77104161:「安梦蔷薇」
 77104162:「悠闲雷光」
 77104163:「云风芳迹」
+77104164:「榴弹之推理」
+77104166:「维恩歌莱之章」
+77104167:茶会茶杯-「清新风味」
+77104168:茶会餐车-「甜点时间」
+77104169:「律音回响之机巧」
 77105001:唯一一个沙发-家园物件
 77105002:蓝色的欧洲椅子-家园物件
 77105003:骑士团铁椅-家园物件
@@ -18139,6 +18720,7 @@
 77105031:工厂矮凳-「多面工作」
 77105032:「致友人」
 77105033:夏栎木「枕月」靠背椅
+77105034:茶会椅子-「暗红洒金」
 77108001:满是蜡烛的吊灯-家园物件
 77108002:南瓜灯-家园物件
 77108003:发光的烛灯-家园物件
@@ -18269,6 +18851,7 @@
 77111021:室内地毯-「晦夜星章」
 77111022:霜月地毯-「明澄一色」
 77111023:「绒绒小毯」
+77111024:茶会地毯-「柔软质感」
 77112001:圆形的木质盾牌-家园物件
 77112002:有棱角的木质盾牌-家园物件
 77112003:特制的宝剑-家园物件
@@ -18326,6 +18909,9 @@
 77112055:「如坚铁般驻守」
 77112056:「执灯之帜」
 77112057:酒馆壁灯-「廊道悬光」
+77112058:「铳枪影业新作纪念」
+77112059:「铳枪影业新作纪念」
+77112060:「维恩歌莱之帜」
 77115001:一堆书-家园物件
 77115002:一摞书-家园物件
 77115003:文房四宝-家园物件
@@ -18379,6 +18965,7 @@
 77115051:「噼哩啪啦密码筒」
 77115052:SceneObj_Homeworld_Ani_Interior_Ndkl_Thing_Prop_Maomaoji_01
 77115053:景观盆栽-「稚蕊呈芳」
+77115054:「微澜寸景」
 77190001:画架白盒（正式勿用此id）-家园物件
 77200001:红顶的杂货摊位-家园物件
 77200002:蓝顶的水果摊位-家园物件
@@ -19177,6 +19764,20 @@
 77204372:幻想朋友-「月桂」
 77204373:幻想朋友-「团团」
 77204374:「石间小塑」
+77204375:聚会立牌-「闪闪宝石」
+77204376:聚会立牌-「人气偶像」
+77204377:映影海报-「大侦探赫尔洛克」
+77204378:映影海报-「归乡」
+77204379:营地屏障-「诊疗区域」
+77204380:那夏小摊-「源远流长」
+77204381:「无可应用的遗留」
+77204382:「过往的容器」
+77204383:大型货箱-「稳定保障」
+77204384:中型货箱-「基础供给」
+77204385:中型铁制废料桶
+77204386:「无信号之塔」
+77204387:「无限递归术式」
+77204388:「散布银辉之月使」
 77205001:木质长椅-家园物件
 77205002:石质的长椅-家园物件
 77205003:谷歌椅子-家园物件
@@ -19312,6 +19913,8 @@
 77208083:「白驹隙中驰」
 77208084:「烁烁荧光」
 77208085:城镇路灯-「低空照明」
+77208086:可移动小型射灯
+77208087:立式路灯-「雾夜引路」
 77210001:菜架子-家园物件
 77213001:带花的草丛-家园物件
 77213002:空空的草丛-家园物件
@@ -20209,8 +20812,33 @@
 77401722:SceneObject_Hallworld_Ani_Ywhy_Prop_ButterFly_01
 77401723:SceneObject_Hallworld_Ani_Ywhy_Prop_ButterFly_02
 77401724:SceneObject_Hallworld_Ywhy_Prop_Petal_Fall_01
+77401800:SceneObject_Hallworld_Ani_Common_Prop_CrystalBall_01
+77401801:[N/A] 548965409
+77401802:[N/A] 3993403681
+77401803:[N/A] 2803757161
+77401804:[N/A] 3112876249
+77401805:[N/A] 1258082657
+77401806:[N/A] 1273614713
+77401807:[N/A] 2515400185
+77401808:[N/A] 3982101657
+77401809:[N/A] 1356719545
+77401810:[N/A] 1315460201
+77401811:[N/A] 3637756209
+77401812:[N/A] 249185681
+77401813:[N/A] 3898693761
+77401814:[N/A] 3125620833
+77401815:[N/A] 3936731569
+77401816:[N/A] 3322022241
+77401817:[N/A] 3508461705
+77401818:[N/A] 1854406681
+77401819:[N/A] 57334097
+77401820:SceneObject_Hallworld_Xrht_SandSeal_01
+77401823:SceneObject_Hallworld_Xrht_IceCream_Ground_01
+77401824:SceneObject_Hallworld_Xrht_Slide_01
+77401826:SceneObject_Hallworld_Xrht_IceCream_WindZone_01
 77500001:[N/A] 4118654865
 77500002:[N/A] 4158606561
+77500003:[N/A] 3688719865
 80000000:SceneObj_Beyond_Test
 80000001:SceneObj_Beyond_Test
 80000002:SceneObj_Beyond_Test
@@ -20471,7 +21099,20 @@
 80010109:SceneObj_Beyond_Test
 80010110:SceneObj_Beyond_Test
 80010111:SceneObj_Beyond_Test
+80010112:SceneObj_Beyond_Test
+80010113:SceneObj_Beyond_Test
 80011001:NPC_Guide_Paimon_Hall
+80012001:SceneObj_Beyond_Test
+80012002:SceneObj_Beyond_Test
+80012003:SceneObj_Beyond_Test
+80012004:SceneObj_Beyond_Test
+80012005:SceneObj_Beyond_Test
+80012006:SceneObj_Beyond_Test
+80012007:SceneObj_Beyond_Test
+80012008:SceneObj_Beyond_Test
+80012009:SceneObj_Beyond_Test
+80012010:SceneObj_Beyond_Test
+80012011:SceneObj_Beyond_Test
 80900001:SceneObj_Beyond_Test
 80900002:SceneObj_Beyond_Test
 80900003:SceneObj_Beyond_Test
@@ -22411,6 +23052,170 @@
 80901938:SceneObj_Beyond_Test
 80901939:SceneObj_Beyond_Test
 80901940:SceneObj_Beyond_Test
+80901941:SceneObj_Beyond_Test
+80901942:SceneObj_Beyond_Test
+80901943:SceneObj_Beyond_Test
+80901944:SceneObj_Beyond_Test
+80901945:SceneObj_Beyond_Test
+80901946:SceneObj_Beyond_Test
+80901947:SceneObj_Beyond_Test
+80901948:SceneObj_Beyond_Test
+80901949:SceneObj_Beyond_Test
+80901950:SceneObj_Beyond_Test
+80901951:SceneObj_Beyond_Test
+80901952:SceneObj_Beyond_Test
+80901953:SceneObj_Beyond_Test
+80901954:SceneObj_Beyond_Test
+80901955:SceneObj_Beyond_Test
+80901956:SceneObj_Beyond_Test
+80901957:SceneObj_Beyond_Test
+80901958:SceneObj_Beyond_Test
+80901959:SceneObj_Beyond_Test
+80901960:SceneObj_Beyond_Test
+80901961:SceneObj_Beyond_Test
+80901962:SceneObj_Beyond_Test
+80901963:SceneObj_Beyond_Test
+80901964:SceneObj_Beyond_Test
+80901965:SceneObj_Beyond_Test
+80901966:SceneObj_Beyond_Test
+80901967:SceneObj_Beyond_Test
+80901968:SceneObj_Beyond_Test
+80901969:SceneObj_Beyond_Test
+80901970:SceneObj_Beyond_Test
+80901971:SceneObj_Beyond_Test
+80901972:SceneObj_Beyond_Test
+80901973:SceneObj_Beyond_Test
+80901974:SceneObj_Beyond_Test
+80901975:SceneObj_Beyond_Test
+80901976:SceneObj_Beyond_Test
+80901977:SceneObj_Beyond_Test
+80901978:SceneObj_Beyond_Test
+80901979:SceneObj_Beyond_Test
+80901980:SceneObj_Beyond_Test
+80901981:SceneObj_Beyond_Test
+80901982:SceneObj_Beyond_Test
+80901983:SceneObj_Beyond_Test
+80901984:SceneObj_Beyond_Test
+80901985:SceneObj_Beyond_Test
+80901986:SceneObj_Beyond_Test
+80901987:SceneObj_Beyond_Test
+80901988:SceneObj_Beyond_Test
+80901989:SceneObj_Beyond_Test
+80901990:SceneObj_Beyond_Test
+80901991:SceneObj_Beyond_Test
+80901992:SceneObj_Beyond_Test
+80901993:SceneObj_Beyond_Test
+80901994:SceneObj_Beyond_Test
+80901995:SceneObj_Beyond_Test
+80901996:SceneObj_Beyond_Test
+80901997:SceneObj_Beyond_Test
+80901998:SceneObj_Beyond_Test
+80901999:SceneObj_Beyond_Test
+80902001:SceneObj_Beyond_Test
+80902002:SceneObj_Beyond_Test
+80902003:SceneObj_Beyond_Test
+80902004:SceneObj_Beyond_Test
+80902005:SceneObj_Beyond_Test
+80902006:SceneObj_Beyond_Test
+80902007:SceneObj_Beyond_Test
+80902008:SceneObj_Beyond_Test
+80902009:SceneObj_Beyond_Test
+80902010:SceneObj_Beyond_Test
+80902011:SceneObj_Beyond_Test
+80902012:SceneObj_Beyond_Test
+80902013:SceneObj_Beyond_Test
+80902014:SceneObj_Beyond_Test
+80902015:SceneObj_Beyond_Test
+80902016:SceneObj_Beyond_Test
+80902017:SceneObj_Beyond_Test
+80902018:SceneObj_Beyond_Test
+80902019:SceneObj_Beyond_Test
+80902020:SceneObj_Beyond_Test
+80902021:SceneObj_Beyond_Test
+80902022:SceneObj_Beyond_Test
+80902023:SceneObj_Beyond_Test
+80902024:SceneObj_Beyond_Test
+80902025:SceneObj_Beyond_Test
+80902026:SceneObj_Beyond_Test
+80902027:SceneObj_Beyond_Test
+80902028:SceneObj_Beyond_Test
+80902029:SceneObj_Beyond_Test
+80902030:SceneObj_Beyond_Test
+80902031:SceneObj_Beyond_Test
+80902032:SceneObj_Beyond_Test
+80902033:SceneObj_Beyond_Test
+80902034:SceneObj_Beyond_Test
+80902035:SceneObj_Beyond_Test
+80902036:SceneObj_Beyond_Test
+80902037:SceneObj_Beyond_Test
+80902038:SceneObj_Beyond_Test
+80902039:SceneObj_Beyond_Test
+80902040:SceneObj_Beyond_Test
+80902041:SceneObj_Beyond_Test
+80902042:SceneObj_Beyond_Test
+80902043:SceneObj_Beyond_Test
+80902044:SceneObj_Beyond_Test
+80902045:SceneObj_Beyond_Test
+80902046:SceneObj_Beyond_Test
+80902047:SceneObj_Beyond_Test
+80902048:SceneObj_Beyond_Test
+80902049:SceneObj_Beyond_Test
+80902050:SceneObj_Beyond_Test
+80902051:SceneObj_Beyond_Test
+80902052:SceneObj_Beyond_Test
+80902053:SceneObj_Beyond_Test
+80902054:SceneObj_Beyond_Test
+80902055:SceneObj_Beyond_Test
+80902056:SceneObj_Beyond_Test
+80902057:SceneObj_Beyond_Test
+80902058:SceneObj_Beyond_Test
+80902059:SceneObj_Beyond_Test
+80902060:SceneObj_Beyond_Test
+80902061:SceneObj_Beyond_Test
+80902062:SceneObj_Beyond_Test
+80902063:SceneObj_Beyond_Test
+80902064:SceneObj_Beyond_Test
+80902065:SceneObj_Beyond_Test
+80902066:SceneObj_Beyond_Test
+80902067:SceneObj_Beyond_Test
+80902068:SceneObj_Beyond_Test
+80902069:SceneObj_Beyond_Test
+80902070:SceneObj_Beyond_Test
+80902071:SceneObj_Beyond_Test
+80902072:SceneObj_Beyond_Test
+80902073:SceneObj_Beyond_Test
+80902074:SceneObj_Beyond_Test
+80902075:SceneObj_Beyond_Test
+80902076:SceneObj_Beyond_Test
+80902077:SceneObj_Beyond_Test
+80902078:SceneObj_Beyond_Test
+80902079:SceneObj_Beyond_Test
+80902080:SceneObj_Beyond_Test
+80902081:SceneObj_Beyond_Test
+80902082:SceneObj_Beyond_Test
+80902083:SceneObj_Beyond_Test
+80902084:SceneObj_Beyond_Test
+80902085:SceneObj_Beyond_Test
+80902086:SceneObj_Beyond_Test
+80902087:SceneObj_Beyond_Test
+80902088:SceneObj_Beyond_Test
+80902089:SceneObj_Beyond_Test
+80902090:SceneObj_Beyond_Test
+80902091:SceneObj_Beyond_Test
+80902092:SceneObj_Beyond_Test
+80902093:SceneObj_Beyond_Test
+80902094:SceneObj_Beyond_Test
+80902095:SceneObj_Beyond_Test
+80902096:SceneObj_Beyond_Test
+80902097:SceneObj_Beyond_Test
+80902098:SceneObj_Beyond_Test
+80902099:SceneObj_Beyond_Test
+80902100:SceneObj_Beyond_Test
+80902101:SceneObj_Beyond_Test
+80902102:SceneObj_Beyond_Test
+80902103:SceneObj_Beyond_Test
+80902104:SceneObj_Beyond_Test
+80902105:SceneObj_Beyond_Test
 90000003:引导者派蒙
 90000006:NPC_Guide_Paimon_UnderWater
 90000008:test开启
@@ -22826,6 +23631,7 @@
 70540115:白灵果
 70540116:夏槲果
 70540117:霜盏花
+70540118:凝月泪滴
 70560001:兽肉
 70560002:铁块-铁块（采集物）
 70560003:白铁块-白铁块（采集物）
@@ -23354,6 +24160,8 @@
 71700905:冬凌草
 71700906:少女薇拉的忧郁·最终卷（版本二）
 71700907:少女薇拉的忧郁·最终卷（版本一）
+71700908:望月者的摹刻·卷一
+71700909:望月者的摹刻·卷二
 73004074:5.5 爆米花机获取物
 73004075:5.5 榨汁机获取物
 73006001:微光角菌
@@ -24617,6 +25425,90 @@
 73045232:SceneObj_AnimalObj_Ani_Level_NodMole_N_01_NoAI
 73045233:SceneObj_AnimalObj_Ani_Level_NodMole_N_01_NoAI
 73047010:SceneObj_Activity_Common_Property_Ani_Prop_SlimeCannonV2_Barrier_01
+73050001:[N/A] 457901206
+73050002:[N/A] 3262746062
+73050003:[N/A] 3323889006
+73050004:[N/A] 2941579438
+73050005:[N/A] 3540609198
+73050006:[N/A] 194181158
+73050007:[N/A] 3490243926
+73050008:[N/A] 1573310646
+73050009:[N/A] 1039622510
+73050010:[N/A] 4042657062
+73050011:[N/A] 72951830
+73050012:[N/A] 799837302
+73050013:[N/A] 2237568078
+73050014:[N/A] 2616705206
+73050015:[N/A] 2548782438
+73050016:[N/A] 2698856766
+73050017:[N/A] 2113029142
+73050018:[N/A] 2733398222
+73050019:[N/A] 2511253518
+73050020:[N/A] 3157190734
+73050021:[N/A] 3787712614
+73050022:[N/A] 188446
+73050023:[N/A] 4062497886
+73050024:[N/A] 1294709062
+73050025:[N/A] 3551955142
+73050026:[N/A] 1887125606
+73050027:[N/A] 1101788366
+73050028:[N/A] 3565076846
+73050029:[N/A] 3505881558
+73050030:[N/A] 3941130486
+73050031:[N/A] 3503419438
+73050033:[N/A] 1234818542
+73050034:[N/A] 3109568998
+73050035:[N/A] 1936684342
+73050036:[N/A] 2059154438
+73050037:[N/A] 2613159166
+73050038:[N/A] 1238188438
+73050039:[N/A] 2843003342
+73050040:[N/A] 1854147990
+73050041:[N/A] 950917142
+73050042:[N/A] 1951014958
+73050043:[N/A] 495562998
+73050044:[N/A] 4154757206
+73050045:[N/A] 823462366
+73050046:[N/A] 3284450430
+73050047:[N/A] 3828742174
+73050048:[N/A] 3589126286
+73050049:[N/A] 49435742
+73050050:[N/A] 3308534846
+73050051:[N/A] 2503079190
+73050052:[N/A] 3483381990
+73050053:[N/A] 3094047086
+73050054:[N/A] 3342591270
+73050055:[N/A] 2388356558
+73050056:[N/A] 447030622
+73050057:[N/A] 3810102454
+73050058:[N/A] 753803726
+73050059:[N/A] 775863590
+73050060:[N/A] 2848863742
+73050061:[N/A] 3325137054
+73050062:[N/A] 275067350
+73050063:[N/A] 1732756750
+73050064:[N/A] 2817267142
+73050065:[N/A] 961981510
+73050066:[N/A] 977344862
+73050067:[N/A] 312265862
+73050068:[N/A] 3607961694
+73050069:[N/A] 1360293950
+73050070:[N/A] 1221930054
+73050071:[N/A] 3160136942
+73050072:[N/A] 3823384982
+73050073:[N/A] 831339006
+73050074:[N/A] 4145422846
+73050075:[N/A] 2189941126
+73050076:[N/A] 273054942
+73050077:[N/A] 758899894
+73050078:[N/A] 507881782
+73050079:[N/A] 117996990
+73050080:[N/A] 1710550382
+73050081:[N/A] 3170145286
+73050082:[N/A] 3463596238
+73050083:[N/A] 3067716086
+73050084:[N/A] 897576158
+73050085:[N/A] 3128906910
 73054003:SceneObj_Area_Nt_Property_Ani_Prop_SkirkPreBossGiantNeedle_01
 73055001:SceneObj_Test_5_8_01
 73055002:SceneObj_Test_5_8_02
@@ -24724,6 +25616,20 @@
 73060042:SceneObj_Property_Ani_Prop_MagneticModule_01
 73060043:SceneObj_Property_Ani_Prop_MagneticModule_05
 73060044:SceneObj_Property_Ani_Prop_MagneticModule_04
+73064020:[N/A] 2939943998
+73064021:[N/A] 688506294
+73064046:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_Origin_02
+73064057:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_SearchlightComponent_02
+73064059:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_SafetyComponent_01
+73064060:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_TransportComponent_01
+73064061:SceneObj_Level_NK_Property_Ani_Prop_MoonElevator_01
+73064068:SceneObj_Area_NK_Property_Ani_Prop_PeittaaSprite_Blue
+73064074:SceneObj_Area_NK_Property_Ani_Prop_PeittaaSprite_Black
+73064078:SceneObj_Area_NK_Property_Ani_Prop_TowerEnergyCore_01
+73064105:SceneObj_Area_Moon_Property_Ani_Prop_GravityBomb_WaterBall_03
+73064125:SceneObj_Gear_Platform_WaterPlatform
+73064146:SceneObj_Area_NK_Property_Ani_Prop_Moon_Ruin_Door_Platform_01
+73064147:SceneObj_NK_Moon_Physics_Common_NoPhysics_Platform_01
 73068010:SceneObj_Property_Ani_Prop_SearchlightDrone
 73068025:SceneObj_Ani_Prop_RotationChannel
 73068050:SceneObj_Area_Hd_Property_Sword_SpecialReflection_01
@@ -24941,6 +25847,29 @@
 73134010:SceneObj_Property_Ani_Prop_NodkraiRobo_01_ActivityShortVideo
 73134011:SceneObj_Property_Ani_Prop_NodkraiRobo_01_ActivityShortVideo
 73134012:SceneObj_Property_Ani_Prop_NodkraiRobo_01_ActivityShortVideo
+73137010:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_ConnectPoint_01
+73137026:SceneObj_Area_NK_Property_Ani_Prop_FishMoonSpirit_02
+73137044:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_Origin_Grouped_Platform
+73137059:SceneObj_Area_NK_Property_Ani_Prop_MoonCurrentSpaceShip_01
+73137063:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_Origin_Grouped_02
+73137064:SceneObj_Area_NK_Property_Ani_Prop_MoonCurrentStone_01
+73138004:戳破
+73138008:SceneObj_Area_NK_Property_Ani_Prop_MoonKineticChest_02
+73138030:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform
+73138031:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform
+73138032:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform_DisableTickDistance
+73138033:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform_DisableTickDistance
+73138034:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform_DisableTickDistance
+73138035:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform_DisableTickDistance
+73138036:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform_DisableTickDistance
+73138037:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform_DisableTickDistance
+73138041:SceneObj_Area_NK_Property_Prop_MoonbackGate_01
+73138064:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform
+73138066:SceneObj_Area_NK_Property_Prop_MoonShip_03
+73138067:[N/A] 1725225174
+73138068:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform
+73138069:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform_LevelPartScale
+73138070:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform
 73141008:SceneObj_Property_Ani_Prop_MapMark_CaneraPivot
 73153006:SceneObj_Activity_Common_Property_Ani_Prop_ColorBall_Asha_01
 73153011:SceneObj_Activity_Common_Property_Ani_Prop_ColorBall_PaperEnemy_01
@@ -24959,6 +25888,12 @@
 73164035:SceneObj_Level_Common_Property_Ani_Prop_MagNVoiceBall_01
 73164042:SceneObj_Level_Common_Property_Ani_Prop_NRMagicCircle_Trail_02
 73164043:SceneObj_Level_Common_Property_Ani_Prop_NRMagicCircle_Trail_03
+73165008:6.7 水下捕鱼 Monster鱼 QTE交互Dummy
+73179002:SceneObj_NK_Gear_Platform_Moon_WaterPlatform_01
+73179003:SceneObj_NK_Gear_Platform_Moon_WaterPlatform_01
+73179004:SceneObj_NK_Gear_Platform_Moon_WaterPlatform_01
+73181010:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_CanSetBallFrame_01
+73181012:SceneObj_Area_NK_Property_Ani_Prop_MoveableEnergyBall_Frame_PlatformMove
 74002030:Macrauchenia_01_HeadPlatform_Quest
 74006087:SceneObj_Gear_Platform_Seelie_disableTickDistance10000
 74006089:SceneObj_Gear_Platform_WaterPlatform
@@ -24990,6 +25925,7 @@
 77401013:SceneObject_Hallworld_Ani_Yly_Build_RotateCup_01_Sit
 77401014:SceneObject_Hallworld_Ani_Yly_Build_RotateCup_01_Sit
 77401015:SceneObject_Hallworld_Ani_Yly_Build_RotateCup_01_Sit
+77401825:SceneObject_Hallworld_Ani_Xrht_Build_Jianzhu_02
 707111112:SceneObj_Penumbra_Common_Property_Ani_Prop_QuestPlatformMove_01
 707111113:SceneObj_Penumbra_Common_Property_Ani_Prop_QuestPlatformMove_01
 
@@ -25043,6 +25979,8 @@
 45005002:Vehicle_PlayerSaosaoRobo_01
 45006001:Vehicle_ColorChangingParkour_01
 45007001:Vehicle_Pulonia
+45008001:SceneObj_Test_ParamMove_Vehicle
+45008002:SceneObj_Test_ParamMove_Vehicle_SnowBall
 
 // 怪物装备
 50004001:木棍
@@ -25212,6 +26150,13 @@
 50008012:MonEquip_Staff_Water_01
 50008013:MonEquip_Wand_Water_01
 50008014:MonEquip_WoodenClub_01
+50008015:MonEquip_Eremite_Hatchet_01
+50008016:MonEquip_Eremite_PushDagger_01
+50008017:MonEquip_Eremite_PushDagger_02
+50008018:MonEquip_Tachi_01
+50008019:MonEquip_Tachi_04
+50008020:MonEquip_Tachi_05
+50008021:MonEquip_Tribalwarrior_Sword
 
 // 装备
 50010002:(test)穿模测试-Equip_Sword_Template
@@ -25328,6 +26273,7 @@
 50012513:Weapon_Claymore_Metal
 50012514:Weapon_Claymore_Metal
 50012515:Weapon_Claymore_Metal
+50012516:Weapon_Claymore_Metal
 50013101:新手长枪-Equip_Pole_Gewalt
 50013201:铁尖枪-Equip_Pole_Rod
 50013301:白缨枪-Equip_Pole_Ruby
@@ -25585,6 +26531,8 @@
 70800184:2.7层岩地城入口木板
 70800907:SceneObj_Area_Common_Property_Ani_Build_ChallengeEntry_02
 70950059:挑战活动大门
+73138018:SceneObj_Area_NK_Property_Ani_Prop_KHTInteractiveCore_01
+73138019:SceneObj_Area_NK_Property_Ani_Prop_MoonTeleport_01
 74028008:[N/A] 2863401902
 
 // 宝箱
@@ -25650,6 +26598,7 @@
 70210134:华丽的宝箱
 70210135:沉玉仙茗
 70210136:精致的宝箱
+70210137:调查
 70211001:普通的宝箱-低级战斗宝箱Default
 70211002:普通的宝箱-低级战斗宝箱Lock
 70211011:精致的宝箱-中级战斗宝箱Default
@@ -25857,6 +26806,7 @@
 73074072:SceneObj_Area_Phyl_BreadOven_Bread_Collect
 73074095:SceneObj_Area_Phyl_OW_SearchPoint_WithHint
 73077271:风息花
+73138056:调查
 74039007:开启宝箱
 
 // 通用奖励点
@@ -25987,6 +26937,8 @@
 73048001:SceneObj_Area_Nt_Property_Ani_Prop_FakeIfa_01
 73054030:SceneObj_Area_NodKrai_Property_Ani_Prop_NodKraiDroneWithBox_01
 73057033:SceneObj_Area_Nt_Property_Prop_BrickGolem_05_CheckDistance
+73064023:SceneObj_Level_NK_Property_Ani_Prop_MoonGolem_01
+73064103:SceneObj_Level_NK_Property_Ani_Prop_MoonGolem_02
 73070016:SceneObj_Pohjola_Property_Ani_Prop_LunarisLine_Core_01
 73070100:SceneObj_Pohjola_Property_Ani_Prop_LunarisCore_Core_01
 73070132:SceneObj_Pohjola_Property_Illuga_Bird_01
@@ -26023,6 +26975,40 @@
 73136024:SceneObj_SwitchColor_GadgetMonster_Elite_Ousia
 73136025:SceneObj_SwitchColor_GadgetMonster_Boss_Pneuma
 73136026:SceneObj_SwitchColor_GadgetMonster_Boss_Ousia
+73137002:SceneObj_Area_NK_Property_Ani_Prop_PeittaaSprite_Curve_Blue
+73137003:SceneObj_Area_NK_Property_Ani_Prop_PeittaaSprite_Curve_Black
+73137029:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_Origin_05
+73137043:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_Origin_Grouped_Curve
+73137047:SceneObj_Area_NK_Property_Ani_Prop_FishMoonSpirit_04
+73137056:SceneObj_Area_NK_Property_Ani_Prop_CurvePlatform_New
+73137061:SceneObj_Area_NK_Property_Ani_Prop_JellyFishNew_01
+73137062:SceneObj_Area_NK_Property_Ani_Prop_JellyFishNew_02
+73138010:SceneObj_Area_NodKrai_Property_Ani_Prop_FlyTogetherGadget_02
+73138024:SceneObj_Area_NK_Property_Prop_MoonShip_02
+73138083:SceneObj_Area_NodKrai_Property_Ani_Prop_MoonCamera_01
+73150001:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Small
+73150002:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Small
+73150003:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Small
+73150004:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Small
+73150005:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Medium
+73150006:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Medium
+73150007:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Medium
+73150008:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Medium
+73150009:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Large
+73150010:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Large
+73150011:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Large
+73150012:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Large
+73150013:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Super
+73150016:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Super
+73150017:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Small
+73150018:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Small
+73150019:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Small
+73150020:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Medium
+73150021:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Medium
+73150022:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Large
+73150023:SceneObj_Level_Fd_FishingJoyV2_FishSchool_Large
+73177008:SceneObj_Area_Fd_Property_Ani_Prop_MecDragonfly
+73181005:SceneObj_Area_NodKrai_Property_Orca_CurveMove_01
 77015012:SceneObj_Homeworld_Exterior_Nt_Build_FireBalloon_01
 707111116:SceneObj_Area_Fd_Property_Ani_Prop_Waterwayship_02
 
@@ -26042,6 +27028,8 @@
 73074086:SceneObj_Area_Phyl_NodkraiOffering_05
 73074087:SceneObj_Area_Phyl_NodkraiOffering_06
 73077192:SceneObj_Area_Firmament_Property_Ani_Prop_FirmamentOffering_01
+73138054:SceneObj_Area_NK_Property_Ani_Prop_MoonOffering_01
+73138055:SceneObj_Area_NK_Property_Ani_Prop_MoonOffering_02
 
 // 工作台
 70290046:天空岛小碎片核心
@@ -26515,6 +27503,8 @@
 73051015:SceneObj_Level_Nt_Property_Ani_Prop_AutoChessInterfaceInteract_01
 73055007:SceneObj_PhotoGraphV6_5_8_WorkTop
 73055008:SceneObj_AgentRecon_Property_Ani_Prop_BombBox_01_Worktop
+73064062:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_InfoDisplayComponent_01
+73064071:SceneObj_Area_Common_Property_Prop_HintPointWorktop_01
 73070059:SceneObj_Pohjola_Property_Ani_Prop_PullLinePlant_Base_01
 73074002:SceneObj_Pohjola_InstituteLift_Console
 73074005:SceneObj_Area_Bhyl_TTC_CollectCoin
@@ -26541,10 +27531,21 @@
 73133016:SceneObj_Level_Common_Property_Ani_Prop_TradeShowTd_Tower_Advanced_07_BombDefence
 73133017:SceneObj_Level_Common_Property_Ani_Prop_TradeShowTd_Tower_Advanced_08_DoubleEnergy
 73133018:SceneObj_Level_Common_Property_Ani_Prop_TradeShowTd_Tower_Advanced_09_BombEnergy
+73137006:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_InfoDisplayComponent_02
+73137007:SceneObj_Area_NK_Property_Ani_Prop_UnintelligenteRobot_InfoDisplayComponent_03
+73137066:SceneObj_Area_NK_Property_Ani_Prop_InvisibleOperator_Override
+73138053:SceneObj_Level_NK_Property_Ani_Prop_MoonOperator_02
+73138061:SceneObj_Level_NK_Property_Ani_Prop_MoonOperator_01
 73149003:SceneObj_Level_Common_Property_Ani_Prop_Musket_Gun_01
+73150024:6.7 捕鱼达人 关卡入口交互
 73163015:SceneObj_EnergySparkReserve_01
 73163017:SceneObj_Desert_ChiWang_Shooter_Base
 73163019:SceneObj_Desert_BarrierGenerator_V6_6
+73165012:6.7 水下捕鱼 委托交互点
+73165039:6.7 水族馆经营 F交互装饰物件
+73165045:6.7 水下捕鱼 关卡入口交互
+73165046:6.7 水族馆经营 关卡入口交互
+73177040:SceneObj_Gear_Operator_Normal_FollowMove_Operator_V67_02
 74030058:SceneObj_Gear_Operator_Invisible_Operator_05
 74033007:SceneObj_Gear_ElemForce_Base
 77015013:SceneObj_Homeworld_Exterior_Nt_Build_FireBalloon_Summon_Operator
@@ -27287,6 +28288,7 @@
 73125021:[N/A] 2881242606
 73125022:[N/A] 4264179662
 73125023:[N/A] 3137021230
+73138087:[N/A] 1560494454
 74005001:[N/A] 3943672950
 74005002:[N/A] 1836228358
 74005003:[N/A] 1978913190

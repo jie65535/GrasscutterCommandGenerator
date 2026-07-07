@@ -10,6 +10,7 @@
 11:DeepSea_LevelStreaming
 100:Fairybook_LevelStreaming
 101:Volcano_LevelStreaming
+102:MoonCanon_LevelStreaming
 103:Firmament_LevelStreaming
 1001:移动平台性能测试(test)
 1002:攀爬测试2
@@ -91,6 +92,8 @@
 1154:ChurchLobby
 1155:ChurchSteal02
 1156:IndoorScene_Ndkl_NK
+1160:IndoorScene_Fd_MuOu
+1161:IndoorScene_Fd_Aquarium
 1200:IndoorScene_Nt_Msl
 1201:IndoorScene_Nt_XTLLHome
 1202:IndoorScene_Dq_Yushi
@@ -121,6 +124,7 @@
 2414:Hall_Private_Ydsd
 2415:Hall_Private_Lqzc
 2416:Hall_Private_Ywhy
+2417:Hall_Private_Xrht
 2601:Hall_Private_Witch
 2602:Hall_Private_World_Park
 2611:Hall_Private_Wsqh
@@ -129,12 +133,14 @@
 2614:Hall_Private_Ydsd
 2615:Hall_Private_Lqzc
 2616:Hall_Private_Ywhy
+2617:Hall_Private_Xrht
 2811:Hall_Public_Wsqh
 2812:Hall_Public_Drxg
 2813:Hall_Public_Wxyc
 2814:Hall_Public_Ydsd
 2815:Hall_Public_Lqzc
 2816:Hall_Public_Ywhy
+2817:Hall_Public_Xrht
 20000:关卡玩法测试(test)
 20005:一锤定音的食材
 20006:丘丘人大据点(test)
@@ -329,6 +335,7 @@
 20261:Level_TowerV2_Quest
 20262:IndoorScene_Md_SWT
 20263:5.8JJH一角镜像大世界地城（test）
+20264:Level_Tower_Night_01
 20265:5.7双子镜像大世界（test）
 20266:5.7双子地城（test）
 20267:5.8运动区开业仪式镜像大世界（test)
@@ -343,6 +350,7 @@
 20276:BigWorld_LevelStreaming
 20277:Level_NK_MoonAltar
 20278:BigWorld_LevelStreaming
+20279:test 6.7月心滚筒洗衣机地城
 20280:（test）6.1主线猎月人回忆地城（test）
 20281:（test）6.1主线奈芙尔回忆地城（test）
 20282:未知的遗迹
@@ -408,6 +416,9 @@
 20354:（test）6.6尼可强化镜像大世界
 20355:（test）6.6布伦妮强化任务-歌剧院
 20356:6.6洛恩个人线地城（test）
+20357:（test）6.7木偶镜子地城
+20358:（test）6.7木偶镜像大世界:枫丹科学院
+20359:（test）6.7木偶镜像大世界:格式塔镜像大世界
 20360:（test）6.6尼可人文画框地城
 20361:（test）6.5空之神殿沙漏区下层镜像大世界
 20362:Level_Ndcl_Rerir_01
@@ -709,6 +720,12 @@
 33872:爬塔（双路）(test)
 33873:爬塔（双路）(test)
 33874:爬塔（双路）(test)
+33875:爬塔（双路）(test)
+33876:爬塔（双路）(test)
+33877:爬塔（双路）(test)
+33878:爬塔（双路）(test)
+33879:爬塔（双路）(test)
+33880:爬塔（双路）(test)
 34100:爬塔第二档-ZHT第1关（单路）(test)
 34101:爬塔第二档-ZHT第2关（单路）(test)
 34102:爬塔第二档-ZHT第3关（单路）(test)
@@ -1154,6 +1171,15 @@
 36093:（test）6.5拍短视频05—那夏镇
 36094:（test）6.5拍短视频06—枫丹水下
 36095:（test）6.5拍短视频07—霜月之子
+36101:(test)6.7跳舞复刻01
+36102:(test)6.7跳舞复刻02
+36103:(test)6.7跳舞复刻03
+36104:(test)6.7跳舞复刻04
+36105:(test)6.7跳舞复刻05
+36106:(test)6.7跳舞复刻教学关
+36107:（test)6.7捕鱼达人
+36108:（test)6.7捕鱼达人
+36109:（test)6.7捕鱼达人
 40001:调查遗迹深处的骚动(test)
 40002:Level_UCDungeon01
 40003:Level_UCDungeon01
@@ -1525,6 +1551,7 @@
 41137:Level_Tower_01_Open
 41138:Level_Tower_01_Open
 41139:Level_Tower_01_Open
+41140:Level_Tower_01_Open
 42001:去年双燕来还去：难度3
 42002:解鞍倚枕画仙桥：难度2
 42003:春水蛾眉各分飞：难度5
@@ -1738,6 +1765,13 @@
 47818:(test)4.8大活动战斗2
 47819:(test)4.8大活动战斗3
 47820:(test)4.8大活动战斗4
+47821:(test)？？？
+47822:(test)？？？
+47823:(test)？？？
+47824:(test)？？？
+47825:(test)？？？
+47826:(test)？？？
+47827:(test)？？？
 47901:(test)4.2迷城复刻01
 47902:(test)4.2迷城复刻02
 47903:(test)4.2迷城复刻03
@@ -2159,6 +2193,8 @@
 51207:(test)6.4厨力特饮 关卡5
 51208:(test)6.4厨力特饮 关卡6
 51209:TestLevel_WhiteBox_Linnea_GQQ
+51210:（test）6.7 美术CE用镜像大世界Scene102
+51211:（test）6.7 美术CE用镜像大世界Scene3
 51212:(test)6.4飞行射击_赛道2
 51213:(test)6.5切色弹幕_关卡1
 51214:(test)6.5切色弹幕_关卡2
@@ -2187,6 +2223,21 @@
 51237:(test)6.6机械球3期关卡1
 51238:(test)6.6机械球3期关卡1
 51239:(test)6.6机械球3期关卡1
+51240:(test)6.7大活动-水下捕鱼-测试
+51241:Level_OneShot_01
+51242:(test)6.7小活动-一笔画玩法-关卡2
+51243:(test)6.7小活动-一笔画玩法-关卡3
+51244:(test)6.7小活动-一笔画玩法-关卡4
+51245:(test)6.7小活动-一笔画玩法-关卡5
+51246:(test)6.7小活动-一笔画玩法-关卡6
+51249:(test)6.7大活动-水下搜打撤-关卡1
+51250:(test)6.7大活动-水下搜打撤-关卡2
+51251:(test)6.7大活动-水下搜打撤-关卡3
+51252:(test)6.7大活动-水下搜打撤-关卡4
+51253:(test)6.7大活动-水下搜打撤-关卡5
+51254:(test)6.7大活动-水下搜打撤-关卡6
+51255:(test)6.7小活动-一笔画玩法-关卡1
+51311:BigWorld_LevelStreaming
 79999:(test)卡牌观战场景
 90001:UGC_LiHui_01
 90002:UGC功耗测试地城

@@ -10,6 +10,7 @@
 11:DeepSea_LevelStreaming
 100:Fairybook_LevelStreaming
 101:Volcano_LevelStreaming
+102:MoonCanon_LevelStreaming
 103:Firmament_LevelStreaming
 1001:移動平臺性能測試
 1002:ClimbTest2
@@ -91,6 +92,8 @@
 1154:ChurchLobby
 1155:ChurchSteal02
 1156:IndoorScene_Ndkl_NK
+1160:IndoorScene_Fd_MuOu
+1161:IndoorScene_Fd_Aquarium
 1200:IndoorScene_Nt_Msl
 1201:IndoorScene_Nt_XTLLHome
 1202:IndoorScene_Dq_Yushi
@@ -121,6 +124,7 @@
 2414:Hall_Private_Ydsd
 2415:Hall_Private_Lqzc
 2416:Hall_Private_Ywhy
+2417:Hall_Private_Xrht
 2601:Hall_Private_Witch
 2602:Hall_Private_World_Park
 2611:Hall_Private_Wsqh
@@ -129,12 +133,14 @@
 2614:Hall_Private_Ydsd
 2615:Hall_Private_Lqzc
 2616:Hall_Private_Ywhy
+2617:Hall_Private_Xrht
 2811:Hall_Public_Wsqh
 2812:Hall_Public_Drxg
 2813:Hall_Public_Wxyc
 2814:Hall_Public_Ydsd
 2815:Hall_Public_Lqzc
 2816:Hall_Public_Ywhy
+2817:Hall_Public_Xrht
 20000:關卡玩法測試
 20005:一錘定音的食材
 20006:丘丘人大據點
@@ -329,6 +335,7 @@
 20261:Level_TowerV2_Quest
 20262:IndoorScene_Md_SWT
 20263:[CHS] - 5.8JJH一角镜像大世界地城（test）
+20264:Level_Tower_Night_01
 20265:[CHS] - 5.7双子镜像大世界（test）
 20266:[CHS] - 5.7双子地城（test）
 20267:[CHS] - 5.8运动区开业仪式镜像大世界（test)
@@ -343,6 +350,7 @@
 20276:BigWorld_LevelStreaming
 20277:Level_NK_MoonAltar
 20278:BigWorld_LevelStreaming
+20279:[CHS] - test 6.7月心滚筒洗衣机地城
 20280:[CHS] - （test）6.1主线猎月人回忆地城（test）
 20281:[CHS] - （test）6.1主线奈芙尔回忆地城（test）
 20282:未知的遺蹟
@@ -408,6 +416,9 @@
 20354:[CHS] - （test）6.6尼可强化镜像大世界
 20355:[CHS] - （test）6.6布伦妮强化任务-歌剧院
 20356:[CHS] - 6.6洛恩个人线地城（test）
+20357:[CHS] - （test）6.7木偶镜子地城
+20358:[CHS] - （test）6.7木偶镜像大世界:枫丹科学院
+20359:[CHS] - （test）6.7木偶镜像大世界:格式塔镜像大世界
 20360:[CHS] - （test）6.6尼可人文画框地城
 20361:[CHS] - （test）6.5空之神殿沙漏区下层镜像大世界
 20362:Level_Ndcl_Rerir_01
@@ -709,6 +720,12 @@
 33872:[CHS] - 爬塔（双路）(test)
 33873:[CHS] - 爬塔（双路）(test)
 33874:[CHS] - 爬塔（双路）(test)
+33875:[CHS] - 爬塔（双路）(test)
+33876:[CHS] - 爬塔（双路）(test)
+33877:[CHS] - 爬塔（双路）(test)
+33878:[CHS] - 爬塔（双路）(test)
+33879:[CHS] - 爬塔（双路）(test)
+33880:[CHS] - 爬塔（双路）(test)
 34100:[CHS] - 爬塔第二档-ZHT第1关（单路）(test)
 34101:[CHS] - 爬塔第二档-ZHT第2关（单路）(test)
 34102:[CHS] - 爬塔第二档-ZHT第3关（单路）(test)
@@ -1154,6 +1171,15 @@
 36093:[CHS] - （test）6.5拍短视频05—那夏镇
 36094:[CHS] - （test）6.5拍短视频06—枫丹水下
 36095:[CHS] - （test）6.5拍短视频07—霜月之子
+36101:[CHS] - (test)6.7跳舞复刻01
+36102:[CHS] - (test)6.7跳舞复刻02
+36103:[CHS] - (test)6.7跳舞复刻03
+36104:[CHS] - (test)6.7跳舞复刻04
+36105:[CHS] - (test)6.7跳舞复刻05
+36106:[CHS] - (test)6.7跳舞复刻教学关
+36107:[CHS] - （test)6.7捕鱼达人
+36108:[CHS] - （test)6.7捕鱼达人
+36109:[CHS] - （test)6.7捕鱼达人
 40001:調查遺蹟深處的騷動
 40002:Level_UCDungeon01
 40003:Level_UCDungeon01
@@ -1525,6 +1551,7 @@
 41137:Level_Tower_01_Open
 41138:Level_Tower_01_Open
 41139:Level_Tower_01_Open
+41140:Level_Tower_01_Open
 42001:去年雙燕來還去：難度3
 42002:解鞍倚枕畫仙橋：難度2
 42003:春水蛾眉各分飛：難度5
@@ -1738,6 +1765,13 @@
 47818:[CHS] - (test)4.8大活动战斗2
 47819:[CHS] - (test)4.8大活动战斗3
 47820:[CHS] - (test)4.8大活动战斗4
+47821:[CHS] - (test)？？？
+47822:[CHS] - (test)？？？
+47823:[CHS] - (test)？？？
+47824:[CHS] - (test)？？？
+47825:[CHS] - (test)？？？
+47826:[CHS] - (test)？？？
+47827:[CHS] - (test)？？？
 47901:[CHS] - (test)4.2迷城复刻01
 47902:[CHS] - (test)4.2迷城复刻02
 47903:[CHS] - (test)4.2迷城复刻03
@@ -2159,6 +2193,8 @@
 51207:[CHS] - (test)6.4厨力特饮 关卡5
 51208:[CHS] - (test)6.4厨力特饮 关卡6
 51209:TestLevel_WhiteBox_Linnea_GQQ
+51210:[CHS] - （test）6.7 美术CE用镜像大世界Scene102
+51211:[CHS] - （test）6.7 美术CE用镜像大世界Scene3
 51212:[CHS] - (test)6.4飞行射击_赛道2
 51213:[CHS] - (test)6.5切色弹幕_关卡1
 51214:[CHS] - (test)6.5切色弹幕_关卡2
@@ -2187,6 +2223,21 @@
 51237:[CHS] - (test)6.6机械球3期关卡1
 51238:[CHS] - (test)6.6机械球3期关卡1
 51239:[CHS] - (test)6.6机械球3期关卡1
+51240:[CHS] - (test)6.7大活动-水下捕鱼-测试
+51241:Level_OneShot_01
+51242:[CHS] - (test)6.7小活动-一笔画玩法-关卡2
+51243:[CHS] - (test)6.7小活动-一笔画玩法-关卡3
+51244:[CHS] - (test)6.7小活动-一笔画玩法-关卡4
+51245:[CHS] - (test)6.7小活动-一笔画玩法-关卡5
+51246:[CHS] - (test)6.7小活动-一笔画玩法-关卡6
+51249:[CHS] - (test)6.7大活动-水下搜打撤-关卡1
+51250:[CHS] - (test)6.7大活动-水下搜打撤-关卡2
+51251:[CHS] - (test)6.7大活动-水下搜打撤-关卡3
+51252:[CHS] - (test)6.7大活动-水下搜打撤-关卡4
+51253:[CHS] - (test)6.7大活动-水下搜打撤-关卡5
+51254:[CHS] - (test)6.7大活动-水下搜打撤-关卡6
+51255:[CHS] - (test)6.7小活动-一笔画玩法-关卡1
+51311:BigWorld_LevelStreaming
 79999:[CHS] - (test)卡牌观战场景
 90001:UGC_LiHui_01
 90002:UGC消耗功率測試地城

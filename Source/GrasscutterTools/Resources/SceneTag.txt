@@ -74,6 +74,13 @@
 199:MonsterSnap
 200:TradeShow
 202:BladeHeart
+203:ArkAquarium
+207:MusicPaV2_Boo
+208:MusicPaV201
+209:MusicPaV202
+210:Filmfest
+211:ArkAquarium1
+212:OneShot_1
 1001:Combine_Lyg
 1002:Combine_Mdc
 1011:Combine_RBQyg
@@ -522,6 +529,9 @@
 1849:NK_SYCJT_AF
 1850:NK_SYCJZ_BF (Default)
 1851:NK_SYCJZ_AF
+1852:NK_GLFSJD_P1
+1853:NK_GLFSJD_P2
+1854:NK_GLFSJD_P3 (Default)
 1857:Combine_CY_QD (Default)
 1859:SnowRaceStart
 1864:NK_AQMN_ALS
@@ -541,6 +551,8 @@
 1909:NK_LNY_SC_P1
 1910:Combine_NK_LNYLQ_SC
 1911:NK_LNY_SC_P2
+1912:NK_GLFSJD_On
+1913:NK_GLFSJD_Off (Default)
 1914:NK_LNY_SC_P3
 1916:Combine_NDKL_AQ_6301
 1917:Combine_LQ_VDQ
@@ -557,6 +569,8 @@
 1972:LoliFriend
 1973:Combine_Loli
 1974:BigWorld_-3_-5_Grass_LoliFriend
+2029:FDEQ_SDN_01
+2030:Combine_FDEQ_SDN_01
 // 4
 106:SummerTime
 108:SummerTime_High
@@ -607,6 +621,11 @@
 168:PacMan_Night (Default)
 // 47406
 169:PacMan_Night (Default)
+// 1161
+204:ArkAquarium01
+205:ArkAquarium02
+206:ArkAquarium03
+1976:Combine_Aquarium
 // 9
 1012:DI_WW01 (Default)
 1013:DI_WW02
@@ -1080,6 +1099,30 @@
 1948:Combine_WSYL_BaseGrass
 1950:KZSD_WXEJ_P1_A (Default)
 1975:Combine_SL_ZDQ_BaseGrass
+// 102
+1763:YQ_XSJ_OUT (Default)
+1764:YQ_XSJ_IN
+1840:YQ_XSJ_DXSL_1
+1841:YQ_XSJ_DXSL_2 (Default)
+1863:YQ_YH_1
+1868:YQ_KHT_01 (Default)
+1869:YQ_KHT_02
+1870:YQ_HAHYG_1
+1871:YQ_HAHYG_2
+1876:YQ_TKDT_Finish
+1877:YQ_DJWL_1 (Default)
+1878:YQ_DJWL_2
+1880:YQ_YX_01 (Default)
+1881:YQ_YX_02
+1929:YQ_DWQ_TX_F
+1930:YQ_DWQ_TX_M
+1931:YQ_FQYZ_OK
+1933:YQ_YHSJ_01
+1935:YQ_FQYZ_NO (Default)
+1961:YQ_TKDT_TALK
+1966:YQ_TKDT_Start
+2077:YQ_TKDT_Grass (Default)
+2135:YQ_XSJ_DUMMY
 // 1084
 1778:Combine_YLYZ_Auction
 // 20288
@@ -1154,3 +1197,8 @@
 1967:NKDU_XMLK
 1968:NKDU_XD
 1969:NKDU_SMDU
+// 20359
+2031:FDEQ_SDN_02 (Default)
+2032:Combine_FDEQ_SDN_02
+2033:FD_Tower_Bf
+2034:FD_Tower_Af
