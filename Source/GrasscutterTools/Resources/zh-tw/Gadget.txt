@@ -363,6 +363,7 @@
 44000641:RoleCombat_Blessing_IceGrass_Elec_AttackThorns
 44000642:RoleCombat_Blessing_IceGrass_Elec_PeaceThorns
 44000647:Activity_Gadget_CharMaster_Tartaglia_WindZone_Gadget
+44000648:RoleCombat_Blessing_CrystalElectric_RockFall
 70010006:本地觸發器
 70300017:安柏誘餌-安柏誘餌，不會爆炸
 70320128:SceneObj_Level_Common_Property_Ani_Prop_CharAmuseCoinChecker_01
@@ -1132,6 +1133,19 @@
 41133007:Avatar_MarionetteNew_Funnel_Bullet_Enhanced
 41133008:Avatar_Marionette_ExtraAttackBullet_Loop
 41133010:Avatar_Marionette_ExtraAttackBullet_Loop_HitScene
+41140001:Vodyanitsa_NormalAttack_Bullet_01
+41140002:Vodyanitsa_NormalAttack_Bullet_02
+41140003:Vodyanitsa_NormalAttack_Bullet_03
+41140004:Vodyanitsa_NormalAttack_Bullet_04
+41140005:Vodyanitsa_ExtraAttack_Bullet
+41140011:Vodyanitsa_ElementalArt_Bullet
+41143001:Vesna_MagicSword_Small
+41143002:Vesna_MagicSword_Small_Star
+41143011:Vesna_MagicSword_Big_01
+41143012:Vesna_MagicSword_Big_02
+41143013:Vesna_MagicSword_Big_03
+41143020:Vesna_ElementalArt_A_Bullet
+41143030:Vesna_HideEff_Gadget
 41148001:Alyosha_ExtraAttack_Bullet
 41148005:Alyosha_ElementalBurst_Gadget
 41148006:Alyosha_ElementalBurst_Gadget_Quest
@@ -1151,6 +1165,7 @@
 42000018:Quest_6_0_Shoot_CannonBullet_01
 42000020:Activity_PVZ_Player_Throw_Bullet
 42000021:Activity_Pitch_Pot_Throw_Darts_Bullet
+42000022:Activity_SnowBallFight_Bullet
 42001002:史萊姆岩錐
 42001003:史萊姆氣泡-彈道
 42001004:史萊姆-冰錐
@@ -1734,6 +1749,8 @@
 42307029:Monster_Oprichnik_LanceArquebus_BigBullet_BladeHeart
 42307030:Monster_Oprichnik_LanceArquebus_CounterBullet_BladeHeart
 42307031:Monster_Human_Oprichnik_PulseSignaler_ElectricAtk_BulletExplode
+42307032:Monster_Human_Oprichnik_PulseSignaler_IceAtk_BulletExplode
+42307033:Monster_Human_Oprichnik_PulseSignaler_RockAtk_BulletExplode
 42308001:Fatuimecha_CoreB_MoveB_AttackB_Grass_GatlingNormalAtk_Bullet
 42308002:Fatuimecha_CoreB_MoveB_AttackB_Grass_CannonSpecialAtk_Bullet
 42308003:Fatuimecha_CoreB_MoveA_AttackB_Ice_GatlingNormalAtk_Bullet
@@ -2051,6 +2068,10 @@
 42510039:Snegurochka_Contessa_RangeAttack_MultiBullet_01
 42510040:Snegurochka_Contessa_RangeAttack_MultiBullet_02
 42510041:Snegurochka_Contessa_RushAttack_FollowBullet
+42510044:Snegurochka_Contessa_01_TPS_TrackBullet
+42510045:Snegurochka_Contessa_01_TPS_TrackBullet_Fast
+42510048:Snegurochka_Contessa_01_TPS_TrackBullet_IceShield
+42510049:Snegurochka_Contessa_01_TPS_TrackBullet_Fast_IceShield
 42510051:Volkodlak_SheepDog_ShootAttack_Bullet
 42510052:Volkodlak_Arctichare_ShootAttack_Bullet
 42510053:Volkodlak_Beaver_ShootAttack_Bullet
@@ -2063,6 +2084,8 @@
 42510065:Volkodlak_Greyhound_ChargeShoot_Bullet
 42510071:Volkodlak_Greyhound_Furiosa_Root_TPS_Laser
 42510072:Volkodlak_Greyhound_ChargeShoot_BulletFake
+42510075:Snegurochka_Contessa_RangeAttack_MultiBullet_TPS_01
+42510076:Snegurochka_Contessa_RangeAttack_MultiBullet_TPS_02
 42513903:Karzelek_Tsereteli_IceBullet_NormalBullet
 42513904:Karzelek_Tsereteli_IceBullet_FinalBullet
 42513910:Karzelek_Tsereteli_CreateIceCannon_Cannon_Bullet
@@ -2889,6 +2912,18 @@
 42915045:DrData_Erosion_CastSpell_WallCollider_HitAvatar_3
 42915049:DrData_DataBlock_Mid
 42915050:DrData_Erosion_CastSpell_WallCollider_KillSummon
+42916002:Ronova_CircleCrow1
+42916003:Ronova_CircleCrow2
+42916004:Ronova_CircleCrow3
+42916005:Ronova_CircleCrow4
+42916010:Ronova_AreaAtk3_WindFlow
+42916013:Ronova_LookBossBullet
+42916014:Ronova_LookAvatarBullet
+42916017:Ronova_SoulBullet1
+42916018:Ronova_SoulBullet2
+42916019:Ronova_HandMultiBullet
+42916020:Ronova_TurnAtkBullet
+42916021:Ronova_Crow_FollowTarget
 43805001:Partner_Animal_Electrohercules_JumpAttack
 43805002:Partner_Animal_Electrohercules_JumpAttack_CriticalTrigger
 43805003:Animal_Electrohercules_RangedAttack01_Attack
@@ -3698,6 +3733,13 @@
 73177039:SceneObj_Area_NK_Property_Ani_Prop_MoonCoreDefender_Shockwave
 73182002:Bullet_Gadget_Zharptitsa_IcePillar
 73182037:Bullet_Gadget_Zharptitsa_HookIcePillar
+73184005:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_Sculpture_Bullet_01
+73184006:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_Sculpture_Bullet_03
+73184013:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_EnemyBullet_01
+73184021:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_EnemyBullet_02
+73187006:Monster_7_1_SummonBattle_Tribalwarrior_Female_Standard_Launcher_Shamansaurus_MultiBullet
+73195001:SceneObj_Area_Common_Property_Ani_Prop_VineManBullet_01
+73196035:SceneObj_Quest_Zd_Property_Ani_Prop_BankMachineGunBullet_01
 74033002:Quest_Klee_JumpBomb_02
 74039027:SceneObj_Level_Common_Property_Ani_Prop_NRBigCup_03
 77401320:SceneObject_Hallworld_Drxg_Shooting_Snowball_Bullet_01
@@ -3709,6 +3751,7 @@
 77401821:SceneObject_Hallworld_Xrht_Shooting_WaterBall_Bullet_01
 77401822:SceneObject_Hallworld_Xrht_IceCream_Bullet_01
 77401918:SceneObject_Hallworld_Msqy_Shooting_Card_Bullet_01
+77402020:SceneObject_Hallworld_Xymj_Shooting_Jade_Rabbit_Bullet_01
 400335201:Natsaurus_PaintSeelie_NormalAttack_Bullet_1
 400335202:Natsaurus_PaintSeelie_NormalAttack_Bullet_2
 420000009:小動物捕捉器（近）
@@ -4357,11 +4400,15 @@
 42510037:Snegurochka_Contessa_FlowerBullet_AimPoint
 42510042:Snegurochka_Contessa_02_IceShield_Sword_SingleBullet
 42510043:Snegurochka_Contessa_FlowerBullet_AimPoint_02
+42510046:Snegurochka_Contessa_01_TPS_IceCapture
+42510047:Snegurochka_Contessa_01_TPS_IceCapture_FlowerKey
+42510050:Snegurochka_Contessa_01_TPS_IceCapture_FlowerKey_02
 42510066:Volkodlak_Greyhound_FakeTarget
 42510067:Volkodlak_Greyhound_Furiosa_Root_Normal
 42510068:Volkodlak_Greyhound_Furiosa_Root_TPS
 42510069:Volkodlak_Greyhound_Furiosa_ArrowRain
 42510070:Volkodlak_Greyhound_Furiosa_ArrowRain_Final
+42510074:Snegurochka_Contessa_01_TPS_IceCapture_FlowerKey_03
 42513901:Karzelek_Tsereteli_IceSculpture
 42513902:Karzelek_Tsereteli_Vortex
 42513905:Karzelek_Tsereteli_CreateIceCannon_IceBlock
@@ -4985,6 +5032,16 @@
 42915046:DrData_Erosion_Simulate_Shougun_ForceClearL
 42915047:DrData_Erosion_Simulate_Shougun_ForceClearR
 42915048:DrData_Erosion_Simulate_Shougun_ForceClearC
+42916001:Ronova_BigCrow
+42916006:Ronova_AreaAtk1
+42916007:Ronova_AreaAtk2
+42916008:Ronova_AreaAtk3
+42916009:Ronova_AreaAtk2_EyeWatch
+42916011:Ronova_AreaAtk2_Power
+42916012:Ronova_AreaAtk3_Power
+42916015:Ronova_SoulGadget1
+42916016:Ronova_SoulGadget2
+42916022:Ronova_SupportAtk_Damage
 43805005:Bullet_Animal_Electrohercules_ElectricBall_OnGround
 43805014:Animal_Electrohercules_Defend_Turorial
 43805019:Monster_Hili_None_ElectricHercules_ThrowBulletAimPoint
@@ -5238,6 +5295,7 @@
 49001080:GeneralSkill_FireDamage_TracingImpulse_ForHunting_DamageGadget
 49001081:Gadget_ThunderArea_ForCharMaster_Dehya
 49001084:Gadget_Activity_V6_3_MonsterChess2_DeathRattleImpulse
+49001086:Monster_TPSMercenaries_Debuff_Gadget_LifeBalance_Manager
 70000012:測試用闊葉
 70020001:蒙德城天氣
 70020002:風魔龍天氣
@@ -12668,6 +12726,7 @@
 70950235:Element_MoonCrystallize_Water_Bullet_MoonMode
 70950236:Element_StarSuperconductor_Field
 70950237:Element_StarSwirl_Ice_Gadget
+70950238:Element_StarSwirl_Vodyanitsa_Ice_Gadget
 70950239:Element_StarSuperconductor_Field_Dungeon
 70950240:Element_StarSuperconductor_Field_Shadow
 70950241:安裝
@@ -18106,6 +18165,62 @@
 73182035:SceneObj_Area_Zd_ForceField_02
 73182036:SceneObj_Area_Zd_ForceField_03
 73182038:SceneObj_Area_Zd_Eff_AsyncBuildHint_01
+73183001:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_01
+73183002:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Cube_01
+73183003:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Wall_01
+73183004:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Cube_02
+73183005:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_EliteCube_01
+73183006:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_BossCube_01
+73183007:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Wall_02
+73183008:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Wall_03
+73183009:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_PlayerBallDeadZone_01
+73183010:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_02
+73183011:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_03
+73183012:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_04
+73183013:SceneObj_Area_Common_Property_Ani_Prop_7_1_RogueBall_Bullet_01
+73183014:SceneObj_Area_Common_Property_Ani_Prop_7_1_RogueBall_Bullet_02
+73183015:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Treasure_01
+73183016:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Cube_03
+73183017:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_05
+73183018:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Paddle_01
+73183019:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_HealBall_01
+73183020:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_01_113
+73183021:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_10
+73183022:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_120
+73183023:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_130
+73183024:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_140
+73183025:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_230
+73183026:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_240
+73183027:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_EliteCube_02
+73183028:SceneObj_Area_Common_Property_Ani_Prop_7_1_RogueBall_Bullet_03
+73183029:SceneObj_Area_Common_Property_Ani_Prop_7_1_RogueBall_Bullet_04
+73183030:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_BossCube_02
+73183031:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_BossCube_03
+73183032:SceneObj_Area_Common_Property_Ani_Prop_7_1_RogueBall_Bullet_05_01
+73183033:SceneObj_Area_Common_Property_Ani_Prop_7_1_RogueBall_Bullet_05_02
+73183034:SceneObj_Area_Common_Property_Ani_Prop_7_1_RogueBall_Bullet_05_03
+73183035:SceneObj_Area_Common_Property_Ani_Prop_7_1_RogueBall_Bullet_05_04
+73183036:SceneObj_Area_Common_Property_Ani_Prop_7_1_RogueBall_Bullet_05_05
+73183037:SceneObj_Area_Common_Property_Ani_Prop_7_1_RogueBall_Bullet_06
+73183038:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Treasure_02
+73183039:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_ExpBall_01
+73183040:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_ExpBall_02
+73183041:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_100
+73183042:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_200
+73183043:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_300
+73183044:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Ball_400
+73183045:[N/A] 1702995390
+73183046:SceneObj_Area_Common_Property_Ani_Prop_RogueBall_Boss_WindZone_01
+73184001:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_SupplyPoint_01
+73184002:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_Sculpture_01
+73184003:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_Sculpture_02
+73184004:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_Sculpture_03
+73184007:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_FeverSculpture_01
+73184009:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_FeverSculptureFistPoint_01
+73184014:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_FeverSculptureWeakPoint_01
+73184015:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_Airwall
+73184019:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_SculptureAimTarget
+73184020:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_FeverSulptureBuff
 73185001:SceneObj_Level_Common_Property_Ani_Prop_Karzelek_Dancer_Npc_01
 73185002:SceneObj_Level_Common_Property_Ani_Prop_Karzelek_Zarubina_01
 73185003:SceneObj_Level_Common_Property_Ani_Prop_Karzelek_Tomilina_01
@@ -18115,6 +18230,22 @@
 73185007:SceneObj_Quest_DwarfSpiritDance_SpotLight02
 73185008:SceneObj_Quest_DwarfSpiritDance_SpotLight03
 73185009:SceneObj_Quest_DwarfSpiritDance_SpotLight01
+73187001:[N/A] 2222564742
+73187002:Monster_7_1_SummonBattle_Brute
+73187003:Monster_7_1_SummonBattle_Mandragora_Elite
+73187004:Monster_7_1_SummonBattle_ToothTrap
+73187005:Monster_7_1_SummonBattle_Tribalwarrior_Female_Standard_Launcher_Shamansaurus
+73187007:SceneObj_Level_Common_Property_Ani_Prop_SummonFlag_01
+73187008:SceneObj_Level_Common_Property_Ani_Prop_SummonFlag_02
+73187009:SceneObj_Level_Common_Property_Ani_Prop_SummonFlag_03
+73187010:SceneObj_Area_Common_Property_Ani_Prop_MysticCarriage_01_01
+73187011:SceneObj_Area_Common_Property_Ani_Prop_MysticCarriage_01
+73187012:SceneObj_Area_Common_Property_Ani_Prop_SummonFlag_Bullet_ToFlag_01
+73187013:SceneObj_Area_Common_Property_Ani_Prop_SummonFlag_Bullet_ToAvatar_01
+73187014:SceneObj_Toys_SurpriseBox_01
+73187015:SceneObj_Area_Common_Property_Ani_Prop_Yueliangdeng_01
+73187016:SceneObj_Area_Common_Property_Ani_Prop_MysticCarriage_02
+73187017:SceneObj_Area_Common_MonsterObj_Ani_Widget_FrostConductor_01
 73188001:[N/A] 207022286
 73188002:[N/A] 292832726
 73188003:SceneObj_Level_Common_Property_Ani_Prop_Dartboard_Lv_01
@@ -18181,6 +18312,94 @@
 73190029:SceneObj_Level_Property_Ani_Prop_WhiteTsarEnding_SoundEmptyGadget_01
 73194001:[N/A] 2956386406
 73194002:[N/A] 3174444390
+73195002:SceneObj_Area_Common_Property_Ani_Prop_VineManDoor_01_FuelDoor
+73195003:SceneObj_Area_Common_Property_Ani_Prop_VineManDoor_01_SpiritDoor
+73195004:SceneObj_Area_Common_Property_Ani_Prop_VineManFuel_01
+73195006:SceneObj_Area_Common_Property_Ani_Prop_VineManGoal_01
+73195008:SceneObj_Area_Common_Property_Ani_Prop_MaliceEnemyMine_01
+73195009:SceneObj_Area_Common_Property_Ani_Prop_MaliceObstacle_01
+73195011:SceneObj_Area_Common_Property_Ani_Prop_VineManDoor_01_InvinsibleBuffDoor
+73195012:SceneObj_Area_Common_Property_Ani_Prop_VineManDoor_01_MagnetBuffDoor
+73195014:SceneObj_Area_Common_Property_Ani_Prop_ChallengeEntrance_01
+73195015:SceneObj_Area_Common_Property_Ani_Prop_ChallengeEntrance_02
+73195016:SceneObj_Area_Common_Property_Ani_Prop_ChallengeEntrance_03
+73195017:SceneObj_Area_Common_Property_Ani_Prop_ChallengeEntrance_04
+73195018:SceneObj_Area_Common_Property_Ani_Prop_ChallengeEntrance_05
+73195019:SceneObj_Area_Common_Property_Ani_Prop_VineManRun_PlayerAirwall
+73195020:[N/A] 2467553598
+73196001:SceneObj_Area_Zd_Property_Ani_Prop_VaultGate_01
+73196002:SceneObj_Area_Zd_Property_Ani_Prop_GiantVaultGate_01
+73196003:SceneObj_Area_Zd_Property_Ani_Prop_TsaritsaPrismDiary_01
+73196004:SceneObj_Area_Zd_Property_Ani_Prop_LargeMemoryPrism_01
+73196005:SceneObj_Area_Zd_Property_Ani_Prop_VaultDungeonRadio_01
+73196006:SceneObj_Area_Zd_Property_Ani_Prop_LanYanCoin_01
+73196008:SceneObj_Area_Zd_Property_Ani_Prop_SmallDGdoor_01
+73196009:SceneObj_Area_Zd_Property_Ani_Prop_LargeDGdoor_01
+73196010:SceneObj_Area_Zd_Property_Ani_Prop_StoneDGdoor_01
+73196012:SceneObj_Area_Zd_Property_Ani_Prop_NLBankGate_01
+73196013:SceneObj_Quest_Zd_Property_Ani_Prop_VesnaTargetPoint_01
+73196014:SceneObj_Quest_Zd_Property_Ani_Prop_Vesna_SwordSprite_01
+73196015:SceneObj_Quest_Zd_Property_Ani_Prop_Vesna_SwordSprite_02
+73196016:SceneObj_Quest_Zd_Property_Ani_Prop_Vesna_SwordSprite_03
+73196017:SceneObj_Quest_Zd_Property_Ani_Prop_Vesna_SwordSprite_04
+73196018:SceneObj_Quest_Zd_Property_Ani_Prop_Vesna_SwordSprite_05
+73196019:SceneObj_Quest_Zd_Property_Ani_Prop_Vesna_SwordSprite_06
+73196020:SceneObj_Quest_Zd_Property_Ani_Prop_Vesna_SwordSprite_07
+73196022:SceneObj_Quest_Zd_Property_Ani_Prop_VaultCCTV_02
+73196023:SceneObj_Quest_Zd_Property_Ani_Prop_VaultTunnelEntrance_01
+73196024:SceneObj_Quest_Zd_Property_Ani_Prop_VaultScanDevice_01
+73196025:SceneObj_Quest_Zd_Property_Ani_Prop_VaultScanDevice_02
+73196026:SceneObj_Quest_Zd_Property_Ani_Prop_NorthlandBankID_01
+73196027:SceneObj_Quest_Zd_Property_Ani_Prop_SnezhnayaCook_01
+73196028:SceneObj_Quest_Zd_Property_Ani_Prop_SnezhnayaCook_02
+73196029:SceneObj_Quest_Zd_Property_Ani_Prop_NorthlandBankID_02
+73196030:SceneObj_Quest_Zd_Property_Ani_Prop_NorthlandBankID_03
+73196031:SceneObj_Quest_Zd_Property_Ani_Prop_NorthlandBankID_04
+73196032:SceneObj_Quest_Zd_Property_Ani_Prop_LakeCooperationLK_01
+73196033:SceneObj_Quest_Zd_Property_Ani_Prop_LakeCooperationFL_01
+73196036:SceneObj_Quest_Zd_Property_Ani_Prop_BankMachineGun_01
+73196038:SceneObj_Quest_Zd_Property_Ani_Prop_IceCrystalClusterTrap_01
+73196042:SceneObj_Quest_LY_Property_Ani_Prop_Soulrestraint_01
+73196043:進入
+73196044:SceneObj_Quest_Zd_Property_Ani_Prop_IceSpike_Warning_01
+73196045:SceneObj_Quest_Zd_Property_Ani_Prop_IceSpike_04
+73196046:[N/A] 2252866870
+73196047:[N/A] 1712568766
+73196048:[N/A] 2150836286
+73196049:SceneObj_Quest_Zd_Property_Ani_Prop_MarkOfLife_01
+73196051:SceneObj_Quest_LY_Property_Ani_Prop_LakeCooperationFire_01
+73196052:SceneObj_Quest_Zd_Property_Ani_Prop_MarkOfLife_02
+73196054:SceneObj_Quest_Zd_Property_Ani_Prop_FirstPersonDinner_BoyORGirl_01
+73196055:SceneObj_Quest_Zd_Property_Ani_Prop_EmpressIceSculpture_01
+73196056:調查
+73196057:[N/A] 2723516518
+73196058:[N/A] 3044547694
+73196059:[N/A] 1732232406
+73196061:SceneObj_Area_Zd_Property_Ani_Prop_StoneDGdoor_02
+73196062:[N/A] 3095940262
+73196063:[N/A] 3285779470
+73196064:[N/A] 3624749310
+73196065:SceneObj_Quest_Zd_Property_Ani_Prop_VaultRadioArea_01
+73196066:SceneObj_Quest_Zd_Property_Ani_Prop_VaultRadioArea_02
+73196067:SceneObj_Quest_Zd_Property_Ani_Prop_VaultRadioArea_03
+73196068:[N/A] 2958127590
+73196069:[N/A] 362013734
+73196070:[N/A] 1186429998
+73196071:[N/A] 957241414
+73196072:[N/A] 2680522070
+73196073:SceneObj_Area_Zd_Property_Ani_Prop_GiantVaultGate_02
+73196074:SceneObj_Property_Ani_Prop_SnezhnayaHumOpertor_01
+73196075:觀賞景色
+73196076:SceneObj_Quest_Zd_Property_Ani_Prop_BankMachineGunBox_01
+73196081:[N/A] 4026607854
+73196082:[N/A] 2962292814
+73196083:[N/A] 4122649694
+73196084:[N/A] 1682248942
+73196085:[N/A] 1692181942
+73196086:[N/A] 1875881022
+73196087:[N/A] 2861212894
+73196088:[N/A] 3332226478
+73196089:SceneObj_Area_LY_Property_Ani_Prop_GlideChampOrb_02
 73198001:[N/A] 4105914454
 73198003:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
 73198004:[N/A] 2243582294
@@ -18211,7 +18430,43 @@
 73198032:[N/A] 3317784630
 73198033:[N/A] 1139135686
 73200014:[N/A] 969746918
+73202002:SceneObj_Area_Common_Property_Ani_Prop_CricketFight_GamblingChessScreen_01
+73203001:[N/A] 3955208286
+73203002:[N/A] 3281010998
+73203003:[N/A] 2218457190
+73203004:[N/A] 1040118934
+73203005:[N/A] 2106551734
+73203006:[N/A] 2333408446
+73203007:[N/A] 628224142
+73203008:[N/A] 3549743270
 73204001:[N/A] 2016398398
+73211001:[N/A] 8081878
+73211002:[N/A] 1441390814
+73211003:[N/A] 559088918
+73211004:[N/A] 1888030742
+73211005:[N/A] 3856713126
+73211006:[N/A] 2008230390
+73211007:[N/A] 934308150
+73211008:[N/A] 3481767414
+73211009:[N/A] 4033068094
+73211010:[N/A] 2578803126
+73211011:[N/A] 2220736910
+73211012:[N/A] 4148685878
+73211013:[N/A] 2960030934
+73211014:[N/A] 4115618150
+73211016:[N/A] 466851150
+73214001:[N/A] 618523046
+73214002:[N/A] 2453777438
+73214003:[N/A] 2905844782
+73214004:[N/A] 517162382
+73214005:[N/A] 2865970502
+73214006:[N/A] 3847012774
+73214007:[N/A] 1521055166
+73214008:[N/A] 1873315158
+73214009:[N/A] 2932809206
+73214010:[N/A] 3242934598
+73214011:[N/A] 1103153398
+73214012:[N/A] 2569648534
 74001001:SceneObj_Area_Nt_Prop_AncientNameCollecter_03
 74001002:[N/A] 3639112446
 74001003:[N/A] 2911007494
@@ -18925,6 +19180,74 @@
 74044026:[N/A] 2071997542
 74044027:[N/A] 1813343462
 74044028:[N/A] 4200077766
+74045002:[N/A] 4184619334
+74045003:SceneObj_Area_Zd_Property_Ani_Prop_DeadSpace_Camera_01
+74045004:SceneObj_Gear_Platform_Seelie_disableTickDistance10000
+74045005:SceneObj_Area_Zd_Property_Ani_Prop_Elevator_01
+74045006:[N/A] 218214510
+74045007:SceneObj_Area_Zd_Property_Ani_Prop_AbyssalOperator_01
+74045008:SceneObj_Area_Ndkl_Property_Ani_Prop_NkDrinksCupEmpty_01
+74045009:SceneObj_Area_Ndkl_Property_Ani_Prop_NkDrinksCupEmpty_01
+74045010:[N/A] 2631453134
+74045012:[N/A] 2963645790
+74045013:SceneObj_Area_Ndkl_Property_Ani_Prop_TsaritsaPrismDiary_01
+74045014:SceneObj_Area_Ndkl_Property_Ani_Prop_LargeMemoryPrism_01
+74045015:[N/A] 1003470222
+74045016:SceneObj_Area_Zd_Property_Ani_Prop_DeadSpace_Camera_01
+74045017:SceneObj_Eff_SceneObj_Quset_RonovaAirwall_01
+74045018:SceneObj_Eff_Zd_Quset_DeadSapaceEyes_01
+74045019:SceneObj_Area_Zd_Property_Ani_Prop_DeadSpace_BrokenStair_01
+74045020:[N/A] 3442220302
+74045021:SceneObj_Eff_Zd_Quset_DeadSapaceEyes_02
+74045022:SceneObj_Eff_Zd_Quset_DeadSapaceEyes_03
+74045023:SceneObj_Eff_Zd_Quset_DeadSapaceEyes_04
+74045025:SceneObj_Eff_Zd_Quset_DSBSFloatingTrain_01
+74045026:[N/A] 3862450326
+74045028:SceneObj_Area_Zd_Property_Ani_Prop_FAPGuanzi_02
+74045029:SceneObj_Area_Zd_Property_Ani_Prop_FAPGuanzi_01
+74045030:SceneObj_Stages_Common_Property_Ani_Prop_TheSagesNotes_01
+74045031:[N/A] 2076765366
+74045032:SceneObj_Area_Zd_Property_Ani_Prop_FAPGate_01
+74045034:[N/A] 2382601334
+74045035:[N/A] 3829749806
+74045036:[N/A] 1358126438
+74045037:[N/A] 2695273526
+74045038:[N/A] 1045078182
+74045039:[N/A] 1416173710
+74045040:[N/A] 1360481478
+74045041:[N/A] 3011315950
+74045042:[N/A] 2567096518
+74045043:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200601
+74045044:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200602
+74045045:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200603
+74045046:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200604
+74045047:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200605
+74045048:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200606
+74045049:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200607
+74045050:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200608
+74045051:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200609
+74045052:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200610
+74045053:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200611
+74045054:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200612
+74045055:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200613
+74045056:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200614
+74045057:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200615
+74045058:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200616
+74045059:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200617
+74045060:SceneObj_Area_Common_Property_Ani_Prop_V71_3DText_70200618
+74045061:SceneObj_Area_Common_Property_Ani_Prop_GnosisAnemo_01
+74045062:SceneObj_Area_Common_Property_Ani_Prop_GnosisCyro_01
+74045063:SceneObj_Area_Common_Property_Ani_Prop_GnosisDendro_01
+74045064:SceneObj_Area_Common_Property_Ani_Prop_GnosisElectro_01
+74045065:SceneObj_Area_Common_Property_Ani_Prop_GnosisGeo_01
+74045066:SceneObj_Area_Common_Property_Ani_Prop_GnosisHydro_01
+74045067:[N/A] 1939743126
+74045068:[N/A] 3719204190
+74045069:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74045070:[N/A] 1440510278
+74045072:SceneObj_Scene_RockGadget_Summon_Detect
+74045073:SceneObj_Area_Common_Property_Ani_Prop_Fire_R0.3
+74045074:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
 74046001:[N/A] 3204725174
 74046002:[N/A] 2859755838
 74046003:[N/A] 311576662
@@ -18949,6 +19272,7 @@
 74046022:SceneObj_Area_Zd_Property_Ani_Prop_HeatingSource_01
 74046023:[N/A] 2087527542
 74046024:[N/A] 699041854
+74046025:[N/A] 2905541950
 74047001:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
 74047002:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
 74047004:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
@@ -19024,6 +19348,20 @@
 74047075:[N/A] 4050269350
 74047076:SceneObj_Area_Zd_Property_Ani_Prop_HorizontalCamera_01
 74047077:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74048002:[N/A] 1015130374
+74048003:[N/A] 1893486950
+74048004:[N/A] 3345233966
+74048005:[N/A] 160319886
+74048006:[N/A] 2169126134
+74048007:[N/A] 2142146862
+74048008:[N/A] 827251854
+74048009:[N/A] 4027092062
+74048010:[N/A] 2059830758
+74048011:[N/A] 2549564542
+74048012:[N/A] 2251946206
+74048013:SceneObj_Area_Cyg_Property_Ani_Prop_ShootingStatue_02
+74048014:SceneObj_Level_Nt_Property_Ani_Prop_MonsterCountFieldzyj_01
+74048015:[N/A] 952895670
 74049001:[N/A] 744508622
 74049002:[N/A] 299075758
 74049003:[N/A] 3354240494
@@ -19066,6 +19404,71 @@
 74049040:[N/A] 387838326
 74050001:[N/A] 4151298118
 74050003:[N/A] 2387650958
+74051001:[N/A] 618815606
+74051002:SceneObj_Area_ZD_Property_Ani_Prop_Toy_01
+74051003:[N/A] 4232473758
+74051004:[N/A] 4227173446
+74051005:[N/A] 3132605894
+74051006:SceneObj_Property_Ani_Prop_EmpressChess
+74051008:SceneObj_Property_Ani_Prop_EmpressChess
+74051009:SceneObj_Property_Ani_Prop_EmpressChess
+74051010:SceneObj_Property_Ani_Prop_EmpressChess
+74051011:SceneObj_Property_Ani_Prop_EmpressChess
+74051012:SceneObj_Property_Ani_Prop_EmpressChess
+74051013:SceneObj_Property_Ani_Prop_EmpressChess
+74051014:SceneObj_Property_Ani_Prop_EmpressChess
+74051015:SceneObj_Property_Ani_Prop_EmpressChess
+74051016:SceneObj_Property_Ani_Prop_EmpressChess
+74051017:SceneObj_Property_Ani_Prop_EmpressChess
+74051018:SceneObj_Property_Ani_Prop_EmpressChess
+74051019:SceneObj_Property_Ani_Prop_EmpressChess
+74051020:[N/A] 911652030
+74051021:[N/A] 1319013822
+74051022:[N/A] 2809203910
+74051023:[N/A] 2017268174
+74051024:[N/A] 409644382
+74051025:[N/A] 565768606
+74051026:[N/A] 195512734
+74051027:[N/A] 423293974
+74051028:[N/A] 327425078
+74051031:[N/A] 4274101694
+74052001:[N/A] 2729148734
+74052002:[N/A] 1441773878
+74052003:[N/A] 1770581454
+74052004:[N/A] 1780199430
+74052005:[N/A] 2997915998
+74052006:[N/A] 3413517566
+74052007:[N/A] 1305370006
+74052008:[N/A] 3874350326
+74052009:[N/A] 3087572358
+74053001:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053002:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053004:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053005:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053007:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053008:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053010:SceneObj_Area_Zd_Property_SnezhnayaTrain_Interior_CarriageWallpaper
+74053011:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053012:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053013:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053014:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053015:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053016:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053017:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053018:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053019:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053020:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053021:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053022:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053023:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053024:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053025:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053026:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053027:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053028:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053029:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053030:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
+74053031:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
 77002001:樂高1
 77002002:樂高2
 77002003:樂高3
@@ -19816,6 +20219,7 @@
 77108043:「常伴夢鄉」
 77108044:「為誰而閃亮的」
 77108045:室內檯燈-「柔光」
+77108046:「皎月送秋燕」
 77109001:歐洲風格的床-家園物件
 77109002:中式床-家園物件
 77109003:稻妻床-家園物件
@@ -19972,6 +20376,7 @@
 77112060:「維恩歌萊之幟」
 77112061:「金色的冬天」
 77112062:「誰所追尋的愛」
+77112063:「純粹之意」
 77115001:一堆書-家園物件
 77115002:一摞書-家園物件
 77115003:文房四寶-家園物件
@@ -20042,6 +20447,7 @@
 77115076:大大冒險家·勤奮
 77115077:大大冒險家·快樂
 77115078:大大冒險家·鬥志
+77115080:至冬娃娃玩具-「冬雪春型」
 77190001:畫架白盒（正式勿用此id）-家園物件
 77200001:紅頂的雜貨攤位-家園物件
 77200002:藍頂的水果攤位-家園物件
@@ -20443,6 +20849,10 @@
 77201021:至冬民居-「典雅雕花」
 77201022:「迴響於暴風雪」
 77201023:「溫暖爐火」
+77201024:城鎮小攤-「新鮮之味」
+77201025:城鎮小攤-「節約時間」
+77201026:城鎮小攤-「愜意時刻」
+77201027:「緣於朝賀的贈禮」
 77203001:收納著碗的桌子-家園物件
 77203002:放著一些工具的鍛造桌-家園物件
 77203003:木頭方桌-家園物件
@@ -20879,6 +21289,10 @@
 77204401:「於銀白羽翼下起舞」
 77204402:「雪鵠背脊」
 77204403:「哐哐噹噹雀雀球·水妖」
+77204404:「騙騙花大王」
+77204405:驅邪藤人-「銀燕祛穢」
+77204406:「游魚與水中歌」
+77204407:「怪怪角鴞」
 77205001:木質長椅-家園物件
 77205002:石質的長椅-家園物件
 77205003:谷歌椅子-家園物件
@@ -21019,6 +21433,8 @@
 77208086:可移動小型射燈
 77208087:立式路燈-「霧夜引路」
 77208088:「如鳥雀般對鳴」
+77208089:「月彩滿通衢」
+77208090:「錢途閃閃」
 77210001:菜架子-家園物件
 77213001:帶花的草叢-家園物件
 77213002:空空的草叢-家園物件
@@ -21208,6 +21624,17 @@
 77213186:「無聲的期盼」
 77213187:「層層疊疊之葉」
 77213188:「野火飄搖」
+77213189:「泊洑葦蕩」
+77213190:「遞情的枯幹」
+77213191:「實用的芯板」
+77213192:「藏雪的簷傘」
+77213193:「繪夢的色彩」
+77213194:「唬駭的詭影」
+77213195:「巧緻的紋理」
+77213196:「不屈的衛士」
+77213197:「野下霜叢」
+77213198:[N/A] 3805062574
+77213199:「瑩瑩萃珍」
 77214001:小型石堆-家園物件
 77214002:中型石堆-家園物件
 77214003:大塊石頭-家園物件
@@ -21242,6 +21669,12 @@
 77214032:「新月的浪潮」
 77214033:「寶藏守衛」
 77214034:「大地的鈍角」
+77214035:分道石
+77214036:種育石
+77214037:鳥築石
+77214038:「雪原利齒」
+77214039:[N/A] 923112774
+77214040:去廢石
 77215001:旅行人的書堆-家園物件
 77215002:木質細圍欄-家園物件
 77215003:木質細圍欄2-家園物件
@@ -21970,6 +22403,26 @@
 77401916:[N/A] 3490170953
 77401917:SceneObject_Hallworld_Ani_Msqy_Prop_Pao_01
 77401919:SceneObject_Hallworld_Ani_Msqy_Prop_MagicHat_01
+77402000:SceneObject_Hallworld_Ani_Common_Prop_CrystalBall_01
+77402001:[N/A] 2659208553
+77402002:[N/A] 3279405465
+77402003:[N/A] 2164329929
+77402004:[N/A] 283521073
+77402005:[N/A] 2559965497
+77402006:[N/A] 3103031497
+77402007:[N/A] 346618257
+77402008:[N/A] 1354551777
+77402009:[N/A] 1180415257
+77402010:[N/A] 1496234361
+77402011:[N/A] 2905580553
+77402012:[N/A] 2632677529
+77402013:[N/A] 4097222945
+77402014:[N/A] 1761737945
+77402015:SceneObject_Hallworld_Ani_Xymj_Prop_Paimeng_01
+77402016:SceneObject_Hallworld_Ani_Xymj_Prop_Yutu_01
+77402018:SceneObject_Hallworld_Ani_Xymj_Prop_Suizi_01
+77402019:SceneObject_Hallworld_Ani_Xymj_Prop_Gaoshipai_01
+77402021:SceneObject_Hallworld_Xymj_Medicine_Ground_01
 77500001:[N/A] 4118654865
 77500002:[N/A] 4158606561
 77500003:[N/A] 3688719865
@@ -24509,6 +24962,229 @@
 80902230:SceneObj_Beyond_Test
 80902231:SceneObj_Beyond_Test
 80902232:SceneObj_Beyond_Test
+80902233:SceneObj_Beyond_Test
+80902234:SceneObj_Beyond_Test
+80902235:SceneObj_Beyond_Test
+80902236:SceneObj_Beyond_Test
+80902237:SceneObj_Beyond_Test
+80902238:SceneObj_Beyond_Test
+80902239:SceneObj_Beyond_Test
+80902240:SceneObj_Beyond_Test
+80902241:SceneObj_Beyond_Test
+80902242:SceneObj_Beyond_Test
+80902243:SceneObj_Beyond_Test
+80902244:SceneObj_Beyond_Test
+80902245:SceneObj_Beyond_Test
+80902246:SceneObj_Beyond_Test
+80902247:SceneObj_Beyond_Test
+80902248:SceneObj_Beyond_Test
+80902249:SceneObj_Beyond_Test
+80902250:SceneObj_Beyond_Test
+80902251:SceneObj_Beyond_Test
+80902252:SceneObj_Beyond_Test
+80902253:SceneObj_Beyond_Test
+80902254:SceneObj_Beyond_Test
+80902255:SceneObj_Beyond_Test
+80902256:SceneObj_Beyond_Test
+80902257:SceneObj_Beyond_Test
+80902258:SceneObj_Beyond_Test
+80902259:SceneObj_Beyond_Test
+80902260:SceneObj_Beyond_Test
+80902261:SceneObj_Beyond_Test
+80902262:SceneObj_Beyond_Test
+80902263:SceneObj_Beyond_Test
+80902264:SceneObj_Beyond_Test
+80902265:SceneObj_Beyond_Test
+80902266:SceneObj_Beyond_Test
+80902267:SceneObj_Beyond_Test
+80902268:SceneObj_Beyond_Test
+80902269:SceneObj_Beyond_Test
+80902270:SceneObj_Beyond_Test
+80902271:SceneObj_Beyond_Test
+80902272:SceneObj_Beyond_Test
+80902273:SceneObj_Beyond_Test
+80902274:SceneObj_Beyond_Test
+80902275:SceneObj_Beyond_Test
+80902276:SceneObj_Beyond_Test
+80902277:SceneObj_Beyond_Test
+80902278:SceneObj_Beyond_Test
+80902279:SceneObj_Beyond_Test
+80902280:SceneObj_Beyond_Test
+80902281:SceneObj_Beyond_Test
+80902282:SceneObj_Beyond_Test
+80902283:SceneObj_Beyond_Test
+80902284:SceneObj_Beyond_Test
+80902285:SceneObj_Beyond_Test
+80902286:SceneObj_Beyond_Test
+80902287:SceneObj_Beyond_Test
+80902288:SceneObj_Beyond_Test
+80902289:SceneObj_Beyond_Test
+80902290:SceneObj_Beyond_Test
+80902291:SceneObj_Beyond_Test
+80902292:SceneObj_Beyond_Test
+80902293:SceneObj_Beyond_Test
+80902294:SceneObj_Beyond_Test
+80902295:SceneObj_Beyond_Test
+80902296:SceneObj_Beyond_Test
+80902297:SceneObj_Beyond_Test
+80902298:SceneObj_Beyond_Test
+80902299:SceneObj_Beyond_Test
+80902300:SceneObj_Beyond_Test
+80902301:SceneObj_Beyond_Test
+80902302:SceneObj_Beyond_Test
+80902303:SceneObj_Beyond_Test
+80902304:SceneObj_Beyond_Test
+80902305:SceneObj_Beyond_Test
+80902306:SceneObj_Beyond_Test
+80902307:SceneObj_Beyond_Test
+80902308:SceneObj_Beyond_Test
+80902309:SceneObj_Beyond_Test
+80902310:SceneObj_Beyond_Test
+80902311:SceneObj_Beyond_Test
+80902312:SceneObj_Beyond_Test
+80902313:SceneObj_Beyond_Test
+80902314:SceneObj_Beyond_Test
+80902315:SceneObj_Beyond_Test
+80902316:SceneObj_Beyond_Test
+80902317:SceneObj_Beyond_Test
+80902318:SceneObj_Beyond_Test
+80902319:SceneObj_Beyond_Test
+80902320:SceneObj_Beyond_Test
+80902321:SceneObj_Beyond_Test
+80902322:SceneObj_Beyond_Test
+80902323:SceneObj_Beyond_Test
+80902324:SceneObj_Beyond_Test
+80902325:SceneObj_Beyond_Test
+80902326:SceneObj_Beyond_Test
+80902327:SceneObj_Beyond_Test
+80902328:SceneObj_Beyond_Test
+80902329:SceneObj_Beyond_Test
+80902330:SceneObj_Beyond_Test
+80902331:SceneObj_Beyond_Test
+80902332:SceneObj_Beyond_Test
+80902333:SceneObj_Beyond_Test
+80902334:SceneObj_Beyond_Test
+80902335:SceneObj_Beyond_Test
+80902336:SceneObj_Beyond_Test
+80902337:SceneObj_Beyond_Test
+80902338:SceneObj_Beyond_Test
+80902339:SceneObj_Beyond_Test
+80902340:SceneObj_Beyond_Test
+80902341:SceneObj_Beyond_Test
+80902342:SceneObj_Beyond_Test
+80902343:SceneObj_Beyond_Test
+80902344:SceneObj_Beyond_Test
+80902345:SceneObj_Beyond_Test
+80902346:SceneObj_Beyond_Test
+80902347:SceneObj_Beyond_Test
+80902348:SceneObj_Beyond_Test
+80902349:SceneObj_Beyond_Test
+80902350:SceneObj_Beyond_Test
+80902351:SceneObj_Beyond_Test
+80902352:SceneObj_Beyond_Test
+80902353:SceneObj_Beyond_Test
+80902354:SceneObj_Beyond_Test
+80902355:SceneObj_Beyond_Test
+80902356:SceneObj_Beyond_Test
+80902357:SceneObj_Beyond_Test
+80902358:SceneObj_Beyond_Test
+80902359:SceneObj_Beyond_Test
+80902360:SceneObj_Beyond_Test
+80902361:SceneObj_Beyond_Test
+80902362:SceneObj_Beyond_Test
+80902363:SceneObj_Beyond_Test
+80902364:SceneObj_Beyond_Test
+80902365:SceneObj_Beyond_Test
+80902366:SceneObj_Beyond_Test
+80902367:SceneObj_Beyond_Test
+80902368:SceneObj_Beyond_Test
+80902369:SceneObj_Beyond_Test
+80902370:SceneObj_Beyond_Test
+80902371:SceneObj_Beyond_Test
+80902372:SceneObj_Beyond_Test
+80902373:SceneObj_Beyond_Test
+80902374:SceneObj_Beyond_Test
+80902375:SceneObj_Beyond_Test
+80902376:SceneObj_Beyond_Test
+80902377:SceneObj_Beyond_Test
+80902378:SceneObj_Beyond_Test
+80902379:SceneObj_Beyond_Test
+80902380:SceneObj_Beyond_Test
+80902381:SceneObj_Beyond_Test
+80902382:SceneObj_Beyond_Test
+80902383:SceneObj_Beyond_Test
+80902384:SceneObj_Beyond_Test
+80902385:SceneObj_Beyond_Test
+80902386:SceneObj_Beyond_Test
+80902387:SceneObj_Beyond_Test
+80902388:SceneObj_Beyond_Test
+80902389:SceneObj_Beyond_Test
+80902390:SceneObj_Beyond_Test
+80902391:SceneObj_Beyond_Test
+80902392:SceneObj_Beyond_Test
+80902393:SceneObj_Beyond_Test
+80902394:SceneObj_Beyond_Test
+80902395:SceneObj_Beyond_Test
+80902396:SceneObj_Beyond_Test
+80902397:SceneObj_Beyond_Test
+80902398:SceneObj_Beyond_Test
+80902399:SceneObj_Beyond_Test
+80902400:SceneObj_Beyond_Test
+80902401:SceneObj_Beyond_Test
+80902402:SceneObj_Beyond_Test
+80902403:SceneObj_Beyond_Test
+80902404:SceneObj_Beyond_Test
+80902405:SceneObj_Beyond_Test
+80902406:SceneObj_Beyond_Test
+80902407:SceneObj_Beyond_Test
+80902408:SceneObj_Beyond_Test
+80902409:SceneObj_Beyond_Test
+80902410:SceneObj_Beyond_Test
+80902411:SceneObj_Beyond_Test
+80902412:SceneObj_Beyond_Test
+80902413:SceneObj_Beyond_Test
+80902414:SceneObj_Beyond_Test
+80902415:SceneObj_Beyond_Test
+80902416:SceneObj_Beyond_Test
+80902417:SceneObj_Beyond_Test
+80902418:SceneObj_Beyond_Test
+80902419:SceneObj_Beyond_Test
+80902420:SceneObj_Beyond_Test
+80902421:SceneObj_Beyond_Test
+80902422:SceneObj_Beyond_Test
+80902423:SceneObj_Beyond_Test
+80902424:SceneObj_Beyond_Test
+80902425:SceneObj_Beyond_Test
+80902426:SceneObj_Beyond_Test
+80902427:SceneObj_Beyond_Test
+80902428:SceneObj_Beyond_Test
+80902429:SceneObj_Beyond_Test
+80902430:SceneObj_Beyond_Test
+80902431:SceneObj_Beyond_Test
+80902432:SceneObj_Beyond_Test
+80902433:SceneObj_Beyond_Test
+80902434:SceneObj_Beyond_Test
+80902435:SceneObj_Beyond_Test
+80902436:SceneObj_Beyond_Test
+80902437:SceneObj_Beyond_Test
+80902438:SceneObj_Beyond_Test
+80902439:SceneObj_Beyond_Test
+80902440:SceneObj_Beyond_Test
+80902441:SceneObj_Beyond_Test
+80902442:SceneObj_Beyond_Test
+80902443:SceneObj_Beyond_Test
+80902444:SceneObj_Beyond_Test
+80902445:SceneObj_Beyond_Test
+80902446:SceneObj_Beyond_Test
+80902447:SceneObj_Beyond_Test
+80902448:SceneObj_Beyond_Test
+80902449:SceneObj_Beyond_Test
+80902450:SceneObj_Beyond_Test
+80902451:SceneObj_Beyond_Test
+80902452:SceneObj_Beyond_Test
+80902453:SceneObj_Beyond_Test
+80902454:SceneObj_Beyond_Test
+80902455:SceneObj_Beyond_Test
 90000003:引導者派蒙
 90000006:NPC_Guide_Paimon_UnderWater
 90000008:[CHS] - test开启
@@ -24706,6 +25382,7 @@
 73077290:SceneObj_Environment_UnderwaterField_SpeedupField_Firmament
 73103015:SceneObj_Environment_WindField_SpeedupField_Hexenzirkel
 73122057:SceneObj_Environment_WindField_SpeedupField_Firmament_Once
+73196034:SceneObj_Quest_LY_Property_Ani_Prop_SpeedupField_01
 
 // 采集物品
 41029005:禽肉（小）
@@ -25504,6 +26181,12 @@
 73176030:虹滴晶
 73176032:虹滴晶
 73176072:冰醋栗
+73176120:冰醋栗
+73176121:雪球花
+73176122:霜仙花
+73176123:紅甜菜
+73176124:金蕨
+73176125:植絨草
 73198020:拾取
 73198021:拾取
 73198022:拾取
@@ -27305,6 +27988,20 @@
 73182016:SceneObj_Area_Zd_Property_Ani_Prop_SeaWoodenBox_01
 73182018:SceneObj_Area_Zd_Property_Ani_Prop_HookTarget_DriveMove_Platform
 73182019:SceneObj_Area_Zd_Prop_Common_Xueqiao_01
+73184008:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_FeverSculptureFist_01
+73184010:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_NormalEnemy_01
+73184011:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_RareEnemy_01
+73184012:SceneObj_Area_Common_Property_Ani_Prop_SnowballFight_EliteEnemy_01
+73195005:SceneObj_Area_Common_Property_Ani_Prop_VineManSpirit_01
+73195007:SceneObj_Area_Common_Property_Ani_Prop_MaliceEnemy_01
+73195013:SceneObj_Area_Common_Property_Ani_Prop_MaliceEnemy_VisualOnly_01
+73196007:SceneObj_Area_Zd_Property_Ani_Prop_VaultLazer_01
+73196021:SceneObj_Quest_Zd_Property_Ani_Prop_VaultCCTV_01
+73196039:SceneObj_Quest_Zd_Property_Ani_Prop_IceSpike_01
+73196040:SceneObj_Quest_Zd_Property_Ani_Prop_IceSpike_02
+73196041:SceneObj_Quest_Zd_Property_Ani_Prop_IceSpike_03
+73196050:SceneObj_Quest_LY_Property_Ani_Prop_LakeCooperationBullet_01
+73196060:SceneObj_Area_Zd_Property_Ani_Prop_VaultLazer_02
 73200001:SceneObj_Area_Zd_Property_Ani_Prop_Chandelier
 73200002:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform
 73200003:SceneObj_Area_Nt_Property_Ani_Prop_Common_SimplePlatform
@@ -27340,6 +28037,10 @@
 74039041:SceneObj_Area_Ndkl_Property_Ani_Prop_NRPlatformi_04
 74039042:SceneObj_Area_Ndkl_Property_Ani_Prop_NRPlatformi_05
 74044016:SceneObj_Level_Zd_Property_Ani_Prop_FallingTrain_02
+74045011:SceneObj_Area_Zd_Property_Ani_Prop_VolumeCloud_01
+74045024:SceneObj_Property_Ani_Prop_FAPOperator
+74045071:SceneObj_Stages_Common_Property_Ani_Prop_MarkOfLife_02
+74048001:SceneObj_Quest_LY_Property_Ani_Prop_LakeCooperationPT_ControlPlatform_01
 77200117:電梯-家園物件
 77401001:SceneObject_Hallworld_Ani_Yly_Build_FerrisWheel_01
 77401002:SceneObject_Hallworld_Ani_Yly_Build_FerrisWheel_01_Sit
@@ -27352,6 +28053,7 @@
 77401014:SceneObject_Hallworld_Ani_Yly_Build_RotateCup_01_Sit
 77401015:SceneObject_Hallworld_Ani_Yly_Build_RotateCup_01_Sit
 77401825:SceneObject_Hallworld_Ani_Xrht_Build_Jianzhu_02
+77402017:SceneObject_Hallworld_Ani_Xymj_Prop_Qiuqian_01
 707111112:SceneObj_Penumbra_Common_Property_Ani_Prop_QuestPlatformMove_01
 707111113:SceneObj_Penumbra_Common_Property_Ani_Prop_QuestPlatformMove_01
 
@@ -27411,6 +28113,7 @@
 45008003:SceneObj_Area_Zd_Property_Ani_Prop_Snowball_Official_01
 45008004:SceneObj_Area_Zd_Property_Ani_Prop_Snowball_Activity_01
 45008010:SceneObj_Activity_Ani_Prop_HumanisticPlay_SnowBall_Vehicle_01
+45008040:Vehicle_VineManRunDoll_01
 
 // 怪物装备
 50004001:木棍
@@ -27666,6 +28369,8 @@
 50011434:Weapon_Sword_Metal
 50011435:Weapon_Sword_Metal
 50011436:Weapon_Sword_Metal
+50011437:Weapon_Sword_Metal
+50011438:Weapon_Sword_Metal
 50011501:風鷹劍-Equip_Sword_Falcon
 50011502:天空之刃-Equip_Sword_Dvalin
 50011503:蒼古自由之誓-Equip_Sword_Widsith
@@ -27687,6 +28392,7 @@
 50011519:Weapon_Sword_Metal
 50011520:Weapon_Sword_Metal
 50011521:Weapon_Sword_Metal
+50011522:Weapon_Sword_Metal
 50012101:訓練大劍-Equip_Claymore_Aniki
 50012201:傭兵重劍-Equip_Claymore_Oyaji
 50012301:鐵影闊劍-Equip_Claymore_Glaive
@@ -27819,6 +28525,7 @@
 50014434:Catalyst_Ball
 50014435:Catalyst_Ball
 50014436:Catalyst_Ball
+50014437:Catalyst_Ball
 50014501:天空之卷-Equip_Catalyst_Dvalin
 50014502:四風原典-Equip_Catalyst_Fourwinds
 50014503:黎明破曉之史-Equip_Catalyst_Widsith
@@ -27840,6 +28547,7 @@
 50014521:Catalyst_Ball
 50014522:Catalyst_Ball
 50014523:Catalyst_Ball
+50014524:Catalyst_Ball
 50015101:獵弓-Equip_Bow_Hunters
 50015201:歷練的獵弓-Equip_Bow_Old
 50015301:鴉羽弓-Equip_Bow_Crowfeather
@@ -27878,6 +28586,7 @@
 50015434:Weapon_Bow_Metal
 50015435:Weapon_Bow_Metal
 50015436:Weapon_Bow_Metal
+50015437:Weapon_Bow_Metal
 50015501:天空之翼-Equip_Bow_Dvalin
 50015502:阿莫斯之弓-Equip_Bow_Amos
 50015503:終末嗟嘆之詩-Equip_Bow_Widsith
@@ -28542,7 +29251,16 @@
 73176044:SceneObj_Area_Zd_Property_Ani_Prop_DriftingIce_01
 73177008:SceneObj_Area_Fd_Property_Ani_Prop_MecDragonfly
 73181005:SceneObj_Area_NodKrai_Property_Orca_CurveMove_01
+73195010:SceneObj_Area_Common_Property_Ani_Prop_MaliceEnemyFollowTarget_01
+73196011:SceneObj_Area_Zd_Property_Ani_Prop_VaultTrain_01
+73196037:SceneObj_Quest_Zd_Property_Ani_Prop_FlyingSwordSoul_01
+73196053:SceneObj_Quest_Zd_Property_Ani_Prop_VaultTrain_02
+74045027:SceneObj_Area_Zd_Property_Ani_Prop_TransferStationTrain_02
+74045033:SceneObj_Stages_Common_Property_Ani_Prop_MarkOfLife_01
 74047055:SceneObj_Area_Zd_Property_Ani_Prop_TransferStationTrain_01
+74051029:SceneObj_Area_Zd_Property_Ani_Prop_TransferStationTrain_01
+74051030:SceneObj_Area_Zd_Property_Ani_Prop_TransferStationTrain_01
+74053009:SceneObj_Area_Zd_Property_Ani_Prop_PlayerTrain_03_V7_1_MainQuest
 77015012:SceneObj_Homeworld_Exterior_Nt_Build_FireBalloon_01
 707111116:SceneObj_Area_Fd_Property_Ani_Prop_Waterwayship_02
 
@@ -29740,6 +30458,10 @@
 73144065:SceneObj_Area_Zd_Property_Prop_InteePoint_WindowCamera_Cabin_01
 73144066:SceneObj_Area_Zd_Property_Prop_InteePoint_WindowCamera_Cabin_02
 73144078:SceneObj_Area_Zd_Property_Prop_TPSMercenariesPage_01
+73196077:觀察景色
+73196078:觀察景色
+73196079:觀察景色
+73196080:觀察景色
 77307012:家園射氣球 看板
 77307018:家園玩法-找阿圓-計分板
 77307020:SceneObj_Homeworld_BombPlay_Board
@@ -29874,6 +30596,7 @@
 73125022:[N/A] 4264179662
 73125023:[N/A] 3137021230
 73138087:[N/A] 1560494454
+73211015:[N/A] 3695833510
 74005001:[N/A] 3943672950
 74005002:[N/A] 1836228358
 74005003:[N/A] 1978913190
@@ -29970,13 +30693,20 @@
 74006056:SceneObj_Area_Nt_Property_AncientName_Chasca
 74006057:SceneObj_Area_Nt_Property_AncientName_Xilonen
 74025001:[N/A] 434096766
+74053003:SceneObj_Area_Common_Property_Ani_Prop_ModelOnly_01
 
 // Level
+73184016:[N/A] 2159668670
+73184017:[N/A] 2900106254
+73184018:[N/A] 3360032094
+73184022:[N/A] 3874853998
+73202001:[N/A] 2769118342
 74037003:SceneObj_Quest_SimpleGadgetHasModel
 74037004:SceneObj_Quest_SimpleGadgetHasModel
 
 // NPC
 74037005:[N/A] 2331252782
+74053006:SceneObj_NPCObj_Ani_Quest_PantaloneRemote_01
 
 // Monster
 74037018:[N/A] 2436426630

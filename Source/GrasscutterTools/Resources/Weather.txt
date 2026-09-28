@@ -104,6 +104,8 @@
 10368:Dq_General
 10391:Ly_TheChasm_Skirk_Copy
 10401:Du58_NTDungeon_HWYSKJ
+10528:Ly_General
+10533:Ly44_General
 2152:Ly_DakahaEntrance
 2252:Ly_StoneNeedles
 3002:Dq_General
@@ -1017,6 +1019,8 @@
 7091:Zd70_ColdLevel_4
 7092:Zd70_MainView_ColdLevel_3
 7095:Zd70_JMXS_BDZL
+7096:Zd70_General
+7101:Zd70_JMXS_40Boss
 // 4
 2144:LP_General
 2145:LP_Fog_Heavy
@@ -1762,6 +1766,27 @@
 7054:Du70_ZD_Junxiegong01_ZZBQ_A
 7055:Du70_ZD_Junxiegong01_ZZBQ_B
 7093:Du70_ZD_Junxiegong01_HXQD
+// 20366
+10521:Du71_ZD_DSBS01
+10522:Du71_ZD_DSBS02
+10526:Du71_ZD_DSBS_DeadSpace
+10527:ZD_DSBS_Sn
+10538:Du71_ZD_DSBS_DeadSpace_02
+// 20367
+10529:Du71_ZD_FAP
+10530:Du71_ZD_FAP_B1
+10531:Du71_ZD_FAP_B2
+10532:Du71_ZD_FAP_B3
+10537:Du71_ZD_FAP_B2_Red
+// 20373
+10523:Du71_ZD_Vault_01_Train
+10524:Du71_ZD_Vault_01_Bank
+10525:Du71_ZD_Vault_01_Boss
+10534:Du71_ZD_Vault_01_SZY_An
+10535:Du71_ZD_Vault_01_SZY_Liang
+10543:Du71_ZD_Vault_01_Boss_02
+// 20375
+10536:Zd70_ZDB_Inside
 // 35800
 10009:CycleDungeon_WindFlower
 10010:CycleDungeon_WindFlower_Outdoor

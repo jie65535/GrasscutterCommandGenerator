@@ -97,6 +97,8 @@
 1159:IndoorScene_Zd_JY
 1160:IndoorScene_Fd_MuOu
 1161:IndoorScene_Fd_Aquarium
+1162:IndoorScene_Zd_ZDG
+1163:IndoorScene_Zd_BGYH
 1200:IndoorScene_Nt_Msl
 1201:IndoorScene_Nt_XTLLHome
 1202:IndoorScene_Dq_Yushi
@@ -129,6 +131,7 @@
 2416:Hall_Private_Ywhy
 2417:Hall_Private_Xrht
 2418:Hall_Private_Msqy
+2419:Hall_Private_Xymj
 2601:Hall_Private_Witch
 2602:Hall_Private_World_Park
 2611:Hall_Private_Wsqh
@@ -139,6 +142,7 @@
 2616:Hall_Private_Ywhy
 2617:Hall_Private_Xrht
 2618:Hall_Private_Msqy
+2619:Hall_Private_Xymj
 2811:Hall_Public_Wsqh
 2812:Hall_Public_Drxg
 2813:Hall_Public_Wxyc
@@ -147,6 +151,7 @@
 2816:Hall_Public_Ywhy
 2817:Hall_Public_Xrht
 2818:Hall_Public_Msqy
+2819:Hall_Public_Xymj
 20000:Stage Gameplay Test
 20005:Secret Ingredient
 20006:Hilichurl Large Base
@@ -431,8 +436,19 @@
 20361:[CHS] - （test）6.5空之神殿沙漏区下层镜像大世界
 20362:Level_Ndcl_Rerir_01
 20363:[CHS] - （test）7.0主线-军械宫
+20366:Level_ZD_DSBS
+20367:[CHS] - （test）7.1主线-军械宫
+20368:[CHS] - （test）7.1主线 死亡空间 地城
 20369:[CHS] - 6.6洛恩强化雪山镜像大世界（test）
+20370:[CHS] - 7.1逐月节战斗镜像（test）
+20371:[CHS] - 7.1逐月节轨道镜像（test）
 20372:BigWorld_LevelStreaming
+20373:[CHS] - （test）7.1北国银行保险库地城
+20375:[CHS] - （test）7.1主线镜像大世界 冬宫
+20379:[CHS] - 7.1逐月节特效镜像（test）
+20380:[CHS] - 7.1逐月节传统璃月（test）
+20382:???
+20383:BigWorld_LevelStreaming
 30001:Mist Labyrinth
 30002:Stygian Onslaught: Normal
 30003:Stygian Onslaught: Advancing
@@ -754,6 +770,12 @@
 33896:[CHS] - 7.0爬塔（双路）(test)
 33897:[CHS] - 7.0爬塔（双路）(test)
 33898:[CHS] - 7.0爬塔（双路）(test)
+33899:[CHS] - 爬塔（双路）(test)
+33900:[CHS] - 爬塔（双路）(test)
+33901:[CHS] - 爬塔（双路）(test)
+33902:[CHS] - 爬塔（双路）(test)
+33903:[CHS] - 爬塔（双路）(test)
+33904:[CHS] - 爬塔（双路）(test)
 34100:[CHS] - 爬塔第二档-ZHT第1关（单路）(test)
 34101:[CHS] - 爬塔第二档-ZHT第2关（单路）(test)
 34102:[CHS] - 爬塔第二档-ZHT第3关（单路）(test)
@@ -1213,7 +1235,12 @@
 36107:[CHS] - （test)6.7捕鱼达人
 36108:[CHS] - （test)6.7捕鱼达人
 36109:[CHS] - （test)6.7捕鱼达人
-36110:Level_MvM03
+36110:[CHS] - (test)7.1电子斗蛐蛐小活动
+36111:[CHS] - （test）7.1 藤人跑酷第一关
+36112:[CHS] - （test）7.1 藤人跑酷第二关
+36113:[CHS] - （test）7.1 藤人跑酷第三关
+36114:[CHS] - （test）7.1 藤人跑酷第四关
+36115:[CHS] - （test）7.1 藤人跑酷第五关
 40001:Investigate the turmoil in the Depths of the Ruins
 40002:Level_UCDungeon01
 40003:Level_UCDungeon01
@@ -1600,6 +1627,8 @@
 41140:Level_Tower_01_Open
 41141:Level_Tower_01_Open
 41142:Level_Tower_01_Open
+41143:Level_Tower_01_Open
+41144:Level_Tower_01_Open
 42001:In Pairs, the Swallows Come Home to Roost: Difficulty 3
 42002:Stop to Rest Your Weary Head, Paint the Bridge Where Adepti Tread: Difficulty 2
 42003:Beauty Withers Hither While Truth Dithers Thither: Difficulty 5
@@ -1861,6 +1890,11 @@
 48046:Level_Act_Lantern01
 48050:[CHS] - (test)5.1联机挑战活动
 48051:Level_CooperateChallenge01
+48052:Level_Act_Lantern03
+48053:Level_Act_Lantern03
+48054:Level_Act_Lantern03
+48055:Level_Act_Lantern03
+48056:Level_Act_Lantern03
 48060:[CHS] - (test)5.2幽灵球(机械球V2)活动1
 48061:[CHS] - (test)5.2幽灵球(机械球V2)活动2
 48062:[CHS] - (test)5.2幽灵球(机械球V2)活动3
@@ -1928,6 +1962,7 @@
 48127:Level_Zd_Combat01
 48128:Level_Zd_Combat01
 48129:Level_Zd_Combat01
+48130:[CHS] - （test）7.1 球比伦地城
 49001:[CHS] - 角色专精挑战-琴(test)
 49002:[CHS] - 角色专精挑战-七七(test)
 49003:[CHS] - 角色专精挑战-凝光(test)
@@ -2323,9 +2358,14 @@
 51325:[CHS] - （test）7.0排轴解谜关卡7
 51326:[CHS] - （test）7.0排轴解谜关卡8
 51327:[CHS] - （test）7.0TPS新手影域
+51328:TestLevel_WhiteBox_Vault_GQQ
+51331:[CHS] - （test）7.1 风仙人文追逐
 51332:[CHS] - （test）7.0影域列车ending
 51334:[CHS] - （test）7.1 TPS声望地城
+51335:[CHS] - （test）7.1 打雪仗小活动地城关卡一
 51336:[CHS] - （test)7.0TPS打靶-大世界火车里
+51337:[CHS] - （test）7.1 打雪仗小活动地城关卡二
+51338:[CHS] - （test）7.1 打雪仗小活动地城关卡三
 51341:[CHS] - （test）7.1 TPS声望地城
 51342:[CHS] - （test）7.1 TPS声望地城
 51343:[CHS] - （test）7.1 TPS声望地城

@@ -94,7 +94,8 @@
 196:Venue Popularity
 197:Tournament Points
 198:Fervor Coupon
-199:Prime Ice Count
+199:Prime Ice Resource
+200:Victory Emblem
 201:Primogem
 202:Mora
 203:Genesis Crystal
@@ -112,6 +113,8 @@
 241:Prismatic Crystal
 242:Prismatic Crystal
 243:Prismatic Crystal
+244:Celebration Chronal Nexus
+245:Celebration Chronal Nexus
 315:Mondstadt Reputation EXP
 317:Liyue Reputation EXP
 314:Inazuma Reputation EXP
@@ -123,7 +126,10 @@
 322:"Flower-Feather Clan" Reputation EXP
 323:"Masters of the Night-Wind" Reputation EXP
 324:"Collective of Plenty" Reputation EXP
+401:Prediction Score
+402:Festive Cheer
 403:Expedition Insights
+404:Festive Fever
 
 // Material
 // Fire Master Avatar Talent Item
@@ -254,6 +260,8 @@
 4131:Nicole
 4132:Prune
 4133:Sandrone
+4140:Vodyanitsa
+4143:Vesna
 4148:Alyosha
 4150:Odette
 
@@ -414,6 +422,8 @@
 5131:Nicole's Stella Fortuna
 5132:Prune's Stella Fortuna
 5133:Sandrone's Stella Fortuna
+5140:Vodyanitsa's Stella Fortuna
+5143:Vesna's Stella Fortuna
 5148:Alyosha's Stella Fortuna
 5150:Odette's Stella Fortuna
 
@@ -536,6 +546,8 @@
 6131:Nicole's Stella Fortuna
 6132:Prune's Stella Fortuna
 6133:Sandrone's Stella Fortuna
+6140:Vodyanitsa's Stella Fortuna
+6143:Vesna's Stella Fortuna
 6148:Alyosha's Stella Fortuna
 6150:Odette's Stella Fortuna
 
@@ -630,6 +642,9 @@
 104012:Fine Enhancement Ore
 104013:Mystic Enhancement Ore
 
+// Rare Growth Material
+104300:Masterless Stella Fortuna
+
 // Chest
 3001:Test Random Treasure Chest
 3002:Test Set Treasure Chest
@@ -723,10 +738,10 @@
 121681:Ice Cream Container
 121682:Special Ice Cream Container
 121683:Special Ice Cream Container
+121705:Special Ice Cream Container
+121706:Special Ice Cream Container
+121715:Vodyanitsa's Gift
 200008:Moon Lights the Sky, Spring Blossoms High
-
-// Rare Growth Material
-104300:Masterless Stella Fortuna
 
 // Reliquary Material
 105001:Sanctifying Droplet
@@ -1454,6 +1469,13 @@
 132020:Delicious Sweet Scoops
 132023:Kvass
 132025:Glacial Starbrew
+132027:Suspicious Royal Grilled Fish
+132028:Royal Grilled Fish
+132029:Delicious Royal Grilled Fish
+132030:Suspicious Celestial Tea Crisp
+132031:Celestial Tea Crisp
+132032:Delicious Celestial Tea Crisp
+132037:Hoarfrost Soup
 111006:Heatshield Potion
 111007:Desiccant Potion
 111008:Frostshield Potion
@@ -1806,6 +1828,12 @@
 132022:Odette-Themed Ice Cream
 132024:Spiced Honey Brew
 132026:Regular Ice Cream
+132033:Suspicious Mors
+132034:Mors
+132035:Delicious Mors
+132036:Iridescent Aria
+132038:Vesna-Themed Ice Cream
+132039:Vodyanitsa-Themed Ice Cream
 121374:Apple Cider
 
 // Exchange
@@ -4754,7 +4782,7 @@
 121591:Neatly-Written Notes
 121592:Notes Left by Unknown Person
 121593:Izmaylov Guard's Journal
-121594:Yet-to-be-Completed "New High Table Melody"
+121594:Yet-to-be-Completed "New High Table Rules"
 121595:[CHS] - test古月力频谱分析仪
 121597:Metal Control Wheel
 121598:Sewer Lift Control Wheel
@@ -4776,6 +4804,8 @@
 121620:Shadow Realm Vault Access Card
 121621:Shadow Realm Vault Access Card
 121622:Incomplete Data Block
+121623:Envoy's Medal
+121624:Gobblefin
 121625:Moongazer's Engraving (I)
 121626:Moongazer's Engraving (II)
 121627:Intricately Patterned Button
@@ -4789,9 +4819,9 @@
 121637:Snow-Swan Feather
 121638:Tide-Song Iceflower
 121639:Scarf: Warm Red
-121640:Scarf: Dream Star
+121640:Scarf: Novelty Brace
 121641:Scarf: Plaid
-121642:Scarf: Novelty Brace
+121642:Scarf: Dream Star
 121643:Stalker Hood
 121644:Key of Ancient Design
 121645:[CHS] - (test)雪孃馆挂画
@@ -4805,6 +4835,8 @@
 121654:Odette's Performance Photo
 121655:Autographed Black Snow Swan Poster
 121656:White Feather Bookmark
+121658:Vodyanitsa's Special Notebook
+121714:Vodyanitsa's Special Handwritten Ticket
 121664:Branches of Nastya's Head
 121665:Nastya's Hand-Drawn Diagram
 121666:Sewer Entrance/Exit Guide
@@ -4813,12 +4845,14 @@
 121669:Exit Door Lever for a Certain Basement Room
 121671:Kresnik Energy
 121672:Peculiar Reagent Sample
+121673:The Sigil Given by Lan Yan
 121675:Polestar Ballet Anthology (I)
 121676:Polestar Ballet Anthology (II)
 121677:Polestar Ballet Anthology (III)
 121678:Polestar Ballet Anthology (IV)
 121679:General History of Snezhnaya (I)
 121680:General History of Snezhnaya (II)
+121684:Vesna's "Divine Sense Compass"
 121685:Picture of Nastya With Her Mom
 121686:Records of the Orderbearer
 121687:Investigation Notes
@@ -4838,6 +4872,12 @@
 121700:Snezhnaya Vestnik
 121701:The Ashen Traveler's Notes
 121702:Document With Yellowed Pages
+121703:[CHS] - （test）徽章
+121704:[CHS] - （test）玩具
+121707:Request to Expand VIP Room
+121709:High-Level Access Card
+121710:High-Level Access Card
+121730:Okurov Town Sewer System Design Plan
 220068:[CHS] - (test)赤沙石板
 339901:Beginner Player Badge
 339902:Advanced Player Badge
@@ -5221,6 +5261,7 @@
 113089:Profaned Sprout
 113090:Unscorched Blossom Branch
 113091:Severed Tail of the Sky-Roamer
+113092:Vagabond's Cracked Armor
 114001:Tile of Decarabian's Tower
 114002:Debris of Decarabian's City
 114003:Fragment of Decarabian's Epic
@@ -5343,6 +5384,7 @@
 200126:Drifter's Crystal Marrow
 200127:Golden Strings
 200128:Refined Heart
+200129:Tea-Scented Tassel
 
 // Selectable Chest
 116002:BP Bounty
@@ -5523,14 +5565,23 @@
 // Marionette Tea Time Invite
 121596:Sandrone's Tea Party Invitation Letter
 
+// Lunaritev2 Invite
+121629:Letter From Xiangling
+
 // Odette Quest Photo Book
 121653:Black Snow Swan Archive
 
 // Tps Cloak Upgrade
 121657:Stardust Trail: Radiant Glow
 
+// Vodyanitsa Outlook
+121662:Happy-Quacky Phonograph Ducky
+
 // Zdaq Book Photo
 121663:"Spirit Seeker" Preview Commemorative Photo
+
+// Vesna Fashion
+121670:Druzhna Special Dispatch Order
 
 // Consume
 210:Original Essence (Invalidated)
@@ -5895,6 +5946,9 @@
 109663:Recipe: Snezhnaya Shashliks
 109664:Recipe: Snowball Blooms Atop Snowfields
 109665:Recipe: Sweet Scoops
+109666:Recipe: Royal Grilled Fish
+109667:Recipe: Celestial Tea Crisp
+109668:Recipe: Mors
 111020:Small Pretty Crystal
 111021:Medium Pretty Crystal
 111022:Big Pretty Crystal
@@ -6065,7 +6119,7 @@
 130044:Pine Amber Seed
 130045:Frostfairy Flower Seed
 130046:Flockingweed Seed
-130047:Golden Fern Seed
+130047:Golden Fern Spore
 130048:Red Beet Seed
 130049:Rimecurrant Seed
 130050:Snowball Flower Seed
@@ -6078,6 +6132,7 @@
 101108:Northlander Claymore
 101109:Northlander Catalyst
 101110:Northlander Polearm
+121713:Construct Appearance: Flutterwing
 223301:Construct Appearance: Jack Frost
 223302:Construct Appearance: Polyarbear
 223303:Construct Appearance: The Ballerina
@@ -6103,6 +6158,7 @@
 140016:Wings of Fate's Course Intertwined
 140017:Wings of the Silent Moon
 140018:Wings of Leisurely Moments
+140019:Wings of Starry Winterfrost
 
 // Bgm
 141001:Radiant Spincrystal 1 - 
@@ -6307,6 +6363,10 @@
 141300:Radiant Spincrystal 198 - 
 141301:Radiant Spincrystal 199 - 
 141302:Radiant Spincrystal 200 - 
+141303:Radiant Spincrystal "A Letter from the Wind: I" - 
+141304:Radiant Spincrystal "A Letter from the Wind: II" - 
+141305:Radiant Spincrystal "A Letter from the Wind: III" - 
+141306:Radiant Spincrystal "A Letter from the Wind: IV" - 
 
 // Sea Lamp
 200004:Xiao Lantern
@@ -6677,6 +6737,10 @@
 210292:Snezhnaya: Fleeting Glimpses
 210293:Achievement: Enigmatic Core
 210294:Travel Notes: Frostfarer
+210295:Vesna: Revelry
+210296:Vodyanitsa: Whirlpool
+210297:Snezhnaya: Frostfall
+210298:Travel Notes: Moontrace
 
 // Avatar Trace
 215001:Echo: Dandelion Knight
@@ -6848,6 +6912,9 @@
 220134:Witch's Revelation Case
 220135:MAAN-Kamera
 220136:Cryo Treasure Compass
+220137:Conductor of the "Ya-ho"
+220138:A Mini Trolley Problem
+220140:Prima Donna's Song
 
 // Aranara
 220055:Aranyaka
@@ -7086,6 +7153,14 @@
 318202:By the Kuuhenki's Side
 318203:Happy Days
 318204:Keeping Watch by Lantern Light
+318205:Ready and Relaxed
+318206:Ready for Battle
+318207:Chore Time
+318208:Savoring the Meal
+318209:Valiant Battle Stance
+318210:A Celebratory Toast
+318211:Please, Dig In
+318212:Eagerly Waiting
 
 // Music Game Book Theme
 319001:Fantastical Marvel
@@ -7265,6 +7340,8 @@
 326142:Durin
 326143:Jahoda
 326144:Hydro Hypostasis
+326145:Columbina
+326146:Illuga
 326500:Undivided Heart
 326501:Cold-Blooded Strike
 326502:Steady Breathing
@@ -7414,6 +7491,11 @@
 326646:Sparkborne Magic
 326647:Phantasmal Nocturne
 326648:Temporal Wind's Eulogy
+326649:Radiance Over Blossoms and Peaks
+326650:Surge of Lightning
+326651:Sevenfold Transmutation
+326652:Book of Blinding Light
+326653:Elk With Fanged Antlers
 327000:Magic Guide
 327001:Sacrificial Fragments
 327002:Skyward Atlas
@@ -7531,6 +7613,7 @@
 327114:Snare Hook
 327115:Blubberbeast
 327116:Gladiator's Finale
+327117:Recollection of Days Past
 328000:Liyue Harbor Wharf
 328001:Knights of Favonius Library
 328002:Jade Chamber
@@ -7618,6 +7701,7 @@
 328084:Nightmare Omen
 328085:Elemental Transfiguration: Aquabreeze Blessing
 328086:Elemental Transfiguration: Thunderbloom Blessing
+328087:Elemental Transfiguration: Overload Blessing
 329000:Elemental Resonance: Woven Ice
 329001:Elemental Resonance: Shattering Ice
 329002:Elemental Resonance: Woven Waters
@@ -7739,6 +7823,7 @@
 329118:Lakkaberry Pie
 329119:Witch's Homework
 329120:Feasting in a Shared Toast
+329121:Return of the Three Moons
 334000:Ganyu
 334001:Kaeya
 334002:Chongyun
@@ -7884,6 +7969,8 @@
 334142:Durin
 334143:Jahoda
 334144:Hydro Hypostasis
+334145:Columbina
+334146:Illuga
 334500:Undivided Heart
 334501:Cold-Blooded Strike
 334502:Steady Breathing
@@ -8033,6 +8120,11 @@
 334646:Sparkborne Magic
 334647:Phantasmal Nocturne
 334648:Temporal Wind's Eulogy
+334649:Radiance Over Blossoms and Peaks
+334650:Surge of Lightning
+334651:Sevenfold Transmutation
+334652:Book of Blinding Light
+334653:Elk With Fanged Antlers
 335000:Magic Guide
 335001:Sacrificial Fragments
 335002:Skyward Atlas
@@ -8150,6 +8242,7 @@
 335114:Snare Hook
 335115:Blubberbeast
 335116:Gladiator's Finale
+335117:Recollection of Days Past
 336000:Liyue Harbor Wharf
 336001:Knights of Favonius Library
 336002:Jade Chamber
@@ -8237,6 +8330,7 @@
 336084:Nightmare Omen
 336085:Elemental Transfiguration: Aquabreeze Blessing
 336086:Elemental Transfiguration: Thunderbloom Blessing
+336087:Elemental Transfiguration: Overload Blessing
 337000:Elemental Resonance: Woven Ice
 337001:Elemental Resonance: Shattering Ice
 337002:Elemental Resonance: Woven Waters
@@ -8358,6 +8452,7 @@
 337118:Lakkaberry Pie
 337119:Witch's Homework
 337120:Feasting in a Shared Toast
+337121:Return of the Three Moons
 
 // Gcg Card
 330000:Ganyu
@@ -8505,6 +8600,8 @@
 330142:Durin
 330143:Jahoda
 330144:Hydro Hypostasis
+330145:Columbina
+330146:Illuga
 330500:Undivided Heart
 330501:Cold-Blooded Strike
 330502:Steady Breathing
@@ -8654,6 +8751,11 @@
 330646:Sparkborne Magic
 330647:Phantasmal Nocturne
 330648:Temporal Wind's Eulogy
+330649:Radiance Over Blossoms and Peaks
+330650:Surge of Lightning
+330651:Sevenfold Transmutation
+330652:Book of Blinding Light
+330653:Elk With Fanged Antlers
 331000:Magic Guide
 331001:Sacrificial Fragments
 331002:Skyward Atlas
@@ -8771,6 +8873,7 @@
 331114:Snare Hook
 331115:Blubberbeast
 331116:Gladiator's Finale
+331117:Recollection of Days Past
 332000:Liyue Harbor Wharf
 332001:Knights of Favonius Library
 332002:Jade Chamber
@@ -8858,6 +8961,7 @@
 332084:Nightmare Omen
 332085:Elemental Transfiguration: Aquabreeze Blessing
 332086:Elemental Transfiguration: Thunderbloom Blessing
+332087:Elemental Transfiguration: Overload Blessing
 333000:Elemental Resonance: Woven Ice
 333001:Elemental Resonance: Shattering Ice
 333002:Elemental Resonance: Woven Waters
@@ -8979,6 +9083,7 @@
 333118:Lakkaberry Pie
 333119:Witch's Homework
 333120:Feasting in a Shared Toast
+333121:Return of the Three Moons
 
 // Gcg Card Back
 339000:Origin
@@ -9090,6 +9195,8 @@
 341802:Super Awesome Magic Key
 341803:A Touch of Frost in Scorching Summer!
 341901:Unbreakable: Durandarte
+341902:Exaiphanes Blade
+341903:Exaiphanes Blade
 
 // Furniture Suite Formula
 350001:Adventurer Camp
@@ -10526,7 +10633,7 @@
 383441:"Tea-Time Etiquette"
 381415:"Sweet, Untroubled Slumber"
 383514:Decorative Flowerbed: "Brightcore Blossoms"
-383442:"Balanced Boughs"
+383442:Faint Swaying Gold
 383399:"Round and Round, the Little Fish Go"
 383400:"Wind-and-Snowpiercer"
 382136:"A Quiet Sigh on a Snowbound Night"
@@ -10562,6 +10669,13 @@
 394224:Station Bench: "Reading Between Trains"
 394225:"The Lingering Warmth of the Wait"
 380484:"Chirping About As Birds Do"
+384526:Pure Intention
+390343:Market Stall: Fresh Flavors
+390344:Market Stall: In a Hurry
+390345:Market Stall: Time to Unwind
+394852:Where Fish Swim and Waters Sing
+380485:Moonlit Splendor Along Every Way
+380486:Bright Prospects, Brighter Profits
 
 // Furniture
 369101:Jade-Eyed Cat
@@ -10692,6 +10806,8 @@
 368217:Sandrone
 368218:Odette
 368219:Alyosha
+368220:Vesna
+368221:Vodyanitsa
 360101:Timber Wall With Jade Eaves
 360102:Dark Wood Arch Wall
 360201:Traditional Cedar Flooring
@@ -12963,7 +13079,7 @@
 363441:"Tea-Time Etiquette"
 361415:"Sweet, Untroubled Slumber"
 363514:Decorative Flowerbed: "Brightcore Blossoms"
-363442:"Balanced Boughs"
+363442:Faint Swaying Gold
 363399:"Round and Round, the Little Fish Go"
 363400:"Wind-and-Snowpiercer"
 362136:"A Quiet Sigh on a Snowbound Night"
@@ -13033,6 +13149,34 @@
 372525:"A Silent Longing"
 372526:"Layer Upon Layer of Leaves"
 372363:"Wildfire in the Wind"
+363123:Moonlit Farewell to the Autumn Swallows
+364526:Pure Intention
+362409:Matryoshka Doll: "Winter Snow, Spring Form"
+370343:Market Stall: Fresh Flavors
+370344:Market Stall: In a Hurry
+370345:Market Stall: Time to Unwind
+371059:A Gift in Celebration
+374850:Whopperflower King
+374851:Warding Figure: Silver Swallow, Evil-Bane
+374852:Where Fish Swim and Waters Sing
+374853:"Oddowl"
+360485:Moonlit Splendor Along Every Way
+360486:Bright Prospects, Brighter Profits
+372710:Reeds of Resting Waters
+372364:Withered Trunk of Affection
+372365:Practical Corewood
+372366:Snow-Sheltering Canopy
+372367:Colors of Dream
+372368:A Frightening Phantom
+372369:Exquisite Grain
+372370:The Unyielding Sentinel
+372527:Frosty Wild Underbrush
+372529:Gleaming Treasures
+372114:Wayparting Stone
+372115:Seed-Nurturing Stone
+372116:Bird-Nesting Stone
+372242:Fangs of the Snowfield
+372244:Waste-No-More Stone
 360001:Wall 1
 360002:Wall 2
 360003:Floor 1
